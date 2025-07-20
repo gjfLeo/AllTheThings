@@ -63,7 +63,6 @@ i(21781),	-- lis' Head \\ Thaelis' Head \\ Thaelis's Head
 i(22549),	-- iel's Request \\ Sathiel's Request \\ Quartermaster Lymel's Bill of Lading
 i(22550),	-- iel's Goods \\ Sathiel's Goods \\ Quartermaster Lymel's Goods
 i(22890),	-- of Frost Ward \\ Tome of Frost Ward \\ Tome of Frost Ward V
-i(22891),	-- oire of Shadow Ward \\ Grimoire of Shadow Ward \\ Grimoire of Shadow Ward IV
 i(23094),	-- liant Blood Garnet \\ Brilliant Blood Garnet \\ Teardrop Blood Garnet
 i(23096),	-- liant Blood Garnet \\ Brilliant Blood Garnet \\ Runed Blood Garnet
 i(23099),	-- less Flame Spessarite \\ Reckless Flame Spessarite \\ Luminous Flame Spessarite
@@ -422,7 +421,6 @@ i(43673),	-- Charred Glyph \\ red Glyph \\ Glyph of Death Gate \\ Glyph of Raise
 i(43826),	-- Charred Glyph \\ red Glyph \\ Glyph of Outbreak \\ Glyph of Blood Boil \\ Glyph of Blood Strike
 i(43868),	-- Charred Glyph \\ red Glyph \\ Glyph of Dazing Shield \\ Glyph of Seal of Righteousness
 i(43869),	-- Charred Glyph \\ red Glyph \\ Glyph of Immediate Truth \\ Glyph of Seal of Truth \\ Glyph of Seal of Vengeance
-i(44743),	-- ist Acolyte's Hood \\ Cultist Acolyte's Hood \\ Cultist Acolyte's Hood Target
 i(44830),	-- borne Relic \\ Highborne Relic
 i(44850),	-- 's Paw \\ Bear's Paw
 i(44863),	-- upted Tide Crawler Flesh \\ Corrupted Tide Crawler Flesh
@@ -1733,25 +1731,13 @@ i(55243),	-- dsurge Core \\ Floodsurge Core
 i(55244),	-- Necklace \\ Gold Necklace
 i(55247),	-- s Tooth Necklace \\ Gnaws Tooth Necklace
 i(55280),	-- moss Venom Sac \\ Deepmoss Venom Sac
-i(55289),	-- maul Axe \\ Rustmaul Axe
-i(55298),	-- maul Broadaxe \\ Rustmaul Broadaxe
-i(55307),	-- maul Bow \\ Rustmaul Bow
-i(55316),	-- owmurk Cloak \\ Sorrowmurk Cloak
-i(55325),	-- maul Crossbow \\ Rustmaul Crossbow
-i(55334),	-- maul Dagger \\ Rustmaul Dagger
-i(55352),	-- maul Knuckles \\ Rustmaul Knuckles
-i(55361),	-- maul Gun \\ Rustmaul Gun
-i(55370),	-- owmurk Scepter \\ Sorrowmurk Scepter
-i(55379),	-- owmurk Crystal \\ Sorrowmurk Crystal
 i(55388),	-- maul Mace \\ Rustmaul Mace
 i(55397),	-- maul Hammer \\ Rustmaul Hammer
 i(55406),	-- owmurk Amulet \\ Sorrowmurk Amulet
 i(55415),	-- maul Spear \\ Rustmaul Spear
 i(55424),	-- owmurk Ring \\ Sorrowmurk Ring
-i(55442),	-- owmurk Spellblade \\ Sorrowmurk Spellblade
 i(55460),	-- maul Sword \\ Rustmaul Sword
 i(55469),	-- maul Greatsword \\ Rustmaul Greatsword
-i(55487),	-- owmurk Wand \\ Sorrowmurk Wand
 i(55805),	-- Pewter Pounder \\ The Pewter Pounder
 i(55806),	-- Pewter Pounder \\ The Pewter Pounder
 i(55808),	-- e's Proposal \\ Horde's Proposal
@@ -2644,14 +2630,12 @@ i(58506),	-- QA Combat Test Druid Healer Bracer 2
 i(58507),	-- QA Combat Test Hunter Helm 3
 i(58508),	-- QA Combat Test Strength DPS Ring
 i(58509),	-- QA Combat Test Healer Neck
-i(58510),	-- QA Combat Test Plate DPS Bracer 2
 i(58511),	-- QA Combat Test Rogue Slow Dagger 2
 i(58512),	-- QA Combat Test Shaman Healer Legs
 i(58513),	-- QA Combat Test Tank Cloak
 i(58514),	-- QA Combat Test Caster DPS Belt
 i(58515),	-- QA Combat Test Caster DPS Offhand
 i(58516),	-- QA Combat Test Healer Ring
-i(58517),	-- QA Combat Test Plate Tank Chest
 i(58518),	-- QA Combat Test Rogue Legs
 i(58519),	-- QA Combat Test Agility DPS Ring
 i(58520),	-- QA Combat Test Caster DPS Robes 3
@@ -2661,14 +2645,11 @@ i(58523),	-- QA Combat Test Tank Shield
 i(58524),	-- QA Combat Test Agility DPS Cloak
 i(58525),	-- ObsoleteQA Combat Test Agility Relic \\ QA Combat Test Agility Relic
 i(58526),	-- QA Combat Test Hunter Bow
-i(58527),	-- QA Combat Test Plate DPS Shoulders 2
 i(58528),	-- QA Combat Test Tank Neck
 i(58529),	-- QA Combat Test Caster DPS Trinket
 i(58530),	-- QA Combat Test Druid Healer Helm 2
 i(58531),	-- QA Combat Test Healer Shield
-i(58532),	-- QA Combat Test Paladin Healer Gloves
 i(58533),	-- QA Combat Test Priest Healer Shoulders 2
-i(58534),	-- QA Combat Test Agility Staff \\ QA Combat Test Druid Feral Staff
 i(58535),	-- QA Combat Test Slow Rogue Dagger 3
 i(58536),	-- QA Combat Test Healer Neck 2
 i(58537),	-- QA Combat Test Druid Healer Belt
@@ -2698,24 +2679,6 @@ i(58560),	-- QA Combat Test Hunter Legs
 i(58561),	-- QA Combat Test Hunter Shoulders 2
 i(58562),	-- QA Combat Test Offhand Agility Axe
 i(58563),	-- QA Combat Test Offhand Strength Sword
-i(58564),	-- QA Combat Test Paladin Healer Belt
-i(58565),	-- QA Combat Test Paladin Healer Chest
-i(58566),	-- QA Combat Test Paladin Healer Gloves 2
-i(58567),	-- QA Combat Test Paladin Healer Helm 2
-i(58568),	-- QA Combat Test Paladin Healer Legs
-i(58569),	-- QA Combat Test Paladin Healer Shoulders 3
-i(58570),	-- QA Combat Test Plate DPS Belt
-i(58571),	-- QA Combat Test Plate DPS Chest
-i(58572),	-- QA Combat Test Plate DPS Gloves
-i(58573),	-- QA Combat Test Plate DPS Helm 2
-i(58574),	-- QA Combat Test Plate DPS Legs
-i(58575),	-- QA Combat Test Plate DPS Shoulders
-i(58576),	-- QA Combat Test Plate Tank Belt
-i(58577),	-- QA Combat Test Plate Tank Chest 2
-i(58578),	-- QA Combat Test Plate Tank Gloves
-i(58579),	-- QA Combat Test Plate Tank Helm 3
-i(58580),	-- QA Combat Test Plate Tank Legs
-i(58581),	-- QA Combat Test Plate Tank Shoulders 2
 i(58582),	-- QA Combat Test Priest Healer Belt
 i(58583),	-- QA Combat Test Priest Healer Gloves
 i(58584),	-- QA Combat Test Priest Healer Helm 2
@@ -2739,20 +2702,16 @@ i(58601),	-- QA Combat Test Rogue Belt
 i(58602),	-- QA Combat Test Shaman Healer Belt
 i(58603),	-- QA Combat Test Agility DPS Trinket 2
 i(58604),	-- QA Combat Test Agility Fist Weapon (MH)
-i(58605),	-- QA Combat Test Paladin Healer Shoulders 2
 i(58606),	-- QA Combat Test Priest Healer Gloves 2
 i(58607),	-- QA Combat Test Tank Ring
 i(58608),	-- QA Combat Test Caster DPS Ring
 i(58609),	-- QA Combat Test Druid Healer Gloves 2
 i(58610),	-- QA Combat Test Fast Rogue Dagger 2
-i(58611),	-- QA Combat Test Plate DPS Gloves 2
 i(58612),	-- ObsoleteQA Combat Test Tank Sigil
 i(58613),	-- QA Combat Test Agility DPS Neck 2
 i(58614),	-- QA Combat Test Caster DPS Trinket 2
 i(58615),	-- QA Combat Test Hunter Bracer
-i(58616),	-- QA Combat Test Paladin Healer Belt 2
 i(58617),	-- QA Combat Test Strength 2h Sword
-i(58618),	-- QA Combat Test Agility Staff 2 \\ QA Combat Test Druid Feral Staff 2
 i(58619),	-- QA Combat Test Rogue Helm
 i(58620),	-- QA Combat Test Strength DPS Trinket
 i(58621),	-- QA Combat Test Tank Sword
@@ -2771,17 +2730,13 @@ i(58633),	-- QA Combat Test Druid Healer Robes
 i(58634),	-- QA Combat Test Hunter Helm
 i(58635),	-- QA Combat Test Tank Ring 2
 i(58636),	-- QA Combat Test Agility DPS Ring 2
-i(58637),	-- ObsoleteQA Combat Test Healer Wand \\ QA Combat Test Healer Wand
-i(58638),	-- QA Combat Test Plate DPS Belt 2
 i(58639),	-- QA Combat Test Shaman Healer Boots
 i(58640),	-- QA Combat Test Tank Trinket 2
 i(58641),	-- QA Combat Test Healer Cloak
 i(58642),	-- QA Combat Test Hunter Boots
-i(58643),	-- QA Combat Test Plate Tank Shoulders
 i(58644),	-- QA Combat Test Priest Healer Bracer
 i(58645),	-- QA Combat Test Rogue Slow Dagger
 i(58646),	-- QA Combat Test Rogue Chest 2
-i(58647),	-- QA Combat Test Strength 2H Mace \\ QA Combat Test Strength 2h Mace
 i(58648),	-- QA Combat Test Strength DPS Ring 2
 i(58649),	-- QA Combat Test Strength DPS Trinket 2
 i(58650),	-- QA Combat Test Tank 1h Mace
@@ -2789,7 +2744,6 @@ i(58651),	-- QA Combat Test Caster DPS Helm 2
 i(58652),	-- QA Combat Test Caster DPS Staff
 i(58653),	-- QA Combat Test Caster DPS Trinket 3
 i(58654),	-- QA Combat Test Healer Trinket 2
-i(58655),	-- QA Combat Test Paladin Healer Bracer
 i(58656),	-- QA Combat Test Caster DPS Ring 2
 i(58657),	-- QA Combat Test Priest Healer Legs 2
 i(58658),	-- QA Combat Test Tank Cloak 2
@@ -2810,43 +2764,32 @@ i(58673),	-- QA Combat Test Strength DPS Neck 2
 i(58674),	-- QA Combat Test Agility DPS Neck 3
 i(58675),	-- QA Combat Test Druid Healer Belt 2
 i(58676),	-- QA Combat Test Healer Staff
-i(58677),	-- QA Combat Test Plate DPS Chest 2
 i(58678),	-- QA Combat Test Tank Shield 3
 i(58679),	-- QA Combat Test Druid Healer Shoulders 2
 i(58680),	-- QA Combat Test Hunter Boots 2
 i(58681),	-- QA Combat Test Priest Healer Robe
-i(58682),	-- QA Combat Test Paladin Healer Chest 2
-i(58683),	-- QA Combat Test Plate DPS Bracer
 i(58684),	-- QA Combat Test Caster DPS Helm
 i(58685),	-- QA Combat Test Healer 1h Mace
-i(58686),	-- QA Combat Test Plate Tank Helm 2
 i(58687),	-- QA Combat Test Rogue Chest 3
 i(58688),	-- QA Combat Test Shaman Healer Legs 3
 i(58689),	-- QA Combat Test Agility DPS Trinket 4
-i(58690),	-- QA Combat Test Plate Tank Gloves 2
 i(58691),	-- QA Combat Test Rogue Belt 2
 i(58692),	-- QA Combat Test Strength 1h Sword
 i(58693),	-- QA Combat Test Strength DPS Trinket 3
 i(58694),	-- QA Combat Test Caster DPS Ring 3
 i(58695),	-- QA Combat Test Caster DPS Sword
-i(58696),	-- QA Combat Test Healer Cloak 3 \\ QA Combat Test Healer Cloak 2
-i(58697),	-- QA Combat Test Paladin Healer Legs 3
 i(58698),	-- QA Combat Test Priest Healer Boots
 i(58699),	-- QA Combat Test Caster DPS Neck 2
 i(58700),	-- QA Combat Test Agility DPS Cloak 2
 i(58701),	-- QA Combat Test Caster DPS Ring 4
-i(58702),	-- QA Combat Test Plate DPS Boots
-i(58703),	-- QA Combat Test Agility Polearm \\ QA Combat Test Polearm (Agility)
 i(58704),	-- QA Combat Test Shaman Healer Gloves 2
 i(58705),	-- QA Combat Test Agility 1h Sword
 i(58706),	-- QA Combat Test Caster DPS Neck 3
 i(58707),	-- QA Combat Test Hunter Legs 2
-i(58708),	-- QA Combat Test Paladin Healer Boots
 i(58709),	-- QA Combat Test Strength DPS Ring 4
 i(58710),	-- QA Combat Test Caster DPS Bracer
 i(58711),	-- QA Combat Test Fast Rogue Dagger
 i(58712),	-- QA Combat Test Healer Ring 3
-i(58713),	-- QA Combat Test Plate Tank Belt 2
 i(58714),	-- QA Combat Test Strength DPS Trinket 4
 i(58715),	-- QA Combat Test Agility DPS Trinket 5
 i(58716),	-- QA Combat Test Rogue Boots
@@ -2863,7 +2806,6 @@ i(58726),	-- QA Combat Test Druid Healer Bracer
 i(58727),	-- QA Combat Test Tank Trinket 3
 i(58728),	-- QA Combat Test Caster DPS Belt 3
 i(58729),	-- QA Combat Test Caster DPS Dagger
-i(58730),	-- QA Combat Test Plate Tank Helm
 i(58731),	-- QA Combat Test Shaman Healer Shoulders
 i(58732),	-- QA Combat Test Strength DPS Neck 3
 i(58733),	-- QA Combat Test Druid Healer Shoulders
@@ -2872,46 +2814,36 @@ i(58735),	-- QA Combat Test Hunter Belt 2
 i(58736),	-- QA Combat Test Strength 1h Axe
 i(58737),	-- QA Combat Test Strength DPS Ring 5
 i(58738),	-- QA Combat Test Hunter Gun
-i(58739),	-- QA Combat Test Plate DPS Legs 2
 i(58740),	-- QA Combat Test Rogue Gloves 2
 i(58741),	-- QA Combat Test Tank Cloak 3
 i(58742),	-- QA Combat Test Tank Trinket 4
 i(58743),	-- QA Combat Test Caster DPS Cloak
 i(58744),	-- ObsoleteQA Combat Test Caster Sigil
 i(58745),	-- QA Combat Test Healer Ring 4
-i(58746),	-- QA Combat Test Paladin Healer Helm
 i(58747),	-- QA Combat Test Priest Healer Legs 3
 i(58748),	-- QA Combat Test Healer Trinket 4
-i(58749),	-- QA Combat Test Plate Tank Boots
-i(58750),	-- ObsoleteQA Combat Test Warrior Tank Gun \\ QA Combat Test Warrior Tank Gun
 i(58751),	-- QA Combat Test Agility 1h Axe
 i(58752),	-- QA Combat Test Caster DPS Cloak 2
 i(58753),	-- QA Combat Test Hunter Gloves 2
 i(58754),	-- QA Combat Test Priest Healer Helm
 i(58755),	-- QA Combat Test Tank Ring 4
 i(58756),	-- QA Combat Test Caster DPS Staff 2
-i(58757),	-- QA Combat Test Paladin Healer Shoulders
 i(58758),	-- QA Combat Test Rogue Shoulders
 i(58759),	-- QA Combat Test Shaman Healer Chest 2
 i(58760),	-- QA Combat Test Strength DPS Cloak 3
 i(58761),	-- QA Combat Test Caster DPS Ring 5
 i(58762),	-- QA Combat Test Druid Healer Boots 2
-i(58763),	-- QA Combat Test Plate DPS Helm
 i(58764),	-- ObsoleteQA Combat Test Strength Sigil
 i(58765),	-- QA Combat Test Tank Trinket 5
 i(58766),	-- QA Combat Test Agility DPS Ring 5
 i(58767),	-- QA Combat Test Hunter Chest 2
-i(58768),	-- QA Combat Test Plate Tank Legs 2
-i(58769),	-- QA Combat Test Strength 2H Axe \\ QA Combat Test Strength 2h Axe
 i(58770),	-- QA Combat Test Strength DPS Trinket 5
 i(58771),	-- QA Combat Test Caster DPS Gloves 2
 i(58772),	-- QA Combat Test Caster DPS Neck 4
 i(58773),	-- QA Combat Test Healer Offhand 3
 i(58774),	-- QA Combat Test Healer Trinket 5
-i(58775),	-- QA Combat Test Paladin Healer Chest 3
 i(58776),	-- QA Combat Test Agility DPS Neck 4
 i(58777),	-- QA Combat Test Healer Ring 5
-i(58778),	-- QA Combat Test Plate DPS Legs 3
 i(58779),	-- l of Shadra \\ Shell of Shadra
 i(58783),	-- Crystal Composite \\ Jade Crystal Composite
 i(58784),	-- of Shadra \\ Idol of Shadra
@@ -4168,7 +4100,6 @@ i(63034),	-- y Prison Journal \\ Dusty Prison Journal
 i(63035),	-- ight's Hammer Armor \\ Twilight's Hammer Armor
 i(63036),	-- Demon Chain \\ The Demon Chain
 i(63047),	-- berg Seabass \\ Rustberg Seabass
-i(63052),	-- Monster - Staff - Ulduar Raid D04 Green
 i(63053),	-- master's Code \\ Codemaster's Code
 i(63062),	-- Art Template Plate Belt  - Plate_Cataclysm_B_01 - Silver
 i(63063),	-- Art Template Plate Boot  - Plate_Cataclysm_B_01 - Silver
@@ -4191,7 +4122,6 @@ i(63080),	-- Monster - Dagger, Cataclysm B01 Blue (Fiery Glow)
 i(63081),	-- c of the Sun King \\ Relic of the Sun King
 i(63082),	-- aken Camp "Supplies" \\ Forsaken Camp "Supplies"
 i(63083),	-- Monster - Fist, Cataclysm B02 Green (Glow)
-i(63084),	-- Monster - Staff, Feathered Black (Low Black Flame)
 i(63085),	-- speaker Charm \\ Windspeaker Charm
 i(63086),	-- dote Vial \\ Antidote Vial
 i(63087),	-- ight Garment Scrap \\ Twilight Garment Scrap
@@ -4236,7 +4166,6 @@ i(63250),	-- Battle for Hillsbrad \\ The Battle for Hillsbrad
 i(63251),	-- s Masterful Brew \\ Mei's Masterful Brew
 i(63254),	-- h Sample \\ Flesh Sample
 i(63256),	-- ened Crocolisk Hide \\ Hardened Crocolisk Hide
-i(63257),	-- Monster - Staff, Cataclysm C 02 - Purple
 i(63267),	-- Art Template Cloth Belt
 i(63268),	-- Art Template Cloth Boot
 i(63270),	-- Monster - Axe, 2H Dragonmaw Straggler
@@ -4301,7 +4230,6 @@ i(63356),	-- of the Callers \\ Horn of the Callers
 i(63357),	-- krock Disguise \\ Blackrock Disguise
 i(63358),	-- of the Callers \\ Horn of the Callers
 i(63374),	-- um's Pants \\ Bahrum's Pants
-i(63381),	-- Monster - Staff, Cataclysm B02 Blue (White Glow)
 i(63382),	-- Monster - Polearm, Cataclysm B02 Purple (Purple Glow)
 i(63383),	-- weller Blindfold \\ Sindweller Blindfold
 i(63384),	-- anical Suit ZX-5103 \\ Mechanical Suit ZX-5103
@@ -4373,7 +4301,6 @@ i(64318),	-- Dark Cloth \\ Fine Dark Cloth
 i(64319),	-- h Venison \\ Fresh Venison
 i(64320),	-- Rib \\ Worg Rib
 i(64341),	-- -Acting Poison \\ Fast-Acting Poison
-i(64351),	-- Monster - Staff, Cataclysm C 01 Red
 i(64352),	-- rset Insignia \\ Neferset Insignia
 i(64353),	-- y Firewater Flask \\ Empty Firewater Flask
 i(64376),	-- ir's Pick \\ Gormir's Pick
@@ -4454,7 +4381,6 @@ i(65104),	-- USEUnheeded Warning \\ DONTUSEUnheeded Warning
 i(65146),	-- t Tape \\ Blast Tape
 i(65159),	-- grind's Hunting Beacon \\ Goodgrind's Hunting Beacon
 i(65162),	-- gency Pool Pony \\ Emergency Pool Pony
-i(65434),	-- Monster - Bow_2h_Crossbow_C_01 - Black \\ Monster - Crossbow C01 Black
 i(65436),	-- Art Template Plate Wrist  - Plate_Cataclysm_B_01 - Green
 i(65437),	-- Art Template Plate Shoulder  - Plate_Cataclysm_B_01 - Green
 i(65438),	-- Art Template Plate Legs  - Plate_Cataclysm_B_01 - Green
@@ -5810,7 +5736,6 @@ i(68036),	-- Monster - Polearm, Tradeskill C01 Scythe (Gold)
 i(68037),	-- hs of Calling \\ Glyphs of Calling
 i(68038),	-- Silithid Egg Disguise
 i(68039),	-- Charred Glyph \\ red Glyph \\ Glyph of the Treant
-i(68040),	-- Monster - Staff, GrimBatolRaid_D_02 Purple
 i(68041),	-- Monster - Sword, 1H Twilight's Hammer Green
 i(68042),	-- Monster - Shield, Twilight's Hammer Green
 i(68043),	-- 'Ashi Secretion Gland \\ Hive'Ashi Secretion Gland
@@ -6341,7 +6266,6 @@ i(68811),	-- Fireproof Reins
 i(68813),	-- hel of Freshly-Picked Herbs \\ Satchel of Freshly-Picked Herbs
 i(68815),	-- Greater Inscription of Vicious Sententiousness
 i(68820),	-- tervalve's Blueprints \\ Sputtervalve's Blueprints
-i(68821),	-- Monster - Staff (Venoxis 4.x)
 i(68822),	-- Monster - Zul'Gurub - Dagger - Jin'do
 i(68837),	-- n Seed \\ Demon Seed
 i(68842),	-- Art Template Plate Chest - Plate_PVPDeathKnight_C_02 - Blue
@@ -6499,7 +6423,6 @@ i(69042),	-- e Male Mask Visual \\ Gnome Male Mask Visual
 i(69043),	-- in Female Mask Visual \\ Goblin Female Mask Visual
 i(69044),	-- in Male Mask Visual \\ Goblin Male Mask Visual
 i(69045),	-- n Female Mask Visual \\ Human Female Mask Visual
-i(69046),	-- Monster - Staff, Crooked (1h)
 i(69047),	-- Art Template Leather Wrist - PVPRogue_C_02 - Purple
 i(69048),	-- Art Template Leather Shoulder - PVPRogue_C_02 - Purple
 i(69049),	-- Art Template Leather Legs - PVPRogue_C_02 - Purple
@@ -6630,7 +6553,6 @@ i(69199),	-- ent Petrified Seed \\ Ancient Petrified Seed
 i(69200),	-- nce of the Eternal Flame \\ Essence of the Eternal Flame
 i(69202),	-- Monster - Mace, 1H Zul'Aman D02 Purple
 i(69207),	-- Monster - Bow, Cataclysm B02 Red (Medium Speed)
-i(69208),	-- Monster - Staff (Cauldron-Tender)
 i(69212),	-- l of the Bird-Queen \\ Quill of the Bird-Queen
 i(69214),	-- erweb Egg \\ Cinderweb Egg
 i(69225),	-- of the Wolf \\ Fang of the Wolf
@@ -6654,7 +6576,6 @@ i(69258),	-- eather Shoulder 3 \\ ZG Leather Shoulder 3
 i(69259),	-- eather Shoulder 1 \\ ZG Leather Shoulder 1
 i(69263),	-- Socket Test Helm
 i(69264),	-- Hex Lord's Fetish \\ The Hex Lord's Fetish
-i(69642),	-- Monster - Staff, Outland Raid D06, Blue (yellow glow)
 i(69645),	-- dian's Staff \\ Guardian's Staff
 i(69647),	-- erious Gurubashi Bijou \\ Mysterious Gurubashi Bijou
 i(69649),	-- nspicuous Emerald \\ Inconspicuous Emerald
@@ -6781,7 +6702,6 @@ i(70095),	-- Art Template Cloth Legs - Robe_PVPWarlock_C_02 - Green
 i(70096),	-- Art Template Cloth Robe - Robe_PVPWarlock_C_02 - Green
 i(70097),	-- Art Template Cloth Shoulder - Robe_PVPWarlock_C_02 - Green
 i(70098),	-- Art Template Cloth Wrist - Robe_PVPWarlock_C_02 - Green
-i(70691),	-- Monster - Staff 2H, Firelands Raid D_04 (Orange)
 i(70693),	-- Monster - Shannox Spear
 i(70725),	-- owed Hunter Wand - Squashling \\ Hallowed Hunter Wand - Squashling
 i(70726),	-- Trampoline
@@ -7082,8 +7002,6 @@ i(71627),	-- wing Starfish \\ Throwing Starfish
 i(71633),	-- Aella's Bottle
 i(71713),	-- Stave Icecrown Raid D02 Green
 i(71719),	-- Trampoline MII
-i(71732),	-- Monster - Staff - 2H Crystal - Ethereal, White (Purple Glow)
-i(71736),	-- Monster - Item, Draenei A 01 Pink (Offhand)
 i(71744),	-- Art Template Mail Chest - Mail_RaidShaman_J - Red
 i(71745),	-- Art Template Mail Wrist - Mail_RaidShaman_J - Red
 i(71746),	-- Art Template Mail Head - Mail_RaidShaman_J - Red
@@ -7217,7 +7135,6 @@ i(72069),	-- Ninja Test Item
 i(72101),	-- Black Silk Vest
 i(72102),	-- Pattern: Black Silk Vest
 i(72106),	-- Darkmoon Steam Tonk Remote Control
-i(72107),	-- Monster - Item, Draenei A 02 Purple
 i(72110),	-- ered Wrench \\ Battered Wrench
 i(72125),	-- dly Growing Scale \\ Rapidly Growing Scale
 i(72156),	-- Monster - Wand, PVPCataclysmS3_C_02 Red
@@ -7231,11 +7148,6 @@ i(72248),	-- Monster - Sword, 2H DeathwingRaidDW D 01 -  Default
 i(72249),	-- Monster - Sword, 2H DeathwingRaidDW D 01 -  Blue
 i(72250),	-- Monster - Sword, 2H DeathwingRaidDW D 01 -  Green
 i(72251),	-- Monster - Sword, 2H DeathwingRaidDW D 01 -  Purple
-i(72253),	-- Monster - Staff, DeathwingRaidDW D 01 -  Default
-i(72254),	-- Monster - Staff, DeathwingRaidDW D 01 -  Blue
-i(72255),	-- Monster - Staff, DeathwingRaidDW D 01 - Purple
-i(72256),	-- Monster - Staff, DeathwingRaidDW D 01 - Green
-i(72257),	-- Monster - Staff, DeathwingRaidDW D 01 - Red
 i(72262),	-- Monster - Crossbow, DeathwingRaidDW D 01 -  Black
 i(72263),	-- Monster - Crossbow, DeathwingRaidDW D 01 -  Blue
 i(72264),	-- Monster - Crossbow, DeathwingRaidDW D 01 -  Copper
@@ -7282,10 +7194,6 @@ i(72477),	-- Monster - Shield, PVPCataclysmS3 C 02 - Blue
 i(72478),	-- Monster - Shield, PVPCataclysmS3 C 02 - Black
 i(72479),	-- Monster - Shield, PVPCataclysmS3 C 02 - Green
 i(72480),	-- lt Eye \\ Cobalt Eye
-i(72481),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Green
-i(72482),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Grey
-i(72483),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Purple
-i(72484),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - White
 i(72485),	-- Monster - Sword, 1H PVPCataclysmS3 C 02 - Default
 i(72486),	-- Monster - Sword, 1H PVPCataclysmS3 C 02 - Blue
 i(72487),	-- Monster - Sword, 1H PVPCataclysmS3 C 02 - Dark
@@ -7306,7 +7214,6 @@ i(72511),	-- Art Template Cloth Hand - Robe_PVPWarlock_D_01 - Purple
 i(72512),	-- Art Template Cloth Chest - Robe_PVPWarlock_D_01 - Purple
 i(72513),	-- Art Template Cloth Boot - Robe_PVPWarlock_D_01 - Purple
 i(72514),	-- Art Template Cloth Belt - Robe_PVPWarlock_D_01 - Purple
-i(72515),	-- Monster - Item, Book - C06 Green Offhand
 i(72553),	-- Art Template Cloth Cloak - Cape DeathwingRaid D 03 - Default
 i(72584),	-- Monster - Offhand, 1H DeathwingRaid D 01 - Blue
 i(72585),	-- Monster - Offhand, 1H DeathwingRaid D 01 - Purple
@@ -7335,25 +7242,6 @@ i(72633),	-- Art Template Cloth Head - Robe_PVPWarlock_D_01 - Orange
 i(72634),	-- Art Template Cloth Legs - Robe_PVPWarlock_D_01 - Orange
 i(72635),	-- Art Template Cloth Robe - Robe_PVPWarlock_D_01 - Orange
 i(72637),	-- Art Template Cloth Wrist - Robe_PVPWarlock_D_01 - Orange
-i(72918),	-- soul Breastplate \\ Ebonsoul Breastplate
-i(72919),	-- soul Sabatons \\ Ebonsoul Sabatons
-i(72920),	-- soul Gauntlets \\ Ebonsoul Gauntlets
-i(72921),	-- soul Helm \\ Ebonsoul Helm
-i(72922),	-- soul Legplates \\ Ebonsoul Legplates
-i(72923),	-- soul Pauldrons \\ Ebonsoul Pauldrons
-i(72924),	-- soul Girdle \\ Ebonsoul Girdle
-i(72925),	-- soul Vambraces \\ Ebonsoul Vambraces
-i(72929),	-- soul Chestguard \\ Ebonsoul Chestguard
-i(72930),	-- soul Greaves \\ Ebonsoul Greaves
-i(72931),	-- soul Handguards \\ Ebonsoul Handguards
-i(72932),	-- soul Faceguard \\ Ebonsoul Faceguard
-i(72933),	-- soul Legguards \\ Ebonsoul Legguards
-i(72934),	-- soul Shoulderguards \\ Ebonsoul Shoulderguards
-i(72935),	-- soul Waistband \\ Ebonsoul Waistband
-i(72936),	-- soul Armguards \\ Ebonsoul Armguards
-i(72990),	-- soul Hammer \\ Ebonsoul Hammer
-i(72991),	-- soul Maul \\ Ebonsoul Maul
-i(72994),	-- soul Blade \\ Ebonsoul Blade
 i(73028),	-- Monster - Knife, 1H 430OldGod C 02 - Blue
 i(73029),	-- Monster - Knife, 1H 430OldGod C 02 - Green
 i(73030),	-- Monster - Knife, 1H 430OldGod C 02 - Pink
@@ -7386,22 +7274,10 @@ i(73070),	-- Monster - Mace, 1H PVPCataclysmS3 C 02 - Green
 i(73071),	-- Monster - Mace, 1H PVPCataclysmS3 C 02 - Blue
 i(73072),	-- Monster - Mace, 1H PVPCataclysmS3 C 02 - Red
 i(73093),	-- x3 - 4.3 - Spell Visual Visual Test Dagger
-i(73151),	-- soul Pendant \\ Ebonsoul Pendant
-i(73152),	-- soul Band of Might \\ Ebonsoul Band of Might
-i(73153),	-- soul Ring of Might \\ Ebonsoul Ring of Might
-i(73154),	-- soul Stone of Battle \\ Ebonsoul Stone of Battle
-i(73155),	-- soul Idol of Battle \\ Ebonsoul Idol of Battle
-i(73156),	-- soul Amulet \\ Ebonsoul Amulet
-i(73157),	-- soul Defender's Idol \\ Ebonsoul Defender's Idol
-i(73158),	-- soul Ring of Stoicism \\ Ebonsoul Ring of Stoicism
-i(73159),	-- soul Band of Stoicism \\ Ebonsoul Band of Stoicism
-i(73160),	-- soul Defender's Stone \\ Ebonsoul Defender's Stone
 i(73203),	-- Monster - Dagger, Cataclysm B02 Blue (Purple Glow)
 i(73204),	-- Heavy Junkbox
 i(73269),	-- t Sea Herring \\ Great Sea Herring
 i(73302),	-- Art Template Mail Head - Mail PVPHunter D 01 - Blue
-i(73315),	-- soul Cloak of Battle \\ Ebonsoul Cloak of Battle
-i(73316),	-- soul Cloak of Stoicism \\ Ebonsoul Cloak of Stoicism
 i(73327),	-- Art Template Cloth Wrist - Robe PVPPriest D 01 - Black
 i(73329),	-- Art Template Cloth Robe - Robe PVPPriest D 01 - Black
 i(73330),	-- Art Template Cloth Legs - Robe PVPPriest D 01 - Black
@@ -7410,9 +7286,7 @@ i(73332),	-- Art Template Cloth Hand - Robe PVPPriest D 01 - Black
 i(73333),	-- Art Template Cloth Chest - Robe PVPPriest D 01 - Black
 i(73334),	-- Art Template Cloth Boot - Robe PVPPriest D 01 - Black
 i(73335),	-- Art Template Cloth Belt - Robe PVPPriest D 01 - Black
-i(73343),	-- soul Sigil of Battle \\ Ebonsoul Sigil of Battle
 i(73345),	-- Art Template Mail Hand - Mail PVPHunter D 01 - Red
-i(73346),	-- soul Sigil of Stoicism \\ Ebonsoul Sigil of Stoicism
 i(73347),	-- Art Template Mail Belt - Mail PVPHunter D 01 - Red
 i(73348),	-- Art Template Mail Shoulder - Mail PVPHunter D 01 - Red
 i(73349),	-- Art Template Mail Legs - Mail PVPHunter D 01 - Red
@@ -7420,10 +7294,6 @@ i(73350),	-- Art Template Mail Boot - Mail PVPHunter D 01 - Red
 i(73351),	-- Art Template Mail Head - Mail PVPHunter D 01 - Red
 i(73352),	-- Art Template Mail Wrist - Mail PVPHunter D 01 - Red
 i(73353),	-- Art Template Mail Chest - Mail PVPHunter D 01 - Red
-i(73361),	-- Monster - Staff, 2H 430Future C 01 - Default
-i(73362),	-- Monster - Staff, 2H 430Future C 01 - Blue
-i(73363),	-- Monster - Staff, 2H 430Future C 01 - Purple
-i(73364),	-- Monster - Staff, 2H 430Future C 01 - Red
 i(73373),	-- Art Template Mail Chest - Mail PVPHunter D 01 - Ochre
 i(73374),	-- Art Template Mail Wrist - Mail PVPHunter D 01 - Ochre
 i(73375),	-- Art Template Mail Head - Mail PVPHunter D 01 - Ochre
@@ -7739,10 +7609,6 @@ i(75253),	-- Monster - Sword_1H_PVPCataclysmS3_C_01 - Green
 i(75254),	-- Monster - Sword_1H_PVPCataclysmS3_C_01 - Purple
 i(75255),	-- Monster - Sword_1H_PVPCataclysmS3_C_01 - Red
 i(75261),	-- Monster - Dagger, GrimBatolRaid D 01 (Purple) - Asira Dawnslayer
-i(75262),	-- Monster - Staff, Holy Staff Archbishop Benedictus (Twilight)
-i(75265),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Blue
-i(75266),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Green
-i(75267),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Red
 i(76063),	-- Monster - Mace_1h_DeathwingRaid_D_02 - Default
 i(76064),	-- Monster - Mace_1h_DeathwingRaid_D_02 - Blue
 i(76065),	-- Monster - Mace_1h_DeathwingRaid_D_02 - Green
@@ -7765,10 +7631,6 @@ i(76146),	-- Monster - Sword_1h_430OldGod_C_01 - Blue
 i(76147),	-- Monster - Sword_1h_430OldGod_C_01 - Green
 i(76148),	-- Monster - Sword_1h_430OldGod_C_01 - Red
 i(76149),	-- Monster - Sword_1h_430OldGod_C_01 - Yellow
-i(76163),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Blue
-i(76164),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Green
-i(76165),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Orange
-i(76166),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Purple
 i(76169),	-- Monster - Shield_DeathwingRaid_D_01 - Aqua
 i(76170),	-- Monster - Shield_DeathwingRaid_D_01 - Blue
 i(76171),	-- Monster - Shield_DeathwingRaid_D_01 - Red
@@ -7813,10 +7675,6 @@ i(76267),	-- Monster - Sword_1h_DeathwingRaid_D_01 - Default
 i(76268),	-- Monster - Sword_1h_DeathwingRaid_D_01 - Blue
 i(76269),	-- Monster - Sword_1h_DeathwingRaid_D_01 - Green
 i(76270),	-- Monster - Sword_1h_DeathwingRaid_D_01 - Red
-i(76271),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Default
-i(76272),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Blue
-i(76273),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Green
-i(76274),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Purple
 i(76276),	-- [DNT] Maldo's Test Armor
 i(76277),	-- Warmaster Blackhorn's Shield
 i(76278),	-- Art Template Leather Belt Leather_PVPRogue_D_01 - Blue
@@ -7860,7 +7718,6 @@ i(76351),	-- Monster - Crossbow Northrend B 01
 i(76366),	-- Monster - Dagger, Icecrown Raid D 04 Blue (Frost Enchantment)
 i(76367),	-- Monster - Mace, 1H Cataclysm C 04 Blue
 i(76368),	-- Monster - Offhand, Wand Cataclysm B 01
-i(76369),	-- Monster - Staff, Cataclysm C 01 Green (Purple Glow)
 i(76394),	-- Monster - Firearm_2h_Rifle_DeathwingRaid_D_01 - Blue
 i(76395),	-- Monster - Firearm_2h_Rifle_DeathwingRaid_D_01 - Red
 i(76396),	-- Monster - Firearm_2h_Rifle_DeathwingRaid_D_01 - Purple
@@ -7871,10 +7728,6 @@ i(76400),	-- Monster - Wand_1h_DeathwingRaid_D_01 - Green
 i(76407),	-- Art Template Cloth Cloak - Cape_DeathwingRaid_D_02 - Default
 i(76408),	-- Art Template Cloth Cloak - Cape_DeathwingRaid_D_02 - Blue
 i(76409),	-- Art Template Cloth Cloak - Cape_DeathwingRaid_D_02 - Yellow
-i(76410),	-- Monster - Stave_2h_430NightElf_C_01 - Green
-i(76411),	-- Monster - Stave_2h_430NightElf_C_01 - Purple
-i(76412),	-- Monster - Stave_2h_430NightElf_C_01 - Red
-i(76413),	-- Monster - Stave_2h_430NightElf_C_01 - Teal
 i(76421),	-- Art Template Leather Wrist - Leather_PVPDruid_D_01 - Black
 i(76422),	-- Art Template Leather Shoulder - Leather_PVPDruid_D_01 - Black
 i(76423),	-- Art Template Leather Legs - Leather_PVPDruid_D_01 - Black
@@ -7993,8 +7846,6 @@ i(76857),	-- Art Template Leather Boot - Leather_DungeonLeather_C_05 - Green
 i(76858),	-- Art Template Leather Head - Leather_DungeonLeather_C_05 - Green
 i(76859),	-- Art Template Leather Belt - Leather_DungeonLeather_C_05 - Green
 i(76860),	-- Art Template Leather Robe - Leather_DungeonLeather_C_05 - Green
-i(76889),	-- tral Gryphon \\ Spectral Gryphon
-i(76902),	-- tral Wind Rider \\ Spectral Wind Rider
 i(76910),	-- Art Template Plate Belt - Plate_PVPPaladin_D_01 - Red
 i(76911),	-- Art Template Plate Boot - Plate_PVPPaladin_D_01 - Red
 i(76912),	-- Art Template Plate Chest - Plate_PVPPaladin_D_01 - Red
@@ -8073,16 +7924,11 @@ i(77142),	-- id Elven Peridot \\ Turbid Elven Peridot
 i(77143),	-- d Elven Peridot \\ Vivid Elven Peridot
 i(77144),	-- ful Lava Coral \\ Willful Lava Coral
 i(77154),	-- ant Elven Peridot \\ Radiant Elven Peridot
-i(77233),	-- Monster - Item, Mutton with Bite Offhand, Poisoned
 i(77364),	-- Monster - Tyrande's Bow
 i(77393),	-- Omar's Item of Deletion
 i(77401),	-- Monster - Shield_PVPCataclysmS3_C_01 - Black
 i(77402),	-- Monster - Shield_PVPCataclysmS3_C_01 - Green
 i(77403),	-- Monster - Shield_PVPCataclysmS3_C_01 - Red
-i(77404),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Default
-i(77405),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Blue
-i(77406),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Green
-i(77407),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Purple
 i(77426),	-- Monster - Wand, 1H Branch
 i(77548),	-- Monster - Offhand, Wand_1h_430NightElf_C_01 - Purple
 i(77937),	-- Monster - Axe_1h_DeathwingRaidDW_D_01 - Mongoose
@@ -8094,7 +7940,6 @@ i(77954),	-- of Black Dragonsblood \\ Vial of Black Dragonsblood
 i(77955),	-- mi's Vessel \\ Alurmi's Vessel
 i(77956),	-- tral Mount Crate \\ Spectral Mount Crate
 i(77957),	-- nt Twilight Missive \\ Urgent Twilight Missive
-i(77960),	-- Monster - Item, Bottle - Green (Dagger)
 i(77984),	-- ptyric Sigil \\ Kiroptyric Sigil
 i(77985),	-- led Wishes \\ Bottled Wishes
 i(77986),	-- ection of the Light \\ Reflection of the Light
@@ -8108,7 +7953,6 @@ i(78008),	-- of the Deep \\ Fire of the Deep
 i(78337),	-- Test
 i(78338),	-- Test
 i(78339),	-- of Preserved Dragonsblood \\ Vial of Preserved Dragonsblood
-i(78360),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Purple - Deathfrost
 i(78500),	-- tplate of the Unshakable Titan \\ Chestplate of the Unshakable Titan
 i(78506),	-- mcrusher Drape \\ Dreamcrusher Drape
 i(78507),	-- fatigable Greatcloak \\ Indefatigable Greatcloak
@@ -8215,12 +8059,6 @@ i(232540),	-- Wicked Witch's Ring
 i(232544),	-- The Horseman's Horrific Helmet
 i(232548),	-- The Horseman's Sinister Saber
 4.4.1.56464
-i(209528),	-- Secondhand Faceguard
-i(209529),	-- Secondhand Crown
-i(209530),	-- Secondhand Crown
-i(209531),	-- Secondhand Headguard
-i(209532),	-- Secondhand Cowl
-i(209533),	-- Secondhand Headguard
 i(231997),	-- Commendation of the World Tree
 i(231998),	-- Rock-Hard Biscuit
 4.4.1.56859
@@ -8232,290 +8070,6 @@ i(233017),	-- Monster - Baleroc Sword
 4.4.1.57359
 i(231295),	-- Reven
 4.4.2.58723
-i(92074),	-- Martial Sword
-i(92075),	-- Scourgeheart Vambraces
-i(92076),	-- Scourgeheart Armguards
-i(92077),	-- Naturalist Bracers
-i(92078),	-- Naturalist Cuffs
-i(92080),	-- Naturalist Bindings
-i(92081),	-- Enlightened Wristwraps
-i(92082),	-- Partisan Armplates
-i(92083),	-- Partisan Vambraces
-i(92084),	-- Partisan Armguards
-i(92087),	-- Darkwalker Bindings
-i(92088),	-- Thundercaller Armbands
-i(92089),	-- Thundercaller Armguard
-i(92090),	-- Thundercaller Bracers
-i(92091),	-- Martial Vambraces
-i(92092),	-- Soulseizer Wristwraps
-i(92093),	-- Martial Armguards
-i(92094),	-- Naturalist Cord
-i(92096),	-- Naturalist Waistband
-i(92097),	-- Enlightened Cord
-i(92098),	-- Partisan Belt
-i(92099),	-- Partisan Girdle
-i(92100),	-- Partisan Waistband
-i(92101),	-- Deliverer Sash
-i(92102),	-- Deliverer Cord
-i(92103),	-- Darkwalker Waistband
-i(92104),	-- Thundercaller Belt
-i(92105),	-- Thundercaller Waistguard
-i(92106),	-- Thundercaller Girdle
-i(92107),	-- Martial Girdle
-i(92108),	-- Soulseizer Cord
-i(92109),	-- Martial Waistband
-i(92110),	-- Scourgeheart Blade
-i(92111),	-- Partisan Sword
-i(92112),	-- Thundercaller Mace
-i(92113),	-- Deliverer Idol of Destruction
-i(92114),	-- Partisan Defender Stone
-i(92115),	-- Deliverer Stone of Wisdom
-i(92116),	-- Thundercaller Idol of Rage
-i(92117),	-- Darkwalker Stone of Rage
-i(92118),	-- Darkwalker Idol of Rage
-i(92119),	-- Thundercaller Stone of Destruction
-i(92120),	-- Thundercaller Idol of Destruction
-i(92121),	-- Thundercaller Stone of Rage
-i(92122),	-- Thundercaller Stone of Wisdom
-i(92123),	-- Thundercaller Idol of Wisdom
-i(92124),	-- Soulseizer Stone of Destruction
-i(92125),	-- Soulseizer Idol of Destruction
-i(92126),	-- Martial Defender Stone
-i(92127),	-- Martial Defender Idol
-i(92128),	-- Martial Idol of Battle
-i(92129),	-- Martial Stone of Battle
-i(92132),	-- Naturalist Belt
-i(92133),	-- Naturalist Idol of Rage
-i(92134),	-- Scourgeheart Defender Stone
-i(92135),	-- Scourgeheart Defender Idol
-i(92136),	-- Naturalist Stone of Destruction
-i(92137),	-- Naturalist Idol of Destruction
-i(92138),	-- Naturalist Stone of Rage
-i(92139),	-- Naturalist Stone of Wisdom
-i(92140),	-- Naturalist Idol of Wisdom
-i(92141),	-- Forestwalker Stone of Rage
-i(92142),	-- Forestwalker Idol of Rage
-i(92143),	-- Enlightened Stone of Destruction
-i(92144),	-- Enlightened Idol of Destruction
-i(92145),	-- Partisan Stone of Wisdom
-i(92146),	-- Partisan Idol of Wisdom
-i(92147),	-- Partisan Defender Idol
-i(92148),	-- Partisan Idol of Battle
-i(92149),	-- Partisan Stone of Battle
-i(92150),	-- Deliverer Idol of Wisdom
-i(92151),	-- Deliverer Stone of Destruction
-i(92152),	-- Naturalist Pauldrons
-i(92154),	-- Enlightened Shoulderpads
-i(92155),	-- Partisan Spaulders
-i(92156),	-- Partisan Pauldrons
-i(92157),	-- Partisan Shoulderguards
-i(92158),	-- Deliverer Mantle
-i(92159),	-- Deliverer Shoulderpads
-i(92160),	-- Darkwalker Shoulders
-i(92161),	-- Thundercaller Pauldrons
-i(92162),	-- Thundercaller Shoulderguards
-i(92163),	-- Soulseizer Shoulderpads
-i(92164),	-- Thundercaller Spaulders
-i(92165),	-- Martial Pauldrons
-i(92166),	-- Martial Shoulderguards
-i(92167),	-- Scourgeheart Idol of Battle
-i(92168),	-- Scourgeheart Stone of Battle
-i(92169),	-- Enlightened Robe
-i(92170),	-- Deliverer Robe
-i(92171),	-- Deliverer Vestments
-i(92172),	-- Soulseizer Robe
-i(92173),	-- Partisan Bulwark
-i(92174),	-- Partisan Shield
-i(92175),	-- Thundercaller Aegis
-i(92176),	-- Thundercaller Shield
-i(92177),	-- Martial Bulwark
-i(92178),	-- Scourgeheart Pauldrons
-i(92179),	-- Scourgeheart Shoulderguards
-i(92180),	-- Naturalist Spaulders
-i(92181),	-- Naturalist Shoulders
-i(92182),	-- Partisan Pendant
-i(92183),	-- Deliverer Necklace
-i(92184),	-- Deliverer Medallion
-i(92185),	-- Thundercaller Choker
-i(92186),	-- Darkwalker Choker
-i(92187),	-- Thundercaller Medallion
-i(92188),	-- Thundercaller Necklace
-i(92189),	-- Soulseizer Medallion
-i(92190),	-- Martial Pendant
-i(92191),	-- Martial Amulet
-i(92193),	-- Forestwalker Rifle
-i(92194),	-- Enlightened Wand
-i(92195),	-- Deliverer Wand
-i(92196),	-- Soulseizer Wand
-i(92197),	-- Thundercaller Legguards
-i(92198),	-- Soulseizer Leggings
-i(92199),	-- Thundercaller Leggings
-i(92200),	-- Martial Legplates
-i(92201),	-- Martial Legguards
-i(92202),	-- Partisan Scepter
-i(92203),	-- Darkwalker Sword
-i(92205),	-- Thundercaller Gavel
-i(92206),	-- Thundercaller Scepter
-i(92207),	-- Scourgeheart Pendant
-i(92208),	-- Naturalist Choker
-i(92209),	-- Scourgeheart Amulet
-i(92210),	-- Naturalist Medallion
-i(92211),	-- Naturalist Necklace
-i(92212),	-- Enlightened Medallion
-i(92213),	-- Forestwalker Choker
-i(92214),	-- Partisan Necklace
-i(92215),	-- Partisan Amulet
-i(92216),	-- Thundercaller Coif
-i(92217),	-- Thundercaller Helm
-i(92218),	-- Soulseizer Cowl
-i(92219),	-- Thundercaller Cowl
-i(92220),	-- Martial Helm
-i(92221),	-- Martial Faceguard
-i(92222),	-- Scourgeheart Legplates
-i(92223),	-- Scourgeheart Legguards
-i(92224),	-- Naturalist Legguards
-i(92225),	-- Naturalist Leggings
-i(92226),	-- Naturalist Britches
-i(92228),	-- Enlightened Leggings
-i(92229),	-- Partisan Leggings
-i(92230),	-- Partisan Legplates
-i(92231),	-- Partisan Legguards
-i(92232),	-- Deliverer Leggings
-i(92233),	-- Deliverer Pants
-i(92234),	-- Darkwalker Britches
-i(92235),	-- Thundercaller Legwraps
-i(92236),	-- Thundercaller Gloves
-i(92237),	-- Thundercaller Handguards
-i(92238),	-- Soulseizer Handwraps
-i(92239),	-- Thundercaller Grips
-i(92240),	-- Martial Gauntlets
-i(92241),	-- Martial Handguards
-i(92242),	-- Scourgeheart Helm
-i(92243),	-- Scourgeheart Faceguard
-i(92244),	-- Naturalist Helm
-i(92245),	-- Naturalist Headpiece
-i(92246),	-- Naturalist Hood
-i(92248),	-- Partisan Helm
-i(92249),	-- Enlightened Hood
-i(92250),	-- Partisan Headpiece
-i(92251),	-- Partisan Faceguard
-i(92252),	-- Deliverer Hood
-i(92253),	-- Deliverer Cowl
-i(92254),	-- Darkwalker Hood
-i(92255),	-- Thundercaller Ring of Wisdom
-i(92256),	-- Soulseizer Band of Destruction
-i(92257),	-- Soulseizer Ring of Destruction
-i(92258),	-- Martial Band of Might
-i(92259),	-- Martial Ring of Stoicism
-i(92260),	-- Martial Band of Stoicism
-i(92261),	-- Martial Ring of Might
-i(92262),	-- Scourgeheart Gauntlets
-i(92263),	-- Scourgeheart Handguards
-i(92264),	-- Naturalist Handguards
-i(92265),	-- Naturalist Grips
-i(92266),	-- Naturalist Gloves
-i(92268),	-- Partisan Gauntlets
-i(92269),	-- Enlightened Handwraps
-i(92270),	-- Partisan Gloves
-i(92271),	-- Partisan Handguards
-i(92272),	-- Deliverer Handwraps
-i(92273),	-- Deliverer Gloves
-i(92274),	-- Darkwalker Gloves
-i(92275),	-- Enlightened Band of Destruction
-i(92276),	-- Enlightened Ring of Destruction
-i(92277),	-- Partisan Ring of Wisdom
-i(92278),	-- Partisan Band of Wisdom
-i(92279),	-- Partisan Ring of Might
-i(92280),	-- Partisan Band of Might
-i(92281),	-- Deliverer Band of Destruction
-i(92282),	-- Deliverer Ring of Destruction
-i(92283),	-- Partisan Ring of Stoicism
-i(92284),	-- Partisan Band of Stoicism
-i(92285),	-- Deliverer Band of Wisdom
-i(92286),	-- Deliverer Ring of Wisdom
-i(92287),	-- Darkwalker Band of Onslaught
-i(92288),	-- Darkwalker Ring of Onslaught
-i(92289),	-- Thundercaller Band of Destruction
-i(92290),	-- Thundercaller Ring of Destruction
-i(92291),	-- Thundercaller Band of Onslaught
-i(92292),	-- Thundercaller Ring of Onslaught
-i(92293),	-- Thundercaller Band of Wisdom
-i(92294),	-- Deliverer Boots
-i(92295),	-- Darkwalker Boots
-i(92296),	-- Thundercaller Boots
-i(92297),	-- Thundercaller Greaves
-i(92298),	-- Soulseizer Sandals
-i(92299),	-- Thundercaller Sabatons
-i(92300),	-- Martial Sabatons
-i(92301),	-- Martial Greaves
-i(92302),	-- Scourgeheart Ring of Might
-i(92303),	-- Scourgeheart Band of Might
-i(92304),	-- Naturalist Ring of Onslaught
-i(92305),	-- Naturalist Band of Onslaught
-i(92306),	-- Scourgeheart Band of Stoicism
-i(92307),	-- Scourgeheart Ring of Stoicism
-i(92308),	-- Naturalist Band of Destruction
-i(92309),	-- Naturalist Ring of Destruction
-i(92310),	-- Naturalist Band of Wisdom
-i(92311),	-- Naturalist Ring of Wisdom
-i(92312),	-- Forestwalker Ring of Onslaught
-i(92313),	-- Forestwalker Band of Onslaught
-i(92314),	-- Darkwalker Cloak of Rage
-i(92315),	-- Deliverer Cloak of Destruction
-i(92316),	-- Thundercaller Cloak of Rage
-i(92317),	-- Thundercaller Cloak of Destruction
-i(92318),	-- Thundercaller Cloak of Wisdom
-i(92319),	-- Martial Cloak of Battle
-i(92320),	-- Soulseizer Cloak of Destruction
-i(92321),	-- Martial Cloak of Stoicism
-i(92322),	-- Scourgeheart Greaves
-i(92323),	-- Scourgeheart Sabatons
-i(92324),	-- Naturalist Footpads
-i(92325),	-- Naturalist Treads
-i(92326),	-- Naturalist Boots
-i(92328),	-- Partisan Sabatons
-i(92329),	-- Enlightened Sandals
-i(92330),	-- Partisan Boots
-i(92331),	-- Partisan Greaves
-i(92332),	-- Deliverer Sandals
-i(92333),	-- Partisan Battleplate
-i(92334),	-- Partisan Breastplate
-i(92335),	-- Partisan Chestguard
-i(92336),	-- Darkwalker Jerkin
-i(92337),	-- Thundercaller Tunic
-i(92338),	-- Thundercaller Vest
-i(92339),	-- Thundercaller Chestguard
-i(92340),	-- Martial Breastplate
-i(92341),	-- Martial Chestguard
-i(92342),	-- Scourgeheart Cloak of Stoicism
-i(92343),	-- Scourgeheart Cloak of Battle
-i(92344),	-- Naturalist Cloak of Rage
-i(92345),	-- Naturalist Cloak of Destruction
-i(92346),	-- Naturalist Cloak of Wisdom
-i(92347),	-- Forestwalker Cloak of Rage
-i(92348),	-- Enlightened Cloak of Destruction
-i(92349),	-- Partisan Cloak of Wisdom
-i(92350),	-- Partisan Cloak of Stoicism
-i(92351),	-- Partisan Cloak of Battle
-i(92352),	-- Deliverer Cloak of Wisdom
-i(92353),	-- Scourgeheart Maul
-i(92354),	-- Scourgeheart Hammer
-i(92355),	-- Naturalist Stave
-i(92356),	-- Naturalist Spear
-i(92357),	-- Forestwalker Spear
-i(92358),	-- Naturalist Staff
-i(92359),	-- Enlightened Staff
-i(92360),	-- Partisan Greatsword
-i(92361),	-- Deliverer Stave
-i(92362),	-- Deliverer Staff
-i(92363),	-- Martial Maul
-i(92364),	-- Martial Greatsword
-i(92365),	-- Soulseizer Staff
-i(92366),	-- Scourgeheart Chestguard
-i(92367),	-- Scourgeheart Breastplate
-i(92368),	-- Naturalist Vest
-i(92369),	-- Naturalist Tunic
-i(92370),	-- Naturalist Jerkin
 i(92372),	-- Waterdancer Spire
 i(92373),	-- Waterdancer Staff
 i(92374),	-- Waterdancer Jerkin

@@ -6,6 +6,16 @@ i(67097),	-- Campfire \\ Grim Campfire
 i(72161),	-- ious Sarcophagus \\ Spurious Sarcophagus
 3.4.3.58528
 i(235464),	-- Sha-Touched Tea Set
+3.4.5.61815
+i(72159),	-- cal Ogre Idol \\ Magical Ogre Idol
+i(247893),	-- Fandral's Eternal Seed
+i(248263),	-- Azure Sea Boat \\ Fishing Boat Toy
 
 
-Nothing is Missing in ToyDB.lua! Good Work!
+
+
+Missing in ToyDB.lua
+
+3.4.5.61815
+i(247893),	-- Fandral's Eternal Seed
+i(248263),	-- Azure Sea Boat \\ Fishing Boat Toy

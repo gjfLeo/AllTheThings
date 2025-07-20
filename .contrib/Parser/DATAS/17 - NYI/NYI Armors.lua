@@ -227,14 +227,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(CLOTH, {
 			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
-				i(37273),	-- Crimson Keeper Mitts
 				i(37210),	-- Seafarer Cinch
 				i(37225),	-- Sweltering Sandals
+				i(37273),	-- Crimson Keeper Mitts
 			}),
 
 			-- 3.0.2
 			expansion(EXPANSION.WRATH, patch(0,2), {
 				i(43878),	-- Mantle of Unholy Power
+				i(44743),	-- Cultist Acolyte's Hood
 			}),
 
 			-- 3.1.0
@@ -250,52 +251,52 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
-				i(206700),	-- Oracle Belt
 				i(206699),	-- Oracle Bracelets
+				i(206700),	-- Oracle Belt
+				i(206701),	-- Oracle Mantle
+				i(206702),	-- Oracle Leggings
 				i(206703),	-- Oracle Circlet
 				i(206704),	-- Oracle Gloves
-				i(206702),	-- Oracle Leggings
-				i(206701),	-- Oracle Mantle
-				i(206706),	-- Oracle Robe
 				i(206705),	-- Oracle Slippers
+				i(206706),	-- Oracle Robe
 			}),
 			-- #endif
 
 			-- 3.x.
 			n(P3xx, {
-				i(37296),	-- BT59 Cloth Spell Gloves4
 				i(37295),	-- HF28 Cloth Spell Head4
+				i(37296),	-- BT59 Cloth Spell Gloves4
 				i(39364),	-- Hood of the Titan Defender
 			}),
 		}),
 		filter(LEATHER, {
 			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
-				i(37386),	-- Ruby Heart Spaulders
 				i(37385),	-- Seared Harness
-				i(41757),	-- Vest of Unyielding Companionship
+				i(37386),	-- Ruby Heart Spaulders
 				i(37400),	-- Whalehunter Cuffs
+				i(41757),	-- Vest of Unyielding Companionship
 			}),
 
 			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
-				i(206711),	-- Ghrino Belt
-				i(206750),	-- Ghrino Belt
-				i(206716),	-- Ghrino Boots
-				i(206751),	-- Ghrino Boots
-				i(206710),	-- Ghrino Bracers
-				i(206757),	-- Ghrino Bracers
-				i(206713),	-- Ghrino Britches
-				i(206755),	-- Ghrino Britches
-				i(206714),	-- Ghrino Cover
-				i(206754),	-- Ghrino Cover
-				i(206715),	-- Ghrino Gloves
-				i(206753),	-- Ghrino Gloves
-				i(206712),	-- Ghrino Pauldrons
-				i(206756),	-- Ghrino Pauldrons
 				i(206709),	-- Ghrino Vest
+				i(206710),	-- Ghrino Bracers
+				i(206711),	-- Ghrino Belt
+				i(206712),	-- Ghrino Pauldrons
+				i(206713),	-- Ghrino Britches
+				i(206714),	-- Ghrino Cover
+				i(206715),	-- Ghrino Gloves
+				i(206716),	-- Ghrino Boots
+				i(206750),	-- Ghrino Belt
+				i(206751),	-- Ghrino Boots
 				i(206752),	-- Ghrino Vest
+				i(206753),	-- Ghrino Gloves
+				i(206754),	-- Ghrino Cover
+				i(206755),	-- Ghrino Britches
+				i(206756),	-- Ghrino Pauldrons
+				i(206757),	-- Ghrino Bracers
 			}),
 			-- #endif
 
@@ -435,9 +436,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 			-- 3.x.x
 			n(P3xx, {
+				i(34712),	-- Prismatic Signet
 				i(37531),	-- Circle of Frigid Wind
 				i(46842),	-- Crusader's Band
-				i(34712),	-- Prismatic Signet
 			}),
 		}),
 		filter(TRINKET_F, {
@@ -449,13 +450,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 			-- 3.x.x
 			n(P3xx, {
-				i(38526),	-- Binding of the Imprisoned Soul
-				i(39819),	-- Bloodbinder's Runestone
-				i(38572),	-- Bounty Procurement Enhancer
-				i(46839),	-- Frostwolf Insignia Rank 7
-				i(46840),	-- Frostwolf Insignia Rank 7
 				i(37561),	-- Touch of the Elements
 				i(38383),	-- Valonforth's Folly
+				i(38526),	-- Binding of the Imprisoned Soul
+				i(38572),	-- Bounty Procurement Enhancer
+				i(39819),	-- Bloodbinder's Runestone
+				i(46839),	-- Frostwolf Insignia Rank 7
+				i(46840),	-- Frostwolf Insignia Rank 7
 			}),
 		}),
 	}),
@@ -470,9 +471,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(BACK_F, {
 			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(65815),	-- Drape of the Mortal Guardians
-				i(60221),	-- Furlbrow Cloak
+				-- #if BEFORE WOD
+				-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+				i(55316),	-- Sorrowmurk Cloak
+				-- #endif
 				i(56355),	-- Skin of Stone
+				i(60221),	-- Furlbrow Cloak
+				i(65815),	-- Drape of the Mortal Guardians
 			}),
 
 			-- 4.3.0
@@ -1030,6 +1035,19 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(80966),	-- Scavenger's Drape
 				i(80969),	-- Scavenger's Manteau
 				i(80967),	-- Scavenger's Shawl
+				i(83336),	-- 5.0 QA PVP Test Agility DPS Cloak
+				i(83337),	-- 5.0 QA PVP Test Agility DPS Cloak 2
+				i(83338),	-- 5.0 QA PVP Test Agility DPS Cloak 3
+				i(83367),	-- 5.0 QA PVP Test Caster DPS Cloak
+				i(83368),	-- 5.0 QA PVP Test Caster DPS Cloak 2
+				i(83426),	-- 5.0 QA PVP Test Healer Cloak 2
+				i(83427),	-- 5.0 QA PVP Test Healer Cloak 3
+				i(83582),	-- 5.0 QA PVP Test Strength DPS Cloak
+				i(83583),	-- 5.0 QA PVP Test Strength DPS Cloak 2
+				i(83584),	-- 5.0 QA PVP Test Strength DPS Cloak 3
+				i(83601),	-- 5.0 QA PVP Test Tank Cloak
+				i(83602),	-- 5.0 QA PVP Test Tank Cloak 2
+				i(83603),	-- 5.0 QA PVP Test Tank Cloak 3
 			}),
 
 			-- 5.3.0
@@ -1276,8 +1294,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
 				i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
 				i(83362),	-- 5.0 QA PVP Test Caster DPS Belt 3
+				i(83363),	-- 5.0 QA PVP Test Caster DPS Boots
+				i(83364),	-- 5.0 QA PVP Test Caster DPS Boots 2
 				i(83365),	-- 5.0 QA PVP Test Caster DPS Bracer
 				i(83366),	-- 5.0 QA PVP Test Caster DPS Bracer 2
+				i(83371),	-- 5.0 QA PVP Test Caster DPS Gloves
+				i(83372),	-- 5.0 QA PVP Test Caster DPS Gloves 2
+				i(83373),	-- 5.0 QA PVP Test Caster DPS Helm
+				i(83374),	-- 5.0 QA PVP Test Caster DPS Helm 2
+				i(83375),	-- 5.0 QA PVP Test Caster DPS Helm 3
 				i(83376),	-- 5.0 QA PVP Test Caster DPS Legs
 				i(83377),	-- 5.0 QA PVP Test Caster DPS Legs 2
 				i(83389),	-- 5.0 QA PVP Test Caster DPS Robes
@@ -1289,6 +1314,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
 				i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
 				i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
+				i(83528),	-- 5.0 QA PVP Test Priest Healer Gloves
+				i(83529),	-- 5.0 QA PVP Test Priest Healer Gloves 2
 				i(85165),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - Blue
 				i(85166),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - Blue
 				i(85167),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - Blue
@@ -1939,25 +1966,52 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(77308),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Blue
 				i(77314),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - White
 				i(77333),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Red
+				i(79800),	-- QA Combat Test Rogue Bracer 2
+				i(79803),	-- QA Combat Test Rogue Helm 3
+				i(80946),	-- Peacebreaker's Leather Helm
+				i(80950),	-- Peacebreaker's Hide Helm
+				i(80986),	-- Scavenger's Leather Spaulders
+				i(80990),	-- Scavenger's Hide Spaulders
+				i(80995),	-- Leather Tunic of Eniment Domain
+				i(80999),	-- Hide Tunic of Eminent Domain
+				i(81004),	-- Honorary Combat Engineer's Leather Trousers
+				i(81008),	-- Honorary Combat Engineer's Hide Leggings
+				i(81013),	-- Landfall Leather Boots
+				i(81017),	-- Landfall Moccasins
+				i(81031),	-- Scavenger's Leather Gloves
+				i(81035),	-- Scavenger's Hide Gloves
+				i(81040),	-- Scavenger's Leather Armwraps
+				i(81044),	-- Scavenger's Hide Bindings
+				i(83277),	-- Art Template Leather Belt - Leather_ChallengeMonk_D_01 - Blue
+				i(83278),	-- Art Template Leather Head - Leather_ChallengeMonk_D_01 - Blue
+				i(83279),	-- Art Template Leather Boot - Leather_ChallengeMonk_D_01 - Blue
+				i(83280),	-- Art Template Leather Chest - Leather_ChallengeMonk_D_01 - Blue
+				i(83281),	-- Art Template Leather Hand - Leather_ChallengeMonk_D_01 - Blue
+				i(83282),	-- Art Template Leather Legs - Leather_ChallengeMonk_D_01 - Blue
+				i(83283),	-- Art Template Leather Shoulder - Leather_ChallengeMonk_D_01 - Blue
+				i(83284),	-- Art Template Leather Wrist - Leather_ChallengeMonk_D_01 - Blue
+				i(83285),	-- Art Template Leather Belt - Leather_ChallengeMonk_D_01 - Red
+				i(83286),	-- Art Template Leather Head - Leather_ChallengeMonk_D_01 - Red
+				i(83287),	-- Art Template Leather Boot - Leather_ChallengeMonk_D_01 - Red
+				i(83288),	-- Art Template Leather Chest - Leather_ChallengeMonk_D_01 - Red
+				i(83289),	-- Art Template Leather Hand - Leather_ChallengeMonk_D_01 - Red
+				i(83290),	-- Art Template Leather Legs - Leather_ChallengeMonk_D_01 - Red
+				i(83291),	-- Art Template Leather Shoulder - Leather_ChallengeMonk_D_01 - Red
+				i(83292),	-- Art Template Leather Wrist - Leather_ChallengeMonk_D_01 - Red
+				i(83293),	-- Art Template Leather Belt - Leather_ChallengeMonk_D_01 - Teal
+				i(83294),	-- Art Template Leather Head - Leather_ChallengeMonk_D_01 - Teal
+				i(83295),	-- Art Template Leather Boot - Leather_ChallengeMonk_D_01 - Teal
+				i(83296),	-- Art Template Leather Chest - Leather_ChallengeMonk_D_01 - Teal
+				i(83297),	-- Art Template Leather Hand - Leather_ChallengeMonk_D_01 - Teal
+				i(83298),	-- Art Template Leather Legs - Leather_ChallengeMonk_D_01 - Teal
+				i(83299),	-- Art Template Leather Shoulder - Leather_ChallengeMonk_D_01 - Teal
+				i(83300),	-- Art Template Leather Wrist - Leather_ChallengeMonk_D_01 - Teal
+				i(83402),	-- 5.0 QA PVP Test Druid Healer Belt
+				i(83416),	-- 5.0 QA PVP Test Druid Healer Shoulders
+				i(83418),	-- 5.0 QA PVP Test Druid Healer Shoulders 3
 				i(88569),	-- Contender's Boots
 				i(88574),	-- Contender's Leggings
 				i(88575),	-- Contender's Shoulders
-				i(80999),	-- Hide Tunic of Eminent Domain
-				i(81008),	-- Honorary Combat Engineer's Hide Leggings
-				i(81004),	-- Honorary Combat Engineer's Leather Trousers
-				i(81013),	-- Landfall Leather Boots
-				i(81017),	-- Landfall Moccasins
-				i(80995),	-- Leather Tunic of Eniment Domain
-				i(80950),	-- Peacebreaker's Hide Helm
-				i(80946),	-- Peacebreaker's Leather Helm
-				i(79800),	-- QA Combat Test Rogue Bracer 2
-				i(79803),	-- QA Combat Test Rogue Helm 3
-				i(81044),	-- Scavenger's Hide Bindings
-				i(81035),	-- Scavenger's Hide Gloves
-				i(80990),	-- Scavenger's Hide Spaulders
-				i(81040),	-- Scavenger's Leather Armwraps
-				i(81031),	-- Scavenger's Leather Gloves
-				i(80986),	-- Scavenger's Leather Spaulders
 			}),
 
 			-- 5.2.0
@@ -1986,11 +2040,33 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(MAIL, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83451),	-- 5.0 QA PVP Test Hunter Belt
+				i(83452),	-- 5.0 QA PVP Test Hunter Belt 2
+				i(83453),	-- 5.0 QA PVP Test Hunter Boots
+				i(83454),	-- 5.0 QA PVP Test Hunter Boots 2
+				i(83456),	-- 5.0 QA PVP Test Hunter Bow
+				i(83457),	-- 5.0 QA PVP Test Hunter Bracer
+				i(83458),	-- 5.0 QA PVP Test Hunter Bracer 2
+				i(83459),	-- 5.0 QA PVP Test Hunter Chest
+				i(83461),	-- 5.0 QA PVP Test Hunter Gloves
+				i(83462),	-- 5.0 QA PVP Test Hunter Gloves 2
+				i(83465),	-- 5.0 QA PVP Test Hunter Helm
+				i(83466),	-- 5.0 QA PVP Test Hunter Helm 2
+				i(83467),	-- 5.0 QA PVP Test Hunter Helm 3
 				i(83468),	-- 5.0 QA PVP Test Hunter Legs
 				i(83469),	-- 5.0 QA PVP Test Hunter Legs 2
+				i(83470),	-- 5.0 QA PVP Test Hunter Shoulders
+				i(83471),	-- 5.0 QA PVP Test Hunter Shoulders 2
+				i(83562),	-- 5.0 QA PVP Test Shaman Healer Bracer 2
 				i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
 				i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
 				i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
+				i(83566),	-- 5.0 QA PVP Test Shaman Healer Gloves
+				i(83567),	-- 5.0 QA PVP Test Shaman Healer Gloves 2
+				i(83568),	-- 5.0 QA PVP Test Shaman Healer Helm
+				i(83569),	-- 5.0 QA PVP Test Shaman Healer Helm 2
+				i(83571),	-- 5.0 QA PVP Test Shaman Healer Legs 2
+				i(83572),	-- 5.0 QA PVP Test Shaman Healer Legs 3
 				i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
 				i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
 				i(77477),	-- Art Template Mail Wrist - Mail_PanProg_B_01 - Green
@@ -2049,6 +2125,64 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(PLATE, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(79746),	-- QA Combat Test Tank Bracer
+				i(79797),	-- QA Combat Test Paladin Healer Bracer 2
+				i(79798),	-- QA Combat Test Plate DPS Bracer 3
+				i(80952),	-- Peacebreaker's Burnished Headcover
+				i(80953),	-- Peacebreaker's Armored Helm
+				i(80954),	-- Peacebreaker's Heavy Helm
+				i(80992),	-- Scavenger's Burnished Spaulders
+				i(80993),	-- Scavenger's Armored Shoulders
+				i(80994),	-- Scavenger's Heavy Shoulders
+				i(81001),	-- Burnished Chestguard of Eminent Domain
+				i(81002),	-- Armored Chestpiece of Eminent Domain
+				i(81003),	-- Heavy Chestpiece of Eminent Domain
+				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
+				i(81011),	-- Honorary Combat Engineer's Legguards
+				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
+				i(81019),	-- Landfall Burnished Greaves
+				i(81020),	-- Landfall Warboots
+				i(81021),	-- Landfall Plate Boots
+				i(81037),	-- Scavenger's Burnished Gloves
+				i(81038),	-- Scavenger's Armored Gauntlets
+				i(81039),	-- Scavenger's Heavy Gauntlets
+				i(81046),	-- Scavenger's Burnished Bracers
+				i(81047),	-- Scavenger's Armored Bracers
+				i(81048),	-- Scavenger's Heavy Armplates
+				i(81709),	-- Belt of Broken Bones
+				i(81710),	-- Grinning Skull Greatboots
+				i(83301),	-- Art Template Plate Belt - Plate_RaidWarrior_L_01 - Black
+				i(83302),	-- Art Template Plate Boot - Plate_RaidWarrior_L_01 - Black
+				i(83303),	-- Art Template Plate Chest - Plate_RaidWarrior_L_01 - Black
+				i(83304),	-- Art Template Plate Hand - Plate_RaidWarrior_L_01 - Black
+				i(83305),	-- Art Template Plate Head - Plate_RaidWarrior_L_01 - Black
+				i(83306),	-- Art Template Plate Legs - Plate_RaidWarrior_L_01 - Black
+				i(83307),	-- Art Template Plate Shoulder - Plate_RaidWarrior_L_01 - Black
+				i(83308),	-- Art Template Plate Wrist - Plate_RaidWarrior_L_01 - Black
+				i(83309),	-- Art Template Plate Belt - Plate_RaidWarrior_L_01 - Gold
+				i(83310),	-- Art Template Plate Boot - Plate_RaidWarrior_L_01 - Gold
+				i(83311),	-- Art Template Plate Chest - Plate_RaidWarrior_L_01 - Gold
+				i(83312),	-- Art Template Plate Hand - Plate_RaidWarrior_L_01 - Gold
+				i(83313),	-- Art Template Plate Head - Plate_RaidWarrior_L_01 - Gold
+				i(83314),	-- Art Template Plate Legs - Plate_RaidWarrior_L_01 - Gold
+				i(83315),	-- Art Template Plate Shoulder - Plate_RaidWarrior_L_01 - Gold
+				i(83316),	-- Art Template Plate Wrist - Plate_RaidWarrior_L_01 - Gold
+				i(83317),	-- Art Template Plate Belt - Plate_RaidWarrior_L_01 - Red
+				i(83318),	-- Art Template Plate Boot - Plate_RaidWarrior_L_01 - Red
+				i(83319),	-- Art Template Plate Chest - Plate_RaidWarrior_L_01 - Red
+				i(83320),	-- Art Template Plate Hand - Plate_RaidWarrior_L_01 - Red
+				i(83321),	-- Art Template Plate Head - Plate_RaidWarrior_L_01 - Red
+				i(83322),	-- Art Template Plate Legs - Plate_RaidWarrior_L_01 - Red
+				i(83323),	-- Art Template Plate Shoulder - Plate_RaidWarrior_L_01 - Red
+				i(83324),	-- Art Template Plate Wrist - Plate_RaidWarrior_L_01 - Red
+				i(83325),	-- Art Template Plate Belt - Plate_RaidWarrior_L_01 - Silver
+				i(83326),	-- Art Template Plate Boot - Plate_RaidWarrior_L_01 - Silver
+				i(83327),	-- Art Template Plate Chest - Plate_RaidWarrior_L_01 - Silver
+				i(83328),	-- Art Template Plate Hand - Plate_RaidWarrior_L_01 - Silver
+				i(83329),	-- Art Template Plate Head - Plate_RaidWarrior_L_01 - Silver
+				i(83330),	-- Art Template Plate Legs - Plate_RaidWarrior_L_01 - Silver
+				i(83331),	-- Art Template Plate Shoulder - Plate_RaidWarrior_L_01 - Silver
+				i(83332),	-- Art Template Plate Wrist - Plate_RaidWarrior_L_01 - Silver
 				i(83476),	-- 5.0 QA PVP Test Paladin Healer Belt 2
 				i(83477),	-- 5.0 QA PVP Test Paladin Healer Boots
 				i(83478),	-- 5.0 QA PVP Test Paladin Healer Bracer
@@ -2094,32 +2228,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83520),	-- 5.0 QA PVP Test Plate Tank Legs 2
 				i(83521),	-- 5.0 QA PVP Test Plate Tank Shoulders
 				i(83522),	-- 5.0 QA PVP Test Plate Tank Shoulders 2
-				i(81002),	-- Armored Chestpiece of Eminent Domain
-				i(81709),	-- Belt of Broken Bones
-				i(81001),	-- Burnished Chestguard of Eminent Domain
-				i(81710),	-- Grinning Skull Greatboots
-				i(81003),	-- Heavy Chestpiece of Eminent Domain
-				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
-				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
-				i(81011),	-- Honorary Combat Engineer's Legguards
-				i(81019),	-- Landfall Burnished Greaves
-				i(81021),	-- Landfall Plate Boots
-				i(81020),	-- Landfall Warboots
-				i(80952),	-- Peacebreaker's Burnished Headcover
-				i(80953),	-- Peacebreaker's Armored Helm
-				i(80954),	-- Peacebreaker's Heavy Helm
-				i(79797),	-- QA Combat Test Paladin Healer Bracer 2
-				i(79798),	-- QA Combat Test Plate DPS Bracer 3
-				i(79746),	-- QA Combat Test Tank Bracer
-				i(80992),	-- Scavenger's Burnished Spaulders
-				i(80993),	-- Scavenger's Armored Shoulders
-				i(80994),	-- Scavenger's Heavy Shoulders
-				i(81037),	-- Scavenger's Burnished Gloves
-				i(81038),	-- Scavenger's Armored Gauntlets
-				i(81039),	-- Scavenger's Heavy Gauntlets
-				i(81046),	-- Scavenger's Burnished Bracers
-				i(81047),	-- Scavenger's Armored Bracers
-				i(81048),	-- Scavenger's Heavy Armplates
+				i(83599),	-- 5.0 QA PVP Test Tank Bracer
 			}),
 
 			-- 5.2.0
@@ -2149,6 +2258,28 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(80956),	-- Scavenger's Ring
 				i(80958),	-- Scavenger's Seal
 				i(80959),	-- Scavenger's Signet
+				i(83343),	-- 5.0 QA PVP Test Agility DPS Ring
+				i(83344),	-- 5.0 QA PVP Test Agility DPS Ring 2
+				i(83345),	-- 5.0 QA PVP Test Agility DPS Ring 3
+				i(83346),	-- 5.0 QA PVP Test Agility DPS Ring 4
+				i(83347),	-- 5.0 QA PVP Test Agility DPS Ring 5
+				i(83384),	-- 5.0 QA PVP Test Caster DPS Ring
+				i(83385),	-- 5.0 QA PVP Test Caster DPS Ring 2
+				i(83386),	-- 5.0 QA PVP Test Caster DPS Ring 3
+				i(83387),	-- 5.0 QA PVP Test Caster DPS Ring 4
+				i(83388),	-- 5.0 QA PVP Test Caster DPS Ring 5
+				i(83436),	-- 5.0 QA PVP Test Healer Ring 2
+				i(83438),	-- 5.0 QA PVP Test Healer Ring 4
+				i(83439),	-- 5.0 QA PVP Test Healer Ring 5
+				i(83588),	-- 5.0 QA PVP Test Strength DPS Ring
+				i(83589),	-- 5.0 QA PVP Test Strength DPS Ring 2
+				i(83590),	-- 5.0 QA PVP Test Strength DPS Ring 3
+				i(83591),	-- 5.0 QA PVP Test Strength DPS Ring 4
+				i(83592),	-- 5.0 QA PVP Test Strength DPS Ring 5
+				i(83607),	-- 5.0 QA PVP Test Tank Ring
+				i(83608),	-- 5.0 QA PVP Test Tank Ring 2
+				i(83609),	-- 5.0 QA PVP Test Tank Ring 3
+				i(83610),	-- 5.0 QA PVP Test Tank Ring 4
 			}),
 
 			-- 5.3.0
@@ -2177,6 +2308,23 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(81051),	-- Scavenger's Locket
 				i(81049),	-- Scavenger's Necklace
 				i(81053),	-- Scavenger's Pendant
+				i(83339),	-- 5.0 QA PVP Test Agility DPS Neck
+				i(83340),	-- 5.0 QA PVP Test Agility DPS Neck 2
+				i(83341),	-- 5.0 QA PVP Test Agility DPS Neck 3
+				i(83342),	-- 5.0 QA PVP Test Agility DPS Neck 4
+				i(83378),	-- 5.0 QA PVP Test Caster DPS Neck
+				i(83379),	-- 5.0 QA PVP Test Caster DPS Neck 2
+				i(83381),	-- 5.0 QA PVP Test Caster DPS Neck 4
+				i(83428),	-- 5.0 QA PVP Test Healer Neck
+				i(83429),	-- 5.0 QA PVP Test Healer Neck 2
+				i(83430),	-- 5.0 QA PVP Test Healer Neck 3
+				i(83431),	-- 5.0 QA PVP Test Healer Neck 4
+				i(83585),	-- 5.0 QA PVP Test Strength DPS Neck
+				i(83586),	-- 5.0 QA PVP Test Strength DPS Neck 2
+				i(83587),	-- 5.0 QA PVP Test Strength DPS Neck 3
+				i(83604),	-- 5.0 QA PVP Test Tank Neck
+				i(83605),	-- 5.0 QA PVP Test Tank Neck 2
+				i(83606),	-- 5.0 QA PVP Test Tank Neck 3
 			}),
 
 			-- 5.3.0
@@ -2189,33 +2337,61 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(TRINKET_F, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(80960),	-- Scavenger's Medal
+				i(80961),	-- Scavenger's Emblem
+				i(80962),	-- Scavenger's Medallion
+				i(80963),	-- Scavenger's Badge
+				i(80964),	-- Scavenger's Insignia
+				i(83348),	-- 5.0 QA PVP Test Agility DPS Trinket
+				i(83349),	-- 5.0 QA PVP Test Agility DPS Trinket 2
+				i(83350),	-- 5.0 QA PVP Test Agility DPS Trinket 3
+				i(83351),	-- 5.0 QA PVP Test Agility DPS Trinket 4
+				i(83352),	-- 5.0 QA PVP Test Agility DPS Trinket 5
 				i(83397),	-- 5.0 QA PVP Test Caster DPS Trinket
 				i(83398),	-- 5.0 QA PVP Test Caster DPS Trinket 2
-				i(80963),	-- Scavenger's Badge
-				i(80961),	-- Scavenger's Emblem
-				i(80964),	-- Scavenger's Insignia
-				i(80960),	-- Scavenger's Medal
-				i(80962),	-- Scavenger's Medallion
+				i(83446),	-- 5.0 QA PVP Test Healer Trinket
+				i(83448),	-- 5.0 QA PVP Test Healer Trinket 3
+				i(83449),	-- 5.0 QA PVP Test Healer Trinket 4
+				i(83593),	-- 5.0 QA PVP Test Strength DPS Trinket
+				i(83594),	-- 5.0 QA PVP Test Strength DPS Trinket 2
+				i(83595),	-- 5.0 QA PVP Test Strength DPS Trinket 3
+				i(83596),	-- 5.0 QA PVP Test Strength DPS Trinket 4
+				i(83597),	-- 5.0 QA PVP Test Strength DPS Trinket 5
+				i(83615),	-- 5.0 QA PVP Test Tank Trinket
+				i(83616),	-- 5.0 QA PVP Test Tank Trinket 2
+				i(83617),	-- 5.0 QA PVP Test Tank Trinket 3
+				i(83618),	-- 5.0 QA PVP Test Tank Trinket 4
+				i(83619),	-- 5.0 QA PVP Test Tank Trinket 5
+				i(83621),	-- 5.0 QA PVP Test CC Break Trinket Crit
+				i(83622),	-- 5.0 QA PVP Test CC Break Trinket Crit
+				i(83623),	-- 5.0 QA PVP Test CC Break Trinket Expertise
+				i(83624),	-- 5.0 QA PVP Test CC Break Trinket Expertise
+				i(83626),	-- 5.0 QA PVP Test CC Break Trinket Haste
+				i(83627),	-- 5.0 QA PVP Test CC Break Trinket Hit
+				i(83628),	-- 5.0 QA PVP Test CC Break Trinket Hit
+				i(83629),	-- 5.0 QA PVP Test CC Break Trinket Mastery
+				i(83633),	-- 5.0 QA PVP Test CC Break Trinket Spirit
+				i(83634),	-- 5.0 QA PVP Test CC Break Trinket Spirit
 			}),
 
 			-- 5.1.0
 			expansion(EXPANSION.MOP, patch(1,0), {
 				i(91329),	-- Tyrannical Gladiator's Medallion of Cruelty [A]
 				i(91330),	-- Tyrannical Gladiator's Medallion of Cruelty [H]
-				i(91333),	-- Tyrannical Gladiator's Medallion of Meditation [A]
-				i(91334),	-- Tyrannical Gladiator's Medallion of Meditation [H]
 				i(91331),	-- Tyrannical Gladiator's Medallion of Tenacity [A]
 				i(91332),	-- Tyrannical Gladiator's Medallion of Tenacity [H]
+				i(91333),	-- Tyrannical Gladiator's Medallion of Meditation [A]
+				i(91334),	-- Tyrannical Gladiator's Medallion of Meditation [H]
 			}),
 
 			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97531),	-- Malevolent Gladiator's Badge of Dominance
 				i(97532),	-- Malevolent Gladiator's Badge of Dominance
-				i(97936),	-- Malevolent Gladiator's Badge of Dominance
 				i(97533),	-- Malevolent Gladiator's Medallion of Cruelty [H]
 				i(97845),	-- Malevolent Gladiator's Medallion of Cruelty [H]
 				i(97935),	-- Malevolent Gladiator's Medallion of Cruelty [H]
+				i(97936),	-- Malevolent Gladiator's Badge of Dominance
 			}),
 
 			-- 5.4.0

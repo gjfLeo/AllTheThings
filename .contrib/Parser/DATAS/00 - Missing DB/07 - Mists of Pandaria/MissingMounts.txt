@@ -33,3 +33,5 @@ mount(1247591),	-- Celestial Riding Crane
 mount(1247596),	-- Celestial Riding Serpent
 mount(1247597),	-- Celestial Riding Ox
 mount(1247598),	-- Celestial Riding Tiger
+5.5.0.62044
+mount(1238816),	-- Envoy of Sa'bak

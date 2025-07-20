@@ -270,7 +270,6 @@ i(34713),	-- arr Ritual Object \\ Tuskarr Ritual Object
 i(34714),	-- Tiras Wine \\ Kul Tiras Wine
 i(34715),	-- arr Ritual Object \\ Tuskarr Ritual Object
 i(34716),	-- er Cufflinks \\ Silver Cufflinks
-i(34717),	-- Monster - Item, Vial Green Offhand
 i(34718),	-- k Leather Shoes \\ Black Leather Shoes
 i(34719),	-- er's Journal \\ Luther's Journal
 i(34720),	-- hus' Note \\ Barthus' Note \\ Barthus's Note
@@ -605,7 +604,6 @@ i(36864),	-- azoned Battle Horn \\ Emblazoned Battle Horn
 i(36866),	-- HF BLUE Leather DPS Chest
 i(36867),	-- HF BLUE Plate DPS Chest
 i(36868),	-- kari Spirit Particles \\ Drakkari Spirit Particles
-i(36869),	-- Monster - Staff, Lord Valthalak (Particles)
 i(36870),	-- ed Drakkari Offering \\ Sacred Drakkari Offering
 i(36873),	-- kari Spirit Dust \\ Drakkari Spirit Dust
 i(36875),	-- elhorn Steak \\ Shovelhorn Steak
@@ -810,7 +808,6 @@ i(37727),	-- Acorn \\ Ruby Acorn
 i(37738),	-- A Handful of Quills
 i(37741),	-- er of Amnesty \\ Letter of Amnesty
 i(37742),	-- Currency Token Test Token 2
-i(37815),	-- ald Essence \\ Emerald Essence
 i(37830),	-- ail's Journal \\ Mikhail's Journal
 i(37831),	-- ail's Journal \\ Mikhail's Journal
 i(37832),	-- Monster - Axe, Arcanite Reaper as 1H
@@ -819,8 +816,6 @@ i(37836),	-- ure Coin \\ Venture Coin
 i(37837),	-- Fat Lute
 i(37838),	-- Fat Flute
 i(37839),	-- ination Stitching \\ Abomination Stitching
-i(37859),	-- r Essence \\ Amber Essence
-i(37860),	-- Essence \\ Ruby Essence
 i(37877),	-- er Feather \\ Silver Feather
 i(37878),	-- Worg's Blood Elixir
 i(37879),	-- ergarde Munitions \\ Wintergarde Munitions
@@ -1925,7 +1920,6 @@ i(42106),	-- o Dragon Bone \\ Proto Dragon Bone
 i(42107),	-- ental Armor Scrap \\ Elemental Armor Scrap
 i(42108),	-- rge Curio \\ Scourge Curio
 i(42109),	-- Ore Sample \\ Dark Ore Sample
-i(42139),	-- Monster - Staff, Rhonin
 i(42142),	-- Dragon's Eye \\ Bold Dragon's Eye
 i(42143),	-- cate Dragon's Eye \\ Delicate Dragon's Eye
 i(42144),	-- liant Dragon's Eye \\ Brilliant Dragon's Eye \\ Runed Dragon's Eye
@@ -2141,7 +2135,6 @@ i(42751),	-- h of Crittermorph \\ Glyph of Crittermorph \\ Glyph of Molten Armor
 i(42752),	-- Charred Glyph \\ red Glyph \\ Glyph of Polymorph
 i(42753),	-- Charred Glyph \\ red Glyph \\ Glyph of Icy Veins \\ Glyph of Cone of Cold \\ Glyph of Remove Curse
 i(42754),	-- Charred Glyph \\ red Glyph \\ Glyph of Spellsteal \\ Glyph of Dragon's Breath \\ Glyph of Water Elemental
-i(42756),	-- Monster - Item, Tome of Divine Right
 i(42764),	-- Krolmir
 i(42769),	-- r of Hodir \\ Spear of Hodir
 i(42770),	-- otten Depths Venom Sac \\ Forgotten Depths Venom Sac
@@ -2690,7 +2683,6 @@ i(44720),	-- Test Defense Rating Ring +3320
 i(44728),	-- Endless Rejuvenation Potion
 i(44729),	-- frost Powder \\ Everfrost Powder
 i(44730),	-- Socket Test Helm
-i(44743),	-- ist Acolyte's Hood \\ Cultist Acolyte's Hood \\ Cultist Acolyte's Hood Target
 i(44749),	-- ed Yeti Cheese \\ Salted Yeti Cheese
 i(44750),	-- tain Water \\ Mountain Water
 i(44752),	-- se Bear Tail \\ Coarse Bear Tail
@@ -3025,7 +3017,6 @@ i(49024),	-- Monster - Ironforge Smasher (Light)
 i(49084),	-- h of Thunder Strike \\ Glyph of Thunder Strike \\ Glyph of Command
 i(49110),	-- tmare Tear \\ Nightmare Tear
 i(49158),	-- Monster - Ancient Amani Longbow (Dark)
-i(49160),	-- Monster - Item, Book - C01 Silver
 i(49209),	-- ted Morrowgrain \\ Mutated Morrowgrain
 i(49223),	-- ission Slip \\ Permission Slip
 i(49224),	-- Permission Slip
@@ -3135,7 +3126,6 @@ i(51986),	-- Stalwart Wrap
 i(51988),	-- Stalwart Handguards
 i(51997),	-- wart Spaulders \\ Stalwart Spaulders
 i(51998),	-- rous Spaulders \\ Vigorous Spaulders
-i(52009),	-- Monster - Staff of Balzaphon
 i(52010),	-- Monster - Bleak Scythe
 i(52012),	-- Monster - Stanchion of Primal Instinct
 i(52016),	-- Monster - Damnation
@@ -3148,7 +3138,6 @@ i(52275),	-- ets of the Earth \\ Tablets of the Earth
 i(52276),	-- ets of Fire \\ Tablets of Fire
 i(52344),	-- hen Ring Supplies \\ Earthen Ring Supplies \\ Bag of Shaman Stuff
 i(52345),	-- nsing Totem \\ Cleansing Totem
-i(52359),	-- Monster - Item, Potion Purple Offhand
 i(52361),	-- Permission Slip
 i(52541),	-- ageigatron \\ Radiageigatron
 i(52562),	-- ental Fire for the Soul \\ Elemental Fire for the Soul
@@ -3209,106 +3198,10 @@ i(198643),	-- The Flag of Ownership
 i(198644),	-- Perpetual Purple Firework
 3.4.0.44925
 i(199210),	-- Northrend Adventuring Supplies
-i(199327),	-- Collective Cowl
-i(199328),	-- Collective Mantle
-i(199329),	-- Collective Armor
-i(199330),	-- Collective Sash
-i(199331),	-- Collective Pants
-i(199332),	-- Collective Boots
-i(199333),	-- Collective Bracers
-i(199334),	-- Collective Gloves
 i(199335),	-- Teleport Scroll: Menethil Harbor
 i(199336),	-- Teleport Scroll: Stormwind Harbor
-3.4.0.44930
-i(199463),	-- Collective Crown
-i(199464),	-- Collective Pads
-i(199465),	-- Collective Tunic
-i(199466),	-- Collective Belt
-i(199467),	-- Collective Legguards
-i(199468),	-- Collective Boots
-i(199469),	-- Collective Gloves
-i(199470),	-- Collective Cloak
-i(199471),	-- Collective Bindings
 3.4.0.44996
-i(199478),	-- Collective Crown
-i(199479),	-- Collective Pads
-i(199480),	-- Collective Tunic
-i(199481),	-- Collective Belt
-i(199482),	-- Collective Legguards
-i(199483),	-- Collective Boots
-i(199484),	-- Collective Gloves
-i(199485),	-- Collective Bindings
-i(199486),	-- Collective Headguard
-i(199487),	-- Collective Spaulders
-i(199488),	-- Collective Armor
-i(199489),	-- Collective Belt
-i(199490),	-- Collective Leggings
-i(199491),	-- Collective Boots
-i(199492),	-- Collective Armguards
-i(199493),	-- Collective Gauntlets
-i(199494),	-- Collective Headguard
-i(199495),	-- Collective Spaulders
-i(199496),	-- Collective Armor
-i(199497),	-- Collective Belt
-i(199498),	-- Collective Leggings
-i(199499),	-- Collective Boots
-i(199500),	-- Collective Armguards
-i(199501),	-- Collective Gauntlets
-i(199503),	-- Collective Faceguard
-i(199504),	-- Collective Pauldrons
-i(199505),	-- Collective Chestguard
-i(199506),	-- Collective Plate Vambraces
-i(199507),	-- Collective Plate Gauntlets
-i(199508),	-- Collective Plate Girdle
-i(199509),	-- Collective Plate Leggings
-i(199510),	-- Collective Plate Greaves
-i(199511),	-- Collective Faceguard
-i(199512),	-- Collective Pauldrons
-i(199513),	-- Collective Chestguard
-i(199514),	-- Collective Plate Vambraces
-i(199516),	-- Collective Plate Girdle
-i(199517),	-- Collective Plate Leggings
-i(199518),	-- Collective Plate Greaves
-i(199519),	-- Collective Necklace
-i(199520),	-- Collective Necklace
-i(199521),	-- Collective Necklace
-i(199522),	-- Collective Band of Wisdom
-i(199523),	-- Collective Band of Devastation \\ Collective  Band of Devastation
-i(199524),	-- Collective Band of Defense
-i(199525),	-- Collective Cloak
-i(199526),	-- Collective Cloak
-i(199527),	-- Collective Stone of Onslaught
-i(199528),	-- Collective Stone of Durability
-i(199529),	-- Collective Stone of Wisdom
-i(199530),	-- Collective Stone of Stoicism
-i(199635),	-- Collective Book of Healing
-i(199636),	-- Collective Book of Protection
-i(199637),	-- Collective Book of Righteousness
-i(199638),	-- Collective Idol of Wrath
-i(199639),	-- Collective Idol of the Wild
-i(199640),	-- Collective Idol of Life
-i(199642),	-- Collective Totem of Lightning
-i(199643),	-- Collective Totem of Restoration
-i(199644),	-- Collective Totem of the Storm
-i(199699),	-- Collective Band of Durability
-i(199709),	-- Collective Dagger
-i(199710),	-- Collective Rose
-i(199711),	-- Collective Wand
-i(199712),	-- Collective Staff
-i(199713),	-- Collective Stave
-i(199714),	-- Collective Bow
-i(199715),	-- Collective Warmaul
-i(199716),	-- Collective Sword
-i(199717),	-- Collective Blade
-i(199718),	-- Collective Smasher
-i(199719),	-- Collective Shield
-i(199720),	-- Collective Buckler
 i(199721),	-- Collective Shiv
-i(199722),	-- Collective Knives
-i(199723),	-- Collective Right Claw
-i(199724),	-- Collective Guardian
-i(199725),	-- Collective Left Claw
-i(199747),	-- Collective Plate Gauntlets
 i(199777),	-- Teleport Scroll: Orgrimmar Zeppelin Tower
 i(199778),	-- Teleport Scroll: Undercity Zeppelin Tower
 3.4.0.45064
@@ -3323,7 +3216,6 @@ i(199914),	-- Glowing Pebble
 i(200092),	-- Dara Test Dagger
 i(200101),	-- Dara Test Charmed Cierge
 3.4.0.45166
-i(200235),	-- Collective Cloak
 i(200238),	-- Northrend Adventuring Supplies
 i(200239),	-- Northrend Adventuring Supplies
 i(200240),	-- Northrend Adventuring Supplies
@@ -3337,28 +3229,7 @@ i(206272),	-- Holy Hand Grenade
 3.4.2.49442
 i(206580),	-- Charred Glyph \\ Glyph of Omen of Clarity
 3.4.2.49563
-i(206684),	-- Runed Talon
-i(206686),	-- Lumbering Bludgeon
-i(206687),	-- Acute Shortbow
-i(206689),	-- Brass-Bound Cudgel
-i(206690),	-- Embossed Brazen Shield
-i(206691),	-- Embossed Brazen Shield
-i(206693),	-- Flying Knives
-i(206698),	-- Stirrup Ring
-i(206707),	-- Fleece Cloak
-i(206708),	-- Gold Clasped Chain
-i(206717),	-- Brass-Bound Cudgel
-i(206726),	-- Spiked Greatstaff
-i(206727),	-- Stirrup Ring
-i(206728),	-- Fleece Cloak
-i(206729),	-- Gold Clasped Chain
-i(206738),	-- Stirrup Ring
-i(206739),	-- Gold Clasped Chain
-i(206740),	-- Fleece Cloak
-i(206759),	-- Essence or Dust
 i(206953),	-- Charred Glyph \\ Glyph of Shattering Throw
-3.4.2.49979
-i(208157),	-- Bounty Satchel
 3.4.3.51505
 i(211207),	-- Mysterious Artifact
 i(211261),	-- Signet of the Silver Covenant
@@ -3366,102 +3237,12 @@ i(211262),	-- Signet of the Sunreaver
 3.4.3.51831
 i(92553),	-- ish X-Ray Specs Visual \\ Gnomish X-Ray Specs Visual
 3.4.3.52237
-i(209515),	-- Secondhand Faceguard
-i(209516),	-- Secondhand Plate Vambraces
-i(209517),	-- Secondhand Plate Gauntlets
-i(209518),	-- Secondhand Chestguard
-i(209519),	-- Secondhand Plate Greaves
-i(209521),	-- Secondhand Plate Girdle
-i(209522),	-- Secondhand Plate Leggings
-i(209556),	-- Secondhand Necklace
-i(209557),	-- Secondhand Necklace
-i(209558),	-- Secondhand Necklace
-i(209583),	-- Secondhand Spaulders
-i(209584),	-- Secondhand Pads
-i(209585),	-- Secondhand Spaulders
-i(209586),	-- Secondhand Pauldrons
-i(209587),	-- Secondhand Pads
-i(209588),	-- Secondhand Pauldrons
-i(209589),	-- Secondhand Mantle
-i(209599),	-- Secondhand Cloak
-i(209600),	-- Secondhand Cloak
-i(209602),	-- Secondhand Cloak
-i(209603),	-- Secondhand Cloak
-i(209606),	-- Secondhand Armor
-i(209607),	-- Secondhand Tunic
-i(209627),	-- Secondhand Tunic
-i(209628),	-- Secondhand Armor
-i(209629),	-- Secondhand Armor
-i(209630),	-- Secondhand Chestguard
-i(209631),	-- Secondhand Bracers
-i(209632),	-- Secondhand Bindings
-i(209633),	-- Secondhand Bindings
-i(209634),	-- Secondhand Armguards
-i(209635),	-- Secondhand Armguards
-i(209636),	-- Secondhand Plate Vambraces
-i(209637),	-- Secondhand Gloves
-i(209638),	-- Secondhand Gloves
-i(209639),	-- Secondhand Gloves
-i(209640),	-- Secondhand Gauntlets
-i(209641),	-- Secondhand Gauntlets
-i(209642),	-- Secondhand Plate Gauntlets
-i(209644),	-- Secondhand Sash
-i(209645),	-- Secondhand Belt
-i(209646),	-- Secondhand Belt
-i(209647),	-- Secondhand Belt
-i(209648),	-- Secondhand Belt
-i(209649),	-- Secondhand Plate Girdle
-i(209650),	-- Secondhand Pants
-i(209651),	-- Secondhand Legguards
-i(209652),	-- Secondhand Legguards
-i(209653),	-- Secondhand Leggings
-i(209654),	-- Secondhand Leggings
-i(209655),	-- Secondhand Plate Leggings
-i(209656),	-- Secondhand Boots
-i(209657),	-- Secondhand Boots
-i(209658),	-- Secondhand Boots
-i(209659),	-- Secondhand Boots
-i(209660),	-- Secondhand Boots
-i(209661),	-- Secondhand Plate Greaves
-i(209662),	-- Secondhand Band of Devastation
-i(209663),	-- Secondhand Band of Durability
-i(209664),	-- Secondhand Band of Wisdom
-i(209665),	-- Secondhand Band of Defense
-i(209695),	-- Secondhand Stone of Durability
-i(209696),	-- Secondhand Stone of Wisdom
-i(209697),	-- Secondhand Stone of Stoicism
-i(209780),	-- Secondhand Stone of Onslaught
-i(209782),	-- Secondhand Guardian
-i(209783),	-- Secondhand Shiv
-i(209784),	-- Secondhand Sword
-i(209785),	-- Secondhand Blade
 i(209786),	-- Secondhand Shield
-i(209787),	-- Secondhand Buckler
-i(209789),	-- Secondhand Bow
-i(209790),	-- Secondhand Warmaul
-i(209791),	-- Secondhand Stave
-i(209792),	-- Secondhand Staff
-i(209793),	-- Secondhand Right Claw
-i(209794),	-- Secondhand Smasher
-i(209796),	-- Secondhand Dagger
-i(209801),	-- Secondhand Left Claw
-i(209803),	-- Secondhand Knives
-i(209804),	-- Secondhand Wand
-i(209807),	-- Secondhand Book of Healing
-i(209808),	-- Secondhand Book of Righteousness
-i(209809),	-- Secondhand Idol of Wrath
-i(209810),	-- Secondhand Book of Protection
-i(209811),	-- Secondhand Totem of Restoration
-i(209812),	-- Secondhand Totem of the Storm
-i(209813),	-- Secondhand Idol of the Wild
-i(209814),	-- Secondhand Idol of Life
-i(209815),	-- Secondhand Totem of Lightning
 i(209826),	-- Secondhand Sigil of Arthritic Binding
 i(209827),	-- Secondhand Sigil of the Frozen Conscience
 i(209829),	-- Secondhand Sigil of the Wild Buck
 i(210046),	-- Teleport Scroll: Northrend
 i(210047),	-- Teleport Scroll: Northrend
-i(210135),	-- Secondhand Rose
 3.4.3.54948
 i(134017),	-- Carlos' Famous Hat \\ Don Carlos' Famous Hat
 i(225921),	-- Icebound Cloak
@@ -3550,7 +3331,6 @@ i(238342),	-- Heartbreak Charm
 i(238343),	-- Winking Eye of Love
 3.4.4.59817
 i(71739),	-- Monster - Mace, 1H Wand Auchindoin D01 (Purple Flame, Low)
-i(71741),	-- Monster - Item, Draenei A 02 Purple (Offhand)
 i(134110),	-- en Helm \\ Hidden Helm
 i(134111),	-- en Cloak \\ Hidden Cloak
 i(134112),	-- en Shoulder \\ Hidden Shoulder
@@ -3578,3 +3358,40 @@ i(245613),	-- Celestial Steed
 3.4.4.61075
 i(226805),	-- Golden Ashes of Al'ar
 i(226812),	-- Harmonius Greetings Bear
+3.4.4.61581
+i(248753),	-- Meteorite Crystal
+i(248754),	-- Heart of Iron
+3.4.5.61815
+i(63040),	-- s of the Drake of the North Wind \\ Reins of the Drake of the North Wind
+i(63041),	-- s of the Drake of the South Wind \\ Reins of the Drake of the South Wind
+i(63042),	-- s of the Phosphorescent Stone Drake \\ Reins of the Phosphorescent Stone Drake
+i(63043),	-- s of the Vitreous Stone Drake \\ Reins of the Vitreous Stone Drake
+i(63125),	-- s of the Dark Phoenix \\ Reins of the Dark Phoenix
+i(67151),	-- s of Poseidus \\ Reins of Poseidus
+i(68823),	-- red Razzashi Raptor \\ Armored Razzashi Raptor
+i(68824),	-- t Zulian Panther \\ Swift Zulian Panther
+i(69224),	-- dering Egg of Millagazor \\ Smoldering Egg of Millagazor
+i(69747),	-- i Battle Bear \\ Amani Battle Bear
+i(71665),	-- etalon of Alysrazor \\ Flametalon of Alysrazor
+i(76062),	-- sh Shaman's Spear \\ Fetish Shaman's Spear
+i(76889),	-- tral Gryphon \\ Spectral Gryphon
+i(76902),	-- tral Wind Rider \\ Spectral Wind Rider
+i(77067),	-- s of the Blazing Drake \\ Reins of the Blazing Drake
+i(77069),	-- -Binder's Handmaiden \\ Life-Binder's Handmaiden
+i(78919),	-- riment 12-B \\ Experiment 12-B
+i(95474),	-- l of the Firelord \\ Jewel of the Firelord
+i(95475),	-- n of Eternal Winter \\ Crown of Eternal Winter
+i(97213),	-- of Hungering Darkness \\ Hood of Hungering Darkness
+i(246901),	-- Landro's Loot Box
+i(247893),	-- Fandral's Eternal Seed
+i(248263),	-- Azure Sea Boat \\ Fishing Boat Toy
+i(248398),	-- August's Loot Box
+i(248945),	-- Frostscythe of Lord Ahune
+i(248946),	-- Cloak of the Frigid Winds
+i(248947),	-- Shroud of Winter's Chill
+i(248948),	-- The Frost Lord's Battle Shroud
+i(248949),	-- The Frost Lord's War Cloak
+i(248950),	-- Icebound Cloak
+i(249819),	-- The Black Heart
+i(249820),	-- Banner of Victory
+i(249821),	-- Abyssal Rune

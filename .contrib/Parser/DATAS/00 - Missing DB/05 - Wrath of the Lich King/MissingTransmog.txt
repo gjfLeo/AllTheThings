@@ -33,7 +33,6 @@ s(170110)/i(34219),	-- Armor Test Item
 s(170121)/i(34654),	--
 s(170126)/i(34662),	-- zzOLDEnchanted Thorium Spikes
 s(170133)/i(34716),	-- er Cufflinks \\ Silver Cufflinks
-s(170134)/i(34717),	-- Monster - Item, Vial Green Offhand
 s(170135)/i(34718),	-- k Leather Shoes \\ Black Leather Shoes
 s(170146)/i(34965),	-- Test Copy Unwavering Legguards
 s(170147)/i(34966),	-- Test Two Unwavering Legguards
@@ -61,7 +60,6 @@ s(171101)/i(36723),	-- ed Shuriken \\ Clawed Shuriken
 s(171102)/i(36724),	-- en Throwing Blades \\ Frozen Throwing Blades
 s(171111)/i(36866),	-- HF BLUE Leather DPS Chest
 s(171112)/i(36867),	-- HF BLUE Plate DPS Chest
-s(171113)/i(36869),	-- Monster - Staff, Lord Valthalak (Particles)
 s(171150)/i(36981),	-- ened Vrykul Throwing Axe \\ Hardened Vrykul Throwing Axe
 s(171167)/i(37001),	-- Test Scott K Sword
 s(171186)/i(37028),	-- or-Bone Star \\ Condor-Bone Star
@@ -447,7 +445,6 @@ s(174118)/i(42087),	--
 s(174120)/i(42089),	--
 s(174121)/i(42090),	--
 s(174122)/i(42091),	--
-s(174137)/i(42139),	-- Monster - Staff, Rhonin
 s(174146)/i(42207),	-- ful Gladiator's Cleaver \\ Hateful Gladiator's Cleaver
 s(174150)/i(42211),	--
 s(174164)/i(42226),	-- ful Gladiator's Hacker \\ Hateful Gladiator's Hacker
@@ -605,7 +602,6 @@ s(174476)/i(42719),	-- iator's Felweave Cowl \\ Gladiator's Felweave Cowl
 s(174477)/i(42720),	-- iator's Felweave Handguards \\ Gladiator's Felweave Handguards
 s(174478)/i(42721),	-- iator's Felweave Raiment \\ Gladiator's Felweave Raiment
 s(174479)/i(42722),	-- iator's Felweave Trousers \\ Gladiator's Felweave Trousers
-s(174490)/i(42756),	-- Monster - Item, Tome of Divine Right
 s(174498)/i(42764),	-- Krolmir
 s(174568)/i(42863),	-- pened Hyldnir Harpoon \\ Sharpened Hyldnir Harpoon
 s(174600)/i(42919),	-- Indalamar's Test 2h Axe
@@ -766,7 +762,6 @@ s(175353)/i(44634),	--
 s(175363)/i(44644),	-- ran Dart \\ Dalaran Dart
 s(175371)/i(44656),	-- ist Acolyte Robes \\ Cultist Acolyte Robes
 s(175403)/i(44730),	-- Socket Test Helm
-s(175414)/i(44743),	-- ist Acolyte's Hood \\ Cultist Acolyte's Hood \\ Cultist Acolyte's Hood Target
 s(175420)/i(44786),	--
 s(175421)/i(44787),	--
 s(175423)/i(44796),	--
@@ -965,7 +960,6 @@ s(177945)/i(49024),	-- Monster - Ironforge Smasher (Light)
 s(177951)/i(49106),	--
 s(177953)/i(49122),	--
 s(177960)/i(49158),	-- Monster - Ancient Amani Longbow (Dark)
-s(177961)/i(49160),	-- Monster - Item, Book - C01 Silver
 s(177982)/i(49292),	-- Monster - Sword - Forgemaster 2h
 s(177983)/i(49293),	-- Monster - Demise w/ Frost Enchant
 s(178021)/i(49353),	-- Monster - Polearm, Epic D 02 Glow Red Low, On Fire (Onyxia Special)
@@ -1421,7 +1415,6 @@ s(179831)/i(51986),	-- Stalwart Wrap
 s(179833)/i(51988),	-- Stalwart Handguards
 s(179838)/i(51997),	-- wart Spaulders \\ Stalwart Spaulders
 s(179839)/i(51998),	-- rous Spaulders \\ Vigorous Spaulders
-s(179842)/i(52009),	-- Monster - Staff of Balzaphon
 s(179843)/i(52010),	-- Monster - Bleak Scythe
 s(179845)/i(52012),	-- Monster - Stanchion of Primal Instinct
 s(179847)/i(52016),	-- Monster - Damnation
@@ -1431,7 +1424,6 @@ s(179851)/i(52033),	--
 s(179855)/i(52058),	-- Monster - Valanos' Longbow (0.5 Speed)
 s(179858)/i(52356),	--
 s(179859)/i(52357),	--
-s(179861)/i(52359),	-- Monster - Item, Potion Purple Offhand
 s(179862)/i(52686),	-- Monster - Gnomeregan Bonechopper (Dark)
 s(179863)/i(52729),	-- uit's Robe \\ Recruit's Robe \\ Doomsday Recruit's Robe
 s(179864)/i(53048),	-- sday Message \\ Doomsday Message
@@ -1458,175 +1450,15 @@ s(179944)/i(54848),	-- Frost Witch's Shoulderpads (Test)
 3.4.0.44064
 s(180941)/i(44448),	-- bian Reinforced Quiver \\ Nerubian Reinforced Quiver
 3.4.0.45854
-s(181946)/i(199327),	-- Collective Cowl
-s(181947)/i(199328),	-- Collective Mantle
-s(181948)/i(199329),	-- Collective Armor
-s(181949)/i(199330),	-- Collective Sash
-s(181950)/i(199331),	-- Collective Pants
-s(181951)/i(199332),	-- Collective Boots
-s(181952)/i(199333),	-- Collective Bracers
-s(181953)/i(199334),	-- Collective Gloves
-s(182044)/i(199463),	-- Collective Crown
-s(182045)/i(199464),	-- Collective Pads
-s(182046)/i(199465),	-- Collective Tunic
-s(182047)/i(199466),	-- Collective Belt
-s(182048)/i(199467),	-- Collective Legguards
-s(182049)/i(199468),	-- Collective Boots
-s(182050)/i(199469),	-- Collective Gloves
-s(182051)/i(199470),	-- Collective Cloak
-s(182052)/i(199471),	-- Collective Bindings
-s(182053)/i(199478),	-- Collective Crown
-s(182054)/i(199479),	-- Collective Pads
-s(182055)/i(199480),	-- Collective Tunic
-s(182056)/i(199481),	-- Collective Belt
-s(182057)/i(199482),	-- Collective Legguards
-s(182058)/i(199483),	-- Collective Boots
-s(182059)/i(199484),	-- Collective Gloves
-s(182060)/i(199485),	-- Collective Bindings
-s(182061)/i(199486),	-- Collective Headguard
-s(182062)/i(199487),	-- Collective Spaulders
-s(182063)/i(199488),	-- Collective Armor
-s(182064)/i(199489),	-- Collective Belt
-s(182065)/i(199490),	-- Collective Leggings
-s(182066)/i(199491),	-- Collective Boots
-s(182067)/i(199492),	-- Collective Armguards
-s(182068)/i(199493),	-- Collective Gauntlets
-s(182069)/i(199494),	-- Collective Headguard
-s(182070)/i(199495),	-- Collective Spaulders
-s(182071)/i(199496),	-- Collective Armor
-s(182072)/i(199497),	-- Collective Belt
-s(182073)/i(199498),	-- Collective Leggings
-s(182074)/i(199499),	-- Collective Boots
-s(182075)/i(199500),	-- Collective Armguards
-s(182076)/i(199501),	-- Collective Gauntlets
-s(182077)/i(199503),	-- Collective Faceguard
-s(182078)/i(199504),	-- Collective Pauldrons
-s(182079)/i(199505),	-- Collective Chestguard
-s(182080)/i(199506),	-- Collective Plate Vambraces
-s(182081)/i(199507),	-- Collective Plate Gauntlets
-s(182082)/i(199508),	-- Collective Plate Girdle
-s(182083)/i(199509),	-- Collective Plate Leggings
-s(182084)/i(199510),	-- Collective Plate Greaves
-s(182085)/i(199511),	-- Collective Faceguard
-s(182086)/i(199512),	-- Collective Pauldrons
-s(182087)/i(199513),	-- Collective Chestguard
-s(182088)/i(199514),	-- Collective Plate Vambraces
-s(182090)/i(199516),	-- Collective Plate Girdle
-s(182091)/i(199517),	-- Collective Plate Leggings
-s(182092)/i(199518),	-- Collective Plate Greaves
-s(182093)/i(199525),	-- Collective Cloak
-s(182094)/i(199526),	-- Collective Cloak
-s(182218)/i(199709),	-- Collective Dagger
-s(182219)/i(199710),	-- Collective Rose
-s(182220)/i(199711),	-- Collective Wand
-s(182221)/i(199712),	-- Collective Staff
-s(182222)/i(199713),	-- Collective Stave
-s(182223)/i(199714),	-- Collective Bow
-s(182224)/i(199715),	-- Collective Warmaul
-s(182225)/i(199716),	-- Collective Sword
-s(182226)/i(199717),	-- Collective Blade
-s(182227)/i(199718),	-- Collective Smasher
-s(182228)/i(199719),	-- Collective Shield
-s(182229)/i(199720),	-- Collective Buckler
 s(182230)/i(199721),	-- Collective Shiv
 s(182231)/i(199722),	-- Collective Knives
-s(182232)/i(199723),	-- Collective Right Claw
-s(182233)/i(199724),	-- Collective Guardian
-s(182234)/i(199725),	-- Collective Left Claw
-s(182256)/i(199747),	-- Collective Plate Gauntlets
-s(182400)/i(200235),	-- Collective Cloak
 3.4.2.49563
-s(188054)/i(206684),	-- Runed Talon
-s(188056)/i(206686),	-- Lumbering Bludgeon
-s(188057)/i(206687),	-- Acute Shortbow
-s(188059)/i(206689),	-- Brass-Bound Cudgel
-s(188060)/i(206690),	-- Embossed Brazen Shield
-s(188061)/i(206691),	-- Embossed Brazen Shield
 s(188063)/i(206693),	-- Flying Knives
-s(188075)/i(206707),	-- Fleece Cloak
-s(188084)/i(206717),	-- Brass-Bound Cudgel
-s(188093)/i(206726),	-- Spiked Greatstaff
-s(188094)/i(206728),	-- Fleece Cloak
-s(188103)/i(206740),	-- Fleece Cloak
 3.4.3.51831
 s(48336)/i(92553),	-- ish X-Ray Specs Visual \\ Gnomish X-Ray Specs Visual
 3.4.3.52237
-s(190798)/i(209516),	-- Secondhand Plate Vambraces
-s(190800)/i(209522),	-- Secondhand Plate Leggings
-s(190801)/i(209515),	-- Secondhand Faceguard
-s(190802)/i(209517),	-- Secondhand Plate Gauntlets
-s(190803)/i(209519),	-- Secondhand Plate Greaves
-s(190804)/i(209518),	-- Secondhand Chestguard
-s(190810)/i(209528),	-- Secondhand Faceguard
-s(190811)/i(209529),	-- Secondhand Crown
-s(190812)/i(209530),	-- Secondhand Crown
-s(190813)/i(209531),	-- Secondhand Headguard
-s(190814)/i(209532),	-- Secondhand Cowl
-s(190815)/i(209533),	-- Secondhand Headguard
-s(190860)/i(209583),	-- Secondhand Spaulders
-s(190861)/i(209584),	-- Secondhand Pads
-s(190862)/i(209585),	-- Secondhand Spaulders
-s(190863)/i(209586),	-- Secondhand Pauldrons
-s(190864)/i(209587),	-- Secondhand Pads
-s(190865)/i(209588),	-- Secondhand Pauldrons
-s(190866)/i(209589),	-- Secondhand Mantle
-s(190876)/i(209599),	-- Secondhand Cloak
-s(190877)/i(209600),	-- Secondhand Cloak
-s(190879)/i(209602),	-- Secondhand Cloak
-s(190880)/i(209603),	-- Secondhand Cloak
-s(190881)/i(209606),	-- Secondhand Armor
-s(190882)/i(209607),	-- Secondhand Tunic
-s(190885)/i(209627),	-- Secondhand Tunic
-s(190886)/i(209628),	-- Secondhand Armor
-s(190887)/i(209629),	-- Secondhand Armor
-s(190888)/i(209630),	-- Secondhand Chestguard
-s(190889)/i(209631),	-- Secondhand Bracers
-s(190890)/i(209632),	-- Secondhand Bindings
-s(190891)/i(209633),	-- Secondhand Bindings
-s(190892)/i(209634),	-- Secondhand Armguards
-s(190893)/i(209635),	-- Secondhand Armguards
-s(190894)/i(209636),	-- Secondhand Plate Vambraces
-s(190895)/i(209637),	-- Secondhand Gloves
-s(190896)/i(209638),	-- Secondhand Gloves
-s(190897)/i(209639),	-- Secondhand Gloves
-s(190898)/i(209640),	-- Secondhand Gauntlets
-s(190899)/i(209641),	-- Secondhand Gauntlets
-s(190900)/i(209642),	-- Secondhand Plate Gauntlets
-s(190901)/i(209644),	-- Secondhand Sash
-s(190902)/i(209645),	-- Secondhand Belt
-s(190903)/i(209646),	-- Secondhand Belt
-s(190904)/i(209647),	-- Secondhand Belt
-s(190905)/i(209648),	-- Secondhand Belt
-s(190906)/i(209649),	-- Secondhand Plate Girdle
-s(190907)/i(209650),	-- Secondhand Pants
-s(190908)/i(209651),	-- Secondhand Legguards
-s(190909)/i(209652),	-- Secondhand Legguards
-s(190910)/i(209653),	-- Secondhand Leggings
-s(190911)/i(209654),	-- Secondhand Leggings
-s(190912)/i(209655),	-- Secondhand Plate Leggings
-s(190913)/i(209656),	-- Secondhand Boots
-s(190914)/i(209657),	-- Secondhand Boots
-s(190915)/i(209658),	-- Secondhand Boots
-s(190916)/i(209659),	-- Secondhand Boots
-s(190917)/i(209660),	-- Secondhand Boots
-s(190918)/i(209661),	-- Secondhand Plate Greaves
-s(191010)/i(209782),	-- Secondhand Guardian
-s(191011)/i(209783),	-- Secondhand Shiv
-s(191012)/i(209784),	-- Secondhand Sword
-s(191013)/i(209785),	-- Secondhand Blade
 s(191014)/i(209786),	-- Secondhand Shield
-s(191015)/i(209787),	-- Secondhand Buckler
-s(191016)/i(209789),	-- Secondhand Bow
-s(191017)/i(209790),	-- Secondhand Warmaul
-s(191018)/i(209791),	-- Secondhand Stave
-s(191019)/i(209792),	-- Secondhand Staff
-s(191020)/i(209793),	-- Secondhand Right Claw
-s(191021)/i(209794),	-- Secondhand Smasher
-s(191022)/i(209796),	-- Secondhand Dagger
-s(191023)/i(209801),	-- Secondhand Left Claw
 s(191024)/i(209803),	-- Secondhand Knives
-s(191026)/i(209804),	-- Secondhand Wand
-s(191941)/i(210135),	-- Secondhand Rose
 3.4.3.54948
 s(77255)/i(134017),	-- Carlos' Famous Hat \\ Don Carlos' Famous Hat
 s(222836)/i(225921),	-- Icebound Cloak
@@ -1698,6 +1530,15 @@ s(104603)/i(168664),	-- Hidden Boots
 s(104604)/i(168665),	-- Hidden Bracers
 s(198608)/i(216696),	-- Hidden Pants
 s(213669)/i(71739),	-- Monster - Mace, 1H Wand Auchindoin D01 (Purple Flame, Low)
-s(213670)/i(71741),	-- Monster - Item, Draenei A 02 Purple (Offhand)
 3.4.4.59853
 s(290291)/i(242550),	-- Warglaive of Azzinoth
+3.4.5.61815
+s(293222)/i(95475),	-- n of Eternal Winter \\ Crown of Eternal Winter
+s(295408)/i(97213),	-- of Hungering Darkness \\ Hood of Hungering Darkness
+s(295409)/i(95474),	-- l of the Firelord \\ Jewel of the Firelord
+s(295722)/i(248945),	-- Frostscythe of Lord Ahune
+s(295723)/i(248946),	-- Cloak of the Frigid Winds
+s(295724)/i(248947),	-- Shroud of Winter's Chill
+s(295725)/i(248948),	-- The Frost Lord's Battle Shroud
+s(295726)/i(248949),	-- The Frost Lord's War Cloak
+s(295727)/i(248950),	-- Icebound Cloak

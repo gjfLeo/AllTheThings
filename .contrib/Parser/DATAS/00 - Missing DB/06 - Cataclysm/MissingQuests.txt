@@ -15,11 +15,6 @@ q(13994),	-- (DEPRECATED)
 q(13996),	-- Can You Get This Quest While I'm In Combat?
 q(14000),	-- Hunt or Be Hunted
 q(14002),	-- A Job for a Bloodhound
-q(14007),	-- Steady Shot	 CATA:Steady Shot	 MOP:Steady Shot
-q(14009),	-- Learning the Word	 CATA:Flash Heal	 MOP:Flash Heal
-q(14010),	-- Eviscerate	 CATA:Eviscerate	 MOP:Eviscerate
-q(14012),	-- Corruption	 CATA:Immolate	 MOP:Immolate
-q(14013),	-- Charge	 CATA:Charge	 MOP:Charge
 q(14015),	-- Incomplete Cartography
 q(14020),	-- The Curse
 q(14025),	-- To the Frontlines
@@ -28,7 +23,6 @@ q(14027),	-- Face to Face
 q(14029),	-- Breaking the Siege
 q(14097),	-- Get That Merchant Out of Here!
 q(14133),	-- The Way to a Mage's Heart
-q(14137),	-- Class Training (Tracking Event)
 q(14156),	-- Man on the Inside
 q(14298),	-- Kill Cultists/Dragonflight
 q(14315),	-- Liam's Stupor

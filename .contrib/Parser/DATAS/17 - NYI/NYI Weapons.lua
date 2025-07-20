@@ -25,6 +25,15 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55307),	-- Rustmaul Bow
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
@@ -68,6 +77,14 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(CROSSBOWS, {
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				-- #if BEFORE WOD
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55325),	-- Rustmaul Crossbow
+				}),
+				-- #endif
+
 				-- 4.x.x
 				n(P4xx, {
 					i(65434),	-- Monster - Bow_2h_Crossbow_C_01 - Black \\ Monster - Crossbow C01 Black
@@ -102,6 +119,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(DAGGERS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(24071),	-- Bland Dagger
 					i(17142),	-- Shard of the Defiler
@@ -112,14 +130,18 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.TBC, {
+				-- 2.x.x
 				n(P2xx, {
 					i(23422),	-- Engraved Dagger
 				}),
 			}),
 			expansion(EXPANSION.WRATH, {
+				-- 3.0.2
 				expansion(EXPANSION.WRATH, patch(0,2), {
 					i(38247),	-- Entrail Render
 				}),
+
+				-- 3.4.2
 				-- #if ANYCLASSIC
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206692),	-- Parrying Dagger
@@ -128,9 +150,17 @@ root(ROOTS.NeverImplemented, {
 				-- #endif
 			}),
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
 				expansion(EXPANSION.CATA, patch(0,1), {
+					-- #if BEFORE WOD
+					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+					i(55334),	-- Rustmaul Dagger
+					i(55442),	-- Sorrowmurk Spellblade
+					-- #endif
 					i(62329),	-- Dire Slasher
 				}),
+
+				-- 4.x.x
 				n(P4xx, {
 					i(77960),	-- Monster - Item, Bottle - Green (Dagger)
 					i(72107),	-- Monster - Item, Draenei A 02 Purple
@@ -144,6 +174,11 @@ root(ROOTS.NeverImplemented, {
 					i(77441),	-- Monster - Knife_1h_PanStart_A_01 - Default
 					i(77443),	-- Monster - Knife_1h_PanStart_A_01 - Green
 					i(77444),	-- Monster - Knife_1h_PanStart_A_01 - Red
+					i(83369),	-- 5.0 QA PVP Test Caster DPS Dagger
+					i(83370),	-- 5.0 QA PVP Test Caster DPS Dagger 2
+					i(83420),	-- 5.0 QA PVP Test Fast Rogue Dagger
+					i(83421),	-- 5.0 QA PVP Test Fast Rogue Dagger 2
+					i(83575),	-- 5.0 QA PVP Test Slow Rogue Dagger 3
 				}),
 
 				-- 5.x.x
@@ -190,6 +225,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(FIST_WEAPONS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(20003),	-- Devilsaur Claws
 					i(20005),	-- Devilsaur Claws
@@ -198,18 +234,32 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.WRATH, {
+				-- 3.x.x
 				n(P3xx, {
 					i(38243),	-- Ravaging Steelfist
 				}),
 			}),
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55352),	-- Rustmaul Knuckles
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
 					i(79786),	-- QA Combat Test Agility Fist Weapon (MH) 2
 					i(79787),	-- QA Combat Test Agility Fist Weapon (MH) 3
+					i(83353),	-- 5.0 QA PVP Test Agility Fist Weapon (MH)
+					i(83354),	-- 5.0 QA PVP Test Agility Fist Weapon (MH) 2
+					i(83355),	-- 5.0 QA PVP Test Agility Fist Weapon (MH) 3
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189699),	-- 10.0 Dungeon Template - FistWeapon - Weapon
 					i(189137),	-- 10.0 QRP Template <Descriptor> Fist
@@ -234,6 +284,10 @@ root(ROOTS.NeverImplemented, {
 				-- 4.0.3
 				expansion(EXPANSION.CATA, patch(0,3), {
 					i(49455),	-- Blunderbuss of Deforestation
+					-- #if BEFORE WOD
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55361),	-- Rustmaul Gun
+					-- #endif
 				}),
 
 				-- 4.x.x
@@ -242,6 +296,13 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83463),	-- 5.0 QA PVP Test Hunter Gun
+					i(83464),	-- 5.0 QA PVP Test Hunter Gun No Variance
+				}),
+
+				-- 5.x.x
 				n(P5xx, {
 					i(90188),	-- Airship Gunner's Rifle
 				}),
@@ -259,6 +320,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(HELD_IN_OFF_HAND, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(20337),	-- Gnome Head on a Stick
 					i(21796),	-- Monster - Item, Ahn'Qiraj Held Scepter
@@ -269,12 +331,14 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.TBC, {
+				-- 2.x.x
 				n(P2xx, {
 					i(33162),	-- Monster - Item, Tankard Gold Offhand (Yellow Glow)
 					i(36761),	-- Monster - Item, Tankard Metal Offhand (Red Glow)
 				}),
 			}),
 			expansion(EXPANSION.WRATH, {
+				-- 3.x.x
 				n(P3xx, {
 					i(49160),	-- Monster - Item, Book - C01 Silver
 					i(71741),	-- Monster - Item, Draenei A 02 Purple (Offhand)
@@ -284,6 +348,15 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				-- #if BEFORE WOD
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55379),	-- Sorrowmurk Crystal
+				}),
+				-- #endif
+
+				-- 4.x.x
 				n(P4xx, {
 					i(72515),	-- Monster - Item, Book - C06 Green Offhand
 					i(71736),	-- Monster - Item, Draenei A 01 Pink (Offhand)
@@ -297,6 +370,11 @@ root(ROOTS.NeverImplemented, {
 					i(77381),	-- Monster - Offhand_1h_PanStart_A_01 - Green
 					i(77382),	-- Monster - Offhand_1h_PanStart_A_01 - Purple
 					i(77383),	-- Monster - Offhand_1h_PanStart_A_01 - Red
+					i(83382),	-- 5.0 QA PVP Test Caster DPS Offhand
+					i(83383),	-- 5.0 QA PVP Test Caster DPS Offhand 2
+					i(83432),	-- 5.0 QA PVP Test Healer Offhand
+					i(83433),	-- 5.0 QA PVP Test Healer Offhand 2
+					i(83434),	-- 5.0 QA PVP Test Healer Offhand 3
 				}),
 
 				-- 5.x.x
@@ -340,6 +418,14 @@ root(ROOTS.NeverImplemented, {
 					i(50251),	-- Shadow's Edge One-Hander
 				}),
 			}),
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55289),	-- Rustmaul Axe
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
@@ -349,6 +435,10 @@ root(ROOTS.NeverImplemented, {
 					i(77376),	-- Monster - Axe_1h_PanStart_A_01 - Purple
 					i(77377),	-- Monster - Axe_1h_PanStart_A_01 - Yellow
 					i(79788),	-- QA Combat Test Offhand Agility Axe 2
+					i(83333),	-- 5.0 QA PVP Test Agility 1h Axe
+					i(83472),	-- 5.0 QA PVP Test Offhand Agility Axe
+					i(83473),	-- 5.0 QA PVP Test Offhand Agility Axe 2
+					i(83576),	-- 5.0 QA PVP Test Strength 1h Axe
 				}),
 
 				-- 5.x.x
@@ -423,6 +513,15 @@ root(ROOTS.NeverImplemented, {
 					i(38468),	-- Kalu'ak Peacebringer
 				}),
 			}),
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55370),	-- Sorrowmurk Scepter
+				})
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
@@ -431,6 +530,11 @@ root(ROOTS.NeverImplemented, {
 					i(77371),	-- Monster - Mace_1h_PanStart_A_01 - Green
 					i(77372),	-- Monster - Mace_1h_PanStart_A_01 - Red
 					i(79785),	-- QA Combat Test Healer 1H Mace 3
+					i(83334),	-- 5.0 QA PVP Test Agility 1h Mace
+					i(83423),	-- 5.0 QA PVP Test Healer 1H Mace 2
+					i(83424),	-- 5.0 QA PVP Test Healer 1H Mace 3
+					i(83577),	-- 5.0 QA PVP Test Strength 1h Mace
+					i(83598),	-- 5.0 QA PVP Test Tank 1h Mace
 				}),
 
 				-- 5.x.x
@@ -508,8 +612,6 @@ root(ROOTS.NeverImplemented, {
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
-					i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
-					i(80211),	-- Enchanting Test Sword
 					i(77384),	-- Monster - Sword_1H_PanStart_A_01 - Default
 					i(77385),	-- Monster - Sword_1H_PanStart_A_01 - Blue
 					i(77386),	-- Monster - Sword_1H_PanStart_A_01 - Green
@@ -519,6 +621,12 @@ root(ROOTS.NeverImplemented, {
 					i(79004),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Gold
 					i(79005),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Green
 					i(79006),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Purple
+					i(80211),	-- Enchanting Test Sword
+					i(83335),	-- 5.0 QA PVP Test Agility 1h Sword
+					i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
+					i(83474),	-- 5.0 QA PVP Test Offhand Strength Sword
+					i(83578),	-- 5.0 QA PVP Test Strength 1h Sword
+					i(83614),	-- 5.0 QA PVP Test Tank Sword
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -564,6 +672,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(POLEARMS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(12986),	-- Monster - Spear, Broad Notched
 					-- #if SEASON_OF_DISCOVERY
@@ -584,12 +693,20 @@ root(ROOTS.NeverImplemented, {
 					i(58703),	-- QA Combat Test Agility Polearm \\ QA Combat Test Polearm (Agility)
 				}),
 			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83356),	-- 5.0 QA PVP Test Agility Polearm
+				}),
+			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178453),	-- zzzRated - Weapon - Polearm Agi
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189703),	-- 10.0 Dungeon Template - Polearms - Agi - 2 Hand
 					i(189678),	-- 10.0 Dungeon Template - Polearms - Int - 2 Hand
@@ -606,6 +723,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(SHIELDS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(7748),	-- Forcestone Buckler
 					i(20502),	-- Ironbark Shield [NPC Shield]
@@ -616,12 +734,14 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.TBC, {
+				-- 2.x.x
 				n(P2xx, {
 					i(34415),	-- Crystaline Shard Shield
 				}),
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206690),	-- Embossed Brazen Shield
 					i(206691),	-- Embossed Brazen Shield
@@ -630,7 +750,8 @@ root(ROOTS.NeverImplemented, {
 			-- #endif
 			-- #if BEFORE WOD
 			expansion(EXPANSION.CATA, {
-				expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				expansion(EXPANSION.CATA, patch(0,3), {
 					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
 					i(55433),	-- Steelgrill Shield
 				}),
@@ -645,6 +766,12 @@ root(ROOTS.NeverImplemented, {
 					i(77412),	-- Monster - Shield_PanStart_A_01 - Red
 					i(77414),	-- Monster - Shield_PanStart_A_01 - Yellow
 					i(79804),	-- QA Combat Test Healer Shield 4
+					i(83441),	-- 5.0 QA PVP Test Healer Shield 2
+					i(83442),	-- 5.0 QA PVP Test Healer Shield 3
+					i(83443),	-- 5.0 QA PVP Test Healer Shield 4
+					i(83611),	-- 5.0 QA PVP Test Tank Shield
+					i(83612),	-- 5.0 QA PVP Test Tank Shield 2
+					i(83613),	-- 5.0 QA PVP Test Tank Shield 3
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -666,6 +793,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(STAVES, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(1907),	-- Monster - Staff, Basic
 					i(1908),	-- Monster - Staff, Crooked
@@ -884,6 +1012,9 @@ root(ROOTS.NeverImplemented, {
 					i(80280),	-- Monster - Stave_2h_PanProg_B_02 - Purple
 					i(80281),	-- Monster - Stave_2h_PanProg_B_02 - Red
 					i(82771),	-- Monster - Stave_2H_MoguShanVaults_A_01 (baked)
+					i(83357),	-- 5.0 QA PVP Test Agility Staff
+					i(83358),	-- 5.0 QA PVP Test Agility Staff 2
+					i(83359),	-- 5.0 QA PVP Test Agility Staff 3
 					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
 					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
 				}),
@@ -948,6 +1079,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178026),	-- Gormwrought Staff
 					i(178669),	-- UNUSED - Unrated - Weapon - Staff AGI
@@ -955,6 +1087,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189674),	-- 10.0 Dungeon Template - Staff - Agi - 2 Hand
 					i(189687),	-- 10.0 Dungeon Template - Staff - Int - 2 Hand
@@ -972,12 +1105,14 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(THROWN, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(21135),	-- Broken Assassin's Throwing Axe
 				}),
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206693),	-- Flying Knives
 				}),
@@ -986,6 +1121,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_AXES, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(21192),	-- Monster - Axe, 2H UBER Blackwing
 					i(21286),	-- Monster - Axe, 2H Large Double Bladed, Gold
@@ -994,12 +1130,27 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				-- #if BEFORE WOD
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55298),	-- Rustmaul Broadaxe
+				}),
+				-- #endif
+
 				-- 4.x.x
 				n(P4xx, {
 					i(58769),	-- QA Combat Test Strength 2H Axe \\ QA Combat Test Strength 2h Axe
 				}),
 			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83579),	-- 5.0 QA PVP Test Strength 2H Axe
+				}),
+			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(176005),	-- UNUSED - Rated - Weapon - 2H Axe Melee
 					i(178395),	-- UNUSED - Rated - Weapon - 2H Axe Melee
@@ -1007,6 +1158,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189697),	-- 10.0 Dungeon Template - Axe2H - Str - 2 Hand
 					i(189135),	-- 10.0 QRP Template <Descriptor> Axe
@@ -1016,6 +1168,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_MACES, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(21555),	-- Monster - Mace2H, Alliance PvP
 					i(22346),	-- Monster - Mace2H, Unstoppable Force
@@ -1026,6 +1179,7 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206686),	-- Lumbering Bludgeon
 				}),
@@ -1044,16 +1198,24 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83580),	-- 5.0 QA PVP Test Strength 2H Mace
+				}),
+
+				-- 5.x.x
 				n(P5xx, {
 					i(90280),	-- Landfall Burnished Greaves
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178667),	-- UNUSED - Unrated - Weapon - 2H Mace STR
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189700),	-- 10.0 Dungeon Template - Mace2H - Int - 2 Hand
 					i(189673),	-- 10.0 Dungeon Template - Mace2H - Str - 2 Hand
@@ -1094,6 +1256,7 @@ root(ROOTS.NeverImplemented, {
 					i(77390),	-- Monster - Sword_2h_PanStart_A_01 - Green
 					i(77391),	-- Monster - Sword_2h_PanStart_A_01 - Orange
 					i(77392),	-- Monster - Sword_2h_PanStart_A_01 - Yellow
+					i(83581),	-- 5.0 QA PVP Test Strength 2h Sword
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -1133,6 +1296,14 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
+				-- #if BEFORE WOD
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
+					i(55487),	-- Sorrowmurk Wand
+				}),
+				-- #endif
+
 				-- 4.x.x
 				n(P4xx, {
 					i(58637),	-- ObsoleteQA Combat Test Healer Wand \\ QA Combat Test Healer Wand
@@ -1164,11 +1335,13 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(WARGLAIVES, {
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178460),	-- zzzRated - Weapon - Warglaive
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189676),	-- 10.0 Dungeon Template - Warglaives - Weapon
 					i(189057),	-- 10.0 End Game Template <Descriptor> Warglaive
