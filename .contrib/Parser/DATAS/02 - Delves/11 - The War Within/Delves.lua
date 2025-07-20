@@ -963,7 +963,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(42212, {	-- Titan Console Overcharged
 			["maps"] = OVERCHARGED_DELVES,
-			["timeline"] = { ADDED_11_1_7 },
+			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0_SEASONSTART },
 			["g"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
 		}),
 		ach(40100, {	-- Undying Caver
