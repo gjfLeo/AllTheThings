@@ -1484,5 +1484,6 @@ i(246908);	-- K'areshi Supply Crate
 i(246905);	-- Overtuned K'areshi Goggles
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
+i(242534);	-- Azure Sea Skiff
 i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher

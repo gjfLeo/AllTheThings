@@ -2086,6 +2086,7 @@ i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
 i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(242717, 1233518);	-- Lavender K'arroc
+i(250240, 1250578);	-- Phase-Lost Slateback
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
 i(237485, 1223191);	-- Terror of the Night
@@ -2108,7 +2109,6 @@ i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(246921, 1244261);	-- Legion Forged Elekk
 i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
-i(0, 1250578);	-- Phase-Lost Slateback
 i(242713, 1221132);	-- Resplendent K'arroc
 i(246445, 1242272);	-- Royal Voidwing
 i(246160, 1241076);	-- Sthaarbs's Last Lunch

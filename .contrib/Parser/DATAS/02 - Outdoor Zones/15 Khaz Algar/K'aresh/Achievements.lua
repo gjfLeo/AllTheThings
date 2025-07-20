@@ -53,15 +53,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					{ 60.7, 55.3, KARESH_TAZAVESH },
 				},
 				["g"] = {
-					i(250282),	--  Phase-Lost Bardiche (COSMETIC!)
-					i(250283),	--  Phase-Lost Carver (COSMETIC!)
-					i(250273),	--  Phase-Lost Carver (COSMETIC!)
-					i(250274),	--  Phase-Lost Hatchet (COSMETIC!)
-					i(250271),	--  Phase-Lost Hammer (COSMETIC!)
-					i(250277),	--  Phase-Lost Maul (COSMETIC!)
-					i(250270),	--  Phase-Lost Scimitar (COSMETIC!)
-					i(250296),	--  Phase-Lost Sigil (COSMETIC!)
-					i(250275),	--  Phase-Lost Zweihander (COSMETIC!)
+					i(250240),	-- Phase-Lost Slateback (MOUNT!)
+					i(250282),	-- Phase-Lost Bardiche (COSMETIC!)
+					i(250283),	-- Phase-Lost Carver (COSMETIC!)
+					i(250273),	-- Phase-Lost Carver (COSMETIC!)
+					i(250274),	-- Phase-Lost Hatchet (COSMETIC!)
+					i(250271),	-- Phase-Lost Hammer (COSMETIC!)
+					i(250277),	-- Phase-Lost Maul (COSMETIC!)
+					i(250270),	-- Phase-Lost Scimitar (COSMETIC!)
+					i(250296),	-- Phase-Lost Sigil (COSMETIC!)
+					i(250275),	-- Phase-Lost Zweihander (COSMETIC!)
 				},
 			}),
 			ach(42742, {	-- Power of the Reshii
