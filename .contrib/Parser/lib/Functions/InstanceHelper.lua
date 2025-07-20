@@ -17,7 +17,7 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 	end
 	local function BossOnly(id, t)
 		if not t and type(id) ~= "number" then
-			print("ERROR: Missing id for BossOnly")
+			print("ERROR: Missing id for boss. Got instead: ",id)
 		end
 		local encounter = e(id, t)
 		encounter.crs = crs[id]
@@ -72,6 +72,14 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 				o.up = up
 			end
 		end
+	end
+	local function BossWithHeader(id, headerFunc, t)
+		if not t and (type(headerFunc) ~= "function" or type(id) ~= "number") then
+			print("ERROR: Missing valid id/headerFunc for BossWithHeader",id,headerFunc)
+		end
+		local encounter = BossOnly(id, t)
+		encounter.groups = appendAllGroups(encounter.groups, {headerFunc(clone(loots[id]))})
+		return encounter
 	end
 	local function CommonBossDrops(t)
 		return n(COMMON_BOSS_DROPS, {
@@ -134,6 +142,7 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 
 	helper.BossOnly = BossOnly
 	helper.Boss = Boss
+	helper.BossWithHeader = BossWithHeader
 	helper.BossWorldQuest = BossWorldQuest
 	helper.Difficulty = Difficulty
 	helper.CommonBossDrops = CommonBossDrops
