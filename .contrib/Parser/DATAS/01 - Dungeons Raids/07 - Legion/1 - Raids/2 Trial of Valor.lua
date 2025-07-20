@@ -190,8 +190,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
-				ZoneDrops({
-				}),
+				ZoneDrops({}),
 				Boss(ODYN),
 				Boss(GUARM),
 				Boss(HELYA),
@@ -243,9 +242,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 					ach(11398),	-- Mythic: Helya
 					ach(11404),	-- Mythic: Helya Guild Run
-					ach(11405, {	-- Realm First! Helya
-						["u"] = REMOVED_FROM_GAME,
-					}),
+					un(REMOVED_FROM_GAME, ach(11405)),	-- Realm First! Helya
 					ach(11387, {	-- The Chosen
 						["crs"] = { 116229 },	-- Mythical Champion of the Chosen Dead
 						["timeline"] = { REMOVED_8_0_1 },

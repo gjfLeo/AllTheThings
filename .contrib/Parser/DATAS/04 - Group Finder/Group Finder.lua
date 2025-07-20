@@ -626,7 +626,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 					i(115319),	-- Turbulent Axe
 					i(115322),	-- Turbulent Dagger
 					i(115320),	-- Turbulent Greataxe
-					i(115321),	-- Turbulent Longboww
+					i(115321),	-- Turbulent Longbow
 					i(115324),	-- Turbulent Polearm
 					i(115326),	-- Turbulent Scepter
 					i(115325),	-- Turbulent Spire

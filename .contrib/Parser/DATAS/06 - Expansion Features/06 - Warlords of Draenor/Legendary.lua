@@ -208,6 +208,14 @@ root(ROOTS.ExpansionFeatures,
 						ADDED_6_0_2,
 						REMOVED_7_0_3,
 					},
+					["g"] = {
+						i(115288, {	-- Felbreaker's Tome (QI!)
+							["cr"] = 79015,	-- Ko'ragh <Breaker of Magic>
+						}),
+						i(115289, {	-- Sigil of the Sorcerer King (QI!)
+							["cr"] = 77428,	-- Imperator Mar'gok <Sorcerer King>
+						}),
+					},
 				}),
 				q(35998, {	-- Legacy of the Sorcerer Kings
 					["provider"] = { "n", 83823 },	-- Archmage Khadgar <Sons of Lothar>
@@ -219,6 +227,32 @@ root(ROOTS.ExpansionFeatures,
 					["timeline"] = {
 						ADDED_6_0_2,
 						REMOVED_7_0_3,
+					},
+					["g"] = {
+						i(115280, {	-- Abrogator Stone (QI!)
+							["crs"] = {
+								78714,	-- Kargath
+								77404,	-- The Butcher
+								78491,	-- Brackenspore
+								78948,	-- Tectus
+								78237,	-- Twin Ogron (Phemos)
+								78238,	-- Twin Ogron (Pol)
+								79015,	-- Ko'ragh
+								77428,	-- Imperator Mar'gok
+							},
+						}),
+						i(115981, {	-- Abrogator Stone Cluster (QI!)
+							["crs"] = {
+								78714,	-- Kargath
+								77404,	-- The Butcher
+								78491,	-- Brackenspore
+								78948,	-- Tectus
+								78237,	-- Twin Ogron (Phemos)
+								78238,	-- Twin Ogron (Pol)
+								79015,	-- Ko'ragh
+								77428,	-- Imperator Mar'gok
+							},
+						}),
 					},
 				}),
 				q(40235, {	-- Abrogator Arbitrator
