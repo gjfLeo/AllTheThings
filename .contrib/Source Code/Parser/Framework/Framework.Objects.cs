@@ -661,7 +661,7 @@ namespace ATT
                                 {
                                     var header = new Dictionary<string, object>
                                     {
-                                        { "npcID", headerID },
+                                        { "headerID", headerID },
                                         { "g", new List<object>{ mergeObject } }
                                     };
                                     if (isPetBattleHeader) header["pb"] = mergeObject["pb"];
@@ -1257,7 +1257,12 @@ end");
             private static void ProcessNPCData(long npcID, IDictionary<string, object> data)
             {
                 // Do not include "Custom" NPC IDs. We use these for headers and most of these are going to be purged.
-                if (npcID < 1) return;
+                if (npcID < 1)
+                {
+                    Console.WriteLine($"INVALID NPC ID {npcID} ({MiniJSON.Json.Serialize(data)})");
+                    Console.ReadLine();
+                    return;
+                }
 
                 // Do not include information about blacklisted npc data.
                 if (BLACKLISTED_NPC_IDS.TryGetValue(npcID, out bool blacklisted) && blacklisted) return;
@@ -1651,6 +1656,24 @@ end");
                             }
                             break;
                         }
+                    case "npcID":
+                        {
+                            try
+                            {
+                                long l = Convert.ToInt64(value);
+                                if (l > 0) item[field] = l;
+                                else
+                                {
+                                    LogWarn($"Converted npcID {l} to headerID {MiniJSON.Json.Serialize(item)}");
+                                    item["headerID"] = l;
+                                }
+                            }
+                            catch
+                            {
+                                LogError($"Invalid Format for field [{field}] = {ToJSON(value)}", item);
+                            }
+                            break;
+                        }
 
                     // Float Data Type Fields (field conversions)
                     //case "dr":
@@ -1681,7 +1704,6 @@ end");
                     case "inventoryType":
                     case "style":
                     case "creatureID":
-                    case "npcID":
                     case "displayID":
                     case "modID":
                     case "ItemAppearanceModifierID":

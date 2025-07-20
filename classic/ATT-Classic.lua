@@ -239,7 +239,7 @@ local subroutines;
 subroutines = {
 	["common_recipes_vendor"] = function(npcID)
 		return {
-			{"select", "creatureID", npcID},	-- Main Vendor
+			{"select", "npcID", npcID},	-- Main Vendor
 			{"pop"},	-- Remove Main Vendor and push his children into the processing queue.
 			{"is", "itemID"},	-- Only Items
 			{"exclude", "itemID",
@@ -268,7 +268,7 @@ subroutines = {
 	end,
 	["common_vendor"] = function(npcID)
 		return {
-			{"select", "creatureID", npcID},	-- Main Vendor
+			{"select", "npcID", npcID},	-- Main Vendor
 			{"pop"},	-- Remove Main Vendor and push his children into the processing queue.
 			{"is", "itemID"},	-- Only Items
 		};
@@ -352,7 +352,7 @@ ResolveSymbolicLink = function(o)
 				response = app:BuildSearchResponse(app.Categories.Craftables, "requireSkill", requireSkill);
 				if response then tinsert(searchResults, {text=LOOT_JOURNAL_LEGENDARIES_SOURCE_CRAFTED_ITEM,icon = app.asset("Category_Crafting"),g=response});  end
 				response = app:BuildSearchResponse(app.Categories.Holidays, "requireSkill", requireSkill);
-				if response then tinsert(searchResults, app.CreateNPC(app.HeaderConstants.HOLIDAYS, response));  end
+				if response then tinsert(searchResults, app.CreateCustomHeader(app.HeaderConstants.HOLIDAYS, response));  end
 				response = app:BuildSearchResponse(app.Categories.WorldEvents, "requireSkill", requireSkill);
 				if response then tinsert(searchResults, {text=BATTLE_PET_SOURCE_7,icon = app.asset("Category_Event"),g=response});  end
 				if app.Categories.ExpansionFeatures then
@@ -1130,7 +1130,7 @@ local function GetSearchResults(method, paramA, paramB, ...)
 		local costResults = SearchForField("currencyIDAsCost", paramB);
 		if #costResults > 0 then
 			if not group.g then group.g = {} end
-			local usedToBuy = app.CreateNPC(app.HeaderConstants.VENDORS);
+			local usedToBuy = app.CreateCustomHeader(app.HeaderConstants.VENDORS);
 			usedToBuy.text = "Currency For";
 			if not usedToBuy.g then usedToBuy.g = {}; end
 			for i,o in ipairs(costResults) do
@@ -1142,9 +1142,9 @@ local function GetSearchResults(method, paramA, paramB, ...)
 		local costResults = SearchForField("itemIDAsCost", paramB);
 		if #costResults > 0 then
 			if not group.g then group.g = {} end
-			local attunement = app.CreateNPC(app.HeaderConstants.QUESTS);
+			local attunement = app.CreateCustomHeader(app.HeaderConstants.QUESTS);
 			if not attunement.g then attunement.g = {}; end
-			local usedToBuy = app.CreateNPC(app.HeaderConstants.VENDORS);
+			local usedToBuy = app.CreateCustomHeader(app.HeaderConstants.VENDORS);
 			if not usedToBuy.g then usedToBuy.g = {}; end
 			for i,o in ipairs(costResults) do
 				if o.key == "instanceID" or ((o.key == "difficultyID" or o.key == "mapID" or o.key == "headerID") and (o.parent and GetRelativeValue(o.parent, "instanceID")) and not o[o.key] == app.HeaderConstants.REWARDS) then
@@ -1587,14 +1587,14 @@ function app:GetDataCache()
 		end
 
 		-- Professions
-		local ProfessionsHeader = app.CreateNPC(app.HeaderConstants.PROFESSIONS, {
+		local ProfessionsHeader = app.CreateCustomHeader(app.HeaderConstants.PROFESSIONS, {
 			g = app.Categories.Professions or {}
 		});
 		tinsert(g, ProfessionsHeader);
 
 		-- Holidays
 		if app.Categories.Holidays then
-			tinsert(g, app.CreateNPC(app.HeaderConstants.HOLIDAYS, {
+			tinsert(g, app.CreateCustomHeader(app.HeaderConstants.HOLIDAYS, {
 				description = "These events occur at consistent dates around the year based on and themed around real world holiday events.",
 				g = app.Categories.Holidays,
 				SortType = "EventStart",
@@ -1626,7 +1626,7 @@ function app:GetDataCache()
 
 		-- PvP
 		if app.Categories.PVP then
-			tinsert(g, app.CreateNPC(app.HeaderConstants.PVP, {
+			tinsert(g, app.CreateCustomHeader(app.HeaderConstants.PVP, {
 				g = app.Categories.PVP,
 				isPVPCategory = true
 			}));
@@ -1678,7 +1678,7 @@ function app:GetDataCache()
 		
 		-- In-Game Store
 		if app.Categories.InGameShop then
-			tinsert(g, app.CreateNPC(app.HeaderConstants.IN_GAME_SHOP, {
+			tinsert(g, app.CreateCustomHeader(app.HeaderConstants.IN_GAME_SHOP, {
 				g = app.Categories.InGameShop,
 				expanded = false
 			}));

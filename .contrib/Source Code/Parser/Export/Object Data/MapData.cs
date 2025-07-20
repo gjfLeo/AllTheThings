@@ -51,8 +51,8 @@ namespace ATT
                             if (g[i] is Dictionary<string, object> element)
                             {
                                 // Determine if this element is a custom header
-                                if (element.TryGetValue("npcID", out long npcID) && npcID < 0
-                                    && Framework.CustomHeaders.TryGetValue(npcID, out object o) && o is IDictionary<string, object> header)
+                                if (element.TryGetValue("headerID", out long headerID)
+                                    && Framework.CustomHeaders.TryGetValue(headerID, out object o) && o is IDictionary<string, object> header)
                                 {
                                     // If there's no relative groups or symlink on the object
                                     if (!element.TryGetValue("g", out List<object> g2) || g2.Count < 1 && !element.ContainsKey("sym"))

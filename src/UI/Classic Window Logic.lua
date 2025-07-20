@@ -1479,7 +1479,7 @@ local BuildCategory = function(self, headers, searchResults, inst)
 	header = headers[headerType];
 	if not header then
 		if headerType == "holiday" then
-			header = app.CreateNPC(app.HeaderConstants.HOLIDAYS);
+			header = app.CreateCustomHeader(app.HeaderConstants.HOLIDAYS);
 		elseif headerType == "raid" then
 			header = {};
 			header.text = GROUP_FINDER;
@@ -1505,7 +1505,7 @@ local BuildCategory = function(self, headers, searchResults, inst)
 			header.text = LOOT_JOURNAL_LEGENDARIES_SOURCE_CRAFTED_ITEM;
 			header.icon = app.asset("Category_Crafting");
 		elseif type(headerType) == "number" then
-			header = app.CreateNPC(headerType);
+			header = app.CreateCustomHeader(headerType);
 		else
 			print("Unhandled Header Type", headerType);
 		end

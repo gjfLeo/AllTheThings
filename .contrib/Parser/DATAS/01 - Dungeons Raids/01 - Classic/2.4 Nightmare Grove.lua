@@ -4,7 +4,7 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_SIX, inst(2832, bubbleDownSelf({["timeline"] = { ADDED_1_15_5 }}, {	-- Nightmare Grove
-		["npcID"] = createHeader({
+		["headerID"] = createHeader({
 			readable = "Nightmare Grove",
 			text = {
 				en = "Nightmare Grove",

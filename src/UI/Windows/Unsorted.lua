@@ -11,7 +11,7 @@ app:CreateWindow("Unsorted", {
 	Commands = { "attunsorted" },
 	OnInit = function(self)
 		-- Add an achievement header
-		local achievementHeader = app.CreateNPC(app.HeaderConstants.ACHIEVEMENTS, { g = {} });
+		local achievementHeader = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, { g = {} });
 		self.achievementHeader = achievementHeader;
 		
 		-- Make a function to add a new unsorted achievement.

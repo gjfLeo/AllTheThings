@@ -237,6 +237,7 @@ end
 
 app.CreateNPC = function(id, t)
 	if id < 1 then
+		print("HEY! USE app.CreateCustomHeader(", id, ") instead!");
 		return CreateCustomHeader(id, t)
 	else
 		return CreateNPC(id, t)

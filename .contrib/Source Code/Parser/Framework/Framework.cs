@@ -147,18 +147,6 @@ namespace ATT
         public static List<object> ALL_RACES;
         public static List<object> ALL_CLASSES;
 
-        private static readonly Dictionary<string, Dictionary<long, bool>> REFERENCED =
-            new Dictionary<string, Dictionary<long, bool>>
-            {
-                //{ "itemID", new Dictionary<long, bool>() },
-                //{ "headerID", new Dictionary<long, bool>() },
-                //{ "factionID", new Dictionary<long, bool>() },
-                //{ "flightpathID", new Dictionary<long, bool>() },
-                //{ "npcID", new Dictionary<long, bool>() },
-                //{ "objectID", new Dictionary<long, bool>() },
-                //{ "questID", new Dictionary<long, bool>() },
-            };
-
         private static readonly Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>> SOURCED =
             new Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>>
         {

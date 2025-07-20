@@ -47,7 +47,7 @@ CAPITAL_GARDENS = createHeader({
 	},
 });
 local DIREMAUL_SUBMAP = function(mapID, headerID, t)
-	t.creatureID = headerID;
+	t.headerID = headerID;
 	local oldMaps = t.maps;
 	if oldMaps then
 		local maps = {};

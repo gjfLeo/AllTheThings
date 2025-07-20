@@ -1197,7 +1197,7 @@ local function BuildSourceInformationForPopout(group)
 	end
 	local appearanceGroup;
 	if #g > 0 then
-		appearanceGroup = app.CreateNPC(app.HeaderConstants.SHARED_APPEARANCES, {
+		appearanceGroup = app.CreateCustomHeader(app.HeaderConstants.SHARED_APPEARANCES, {
 			OnUpdate = app.AlwaysShowUpdate,
 			OnClick = app.UI.OnClick.IgnoreRightClick,
 			sourceIgnored = true,
@@ -1206,7 +1206,7 @@ local function BuildSourceInformationForPopout(group)
 			g = g,
 		});
 	else
-		appearanceGroup = app.CreateNPC(app.HeaderConstants.UNIQUE_APPEARANCE, {
+		appearanceGroup = app.CreateCustomHeader(app.HeaderConstants.UNIQUE_APPEARANCE, {
 			OnUpdate = app.AlwaysShowUpdate,
 			OnClick = app.UI.OnClick.IgnoreRightClick,
 			sourceIgnored = true,

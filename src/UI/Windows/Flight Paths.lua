@@ -12,7 +12,7 @@ app:CreateWindow("Flight Paths", {
 	IsDynamicCategory = true,
 	Commands = { "attflightpaths", "attfps" },
 	OnInit = function(self, handlers)
-		self.data = app.CreateNPC(app.HeaderConstants.FLIGHT_PATHS, {
+		self.data = app.CreateCustomHeader(app.HeaderConstants.FLIGHT_PATHS, {
 			description = "This list shows you all of the flight paths that you can collect.",
 			visible = true,
 			expanded = true,

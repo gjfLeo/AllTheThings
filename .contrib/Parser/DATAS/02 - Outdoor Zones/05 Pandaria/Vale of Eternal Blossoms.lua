@@ -88,8 +88,8 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					fp(2544, {	-- Mistfall Village, Vale of Eternal Blossoms
+						["cr"] = 154805,	-- Ryuxi
 						["coord"] = { 38.9, 72.8, VALE_OF_ETERNAL_BLOSSOMS },
-						["creatureID"] = 154805,	-- Ryuxi
 						-- ["sourceQuests"] = {  },	-- TODO: likely requires some 8.3 quest chain before becoming available?
 					}),
 				}),

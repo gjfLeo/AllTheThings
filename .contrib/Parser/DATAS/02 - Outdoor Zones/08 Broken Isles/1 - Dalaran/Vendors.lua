@@ -85,7 +85,7 @@ root(ROOTS.Zones, {
 						i(157796, {	-- Purified Titan Essence
 							["u"] = REMOVED_FROM_GAME,
 							["sym"] = {
-								{ "select", "creatureID", 106655 },	-- Arcanomancer Vridiel <Blacksmithing Trainer>
+								{ "select", "npcID", 106655 },	-- Arcanomancer Vridiel <Blacksmithing Trainer>
 								{ "pop" },	-- Discard the header and acquire the children.
 								{ "is", "itemID" },	-- Select the Items.
 								{ "exclude", "itemID", 154879, 157796, 151709 },	-- Exclude the Purified Titan Essence, Awoken Titan Essence, and Recipe: Felslate Anchor

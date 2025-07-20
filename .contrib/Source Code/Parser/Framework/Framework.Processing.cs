@@ -437,7 +437,7 @@ namespace ATT
                     {
                         Objects.Merge(unsorted, new Dictionary<string, object>
                         {
-                            { "npcID", value },
+                            { "headerID", value },
                             { "g", unsortedQuests },
                         });
                     }
@@ -599,7 +599,7 @@ namespace ATT
 
             // Track the hierarchy of headerID
             // NOTE: Once autoID no longer clashes with headerID and npcID is no longer dumb, use headerID instead.
-            if (data.TryGetValue("npcID", out long npcID) && npcID < 0 && long.TryParse(npcID.ToString(), out long headerID))
+            if (data.TryGetValue("headerID", out long headerID))
             {
                 NestedHeaderID = headerID;
             }
@@ -779,6 +779,12 @@ namespace ATT
             Validate_Encounter(data);
             Validate_sym(data);
             Validate_providers(data);
+
+            // Validate Headers
+            if(data.TryGetValue("headerID", out long headerID))
+            {
+                MarkCustomHeaderAsRequired(headerID);
+            }
 
             Validate_Achievement(data);
             Validate_Criteria(data);
@@ -1445,7 +1451,6 @@ namespace ATT
             if (data.TryGetValue("qg", out long tempId))
             {
                 NPCS_WITH_REFERENCES[tempId] = true;
-                MarkCustomHeaderAsRequired(tempId);
             }
             if (data.TryGetValue("qgs", out List<object> qgs))
             {
@@ -1453,7 +1458,6 @@ namespace ATT
                 {
                     var id = Convert.ToInt64(qg);
                     NPCS_WITH_REFERENCES[id] = true;
-                    MarkCustomHeaderAsRequired(id);
                 }
             }
             if (data.TryGetValue("crs", out qgs))
@@ -1462,7 +1466,6 @@ namespace ATT
                 {
                     var id = Convert.ToInt64(qg);
                     NPCS_WITH_REFERENCES[id] = true;
-                    MarkCustomHeaderAsRequired(id);
                 }
             }
             if (data.TryGetValue("flightpathID", out long flightpathID))
@@ -1488,7 +1491,6 @@ namespace ATT
                         break;
                     case "n":
                         NPCS_WITH_REFERENCES[headerID] = true;
-                        MarkCustomHeaderAsRequired(headerID);
                         break;
                     case "o":
                         OBJECTS_WITH_REFERENCES[headerID] = true;
@@ -1581,20 +1583,45 @@ namespace ATT
 
         private static void Validate_npc(IDictionary<string, object> data)
         {
-            if (data.TryGetValue("creatureID", out long creatureID))
+            data.TryGetValue("npcID", out long npcID);
+            data.TryGetValue("creatureID", out long creatureID);
+            if (npcID > 0)
             {
-                if (data.TryGetValue("npcID", out object dupeNpcID))
+                NPCS_WITH_REFERENCES[npcID] = true;
+                if (creatureID > 0)
                 {
-                    LogError($"Both CreatureID {creatureID} and NPCID {dupeNpcID}?", data);
+                    data.Remove("creatureID");
+
+                    // Check to see if we are exporting both an npcID and a creatureID that are the same.
+                    if (npcID != creatureID)
+                    {
+                        // Uh oh, these are different.
+                        NPCS_WITH_REFERENCES[creatureID] = true;
+
+                        // Check to see if we have a crc container already.
+                        if (data.TryGetValue("crs", out List<object> crs))
+                        {
+                            if (!crs.Contains(creatureID)) crs.Add(creatureID);
+                        }
+                        else
+                        {
+                            // We don't. Nice!
+                            data["crs"] = new List<object> { creatureID };
+                        }
+                    }
                 }
-                data["npcID"] = creatureID;
-                NPCS_WITH_REFERENCES[creatureID] = true;
-                MarkCustomHeaderAsRequired(creatureID);
             }
-            if (data.TryGetValue("npcID", out creatureID))
+            else
             {
-                NPCS_WITH_REFERENCES[creatureID] = true;
-                MarkCustomHeaderAsRequired(creatureID);
+                if (npcID < 0)
+                {
+                    data.Remove("npcID");
+                    data["headerID"] = npcID;
+                }
+                if (creatureID > 0)
+                {
+                    NPCS_WITH_REFERENCES[creatureID] = true;
+                }
             }
         }
 
@@ -1738,9 +1765,30 @@ namespace ATT
             data["_encounterHash"] = NestedDifficultyID > 0 ? GetEncounterHash(encounterID, NestedDifficultyID) : GetEncounterHash(encounterID, NestedHeaderID);
 
             // Clean up Encounters which only have a single npcID assigned via 'crs'
-            if (!data.ContainsKey("npcID") && data.TryGetValue("crs", out List<object> crs) && crs.Count == 1 && crs[0].TryConvert(out long crID))
+            if (!data.TryGetValue("crs", out List<object> crs))
             {
-                data["npcID"] = crID;
+                data["crs"] = crs = new List<object>();
+            }
+            if (data.TryGetValue("creatureID", out long creatureID))
+            {
+                data.Remove("creatureID");
+                if(!crs.Contains(creatureID)) crs.Add(creatureID);
+            }
+            if (data.TryGetValue("npcID", out creatureID))
+            {
+                data.Remove("npcID");
+                if (creatureID > 0)
+                {
+                    if (!crs.Contains(creatureID)) crs.Add(creatureID);
+                }
+                else
+                {
+                    data["headerID"] = creatureID;
+                }
+            }
+            if (crs.Count == 1 && crs[0].TryConvert(out creatureID))
+            {
+                data["npcID"] = creatureID;
                 data.Remove("crs");
             }
 
@@ -1803,8 +1851,15 @@ namespace ATT
             if (data.TryGetValue("npcID", out long npcID))
             {
                 data.Remove("npcID");
-                LogDebug($"INFO: Converted 'npcID' {npcID} on Criteria {achID}:{criteriaID} into 'crs'");
-                Objects.Merge(data, "crs", new List<long> { npcID });
+                if (npcID > 0)
+                {
+                    LogDebug($"INFO: Converted 'npcID' {npcID} on Criteria {achID}:{criteriaID} into 'crs'");
+                    Objects.Merge(data, "crs", new List<long> { npcID });
+                }
+                else
+                {
+                    LogError($"INFO: Deleted negative 'npcID' {npcID} on Criteria {achID}:{criteriaID}");
+                }
             }
 
             // If criteria end up with a single 'crs', then try using _npcs instead to move the criteria under the proper NPC
@@ -3597,7 +3652,6 @@ namespace ATT
                         break;
                     case "n":
                         NPCS_WITH_REFERENCES[(long)pID] = true;
-                        MarkCustomHeaderAsRequired((long)pID);
                         break;
                     case "o":
                         OBJECTS_WITH_REFERENCES[(long)pID] = true;

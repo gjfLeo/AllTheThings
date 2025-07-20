@@ -13,7 +13,7 @@ app:CreateWindow("Pet Battles", {
 		"attpetbattles",
 	},
 	OnInit = function(self, handlers)
-		self.data = app.CreateNPC(app.HeaderConstants.PET_BATTLES, {
+		self.data = app.CreateCustomHeader(app.HeaderConstants.PET_BATTLES, {
 			description = "This list shows you all of the pet battle content as well as where to acquire battle pets in the ATT database.",
 			visible = true,
 			expanded = true,

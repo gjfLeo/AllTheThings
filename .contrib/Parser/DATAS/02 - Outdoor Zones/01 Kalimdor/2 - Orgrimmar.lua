@@ -5302,7 +5302,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
 							["filterID"] = CONSUMABLES,
 							["sym"] = {
-								{"select","creatureID",57922},{"pop"},	-- this NPC
+								{"select","npcID",57922},{"pop"},	-- this NPC
 								{"not","itemID",71949},				-- not this item
 								{"isnt","currencyID"},	-- no currencies
 							},

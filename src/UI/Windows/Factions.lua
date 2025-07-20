@@ -11,7 +11,7 @@ app:CreateWindow("Factions", {
 	IsDynamicCategory = true,
 	Commands = { "attfactions" },
 	OnInit = function(self, handlers)
-		self.data = app.CreateNPC(app.HeaderConstants.FACTIONS, {
+		self.data = app.CreateCustomHeader(app.HeaderConstants.FACTIONS, {
 			description = "This list shows you all of the factions that you can collect.",
 			visible = true,
 			expanded = true,

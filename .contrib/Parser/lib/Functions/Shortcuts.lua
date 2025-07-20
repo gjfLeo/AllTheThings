@@ -533,11 +533,6 @@ applyevent = function(eventID, data)
 		---@diagnostic disable-next-line: undefined-global
 		print(CurrentSubFileName or CurrentFileName);
 	end
-	-- Force Root Event object type for event headers to ensure they parse as Events
-	if data.npcID and data.npcID < 0 then
-		data._eventHeaderID = data.npcID;
-		data.type = "eventHeader";
-	end
 	return bubbleDown({ ["e"] = eventID }, data);
 end
 -- #if ANYCLASSIC
@@ -1059,12 +1054,18 @@ end
 gssh = function(id, t)									-- Create a GEAR SET SUB HEADER Object (IE: "Gladiator")
 	return struct("setSubHeaderID", id, t);
 end
-header = function(type, id, t)							-- Create an Automatic Header which will use the plain Text of the specified in-game object based on Type-ID combination
-	t = struct("headerID", id, t);
-	if not type then
-		error("Invalid header type for id",id);
+header = function(ty, id, t)							-- Create an Automatic Header which will use the plain Text of the specified in-game object based on Type-ID combination
+	if type(ty) == "string" or id >= 0 then
+		-- Create an Automatic Header which will use the plain Text of the specified in-game object based on Type-ID combination
+		t = struct("headerID", id, t);
+		if not ty then
+			error("Invalid header type for id",id);
+		end
+		t.type = ty;
+	else
+		-- This is a custom header
+		t = struct("headerID", ty, id);
 	end
-	t.type = type;
 	return t;
 end
 heir = function(id, t)									-- Create an HEIRLOOM Object(NOTE: You should only use this if not an appearance)
@@ -1252,7 +1253,8 @@ npc = function(id, t)									-- Create an NPC Object (negative indicates that i
 		end
 	end
 	-- #ENDIF
-	return struct("npcID", id, t);
+	-- Temporary solution until we nuke headers using this shortcut
+	return struct(id > 0 and "npcID" or "headerID", id, t);
 end
 n = npc;												-- Create an NPC Object (alternative shortcut)
 obj = function(id, t)									-- Create a WORLD OBJECT Object (an interactable, non-NPC object out in the world - like a chest)

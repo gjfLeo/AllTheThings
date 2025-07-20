@@ -3057,7 +3057,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(10857, {	-- Argent Quartermaster Lightspark <The Argent Crusade>
 					["coord"] = { 42.8, 83.8, WESTERN_PLAGUELANDS },
-					["sym"] = {{ "select", "creatureID", 11536 }, { "isnt", "questID" }, { "pop" }, { "exclude", "itemID", 136801, 136928 } },	-- Quartermaster Miranda Breechlock <The Argent Crusade>
+					["sym"] = {{ "select", "npcID", 11536 }, { "isnt", "questID" }, { "pop" }, { "exclude", "itemID", 136801, 136928 } },	-- Quartermaster Miranda Breechlock <The Argent Crusade>
 				}),
 				-- #if ANYCLASSIC
 				n(10667, {	-- Chromie

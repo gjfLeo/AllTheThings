@@ -5828,7 +5828,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cost"] = { { "c", 361, 4 }, },	-- 4x Illustrious Jewelcrafter's Token
 							["filterID"] = CONSUMABLES,
 							["sym"] = {
-								{"select","creatureID",56925},{"pop"},	-- this NPC
+								{"select","npcID",56925},{"pop"},	-- this NPC
 								{"not","itemID",71949},				-- not this item
 								{"isnt","currencyID"},	-- no currencies
 							},

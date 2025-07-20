@@ -1088,14 +1088,6 @@ localize(L.HEADER_NAMES, {
 	[-103] = "Expansion Pre-Launch",
 	[-105] = "WoW Remix: Mists of Pandaria",
 	[-106] = "Winds of Mysterious Fortune",
-	[-107] = GetRealZoneText(1182),
-	[-108] = GetRealZoneText(1175),
-	[-109] = GetRealZoneText(1208),
-	[-110] = GetRealZoneText(1195),
-	[-111] = GetRealZoneText(1176),
-	[-112] = GetRealZoneText(1209),
-	[-113] = GetRealZoneText(1279),
-	[-114] = GetRealZoneText(1358),
 	[-115] = "Buildings",
 	[-116] = GARRISON_MISSIONS,
 	[-117] = "Garrison Mission Loot",
@@ -1767,14 +1759,6 @@ localize(L.HEADER_ICONS, {
 	[-103] = 134289,
 	[-105] = _.asset("category_remix"),
 	[-106] = 6439633,
-	[-107] = 1042057,
-	[-108] = 1042059,
-	[-109] = 1042061,
-	[-110] = 1060552,
-	[-111] = 1042063,
-	[-112] = 1042064,
-	[-113] = 1060551,
-	[-114] = 1042065,
 	[-115] = 1005027,
 	[-116] = 1035062,
 	[-117] = 1103070,
@@ -2415,7 +2399,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025}),
@@ -2467,7 +2450,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -6582,6 +6566,8 @@ local ObjectNames = {
 	[210582] = "Dark Soil",
 	[210759] = "Arrow for Commander Hsieh",
 	[210887] = "Untainted Supplies",
+	[210964] = "Pei-Wu Forest Gate",
+	[210965] = "Mandori Village Gate",
 	[210986] = "Edict of Temperance",
 	[211017] = "Root Vegetable",
 	[211018] = "Root Vegetable",

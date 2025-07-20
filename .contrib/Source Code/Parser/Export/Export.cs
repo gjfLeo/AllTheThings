@@ -24,7 +24,7 @@ namespace ATT
             // Initialize all of the Object Types in order of Export Priority.
             ObjectData.Create("buildingID",         "gb",           "_.CreateGarrisonBuilding", "f", "spellID");
             ObjectData.Create<MountData>("mountID", "mnt",          "_.CreateMount", "f", "spellID", "modID");
-            ObjectData.Create("headerID",           "h",            "_.CreateHeader", "f");
+            ObjectData.Create<HeaderData>("headerID","ah",          "_.CreateHeader", "f"); // To not confuse people, "ah" means "AutoHeader", which is different from a Header
             ObjectData.Create("speciesID",          "p",            "_.CreateSpecies", "f", "modID");
             ObjectData.Create("objectiveID",        "qo",           "_.CreateQuestObjective", "f");
             ObjectData.Create("instanceID",         "inst",         "_.CreateInstance", "f");

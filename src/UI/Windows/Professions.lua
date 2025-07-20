@@ -130,7 +130,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 													if headerID then
 														local event = events[e];
 														if not event then
-															event = app.CreateNPC(headerID);
+															event = app.CreateCustomHeader(headerID);
 															events[e] = event;
 															event.SortType = "name";
 															event.parent = data;

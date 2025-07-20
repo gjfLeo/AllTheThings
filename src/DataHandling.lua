@@ -866,7 +866,7 @@ local function CreateObject(t, rootOnly)
 		elseif t.raceID then
 			t = app.CreateRace(t.raceID, t);
 		elseif t.headerID then
-			t = app.CreateNPC(t.headerID, t);
+			t = app.CreateCustomHeader(t.headerID, t);
 		elseif t.expansionID then
 			t = app.CreateExpansion(t.expansionID, t);
 		elseif t.difficultyID then

@@ -2894,7 +2894,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 83.2, 68.2, TIRISFAL_GLADES },
 						-- #endif
 					},
-					["sym"] = {{ "select", "creatureID", 11536 }, { "isnt", "questID" }, { "pop" }, { "exclude", "itemID", 136801, 136928 } },	-- Quartermaster Miranda Breechlock <The Argent Crusade>
+					["sym"] = {{ "select", "npcID", 11536 }, { "isnt", "questID" }, { "pop" }, { "exclude", "itemID", 136801, 136928 } },	-- Quartermaster Miranda Breechlock <The Argent Crusade>
 				}),
 				n(3522, {	-- Constance Brisboise <Apprentice Clothier>
 					["coord"] = { 52.6, 55.6, TIRISFAL_GLADES },

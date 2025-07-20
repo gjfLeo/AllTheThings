@@ -788,7 +788,7 @@ local SubroutineCache = {
 	-- Common Northrend/Cataclysm Recipes Vendor
 	["common_recipes_vendor"] = function(finalized, searchResults, o, cmd, npcID)
 			local select, pop, is, exclude = ResolveFunctions.select, ResolveFunctions.pop, ResolveFunctions.is, ResolveFunctions.exclude;
-		select(finalized, searchResults, o, "select", "creatureID", npcID);	-- Main Vendor
+		select(finalized, searchResults, o, "select", "npcID", npcID);	-- Main Vendor
 		pop(finalized, searchResults);	-- Remove Main Vendor and push his children into the processing queue.
 		is(finalized, searchResults, o, "is", "itemID");	-- Only Items
 		-- Exclude items specific to certain vendors
@@ -2601,7 +2601,7 @@ function app:GetDataCache()
 
 	-- Delves
 	if app.Categories.Delves then
-		tinsert(g, app.CreateNPC(app.HeaderConstants.DELVES, app.Categories.Delves));
+		tinsert(g, app.CreateCustomHeader(app.HeaderConstants.DELVES, app.Categories.Delves));
 	end
 
 	-- Zones
@@ -2631,7 +2631,7 @@ function app:GetDataCache()
 
 	-- Achievements
 	if app.Categories.Achievements then
-		db = app.CreateNPC(app.HeaderConstants.ACHIEVEMENTS, app.Categories.Achievements);
+		db = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, app.Categories.Achievements);
 		db.sourceIgnored = 1;	-- everything in this category is now cloned!
 		for _, o in ipairs(db.g) do
 			o.sourceIgnored = nil
@@ -2652,7 +2652,7 @@ function app:GetDataCache()
 
 	-- Holidays
 	if app.Categories.Holidays then
-		db = app.CreateNPC(app.HeaderConstants.HOLIDAYS, app.Categories.Holidays);
+		db = app.CreateCustomHeader(app.HeaderConstants.HOLIDAYS, app.Categories.Holidays);
 		db.isHolidayCategory = true;
 		db.SortType = "EventStart";
 		tinsert(g, db);
@@ -2679,14 +2679,14 @@ function app:GetDataCache()
 
 	-- Pet Battles
 	if app.Categories.PetBattles then
-		db = app.CreateNPC(app.HeaderConstants.PET_BATTLES);
+		db = app.CreateCustomHeader(app.HeaderConstants.PET_BATTLES);
 		db.g = app.Categories.PetBattles;
 		tinsert(g, db);
 	end
 
 	-- PvP
 	if app.Categories.PVP then
-		db = app.CreateNPC(app.HeaderConstants.PVP, app.Categories.PVP);
+		db = app.CreateCustomHeader(app.HeaderConstants.PVP, app.Categories.PVP);
 		db.isPVPCategory = true;
 		tinsert(g, db);
 	end
@@ -2702,13 +2702,13 @@ function app:GetDataCache()
 
 	-- Professions
 	if app.Categories.Professions then
-		db = app.CreateNPC(app.HeaderConstants.PROFESSIONS, app.Categories.Professions);
+		db = app.CreateCustomHeader(app.HeaderConstants.PROFESSIONS, app.Categories.Professions);
 		tinsert(g, db);
 	end
 
 	-- Secrets
 	if app.Categories.Secrets then
-		db = app.CreateNPC(app.HeaderConstants.SECRETS, app.Categories.Secrets);
+		db = app.CreateCustomHeader(app.HeaderConstants.SECRETS, app.Categories.Secrets);
 		tinsert(g, db);
 	end
 
@@ -2731,7 +2731,7 @@ function app:GetDataCache()
 
 	-- In-Game Store
 	if app.Categories.InGameShop then
-		db = app.CreateNPC(app.HeaderConstants.IN_GAME_SHOP, app.Categories.InGameShop);
+		db = app.CreateCustomHeader(app.HeaderConstants.IN_GAME_SHOP, app.Categories.InGameShop);
 		tinsert(g, db);
 	end
 
@@ -2907,7 +2907,7 @@ function app:GetDataCache()
 			}),
 
 			-- Various Quest groups
-			app.CreateNPC(app.HeaderConstants.QUESTS, {
+			app.CreateCustomHeader(app.HeaderConstants.QUESTS, {
 				visible = true,
 				OnUpdate = app.AlwaysShowUpdate,
 				g = {
@@ -3340,7 +3340,7 @@ customWindowUpdates.Bounty = function(self, force, got)
 				self:BaseUpdate(true, got);
 			end,
 		});
-		local header = app.CreateNPC(app.HeaderConstants.UI_BOUNTY_WINDOW, {
+		local header = app.CreateCustomHeader(app.HeaderConstants.UI_BOUNTY_WINDOW, {
 			['visible'] = true,
 			["g"] = {
 				autoOpen,
@@ -3351,14 +3351,14 @@ customWindowUpdates.Bounty = function(self, force, got)
 		-- Update this when we merge over Classic's extended window logic.
 		-- NOTE: Everything we want is current marked with a u value of 45, so why not just pull that in? :)
 		NestObjects(header, {
-			app.CreateNPC(app.HeaderConstants.RARES, {
+			app.CreateCustomHeader(app.HeaderConstants.RARES, {
 				app.CreateNPC(87622, {	-- Ogom the Mangler
 					['g'] = {
 						app.CreateItemSource(67041, 119366),
 					},
 				}),
 			}),
-			app.CreateNPC(app.HeaderConstants.ZONE_DROPS, {
+			app.CreateCustomHeader(app.HeaderConstants.ZONE_DROPS, {
 				["description"] = "These items were likely not readded with 10.1.7 or their source is currently unknown.",
 				["g"] = {
 					app.CreateItemSource(85, 778),	-- Kobold Excavation Pick
@@ -6790,7 +6790,7 @@ app.ProcessAuctionData = function()
 			["description"] = L.ALL_THE_BATTLEPETS_DESC,
 			["priority"] = 4,
 		}),
-		["questID"] = app.CreateNPC(app.HeaderConstants.QUESTS, {	-- Quests
+		["questID"] = app.CreateCustomHeader(app.HeaderConstants.QUESTS, {	-- Quests
 			["icon"] = 464068,
 			["description"] = L.ALL_THE_QUESTS_DESC,
 			["priority"] = 5,
