@@ -281,7 +281,7 @@ if localeString == "deDE" then
 	})
 	do ABBREVIATIONS[key] = value; end
 end
-if localeString == "esES" then
+if localeString == "esES" or localeString == "esMX" then
 	L.EXPANSION_DATA[1].lore = "Cuatro años después de la batalla del Monte Hyjal, tensiones entre la Alianza y la Horda empiezan a surgir nuevamente. Con la intención de establecerse en la región árida de Durotar, la nueva Horda de Thrall expande sus miembros, invitando a los no muertos a unirse a orcos, tauren, y trols. Mientras tanto, enanos, gnomos y los ancestrales elfos de la noche prometieron su lealtad a una Alianza revitalizada, guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta Varian Wrynn misteriosamente desapareciera, el Alto Señor Bolvar Fordragon sirve como Regente pero Su servicio se vio empañado por las manipulaciones y el control mental de Onyxia, quien gobierna disfrazada como una humana de la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos surgieron en tierras de todo el mundo para amenazar a la Horda y a la Alianza por igual.";
 	L.EXPANSION_DATA[2].lore = "The Burning Crusade es la primera expansión. Sus principales características incluyen un aumento del nivel máximo a 70, la introducción de los elfos de sangre y los draenei como razas jugables, y la incorporación del mundo de Terrallende, junto con varias zonas, mazmorras, objetos, misiones y monstruos nuevos.";
 	L.EXPANSION_DATA[3].lore = "Wrath of the Lich King es la segunda expansión. La mayor parte del contenido de la expansión se desarrolla en Rasganorte y se centra en los planes del Rey Exánime. Entre sus contenidos más destacados se incluyen el aumento del límite de nivel de 70 a 80, la introducción de la clase de héroe caballero de la Muerte y nuevo contenido JcJ/JcJ en el mundo.";
@@ -600,7 +600,7 @@ if app.IsRetail then
 		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
 	end
 	]]--
-	if localeString == "esES" then
+	if localeString == "esES" or localeString == "esMX" then
 		CUSTOM_COLLECTS_REASONS["NPE"].text = "Experiencia de los jugadores nuevos";
 		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Sólo un personaje nuevo puede coleccionar esto.";
 		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Hilos del destino";
