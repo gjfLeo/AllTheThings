@@ -2629,16 +2629,6 @@ function app:GetDataCache()
 		tinsert(g, db);
 	end
 
-	-- Achievements
-	if app.Categories.Achievements then
-		db = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, app.Categories.Achievements);
-		db.sourceIgnored = 1;	-- everything in this category is now cloned!
-		for _, o in ipairs(db.g) do
-			o.sourceIgnored = nil
-		end
-		tinsert(g, db);
-	end
-
 	-- Expansion Features
 	if app.Categories.ExpansionFeatures then
 		local text = GetCategoryInfo(15301)
@@ -2745,7 +2735,7 @@ function app:GetDataCache()
 
 	-- Track Deaths!
 	tinsert(g, app:CreateDeathClass());
-
+	
 	-- Yourself.
 	tinsert(g, app.CreateUnit("player", {
 		["description"] = L.DEBUG_LOGIN,
@@ -2763,9 +2753,25 @@ function app:GetDataCache()
 			end
 		end
 	}));
-
+	
 	-- Module-based Groups
 	app.HandleEvent("OnAddExtraMainCategories", g)
+	
+	-- app.PrintMemoryUsage()
+	-- app.PrintDebug("Begin Cache Prime")
+	CacheFields(rootData);
+	-- app.PrintDebugPrior("Ended Cache Prime")
+	-- app.PrintMemoryUsage()
+
+	-- Achievements
+	if app.Categories.Achievements then
+		db = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, app.Categories.Achievements);
+		db.sourceIgnored = 1;	-- everything in this category is now cloned!
+		for _, o in ipairs(db.g) do
+			o.sourceIgnored = nil
+		end
+		tinsert(g, db);
+	end
 
 	-- Create Dynamic Groups Button
 	tinsert(g, app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.DYNAMIC_CATEGORY_LABEL), {
@@ -2955,11 +2961,6 @@ function app:GetDataCache()
 	primeWindow:SetData(rootData);
 	-- app.PrintMemoryUsage("Prime Window Data Set")
 	primeWindow:BuildData();
-	-- app.PrintMemoryUsage()
-	-- app.PrintDebug("Begin Cache Prime")
-	CacheFields(rootData);
-	-- app.PrintDebugPrior("Ended Cache Prime")
-	-- app.PrintMemoryUsage()
 
 	-- Function to build a hidden window's data
 	local AllHiddenWindows = {}
