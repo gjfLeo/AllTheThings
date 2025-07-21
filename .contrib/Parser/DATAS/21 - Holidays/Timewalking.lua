@@ -5778,48 +5778,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 		inst_tw_wod(537, {	-- Shadowmoon Burial Grounds
 			e(1139, {	-- Sadana Bloodfury
 				["crs"] = { 75509 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, NECK},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, BACK},
-				},
-				["g"] = {
-					i(110035),	-- Sadana's Grisly Visage
-				},
 			}),
 			e(1168, {	-- Nhallish
 				["crs"] = { 75829 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WRIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, CHEST},
-				},
-				["g"] = {
-					i(110036),	-- Nhallish's Bloody Polearm
-					i(110007),	-- Voidmender's Shadowgem
-				},
 			}),
 			e(1140, {	-- Bonemaw
 				["crs"] = { 75452 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WAIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HANDS},
-				},
-				["g"] = {
-					i(110037),	-- Bonetooth Longbow
-					i(110012),	-- Bonemaw's Big Toe
-				},
 			}),
 			e(1160, {	-- Ner'zhul
 				["crs"] = { 76407 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HEAD},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FEET},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FINGER},
-				},
-				["g"] = {
-					i(138806),	-- Illusion: Mark of Shadowmoon (ILLUSION!)
-					i(110039),	-- Portal-Ripper's Staff
-					i(110038),	-- Ner'zhul's Ritual Blade
-				},
 			}),
 		}),
 		inst_tw_wod(476, {	-- Skyreach
