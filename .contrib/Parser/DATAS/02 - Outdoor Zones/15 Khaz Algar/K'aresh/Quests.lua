@@ -434,7 +434,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84848, {	-- Before the Void
 						["sourceQuests"] = { 84838 },	-- Enemies of Enemies
 						["provider"] = { "n", 230634 },	-- Xal'atath
-						["coord"] = { 64.3, 39.3, KARESH },
+						["coord"] = { 61.3, 39.3, KARESH },
 						["g"] = {
 							i(232599),	-- Tabiqa Dagger (PQI!)
 							--
@@ -622,16 +622,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 231524 },	-- Locus-Walker
 						["coord"] = { 42.9, 21.6, KARESH },
 					}),
-					--
-					-- Speculation
-					--q(86820, {	-- Manaforge Omega: Dimensius Looms
-					--	["sourceQuests"] = { 85037 },	-- That's a Wrap
-					--	["g"] = {
-					--		i(236954),	-- Void-Touched Valorstone
-					--	},
-					--}),
 				}),
 				header(HEADERS.AchCriteria, 41970.05, {	-- Chapter 5: The Light of K'aresh
+					q(86820, {	-- Manaforge Omega: Dimensius Looms
+						["sourceQuests"] = { 85037 },	-- That's a Wrap
+						["provider"] = { "n", 231522 },	-- Alleria Windrunner
+						["coord"] = { 42.9, 21.5, KARESH },
+						["g"] = {
+							i(231769),	-- Enchanted Runed Ethereal Crest
+							i(236954),	-- Void-Touched Valorstone
+						},
+					}),
 					q(86458),	--
 				}),
 			}),
@@ -944,7 +945,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(89380, {	-- Another World
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
 					["provider"] = { "n", 241601 },	-- Shad'anis
-					["coord"] = { 75.9, 33.0, KARESH },	-- Alex: 74.9, 31.1 as of 20/07
+					["coord"] = { 74.9, 31.1, KARESH },
 				}),
 				q(89561, {	-- Wrapped Up
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
@@ -1282,35 +1283,53 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.07, {	-- Priest of the Old Ways
-					-- According to quest data, this quest should start somewhere around The Oasis or Shan'dorah but I can't find the [qg] anywhere	-Exo
-					-- "The ruined town of Sufaad to the southeast of here was where I resided as a Wastelander."
 					q(85019, {	-- An Outcast's Request
-						--["sourceQuests"] = { ??? },
+						--["sourceQuests"] = { ??? },	-- Vignette never appeared on the map. Don't know which quest unlocks this. It is unlocked at some point during or at the end of Chapter 4.
 						["provider"] = { "n", 231422 },	-- Outcast Hizfran
 						["coord"] = { 77.7, 39.8, KARESH },
 						["g"] = {
-							i(229902),	-- K'areshi Priest's Bowl (QI!)
-							i(229895),	-- Scepter of Priesthood (QI!)
-							i(229893),	-- Ways of the Priesthood (QI!)
+							o(469979, {	-- K'areshi Priest's Bowl
+								["coord"] = { 80.0, 47.6, KARESH },
+								["g"] = { i(229902), },	-- K'areshi Priest's Bowl (QI!)
+							}),
+							i(229895, {	-- Scepter of Priesthood (QI!)
+								["coord"] = { 79.6, 48.0, KARESH },
+								["cr"] = 234847, -- Oathspeaker Al'joul
+							}),
+							o(469911, {	-- Ways of the Priesthood
+								["coord"] = { 81.0, 49.9, KARESH },
+								["g"] = { i(229893), },	-- Ways of the Priesthood (QI!)
+							}),
 						},
 					}),
 					q(85020, {	-- The Blood of K'aresh
 						["sourceQuests"] = { 85019 },	-- An Outcast's Request
-						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
-						--["coord"] = { x, y, KARESH },
+						["provider"] = { "n", 231422 },	-- Outcast Hizfran
+						["coord"] = { 77.7, 39.8, KARESH },
 						["g"] = {
-							i(229970),	-- Blood of K'aresh Deposit (QI!)
+							i(229970, {	-- Blood of K'aresh Deposit (QI!)
+								["providers"] = {
+									{ "n", 234858 },	-- Sand Strider
+									{ "o", 473973 },	-- Blood of K'aresh
+								},
+							}),
 						},
 					}),
 					q(85021, {	-- Cleansing the Void
 						["sourceQuests"] = { 85020 },	-- The Blood of K'aresh
-						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
-						--["coord"] = { x, y, KARESH },
+						["provider"] = { "n", 231422 },	-- Outcast Hizfran
+						["coord"] = { 77.7, 39.8, KARESH },
 					}),
 					q(85022, {	-- Priest of the Old Ways
 						["sourceQuests"] = { 85021 },	-- Cleansing the Void
-						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
-						--["coord"] = { x, y, KARESH },
+						["provider"] = { "n", 231699 },	-- Outcast Hizfran
+						["coord"] = { 77.9, 39.3, KARESH },
+						["g"] = {
+							i(245708),	-- Epaulets of the Exiled Vow
+							i(245710),	-- Mantle of the Exiled Vow
+							i(245709),	-- Shoulderguards of the Exiled Vow
+							i(245707),	-- Shoulderpads of the Exiled Vow
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.08, {	-- That Tazavesh Taste

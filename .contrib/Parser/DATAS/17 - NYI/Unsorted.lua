@@ -59,7 +59,6 @@ root(ROOTS.Unsorted, {
 				i(244476),	-- Worn Shadowguard Pendant
 				i(244509),	-- Worn Shadowguard Cleaver
 				i(244510),	-- Worn Shadowguard Carver
-				i(244511),	-- Worn Shadowguard Chopper
 				i(244513),	-- Worn Shadowguard Kris
 				i(244514),	-- Worn Shadowguard Mace
 				i(244515),	-- Worn Shadowguard Warmace
@@ -74,12 +73,6 @@ root(ROOTS.Unsorted, {
 				i(244525),	-- Worn Shadowguard Censer
 				i(244526),	-- Worn Shadowguard Bastion
 				i(244527),	-- Worn Shadowguard Warglaive
-
-				-- Quest Rewards/Rares?
-				i(245707),	-- Shoulderpads of the Exiled Vow
-				i(245708),	-- Epaulets of the Exiled Vow
-				i(245709),	-- Shoulderguards of the Exiled Vow
-				i(245710),	-- Mantle of the Exiled Vow
 
 				-- Rare
 				i(246064),	-- Reshii Magi's Pendant

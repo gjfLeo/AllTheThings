@@ -26,6 +26,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(90632),	-- Valorstones
 				}, {	-- RENOWN 7 --
 				}, {	-- RENOWN 8 --
+					q(90634),	-- A Small Bundle of Crystals
+					q(90633),	-- Weathered Crests
 				}, {	-- RENOWN 9 --
 				}, {	-- RENOWN 10 --
 					i(245968),	-- Tabard of the Trust

@@ -69,7 +69,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					-- #endif
 				}),
 				q(30098, {	-- The Well of Eternity
-					["qg"] = 54751,	-- Nozdormu
+					["qgs"] = {
+						54476,	-- Nozdormu
+						54751,	-- Nozdormu
+					},
 					["sourceQuest"] = 30096,	-- Murozond
 				}),
 			}),

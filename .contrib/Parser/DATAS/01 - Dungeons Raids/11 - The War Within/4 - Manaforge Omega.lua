@@ -388,7 +388,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				faction(FACTION_MANAFORGE_VANDALS),
 				n(QUESTS, sharedData({
 					["provider"] = { "n", 245344 },	-- Zo'turu <Renown Quartermaster>
-					["coord"] = { 42.1, 23.1, KARESH },
+					["coord"] = { 42.0, 22.1, KARESH },
 				},bubbleDownRep(FACTION_MANAFORGE_VANDALS, {
 					{		-- RENOWN 1 --
 						q(92031), -- Meet the Vandals
@@ -416,7 +416,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				-- NOTE: There are 3 vendors outside the Raid Entrance. Items they sell are not renown locked.
 				n(245349, bubbleDownSelf({	-- Zo'ropo <Eccentric Engineer>
 					["cost"] = { { "i", 246727, 1 }, }, },{	-- Ethereal Essence Sliver
-					["coord"] = { 42.2, 23.0, KARESH },
+					["coord"] = { 42.0, 22.0, KARESH },
 					["g"] = {
 						i(249145),	-- Manaforge Raider's Gamma Shockmace (COSMETIC!)
 						i(249164),	-- Manaforge Raider's Cosmic Shockmace (COSMETIC!)
@@ -495,7 +495,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				})),
 				n(245348, bubbleDownSelf({	-- Ba'choso <Curious Curator>
 					["cost"] = { { "i", 245510, 1 }, }, },{	-- Loombeast Silk
-					["coord"] = { 42.1, 23.2, KARESH },
+					["coord"] = { 42.0, 22.4, KARESH },
 					["g"] = {
 						iensemble(248969),	-- Ensemble: Hollow Sentinel's Wingdrapes
 						iensemble(248971),	-- Ensemble: Vicious Charhound's Felcovers

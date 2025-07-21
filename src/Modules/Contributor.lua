@@ -1282,6 +1282,7 @@ MobileDB.GameObject = {
 	[469901] = true,	-- Void Glass Node (q:84972)
 	[473920] = true,	-- Void-infused Shard (q:84974)
 	[473943] = true,	-- Salvageable Scrap (q:85051)
+	[473973] = true,	-- Blood of K'aresh (q:85020)
 	[474030] = true,	-- Salvageable Scrap (q:85051)
 	[474033] = true,	-- Salvageable Scrap (q:85051)
 	[474084] = true,	-- Salvageable Scrap (q:85051)
