@@ -5719,48 +5719,18 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 		inst_tw_wod(385, {	-- Bloodmaul Slag Mines
 			e(888, {	-- Slave Watcher Crushto
 				["crs"] = { 74787 },	-- Slave Watcher Crushto
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WRIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, LEGS},
-				},
-				["g"] = {
-					i(110040),	-- Crushto's Neck Separator
-					i(110000),	-- Crushto's Runic Alarm
-				},
 			}),
 			e(893, {	-- Magmolatus
 				["crs"] = {
 					74366,	-- Forgemaster Gog'duh
 					74475,	-- Magmolatus
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, CHEST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HANDS},
-				},
 			}),
 			e(887, {	-- Roltall
 				["crs"] = { 75786 },	-- Roltall
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, BACK},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FEET},
-				},
-				["g"] = {
-					i(110041),	-- Roltall's Brutal Crescent
-					i(110015),	-- Toria's Unseeing Eye
-				},
 			}),
 			e(889, {	-- Gug'rokk
 				["crs"] = { 74790 },	-- Gug'rokk
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HEAD},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, SHOULDER},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FINGER},
-				},
-				["g"] = {
-					i(110042),	-- Gug'rokk's Smasher
-					i(110044),	-- Ogre Dinner Plate
-					i(110043),	-- Gug'rokk's Grandmother
-				},
 			}),
 		}),
 		inst_tw_wod(536, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 }},{	-- Grimrail Depot

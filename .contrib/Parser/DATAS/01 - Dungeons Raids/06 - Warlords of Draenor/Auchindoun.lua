@@ -10,9 +10,9 @@ local TERONGOR = 1225
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[VIGILANT] = { 75839 },	-- Oregorger
-	[SOULBINDER] = { 76177 },	-- Gruul
-	[AZZAKEL] = { 75927 },	-- The Blast Furnace
+	[VIGILANT] = { 75839 },	-- Vigilant Kaathar
+	[SOULBINDER] = { 76177 },	-- Soulbinder Nyami
+	[AZZAKEL] = { 75927 },	-- Azzakel
 	[TERONGOR] = { 77734 },	-- Teron'gor
 }
 
