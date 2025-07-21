@@ -5806,14 +5806,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 		inst_tw_wod(556, {	-- The Everbloom
 			e(1214, {	-- Witherbark
 				["crs"] = { 81522 },	-- Witherbark
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, BACK},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HANDS},
-				},
-				["g"] = {
-					i(119175),	-- Leafhide Penetrator
-					i(109999),	-- Witherbark's Branch
-				},
 			}),
 			e(1207, {	-- Ancient Protectors
 				["crs"] = {
@@ -5821,51 +5813,18 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 					83893,	-- Earthshaper Telu
 					83892,	-- Life Warden Gola
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WAIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, LEGS},
-				},
-				["g"] = {
-					i(119176),	-- Interloper's Mossy Skull
-					i(110009),	-- Leaf of the Ancient Protectors
-				},
 			}),
 			e(1209, {	-- Xeri'tac
 				["crs"] = {
 					84666,	-- Xeri'tac (before pulling)
 					84550,	-- Xeri'tac
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, CHEST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FEET},
-				},
-				["g"] = {
-					i(119173),	-- Dessicated Husk Shield
-					i(110019),	-- Xeri'tac's Unhatched Egg Sac
-				},
 			}),
 			e(1208, {	-- Archmage Sol
 				["crs"] = { 82682 },	-- Archmage Sol
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HEAD},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WRIST},
-				},
-				["g"] = {
-					i(119174),	-- Sol's Magestaff
-					i(110014),	-- Spores of Alacrity
-				},
 			}),
 			e(1210, {	-- Yalnu
 				["crs"] = { 83846 },	-- Yalnu
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, NECK},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, SHOULDER},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FINGER},
-				},
-				["g"] = {
-					i(119181),	-- Hoof of Yalnu
-					i(110004),	-- Coagulated Genesaur Blood
-				},
 			}),
 		}),
 	})),
