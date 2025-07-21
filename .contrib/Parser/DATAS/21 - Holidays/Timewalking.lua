@@ -30,8 +30,9 @@ local function inst_tw(id, t)
 	if groups then
 		for _,data in ipairs(groups) do
 			if data.encounterID then
-				if data.creatureID and data.creatureID > 0 then
-					table.insert(TIMEWALKING_DUNGEON_CREATURE_IDS, data.creatureID);
+				local npcID = data.npcID or data.creatureID
+				if npcID and npcID > 0 then
+					table.insert(TIMEWALKING_DUNGEON_CREATURE_IDS, npcID);
 				end
 				if data.crs then
 					for _,creatureID in ipairs(data.crs) do

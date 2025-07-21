@@ -982,10 +982,9 @@ app.CreateMap = app.CreateClass("Map", "mapID", {
 	end,
 	["ShouldShowEventSchedule"] = app.ReturnTrue,
 }, (function(t)
-	local creatureID = t.creatureID or t.npcID;
+	local creatureID = t.npcID
 	if creatureID and creatureID < 0 then
 		t.headerID = creatureID;
-		t.creatureID = nil;
 		t.npcID = nil;
 		return true;
 	elseif t.headerID then
@@ -1102,10 +1101,9 @@ app.CreateInstance = app.CreateClass("Instance", "instanceID", instanceFields,
 	if t.headerID then
 		return true;
 	else
-		local creatureID = t.creatureID or t.npcID;
+		local creatureID = t.npcID
 		if creatureID and creatureID < 0 then
 			t.headerID = creatureID;
-			t.creatureID = nil;
 			t.npcID = nil;
 			return true;
 		end

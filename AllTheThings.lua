@@ -1972,7 +1972,7 @@ local function BuildSourceParent(group)
 	end
 	-- group with some Source-able data can be treated as specific Source
 	if not specificSource and (
-		group.npcID or group.creatureID or group.crs or group.providers
+		group.npcID or group.crs or group.providers
 	) then
 		specificSource = true;
 	end
@@ -2019,7 +2019,7 @@ local function BuildSourceParent(group)
 					if parentKey and parent[parentKey] and parent.hash ~= groupHash then
 						-- only show certain types of parents as sources.. typically 'Game World Things'
 						-- or if the parent is directly tied to an NPC
-						if thingKeys[parentKey] or parent.npcID or parent.creatureID then
+						if thingKeys[parentKey] or parent.npcID then
 							-- add the parent for display later
 							parent = CreateObject(parent, true)
 							parents[#parents + 1] = parent
@@ -2042,8 +2042,8 @@ local function BuildSourceParent(group)
 					parent = parent.parent;
 				end
 				-- Things tagged with an npcID should show that NPC as a Source
-				if thing.key ~= "npcID" and (thing.npcID or thing.creatureID) then
-					local parentNPC = CreateObject(SearchForObject("npcID", thing.npcID or thing.creatureID, "field") or {["npcID"] = thing.npcID or thing.creatureID}, true)
+				if thing.key ~= "npcID" and thing.npcID then
+					local parentNPC = CreateObject(SearchForObject("npcID", thing.npcID, "field") or {["npcID"] = thing.npcID}, true)
 					parents[#parents + 1] = parentNPC
 					-- achievement criteria can nest inside their Source for clarity
 					if isAchievement and KeepSourced[thing.key] then
@@ -2735,7 +2735,7 @@ function app:GetDataCache()
 
 	-- Track Deaths!
 	tinsert(g, app:CreateDeathClass());
-	
+
 	-- Yourself.
 	tinsert(g, app.CreateUnit("player", {
 		["description"] = L.DEBUG_LOGIN,
@@ -2753,10 +2753,10 @@ function app:GetDataCache()
 			end
 		end
 	}));
-	
+
 	-- Module-based Groups
 	app.HandleEvent("OnAddExtraMainCategories", g)
-	
+
 	-- app.PrintMemoryUsage()
 	-- app.PrintDebug("Begin Cache Prime")
 	CacheFields(rootData);
