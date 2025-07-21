@@ -19,7 +19,7 @@ local GetSpellIcon = app.WOWAPI.GetSpellIcon;
 local IsQuestFlaggedCompletedOnAccount = app.WOWAPI.IsQuestFlaggedCompletedOnAccount;
 
 -- Settings: Interface Page
-local child = settings:CreateOptionsPage("Information", L.INTERFACE_PAGE)
+local child = settings:CreateOptionsPage(L.INFORMATION_PAGE, L.INTERFACE_PAGE)
 
 -- Conversion Methods for specific formats for a given Information Type.
 local function GetCoordString(x, y)

@@ -2,7 +2,7 @@ local _, app = ...;
 local L, settings = app.L, app.Settings;
 
 -- Settings: General Page
-local child = settings:CreateOptionsPage(L.UNOBTAINABLES_PAGE, "General")
+local child = settings:CreateOptionsPage(L.UNOBTAINABLES_PAGE, L.GENERAL_PAGE)
 
 local headerUnobtainableContent = child:CreateHeaderLabel(L.UNOBTAINABLE_LABEL)
 if child.separator then

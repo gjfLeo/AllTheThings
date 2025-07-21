@@ -6791,7 +6791,7 @@ app.ProcessAuctionData = function()
 			["description"] = L.ALL_THE_BATTLEPETS_DESC,
 			["priority"] = 4,
 		}),
-		["questID"] = app.CreateCustomHeader(app.HeaderConstants.QUESTS, {	-- Quests
+		["questID"] = app.CreateCustomHeader(app.HeaderConstants.QUESTS, {
 			["icon"] = 464068,
 			["description"] = L.ALL_THE_QUESTS_DESC,
 			["priority"] = 5,
@@ -6801,7 +6801,7 @@ app.ProcessAuctionData = function()
 			["description"] = L.ALL_THE_RECIPES_DESC,
 			["priority"] = 6,
 		}),
-		["itemID"] = app.CreateRawText("General", {					-- General
+		["itemID"] = app.CreateRawText(L.GENERAL_PAGE, {
 			["icon"] = 334365,
 			["description"] = L.ALL_THE_ILLUSIONS_DESC,
 			["priority"] = 7,
