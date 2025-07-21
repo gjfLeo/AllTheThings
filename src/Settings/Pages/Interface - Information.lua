@@ -777,7 +777,7 @@ local InformationTypes = {
 	}),
 	CreateInformationType("maps", { text = L.MAPS, priority = 2.6,
 		Process = function(t, reference, tooltipInfo)
-			local maps = reference.maps;
+			local maps = reference.maps or reference.maps_disp
 			if not maps or #maps == 0 then
 				local coords = reference.coords
 				if coords and #coords > 0 then
@@ -1275,14 +1275,14 @@ local InformationTypes = {
 			end
 		end,
 	}),
-	CreateInformationType("sourceIgnored", { text = "sourceIgnored", priority = 11001, HideCheckBox = true, ForceActive = true, ShouldDisplayInExternalTooltips = false, 
+	CreateInformationType("sourceIgnored", { text = "sourceIgnored", priority = 11001, HideCheckBox = true, ForceActive = true, ShouldDisplayInExternalTooltips = false,
 		Process = function(t, reference, tooltipInfo)
 			if reference.sourceIgnored then
 				tinsert(tooltipInfo, { left = L.DOES_NOT_CONTRIBUTE_TO_PROGRESS, wrap = true });
 			end
 		end,
 	}),
-	
+
 	CreateInformationType("SpecializationRequirements", {
 		priority = 9003,
 		text = L.SPEC_CHECKBOX,
