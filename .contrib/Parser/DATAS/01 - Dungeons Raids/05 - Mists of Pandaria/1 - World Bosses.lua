@@ -27,11 +27,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(95332),	-- Gauntlets of the Last Mogu
 						i(95333),	-- Legplates of the Last Mogu
-						
+
 						-- Tank
 						i(95336),	-- Handguards of the Last Mogu
 						i(95338),	-- Legguards of the Last Mogu
-						
+
 						-- PvP
 						i(91432),	-- Tyrannical Gladiator's Plate Gauntlets
 						i(94331),	-- Tyrannical Gladiator's Plate Gauntlets
@@ -42,15 +42,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(95281),	-- Lightning Emperor's Gauntlets
 						i(95283),	-- Lightning Emperor's Legplates
-						
+
 						-- Healer
 						i(95286),	-- Lightning Emperor's Gloves
 						i(95288),	-- Lightning Emperor's Greaves
-						
+
 						-- Tank
 						i(95291),	-- Lightning Emperor's Handguards
 						i(95293),	-- Lightning Emperor's Legguards
-						
+
 						-- PvP
 						i(91289),	-- Tyrannical Gladiator's Ornamented Gloves
 						i(94438),	-- Tyrannical Gladiator's Ornamented Gloves
@@ -65,11 +65,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(95226),	-- Gauntlets of the All-Consuming Maw
 						i(95228),	-- Greaves of the All-Consuming Maw
-						
+
 						-- Tank
 						i(95231),	-- Handguards of the All-Consuming Maw
 						i(95233),	-- Legguards of the All-Consuming Maw
-						
+
 						-- PvP
 						i(91149),	-- Tyrannical Gladiator's Dreadplate Gauntlets
 						i(94364),	-- Tyrannical Gladiator's Dreadplate Gauntlets
@@ -79,7 +79,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(HUNTER, {
 						i(95256),	-- Saurok Stalker's Gloves
 						i(95258),	-- Saurok Stalker's Legguards
-						
+
 						-- PvP
 						i(91224),	-- Tyrannical Gladiator's Chain Gauntlets
 						i(94453),	-- Tyrannical Gladiator's Chain Gauntlets
@@ -89,7 +89,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(ROGUE, {
 						i(95306),	-- Nine-Tailed Gloves
 						i(95308),	-- Nine-Tailed Legguards
-						
+
 						-- PvP
 						i(91342),	-- Tyrannical Gladiator's Leather Gloves
 						i(94377),	-- Tyrannical Gladiator's Leather Gloves
@@ -100,11 +100,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(95300),	-- Gloves of the Exorcist
 						i(95302),	-- Leggings of the Exorcist
-						
+
 						-- Healer
 						i(95295),	-- Handwraps of the Exorcist
 						i(95297),	-- Legwraps of the Exorcist
-						
+
 						-- PvP
 						i(91309),	-- Tyrannical Gladiator's Mooncloth Gloves
 						i(94328),	-- Tyrannical Gladiator's Mooncloth Gloves
@@ -119,15 +119,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Enhance)
 						i(95316),	-- Grips of the Witch Doctor
 						i(95318),	-- Legguards of the Witch Doctor
-						
+
 						-- DPS (Elemental)
 						i(95321),	-- Gloves of the Witch Doctor
 						i(95323),	-- Kilt of the Witch Doctor
-						
+
 						-- Healer
 						i(95311),	-- Handwraps of the Witch Doctor
 						i(95313),	-- Legwraps of the Witch Doctor
-						
+
 						-- PvP
 						i(91370),	-- Tyrannical Gladiator's Linked Gauntlets
 						i(94458),	-- Tyrannical Gladiator's Linked Gauntlets
@@ -145,7 +145,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(MAGE, {
 						i(95260),	-- Gloves of the Chromatic Hydra
 						i(95262),	-- Leggings of the Chromatic Hydra
-						
+
 						-- PvP
 						i(91232),	-- Tyrannical Gladiator's Silk Handguards
 						i(94451),	-- Tyrannical Gladiator's Silk Handguards
@@ -156,15 +156,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(95266),	-- Fire-Charm Grips
 						i(95268),	-- Fire-Charm Leggings
-						
+
 						-- Healer
 						i(95270),	-- Fire-Charm Handwraps
 						i(95272),	-- Fire-Charm Legwraps
-						
+
 						-- Tank
 						i(95276),	-- Fire-Charm Gauntlets
 						i(95278),	-- Fire-Charm Legguards
-						
+
 						-- PvP
 						i(91257),	-- Tyrannical Gladiator's Copperskin Gloves
 						i(94340),	-- Tyrannical Gladiator's Copperskin Gloves
@@ -178,7 +178,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(WARLOCK, {
 						i(95325),	-- Gloves of the Thousandfold Hells
 						i(95327),	-- Leggings of the Thousandfold Hells
-						
+
 						-- PvP
 						i(91420),	-- Tyrannical Gladiator's Felweave Handguards
 						i(94441),	-- Tyrannical Gladiator's Felweave Handguards
@@ -189,19 +189,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Boomkin)
 						i(95245),	-- Gloves of the Haunted Forest
 						i(95247),	-- Leggings of the Haunted Forest
-						
+
 						-- DPS (Feral)
 						i(95236),	-- Grips of the Haunted Forest
 						i(95238),	-- Legguards of the Haunted Forest
-						
+
 						-- Healer
 						i(95240),	-- Handwraps of the Haunted Forest
 						i(95242),	-- Legwraps of the Haunted Forest
-						
+
 						-- Tank
 						i(95251),	-- Handguards of the Haunted Forest
 						i(95253),	-- Breeches of the Haunted Forest
-						
+
 						-- PvP
 						i(91157),	-- Tyrannical Gladiator's Dragonhide Gloves
 						i(94455),	-- Tyrannical Gladiator's Dragonhide Gloves
@@ -445,7 +445,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(95166),	-- Forzarra's Last Meal
 					i(95167),	-- Ring of King Kangrom
 					i(95163),	-- Ring of Shamuru
-					
+
 					-- Consolation Prize
 					i(95601, {	-- Shiny Pile of Refuse
 						["description"] = "This is awarded as a consolation prize to players who did not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
@@ -716,11 +716,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(85331),	-- Gauntlets of Resounding Rings
 						i(85330),	-- Legplates of Resounding Rings
-						
+
 						-- Tank
 						i(85327),	-- Handguards of Resounding Rings
 						i(85325),	-- Legguards of Resounding Rings
-						
+
 						-- PvP Gloves
 						i(84840),	-- Malevolent Gladiator's Plate Gauntlets
 					}),
@@ -728,15 +728,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(85342),	-- White Tiger Gauntlets
 						i(85340),	-- White Tiger Legplates
-						
+
 						-- Healer
 						i(85347),	-- White Tiger Gloves
 						i(85345),	-- White Tiger Greaves
-						
+
 						-- Tank
 						i(85322),	-- White Tiger Handguards
 						i(85320),	-- White Tiger Legguards
-						
+
 						-- PvP Gloves
 						i(84831),	-- Malevolent Gladiator's Ornamented Gloves
 						i(84834),	-- Malevolent Gladiator's Scaled Gauntlets
@@ -745,25 +745,25 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(85337),	-- Gauntlets of the Lost Catacomb
 						i(85335),	-- Greaves of the Lost Catacomb
-						
+
 						-- Tank
 						i(85317),	-- Handguards of the Lost Catacomb
 						i(85315),	-- Legguards of the Lost Catacomb
-						
+
 						-- PvP Gloves
 						i(84835),	-- Malevolent Gladiator's Dreadplate Gauntlets
 					}),
 					cl(HUNTER, {
 						i(85297),	-- Yaungol Slayer's Gloves
 						i(85295),	-- Yaungol Slayer's Legguards
-						
+
 						-- PvP Gloves
 						i(84841),	-- Malevolent Gladiator's Chain Gauntlets
 					}),
 					cl(ROGUE, {
 						i(85302),	-- Gloves of the Thousandfold Blades
 						i(85300),	-- Legguards of the Thousandfold Blades
-						
+
 						-- PvP Gloves
 						i(84830),	-- Malevolent Gladiator's Leather Gloves
 					}),
@@ -771,11 +771,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(85364),	-- Guardian Serpent Gloves
 						i(85366),	-- Guardian Serpent Leggings
-						
+
 						-- Healer
 						i(85363),	-- Guardian Serpent Handwraps
 						i(85361),	-- Guardian Serpent Legwraps
-						
+
 						-- PvP Gloves
 						i(84846),	-- Malevolent Gladiator's Mooncloth Gloves
 						i(84838),	-- Malevolent Gladiator's Satin Gloves
@@ -784,15 +784,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Enhance)
 						i(85287),	-- Firebird's Grips
 						i(85285),	-- Firebird's Legguards
-						
+
 						-- DPS (Elemental)
 						i(85290),	-- Firebird's Gloves
 						i(85292),	-- Firebird's Kilt
-						
+
 						-- Healer
 						i(85352),	-- Firebird's Handwraps
 						i(85350),	-- Firebird's Legwraps
-						
+
 						-- PvP Gloves
 						i(84844),	-- Malevolent Gladiator's Linked Gauntlets
 						i(84845),	-- Malevolent Gladiator's Mail Gauntlets
@@ -801,7 +801,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(MAGE, {
 						i(85378),	-- Gloves of the Burning Scroll
 						i(85376),	-- Leggings of the Burning Scroll
-						
+
 						-- PvP Gloves
 						i(84837),	-- Malevolent Gladiator's Silk Handguards
 					}),
@@ -809,15 +809,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(85395),	-- Red Crane Grips
 						i(85397),	-- Red Crane Leggings
-						
+
 						-- Healer
 						i(85389),	-- Red Crane Handwraps
 						i(85391),	-- Red Crane Legwraps
-						
+
 						-- Tank
 						i(85387),	-- Red Crane Gauntlets
 						i(85385),	-- Red Crane Legguards
-						
+
 						-- PvP Gloves
 						i(84836),	-- Malevolent Gladiator's Copperskin Gloves
 						i(84839),	-- Malevolent Gladiator's Ironskin Gloves
@@ -825,7 +825,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(WARLOCK, {
 						i(85369),	-- Sha-Skin Gloves
 						i(85371),	-- Sha-Skin Leggings
-						
+
 						-- PvP Gloves
 						i(84842),	-- Malevolent Gladiator's Felweave Handguards
 					}),
@@ -833,19 +833,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Boomkin)
 						i(85308),	-- Eternal Blossom Gloves
 						i(85306),	-- Eternal Blossom Leggings
-						
+
 						-- DPS (Feral)
 						i(85312),	-- Eternal Blossom Grips
 						i(85310),	-- Eternal Blossom Legguards
-						
+
 						-- Healer
 						i(85358),	-- Eternal Blossom Handwraps
 						i(85356),	-- Eternal Blossom Legwraps
-						
+
 						-- Tank
 						i(85380),	-- Eternal Blossom Handguards
 						i(85382),	-- Eternal Blossom Breeches
-						
+
 						-- PvP Gloves
 						i(84832),	-- Malevolent Gladiator's Dragonhide Gloves
 						i(84833),	-- Malevolent Gladiator's Kodohide Gloves
@@ -980,16 +980,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["g"] = {
 					ach(8535, {	-- Celestial Challenge
 						crit(23743, {	-- Chi-Ji slain
-							["_encounter"] =  { 857, WORLD_BOSSES },
+							["_encounter"] =  { 857, 8535 },
 						}),
 						crit(23745, {	-- Niuzao slain
-							["_encounter"] =  { 859, WORLD_BOSSES },
+							["_encounter"] =  { 859, 8535 },
 						}),
 						crit(23746, {	-- Xuen slain
-							["_encounter"] =  { 860, WORLD_BOSSES },
+							["_encounter"] =  { 860, 8535 },
 						}),
 						crit(23744, {	-- Yu'lon slain
-							["_encounter"] =  { 858, WORLD_BOSSES },
+							["_encounter"] =  { 858, 8535 },
 						}),
 					}),
 					ach(8789),	-- Celestial Challenge Guild Run
@@ -1009,11 +1009,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(99198),	-- Gauntlets of the Prehistoric Marauder
 						i(99199),	-- Legplates of the Prehistoric Marauder
-						
+
 						-- Tank
 						i(99202),	-- Handguards of the Prehistoric Marauder
 						i(99195),	-- Legguards of the Prehistoric Marauder
-						
+
 						-- PvP
 						i(102618),	-- Prideful Gladiator's Plate Gauntlets
 						i(103526),	-- Prideful Gladiator's Plate Gauntlets
@@ -1024,15 +1024,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(99137),	-- Gauntlets of Winged Triumph
 						i(99139),	-- Legplates of Winged Triumph
-						
+
 						-- Healer
 						i(99134),	-- Gloves of Winged Triumph
 						i(99124),	-- Greaves of Winged Triumph
-						
+
 						-- Tank
 						i(99127),	-- Handguards of Winged Triumph
 						i(99129),	-- Legguards of Winged Triumph
-						
+
 						-- PvP
 						i(102722),	-- Prideful Gladiator's Ornamented Gloves
 						i(103451),	-- Prideful Gladiator's Ornamented Gloves
@@ -1047,11 +1047,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(99193),	-- Gauntlets of Cyclopean Dread
 						i(99186),	-- Greaves of Cyclopean Dread
-						
+
 						-- Tank
 						i(99189),	-- Handguards of Cyclopean Dread
 						i(99191),	-- Legguards of Cyclopean Dread
-						
+
 						-- PvP
 						i(103377),	-- Prideful Gladiator's Dreadplate Gauntlets
 						i(102650),	-- Prideful Gladiator's Dreadplate Gauntlets
@@ -1061,7 +1061,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(HUNTER, {
 						i(99168),	-- Gloves of the Unblinking Vigil
 						i(99158),	-- Legguards of the Unblinking Vigil
-						
+
 						-- PvP
 						i(103417),	-- Prideful Gladiator's Chain Gauntlets
 						i(102737),	-- Prideful Gladiator's Chain Gauntlets
@@ -1071,7 +1071,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(ROGUE, {
 						i(99113),	-- Gloves of the Barbed Assassin
 						i(99115),	-- Legguards of the Barbed Assassin
-						
+
 						-- PvP
 						i(102663),	-- Prideful Gladiator's Leather Gloves
 						i(103476),	-- Prideful Gladiator's Leather Gloves
@@ -1082,11 +1082,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(99121),	-- Gloves of the Ternion Glory
 						i(99123),	-- Leggings of Ternion Glory
-						
+
 						-- Healer
 						i(99131),	-- Handwraps of the Ternion Glory
 						i(99118),	-- Legwraps of Ternion Glory
-						
+
 						-- PvP
 						i(102615),	-- Prideful Gladiator's Mooncloth Gloves
 						i(103462),	-- Prideful Gladiator's Mooncloth Gloves
@@ -1101,15 +1101,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Enhance)
 						i(99102),	-- Grips of Celestial Harmony
 						i(99104),	-- Legguards of Celestial Harmony
-						
+
 						-- DPS (Elemental)
 						i(99092),	-- Gloves of Celestial Harmony
 						i(99094),	-- Leggings of Celestial Harmony
-						
+
 						-- Healer
 						i(99108),	-- Handwraps of Celestial Harmony
 						i(99099),	-- Legwraps of Celestial Harmony
-						
+
 						-- PvP
 						i(103491),	-- Prideful Gladiator's Linked Gauntlets
 						i(102742),	-- Prideful Gladiator's Linked Gauntlets
@@ -1127,7 +1127,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(MAGE, {
 						i(99160),	-- Chronomancer Gloves
 						i(99162),	-- Chronomancer Leggings
-						
+
 						-- PvP
 						i(102735),	-- Prideful Gladiator's Silk Handguards
 						i(103421),	-- Prideful Gladiator's Silk Handguards
@@ -1138,15 +1138,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS
 						i(99155),	-- Grips of Seven Sacred Seals
 						i(99145),	-- Leggings of Seven Sacred Seals
-						
+
 						-- Healer
 						i(99147),	-- Handwraps of Seven Sacred Seals
 						i(99149),	-- Legwraps of Seven Sacred Seals
-						
+
 						-- Tank
 						i(99141),	-- Gauntlets of Seven Sacred Seals
 						i(99143),	-- Legguards of Seven Sacred Seals
-						
+
 						-- PvP
 						i(102627),	-- Prideful Gladiator's Copperskin Gloves
 						i(103434),	-- Prideful Gladiator's Copperskin Gloves
@@ -1160,7 +1160,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					cl(WARLOCK, {
 						i(99096),	-- Gloves of the Horned Nightmare
 						i(99098),	-- Leggings of the Horned Nightmare
-						
+
 						-- PvP
 						i(102725),	-- Prideful Gladiator's Felweave Handguards
 						i(103520),	-- Prideful Gladiator's Felweave Handguards
@@ -1171,19 +1171,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						-- DPS (Boomkin)
 						i(99174),	-- Gloves of the Shattered Vale
 						i(99176),	-- Leggings of the Shattered Vale
-						
+
 						-- DPS (Feral)
 						i(99181),	-- Grips of the Shattered Vale
 						i(99183),	-- Legguards of the Shattered Vale
-						
+
 						-- Healer
 						i(99185),	-- Handwraps of the Shattered Vale
 						i(99171),	-- Legwraps of the Shattered Vale
-						
+
 						-- Tank
 						i(99163),	-- Handguards of the Shattered Vale
 						i(99165),	-- Breeches of the Shattered Vale
-						
+
 						-- PvP
 						i(102739),	-- Prideful Gladiator's Dragonhide Gloves
 						i(103381),	-- Prideful Gladiator's Dragonhide Gloves
