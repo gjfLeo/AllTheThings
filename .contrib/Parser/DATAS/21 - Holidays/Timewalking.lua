@@ -5756,14 +5756,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 					81297,	-- Dreadfang
 					81305,	-- Fleshrender Nok'gar
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, CHEST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FINGER},
-				},
-				["g"] = {
-					i(110055),	-- Gutwrench Goreaxe
-					i(110002),	-- Fleshrender's Meathook
-				},
 			}),
 			e(1236, {	-- Grimrail Enforcers
 				["crs"] = {
@@ -5771,41 +5763,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 					80805,	-- Makogg Emberblade
 					80808,	-- Neesa Nox
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HEAD},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, NECK},
-				},
-				["g"] = {
-					i(110056),	-- Black Iron Sniper Rifle
-					i(110017),	-- Enforcer's Stun Grenade
-				},
 			}),
 			e(1237, {	-- Oshir
 				["crs"] = { 79852 },	-- Oshir
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WRIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WAIST},
-				},
-				["g"] = {
-					i(110057),	-- Mindbreaker Scepter
-					i(109997),	-- Kihra's Adrenaline Injector
-				},
 			}),
 			e(1238, {	-- Skulloc
 				["crs"] = {
 					83613,	-- Koramar
 					83612,	-- Skulloc
 					83616,	-- Zoggosh
-				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, SHOULDER},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HANDS},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, LEGS},
-				},
-				["g"] = {
-					i(110059),	-- Chasmwrench Docking Hook
-					i(110058),	-- Bloodied Hand of Woe
-					i(110060),	-- Painbringer's Crystal
 				},
 			}),
 		})),
