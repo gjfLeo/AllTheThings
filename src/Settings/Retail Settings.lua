@@ -137,6 +137,7 @@ local TooltipSettingsBase = {
 		["MainListScale"] = 1,
 		["MiniListScale"] = 1,
 		["Objectives"] = false,
+		["Owned Pets"] = true,
 		["Precision"] = 2,
 		["PlayDeathSound"] = false,
 		["Progress"] = true,

@@ -132,6 +132,7 @@ local TooltipSettingsBase = {
 		["IconPortraitsForQuests"] = true,
 		["Models"] = true,
 		["Objectives"] = true,
+		["Owned Pets"] = true,
 		["PlayDeathSound"] = false,
 		["Precision"] = 2,
 		["Progress"] = true,
