@@ -969,7 +969,7 @@ app.CreateMap = app.CreateClass("Map", "mapID", {
 },
 "WithHeader", {
 	["name"] = function(t)
-		return app.NPCNameFromID[t.headerID] or GetMapName(t.mapID);
+		return L.HEADER_NAMES[t.headerID] or GetMapName(t.mapID);
 	end,
 	["icon"] = function(t)
 		return L.HEADER_ICONS[t.headerID] or app.asset("Category_Zones");
@@ -1086,7 +1086,7 @@ end
 app.CreateInstance = app.CreateClass("Instance", "instanceID", instanceFields,
 "WithHeader", {
 	["name"] = function(t)
-		return app.NPCNameFromID[t.headerID] or instanceFields.name(t);
+		return L.HEADER_NAMES[t.headerID] or instanceFields.name(t);
 	end,
 	["icon"] = function(t)
 		return L.HEADER_ICONS[t.headerID] or app.asset("Category_Zones");

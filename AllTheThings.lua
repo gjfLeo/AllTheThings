@@ -2503,9 +2503,9 @@ end)();
 
 do	-- Main Data
 -- Returns {name,icon} for a known HeaderConstants NPCID
-local function SimpleNPCGroup(npcID, t)
+local function SimpleHeaderGroup(npcID, t)
 	if t then
-		t.name = app.NPCNameFromID[npcID]
+		t.name = L.HEADER_NAMES[npcID]
 		t.icon = L.HEADER_ICONS[npcID]
 		if t.suffix then
 			t.name = t.name .. " (".. t.suffix ..")"
@@ -2513,7 +2513,7 @@ local function SimpleNPCGroup(npcID, t)
 		end
 	else
 		t = {
-				name = app.NPCNameFromID[npcID],
+				name = L.HEADER_NAMES[npcID],
 				icon = L.HEADER_ICONS[npcID]
 			}
 	end
@@ -2812,13 +2812,13 @@ function app:GetDataCache()
 			}),
 
 			-- Achievements
-			app.CreateDynamicHeader("achievementID", SimpleNPCGroup(app.HeaderConstants.ACHIEVEMENTS)),
+			app.CreateDynamicHeader("achievementID", SimpleHeaderGroup(app.HeaderConstants.ACHIEVEMENTS)),
 
 			-- Artifacts
-			app.CreateDynamicHeader("artifactID", SimpleNPCGroup(app.HeaderConstants.ARTIFACTS)),
+			app.CreateDynamicHeader("artifactID", SimpleHeaderGroup(app.HeaderConstants.ARTIFACTS)),
 
 			-- Azerite Essences
-			app.CreateDynamicHeader("azeriteessenceID", SimpleNPCGroup(app.HeaderConstants.AZERITE_ESSENCES)),
+			app.CreateDynamicHeader("azeriteessenceID", SimpleHeaderGroup(app.HeaderConstants.AZERITE_ESSENCES)),
 
 			-- Battle Pets
 			app.CreateDynamicHeader("speciesID", {
@@ -2839,7 +2839,7 @@ function app:GetDataCache()
 			}),
 
 			-- Conduits
-			app.CreateDynamicHeader("conduitID", SimpleNPCGroup(app.HeaderConstants.CONDUITS, {suffix=EXPANSION_NAME8})),
+			app.CreateDynamicHeader("conduitID", SimpleHeaderGroup(app.HeaderConstants.CONDUITS, {suffix=EXPANSION_NAME8})),
 
 			-- Currencies
 			app.CreateDynamicHeaderByValue("currencyID", {
@@ -2862,14 +2862,14 @@ function app:GetDataCache()
 			}),
 
 			-- Followers
-			app.CreateDynamicHeader("followerID", SimpleNPCGroup(app.HeaderConstants.FOLLOWERS)),
+			app.CreateDynamicHeader("followerID", SimpleHeaderGroup(app.HeaderConstants.FOLLOWERS)),
 
 			-- Garrison Buildings
 			-- TODO: doesn't seem to work...
-			-- app.CreateDynamicHeader("garrisonbuildingID", SimpleNPCGroup(app.HeaderConstants.BUILDINGS)),
+			-- app.CreateDynamicHeader("garrisonbuildingID", SimpleHeaderGroup(app.HeaderConstants.BUILDINGS)),
 
 			-- Heirlooms
-			app.CreateDynamicHeader("heirloomID", SimpleNPCGroup(app.HeaderConstants.HEIRLOOMS)),
+			app.CreateDynamicHeader("heirloomID", SimpleHeaderGroup(app.HeaderConstants.HEIRLOOMS)),
 
 			-- Illusions
 			app.CreateDynamicHeader("illusionID", {
@@ -2884,10 +2884,10 @@ function app:GetDataCache()
 			}),
 
 			-- Mount Mods
-			app.CreateDynamicHeader("mountmodID", SimpleNPCGroup(app.HeaderConstants.MOUNT_MODS)),
+			app.CreateDynamicHeader("mountmodID", SimpleHeaderGroup(app.HeaderConstants.MOUNT_MODS)),
 
 			-- Pet Battles
-			app.CreateDynamicHeader("pb", SimpleNPCGroup(app.HeaderConstants.PET_BATTLES, {dynamic_withsubgroups = true})),
+			app.CreateDynamicHeader("pb", SimpleHeaderGroup(app.HeaderConstants.PET_BATTLES, {dynamic_withsubgroups = true})),
 
 			-- Professions
 			app.CreateDynamicHeaderByValue("professionID", {
@@ -2898,7 +2898,7 @@ function app:GetDataCache()
 			}),
 
 			-- Runeforge Powers
-			app.CreateDynamicHeader("runeforgepowerID", SimpleNPCGroup(app.HeaderConstants.LEGENDARIES, {suffix=EXPANSION_NAME8})),
+			app.CreateDynamicHeader("runeforgepowerID", SimpleHeaderGroup(app.HeaderConstants.LEGENDARIES, {suffix=EXPANSION_NAME8})),
 
 			-- Titles
 			app.CreateDynamicHeader("titleID", {
@@ -4060,7 +4060,7 @@ customWindowUpdates.NWP = function(self, force)
 			})
 
 			-- Dynamic category headers
-			-- TODO: If possible, change the creation of names and icons to SimpleNPCGroup to take the localized names
+			-- TODO: If possible, change the creation of names and icons to SimpleHeaderGroup to take the localized names
 			local headers = {
 				{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements") },
 				{ id = "sourceID", name = "Appearances", icon = 135276 },
@@ -4251,7 +4251,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				})
 
 				-- Dynamic category headers
-				-- TODO: If possible, change the creation of names and icons to SimpleNPCGroup to take the localized names
+				-- TODO: If possible, change the creation of names and icons to SimpleHeaderGroup to take the localized names
 				local headers = {
 					{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements") },
 					{ id = "sourceID", name = "Appearances", icon = 135276 },
@@ -4936,7 +4936,7 @@ customWindowUpdates.Random = function(self)
 					AddRandomCategoryButton(L.DUNGEON, app.asset("Difficulty_Normal"), L.DUNGEON_DESC, "Dungeon"),
 					AddRandomCategoryButton(L.FACTIONS, app.asset("Category_Factions"), L.FACTION_DESC, "Factions"),
 					-- missing locale values
-					-- AddRandomCategoryButton(app.NPCNameFromID[app.HeaderConstants.FOLLOWERS], L.HEADER_ICONS[app.HeaderConstants.FOLLOWERS], L.FOLLOWER_DESC, "Follower"),
+					-- AddRandomCategoryButton(L.HEADER_NAMES[app.HeaderConstants.FOLLOWERS], L.HEADER_ICONS[app.HeaderConstants.FOLLOWERS], L.FOLLOWER_DESC, "Follower"),
 					AddRandomCategoryButton(L.INSTANCE, app.asset("Category_D&R"), L.INSTANCE_DESC, "Instance"),
 					AddRandomCategoryButton(L.ITEM, app.asset("Interface_Zone_drop"), L.ITEM_DESC, "Item"),
 					AddRandomCategoryButton(L.MOUNT, app.asset("Category_Mounts"), L.MOUNT_DESC, "Mount"),
