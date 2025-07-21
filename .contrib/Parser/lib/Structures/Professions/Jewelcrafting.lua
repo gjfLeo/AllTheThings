@@ -6,6 +6,12 @@ JEWELCRAFTING_SUPPLIES = sharedData({
 	["providers"] = {
 		{ "n", 17512},	-- Arred <Jewelcrafting Supplies>
 		{ "n", 16624},	-- Gelanthis <Jewelcrafting Supplies>
+		{ "n", 19065},	-- Inessera <Jewelcrafting Supplies>
+		{ "n", 18751},	-- Kalaen <Jewelcrafting Trainer>
+		{ "n", 18774},	-- Tatiana <Jewelcrafting Trainer>
+		-- #if AFTER 3.1.0
+		{ "n", 33637},	-- Kirembri Silvermane <Jewelcrafting Trainer>
+		-- #endif
 		-- #if AFTER CATA
 		{ "n", 52584},	-- Laida Gembold <Jewelcrafting Supplies>
 		{ "n", 50482},	-- Marith Lazuria <Jewelcrafting Supplies>

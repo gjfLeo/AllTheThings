@@ -206,12 +206,18 @@ INSCRIPTION_SUPPLIES = sharedData({
 	["providers"] = {
 		{ "n", 30729},	-- Ickabod Pimlen <Inscription Supplies>
 		{ "n", 30731},	-- Illianna Moonscribe <Inscription Supplies>
+		{ "n", 30734},	-- Jezebel Bican <Inscription Supplies>
+		{ "n", 30735},	-- Kul Inkspiller <Inscription Supplies>
 		{ "n", 30727},	-- Lelorian <Inscription Supplies>
 		{ "n", 30724},	-- Mertle Murkpen <Inscription Supplies>
 		{ "n", 30732},	-- Sessoh <Inscription Supplies>
 		{ "n", 30730},	-- Stanly McCormick <Inscription Supplies>
 		{ "n", 30733},	-- Thargen Heavyquilll <Inscription Supplies>
 		{ "n", 30723},	-- Xantili <Inscription Supplies>
+		-- #if AFTER 3.1.0
+		{ "n", 33679},	-- Recorder Lidio <Inscription Trainer>
+		{ "n", 33638},	-- Scribe Lanloer <Inscription Trainer>
+		-- #endif
 		-- #if AFTER CATA
 		{ "n", 46718},	-- Moraka <Inscription Supplies>
 		-- #endif

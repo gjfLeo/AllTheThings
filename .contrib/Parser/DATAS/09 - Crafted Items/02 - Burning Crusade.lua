@@ -1248,6 +1248,43 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	-- #endif
 	prof(JEWELCRAFTING, {
+		header(HEADERS.Spell, 31212, {	-- Prospecting
+			-- Note: Epiq quality (purple) gems CANNOT be obtained from prospecting, see Mining.
+			["groups"] = appendAllGroups(
+				sharedData({	-- Uncommon quality (green) gems:
+					["description"] = "This gem is most reliably obtained from prospecting ore with Jewelcrafting.",
+					["providers"] = {
+						{ "i", 23425 },	-- Adamantite Ore
+						{ "i", 23424 },	-- Fel Iron Ore
+					},
+				}, {
+					i(23117),	-- Azure Moonstone
+					i(23077),	-- Blood Garnet
+					i(23079),	-- Deep Perigot
+					i(21929),	-- Flame Spessarite
+					i(23112),	-- Golden Draenite
+					i(23107),	-- Shadow Draenite
+				}),
+				sharedData({	-- Rare quality (blue) gems:
+					-- #if AFTER CATA
+					["description"] = "This gem is most reliably obtained from prospecting ore with Jewelcrafting, Adamatite Ores offering the better drop rate. Mining Ancient Gem Veins in the raid Battle for Mount Hyjal is also a reliable source.",
+					-- #else
+					["description"] = "This gem is most reliably obtained from prospecting ore with Jewelcrafting, Adamatite Ores offering the better drop rate.",
+					-- #endif
+					["providers"] = {
+						{ "i", 23425 },	-- Adamantite Ore
+						{ "i", 23424 },	-- Fel Iron Ore
+					},
+				}, {
+					i(23440),	-- Dawnstone
+					i(23436),	-- Living Ruby
+					i(23441),	-- Nightseye
+					i(23439),	-- Noble Topaz
+					i(23438),	-- Star of Elune
+					i(23437),	-- Talasite
+				})
+			),
+		}),
 		category(868, {	-- Reagents
 			i(31079),	-- Mercurial Adamantite
 		}),
@@ -1517,7 +1554,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(MINING, {
-		spell(2575, {	-- Mining
+		header(HEADERS.Spell, 2575, {	-- Mining
 			-- Nodes
 			o(181556, {	-- Adamantite Deposit
 				["maps"] = {
@@ -1529,6 +1566,31 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					TEROKKAR_FOREST,
 					ZANGARMARSH,
 				},
+			}),
+			o(185557, {	-- Ancient Gem Vein
+				["maps"] = { THE_BATTLE_FOR_MOUNT_HYJAL },
+				["timeline"] = { ADDED_2_1_0 },
+				["groups"] = appendAllGroups(
+					{	-- Rare quality (blue) gems:
+						i(23440),	-- Dawnstone
+						i(23436),	-- Living Ruby
+						i(23441),	-- Nightseye
+						i(23439),	-- Noble Topaz
+						i(23438),	-- Star of Elune
+						i(23437),	-- Talasite
+					},
+					sharedData({
+						["timeline"] = { ADDED_2_1_0 },
+					}, {
+						-- Epiq quality (purple) gems:
+						i(32227),	-- Crimson Spinel
+						i(32228),	-- Empyrean Sapphire
+						i(32229),	-- Lionseye
+						i(32231),	-- Pyrestone
+						i(32249),	-- Seaspray Emerald
+						i(32230),	-- Shadowsong Amethyst
+					})
+				),
 			}),
 			o(181555, {	-- Fel Iron Deposit
 				["maps"] = {

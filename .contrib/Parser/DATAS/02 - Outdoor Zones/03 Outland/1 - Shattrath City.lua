@@ -1861,14 +1861,14 @@ root(ROOTS.Zones, {
 					n(19196, {	-- Cro Threadstrong <Leatherworking Supplies>
 						["coord"] = { 67.2, 67.6, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
-						["groups"] = {
+						["groups"] = appendGroups(VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, {
 							i(25720, {	-- Pattern: Heavy Knothide Leather
 								["timeline"] = { REMOVED_3_2_0},
 								["requireSkill"] = LEATHERWORKING,
 								["isLimited"] = true,
 								["f"] = RECIPES,
 							}),
-						},
+						}),
 					}),
 					n(19213, {	-- Eiin <Specialty Tailoring Supplies>
 						["coord"] = { 66.2, 68.8, SHATTRATH_CITY },
@@ -2157,15 +2157,16 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					-- #if AFTER WRATH
 					n(19065, {	-- Inessera <Jewelcrafting Supplies Vendor>
 						["coord"] = { 35.6, 19.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						-- #if AFTER WRATH
 						["sym"] = {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
+						-- #endif
+						["groups"] = JEWELCRAFTING_SUPPLIES,
 					}),
-					-- #endif
 					n(19195, {	-- Jim Saltit <Cooking Supplies>
 						["coord"] = { 63.4, 68.6, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
@@ -2193,15 +2194,15 @@ root(ROOTS.Zones, {
 							i(33042),	-- Black Coffee
 						},
 					})),
-					-- #if AFTER WRATH
 					n(33637, {	-- Kirembri Silvermane <Jewelcrafting Trainer>
 						["coord"] = { 58.6, 75.2, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["timeline"] = { ADDED_3_1_0 },
 						["sym"] = {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
+						["groups"] = JEWELCRAFTING_SUPPLIES,
 					}),
-					-- #endif
 					n(19186, {	-- Kylene <Barmaid>
 						["description"] = "Speak to her and tell her she's quite the cook to learn these recipes.",
 						["coord"] = { 75.6, 32.6, SHATTRATH_CITY },
@@ -2374,15 +2375,14 @@ root(ROOTS.Zones, {
 							i(21918),	-- Pattern: Primal Mooncloth Shoulders (RECIPE!)
 						},
 					}),
-					-- #if AFTER WRATH
 					n(33680, {	-- Nemiha <Jewelcrafting Trainer>
 						["coord"] = { 36.2, 47.0, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["timeline"] = { ADDED_3_1_0 },
 						["sym"] = {
 							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
 					}),
-					-- #endif
 					applyclassicphase(TBC_PHASE_FIVE, n(27666, {	-- Ontuvo <Jewelcrafting Supplies>
 						["coord"] = { 48.8, 41.8, SHATTRATH_CITY },
 						["sym"] = {{"sub","common_vendor",25950}},	-- Shaani <Jewelcrafting Supplies>
@@ -2491,6 +2491,18 @@ root(ROOTS.Zones, {
 							5238,	-- Pitchwood Wand
 							5208,	-- Smoldering Wand
 						}},
+					}),
+					n(33679, {	-- Recorder Lidio <Inscription Trainer>
+						["coord"] = { 55.9, 74.34, SHATTRATH_CITY },
+						["timeline"] = { ADDED_3_1_0 },
+						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["groups"] = INSCRIPTION_SUPPLIES,
+					}),
+					n(33638, {	-- Scribe Lanloer <Inscription Trainer>
+						["coord"] = { 36.4, 44.6, SHATTRATH_CITY },
+						["timeline"] = { ADDED_3_1_0 },
+						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["groups"] = INSCRIPTION_SUPPLIES,
 					}),
 					n(20807, {	-- Scribe Saalyn <Aldor Inscriptions>
 						["coord"] = { 48.6, 26.6, SHATTRATH_CITY },

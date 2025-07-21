@@ -3147,6 +3147,25 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #endif
+					n(18754, {	-- Barim Spilthoof <Leatherworking Trainer>
+						["coord"] = { 56.2, 38.6, HELLFIRE_PENINSULA },
+						["races"] = HORDE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								2325,	-- Black Dye
+								6260,	-- Blue Dye
+								2605,	-- Green Dye
+								4340,	-- Grey Dye
+								4342,	-- Purple Dye
+								2604,	-- Red Dye
+								2320,	-- Coarse Thread
+								2321,	-- Fine Thread
+								4291,	-- Silken Thread
+								8343,	-- Heavy Silken Thread
+								14341,	-- Rune Thread
+							},
+						},
+					}),
 					n(18988, {	-- Baxter <Chef>
 						["coord"] = { 56.8, 37.4, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
@@ -3155,6 +3174,25 @@ root(ROOTS.Zones, {
 								["timeline"] = { REMOVED_3_1_0 },
 								["rank"] = 5,
 							}),
+						},
+					}),
+					n(18771, {	-- Brumman <Leatherworking Trainer>
+						["coord"] = { 54.0, 64.0, HELLFIRE_PENINSULA },
+						["races"] = ALLIANCE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								2325,	-- Black Dye
+								6260,	-- Blue Dye
+								2605,	-- Green Dye
+								4340,	-- Grey Dye
+								4342,	-- Purple Dye
+								2604,	-- Red Dye
+								2320,	-- Coarse Thread
+								2321,	-- Fine Thread
+								4291,	-- Silken Thread
+								8343,	-- Heavy Silken Thread
+								14341,	-- Rune Thread
+							},
 						},
 					}),
 					n(18990, {	-- Burko <Medic>
@@ -3254,17 +3292,36 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #endif
-					-- #if BEFORE 7.0.3
 					n(30734, {	-- Jezebel Bican <Inscription Supplies>
 						["coord"] = { 54.0, 65.6, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
+						["timeline"] = { ADDED_3_0_2 },
+						-- #if AFTER 3.1.0
+						["sym"] = {
+							{ "select","itemID",
+								39354,	-- Light Parchment
+								-- #if BEFORE MOP
+								10648,	-- Common Parchment
+								39501,	-- Heavy Parchment
+								39502,	-- Resilient Parchment
+								-- #endif
+								39489,	-- Scribe's Satchel
+								39505,	-- Virtuoso Inking Set
+							},
+						},
+						-- #endif
+						-- #if BEFORE 7.0.3
+						["groups"] = appendGroups(
+							-- #if BEFORE 3.1.0
+							INSCRIPTION_SUPPLIES, 
+							-- #endif
+							{
 							applyclassicphase(WRATH_PHASE_ONE, i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
 								["timeline"] = { ADDED_3_3_0, DELETED_7_0_3 },
 							})),
-						},
+						}),
+						-- #endif
 					}),
-					-- #endif
 					n(18773, {	-- Johan Barnes <Enchanting Trainer>
 						["coord"] = { 53.6, 66.0, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
@@ -3285,19 +3342,55 @@ root(ROOTS.Zones, {
 					n(18751, {	-- Kalaen <Jewelcrafting Trainer>
 						["coord"] = { 56.78, 37.79, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
-						["groups"] = JEWELCRAFTING_PATTERNS,
+						-- #if AFTER 3.1.0
+						["sym"] = {
+							{ "select","itemID",
+							-- #if AFTER CATA
+							52188,	-- Jeweler's Setting
+							-- #endif
+							20815,	-- Jeweler's Toolset/-Kit
+							-- #if BEFORE MOP
+							20824,	-- Simple Grinder
+							-- #endif
+							},
+						},
+						-- #endif
+						["groups"] = appendGroups( 
+							JEWELCRAFTING_PATTERNS, 
+							-- #if BEFORE 3.1.0
+							JEWELCRAFTING_SUPPLIES, 
+							-- #endif
+							{}
+						),
 					}),
-					-- #if BEFORE 7.0.3
 					n(30735, {	-- Kul Inkspiller <Inscription Supplies>
 						["coord"] = { 52.4, 36.0, NORTHREND_DALARAN },
 						["races"] = HORDE_ONLY,
-						["groups"] = {
+						["timeline"] = { ADDED_3_0_2 },
+						["sym"] = {
+							{ "select","itemID",
+								39354,	-- Light Parchment
+								-- #if BEFORE MOP
+								10648,	-- Common Parchment
+								39501,	-- Heavy Parchment
+								39502,	-- Resilient Parchment
+								-- #endif
+								39489,	-- Scribe's Satchel
+								39505,	-- Virtuoso Inking Set
+							},
+						},
+						-- #if BEFORE 7.0.3
+						["groups"] = appendGroups(
+							-- #if BEFORE 3.1.0
+							INSCRIPTION_SUPPLIES, 
+							-- #endif
+							{
 							applyclassicphase(WRATH_PHASE_ONE, i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
 								["timeline"] = { ADDED_3_3_0, DELETED_7_0_3 },
 							})),
-						},
+						}),
+						-- #endif
 					}),
-					-- #endif
 					n(18775, {	-- Lebowski <Engineering Trainer>
 						["coord"] = { 55.6, 65.6, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
@@ -3511,7 +3604,26 @@ root(ROOTS.Zones, {
 					n(18774, {	-- Tatiana <Jewelcrafting Trainer>
 						["coord"] = { 54.6, 63.6, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = JEWELCRAFTING_PATTERNS,
+						-- #if AFTER 3.1.0
+						["sym"] = {
+							{ "select","itemID",
+							-- #if AFTER CATA
+							52188,	-- Jeweler's Setting
+							-- #endif
+							20815,	-- Jeweler's Toolset/-Kit
+							-- #if BEFORE MOP
+							20824,	-- Simple Grinder
+							-- #endif
+							},
+						},
+						-- #endif
+						["groups"] = appendGroups( 
+							JEWELCRAFTING_PATTERNS, 
+							-- #if BEFORE 3.1.0
+							JEWELCRAFTING_SUPPLIES, 
+							-- #endif
+							{}
+						),
 					}),
 					n(19004, {	-- Vodesiin <Reagents>
 						["coord"] = { 24.4, 38.8, HELLFIRE_PENINSULA },

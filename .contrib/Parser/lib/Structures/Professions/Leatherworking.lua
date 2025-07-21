@@ -238,6 +238,9 @@ VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES = sharedData({
 		{ "n", 4225},	-- Saenorion <Leatherworking Supplies>
 		{ "n", 3366},	-- Tamar <Leatherworking Supplies>
 		-- #if AFTER TBC
+		{ "n", 18754},	-- Barim Spilthoof <Leatherworking Trainer>
+		{ "n", 18771},	-- Brumman <Leatherworking Trainer>
+		{ "n", 19196},	-- Cro Threadstrong <Leatherworking Supplies>
 		{ "n", 16638},	-- Deynna <Tailoring Supplies>
 		{ "n", 16748},	-- Haferet <Leatherworking Supplies>
 		{ "n", 16767},	-- Neii <Tailoring Supplies>
