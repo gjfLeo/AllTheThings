@@ -5739,40 +5739,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 					77816,	-- Borka the Brute
 					77803,	-- Railmaster Rocketspark
 				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", 23, WAIST},
-					{"sub", "common_wod_dungeon_drop_tw", 23, FINGER},
-				},
-				["g"] = {
-					i(110051),	-- Overseer's Final Word
-				},
 			}),
 			e(1163, {	-- Nitrogg Thundertower
 				["crs"] = {
-					79548,	-- Assault Cannon
 					79545,	-- Nitrogg Thundertower
-				},
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", 23, NECK},
-					{"sub", "common_wod_dungeon_drop_tw", 23, CHEST},
-				},
-				["g"] = {
-					i(110052),	-- Scepter of Brutality
-					i(109996),	-- Thundertower's Targeting Reticle
+					79548,	-- Assault Cannon
 				},
 			}),
 			e(1133, {	-- Skylord Tovra
 				["crs"] = { 80005 },	-- Skylord Tovra
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", 23, WRIST},
-					{"sub", "common_wod_dungeon_drop_tw", 23, HANDS},
-					{"sub", "common_wod_dungeon_drop_tw", 23, LEGS},
-				},
-				["g"] = {
-					i(110054),	-- Thunderlord Flamestaff
-					i(110053),	-- Arrowbreaker Greatshield
-					i(110001),	-- Tovra's Lightning Repository
-				},
 			}),
 		})),
 		inst_tw_wod(558, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5, REMOVED_9_1_5 }},{	-- Iron Docks
