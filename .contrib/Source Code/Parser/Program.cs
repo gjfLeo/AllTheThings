@@ -267,6 +267,7 @@ namespace ATT
 
                 Framework.Objects.SINGULAR_PLURAL_FIELDS_LONG = Framework.Config["SINGULAR_PLURAL_FIELDS_LONG"];
                 Framework.Objects.NON_SORTED_FIELDS = Framework.Config["NON_SORTED_FIELDS"];
+                Framework.Objects.PASS_THRU_FIELDS = Framework.Config["PASS_THRU_FIELDS"];
             }
             catch (FormatException configException)
             {

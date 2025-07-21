@@ -37,6 +37,11 @@ namespace ATT
             public static HashSet<string> NON_SORTED_FIELDS;
 
             /// <summary>
+            /// A set of fields which are simply stored and passed-through to the Export
+            /// </summary>
+            public static HashSet<string> PASS_THRU_FIELDS;
+
+            /// <summary>
             /// All of the containers that are in the database.
             /// </summary>
             public static IDictionary<string, List<object>> AllContainers { get; } = new ConcurrentDictionary<string, List<object>>();
@@ -1995,6 +2000,12 @@ end");
                             if (SINGULAR_PLURAL_FIELDS_LONG.TryGetValue(field, out string pluarlFieldName))
                             {
                                 MergeSingularFieldAsArray<long>(item, pluarlFieldName, value);
+                                return;
+                            }
+
+                            if (PASS_THRU_FIELDS.Contains(field))
+                            {
+                                item[field] = value;
                                 return;
                             }
 
