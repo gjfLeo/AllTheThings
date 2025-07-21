@@ -2262,8 +2262,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sym"] = { {"sub", "common_recipes_vendor", 3346 } },	-- Kithas <Enchanting Supplies>
 					["coord"] = { 62.0, 60.8, UNDERCITY },
 					["races"] = HORDE_ONLY,
-					["groups"] = appendGroups(ENCHANTING_SUPPLIES, VANILLA_ENCHANTING_SUPPLIES, {
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+					["groups"] = appendGroups(ENCHANTING_SUPPLIES, VANILLA_ENCHANTING_COMMON_RECIPES, {
+						i(6217, {	-- Copper Rod
+							["description"] = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
+						}),
+						i(10938, { ["isLimited"] = true, }),	-- Lesser Magic Essence
+						i(10940, { ["isLimited"] = true, }),	-- Strange Dust
 					}),
 				}),
 				n(4559, {	-- Timothy Weldon

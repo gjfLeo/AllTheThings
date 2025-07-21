@@ -2197,9 +2197,4 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 SENSE_UNDEAD.u = nil;
 
 -- Push the Enchanting Supplies goods on to his loot table. (this bypasses the phase)
-for i,o in ipairs({
-	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-}) do table.insert(ENCHANTING_VENDOR_GROUPS, o); end
+for i,o in ipairs(VANILLA_ENCHANTING_COMMON_RECIPES, {}) do table.insert(ENCHANTING_VENDOR_GROUPS, o); end

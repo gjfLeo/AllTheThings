@@ -3070,10 +3070,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 52.0, 39.7, SILITHUS },
 						-- #endif
 					},
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+							-- #if BEFORE CATA
+							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
+							-- #endif
+						},
+					},
 					["groups"] = {
-						-- #if BEFORE CATA
-						i(6342),	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-						-- #endif
 						applyclassicphase(PHASE_FIVE, i(20732, {	-- Formula: Enchant Cloak - Greater Fire Resistance (RECIPE!)
 							["timeline"] = { REMOVED_5_0_4 },
 						})),
@@ -3081,9 +3089,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { REMOVED_5_0_4 },
 						})),
 						i(20754),	-- Formula: Lesser Mana Oil (RECIPE!)
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_SIX, i(234272, {	-- Formula: Enchanted Repellent (RECIPE!)
 							["timeline"] = { ADDED_1_15_5 },
@@ -3093,7 +3098,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						})),
 						-- #endif
 						i(20755),	-- Formula: Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						applyclassicphase(PHASE_FIVE_RECIPES, i(22308)),	-- Pattern: Enchanted Runecloth Bag (RECIPE!)
 					},
 				}),

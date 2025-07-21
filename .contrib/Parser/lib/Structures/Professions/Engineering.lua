@@ -176,6 +176,8 @@ VANILLA_ENGINEERING_SUPPLIES = sharedData({
 		{ "n", 3413},	-- Sovik <Engineering Supplies>
 		-- #if AFTER TBC
 		{ "n", 16657},	-- Feera <Engineering Supplies>
+		{ "n", 27711},	-- Technician Halmaha <Engineering Supplies>
+		{ "n", 19244},	-- Trader Endernor <Trade Goods>
 		{ "n", 16782},	-- Yatheon <Engineering Supplies>
 		-- #endif
 		-- #if AFTER CATA

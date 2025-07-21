@@ -1975,19 +1975,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+							-- #if BEFORE CATA
+							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
+							-- #endif
+						},
+					},
 					["groups"] = {
 						i(6349, {	-- Formula: Enchant 2H Weapon - Lesser Intellect (RECIPE!)
 							["isLimited"] = true,
 						}),
-						-- #if BEFORE CATA
-						i(6342, {	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							["isLimited"] = true,
-						}),
-						-- #endif
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(5757, {	-- Lilly <Enchanting Supplies>
@@ -1999,17 +2001,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+							-- #if BEFORE CATA
+							6342,	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
+							-- #endif
+						},
+					},
 					["groups"] = {
 						i(6346),	-- Formula: Enchant Chest - Lesser Mana (RECIPE!)
-						-- #if BEFORE CATA
-						i(6342, {	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-							["isLimited"] = true,
-						}),
-						-- #endif
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(9553, {	-- Nadia Vernon <Bowyer>

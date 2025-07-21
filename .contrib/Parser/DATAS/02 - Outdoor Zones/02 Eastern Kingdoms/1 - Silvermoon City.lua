@@ -684,6 +684,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					},
 					["groups"] = appendGroups(LYNA_GROUPS, {}),

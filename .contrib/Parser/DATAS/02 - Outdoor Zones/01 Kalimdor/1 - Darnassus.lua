@@ -1902,7 +1902,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 55.8, 24.5, DARNASSUS },
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = appendGroups(VANILLA_ALCHEMY_VIALS, {
+					["groups"] = appendGroups(
+						-- #if BEFORE CATA
+						VANILLA_EXCLUSIVE_ALCHEMY_VIALS, IMBUED_VIAL, 
+						-- #endif
+						CRYSTAL_VIAL, {
 						i(5642, {	-- Recipe: Free Action Potion (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -1939,10 +1943,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
-					},
-					["groups"] = {
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(4175, {	-- Vinasia <Cloth Armor Merchant>

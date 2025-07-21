@@ -590,7 +590,7 @@ local MADAME_RUBY_GROUPS = {
 		["isLimited"] = true,
 	}),
 };
-local ZURII_YURIAL_GROUPS = {};
+local ZURII_YURIAL_GROUPS = ENCHANTING_SUPPLIES;
 -- #if AFTER CATA
 local EPIC_GEM_COSTS = { { "c", 395, 78 } };	-- 78x Justice Points
 -- #elseif AFTER WRATH
@@ -1884,7 +1884,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.2, 74.4, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["timeline"] = { ADDED_3_1_0 },
-						["groups"] = ZURII_YURIAL_GROUPS,
 					}),
 					n(19678, {	-- Fantei <Reagents>
 						["coord"] = { 64.6, 70.6, SHATTRATH_CITY },
@@ -2577,20 +2576,24 @@ root(ROOTS.Zones, {
 					n(19074, {	-- Skreah <Alchemy Supplies>
 						["coord"] = { 45.8, 20.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
-						["sym"] = {
-							{ "select","itemID",
-								-- #if AFTER CATA
-								3371,	-- Crystal Vial
-								-- #else
-								18256,	-- Imbued Vial
-								-- #endif
-							},
-						},
 						["groups"] = {
+							-- #if AFTER CATA
+							i(3371),	-- Crystal Vial
+							-- #else
+							i(18256),	-- Imbued Vial
+							-- #endif
 							i(23574, {	-- Recipe: Transmute Primal Might (RECIPE!)
 								["isLimited"] = true,
 							}),
 						},
+					}),
+					n(19244, {	-- Trader Endernor <Trade Goods>
+						["coord"] = { 44.6, 96.8, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+					}),
+					n(27711, {	-- Technician Halmaha <Engineering Supplies>
+						["coord"] = { 27.93, 47.6, SHATTRATH_CITY },
+						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 					}),
 					n(19238, {	-- Urumir Stavebright <Staff Vendor>
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
@@ -2661,14 +2664,6 @@ root(ROOTS.Zones, {
 });
 
 -- Add in the items that aren't locked by phase.
-local COMMON_ENCHANTING_RECIPES = {
-	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-};
-appendGroups(COMMON_ENCHANTING_RECIPES, ZURII_YURIAL_GROUPS);
-appendGroups(COMMON_ENCHANTING_RECIPES, MADAME_RUBY_GROUPS);
 
 -- Add in Classic specific sources of PVP Gear.
 -- #if ANYCLASSIC

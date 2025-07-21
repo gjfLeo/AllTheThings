@@ -110,27 +110,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["races"] = HORDE_ONLY,
 					}),
 				}),
-				-- #if AFTER WRATH
-				prof(INSCRIPTION, {
-				}),
-				-- #endif
-				-- #if AFTER TBC
-				prof(JEWELCRAFTING, {
-				}),
-				-- #endif
-				prof(LEATHERWORKING, {
-				}),
-				prof(MINING, {
-				}),
-				prof(TAILORING, {
-					n(3012, {	-- Nata Dawnstrider <Enchanting Supplies>
-						["coord"] = { 44.9, 37.7, THUNDER_BLUFF },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-						},
-					}),
-				}),
 			}),
 			n(QUESTS, {
 				q(29362, {	-- "Magic" Mushrooms
@@ -1279,7 +1258,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(3010, {	-- Mani Winterhoof <Alchemy Supplies>
 					["coord"] = { 47.4, 33.73, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,
-					["groups"] = VANILLA_ALCHEMY_VIALS,
+					["groups"] = appendGroups(
+						-- #if BEFORE CATA
+						VANILLA_EXCLUSIVE_ALCHEMY_VIALS, IMBUED_VIAL, 
+						-- #endif
+						CRYSTAL_VIAL, {
+					}),
 				}),
 				n(30724, {	-- Mertle Murkpen <Inscription Supplies>
 					["coord"] = { 28.63, 20.26, THUNDER_BLUFF },
@@ -1334,6 +1318,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					},
 					["groups"] = {

@@ -447,6 +447,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					},
 					["groups"] = appendGroups(EGOMIS_GROUPS, {}),

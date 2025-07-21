@@ -169,7 +169,7 @@ EXPERT_ARTISAN_ENCHANTING
 	{}
 -- #endif
 );
-VANILLA_ENCHANTING_SUPPLIES = {
+VANILLA_ENCHANTING_COMMON_RECIPES = {
 	-- #if BEFORE CATA
 	i(6342, {	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
 		["isLimited"] = true,
@@ -178,8 +178,7 @@ VANILLA_ENCHANTING_SUPPLIES = {
 	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(10938, { ["isLimited"] = true, }),	-- Lesser Magic Essence
-	i(10940, { ["isLimited"] = true, }),	-- Strange Dust
+	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 };
 ENCHANTING_SUPPLIES = sharedData({
 	["description"] = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
@@ -192,11 +191,16 @@ ENCHANTING_SUPPLIES = sharedData({
 		{ "n", 4228},	-- Vaean <Enchanting Supplies>
 		-- #if AFTER TBC
 		{ "n", 16722},	-- Egomis <Enchanting Supplies>
+		{ "n", 18753},	-- Felannia <Enchanting Trainer>
+		{ "n", 18773},	-- Johan Barnes <Enchanting Trainer>
 		{ "n", 16635},	-- Lyna <Enchanting Supplies>
+		{ "n", 19234},	-- Yurial Soulwater <Enchanting Supplies>
+		-- #endif
+		-- #if AFTER 3.1.0
+		{ "n", 33676},	-- Zurii <Enchanting Supplies>
 		-- #endif
 	},
 },{
-	i(6217),	-- Copper Rod
 	i(4470),	-- Simple Wood
 	i(11291),	-- Star Wood
 	-- #if AFTER CATA

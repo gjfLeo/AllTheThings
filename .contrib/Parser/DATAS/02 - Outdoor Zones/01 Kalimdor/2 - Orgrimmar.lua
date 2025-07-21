@@ -3437,6 +3437,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					},
 					["groups"] = appendGroups(COMMON_CATACLYSM_ENCHANTING_RECIPES, {
@@ -3451,7 +3452,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(6346, {	-- Formula: Enchant Chest - Lesser Mana (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					}),
 				}),
 				n(8122, {	-- Kizzak Sparks

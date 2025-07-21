@@ -3186,11 +3186,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 56.8, 54.4, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+						},
 					},
 				}),
 				-- #if BEFORE 4.0.3

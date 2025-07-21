@@ -3461,7 +3461,8 @@ root(ROOTS.Zones, {
 								TIER_NINE_GROUPS.WARRIOR_H, {})),
 						},
 					}),
-					n(28714, {	-- Ildine Sorrowspear
+					-- Danny Donkey: This is an irrelevant source for vanilla recipes. Might add things to this vendor later.
+					--[[n(28714, {	-- Ildine Sorrowspear
 						["coord"] = { 38.78, 41.56, NORTHREND_DALARAN },
 						["groups"] = {
 							i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
@@ -3469,7 +3470,7 @@ root(ROOTS.Zones, {
 							i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
 							i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
-					}),
+					}),]]
 					-- #if BEFORE MOP
 					n(29493, {	-- Jarold Puller <Specialty Ammunition>
 						["coord"] = { 60.0, 51.8, NORTHREND_DALARAN },

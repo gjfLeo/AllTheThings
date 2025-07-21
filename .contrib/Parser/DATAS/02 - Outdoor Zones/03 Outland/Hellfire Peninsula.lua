@@ -67,7 +67,9 @@ local VENDOR_GEMS = {
 	i(28467),	-- Smooth Amber (Both)
 	i(28470),	-- Thick Amber (TBC) / Subtle Amber (Cata+)
 };
-local FELANNIA_JOHAN_GROUPS = {};
+-- #if BEFORE 3.1.0 
+local FELANNIA_JOHAN_GROUPS = ENCHANTING_SUPPLIES;
+-- #endif
 -- #if AFTER WRATH
 -- All of these were removed and the associated recipes are now available through trainers now.
 bubbleDown({ ["u"] = REMOVED_FROM_GAME }, JEWELCRAFTING_PATTERNS);
@@ -3191,7 +3193,19 @@ root(ROOTS.Zones, {
 					n(18753, {	-- Felannia <Enchanting Trainer>
 						["coord"] = { 52.2, 36.0, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
+						-- #if AFTER 3.1.0
+						["sym"] = {
+							{ "select","itemID",
+								4470,	-- Simple Wood
+								11291,	-- Star Wood
+								-- #if AFTER CATA
+								38682,	-- Enchanting Vellum
+								-- #endif
+							},
+						},
+						-- #else
 						["groups"] = FELANNIA_JOHAN_GROUPS,
+						-- #endif
 					}),
 					n(16602, {	-- Floyd Pinkus <Innkeeper>
 						["coord"] = { 56.7, 37.5, HELLFIRE_PENINSULA },
@@ -3254,7 +3268,19 @@ root(ROOTS.Zones, {
 					n(18773, {	-- Johan Barnes <Enchanting Trainer>
 						["coord"] = { 53.6, 66.0, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
+						-- #if AFTER 3.1.0
+						["sym"] = {
+							{ "select","itemID",
+								4470,	-- Simple Wood
+								11291,	-- Star Wood
+								-- #if AFTER CATA
+								38682,	-- Enchanting Vellum
+								-- #endif
+							},
+						},
+						-- #else
 						["groups"] = FELANNIA_JOHAN_GROUPS,
+						-- #endif
 					}),
 					n(18751, {	-- Kalaen <Jewelcrafting Trainer>
 						["coord"] = { 56.78, 37.79, HELLFIRE_PENINSULA },
@@ -3583,15 +3609,6 @@ root(ROOTS.Zones, {
 });
 
 -- Add in the items that aren't locked by phase.
-appendGroups({
-	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-	-- #if BEFORE CATA
-	i(6342),	-- Formula: Enchant Chest - Minor Mana (RECIPE!)
-	-- #endif
-}, FELANNIA_JOHAN_GROUPS);
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
 	m(OUTLAND, {

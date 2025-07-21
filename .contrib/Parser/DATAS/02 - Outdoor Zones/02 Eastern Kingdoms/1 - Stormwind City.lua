@@ -6097,6 +6097,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #else
 							38682,	-- Enchanting Vellum
 							-- #endif
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					},
 					["groups"] = appendGroups(COMMON_CATACLYSM_ENCHANTING_RECIPES, {
@@ -6105,7 +6106,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cost"] = { { "i", 52555, 20 }, },	-- 20x Hypnotic Dust
 							["races"] = ALLIANCE_ONLY,
 						}),
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					}),
 				}),
 				n(5565, {	-- Jillian Tanner <Leatherworking Supplies>

@@ -2282,11 +2282,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if AFTER CATA
 					["sym"] = { { "sub", "common_recipes_vendor", 1318 } },	-- Jessara Cordell <Enchanting Supplies>
 					-- #endif
-					["groups"] = appendGroups(ENCHANTING_SUPPLIES, VANILLA_ENCHANTING_SUPPLIES, {
+					["groups"] = appendGroups(ENCHANTING_SUPPLIES, VANILLA_ENCHANTING_COMMON_RECIPES, {
 						i(6349, {	-- Formula: Enchant 2H Weapon - Lesser Intellect (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+						i(6217, {	-- Copper Rod
+							["description"] = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
+						}),
+						i(10938, { ["isLimited"] = true, }),	-- Lesser Magic Essence
+						i(10940, { ["isLimited"] = true, }),	-- Strange Dust
 					}),
 				}),
 				n(5169, {	-- Tynnus Venomsprout

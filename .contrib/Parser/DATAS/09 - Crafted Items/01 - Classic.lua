@@ -1213,7 +1213,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["description"] = "Obtained from disenchanting uncommon (green) quality garments, amulets and rings within the ilvl bracket 56-65.",
 				-- #endif
 			}),
-			i(156930, {	-- Rich Illusion Dust (treng retail data)
+			i(156930, {	-- Rich Illusion Dust
 				["timeline"] = { ADDED_7_3_5 },
 				-- #if AFTER 9.0.1
 				["description"] = "Obtained from disenchanting all gear within the ilvl bracket 25-29.",
@@ -1303,7 +1303,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["description"] = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 41-45.",
 				-- #endif
 			}),
-			-- Shards:
+			-- Shards and crystals:
 			i(14344, {	-- Large Brilliant Shard
 				-- #if AFTER 9.0.1
 				["description"] = "Obtained from disenchanting all rare (blue) and epic (purple) quality gear within the ilvl bracket 28-35.",
@@ -4521,7 +4521,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(43656),	-- Tome of Kings
 			i(43654),	-- Tome of the Dawn
 		}),
-		spell(51005, {	-- Milling
+		header(HEADERS.Spell, 51005, {	-- Milling
 			i(39151, {	-- Alabaster Pigment
 				["providers"] = {
 					{ "i", 2449 },	-- Earthroot

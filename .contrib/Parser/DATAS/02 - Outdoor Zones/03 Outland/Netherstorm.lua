@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-local ASARNAN_MALIJ_GROUPS = {};
 root(ROOTS.Zones, {
 	m(OUTLAND, applyclassicphase(TBC_PHASE_ONE, {
 		m(NETHERSTORM, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
@@ -1982,7 +1981,6 @@ root(ROOTS.Zones, {
 				n(VENDORS, {
 					n(19540, {	-- Asarnan <Enchanting Trainer>
 						["coord"] = { 44.2, 33.6, NETHERSTORM },
-						["groups"] = ASARNAN_MALIJ_GROUPS,
 					}),
 					n(54649, {	-- Big Zokk Torquewrench <Classic Weapons>
 						["coord"] = { 33.2, 64.0, NETHERSTORM },
@@ -2115,7 +2113,6 @@ root(ROOTS.Zones, {
 					}),
 					n(19537, {	-- Dealer Malij <Enchanting Supplies>
 						["coord"] = { 44.2, 34.0, NETHERSTORM },
-						["groups"] = ASARNAN_MALIJ_GROUPS,
 					}),
 					n(20980, {	-- Dealer Rashaad <Exotic Creatures>
 						["coord"] = { 43.4, 35.2, NETHERSTORM },
@@ -2841,10 +2838,3 @@ root(ROOTS.Zones, {
 });
 
 -- Add in the items that aren't locked by phase.
-local COMMON_ENCHANTING_RECIPES = {
-	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-};
-appendGroups(COMMON_ENCHANTING_RECIPES, ASARNAN_MALIJ_GROUPS);

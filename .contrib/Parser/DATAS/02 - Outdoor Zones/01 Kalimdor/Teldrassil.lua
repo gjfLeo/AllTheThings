@@ -2696,11 +2696,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 39.0, 30.0, TELDRASSIL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+						},
 					},
 				}),
 				n(10118, {	-- Nessa Shadowsong <Fishing Supplies>

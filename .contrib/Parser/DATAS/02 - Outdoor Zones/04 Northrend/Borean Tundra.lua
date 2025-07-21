@@ -3055,7 +3055,8 @@ root(ROOTS.Zones, {
 							},
 						}),
 					})),
-					n(27147, {	-- Librarian Erickson <Enchanting Supplies>
+					-- Danny Donkey: This is an irrelevant source for vanilla recipes. Might add things to this vendor later.
+					--[[n(27147, {	-- Librarian Erickson <Enchanting Supplies>
 						["coord"] = { 46.7, 32.5, BOREAN_TUNDRA },
 						["groups"] = {
 							i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
@@ -3063,7 +3064,7 @@ root(ROOTS.Zones, {
 							i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
 							i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
-					}),
+					}),]]
 					n(27139, {	-- Librarian Whitley <Wands>
 						["coord"] = { 46.4, 32.6, BOREAN_TUNDRA },
 						["groups"] = {

@@ -2713,11 +2713,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(36365, {	-- Zoey Wizzlespark <Xylem's Apprentice>
 					["coord"] = { 55.8, 12.0, AZSHARA },
 					["timeline"] = { ADDED_4_0_1 },
-					["groups"] = {
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+					["sym"] = {
+						{ "select","itemID",
+							20753,	-- Formula: Lesser Wizard Oil (RECIPE!)
+							20752,	-- Formula: Minor Mana Oil (RECIPE!)
+							20758,	-- Formula: Minor Wizard Oil (RECIPE!)
+							22307,	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
+						},
 					},
 				}),
 			}),

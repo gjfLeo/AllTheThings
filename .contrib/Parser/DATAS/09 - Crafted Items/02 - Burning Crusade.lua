@@ -399,13 +399,53 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		i(27659),	-- Warp Burger
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
-			i(22445),	-- Arcane Dust
-			i(22446),	-- Greater Planar Essence
-			i(22449),	-- Large Prismatic Shard
-			i(22447),	-- Lesser Planar Essence
-			i(22448),	-- Small Prismatic Shard
-			i(22450),	-- Void Crystal
+		header(HEADERS.Spell, 13262, {	-- Disenchant
+			-- Danny Donkey: We need ilvl data from WoD and BfA stat squishes.
+			-- Dust:
+			i(22445, {	-- Arcane Dust
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills within the ilvl bracket 31-32.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills within the ilvl bracket 87-120.",
+				-- #endif
+			}),
+			-- Essences:
+			i(22446, {	-- Greater Planar Essence
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 31-32, except shields and off-hand frills.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 102-120, except shields and off-hand frills.",
+				-- #endif
+			}),
+			i(22447, {	-- Lesser Planar Essence
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 29-31, except shields and off-hand frills.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 80-98, except shields and off-hand frills.",
+				-- #endif
+			}),
+			-- Shards and crystals:
+			i(22449, {	-- Large Prismatic Shard
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 31-32.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 100-115.",
+				-- #endif
+			}),
+			i(22448, {	-- Small Prismatic Shard
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 29-31.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 68-97.",
+				-- #endif
+			}),
+			i(22450, {	-- Void Crystal
+				-- #if AFTER 9.0.1
+				["description"] = "Obtained from disenchanting all epic (purple) quality TBC gear within the ilvl bracket 31-34.",
+				-- #elseif BEFORE WOD
+				["description"] = "Obtained from disenchanting all epic (purple) quality TBC gear within the ilvl bracket 100-141.",
+				-- #endif
+			}),
 		}),
 		applyclassicphase(WRATH_PHASE_ONE, n(ARMOR_ENCHANTMENTS, sharedDataSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 			i(38944),	-- Enchant Boots - Boar's Speed
@@ -869,7 +909,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 	}),
 	prof(HERBALISM, {
-		spell(2366, {	-- Herb Gathering
+		header(HEADERS.Spell, 2366, {	-- Herb Gathering
 			-- Herbs
 			i(22790, {	-- Ancient Lichen
 				["maps"] = {
@@ -1134,6 +1174,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(43378, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Safe Fall
 		}),
 		-- #endif
+		header(HEADERS.Spell, 51005, {	-- Milling
+			i(43108, {	-- Ebon Pigment
+				["providers"] = {
+					{ "i", 22790 },	-- Ancient Lichen
+					{ "i", 22786 },	-- Dreaming Glory
+					{ "i", 22785 },	-- Felweed
+					{ "i", 22793 },	-- Mana Thistle
+					{ "i", 22792 },	-- Nightmare Vine
+					{ "i", 22787 },	-- Ragveil
+					{ "i", 22789 },	-- Terocone
+				},
+			}),
+			i(39342, {	-- Nether Pigment
+				["providers"] = {
+					{ "i", 22790 },	-- Ancient Lichen
+					{ "i", 22786 },	-- Dreaming Glory
+					{ "i", 22785 },	-- Felweed
+					{ "i", 22793 },	-- Mana Thistle
+					{ "i", 22792 },	-- Nightmare Vine
+					{ "i", 22787 },	-- Ragveil
+					{ "i", 22789 },	-- Terocone
+				},
+			}),
+		}),
 		category(106, {	-- Tarot Cards
 			i(44317, {	-- Greater Darkmoon Card
 				-- Blessings Deck

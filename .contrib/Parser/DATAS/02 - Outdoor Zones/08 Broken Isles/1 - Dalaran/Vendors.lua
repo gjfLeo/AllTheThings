@@ -737,11 +737,7 @@ root(ROOTS.Zones, {
 						i(128580),	-- Formula: Enchant Ring - Word of Haste [Rank 2] (RECIPE!)
 						i(128581),	-- Formula: Enchant Ring - Word of Mastery [Rank 2] (RECIPE!)
 						i(128582),	-- Formula: Enchant Ring - Word of Versatility [Rank 2] (RECIPE!)
-						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 						i(140634),	-- Formula: Ley Shatter (RECIPE!)
-						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
-						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(92184, {	-- Imindril Spearsong <Blacksmithing Vendor>
