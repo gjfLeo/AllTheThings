@@ -44,8 +44,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["lvl"] = lvlsquish(60, 60, 20),
 					["groups"] = {
 						objective(1, {	-- Master Cheng's Training Completed
-							["provider"] = { "n", 66138 },	-- Master Cheng
-							["coord"] = { 47.06, 40.15, KUN_LAI_SUMMIT },
+							["provider"] = { "n", 66180 },	-- Master Cheng
+							["coord"] = { 48.54, 41.49, KUN_LAI_SUMMIT },
 						}),
 						i(89564),	-- Red Belt of Gentle Persuasion
 						i(89565),	-- Red Belt of Unspoken Warning
