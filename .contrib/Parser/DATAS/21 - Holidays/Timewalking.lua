@@ -5792,52 +5792,15 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 		inst_tw_wod(476, {	-- Skyreach
 			e(965, {	-- Ranjit
 				["crs"] = { 75964 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HEAD},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WAIST},
-				},
-				["g"] = {
-					i(110030),	-- Chakram-Breaker Greatsword
-				},
 			}),
 			e(966, {	-- Araknath
 				["crs"] = { 76141 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, NECK},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FEET},
-				},
-				["g"] = {
-					i(110031),	-- Spire of the Furious Construct
-					i(110016),	-- Solar Containment Unit
-				},
 			}),
 			e(967, {	-- Rukhran
 				["crs"] = { 76143 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, WRIST},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, HANDS},
-				},
-				["g"] = {
-					i(110032),	-- Beakbreaker Scimitar
-					i(110006),	-- Rukhran's Quill
-				},
 			}),
 			e(968, {	-- High Sage Viryx
 				["crs"] = { 76266 },
-				["sym"] = {
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, SHOULDER},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, LEGS},
-					{"sub", "common_wod_dungeon_drop_tw", DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, FINGER},
-				},
-				["g"] = {
-					TempForceMisc(ig(127772, {	-- Gemcutter Module: Haste
-						["requireSkill"] = JEWELCRAFTING,
-						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn.  If you have this recipe already you will need to revisit the vendor to cache the recipe.",
-					})),
-					i(110033),	-- Arcanic of the High Sage
-					i(110034),	-- Viryx's Indomitable Bulwark
-					i(110011),	-- Fires of the Sun
-				},
 			}),
 		}),
 		inst_tw_wod(556, {	-- The Everbloom
