@@ -1036,7 +1036,7 @@ local InformationTypes = {
 			end
 		end,
 	}),
-	CreateInformationType("criteriaID", { text = "Criteria ID" }),
+	CreateInformationType("criteriaID", { text = L.CRITERIA_ID }),
 	CreateInformationType("currencyID", { text = L.CURRENCY_ID }),
 	CreateInformationType("difficultyID", { text = L.DIFFICULTY_ID }),
 	CreateInformationType("displayID", { text = L.DISPLAY_ID }),
@@ -1203,7 +1203,7 @@ local InformationTypes = {
 	});
 
 	-- Summary Information Types
-	CreateInformationType("Repeatables", { text = "Repeatables", priority = 10999, ShouldDisplayInExternalTooltips = false,
+	CreateInformationType("Repeatables", { text = L.REPEATABLES_LABEL, priority = 10999, ShouldDisplayInExternalTooltips = false,
 		Process = function(t, reference, tooltipInfo)
 			if reference.isWorldQuest then tinsert(tooltipInfo, { left = L.DURING_WQ_ONLY }); end
 			if reference.isDaily then tinsert(tooltipInfo, { left = L.COMPLETED_DAILY });
@@ -1285,7 +1285,7 @@ local InformationTypes = {
 	
 	CreateInformationType("SpecializationRequirements", {
 		priority = 9003,
-		text = "Specializations",
+		text = L.SPEC_CHECKBOX,
 		Process = app.GameBuildVersion >= 50000 and function(t, reference, tooltipInfo)
 			local specs = reference.specs;
 			if not specs then

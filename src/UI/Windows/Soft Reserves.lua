@@ -394,7 +394,7 @@ end
 
 app.Settings.CreateInformationType("SoftReserves", {
 	priority = 2.9,
-	text = "Soft Reserves",
+	text = L.SOFT_RESERVES,
 	Process = function(t, reference, tooltipInfo)
 		local itemID = reference.itemID;
 		if itemID then
@@ -527,7 +527,7 @@ end
 -- Implementation
 SoftReserveWindow = app:CreateWindow("SoftReserves", {
 	IgnoreQuestUpdates = true,
-	SettingsName = "Soft Reserves",
+	SettingsName = L.SOFT_RESERVES,
 	Commands = { "attsr", "attsoftreserve" },
 	OnCommand = function(self, cmd)
 		if cmd and cmd ~= "" then
@@ -1048,9 +1048,9 @@ SoftReserveWindow = app:CreateWindow("SoftReserves", {
 			});
 		end
 		self.data = {
-			text = "Soft Reserves",
+			text = L.SOFT_RESERVES,
 			icon = app.asset("WindowIcon_SoftReserves"),
-			description = "The soft reservation list submitted by your raid group. This is managed through the Master Looter, should they have " .. appName .. " installed. If not, this feature will not function.\n\nML: Members of your raid without " .. appName .. " installed can whisper you '!sr <itemlink>' or '!sr <itemID>' to Soft Reserve an item.",
+			description = L.SOFT_RESERVES_DESCRIPTION,
 			visible = true,
 			expanded = true,
 			dirty = true,
