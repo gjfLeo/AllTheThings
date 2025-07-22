@@ -8,20 +8,22 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		["coord"] = { 66.2, 68.3, LEGION_DALARAN },
 		["g"] = {
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
-				cr(102387, e(1697, {	-- Sael'orn
-					ach(10798),	-- Assault on Violet Hold
-					i(137824),	-- Design: Maelstrom Band [Rank 2] (RECIPE!)
-					i(137882),	-- Pattern: Warhide Shoulderguard [Rank 3] (RECIPE!)
-					i(136700),	-- Schematic: "The Felic" (RECIPE!)
-					i(140037),	-- Technique: Unwritten Legend (RECIPE!)
-				})),
-				cr(102446, e(1711, {	-- Fel Lord Betrug
-					ach(10798),	-- Assault on Violet Hold
-					i(137824),	-- Design: Maelstrom Band [Rank 2] (RECIPE!)
-					i(137882),	-- Pattern: Warhide Shoulderguard [Rank 3] (RECIPE!)
-					i(136700),	-- Schematic: "The Felic" (RECIPE!)
-					i(140037),	-- Technique: Unwritten Legend (RECIPE!)
-				})),
+				n(VH_FINAL_WAVE_BOSS, {
+					cr(102387, e(1697, {	-- Sael'orn
+						ach(10798),	-- Assault on Violet Hold
+						i(137824),	-- Design: Maelstrom Band [Rank 2] (RECIPE!)
+						i(137882),	-- Pattern: Warhide Shoulderguard [Rank 3] (RECIPE!)
+						i(136700),	-- Schematic: "The Felic" (RECIPE!)
+						i(140037),	-- Technique: Unwritten Legend (RECIPE!)
+					})),
+					cr(102446, e(1711, {	-- Fel Lord Betrug
+						ach(10798),	-- Assault on Violet Hold
+						i(137824),	-- Design: Maelstrom Band [Rank 2] (RECIPE!)
+						i(137882),	-- Pattern: Warhide Shoulderguard [Rank 3] (RECIPE!)
+						i(136700),	-- Schematic: "The Felic" (RECIPE!)
+						i(140037),	-- Technique: Unwritten Legend (RECIPE!)
+					})),
+				}),
 			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				n(VH_WAVE_6_BOSS, {
