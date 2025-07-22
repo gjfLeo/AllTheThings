@@ -6881,8 +6881,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["description"] = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
 				}),
 			}),
-			header(HEADERS.Spell, 8613, {	-- Skinning
-				-- Base leathers:
+			-- Base leathers:
 				i(4234, {	-- Heavy Leather
 					["maps"] = {
 						DUSTWALLOW_MARSH,
@@ -7194,7 +7193,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_SIX, i(234007)),	-- Spiked Silithid Chitin
 				-- #endif
-			}),
 		},
 	}),
 	prof(TAILORING, {
