@@ -5573,11 +5573,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								-- #endif
 							},
 						}),
-						o(2055, {	-- Copper Vein (Redridge Mountains - Rethban Ore)
-							["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
-							["timeline"] = { REMOVED_4_0_3 },
-						}),
 						-- #if ANYCLASSIC
+						o(2055, {	-- Copper Vein (Redridge Mountains - Rethban Ore)
+						-- Note: This node reportedly was replaced by o(1731) with Cata during retail, but the same is not happening on classic Cata+
+							["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
+						}),
 						o(103713, {	-- Copper Vein (The Barrens - Horde only)
 							-- Note: This node get removed at an unknown point between MOP and TWW.
 							-- #if BEFORE CATA
