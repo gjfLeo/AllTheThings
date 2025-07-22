@@ -174,16 +174,74 @@ root(ROOTS.NeverImplemented, {
 					i(77441),	-- Monster - Knife_1h_PanStart_A_01 - Default
 					i(77443),	-- Monster - Knife_1h_PanStart_A_01 - Green
 					i(77444),	-- Monster - Knife_1h_PanStart_A_01 - Red
+					i(80263),	-- Monster - Knife_1h_PanProg_B_01 - Green
+					i(80264),	-- Monster - Knife_1h_PanProg_B_01 - Blue
+					i(80265),	-- Monster - Knife_1h_PanProg_B_01 - Gold
+					i(80266),	-- Monster - Knife_1h_PanProg_B_01 - Red
+					i(80267),	-- Monster - Knife_1h_PanProg_B_02 - Blue
+					i(80268),	-- Monster - Knife_1h_PanProg_B_02 - Green
+					i(80269),	-- Monster - Knife_1h_PanProg_B_02 - Red
+					i(80270),	-- Monster - Knife_1h_PanProg_B_02 - Default
+					i(83071),	-- Monster - Knife_1h_PanDung_C_02
+					i(83072),	-- Monster - Knife_1h_PanDung_C_02 - Blue
+					i(83073),	-- Monster - Knife_1h_PanDung_C_02 - Purple
+					i(83074),	-- Monster - Knife_1h_PanDung_C_02 - Yellow
 					i(83369),	-- 5.0 QA PVP Test Caster DPS Dagger
 					i(83370),	-- 5.0 QA PVP Test Caster DPS Dagger 2
 					i(83420),	-- 5.0 QA PVP Test Fast Rogue Dagger
 					i(83421),	-- 5.0 QA PVP Test Fast Rogue Dagger 2
 					i(83575),	-- 5.0 QA PVP Test Slow Rogue Dagger 3
+					i(84767),	-- Monster - Knife_1H_Mantid_02
+					i(84769),	-- Monster - Knife_1H_Mantid_01
+					i(85667),	-- Monster - Knife_1h_PanDung_C_01 - Gold
+					i(85668),	-- Monster - Knife_1h_PanDung_C_01 - Gray
+					i(85669),	-- Monster - Knife_1h_PanDung_C_01 - Red
+					i(85670),	-- Monster - Knife_1h_PanDung_C_01 - White
+					i(85671),	-- Monster - Knife_1h_PanDung_C_03 - Black
+					i(85672),	-- Monster - Knife_1h_PanDung_C_03 - Blue
+					i(85673),	-- Monster - Knife_1h_PanDung_C_03 - Green
+					i(85674),	-- Monster - Knife_1h_PanDung_C_03 - Red
+					i(85724),	-- Monster - Knife_1h_PVPPandariaS1_C_01
+					i(85725),	-- Monster - Knife_1h_PVPPandariaS1_C_01 - Green
+					i(85726),	-- Monster - Knife_1h_PVPPandariaS1_C_01 - Red
+					i(85727),	-- Monster - Knife_1h_PVPPandariaS1_C_01 - Yellow
+					i(85728),	-- Monster - Knife_1h_PVPPandariaS1_C_02
+					i(85729),	-- Monster - Knife_1h_PVPPandariaS1_C_02 - Blue
+					i(85730),	-- Monster - Knife_1h_PVPPandariaS1_C_02 - Green
+					i(85731),	-- Monster - Knife_1h_PVPPandariaS1_C_02 - Red
+					i(85949),	-- Monster - Knife_1H_Mantid_02 (Shadow Effect)
+				}),
+
+				-- 5.0.3
+				expansion(EXPANSION.MOP, patch(0,3), {
+					i(87203),	-- Monster - Knife_1h_PanProg_B_01 - Green (Poisoned)
+					i(87998),	-- Monster - Knife_1H_PandariaQuest_B_02
+					i(87999),	-- Monster - Knife_1H_PandariaQuest_B_02 - Blue
+					i(88000),	-- Monster - Knife_1H_PandariaQuest_B_02 - Dark
+					i(88001),	-- Monster - Knife_1H_PandariaQuest_B_02 - Grey
+					i(88469),	-- Monster - Knife_1h_PandaRaid_D_02 - Green
+					i(88533),	-- Monster - Knife_1h_PandaRaid_D_02 - Black
+					i(88536),	-- Monster - Knife_1h_PandaRaid_D_02 - Blue
+					i(88537),	-- Monster - Knife_1h_PandaRaid_D_02 - Purple
+					i(89536),	-- Monster - Knife_1h_PanProg_B_01 - Gold
+					i(89693),	-- Monster - Knife_1H_PandaRaid_D_01
+					i(89694),	-- Monster - Knife_1H_PandaRaid_D_01 - Blue
+					i(89695),	-- Monster - Knife_1H_PandaRaid_D_01 - Green
+					i(89696),	-- Monster - Knife_1H_PandaRaid_D_01 - Silver
+					i(89778),	-- Monster - Knife_1H_PandariaQuest_B_03
+					i(89779),	-- Monster - Knife_1H_PandariaQuest_B_03 - Dark
+					i(89780),	-- Monster - Knife_1H_PandariaQuest_B_03 - Red
+					i(89781),	-- Monster - Knife_1H_PandariaQuest_B_03 - Yellow
+					i(89811),	-- Monster - Knife_1H_PandariaQuest_B_01
+					i(89899),	-- Monster - Knife_1H_PandariaQuest_B_01 - Blue
+					i(89900),	-- Monster - Knife_1H_PandariaQuest_B_01 - Green
+					i(89901),	-- Monster - Knife_1H_PandariaQuest_B_01 - Purple
 				}),
 
 				-- 5.x.x
 				n(P5xx, {
 					i(90273),	-- Honorary Combat Engineer's Heavy Legplates
+					i(97922),	-- Monster - Knife_1H_Mantid_01 - Garrosh Paragons
 				}),
 			}),
 			expansion(EXPANSION.WOD, {
