@@ -50,14 +50,24 @@ namespace ATT.DB.Types
             GetRecruitFollowerID() > 0 ||
             GetGarrisonMissionID() > 0 ||
             GetRequiredSkillID() > 0 ||
+            GetTargetClassID() > 0 ||
+            GetTargetRaceID() > 0 ||
             // Currency gained
             Type == 12 ||
+            // Designer Value{`Uses Record ID}
+            Type == 21 ||
+            // Win arena "{Map}"
+            Type == 32 ||
             // Do an emote
             Type == 54 ||
             // Reveal world map overlay "{WorldMapOverlay}" (Exploration stuff)
             Type == 43 ||
             // Equip item in slot "{$Equip Slot}"
             Type == 49 ||
+            // Gain aura "{Spell}"
+            Type == 69 ||
+            // Land targeted spell "{Spell}" on a target
+            Type == 110 ||
             // Mythic Plus Completed
             Type == 216 ||
             // Learned as new pet (Account Only)
@@ -100,7 +110,7 @@ namespace ATT.DB.Types
             Type == 174 ? Asset : 0;
 
         public long GetProviderItem() =>
-        Type == 36 || Type == 41 || Type == 42 || Type == 57 ? Asset : 0;
+            Type == 36 || Type == 41 || Type == 42 || Type == 57 ? Asset : 0;
 
         public long GetProviderNPC() =>
             (Type == 0 || Type == 96) && Asset > 0 ? Asset : 0;
@@ -116,6 +126,12 @@ namespace ATT.DB.Types
 
         public long GetRequiredSkillID() =>
             Type == 7 ? Asset : 0;
+
+        public long GetTargetClassID() =>
+            Type == 52 ? Asset : 0;
+
+        public long GetTargetRaceID() =>
+            Type == 53 ? Asset : 0;
 
         public long GetModifierTreeID() =>
             Modifier_tree_ID;

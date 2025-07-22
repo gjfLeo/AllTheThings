@@ -42,16 +42,24 @@ root(ROOTS.Craftables, {
 				["qg"] = 77789,	-- Blingtron 5000
 				["isDaily"] = true,
 				["g"] = {
+					ach(9071, {	-- Inspector Gagetzan (automated)
+						["_doautomation"] = true,	-- otherwise ignored from quest parent
+					}),
 					i(113258, {	-- Blingtron 5000 Gift Package
 						["sym"] = {{"select","itemID",86623},{"pop"}},	-- Blingtron 4000 Gift Package
 						["g"] = {
-							ach(9071, {		-- Inspector Gagetzan
-								["provider"] = { "i", 114002 },	-- Encoded Message
-								["sym"] = {{ "achievement_criteria" }},
-							}),
 							i(115483),	-- Sky-Bo (PET!)
 							i(123851),	-- Photo B.O.M.B. (TOY!)
-							i(114002),	-- Encoded Message
+							i(114002, {	-- Encoded Message
+								i(113994),	-- Decoded Message 001-003
+								i(113995),	-- Decoded Message 001-014
+								i(113996),	-- Decoded Message 001-107
+								i(113997),	-- Decoded Message 001-111
+								i(113998),	-- Decoded Message 001-119
+								i(113999),	-- Decoded Message 001-150
+								i(114000),	-- Decoded Message 001-159
+								i(114001),	-- Decoded Message 001-168
+							}),
 						},
 					}),
 				},

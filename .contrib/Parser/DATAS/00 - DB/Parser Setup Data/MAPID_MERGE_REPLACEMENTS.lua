@@ -16,4 +16,13 @@ MAPID_MERGE_REPLACEMENTS = {
 	-- #if AFTER 8.1.5
 	[1339] = WARSONG_GULCH,
 	-- #endif
+	-- #if AFTER DF
+	[2199] = THALDRASZUS,
+	-- #endif
+	-- #if AFTER TWW
+	[2270] = AZJ_KAHET,
+	[2271] = ISLE_OF_DORN,
+	[2272] = THE_RINGING_DEEPS,
+	[2273] = HALLOWFALL,
+	-- #endif
 }

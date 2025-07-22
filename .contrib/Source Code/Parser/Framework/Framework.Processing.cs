@@ -2125,7 +2125,6 @@ namespace ATT
             if (!data.TryGetValue("criteriaID", out long criteriaID))
                 return;
 
-            //data.DataBreakPoint("criteriaID", 55244);
             // ignore criteria which have _encounters defined. maybe eventually figure out the ModiferTree logic for them instead
             // ignore criteria which were already incorporated
             if (data.ContainsKey("_noautomation") || data.ContainsKey("_encounter") || data.ContainsKey("_incorporatedCriteria"))
@@ -2479,6 +2478,22 @@ namespace ATT
                 incorporated = true;
             }
 
+            long targetClassID = criteriaData.GetTargetClassID();
+            if (targetClassID > 0)
+            {
+                // TODO: perhaps a different way eventually to show in target tooltips
+                Objects.Merge(data, "c_disp", new List<object> { targetClassID });
+                TrackIncorporationData(data, "c_disp", new List<object> { targetClassID });
+            }
+
+            long targetRaceID = criteriaData.GetTargetRaceID();
+            if (targetRaceID > 0)
+            {
+                // TODO: perhaps a different way eventually to show in target tooltips
+                Objects.Merge(data, "races_disp", new List<object> { targetRaceID });
+                TrackIncorporationData(data, "races_disp", new List<object> { targetRaceID });
+            }
+
             // This needs to be the last check performed since it will remove the Criteria group if nothing useful was added from the Criteria data
             long modifierTreeID = criteriaData.GetModifierTreeID();
             if (modifierTreeID > 0)
@@ -2805,6 +2820,18 @@ namespace ATT
                         Objects.Merge(data, "c", new List<object> { existingModifierTree.Asset });
                         TrackIncorporationData(data, "c", new List<object> { existingModifierTree.Asset });
                         break;
+                    // 27 (TARGET_RACE)
+                    case 27:
+                        Objects.Merge(data, "races_disp", new List<object> { existingModifierTree.Asset });
+                        TrackIncorporationData(data, "races_disp", new List<object> { existingModifierTree.Asset });
+                        break;
+                    // 28 (TARGET_CLASS)
+                    case 28:
+                        Objects.Merge(data, "c_disp", new List<object> { existingModifierTree.Asset });
+                        TrackIncorporationData(data, "c_disp", new List<object> { existingModifierTree.Asset });
+                        break;
+                    // 17 (SOURCE_AREA_OR_ZONE)
+                    case 17:
                     // 41 (SOURCE_ZONE)
                     case 41:
                         if (WagoData.TryGetAreaAssociations(existingModifierTree.Asset, out List<UiMapAssignment> associations))
