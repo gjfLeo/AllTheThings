@@ -1012,6 +1012,7 @@ end
 local Pets = root("_petDB");
 local Items = ItemDBConditional;
 local i = function(itemID, speciesID, altSpeciesID)
+	if itemID < 1 then return end
 	local item = Items[itemID];
 	item.ignoreBonus = true;
 	if speciesID > 0 then
@@ -1025,6 +1026,7 @@ local i = function(itemID, speciesID, altSpeciesID)
 	return item;
 end
 local n = function(creatureID, speciesID)
+	if creatureID < 1 then return end
 	local pet = { ["speciesID"] = speciesID, ["cr"] = creatureID, ["ignoreBonus"] = true };
 	Pets[creatureID] = pet;
 	return pet;
