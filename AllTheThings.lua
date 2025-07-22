@@ -5151,22 +5151,20 @@ customWindowUpdates.Sync = function(self)
 				end
 			end
 
-			local syncHeader = {
-				['text'] = L.ACCOUNT_MANAGEMENT,
-				['icon'] = app.asset("WindowIcon_AccountManagement"),
-				["description"] = L.ACCOUNT_MANAGEMENT_TOOLTIP,
-				['visible'] = true,
-				['back'] = 1,
-				['OnUpdate'] = app.AlwaysShowUpdate,
+			local syncHeader = app.CreateRawText(L.ACCOUNT_MANAGEMENT, {
+				icon = app.asset("WindowIcon_AccountManagement"),
+				description = L.ACCOUNT_MANAGEMENT_TOOLTIP,
+				visible = true,
+				back = 1,
+				OnUpdate = app.AlwaysShowUpdate,
 				OnClick = app.UI.OnClick.IgnoreRightClick,
-				['g'] = {
-					{
-						['text'] = L.ADD_LINKED_CHARACTER_ACCOUNT,
-						['icon'] = app.asset("Button_Add"),
-						['description'] = L.ADD_LINKED_CHARACTER_ACCOUNT_TOOLTIP,
-						['visible'] = true,
-						['OnUpdate'] = app.AlwaysShowUpdate,
-						['OnClick'] = function(row, button)
+				g = {
+					app.CreateRawText(L.ADD_LINKED_CHARACTER_ACCOUNT, {
+						icon = app.asset("Button_Add"),
+						description = L.ADD_LINKED_CHARACTER_ACCOUNT_TOOLTIP,
+						visible = true,
+						OnUpdate = app.AlwaysShowUpdate,
+						OnClick = function(row, button)
 							app:ShowPopupDialogWithEditBox(L.ADD_LINKED_POPUP, "", function(cmd)
 								if cmd and cmd ~= "" then
 									AllTheThingsAD.LinkedAccounts[cmd] = true;
@@ -5175,40 +5173,38 @@ customWindowUpdates.Sync = function(self)
 							end);
 							return true;
 						end,
-					},
+					}),
 					-- Characters Section
-					{
-						['text'] = L.CHARACTERS,
-						['icon'] = 526421,
-						["description"] = L.SYNC_CHARACTERS_TOOLTIP,
-						['visible'] = true,
-						['expanded'] = true,
+					app.CreateRawText(L.CHARACTERS, {
+						icon = 526421,
+						description = L.SYNC_CHARACTERS_TOOLTIP,
+						visible = true,
+						expanded = true,
 						['g'] = {},
 						OnClick = app.UI.OnClick.IgnoreRightClick,
-						['OnUpdate'] = function(data)
+						OnUpdate = function(data)
 							local g = {};
 							for guid,character in pairs(ATTCharacterData) do
 								if character then
 									tinsert(g, app.CreateUnit(guid, {
-										['datalink'] = guid,
-										['OnClick'] = OnRightButtonDeleteCharacter,
-										['OnTooltip'] = OnTooltipForCharacter,
-										["OnUpdate"] = app.AlwaysShowUpdate,
+										datalink = guid,
+										OnClick = OnRightButtonDeleteCharacter,
+										OnTooltip = OnTooltipForCharacter,
+										OnUpdate = app.AlwaysShowUpdate,
 										name = character.name,
 										lvl = character.lvl,
-										['visible'] = true,
+										visible = true,
 									}));
 								end
 							end
 
 							if #g < 1 then
-								tinsert(g, {
-									['text'] = L.NO_CHARACTERS_FOUND,
-									['icon'] = 526421,
-									['visible'] = true,
+								tinsert(g, app.CreateRawText(L.NO_CHARACTERS_FOUND, {
+									icon = 526421,
+									visible = true,
 									OnClick = app.UI.OnClick.IgnoreRightClick,
-									["OnUpdate"] = app.AlwaysShowUpdate,
-								});
+									OnUpdate = app.AlwaysShowUpdate,
+								}));
 							else
 								data.SortType = "textAndLvl";
 							end
@@ -5216,17 +5212,16 @@ customWindowUpdates.Sync = function(self)
 							AssignChildren(data);
 							return true;
 						end,
-					},
+					}),
 
 					-- Linked Accounts Section
-					{
-						['text'] = L.LINKED_ACCOUNTS,
-						['icon'] = 526421,
-						["description"] = L.LINKED_ACCOUNTS_TOOLTIP,
-						['visible'] = true,
+					app.CreateRawText(L.LINKED_ACCOUNTS, {
+						icon = 526421,
+						description = L.LINKED_ACCOUNTS_TOOLTIP,
+						visible = true,
 						['g'] = {},
 						OnClick = app.UI.OnClick.IgnoreRightClick,
-						['OnUpdate'] = function(data)
+						OnUpdate = function(data)
 							data.g = {};
 							local charactersByName = {};
 							for guid,character in pairs(ATTCharacterData) do
@@ -5239,52 +5234,49 @@ customWindowUpdates.Sync = function(self)
 								local character = charactersByName[playerName];
 								if character then
 									tinsert(data.g, app.CreateUnit(playerName, {
-										['datalink'] = playerName,
-										['OnClick'] = OnRightButtonDeleteLinkedAccount,
-										['OnTooltip'] = OnTooltipForLinkedAccount,
-										["OnUpdate"] = app.AlwaysShowUpdate,
-										['visible'] = true,
+										datalink = playerName,
+										OnClick = OnRightButtonDeleteLinkedAccount,
+										OnTooltip = OnTooltipForLinkedAccount,
+										OnUpdate = app.AlwaysShowUpdate,
+										visible = true,
 									}));
 								elseif playerName:find("#") then
 									-- Garbage click handler for unsync'd account data.
-									tinsert(data.g, {
-										['text'] = playerName,
-										['datalink'] = playerName,
-										['icon'] = 526421,
-										['OnClick'] = OnRightButtonDeleteLinkedAccount,
-										['OnTooltip'] = OnTooltipForLinkedAccount,
-										['OnUpdate'] = app.AlwaysShowUpdate,
-										['visible'] = true,
-									});
+									tinsert(data.g, app.CreateRawText(playerName, {
+										datalink = playerName,
+										icon = 526421,
+										OnClick = OnRightButtonDeleteLinkedAccount,
+										OnTooltip = OnTooltipForLinkedAccount,
+										OnUpdate = app.AlwaysShowUpdate,
+										visible = true,
+									}));
 								else
 									-- Garbage click handler for unsync'd character data.
-									tinsert(data.g, {
-										['text'] = playerName,
-										['datalink'] = playerName,
-										['icon'] = 374212,
-										['OnClick'] = OnRightButtonDeleteLinkedAccount,
-										['OnTooltip'] = OnTooltipForLinkedAccount,
-										['OnUpdate'] = app.AlwaysShowUpdate,
-										['visible'] = true,
-									});
+									tinsert(data.g, app.CreateRawText(playerName, {
+										datalink = playerName,
+										icon = 374212,
+										OnClick = OnRightButtonDeleteLinkedAccount,
+										OnTooltip = OnTooltipForLinkedAccount,
+										OnUpdate = app.AlwaysShowUpdate,
+										visible = true,
+									}));
 								end
 							end
 
 							if #data.g < 1 then
-								tinsert(data.g, {
-									['text'] = L.NO_LINKED_ACCOUNTS,
-									['icon'] = 526421,
-									['visible'] = true,
+								tinsert(data.g, app.CreateRawText(L.NO_LINKED_ACCOUNTS, {
+									icon = 526421,
+									visible = true,
 									OnClick = app.UI.OnClick.IgnoreRightClick,
-									["OnUpdate"] = app.AlwaysShowUpdate,
-								});
+									OnUpdate = app.AlwaysShowUpdate,
+								}));
 							end
 							AssignChildren(data);
 							return true;
 						end,
-					},
+					}),
 				}
-			};
+			});
 
 			self.Reset = function()
 				self:SetData(syncHeader);
