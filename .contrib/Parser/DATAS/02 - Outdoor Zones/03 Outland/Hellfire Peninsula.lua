@@ -3211,6 +3211,29 @@ root(ROOTS.Zones, {
 							i(27688),	-- Recipe: Ravager Dog (RECIPE!)
 						},
 					}),
+					n(18749, {	-- Dalinna <Tailoring Trainer>
+						["coord"] = { 56.6, 37.2, HELLFIRE_PENINSULA },
+						["races"] = HORDE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								2324,	-- Bleach
+								6261,	-- Orange Dye
+								10290,	-- Pink Dye
+								4341,	-- Yellow Dye
+								2325,	-- Black Dye
+								6260,	-- Blue Dye
+								2605,	-- Green Dye
+								4340,	-- Grey Dye
+								4342,	-- Purple Dye
+								2604,	-- Red Dye
+								2320,	-- Coarse Thread
+								2321,	-- Fine Thread
+								4291,	-- Silken Thread
+								8343,	-- Heavy Silken Thread
+								14341,	-- Rune Thread
+							},
+						},
+					}),
 					n(18997, {	-- Fallesh Sunfallow <Weapon Merchant>
 						["coord"] = { 26.4, 60.2, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
@@ -3292,6 +3315,29 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #endif
+					n(18772, {	-- Hama <Tailoring Trainer>
+						["coord"] = { 54.6, 63.6, HELLFIRE_PENINSULA },
+						["races"] = ALLIANCE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								2324,	-- Bleach
+								6261,	-- Orange Dye
+								10290,	-- Pink Dye
+								4341,	-- Yellow Dye
+								2325,	-- Black Dye
+								6260,	-- Blue Dye
+								2605,	-- Green Dye
+								4340,	-- Grey Dye
+								4342,	-- Purple Dye
+								2604,	-- Red Dye
+								2320,	-- Coarse Thread
+								2321,	-- Fine Thread
+								4291,	-- Silken Thread
+								8343,	-- Heavy Silken Thread
+								14341,	-- Rune Thread
+							},
+						},
+					}),
 					n(30734, {	-- Jezebel Bican <Inscription Supplies>
 						["coord"] = { 54.0, 65.6, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,

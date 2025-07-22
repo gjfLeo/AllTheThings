@@ -4076,7 +4076,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				10375,	-- Spire Spiderling
 			},
 			["description"] = "Drops from spiders in Lower Blackrock Spire.",
-			["maps"] = { LOWER_BLACKROCK_SPIRE },
+			["maps"] = { LBRS_SKITTERWEB_TUNNELS },
 			-- #else
 			["crs"] = {
 				1821,	-- Carrion Lurker
@@ -4119,6 +4119,21 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			},
 			["description"] = "Drops from spiders in the level bracket 45-60.",
 			-- #endif
+		}),
+		i(3182, {	-- Spider's Silk
+			["crs"] = {
+				3821,	-- Wildthorn Lurker
+				3819,	-- Wildthorn Stalker
+				3820,	-- Wildthorn Venomspitter
+			},
+			-- #if AFTER BFA
+			["description"] = "Drops from spiders in previously lower intermediate level vanilla zones, and are most abundant in Ashenvale. Spiders often share a spawn with other bests, so kill the bear or whatever if you cannot find spiders.",
+			-- #elseif AFTER 4.0.3
+			["description"] = "Drops from spiders in lower intermediate level vanilla zones, and are most abundant in Ashenvale. Spiders often share a spawn with other bests, so kill the bear or whatever if you cannot find spiders.",
+			-- #else
+			["description"] = "Drops from spiders in the level bracket 16-36, and are most abundant in Ashenvale. Spiders often share a spawn with other bests, so kill the bear or whatever if you cannot find spiders.",
+			-- #endif
+			["maps"] = { ASHENVALE, },
 		}),
 		i(4337, {	-- Thick Spider's Silk
 			-- Danny Donkey: Anyclassic here points to sources nerfed at an unknown point between MoP and TWW.

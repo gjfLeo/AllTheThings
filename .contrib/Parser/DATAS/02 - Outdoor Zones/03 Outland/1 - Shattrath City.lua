@@ -1873,12 +1873,12 @@ root(ROOTS.Zones, {
 					n(19213, {	-- Eiin <Specialty Tailoring Supplies>
 						["coord"] = { 66.2, 68.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
-						["groups"] = {
+						["groups"] = appendGroups(VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES, VANILLA_TAILORING_SUPPLIES, {
 							i(21892),	-- Pattern: Bolt of Imbued Netherweave (RECIPE!)
 							i(21893),	-- Pattern: Imbued Netherweave Bag (RECIPE!)
 							i(21896),	-- Pattern: Netherweave Robe (RECIPE!)
 							i(21897),	-- Pattern: Netherweave Tunic (RECIPE!)
-						},
+						}),
 					}),
 					n(33633, {	-- Enchantress Andiala <Enchanting Trainer>
 						["coord"] = { 56.2, 74.4, SHATTRATH_CITY },

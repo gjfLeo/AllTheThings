@@ -1138,6 +1138,43 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 	})),
 	filter(REAGENTS, {
 		["groups"] = appendAllGroups(
+			-- Table of Content:
+			--	Cloth + Silk
+			--	Elemetal reagents
+			--	Clams
+			--	Cooking reagents
+			--	Other reagents
+			--_______________________________
+			--
+			--	Cloth + Silk:
+			{
+				i(21877, {	-- Netherweave Cloth
+					["description"] = "Netherweave Cloth is a very common drop from TBC humanoid and undead creatures.",
+				}),
+				i(21881, {	-- Netherweb Spider Silk
+					["crs"] = {
+						-- #if AFTER CATA
+						15170,	-- Coldmist Stalker
+						15171,	-- Coldmist Widow
+						-- #endif
+						18466,	-- Dreadfang Lurker
+						18467,	-- Dreadfang Widow
+					},
+					["coords"] = {
+						{ 52.3, 78.5, TEROKKAR_FOREST },	-- Netherweb Ridge
+						{ 54.8, 59.8, TEROKKAR_FOREST },	-- Allerian Stronghold, west of
+						{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
+					},
+					-- #if AFTER CATA
+					["description"] = "Netherweb Spider Silk is a common drop from TBC spiders, most viably farmed in Karazhan and Terokkar Forest.",
+					["maps"] = { KARAZHAN },
+					-- #else
+					["description"] = "Netherweb Spider Silk is a common drop from TBC spiders, most viably farmed in Terokkar Forest.",
+					-- #endif
+				}),
+			},
+			--_________________________________
+			--
 			--	Elemental reagents:
 			sharedData({	-- Air
 				["coords"] = {
@@ -1492,6 +1529,21 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			--_________________________________
 			--
 			--	Other reagents:
+				i(32428, {	-- Heart of Darkness
+					["description"] = "Can drop from most creatures within the given raids.",
+					["maps"] = {
+						THE_BATTLE_FOR_MOUNT_HYJAL,
+						THE_BLACK_TEMPLE,
+					},
+					["timeline"] = { ADDED_2_1_0 },
+				}),
+				i(30183, {	-- Nether Vortex
+					["description"] = "Can drop from most creatures within the given raids.",
+					["maps"] = {
+						SERPENTSHRINE_CAVERN,
+						TEMPEST_KEEP_THE_EYE,
+					},
+				}),
 				i(23572, {	-- Primal Nether
 					["description"] = "Is a guarranteed drop from TBC Heroic dungeon end bosses.",
 					-- Danny Donkey: Uncommenting this will create a Reagents header with Primal Nether in the given minilists on retail despite Primal Nether already being sourced on the bosses themselves.
@@ -1515,21 +1567,6 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 						MAGISTERS_TERRACE,
 						-- #endif
 					},]]
-				}),
-				i(32428, {	-- Heart of Darkness
-					["description"] = "Can drop from most creatures within the given raids.",
-					["maps"] = {
-						THE_BATTLE_FOR_MOUNT_HYJAL,
-						THE_BLACK_TEMPLE,
-					},
-					["timeline"] = { ADDED_2_1_0 },
-				}),
-				i(30183, {	-- Nether Vortex
-					["description"] = "Can drop from most creatures within the given raids.",
-					["maps"] = {
-						SERPENTSHRINE_CAVERN,
-						TEMPEST_KEEP_THE_EYE,
-					},
 				}),
 			}
 		),

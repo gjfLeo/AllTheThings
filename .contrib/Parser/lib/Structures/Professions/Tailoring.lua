@@ -225,7 +225,10 @@ VANILLA_TAILORING_SUPPLIES = sharedData({
 		{ "n", 8681},	-- Outfitter Eric <Speciality Tailoring Supplies>
 		{ "n", 5154},	-- Poranna Snowbraid <Tailoring Supplies>
 		-- #if AFTER TBC
+		{ "n", 18749},	-- Dalinna <Tailoring Trainer>
 		{ "n", 16638},	-- Deynna <Tailoring Supplies>
+		{ "n", 19213},	-- Eiin <Specialty Tailoring Supplies>
+		{ "n", 18772},	-- Hama <Tailoring Trainer>
 		{ "n", 16767},	-- Neii <Tailoring Supplies>
 		-- #endif
 	},

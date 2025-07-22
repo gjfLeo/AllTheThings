@@ -241,8 +241,11 @@ VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES = sharedData({
 		{ "n", 18754},	-- Barim Spilthoof <Leatherworking Trainer>
 		{ "n", 18771},	-- Brumman <Leatherworking Trainer>
 		{ "n", 19196},	-- Cro Threadstrong <Leatherworking Supplies>
+		{ "n", 18749},	-- Dalinna <Tailoring Trainer>
 		{ "n", 16638},	-- Deynna <Tailoring Supplies>
+		{ "n", 19213},	-- Eiin <Specialty Tailoring Supplies>
 		{ "n", 16748},	-- Haferet <Leatherworking Supplies>
+		{ "n", 18772},	-- Hama <Tailoring Trainer>
 		{ "n", 16767},	-- Neii <Tailoring Supplies>
 		{ "n", 16689},	-- Zaralda <Leatherworking Supplies>
 		-- #endif
