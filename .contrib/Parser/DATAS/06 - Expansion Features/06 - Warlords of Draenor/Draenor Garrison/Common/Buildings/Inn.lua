@@ -529,41 +529,13 @@ root(ROOTS.ExpansionFeatures,
 					n(QUESTS, {
 						i(119036, {	-- Box of Storied Treasures [4]
 							["description"] = "Commonly rewarded from quests provided from the Inn.",
-							["sym"] = {
-								{"sub", "common_wod_dungeon_drop", 1, HANDS},
-								{"sub", "common_wod_dungeon_drop", 1, WAIST},
-								{"sub", "common_wod_dungeon_drop", 1, LEGS},
-								{"sub", "common_wod_dungeon_drop", 1, CHEST},
-								{"sub", "common_wod_dungeon_drop", 1, FEET},
-								{"sub", "common_wod_dungeon_drop", 1, HEAD},
-								{"sub", "common_wod_dungeon_drop", 1, WRIST},
-								{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
-								{"sub", "common_wod_dungeon_drop", 1, BACK},
-								{"sub", "common_wod_dungeon_drop", 1, NECK},
-								{"sub", "common_wod_dungeon_drop", 1, FINGER},
-								{"merge"},	-- Merge all sub results for processing
-								{"pop"},	-- Get the raw Items from each slot header
-								{"is", "itemID"},	-- Only Items (discards Warforged headers)
-							},
+							["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC,
+								HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 						}),
 						i(119037, {	-- Supply of Storied Rarities [16]
 							["description"] = "Commonly rewarded from quests provided from the Inn.",
-							["sym"] = {
-								{"sub", "common_wod_dungeon_drop", 2, HANDS},
-								{"sub", "common_wod_dungeon_drop", 2, WAIST},
-								{"sub", "common_wod_dungeon_drop", 2, LEGS},
-								{"sub", "common_wod_dungeon_drop", 2, CHEST},
-								{"sub", "common_wod_dungeon_drop", 2, FEET},
-								{"sub", "common_wod_dungeon_drop", 2, HEAD},
-								{"sub", "common_wod_dungeon_drop", 2, WRIST},
-								{"sub", "common_wod_dungeon_drop", 2, SHOULDER},
-								{"sub", "common_wod_dungeon_drop", 2, BACK},
-								{"sub", "common_wod_dungeon_drop", 2, NECK},
-								{"sub", "common_wod_dungeon_drop", 2, FINGER},
-								{"merge"},	-- Merge all sub results for processing
-								{"pop"},	-- Get the raw Items from each slot header
-								{"is", "itemID"},	-- Only Items (discards Warforged headers)
-							},
+							["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.HEROIC,
+								HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 						}),
 						q(37228, {	-- A Fruitful Proposition
 							["sourceQuest"] = 37152,	-- Cro's Revenge
@@ -678,22 +650,8 @@ root(ROOTS.ExpansionFeatures,
 									i(118617),	-- Very Shiny Thing (QI!)
 								}),
 								i(119041, {	-- Strongbox of Mysterious Treasures
-									["sym"] = {
-										{"sub", "common_wod_dungeon_drop", 1, HANDS},
-										{"sub", "common_wod_dungeon_drop", 1, WAIST},
-										{"sub", "common_wod_dungeon_drop", 1, LEGS},
-										{"sub", "common_wod_dungeon_drop", 1, CHEST},
-										{"sub", "common_wod_dungeon_drop", 1, FEET},
-										{"sub", "common_wod_dungeon_drop", 1, HEAD},
-										{"sub", "common_wod_dungeon_drop", 1, WRIST},
-										{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
-										{"sub", "common_wod_dungeon_drop", 1, BACK},
-										{"sub", "common_wod_dungeon_drop", 1, NECK},
-										{"sub", "common_wod_dungeon_drop", 1, FINGER},
-										{"merge"},	-- Merge all sub results for processing
-										{"pop"},	-- Get the raw Items from each slot header
-										{"is", "itemID"},	-- Only Items (discards Warforged headers)
-									},
+									["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC,
+										HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 								}),
 							},
 						}),
@@ -844,22 +802,8 @@ root(ROOTS.ExpansionFeatures,
 							["repeatable"] = true,
 							["g"] = {
 								i(119042, {	-- Crate of Valuable Treasures
-									["sym"] = {
-										{"sub", "common_wod_dungeon_drop", 1, HANDS},
-										{"sub", "common_wod_dungeon_drop", 1, WAIST},
-										{"sub", "common_wod_dungeon_drop", 1, LEGS},
-										{"sub", "common_wod_dungeon_drop", 1, CHEST},
-										{"sub", "common_wod_dungeon_drop", 1, FEET},
-										{"sub", "common_wod_dungeon_drop", 1, HEAD},
-										{"sub", "common_wod_dungeon_drop", 1, WRIST},
-										{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
-										{"sub", "common_wod_dungeon_drop", 1, BACK},
-										{"sub", "common_wod_dungeon_drop", 1, NECK},
-										{"sub", "common_wod_dungeon_drop", 1, FINGER},
-										{"merge"},	-- Merge all sub results for processing
-										{"pop"},	-- Get the raw Items from each slot header
-										{"is", "itemID"},	-- Only Items (discards Warforged headers)
-									},
+									["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC,
+										HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 								}),
 								o(237479, {	-- Nightmare Bell
 									i(118648),	-- Nightmare Bell (QI!)
@@ -933,22 +877,8 @@ root(ROOTS.ExpansionFeatures,
 									i(118646),	-- Ogre Family Tree (QI!)
 								}),
 								i(119040, {	-- Cache of Mingled Treasures
-									["sym"] = {
-										{"sub", "common_wod_dungeon_drop", 1, HANDS},
-										{"sub", "common_wod_dungeon_drop", 1, WAIST},
-										{"sub", "common_wod_dungeon_drop", 1, LEGS},
-										{"sub", "common_wod_dungeon_drop", 1, CHEST},
-										{"sub", "common_wod_dungeon_drop", 1, FEET},
-										{"sub", "common_wod_dungeon_drop", 1, HEAD},
-										{"sub", "common_wod_dungeon_drop", 1, WRIST},
-										{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
-										{"sub", "common_wod_dungeon_drop", 1, BACK},
-										{"sub", "common_wod_dungeon_drop", 1, NECK},
-										{"sub", "common_wod_dungeon_drop", 1, FINGER},
-										{"merge"},	-- Merge all sub results for processing
-										{"pop"},	-- Get the raw Items from each slot header
-										{"is", "itemID"},	-- Only Items (discards Warforged headers)
-									},
+									["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC,
+										HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 								}),
 							},
 						}),
@@ -1005,22 +935,8 @@ root(ROOTS.ExpansionFeatures,
 									i(118649),	-- Bottled Windstorm (QI!)
 								}),
 								i(119043, {	-- Trove of Smoldering Treasures
-									["sym"] = {
-										{"sub", "common_wod_dungeon_drop", 1, HANDS},
-										{"sub", "common_wod_dungeon_drop", 1, WAIST},
-										{"sub", "common_wod_dungeon_drop", 1, LEGS},
-										{"sub", "common_wod_dungeon_drop", 1, CHEST},
-										{"sub", "common_wod_dungeon_drop", 1, FEET},
-										{"sub", "common_wod_dungeon_drop", 1, HEAD},
-										{"sub", "common_wod_dungeon_drop", 1, WRIST},
-										{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
-										{"sub", "common_wod_dungeon_drop", 1, BACK},
-										{"sub", "common_wod_dungeon_drop", 1, NECK},
-										{"sub", "common_wod_dungeon_drop", 1, FINGER},
-										{"merge"},	-- Merge all sub results for processing
-										{"pop"},	-- Get the raw Items from each slot header
-										{"is", "itemID"},	-- Only Items (discards Warforged headers)
-									},
+									["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC,
+										HANDS, WAIST, LEGS, CHEST, FEET, HEAD, WRIST, SHOULDER, BACK, NECK, FINGER),
 								}),
 							},
 						}),
