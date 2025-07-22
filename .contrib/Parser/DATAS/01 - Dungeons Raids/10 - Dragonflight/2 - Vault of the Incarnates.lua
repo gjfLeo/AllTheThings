@@ -514,8 +514,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				ach(16356),		-- Vault of the Incarnates Guild Run
 				ach(16357),		-- Heroic: Vault of the Incarnates Guild Run
 			}),
-			o(382621, {	-- Revival Catalyst Console
-				["description"] = "The Revival Catalyst is a system that lets you convert Emerald Dream's Zone Weekly Event Items (Superbloom, Dreamseeds, A Worthy Ally: Dream) & LFR Mode Non-set items from the Amirdrassil Raid into your class' LFR Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
+			o(382621, { ["timeline"] = { ADDED_10_0_2, REMOVED_11_0_2 } }, {	-- Revival Catalyst Console
+				["description"] = "The Revival Catalyst is a system that lets you convert LFR Mode Non-set items from the Vault of the Incarnates Raid into your class' LFR Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
 				["coord"] = { 60.6, 53.8, THALDRASZUS },
 				["modelScale"] = 4,
 				["catalystID"] = 3,	-- ItemBonus.Value_0 DF:S1
