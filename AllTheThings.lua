@@ -3123,8 +3123,7 @@ customWindowUpdates.AchievementHarvester = function(self, ...)
 				partitionStart = j * self.PartitionSize;
 				partitionGroups = {};
 				-- define a sub-group for a range of quests
-				partition = {
-					["text"] = tostring(partitionStart + 1).."+",
+				partition = app.CreateRawText(tostring(partitionStart + 1).."+", {
 					["icon"] = app.asset("Interface_Quest_header"),
 					["visible"] = true,
 					["OnClick"] = function(row, button)
@@ -3133,7 +3132,7 @@ customWindowUpdates.AchievementHarvester = function(self, ...)
 						-- no return so that it acts like a normal row
 					end,
 					["g"] = partitionGroups,
-				};
+				})
 				for i=1,self.PartitionSize,1 do
 					tinsert(partitionGroups, dlo(obj, "text", overrides, partitionStart + i));
 				end
@@ -3854,8 +3853,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					["description"] = L.MINI_LIST_DESC,
 					["visible"] = true,
 					["g"] = {
-						{
-							["text"] = L.UPDATE_LOCATION_NOW,
+						app.CreateRawText(L.UPDATE_LOCATION_NOW, {
 							["icon"] = 134269,
 							["description"] = L.UPDATE_LOCATION_NOW_DESC,
 							["OnClick"] = function(row, button)
@@ -3863,7 +3861,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 								return true;
 							end,
 							["OnUpdate"] = app.AlwaysShowUpdate,
-						},
+						}),
 					},
 				}));
 				self:BuildData();
@@ -3934,15 +3932,13 @@ customWindowUpdates.ItemFilter = function(self, force)
 			end
 
 			-- Item Filter
-			local data = {
-				['text'] = L.ITEM_FILTER_TEXT,
+			local data = app.CreateRawText(L.ITEM_FILTER_TEXT, {
 				['icon'] = app.asset("Category_ItemSets"),
 				["description"] = L.ITEM_FILTER_DESCRIPTION,
 				['visible'] = true,
 				['back'] = 1,
 				['g'] = {
-					{
-						['text'] = L.ITEM_FILTER_BUTTON_TEXT,
+					app.CreateRawText(L.ITEM_FILTER_BUTTON_TEXT, {
 						['icon'] = 134246,
 						['description'] = L.ITEM_FILTER_BUTTON_DESCRIPTION,
 						['visible'] = true,
@@ -3993,9 +3989,9 @@ customWindowUpdates.ItemFilter = function(self, force)
 							end);
 							return true;
 						end,
-					},
+					}),
 				},
-			};
+			});
 
 			self:SetData(data);
 			self:BuildData();
@@ -5484,6 +5480,8 @@ customWindowUpdates.list = function(self, force, got)
 			visible = true,
 			total = 0,
 			progress = 0,
+			costTotal = 0,
+			upgradeTotal = 0,
 		};
 		local PartitionUpdateFields = {
 			total = true,
