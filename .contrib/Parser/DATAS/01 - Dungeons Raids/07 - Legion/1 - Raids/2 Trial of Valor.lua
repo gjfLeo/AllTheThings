@@ -168,8 +168,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				["coord"] = { 63.7, 55.0, LEGION_DALARAN },
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
-				ZoneDrops({
-				}),
+				ZoneDrops({}),
 				header(HEADERS.LFGDungeon, 1411, {	-- Trial of Valor
 					Boss(ODYN),
 					Boss(GUARM),
