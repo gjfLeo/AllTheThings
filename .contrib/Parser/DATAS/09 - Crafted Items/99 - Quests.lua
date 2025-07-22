@@ -42,7 +42,7 @@ root(ROOTS.Craftables, {
 				["qg"] = 77789,	-- Blingtron 5000
 				["isDaily"] = true,
 				["g"] = {
-					ach(9071, {	-- Inspector Gagetzan (automated)
+					ach(9071, {	-- Inspector Gadgetzan (automated)
 						["_doautomation"] = true,	-- otherwise ignored from quest parent
 					}),
 					i(113258, {	-- Blingtron 5000 Gift Package
