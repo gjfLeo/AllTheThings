@@ -514,7 +514,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				ach(16356),		-- Vault of the Incarnates Guild Run
 				ach(16357),		-- Heroic: Vault of the Incarnates Guild Run
 			}),
-			o(382621, { ["timeline"] = { ADDED_10_0_2, REMOVED_11_0_2 } }, {	-- Revival Catalyst Console
+			o(382621, bubbleDown({ ["timeline"] = { ADDED_10_0_2, REMOVED_11_0_2 } }, {	-- Revival Catalyst Console
 				["description"] = "The Revival Catalyst is a system that lets you convert LFR Mode Non-set items from the Vault of the Incarnates Raid into your class' LFR Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
 				["coord"] = { 60.6, 53.8, THALDRASZUS },
 				["modelScale"] = 4,
@@ -533,7 +533,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						ALL_CLASS_TIERS_HELPER(VAULT_OF_THE_INCARNATES_TIER, DIFFICULTY.RAID.MYTHIC)
 					),
 				},
-			}),
+			})),
 			CommonBossDrops(sharedData({ ["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_1_0 } }, {
 				i(205962, {	-- Echoing Storm Flightstone
 					["timeline"] = { ADDED_10_1_0 },
