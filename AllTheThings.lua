@@ -2955,11 +2955,10 @@ function app:GetDataCache()
 	}));
 
 	-- The Main Window's Data
-	app.refreshDataForce = true;
 	-- app.PrintMemoryUsage("Prime.Data Ready")
 	local primeWindow = app:GetWindow("Prime");
 	primeWindow:SetData(rootData);
-	-- app.PrintMemoryUsage("Prime Window Data Set")
+	-- app.PrintMemoryUsage("Prime Window Data Building...")
 	primeWindow:BuildData();
 
 	-- Function to build a hidden window's data
@@ -2997,6 +2996,7 @@ function app:GetDataCache()
 	BuildHiddenWindowData(L.HIDDEN_CURRENCY_TRIGGERS, "Interface_Vendor", L.HIDDEN_CURRENCY_TRIGGERS_DESC, "HiddenCurrencyTriggers", { _hqt = true, _nosearch = true, Color = app.Colors.ChatLinkHQT })
 	BuildHiddenWindowData(L.HIDDEN_QUEST_TRIGGERS, "Interface_Quest", L.HIDDEN_QUEST_TRIGGERS_DESC, "HiddenQuestTriggers", { _hqt = true, _nosearch = true, Color = app.Colors.ChatLinkHQT })
 	BuildHiddenWindowData(L.SOURCELESS, "WindowIcon_Unsorted", L.SOURCELESS_DESC, "Sourceless", { _missing = true, _unsorted = true, _nosearch = true, Color = app.Colors.TooltipWarning })
+	-- app.PrintMemoryUsage("Hidden Windows Data Done")
 
 	-- a single Unsorted window to collect all base Unsorted windows
 	-- TODO: migrate this logic once Window creation is revised
@@ -3025,7 +3025,7 @@ function app:GetDataCache()
 	})
 
 	-- StartCoroutine("VerifyRecursionUnsorted", function() app.VerifyCache(); end, 5);
-	-- app.PrintDebug("Finished loading data cache")
+	-- app.PrintMemoryUsage("Finished loading data cache")
 	-- app.PrintMemoryUsage()
 	app.GetDataCache = function()
 		-- app.PrintDebug("Cached data cache")
@@ -7247,3 +7247,8 @@ app.Wait_OnStartupDone = true
 app.AddEventHandler("OnStartupDone", function() app.Wait_OnStartupDone = nil end)
 
 -- app.PrintMemoryUsage("AllTheThings.EOF");
+-- app.AddEventHandler("Addon.Memory", function(info)
+-- 	app.PrintMemoryUsage(info)
+-- end)
+-- app.LinkEventSequence("OnStartupDone", "Addon.Memory")
+-- app.LinkEventSequence("OnWindowFillComplete", "Addon.Memory")
