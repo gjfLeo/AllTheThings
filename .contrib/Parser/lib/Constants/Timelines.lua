@@ -335,10 +335,10 @@ CREATED_5_4_7 = "created 5.4.7.17898";					-- Mists of Pandaria 5.4.7 launch on 
 ADDED_5_4_7 = "added 5.4.7.17898";						-- Mists of Pandaria 5.4.7 launch on February 18th, 2014
 REMOVED_5_4_7 = "removed 5.4.7.17898";					-- Mists of Pandaria 5.4.7 launch on February 18th, 2014
 --- CLASSIC TIMELINES ---
-CREATED_5_5_0 = "created 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
-ADDED_5_5_0 = "added 5.5.0";					    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
-DELETED_5_5_0 = "deleted 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
-REMOVED_5_5_0 = "removed 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
+CREATED_5_5_0 = "created 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch on July 21st, 2025
+ADDED_5_5_0 = "added 5.5.0";					    	-- Mists of Pandaria Classic 5.5.0 launch on July 21st, 2025
+DELETED_5_5_0 = "deleted 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch on July 21st, 2025
+REMOVED_5_5_0 = "removed 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch on July 21st, 2025
 CREATED_5_5_1 = "created 5.5.1";				    	-- Mists of Pandaria Classic 5.5.1 launch in summer 2025
 ADDED_5_5_1 = "added 5.5.1";					    	-- Mists of Pandaria Classic 5.5.1 launch in summer 2025
 REMOVED_5_5_1 = "removed 5.5.1";				    	-- Mists of Pandaria Classic 5.5.1 launch in summer 2025
