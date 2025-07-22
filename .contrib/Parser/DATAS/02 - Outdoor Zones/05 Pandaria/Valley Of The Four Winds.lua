@@ -1444,7 +1444,9 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = {
 							32018,	-- His Name Was... Stormstout
 							32019,	-- They Call Him... Stormstout
+							-- #if AFTER 6.2.0
 							38935,	-- His Name Was... Stormstout
+							-- #endif
 							-- #if AFTER 7.3.5
 							49539,	-- Warchief's Command: Valley of the Four Winds!
 							49557,	-- Hero's Call: Valley of the Four Winds!
