@@ -806,10 +806,7 @@ end
 -- tooltips, which means when ATT checks the Owner via this function, a secure code taint error is thrown
 local function SafeGetOwner(tooltip)
 	local ok, owner = pcall(tooltip.GetOwner,tooltip)
-	if ok then
-		return owner
-	else app.PrintDebug("Bad GetOwner on tooltip",tooltip:GetName())
-	end
+	if ok then return owner end
 end
 -- Tooltip API Differences between Modern and Legacy APIs.
 if TooltipDataProcessor and app.GameBuildVersion > 60000 then
