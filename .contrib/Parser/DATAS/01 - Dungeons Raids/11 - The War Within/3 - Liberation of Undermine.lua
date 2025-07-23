@@ -723,7 +723,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 							229288,	-- King Flamespite <Flarendo's Manager>
 						},
 					}),
-					ach(41695, {	-- The Splash Zone
+					ach(41554, {	-- The Splash Zone
 						["cost"] = {
 							{ "i", 236413, 1 },	-- "Shockproof" Soda
 							{ "i", 236412, 1 },	-- "Fireproof" Punch
