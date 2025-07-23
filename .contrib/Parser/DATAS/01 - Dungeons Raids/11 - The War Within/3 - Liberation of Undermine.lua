@@ -711,9 +711,24 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					ach(41208),	-- Hold My Gear!
 				}),
 				BossOnly(CARNAGE, {
-					ach(41694),	-- Flarendo's Biggest Fan
-					ach(41554),	-- The Splash Zone
-					ach(41695),	-- Torq's Biggest Fan
+					ach(41694, {	-- Flarendo's Biggest Fan
+						["crs"] = {
+							238586,	-- Flaming Megafan <Flarendo's Devoted>
+							229287,	-- Professor Boomspark <Torq's Manager>
+						},
+					}),
+					ach(41695, {	-- Torq's Biggest Fan
+						["crs"] = {
+							238587,	-- Thundering Megafan <Torq's Devoted>
+							229288,	-- King Flamespite <Flarendo's Manager>
+						},
+					}),
+					ach(41695, {	-- The Splash Zone
+						["cost"] = {
+							{ "i", 236413, 1 },	-- "Shockproof" Soda
+							{ "i", 236412, 1 },	-- "Fireproof" Punch
+						},
+					}),
 				}),
 				BossOnly(RIK, {
 					ach(41338),	-- Just /Dance
