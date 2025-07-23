@@ -1,0 +1,12 @@
+11.2.0.61787
+r(1250351),	-- Desolate Deposit
+r(1250356),	-- Rich Desolate Deposit
+
+
+
+
+Missing in Mining
+
+11.2.0.61787
+r(1250351),	-- Desolate Deposit
+r(1250356),	-- Rich Desolate Deposit

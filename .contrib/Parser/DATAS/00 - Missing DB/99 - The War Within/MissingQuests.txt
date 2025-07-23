@@ -160,12 +160,6 @@ q(13994),	-- (DEPRECATED)
 q(13996),	-- Can You Get This Quest While I'm In Combat?
 q(14000),	-- Hunt or Be Hunted
 q(14002),	-- A Job for a Bloodhound
-q(14007),	-- Steady Shot	 CATA:Steady Shot	 MOP:Steady Shot
-q(14008),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
-q(14009),	-- Learning the Word	 CATA:Flash Heal	 MOP:Flash Heal
-q(14010),	-- Eviscerate	 CATA:Eviscerate	 MOP:Eviscerate
-q(14012),	-- Corruption	 CATA:Immolate	 MOP:Immolate
-q(14013),	-- Charge	 CATA:Charge	 MOP:Charge
 q(14015),	-- Incomplete Cartography
 q(14020),	-- The Curse
 q(14025),	-- To the Frontlines
@@ -174,7 +168,6 @@ q(14027),	-- Face to Face
 q(14029),	-- Breaking the Siege
 q(14097),	-- Get That Merchant Out of Here!
 q(14133),	-- The Way to a Mage's Heart
-q(14137),	-- Class Training (Tracking Event)
 q(14156),	-- Man on the Inside
 q(14298),	-- Kill Cultists/Dragonflight
 q(14315),	-- Liam's Stupor
@@ -199,33 +192,18 @@ q(24466),	-- Battle Shout
 q(24481),	-- Rockbiter Weapon
 q(24482),	-- Power Word: Fortitude
 q(24485),	-- Seal of Righteousness
-q(24494),	-- Empowered Rune	 CATA:Empowered Rune	 MOP:Empowered Rune
-q(24527),	-- Your Path Begins Here	 CATA:Your Path Begins Here	 MOP:Your Path Begins Here
-q(24530),	-- Oh, A Hunter's Life For Me	 CATA:Oh, A Hunter's Life For Me	 MOP:Oh, A Hunter's Life For Me
-q(24531),	-- Getting Battle-Ready	 CATA:Getting Battle-Ready	 MOP:Getting Battle-Ready
 q(24544),	-- Paul Test Quest
-q(24640),	-- The Arts of a Warrior	 CATA:The Arts of a Warrior	 MOP:The Arts of a Warrior
 q(24696),	-- Un'Goro: PRK - E - Shizzle's Flyer 02 - Testing It Out
 q(24738),	-- Williden's Journal
 q(24739),	-- Expedition Salvation
-q(24760),	-- The Arts of a Shaman	 CATA:The Arts of a Shaman	 MOP:The Arts of a Shaman
-q(24766),	-- The Arts of a Druid	 CATA:The Arts of a Druid	 MOP:The Arts of a Druid
-q(24772),	-- The Arts of a Rogue	 CATA:The Arts of a Rogue	 MOP:The Arts of a Rogue
-q(24778),	-- The Arts of a Hunter	 CATA:The Arts of a Hunter	 MOP:The Arts of a Hunter
-q(24784),	-- Learnin' tha Word	 CATA:The Arts of a Priest	 MOP:The Arts of a Priest
 q(24860),	-- Profitable Preservation
 q(24900),	-- Blueleaf Tubers
 q(24935),	-- Body And Soul
-q(24962),	-- Trail-Worn Scroll	 CATA:Trail-Worn Scroll	 MOP:Trail-Worn Scroll
-q(24964),	-- The Thrill of the Hunt	 CATA:The Thrill of the Hunt	 MOP:The Thrill of the Hunt
 q(24967),	-- Stab!	 CATA:Stab!	 MOP:Stab!
-q(24968),	-- Dark Deeds	 CATA:Dark Deeds	 MOP:Dark Deeds
-q(24969),	-- Charging into Battle	 CATA:Charging into Battle	 MOP:Charging into Battle
 q(24984),	-- The Prodigal Lich
 q(24985),	-- Proving Allegiance
 q(24986),	-- The Prodigal Lich Returns
 q(24987),	-- Dark Lady, Watch Over Us
-q(25016),	-- FLAG - Training Complete
 q(25076),	-- Taming the Beast
 q(25077),	-- Taming the Beast
 q(25078),	-- Taming the Beast
@@ -238,19 +216,12 @@ q(25114),	-- [DEPRECATED]Basilisk Poaching: Gazer Guts
 q(25116),	-- [DEPRECATED]Hyena Poaching: Rabid Livers
 q(25119),	-- Impulse Hunting
 q(25137),	-- Valley of Trials: PRK - H - Warlock Pet Imp
-q(25138),	-- Glyphic Parchment	 CATA:Glyphic Parchment	 MOP:Glyphic Parchment
-q(25139),	-- Steady Shot	 CATA:Steady Shot	 MOP:Steady Shot
 q(25140),	-- Swine Hunting
-q(25141),	-- Eviscerate	 CATA:Eviscerate	 MOP:Eviscerate
 q(25142),	-- Into the Shadows
 q(25144),	-- Rock Meets Flesh
-q(25145),	-- Corruption	 CATA:Immolate	 MOP:Immolate
 q(25146),	-- A Demonic Fire
-q(25147),	-- Charge	 CATA:Charge	 MOP:Charge
 q(25148),	-- Hone Your Holler
-q(25149),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
 q(25150),	-- Empowered Minds
-q(25189),	-- Spirits Be Praised	 CATA:Spirits Be Praised	 MOP:Spirits Be Praised
 q(25225),	-- Oil Change
 q(25231),	-- Southseas Scum
 q(25302),	-- Remnants of Battle
@@ -290,7 +261,6 @@ q(26239),	-- <PH>Wildhammer Totems
 q(26242),	-- Deepholm, Plane of Earth
 q(26253),	-- Preserve the Evidence
 q(26262),	-- Twilight Armaments
-q(26274),	-- The Arts of a Warlock	 CATA:The Arts of a Warlock	 MOP:The Arts of a Warlock
 q(26392),	-- Voucher of Bravery
 q(26458),	-- Twilight Falls
 q(26460),	-- In Search of Thaelrid
@@ -301,7 +271,6 @@ q(26715),	-- Malfurion Stormrage	 CATA:Malfurion Stormrage	 MOP:Malfurion Stormr
 q(26716),	-- A Bit of Privacy
 q(26789),	-- You no take axe!	 CATA:You no take axe!	 MOP:You no take axe!
 q(26790),	-- Magmadar Must Die!
-q(26841),	-- Forbidden Sigil	 CATA:Forbidden Sigil	 MOP:Forbidden Sigil
 q(26847),	-- The Quaking Fields
 q(26848),	-- X Marks the Spot
 q(26849),	-- The Axe of Earthly Sundering
@@ -313,18 +282,8 @@ q(26859),	-- Searching for the Lost Satchel
 q(26877),	-- The Fragment's Inside
 q(26880),	-- Gilneas City Unphase Cheat
 q(26900),	-- Agamaggan
-q(26940),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
-q(26945),	-- Learning New Techniques	 CATA:Learning New Techniques	 MOP:Learning New Techniques
-q(26946),	-- A Rogue's Advantage	 CATA:A Rogue's Advantage	 MOP:A Rogue's Advantage
-q(26947),	-- A Woodsman's Training	 CATA:A Woodsman's Training	 MOP:A Woodsman's Training
-q(26948),	-- Moonfire	 CATA:Rejuvenating Touch	 MOP:Rejuvenating Touch
 q(26990),	-- Water They Up To?	 CATA:Water They Up To?	 MOP:Water They Up To?
-q(27020),	-- The First Lesson	 CATA:The First Lesson	 MOP:The First Lesson
-q(27021),	-- The Hunter's Path	 CATA:The Hunter's Path	 MOP:The Hunter's Path
-q(27023),	-- The Way of the Sunwalkers	 CATA:The Way of the Sunwalkers	 MOP:The Way of the Sunwalkers
 q(27052),	-- Lingering Twilight
-q(27066),	-- Learning the Word	 CATA:Healing in a Flash	 MOP:Healing in a Flash
-q(27067),	-- Moonfire	 CATA:Rejuvenating Touch	 MOP:Rejuvenating Touch
 q(27081),	-- [DEPRECATED]Trusting the Traitor
 q(27122),	-- Fired Up and Not So Good To Go.	 CATA:Fired Up and Not So Good To Go.	 MOP:Fired Up and Not So Good To Go.
 q(27127),	-- Fired Up and Not So Good To Go.	 CATA:Fired Up and Not So Good To Go.	 MOP:Fired Up and Not So Good To Go.
@@ -1144,8 +1103,6 @@ q(81585),	--
 q(81665),	--
 q(81957),	--
 q(81958),	--
-q(82087),	-- Torch Tossing
-q(82105),	-- Torch Tossing
 q(82136),	--
 q(82353),	--
 q(82415),	--
@@ -1837,11 +1794,9 @@ q(83654),	--
 q(83655),	--
 q(83656),	--
 q(83657),	--
-q(83673),	--
 q(83674),	--
 q(83675),	--
 q(83676),	--
-q(83692),	--
 q(83693),	--
 q(83694),	--
 q(83695),	--
@@ -2239,18 +2194,12 @@ q(87479),	-- [DNT] Repeatable - Camp 006
 q(87481),	-- [DNT] Repeatable - Camp 008
 q(87482),	-- [DNT] Repeatable - Camp 009
 q(87485),	-- [DNT] Repeatable - Camp 010
-q(87512),	--
-q(87513),	--
-q(87514),	--
-q(87515),	--
 q(87524),	--
 q(87526),	--
 q(87536),	--
 q(87537),	--
 q(87538),	--
 q(87671),	--
-q(88913),	--
-q(88914),	--
 q(88973),	--
 q(88991),	--
 q(89064),	--
@@ -2265,17 +2214,12 @@ q(89333),	--
 q(89335),	--
 q(89336),	--
 q(89337),	--
-q(90459),	--
-q(90460),	--
-q(90461),	--
-q(90462),	--
 q(90475),	--
 q(90476),	--
 q(90477),	--
 q(90478),	--
 q(90479),	--
 q(90480),	--
-q(90531),	--
 11.1.5.59919
 q(90661),	-- Dastardly Duos
 q(90774),	--
@@ -2294,8 +2238,6 @@ q(85235),	--
 q(85252),	--
 q(85253),	--
 q(85254),	--
-q(85678),	-- Repair Yourself	 PTR2:Repair Yourself
-q(85679),	-- Repair Yourself
 q(86469),	-- A Stromgarde Tour	 PTR2:A Stromgarde Tour
 q(86470),	-- Fearin's Version	 PTR2:Fearin's Version
 q(86854),	--
@@ -2303,7 +2245,6 @@ q(87547),	-- What's Your Specialty?
 q(87555),	-- Home Is Where the Hearth Is
 q(87560),	--
 q(87562),	-- Aiding the Dragon Isles
-q(89211),	--
 q(89382),	--
 q(90607),	--
 q(90608),	--
@@ -2317,133 +2258,35 @@ q(90643),	--
 q(90644),	--
 q(90645),	--
 q(90646),	--
-q(90648),	--
 q(90649),	--
 q(90650),	--
 q(90651),	--
-q(90652),	--
 q(90653),	--
 q(90654),	--
 q(90655),	--
 q(90656),	--
 q(90657),	--
 q(90757),	--
-q(90784),	--
 q(90853),	--
 q(90855),	--
 q(90856),	--
 q(90857),	--
 q(90926),	--
-q(90927),	--
-q(90928),	--
 q(90929),	--
-q(91025),	--
-q(91027),	--
-q(91028),	--
 q(91029),	--
 q(91171),	--
 q(91172),	--
 q(91202),	--
-11.1.7.60672
-q(91306),	--
+11.1.7.61965
+q(88806),	--
+q(92298),	--
+q(92347),	--
 11.2.0.61476
-q(84740),	--
-q(84741),	--
-q(84742),	--
-q(84744),	--
-q(84745),	--
-q(84759),	--
-q(84760),	--
-q(84761),	--
-q(84762),	--
 q(84763),	--
 q(84764),	--
-q(84765),	--
-q(84820),	--
 q(84822),	--
-q(84826),	--
-q(84827),	--
-q(84831),	--
-q(84834),	--
-q(84838),	--
-q(84848),	--
-q(84855),	--
-q(84856),	--
-q(84857),	--
-q(84858),	--
-q(84859),	--
-q(84860),	--
-q(84861),	--
-q(84862),	--
-q(84863),	--
-q(84864),	--
-q(84865),	--
-q(84866),	--
-q(84867),	--
-q(84869),	--
-q(84876),	--
-q(84879),	--
-q(84883),	--
-q(84896),	--
-q(84897),	--
-q(84898),	--
-q(84899),	--
-q(84900),	--
-q(84901),	--
-q(84902),	--
-q(84903),	--
-q(84904),	--
-q(84905),	--
-q(84906),	--
-q(84910),	--
-q(84915),	--
-q(84956),	--
-q(84957),	--
-q(84958),	--
-q(84959),	--
-q(84960),	--
-q(84961),	--
-q(84962),	--
-q(84963),	--
-q(84964),	--
-q(84965),	--
-q(84966),	--
-q(84967),	--
-q(84972),	--
-q(84973),	--
-q(84974),	--
-q(84992),	--
-q(84993),	--
-q(85003),	--
-q(85006),	--
-q(85007),	--
-q(85008),	--
-q(85009),	--
-q(85018),	--
-q(85019),	--
-q(85020),	--
-q(85021),	--
-q(85022),	--
-q(85032),	--
-q(85037),	--
 q(85038),	--
-q(85039),	--
 q(85044),	--
-q(85052),	--
-q(85053),	--
-q(85054),	--
-q(85055),	--
-q(85075),	--
-q(85076),	--
-q(85077),	--
-q(85078),	--
-q(85079),	--
-q(85080),	--
-q(85081),	--
-q(85082),	--
-q(85083),	--
-q(85084),	--
-q(85111),	--
 q(85153),	--
 q(85154),	--
 q(85194),	--
@@ -2453,69 +2296,19 @@ q(85211),	--
 q(85215),	--
 q(85216),	--
 q(85217),	--
-q(85229),	--
 q(85232),	--
 q(85233),	--
 q(85234),	--
 q(85236),	--
 q(85237),	--
-q(85238),	--
-q(85239),	--
-q(85240),	--
-q(85241),	--
-q(85249),	--
-q(85255),	--
-q(85256),	--
-q(85257),	--
-q(85258),	--
-q(85259),	--
-q(85260),	--
-q(85261),	--
-q(85262),	--
-q(85383),	--
-q(85384),	--
-q(85394),	--
-q(85429),	--
-q(85430),	--
-q(85431),	--
-q(85432),	--
-q(85433),	--
-q(85434),	--
-q(85459),	--
-q(85460),	--
-q(85461),	--
-q(85462),	--
-q(85465),	--
-q(85470),	--
 q(85478),	--
-q(85481),	--
 q(85482),	--
 q(85483),	--
 q(85484),	--
-q(85520),	--
-q(85685),	--
-q(85710),	--
-q(85721),	--
-q(85722),	--
-q(85730),	--
-q(85774),	--
-q(85812),	--
 q(85822),	--
-q(85834),	--
 q(85835),	--
 q(85836),	--
-q(85837),	--
-q(85840),	--
-q(85855),	--
-q(85863),	--
-q(85864),	--
 q(85873),	--
-q(85958),	--
-q(85959),	--
-q(85961),	--
-q(86065),	--
-q(86066),	--
-q(86067),	--
 q(86118),	--
 q(86119),	--
 q(86120),	--
@@ -2558,27 +2351,11 @@ q(86187),	--
 q(86188),	--
 q(86189),	--
 q(86190),	--
-q(86191),	--
 q(86192),	--
-q(86193),	--
 q(86194),	--
-q(86195),	--
-q(86196),	--
-q(86200),	--
-q(86201),	--
-q(86301),	--
-q(86304),	--
-q(86305),	--
-q(86306),	--
-q(86308),	--
-q(86322),	--
-q(86323),	--
-q(86327),	--
-q(86332),	--
 q(86339),	--
 q(86340),	--
 q(86341),	--
-q(86342),	--
 q(86348),	--
 q(86349),	--
 q(86350),	--
@@ -2590,35 +2367,17 @@ q(86355),	--
 q(86356),	--
 q(86357),	--
 q(86358),	--
-q(86359),	--
 q(86360),	--
 q(86361),	--
 q(86362),	--
-q(86363),	--
-q(86364),	--
-q(86365),	--
 q(86367),	--
-q(86372),	--
-q(86391),	--
-q(86392),	--
-q(86395),	--
-q(86409),	--
 q(86411),	--
 q(86415),	--
-q(86416),	--
-q(86429),	--
-q(86447),	--
-q(86464),	--
-q(86465),	--
-q(86467),	--
-q(86492),	--
-q(86495),	--
 q(86502),	--
 q(86527),	--
 q(86550),	--
 q(86551),	--
 q(86552),	--
-q(86584),	--
 q(86587),	--
 q(86588),	--
 q(86589),	--
@@ -2634,56 +2393,21 @@ q(86603),	--
 q(86604),	--
 q(86605),	--
 q(86606),	--
-q(86607),	--
-q(86610),	--
-q(86696),	--
-q(86707),	--
-q(86709),	--
 q(86782),	--
 q(86783),	--
 q(86785),	--
-q(86786),	--
-q(86793),	--
-q(86800),	--
-q(86815),	--
-q(86820),	--
 q(86821),	--
-q(86835),	--
-q(86869),	--
-q(86872),	--
-q(86946),	--
 q(87001),	--
-q(87255),	--
-q(87257),	--
-q(87258),	--
-q(87259),	--
-q(87260),	--
-q(87261),	--
-q(87262),	--
-q(87263),	--
-q(87264),	--
-q(87265),	--
-q(87266),	--
 q(87289),	--
-q(87290),	--
 q(87291),	--
 q(87292),	--
 q(87293),	--
-q(87294),	--
 q(87320),	--
-q(87337),	--
-q(87338),	--
-q(87339),	--
-q(87340),	--
 q(87341),	--
 q(87343),	--
-q(87344),	--
-q(87345),	--
 q(87347),	--
 q(87348),	--
 q(87349),	--
-q(87352),	--
-q(87354),	--
 q(87390),	--
 q(87405),	--
 q(87408),	--
@@ -2693,13 +2417,11 @@ q(87411),	--
 q(87412),	--
 q(87413),	--
 q(87414),	--
-q(87415),	--
 q(87546),	--
 q(88655),	--
 q(88656),	--
 q(88657),	--
 q(88658),	--
-q(88659),	--
 q(88660),	--
 q(88661),	--
 q(88662),	--
@@ -2712,159 +2434,42 @@ q(88668),	--
 q(88669),	--
 q(88670),	--
 q(88671),	--
-q(88672),	--
 q(88712),	--
 q(88773),	--
-q(88774),	--
 q(88810),	--
-q(88811),	--
-q(88814),	--
-q(88815),	--
-q(88816),	--
-q(88817),	--
-q(88818),	--
-q(88819),	--
-q(88820),	--
-q(88823),	--
-q(88824),	--
-q(88825),	--
-q(88826),	--
-q(88827),	--
 q(88828),	--
 q(88902),	--
 q(88904),	--
-q(88948),	--
-q(88949),	--
-q(88950),	--
-q(88951),	--
-q(88952),	--
-q(88953),	--
-q(88954),	--
-q(88955),	--
-q(88956),	--
-q(88957),	--
-q(88958),	--
-q(88959),	--
-q(88960),	--
-q(88961),	--
-q(88962),	--
-q(88963),	--
-q(88964),	--
-q(88965),	--
-q(88966),	--
-q(88967),	--
 q(88972),	--
 q(88974),	--
-q(88975),	--
 q(88976),	--
-q(88980),	--
-q(88981),	--
 q(89033),	--
 q(89036),	--
 q(89040),	--
 q(89041),	--
 q(89042),	--
 q(89043),	--
-q(89056),	--
-q(89057),	--
-q(89061),	--
-q(89062),	--
-q(89063),	--
-q(89065),	--
 q(89188),	--
 q(89189),	--
 q(89190),	--
 q(89191),	--
-q(89192),	--
-q(89194),	--
-q(89195),	--
-q(89197),	--
-q(89198),	--
-q(89209),	--
-q(89210),	--
-q(89212),	--
-q(89213),	--
-q(89221),	--
-q(89238),	--
-q(89240),	--
-q(89241),	--
-q(89242),	--
 q(89246),	--
-q(89254),	--
-q(89274),	--
-q(89288),	--
-q(89291),	--
 q(89292),	--
-q(89293),	--
-q(89294),	--
-q(89297),	--
-q(89305),	--
-q(89306),	--
-q(89323),	--
-q(89324),	--
-q(89325),	--
-q(89326),	--
-q(89327),	--
 q(89330),	--
-q(89343),	--
-q(89344),	--
-q(89345),	--
-q(89348),	--
-q(89378),	--
-q(89380),	--
 q(89490),	--
 q(89509),	--
 q(89510),	--
 q(89511),	--
 q(89512),	--
-q(89561),	--
 q(90087),	--
 q(90118),	--
 q(90119),	--
-q(90122),	--
-q(90123),	--
-q(90124),	--
-q(90125),	--
-q(90126),	--
-q(90127),	--
-q(90511),	--
-q(90512),	--
-q(90514),	--
-q(90515),	--
-q(90517),	--
-q(90521),	--
-q(90522),	--
-q(90527),	--
-q(90532),	--
-q(90545),	--
-q(90572),	--
 q(90577),	--
 q(90578),	--
 q(90579),	--
 q(90580),	--
 q(90581),	--
 q(90582),	--
-q(90583),	--
-q(90584),	--
-q(90585),	--
-q(90586),	--
-q(90587),	--
-q(90588),	--
-q(90589),	--
-q(90590),	--
-q(90591),	--
-q(90592),	--
-q(90593),	--
-q(90594),	--
-q(90595),	--
-q(90596),	--
-q(90600),	--
-q(90614),	--
-q(90630),	--
-q(90631),	--
-q(90632),	--
-q(90633),	--
-q(90634),	--
 q(90635),	--
 q(90636),	--
 q(90637),	--
@@ -2875,51 +2480,27 @@ q(90666),	--
 q(90667),	--
 q(90668),	--
 q(90670),	--
-q(90672),	--
-q(90673),	--
-q(90674),	--
-q(90675),	--
-q(90676),	--
-q(90677),	--
-q(90678),	--
-q(90679),	--
-q(90680),	--
-q(90681),	--
-q(90682),	--
-q(90683),	--
-q(90684),	--
-q(90685),	--
 q(90687),	--
 q(90688),	--
 q(90689),	--
 q(90691),	--
 q(90692),	--
 q(90693),	--
-q(90694),	--
-q(90695),	--
 q(90696),	--
 q(90697),	--
-q(90698),	--
-q(90699),	--
 q(90708),	--
 q(90725),	--
 q(90729),	--
-q(90732),	--
 q(90747),	--
 q(90753),	--
 q(90769),	--
 q(90770),	--
 q(90773),	--
-q(90776),	--
-q(90778),	--
 q(90781),	--
 q(90783),	--
-q(90807),	--
-q(90812),	--
 q(90814),	--
 q(90815),	--
 q(90816),	--
-q(90839),	--
 q(90863),	--
 q(90869),	--
 q(90870),	--
@@ -2929,11 +2510,8 @@ q(90903),	--
 q(90904),	--
 q(90905),	--
 q(90908),	--
-q(90938),	--
 q(90941),	--
 q(90954),	--
-q(90955),	--
-q(90972),	--
 q(90977),	--
 q(90978),	--
 q(90979),	--
@@ -2964,76 +2542,28 @@ q(91019),	--
 q(91020),	--
 q(91021),	--
 q(91032),	--
-q(91044),	--
 q(91045),	--
 q(91046),	--
-q(91055),	--
-q(91056),	--
-q(91057),	--
-q(91058),	--
 q(91064),	--
 q(91066),	--
 q(91067),	--
 q(91068),	--
-q(91075),	--
-q(91089),	--
-q(91093),	--
-q(91125),	--
-q(91126),	--
-q(91127),	--
-q(91128),	--
-q(91129),	--
-q(91130),	--
-q(91131),	--
-q(91132),	--
-q(91133),	--
-q(91134),	--
-q(91135),	--
 q(91138),	--
 q(91140),	--
 q(91142),	--
 q(91143),	--
 q(91144),	--
-q(91175),	--
-q(91176),	--
-q(91177),	--
 q(91178),	--
-q(91179),	--
 q(91180),	--
 q(91181),	--
-q(91193),	--
 q(91194),	--
 q(91195),	--
-q(91203),	--
-q(91272),	--
-q(91275),	--
-q(91276),	--
-q(91286),	--
 q(91287),	--
-q(91289),	--
-q(91290),	--
-q(91293),	--
-q(91309),	--
-q(91310),	--
-q(91311),	--
-q(91312),	--
-q(91314),	--
-q(91352),	--
 q(91353),	--
 q(91413),	--
-q(91420),	--
-q(91421),	--
-q(91422),	--
 q(91423),	--
-q(91431),	--
-q(91433),	--
-q(91434),	--
-q(91435),	--
-q(91436),	--
 q(91442),	--
-q(91451),	--
 q(91453),	--
-q(91454),	--
 q(91459),	--
 q(91460),	--
 q(91461),	--
@@ -3057,44 +2587,26 @@ q(91527),	--
 q(91528),	--
 q(91529),	--
 q(91530),	--
-q(91539),	--
 q(91579),	--
 q(91581),	--
-q(91624),	--
 q(91626),	--
 q(91635),	--
 q(91636),	--
 q(91637),	--
 q(91638),	--
-q(91640),	--
-q(91642),	--
-q(91643),	--
-q(91645),	--
-q(91646),	--
-q(91647),	--
-q(91648),	--
-q(91649),	--
-q(91686),	--
-q(91687),	--
 q(91720),	--
-q(91744),	--
 q(91761),	--
 q(91768),	--
 q(91771),	--
 q(91773),	--
 q(91774),	--
-q(91780),	--
-q(91781),	--
-q(91782),	--
 q(91783),	--
 q(91784),	--
-q(91812),	--
 q(91815),	--
 q(91816),	--
 q(91817),	--
 q(91818),	--
 q(91819),	--
-q(91855),	--
 q(91890),	--
 q(91891),	--
 q(91892),	--
@@ -3121,3 +2633,28 @@ q(91949),	--
 q(91950),	--
 q(91951),	--
 q(91954),	--
+11.2.0.61624
+q(91959),	--
+q(91960),	--
+q(92018),	-- PTR2:x.x Testing (YGR)
+q(92032),	--
+q(92033),	--
+q(92071),	--
+q(92072),	--
+q(92073),	--
+q(92074),	--
+q(92075),	--
+q(92076),	--
+q(92077),	--
+q(92078),	--
+q(92079),	--
+q(92080),	--
+q(92081),	--
+q(92082),	--
+11.2.0.61871
+q(92173),	--
+q(92175),	--
+11.2.0.61981
+q(92330),	-- PTR2:Valorstones
+11.2.0.62049
+q(90930),	--

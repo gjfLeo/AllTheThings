@@ -845,3 +845,21 @@
 91717@@@--
 91718@@@--
 91786@@@--
+24498@@@The Path to the Citadel
+24499@@@Echoes of Tortured Souls
+24500@@@Wrath of the Lich King
+24506@@@Inside the Frozen Citadel
+24507@@@The Path to the Citadel
+24510@@@Inside the Frozen Citadel
+24511@@@Echoes of Tortured Souls
+24682@@@The Pit of Saron
+24683@@@The Pit of Saron
+24710@@@Deliverance from the Pit
+24711@@@Frostmourne
+24712@@@Deliverance from the Pit
+24713@@@Frostmourne
+24802@@@Wrath of the Lich King
+26012@@@Trouble at Wyrmrest
+26013@@@Assault on the Sanctum
+26034@@@The Twilight Destroyer
+29851@@@Champion of the Tournament

@@ -1,3 +1,5 @@
+11.1.7.61965
+ill(8246),	-- Sha Corruption
 11.2.0.61476
 ill(7641),	-- Arcane
 
@@ -6,5 +8,5 @@ ill(7641),	-- Arcane
 
 Missing in IllusionDB.lua
 
-11.2.0.61476
-ill(7641),	-- Arcane
+11.1.7.61965
+ill(8246),	-- Sha Corruption

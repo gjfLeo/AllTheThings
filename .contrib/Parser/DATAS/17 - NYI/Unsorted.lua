@@ -878,6 +878,146 @@ root(ROOTS.Unsorted, {
 				i(242636),	-- Astral Legend's Pennant
 				i(245946),	-- Brewer's Balloon
 			}),
+			i(243532),	-- Wastelander's Gilded Cleaver
+			i(243533),	-- Wastelander's Gilded Carver
+			i(243534),	-- Wastelander's Gilded Chopper
+			i(243535),	-- Wastelander's Gilded Stiletto
+			i(243536),	-- Wastelander's Gilded Kris
+			i(243537),	-- Wastelander's Gilded Mace
+			i(243538),	-- Wastelander's Gilded Warmace
+			i(243541),	-- Wastelander's Gilded Blaster
+			i(243543),	-- Wastelander's Gilded Bident
+			i(243544),	-- Wastelander's Gilded Pole
+			i(243545),	-- Wastelander's Gilded Staff
+			i(243546),	-- Wastelander's Gilded Greatsword
+			i(243547),	-- Wastelander's Gilded Blade
+			i(243548),	-- Wastelander's Gilded Censer
+			i(243549),	-- Wastelander's Gilded Bastion
+			i(243550),	-- Wastelander's Gilded Warglaive
+			i(244267),	-- Untethered Seer's Vestments
+			i(244268),	-- Untethered Seer's Slippers
+			i(244269),	-- Untethered Seer's Gloves
+			i(244270),	-- Untethered Seer's Crown
+			i(244271),	-- Untethered Seer's Leggings
+			i(244272),	-- Untethered Seer's Spines
+			i(244273),	-- Untethered Seer's Cord
+			i(244274),	-- Untethered Seer's Bands
+			i(244275),	-- Untethered Blade's Jerkin
+			i(244276),	-- Untethered Blade's Soles
+			i(244277),	-- Untethered Blade's Grips
+			i(244278),	-- Untethered Blade's Hood
+			i(244279),	-- Untethered Blade's Breeches
+			i(244280),	-- Untethered Blade's Shoulderpads
+			i(244281),	-- Untethered Blade's Belt
+			i(244282),	-- Untethered Blade's Bracers
+			i(244283),	-- Untethered Striker's Brigandine
+			i(244284),	-- Untethered Striker's Boots
+			i(244285),	-- Untethered Striker's Gauntlets
+			i(244286),	-- Untethered Striker's Cowl
+			i(244287),	-- Untethered Striker's Legguards
+			i(244288),	-- Untethered Striker's Pauldrons
+			i(244289),	-- Untethered Striker's Sash
+			i(244290),	-- Untethered Striker's Armguards
+			i(244291),	-- Untethered Captain's Breastplate
+			i(244292),	-- Untethered Captain's Sollerets
+			i(244293),	-- Untethered Captain's Handguards
+			i(244294),	-- Untethered Captain's Helmet
+			i(244295),	-- Untethered Captain' s Greaves
+			i(244296),	-- Untethered Captain's Epaulettes
+			i(244297),	-- Untethered Captain's Greatbelt
+			i(244298),	-- Untethered Captain's Vambraces
+			i(246504),	-- Inscrutable Ore
+			i(246582),	-- Inscrutable Flora
+			i(246589),	-- Half-Digested Journal
+			i(248916),	-- Untethered Seer's Capelet
+			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
+			i(249029),	-- Ultimate Orange O-pocalypse
+			i(249030),	-- Omega Oyster Outbreak
+			i(249218),	-- Manaforged Instrument
+			i(249235),	-- Bottomless Bag of Entropy
+			i(249560),	-- Skymaster's Silver Mantle
+			i(249561),	-- Skymaster's Silver Cloak
+			i(249562),	-- Skymaster's Silver Tabard
+			i(249563),	-- Skymaster's Sapphire Crown
+			i(249564),	-- Skymaster's Sapphire Shoulderguards
+			i(249565),	-- Skymaster's Sapphire Epaulets
+			i(249699),	-- Shadowguard Translocator
+			i(249700),	-- Deal: Cartel Zo
+			i(249701),	-- Technique: Deal: Cartel Zo
+			i(249702),	-- Deal: Cartel Ba
+			i(249703),	-- Technique: Deal: Cartel Ba
+			i(249704),	-- Deal: Cartel Om
+			i(249705),	-- Technique: Deal: Cartel Om
+			i(249706),	-- Gleeful Glamour - Ethereal
+			i(249707),	-- Gleeful Glamour - Ethereal
+			i(249708),	-- Gleeful Glamour - Ethereal
+			i(249709),	-- Formula: Gleeful Glamour - Ethereal
+			i(249710),	-- Cartel Zo Cypher
+			i(249711),	-- Cartel Ba Cypher
+			i(249712),	-- Cartel Om Cypher
+			i(249713),	-- Cartel Transmorpher
+			i(233799),	-- Submerged Bottle
+			i(249857),	-- Brewer's Blue Belt
+			i(249858),	-- Brewer's Basic Belt
+			i(249859),	-- Brewer's Green Belt
+			i(249860),	-- Brewer's Black Belt
+			i(250082),	-- T'uure, Remnant of the Naaru
+			i(250104),	-- Soulbinder's Nethermantle
+			i(244913),	-- Looker Gaz'kreth Jr.
+			i(245255),	-- Starlight
+			i(246445),	-- Reins of the Royal Voidwing
+			i(250269),	-- Phase-Lost Longsword
+			i(250272),	-- Phase-Lost Cudgel
+			i(250276),	-- Phase-Lost Greatsword
+			i(250278),	-- Phase-Lost Great Mace
+			i(250280),	-- Phase-Lost Chopper
+			i(250281),	-- Phase-Lost Battleaxe
+			i(250284),	-- Phase-Lost Spire
+			i(250285),	-- Phase-Lost Shillelagh
+			i(250286),	-- Phase-Lost Blunderbuss
+			i(250287),	-- Phase-Lost Longbow
+			i(250288),	-- Phase-Lost Baselard
+			i(250289),	-- Phase-Lost Dirk
+			i(250294),	-- Phase-Lost Katar
+			i(250295),	-- Phase-Lost Claw
+			i(250297),	-- Phase-Lost Beacon
+			i(250298),	-- Phase-Lost Bulwark
+			i(250299),	-- Phase-Lost Pavise
+			i(250300),	-- Phase-Lost Rod
+			i(250301),	-- Phase-Lost Wand
+			i(250430),	-- Darkened Shoulderguards of the Wastelander Seer
+			i(250431),	-- Golden Shoulderguards of the Wastelander Seer
+			i(250432),	-- Violet Shoulderguards of the Wastelander Seer
+			i(250433),	-- Crimson Shoulderguards of the Wastelander Seer
+			i(250434),	-- Verdant Shoulderguards of the Wastelander Seer
+			i(250435),	-- Loamy Shoulderguards of the Wastelander Seer
+			i(250436),	-- Capelet of the Reshii
+			i(250437),	-- Cloak of the Reshii
+			i(250438),	-- Serape of the Reshii
+			i(250439),	-- Stole of the Reshii
+			i(250706),	-- The Horseman's Hallowed Cowl
+			i(250707),	-- The Horseman's Burning Cowl
+			i(250708),	-- The Horseman's Ghoulish Cowl
+			i(250709),	-- The Horseman's Chilling Cowl
+			i(250763),	-- Theater Troupe's Trove
+			i(250764),	-- Nanny's Surge Dividends
+			i(250765),	-- Awakened Mechanical Cache
+			i(250766),	-- Radiant Cache
+			i(250767),	-- The General's War Chest
+			i(250768),	-- The Vizier's Capital
+			i(250769),	-- The Weaver's Gratuity
+			i(250975),	-- Hellcaller Chest
+			i(242534),	-- Azure Sea Skiff
+			i(244228),	-- Sash of the Tipsy Sage
+			i(244229),	-- Angler's Mantle
+			i(244230),	-- Strawhat of Frosted Currents
+			i(244231),	-- Ensemble: Stillwater Fisher Attire
+			i(244352),	-- Cloak of the Veiled Paws
+			i(251529),	-- Void-Scarred Striker's Cloak
+			i(251530),	-- Void-Scarred Captain's Cape
+			i(251531),	-- Void-Scarred Seer's Shawl
+			i(251532),	-- Void-Scarred Blade's Serape
+			i(251543),	-- Cracked Keystone
 		})),
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
 			filter(QUEST_ITEMS, {
