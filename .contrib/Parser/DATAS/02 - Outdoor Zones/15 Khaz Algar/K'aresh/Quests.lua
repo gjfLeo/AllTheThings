@@ -1638,7 +1638,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
 				-- Devourer Attacks
-				-- Alex: they are probably fired cause boss in the end of event counted as 'rare' and you get one for loot lockout and 2nd for rep?
+				-- Alex: they are probably fired cause boss in the end of event counted as 'rare' and you get one for loot lockout (Devoured Energy-Pod?) and 2nd for rep?
 				q(91286),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)

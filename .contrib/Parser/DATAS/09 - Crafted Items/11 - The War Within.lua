@@ -193,6 +193,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212254),	-- Grotesque Vial+
 			i(212255),	-- Grotesque Vial++
 			i(212256),	-- Grotesque Vial+++
+			i(244835, {["timeline"]={ADDED_11_2_0}}),	-- Invigorating Healing Potion+
+			i(244838, {["timeline"]={ADDED_11_2_0}}),	-- Invigorating Healing Potion++
+			i(244839, {["timeline"]={ADDED_11_2_0}}),	-- Invigorating Healing Potion+++
 			i(212314),	-- Phial of Bountiful Seasons+
 			i(212315),	-- Phial of Bountiful Seasons++
 			i(212316),	-- Phial of Bountiful Seasons+++
@@ -217,6 +220,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212263),	-- Tempered Potion+
 			i(212264),	-- Tempered Potion++
 			i(212265),	-- Tempered Potion+++
+			i(248331, {["timeline"]={ADDED_11_2_0}}),	-- Umbral Essentia+
+			i(248585, {["timeline"]={ADDED_11_2_0}}),	-- Umbral Essentia++
+			i(248586, {["timeline"]={ADDED_11_2_0}}),	-- Umbral Essentia+++
 			i(212289),	-- Vicious Flask of Classical Spirits
 			i(212292),	-- Vicious Flask of Honor
 			i(212298),	-- Vicious Flask of the Wrecking Ball
@@ -236,6 +242,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(81095, 430590);	-- Algari Healing Potion
 			FirstCraft(81096, 430591);	-- Algari Mana Potion
 			FirstCraft(81097, 430592);	-- Cavedweller's Delight
+			FirstCraft(91032, 1238010, ADDED_11_2_0);	-- Invigorating Healing Potion
 			FirstCraft(81098, 430593);	-- Slumbering Soul Serum
 			-- Potions
 			FirstCraft(81100, 430595);	-- Draught of Shocking Revelations
@@ -245,6 +252,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(81105, 430600);	-- Potion of the Reborn Cheetah
 			FirstCraft(81102, 430597);	-- Potion of Unwavering Focus
 			FirstCraft(81104, 430599);	-- Tempered Potion
+			FirstCraft(91819, 1246966, ADDED_11_2_0);	-- Umbral Essentia
 			-- Flasks
 			FirstCraft(81110, 430605);	-- Flask of Alchemical Chaos
 			FirstCraft(81116, 430612);	-- Flask of Saving Graces
@@ -753,6 +761,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(81063, 445391);	-- Gleeful Glamour - Draenei
 			FirstCraft(81074, 445402);	-- Gleeful Glamour - Dwarf
 			FirstCraft(81054, 445382);	-- Gleeful Glamour - Earthen
+			FirstCraft(92077, 1249469, ADDED_11_2_0);	-- Gleeful Glamour - Ethereal
 			FirstCraft(81035, 445362);	-- Gleeful Glamour - Gnome
 			FirstCraft(81005, 445332);	-- Gleeful Glamour - Goblin
 			FirstCraft(81049, 445377);	-- Gleeful Glamour - Highmountain Tauren
@@ -863,6 +872,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(224304),	-- Gleeful Glamour - Earthen+
 			i(224328),	-- Gleeful Glamour - Earthen++
 			i(224352),	-- Gleeful Glamour - Earthen+++
+			i(249706, {["timeline"]={ADDED_11_2_0}}),	-- Gleeful Glamour - Ethereal+
+			i(249707, {["timeline"]={ADDED_11_2_0}}),	-- Gleeful Glamour - Ethereal++
+			i(249708, {["timeline"]={ADDED_11_2_0}}),	-- Gleeful Glamour - Ethereal+++
 			i(224305),	-- Gleeful Glamour - Gnome+
 			i(224329),	-- Gleeful Glamour - Gnome++
 			i(224353),	-- Gleeful Glamour - Gnome+++
@@ -1625,7 +1637,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(85796, 471132, ADDED_11_1_0);	-- Contract: The Cartels of Undermine
 			FirstCraft(80728, 444220); -- Contract: Council of Dornogal
 			FirstCraft(80726, 444218); -- Contract: Hallowfall Arathi
+			FirstCraft(90908, 1236170, ADDED_11_2_0);	-- Contract: The K'aresh Trust
 			FirstCraft(80727, 444219); -- Contract: The Severed Threads
+
+			FirstCraft(92075, 1249466, ADDED_11_2_0);	-- Deal: Cartel Ba
+			FirstCraft(92076, 1249468, ADDED_11_2_0);	-- Deal: Cartel Om
+			FirstCraft(92074, 1249463, ADDED_11_2_0);	-- Deal: Cartel Zo
 			-- Embellishments
 			FirstCraft(80704, 444195); -- Darkmoon Sigil: Vivacity
 			FirstCraft(80701, 444192); -- Darkmoon Sigil: Ascension
@@ -1643,9 +1660,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			-- Reagents
 			FirstCraft(80699, 444190); -- Codified Greenwood
 			FirstCraft(80700, 444191); -- Boundless Cipher
+			FirstCraft(91581, 1243994, ADDED_11_2_0);	-- Inspired Writer's Quill
 			-- Runes
-			FirstCraft(80712, 444203); -- Vantus Rune: Nerub-ar Palace
 			FirstCraft(86205, 472951, ADDED_11_1_0); -- Vantus Rune: Liberation of Undermine
+			FirstCraft(90941, 1236908, ADDED_11_2_0);	-- Vantus Rune: Manaforge Omega
+			FirstCraft(80712, 444203); -- Vantus Rune: Nerub-ar Palace
 			-- Profession Stats
 			FirstCraft(80735, 444232); -- Algari Missive of Crafting Speed
 			FirstCraft(80738, 444235); -- Algari Missive of Deftness
@@ -1751,6 +1770,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222603, {["questID"]=84479,["isWeekly"]=true}),	-- Contract: Hallowfall Arathi+
 			i(222604, {["questID"]=84480,["isWeekly"]=true}),	-- Contract: Hallowfall Arathi++
 			i(222605, {["questID"]=84481,["isWeekly"]=true}),	-- Contract: Hallowfall Arathi+++
+			i(243821, {["timeline"]={ADDED_11_2_0},["questID"]=90903,["isWeekly"]=true}),	-- Contract: The K'aresh Trust+
+			i(243822, {["timeline"]={ADDED_11_2_0},["questID"]=90904,["isWeekly"]=true}),	-- Contract: The K'aresh Trust++
+			i(243823, {["timeline"]={ADDED_11_2_0},["questID"]=90905,["isWeekly"]=true}),	-- Contract: The K'aresh Trust+++
 			i(222606, {["questID"]=84478,["isWeekly"]=true}),	-- Contract: The Severed Threads+
 			i(222607, {["questID"]=84477,["isWeekly"]=true}),	-- Contract: The Severed Threads++
 			i(222608, {["questID"]=84476,["isWeekly"]=true}),	-- Contract: The Severed Threads+++
@@ -1766,12 +1788,19 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(226031),	-- Darkmoon Sigil: Vivacity+
 			i(226032),	-- Darkmoon Sigil: Vivacity++
 			i(226033),	-- Darkmoon Sigil: Vivacity+++
-			i(226034),	-- Vantus Rune: Nerub-ar Palace+
-			i(226035),	-- Vantus Rune: Nerub-ar Palace++
-			i(226036),	-- Vantus Rune: Nerub-ar Palace+++
+			i(249702, {["timeline"] = {ADDED_11_2_0},["questID"]=92072,["isWeekly"]=true}),	-- Deal: Cartel Ba
+			i(249704, {["timeline"] = {ADDED_11_2_0},["questID"]=92073,["isWeekly"]=true}),	-- Deal: Cartel Om
+			i(249700, {["timeline"] = {ADDED_11_2_0},["questID"]=92071,["isWeekly"]=true}),	-- Deal: Cartel Zo
+			i(246809, {["timeline"] = {ADDED_11_2_0}}),	-- Inspired Writer's Quill
 			i(232936, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Liberation of Undermine+
 			i(232935, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Liberation of Undermine++
 			i(232937, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Liberation of Undermine+++
+			i(244147, {["timeline"] = {ADDED_11_2_0}}),	-- Vantus Rune: Manaforge Omega+
+			i(244148, {["timeline"] = {ADDED_11_2_0}}),	-- Vantus Rune: Manaforge Omega++
+			i(244149, {["timeline"] = {ADDED_11_2_0}}),	-- Vantus Rune: Manaforge Omega+++
+			i(226034),	-- Vantus Rune: Nerub-ar Palace+
+			i(226035),	-- Vantus Rune: Nerub-ar Palace++
+			i(226036),	-- Vantus Rune: Nerub-ar Palace+++
 		}),
 		filter(PROFESSION_EQUIPMENT, {
 			i(222577),	-- Burnt Rolling Pin
@@ -2616,6 +2645,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222885),	-- Preserving Embroidery Thread+
 			i(222886),	-- Preserving Embroidery Thread++
 			i(222887),	-- Preserving Embroidery Thread+++
+			i(238045),	-- Pure Chronomatic Fiber
+			i(238042),	-- Pure Dexterous Fiber
+			i(238046),	-- Pure Energizing Fiber
+			i(238044),	-- Pure Precise Fiber
 			i(222891),	-- Sunset Spellthread+
 			i(222892),	-- Sunset Spellthread++
 			i(222893),	-- Sunset Spellthread+++
@@ -2718,6 +2751,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(80847, 446983);	-- Ignition Satchel
 			FirstCraft(80854, 446990);	-- Jeweler's Purse
 			FirstCraft(80849, 446985);	-- Magically "Infinite" Messenger
+			FirstCraft(89510, 1228344, ADDED_11_2_0);	-- Pure Chronomatic Fiber
+			FirstCraft(89511, 1228343, ADDED_11_2_0);	-- Pure Dexterous Fiber
+			FirstCraft(89509, 1228338, ADDED_11_2_0);	-- Pure Energizing Fiber
+			FirstCraft(89512, 1228342, ADDED_11_2_0);	-- Pure Precise Fiber
 			FirstCraft(80822, 446958);	-- Pioneer's Cloth Cloak
 			FirstCraft(80821, 446957);	-- Pioneer's Cloth Cord
 			FirstCraft(80820, 446956);	-- Pioneer's Cloth Cuffs

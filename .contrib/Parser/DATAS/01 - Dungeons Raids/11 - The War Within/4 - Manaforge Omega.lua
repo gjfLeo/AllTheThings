@@ -142,6 +142,7 @@ local EncounterToLoot = {
 		i(237724),	-- Iris of the Dark Beyond
 		i(237553),	-- Laboratory Test Slippers
 		i(237570),	-- Logic Gate: Omega
+		i(249218),	-- Manaforged Instrument
 		i(237726),	-- Marvel of Technomancy
 		i(237737),	-- Photon Sabre Prime
 	};

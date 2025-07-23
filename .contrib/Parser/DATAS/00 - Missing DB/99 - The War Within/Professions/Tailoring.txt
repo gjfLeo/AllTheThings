@@ -151,8 +151,3 @@ r(202853),	-- Silkweave Bandage
 r(202854),	-- Silkweave Splint
 r(267201),	-- Tidespray Linen Bandage \\ Sun-Bleached Linen Bandage
 r(267202),	-- Deep Sea Bandage
-11.2.0.61476
-r(1228338),	-- Pure Energizing Fiber
-r(1228342),	-- Pure Precise Fiber
-r(1228343),	-- Pure Dexterous Fiber
-r(1228344),	-- Pure Chronomatic Fiber

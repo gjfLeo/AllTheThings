@@ -1,10 +1,2 @@
 11.2.0.61624
 r(1249469),	-- Gleeful Glamour - Ethereal
-
-
-
-
-Missing in Enchanting
-
-11.2.0.61624
-r(1249469),	-- Gleeful Glamour - Ethereal

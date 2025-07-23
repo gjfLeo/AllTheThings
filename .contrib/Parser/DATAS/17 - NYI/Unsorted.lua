@@ -34,7 +34,6 @@ root(ROOTS.Unsorted, {
 				i(239452),	-- Reshii Magi's Leggings
 				i(239453),	-- Reshii Magi's Spines
 				i(239454),	-- Reshii Magi's Cord
-				i(239455),	-- Reshii Magi's Bands
 				i(239456),	-- Reshii Scout's Jerkin
 				i(239457),	-- Reshii Scout's Soles
 				i(239458),	-- Reshii Scout's Grips
@@ -114,7 +113,6 @@ root(ROOTS.Unsorted, {
 				i(244467),	-- Veridian Thorntail
 				i(244468),	-- Scrappy Thorntail
 				i(244907),	-- Dread Horrorling
-				i(244909),	-- Impartial Watcher
 				i(244914),	-- Xanthous Siphonmite
 				i(244916),	-- Cyan Siphonmite
 				i(245215),	-- Shimmering Inchshifter
@@ -637,17 +635,6 @@ root(ROOTS.Unsorted, {
 				i(231774),	-- Nascent Weathered Ethereal Crest
 				i(231775),	-- Nascent Gilded Ethereal Crest
 				i(231776),	-- Nascent Runed Ethereal Crest
-				i(238042),	-- Pure Dexterous Fiber
-				i(238044),	-- Pure Precise Fiber
-				i(238045),	-- Pure Chronomatic Fiber
-				i(238046),	-- Pure Energizing Fiber
-				i(243821),	-- Contract: The K'aresh Trust
-				i(243822),	-- Contract: The K'aresh Trust
-				i(243823),	-- Contract: The K'aresh Trust
-				i(244147),	-- Vantus Rune: Manaforge Omega+
-				i(244148),	-- Vantus Rune: Manaforge Omega++
-				i(244149),	-- Vantus Rune: Manaforge Omega+++
-				i(246809),	-- Inspired Writer's Quill
 				i(246811),	-- Technique: Inspired Writer's Quill
 				i(246584),	-- A Steamy Romance Novel: Devouring Love
 				i(246816),	-- A Steamy Romance Novel: Nightborne of the Living Dead
@@ -657,13 +644,7 @@ root(ROOTS.Unsorted, {
 				i(246821),	-- A Steamy Romance Novel: The Lusty Draconian Mage
 				i(246822),	-- A Steamy Romance Novel: Devouring Love
 				i(246823),	-- A Steamy Romance Novel: Got Milk?
-				i(244835),	-- Invigorating Healing Potion+
-				i(244838),	-- Invigorating Healing Potion++
-				i(244839),	-- Invigorating Healing Potion+++
 				i(244849),	-- Fleeting Invigorating Healing Potion+++
-				i(248331),	-- Umbral Essentia+
-				i(248585),	-- Umbral Essentia++
-				i(248586),	-- Umbral Essentia+++
 			}),
 			n(PVP, {
 				i(230722),	-- Astral Equipment Chest
@@ -933,7 +914,6 @@ root(ROOTS.Unsorted, {
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249029),	-- Ultimate Orange O-pocalypse
 			i(249030),	-- Omega Oyster Outbreak
-			i(249218),	-- Manaforged Instrument
 			i(249235),	-- Bottomless Bag of Entropy
 			i(249560),	-- Skymaster's Silver Mantle
 			i(249561),	-- Skymaster's Silver Cloak
@@ -942,15 +922,9 @@ root(ROOTS.Unsorted, {
 			i(249564),	-- Skymaster's Sapphire Shoulderguards
 			i(249565),	-- Skymaster's Sapphire Epaulets
 			i(249699),	-- Shadowguard Translocator
-			i(249700),	-- Deal: Cartel Zo
 			i(249701),	-- Technique: Deal: Cartel Zo
-			i(249702),	-- Deal: Cartel Ba
 			i(249703),	-- Technique: Deal: Cartel Ba
-			i(249704),	-- Deal: Cartel Om
 			i(249705),	-- Technique: Deal: Cartel Om
-			i(249706),	-- Gleeful Glamour - Ethereal
-			i(249707),	-- Gleeful Glamour - Ethereal
-			i(249708),	-- Gleeful Glamour - Ethereal
 			i(249709),	-- Formula: Gleeful Glamour - Ethereal
 			i(249710),	-- Cartel Zo Cypher
 			i(249711),	-- Cartel Ba Cypher

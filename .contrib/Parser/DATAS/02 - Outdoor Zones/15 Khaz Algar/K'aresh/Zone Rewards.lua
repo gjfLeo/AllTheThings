@@ -66,15 +66,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--i(243534),	-- Wastelander's Gilded Chopper
 					--i(243532),	-- Wastelander's Gilded Cleaver
 					i(243539),	-- Wastelander's Gilded Falchion
-					--i(243546),	-- Wastelander's Gilded Greatsword
+					i(243546),	-- Wastelander's Gilded Greatsword
 					--i(243536),	-- Wastelander's Gilded Kris
 					i(243540),	-- Wastelander's Gilded Longsword
 					--i(243537),	-- Wastelander's Gilded Mace
 					--i(243544),	-- Wastelander's Gilded Pole
 					i(243542),	-- Wastelander's Gilded Spear
-					--i(243545),	-- Wastelander's Gilded Staff
-					--i(243535),	-- Wastelander's Gilded Stiletto
-					--i(243538),	-- Wastelander's Gilded Warmace
+					i(243545),	-- Wastelander's Gilded Staff
+					i(243535),	-- Wastelander's Gilded Stiletto
+					i(243538),	-- Wastelander's Gilded Warmace
 					--i(243550),	-- Wastelander's Gilded Warglaive
 				}),
 			}),

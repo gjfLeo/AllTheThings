@@ -19,10 +19,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					--
 					i(245611, {	-- Wriggling Box
-						i(242734),	-- Curious Slateback (MOUNT!)
-						i(245252),	-- Graceful Cosmic Ray Pup (PET!)
-						i(245253),	-- Inquisitive Cosmic Ray Pup (PET!)
-						i(245212),	-- Vitriolic Inchshifter (PET!)
+						["sym"] = {	-- K'aresh Zone Reward
+							{"select","mapID",KHAZ_ALGAR},{"pop"},
+							{"where","mapID",KARESH},{"pop"},
+							{"where","headerID",ZONE_REWARDS},{"pop"},
+						},
+						["g"] = {
+							i(242734),	-- Curious Slateback (MOUNT!)
+							i(245252),	-- Graceful Cosmic Ray Pup (PET!)
+							i(244909),	-- Impartial Watcher (PET!)
+							i(245253),	-- Inquisitive Cosmic Ray Pup (PET!)
+							i(245212),	-- Vitriolic Inchshifter (PET!)
+						},
 					}),
 				},
 			}),
@@ -63,6 +71,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(89291, {	-- Phase Diving: Oath-Breaker Desamirah
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 43.7, 25.9, KARESH },
+			}),
+			q(88902, {	-- Phase Diving: Restless Souls
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 51.2, 66.4, KARESH },
 			}),
 			q(89288, {	-- Phase Diving: Riftbreaker Tza'akir
 				["description"] = "You need to phasedive in order to get this World Quest.",
