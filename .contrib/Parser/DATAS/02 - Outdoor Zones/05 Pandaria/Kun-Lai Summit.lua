@@ -460,8 +460,8 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 30488,	-- The Missing Muskpaw
 					}),
 					q(30492, {	-- Back in Yak
-						["coord"] = { 71.3, 69.2, KUN_LAI_SUMMIT },
-						["provider"] = { "n", 61693 },	-- Muskpaw Jr.
+						["coord"] = { 71.4, 69.2, KUN_LAI_SUMMIT },
+						["provider"] = { "n", 59354 },	-- Muskpaw Jr.
 						["sourceQuests"] = {
 							30491,	-- At the Yak Wash
 							30587,	-- Yakity Yak
