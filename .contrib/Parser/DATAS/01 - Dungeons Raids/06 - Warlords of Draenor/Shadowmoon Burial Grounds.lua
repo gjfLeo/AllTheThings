@@ -105,6 +105,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 							81603,	-- Champion Druna
 						},
 					}),
+					ach(9018),	-- What's Your Sign?
 				}),
 				BossOnly(NHALLISH, {
 				}),
