@@ -17,9 +17,6 @@ root(ROOTS.Zones, {
 					ach(6351),	-- Explore Jade Forest
 					ach(7290),	-- How To Strain Your Dragon
 					ach(7291),	-- In a Trail of Smoke
-					ach(7381, {	-- Restore Balance
-						["coord"] = { 34.0, 33.5, THE_JADE_FOREST },
-					}),
 					ach(7289),	-- Shadow Hopper
 					ach(6300, {	-- Upjade Complete (A)
 						["races"] = ALLIANCE_ONLY,
@@ -3156,6 +3153,12 @@ root(ROOTS.Zones, {
 						["coord"] = { 26.22, 32.35, THE_JADE_FOREST },
 						["g"] = {
 							i(85780),	-- Ancient Pandaren Tea Pot
+						},
+					}),
+					o(214379, {	-- Broken Incense Burner
+						["coord"] = { 34.0, 33.5, THE_JADE_FOREST },
+						["groups"] = {
+							ach(7381),	-- Restore Balance
 						},
 					}),
 					o(214339, {	-- Chest of Supplies
