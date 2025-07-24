@@ -828,6 +828,20 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EX
 					["coord"] = { 57.7, 45.0, THE_JADE_FOREST },
 				}),
 			}),
+			-- #if BEFORE 6.0.2
+			n(REWARDS, {
+				recipe(130487, {	-- Cloud Serpent Riding
+					["sourceQuests"] = {
+						31810,	-- Riding the Skies (Azure)
+						31811,	-- Riding the Skies (Golden)
+						30188,	-- Riding the Skies (Jade)
+					},
+					["description"] = "This is learned by completing the Riding the Skies quest chain upon reaching Exalted with the Order of the Cloud Serpents.",
+					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, EXALTED },
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+			}),
+			-- #endif
 			n(TREASURES, {
 				o(214945, {	-- Onyx Egg
 					["description"] = "Collect these until exalted for turn-in reputation with the Order of the Cloud Serpents.",
@@ -894,6 +908,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EX
 								["description"] = "Purchasable/learnable by any character exalted with Order of the Cloud Serpent.",
 								["timeline"] = { ADDED_9_0_1 },
 							}),
+							-- #if ANYCLASSIC
+							i(247497, {	-- Order of the Cloud Serpent Flight Log
+								["recipeID"] = 130487,	-- Cloud Serpent Riding
+								["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+							}),
+							-- #endif
 							i(89796),	-- Order of the Cloud Serpent Tabard
 							i(85430, {	-- Reins of the Azure Cloud Serpent (MOUNT!)
 								["cost"] = 30000000,	-- 3,000g
