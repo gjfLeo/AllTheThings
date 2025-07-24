@@ -1626,7 +1626,7 @@ root(ROOTS.Zones, {
 							30637,	-- The Guo-Lai Halls
 							30654,	-- The Guo-Lai Halls
 						},
-						["g"] = sharedData({ { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["g"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
 							i(90615),	-- Burning Mark of the Golden Lotus
 							i(90614),	-- Delicate Mark of the Golden Lotus
 							i(90618),	-- Durable Mark of the Golden Lotus
