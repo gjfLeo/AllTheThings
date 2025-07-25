@@ -130,18 +130,21 @@ root(ROOTS.Zones, {
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1073, {	-- Serpent's Spine, Vale of Eternal Blossoms
+						["cr"] = 63497,	-- Mai of the Wall <Flight Master>
 						["coord"] = { 14.2, 79.2, VALE_OF_ETERNAL_BLOSSOMS },
 					}),
 					fp(1057, {	-- Shrine of Seven Stars, Vale of Eternal Blossoms
+						["cr"] = 61121,	-- Sharinga Springrunner <Flight Master>
 						["coord"] = { 84.6, 62.4, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					fp(1058, {	-- Shrine of Two Moons, Vale of Eternal Blossoms
+						["cr"] = 61122,	-- Tania Summerbreeze <Flight Master>
 						["coord"] = { 62.8, 21.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = HORDE_ONLY,
 					}),
 					fp(2544, {	-- Mistfall Village, Vale of Eternal Blossoms
-						["cr"] = 154805,	-- Ryuxi
+						["cr"] = 154805,	-- Ryuxi <Master of Serpents>
 						-- ["sourceQuests"] = {  },	-- TODO: likely requires some 8.3 quest chain before becoming available?
 						["coord"] = { 38.9, 72.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_8_3_0 },
