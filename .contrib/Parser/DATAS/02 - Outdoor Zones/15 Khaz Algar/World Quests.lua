@@ -13,7 +13,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		}),
 		currency(RESTORED_COFFER_KEY, {
-			["cost"] = {{"i", 229899, 100}},	-- 100x Coffer Key Shard
+			["cost"] =
+			-- #if AFTER 11.2
+				-- {{"i", ???, 100}},	-- 100x Coffer Key Shard
+			-- #elseif AFTER 11.1
+				{{"i", 236096, 100}},	-- 100x Coffer Key Shard
+			-- #else
+				{{"i", 229899, 100}},	-- 100x Coffer Key Shard
+			-- #endif
 		}),
 	}),
 })));
