@@ -156,41 +156,52 @@ root(ROOTS.Zones, {
 				}),
 				n(FLIGHT_PATHS, {
 					fp(895, {	-- Dawn's Blossom, Jade Forest
+						["cr"] = 59186,	-- Keg Runner Lee <Flight Master>
 						["coord"] = { 47.0, 46.2, THE_JADE_FOREST },
 					}),
 					fp(970, {	-- Emperor's Omen, Jade Forest
+						["cr"] = 59735,	-- Supplier Towsa <Flight Master>
 						["coord"] = { 50.8, 26.8, THE_JADE_FOREST },
 					}),
 					fp(894, {	-- Grookin Hill, Jade Forest
-						["coord"] = { 27.8, 47.8, THE_JADE_FOREST },
+						["cr"] = 60952,	-- Grookin Flapmaster
 						["sourceQuest"] = 29935,	-- Orders are Orders
+						["coord"] = { 27.8, 47.8, THE_JADE_FOREST },
 						["races"] = HORDE_ONLY,
 					}),
 					fp(973, {	-- Honeydew Village, Jade Forest
+						["cr"] = 66227,	-- Wing Hya <Flight Master>
 						["coord"] = { 28.0, 15.6, THE_JADE_FOREST },
 						["races"] = HORDE_ONLY,
 					}),
 					fp(968, {	-- Jade Temple Grounds, Jade Forest
+						["cr"] = 59727,	-- Ginsa Arroweye <Flight Master>
 						["coord"] = { 54.6, 61.6, THE_JADE_FOREST },
 					}),
 					fp(966, {	-- Paw'Don Village, Jade Forest
+						["cr"] = 66023,	-- Wing Kyo <Flight Master>
 						["coord"] = { 46.0, 85.0, THE_JADE_FOREST },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					fp(972, {	-- Pearlfin Village, Jade Forest
+						["cr"] = 56737,	-- Ut-Nam <Kite Master>
 						["coord"] = { 58.0, 82.4, THE_JADE_FOREST },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					fp(1080, {	-- Serpent's Overlook, Jade Forest
+						["cr"] = 64310,	-- Sky Dancer Ji <Flight Master>
 						["coord"] = { 43.0, 68.4, THE_JADE_FOREST },
 					}),
 					fp(969, {	-- Sri-La Village, Jade Forest
+						["cr"] = 59733,	-- Gingo Alebottom <Flight Master>
 						["coord"] = { 55.4, 23.6, THE_JADE_FOREST },
 					}),
 					fp(967, {	-- The Arboretum, Jade Forest
+						["cr"] = 59732,	-- Injar'i Lakebloom <Flight Master>
 						["coord"] = { 57.0, 44.0, THE_JADE_FOREST },
 					}),
 					fp(971, {	-- Tian Monastery, Jade Forest
+						["cr"] = 59736,	-- Studious Chu <Flight Master>
 						["coord"] = { 43.6, 24.6, THE_JADE_FOREST },
 					}),
 				}),
@@ -1754,13 +1765,13 @@ root(ROOTS.Zones, {
 					}),
 					warchiefscommand(q(29611, {	-- The Art of War (Nobody)
 						["description"] = "Players who have not completed Vashj'ir will receive this version of The Art of War.",
-						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_5_0_4 },
+						["races"] = HORDE_ONLY,
 					})),
 					warchiefscommand(q(29612, {	-- The Art of War (Veteran)
 						["description"] = "Players who have completed Vashj'ir will receive this version of The Art of War.",
-						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_5_0_4 },
+						["races"] = HORDE_ONLY,
 					})),
 					q(29933, {	-- The Bees' Knees
 						["minReputation"] = { FACTION_FOREST_HOZEN, FRIENDLY },
