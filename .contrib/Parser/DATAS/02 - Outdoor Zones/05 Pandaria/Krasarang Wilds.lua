@@ -2905,8 +2905,17 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(66936, {	-- Clawlord Kril'mandar <The Pinch King>
+						["provider"] = { "i", 90172, 1 },	-- Clamshell Band
 						["description"] = "Summoned with Clamshell Band, which is created by items dropping from makrura along the coast of Pandaria. Akkalou and Akkalar can be found in The Jade Forest, Damlak in Krasarang Wilds, Kishak in Kun-Lai Summit, Odd'nirok in Townlong Steppes and Clamstok in the Dread Wastes.",
 						["coord"] = { 12.6, 82, KRASARANG_WILDS },
+						["cost"] = {
+							{ "i", 90170, 1 },	-- Clamstok's Clamshell [Dread Wastes]
+							{ "i", 90169, 1 },	-- Damlak's Clamshell [Krasarang Wilds]
+							{ "i", 90168, 1 },	-- Kishak's Clamshell [Kun-Lai Summit]
+							{ "i", 90167, 1 },	-- Akkalar's Clamshell [The Jade Forest]
+							{ "i", 90166, 1 },	-- Akkalou's Clamshell [The Jade Forest]
+							{ "i", 90171, 1 },	-- Odd'nirok's Clamshell [Townlong Steppes]
+						},
 						["g"] = {
 							i(90087),	-- Lobstmourne
 						},
@@ -2917,16 +2926,13 @@ root(ROOTS.Zones, {
 							i(90721),	-- Cournith Waterstrider's Silken Finery
 						},
 					}),
-					n(66934, {	-- Damlak
+					n(66934, {	-- Damlak <Servant of Kril'mandar>
 						["coords"] = {
 							{ 40.0, 88.6, KRASARANG_WILDS },
 							{ 38.8, 87.4, KRASARANG_WILDS },
 						},
 						["g"] = {
-							i(90169, {	-- Damlak's Clamshell
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90169),	-- Damlak's Clamshell
 						},
 					}),
 					n(50331, {	-- Go-Kan

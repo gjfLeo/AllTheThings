@@ -1426,10 +1426,7 @@ root(ROOTS.Zones, {
 					n(66938, {	-- Odd'nirok <Seer of Kril'mandar>
 						["coord"] = { 42.3, 92.67, TOWNLONG_STEPPES },
 						["g"] = {
-							i(90171, {	-- Odd'nirok's Clamshell
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90171),	-- Odd'nirok's Clamshell
 						},
 					}),
 					n(50791, {	-- Siltriss the Sharpener

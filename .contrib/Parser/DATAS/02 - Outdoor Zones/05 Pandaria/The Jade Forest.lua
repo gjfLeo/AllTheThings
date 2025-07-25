@@ -2363,22 +2363,16 @@ root(ROOTS.Zones, {
 							i(87649),	-- Pool-Stirrer
 						},
 					}),
-					n(66937, {	-- Akkalar
+					n(66937, {	-- Akkalar <Shield of Kril'mandar>
 						["coord"] = { 59.6, 96.0, THE_JADE_FOREST },
 						["groups"] = {
-							i(90167, {	-- Akkalar's Clamshel
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90167), 	-- Akkalar's Clamshell
 						},
 					}),
-					n(66932, {	-- Akkalou
+					n(66932, {	-- Akkalou <Spawn of Kril'mandar>
 						["coord"] = { 59.3, 36.4, THE_JADE_FOREST },
 						["groups"] = {
-							i(90166, {	-- Akkalou's Clamshell
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90166),	-- Akkalou's Clamshell
 						},
 					}),
 					n(51078, {	-- Ferdinand

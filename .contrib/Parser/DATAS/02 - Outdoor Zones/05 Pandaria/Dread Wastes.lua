@@ -1602,13 +1602,10 @@ root(ROOTS.Zones, {
 							i(86589),	-- Ai-Li's Skymirror (TOY!)
 						},
 					}),
-					n(66935, {	-- Clamstok
+					n(66935, {	-- Clamstok <Scion of Kril'mandar>
 						["coord"] = { 27.0, 69.2, DREAD_WASTES },
 						["g"] = {
-							i(90170, {	-- Clamstok's Clamshell
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90170),	-- Clamstok's Clamshell
 						},
 					}),
 					n(50334, {	-- Dak the Breaker

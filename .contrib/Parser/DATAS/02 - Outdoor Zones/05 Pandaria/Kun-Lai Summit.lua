@@ -1977,7 +1977,7 @@ root(ROOTS.Zones, {
 							i(86573),	-- Shard of Archstone (TOY!)
 						},
 					}),
-					n(66933, {	-- Kishak
+					n(66933, {	-- Kishak <Son of Kril'mandar>
 						["coords"] = {
 							{ 45.60, 19.61, KUN_LAI_SUMMIT },
 							{ 42.58, 22.98, KUN_LAI_SUMMIT },
@@ -1985,10 +1985,7 @@ root(ROOTS.Zones, {
 							{ 49.38, 18.54, KUN_LAI_SUMMIT },
 						},
 						["groups"] = {
-							i(90168, {	-- Kishak's Clamshell
-								i(90172),	-- Clamshell Band
-								i(90087),	-- Lobstmourne
-							}),
+							i(90168),	-- Kishak's Clamshell
 						},
 					}),
 					n(50332, {	-- Korda Torros
