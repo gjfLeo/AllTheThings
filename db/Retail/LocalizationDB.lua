@@ -17978,6 +17978,7 @@ _.PhaseConstants = {
 	REAL_MONEY = 3,
 	REMOVED_FROM_GAME = 2,
 	TCG = 10,
+	TRADING_POST = 11,
 	UNLEARNABLE = 5,
 };
 local phases = {
@@ -18021,6 +18022,11 @@ local phases = {
 	[10] = {
 		name = "Trading Card Game [TCG]",
 		description = "|cFFAAFFAAOriginally obtained via a TCG card that is no longer in print, but may still be available via the Black Market, In-Game, or Real Life Auction House.|r",
+		state = 3,
+	},
+	[11] = {
+		name = TRANSMOG_SOURCE_7,
+		description = "|cFFAAFFAAThis item is available in the Trading Post.|r",
 		state = 3,
 	},
 	[38] = {
