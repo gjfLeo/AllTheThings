@@ -21,6 +21,7 @@ root(ROOTS.Zones, {
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1029, {	-- Tavern in the Mists
+						["cr"] = 61759,	-- Shin the Weightless <Flight Master>
 						["coord"] = { 56.6, 75.8, THE_VEILED_STAIR },
 					}),
 				}),

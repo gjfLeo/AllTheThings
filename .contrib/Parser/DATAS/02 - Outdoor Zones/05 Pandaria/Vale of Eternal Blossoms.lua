@@ -142,8 +142,9 @@ root(ROOTS.Zones, {
 					}),
 					fp(2544, {	-- Mistfall Village, Vale of Eternal Blossoms
 						["cr"] = 154805,	-- Ryuxi
-						["coord"] = { 38.9, 72.8, VALE_OF_ETERNAL_BLOSSOMS },
 						-- ["sourceQuests"] = {  },	-- TODO: likely requires some 8.3 quest chain before becoming available?
+						["coord"] = { 38.9, 72.8, VALE_OF_ETERNAL_BLOSSOMS },
+						["timeline"] = { ADDED_8_3_0 },
 					}),
 				}),
 				n(MAILBOX, {
