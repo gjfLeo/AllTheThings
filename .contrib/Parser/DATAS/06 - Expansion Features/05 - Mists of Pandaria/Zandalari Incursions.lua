@@ -59,7 +59,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
-				["description"] = "The following loot can drop from Warscouts or Warbringers.",
 				["crs"] = {
 					69768,	-- Zandalari Warscout
 					69841,	-- Zandalari Warbringer (Amber)
@@ -69,6 +68,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				["groups"] = {
 					i(94158, {	-- Big Bag of Zandalari Supplies
 						["description"] = "Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",
+						["sym"] = {{"select","itemID",87218},{"pop"}},	-- Big Bag of Arms
 					}),
 					i(94159, {	-- Small Bag of Zandalari Supplies
 						["description"] = "Can contain all sorts of herbs, ore, and cloth.",

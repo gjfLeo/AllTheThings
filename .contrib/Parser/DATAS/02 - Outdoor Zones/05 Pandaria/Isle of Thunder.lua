@@ -821,12 +821,17 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(70530, {	-- Ra'sha
+					n(70530, {	-- Ra'sha <Tender of Sacrifices>
 						["coord"] = { 39.41, 81.60, ISLE_OF_THUNDER },
 						["g"] = {
 							i(95566),	-- Ra'sha's Sacrificial Dagger
-							i(94158),	-- Big Bag of Zandalari Supplies
-							i(94159),	-- Small Bag of Zandalari Supplies
+							i(94158, {	-- Big Bag of Zandalari Supplies
+								["description"] = "Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",
+								["sym"] = {{"select","itemID",87218},{"pop"}},	-- Big Bag of Arms
+							}),
+							i(94159, {	-- Small Bag of Zandalari Supplies
+								["description"] = "Can contain all sorts of herbs, ore, and cloth.",
+							}),
 						},
 					}),
 					n(69961, {	-- Sparkmancer Vu
