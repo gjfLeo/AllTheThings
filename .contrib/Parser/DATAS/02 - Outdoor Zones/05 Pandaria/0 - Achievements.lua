@@ -178,20 +178,5 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				["maps"] = { TOWNLONG_STEPPES },
 			}),
 		}),
-		
-		ach(8078, {	-- Zul'Again
-			crit(22733, {	-- Zandalari Scouts Slain slain (10) (Townlong Steppes, Dread Wastes, Kun-Lai Summit, Krasarang Wilds, The Jade Forest)
-				["provider"] = { "n", 69768 },
-			}),
-			crit(22942, {	-- Zandalari Warbringers Slain slain (5) (Townlong Steppes, Dread Wastes, Kun-Lai Summit, The Jade Forest)
-				["provider"] = { "n", 69842 },
-			}),
-			crit(22941, {	-- Zandalari Warbringers Slain slain (5) (Townlong Steppes, Dread Wastes, Kun-Lai Summit, The Jade Forest)
-				["provider"] = { "n", 69841 },
-			}),
-			crit(22732, {	-- Zandalari Warbringers Slain slain (5) (Townlong Steppes, Dread Wastes, Kun-Lai Summit, The Jade Forest)
-				["provider"] = { "n", 69769 },
-			}),
-		}),
 	}),
 }))))

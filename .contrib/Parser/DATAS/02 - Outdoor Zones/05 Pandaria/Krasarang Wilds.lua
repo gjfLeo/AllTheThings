@@ -2990,18 +2990,6 @@ root(ROOTS.Zones, {
 							i(90718),	-- Torik-Ethis' Bloodied Legguards
 						},
 					}),
-					n(69769, {	-- Zandalari Warbringer (Slate)
-						["coords"] = {
-							{ 47.42, 61.54, DREAD_WASTES },
-							{ 39.83, 65.92, KRASARANG_WILDS },
-							{ 75.11, 67.47, KUN_LAI_SUMMIT },
-							{ 52.56, 18.85, THE_JADE_FOREST },
-							{ 36.58, 85.67, TOWNLONG_STEPPES },
-						},
-						["g"] = {
-							i(94229),	-- Slate Primordial Direhorn (MOUNT!)
-						},
-					}),
 				}),
 				n(TREASURES, {
 					o(214439, {	-- Barrel of Banana Infused Rum

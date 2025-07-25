@@ -2467,40 +2467,6 @@ root(ROOTS.Zones, {
 							i(87651),	-- Pathwalker Greatstaff
 						},
 					}),
-					n(69841, {	-- Zandalari Warbringer (Amber)
-						["coords"] = {
-							{ 47.4, 61.5, DREAD_WASTES },
-							{ 75.1, 67.4, KUN_LAI_SUMMIT },
-							{ 52.5, 18.8, THE_JADE_FOREST },
-							{ 36.5, 85.6, TOWNLONG_STEPPES },
-						},
-						["groups"] = {
-							i(94230),	-- Amber Primordial Direhorn (MOUNT!)
-						},
-					}),
-					n(69842, {	-- Zandalari Warbringer (Jade)
-						["coords"] = {
-							{ 47.4, 61.5, DREAD_WASTES },
-							{ 75.1, 67.4, KUN_LAI_SUMMIT },
-							{ 52.5, 18.8, THE_JADE_FOREST },
-							{ 36.5, 85.6, TOWNLONG_STEPPES },
-						},
-						["groups"] = {
-							i(94231),	-- Jade Primordial Direhorn (MOUNT!)
-						},
-					}),
-					n(69769, {	-- Zandalari Warbringer (Slate)
-						["coords"] = {
-							{ 47.4, 61.5, DREAD_WASTES },
-							{ 39.8, 65.9, KRASARANG_WILDS },
-							{ 75.1, 67.4, KUN_LAI_SUMMIT },
-							{ 52.5, 18.8, THE_JADE_FOREST },
-							{ 36.5, 85.6, TOWNLONG_STEPPES },
-						},
-						["groups"] = {
-							i(94229),	-- Slate Primordial Direhorn (MOUNT!)
-						},
-					}),
 				}),
 				n(TREASURES, {
 					o(213741, {	-- Ancient Jinyu Staff
@@ -2565,6 +2531,7 @@ root(ROOTS.Zones, {
 					n(64272, {	-- Jade Warrior Statue
 						["questID"] = 31307,
 						["coord"] = { 39.26, 46.65, THE_JADE_FOREST },
+						["description"] = "Up against the wooden fence post on the rocky terrain with its back to the wall.",
 						["groups"] = {
 							i(86199),	-- Jade-Infused Blade
 						},

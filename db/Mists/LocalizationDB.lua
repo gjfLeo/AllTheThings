@@ -1759,6 +1759,7 @@ localize(L.HEADER_NAMES, {
 	[-611] = "Silithid Royalty",
 	[-612] = "Obsidian Fragment Exchange",
 	[-648] = "Memory of Scholomance",
+	[-652] = "Zandalari Incursions",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -1805,6 +1806,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-591] = "The festival is held only on Sunday night from 9 PM to 11 PM (PST(US)/CEST(EU)/AEST(OCE). During the festival, floating lanterns appear on the surface of the water and Pandaren NPCs wander onto the beach to set up bonfires and shoot off fireworks. Shortly after, the Wanderer's Festival Hatchlings appear.",
 	[-592] = "This is a yearly recurring event that occurs between the beginning of November and the end of the year.",
 	[-610] = "If the following are sorted somewhere, please delete them from this list. Thanks.",
+	[-652] = "The Zandalari Incursions into the main land of Pandaria began with the release of the Isle of Thunder. Warbringers can be found all around the continent with varying degrees of challenging solo mechanics and available mounts! Farm these with friends.",
 });
 localize(L.HEADER_LORE, {
 	[-74] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -2031,6 +2033,7 @@ localize(L.HEADER_ICONS, {
 	[-611] = 133575,
 	[-612] = 135241,
 	[-648] = 133743,
+	[-652] = 838687,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
