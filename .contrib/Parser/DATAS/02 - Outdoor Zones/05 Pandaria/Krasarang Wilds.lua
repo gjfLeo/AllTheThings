@@ -1752,79 +1752,6 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					faction(FACTION_THE_AUGUST_CELESTIALS, {	-- The August Celestials
-						["description"] = "Each day, the August Celestials require your aid at one of their temples.  Speak to the representative in your faction's Vale of Eternal Blossoms shrine to find out where your help is needed (|cff3f48ccSage Whiteheart for Alliance|r and |cff880015Sage Lotusbloom for Horde|r).\n\nThe dailies will be in one of these locations:\nJade Forest - Temple of the Jade Serpent\nKrasarang Wilds - Cradle of Chi-Ji\nKun-Lai Summit - Temple of the White Tiger\nTownlong Steppes - Niuzao Temple\n\n",
-						["collectible"] = false,
-						["icon"] = 645203,
-						["g"] = {
-							n(ACHIEVEMENTS, {
-								ach(7287, {	-- Champion of Chi-Ji (Cradle of Chi-Ji)
-								--	the challenger quests (1) are dailies, which reset, and (2) completing one completes all of them every day, including the final quest in the chain, so adding a SQ to this achievement won't work
-									["description"] = "Requires completing August Celestials dailies at the Cradle of Chi-Ji for a total of 15 days.  After you complete the first set of dailies, you'll be given an additional quest to defeat a challenger.  You can only work on the achievement on days when the August Celestials request your aid at the Temple of the Red Crane.\n\n",
-								}),
-								ach(6543),	-- The August Celestials
-							}),
-							n(QUESTS, {
-								q(30716, {	-- Chasing Hope
-									["provider"] = { "n", 60528 },	-- Kuo-Na Quillpaw
-									["isDaily"] = true,
-									["coord"] = { 31.6, 61.6, KRASARANG_WILDS },
-								}),
-								q(30730, {	-- Dextrous Izissha
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.6, KRASARANG_WILDS },
-								}),
-								q(30725, {	-- Ellia Ravenmane
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.4, KRASARANG_WILDS },
-								}),
-								q(30727, {	-- Ellia Ravenmane: Rematch
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.4, KRASARANG_WILDS },
-								}),
-								q(30728, {	-- Fat Long-Fat
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.4, KRASARANG_WILDS },
-								}),
-								q(30717, {	-- Gifts of the Great Crane
-									["provider"] = { "n", 60529 },	-- Yan Quillpaw
-									["isDaily"] = true,
-									["coord"] = { 32.0, 61.8, KRASARANG_WILDS },
-									["groups"] = {
-										o_repeated({
-											i(80938),	-- Gift of the Great Crane (QI!)
-											o(211451),	-- Cerulean Gift of the Crane
-											o(211452),	-- Bronze Gift of the Crane
-										}),
-									},
-								}),
-								q(30729, {	-- Julia Bates
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.5, KRASARANG_WILDS },
-								}),
-								q(30731, {	-- Kuo-Na Quillpaw
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.4, KRASARANG_WILDS },
-								}),
-								q(30726, {	-- Minh Do-Tan
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.4, KRASARANG_WILDS },
-								}),
-								q(30718, {	-- Students of Chi-Ji
-									["provider"] = { "n", 60506 },	-- Thelonius
-									["isDaily"] = true,
-									["coord"] = { 31.8, 61.5, KRASARANG_WILDS },
-								}),
-							}),
-						},
-					}),
 				}),
 				n(FLIGHT_PATHS, {
 					fp(992, {	-- Cradle of Chi-Ji, Krasarang Wilds
@@ -3123,14 +3050,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 				header(HEADERS.Faction, FACTION_THE_ANGLERS, {
 					n(QUESTS, {
 						q(31371),	-- Tracking Event: Player Has Completed One Anglers Daily
-					}),
-				}),
-				header(HEADERS.Faction, FACTION_THE_AUGUST_CELESTIALS, {
-					n(QUESTS, {
-						q(30719),	-- FLAG - Cradle of Chi-Ji Progress Bit 01
-						q(30720),	-- FLAG - Cradle of Chi-Ji Progress Bit 02 - triggered after turning in Dextrous Izissha quest, 6th for Champion of Chi-Ji, triggered on another character after turning in Minh Do-Tan, which is the 2nd
-						q(30721),	-- FLAG - Cradle of Chi-Ji Progress Bit 03
-						q(30722),	-- FLAG - Cradle of Chi-Ji Progress Bit 04
 					}),
 				}),
 			}),

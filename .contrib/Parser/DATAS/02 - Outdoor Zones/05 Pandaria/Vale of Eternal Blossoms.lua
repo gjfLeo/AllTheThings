@@ -567,20 +567,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(31376, {	-- Attack At The Temple of the Jade Serpent (A)
-						["sourceQuests"] = { 31512 },	-- A Witness to History
-						["provider"] = { "n", 64032 },	-- Sage Whiteheart
-						["isDaily"] = true,
-						["coord"] = { 84.6, 63.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(31377, {	-- Attack At The Temple of the Jade Serpent (H)
-						--["sourceQuests"] = { 31511 },	-- A Witness to History
-						["provider"] = { "n", 64001 },	-- Sage Lotusbloom
-						["isDaily"] = true,
-						["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = HORDE_ONLY,
-					}),
 					q(31243, {	-- Attack on Mistfall Village
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["provider"] = { "n", 58408 },	-- Leven Dawnblade
@@ -727,20 +713,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(31378, {	-- Challenge at the Temple of the Red Crane (A)
-						["sourceQuests"] = { 31512 },	-- A Witness to History
-						["provider"] = { "n", 64032 },	-- Sage Whiteheart
-						["isDaily"] = true,
-						["coord"] = { 84.6, 63.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(31379, {	-- Challenge At The Temple of the Red Crane (H)
-						["sourceQuests"] = { 31511 },	-- A Witness to History
-						["provider"] = { "n", 64001 },	-- Sage Lotusbloom
-						["isDaily"] = true,
-						["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = HORDE_ONLY,
-					}),
 					q(30263, {	-- Clearing in the Forest
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["provider"] = { "n", 59338 },	-- Che Wildwalker
@@ -767,20 +739,6 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
-					}),
-					q(31382, {	-- Defense At Niuzao Temple (A)
-						["sourceQuests"] = { 31512 },	-- A Witness to History
-						["provider"] = { "n", 64032 },	-- Sage Whiteheart
-						["isDaily"] = true,
-						["coord"] = { 84.6, 63.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = ALLIANCE_ONLY
-					}),
-					q(31383, {	-- Defense At Niuzao Temple (H)
-						["sourceQuests"] = { 31511 },	-- A Witness to History
-						["provider"] = { "n", 64001 },	-- Sage Lotusbloom
-						["isDaily"] = true,
-						["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = HORDE_ONLY,
 					}),
 					q(32016, {	-- Elder Charms of Good Fortune
 						["coord"] = { 85.2, 62.6, VALE_OF_ETERNAL_BLOSSOMS },
@@ -1744,20 +1702,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(31380, {	-- Trial At The Temple of the White Tiger (A)
-						["sourceQuests"] = { 31512 },	-- A Witness to History
-						["provider"] = { "n", 64032 },	-- Sage Whiteheart
-						["isDaily"] = true,
-						["coord"] = { 84.6, 63.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(31381, {	-- Trial At The Temple of the White Tiger (H)
-						["sourceQuests"] = { 31511 },	-- A Witness to History
-						["provider"] = { "n", 64001 },	-- Sage Lotusbloom
-						["isDaily"] = true,
-						["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = HORDE_ONLY,
-					}),
 					q(30228, {	-- Troubling the Troublemakers
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["provider"] = { "n", 58503 },	-- Anji Autumnlight
@@ -2635,130 +2579,6 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_7_0_3 },
 							}),
 						},
-					}),
-					n(64001, {	-- Sage Lotusbloom <The August Celestials Quartermaster>
-						["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = HORDE_ONLY,
-						["g"] = bubbleDownClassicRep(FACTION_THE_AUGUST_CELESTIALS, {
-							{		-- Neutral
-								i(88880),	-- Battle Shadow Bracers
-								i(89532),	-- Bladesong Cloak
-								i(88876),	-- Boots of the High Adept
-								i(88892),	-- Bracers of Inlaid Jade
-								i(88879),	-- Braided Black and White Bracer
-								i(88865),	-- Bramblestaff Boots
-								i(88883),	-- Brewmaster Chani's Bracers
-								i(88885),	-- Clever Ashyo's Armbands
-								i(89533),	-- Cloak of Ancient Curses
-								i(89537),	-- Cloak of the Silent Mountain
-								i(88881),	-- Fallen Sentinel Bracers
-								i(88744),	-- Fingers of the Loneliest Monk
-								i(88749),	-- Gauntlets of Jade Sutras
-								i(88741),	-- Gloves of Red Feathers
-								i(88746),	-- Gloves of the Overwhelming Swarm
-								i(89665),	-- Leggings of Ponderous Advance
-								i(89659),	-- Leggings of Unfinished Conquest
-								i(88893),	-- Minh's Beaten Bracers
-								i(89668),	-- Mountain Stream Ringmail
-								i(88743),	-- Ogo's Elder Gloves
-								i(89534),	-- Pressed Flower Cloak
-								i(88884),	-- Quillpaw Family Bracers
-								i(88748),	-- Ravenmane's Gloves
-								i(89667),	-- Refurbished Zandalari Vestment
-								i(89535),	-- Ribcracker's Cloak
-								i(88867),	-- Sandals of the Elder Sage
-								i(88745),	-- Sentinel Commander's Gauntlets
-								i(88866),	-- Steps of the War Serpent
-								i(88877),	-- Storm-Sing Sandals
-								i(88747),	-- Streetfighter's Iron Knuckles
-								i(89658),	-- Subversive Leggings
-								i(88742),	-- Sunspeaker's Flared Gloves
-								i(88862),	-- Tankiss Warstompers
-								i(88882),	-- Tiger-Striped Wristguards
-								i(88868),	-- Tukka-Tuk's Hairy Boots
-								i(89669),	-- Undergrowth Stalker Chestpiece
-								i(89664),	-- Valiant's Shinguards
-								i(89666),	-- Vestment of the Ascendant Tribe
-								i(88878),	-- Void Flame Slippers
-								i(88864),	-- Yu'lon Guardian Boots
-							}, {	-- Friendly
-							}, {	-- Honored
-								i(89124),	-- Celestial Offering
-							}, {	-- Revered
-								i(84561),	-- Formula: Enchant Bracer - Exceptional Strength (RECIPE!)
-								i(84557),	-- Formula: Enchant Bracer - Greater Agility (RECIPE!)
-								i(84559),	-- Formula: Enchant Bracer - Super Intellect (RECIPE!)
-								i(93224),	-- Grand Commendation of the August Celestials
-							}, {	-- Exalted
-								i(89799),	-- August Celestials Tabard
-								i(86377),	-- Pattern: Royal Satchel (RECIPE!)
-								i(89304, {	-- Reins of the Thundering August Cloud Serpent (MOUNT!)
-									["cost"] = 100000000,	-- 10,000g
-								}),
-							},
-						}),
-					}),
-					n(64032, {	-- Sage Whiteheart <The August Celestials Quartermaster>
-						["coord"] = { 84.6, 63.8, VALE_OF_ETERNAL_BLOSSOMS },
-						["races"] = ALLIANCE_ONLY,
-						["g"] = bubbleDownClassicRep(FACTION_THE_AUGUST_CELESTIALS, {
-							{		-- Neutral
-								i(88880),	-- Battle Shadow Bracers
-								i(89532),	-- Bladesong Cloak
-								i(88876),	-- Boots of the High Adept
-								i(88892),	-- Bracers of Inlaid Jade
-								i(88879),	-- Braided Black and White Bracer
-								i(88865),	-- Bramblestaff Boots
-								i(88883),	-- Brewmaster Chani's Bracers
-								i(88885),	-- Clever Ashyo's Armbands
-								i(89533),	-- Cloak of Ancient Curses
-								i(89537),	-- Cloak of the Silent Mountain
-								i(88881),	-- Fallen Sentinel Bracers
-								i(88744),	-- Fingers of the Loneliest Monk
-								i(88749),	-- Gauntlets of Jade Sutras
-								i(88741),	-- Gloves of Red Feathers
-								i(88746),	-- Gloves of the Overwhelming Swarm
-								i(89665),	-- Leggings of Ponderous Advance
-								i(89659),	-- Leggings of Unfinished Conquest
-								i(88893),	-- Minh's Beaten Bracers
-								i(89668),	-- Mountain Stream Ringmail
-								i(88743),	-- Ogo's Elder Gloves
-								i(89534),	-- Pressed Flower Cloak
-								i(88884),	-- Quillpaw Family Bracers
-								i(88748),	-- Ravenmane's Gloves
-								i(89667),	-- Refurbished Zandalari Vestment
-								i(89535),	-- Ribcracker's Cloak
-								i(88867),	-- Sandals of the Elder Sage
-								i(88745),	-- Sentinel Commander's Gauntlets
-								i(88866),	-- Steps of the War Serpent
-								i(88877),	-- Storm-Sing Sandals
-								i(88747),	-- Streetfighter's Iron Knuckles
-								i(89658),	-- Subversive Leggings
-								i(88742),	-- Sunspeaker's Flared Gloves
-								i(88862),	-- Tankiss Warstompers
-								i(88882),	-- Tiger-Striped Wristguards
-								i(88868),	-- Tukka-Tuk's Hairy Boots
-								i(89669),	-- Undergrowth Stalker Chestpiece
-								i(89664),	-- Valiant's Shinguards
-								i(89666),	-- Vestment of the Ascendant Tribe
-								i(88878),	-- Void Flame Slippers
-								i(88864),	-- Yu'lon Guardian Boots
-							}, {	-- Friendly
-							}, {	-- Honored
-								i(89124),	-- Celestial Offering
-							}, {	-- Revered
-								i(84561),	-- Formula: Enchant Bracer - Exceptional Strength (RECIPE!)
-								i(84557),	-- Formula: Enchant Bracer - Greater Agility (RECIPE!)
-								i(84559),	-- Formula: Enchant Bracer - Super Intellect (RECIPE!)
-								i(93224),	-- Grand Commendation of the August Celestials
-							}, {	-- Exalted
-								i(89799),	-- August Celestials Tabard
-								i(86377),	-- Pattern: Royal Satchel (RECIPE!)
-								i(89304, {	-- Reins of the Thundering August Cloud Serpent (MOUNT!)
-									["cost"] = 100000000,	-- 10,000g
-								}),
-							},
-						}),
 					}),
 					n(64605, {	-- Tan Shin Tiao <Lorewalkers Quartermaster>
 						["coord"] = { 82.2, 29.4, VALE_OF_ETERNAL_BLOSSOMS },

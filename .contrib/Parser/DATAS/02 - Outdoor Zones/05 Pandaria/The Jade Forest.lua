@@ -147,54 +147,6 @@ root(ROOTS.Zones, {
 					visit_exploration(5865,{coord={27.4,17.7,THE_JADE_FOREST}}),	-- Wreck of Hellscream's Fist
 				}),
 				n(FACTIONS, {
-					faction(FACTION_THE_AUGUST_CELESTIALS, {	-- The August Celestials
-						["description"] = "Each day, the August Celestials require your aid at one of their temples.  Speak to the representative in your faction's Vale of Eternal Blossoms shrine to find out where your help is needed (|cff3f48ccSage Whiteheart for Alliance|r and |cff880015Sage Lotusbloom for Horde|r).\n\nThe dailies will be in one of these locations:\nJade Forest - Temple of the Jade Serpent\nKrasarang Wilds - Cradle of Chi-Ji\nKun-Lai Summit - Temple of the White Tiger\nTownlong Steppes - Niuzao Temple\n\n",
-						["collectible"] = false,
-						["icon"] = 645203,
-						["groups"] = {
-							q(30063, {	-- Behind the Masks
-								["qg"] = 57319,	-- Elder Sage Storm-Sing
-								["isDaily"] = true,
-								["coord"] = { 53.8, 61.8, THE_JADE_FOREST },
-								["groups"] = {
-									i(77419),	-- Mask of Doubt (QI!)
-								},
-							}),
-							q(30068, {	-- Flames of the Void
-							--	may also require "Saving the Sutras" and "The Darkness Around Us"
-								["sourceQuest"] = 30066,	-- Hidden Power
-								["qg"] = 57324,	-- Elder Sage Tai-Feng
-								["isDaily"] = true,
-								["coord"] = { 53.8, 61.8, THE_JADE_FOREST },
-							}),
-							q(30066, {	-- Hidden Power
-								["qg"] = 57324,	-- Elder Sage Tai-Feng
-								["isDaily"] = true,
-								["coord"] = { 53.9, 61.9, THE_JADE_FOREST },
-								["groups"] = {
-									i(77475),	-- Stack of Mantras (QI!)
-								},
-							}),
-							q(30064, {	-- Saving the Sutras
-								["qg"] = 57319,	-- Elder Sage Storm-Sing
-								["isDaily"] = true,
-								["coord"] = { 53.9, 61.9, THE_JADE_FOREST },
-								["groups"] = {
-									i(77432),	-- Ancient Sutra (QI!)
-								},
-							}),
-							q(30006, {	-- The Darkness Around Us
-								["qg"] = 57324,	-- Elder Sage Tai-Feng
-								["isDaily"] = true,
-								["coord"] = { 53.9, 61.9, THE_JADE_FOREST },
-							}),
-							q(30067, {	-- The Shadow of Doubt
-								["qg"] = 57324,	-- Elder Sage Tai-Feng
-								["isDaily"] = true,
-								["coord"] = { 53.8, 61.8, THE_JADE_FOREST },
-							}),
-						},
-					}),
 					faction(FACTION_FOREST_HOZEN, {	-- Forest Hozen
 						["races"] = HORDE_ONLY,
 					}),
@@ -622,19 +574,6 @@ root(ROOTS.Zones, {
 						},
 						["description"] = "Automatically given when prerequisites have been fulfilled.",
 						["races"] = ALLIANCE_ONLY,
-					}),
-					q(30065, {	-- Arrows of Fortune
-						-- maybe not required?
-						["sourceQuests"] = {
-							31376,	-- Attack At The Temple of the Jade Serpent (A)
-							31377,	-- Attack At The Temple of the Jade Serpent (H)
-						},
-						["qg"] = 57324,	-- Elder Sage Tai-Feng
-						["coord"] = { 53.8, 61.8, THE_JADE_FOREST },
-						["isDaily"] = true,
-						["groups"] = {
-							i(77452),	-- Defender's Arrow (QI!)
-						},
 					}),
 					q(31775, {	-- Assault on the Airstrip
 						["sourceQuest"] = 29804,	-- Seein' Red
