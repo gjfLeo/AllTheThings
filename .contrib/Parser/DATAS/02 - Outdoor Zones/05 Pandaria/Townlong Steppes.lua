@@ -6,7 +6,7 @@ root(ROOTS.Zones, {
 		m(TOWNLONG_STEPPES, {
 			["lore"] = "Townlong Steppes is relatively small zone located in northwestern Pandaria. The main story that is played out here involves aiding the Shado-Pan on their pursuit against the Sha of Hatred, and aiding them in fending off the Osul yaungol and the aggressive mantid coming from the south.",
 			["icon"] = 618796,
-			["maps"] = { 389 },	-- Niuzao Catacombs
+			["maps"] = { TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(7310),	-- Defender of Gods
@@ -1358,7 +1358,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					n(66900, {	-- Huggalon the Heart Watcher
-						["coord"] = { 37.2, 57.6, TOWNLONG_STEPPES },
+						["coord"] = { 65.6, 23.8, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
 						["g"] = {
 							i(90067),	-- B. F. F. Necklace (TOY!)
 						},
@@ -1502,10 +1502,10 @@ root(ROOTS.Zones, {
 					o(213956, {	-- Fragment of Dread
 						["questID"] = 31423,
 						["coords"] = {
-							{ 64.2, 20.3, 389 },	-- Niuzao Catacombs
-							{ 37.7, 87.0, 389 },	-- Niuzao Catacombs
-							{ 47.8, 89.0, 389 },	-- Niuzao Catacombs
-							{ 56.5, 64.7, 389 },	-- Niuzao Catacombs
+							{ 64.2, 20.3, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
+							{ 37.7, 87.0, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
+							{ 47.8, 89.0, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
+							{ 56.5, 64.7, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
 						},
 						["description"] = "Entrance is at |cFFFFD70032.6 61.8|r. There are 4 possible spawn points.",
 						["g"] = {

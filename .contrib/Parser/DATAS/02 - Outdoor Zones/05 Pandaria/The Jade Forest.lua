@@ -2554,6 +2554,7 @@ root(ROOTS.Zones, {
 							{ 42.01, 17.56, THE_JADE_FOREST },
 							{ 42.97, 11.63, THE_JADE_FOREST },
 						},
+						["description"] = "Leaning upright against the wall.",
 						["groups"] = {
 							i(86198),	-- Hammer of Ten Thunders
 						},
