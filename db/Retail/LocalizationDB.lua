@@ -18014,6 +18014,11 @@ local phases = {
 		lore = "|cFFFFAAAANote: Most Summoning Items can be reobtained if you had them in the past by talking to the respective NPC.|r",
 		state = 2,
 	},
+	[7] = {
+		name = TRANSMOG_SOURCE_7,
+		description = "|cFFAAFFAAThis item is available in the Trading Post.|r",
+		state = 3,
+	},
 	[9] = {
 		name = "Black Market AH [BMAH]",
 		description = "|cFFAAFFAAThis item is available on the Black Market Auction House. The original source may have been removed.|r",
@@ -18022,11 +18027,6 @@ local phases = {
 	[10] = {
 		name = "Trading Card Game [TCG]",
 		description = "|cFFAAFFAAOriginally obtained via a TCG card that is no longer in print, but may still be available via the Black Market, In-Game, or Real Life Auction House.|r",
-		state = 3,
-	},
-	[11] = {
-		name = TRANSMOG_SOURCE_7,
-		description = "|cFFAAFFAAThis item is available in the Trading Post.|r",
 		state = 3,
 	},
 	[38] = {
