@@ -104,7 +104,9 @@ root(ROOTS.Zones, {
 				}),
 				petbattle(filter(BATTLE_PETS, {
 					pet(1181),	-- Elder Python (PET!)
-					pet(1179),	-- Electrified Razortooth (PET!)
+					pet(1179, {	-- Electrified Razortooth (PET!)
+						["coord"] = { 40.0, 59.2, ISLE_OF_THUNDER },
+					}),
 					pet(1182),	-- Swamp Croaker (PET!)
 					pet(1175),	-- Thundertail Flapper (PET!)
 				})),

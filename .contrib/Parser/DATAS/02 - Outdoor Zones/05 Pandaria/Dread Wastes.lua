@@ -84,19 +84,22 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					["sym"] = {{"select","speciesID",
-						732,	-- Amber Moth (PET!)
-					}},
-					["groups"] = {
-						pet(742),	-- Clouded Hedgehog (PET!)
-						pet(745),	-- Crunchy Scorpion (PET!)
-						pet(746, {	-- Emperor Crab (PET!)
-							["description"] = "Can be found around The Briny Muck.",
-						}),
-						pet(743),	-- Rapana Whelk (PET!)
-						pet(744),	-- Resilient Roach (PET!)
-						pet(741),	-- Silent Hedgehog (PET!)
-					},
+					pet(732, {	-- Amber Moth (PET!)
+						["coords"] = {
+							{ 47.4, 16.8, DREAD_WASTES },
+							{ 55.6, 33.6, DREAD_WASTES },
+						},
+					}),
+					pet(742),	-- Clouded Hedgehog (PET!)
+					pet(745),	-- Crunchy Scorpion (PET!)
+					pet(746, {	-- Emperor Crab (PET!)
+						["coord"] = { 25.5, 65.6, DREAD_WASTES },
+					}),
+					pet(743, {	-- Rapana Whelk (PET!)
+						["coord"] = { 36.6, 63.4, DREAD_WASTES },
+					}),
+					pet(744),	-- Resilient Roach (PET!)
+					pet(741),	-- Silent Hedgehog (PET!)
 				}),
 				explorationHeader({
 					visit_exploration(6446,{coord={29.6,89.6,DREAD_WASTES}}),	-- Amber Quarry

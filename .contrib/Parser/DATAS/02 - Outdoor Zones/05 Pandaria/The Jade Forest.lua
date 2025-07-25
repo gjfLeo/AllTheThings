@@ -23,32 +23,57 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					["sym"] = {{"select","speciesID",
-						711,	-- Sifang Otter (PET!)
-						712,	-- Sifang Otter Pup (PET!)
-						723,	-- Spiny Terrapin (PET!)
-					}},
-					["groups"] = {
-						pet(380),	-- Bucktooth Flapper (PET!)
-						pet(562),	-- Coral Adder (PET!)
-						pet(564),	-- Emerald Turtle (PET!)
-						pet(569),	-- Garden Frog (PET!)
-						pet(753),	-- Garden Moth (PET!)
-						pet(571),	-- Grove Viper (PET!)
-						pet(699),	-- Jumping Spider (PET!)
-						pet(565),	-- Jungle Darter (PET!)
-						pet(702),	-- Leopard Tree Frog (PET!)
-						pet(570),	-- Masked Tanuki (PET!)
-						pet(703),	-- Masked Tanuki Pup (PET!)
-						pet(566),	-- Mirror Strider (PET!)
-						pet(573),	-- Sandy Petrel (PET!)
-						pet(754),	-- Shrine Fly (PET!)
-						pet(568),	-- Silkbead Snail (PET!)
-						pet(572, {	-- Spirebound Crab (PET!)
-							["coord"] = { 69.2, 30.0, THE_JADE_FOREST },
-						}),
-						pet(567),	-- Temple Snake (PET!)
-					},
+					pet(380, {	-- Bucktooth Flapper (PET!)
+						["coord"] = { 34.4, 47.6, THE_JADE_FOREST },
+					}),
+					pet(562, {	-- Coral Adder (PET!)
+						["coord"] = { 66.2, 86.4, THE_JADE_FOREST },
+					}),
+					pet(564),	-- Emerald Turtle (PET!)
+					pet(569, {	-- Garden Frog (PET!)
+						["coord"] = { 56.6, 45.2, THE_JADE_FOREST },
+					}),
+					pet(753, {	-- Garden Moth (PET!)
+						["coord"] = { 53.6, 45.2, THE_JADE_FOREST },
+					}),
+					pet(571),	-- Grove Viper (PET!)
+					pet(699),	-- Jumping Spider (PET!)
+					pet(565, {	-- Jungle Darter (PET!)
+						["coord"] = { 54.2, 71.0, THE_JADE_FOREST },
+					}),
+					pet(702),	-- Leopard Tree Frog (PET!)
+					pet(570),	-- Masked Tanuki (PET!)
+					pet(703),	-- Masked Tanuki Pup (PET!)
+					pet(566, {	-- Mirror Strider (PET!)
+						["coords"] = {
+							{ 32.6, 45.4, THE_JADE_FOREST },
+							{ 40.6, 53.4, THE_JADE_FOREST },
+						},
+					}),
+					pet(573, {	-- Sandy Petrel (PET!)
+						["coord"] = { 66.8, 28.0, THE_JADE_FOREST },
+					}),
+					pet(754, {	-- Shrine Fly (PET!)
+						["coords"] = {
+							{ 33.4, 50.6, THE_JADE_FOREST },
+							{ 36.6, 58.6, THE_JADE_FOREST },
+						},
+					}),
+					pet(711, {	-- Sifang Otter (PET!)
+						["coord"] = { 40.6, 93.8, THE_JADE_FOREST },
+					}),
+					pet(712, {	-- Sifang Otter Pup (PET!)
+						["coord"] = { 38.2, 92.6, THE_JADE_FOREST },
+					}),
+					pet(568, {	-- Silkbead Snail (PET!)
+						["coord"] = { 48.8, 94.2, THE_JADE_FOREST },
+					}),
+					pet(572, {	-- Spirebound Crab (PET!)
+						["coord"] = { 69.2, 30.0, THE_JADE_FOREST },
+					}),
+					pet(567, {	-- Temple Snake (PET!)
+						["coord"] = { 55.0, 56.6, THE_JADE_FOREST },
+					}),
 				}),
 				explorationHeader({
 					exploration(5943),	-- Amberfly Bog

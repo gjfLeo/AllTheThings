@@ -109,6 +109,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 		ach(6858),	-- What Is Worth Fighting For
 		
 		ach(6350, {	-- To All the Squirrels I Once Caressed?
+			--[[
 			crit(20817, {	-- Amethyst Spiderling
 				["provider"] = { "n", 64798 },	-- Amethyst Spiderling
 				["maps"] = { KRASARANG_WILDS },
@@ -177,6 +178,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				["provider"] = { "n", 64802 },	-- Yakrat
 				["maps"] = { TOWNLONG_STEPPES },
 			}),
+			]]--
 		}),
 	}),
 }))))

@@ -23,20 +23,24 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					["sym"] = {{"select","speciesID",
-						708,	-- Malayan Quillrat (PET!)
-						711,	-- Sifang Otter (PET!)
-					}},
-					["groups"] = {
-						pet(716),	-- Amethyst Spiderling (PET!)
-						pet(714),	-- Feverbite Hatchling (PET!)
-						pet(678),	-- Jungle Grub (PET!)
-						pet(718),	-- Luyu Moth (PET!)
-						pet(722),	-- Mei Li Sparkler (PET!)
-						pet(717),	-- Savory Beetle (PET!)
-						pet(712),	-- Sifang Otter Pup (PET!)
-						pet(723),	-- Spiny Terrapin (PET!)
-					},
+					pet(716),	-- Amethyst Spiderling (PET!)
+					pet(714, {	-- Feverbite Hatchling (PET!)
+						["coord"] = { 18.0, 43.8, KRASARANG_WILDS },
+					}),
+					pet(678),	-- Jungle Grub (PET!)
+					pet(718),	-- Luyu Moth (PET!)
+					pet(708),	-- Malayan Quillrat (PET!)
+					pet(722, {	-- Mei Li Sparkler (PET!)
+						["coord"] = { 37.6, 44.0, KRASARANG_WILDS },
+					}),
+					pet(717),	-- Savory Beetle (PET!)
+					pet(711, {	-- Sifang Otter (PET!)
+						["coord"] = { 86.4, 10.4, KRASARANG_WILDS },
+					}),
+					pet(712, {	-- Sifang Otter Pup (PET!)
+						["coord"] = { 85.8, 16.6, KRASARANG_WILDS },
+					}),
+					pet(723),	-- Spiny Terrapin (PET!)
 				}),
 				explorationHeader({
 					visit_exploration(6160,{coord={31.9,70.6,KRASARANG_WILDS}}),	-- Angkhal Pavilion
