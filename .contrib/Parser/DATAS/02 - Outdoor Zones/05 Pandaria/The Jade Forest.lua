@@ -2579,6 +2579,7 @@ root(ROOTS.Zones, {
 					o(213363, {	-- Wodin's Mantid Shanker
 						["questID"] = 31397,
 						["coord"] = { 39.41, 7.23, THE_JADE_FOREST },
+						["description"] = "Glimmering in the east side of the pond underwater between the lantern and the stone wall.",
 						["groups"] = {
 							i(85776),	-- Wodin's Mantid Shanker
 						},
