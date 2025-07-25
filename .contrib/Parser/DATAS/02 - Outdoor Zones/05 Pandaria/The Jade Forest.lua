@@ -658,10 +658,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 58.8, 81.7, THE_JADE_FOREST },
 						["races"] = ALLIANCE_ONLY,
 					}),
-					q(30567, {	-- Blanche's Boomer Brew
-						["qg"] = 59569,	-- Brewmaster Blanche
-						["coord"] = { 38.8, 31.1, THE_JADE_FOREST },
-					}),
 					q(29892, {	-- Body
 						["sourceQuest"] = 31130,	-- A Visit with Lorewalker Cho
 						["providers"] = {
@@ -712,12 +708,6 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 29745,	-- The Sprites' Plight
 						["provider"] = { "o", 214871 },	-- Shattered Destroyer
 						["coord"] = { 48.5, 20.6, THE_JADE_FOREST },
-					}),
-					q(30442, {	-- Blanche's Boomer Brew
-						["coord"] = { 38.0, 30.0, THE_JADE_FOREST },
-						["qg"] = 59569,	-- Brewmaster Blanche
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(29631, {	-- Burning Bright
 						["sourceQuest"] = 29627,	-- A Proper Weapon
@@ -2234,11 +2224,6 @@ root(ROOTS.Zones, {
 							i(74763),	-- Spirit Bottle (QI!)
 						},
 					}),
-					q(31613, {	-- Volatile Greenstone Brew
-						["qg"] = 62321,	-- Brewmaster Tzu
-						["coord"] = { 47.4, 37.0, THE_JADE_FOREST },
-						["lvl"] = 90,
-					}),
 					warchiefscommand(q(49538, {	-- Warchief's Command: Jade Forest!
 						["timeline"] = { ADDED_7_3_5 },
 						["races"] = HORDE_ONLY,
@@ -2758,15 +2743,6 @@ root(ROOTS.Zones, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 	m(PANDARIA, {
 		m(THE_JADE_FOREST, {
-			n(FACTIONS, {
-				header(HEADERS.Faction, FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
-					n(QUESTS, {
-						q(30165),	-- Tracking Event: Picked Blue Serpent - picked the blue serpent egg during "Choosing the One" (questID 30138)
-						q(30167),	-- Tracking Event: Picked Gold Serpent - picked the gold serpent egg during "Choosing the One" (questID 30138)
-						q(30166),	-- Tracking Event: Picked Green Serpent - picked the green serpent egg during "Choosing the One" (questID 30138)
-					}),
-				}),
-			}),
 			n(QUESTS, {
 				q(29702),	-- Gorrok TRACKING
 				q(30486),	-- Jade Dragon Phased Terrain Tracking - triggers after placing the Cho family heirloom during "Last Piece of the Puzzle" (questID 30485 & 31362)
