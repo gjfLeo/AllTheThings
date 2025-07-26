@@ -52,7 +52,8 @@ app.CreateFlightPath = app.CreateClass(CLASSNAME, KEY, {
 
 if app.IsGit then
 -- CRIEVE NOTE: Comment this out after you've finished sourcing flight masters
-app.AddEventHandler("OnRecalculate", function()
+-- use /att check-fps if you want to run this
+app.ChatCommands.Add("check-fps", function()
 	local missingByMapID, any = {}, false;
 	for flightpathID,flightPaths in pairs(app.SearchForFieldContainer("flightpathID")) do
 		for i,o in ipairs(flightPaths) do
@@ -71,7 +72,7 @@ app.AddEventHandler("OnRecalculate", function()
 			end
 		end
 	end
-	
+
 	if any then
 		-- Create an information object.
 		local info = {
@@ -90,7 +91,10 @@ app.AddEventHandler("OnRecalculate", function()
 		app:SetupReportDialog(popupID, text, info);
 		app.print("Found Missing Flight Masters:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
 	end
-end);
+end, {
+	"Usage : /att check-fps",
+	"Allows scanning all sourced FPs to find Flight Masters which have no NPC linked to them.",
+});
 end
 
 local function CacheFlightPathDataForTarget(nodes)
