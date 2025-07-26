@@ -939,11 +939,13 @@ root(ROOTS.Zones, {
 					faction(FACTION_THE_BLACK_PRINCE),	-- The Black Prince
 				}),
 				n(FLIGHT_PATHS, {
-					fp(1294, {	-- Huojin Landing
+					fp(1294, {	-- Huojin Landing, Timeless Isle
+						["cr"] = 71939,	-- Chi-Ro the Skytamer <Flight Master>
 						["coord"] = { 21.8, 39.8, TIMELESS_ISLE },
 						["races"] = HORDE_ONLY,
 					}),
-					fp(1293, {	-- Tushui Landing
+					fp(1293, {	-- Tushui Landing, Timeless Isle
+						["cr"] = 71940,	-- Michi Windblossom <Flight Master>
 						["coord"] = { 23.2, 71.0, TIMELESS_ISLE },
 						["races"] = ALLIANCE_ONLY,
 					}),

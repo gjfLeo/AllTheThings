@@ -127,36 +127,46 @@ root(ROOTS.Zones, {
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1017, {	-- Binan Village, Kun-Lai Summit
+						["cr"] = 61474,	-- Jo the Wind Watcher <Flight Master>
 						["coord"] = { 72.4, 94.0, KUN_LAI_SUMMIT },
 					}),
 					fp(1019, {	-- Eastwind Rest, Kun-Lai Summit
+						["cr"] = 61745,	-- Soaring Paw <Flight Master>
 						["coord"] = { 62.4, 80.6, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
 					}),
 					fp(1023, {	-- Kota Basecamp, Kun-Lai Summit
+						["cr"] = 60416,	-- Uncle Eastwind <Flight Master>
 						["coord"] = { 42.8, 69.6, KUN_LAI_SUMMIT },
 					}),
 					fp(1022, {	-- One Keg, Kun-Lai Summit
+						["cr"] = 61504,	-- Little Cleankite <Flight Master>
 						["coord"] = { 57.6, 59.8, KUN_LAI_SUMMIT },
 					}),
 					fp(1117, {	-- Serpent's Spine, Kun-Lai Summit
+						["cr"] = 65863,	-- Morla Skyblade <Flight Master>
 						["coord"] = { 36.0, 83.6, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
 					}),
 					fp(1024, {	-- Shado-Pan Fallback, Kun-Lai Summit
+						["cr"] = 61473,	-- Kite Master Ni <Flight Master>
 						["coord"] = { 43.8, 89.6, KUN_LAI_SUMMIT },
 					}),
 					fp(1018, {	-- Temple of the White Tiger, Kun-Lai Summit
+						["cr"] = 61118,	-- Big Greenfeather <Flight Master>
 						["coord"] = { 66.2, 50.6, KUN_LAI_SUMMIT },
 					}),
 					fp(1020, {	-- Westwind Rest, Kun-Lai Summit
+						["cr"] = 61744,	-- Tabo the Flyer <Flight Master>
 						["coord"] = { 54.0, 84.2, KUN_LAI_SUMMIT },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					fp(1025, {	-- Winter's Blossom, Kun-Lai Summit
+						["cr"] = 61512,	-- Kite Master Len <Flight Master>
 						["coord"] = { 34.6, 59.0, KUN_LAI_SUMMIT },
 					}),
 					fp(1021, {	-- Zouchin Village, Kun-Lai Summit
+						["cr"] = 61511,	-- Bo the Wind Claimer <Flight Master>
 						["coord"] = { 62.4, 30.0, KUN_LAI_SUMMIT },
 					}),
 				}),

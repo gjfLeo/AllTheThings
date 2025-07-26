@@ -111,16 +111,20 @@ root(ROOTS.Zones, {
 					faction(FACTION_SHADO_PAN),	-- Shado-Pan
 				}),
 				n(FLIGHT_PATHS, {
-					fp(1054, {	-- Gao-Ran Battlefront
+					fp(1054, {	-- Gao-Ran Battlefront, Townlong Steppes
+						["cr"] = 62903,	-- Kite Master Nenshi <Flight Master>
 						["coord"] = { 74.4, 81.4, TOWNLONG_STEPPES },
 					}),
-					fp(1053, {	-- Longying Outpost
+					fp(1053, {	-- Longying Outpost, Townlong Steppes
+						["cr"] = 62901,	-- Kite Master Wong <Flight Master>
 						["coord"] = { 71.0, 57.2, TOWNLONG_STEPPES },
 					}),
-					fp(1055, {	-- Rensai's Watchpost
+					fp(1055, {	-- Rensai's Watchpost, Townlong Steppes
+						["cr"] = 62898,	-- Kite Master Li-Sen <Flight Master>
 						["coord"] = { 54.2, 79.0, TOWNLONG_STEPPES },
 					}),
-					fp(1056, {	-- Shado-Pan Garrison
+					fp(1056, {	-- Shado-Pan Garrison, Townlong Steppes
+						["cr"] = 62909,	-- Kite Master Yao-Li <Flight Master>
 						["coord"] = { 50.0, 71.8, TOWNLONG_STEPPES },
 					}),
 				}),

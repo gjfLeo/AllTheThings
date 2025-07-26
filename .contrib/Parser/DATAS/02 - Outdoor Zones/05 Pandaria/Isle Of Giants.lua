@@ -11,10 +11,12 @@ root(ROOTS.Zones, {
 			["g"] = {
 				n(FLIGHT_PATHS, {
 					fp(1221, {	-- Beeble's Wreck, Isle Of Giants
+						["cr"] = 69359,	-- Beeble Sockwrench <Jurassic Expedition>
 						["coord"] = { 41.8, 79.2, ISLE_OF_GIANTS },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					fp(1222, {	-- Bozzle's Wreck, Isle Of Giants
+						["cr"] = 69360,	-- Bozzle Blastinfuse <Jurassic Expedition>
 						["coord"] = { 51.8, 75.4, ISLE_OF_GIANTS },
 						["races"] = HORDE_ONLY,
 					}),

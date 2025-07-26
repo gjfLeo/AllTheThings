@@ -1075,16 +1075,25 @@ root(ROOTS.Zones, {
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1052, {	-- Grassy Cline, Valley of the Four Winds
+						["cr"] = 62658,	-- Kim of the Mountain Winds <Flight Master>
 						["coord"] = { 70.8, 24.2, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					fp(985, {	-- Halfhill, Valley of the Four Winds
+						["cr"] = 60231,	-- Wing Nga <Flight Master>
 						["coord"] = { 56.4, 50.2, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					fp(984, {	-- Pang's Stead, Valley of the Four Winds
-						["coord"] = { 84.4, 21.0, VALLEY_OF_THE_FOUR_WINDS },
+						["cr"] = 60230,	-- Princeton <Balloon Boy>
+						["coord"] = { 84.6, 21.0, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					fp(989, {	-- Stoneplow, Valley of the Four Winds
+						["cr"] = 58843,	-- "Dragonwing" Dan <Flight Master>
 						["coord"] = { 20.2, 58.6, VALLEY_OF_THE_FOUR_WINDS },
+					}),
+					fp(1115, {	-- The Lion's Redoubt, Dread Wastes
+						["cr"] = 65865,	-- Tiper Windman <Flight Master>
+						["coord"] = { 12.0, 32.8, VALLEY_OF_THE_FOUR_WINDS },
+						["races"] = ALLIANCE_ONLY,
 					}),
 				}),
 				petbattles({
