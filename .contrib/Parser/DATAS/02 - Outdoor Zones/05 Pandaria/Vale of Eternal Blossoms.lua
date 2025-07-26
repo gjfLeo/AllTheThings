@@ -1988,7 +1988,12 @@ root(ROOTS.Zones, {
 					n(50749, {	-- Kal'tik the Blight
 						["coord"] = { 14.0, 58.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["g"] = {
-							i(134023),	-- Bottled Tornado (TOY!)
+							i(86579, {	-- Bottled Tornado [Should be a toy...]
+								["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
+							}),
+							i(134023, {	-- Bottled Tornado (TOY!)
+								["timeline"] = { ADDED_7_0_3 },
+							}),
 						},
 					}),
 					n(50349, {	-- Kang the Soul Thief
