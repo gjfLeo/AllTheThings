@@ -21,6 +21,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(646, {	-- Forsaken Forward Command, Gilneas
+					["cr"] = 45479,	-- Bat Handler Doomair <Flight Master>
 					["altQuests"] = { 27438 },	-- The Great Escape
 					["sourceQuest"] = 27290,	-- To Forsaken Forward Command
 					["description"] = "Becomes available during |cFFFFD700To Forsaken Forward Command|r and is no longer available after |cFFFFD700The Great Escape|r.",
