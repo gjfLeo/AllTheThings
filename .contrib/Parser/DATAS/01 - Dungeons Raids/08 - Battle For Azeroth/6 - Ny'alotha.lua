@@ -217,82 +217,56 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(14058),	-- All Eyes On Me (Ny'alotha)
-				ach(14146, {	-- Glory of the Ny'alotha Raider
-					["sym"] = {{"meta_achievement",
-					14019,	-- Smoke Test
-					14008,	-- Mana Sponge
-					14037,	-- Phase 3: Prophet
-					14024,	-- Buzzer Beater
-					14023,	-- Realizing Your Potential
-					13990,	-- You Can Pet the Dog, But...
-					14026,	-- Temper Tantrum
-					14139,	-- Total Annihilation
-					13999,	-- How? Isn't it Obelisk?
-					14038,	-- Bloody Mess
-					14147,	-- Cleansing Treatment
-					14148,	-- It's Not a Cult
-					}},
-					["groups"] = {
-						i(174861),	-- Wriggling Parasite (MOUNT!)
-					},
+				ach(14146, {	-- Glory of the Ny'alotha Raider (automated)
+					i(174861),	-- Wriggling Parasite (MOUNT!)
 				}),
 				ach(14193, {	-- Vision of Destiny
                     crit(46693, {    -- Wrathion, the Black Emperor
-                        ["_encounter"] = { 2368, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { WRATHION, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46694, {    -- Maut
-                        ["_encounter"] = { 2365, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { MAUT, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46695, {    -- The Prophet Skitra
-                        ["_encounter"] = { 2369, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { PROPHET, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                 }),
 				ach(14194, {	-- Halls of Devotion
                     crit(46696, {    -- Dark Inquisitor Xanesh
-                        ["_encounter"] = { 2377, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { INQUISITOR, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46697, {    -- Vexiona
-                        ["_encounter"] = { 2370, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { VEXIONA, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46698, {    -- The Hivemind
-                        ["_encounter"] = { 2372, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { HIVEMIND, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46699, {    -- Ra-den the Despoiled
-                        ["_encounter"] = { 2364, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { RADEN, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                 }),
 				ach(14195, {	-- Gift of Flesh
                     crit(46700, {    -- Shad'har the Insatiable
-                        ["_encounter"] = { 2367, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { SHADHAR, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46701, {    -- Drest'agath
-                        ["_encounter"] = { 2373, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { DRESTAGATH, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46702, {    -- Il'gynoth, Corruption Reborn
-                        ["_encounter"] = { 2374, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { ILGYNOTH, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                 }),
 				ach(14196, {	-- The Waking Dream
                     crit(46703, {    -- Carapace of N'Zoth
-                        ["_encounter"] = { 2366, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { CARAPACE, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                     crit(46704, {    -- N'Zoth, the Corruptor
-                        ["_encounter"] = { 2375, DIFFICULTY.RAID.LFR },
+                        ["_encounter"] = { NZOTH, DIFFICULTY.RAID.MULTI.ALL },
                     }),
                 }),
-				ach(14146, {	-- Glory of the Ny'alotha Raider
-					i(174861),	-- Wriggling Parasite (MOUNT!)
-				}),
 				ach(14039),	-- Ny'alotha, the Waking City Guild Run
-				ach(40963, {	-- Ny'alotha, the Waking City
+				ach(40963, {	-- Ny'alotha, the Waking City (automated)
 					["timeline"] = { ADDED_11_0_7 },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						14193,	-- Vision of Destiny
-						14194,	-- Halls of Devotion
-						14195,	-- Gift of Flesh
-						14196,	-- The Waking Dream
-					}},
 				}),
 			}),
 			n(AZERITE_ESSENCES, {
@@ -353,72 +327,24 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
 				ZoneDrops({}),
 				header(HEADERS.LFGDungeon, 2036, {	-- Vision of Destiny
-					Boss(WRATHION, {
-						crit(46693, {	-- Wrathion, the Black Emperor
-							["achievementID"] = 14193,	-- Vision of Destiny
-						}),
-					}),
-					Boss(MAUT, {
-						crit(46694, {	-- Maut
-							["achievementID"] = 14193,	-- Vision of Destiny
-						}),
-					}),
-					Boss(PROPHET, {
-						crit(46695, {	-- The Prophet Skitra
-							["achievementID"] = 14193,	-- Vision of Destiny
-						}),
-					}),
+					Boss(WRATHION),
+					Boss(MAUT),
+					Boss(PROPHET),
 				}),
 				header(HEADERS.LFGDungeon, 2037, {	-- Halls of Devotion
-					Boss(INQUISITOR, {
-						crit(46696, {	-- Dark Inquisitor Xanesh
-							["achievementID"] = 14194,	-- Halls of Devotion
-						}),
-					}),
-					Boss(VEXIONA, {
-						crit(46697, {	-- Vexiona
-							["achievementID"] = 14194,	-- Halls of Devotion
-						}),
-					}),
-					Boss(HIVEMIND, {
-						crit(46698, {	-- The Hivemind
-							["achievementID"] = 14194,	-- Halls of Devotion
-						}),
-					}),
-					Boss(RADEN, {
-						crit(46699, {	-- Ra-den the Despoiled
-							["achievementID"] = 14194,	-- Halls of Devotion
-						}),
-					}),
+					Boss(INQUISITOR),
+					Boss(VEXIONA),
+					Boss(HIVEMIND),
+					Boss(RADEN),
 				}),
 				header(HEADERS.LFGDungeon, 2038, {	-- Gift of Flesh
-					Boss(SHADHAR, {
-						crit(46700, {	-- Shad'har the Insatiable
-							["achievementID"] = 14195,	-- Gift of Flesh
-						}),
-					}),
-					Boss(DRESTAGATH, {
-						crit(46701, {	-- Drest'agath
-							["achievementID"] = 14195,	-- Gift of Flesh
-						}),
-					}),
-					Boss(ILGYNOTH, {
-						crit(46702, {	-- Il'gynoth, Corruption Reborn
-							["achievementID"] = 14195,	-- Gift of Flesh
-						}),
-					}),
+					Boss(SHADHAR),
+					Boss(DRESTAGATH),
+					Boss(ILGYNOTH),
 				}),
 				header(HEADERS.LFGDungeon, 2039, {	-- The Waking Dream
-					Boss(CARAPACE, {
-						crit(46703, {	-- Carapace of N'Zoth
-							["achievementID"] = 14196,	-- The Waking Dream
-						}),
-					}),
-					Boss(NZOTH, {
-						crit(46704, {	-- N'Zoth, the Corruptor
-							["achievementID"] = 14196,	-- The Waking Dream
-						}),
-					}),
+					Boss(CARAPACE),
+					Boss(NZOTH),
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
