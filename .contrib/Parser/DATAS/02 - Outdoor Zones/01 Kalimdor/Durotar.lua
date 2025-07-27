@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(24814, {	-- An Ancient Enemy
 							["qg"] = 38442,	-- Morakki
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 							["groups"] = {
 								i(52879),	-- Sea Witch's Bracers
 								i(52884),	-- Footsteps of the Fallen Friend
@@ -205,7 +205,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(24625, {	-- Consort of the Sea Witch
 							["qg"] = 37987,	-- Tegashi
@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 							["groups"] = {
 								i(131826, {	-- Bloodtalon Chain Vest
 									["timeline"] = { ADDED_7_0_3 },
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(24624, {	-- Mercy for the Lost
 							["qg"] = 37987,	-- Tegashi
@@ -276,7 +276,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(25064, {	-- Moraya
 							["qg"] = 38966,	-- Vol'jin
@@ -309,7 +309,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(24769, {	-- More Than Expected (Druid)
 							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
@@ -433,7 +433,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 							["groups"] = {
 								i(52878),	-- Merciless Hands
 								i(52886),	-- Spitescale Breastplate
@@ -594,7 +594,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(25073, {	-- Sen'jin Village
 							["qg"] = 38966,	-- Vol'jin
@@ -615,7 +615,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 							["isBreadcrumb"] = true,
 						}),
 						q(24813, {	-- Territorial Fetish
@@ -637,7 +637,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 						}),
 						q(24766, {	-- The Arts of a Druid
 							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
@@ -966,7 +966,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER DF
 								EVOKER
 								-- #endif
-								}, ALL_CLASSES),
+							}, ALL_CLASSES),
 							["groups"] = {
 								i(52882),	-- Swift Plate Armbands
 								i(52877),	-- Moraya's Belt
