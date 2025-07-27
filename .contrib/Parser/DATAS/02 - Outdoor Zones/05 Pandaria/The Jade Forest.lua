@@ -288,10 +288,10 @@ root(ROOTS.Zones, {
 					}),
 					prof(INSCRIPTION, {
 						q(31539, {	-- A Thing of Beauty
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56065,	-- Inkmaster Wei
-							["isWeekly"] = true,
 							["coord"] = { 54.6, 44.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 							["groups"] = {
 								recipe(127378),	-- Commissioned Painting
 								i(87811),	-- Commissioned Painting (QI!)
@@ -299,10 +299,10 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(31544, {	-- A Tribute to the Dead
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56063,	-- Inkmaster Jo Po
-							["isWeekly"] = true,
 							["coord"] = { 55.2, 45.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 							["groups"] = {
 								recipe(127481),	-- Inscribed Monument
 								i(87831),	-- Inscribed Monument (QI!)
@@ -310,20 +310,20 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(31542, {	-- Incarnadine Ink
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56064,	-- Inkmaster Glenzu
-							["isWeekly"] = true,
 							["coord"] = { 54.8, 45.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 							["groups"] = {
 								recipe(127475),	-- Incarnadine Ink
 								i(87817),	-- Incarnadine Ink (QI!)
 							},
 						}),
 						q(31543, {	-- Portrait of a Lady
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56064,	-- Inkmaster Glenzu
-							["isWeekly"] = true,
 							["coord"] = { 54.8, 45.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 							["groups"] = {
 								recipe(128922),	-- Portrait of Madam Goya
 								i(88806),	-- Portrait of Madam Goya (QI!)
@@ -331,10 +331,10 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(31541, {	-- Set in Jade
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56063,	-- Inkmaster Jo Po
-							["isWeekly"] = true,
 							["coord"] = { 55.2, 45.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 							["groups"] = {
 								recipe(127391),	-- Engraved Jade Disk
 								i(87814),	-- Engraved Jade Disk (QI!)
@@ -342,10 +342,10 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(31540, {	-- Staves for Tian Monastery
-							["requireSkill"] = INSCRIPTION,
 							["qg"] = 56065,	-- Inkmaster Wei
-							["isWeekly"] = true,
 							["coord"] = { 54.6, 44.2, THE_JADE_FOREST },
+							["requireSkill"] = INSCRIPTION,
+							["isWeekly"] = true,
 						}),
 					}),
 					prof(MINING, {
@@ -495,9 +495,9 @@ root(ROOTS.Zones, {
 					}),
 					q(29925, {	-- All We Can Spare
 						["qg"] = 56348,	-- Toya
-					--	TODO: does this also require finishing all the other dawn's blossom quests?  is the overall criteria required or just 'the jade witch'?
 						["sourceQuest"] = 29723,	-- The Jade Witch
 						["coord"] = { 47.1, 46.1, THE_JADE_FOREST },
+					--	TODO: does this also require finishing all the other dawn's blossom quests?  is the overall criteria required or just 'the jade witch'?
 						["groups"] = {
 							i(76483),	-- Scavenged Jade (QI!)
 						},
@@ -1083,9 +1083,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(29893, {	-- Hue
-						["providers"] = {
-							{ "n", 56287 },	-- Lorewalker Cho
-							{ "n", 61218 },	-- Lorewalker Cho
+						["qgs"] = {
+							56287,	-- Lorewalker Cho
+							61218,	-- Lorewalker Cho
 						},
 						["sourceQuest"] = 31130,	-- A Visit with Lorewalker Cho
 						["coord"] = { 54.0, 91.2, THE_JADE_FOREST },
@@ -1433,9 +1433,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(29891, {	-- Potency
-						["providers"] = {
-							{ "n", 56287 },	-- Lorewalker Cho
-							{ "n", 61218 },	-- Lorewalker Cho
+						["qgs"] = {
+							56287,	-- Lorewalker Cho
+							61218,	-- Lorewalker Cho
 						},
 						["sourceQuest"] = 31130,	-- A Visit with Lorewalker Cho
 						["coord"] = { 54.0, 91.2, THE_JADE_FOREST },
@@ -1460,20 +1460,20 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(31772, {	-- Priorities! (H2)
-						["providers"] = {
-							{ "n", 66660 },	-- Ellie Honeypaw
-							{ "n", 66825 },	-- Ellie Honeypaw
+						["qgs"] = {
+							66660,	-- Ellie Honeypaw
+							66825,	-- Ellie Honeypaw
 						},
 						["sourceQuest"] = 31769,	-- The Final Blow!
 						["coord"] = { 30.5, 7.1, THE_JADE_FOREST },
 						["races"] = HORDE_ONLY,
 					}),
 					q(31773, {	-- Prowler Problems
-						["providers"] = {
-							{ "n", 66659 },	-- Sue-Ji the Tender
-							{ "n", 66838 },	-- Kai-Lin Honeydew
-							{ "n", 66841 },	-- Kai-Lin Honeydew
-							{ "n", 66853 },	-- Kai-Lin Honeydew
+						["qgs"] = {
+							66659,	-- Sue-Ji the Tender
+							66838,	-- Kai-Lin Honeydew
+							66841,	-- Kai-Lin Honeydew
+							66853,	-- Kai-Lin Honeydew
 						},
 						["sourceQuest"] = 31769,	-- The Final Blow!
 						["coords"] = {
