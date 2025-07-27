@@ -188,7 +188,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["coord"] = { 66.2, 51.6, DUSTWALLOW_MARSH },
 						["races"] = ALLIANCE_ONLY,
 						-- #if BEFORE 2.1.0
-						["g"] = ARTISAN_TAILORING,
+						["groups"] = ARTISAN_TAILORING,
 						-- #endif
 					}),
 				}),

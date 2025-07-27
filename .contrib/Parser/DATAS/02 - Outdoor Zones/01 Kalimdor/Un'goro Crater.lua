@@ -181,7 +181,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 43.6, 41.4, UNGORO_CRATER },
 					["timeline"] = { ADDED_7_2_0 },
 					["requireSkill"] = BLACKSMITHING,
-					["g"] = {
+					["groups"] = {
 						i(142388),	-- Bleached Stegodon Spike (QI!)
 						i(142387),	-- Calcified Diemetradon Scale (QI!)
 						i(142386),	-- Mostly Powerful Mojo (QI!)
@@ -1289,7 +1289,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 43.6, 41.4, UNGORO_CRATER },
 					["timeline"] = { ADDED_7_2_0 },
 					["requireSkill"] = BLACKSMITHING,
-					["g"] = {
+					["groups"] = {
 						i(142389),	-- Broken Darkspear (QI!)
 					},
 				}),
