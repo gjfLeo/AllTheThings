@@ -1,8 +1,8 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
-	applyclassicphase(MOP_PHASE_LANDFALL, n(ACHIEVEMENTS, {
+root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+	applyclassicphase(MOP_PHASE_ONE, n(ACHIEVEMENTS, {
 		ach(6920, {	-- Challenge Conqueror
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",

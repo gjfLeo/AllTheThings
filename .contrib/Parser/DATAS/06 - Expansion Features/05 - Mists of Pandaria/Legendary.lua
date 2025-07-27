@@ -10,11 +10,11 @@ LEGENDARY_THE_BLACK_PRINCE = createHeader({
 		tw = "傳奇：黑龍王子",
 	},
 });
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 } }, {
 	n(LEGENDARY_THE_BLACK_PRINCE, {
 		["isRaid"] = true,
 		["g"] = appendGroups(
-			applyclassicphase(MOP_PHASE_LANDFALL, {
+			applyclassicphase(MOP_PHASE_ONE, {
 				------ Chapter 1 ------
 				q(31488, {	-- Stranger in a Strange Land
 					["providers"] = {
@@ -94,11 +94,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						i(89881),	-- Crystallized Terror
 					},
 				}),
+			}),
+			applyclassicphase(MOP_PHASE_LANDFALL, {
 				------ Chapter 2 ------
 				q(31483, {	-- Incoming...
 					["sourceQuests"] = { 31482 },	-- Breath of the Black Prince
 					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
 					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
 					["isBreadcrumb"] = true,
 				}),
 				q(32373, {	-- The Measure of a Leader (A)

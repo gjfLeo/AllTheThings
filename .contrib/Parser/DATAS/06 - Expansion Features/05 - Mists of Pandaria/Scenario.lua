@@ -10,8 +10,8 @@ SCENARIOS = createHeader({
 		en = [[~SCENARIOS]],
 	},
 });
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
-	applyclassicphase(MOP_PHASE_LANDFALL, n(SCENARIOS, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+	applyclassicphase(MOP_PHASE_ONE, n(SCENARIOS, {
 		["crs"] = { 78709 },	-- Lorewalker Fu <Scenario Storyteller>
 		["lvl"] = lvlsquish(90, 90, 35),
 		["g"] = {
@@ -53,7 +53,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						q(30442, {	-- Blanche's Boomer Brew
 							["qg"] = 59569,	-- Brewmaster Blanche
 							["coord"] = { 38.0, 30.0, THE_JADE_FOREST },
-							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 							["isDaily"] = true,
 						}),
 					}),

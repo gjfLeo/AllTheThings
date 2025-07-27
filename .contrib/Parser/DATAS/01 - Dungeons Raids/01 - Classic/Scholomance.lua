@@ -2190,7 +2190,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 	["groups"] = {
 		n(ACHIEVEMENTS, {
 			ach(6715, {	-- Polyformic Acid Science
-				["timeline"] = { ADDED_5_1_0 },
+				["timeline"] = { ADDED_5_0_4 },
 				["groups"] = sharedData({
 					["cost"] = {
 						{ "i", 85589, 1 },	-- Nearly Full Vial of Polyformic Acid
@@ -2473,7 +2473,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 	},
 }));
 -- #if AFTER 5.0.4
-table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 } }, {
 	ach(8438, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Scholomance
 		title(245),	-- Darkmaster <Name>
 	})),

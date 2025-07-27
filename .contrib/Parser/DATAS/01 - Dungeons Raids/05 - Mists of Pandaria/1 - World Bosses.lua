@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
 		["g"] = sharedData({
@@ -590,7 +590,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}))),
-			applyclassicphase(MOP_PHASE_LANDFALL, e(725, {	-- Saylis's Warband [Galleon]
+			applyclassicphase(MOP_PHASE_ONE, e(725, {	-- Saylis's Warband [Galleon]
 				["questID"] = 32098,
 				["coord"] = { 70.79, 63.51, VALLEY_OF_THE_FOUR_WINDS },
 				["maps"] = {	-- all Valley of the Four Winds maps
@@ -690,7 +690,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			})),
-			applyclassicphase(MOP_PHASE_LANDFALL, e(691, {	-- Sha of Anger
+			applyclassicphase(MOP_PHASE_ONE, e(691, {	-- Sha of Anger
 				["questID"] = 32099,
 				["coord"] = { 53.53, 65.26, KUN_LAI_SUMMIT },
 				["maps"] = {	-- all Kun-Lai Summit maps
@@ -1364,7 +1364,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 		}),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 	m(PANDARIA, {
 		m(ISLE_OF_GIANTS, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
 			n(WORLD_BOSSES, {

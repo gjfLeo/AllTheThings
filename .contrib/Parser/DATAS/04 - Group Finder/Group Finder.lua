@@ -563,10 +563,10 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 				i(113750),	-- Kyparite Shoulderguards
 			},
 		}),
-		i(98133, {	-- Greater Cache of Treasures
+		i(89613, {	-- Cache of Treasures [Looks like this was deprecated in favor of #92813)
 			["timeline"] = {
-				ADDED_5_3_0,
-				REMOVED_9_0_1,	-- no longer available to queue random scenarios post 9.0 squish
+				ADDED_5_0_4,
+				REMOVED_5_1_0,
 			},
 		}),
 		i(92813, {	-- Greater Cache of Treasures [Looks like this was deprecated in favor of #98133)
@@ -575,10 +575,10 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 				REMOVED_5_3_0,
 			},
 		}),
-		i(89613, {	-- Cache of Treasures [Looks like this was deprecated in favor of #92813)
+		i(98133, {	-- Greater Cache of Treasures
 			["timeline"] = {
-				ADDED_5_0_4,
-				REMOVED_5_1_0,
+				ADDED_5_3_0,
+				REMOVED_9_0_1,	-- no longer available to queue random scenarios post 9.0 squish
 			},
 		}),
 		i(98134, {	-- Heroic Cache of Treasures

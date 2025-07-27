@@ -98,7 +98,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					i(19970),	-- Arcanite Fishing Pole
 					i(19979),	-- Hook of the Master Angler
 					-- #if AFTER 5.1.0
-					i(50287),	-- Boots of the Bay,
+					i(50287),	-- Boots of the Bay
 					i(50255, {	-- Dread Pirate Ring
 						["timeline"] = { ADDED_5_1_0, REMOVED_6_1_0 },
 					}),
@@ -179,7 +179,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 				},
 				["timeline"] = { ADDED_5_1_0, REMOVED_7_1_0 },
 				["groups"] = {
-					i(50287),	-- Boots of the Bay,
+					i(50287),	-- Boots of the Bay
 					i(50255, {	-- Dread Pirate Ring
 						["timeline"] = { ADDED_5_1_0, REMOVED_6_1_0 },
 					}),

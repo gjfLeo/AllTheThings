@@ -1091,11 +1091,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["g"] = {
 					i(89808, {	-- Dividends of the Everlasting Spring (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
-						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(89857, {	-- Dividends of the Everlasting Spring (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
-						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(95617, {	-- Dividends of the Everlasting Spring
 						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Heart of Fear.",
@@ -1245,7 +1245,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["g"] = {
 						ach(6825),	-- The Mind-Killer
 						ach(8248, {	-- Ahead of the Curve: Sha of Fear
-							["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 							-- #if MOP
 							["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 							-- #endif
@@ -1490,14 +1490,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								title(198),	-- the Fearless
 							}),
 							ach(7487, {	-- Cutting Edge: Sha of Fear
-								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 								-- #if MOP
 								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 								-- #endif
 							}),
 							ach(6676),	-- Heroic: Sha of Fear Guild Run
 							ach(6678, {	-- Realm First! Sha of Fear
-								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 								-- #if MOP
 								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 								-- #endif

@@ -91,6 +91,7 @@ root(ROOTS.Zones, {
 				}),
 				n(FACTIONS, {
 					faction(FACTION_DOMINANCE_OFFENSIVE, {	-- Dominance Offensive
+						["timeline"] = { ADDED_5_1_0 },
 						["races"] = HORDE_ONLY,
 						["icon"] = 464078,
 						["groups"] = {
@@ -839,6 +840,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					faction(FACTION_OPERATION_SHIELDWALL, {	-- Operation: Shieldwall
+						["timeline"] = { ADDED_5_1_0 },
 						["races"] = ALLIANCE_ONLY,
 						["icon"] = 464076,
 						["groups"] = {

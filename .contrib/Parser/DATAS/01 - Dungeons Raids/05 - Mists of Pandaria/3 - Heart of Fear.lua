@@ -63,13 +63,13 @@ local CUTTING_EDGE_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 		t.rwp = nil;
 	else
-		t.u = ]] .. MOP_PHASE_LANDFALL .. [[;
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
 		t.rwp = 50200;
 	end
 end]];
 -- #endif
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
-	applyclassicphase(MOP_PHASE_LANDFALL, inst(330, {	-- Heart of Fear
+	applyclassicphase(MOP_PHASE_ONE, inst(330, {	-- Heart of Fear
 		["isRaid"] = true,
 		["coord"] = { 39.0, 34.9, DREAD_WASTES },	-- Heart of Fear
 		["maps"] = {
@@ -573,11 +573,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["g"] = {
 					i(89807, {	-- Amber Encased Treasure Pouch (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
-						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(89856, {	-- Amber Encased Treasure Pouch (Original)
 						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
-						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(95619, {	-- Amber Encased Treasure Pouch
 						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Heart of Fear.",
@@ -765,7 +765,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							}),
 						}),
 						ach(8246, {	-- Ahead of the Curve: Grand Empress Shek'zeer
-							["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 							-- #if MOP
 							["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 							-- #endif
@@ -999,13 +999,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62837 },	-- Grand Empress Shek'zeer
 						["g"] = {
 							ach(7486, {	-- Cutting Edge: Grand Empress Shek'zeer
-								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 								-- #if MOP
 								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 								-- #endif
 							}),
 							ach(6679, {	-- Realm First! Grand Empress Shek'zeer
-								["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+								["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 								-- #if MOP
 								["OnUpdate"] = CUTTING_EDGE_ONUPDATE;
 								-- #endif

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
-root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
+root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
 		["description"] = "Gain reputation with this faction by training a cloud serpent hatchling, and eventually you will earn either an Azure, Golden, or Jade Cloud Serpent mount.  More rewards are unlocked by reaching Revered and Exalted with the faction, including a toy, more mounts, and Jewelcrafting designs.\n\nThe quest chain begins with |cFFefc400Wild Things|r.\n\n",
 		["maps"] = { THE_JADE_FOREST },
@@ -838,7 +838,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EX
 					},
 					["description"] = "This is learned by completing the Riding the Skies quest chain upon reaching Exalted with the Order of the Cloud Serpents.",
 					["minReputation"] = { FACTION_ORDER_OF_THE_CLOUD_SERPENT, EXALTED },
-					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 				}),
 			}),
 			-- #endif
@@ -911,7 +911,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EX
 							-- #if ANYCLASSIC
 							i(247497, {	-- Order of the Cloud Serpent Flight Log
 								["recipeID"] = 130487,	-- Cloud Serpent Riding
-								["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+								["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 							}),
 							-- #endif
 							i(89796),	-- Order of the Cloud Serpent Tabard
@@ -932,7 +932,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_LANDFALL, expansion(EX
 	}),
 }))));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
 		n(QUESTS, {
 			q(30165),	-- Tracking Event: Picked Blue Serpent - picked the blue serpent egg during "Choosing the One" (questID 30138)
