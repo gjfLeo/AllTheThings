@@ -286,16 +286,20 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					i(171201),	-- Vantus Rune Technique: Ny'alotha, the Waking City [Rank 2] (RECIPE!)
 					i(171200),	-- Vantus Rune Technique: Ny'alotha, the Waking City [Rank 3] (RECIPE!)
 				}),
+				BossOnly(WRATHION),
 				BossOnly(MAUT, {
 					i(174446),	-- Muar (PET!)
 				}),
 				BossOnly(PROPHET, {
 					i(174279),	-- Encrypted Ny'alothan Text
 				}),
+				BossOnly(INQUISITOR),
 				BossOnly(HIVEMIND, {
 					i(174448),	-- Aqir Hivespawn (PET!)
 					i(174449),	-- Ra'kim (PET!)
 				}),
+				BossOnly(SHADHAR),
+				BossOnly(DRESTAGATH),
 				BossOnly(ILGYNOTH, {
 					i(174279),	-- Encrypted Ny'alothan Text
 				}),
@@ -306,6 +310,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					i(174279),	-- Encrypted Ny'alothan Text
 					i(174447),	-- Void-Scarred Anubisath (PET!)
 				}),
+				BossOnly(CARAPACE),
 				BossOnly(NZOTH, {
 					i(174279),	-- Encrypted Ny'alothan Text
 					i(174452),	-- Eye of Corruption (PET!)
