@@ -411,6 +411,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 		filter(NECK_F, {
 			i(118847),	-- Amulet of Quel'Riq
 			i(116686),	-- Ancestral Amulet
+			i(118845),	-- Azereki's Grave Seal
 			i(116677),	-- Coldsinger Amulet
 			i(118843),	-- Eleece's Braced Gorget
 			i(116679),	-- Growthshaper Amulet
@@ -578,6 +579,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 		}),
 		filter(TRINKET_F, {
 			i(118883),	-- Bronze Elekk Statue
+			i(118879),	-- Everblooming Thorny Hibiscus
 			i(118880),	-- Everburning Candle
 			i(118877),	-- Fizzlebang's Folly
 			i(118876),	-- Lucky Double-Sided Coin

@@ -173,31 +173,31 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66738, {	-- Courageous Yon <Grand Master Pet Tamer>
 						["coord"] = { 35.8, 73.6, KUN_LAI_SUMMIT },
-						["timeline"] = { ADDED_5_1_0 },
+						["timeline"] = { ADDED_5_0_4 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(31956, {	-- Grand Master Yon
 								["sourceAchievement"] = 6606,	-- Taming Pandaria
-								["timeline"] = { ADDED_5_1_0 },
+								["timeline"] = { ADDED_5_0_4 },
 								["isDaily"] = true,
 								["groups"] = {
 									i(89125),	-- Sack of Pet Supplies
 								},
 							}),
-							q(63435, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Temple Throwdown
-								["qg"] = 176655,	-- Anthea <Carefree Pet Tamer>
-								["coord"] = { 70.4, 51.4, KUN_LAI_SUMMIT },
-								["timeline"] = { ADDED_9_1_0 },
-								["isDaily"] = true,
-								["groups"] = {
-									i(184866, {	-- Grummlepouch
-										i(89587),	-- Porcupette (PET!)
-										i(184867),	-- Squibbles (PET!)
-									}),
-								},
-							})),
 						},
 					}),
+					q(63435, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Temple Throwdown
+						["qg"] = 176655,	-- Anthea <Carefree Pet Tamer>
+						["coord"] = { 70.4, 51.4, KUN_LAI_SUMMIT },
+						["timeline"] = { ADDED_9_1_0 },
+						["isDaily"] = true,
+						["groups"] = {
+							i(184866, {	-- Grummlepouch
+								i(89587),	-- Porcupette (PET!)
+								i(184867),	-- Squibbles (PET!)
+							}),
+						},
+					})),
 					n(68465, {	-- Thundering Pandaren Spirit <Grand Master Pet Tamer>
 						["coord"] = { 64.8, 93.6, KUN_LAI_SUMMIT },
 						["timeline"] = { ADDED_5_1_0 },

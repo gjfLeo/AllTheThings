@@ -208,12 +208,12 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66730, {	-- Hyuna of the Shrines <Grand Master Pet Tamer>
 						["coord"] = { 48.0, 54.0, THE_JADE_FOREST },
-						["timeline"] = { ADDED_5_1_0 },
+						["timeline"] = { ADDED_5_0_4 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(31953, {	-- Grand Master Hyuna
 								["sourceAchievement"] = 6606,	-- Taming Pandaria
-								["timeline"] = { ADDED_5_1_0 },
+								["timeline"] = { ADDED_5_0_4 },
 								["isDaily"] = true,
 								["groups"] = {
 									i(89125),	-- Sack of Pet Supplies

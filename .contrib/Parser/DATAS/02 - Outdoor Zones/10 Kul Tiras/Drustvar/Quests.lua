@@ -989,8 +989,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 140048 },	-- Arthur Tradewind
 				["coord"] = { 58.4, 63.1, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
-				["sourceQuests"] = { 48622 },	-- The Vanishing Lord
-				-- May have other/later sourceQuests; needs confirmation.  Picked up after turning in "Deliverance."
+				["sourceQuests"] = {
+					48622,	-- The Vanishing Lord
+					52074,	-- Deliverance
+				},
+				-- May have other/later sourceQuests; needs confirmation.
 				-- Not required for "Drust Do It."
 			}),
 			q(50449, {	-- Reeking Refuge

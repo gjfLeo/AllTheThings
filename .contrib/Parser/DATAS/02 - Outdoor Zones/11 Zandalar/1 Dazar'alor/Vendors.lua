@@ -181,6 +181,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 42.3, 39.7, DAZARALOR },
 				["g"] = {
 					i(158205),	-- Acacia Powder
+					i(158186),	-- Distilled Water
 					TempForceMisc(i(168026)),	-- Book of Techniques: Sanguine Feather Quill of Lana'thel
 				},
 			}),

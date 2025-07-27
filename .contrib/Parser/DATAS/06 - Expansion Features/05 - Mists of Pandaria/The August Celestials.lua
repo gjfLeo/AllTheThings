@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
-root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_THE_AUGUST_CELESTIALS, {
 		["description"] = "Each day, the August Celestials require your aid at one of their temples.  Speak to the representative in your faction's Vale of Eternal Blossoms shrine to find out where your help is needed (|cff3f48ccSage Whiteheart for Alliance|r and |cff880015Sage Lotusbloom for Horde|r).\n\nThe dailies will be in one of these locations:\nJade Forest - Temple of the Jade Serpent\nKrasarang Wilds - Cradle of Chi-Ji\nKun-Lai Summit - Temple of the White Tiger\nTownlong Steppes - Niuzao Temple\n\n",
 		["icon"] = 645203,
@@ -139,7 +139,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_PHASE_ONE, expansion(E
 						}),
 					},
 				}),
-				
+
 				-- Kun-Lai Summit
 				q(31380, {	-- Trial At The Temple of the White Tiger (A)
 					["qg"] = 64032,	-- Sage Whiteheart
@@ -273,7 +273,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_PHASE_ONE, expansion(E
 						}),
 					},
 				}),
-				
+
 				-- The Jade Forest
 				q(31376, {	-- Attack At The Temple of the Jade Serpent (A)
 					["qg"] = 64032,	-- Sage Whiteheart
@@ -382,7 +382,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_PHASE_ONE, expansion(E
 						}),
 					},
 				}),
-				
+
 				-- Townlong Steppes
 				q(31382, {	-- Defense At Niuzao Temple (A)
 					["qg"] = 64032,	-- Sage Whiteheart

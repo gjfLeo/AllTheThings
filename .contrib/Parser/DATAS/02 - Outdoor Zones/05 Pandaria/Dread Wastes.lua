@@ -198,12 +198,12 @@ root(ROOTS.Zones, {
 					}),
 					n(66739, {	-- Wastewalker Shu <Grand Master Pet Tamer>
 						["coord"] = { 55.0, 37.6, DREAD_WASTES },
-						["timeline"] = { ADDED_5_1_0 },
+						["timeline"] = { ADDED_5_0_4 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(31957, {	-- Grand Master Shu
 								["sourceAchievement"] = 6606,	-- Taming Pandaria
-								["timeline"] = { ADDED_5_1_0 },
+								["timeline"] = { ADDED_5_0_4 },
 								["isDaily"] = true,
 								["groups"] = {
 									i(89125),	-- Sack of Pet Supplies

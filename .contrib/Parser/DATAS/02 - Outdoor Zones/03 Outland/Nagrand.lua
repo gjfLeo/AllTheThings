@@ -2088,6 +2088,7 @@ root(ROOTS.Zones, {
 							{ 57.0, 40.0, NAGRAND },
 						},
 						["races"] = HORDE_ONLY,
+						["minReputation"] = { FACTION_THE_MAGHAR, NEUTRAL },
 						["groups"] = {
 							i(21894, {	-- Pattern: Bolt of Soulcloth (RECIPE!)
 								["isLimited"] = true,

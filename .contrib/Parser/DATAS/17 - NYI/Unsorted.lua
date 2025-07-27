@@ -3107,7 +3107,6 @@ root(ROOTS.Unsorted, {
 				i(158173),	-- Orders from the Emperor
 				i(158177),	-- Pterrordax Salivary Gland
 				i(158182),	-- Overcharged Skycaller's Staff
-				i(158186),	-- Distilled Water
 				i(158195),	-- Frothing Vial
 				i(158206),	-- Charged Crystal
 				i(158207),	-- Insulated Hammer
@@ -3377,7 +3376,6 @@ root(ROOTS.Unsorted, {
 			i(166771),	-- Jury-Rigged Hand Cannon
 			i(166792),	-- Taste of Victory
 			i(166853),	-- Gilded Egg of Pa'ku
-			i(166854),	-- Jade Sethraliss Effigy
 			i(166855),	-- Obsidian Statue of Kith'ix
 			i(166857),	-- Bethekk's Emerald Eyes
 			i(166863),	-- Farrakki Star Rubies
@@ -3509,8 +3507,6 @@ root(ROOTS.Unsorted, {
 			i(168188),	-- Sage Agate
 			i(168190),	-- Lava Lazuli
 			i(168191),	-- Sea Currant
-			i(168192),	-- Sand Spinel
-			i(168193),	-- Azsharine
 			i(168232),	-- Murloco's "Fish" Tacos
 			i(168237),	-- Coral Root Chunk
 			i(168242),	-- Angel Scale Starfish

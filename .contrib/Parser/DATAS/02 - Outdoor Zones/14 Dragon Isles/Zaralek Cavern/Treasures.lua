@@ -229,6 +229,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					o(386090, {	-- Ritual Offerings
 						["questID"] = 73552,
 						["coords"] = {
+							{ 29.0, 54.9, ZARALEK_CAVERN },
 							{ 30.1, 51.4, ZARALEK_CAVERN },
 							{ 36.4, 52.3, ZARALEK_CAVERN },
 							{ 35.1, 52.2, ZARALEK_CAVERN },

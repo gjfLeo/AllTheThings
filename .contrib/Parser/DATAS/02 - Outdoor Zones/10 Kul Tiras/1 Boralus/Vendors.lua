@@ -741,6 +741,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 73.4, 6.3, BORALUS },
 				["g"] = {
 					i(158205),	-- Acacia Powder
+					i(158186),	-- Distilled Water
 					TempForceMisc(i(168026)),	-- Book of Techniques: Sanguine Feather Quill of Lana'thel
 				},
 			}),

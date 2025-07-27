@@ -155,12 +155,12 @@ root(ROOTS.Zones, {
 					}),
 					n(66918, {	-- Seeker Zusshi <Grand Master Pet Tamer>
 						["coord"] = { 36.2, 52.2, TOWNLONG_STEPPES },
-						["timeline"] = { ADDED_5_1_0 },
+						["timeline"] = { ADDED_5_0_4 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(31991, {	-- Grand Master Zusshi
 								["sourceAchievement"] = 6606,	-- Taming Pandaria
-								["timeline"] = { ADDED_5_1_0 },
+								["timeline"] = { ADDED_5_0_4 },
 								["isDaily"] = true,
 								["groups"] = {
 									i(89125),	-- Sack of Pet Supplies

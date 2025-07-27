@@ -117,6 +117,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			n(180160, {	-- Reliwik the Defiant
 				["description"] = "Click the |cFFFFFFFFUncorrupted Razorwing Egg|r to draw the attention of the rare.",
+				["provider"] = { "o", 369435 },	-- Uncorrupted Razorwing Egg
 				["coord"] = { 56.3, 66.2, KORTHIA },
 				["questID"] = 64455,
 				["g"] = {

@@ -22,6 +22,7 @@ i(2657);	-- Red Leather Bag
 i(3914);	-- Journeyman's Backpack
 i(5571);	-- Small Black Pouch
 i(5572);	-- Small Green Pouch
+i(5573);	-- Green Leather Bag
 i(6457);	-- Rusted Engineering Parts
 i(23553,{collectible=false})	-- Living Branch
 i(16967,{collectible=false})	-- Feralas Ahi
@@ -467,6 +468,7 @@ i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
 i(166867);	-- Embossed Silver Bijou
 i(166799);	-- Emerald of Vigor (Opulence Crown Consumable)
 i(166861);	-- Hakkari Blood Garnet
+i(166854);	-- Jade Sethraliss Effigy
 i(166870);	-- Mithril-Trimmed Ritual Plate
 i(166801);	-- Sapphire of Brilliance (Opulence Crown Consumable)
 i(166875);	-- Silver Filigreed Devilsaur Tooth
