@@ -3976,7 +3976,7 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 			}
 		}
 	})),
-	applyclassicphase(MOP_PHASE_LANDFALL, expansion(EXPANSION.MOP, {
+	applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, {
 		{
 			["name"] = "Research",
 			["categoryID"] = 831,

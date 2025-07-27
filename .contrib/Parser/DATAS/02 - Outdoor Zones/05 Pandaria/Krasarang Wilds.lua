@@ -90,7 +90,7 @@ root(ROOTS.Zones, {
 					exploration(6000),	-- Zhu's Watch
 				}),
 				n(FACTIONS, {
-					faction(FACTION_DOMINANCE_OFFENSIVE, {	-- Dominance Offensive
+					applyclassicphase(MOP_PHASE_LANDFALL, faction(FACTION_DOMINANCE_OFFENSIVE, {	-- Dominance Offensive
 						["timeline"] = { ADDED_5_1_0 },
 						["races"] = HORDE_ONLY,
 						["icon"] = 464078,
@@ -838,8 +838,8 @@ root(ROOTS.Zones, {
 								}),
 							}),
 						},
-					}),
-					faction(FACTION_OPERATION_SHIELDWALL, {	-- Operation: Shieldwall
+					})),
+					applyclassicphase(MOP_PHASE_LANDFALL, faction(FACTION_OPERATION_SHIELDWALL, {	-- Operation: Shieldwall
 						["timeline"] = { ADDED_5_1_0 },
 						["races"] = ALLIANCE_ONLY,
 						["icon"] = 464076,
@@ -1557,7 +1557,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 						},
-					}),
+					})),
 					faction(FACTION_THE_ANGLERS, {	-- The Anglers
 						["requireSkill"] = FISHING,	-- doesn't seem like you can even get access to the faction on a non-fisher.  flew/walked all around the area on a character with no professions and nothing, and as soon as i flew up on a character with fishing the faction unlocked and all the NPCs appeared
 						["icon"] = 643874,

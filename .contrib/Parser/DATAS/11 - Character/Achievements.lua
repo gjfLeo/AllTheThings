@@ -138,11 +138,11 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 		["timeline"] = { ADDED_4_0_6 },
 		["_noautomation"] = true,
 	})),
-	applyclassicphase(MOP_PHASE_LANDFALL, ach(6826, {		-- 55 Exalted Reputations
+	applyclassicphase(MOP_PHASE_ONE, ach(6826, {		-- 55 Exalted Reputations
 		["timeline"] = { ADDED_5_0_4 },
 		["_noautomation"] = true,
 	})),
-	applyclassicphase(MOP_PHASE_LANDFALL, ach(6742, bubbleDownSelf({["timeline"] = {ADDED_5_0_4}}, {	-- 60 Exalted Reputations
+	applyclassicphase(MOP_PHASE_ONE, ach(6742, bubbleDownSelf({["timeline"] = {ADDED_5_0_4}}, {	-- 60 Exalted Reputations
 		["_noautomation"] = true,
 		["g"] = {
 			title(197),	-- <Name> the Beloved

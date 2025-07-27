@@ -4,7 +4,7 @@
 
 root(ROOTS.PVP, {
 	pvp(expansion(EXPANSION.MOP, {
-		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_LANDFALL, {
+		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, {
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 }, }, {
 				ach(8243, {	-- Hero of the Alliance: Malevolent
 					["races"] = ALLIANCE_ONLY,

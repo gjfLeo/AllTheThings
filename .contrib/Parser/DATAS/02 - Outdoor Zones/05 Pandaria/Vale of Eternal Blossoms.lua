@@ -7,7 +7,7 @@ local VALE_TOT_ONUPDATE = [[function(t)
 	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
-		t.u = ]] .. MOP_PHASE_LANDFALL .. [[;
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
 		t.description = "This will be unavailable when the Rise of the Thunder King phase begins."
 	end
 end]];
@@ -15,7 +15,7 @@ local VALE_SOO_ONUPDATE = [[function(t)
 	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_SIEGE_OF_ORGRIMMAR .. [[) then
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
-		t.u = ]] .. MOP_PHASE_LANDFALL .. [[;
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
 		t.description = "This will be unavailable when the Siege of Orgrimmar phase begins."
 	end
 end]];
@@ -1003,13 +1003,13 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(32246, applyclassicphase(MOP_PHASE_LANDFALL, {	-- Meet the Scout (A)
+					q(32246, applyclassicphase(MOP_PHASE_ONE, {	-- Meet the Scout (A)
 						["provider"] = { "n", 64610 },	-- Lyalia
 						["coord"] = { 84.0, 58.7, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 31483 },	-- Incoming...
 					})),
-					q(32249, applyclassicphase(MOP_PHASE_LANDFALL, {	-- Meet the Scout (H)
+					q(32249, applyclassicphase(MOP_PHASE_ONE, {	-- Meet the Scout (H)
 						["provider"] = { "n", 64566 },	-- Sunwalker Dezco
 						["coord"] = { 62.8, 27.9, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = HORDE_ONLY,

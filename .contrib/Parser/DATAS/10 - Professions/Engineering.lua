@@ -3045,7 +3045,7 @@ profession(ENGINEERING, {
 			},
 		},
 	})),
-	applyclassicphase(MOP_PHASE_LANDFALL, expansion(EXPANSION.MOP, {
+	applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, {
 		{
 			["name"] = "Explosives",
 			["categoryID"] = 726,

@@ -5619,7 +5619,7 @@ profession(LEATHERWORKING, {
 			},
 		},
 	})),
-	applyclassicphase(MOP_PHASE_LANDFALL, expansion(EXPANSION.MOP, {
+	applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, {
 		n(DISCOVERY, {
 			spell(142976, {  -- Hardened Magnificent Hide
 				recipe(143139),	-- Crafted Malevolent Gladiator's Chain Helm

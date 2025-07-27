@@ -2,7 +2,7 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED_5_0_4 }, {
-	applyclassicphase(MOP_PHASE_LANDFALL, inst(313, {	-- Temple of the Jade Serpent
+	applyclassicphase(MOP_PHASE_ONE, inst(313, {	-- Temple of the Jade Serpent
 		["coord"] = { 56.0, 57.8, THE_JADE_FOREST },
 		["maps"] = {
 			429,	-- Temple of the Jade Serpent
