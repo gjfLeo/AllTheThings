@@ -17,49 +17,49 @@ root(ROOTS.Zones, m(PANDARIA, {
 				["races"] = ALLIANCE_ONLY,
 			},{
 				q(32007, {	-- A Worthy Challenge: Darkmaster Gandling
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32005, {	-- A Worthy Challenge: Durand
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32006, {	-- A Worthy Challenge: Flameweaver Koegler
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32003, {	-- A Worthy Challenge: Raigonn
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31998, {	-- A Worthy Challenge: Sha of Doubt
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32001, {	-- A Worthy Challenge: Sha of Hatred
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32004, {	-- A Worthy Challenge: Wing Leader Ner'onok
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32002, {	-- A Worthy Challenge: Xin the Weaponmaster
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32000, {	-- A Worthy Challenge: Yan-zhu the Uncasked
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(33248, {	-- Proving Grounds
 					["qg"] = 64101,	-- Taijin the Cyclone

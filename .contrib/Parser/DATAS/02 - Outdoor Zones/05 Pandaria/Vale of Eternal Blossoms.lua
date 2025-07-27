@@ -615,7 +615,7 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
-						["g"] = {
+						["groups"] = {
 							i(80484),	-- Explosive Keg (QI!)
 						},
 					}),
@@ -623,7 +623,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["provider"] = { "n", 59905 },	-- Zhi the Harmonious
 						["sourceQuests"] = { 30641 },	-- Battle Helm of the Thunder King
-						["g"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
 							i(90601),	-- Bonded Plate of the Golden Lotus
 							i(90607),	-- Burning Robes of the Golden Lotus
 							i(90598),	-- Crackling Chain of the Golden Lotus
@@ -799,7 +799,7 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
-						["g"] = {
+						["groups"] = {
 							i(89297),	-- Shao-Tien Spirit Dagger (QI!)
 						},
 					}),
@@ -1160,7 +1160,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["provider"] = { "n", 59338 },	-- Che Wildwalker
 						["isDaily"] = true,
-						["g"] = { i(87807) },	-- Stone of the Water Strider (QI!)
+						["groups"] = { i(87807) },	-- Stone of the Water Strider (QI!)
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
@@ -1412,7 +1412,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
 						["isDaily"] = true,
 						["provider"] = { "n", 58919 },	-- Anji Autumnlight
-						["g"] = {
+						["groups"] = {
 							i(87790),	-- Ancient Guo-Lai Artifact (QI!)
 						},
 					}),
@@ -1438,7 +1438,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 74.2, 41.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["provider"] = { "n", 59906 },	-- Sinan the Dreamer
 						["sourceQuests"] = { 30645 },	-- The Might of Three
-						["g"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
 							i(90596),	-- Burning Necklace of the Golden Lotus
 							i(90593),	-- Delicate Necklace of the Golden Lotus
 							i(90594),	-- Durable Necklace of the Golden Lotus
@@ -1621,7 +1621,7 @@ root(ROOTS.Zones, {
 							30637,	-- The Guo-Lai Halls
 							30654,	-- The Guo-Lai Halls
 						},
-						["g"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
 							i(90615),	-- Burning Mark of the Golden Lotus
 							i(90614),	-- Delicate Mark of the Golden Lotus
 							i(90618),	-- Durable Mark of the Golden Lotus
@@ -1862,7 +1862,7 @@ root(ROOTS.Zones, {
 							50359,	-- Urgolax
 							50336,	-- Yorik Sharpeye
 						},
-						["g"] = {
+						["groups"] = {
 							i(87636),	-- Cloak of the Forgotten Emperor
 							i(87638),	-- Cloak of Tranquil Clouds
 							i(87637),	-- Jade Harbinger's Cloak
@@ -1873,7 +1873,7 @@ root(ROOTS.Zones, {
 					}),
 					n(58778, {	-- Aetha
 						["coord"] = { 35.0, 89.9, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20521, {	-- Aetha
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1882,7 +1882,7 @@ root(ROOTS.Zones, {
 					}),
 					n(50822, {	-- Ai-Ran the Shifting Cloud
 						["coord"] = { 42.8, 69.2, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86590),	-- Essence of the Breeze (TOY!)
 						},
 					}),
@@ -1896,13 +1896,13 @@ root(ROOTS.Zones, {
 						["cost"] = {
 							{ "i", 86546, 1 },	-- Sky Crystal
 						},
-						["g"] = {
+						["groups"] = {
 							i(90655),	-- Thundering Ruby Cloud Serpent (MOUNT!)
 						},
 					}),
 					n(58949, {	-- Bai-Jin the Butcher
 						["coord"] = { 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20530, {	-- Bai-Jin the Butcher
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1911,7 +1911,7 @@ root(ROOTS.Zones, {
 					}),
 					n(63695, {	-- Baolai the Immolator
 						["coord"] = { 28.7, 43.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20524, {	-- Baolai the Immolator
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1923,7 +1923,7 @@ root(ROOTS.Zones, {
 							{ 75.8, 47.5, 395 },
 							{ 22.4, 26.7, 395 },	-- Entrance
 						},
-						["g"] = {
+						["groups"] = {
 							crit(20526, {	-- Bloodtip
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1932,7 +1932,7 @@ root(ROOTS.Zones, {
 					}),
 					n(58768, {	-- Cracklefang
 						["coord"] = { 46.4, 59.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20517, {	-- Cracklefang
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1944,7 +1944,7 @@ root(ROOTS.Zones, {
 							{ 53.1, 59.3, 395 },
 							{ 22.4, 26.7, 395 },	-- Entrance
 						},
-						["g"] = {
+						["groups"] = {
 							crit(20525, {	-- Gaohun the Soul-Severer
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1956,7 +1956,7 @@ root(ROOTS.Zones, {
 							{ 26.3, 51.1, VALE_OF_ETERNAL_BLOSSOMS },
 							{ 28.9, 56.3, VALE_OF_ETERNAL_BLOSSOMS },
 						},
-						["g"] = {
+						["groups"] = {
 							crit(20519, {	-- General Temuja
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1965,7 +1965,7 @@ root(ROOTS.Zones, {
 					}),
 					n(62880, {	-- Gochao the Ironfist
 						["coord"] = { 26.86, 13.08, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20528, {	-- Gochao the Ironfist
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1978,7 +1978,7 @@ root(ROOTS.Zones, {
 							{ 63.98, 19.19, 395 },
 							{ 22.43, 26.75, 395 },	-- Entrance
 						},
-						["g"] = {
+						["groups"] = {
 							crit(20529, {	-- Huo-Shuang
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -1987,7 +1987,7 @@ root(ROOTS.Zones, {
 					}),
 					n(50749, {	-- Kal'tik the Blight
 						["coord"] = { 14.0, 58.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86579, {	-- Bottled Tornado [Should be a toy...]
 								["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
 							}),
@@ -1998,13 +1998,13 @@ root(ROOTS.Zones, {
 					}),
 					n(50349, {	-- Kang the Soul Thief
 						["coord"] = { 15.2, 35.2, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86571),	-- Kang's Bindstone (TOY!)
 						},
 					}),
 					n(63978, {	-- Kri'chon
 						["coord"] = { 6.27, 58.5, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20531, {	-- Kri'chon
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2013,7 +2013,7 @@ root(ROOTS.Zones, {
 					}),
 					n(50840, {	-- Major Nanners
 						["coord"] = { 30.7, 91.5, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86594),	-- Helpful Wikky's Whistle (TOY!)
 						},
 					}),
@@ -2022,13 +2022,13 @@ root(ROOTS.Zones, {
 							{ 39.1, 54.0, VALE_OF_ETERNAL_BLOSSOMS },
 							{ 34.8, 60.7, VALE_OF_ETERNAL_BLOSSOMS },
 						},
-						["g"] = {
+						["groups"] = {
 							i(86586),	-- Panflute of Pandaria (TOY!)
 						},
 					}),
 					n(58771, {	-- Quid
 						["coord"] = { 66.4, 39.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20522, {	-- Quid
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2037,13 +2037,13 @@ root(ROOTS.Zones, {
 					}),
 					n(50780, {	-- Sahn Tidehunter
 						["coord"] = { 69.4, 30.5, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86582),	-- Aqua Jewel (TOY!)
 						},
 					}),
 					n(63240, {	-- Shadowmaster Sydow
 						["coord"] = { 30.5, 78.4, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20520, {	-- Shadowmaster Sydow
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2052,7 +2052,7 @@ root(ROOTS.Zones, {
 					}),
 					n(58817, {	-- Spirit of Lao-Fe
 						["coord"] = { 47.4, 65.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20523, {	-- Spirit of Lao-Fe
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2061,13 +2061,13 @@ root(ROOTS.Zones, {
 					}),
 					n(50359, {	-- Urgolax
 						["coord"] = { 39.5, 25.1, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86575),	-- Chalice of Secrets (TOY!)
 						},
 					}),
 					n(58769, {	-- Vicejaw
 						["coord"] = { 37.4, 50.9, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20518, {	-- Vicejaw
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2076,7 +2076,7 @@ root(ROOTS.Zones, {
 					}),
 					n(63977, {	-- Vyraxxis
 						["coord"] = { 7.92, 33.8, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							crit(20532, {	-- Vyraxxis
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2088,7 +2088,7 @@ root(ROOTS.Zones, {
 							{ 45.3, 76.3, VALE_OF_ETERNAL_BLOSSOMS },
 							{ 40.2, 77.1, VALE_OF_ETERNAL_BLOSSOMS },
 						},
-						["g"] = {
+						["groups"] = {
 							crit(20527, {	-- Wulon
 								["achievementID"] = 7317,	-- One Many Army
 							}),
@@ -2097,7 +2097,7 @@ root(ROOTS.Zones, {
 					}),
 					n(50336, {	-- Yorik Sharpeye
 						["coord"] = { 88.0, 44.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(86568),	-- Mr. Smite's Brass Compass (TOY!)
 						},
 					}),
@@ -2177,7 +2177,7 @@ root(ROOTS.Zones, {
 					}),
 					n(64922, {	-- Brann Bronzebeard <Archaeology Trainer>
 						["coord"] = { 83.4, 30.9, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(104198, {	-- Mantid Artifact Hunter's Kit
 								["cost"] = { { "i", 87399, 2 }, },	-- 2x Restored Artifact
 							}),
@@ -2187,7 +2187,7 @@ root(ROOTS.Zones, {
 						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon.  You can only buy the set for your class.",
 						["coord"] = { 86.3, 61.5, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							un(REMOVED_FROM_GAME, i(90049)),	-- Girdle of the Lich Lord
 							un(REMOVED_FROM_GAME, i(90050)),	-- Treads of the Lich Lord
 							un(REMOVED_FROM_GAME, i(90051)),	-- Chestguard of the Lich Lord
@@ -2282,7 +2282,7 @@ root(ROOTS.Zones, {
 						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon.  You can only buy the set for your class.",
 						["coord"] = { 61.2, 20.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							un(REMOVED_FROM_GAME, i(90049)),	-- Girdle of the Lich Lord
 							un(REMOVED_FROM_GAME, i(90050)),	-- Treads of the Lich Lord
 							un(REMOVED_FROM_GAME, i(90051)),	-- Chestguard of the Lich Lord
@@ -2378,7 +2378,7 @@ root(ROOTS.Zones, {
 							{ 84.2, 62.7, VALE_OF_ETERNAL_BLOSSOMS },	-- Alliance
 							{ 63.2, 22.0, VALE_OF_ETERNAL_BLOSSOMS },	-- Horde
 						},
-						["g"] = bubbleDownClassicRep(FACTION_GOLDEN_LOTUS, {
+						["groups"] = bubbleDownClassicRep(FACTION_GOLDEN_LOTUS, {
 							{		-- Neutral
 								i(89071),	-- Alani's Inflexible Ring
 								i(89527),	-- Amulet of Swirling Mists
@@ -2458,7 +2458,7 @@ root(ROOTS.Zones, {
 					}),
 					n(66973, {	-- Kai Featherfall <Phoenix Egg Trader>
 						["coord"] = { 82.2, 34.0, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = sharedData({
+						["groups"] = sharedData({
 							["cost"] = {{"i", 90045, 1 }},	-- 1x Ancestral Phoenix Egg
 							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 						}, {
@@ -2470,7 +2470,7 @@ root(ROOTS.Zones, {
 					}),
 					n(65172, {	-- Len at Arms <Adventuring Supplies>
 						["coord"] = { 14.1, 78.8, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(83234),	-- Wasteland Amulet
 							i(83229),	-- Wasteland Armored Bracers
 							i(83184),	-- Wasteland Armored Chestpiece
@@ -2583,7 +2583,7 @@ root(ROOTS.Zones, {
 					}),
 					n(64691, {	-- Lorewalker Huynh <Inscription Trainer>
 						["coord"] = { 82.0, 29.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(137788, {	-- Technique: Songs of Peace (RECIPE!)
 								["timeline"] = { ADDED_7_0_3 },
 							}),
@@ -2591,7 +2591,7 @@ root(ROOTS.Zones, {
 					}),
 					n(64605, {	-- Tan Shin Tiao <Lorewalkers Quartermaster>
 						["coord"] = { 82.2, 29.4, VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = bubbleDownClassicRep(FACTION_THE_LOREWALKERS, {
+						["groups"] = bubbleDownClassicRep(FACTION_THE_LOREWALKERS, {
 							{		-- Neutral
 							}, {	-- Friendly
 							}, {	-- Honored
@@ -2617,7 +2617,7 @@ root(ROOTS.Zones, {
 				n(ZONE_DROPS, {
 					i(87779, {	-- Ancient Guo-Lai Cache Key
 						["description"] = "Use these keys to unlock Ancient Guo Lai Cache chests in the Vault.",
-						["g"] = appendGroups({
+						["groups"] = appendGroups({
 								i(90470),	-- Design: Jade Owl
 								i(90471),	-- Design: Sapphire Cub
 								i(90815),	-- Relic of Guo-Lai

@@ -21,44 +21,44 @@ root(ROOTS.Zones, m(PANDARIA, {
 					["u"] = REMOVED_FROM_GAME,
 				}),
 				q(31526, {	-- A Worthy Challenge: Durand
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31527, {	-- A Worthy Challenge: Flameweaver Koegler
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31524, {	-- A Worthy Challenge: Raigonn
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31520, {	-- A Worthy Challenge: Sha of Doubt
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31522, {	-- A Worthy Challenge: Sha of Hatred
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31525, {	-- A Worthy Challenge: Wing Leader Ner'onok
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31523, {	-- A Worthy Challenge: Xin the Weaponmaster
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31519, {	-- A Worthy Challenge: Yan-zhu the Uncasked
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(33249, {	-- Proving Grounds
 					["qg"] = 66998,	-- Jinho the Wind Breaker

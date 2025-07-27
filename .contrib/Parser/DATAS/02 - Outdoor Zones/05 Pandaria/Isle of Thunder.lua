@@ -623,8 +623,8 @@ root(ROOTS.Zones, {
 					q(32296, {	-- Treasures of the Thunder King
 						["qg"] = 70316,	-- Taoshi
 						["cost"] = { { "i", 94222, 1} },	-- 1x Key to the Palace of Lei Shen
-						["_drop"] = { "g" },	-- unnecessary API data
 						["isWeekly"] = true,
+						["_drop"] = { "g" },	-- unnecessary API data
 						["groups"] = {
 							m(518, {	-- Thunder King's Citadel
 								ach(8106, {				-- In the Hall of the Thunder King
