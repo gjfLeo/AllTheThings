@@ -47,6 +47,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 64.7, 43.6, KARESH },
 				["questID"] = 90586,
 			}),
+			n(231229, {	-- Korgoth the Hungerer
+				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
+				["coord"] = { 71.5, 27.4, KARESH },
+				["questID"] = 91309,
+				["g"] = {
+					i(232467),	-- Crystallized Anima (QS!)
+					i(246240),	-- Devoured Energy-Pod
+				},
+			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
 				["description"] = "Malek'ta is burrowed under the ground. Jump around to lure it out.",
 				["coord"] = { 54.1, 58.8, KARESH },
@@ -64,6 +73,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["g"] = {
 					i(240172),	-- Depleted K'areshi Battery
 					i(240214),	-- Miniature Reshii Sandgarden
+				},
+			}),
+			n(234970, {	-- Miasmawrath
+				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
+				--["coord"] = { ?, ?, KARESH },
+				["questID"] = 91310,
+				["g"] = {
+					i(238663),	-- Crystallized Anima (QS!)
+					i(246240),	-- Devoured Energy-Pod
 				},
 			}),
 			n(232108, {	-- Morgil the Netherspawn
@@ -99,7 +117,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(241920, {	-- Purple Peat
 				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
-				--["questID"] = ,
+				["questID"] = 90692,
 			}),
 			n(232189, {	-- Revenant of the Wasteland
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
@@ -134,12 +152,30 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 74.0, 32.2, KARESH },	-- a bit off
 				["questID"] = 91293,
 			}),
+			n(235087, {	-- The Harvester
+				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
+				["coord"] = { 49.5, 64.2, KARESH },
+				["questID"] = 91311,
+				["g"] = {
+					i(238664),	-- Crystallized Anima (QS!)
+					i(246240),	-- Devoured Energy-Pod
+				},
+			}),
 			n(232111, {	-- The Nightreaver
 				["coord"] = { 52.7, 56.5, KARESH },
 				["questID"] = 90589,
 				["g"] = {
 					i(245254),	-- Duskthief (PET!)
 					i(239467),	-- Reshii Skirmisher's Cowl
+				},
+			}),
+			n(235104, {	-- The Wallbreaker
+				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
+				--["coord"] = { ?, ?, KARESH_TAZAVESH },
+				["questID"] = 91312,
+				["g"] = {
+					i(238665),	-- Crystallized Anima (QS!)
+					i(246240),	-- Devoured Energy-Pod
 				},
 			}),
 			n(232195, {	-- Urmag <The Terror Below>
@@ -185,11 +221,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90675, {	-- Weekly reputation: Korgorath the Ravager
 					["name"] = "Korgorath the Ravager weekly reputation obtained.",
 				}),
+				q(91433, {	-- Weekly reputation: Korgoth the Hungerer
+					["name"] = "Korgoth the Hungerer weekly reputation obtained.",
+				}),
 				q(91421, {	-- Weekly reputation: Malek'ta
 					["name"] = "Malek'ta weekly reputation obtained.",
 				}),
 				q(90683, {	-- Weekly reputation: Maw of the Sands
 					["name"] = "Maw of the Sands weekly reputation obtained.",
+				}),
+				q(91434, {	-- Weekly reputation: Miasmawrath
+					["name"] = "Miasmawrath weekly reputation obtained.",
 				}),
 				q(90677, {	-- Weekly reputation: Morgil the Netherspawn
 					["name"] = "Morgil the Netherspawn weekly reputation obtained.",
@@ -199,6 +241,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(90679, {	-- Weekly reputation: Prototype Mk-V
 					["name"] = "Prototype Mk-V weekly reputation obtained.",
+				}),
+				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swipe with rare questID if wrong)
+					["name"] = "Purple Peat weekly reputation obtained.",
 				}),
 				q(90680, {	-- Weekly reputation: Revenant of the Wasteland
 					["name"] = "Revenant of the Wasteland weekly reputation obtained.",
@@ -215,8 +260,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91431, {	-- Weekly reputation: Sthaarbs (TODO: swipe with rare questID if wrong)
 					["name"] = "Sthaarbs weekly reputation obtained.",
 				}),
+				q(91435, {	-- Weekly reputation: The Harvester
+					["name"] = "The Harvester weekly reputation obtained.",
+				}),
 				q(90678, {	-- Weekly reputation: The Nightreaver
 					["name"] = "The Nightreaver weekly reputation obtained.",
+				}),
+				q(91436, {	-- Weekly reputation: The Wallbreaker
+					["name"] = "The Wallbreaker weekly reputation obtained.",
 				}),
 				q(90682, {	-- Weekly reputation: Urmag
 					["name"] = "Urmag weekly reputation obtained.",

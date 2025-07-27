@@ -45,6 +45,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				},
 			}),
+			q(85822, {	-- Making a Market
+				["coord"] = { 58.8, 58.9, KARESH },
+				["g"] = {
+					o(495603, {	--  Loose Sand
+						i(232578),	-- Wastelander Artifact (QI!)
+						i(232626),	-- Wastelander Artifact (QI!)
+						i(232625),	-- Wastelander Artifact (QI!)
+						i(232627),	-- Wastelander Artifact (QI!)
+						i(232628),	-- Wastelander Artifact (QI!)
+					}),
+				},
+			}),
 			q(86709, {	-- Mana Falling from the Skies
 				["coord"] = { 47.5, 23.5, KARESH },
 			}),
@@ -67,6 +79,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["g"] = {
 					i(232612),	-- Laacunite Shard (QI!)
 				},
+			}),
+			q(88904, {	-- Phase Diving: It Could Be Anything
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 68.6, 31.7, KARESH },
 			}),
 			q(89291, {	-- Phase Diving: Oath-Breaker Desamirah
 				["description"] = "You need to phasedive in order to get this World Quest.",

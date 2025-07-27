@@ -32,7 +32,6 @@ root(ROOTS.Unsorted, {
 				i(239448),	-- Reshii Magi's Vestments
 				i(239449),	-- Reshii Magi's Slippers
 				i(239452),	-- Reshii Magi's Leggings
-				i(239453),	-- Reshii Magi's Spines
 				i(239454),	-- Reshii Magi's Cord
 				i(239456),	-- Reshii Scout's Jerkin
 				i(239457),	-- Reshii Scout's Soles
@@ -70,7 +69,6 @@ root(ROOTS.Unsorted, {
 				i(244522),	-- Worn Shadowguard Staff
 				i(244524),	-- Worn Shadowguard Blade
 				i(244525),	-- Worn Shadowguard Censer
-				i(244526),	-- Worn Shadowguard Bastion
 				i(244527),	-- Worn Shadowguard Warglaive
 
 				-- Rare
@@ -168,10 +166,6 @@ root(ROOTS.Unsorted, {
 				i(248785),	-- Ensemble: Void-Scarred Striker's Battlegear
 				i(248786),	-- Ensemble: Void-Scarred Blade's Attire
 				i(248787),	-- Ensemble: Void-Scarred Seer's Wrappings
-				i(248790),	-- Wastelander Scout's Serape
-				i(248791),	-- Wastelander Skirmisher's Cloak
-				i(248792),	-- Wastelander Magi's Shawl
-				i(248793),	-- Wastelander Brute's Cape
 				i(248917),	-- Untethered Blade's Mantle
 				i(248918),	-- Untethered Striker's Shroud
 				i(248919),	-- Untethered Captain's Capote
@@ -183,7 +177,6 @@ root(ROOTS.Unsorted, {
 				i(245528),	-- Wastlander's Phasebound Visor
 				i(245529),	-- Hal'hadar's Phasebound Visor
 
-				i(244140),	-- Ethereal Sash Cache
 				i(244806),	-- Renowned Explorer's Versatile Vest
 
 				-- Trading Post?
@@ -518,7 +511,6 @@ root(ROOTS.Unsorted, {
 				i(238879),	-- Cracked Void Carapace
 				i(238885),	-- Unstable Power Source
 				i(238888),	-- Essence of Ephemeral Knowledge
-				i(238889),	-- Eldritch Signal Antenna
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(239129),	-- Questionable Tentacle
 				i(241220),	-- Loose Parts
@@ -742,11 +734,6 @@ root(ROOTS.Unsorted, {
 				i(232553),	-- Temple Keystone[DNT]
 				i(232554),	-- Waning Essence[DNT]
 				i(232568),	-- Priest's Remains[DNT]
-				i(232578),	-- Wastelander Artifact
-				i(232625),	-- Wastelander Artifact
-				i(232626),	-- Wastelander Artifact
-				i(232627),	-- Wastelander Artifact
-				i(232628),	-- Wastelander Artifact
 				i(232630),	-- Xy Imports Ledger
 				i(232992),	-- Large Bug Bits
 				i(233005),	-- Om'taha's Toolkit[DNT]
@@ -783,16 +770,13 @@ root(ROOTS.Unsorted, {
 				i(236407),	-- Voidbane Gem
 				i(236679),	-- Essence Scanner
 				i(236688),	-- Umbral Facade
-				i(236937),	-- Energy Encapsulation
 				i(236957),	-- Hollowbane Portal Key
 				i(236962),	-- Basket of Zo'kita Fruit
-				i(236964),	-- Large Sticky Voidmass
 				i(236966),	-- Flavorful Scraps
 				i(236967),	-- Grubber Lure
 				i(236972),	-- Freshly Picked Zo'kita
 				i(237012),	-- Appropriated Azerothian Camera
 				i(237013),	-- Anima Vacuum
-				i(237019),	-- Corrupted Sap
 				i(237022),	-- Discarded Items
 				i(237030),	-- Condenser Disc
 				i(237266),	-- Stolen Veilshard
@@ -810,7 +794,6 @@ root(ROOTS.Unsorted, {
 				i(238254),	-- Nuts and Bolts
 				i(238296),	-- Phase Disruptor
 				i(238903),	-- Appropriated Azerothian Camera
-				i(238904),	-- Anima Vacuum
 				i(238905),	-- Condenser Disc
 				i(238906),	-- Appropriated Azerothian Camera
 				i(238907),	-- Anima Orb
@@ -824,8 +807,6 @@ root(ROOTS.Unsorted, {
 				i(238915),	-- Anima Orb
 				i(238916),	-- Anima Vacuum
 				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
-				i(239249),	-- Untethered Battery
-				i(239276),	-- Purple Peat Cell Key
 				i(239314),	-- Arcane Lure
 				i(239446),	-- Uncharged Cyrstal
 				i(239484),	-- Smuggler's Mark
@@ -838,7 +819,6 @@ root(ROOTS.Unsorted, {
 				i(239566),	-- Arcane Runed Signet
 				i(239607),	-- Charged Cyrstal
 				i(241353),	-- Hydrobite
-				i(242535),	-- Missing Imports
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock
 				i(242794),	-- Dustback Flank
@@ -874,7 +854,6 @@ root(ROOTS.Unsorted, {
 			i(243547),	-- Wastelander's Gilded Blade
 			i(243548),	-- Wastelander's Gilded Censer
 			i(243549),	-- Wastelander's Gilded Bastion
-			i(243550),	-- Wastelander's Gilded Warglaive
 			i(244267),	-- Untethered Seer's Vestments
 			i(244268),	-- Untethered Seer's Slippers
 			i(244269),	-- Untethered Seer's Gloves
@@ -909,7 +888,6 @@ root(ROOTS.Unsorted, {
 			i(244298),	-- Untethered Captain's Vambraces
 			i(246504),	-- Inscrutable Ore
 			i(246582),	-- Inscrutable Flora
-			i(246589),	-- Half-Digested Journal
 			i(248916),	-- Untethered Seer's Capelet
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249029),	-- Ultimate Orange O-pocalypse
@@ -942,7 +920,6 @@ root(ROOTS.Unsorted, {
 			i(246445),	-- Reins of the Royal Voidwing
 			i(250269),	-- Phase-Lost Longsword
 			i(250272),	-- Phase-Lost Cudgel
-			i(250276),	-- Phase-Lost Greatsword
 			i(250278),	-- Phase-Lost Great Mace
 			i(250280),	-- Phase-Lost Chopper
 			i(250281),	-- Phase-Lost Battleaxe
@@ -957,7 +934,6 @@ root(ROOTS.Unsorted, {
 			i(250297),	-- Phase-Lost Beacon
 			i(250298),	-- Phase-Lost Bulwark
 			i(250299),	-- Phase-Lost Pavise
-			i(250300),	-- Phase-Lost Rod
 			i(250301),	-- Phase-Lost Wand
 			i(250430),	-- Darkened Shoulderguards of the Wastelander Seer
 			i(250431),	-- Golden Shoulderguards of the Wastelander Seer

@@ -2551,6 +2551,7 @@ i(238874);	-- Congealed Mana
 i(247686);	-- Crystallized Nightshade
 i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
+i(238889);	-- Eldritch Signal Antenna
 i(238838);	-- Enlarged Nerve
 i(244359);	-- Ethereal Pylon Conduit
 i(238886);	-- Faintly Glowing Vellum

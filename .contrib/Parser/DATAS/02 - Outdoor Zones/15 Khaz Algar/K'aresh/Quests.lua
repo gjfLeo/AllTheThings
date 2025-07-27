@@ -889,13 +889,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 						["g"] = { i(231508), },	-- Stolen Food Shipment (QI!)
 					}),
+					q(89195, {	-- Funny Buzzness
+						["sourceQuests"] = { 85262 },	-- The Royal Procession
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+						["isDaily"] = true,
+						["g"] = { i(238904), },	-- Anima Vacuum (PQI!)
+					}),
 					q(89194, {	-- Shake your Bee-hind
 						["sourceQuests"] = { 85262 },	-- The Royal Procession
 						["provider"] = { "n", 232385 },	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
 						["isDaily"] = true,
 					}),
-					q(89195),	--
 					q(89210),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
@@ -1194,12 +1200,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 231314 },	-- Om'dalan
 						["coord"] = { 51.9, 64.8, KARESH },
 						["g"] = {
+							o(467522, {	-- Nether Reader
+								["coord"] = { 52.2, 69.5, KARESH },
+							}),
 							o(504074, {	-- Nether Reader
-								["coords"] = {
-									{ 49.9, 64.8, KARESH },
-									{ 52.0, 63.2, KARESH },
-									{ 52.2, 69.5, KARESH },
-								}
+								["coord"] = { 52.0, 63.2, KARESH },
+							}),
+							o(504075, {	-- Nether Reader
+								["coord"] = { 49.9, 64.8, KARESH },
 							}),
 						},
 					}),
@@ -1448,8 +1456,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			header(HEADERS.Achievement, 42737, {	-- Capstoned
-				q(89294, {	-- Special Assignment: Alligned Views
-					["coord"] = { 74.7, 51.1, KARESH },	-- could be a bit inaccurate
+				q(89294, {	-- Special Assignment: Aligned Views
+					["coord"] = { 77.2, 48.9, KARESH },
 					["g"] = {
 						i(244842),	-- Fabled Veteran's Cache
 					},
@@ -1465,7 +1473,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(84744),	-- A Slither of Snakes
 				q(84742),	-- Fox-strut
 				q(86793),	-- Hard K'arroc
-				q(84745),	-- Honey Bees
+				q(84745),	-- Honey Bees (Move to HQT? Triggered when "Honey Bees" criteria for the ach is fulfilled)
 				q(85520),	-- Lil' Lapbugs
 				q(89306),	-- Rays of Sunshine
 				q(84992),	-- Slatebacks
@@ -1476,9 +1484,55 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["provider"] = { "n", 238255 },	-- Constable Zo'ardaz
 					["coord"] = { 48.6, 57.8, KARESH_TAZAVESH },
 				}),
+				header(HEADERS.Quest, 87546, {	-- Warrant: Purple Peat
+					q(87546, {	-- Warrant: Purple Peat
+						["provider"] = { "n", 238919 },	-- Warrant: Purple Peat
+						["coord"] = { 48.5, 58.3, KARESH_TAZAVESH },
+						["cost"] = {
+							{ "i", 236937, 1 },	-- Energy Encapsulation (QI!)
+							{ "i", 236964, 1 },	-- Large Sticky Voidmass (QI!)
+							{ "i", 239249, 1 },	-- Untethered Battery (QI!)
+						},
+						["g"] = { i(239276), },	-- Purple Peat Cell Key (QS!)
+					}),
+					q(87404, {	-- Energy Encapsulation
+						["description"] = "This quest is available during 'Warrant: Purple Peat'.",
+						["provider"] = { "n", 238057 },	-- Engineer Om'loof
+						["coord"] = { 47.9, 57.4, KARESH },
+						["repeatable"] = true,
+						["g"] = {
+							i(235051),	-- Harvested Energy (QI!)
+							--
+							i(236937),	-- Energy Encapsulation (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87425, {	-- Large Sticky Voidmass
+						["description"] = "This quest is available during 'Warrant: Purple Peat'.",
+						["provider"] = { "n", 238069 },	-- Botanist Mo'chee
+						["coord"] = { 49.4, 54.3, KARESH },
+						["repeatable"] = true,
+						["g"] = {
+							i(237019),	-- Corrupted Sap (QI!)
+							--
+							i(236964),	-- Large Sticky Voidmass (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87301, {	-- Untethered Battery
+						["description"] = "This quest is available during 'Warrant: Purple Peat'.",
+						["provider"] = { "n", 238057 },	-- Engineer Om'loof
+						["coord"] = { 47.9, 57.4, KARESH },
+						["repeatable"] = true,
+						["g"] = {
+							i(239249),	-- Untethered Battery (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(90125, {	-- Eliminate Purple Peat
+						["provider"] = { "i", 239276 },	-- Purple Peat Cell Key (QS!)
+						["repeatable"] = true,
+					}),
+				}),
 				header(HEADERS.Quest, 87345, {	-- Warrant: Xy'vox the Twisted
 					q(87345, {	-- Warrant: Xy'vox the Twisted
-						["description"] = "This quest can be obtained only during 'A Key Threat'.",
 						["provider"] = { "n", 238271 },	-- Warrant: Xy'Vox the Twisted
 						["coord"] = { 48.5, 58.4, KARESH_TAZAVESH },
 						["cost"] = {
@@ -1533,7 +1587,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				q(90123),	--
 				q(90124),	--
-				q(90125),	--
 				q(90126),	--
 				q(90127),	--
 			}),
@@ -1543,57 +1596,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 54.1, 63.7, KARESH_TAZAVESH },
 				}),
 				q(86447, {	-- Devourer Attack: Eco-dome: Primus
-					["isWeekly"] = true,
-					["g"] = {
-						i(246240),	-- Devoured Energy-Pod
-						i(238663),	-- Crystallized Anima (QS!)
-					},
+					["repeatable"] = true,
 				}),
 				q(86465, {	-- Devourer Attack: Tazavesh
-					["isWeekly"] = true,
-					["g"] = {
-						i(246240),	-- Devoured Energy-Pod
-						i(238665),	-- Crystallized Anima (QS!)
-					},
+					["repeatable"] = true,
 				}),
 				q(86464, {	-- Devourer Attack: The Atrium
-					["isWeekly"] = true,
-					["g"] = {
-						i(246240),	-- Devoured Energy-Pod
-						i(238664),	-- Crystallized Anima (QS!)
-					},
+					["repeatable"] = true,
 				}),
 				q(84993, {	-- Devourer Attack: The Oasis
-					["isWeekly"] = true,
-					["g"] = {
-						i(246240),	-- Devoured Energy-Pod
-						i(232467),	-- Crystallized Anima (QS!)
-					},
+					["repeatable"] = true,
 				}),
 			}),
 			-- Quest (item) obtained during Devourer Attack
 			q(85722, {	-- Making a Deposit
 				["sourceQuests"] = { 84993 },	-- Devourer Attack: The Oasis
 				["provider"] = { "i", 232467 },	-- Crystallized Anima (QS!)
-				["cr"] = 231229,	-- Korgoth the Hungerer
 				["isWeekly"] = true,
 			}),
 			q(89062, {	-- Making a Deposit
 				["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
 				["provider"] = { "i", 238664 },	-- Crystallized Anima (QS!)
-				["cr"] = 235087,	-- The Harvester
 				["isWeekly"] = true,
 			}),
 			q(89063, {	-- Making a Deposit
 				["sourceQuests"] = { 86465 },	-- Devourer Attack: Tazavesh
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
-				["cr"] = 235104,	-- The Wallbreaker
 				["isWeekly"] = true,
 			}),
 			q(89061, {	-- Making a Deposit
 				["sourceQuests"] = { 86447 },	-- Devourer Attack: Eco-dome: Primus
 				["provider"] = { "i", 238663 },	-- Crystallized Anima (QS!)
-				["cr"] = 234970,	-- Miasmawrath
 				["isWeekly"] = true,
 			}),
 			-- Temp placement.
@@ -1636,20 +1669,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
 				-- ??
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
-				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
-				-- Devourer Attacks
-				-- Alex: they are probably fired cause boss in the end of event counted as 'rare' and you get one for loot lockout (Devoured Energy-Pod?) and 2nd for rep?
-				q(91286),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
-				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
-				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
-				q(91309),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
-				q(91310),	-- Triggered at the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
-				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
-				q(91312),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
-				q(91433),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
-				q(91434),	-- Triggered at the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
-				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
-				q(91436),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
+				q(90807, { ["repeatable"] = true, } ),	-- Triggered at the completion of a main Warrant quest and obtaining the (QS!) item that starts "Eliminate" quest
+				q(91286, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
+				q(91289, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
+				q(91290, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
 
 				q(90955, name(HEADERS.Spell,1249651)),	-- Boon of the Reshii (Reshii Wraps 1st upgrade)
 			}),

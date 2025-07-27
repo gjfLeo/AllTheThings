@@ -11,6 +11,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 54.0, 55.0, KARESH },
 					-- Found at { 60.1, 60.9, KARESH }, 16.07.2025. Changed coordinates? Verification required for old coord
 					--^ Alex: this coords also up for me, yet treasure 'there is no loot'
+					-- Found at { 59.7, 53.7, KARESH }, 27.07.2025. Wat? New alt required to check if it is present on the older coords and if this is a final position...
 					["questID"] = 92348,
 					["g"] = {
 						i(246299),	-- Blade of Lost Hope (COSMETIC!)
@@ -19,6 +20,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				q(86416, {	-- Ancient Coffer
 					-- TODO: Bugged. Invisible. Can't be looted 25.06.2025. -Exo
+					-- Vignette not visible while Phase Diving so, it's an "open world" treasure. It may has some prerequisite? Something must be done in order to see the treasure?
 					["coord"] = { 60.9, 38.4, KARESH },
 					--["questID"] = 86416,	-- Wowhead data
 				}),
