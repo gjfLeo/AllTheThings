@@ -1163,8 +1163,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { THOUSAND_NEEDLES },
 					["races"] = ALLIANCE_ONLY,
-					-- This quest was moved to Darkshore after TBC Prepatch.
 					["lvl"] = 25,
+					-- This quest was moved to Darkshore after TBC Prepatch.
 					["groups"] = {
 						objective(1, {	-- 0/10 Highperch Venom Sac
 							["provider"] = { "i", 5809 },	-- Highperch Venom Sac
@@ -1247,8 +1247,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_3_3_0 },
 					["maps"] = { ASHENVALE },
 					["races"] = ALLIANCE_ONLY,
-					-- This quest was moved to Darkshore after TBC Prepatch.
 					["lvl"] = 18,
+					-- This quest was moved to Darkshore after TBC Prepatch.
 				}),
 				-- #endif
 				q(13892, {	-- Leave No Tracks

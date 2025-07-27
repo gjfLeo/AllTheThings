@@ -3286,20 +3286,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(6610, {	-- Clamlette Surprise
-					["description"] =
-						-- #if AFTER 8.0.1
-						"Becomes available at Classic Cooking skill level 225 when character level requirement is met.\n\nThe Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar. Sadly the Alliance breadcrumb from Ironforge named 'I Know A Guy...' is unobtainable.",
-						-- #elseif AFTER 4.0.3
-						"Becomes available at Cooking skill level 225 when character level requirement is met.\n\nThe Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar. Sadly the Alliance breadcrumb from Ironforge named 'I Know A Guy...' is unobtainable.",
-						-- #else
-						"Becomes available at Cooking skill level 225 when character level requirement is met.\n\nThe Alliance breadcrumb for this quest is called 'I Know A Guy...' and is picked up from cooking trainer Daryl Riknussun in Ironforge. The Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar.",
-						-- #endif
 					["qgs"] = {
 						-- #if AFTER 4.0.3
 						40589,	-- Dirge Quikcleave
 						-- #else
 						8125,	-- Dirge Quikcleave
 						-- #endif
+					},
+					["altQuests"] = { 13825 },	-- Clamlette Surprise
+					["sourceQuests"] = {
+						6611,	-- To Gadgetzan You Go!
+						6612,	-- I Know A Guy...
 					},
 					["coords"] = {
 						-- #if AFTER 4.0.3
@@ -3308,13 +3305,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 52.6, 28.1, TANARIS },
 						-- #endif
 					},
-					["altQuests"] = { 13825 },	-- Clamlette Surprise
-					["sourceQuests"] = {
-						6611,	-- To Gadgetzan You Go!
-						6612,	-- I Know A Guy...
-					},
-					["requireSkill"] = COOKING,
-					["learnedAt"] = 225,
+					["description"] =
+						-- #if AFTER 8.0.1
+						"Becomes available at Classic Cooking skill level 225 when character level requirement is met.\n\nThe Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar. Sadly the Alliance breadcrumb from Ironforge named 'I Know A Guy...' is unobtainable.",
+						-- #elseif AFTER 4.0.3
+						"Becomes available at Cooking skill level 225 when character level requirement is met.\n\nThe Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar. Sadly the Alliance breadcrumb from Ironforge named 'I Know A Guy...' is unobtainable.",
+						-- #else
+						"Becomes available at Cooking skill level 225 when character level requirement is met.\n\nThe Alliance breadcrumb for this quest is called 'I Know A Guy...' and is picked up from cooking trainer Daryl Riknussun in Ironforge. The Horde breadcrumb for this quest is called 'To Gadgetzan You Go!' and is picked up from cooking trainer Zamja in Orgrimmar.",
+						-- #endif
 					["cost"] = {
 						{ "i", 12207, 12 },	-- Giant Egg
 						{ "i", 7974, 10 },	-- Zesty Clam Meat
@@ -3324,6 +3322,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 8932, 20 },	-- Alterac Swiss
 						-- #endif
 					},
+					["requireSkill"] = COOKING,
+					["learnedAt"] = 225,
 					["lvl"] = 35,
 					["groups"] = {
 						i(16971),	-- Clamlette Surprise
@@ -4207,8 +4207,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sourceQuest"] = 53816,	-- Some Reassembly Required
 					["coord"] = { 62.1, 45.3, TANARIS },
 					["timeline"] = { ADDED_8_1_5 },
-					-- Quest shows up in-game as "Re-parrot" currently, but Wowhead redirects to the second quest name listed
 					["lvl"] = 120,
+					-- Quest shows up in-game as "Re-parrot" currently, but Wowhead redirects to the second quest name listed
 				}),
 				q(648, {	-- Rescue OOX-17/TN!
 					["qg"] = 7784,	-- Homing Robot OOX-17/TN

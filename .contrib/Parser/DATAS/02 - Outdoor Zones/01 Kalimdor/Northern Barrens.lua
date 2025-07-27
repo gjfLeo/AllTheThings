@@ -500,6 +500,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["classes"] = { SHAMAN },
+					["lvl"] = lvlsquish(10, 10, 5),
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: This isn't collectible in Classic.
 					["groups"] = {
@@ -508,7 +509,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 					-- #endif
-					["lvl"] = lvlsquish(10, 10, 5),
 				}),
 				q(1525, {	-- Call of Fire (3/5)
 					["qg"] = 5900,	-- Telf Joolam

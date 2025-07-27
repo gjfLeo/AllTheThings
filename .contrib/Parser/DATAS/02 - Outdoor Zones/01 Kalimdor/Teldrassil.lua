@@ -1356,12 +1356,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(1581, {	-- Elixirs for the Bladeleafs
 					["qg"] = 2083,	-- Syral Bladeleaf
-					["description"] =
-						-- #if BEFORE 8.0.1
-						"This quest becomes available at Alchemy skill level 20 when the character level requirement is met.",
-						-- #else
-						"This quest becomes available at Classic Alchemy skill level 20 when the character level requirement is met.",
-						-- #endif
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 55.8, 50.4, TELDRASSIL },
@@ -1369,12 +1363,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 56.0, 57.8, TELDRASSIL },
 						-- #endif
 					},
-					["requireSkill"] = ALCHEMY,
-					["races"] = ALLIANCE_ONLY,
+					["description"] =
+						-- #if BEFORE 8.0.1
+						"This quest becomes available at Alchemy skill level 20 when the character level requirement is met.",
+						-- #else
+						"This quest becomes available at Classic Alchemy skill level 20 when the character level requirement is met.",
+						-- #endif
 					["cost"] = {
 						{ "i", 2454, 6 },	-- Elixir of Lion's Strength
 						{ "i", 5997, 2 },	-- Elixir of Minor Defense
 					},
+					["requireSkill"] = ALCHEMY,
+					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
 				q(2259, {	-- Erion Shadewhisper

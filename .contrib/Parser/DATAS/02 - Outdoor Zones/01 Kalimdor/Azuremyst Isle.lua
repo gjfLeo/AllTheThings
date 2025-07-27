@@ -206,10 +206,10 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							["coord"] = { 79.5, 51.6, AZUREMYST_ISLE },
 							-- #endif
 							["races"] = ALLIANCE_ONLY,
+							["lvl"] = lvlsquish(2, 2, 1),
 							-- 9303 is only given to you instead of 37444 if you turn in Vindicator Aldar first, confirmed by Crieve, deleted 3 level 4 Draenei to test it and different scenarios.
 							-- There was absolutely nothing different about the quest other than the quest text, so rather than duplicate the entry, using altQuests instead.
 							-- The extra information doesn't help a new player and you get credit for both anyways on turn in, so it's whatever.
-							["lvl"] = lvlsquish(2, 2, 1),
 							["groups"] = {
 								objective(1, {	-- Nestlewood Owlkin inoculated
 									["provider"] = { "i", 22962 },	-- Inoculating Crystal
@@ -1023,9 +1023,9 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["timeline"] = { REMOVED_4_0_3 },	-- NOTE: Possibly added back the same time as the Ghostlands Mage quest was.
 					["classes"] = { MAGE },
 					["races"] = ALLIANCE_ONLY,
+					["lvl"] = lvlsquish(10, 10, 1),
 					-- TODO: verify, if possible?  i don't see any recent comments claiming to have picked this up, just questions about how to get it.
 					-- wowhead also doesn't have provider data for it, leading me to believe it has been culled/not seen in a long time
-					["lvl"] = lvlsquish(10, 10, 1),
 					["groups"] = {
 						objective(1, {	-- Quel'dorei Magewraith slain
 							["provider"] = { "n", 17612 },	-- Quel'dorei Magewraith

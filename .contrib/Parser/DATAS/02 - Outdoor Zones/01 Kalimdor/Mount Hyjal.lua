@@ -985,8 +985,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 80,
 				})),
 				q(29386, {	-- Hero's Call: Mount Hyjal!
-					-- @Darkal: This might be an HQT
 					["u"] = REMOVED_FROM_GAME,	-- triggers when turning in #27726
+					-- @Darkal: This might be an HQT
 				}),
 				q(25270, {	-- Howling Mad
 					["qg"] = 39432,	-- Takrik Ragehowl

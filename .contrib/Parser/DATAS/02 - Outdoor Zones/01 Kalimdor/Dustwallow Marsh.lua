@@ -953,8 +953,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_3_3_0 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
-					-- This quest was moved to Darkshore after TBC Prepatch.
 					["lvl"] = 18,
+					-- This quest was moved to Darkshore after TBC Prepatch.
 				}),
 				-- #endif
 				q(11211, {	-- Help for Mudsprocket
@@ -995,8 +995,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_2_3_0 },
 					["maps"] = { THOUSAND_NEEDLES },
 					["races"] = ALLIANCE_ONLY,
-					-- This quest was moved to Darkshore after TBC Prepatch.
 					["lvl"] = 25,
+					-- This quest was moved to Darkshore after TBC Prepatch.
 					["groups"] = {
 						objective(1, {	-- 0/10 Highperch Venom Sac
 							["provider"] = { "i", 5809 },	-- Highperch Venom Sac
@@ -1334,8 +1334,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_3_3_0 },
 					["maps"] = { ASHENVALE },
 					["races"] = ALLIANCE_ONLY,
-					-- This quest was moved to Darkshore after TBC Prepatch.
 					["lvl"] = 18,
+					-- This quest was moved to Darkshore after TBC Prepatch.
 				}),
 				-- #endif
 				q(1947, {	-- Journey to the Marsh
@@ -3293,7 +3293,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 12939,	-- Doctor Gustaf VanHowzen
 					["sourceQuest"] = 6625,	-- Alliance Trauma
 					["coord"] = { 67.7, 48.9, DUSTWALLOW_MARSH },
-					["races"] = ALLIANCE_ONLY,
 					["description"] =
 						-- #if AFTER BFA
 						"Needs a minimum of 225 skill in Tailoring.",
@@ -3306,6 +3305,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #else
 						FIRST_AID,
 						-- #endif
+					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(35, 35, 15),
 					["groups"] = {
 						objective(1, {	-- 0/15 Patients Saved

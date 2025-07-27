@@ -162,10 +162,10 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 								{ 50.3, 41.7, DAZARALOR },	-- Horde
 								{ 51.0, 88.8, DAZARALOR },	-- Horde
 							},
+							["_drop"] = { "r" },	-- API claims this is Horde-only, but it's neutral
 							--	originally removed, then hotfixed back in for 50 characters
 							--	NOT Horde-only, this ID is offered in both Dazar'alor and Boralus.  there used to be a separate ID for Alliance (52946), but it looks like that one was permanently removed.
 							--	used to be able to be picked up in Orgrimmar from Nathanos, but that doesn't seem to be the case anymore.  Nathanos is still in Org, but the only quest he offered to me at 50 was "Battle for Azeroth: Mission Statement," which i think originally took place after players had picked up the HoA - after completing "Mission Statement" i went back and Nathanos was no longer in that location in Orgrimmar
-							["_drop"] = { "r" },	-- API claims this is Horde-only, but it's neutral
 						}),
 						q(55519, {	-- A Fresh Trauma
 							["provider"] = { "n", 152206 },	-- Magni Bronzebeard
