@@ -43,20 +43,20 @@ root(ROOTS.Zones, {
 				prof(TAILORING, {
 					q(46678, {	-- The Legend of the Threads
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 						["sourceQuest"] = 46804,	-- Fashion History and a Philosophy of Style
-						["repeatable"] = true,
+						["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(147281),	-- Nights with the Nightborne (QI!)
 						},
 					}),
 					q(46682, {	-- Drapings of the Ancients
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
-						["repeatable"] = true,
+						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(146685), -- Ancient Imbued Silkweave (QI!)
 							i(146684), -- Ancient Imbued Silkweave Armor (QI!)
@@ -64,10 +64,10 @@ root(ROOTS.Zones, {
 					}),
 					q(46680, {	-- The Thread of Starlight
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
-						["repeatable"] = true,
+						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(146680),	-- Melandrus' Star-Touched Bracers (QI!)
 							i(146681),	-- Starlight Thread (QI!)
@@ -75,10 +75,10 @@ root(ROOTS.Zones, {
 					}),
 					q(46679, {	-- The Thread of Shadow
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
-						["repeatable"] = true,
+						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(146679),	-- Shadow Thread (QI!)
 							i(146678),	-- Vandros' Shadoweave Robes (QI!)
@@ -86,10 +86,10 @@ root(ROOTS.Zones, {
 					}),
 					q(46681, {	-- The Thread of Souls
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
-						["repeatable"] = true,
+						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(146683),	-- Soul Thread (QI!)
 							i(146682),	-- Suramari Soul-Wraps (QI!)
@@ -97,15 +97,15 @@ root(ROOTS.Zones, {
 					}),
 					q(46683, {	-- Starweave and Shadowcloth
 						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["sourceQuests"] = {
 							46682,	-- Drapings of the Ancients
 							46680,	-- The Thread of Starlight
 							46679,	-- The Thread of Shadow
 							46681,	-- The Thread of Souls
 						},
-						["repeatable"] = true,
+						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
+						["repeatable"] = true,
 						["groups"] = {
 							i(146952),	-- Legendary Tailor's Materials (QI!)
 							i(147437),	-- Satchel of Starweave and Shadowcloth (QI!)

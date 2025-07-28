@@ -123,13 +123,13 @@ root(ROOTS.Zones, {
 							}),
 							q(44991, {	-- The Smell of Draenei
 								["provider"] = { "n", 115787 },	-- Bloodgazer Hatchling
-								["races"] = ALLIANCE_ONLY,
 								["sourceQuest"] = 44990,	-- Raising Your Bloodgazer
+								["races"] = ALLIANCE_ONLY,
 							}),
 							q(44993, {	-- The Smell of Blood Elves
 								["provider"] = { "n", 115787 },	-- Bloodgazer Hatchling
-								["races"] = HORDE_ONLY,
 								["sourceQuest"] = 44990,	-- Raising Your Bloodgazer
+								["races"] = HORDE_ONLY,
 							}),
 							q(45006, {	-- The Unfavorable Faction
 								["provider"] = { "n", 115787 },	-- Bloodgazer Hatchling

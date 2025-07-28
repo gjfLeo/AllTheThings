@@ -117,13 +117,13 @@ root(ROOTS.Zones, {
 							}),
 							q(44949, {	-- The Smell of Humans
 								["provider"] = { "n", 115784 },	-- Snowfeather Hatchling
-								["races"] = ALLIANCE_ONLY,
 								["sourceQuest"] = 44948,	-- Raising Your Snowfeather
+								["races"] = ALLIANCE_ONLY,
 							}),
 							q(44971, {	-- The Smell of Orcs
 								["provider"] = { "n", 115784 },	-- Snowfeather Hatchling
-								["races"] = HORDE_ONLY,
 								["sourceQuest"] = 44948,	-- Raising Your Snowfeather
+								["races"] = HORDE_ONLY,
 							}),
 							q(44958, {	-- The Unfriendly Faction
 								["provider"] = { "n", 115784 },	-- Snowfeather Hatchling

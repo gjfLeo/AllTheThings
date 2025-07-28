@@ -9,11 +9,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 					{ "i", 122681 },	-- Sternfathom's Pet Journal
 					{ "n",  98489 },	-- Shipwrecked Captive
 				},
-				["description"] = "Weekly Account-Wide Pet Battle Quest. You need the toy Sternfathom's Pet Journal to summon this npc.",
 				["coord"] = { 49.3, 45.4, AZSUNA },
+				["description"] = "Weekly Account-Wide Pet Battle Quest. You need the toy Sternfathom's Pet Journal to summon this npc.",
 				["timeline"] = { ADDED_7_0_3_LAUNCH },
-				["_drop"] = { "g" },	-- Drop Shiny Pet Charm
 				["isWeekly"] = true,
+				["_drop"] = { "g" },	-- Drop Shiny Pet Charm
 			}),
 		}),
 	}),

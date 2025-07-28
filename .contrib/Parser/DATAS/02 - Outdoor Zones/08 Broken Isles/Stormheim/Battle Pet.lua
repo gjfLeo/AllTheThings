@@ -114,13 +114,13 @@ root(ROOTS.Zones, {
 							}),
 							q(44974, {	-- The Smell of Dwarves
 								["provider"] = { "n", 115785 },	-- Direbeak Hatchling
-								["races"] = ALLIANCE_ONLY,
 								["sourceQuest"] = 44973,	-- Raising Your Direbeak
+								["races"] = ALLIANCE_ONLY,
 							}),
 							q(44975, {	-- The Smell of Tauren
 								["provider"] = { "n", 115785 },	-- Direbeak Hatchling
-								["races"] = HORDE_ONLY,
 								["sourceQuest"] = 44973,	-- Raising Your Direbeak
+								["races"] = HORDE_ONLY,
 							}),
 							q(44981, {	-- The Unkindly Faction
 								["provider"] = { "n", 115785 },	-- Direbeak Hatchling
