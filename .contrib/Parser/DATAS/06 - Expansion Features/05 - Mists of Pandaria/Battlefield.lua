@@ -92,8 +92,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["sourceQuests"] = { 32811 },	-- Battlefield: Barrens
 					["coord"] = { 85.8, 59.6, VALE_OF_ETERNAL_BLOSSOMS },
 					["races"] = ALLIANCE_ONLY,
-					["isWeekly"] = true,
 					["isBreadcrumb"] = true,
+					["isWeekly"] = true,
 				}),
 				q(32872, {	-- Battlefield: Barrens
 					["qg"] = 71333,	-- Ki'ta Arrowtusk
@@ -143,8 +143,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["sourceQuests"] = { 32814 },	-- Battle of Razor Hill
 					["coord"] = { 62.2, 23.8, VALE_OF_ETERNAL_BLOSSOMS },
 					["races"] = HORDE_ONLY,
-					["isWeekly"] = true,
 					["isBreadcrumb"] = true,
+					["isWeekly"] = true,
 				}),
 				q(32862, {	-- Battlefield: Barrens
 					["qg"] = 71333,	-- Ki'ta Arrowtusk

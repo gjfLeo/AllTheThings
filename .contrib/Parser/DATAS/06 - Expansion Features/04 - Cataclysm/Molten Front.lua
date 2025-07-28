@@ -1519,8 +1519,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["qg"] = 52824,	-- General Taldris Moonfall
 					["sourceQuest"] = 29214,	-- The Shadow Wardens
 					["coord"] = { 50.6, 87.3, THE_MOLTEN_FRONT },
-					["isDaily"] = true,
 					["isBreadcrumb"] = true,
+					["isDaily"] = true,
 					["u"] = REMOVED_FROM_GAME,
 				}),
 				q(29161, {	-- Those Bears Up There

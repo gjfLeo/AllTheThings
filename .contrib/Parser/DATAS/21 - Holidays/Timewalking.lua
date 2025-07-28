@@ -223,9 +223,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 					{ 56.0, 19.0, STORMWIND_CITY },
 					{ 52.8, 83.0, ORGRIMMAR },
 				},
-				["isWeekly"] = true,
 				["timeline"] = { ADDED_11_0_5 },
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -241,8 +241,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 					{ 56.0, 19.0, STORMWIND_CITY },
 					{ 52.8, 83.0, ORGRIMMAR },
 				},
-				["isWeekly"] = true,
 				["timeline"] = { ADDED_11_0_5 },
+				["isWeekly"] = true,
 				["lvl"] = 80,
 				["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
 			}),
@@ -876,8 +876,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 				["provider"] = { "n", 98685 },	-- Cupri
 				["coord"] = { 54.4, 38.8,  SHATTRATH_CITY },
 				["timeline"] = { ADDED_11_0_5 },
-				["isWeekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -888,10 +888,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 				},
 			}),
 			q(47523, {	-- Disturbance Detected: Black Temple
-				["coord"] = { 54.6, 39,  SHATTRATH_CITY },
 				["provider"] = { "n", 123252 },	-- Vormu
-				["isWeekly"] = true,
+				["coord"] = { 54.6, 39,  SHATTRATH_CITY },
 				["timeline"] = { ADDED_7_2_5 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(208091, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (BC)
 						["description"] = "This bag contains an item from Black Temple or an item from the WoW's 15th Birthday Event Bosses Archimonde, Kael'Thas or Lady Vashj.\nThe droprate for the mounts seems rather high (5-10%).",
@@ -2095,8 +2095,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 				["provider"] = { "n", 98690 },	-- Auzin
 				["coord"] = { 50.6, 46.4, NORTHREND_DALARAN },
 				["timeline"] = { ADDED_11_0_5 },
-				["isWeekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -2109,8 +2109,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 			q(50316, {	-- Disturbance Detected: Ulduar
 				["provider"] = { "n", 130654 },	-- Vormu
 				["coord"] = { 49.5, 45.7, NORTHREND_DALARAN },
-				["isWeekly"] = true,
 				["timeline"] = { ADDED_7_3_5 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(157030),	-- Titan Prison Fragment (QI!)
 					i(208094, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (WOTLK)
@@ -3654,8 +3654,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 					{ 52.1, 41.6, ORGRIMMAR },
 				},
 				["timeline"] = { ADDED_11_0_7 },
-				["isWeekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -3671,8 +3671,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 					{ 74.8, 18.2, STORMWIND_CITY },
 					{ 49.8, 37.6, ORGRIMMAR },
 				},
-				["isWeekly"] = true,
 				["timeline"] = { ADDED_8_2_5 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(172506),	-- Time-Locked Cinder (QI!)
 					i(208095, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (Cata)
@@ -3764,16 +3764,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 			}),
 			q(40787, {	-- The Smoldering Ember (A)
 				["provider"] = { "i", 133378 },	-- Smoldering Timewarped Ember
-				["isWeekly"] = true,
 				["races"] = ALLIANCE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},
 			}),
 			q(40786, {	-- The Smoldering Ember (H)
 				["provider"] = { "i", 133377 },	-- Smoldering Timewarped Ember
-				["isWeekly"] = true,
 				["races"] = HORDE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},
@@ -4616,8 +4616,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 				["provider"] = { "n", 118828 },	-- Mistweaver
 				["coord"] = { 43.1, 55.3, TIMELESS_ISLE },
 				["timeline"] = { ADDED_11_0_7 },
-				["weekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -5231,17 +5231,17 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 		n(QUESTS, {
 			-- TW WoD Quest under level 80
 			q(86563, {	-- A Savage Journey Through Time
-				["providers"] = {
-					{ "n", 151955 },	-- Tempra
-					{ "n", 151987 },	-- Kronnus
+				["qgs"] = {
+					151955,	-- Tempra
+					151987,	-- Kronnus
 				},
 				["coords"] = {
 					{ 37.0, 72.4, STORMSHIELD },
 					{ 42.8, 54.4, WARSPEAR },
 				},
 				["timeline"] = { ADDED_11_0_7 },
-				["weekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -5253,16 +5253,16 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 			}),
 			q(55498, {	-- The Shimmering Crystal (A)
 				["provider"] = { "i", 167921 },		-- Shimmering Timewarped Crystal (A)
-				["isWeekly"] = true,
 				["races"] = ALLIANCE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},
 			}),
 			q(55499, {	-- The Shimmering Crystal (H)
 				["provider"] = { "i", 167922 },		-- Shimmering Timewarped Crystal (H)
-				["isWeekly"] = true,
 				["races"] = HORDE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},
@@ -5910,8 +5910,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 				["provider"] = { "n", 180899 },	-- Aridormi
 				["coord"] = { 68.6, 49.2, LEGION_DALARAN },
 				["timeline"] = { ADDED_11_0_7 },
-				["weekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
@@ -6627,23 +6627,21 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					{ 70.8, 17.3, BORALUS },	-- Alliance
 					{ 46.1, 94.9, DAZARALOR },	-- Horde
 				},
-				["weekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
-				["groups"] = {
-				},
+				["isWeekly"] = true,
 			}),
 			q(89222, {	-- Remnant of Azeroth (A)
 				["provider"] = { "i", 238790 },		-- Remnant of Azeroth (A)
-				["isWeekly"] = true,
 				["races"] = ALLIANCE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},
 			}),
 			q(89223, {	-- Remnant of Azeroth (H)
 				["provider"] = { "i", 238791 },		-- Remnant of Azeroth (H)
-				["isWeekly"] = true,
 				["races"] = HORDE_ONLY,
+				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
 				},

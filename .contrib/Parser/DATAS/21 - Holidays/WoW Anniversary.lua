@@ -1222,8 +1222,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		}),
 		n(QUESTS, {
 			q(57298, {	-- How Things "Really" Happened...
-				["sourceQuest"] = 57249,	-- A Timely Invitation
 				["qg"] = 157113,	-- Chromie
+				["sourceQuest"] = 57249,	-- A Timely Invitation
 				["coord"] = { 53.5, 54.7, CAVERNS_OF_TIME },
 				["lvl"] = 60,
 			}),
@@ -1279,7 +1279,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			-- Correct answers is in the bottom
 			q(43461, {	-- A Time to Reflect
 				["qg"] = 110035,	-- Historian Jupa
-				["isDaily"] = true,
 				-- #if BEFORE 11.0.5
 				["coord"] = { 36.6, 74.6, ORGRIMMAR },
 				-- #else
@@ -1287,14 +1286,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					{ 36.6, 74.6, ORGRIMMAR },
 					{ 62.8, 50.2, TANARIS },
 				},
-				-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
-				["_forcetimeline"] = true,
+				["_forcetimeline"] = true,	-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
 				-- #endif
 				["races"] = HORDE_ONLY,
+				["isDaily"] = true,
 			}),
 			q(43323, {	-- A Time to Reflect
 				["qg"] = 110034,	-- Historian Llore
-				["isDaily"] = true,
 				-- #if BEFORE 11.0.5
 				["coord"] = { 84.6, 25.0, STORMWIND_CITY },
 				-- #else
@@ -1302,10 +1300,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					{ 84.6, 25.0, STORMWIND_CITY },
 					{ 62.8, 50.2, TANARIS },
 				},
-				-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
-				["_forcetimeline"] = true,
+				["_forcetimeline"] = true,	-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
 				-- #endif
 				["races"] = ALLIANCE_ONLY,
+				["isDaily"] = true,
 			}),
 		}),
 		n(VENDORS, {
@@ -1374,12 +1372,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		n(QUESTS, {
 			q(47253, {	-- The Originals [Alliance]
 				["qg"] = 110034,	-- Historian Llore
-				["isDaily"] = true,
-				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 51.5, 38.7, CAVERNS_OF_TIME },
 				["timeline"] = { REMOVED_11_0_5 },
-				-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
-				["_forcetimeline"] = true,
+				["_forcetimeline"] = true,	-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
+				["races"] = ALLIANCE_ONLY,
+				["isDaily"] = true,
 				["sym"] = {{"select","npcID",
 					121818,	-- Lord Kazzak [Blasted Lands - Always up]
 					121820,	-- Azuregos [Azshara - Always Up]
@@ -1395,15 +1392,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				-- #else
 				["qg"] = 223882,	-- Izaik Kadarov
 				-- #endif
-				["isDaily"] = true,
 				-- #if BEFORE 11.0.5
 				["races"] = HORDE_ONLY,
 				["coord"] = { 51.5, 38.7, CAVERNS_OF_TIME },
 				-- #else
 				["coord"] = { 62.3, 51.8, TANARIS },
 				-- #endif
-				-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
-				["_forcetimeline"] = true,
+				["_forcetimeline"] = true,	-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
+				["isDaily"] = true,
 				["sym"] = {{"select","npcID",
 					121818,	-- Lord Kazzak [Blasted Lands - Always up]
 					121820,	-- Azuregos [Azshara - Always Up]
@@ -1600,98 +1596,98 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				n(QUESTS, {
 					q(57302, {	-- Alterac Valley Graveyards
 						["qg"] = 159811,	-- Sergeant Durgen Stormpike
-						["isDaily"] = true,
 						["coord"] = { 43.6, 17.2, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57305, {	-- Armor Scraps
 						["qg"] = 13257,	-- Murgot Deepforge
-						["isDaily"] = true,
 						["coord"] = { 43.6, 15.9, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57309, {	-- Begin the Attack
-						["repeatable"] = true,	-- presumably
 						["qg"] = 13446,	-- Field Marshal Teravaine
 						["coord"] = { 52.3, 44.0, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,	-- presumably
 						["lvl"] = 10,
 					}),
 					q(57304, {	-- Capture a Mine (A)
-						["providers"] = {
-							{ "n", 12096 },		-- Stormpike Quartermaster
-							{ "n", 159811 },	-- Sergeant Durgen Stormpike
+						["qgs"] = {
+							12096,	-- Stormpike Quartermaster
+							159811,	-- Sergeant Durgen Stormpike
 						},
-						["isDaily"] = true,
 						["coords"] = {
 							{ 43.3, 17.0, 1537 },
 							{ 43.6, 17.2, 1537 },
 						},
 						["races"] = ALLIANCE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57314, {	-- Capture a Mine (H)
-						["providers"] = {
-							{ "n", 12097 },		-- Frostwolf Quartermaster
-							{ "n", 158579 },	-- Corporal Teeka Bloodsnarl
+						["qgs"] = {
+							12097,	-- Frostwolf Quartermaster
+							158579,	-- Corporal Teeka Bloodsnarl
 						},
-						["isDaily"] = true,
 						["coords"] = {
 							{ 46.8, 83.5, 1537 },
 							{ 50.8, 82.3, 1537 },
 						},
 						["races"] = HORDE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57311, {	-- Coldtooth Supplies (A)
-						["repeatable"] = true,
 						["qg"] = 12096,	-- Stormpike Quartermaster
 						["coord"] = { 43.3, 17.0, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57321, {	-- Coldtooth Supplies (H)
-						["repeatable"] = true,
 						["qg"] = 12097,	-- Frostwolf Quartermaster
 						["coord"] = { 46.8, 83.5, 1537 },
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57722, {	-- Empty Stables (A)
-						["repeatable"] = true,
 						["qg"] = 158863,	-- Stormpike Stable Master
 						["coord"] = { 42.6, 16.9, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57723, {	-- Empty Stables (H)
-						["repeatable"] = true,
 						["qg"] = 158864,	-- Frostwolf Stable Master
 						["coord"] = { 57.1, 82.5, 1537 },
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57317, {	-- Enemy Booty
 						["qg"] = 13176,	-- Smith Regzar
-						["isDaily"] = true,
 						["coord"] = { 49.9, 82.6, 1537 },
 						["races"] = HORDE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57310, {	-- Irondeep Supplies (A)
-						["repeatable"] = true,
 						["qg"] = 12096,	-- Stormpike Quartermaster
 						["coord"] = { 43.3, 17.0, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57322, {	-- Irondeep Supplies (H)
-						["repeatable"] = true,
 						["qg"] = 12097,	-- Frostwolf Quartermaster
 						["coord"] = { 46.8, 83.5, 1537 },
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(56258, {	-- Ivus the Forest Lord
@@ -1728,10 +1724,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						},
 					}),
 					q(57320, {	-- Launch the Attack!
-						["repeatable"] = true,	-- presumably
 						["qg"] = 13449,	-- Warmaster Garrick
 						["coord"] = { 45.0, 48.0, 1537 },
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,	-- presumably
 						["lvl"] = 10,
 					}),
 					q(56259, {	-- Lokholar the Ice Lord
@@ -1742,48 +1738,48 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["isWeekly"] = true,
 					}),
 					q(57641, {	-- Master Ryson's All Seeing Eye
-						--	unsure if this has faction requirements or anything along those lines
 						["repeatable"] = true,	-- presumably
 						["lvl"] = 10,
+						--	unsure if this has faction requirements or anything along those lines
 					}),
 					q(57306, {	-- More Armor Scraps
-						["repeatable"] = true,
 						["qg"] = 13257,	-- Murgot Deepforge
 						["coord"] = { 43.6, 15.9, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57318, {	-- More Booty!
-						["repeatable"] = true,
 						["qg"] = 13176,	-- Smith Regzar
 						["coord"] = { 49.9, 82.6, 1537 },
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 					}),
 					q(57313, {	-- Speak with our Quartermaster
 						["qg"] = 13798,	-- Jotek
-						["isWeekly"] = true,
 						["coord"] = { 50.6, 82.0, 1537 },
 						["races"] = HORDE_ONLY,
+						["isWeekly"] = true,
 						["lvl"] = 10,
 					}),
 					q(56256, {	-- The Battle for Alterac (A)
 						["qg"] = 154478,	-- Prospector Stonehewer
 					--	["coord"] = { , ALTERAC_VALLEY },
-						["isWeekly"] = true,
 						["races"] = ALLIANCE_ONLY,
+						["isWeekly"] = true,
 					}),
 					q(56257, {	-- The Battle for Alterac (H)
 						["qg"] = 154473,	-- Voggah Deathgrip
 						["coord"] = { 55.0, 87.2, ALTERAC_VALLEY },
-						["isWeekly"] = true,
 						["races"] = HORDE_ONLY,
+						["isWeekly"] = true,
 					}),
 					q(57312, {	-- The Graveyards of Alterac
 						["qg"] = 158579,	-- Corporal Teeka Bloodsnarl
-						["isDaily"] = true,
 						["coord"] = { 50.8, 82.3, 1537 },
 						["races"] = HORDE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57639, {	-- The Legend of Korrak
@@ -1802,37 +1798,37 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 					q(57303, {	-- The Quartermaster
 						["qg"] = 13797,	-- Mountaineer Boombellow
-						["isWeekly"] = true,
 						["races"] = ALLIANCE_ONLY,
+						["isWeekly"] = true,
 						["lvl"] = 10,
 					}),
 					q(57307, {	-- Towers and Bunkers (A)
 						["qg"] = 159811,	-- Sergeant Durgen Stormpike
-						["isDaily"] = true,
 						["coord"] = { 43.6, 17.2, 1537 },
 						["races"] = ALLIANCE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57315, {	-- Towers and Bunkers (H)
 						["qg"] = 158579,	-- Corporal Teeka Bloodsnarl
-						["isDaily"] = true,
 						["coord"] = { 50.8, 82.3, 1537 },
 						["races"] = HORDE_ONLY,
+						["isDaily"] = true,
 						["lvl"] = 10,
 					}),
 					q(57730, {	-- Zinfizzlex's Portable Shredder Unit (A)
-						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
-						["repeatable"] = true,
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
+						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
 						["races"] = ALLIANCE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 						["groups"] = { i(17410) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
 					q(57731, {	-- Zinfizzlex's Portable Shredder Unit (H)
-						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
-						["repeatable"] = true,
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
+						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
 						["races"] = HORDE_ONLY,
+						["repeatable"] = true,
 						["lvl"] = 10,
 						["groups"] = { i(17384) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
@@ -2301,8 +2297,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				["qg"] = 223882,	-- Izaik Kadarov
 				["coord"] = { 62.3, 51.8, TANARIS },
 				-- #endif
-				["isWeekly"] = true,
 				["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5, ADDED_11_0_2 },
+				["isWeekly"] = true,
 				["_drop"] = { "g" },	-- drop MoH to remove this quest from the popout
 			}),
 		}),
@@ -2929,8 +2925,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				["coord"] = { 62.9, 50.7, TANARIS },
 			}),
 			q(84489, {	-- Shopping Squee!
-				["sourceQuests"] = { 84254 },	-- Meet and Greet
 				["provider"] = { "n", 223877 },	-- Yllana <Event Coordinator>
+				["sourceQuests"] = { 84254 },	-- Meet and Greet
 				["coord"] = { 62.9, 50.7, TANARIS },
 			}),
 			q(84616, {	-- Celebrate Good Fun!

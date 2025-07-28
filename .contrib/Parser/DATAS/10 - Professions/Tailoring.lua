@@ -139,14 +139,14 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_5, REMOVED_4_0_3 } }, {
 			q(10831, {	-- Becoming a Mooncloth Tailor
 				["qg"] = 22208,	-- Nasmara Moonsong <Mooncloth Specialist>
-				["description"] = "Upon finishing this quest, you will become a Mooncloth Tailor.",
-				["coord"] = { 66.5, 69.3, SHATTRATH_CITY },
-				["maps"] = { ZANGARMARSH },
 				["altQuests"] = {
 					-- 10831,	-- Becoming a Mooncloth Tailor
 					10833,	-- Becoming a Shadoweave Tailor
 					10832,	-- Becoming a Spellfire Tailor
 				},
+				["coord"] = { 66.5, 69.3, SHATTRATH_CITY },
+				["description"] = "Upon finishing this quest, you will become a Mooncloth Tailor.",
+				["maps"] = { ZANGARMARSH },
 				["lvl"] = 60,
 				["groups"] = {
 					objective(1, {	-- 0/1 Sample of Primal Mooncloth
@@ -166,15 +166,15 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(10833, {	-- Becoming a Shadoweave Tailor
 				["qg"] = 22212,	-- Andrion Darkspinner <Shadoweave Specialist>
-				["description"] = "Upon finishing this quest, you will become a Shadoweave Tailor.",
-				["coord"] = { 66.6, 68.2, SHATTRATH_CITY },
-				["maps"] = { SHADOWMOON_VALLEY },
-				["requireSkill"] = TAILORING,
 				["altQuests"] = {
 					10831,	-- Becoming a Mooncloth Tailor
 					-- 10833,	-- Becoming a Shadoweave Tailor
 					10832,	-- Becoming a Spellfire Tailor
 				},
+				["coord"] = { 66.6, 68.2, SHATTRATH_CITY },
+				["description"] = "Upon finishing this quest, you will become a Shadoweave Tailor.",
+				["maps"] = { SHADOWMOON_VALLEY },
+				["requireSkill"] = TAILORING,
 				["lvl"] = 60,
 				["groups"] = {
 					objective(1, {	-- Deepen Altar of Shadows Attunement
@@ -186,14 +186,14 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(10832, {	-- Becoming a Spellfire Tailor
 				["qg"] = 22213,	-- Gidge Spellweaver <Spellfire Specialist>
-				["description"] = "Upon finishing this quest, you will become a Spellfire Tailor.",
-				["coord"] = { 66.6, 68.4, SHATTRATH_CITY },
-				["maps"] = { NETHERSTORM },
 				["altQuests"] = {
 					10831,	-- Becoming a Mooncloth Tailor
 					10833,	-- Becoming a Shadoweave Tailor
 					-- 10832,	-- Becoming a Spellfire Tailor
 				},
+				["coord"] = { 66.6, 68.4, SHATTRATH_CITY },
+				["description"] = "Upon finishing this quest, you will become a Spellfire Tailor.",
+				["maps"] = { NETHERSTORM },
 				["lvl"] = 60,
 				["groups"] = {
 					objective(1, {	-- 0/1 Nether-wraith Essence
@@ -246,8 +246,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["provider"] = { "i", 114972 },	-- Cryptic Tome of Tailoring
 				["description"] = "This item can drop from any Draenor mob.",
 				["timeline"] = { ADDED_6_0_2 },
-				["requireSkill"] = TAILORING,
-				["races"] = ALLIANCE_ONLY,
 				["maps"] = {
 					FROSTFIRE_RIDGE,
 					GORGROND,
@@ -256,13 +254,13 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					SPIRES_OF_ARAK,
 					TALADOR,
 				},
+				["requireSkill"] = TAILORING,
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(36301, {	-- Trega's Tailoring Kit
 				["provider"] = { "i", 114973 },	-- Frostwolf Tailoring Kit
 				["description"] = "This item can drop from any Draenor mob.",
 				["timeline"] = { ADDED_6_0_2 },
-				["requireSkill"] = TAILORING,
-				["races"] = HORDE_ONLY,
 				["maps"] = {
 					FROSTFIRE_RIDGE,
 					GORGROND,
@@ -271,6 +269,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					SPIRES_OF_ARAK,
 					TALADOR,
 				},
+				["requireSkill"] = TAILORING,
+				["races"] = HORDE_ONLY,
 			}),
 		}),
 	})),
@@ -291,96 +291,96 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			q(54483, {	-- Tailored Training [A]
 				["provider"] = { "n", 136071 },	-- Daniel Brineweaver <Tailoring Trainer>
 				["coord"] = { 76.8, 11.2, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },	-- Might no be correct removed patch
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54484, {	-- Tailored Training [H]
 				["provider"] = { "n", 122700 },	-- Pin'jin the Patient <Tailoring Trainer>
 				["coord"] = { 44.5, 33.9, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },	-- Might no be correct removed patch
+				["races"] = HORDE_ONLY,
 			}),
 			------ Tools of Trade Questline ------
 			q(53805, {	-- A Friend in Needle [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 76.6, 11.8, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(53938, {	-- A Friend in Needle [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 43.5, 34.8, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(53807, {	-- A Stitch in Time [A]
-				["sourceQuests"] = { 53805 },	-- A Friend in Needle [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53805 },	-- A Friend in Needle [A]
 				["coord"] = { 76.6, 11.8, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
 			}),
 			q(53940, {	-- A Stitch in Time [H]
-				["sourceQuests"] = { 53938 },	-- A Friend in Needle [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53938 },	-- A Friend in Needle [H]
 				["coord"] = { 43.5, 34.8, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
 			}),
 			q(55177, {	-- Tearing at the Seams [A]
-				["sourceQuests"] = { 53807 },	-- A Stitch in Time [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
-				["races"] = ALLIANCE_ONLY,
+				["sourceQuests"] = { 53807 },	-- A Stitch in Time [A]
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(55188, {	-- Tearing at the Seams [H]
-				["sourceQuests"] = { 53940 },	-- A Stitch in Time [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
-				["races"] = HORDE_ONLY,
+				["sourceQuests"] = { 53940 },	-- A Stitch in Time [H]
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(53810, {	-- The Severed Thread
+				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["sourceQuests"] = {
 					55177,	-- Tearing at the Seams [A]
 					55188,	-- Tearing at the Seams [H]
 				},
-				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 62.0, 53.9, CAVERNS_OF_TIME },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53813, {	-- Rolling Up the Sleeves
+				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["sourceQuests"] = {
 					55177,	-- Tearing at the Seams [A]
 					55188,	-- Tearing at the Seams [H]
 				},
-				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 43.5, 34.8, CAVERNS_OF_TIME },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53858, {	-- Step Into Her Shoes
+				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["sourceQuests"] = {
 					53810,	-- The Severed Thread
 					53813,	-- Rolling Up the Sleeves
 				},
-				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 39.1, 63.3, CAVERNS_OF_TIME },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53866, {	-- If The Shoe Fits...
-				["sourceQuests"] = { 53858 },	-- Step Into Her Shoes
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53858 },	-- Step Into Her Shoes
 				["coord"] = { 63.8, 68.8, SURAMAR },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(55214, {	-- Seam Stress
-				["sourceQuests"] = { 53866 },	-- If The Shoe Fits...
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53866 },	-- If The Shoe Fits...
 				["coord"] = { 64.2, 69.5, SURAMAR },
 				["timeline"] = { ADDED_8_1_5 },
 				["groups"] = {
@@ -388,20 +388,20 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 			}),
 			q(53868, {	-- Saving Nine
-				["sourceQuests"] = { 55214 },	-- Seam Stress
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 55214 },	-- Seam Stress
 				["coord"] = { 7.2, 24.5, STORMSONG_VALLEY },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53869, {	-- Killing Time
-				["sourceQuests"] = { 53868 },	-- Saving Nine
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53868 },	-- Saving Nine
 				["coord"] = { 71.6, 39.8, DRAGONBLIGHT },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53881, {	-- Cut from the Same Cloth [A]
-				["sourceQuests"] = { 53869 },	-- Killing Time
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53869 },	-- Killing Time
 				["coord"] = { 71.6, 39.8, DRAGONBLIGHT },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -409,8 +409,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 			}),
 			q(53962, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Cut from the Same Cloth [H]
-				["sourceQuests"] = { 53869 },	-- Killing Time
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
+				["sourceQuests"] = { 53869 },	-- Killing Time
 				["coord"] = { 71.6, 39.8, DRAGONBLIGHT },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
@@ -525,18 +525,18 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		})),
 		n(QUESTS, {
 			q(72249, {	-- Dragon Isles Tailoring
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
 				["provider"] = { "n", 192565 },	-- Zayn Starmaker <Tailoring Trainer>
 				["coord"] = { 75.8, 33.2, THE_WAKING_SHORES },
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
 				["lockCriteria"] = { 1,
 					"spellID", 366258,	-- Dragon Isles Tailoring
 					"questID", 70366,	-- Dragon Isles Tailoring
 				},
 			}),
 			q(70366, {	-- Dragon Isles Tailoring
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
 				["provider"] = { "n", 191894 },	-- Krillonn
 				["coord"] = { 61.3, 70.1, THE_WAKING_SHORES },
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
 				["lockCriteria"] = { 1,
 					"spellID", 366258,	-- Dragon Isles Tailoring
 					"questID", 72249,	-- Dragon Isles Tailoring
@@ -550,13 +550,13 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70260, {	-- Hidden Profession Master Tailoring
 				["name"] = "Hidden Profession Master: Tailoring",
-				["description"] = "Above the Rostrum of Transformation, on a ledge.",
 				["provider"] = { "n", 194845 },	-- Elysa Raywinder
 				["coord"] = { 27.9,45.6, VALDRAKKEN },
+				["description"] = "Above the Rostrum of Transformation, on a ledge.",
 			}),
 			q(70194, {	-- Specialized Secrets: Tailoring
-				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["provider"] = { "n", 193110 },	-- Khadin
+				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
@@ -573,38 +573,38 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			},
 		},{
 			q(66953, {	-- All Things Fluffy
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(194450),	-- Fluffy Fur (QI!)
 				},
 			}),
 			q(66899, {	-- Fuzzy Legs
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(193865),	-- Fuzzy Legs (QI!)
 				},
 			}),
 			q(72410, {	-- Pincers and Needles
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(201825),	-- Pointy Pincer (QI!)
 				},
 			}),
 			q(70595, {	-- Tailoring Services Requested
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 194026 },	-- Azley
 				["coord"] = { 35.6, 58.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 			}),
 			q(66952, {	-- The Gnoll's Clothes
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(194328),	-- Gnoll-Worn Cloth (QI!)
 				},
@@ -612,24 +612,24 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 
 			-- Requires 45 Skill
 			q(70587, {	-- A Knapsack Problem
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193649 },	-- Threadfinder Fulafong
 				["coord"] = { 31.8, 67.6, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70586, {	-- Sew Many Cooks
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193649 },	-- Threadfinder Fulafong
 				["coord"] = { 31.8, 67.6, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70572, {	-- The Cold Does Bother Them, Actually
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193649 },	-- Threadfinder Fulafong
 				["coord"] = { 31.8, 67.6, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70582, {	-- Weave Well Enough Alone
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193649 },	-- Threadfinder Fulafong
 				["coord"] = { 31.8, 67.6, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 
 			-- Requires ?? Skill - Patch 10.1.0.
@@ -798,8 +798,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			i(198609),	-- Tailoring Examples
 			q(74115, {	-- DF Inscription Order: Tailoring
 				["name"] = "DF Inscription Order: Tailoring",
-				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 194698 },	-- Draconic Treatise on Tailoring
+				["description"] = "Requires a crafting order from Inscription.",
 			}),
 			q(66386, {	-- DF Weekly Tailoring Knowledgepoint #1
 				["name"] = "DF Tailoring Treasure #1",
@@ -811,28 +811,28 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70525, {	-- DF Weekly Tailoring Knowledgepoint #3
 				["name"] = "DF Tailoring Drop #1: Beast Humanoid",
+				["provider"] = { "i", 198978 },	-- Stupidly Effective Stitchery
+				["coords"] = {
+					{ 56.6, 29.2, THALDRASZUS },
+					{ 57.0, 30.6, THALDRASZUS },
+				},
 				["description"] = "Drops from any beastlike Humanoid.\nCoordinates link to the spot(s) we found best.",
 				["crs"] = {
 					192500,	-- Fetid Slogger
 					192506,	-- Hyena Tender
 				},
-				["coords"] = {
-					{ 56.6, 29.2, THALDRASZUS },
-					{ 57.0, 30.6, THALDRASZUS },
-				},
-				["provider"] = { "i", 198978 },	-- Stupidly Effective Stitchery
 			}),
 			q(70524, {	-- DF Weekly Tailoring Knowledgepoint #4
 				["name"] = "DF Tailoring Drop #2: Ohn'ahran Humanoid",
-				["description"] = "Drops from any Ohn'ahran Humanoid.\nCoordinates link to the spot(s) we found best.",
-				["crs"] = {
-					193840,	-- Nokhud Raider
-				},
+				["provider"] = { "i", 198977 },	-- Ohn'arhan Weave
 				["coords"] = {
 					{ 87.0, 51.4, OHNAHRAN_PLAINS },
 					{ 85.0, 55.8, OHNAHRAN_PLAINS },
 				},
-				["provider"] = { "i", 198977 },	-- Ohn'arhan Weave
+				["description"] = "Drops from any Ohn'ahran Humanoid.\nCoordinates link to the spot(s) we found best.",
+				["crs"] = {
+					193840,	-- Nokhud Raider
+				},
 			}),
 		})),
 	})),

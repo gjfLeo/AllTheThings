@@ -30,6 +30,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },
 			}),
 			q(46065, {	-- An Impossible Foe
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					DEATHKNIGHT,	-- Unholy
 					DRUID,			-- Feral
@@ -38,7 +39,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					SHAMAN,			-- Elemental
 					WARRIOR,		-- Fury
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					115638,	-- Agatha
 					115719,	-- Imp Servant
@@ -68,6 +68,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(44925, {	-- Closing the Eye
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					DEATHKNIGHT,	-- Frost
 					DEMONHUNTER,	-- Havoc
@@ -75,7 +76,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					ROGUE,			-- Subtlety
 					WARRIOR,		-- Arms
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					115244,	-- Archmage Xylem
 					116839,	-- Corrupting Shadows
@@ -99,6 +99,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(46035, {	-- End of the Risen Threat
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					DRUID,		-- Restoration
 					PALADIN,	-- Holy
@@ -106,7 +107,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					PRIEST,		-- Holy
 					SHAMAN,		-- Restoration
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					118447,	-- Commander Jarod Shadowsong
 					118448,	-- Granny Marl
@@ -135,13 +135,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(45627, {	-- Feltotem's Fall
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					HUNTER,		-- Beast Mastery
 					MONK,		-- Windwalker
 					PRIEST,		-- Discipline
 					WARLOCK,	-- Destruction
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					117230,	-- Tugar Bloodtotem
 					117484,	-- Jormog the Behemoth
@@ -162,6 +162,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(45526, {	-- The God-Queen's Fury
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					MAGE,		-- Arcane
 					PALADIN,	-- Retribution
@@ -169,7 +170,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					SHAMAN,		-- Enhancemeent
 					WARLOCK,	-- Demonology
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					116484,	-- Sigryn
 					116499,	-- Jarl Velbrand
@@ -194,6 +194,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(45416, {	-- The Highlord's Return
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					DEATHKNIGHT,	-- Blood
 					DEMONHUNTER,	-- Vengeance
@@ -202,7 +203,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					PALADIN,		-- Protection
 					WARRIOR,		-- Protection
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					117933,	-- Inquisitor Variss
 					118032,	-- Tormenting Eye
@@ -232,6 +232,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				},
 			}),
 			q(46127, {	-- Thwarting the Twins
+				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["classes"] = {
 					DRUID,		-- Balance
 					HUNTER,		-- Marksmanship
@@ -239,7 +240,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					PRIEST,		-- Shadow
 					WARLOCK,	-- Affliction
 				},
-				["provider"] = { "n", 117871 },	-- War Councilor Victoria
 				["crs"] = {
 					116410,	-- Karam Magespear
 					116409,	-- Raest Magespear

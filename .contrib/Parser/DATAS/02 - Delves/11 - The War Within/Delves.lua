@@ -2105,7 +2105,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	n(QUESTS, sharedData({
 		["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 		["coord"] = { 47.4, 44.4, DORNOGAL },
-		["weekly"] = true,
+		["isWeekly"] = true,
 	}, {
 		q(82746),	-- Delves: Breaking Tough to Loot Stuff
 		q(82707),	-- Delves: Earthen Defense

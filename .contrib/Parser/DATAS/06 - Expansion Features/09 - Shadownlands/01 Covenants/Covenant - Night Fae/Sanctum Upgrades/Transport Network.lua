@@ -31,42 +31,42 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 39.6, 55.0, THE_ROOTS },
 								}),
 								q(57459, {	-- Fighting For Fungus
+									["provider"] = { "n", 157710 },	-- Cortinarius
 									["sourceQuests"] = {
 										57455,	-- Mushroom For Improvement
 										57458,	-- Ring Repairs
 									},
-									["provider"] = { "n", 157710 },	-- Cortinarius
 									["coord"] = { 29.5, 34.8, ARDENWEALD },
 								}),
 								q(57455, {	-- Mushroom For Improvement
-									["sourceQuests"] = { 57454 },	-- Silence in the Stalks
 									["provider"] = { "n", 157710 },	-- Cortinarius
+									["sourceQuests"] = { 57454 },	-- Silence in the Stalks
 									["coord"] = { 33.2, 36.3, ARDENWEALD },
 									["groups"] = {
 										i(171989),	-- Pouch of Spores (QI!)
 									},
 								}),
 								q(57463, {	-- My Way or the Hyphae
-									["sourceQuests"] = { 57459 },	-- Fighting For Fungus
 									["provider"] = { "n", 166982 },	-- Marasmius
+									["sourceQuests"] = { 57459 },	-- Fighting For Fungus
 									["coord"] = { 29.5, 34.6, ARDENWEALD },
 								}),
 								q(57458, {	-- Ring Repairs
-									["sourceQuests"] = { 57454 },	-- Silence in the Stalks
 									["provider"] = { "n", 157710 },	-- Cortinarius
+									["sourceQuests"] = { 57454 },	-- Silence in the Stalks
 									["coord"] = { 33.2, 36.3, ARDENWEALD },
 									["groups"] = {
 										i(172084),	-- Fungal Beacon (QI!)
 									},
 								}),
 								q(57454, {	-- Silence in the Stalks
-									["sourceQuests"] = { 63073 },	-- A Mycelial Network
 									["provider"] = { "n", 174609 },	-- Zaki
+									["sourceQuests"] = { 63073 },	-- A Mycelial Network
 									["coord"] = { 53.2, 33.2, THE_ROOTS },
 								}),
 								q(57583, {	-- Through the Veil
-									["sourceQuests"] = { 57463 },	-- My Way or the Hyphae
 									["provider"] = { "n", 166982 },	-- Marasmius
+									["sourceQuests"] = { 57463 },	-- My Way or the Hyphae
 									["coord"] = { 29.5, 34.6, ARDENWEALD },
 									["groups"] = {
 										i(178033),	-- Talkative Spore (QI!)

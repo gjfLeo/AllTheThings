@@ -29,46 +29,46 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				},
 			}),
 			q(57157, {	-- Assault: The Black Empire
-				["isWeekly"] = true,
 				["isWorldQuest"] = true,
+				["isWeekly"] = true,
 				["groups"] = {
 					n(QUESTS, sharedData({
 						["isDaily"] = true,
 					}, {
 						q(58235, {	-- Anchors of the Black Empire
-							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155095 },	-- King Phaoris
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58229, {	-- A Rallying Cry
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58230, {	-- Blind the Eyes
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58237, {	-- Cleansing Uldum
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57773, {	-- Close to Tears	-- This quest also happens in Vale it looks like.
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58277, {	-- Dark Deceivers
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58239, {	-- Lessons in Brigandry
-							["coord"] = { 54.6, 34.0, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 160957 },	-- Arianna Swiftsand
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 34.0, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								o(334216, {	-- Black Empire Cache placeholder
 									["coords"] = {	-- Treasure chests
@@ -93,47 +93,47 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							},
 						}),
 						q(58238, {	-- Lost and Tormented
-							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155095 },	-- King Phaoris
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57774, {	-- Nine Lives
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58232, {	-- Order Among Chaos
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58234, {	-- Questionable Sourcing
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(173956),	-- Coalesced Corruption (QI!)
 							},
 						}),
 						q(57737, {	-- Ramkahen Rescue
-							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155095 },	-- King Phaoris
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58236, {	-- Symbolic Destruction
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58233, {	-- Twisted Corruptors
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58231, {	-- Wisdom From Madness
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(173954),	-- Maddened Writings (QI!)
 							},
@@ -371,75 +371,75 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				},
 			}),
 			q(55350, {	-- Assault: Amathet Advance
-				["isWeekly"] = true,
 				["isWorldQuest"] = true,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(168257),	-- Artificer's Keystone (QI!)
 					i(168043),	-- Titan Artifact (QI!)
 					n(QUESTS, {
 						-- Assault questline
 						q(58636, {	-- Eyes on the Amathet
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58638, {	-- A Deeper Dive
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58636,	-- Eyes on the Amathet
+							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58639, {	-- Buried History
-							["lvl"] = 120,
-							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58638,	-- A Deeper Dive
+							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								i(174450),	-- Amathet Artifact (QI!)
 							},
 						}),
 						q(58646, {	-- Chew On This!
-							["lvl"] = 120,
-							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58638,	-- A Deeper Dive
+							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58640, {	-- A Crack in the Armor
-							["lvl"] = 120,
-							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuests"] = {
 								58639,	-- Buried History
 								58646,	-- Chew On This!
 							},
+							["coord"] = { 68.9, 57.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58641, {	-- Seekers of Corruption
-							["lvl"] = 120,
-							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58640,	-- A Crack in the Armor
+							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								i(174451),	-- Sun King's Decree (QI!)
 							},
 						}),
 						q(58642, {	-- Shared Goals
-							["lvl"] = 120,
-							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58641,	-- Seekers of Corruption
+							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58643, {	-- Mutually Assured Destruction
-							["lvl"] = 120,
-							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 58642,	-- Shared Goals
+							["coord"] = { 72.9, 48.4, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58645, {	-- A World Worth Saving
-							["lvl"] = 120,
-							["coord"] = { 71.6, 52.0, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 161031 },	-- Captain Hadan
 							["sourceQuest"] = 58643,	-- Mutually Assured Destruction
+							["coord"] = { 71.6, 52.0, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 					}),
 					-- Dailies
@@ -447,100 +447,100 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["isDaily"] = true,
 					}, {
 						q(58287, {	-- A Smashing Plan
-							["lvl"] = 120,
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 							},
 						}),
 						q(58281, {	-- Ancient Armaments
-							["lvl"] = 120,
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 								i(173985),	-- Amathet Armor (QI!)
 							},
 						}),
 						q(58283, {	-- Blind Leading the Blind
-							["lvl"] = 120,
-							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155099 },	-- High Priest Amet
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 32.8, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58290, {	-- Champions of the Amathet
-							["lvl"] = 120,
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 							},
 						}),
 						q(58282, {	-- Down From the Sky
-							["lvl"] = 120,
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 						}),
 						q(58291, {	-- Encroaching Poachers
-							["lvl"] = 120,
-							["coord"] = { 54.6, 34.0, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 160957 },	-- Arianna Swiftsand
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.6, 34.0, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								i(174008),	-- Rugged Hyena Pelt (QI!)
 							},
 						}),
 						q(58286, {	-- Far From Home
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155095 },	-- King Phaoris
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 							},
 						}),
 						q(58289, {	-- Guarded Secrets
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
+							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 							},
 						}),
 						q(58288, {	-- The Sun King's Chosen
-							["lvl"] = 120,
-							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155096 },	-- High Commander Kamses
+							["coord"] = { 54.8, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 							},
 						}),
 						q(58321, {	-- Uncommon Core
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155095 },	-- King Phaoris
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 								i(174009),	-- Titanic Core (QI!)
 							},
 						}),
 						q(58285, {	-- Unearthed Artifacts
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
 							["sourceQuest"] = 56472,	-- The Uldum Accord
+							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								i(168043),	-- Titan Artifact (QI!)
 							},
 						}),
 						q(58284, {	-- Writs of the Sun King
-							["lvl"] = 120,
-							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 155102 },	-- High Explorer Dellorah
+							["coord"] = { 54.9, 32.9, NZOTH_ASSAULT_ULDUM },
+							["lvl"] = 120,
 							["groups"] = {
 								currency(1755),	-- Coalescing Visions
 								i(173986),	-- Writ of the Sun King (QI!)
@@ -732,100 +732,100 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				}
 			}),
 			q(56308, {	-- Assault: Aqir Unearthed
-				["isWeekly"] = true,
 				["isWorldQuest"] = true,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(169432),	-- Wastewander Coin (QI!)
 					n(QUESTS, {
 						-- Assault questline
 						q(57873, {	-- Word from Orsis
-							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159544 },	-- Arik Scorpidsting
+							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57915, {	-- Search for Survivors
-							["coord"] = { 40.8, 38.5, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 154958 },	-- Laborer Mitchell
 							["sourceQuest"] = 57873,	-- Word from Orsis
+							["coord"] = { 40.8, 38.5, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57955, {	-- To Ankhaten Harbor
-							["coord"] = { 39.9, 45.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159560 },	-- Outrider Lashan
 							["sourceQuest"] = 57915,	-- Search for Survivors
+							["coord"] = { 39.9, 45.2, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57954, {	-- Burn the Bodies
-							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159682 },	-- Tracker Samara
 							["sourceQuest"] = 57955,	-- To Ankhaten Harbor
+							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174323),	-- Torch (QI!)
 							},
 						}),
 						q(57956, {	-- Wastewander Hosts
-							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159682 },	-- Tracker Samara
 							["sourceQuest"] = 57955,	-- To Ankhaten Harbor
+							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174325),	-- Fire Bomb (QI!)
 							},
 						}),
 						q(57971, {	-- Ruins of Ammon
-							["coord"] = { 24.4, 55.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159682 },	-- Tracker Samara
 							["sourceQuests"] = {
 								57954,	-- Burn the Bodies
 								57956,	-- Wastewander Hosts
 							},
+							["coord"] = { 24.4, 55.2, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58606, {	-- A Bit of Investigation
-							["coord"] = { 27.9, 63.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 164196 },	-- H'partho Ardoros
 							["sourceQuest"] = 57971,	-- Ruins of Ammon
+							["coord"] = { 27.9, 63.3, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174356),	-- Aqir Bits (QI!)
 							},
 						}),
 						q(57970, {	-- Ruinator Xok'nixx
-							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159820 },	-- Mender Dyrin
 							["sourceQuest"] = 57971,	-- Ruins of Ammon
+							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57969, {	-- Tend the Wounded
-							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159820 },	-- Mender Dyrin
 							["sourceQuest"] = 57971,	-- Ruins of Ammon
+							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174326),	-- Rough Burlap Bandages (QI!)
 							},
 						}),
 						q(57990, {	-- Obelisk of the Sun
-							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159820 },	-- Mender Dyrin
 							["sourceQuests"] = {
 								58606,	-- A Bit of Investigation
 								57970,	-- Ruinator Xok'nixx
 								57969,	-- Tend the Wounded
 							},
+							["coord"] = { 27.9, 63.4, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58008, {	-- All Gassed Up
-							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
 							["sourceQuest"] = 57990,	-- Obelisk of the Sun
+							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(173366),	-- Fuel Canister (QI!)
 							},
 						}),
 						q(56576, {	-- Aqir Extermination
-							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
 							["sourceQuest"] = 57990,	-- Obelisk of the Sun
+							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58009, {	-- To the Moon
-							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
 							["sourceQuests"] = {
 								58008,	-- All Gassed Up
 								56576,	-- Aqir Extermination
 							},
+							["coord"] = { 42.4, 55.9, NZOTH_ASSAULT_ULDUM },
 						}),
 					}),
 					-- Dailies
@@ -833,69 +833,69 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["isDaily"] = true,
 					}, {
 						q(56550, {	-- Corpse Cleanup
-							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159682 },	-- Tracker Samara
+							["coord"] = { 24.5, 55.2, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174323),	-- Torch (QI!)
 							},
 						}),
 						q(58778, {	-- Getting Ahead
-							["coord"] = { 40.0, 21.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
+							["coord"] = { 40.0, 21.2, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174776),	-- Goliath Trophy (QI!)
 							}
 						}),
 						q(58776, {	-- Hatching Problems
-							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 154443 },	-- Captain Navid Sandstone
+							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58780, {	-- Heralds of the Hive
-							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 154443 },	-- Captain Navid Sandstone
+							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58010, {	-- More Bits, More Bits!
-							["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 161738 },	-- H'partho Ardoros
 							["sourceQuest"] = 58606,	-- A Bit of Investigation
+							["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174356),	-- Aqir Bits (QI!)
 							},
 						}),
 						q(58777, {	-- Put Your Foot Down
-							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
+							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58779, {	-- Taking the Skies
-							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159920 },	-- Zahra Sandstalker
+							["coord"] = { 40.0, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58781, {	-- Terrors from the Deep
-							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159544 },	-- Arik Scorpidsting
+							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57968, {	-- The Wastewandering Dead
-							["coord"] = { 24.5, 55.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159682 },	-- Tracker Samara
+							["coord"] = { 24.5, 55.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(58782, {	-- Things Left Behind
-							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159544 },	-- Arik Scorpidsting
+							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174774),	-- Wastewander Supplies (QI!)
 							}
 						}),
 						q(56402, {	-- Wastewander Coins
-							["coord"] = { 39.9, 45.2, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159560 },	-- Outrider Lashan
 							["sourceQuest"] = 57915,	-- Search for Survivors
+							["coord"] = { 39.9, 45.2, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(169432),	-- Wastewander Coin (QI!)
 							},
 						}),
 						q(56889, {	-- Wounded Wastewanderers
-							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["provider"] = { "n", 159820 },	-- Mender Dyrin
+							["coord"] = { 40.1, 21.3, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
 								i(174326),	-- Rough Burlap Bandages (QI!)
 							},
@@ -1147,292 +1147,289 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				})),
 				n(QUESTS, {
 					q(58802, {	-- The Incredible Egg
-						["coord"] = { 20.8, 61.9, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "o", 343611 },	-- Voidtouched Egg
+						["coord"] = { 20.8, 61.9, NZOTH_ASSAULT_ULDUM },
 					}),
 					q(58803, {	-- Match the Hatch
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58802,	-- The Incredible Egg
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 					}),
 					q(58804, {	-- Void Incubation
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58803,	-- Match the Hatch
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(174993),	-- Crystallized Void (QI!)
 						},
 					}),
 					q(58809, {	-- A Shocking Technique
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58804,	-- Void Incubation
-						["description"] = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58808,	-- Encased in Amber
 							58806,	-- Warmth of the Sun
 							58807,	-- Wrapping Up
 						},
+						["sourceQuest"] = 58804,	-- Void Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175003),	-- Zan-tien Generator Part (QI!)
 						},
 					}),
 					q(58808, {	-- Encased in Amber (Mantid assault)
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58804,	-- Void Incubation
-						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58809,	-- A Shocking Technique
 							58806,	-- Warmth of the Sun
 							58807,	-- Wrapping Up
 						},
+						["sourceQuest"] = 58804,	-- Void Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175002),	-- Amber Incubator (QI!)
 						},
 					}),
 					q(58806, {	-- Warmth of the Sun (Amathet assault)
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58804,	-- Void Incubation
-						["description"] = "Can appear during Amathet invasions in Uldum.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58809,	-- A Shocking Technique
 							58808,	-- Encased in Amber
 							58807,	-- Wrapping Up
 						},
+						["sourceQuest"] = 58804,	-- Void Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Amathet invasions in Uldum.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(174996),	-- Solar Emanator (QI!)
 						},
 					}),
 					q(58807, {	-- Wrapping Up (Aqir assault)
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58804,	-- Void Incubation
-						["description"] = "Can appear during Aqir invasions in Uldum.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58809,	-- A Shocking Technique
 							58808,	-- Encased in Amber
 							58806,	-- Warmth of the Sun
 						},
+						["sourceQuest"] = 58804,	-- Void Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Aqir invasions in Uldum.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175001),	-- Aqir Webbing (QI!)
 						},
 					}),
 					q(58805, {	-- Continued Incubation
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
-						["isDaily"] = true,
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58804,	-- Void Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["isDaily"] = true,
 						["groups"] = {
 							i(174993),	-- Crystallized Void (QI!)
 						},
 					}),
 					q(58810, {	-- Coming Out of His Shell
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58805,	-- Continued Incubation
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Must reach 5000/5000 with the egg's progress bar.",
 						["groups"] = {
 							i(175063),	-- Aqir Egg Cluster (TOY!)
 						},
 					}),
 					q(58811, {	-- A Balanced Diet
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58810,	-- Coming Out of His Shell
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(175014),	-- Chunk of Meat (QI!)
 						},
 					}),
 					q(58812, {	-- Meat Alternatives
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58811,	-- A Balanced Diet
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(175015),	-- Insectoid Meat (QI!)
 						},
 					}),
 					q(58813, {	-- Fetid Filets
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58812,	-- Meat Alternatives
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(175016),	-- Corrupted Flesh (QI!)
 						},
 					}),
 					q(58826, {	-- A Bloody Treat
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58813,	-- Fetid Filets
-						["description"] = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58817,	-- Action Figures
 							58818,	-- Bug Buddies
 							58825,	-- Super Jelly
 						},
+						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175023),	-- Vial of Purified Anima (QI!)
 						},
 					}),
 					q(58817, {	-- Action Figures
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58813,	-- Fetid Filets
-						["description"] = "Can appear during Amathet invasions in Uldum.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58826,	-- A Bloody Treat
 							58818,	-- Bug Buddies
 							58825,	-- Super Jelly
 						},
+						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Amathet invasions in Uldum.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175020),	-- Amathet Figurine (QI!)
 						},
 					}),
 					q(58818, {	-- Bug Buddies
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58813,	-- Fetid Filets
-						["description"] = "Can appear during Aqir invasions in Uldum.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58826,	-- A Bloody Treat
 							58817,	-- Action Figures
 							58825,	-- Super Jelly
 						},
+						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Aqir invasions in Uldum.",
+						["DisablePartySync"] = true,
 					}),
 					q(58825, {	-- Super Jelly
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58813,	-- Fetid Filets
-						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58826,	-- A Bloody Treat
 							58817,	-- Action Figures
 							58818,	-- Bug Buddies
 						},
+						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
+						["DisablePartySync"] = true,
 						["groups"] = {
 							i(175022),	-- Concentrated Royal Jelly (QI!)
 						},
 					}),
 					q(58858, {	-- More Fetid Filets
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
-						["isDaily"] = true,
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["isDaily"] = true,
 						["groups"] = {
 							i(175016),	-- Corrupted Flesh (QI!)
 						},
 					}),
 					q(58829, {	-- They Grow So Fast
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58813,	-- Fetid Filets
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Must reach 5000/5000 with the larva's progress bar.",
 						["groups"] = {
 							i(175049),	-- Shadowbarb Hatchling (PET!)
 						},
 					}),
 					q(58830, {	-- Aqir Instincts
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58829,	-- They Grow So Fast
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(175055),	-- H'partho's Whistle (QI!)
 						},
 					}),
 					q(58860, {	-- Big Bad Beetle
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
+						["altQuests"] = {
+							58861,	-- The Mantids' Mettle
+							58862,	-- The Littlest Defender
+							58859,	-- Someone His Own Size
+						},
 						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Can appear during Aqir invasions in Uldum.",
 						["DisablePartySync"] = true,
-						["altQuests"] = {
-							58861,	-- The Mantids' Mettle
-							58862,	-- The Littlest Defender
-							58859,	-- Someone His Own Size
-						},
 					}),
 					q(58862, {	-- The Littlest Defender
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
+						["altQuests"] = {
+							58860,	-- Big Bad Beetle
+							58861,	-- The Mantids' Mettle
+							58859,	-- Someone His Own Size
+						},
 						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
 						["DisablePartySync"] = true,
-						["altQuests"] = {
-							58860,	-- Big Bad Beetle
-							58861,	-- The Mantids' Mettle
-							58859,	-- Someone His Own Size
-						},
 					}),
 					q(58861, {	-- The Mantids' Mettle
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58830,	-- Aqir Instincts
-						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58860,	-- Big Bad Beetle
 							58862,	-- The Littlest Defender
 							58859,	-- Someone His Own Size
 						},
+						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
+						["DisablePartySync"] = true,
 					}),
 					q(58859, {	-- Someone His Own Size
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
-						["sourceQuest"] = 58830,	-- Aqir Instincts
-						["description"] = "Can appear during Amathet invasions in Uldum.",
-						["DisablePartySync"] = true,
 						["altQuests"] = {
 							58860,	-- Big Bad Beetle
 							58862,	-- The Littlest Defender
 							58861,	-- The Mantids' Mettle
 						},
+						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["description"] = "Can appear during Amathet invasions in Uldum.",
+						["DisablePartySync"] = true,
 					}),
 					q(58831, {	-- Honing Instincts
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
-						["isDaily"] = true,
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
+						["isDaily"] = true,
 						["groups"] = {
 							i(175055),	-- H'partho's Whistle (QI!)
 						},
 					}),
 					q(58863, {	-- A Custom Order
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58830,	-- Aqir Instincts
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Must reach 5000/5000 with the hatchling's progress bar.",
 					}),
 					q(58865, {	-- Otherworldly Armaments
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58863,	-- A Custom Order
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(175058),	-- Black Empire Armament (QI!)
 						},
 					}),
 					q(58866, {	-- My Own Drone
-						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 161738 },	-- H'partho Ardoros
 						["sourceQuest"] = 58865,	-- Otherworldly Armaments
+						["coord"] = { 55.6, 35.3, NZOTH_ASSAULT_ULDUM },
 						["groups"] = {
 							i(174771),	-- Shadowbarb Drone (MOUNT!)
 							i(175059),	-- Otherworldly Saddle (QI!)
 						},
 					}),
 					q(58879, {	-- Alpaca It Up
-						["cost"] = { { "i", 174858, 7 }, },	-- Gersahl Greens
-						["isDaily"] = true,
 						["provider"] = { "n", 162765 },	-- Friendly Alpaca
-						["description"] = "Find the |cFFFFD700Gersahl Greens|r at the edge of the main river in Uldum, then complete this quest 7 times for the mount.",
 						["coords"] = {
 							{ 15.0, 62.0, NZOTH_ASSAULT_ULDUM },
 							{ 24.0, 9.0, NZOTH_ASSAULT_ULDUM },
@@ -1448,6 +1445,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							{ 70.0, 39.0, NZOTH_ASSAULT_ULDUM },
 							{ 76.0, 68.0, NZOTH_ASSAULT_ULDUM },
 						},
+						["description"] = "Find the |cFFFFD700Gersahl Greens|r at the edge of the main river in Uldum, then complete this quest 7 times for the mount.",
+						["cost"] = { { "i", 174858, 7 }, },	-- Gersahl Greens
+						["isDaily"] = true,
 						["groups"] = {
 							q(58887, {	-- Alpaca It In
 								["provider"] = { "n", 162765 },	-- Friendly Alpaca
@@ -1459,15 +1459,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					q(56377, {	-- Forging Onward
-						["lvl"] = 120,
+						["sourceQuest"] = 56376,	-- Surfacing Threats
 						["coord"] = { 54.9, 33.1, NZOTH_ASSAULT_ULDUM },
 						["description"] = "Granted upon entering the Seat of Ramkahen.",
-						["sourceQuest"] = 56376,	-- Surfacing Threats
+						["lvl"] = 120,
 					}),
 					q(57222, {	-- Investigating the Halls
-						["coord"] = { 68.9, 52.7, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 154532 },	-- Magni Bronzebeard
 						["sourceQuest"] = 57221,	-- Re-origination
+						["coord"] = { 68.9, 52.7, NZOTH_ASSAULT_ULDUM },
 						["maps"] = {
 							1540,	-- Halls of Origination (storyline version)
 							1541,	-- Halls of Origination (Investigating the Halls scenario)
@@ -1475,31 +1475,31 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					q(56376, {	-- Surfacing Threats
-						["lvl"] = 120,
-						["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 155095 },	-- King Phaoris
 						["sourceQuest"] = 56472,	-- The Uldum Accord
+						["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
+						["lvl"] = 120,
 						["groups"] = {
 							i(173280),	-- Token of Death's Door (Rank 1)
 						},
 					}),
 					q(56209, {	-- The Halls of Origination
-						["lvl"] = 120,
-						["coord"] = { 69.8, 52.1, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 154532 },	-- Magni Bronzebeard
 						["sourceQuest"] = 56374,	-- A Titanic Problem
+						["coord"] = { 69.8, 52.1, NZOTH_ASSAULT_ULDUM },
+						["lvl"] = 120,
 					}),
 					q(56472, {	-- The Uldum Accord
-						["lvl"] = 120,
-						["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
 						["provider"] = { "n", 155095 },	-- King Phaoris
 						["sourceQuest"] = 56375,	-- To Ramkahen
+						["coord"] = { 54.9, 32.7, NZOTH_ASSAULT_ULDUM },
+						["lvl"] = 120,
 					}),
 					q(56375, {	-- To Ramkahen
-						["lvl"] = 120,
-						["coord"] = { 47.0, 44.6, 1542 },
 						["provider"] = { "n", 154533 },	-- Magni Bronzebeard
 						["sourceQuest"] = 56209,	-- The Halls of Origination
+						["coord"] = { 47.0, 44.6, 1542 },
+						["lvl"] = 120,
 					}),
 					-- These are 'accepted' in order to cause the map to show the current Assault area, and can be clicked in chat
 					q(57562, {	-- Amathet Assault Tracker

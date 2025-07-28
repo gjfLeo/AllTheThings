@@ -319,9 +319,9 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				}),
 				q(30068, {	-- Flames of the Void
 					["qg"] = 57324,	-- Elder Sage Tai-Feng
-					--	may also require "Saving the Sutras" and "The Darkness Around Us"
 					["sourceQuest"] = 30066,	-- Hidden Power
 					["coord"] = { 53.8, 61.8, THE_JADE_FOREST },
+					--	may also require "Saving the Sutras" and "The Darkness Around Us"
 					["groups"] = {
 						objective(1, {	-- 0/6 Void Flames doused
 							["provider"] = { "n", 57871 },	-- War Serpent

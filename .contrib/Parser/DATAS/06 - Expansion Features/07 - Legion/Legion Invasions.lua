@@ -34,10 +34,10 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(QUESTS, {
 					q(46205, {	-- A Conduit No More
-						["sourceQuests"] = { 45795 },	-- Presence of Power
-						["repeatable"] = true,
 						["provider"] = { "n", 117774 },	-- Prince Farondis
+						["sourceQuests"] = { 45795 },	-- Presence of Power
 						["coord"] = { 55.1, 67.4, AZSUNA },
+						["repeatable"] = true,
 					}),
 					q(45838, {	-- Assault on Azsuna
 						["repeatable"] = true,
@@ -68,51 +68,51 @@ root(ROOTS.ExpansionFeatures,
 						}
 					}),
 					q(46199, {	-- Battle for Azsuna
-						["sourceQuests"] = { 46205 },	-- A Conduit No More
-						["repeatable"] = true,
 						["provider"] = { "n", 119002 },	-- Prince Farondis
+						["sourceQuests"] = { 46205 },	-- A Conduit No More
 						["coord"] = { 58.4, 21.4, AZSUNA },
+						["repeatable"] = true,
 					}),
 					q(46182, {	-- Battle for Highmountain
-						["sourceQuests"] = { 45572 },	-- Holding Our Ground
-						["repeatable"] = true,
 						["provider"] = { "n", 119676 },	-- Lasan Skyhorn
+						["sourceQuests"] = { 45572 },	-- Holding Our Ground
 						["coord"] = { 50.2, 64.4, HIGHMOUNTAIN },
+						["repeatable"] = true,
 					}),
 					q(45856, {	-- Battle for Val'sharah
-						["sourceQuests"] = { 44789 },	-- Holding the Ramparts
-						["repeatable"] = true,
 						["provider"] = { "n", 118250 },	-- Commander Jarod Shadowsong
+						["sourceQuests"] = { 44789 },	-- Holding the Ramparts
 						["coord"] = { 44.0, 50.6, VALSHARAH },
+						["repeatable"] = true,
 					}),
 					q(46110, {	-- Battle for Stormheim
-						["sourceQuests"] = { 45406 },	-- The Storm's Fury
-						["repeatable"] = true,
 						["provider"] = { "n", 118778 },	-- Val'kyr of Odyn
+						["sourceQuests"] = { 45406 },	-- The Storm's Fury
 						["coord"] = { 81.7, 7.1, STORMHEIM },
+						["repeatable"] = true,
 					}),
 					q(45572, {	-- Holding Our Ground
-						["sourceQuests"] = { 45840 },	-- Assault on Highmountain
-						["repeatable"] = true,
 						["provider"] = { "n", 119944 },	-- Lasan Skyhorn
+						["sourceQuests"] = { 45840 },	-- Assault on Highmountain
 						["coord"] = { 25.2, 22.6, 750 },	-- Thunder Totem
+						["repeatable"] = true,
 					}),
 					q(44789, {	-- Holding the Ramparts
-						["sourceQuests"] = { 45812 },	-- Assault on Val'sharah
-						["repeatable"] = true,
 						["provider"] = { "n", 118183 },	-- Commander Jarod Shadowsong
+						["sourceQuests"] = { 45812 },	-- Assault on Val'sharah
 						["coord"] = { 39.0, 51.6, VALSHARAH },
+						["repeatable"] = true,
 					}),
 					q(45795, {	-- Presence of Power
-						["sourceQuests"] = { 45838 },	-- Assault on Azsuna
-						["repeatable"] = true,
 						["provider"] = { "n", 118942 },	-- Prince Farondis
+						["sourceQuests"] = { 45838 },	-- Assault on Azsuna
 						["coord"] = { 56.0, 60.8, AZSUNA },
+						["repeatable"] = true,
 					}),
 					q(45406, {	-- The Storm's Fury
+						["provider"] = { "n", 116868 },	-- Vethir
 						["sourceQuests"] = { 45839 },	-- Assault on Stormheim
 						["repeatable"] = true,
-						["provider"] = { "n", 116868 },	-- Vethir
 					}),
 				}),
 				n(SCENARIO_COMPLETION, {

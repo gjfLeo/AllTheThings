@@ -501,9 +501,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(24576, {	-- A Friendly Chat... (H)
-			["providers"] = {
-				{ "n", 37172 },	-- Detective Snap Snagglebolt
-				{ "n", 38328 },	-- Roka
+			["qgs"] = {
+				37172,	-- Detective Snap Snagglebolt
+				38328,	-- Roka
 			},
 			["sourceQuest"] = 24851,	-- Hot On The Trail (H)
 			["coords"] = {
@@ -653,8 +653,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 5, 13 },
 			["isDaily"] = true,
+			["lvl"] = { 5, 13 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -672,8 +672,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { DARKSHORE },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 14, 22 },
 			["isDaily"] = true,
+			["lvl"] = { 14, 22 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -691,8 +691,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { DUSKWOOD },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 23, 31 },
 			["isDaily"] = true,
+			["lvl"] = { 23, 31 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -710,8 +710,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { DUSTWALLOW_MARSH },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 32, 40 },
 			["isDaily"] = true,
+			["lvl"] = { 32, 40 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -729,8 +729,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { THE_HINTERLANDS },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 41, 50 },
 			["isDaily"] = true,
+			["lvl"] = { 41, 50 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -748,8 +748,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { WINTERSPRING },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 51, 60 },
 			["isDaily"] = true,
+			["lvl"] = { 51, 60 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -767,8 +767,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { TEROKKAR_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 61, 70 },
 			["isDaily"] = true,
+			["lvl"] = { 61, 70 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -786,8 +786,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { CRYSTALSONG_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = { 71, 80 },
 			["isDaily"] = true,
+			["lvl"] = { 71, 80 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -805,8 +805,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_4_0_6, REMOVED_7_1_5 },
 			["maps"] = { ULDUM },
 			["races"] = ALLIANCE_ONLY,
-			["lvl"] = 81,
 			["isDaily"] = true,
+			["lvl"] = 81,
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -847,8 +847,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { DUROTAR },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 5, 13 },
 			["isDaily"] = true,
+			["lvl"] = { 5, 13 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -866,8 +866,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { SILVERPINE_FOREST },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 14, 22 },
 			["isDaily"] = true,
+			["lvl"] = { 14, 22 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -885,8 +885,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { HILLSBRAD_FOOTHILLS },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 23, 31 },
 			["isDaily"] = true,
+			["lvl"] = { 23, 31 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -904,8 +904,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { DUSTWALLOW_MARSH },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 32, 40 },
 			["isDaily"] = true,
+			["lvl"] = { 32, 40 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -923,8 +923,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { THE_HINTERLANDS },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 41, 50 },
 			["isDaily"] = true,
+			["lvl"] = { 41, 50 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -942,8 +942,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { WINTERSPRING },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 51, 60 },
 			["isDaily"] = true,
+			["lvl"] = { 51, 60 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -961,8 +961,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { TEROKKAR_FOREST },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 61, 70 },
 			["isDaily"] = true,
+			["lvl"] = { 61, 70 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -980,8 +980,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_3_3_0, REMOVED_7_1_5 },
 			["maps"] = { CRYSTALSONG_FOREST },
 			["races"] = HORDE_ONLY,
-			["lvl"] = { 71, 80 },
 			["isDaily"] = true,
+			["lvl"] = { 71, 80 },
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -999,8 +999,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["timeline"] = { ADDED_4_0_6, REMOVED_7_1_5 },
 			["maps"] = { ULDUM },
 			["races"] = HORDE_ONLY,
-			["lvl"] = 81,
 			["isDaily"] = true,
+			["lvl"] = 81,
 			["groups"] = {
 				objective(1, {	-- Chemical Wagon Destroyed
 					["provider"] = { "n", 38035 },	-- Chemical Wagon
@@ -1412,13 +1412,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				{ 48.4, 48.3, DORNOGAL },
 				-- #endif
 			},
-			["isBreadcrumb"] = true,
 			["races"] = ALLIANCE_ONLY,
+			["isBreadcrumb"] = true,
 		}),
 		q(78328, {	-- Take a Look Around (A)
 			["qg"] = 211802,	-- Luciana Delgado
-			["coord"] = { 32.3, 49.4, ELWYNN_FOREST },
 			["sourceQuest"] = 78329,	-- Love is in the Air (A)
+			["coord"] = { 32.3, 49.4, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = { i(LOVE_TOKEN) },
 		}),
@@ -1459,8 +1459,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		}),
 		q(78369, {	-- Crushing the Crown (A)
 			["qg"] = 38066,	-- Inspector Snip Snagglebolt
-			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78729,	-- Raising a Stink (A)
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(LOVE_TOKEN),
@@ -1475,8 +1475,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		}),
 		q(78379, {	-- The Stench of Revenge (A)
 			["qg"] = 38066,	-- Inspector Snip Snagglebolt
-			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78369,	-- Crushing the Crown (A)
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = { i(LOVE_TOKEN) },
 		}),
@@ -1493,13 +1493,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				{ 48.9, 48.3, DORNOGAL },
 				-- #endif
 			},
-			["isBreadcrumb"] = true,
 			["races"] = HORDE_ONLY,
+			["isBreadcrumb"] = true,
 		}),
 		q(78980, {	-- Take a Look Around (H)
 			["qg"] = 214477,	-- Mahaja Cloudsong
-			["coord"] = { 41.8, 18.0, DUROTAR },
 			["sourceQuest"] = 78981,	-- Love is in the Air (H)
+			["coord"] = { 41.8, 18.0, DUROTAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = { i(LOVE_TOKEN) },
 		}),
@@ -1539,8 +1539,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		}),
 		q(78984, {	-- Crushing the Crown (H)
 			["qg"] = 37172,	-- Detective Snap Snagglebolt
-			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78978,	-- Raising a Stink (H)
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(LOVE_TOKEN),
@@ -1555,8 +1555,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		}),
 		q(78985, {	-- The Stench of Revenge (H)
 			["qg"] = 37172,	-- Detective Snap Snagglebolt
-			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78984,	-- Crushing the Crown (H)
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["races"] = HORDE_ONLY,
 			["groups"] = { i(LOVE_TOKEN) },
 		}),
@@ -1659,47 +1659,47 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		}),
 		q(78724, {	-- Loving Yourself, Your Way (A)
 			["qg"] = 213262,	-- Ying
-			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(78726, {	-- Loving Yourself, Your Way (A)
 			["qg"] = 213262,	-- Ying
-			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				objective(1, {	-- 0/15 Treats Consumed
-				["providers"] = {
-					{ "i", 210929 },	-- Comfort Food Package
-					{ "i", 210928 },	-- Healthy Body Package
-					{ "i", 210926 },	-- Me, Myself, and Chocolate Package
-				},
-			}),
+					["providers"] = {
+						{ "i", 210929 },	-- Comfort Food Package
+						{ "i", 210928 },	-- Healthy Body Package
+						{ "i", 210926 },	-- Me, Myself, and Chocolate Package
+					},
+				}),
 			},
 		}),
 		q(78727, {	-- Loving Yourself, Your Way (A)
 			["qg"] = 213262,	-- Ying
-			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(78979, {	-- Loving Yourself, Your Way (H)
 			["qg"] = 214591,	-- Ning
-			["coord"] = { 41.9, 16.2, DUROTAR },
 			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["coord"] = { 41.9, 16.2, DUROTAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(78992, {	-- Loving Yourself, Your Way (H)
 			["qg"] = 214591,	-- Ning
-			["coord"] = { 41.9, 16.2, DUROTAR },
 			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["coord"] = { 41.9, 16.2, DUROTAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(78993, {	-- Loving Yourself, Your Way (H)
 			["qg"] = 214591,	-- Ning
-			["coord"] = { 41.9, 16.2, DUROTAR },
 			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["coord"] = { 41.9, 16.2, DUROTAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(78679, {	-- The Gift of Relaxation (A)

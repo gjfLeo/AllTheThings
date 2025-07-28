@@ -13,13 +13,13 @@ root(ROOTS.ExpansionFeatures,
 				n(124764, {	-- Azure Dragonshrine Area
 					n(QUESTS, {
 						q(47557, {	-- Smoldering Chronoshard
-							["crs"] = { 122553 },	-- Void Gargantuan
 							["provider"] = { "i", 150943 },	-- Smoldering Chronoshard
 							["sourceQuest"] = 47645,	-- Voidcaller's Scroll
+							["crs"] = { 122553 },	-- Void Gargantuan
 						}),
 						q(47645, {	-- Voidcallers' Scroll
-							["crs"] = { 122552 },	-- Leyline Elemental
 							["provider"] = { "i", 150941 },	-- Voidcallers' Scroll
+							["crs"] = { 122552 },	-- Leyline Elemental
 						}),
 					}),
 					n(122552, {	-- Leyline Elemental
@@ -34,9 +34,9 @@ root(ROOTS.ExpansionFeatures,
 							["description"] = "Kill the |cFFFFD700Dream Tormentors|r around each ancient.",
 						}),
 						q(47559, {	-- Gleaming Chronoshard
-							["crs"] = { 122875 },	-- Thalas Vylethorn
 							["provider"] = { "i", 150945 },	-- Gleaming Chronoshard
 							["sourceQuest"] = 47643,	-- The Ancients' Wisdom
+							["crs"] = { 122875 },	-- Thalas Vylethorn
 						}),
 					}),
 					n(122548, {	-- Emerald Skytalon
@@ -57,22 +57,22 @@ root(ROOTS.ExpansionFeatures,
 				n(124762, {	-- Obsidian Dragonshrine Area
 					n(QUESTS, {
 						q(47644, {	-- Demonic Corestone
-							["crs"] = { 122528 },	-- Charredbone Goliath
 							["provider"] = { "i", 150938 },	-- Demonic Corestone
+							["crs"] = { 122528 },	-- Charredbone Goliath
 						}),
 						q(47558, {	-- Fel-Touched Chronoshard
-							["crs"] = { 122871 },	-- Zorathides
 							["provider"] = { "i", 150944 },	-- Fel-Touched Chronoshard
 							["sourceQuest"] = 47644,	-- Demonic Corestone
+							["crs"] = { 122871 },	-- Zorathides
 						}),
 					}),
 				}),
 				n(124763, {	-- Ruby Dragonshrine Area
 					n(QUESTS, {
 						q(47560, {	-- Frozen Chronoshard
-							["crs"] = { 122874 },	-- Talar Icechill
 							["provider"] = { "i", 150946 },	-- Frozen Chronoshard
 							["sourceQuest"] = 47642,	-- Soul Crystal
+							["crs"] = { 122874 },	-- Talar Icechill
 						}),
 						q(47642, {	-- Soul Crystal
 							["provider"] = { "i", 150940 },	-- Soul Crystal
@@ -106,42 +106,42 @@ root(ROOTS.ExpansionFeatures,
 				n(122344, {	-- The Culling of Stratholme
 					n(QUESTS, {
 						q(47747, {	-- Fight Plague with Fire
-							["coord"] = { 56.3, 68.3, 902 },
 							["provider"] = { "n", 123781 },	-- Emery Neill
-							["repeatable"] = true,
 							["sourceQuest"] = 47750,	-- For Emery
+							["coord"] = { 56.3, 68.3, 902 },
+							["repeatable"] = true,
 							["groups"] = {
 								i(151347),	-- Town Hall Door Key
 							},
 						}),
 						q(47750, {	-- For Emery
-							["coord"] = { 49.3, 71.7, 902 },
 							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
-							["repeatable"] = true,
 							["sourceQuest"] = 47746,	-- Holing Up
+							["coord"] = { 49.3, 71.7, 902 },
+							["repeatable"] = true,
 						}),
 						q(47746, {	-- Holing Up
-							["coord"] = { 49.3, 71.7, 902 },
 							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
-							["repeatable"] = true,
 							["sourceQuest"] = 47745,	-- Yeah, Definitely for the Kids
+							["coord"] = { 49.3, 71.7, 902 },
+							["repeatable"] = true,
 							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
 						q(47744, {	-- Smoke, Meat, and Pretty Flowers
-							["coord"] = { 56.3, 68.3, 902 },
 							["provider"] = { "n", 123781 },	-- Emery Neill
+							["coord"] = { 56.3, 68.3, 902 },
 							["repeatable"] = true,
 							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
 						q(47745, {	-- Yeah, Definitely for the Kids
-							["coord"] = { 56.3, 68.3, 902 },
 							["provider"] = { "n", 123781 },	-- Emery Neill
-							["repeatable"] = true,
 							["sourceQuest"] = 47744,	-- Smoke, Meat, and Pretty Flowers
+							["coord"] = { 56.3, 68.3, 902 },
+							["repeatable"] = true,
 						}),
 					}),
 					n(VENDORS, {
@@ -182,21 +182,21 @@ root(ROOTS.ExpansionFeatures,
 				n(122339, {	-- The War for Andorhal
 					n(QUESTS, {
 						q(47773, {	-- Sky Ablaze With Cannonfire
+							["provider"] = { "n", 124154 },	-- Chromie
+							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
 							["coord"] = { 43.9, 69.2, 899 },
 							["races"] = HORDE_ONLY,
-							["provider"] = { "n", 124154 },	-- Chromie
 							["repeatable"] = true,
-							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
 							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
 						q(47772, {	-- Sky Ablaze With Cannonfire
+							["provider"] = { "n", 124154 },	-- Chromie
+							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
 							["coord"] = { 43.9, 69.2, 899 },
 							["races"] = ALLIANCE_ONLY,
-							["provider"] = { "n", 124154 },	-- Chromie
 							["repeatable"] = true,
-							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
 							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
@@ -230,73 +230,73 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(QUESTS, {
 					q(48021, {	-- Chromie
-						["coord"] = { 26.4, 44.6, LEGION_DALARAN },
-						["providers"] = {
-							{ "n", 90417 },	-- Archmage Khadgar
-							{ "n", 122926 },	-- Image of Chromie
+						["qgs"] = {
+							90417,	-- Archmage Khadgar
+							122926,	-- Image of Chromie
 						},
+						["coord"] = { 26.4, 44.6, LEGION_DALARAN },
 						["groups"] = {
 							i(151700),	-- Wayfinder's Sundial
 						},
 					}),
 					q(47810, {	-- Darkened Dreams
-						["coord"] = { 59.6, 54.6, 897 },
 						["provider"] = { "n", 122513 },	-- Lord Itharius
+						["coord"] = { 59.6, 54.6, 897 },
 						["repeatable"] = true,
 						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
 					q(47809, {	-- Darkness in the Ley
-						["coord"] = { 59.5, 54.3, 897 },
 						["provider"] = { "n", 122514 },	-- Kalecgos
+						["coord"] = { 59.5, 54.3, 897 },
 						["repeatable"] = true,
 						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
 					q(47904, {	-- Preserve the True Future
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47550,	-- The Many Advantages of Being a Time Dragon
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					q(47545, {	-- Rewind
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47543,	-- The Day That Chromie Dies
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					q(47543, {	-- The Day That Chromie Dies
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					q(47808, {	-- The Dead Walk
-						["coord"] = { 59.8, 54.7, 897 },
 						["provider"] = { "n", 122511 },	-- Alexstrasza the Life-Binder
+						["coord"] = { 59.8, 54.7, 897 },
 						["repeatable"] = true,
 						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
 					q(47550, {	-- The Many Advantages of Being a Time Dragon
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47545,	-- Rewind
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					q(47807, {	-- Worried About My Friends
-						["coord"] = { 60.0, 54.5, 897 },
 						["provider"] = { "n", 122510 },	-- Chromie
+						["coord"] = { 60.0, 54.5, 897 },
 						["repeatable"] = true,
 						["groups"] = {
 							i(151493),	-- Sands of Time
@@ -309,8 +309,8 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					faction(FACTION_CHROMIE),	-- Chromie
 					q(47906, {	-- The Deaths of Chromie
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
 							iensemble(151692),	-- Ensemble: Chronoscryer's Finery
 							iensemble(151693),	-- Ensemble: Riftscarred Vestments

@@ -594,6 +594,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				18927,	-- Human Commoner
 				19173,	-- Night Elf Commoner
 			},
+			["timeline"] = { ADDED_3_1_0 },
 			["maps"] = {
 				NORTHREND_THE_UNDERBELLY,
 				NORTHREND_DALARAN,
@@ -614,7 +615,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				THE_STORM_PEAKS,
 				WINTERSPRING,
 			},
-			["timeline"] = { ADDED_3_1_0 },
 			["races"] = ALLIANCE_ONLY,
 			["isBreadcrumb"] = true,
 			["isYearly"] = true,
@@ -628,6 +628,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				19176,	-- Tauren Commoner
 				19177,	-- Troll Commoner
 			},
+			["timeline"] = { ADDED_3_1_0 },
 			["maps"] = {
 				NORTHREND_THE_UNDERBELLY,
 				NORTHREND_DALARAN,
@@ -648,7 +649,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				UNDERCITY,
 				WINTERSPRING,
 			},
-			["timeline"] = { ADDED_3_1_0 },
 			["races"] = HORDE_ONLY,
 			["isBreadcrumb"] = true,
 			["isYearly"] = true,

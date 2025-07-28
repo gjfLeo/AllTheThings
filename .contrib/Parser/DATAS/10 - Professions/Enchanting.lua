@@ -80,10 +80,9 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 	})),
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 		q(36308, {	-- Enchanted Highmaul Bracer (A)
-			["description"] = "This item can drop from any Draenor mob.",
 			["provider"] = { "i", 115281 },	-- Enchanted Highmaul Bracer
-			["races"] = ALLIANCE_ONLY,
 			["altQuests"] = { 36255 },	-- Enchanted Highmaul Bracer (H)
+			["description"] = "This item can drop from any Draenor mob.",
 			["maps"] = {
 				FROSTFIRE_RIDGE,
 				GORGROND,
@@ -92,12 +91,12 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				SPIRES_OF_ARAK,
 				TALADOR,
 			},
+			["races"] = ALLIANCE_ONLY,
 		}),
 		q(36255, {	-- Enchanted Highmaul Bracer (H)
-			["description"] = "This item can drop from any Draenor mob.",
 			["provider"] = { "i", 115008 },	-- Enchanted Highmaul Bracer
-			["races"] = HORDE_ONLY,
 			["altQuests"] = { 36308 },	-- Enchanted Highmaul Bracer (A)
+			["description"] = "This item can drop from any Draenor mob.",
 			["maps"] = {
 				FROSTFIRE_RIDGE,
 				GORGROND,
@@ -106,6 +105,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				SPIRES_OF_ARAK,
 				TALADOR,
 			},
+			["races"] = HORDE_ONLY,
 		}),
 	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
@@ -126,32 +126,32 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39875, {	-- The Last Few
-			["sourceQuests"] = { 39874 },	-- Some Enchanted Evening
 			["provider"] = { "n", 93530 },	-- Ildine Sorrowspear
+			["sourceQuests"] = { 39874 },	-- Some Enchanted Evening
 			["coord"] = { 38.6, 41.6, LEGION_DALARAN },
 			["cost"] = { { "i", 128540, 2 } },	-- 2x Enchant Ring - Word of Versatility
 		}),
 		q(39876, {	-- Helping the Hunters
-			["sourceQuests"] = { 39875 },	-- The Last Few
 			["provider"] = { "n", 93530 },	-- Ildine Sorrowspear
+			["sourceQuests"] = { 39875 },	-- The Last Few
 			["coord"] = { 38.6, 41.6, LEGION_DALARAN },
 		}),
 		q(39877, {	-- In the Loop
-			["sourceQuests"] = { 39875 },	-- Helping the Hunters
 			["provider"] = { "n", 90317 },	-- Jace Darkweaver <Illidari>
+			["sourceQuests"] = { 39875 },	-- Helping the Hunters
 			["coord"] = { 43.2, 43.6, AZSUNA },
 		}),
 		q(40048, {	-- Strings of the Puppet Masters
-			["sourceQuests"] = { 39876 },	-- Helping the Hunters
 			["provider"] = { "n", 90317 },	-- Jace Darkweaver <Illidari>
+			["sourceQuests"] = { 39876 },	-- Helping the Hunters
 			["coord"] = { 43.2, 43.6, AZSUNA },
 		}),
 		q(39905, {	-- Ringing True
+			["provider"] = { "n", 90317 },	-- Jace Darkweaver
 			["sourceQuests"] = {
 				39877,	-- In the Loop
 				40048,	-- Strings of the Puppet Masters
 			},
-			["provider"] = { "n", 90317 },	-- Jace Darkweaver
 			["coord"] = { 43.2, 43.6, AZSUNA },
 			["groups"] = {
 				r(190866),	-- Word of Critical Strike [Rank 1]
@@ -160,29 +160,29 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39878, {	-- Thunder Struck
-			["sourceQuests"] = { 39905 },	-- Ringing True
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
+			["sourceQuests"] = { 39905 },	-- Ringing True
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 		}),
 		q(39879, {	-- Strong Like the Earth
-			["sourceQuests"] = { 39878 },	-- Thunder Struck
 			["provider"] = { "n", 98017 },	-- Guron Twaintail
+			["sourceQuests"] = { 39878 },	-- Thunder Struck
 			["coord"] = { 46.6, 60.4, HIGHMOUNTAIN },
 		}),
 		q(39880, {	-- Waste Not
-			["sourceQuests"] = { 39878 },	-- Thunder Struck
 			["provider"] = { "n", 98017 },	-- Guron Twaintail
+			["sourceQuests"] = { 39878 },	-- Thunder Struck
 			["coord"] = { 46.6, 60.4, HIGHMOUNTAIN },
 			["groups"] = {
 				i(137195),	-- Highmountain Armor
 			},
 		}),
 		q(39883, {	-- Cloaked in Tradition
+			["provider"] = { "n", 98017 },	-- Guron Twaintail
 			["sourceQuests"] = {
 				39879,	-- Strong Like the Earth
 				39880,	-- Waste Not
 			},
-			["provider"] = { "n", 98017 },	-- Guron Twaintail
 			["coord"] = { 46.6, 60.4, HIGHMOUNTAIN },
 			["groups"] = {
 				r(190875),	-- Word of Agility [Rank 1]
@@ -191,45 +191,45 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39881, {	-- Fey Enchantments
-			["sourceQuests"] = { 39883 },	-- Cloaked in Tradition
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
+			["sourceQuests"] = { 39883 },	-- Cloaked in Tradition
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 		}),
 		q(39884, {	-- No Longer Worthy
-			["sourceQuests"] = { 39881 },	-- Fey Enchantments
 			["provider"] = { "n", 98156 },	-- Nalamya
+			["sourceQuests"] = { 39881 },	-- Fey Enchantments
 			["coord"] = { 54.4, 57.6, VALSHARAH },
 		}),
 		q(39889, {	-- Led Astray
-			["sourceQuests"] = { 39881 },	-- Fey Enchantments
 			["provider"] = { "n", 98156 },	-- Nalamya
+			["sourceQuests"] = { 39881 },	-- Fey Enchantments
 			["coord"] = { 54.4, 57.6, VALSHARAH },
 		}),
 		q(39882, {	-- Darkheart Thicket: The Glamour Has Faded
+			["provider"] = { "n", 98156 },	-- Nalamya
 			["sourceQuests"] = {
 				39884,	-- No Longer Worthy
 				39889,	-- Led Astray
 			},
-			["provider"] = { "n", 98156 },	-- Nalamya
-			["maps"] = { 733, },	-- Darkheart Thicket
 			["coord"] = { 54.4, 57.6, VALSHARAH },
+			["maps"] = { 733, },	-- Darkheart Thicket
 			["groups"] = {
 				r(190954),	-- Boon of the Scavenger
 			},
 		}),
 		q(39903, {	-- An Enchanting Home
-			["sourceQuests"] = { 39883 },	-- Cloaked in Tradition
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
+			["sourceQuests"] = { 39883 },	-- Cloaked in Tradition
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 		}),
 		q(40265, {	-- A Touch of Magic
-			["sourceQuests"] = { 39903 },	-- An Enchanting Home
 			["provider"] = { "n", 98367 },	-- Tigrid the Charmer
+			["sourceQuests"] = { 39903 },	-- An Enchanting Home
 			["coord"] = { 39.4, 42.6, STORMHEIM },
 		}),
 		q(39904, {	-- Halls of Valor: Revenge of the Enchantress
-			["sourceQuests"] = { 40265 },	-- A Touch of Magic
 			["provider"] = { "n", 98367 },	-- Tigrid the Charmer
+			["sourceQuests"] = { 40265 },	-- A Touch of Magic
 			["coord"] = { 39.4, 42.6, STORMHEIM },
 			["maps"] = { 703, 704, 705 },	-- Halls of Valor
 			["groups"] = {
@@ -237,18 +237,18 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39891, {	-- Cursed, But Convenient
-			["sourceQuests"] = { 39904 },	-- Halls of Valor: Revenge of the Enchantress
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
+			["sourceQuests"] = { 39904 },	-- Halls of Valor: Revenge of the Enchantress
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 		}),
 		q(40169, {	-- Crossroads Rendezvous
-			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["provider"] = { "n", 107139 },	-- Enchantress Ilanya
+			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["coord"] = { 46.8, 40.8, AZSUNA },
 		}),
 		q(39916, {	-- Turnabout Betrayal
-			["sourceQuests"] = { 40169 },	-- Crossroads Rendezvous
 			["provider"] = { "n", 98675 },	-- Fallen Priestess
+			["sourceQuests"] = { 40169 },	-- Crossroads Rendezvous
 			["coord"] = { 63.8, 30.2, AZSUNA },
 			["groups"] = {
 				i(129751),	-- Dust of Foul Lies
@@ -256,13 +256,13 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(40130, {	-- Washed Clean
-			["sourceQuests"] = { 39916 },	-- Turnabout Betrayal
 			["provider"] = { "n", 98675 },	-- Fallen Priestess
+			["sourceQuests"] = { 39916 },	-- Turnabout Betrayal
 			["coord"] = { 63.8, 30.2, AZSUNA },
 		}),
 		q(39918, {	-- The Absent Priestess
-			["sourceQuests"] = { 40130 },	-- Washed Clean
 			["provider"] = { "n", 98698 },	-- Priestess Driana
+			["sourceQuests"] = { 40130 },	-- Washed Clean
 			["coord"] = { 36.4, 34.0, AZSUNA },
 			["groups"] = {
 				r(228408),	-- Mark of the Ancient Priestess [Rank 1]
@@ -270,8 +270,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39910, {	-- The Druid's Debt
-			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["provider"] = { "n", 98381 },	-- Merrus Dawnwind
+			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["coord"] = { 46.8, 40.8, AZSUNA },
 			["groups"] = {
 				r(190892),	-- Mark of the Claw [Rank 1]
@@ -279,8 +279,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39906, {	-- Prepping For Battle
-			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["provider"] = { "n", 98159 },	-- Alynblaze <The Sentinel>
+			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["coord"] = { 46.8, 40.8, AZSUNA },
 			["cost"] = {
 				{ "i", 128545, 1 },	-- 1x Enchant Cloak - Word of Strength
@@ -289,8 +289,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39914, {	-- Sentinel's Final Duty
-			["sourceQuests"] = { 39906 },	-- Prepping For Battle
 			["provider"] = { "n", 98159 },	-- Alynblaze
+			["sourceQuests"] = { 39906 },	-- Prepping For Battle
 			["coord"] = { 46.8, 40.8, AZSUNA },
 			["groups"] = {
 				r(190893),	-- Mark of the Distant Army [Rank 1]
@@ -298,32 +298,32 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 		}),
 		q(39907, {	-- Elven Enchantments
+			["provider"] = { "n", 107139 },	-- Enchantress Ilanya
 			["sourceQuests"] = {
 				39918,	-- The Absent Priestess
 				39910,	-- The Druid's Debt
 				39914,	-- Sentinel's Final Duty
 			},
-			["provider"] = { "n", 107139 },	-- Enchantress Ilanya
 			["coord"] = { 46.8, 40.8, AZSUNA },
 		}),
 		q(39920, {	-- On Azure Wings
-			["sourceQuests"] = { 39907 },	-- Elven Enchantments
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
+			["sourceQuests"] = { 39907 },	-- Elven Enchantments
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 		}),
 		q(39921, {	-- Neltharion's Lair: Rod of Azure
-			["sourceQuests"] = { 39920 },	-- On Azure Wings
 			["provider"] = { "n", 99420 },	-- Kharmeera <Enchantress>
+			["sourceQuests"] = { 39920 },	-- On Azure Wings
+			["coord"] = { 47.2, 26.4, AZSUNA },
 			["maps"] = {
 				731,	-- Neltharion's Lair
 				324,	-- The Stonecore
 				477, 478, 479,	-- Scholomance
 			},
-			["coord"] = { 47.2, 26.4, AZSUNA },
 		}),
 		q(39923, {	-- Down to the Core
-			["sourceQuests"] = { 39921 },	-- Neltharion's Lair: Rod of Azure
 			["provider"] = { "n", 99420 },	-- Kharmeera
+			["sourceQuests"] = { 39921 },	-- Neltharion's Lair: Rod of Azure
 			["coord"] = { 47.2, 26.4, AZSUNA },
 			["groups"] = {
 				r(190870),	-- Binding of Critical Strike [Rank 1]
@@ -348,72 +348,72 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			q(54473, {	-- Enchanted Formulae [A]
 				["provider"] = { "n", 136041 },	-- Emily Fairweather <Enchanting Trainer>
 				["coord"] = { 74.1, 11.4, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },	-- Might no be correct removed patch
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54474, {	-- Enchanted Formulae [H]
 				["provider"] = { "n", 122702 },	-- Enchantress Quinni <Enchanting Trainer>
 				["coord"] = { 47.0, 35.8, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },	-- Might no be correct removed patch
+				["races"] = HORDE_ONLY,
 			}),
 			------ Tools of Trade Questline ------
 			q(54005, {	-- What the Drust Knew [A]
-				["description"] = "This quest chain requires 150 in Kul Tiran Enchanting.",
 				["provider"] = { "n", 136041 },	-- Emily Fairweather
 				["coord"] = { 74.2, 11.3, BORALUS },
-				["races"] = ALLIANCE_ONLY,
+				["description"] = "This quest chain requires 150 in Kul Tiran Enchanting.",
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54161, {	-- What the Drust Knew [H]
-				["description"] = "This quest chain requires 150 in Zandalari Enchanting.",
 				["provider"] = { "n", 122702 },	-- Enchantress Quinni
 				["coord"] = { 47.1, 35.7, DAZARALOR },
-				["races"] = HORDE_ONLY,
+				["description"] = "This quest chain requires 150 in Zandalari Enchanting.",
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(53993, {	-- A Voice on the Wind [A]
-				["sourceQuests"] = { 54005 },	-- What the Drust Knew [A]
 				["provider"] = { "n", 147014 },	-- Ancient Drust Relic Dust
+				["sourceQuests"] = { 54005 },	-- What the Drust Knew [A]
 				["coord"] = { 74.2, 11.4, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(55635, {	-- A Voice on the Wind [H]
-				["sourceQuests"] = { 54161 },	-- What the Drust Knew [H]
 				["provider"] = { "n", 147014 },	-- Ancient Drust Relic Dust
+				["sourceQuests"] = { 54161 },	-- What the Drust Knew [H]
 				["coord"] = { 47.1, 35.3, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(53996, {	-- Pick Up Sticks
+				["provider"] = { "n", 146053 },	-- Sef Iwen
 				["sourceQuests"] = {
 					53993,	-- A Voice on the Wind [A]
 					55635,	-- A Voice on the Wind [H]
 				},
-				["provider"] = { "n", 146053 },	-- Sef Iwen
-				["coord"] = { 53.4, 40.1, DRUSTVAR },
 				["sourceQuestNumRequired"] = 1,
+				["coord"] = { 53.4, 40.1, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
 				["groups"] = {
 					i(164979),	-- Bundle of Hard Wood (QI!)
 				},
 			}),
 			q(53997, {	-- The Sixth Sense
-				["sourceQuests"] = { 53996 },	-- Pick Up Sticks
 				["provider"] = { "n", 146053 },	-- Sef Iwen
+				["sourceQuests"] = { 53996 },	-- Pick Up Sticks
 				["coord"] = { 53.4, 40.1, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53998, {	-- Exhumed
-				["sourceQuests"] = { 53997 },	-- The Sixth Sense
 				["provider"] = { "n", 146091 },	-- Sef Iwen
+				["sourceQuests"] = { 53997 },	-- The Sixth Sense
 				["coord"] = { 55.3, 46.1, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53999, {	-- The Threads That Bind
-				["sourceQuests"] = { 53998 },	-- Exhumed
 				["provider"] = { "n", 146091 },	-- Sef Iwen
+				["sourceQuests"] = { 53998 },	-- Exhumed
 				["coord"] = { 55.3, 46.1, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
 				["groups"] = {
@@ -421,8 +421,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				},
 			}),
 			q(54000, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- The Beat Goes On
-				["sourceQuests"] = { 53999 },	-- Exhumed
 				["provider"] = { "n", 146093 },	-- Sef Iwen
+				["sourceQuests"] = { 53999 },	-- Exhumed
 				["coord"] = { 63.0, 59.4, DRUSTVAR },
 				["groups"] = {
 					r(284415, {["u"]=TRAINING}),	-- Enchant Runic Power Core
@@ -431,14 +431,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				},
 			})),
 			q(54001, {	-- We're Going In
-				["sourceQuests"] = { 54000 },	-- The Beat Goes On
 				["provider"] = { "n", 146094 },	-- Sef Iwen
+				["sourceQuests"] = { 54000 },	-- The Beat Goes On
 				["coord"] = { 58.9, 62.9, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(54002, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Putting it All Togethereeee
-				["sourceQuests"] = { 54001 },	-- We're Going In
 				["provider"] = { "n", 152255 },	-- Sef Iwen
+				["sourceQuests"] = { 54001 },	-- We're Going In
 				["coord"] = { 57.8, 80.8, DRUSTVAR },
 				["groups"] = {
 					r(287494),	-- Iwen's Enchanting Rod
@@ -484,16 +484,16 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		})),
 		n(QUESTS, {
 			q(70360, {	-- Dragon Isles Enchanting
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Enchanting.",
 				["provider"] = { "n", 192055 },	-- Veeno <Enchanting Trainer>
 				["coord"] = { 75.8, 33.2, THE_WAKING_SHORES },
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Enchanting.",
 				["lockCriteria"] = { 1, "spellID", 366255 },	-- Dragon Isles Enchanting
 			}),
 			q(70029, {	-- Artisan's Supply: Runed Serevite Rods
-				["providers"] = {
-					{ "n", 192055 },	-- Veeno <Enchanting Trainer>
-					{ "n", 198903 },	-- Asarin <Enchanting Trainer & Supplies>
-					{ "n", 192116 },	-- Solonga <Enchanting Trainer & Supplies>
+				["qgs"] = {
+					192055,	-- Veeno <Enchanting Trainer>
+					198903,	-- Asarin <Enchanting Trainer & Supplies>
+					192116,	-- Solonga <Enchanting Trainer & Supplies>
 				},
 				["coords"] = {
 					{ 75.8, 33.2, THE_WAKING_SHORES },
@@ -509,8 +509,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["coord"] = { 62.4, 18.6, OHNAHRAN_PLAINS },
 			}),
 			q(70186, {	-- Specialized Secrets: Enchanting
-				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["provider"] = { "n", 193110 },	-- Khadin
+				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
@@ -528,33 +528,33 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		},{
 			------ Requires 25 Skill ------
 			q(66935, {	-- Crystal Quill Pens
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(194053),	-- Crystal Quill (QI!)
 				},
 			}),
 			q(66900, {	-- Enchanted Relics
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(193867),	-- Enchanted Relics (QI!)
 				},
 			}),
 			q(66884, {	-- Fireproof Gear
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(193624),	-- Fireproof Gear (QI!)
 				},
 			}),
 			q(72423, {	-- Weathering the Storm
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(201826),	-- Tempest Armaments (QI!)
 				},
@@ -562,24 +562,24 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 
 			------ Requires 45 Skill ------
 			q(72175, {	-- A Scept-acular Time
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193744 },	-- Soragosa
 				["coord"] = { 30.8, 61.4, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(72173, {	-- Braced for Enchantment
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193744 },	-- Soragosa
 				["coord"] = { 30.8, 61.4, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(72172, {	-- Essence, Shards, and Chromatic Dust
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193744 },	-- Soragosa
 				["coord"] = { 30.8, 61.4, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(72155, {	-- Spread the Enchantment
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 193744 },	-- Soragosa
 				["coord"] = { 30.8, 61.4, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 
 			------ Requires ?? Skill - Patch 10.1.0. ------
@@ -763,8 +763,8 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			i(198610),	-- Enchanter's Script
 			q(74110, {	-- DF Inscription Order: Enchanting
 				["name"] = "DF Inscription Order: Enchanting",
-				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 194702 },	-- Draconic Treatise on Enchanting
+				["description"] = "Requires a crafting order from Inscription.",
 			}),
 			q(66377, {	-- DF Weekly Enchanting Knowledgepoint #1
 				["name"] = "DF Enchanting Treasure #1",
@@ -776,17 +776,17 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			q(70515, {	-- DF Weekly Enchanting Knowledgepoint #3
 				["name"] = "DF Enchanting Drop #1: Primalist",
-				["description"] = "Drops from any mob with Primalist in the name.\nCoordinates link to the spot(s) we found best.",
-				["crs"] = { 194656 },	-- Primalist Surgecrusher
 				["provider"] = { "i", 198968 },	-- Primalist Charm
 				["coord"] = { 53.4, 56.2, THALDRASZUS },
+				["description"] = "Drops from any mob with Primalist in the name.\nCoordinates link to the spot(s) we found best.",
+				["crs"] = { 194656 },	-- Primalist Surgecrusher
 			}),
 			q(70514, {	-- DF Weekly Enchanting Knowledgepoint #4
 				["name"] = "DF Enchanting Drop #2: Arcane Elemental",
-				["description"] = "Drops from any Arcane Elemental.\nCoordinates link to the spot(s) we found best.",
-				["crs"] = { 181536 },	-- Destabilized Elemental
 				["provider"] = { "i", 198967 },	-- Primordial Aether
 				["coord"] = { 40.6, 60.8, THE_AZURE_SPAN },
+				["description"] = "Drops from any Arcane Elemental.\nCoordinates link to the spot(s) we found best.",
+				["crs"] = { 181536 },	-- Destabilized Elemental
 			}),
 		})),
 	})),
@@ -916,33 +916,33 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			q(84290, {	-- TWW Weekly Enchanting Knowledgepoint #3
 				["name"] = "TWW Weekly Enchanting Disenchant #1",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227659 },	-- Fleeting Arcane Manifestation
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 			q(84291, {	-- TWW Weekly Enchanting Knowledgepoint #4
 				["name"] = "TWW Weekly Enchanting Disenchant #2",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227659 },	-- Fleeting Arcane Manifestation
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 			q(84292, {	-- TWW Weekly Enchanting Knowledgepoint #5
 				["name"] = "TWW Weekly Enchanting Disenchant #3",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227659 },	-- Fleeting Arcane Manifestation
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 			q(84293, {	-- TWW Weekly Enchanting Knowledgepoint #6
 				["name"] = "TWW Weekly Enchanting Disenchant #4",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227659 },	-- Fleeting Arcane Manifestation
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 			q(84294, {	-- TWW Weekly Enchanting Knowledgepoint #7
 				["name"] = "TWW Weekly Enchanting Disenchant #5",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227659 },	-- Fleeting Arcane Manifestation
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 			q(84295, {	-- TWW Weekly Enchanting Knowledgepoint #8
 				["name"] = "TWW Weekly Enchanting Disenchant #6",
-				["description"] = "Rewarded when disenchanting items.",
 				["provider"] =  { "i", 227661 },	-- Gleaming Telluric Crystal
+				["description"] = "Rewarded when disenchanting items.",
 			}),
 		})),
 	})),

@@ -249,9 +249,9 @@ root(ROOTS.Professions, prof(SKINNING, {
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2 }, ["requireSkill"] = SKINNING }, {
 		n(QUESTS, {
 			q(70363, {	-- Dragon Isles Skinning
-				["description"] = "Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",
 				["provider"] = { "n", 192558 },	-- Toninaar
 				["coord"] = { 76.7, 34.8, THE_WAKING_SHORES },
+				["description"] = "Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",
 				["lockCriteria"] = { 1, "spellID", 366263},	-- Dragon Isles Skinning
 			}),
 			q(70034, {	-- Artisan's Supply: Salamanther Scale
@@ -266,8 +266,8 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["coord"] = { 73.3, 69.7, THE_WAKING_SHORES },
 			}),
 			q(70193, {	-- Specialized Secrets: Skinning
-				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["provider"] = { "n", 193110 },	-- Khadin
+				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = { { "i", 191784, 1 }, },	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
@@ -323,8 +323,8 @@ root(ROOTS.Professions, prof(SKINNING, {
 			i(199128),	-- Skinning Field Notes
 			q(74114, {	-- DF Inscription Order: Skinning
 				["name"] = "DF Inscription Order: Skinning",
-				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 201023 },	-- Draconic Treatise on Skinning
+				["description"] = "Requires a crafting order from Inscription.",
 			}),
 			q(70381, {	-- DF Weekly Skinning Knowledgepoint #1
 				["name"] = "DF Weekly Skinning Knowledgepoint #1",

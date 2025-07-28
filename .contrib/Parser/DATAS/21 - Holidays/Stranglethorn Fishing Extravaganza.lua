@@ -52,11 +52,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
 				["cost"] = {
 					{ "i", 19807, 5 },	-- Speckled Tastyfish
 				},
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 			}),
 			q(8229, {	-- Could I get a Fishing Flier?
 				["qg"] = 15116,	-- Grinkle <Fishing Promoter>
@@ -89,11 +89,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
 				["cost"] = {
 					{ "i", 19807, 40 },	-- Speckled Tastyfish
 				},
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(19970),	-- Arcanite Fishing Pole
 					i(19979),	-- Hook of the Master Angler
@@ -117,11 +117,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
 				["cost"] = {
 					{ "i", 19803, 1 },	-- Brownell's Blue Striped Racer
 				},
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(19969),	-- Nat Pagle's Extreme Anglin' Boots
 				},
@@ -135,18 +135,17 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
 				["cost"] = {
 					{ "i", 19806, 1 },	-- Dezian Angelfish
 				},
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(19971),	-- High Test Eternium Fishing Line
 				},
 			}),
 			q(8221, {	-- Rare Fish - Keefer's Angelfish
 				["qg"] = 15079,	-- Fishbot 5000
-				["requireSkill"] = FISHING,
 				["coords"] = {
 					-- #if AFTER CATA
 					{ 41.4, 73.0, THE_CAPE_OF_STRANGLETHORN },
@@ -154,10 +153,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["repeatable"] = true,
 				["cost"] = {
 					{ "i", 19805, 1 },	-- Keefer's Angelfish
 				},
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(19972),	-- Lucky Fishing Hat
 				},
@@ -172,12 +172,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
+				["timeline"] = { ADDED_5_1_0, REMOVED_7_1_0 },
 				["cost"] = {
 					{ "i", 19807, 40 },	-- Speckled Tastyfish
 				},
-				["timeline"] = { ADDED_5_1_0, REMOVED_7_1_0 },
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(50287),	-- Boots of the Bay
 					i(50255, {	-- Dread Pirate Ring
@@ -198,12 +198,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ 27.4, 76.9, STRANGLETHORN_VALE },
 					-- #endif
 				},
-				["requireSkill"] = FISHING,
-				["repeatable"] = true,
+				["timeline"] = { ADDED_5_1_0, REMOVED_7_1_0 },
 				["cost"] = {
 					{ "i", 19807, 40 },	-- Speckled Tastyfish
 				},
-				["timeline"] = { ADDED_5_1_0, REMOVED_7_1_0 },
+				["requireSkill"] = FISHING,
+				["repeatable"] = true,
 				["groups"] = {
 					i(19971),	-- High Test Eternium Fishing Line
 				},

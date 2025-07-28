@@ -126,36 +126,36 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			q(54479, {	-- Jeweled Designs [A]
 				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
 				["coord"] = { 75.2, 9.9, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54480, {	-- Jeweled Designs [H]
 				["provider"] = { "n", 122695 },	-- Seshuli
 				["coord"] = { 47.1, 37.9, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_0, REMOVED_9_0_1 },
+				["races"] = HORDE_ONLY,
 			}),
 			-- Tools of Trade Questline
 			q(49570, {	-- A Rocky Start [A]
 				["provider"] = { "o", 278570 },	-- Ancient Journal
 				["coord"] = { 75.0, 10.2, BORALUS },
 				["description"] = "This quest chain requires 150 in Kul Tiran Jewelcrafting.",
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49585, {	-- A Rocky Start [H]
 				["provider"] = { "o", 278570 },	-- Ancient Journal
 				["coord"] = { 46.9, 38.0, DAZARALOR },
 				["description"] = "This quest chain requires 150 in Zandalari Jewelcrafting.",
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(49571, {	-- Digging Through the Past [A]
-				["sourceQuests"] = { 49570 },	-- A Rocky Start [A]
 				["provider"] = { "n", 130399 },	-- Zooey Inksprocket
+				["sourceQuests"] = { 49570 },	-- A Rocky Start [A]
 				["coord"] = { 73.4, 6.3, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(155678),	-- Ancient Journal Transcription (QI!)
 					i(155587),	-- Primordial Races: Runes and Writings (QI!)
@@ -164,11 +164,11 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			}),
 			q(49586, {	-- Digging Through the Past [H]
-				["sourceQuests"] = { 49585 },	-- A Rocky Start [H]
 				["provider"] = { "n", 130901 },	-- Chronicler Grazzul
+				["sourceQuests"] = { 49585 },	-- A Rocky Start [H]
 				["coord"] = { 42.3, 39.7, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(155678),	-- Ancient Journal Transcription (QI!)
 					i(155587),	-- Primordial Races: Runes and Writings (QI!)
@@ -177,168 +177,168 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			}),
 			q(49574, {	-- The Shrine of Storms
-				["sourceQuests"] = { 49571 },	-- Digging Through the Past [A]
 				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
+				["sourceQuests"] = { 49571 },	-- Digging Through the Past [A]
 				["coord"] = { 75.2, 9.9, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49589, {	-- The Shrine of the Dawning
-				["sourceQuests"] = { 49586 },	-- Digging Through the Past [H]
 				["provider"] = { "n", 122695 },	-- Seshuli
+				["sourceQuests"] = { 49586 },	-- Digging Through the Past [H]
 				["coord"] = { 47.1, 37.9, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(49577, {	-- Cracking the Surface [A]
-				["sourceQuests"] = { 49574 },	-- The Shrine of Storms
 				["provider"] = { "n", 150898 },	-- Shrine of Storms
+				["sourceQuests"] = { 49574 },	-- The Shrine of Storms
 				["coord"] = { 60.7, 58.5, STORMSONG_VALLEY },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 				["groups"] = {
 					i(155590),	-- Shard of Golden Beryl (QI!)
 				},
 			}),
 			q(49583, {	-- Out With the Old [H]
-				["sourceQuests"] = { 49589 },	-- The Shrine of the Dawning
 				["provider"] = { "n", 150897 },	-- Shrine of the Dawning
+				["sourceQuests"] = { 49589 },	-- The Shrine of the Dawning
 				["coord"] = { 61.4, 37.2, NAZMIR },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(55585, {	-- A Promising Beginning [A]
-				["sourceQuests"] = { 49577 },	-- Cracking the Surface [A]
 				["provider"] = { "n", 152489 },	-- Shrine of Storms
+				["sourceQuests"] = { 49577 },	-- Cracking the Surface [A]
 				["coord"] = { 60.7, 58.5, STORMSONG_VALLEY },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(55592, {	-- A Promising Beginning [H]
-				["sourceQuests"] = { 49583 },	-- Out With the Old [H]
 				["provider"] = { "n", 152490 },	-- Shrine of the Dawning
+				["sourceQuests"] = { 49583 },	-- Out With the Old [H]
 				["coord"] = { 61.4, 37.2, NAZMIR },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(49572, {	-- The Shrine of the Sea
-				["sourceQuests"] = { 55585 },	-- A Promising Beginning [A]
 				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
+				["sourceQuests"] = { 55585 },	-- A Promising Beginning [A]
 				["coord"] = { 75.2, 9.9, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49587, {	-- The Shrine of Nature
-				["sourceQuests"] = { 55592 },	-- A Promising Beginning [H]
 				["provider"] = { "n", 122695 },	-- Seshuli
+				["sourceQuests"] = { 55592 },	-- A Promising Beginning [H]
 				["coord"] = { 47.1, 37.9, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(49575, {	-- Tol Dagor: Jewel of the Tides
-				["sourceQuests"] = { 49572 },	-- The Shrine of the Sea
 				["provider"] = { "n", 150893 },	-- Shrine of the Sea
+				["sourceQuests"] = { 49572 },	-- The Shrine of the Sea
 				["coord"] = { 46.4, 23.5, TIRAGARDE_SOUND },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
-				["maps"] = { 974, 975, 976, 977, 978, 979, 980 },	-- Tol Dagor
 				["timeline"] = { ADDED_8_1_5 },
+				["maps"] = { 974, 975, 976, 977, 978, 979, 980 },	-- Tol Dagor
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 				["groups"] = {
 					i(155648),	-- Jewel of the Tides (QI!)
 				},
 			}),
 			q(49582, {	-- Atal'Dazar: Not All That Glitters...
-				["sourceQuests"] = { 49587 },	-- The Shrine of Nature
 				["provider"] = { "n", 150894 },	-- Shrine of Nature
+				["sourceQuests"] = { 49587 },	-- The Shrine of Nature
 				["coord"] = { 43.2, 64.3, ZULDAZAR },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
-				["maps"] = { 934, 935 },	-- Atal'Dazar
 				["timeline"] = { ADDED_8_1_5 },
+				["maps"] = { 934, 935 },	-- Atal'Dazar
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 				["groups"] = {
 					i(155666),	-- Eye of Dazar (QI!)
 				},
 			}),
 			q(55590, {	-- Setting Things Right [A]
-				["sourceQuests"] = { 49575 },	-- Tol Dagor: Jewel of the Tides
 				["provider"] = { "n", 152495 },	-- Shrine of the Sea
+				["sourceQuests"] = { 49575 },	-- Tol Dagor: Jewel of the Tides
 				["coord"] = { 46.4, 23.5, TIRAGARDE_SOUND },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(55596, {	-- Setting Things Right [H]
-				["sourceQuests"] = { 49582 },	-- Atal'Dazar: Not All That Glitters...
 				["provider"] = { "n", 152496 },	-- Shrine of Nature
+				["sourceQuests"] = { 49582 },	-- Atal'Dazar: Not All That Glitters...
 				["coord"] = { 43.2, 64.3, ZULDAZAR },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(49573, {	-- The Shrine of the Eventide
-				["sourceQuests"] = { 55585 },	-- A Promising Beginning [A]
 				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
+				["sourceQuests"] = { 55585 },	-- A Promising Beginning [A]
 				["coord"] = { 75.2, 9.9, BORALUS },
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49588, {	-- The Shrine of the Sands
-				["sourceQuests"] = { 55592 },	-- A Promising Beginning
 				["provider"] = { "n", 122695 },	-- Seshuli
+				["sourceQuests"] = { 55592 },	-- A Promising Beginning
 				["coord"] = { 47.1, 37.9, DAZARALOR },
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
 			}),
 			q(49576, {	-- High Prospects
-				["sourceQuests"] = { 49573 },	-- The Shrine of the Eventide
 				["provider"] = { "n", 150896 },	-- Shrine of the Eventide
+				["sourceQuests"] = { 49573 },	-- The Shrine of the Eventide
 				["coord"] = { 34.1, 35.5, DRUSTVAR },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 				["groups"] = {
 					i(155661),	-- Pristine Kubiline Shards (QI!)
 					i(155830),	-- Runic Core (QI!)
 				},
 			}),
 			q(49581, {	-- Sun-Speckled Dunes
-				["sourceQuests"] = { 49588 },	-- The Shrine of the Sands
 				["provider"] = { "n", 150895 },	-- Shrine of the Sands
+				["sourceQuests"] = { 49588 },	-- The Shrine of the Sands
 				["coord"] = { 44.2, 38.0, VOLDUN },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 				["groups"] = {
 					i(155664),	-- Polished Fire Spinel (QI!)
 					i(155665),	-- Rough Fire Spinel (QI!)
 				},
 			}),
 			q(55586, {	-- Polished Up [A]
-				["sourceQuests"] = { 49576 },	-- High Prospects
 				["provider"] = { "n", 152497 },	-- Shrine of the Eventide
+				["sourceQuests"] = { 49576 },	-- High Prospects
 				["coord"] = { 34.1, 35.5, DRUSTVAR },
-				["modelScale"] = 2,
-				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = ALLIANCE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(55594, {	-- Polished Up [H]
-				["sourceQuests"] = { 49581 },	-- Sun-Speckled Dunes
 				["provider"] = { "n", 152493 },	-- Shrine of the Sands
+				["sourceQuests"] = { 49581 },	-- Sun-Speckled Dunes
 				["coord"] = { 44.2, 38.0, VOLDUN },
-				["modelScale"] = 2,
-				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
+				["races"] = HORDE_ONLY,
+				["modelScale"] = 2,
 			}),
 			q(49584, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- The Missing Chapter [A]
+				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
 				["sourceQuests"] = {
 					55586,	-- Polished Up [A]
 					55590,	-- Setting Things Right [A]
 				},
-				["provider"] = { "n", 130368 },	-- Samuel D. Colton III
 				["coord"] = { 75.2, 9.9, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -348,11 +348,11 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			})),
 			q(49599, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- The Missing Chapter [H]
+				["provider"] = { "n", 122695 },	-- Seshuli
 				["sourceQuests"] = {
 					55594,	-- Polished Up [H]
 					55596,	-- Setting Things Right [H]
 				},
-				["provider"] = { "n", 122695 },	-- Seshuli
 				["coord"] = { 47.1, 37.9, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
@@ -389,27 +389,27 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 		})),
 		n(QUESTS, {
 			q(70365, {	-- To the Dragon Isles: Jewelcrafting
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Jewelcrafting.",
 				["provider"] = { "n", 192121 },	-- Falron Greygold
 				["coord"] = { 25.4, 54.2, THE_WAKING_SHORES },
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Jewelcrafting.",
 				["lockCriteria"] = { 1,
 					"spellID", 366250,	-- Dragon Isles Jewelcrafting
 					"questID", 72247,	-- Dragon Isles Jewelcrafting
 				},
 			}),
 			q(72247, {	-- To the Dragon Isles: Jewelcrafting
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Jewelcrafting.",
 				["provider"] = { "n", 198398 },	-- Misty Catseye
 				["coord"] = { 76.2, 33.6, THE_WAKING_SHORES },
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Jewelcrafting.",
 				["lockCriteria"] = { 1,
 					"spellID", 366250,	-- Dragon Isles Jewelcrafting
 					"questID", 70365,	-- Dragon Isles Jewelcrafting
 				},
 			}),
 			q(70032, {	-- Artisan's Supply: Jeweler's Specs
-				["providers"] = {
-					{ "n", 192121 },	-- Falron Greygold
-					{ "n", 190103 },	-- Uluami
+				["qgs"] = {
+					192121,	-- Falron Greygold
+					190103,	-- Uluami
 				},
 				["coords"] = {
 					{ 25.4, 54.2, THE_WAKING_SHORES },
@@ -424,8 +424,8 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 46.2, 40.8, THE_AZURE_SPAN },
 			}),
 			q(70189, {	-- Specialized Secrets: Jewelcrafting
-				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["provider"] = { "n", 193110 },	-- Khadin
+				["sourceQuests"] = { 69979 },	-- A Worthy Hunt
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
@@ -443,38 +443,38 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 		},{
 			-- Requires 25 Skill
 			q(66950, {	-- Heart of a Giant
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(194449),	-- Giant Core (QI!)
 				},
 			}),
 			q(72428, {	-- Hornswog Hoarders
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(201829),	-- Pungent Gem (QI!)
 				},
 			}),
 			q(70593, {	-- Jewelcrafting Services Requested
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 194026 },	-- Azley
 				["coord"] = { 35.6, 58.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 			}),
 			q(66516, {	-- Mundane Gems, I Think not!
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(192125),	-- 'Mundane' Gem (QI!)
 				},
 			}),
 			q(66949, {	-- Trinket Bandits
-				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
+				["description"] = "Requires 25 Skill.",
 				["groups"] = {
 					i(194443),	-- Stolen Trinket (QI!)
 				},
@@ -482,24 +482,24 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 
 			-- Requires 45 Skill
 			q(70565, {	-- Separation by Saturation
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 190094 },	-- Tuluradormi
 				["coord"] = { 40.6, 61.2, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70564, {	-- Spectacular
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 190094 },	-- Tuluradormi
 				["coord"] = { 40.6, 61.2, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70563, {	-- The Exhibition
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 190094 },	-- Tuluradormi
 				["coord"] = { 40.6, 61.2, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 			q(70562, {	-- The Plumbers, Mason
-				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 190094 },	-- Tuluradormi
 				["coord"] = { 40.6, 61.2, VALDRAKKEN },
+				["description"] = "Requires 45 Skill.",
 			}),
 
 			-- Requires ?? Skill - Patch 10.1.0.
@@ -687,8 +687,8 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			i(198612),	-- Jeweler's Cuts
 			q(74112, {	-- DF Inscription Order: Jewelcrafting
 				["name"] = "DF Inscription Order: Jewelcrafting",
-				["description"] = "Requires a crafting order from Inscription.",
 				["provider"] = { "i", 194703 },	-- Draconic Treatise on Jewelcrafting
+				["description"] = "Requires a crafting order from Inscription.",
 			}),
 			q(66388, {	-- DF Weekly Jewelcrafting Knowledgepoint #1
 				["name"] = "DF Jewelcrafting Treasure #1",
@@ -700,6 +700,11 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			q(70521, {	-- DF Weekly Jewelcrafting Knowledgepoint #3
 				["name"] = "DF Jewelcrafting Drop #1: Well Dressed",
+				["provider"] = { "i", 198974 },	-- Elegantly Engraved Embellishment
+				["coords"] = {
+					{ 46.8, 59.6, THALDRASZUS },
+					{ 45.8 ,58.2, THALDRASZUS },
+				},
 				["description"] = "Drops from any Well Dressed Humanoids & Dragonkins.\nCoordinates link to the spot(s) we found best.",
 				["crs"] = {
 					195215,	-- Rebel Bruiser
@@ -707,19 +712,9 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 					195063,	-- Rebel Conjurer
 					195060,	-- Rebel Mender
 				},
-				["provider"] = { "i", 198974 },	-- Elegantly Engraved Embellishment
-				["coords"] = {
-					{ 46.8, 59.6, THALDRASZUS },
-					{ 45.8 ,58.2, THALDRASZUS },
-				},
 			}),
 			q(70520, {	-- DF Weekly Jewelcrafting Knowledgepoint #4
 				["name"] = "DF Jewelcrafting Drop #2: Earth Elemental",
-				["description"] = "Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",
-				["crs"] = {
-					194212,	-- Unleashed Rubble
-					194517,	-- Crushing Elemental
-				},
 				["provider"] = { "i", 198973 },	-- Incandescent Curio
 				["coords"] = {
 					{ 50.6, 57.6, THALDRASZUS },
@@ -727,6 +722,11 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 					{ 47.8, 35.6, THE_WAKING_SHORES },
 					{ 50.6, 33.2, THE_WAKING_SHORES },
 					{ 53.6, 31.0, THE_WAKING_SHORES },
+				},
+				["description"] = "Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",
+				["crs"] = {
+					194212,	-- Unleashed Rubble
+					194517,	-- Crushing Elemental
 				},
 			}),
 		})),

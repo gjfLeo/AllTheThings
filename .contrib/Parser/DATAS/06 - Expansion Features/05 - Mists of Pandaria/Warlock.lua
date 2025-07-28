@@ -29,15 +29,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					},
 				}),
 				q(32295, {	-- An Unusual Tome
-					["maps"] = { ISLE_OF_THUNDER },
 					["provider"] = { "i", 92441 },	-- The Codex of Xerrath
+					["maps"] = { ISLE_OF_THUNDER },
 				}),
 				q(32307, {	-- Reader for the Dead Tongue
-					["sourceQuests"] = { 32295 },	-- An Unusual Tome
 					["qgs"] = {
 						5496,	-- Sandahl
 						88705,	-- Kranosh
 					},
+					["sourceQuests"] = { 32295 },	-- An Unusual Tome
 					["coords"] = {
 						{ 39.8, 85.4, STORMWIND_CITY },	-- Sandahl
 						{ 53.8, 35.8, ORGRIMMAR },	-- Kranosh
@@ -45,11 +45,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["isBreadcrumb"] = true,
 				}),
 				q(32310, {	-- A Tale of Six Masters (A)
-					["sourceQuests"] = { 32307 },	-- Reader for the Dead Tongue
 					["qgs"] = {
 						5496,	-- Sandahl
 						5173,	-- Alexander Calder
 					},
+					["sourceQuests"] = { 32307 },	-- Reader for the Dead Tongue
 					["coords"] = {
 						{ 39.8, 85.4, STORMWIND_CITY },
 						{ 50.2, 6.8, IRONFORGE },
@@ -60,8 +60,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					},
 				}),
 				q(32309, {	-- A Tale of Six Masters (H)
-					["sourceQuests"] = { 32307 },	-- Reader for the Dead Tongue
 					["qg"] = 88705,	-- Kranosh
+					["sourceQuests"] = { 32307 },	-- Reader for the Dead Tongue
 					["coord"] = { 53.8, 35.8, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -69,14 +69,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					},
 				}),
 				q(32317, {	-- Seeking the Soulstones
-					["sourceQuests"] = {
-						32310,	-- A Tale of Six Masters (A)
-						32309,	-- A Tale of Six Masters (H)
-					},
 					["qgs"] = {
 						5496,	-- Sandahl
 						5173,	-- Alexander Calder
 						88705,	-- Kranosh
+					},
+					["sourceQuests"] = {
+						32310,	-- A Tale of Six Masters (A)
+						32309,	-- A Tale of Six Masters (H)
 					},
 					["coords"] = {
 						{ 39.8, 85.4, STORMWIND_CITY },
@@ -89,7 +89,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				}),
 				q(32325, {	-- Infiltrating the Black Temple
 					["sourceQuests"] = { 32324 },	-- Seek the Signal
-					["cost"] = { { "i", 92556, 1 } },	-- Empowered Soulcore
 					["maps"] = {
 						490,	-- The Black Temple (Illidari Training Grounds)
 						491,	-- The Black Temple (Karabor Sewers)
@@ -100,6 +99,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						496,	-- The Black Temple (Chamber of Command)
 						497,	-- The Black Temple (Temple Summit)
 					},
+					["cost"] = { { "i", 92556, 1 } },	-- Empowered Soulcore
 					["groups"] = {
 						spell(101508),	-- The Codex of Xerrath (CI!)
 						mount(148972),	-- Dreadsteed (MOUNT!)

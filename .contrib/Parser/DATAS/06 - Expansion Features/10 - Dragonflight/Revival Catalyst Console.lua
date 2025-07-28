@@ -4189,17 +4189,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["timeline"] = { ADDED_10_0_5, REMOVED_10_1_0 },
 				}),
 				q(72528, {	-- Revival Catalyst
-					["sourceQuests"] = { 72360 },	-- Reviving the Machine
-					["providers"] = {
-						{ "n", 198695 },	-- Antuka
-						{ "n", 199373 },	-- Antuka
+					["qgs"] = {
+						198695,	-- Antuka
+						199373,	-- Antuka
 					},
+					["sourceQuests"] = { 72360 },	-- Reviving the Machine
 					["coords"] = {
 						{ 60.6, 53.8, THALDRASZUS },
 						{ 58.5, 57.6, VALDRAKKEN },
 					},
-					["isWeekly"] = true,
 					["timeline"] = { ADDED_10_0_5, REMOVED_10_1_0 },
+					["isWeekly"] = true,
 					["groups"] = {
 						i(202002),	-- Enlightened Renascence (QI!)
 						i(202000),	-- Minor Renascence (QI!)

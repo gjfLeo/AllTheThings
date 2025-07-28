@@ -55,15 +55,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						{ 49.2, 55.8, VALDRAKKEN },
 						{ 55.6, 55.0, ZARALEK_CAVERN },
 					},
-					["isWeekly"] = IGNORED_VALUE,
 					["isBreadcrumb"] = true,
+					["isWeekly"] = IGNORED_VALUE,
 				}),
 				q(75888, {	-- Suffusion Camp
-					["sourceQuest"] = 75887,	-- Fyrakk's Forces
-					["providers"] = {
-						{ "n", 201648 },	-- Somnikus
-						{ "n", 203520 },	-- Stellagosa
+					["qgs"] = {
+						201648,	-- Somnikus
+						203520,	-- Stellagosa
 					},
+					["sourceQuest"] = 75887,	-- Fyrakk's Forces
 					["coords"] = {
 						{ 75.2, 69.2, OHNAHRAN_PLAINS },
 						{ 58.0, 34.6, THE_AZURE_SPAN },

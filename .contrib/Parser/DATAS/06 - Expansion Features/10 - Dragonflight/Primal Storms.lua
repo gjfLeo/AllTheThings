@@ -495,8 +495,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 				}),
 				q(70753, {	-- Dissipating the Air Primalists
-					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["provider"] = {"i",199749},	-- Primal Air Core
+					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -504,8 +504,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 				}),
 				q(70754, {	-- Extinguishing the Fire Primalists
-					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["provider"] = {"i",199750},	-- Primal Fire Core
+					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -513,8 +513,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 				}),
 				q(70723, {	-- Shattering the Earth Primalists
-					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["provider"] = {"i",199691},	-- Primal Earth Core
+					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -522,8 +522,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 				}),
 				q(70752, {	-- Vaporizing the Water Primalists
-					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["provider"] = {"i",199748},	-- Primal Water Core
+					["sourceQuest"] = 71242,	-- Supporting the Storm Researchers
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 					["isWeekly"] = true,
 					["groups"] = {

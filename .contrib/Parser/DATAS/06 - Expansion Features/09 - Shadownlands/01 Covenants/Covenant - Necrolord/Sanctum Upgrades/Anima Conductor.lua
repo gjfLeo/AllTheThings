@@ -50,8 +50,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 52.4, 38.4, SEAT_OF_THE_PRIMUS },
 								}),
 								q(60722, {	-- Tower Power
-									["sourceQuests"] = { 63057 },	-- Restoring Power
 									["provider"] = { "n", 167205 },	-- Yondare Hex
+									["sourceQuests"] = { 63057 },	-- Restoring Power
 									["coord"] = { 49.0, 36.0, SEAT_OF_THE_PRIMUS },
 								}),
 							}),
@@ -165,8 +165,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							n(RARES, {
 								q(58454, {	-- Spoiling For A Fight
 									["provider"] = { "n", 159830 },	-- Au'narim
-									["isDaily"] = true,
 									["coord"] = { 53.6, 47.6, MALDRAXXUS },
+									["isDaily"] = true,
 								}),
 								SABRIEL,
 							}),

@@ -818,25 +818,25 @@ root(ROOTS.ExpansionFeatures,
 							n(QUESTS, {	-- Questlines
 								q(54050, {	-- Aftermath
 									["provider"] = { "n", 146601 },	-- Sira Moonwarden
+									["sourceQuest"] = 54049,	-- The Dead of Night
 									["coord"] = { 54.6, 20.8, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54049,	-- The Dead of Night
 									["groups"] = {
 										i(166678),	-- Brynja's Beacon (TOY!)
 									},
 								}),
 								q(54006, {	-- A New Hope (A)
 									["provider"] = { "n", 149418 },	-- Maiev Shadowsong
-									["races"] = ALLIANCE_ONLY,
 									["sourceQuest"] = 54871,	-- We Are Coming
+									["races"] = ALLIANCE_ONLY,
 									["groups"] = {
 										i(166525),	-- Nightwreathed Egg
 									},
 								}),
 								q(54044, {	-- Black Moon Rising
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
-									["coord"] = { 53.6, 20.4, 1333 },
 									["sourceQuest"] = 54042,	-- Trouble in Darkshore
+									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
 								}),
 								q(54878, {	-- Buzzkill (A)
@@ -845,24 +845,24 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(54845, {	-- Bullkill (H)
+									["provider"] = { "n", 149412 },	-- Zarvik Blastwix
 									["coord"] = { 46.4, 35.0, DARKSHORE },
 									["races"] = HORDE_ONLY,
-									["provider"] = { "n", 149412 },	-- Zarvik Blastwix
 								}),
 								q(54043, {	-- Dark Ranger Round-Up
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 									["groups"] = {
 										i(166544),	-- Dark Ranger's Spare Cowl (TOY!)
 									},
 								}),
 								q(54045, {	-- Quit Vining!
 									["provider"] = { "n", 146325 },	-- Shredmaster Blix
+									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 									["coord"] = { 54.6, 21.9, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 								}),
 								q(54875, {	-- Remaining Threats (Alliance)
 									["provider"] = { "n", 149623 },	-- Commander Lorna Crowley
@@ -882,41 +882,41 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(54844, {	-- Tapping the Breach (H)
+									["provider"] = { "n", 149411 },	-- Dark Ranger Velonara
 									["coord"] = { 47.8, 36.2, DARKSHORE },
 									["races"] = HORDE_ONLY,
-									["provider"] = { "n", 149411 },	-- Dark Ranger Velonara
 								}),
 								q(54049, {	-- The Dead of Night
 									["qgs"] = {
 										147187,	-- Nathanos Blightcaller
 										149143,	-- Nathanos Blightcaller
 									},
+									["sourceQuest"] = 54047,	-- Where Hope Dies
 									["coord"] = { 47.8, 21.2, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54047,	-- Where Hope Dies
 								}),
 								q(54059, {	-- The Night Warrior
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["sourceQuest"] = 54046,	-- We're Not Out of the Woods Yet
 									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54046,	-- We're Not Out of the Woods Yet
 								}),
 								q(54416, {	-- Warfront Preparations
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["sourceQuest"] = 54050,	-- Aftermath
 									["coord"] = { 51.7, 21.6, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54050,	-- Aftermath
 								}),
 								q(54046, {	-- We're Not Out of the Woods Yet
 									["provider"] = { "n", 146536 },	-- Lost Wisp
-									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54044,	-- Black Moon Rising
+									["races"] = HORDE_ONLY,
 								}),
 								q(54047, {	-- Where Hope Dies
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["sourceQuest"] = 54059,	-- The Night Warrior
 									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
-									["sourceQuest"] = 54059,	-- The Night Warrior
 								}),
 
 								-- Alliance Quests
@@ -928,8 +928,8 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(53976, {	-- Iron in Hand
 									["provider"] = { "n", 145770 },	-- Thisalee Crow
-									["coord"] = { 51.0, 56.8, 1203 },
 									["sourceQuest"] = 53977,	-- The War Chest (A)
+									["coord"] = { 51.0, 56.8, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 									["groups"] = {
@@ -943,56 +943,56 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54436, {	-- Wisp'd Into Shape
 									["provider"] = { "n", 145770 },	-- Thisalee Crow
-									["coord"] = { 51.0, 56.8, 1203 },
 									["sourceQuest"] = 53977,	-- The War Chest (A)
+									["coord"] = { 51.0, 56.8, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53957, {	-- Darkshore Recruits (A)
 									["provider"] = { "n", 145770 },	-- Thisalee Crow
-									["coord"] = { 51.0, 56.8, 1203 },
 									["sourceQuests"] = {
 										53976,	-- Iron in Hand
 										54436,	-- Wisp'd Into Shape
 									},
+									["coord"] = { 51.0, 56.8, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53959, {	-- Armor for Armies
 									["provider"] = { "n", 145783 },	-- Lorna Crowley
-									["coord"] = { 51.0, 57.6, 1203 },
 									["sourceQuest"] = 53957,	-- Darkshore Recruits (A)
+									["coord"] = { 51.0, 57.6, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53960, {	-- The Altar of Elders
 									["provider"] = { "n", 145783 },	-- Lorna Crowley
-									["coord"] = { 51.0, 57.6, 1203 },
 									["sourceQuest"] = 53959,	-- Armor for Armies
+									["coord"] = { 51.0, 57.6, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53974, {	-- Druids of Gloomtide
 									["provider"] = { "n", 145779 },	-- Celestine of the Harvest
-									["coord"] = { 51.8, 55.4, 1203 },
 									["sourceQuest"] = 53957,	-- Darkshore Recuits (A)
+									["coord"] = { 51.8, 55.4, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53961, {	-- Glaiveworks For Me
 									["provider"] = { "n", 145784 },	-- Princess Tess Greymane
-									["coord"] = { 51.0, 57.4, 1203 },
 									["sourceQuests"] = {
 										53960,	-- The Altar of Elders
 										53974,	-- Druids of Gloomtide
 									},
+									["coord"] = { 51.0, 57.4, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(53975, {	-- Flying at Night
 									["provider"] = { "n", 144786 },	-- Archmage Mordent Evenshade
-									["coord"] = { 49.4, 34.6, 1203 },
 									["sourceQuest"] = 53957,	-- Darkshore Recruits (A)
+									["coord"] = { 49.4, 34.6, 1203 },
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
 									["groups"] = {
@@ -1008,8 +1008,8 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54654, {	-- An Explosive Situation
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuest"] = 54652,	-- The War Chest (H)
+									["coord"] = { 51.4, 56.2, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 									["groups"] = {
@@ -1021,8 +1021,8 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54655, {	-- Lumbering Along
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuest"] = 54652,	-- The War Chest (H)
+									["coord"] = { 51.4, 56.2, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 50,
 									["groups"] = {
@@ -1032,49 +1032,49 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54656, {	-- Darkshore Recruits (H)
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuests"] = {
 										54654,	-- An Explosive Situation
 										54655,	-- Lumbering Along
 									},
+									["coord"] = { 51.4, 56.2, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54657, {	-- Arms and Armor
 									["provider"] = { "n", 148482 },	-- Apothecary Keever
-									["coord"] = { 51.8, 58, 1332 },
 									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
+									["coord"] = { 51.8, 58, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54658, {	-- The Altar of Storms
 									["provider"] = { "n", 148482 },	-- Apothecary Keever
-									["coord"] = { 51.8, 58, 1332 },
 									["sourceQuest"] = 54657,	-- Arms and Armor (H)
+									["coord"] = { 51.8, 58, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54659, {	-- An Alchemist for Everything
 									["provider"] = { "n", 148478 },	-- Apothecary Zinge
-									["coord"] = { 52.0, 59.0, 1332 },
 									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
+									["coord"] = { 52.0, 59.0, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54660, {	-- Throwing Blight
 									["provider"] = { "n", 146590 },	-- Master Apothecary Faranell
-									["coord"] = { 51.7, 58.0, 1332 },
 									["sourceQuests"] = {
 										54658,	-- The Altar of Storms
 										54659,	-- An Alchemist for Everything
 									},
+									["coord"] = { 51.7, 58.0, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54661, {	-- Echolocation
 									["provider"] = { "n", 145554 },	-- Base Cap'n Crankshot
-									["coord"] = { 49.6, 35.0, 1203 },
 									-- ["sourceQuest"] = 54660,	-- Throwing Blight
+									["coord"] = { 49.6, 35.0, 1203 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 									["groups"] = {
@@ -1089,140 +1089,140 @@ root(ROOTS.ExpansionFeatures,
 								["races"] = ALLIANCE_ONLY,
 							},{
 								q(54387, {	-- Darkshore Donations: Blood-Stained Bone
-									["coord"] = { 67.2, 29.2, BORALUS },
 									["provider"] = { "n", 142995 },	-- Charlane
+									["coord"] = { 67.2, 29.2, BORALUS },
 								}),
 								q(54379, {	-- Darkshore Donations: Contract: 7th Legion
-									["coord"] = { 67.5, 23.8, BORALUS },
 									["provider"] = { "n", 143005 },	-- Liao
+									["coord"] = { 67.5, 23.8, BORALUS },
 								}),
 								q(54377, {	-- Darkshore Donations: Crimson Ink
-									["coord"] = { 67.5, 23.8, BORALUS },
 									["provider"] = { "n", 143005 },	-- Liao
+									["coord"] = { 67.5, 23.8, BORALUS },
 								}),
 								q(54386, {	-- Darkshore Donations: Deep Sea Bandage
-									["coord"] = { 67.1, 27.9, BORALUS },
 									["provider"] = { "n", 142998 },	-- Faella
+									["coord"] = { 67.1, 27.9, BORALUS },
 								}),
 								q(54382, {	-- Darkshore Donations: Deep Sea Satin
-									["coord"] = { 67.1, 27.9, BORALUS },
 									["provider"] = { "n", 142998 },	-- Faella
+									["coord"] = { 67.1, 27.9, BORALUS },
 								}),
 								q(54369, {	-- Darkshore Donations: Electroshock Mount Motivator
-									["coord"] = { 66.3, 25.5, BORALUS },
 									["provider"] = { "n", 143008 },	-- Norber Togglesprocket
+									["coord"] = { 66.3, 25.5, BORALUS },
 								}),
 								q(54373, {	-- Darkshore Donations: Enchant Ring - Seal of Haste
-									["coord"] = { 66.3, 25.1, BORALUS },
 									["provider"] = { "n", 143007 },	-- Mae Wagglewand
+									["coord"] = { 66.3, 25.1, BORALUS },
 								}),
 								q(54375, {	-- Darkshore Donations: Enchant Ring - Seal of Mastery
-									["coord"] = { 66.3, 25.1, BORALUS },
 									["provider"] = { "n", 143007 },	-- Mae Wagglewand
+									["coord"] = { 66.3, 25.1, BORALUS },
 								}),
 								q(54380, {	-- Darkshore Donations: Gold
-									["coord"] = { 66.2, 27.6, BORALUS },
 									["provider"] = { "n", 142685 },	-- Paymaster Vauldren
+									["coord"] = { 66.2, 27.6, BORALUS },
 								}),
 								q(54390, {	-- Darkshore Donations: Masterful Kubiline
-									["coord"] = { 67.6, 24.1, BORALUS },
 									["provider"] = { "n", 143004 },	-- Larold Kyne
+									["coord"] = { 67.6, 24.1, BORALUS },
 								}),
 								q(54389, {	-- Darkshore Donations: Mistscale
-									["coord"] = { 67.2, 29.2, BORALUS },
 									["provider"] = { "n", 142995 },	-- Charlane
+									["coord"] = { 67.2, 29.2, BORALUS },
 								}),
 								q(54367, {	-- Darkshore Donations: Platinum Ore
-									["coord"] = { 66.0, 28.5, BORALUS },
 									["provider"] = { "n", 142994 },	-- Brandal Darkbeard
+									["coord"] = { 66.0, 28.5, BORALUS },
 								}),
 								q(54378, {	-- Darkshore Donations: Potion of Bursting Blood
-									["coord"] = { 66.7, 23.5, BORALUS },
 									["provider"] = { "n", 142993 },	-- Chelsea Strand
+									["coord"] = { 66.7, 23.5, BORALUS },
 								}),
 								q(54376, {	-- Darkshore Donations: Potion of Replenishment
-									["coord"] = { 66.7, 23.5, BORALUS },
 									["provider"] = { "n", 142993 },	-- Chelsea Strand
+									["coord"] = { 66.7, 23.5, BORALUS },
 								}),
 								q(54374, {	-- Darkshore Donations: Potion of Rising Death
-									["coord"] = { 66.7, 23.5, BORALUS },
 									["provider"] = { "n", 142993 },	-- Chelsea Strand
+									["coord"] = { 66.7, 23.5, BORALUS },
 								}),
 								q(54391, {	-- Darkshore Donations: Quick Golden Beryl
-									["coord"] = { 67.6, 24.1, BORALUS },
 									["provider"] = { "n", 143004 },	-- Larold Kyne
+									["coord"] = { 67.6, 24.1, BORALUS },
 								}),
 								q(54392, {	-- Darkshore Donations: Sand Shifter
-									["coord"] = { 67.0, 27.2, BORALUS },
 									["provider"] = { "n", 142997 },	-- Senedras
+									["coord"] = { 67.0, 27.2, BORALUS },
 								}),
 								q(54393, {	-- Darkshore Donations: Scarlet Diamond
-									["coord"] = { 67.6, 24.1, BORALUS },
 									["provider"] = { "n", 143004 },	-- Larold Kyne
+									["coord"] = { 67.6, 24.1, BORALUS },
 								}),
 								q(54395, {	-- Darkshore Donations: Seasoned Steak and Potatoes
-									["coord"] = { 67.0, 27.2, BORALUS },
 									["provider"] = { "n", 142997 },	-- Senedras
+									["coord"] = { 67.0, 27.2, BORALUS },
 								}),
 								q(54388, {	-- Darkshore Donations: Shimmerscale Diving Helmet
-									["coord"] = { 67.2, 29.2, BORALUS },
 									["provider"] = { "n", 142995 },	-- Charlane
+									["coord"] = { 67.2, 29.2, BORALUS },
 								}),
 								q(54383, {	-- Darkshore Donations: Shimmerscale Diving Suit
-									["coord"] = { 67.2, 29.2, BORALUS },
 									["provider"] = { "n", 142995 },	-- Charlane
+									["coord"] = { 67.2, 29.2, BORALUS },
 								}),
 								q(54364, {	-- Darkshore Donations: Star Moss
-									["coord"] = { 66.7, 23.5, BORALUS },
 									["provider"] = { "n", 142993 },	-- Chelsea Strand
+									["coord"] = { 66.7, 23.5, BORALUS },
 								}),
 								q(54365, {	-- Darkshore Donations: Storm Silver Ore
-									["coord"] = { 66.0, 28.5, BORALUS },
 									["provider"] = { "n", 142994 },	-- Brandal Darkbeard
+									["coord"] = { 66.0, 28.5, BORALUS },
 								}),
 								q(54394, {	-- Darkshore Donations: Stringy Loins
-									["coord"] = { 67.0, 27.2, BORALUS },
 									["provider"] = { "n", 142997 },	-- Senedras
+									["coord"] = { 67.0, 27.2, BORALUS },
 								}),
 								q(54371, {	-- Darkshore Donations: Thermo-Accelerated Plague Spreader
-									["coord"] = { 66.3, 25.5, BORALUS },
 									["provider"] = { "n", 143008 },	-- Norber Togglesprocket
+									["coord"] = { 66.3, 25.5, BORALUS },
 								}),
 								q(54385, {	-- Darkshore Donations: Tidespray Linen Bandage
-									["coord"] = { 67.1, 27.9, BORALUS },
 									["provider"] = { "n", 142998 },	-- Faella
+									["coord"] = { 67.1, 27.9, BORALUS },
 								}),
 								q(54384, {	-- Darkshore Donations: Tidespray Linen Net
-									["coord"] = { 67.1, 27.9, BORALUS },
 									["provider"] = { "n", 142998 },	-- Faella
+									["coord"] = { 67.1, 27.9, BORALUS },
 								}),
 								q(54381, {	-- Darkshore Donations: Ultramarine Ink
-									["coord"] = { 67.5, 23.8, BORALUS },
 									["provider"] = { "n", 143005 },	-- Liao
+									["coord"] = { 67.5, 23.8, BORALUS },
 								}),
 								q(54372, {	-- Darkshore Donations: Umbra Shard
-									["coord"] = { 66.3, 25.1, BORALUS },
 									["provider"] = { "n", 143007 },	-- Mae Wagglewand
+									["coord"] = { 66.3, 25.1, BORALUS },
 								}),
 								q(54368, {	-- Darkshore Donations: Unstable Temporal Time Shifter
-									["coord"] = { 66.3, 25.5, BORALUS },
 									["provider"] = { "n", 143008 },	-- Norber Togglesprocket
+									["coord"] = { 66.3, 25.5, BORALUS },
 								}),
 								q(54363, {	-- Darkshore Donations: War Resources
-									["coord"] = { 66.1, 27.2, BORALUS },
 									["provider"] = { "n", 142700 },	-- Quartermaster Peregrin
+									["coord"] = { 66.1, 27.2, BORALUS },
 								}),
 								q(54396, {	-- Darkshore Donations: Wild Berry Bread
-									["coord"] = { 67.0, 27.2, BORALUS },
 									["provider"] = { "n", 142997 },	-- Senedras
+									["coord"] = { 67.0, 27.2, BORALUS },
 								}),
 								q(54366, {	-- Darkshore Donations: Winter's Kiss
-									["coord"] = { 66.7, 23.5, BORALUS },
 									["provider"] = { "n", 142993 },	-- Chelsea Strand
+									["coord"] = { 66.7, 23.5, BORALUS },
 								}),
 								q(54370, {	-- Darkshore Donations: XA-1000 Surface Skimmer
-									["coord"] = { 66.3, 25.5, BORALUS },
 									["provider"] = { "n", 143008 },	-- Norber Togglesprocket
+									["coord"] = { 66.3, 25.5, BORALUS },
 								}),
 								q(57960, {	-- Heroic Warfront: The Battle for Darkshore
 									["provider"] = { "n", 142721 },	-- Ralston Karn <Recruitment Officer>
@@ -1382,136 +1382,136 @@ root(ROOTS.ExpansionFeatures,
 								["races"] = HORDE_ONLY,
 							},{
 								q(54353, {	-- Darkshore Donations: Blood-Stained Bone
-									["coord"] = { 53.4, 92.6, DAZARALOR },
 									["provider"] = { "n", 142970 },	-- Kuma Longhoof
+									["coord"] = { 53.4, 92.6, DAZARALOR },
 								}),
 								q(54345, {	-- Darkshore Donations: Contract: The Honorbound
-									["coord"] = { 53.6, 92.1, DAZARALOR },
 									["provider"] = { "n", 142981 },	-- Merill Redgrave
+									["coord"] = { 53.6, 92.1, DAZARALOR },
 								}),
 								q(54344, {	-- Darkshore Donations: Crimson Ink
-									["coord"] = { 53.6, 92.1, DAZARALOR },
 									["provider"] = { "n", 142981 },	-- Merill Redgrave
+									["coord"] = { 53.6, 92.1, DAZARALOR },
 								}),
 								q(54351, {	-- Darkshore Donations: Deep Sea Bandage
-									["coord"] = { 52.5, 93.3, DAZARALOR },
 									["provider"] = { "n", 142975 },	-- Seamstress Vessa
+									["coord"] = { 52.5, 93.3, DAZARALOR },
 								}),
 								q(54348, {	-- Darkshore Donations: Deep Sea Satin
-									["coord"] = { 52.5, 93.3, DAZARALOR },
 									["provider"] = { "n", 142975 },	-- Seamstress Vessa
+									["coord"] = { 52.5, 93.3, DAZARALOR },
 								}),
 								q(54334, {	-- Darkshore Donations: Electroshock Mount Motivator
-									["coord"] = { 53.0, 94.8, DAZARALOR },
 									["provider"] = { "n", 142983 },	-- Swizzle Fizzcrank
+									["coord"] = { 53.0, 94.8, DAZARALOR },
 								}),
 								q(54340, {	-- Darkshore Donations: Enchant Ring - Seal of Haste
-									["coord"] = { 52.7, 93.3, DAZARALOR },
 									["provider"] = { "n", 142992 },	-- Uma'wi
+									["coord"] = { 52.7, 93.3, DAZARALOR },
 								}),
 								q(54341, {	-- Darkshore Donations: Enchant Ring - Seal of Mastery
-									["coord"] = { 52.7, 93.3, DAZARALOR },
 									["provider"] = { "n", 142992 },	-- Uma'wi
+									["coord"] = { 52.7, 93.3, DAZARALOR },
 								}),
 								q(54346, {	-- Darkshore Donations: Gold
-									["coord"] = { 51.7, 95.4, DAZARALOR },
 									["provider"] = { "n", 142157 },	-- Paymaster Grintooth
+									["coord"] = { 51.7, 95.4, DAZARALOR },
 								}),
 								q(54357, {	-- Darkshore Donations: Masterful Kubiline
-									["coord"] = { 51.9, 93.1, DAZARALOR },
 									["provider"] = { "n", 142977 },	-- Meredith Swane
+									["coord"] = { 51.9, 93.1, DAZARALOR },
 								}),
 								q(54355, {	-- Darkshore Donations: Mistscale
-									["coord"] = { 53.4, 92.6, DAZARALOR },
 									["provider"] = { "n", 142970 },	-- Kuma Longhoof
+									["coord"] = { 53.4, 92.6, DAZARALOR },
 								}),
 								q(54330, {	-- Darkshore Donations: Platinum Ore
-									["coord"] = { 52.6, 94.8, DAZARALOR },
 									["provider"] = { "n", 142969 },	-- Logarr
+									["coord"] = { 52.6, 94.8, DAZARALOR },
 								}),
 								q(54342, {	-- Darkshore Donations: Potion of Bursting Blood
-									["coord"] = { 51.2, 95.5, DAZARALOR },
 									["provider"] = { "n", 142159 },	-- Zen'kin
+									["coord"] = { 51.2, 95.5, DAZARALOR },
 								}),
 								q(54343, {	-- Darkshore Donations: Potion of Replenishment
-									["coord"] = { 51.2, 95.5, DAZARALOR },
 									["provider"] = { "n", 142159 },	-- Zen'kin
+									["coord"] = { 51.2, 95.5, DAZARALOR },
 								}),
 								q(54339, {	-- Darkshore Donations: Potion of Rising Death
-									["coord"] = { 51.2, 95.5, DAZARALOR },
 									["provider"] = { "n", 142159 },	-- Zen'kin
+									["coord"] = { 51.2, 95.5, DAZARALOR },
 								}),
 								q(54356, {	-- Darkshore Donations: Quick Golden Beryl
-									["coord"] = { 51.9, 93.1, DAZARALOR },
 									["provider"] = { "n", 142977 },	-- Meredith Swane
+									["coord"] = { 51.9, 93.1, DAZARALOR },
 								}),
 								q(54359, {	-- Darkshore Donations: Sand Shifter
-									["coord"] = { 53.8, 94.4, DAZARALOR },
 									["provider"] = { "n", 142973 },	-- Mai-Lu
+									["coord"] = { 53.8, 94.4, DAZARALOR },
 								}),
 								q(54358, {	-- Darkshore Donations: Scarlet Diamond
-									["coord"] = { 51.9, 93.1, DAZARALOR },
 									["provider"] = { "n", 142977 },	-- Meredith Swane
+									["coord"] = { 51.9, 93.1, DAZARALOR },
 								}),
 								q(54362, {	-- Darkshore Donations: Seasoned Steak and Potatoes
-									["coord"] = { 53.8, 94.4, DAZARALOR },
 									["provider"] = { "n", 142973 },	-- Mai-Lu
+									["coord"] = { 53.8, 94.4, DAZARALOR },
 								}),
 								q(54354, {	-- Darkshore Donations: Shimmerscale Diving Helmet
-									["coord"] = { 53.4, 92.6, DAZARALOR },
 									["provider"] = { "n", 142970 },	-- Kuma Longhoof
+									["coord"] = { 53.4, 92.6, DAZARALOR },
 								}),
 								q(54352, {	-- Darkshore Donations: Shimmerscale Diving Suit
-									["coord"] = { 53.4, 92.6, DAZARALOR },
 									["provider"] = { "n", 142970 },	-- Kuma Longhoof
+									["coord"] = { 53.4, 92.6, DAZARALOR },
 								}),
 								q(54332, {	-- Darkshore Donations: Star Moss
-									["coord"] = { 51.2, 95.5, DAZARALOR },
 									["provider"] = { "n", 142159 },	-- Zen'kin
+									["coord"] = { 51.2, 95.5, DAZARALOR },
 								}),
 								q(54333, {	-- Darkshore Donations: Storm Silver Ore
-									["coord"] = { 52.6, 94.8, DAZARALOR },
 									["provider"] = { "n", 142969 },	-- Logarr
+									["coord"] = { 52.6, 94.8, DAZARALOR },
 								}),
 								q(54360, {	-- Darkshore Donations: Stringy Loins
-									["coord"] = { 53.8, 94.4, DAZARALOR },
 									["provider"] = { "n", 142973 },	-- Mai-Lu
+									["coord"] = { 53.8, 94.4, DAZARALOR },
 								}),
 								q(54338, {	-- Darkshore Donations: Thermo-Accelerated Plague Spreader
-									["coord"] = { 53.0, 94.8, DAZARALOR },
 									["provider"] = { "n", 142983 },	-- Swizzle Fizzcrank
+									["coord"] = { 53.0, 94.8, DAZARALOR },
 								}),
 								q(54350, {	-- Darkshore Donations: Tidespray Linen Net
-									["coord"] = { 52.5, 93.3, DAZARALOR },
 									["provider"] = { "n", 142975 },	-- Seamstress Vessa
+									["coord"] = { 52.5, 93.3, DAZARALOR },
 								}),
 								q(54347, {	-- Darkshore Donations: Ultramarine Ink
-									["coord"] = { 53.6, 92.1, DAZARALOR },
 									["provider"] = { "n", 142981 },	-- Merill Redgrave
+									["coord"] = { 53.6, 92.1, DAZARALOR },
 								}),
 								q(54337, {	-- Darkshore Donations: Umbra Shard
-									["coord"] = { 52.7, 93.3, DAZARALOR },
 									["provider"] = { "n", 142992 },	-- Uma'wi
+									["coord"] = { 52.7, 93.3, DAZARALOR },
 								}),
 								q(54335, {	-- Darkshore Donations: Unstable Temporal Time Shifter
-									["coord"] = { 53.0, 94.8, DAZARALOR },
 									["provider"] = { "n", 142983 },	-- Swizzle Fizzcrank
+									["coord"] = { 53.0, 94.8, DAZARALOR },
 								}),
 								q(54329, {	-- Darkshore Donations: War Resources
-									["coord"] = { 51.7, 95.1, DAZARALOR },
 									["provider"] = { "n", 142158 },	-- Quartermaster Rauka
+									["coord"] = { 51.7, 95.1, DAZARALOR },
 								}),
 								q(54361, {	-- Darkshore Donations: Wild Berry Bread
-									["coord"] = { 53.8, 94.4, DAZARALOR },
 									["provider"] = { "n", 142973 },	-- Mai-Lu
+									["coord"] = { 53.8, 94.4, DAZARALOR },
 								}),
 								q(54331, {	-- Darkshore Donations: Winter's Kiss
-									["coord"] = { 51.2, 95.5, DAZARALOR },
 									["provider"] = { "n", 142159 },	-- Zen'kin
+									["coord"] = { 51.2, 95.5, DAZARALOR },
 								}),
 								q(54336, {	-- Darkshore Donations: XA-1000 Surface Skimmer
-									["coord"] = { 53.0, 94.8, DAZARALOR },
 									["provider"] = { "n", 142983 },	-- Swizzle Fizzcrank
+									["coord"] = { 53.0, 94.8, DAZARALOR },
 								}),
 								q(57959, {	-- Heroic Warfront: The Battle for Darkshore
 									["provider"] = { "n", 138949 },	-- Throk <Recruitment Officer>

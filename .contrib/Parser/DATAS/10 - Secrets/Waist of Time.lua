@@ -184,8 +184,8 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDown({ ["timeline"] = { A
 			["name"] = "Grimmy Dialogue",
 			["provider"] = { "n", 138578 },	-- Grimmy
 			["sourceQuests"] = { 52916 },
-			["description"] = "Equip the Windwool Hood, Deathsilk Shoulders, Netherweave Tunic, and Frostwoven Leggings, and talk to Grimmy.  Select his dialogue \"It's me, your friend. Got any secrets to tell me about?\"",
 			--["coord"] = { 85.3, 73.6, ARATHI_HIGHLANDS },	-- Grimmy Dialogue
+			["description"] = "Equip the Windwool Hood, Deathsilk Shoulders, Netherweave Tunic, and Frostwoven Leggings, and talk to Grimmy.  Select his dialogue \"It's me, your friend. Got any secrets to tell me about?\"",
 		}),
 		o(294314, {	-- Grimmy's List of Enemies
 			["model"] = 305391,

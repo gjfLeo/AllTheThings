@@ -22,12 +22,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			q(77423, {	-- Surging Dreams
 				["provider"] = { "n", 211031 },	-- Archdruid Hamuul Runetotem
 				["coord"] = { 50.6, 57.4, VALDRAKKEN },
-				["isBreadcrumb"] = true,
 				["timeline"] = { ADDED_10_1_7, REMOVED_10_2_0 },
+				["isBreadcrumb"] = true,
 			}),
 			q(77414, {	-- Dreamsurge Investigation
-				["sourceQuests"] = { 77423 },	-- Surging Dreams
 				["provider"] = { "n", 208649 },	-- Archdruid Hamuul Runetotem
+				["sourceQuests"] = { 77423 },	-- Surging Dreams
 				["coords"] = {
 					{ 51.2, 43.3, THALDRASZUS },
 					{ 58.3, 67.7, THE_WAKING_SHORES },

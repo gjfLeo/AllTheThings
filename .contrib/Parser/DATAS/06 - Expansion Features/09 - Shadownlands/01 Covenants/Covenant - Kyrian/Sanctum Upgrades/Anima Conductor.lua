@@ -48,8 +48,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 42.6, 53.1, ARCHONS_RISE },
 								}),
 								q(57903, {	-- Power in the Sky
-									["sourceQuests"] = { 57901 },	-- All That Remains
 									["provider"] = { "n", 158773 },	-- Capheus
+									["sourceQuests"] = { 57901 },	-- All That Remains
 									["coord"] = { 37.9, 67.5, ARCHONS_RISE },
 								}),
 							}),
@@ -141,8 +141,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							})),
 							n(WORLD_QUESTS, {
 								q(62280, {	-- Limbo
-									["isWorldQuest"] = true,
 									["coord"] = { 64.8, 45.7, BASTION },
+									["isWorldQuest"] = true,
 								}),
 							}),
 						}),
