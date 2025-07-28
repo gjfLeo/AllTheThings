@@ -59,11 +59,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 				q(10297, {	-- The Opening of the Dark Portal
 					["qg"] = 20201,	-- Sa'at
-					-- TODO Confirm if required in classic
 					-- #if ANYCLASSIC
 					["sourceQuest"] = 10296,	-- The Black Morass
 					-- #endif
 					["lvl"] = lvlsquish(66, 66, 25),
+					-- TODO Confirm if required in classic
 					["groups"] = {
 						objective(1, {	-- The Dark Portal Opened
 							["provider"] = { "i", 24289 },	-- Chrono-beacon
