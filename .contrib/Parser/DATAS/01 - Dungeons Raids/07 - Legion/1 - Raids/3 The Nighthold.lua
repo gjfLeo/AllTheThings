@@ -94,14 +94,14 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(QUESTS, {
 				q(45417, {	-- The Nighthold: Lord of the Shadow Council
-					["sourceQuests"] = { 44719 },	-- Breaching the Sanctum
-					["description"] = "Click on the Eye of Aman'thul after Gul'dan dies to complete the quest.",
 					["provider"] = { "n", 115367 },	-- Archmage Khadgar
+					["sourceQuests"] = { 44719 },	-- Breaching the Sanctum
 					["coord"] = { 44.1, 60.1, SURAMAR },
+					["description"] = "Click on the Eye of Aman'thul after Gul'dan dies to complete the quest.",
 				}),
 				q(45420, {	-- The Nighthold: The Eye of Aman'Thul
-					["sourceQuests"] = { 45417 },	-- The Nighthold: Lord of the Shadow Council
 					["provider"] = { "n", 106522 },	-- Archmage Khadgar
+					["sourceQuests"] = { 45417 },	-- The Nighthold: Lord of the Shadow Council
 					["groups"] = {
 						sp(233377),	-- Gaze of Aman'Thul
 					},
@@ -483,12 +483,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			d(DIFFICULTY.RAID.NORMAL, {
 				n(QUESTS, {
 					q(45381, {	-- The Nighthold: Talisman of the Shal'dorei (Normal)
-						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
+						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
 						["altQuests"] = {
 							45382,	-- The Nighthold: Talisman of the Shal'dorei (Heroic)
 							45383,	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
 						},
-						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
+						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 						["groups"] = {
 							i(143656),	-- Echo of Time (QI!)
 							ig(141324),	-- Talisman of the Shal'dorei (Normal)
@@ -771,9 +771,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			d(DIFFICULTY.RAID.HEROIC, {
 				n(QUESTS, {
 					q(45382, {	-- The Nighthold: Talisman of the Shal'dorei (Heroic)
-						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
-						["altQuests"] = { 45383 },	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
 						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
+						["altQuests"] = { 45383 },	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
+						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["groups"] = {
 							i(143657),	-- Echo of Time (QI!)
 							ig(141325),	-- Talisman of the Shal'dorei (Heroic)
@@ -1059,8 +1059,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			d(DIFFICULTY.RAID.MYTHIC, {
 				n(QUESTS, {
 					q(45383, {	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
-						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Mythic difficulty each week.\n",
 						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
+						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Mythic difficulty each week.\n",
 						["groups"] = {
 							i(143658),	-- Echo of Time (QI!)
 							ig(141326),	-- Talisman of the Shal'dorei (Mythic)

@@ -8,8 +8,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["groups"] = {
 			n(QUESTS, {
 				q(83154, {	-- Knicknack's Knickknacks
-					--["sourceQuests"] = { x },	-- ?
 					["provider"] = { "n", 225555 },	-- Knicknack
+					--["sourceQuests"] = { x },	-- ?
 					["coord"] = { 46.5, 30.3, THE_RINGING_DEEPS },
 					["groups"] = {
 						i(224775),	-- Knicknack's Definitely Rubies (QI!)

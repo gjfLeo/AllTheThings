@@ -49,32 +49,32 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				}),
 				q(48271, {	-- Recovering the Pieces
 					["provider"] = { "n", 125246 },	-- Gaal <Blacksmith>
-					["coord"] = { 56.9, 68.6, KROKUUN },
 					["sourceQuest"] = 48864,	-- The Broken Blacksmith
+					["coord"] = { 56.9, 68.6, KROKUUN },
 					["groups"] = {
 						i(152201),	-- Armory Key Fragment (QI!)
 					},
 				}),
 				q(48261, {	-- The Power to Reforge
 					["provider"] = { "n", 125246 },	-- Gaal <Blacksmith>
-					["coord"] = { 56.9, 68.6, KROKUUN },
 					["sourceQuest"] = 48864,	-- The Broken Blacksmith
+					["coord"] = { 56.9, 68.6, KROKUUN },
 					["groups"] = {
 						i(152200),	-- Dendrite Cluster (QI!)
 					},
 				}),
 				q(48803, {	-- Forging a Key to the Past
 					["provider"] = { "n", 125246 },	-- Gaal <Blacksmith>
-					["coord"] = { 56.9, 68.6, KROKUUN },
 					["sourceQuests"] = {
 						48271,	-- Recovering the Pieces
 						48261,	-- The Power to Reforge
 					},
+					["coord"] = { 56.9, 68.6, KROKUUN },
 				}),
 				q(48231, {	-- The Seat of the Triumvirate: Armor of the Triumvirate
 					["provider"] = { "n", 125246 },	-- Gaal <Blacksmith>
-					["coord"] = { 56.9, 68.6, KROKUUN },
 					["sourceQuest"] = 48803,	-- Forging a Key to the Past
+					["coord"] = { 56.9, 68.6, KROKUUN },
 					["groups"] = {
 						iensemble(152241, {	-- Ensemble: Light-Woven Triumvirate Regalia
 							["description"] = "May require relogging to gain all appearances.",

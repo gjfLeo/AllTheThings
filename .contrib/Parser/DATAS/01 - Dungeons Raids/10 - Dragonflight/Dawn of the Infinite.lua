@@ -681,13 +681,13 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					["coord"] = { 60.8, 38.9, VALDRAKKEN },
 				}),
 				q(76141, {	-- Align in the Sand
-					["sourceQuests"] = { 76140 },	-- Dawn of the Infinite
 					["provider"] = { "n", 205706 },	-- Future Chromie
+					["sourceQuests"] = { 76140 },	-- Dawn of the Infinite
 					["coord"] = { 52.3, 39.5, THALDRASZUS },
 				}),
 				q(76142, {	-- On Borrowed Time
-					["sourceQuests"] = { 76140 },	-- Dawn of the Infinite
 					["provider"] = { "n", 205706 },	-- Future Chromie
+					["sourceQuests"] = { 76140 },	-- Dawn of the Infinite
 					["coord"] = { 52.3, 39.5, THALDRASZUS },
 					["groups"] = {
 						i(206586),	-- Epoch Extractor (QI!)
@@ -696,29 +696,29 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				}),
 				q(76431),	-- Popped when Future Chromie and Chromie met
 				q(76143, {	-- Chro-me?
+					["provider"] = { "n", 205707 },	-- Chromie
 					["sourceQuests"] = {
 						76141,	-- Align in the Sand
 						76142,	-- On Borrowed Time
 					},
-					["provider"] = { "n", 205707 },	-- Chromie
 					["coord"] = { 61.4, 79.7, THALDRASZUS },
 					["groups"] = {
 						i(206369),	-- Time Trap (QI!)
 					},
 				}),
 				q(76144, {	-- Morchie Mayhem
-					["sourceQuests"] = { 76143 },	-- Chro-me?
 					["provider"] = { "n", 205707 },	-- Chromie
+					["sourceQuests"] = { 76143 },	-- Chro-me?
 					["coord"] = { 61.4, 79.7, THALDRASZUS },
 				}),
 				q(76145, {	-- Who's That Chromie?
-					["sourceQuests"] = { 76144 },	-- Morchie Mayhem
 					["provider"] = { "n", 206149 },	-- Chromie
+					["sourceQuests"] = { 76144 },	-- Morchie Mayhem
 					["coord"] = { 62.1, 81.5, THALDRASZUS },
 				}),
 				q(76146, {	-- Dawn of the Infinite: Chrono-Lord Deios
-					["sourceQuests"] = { 76145 },	-- Who's That Chromie?
 					["provider"] = { "n", 205710 },	-- Chromie
+					["sourceQuests"] = { 76145 },	-- Who's That Chromie?
 					["coord"] = { 62.2, 83.2, THALDRASZUS },
 					["groups"] = {
 						-- Received if you already have the Toy

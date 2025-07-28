@@ -17,8 +17,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				}),
 				q(44764, {	-- Demon in Disguise
 					["qg"] = 114631,	-- Archmage Karlain <Kirin Tor>
-					["coord"] = { 46.9, 75.3, DEADWIND_PASS },
 					["sourceQuest"] = 44686,	-- Thought Collection
+					["coord"] = { 46.9, 75.3, DEADWIND_PASS },
 					["lvl"] = 110,
 				}),
 				q(44557, {	-- Finite Numbers

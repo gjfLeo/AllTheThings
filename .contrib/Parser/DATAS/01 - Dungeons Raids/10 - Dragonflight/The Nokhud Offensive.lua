@@ -30,11 +30,11 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(QUESTS, {
 				q(66690, {	-- The Final Ancestor
+					["provider"] = { "n", 190164 },	-- Elder Nazuun
 					["sourceQuests"] = {
 						70374,	-- Himia, The Blessed
 						66834,	-- Rellen, the Learned
 					},
-					["provider"] = { "n", 190164 },	-- Elder Nazuun
 					["coord"] = { 41.6, 56.7, OHNAHRAN_PLAINS },
 					["groups"] = {
 						i(193483),	-- Medallion of the Ancestors (QI!)
@@ -42,8 +42,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				q(66658, {	-- The Nokhud Offensive: Founders Keepers
-					["sourceQuests"] = { 66657 },	-- And Stay Dead!
 					["provider"] = { "n", 193985 },	-- Initiate Zorig
+					["sourceQuests"] = { 66657 },	-- And Stay Dead!
 					["coord"] = { 31.4, 71.0, OHNAHRAN_PLAINS },	-- Follows you
 					["groups"] = {
 						i(200100),	-- Batubar the Relentless (QI!)
@@ -56,8 +56,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				q(66339, {	-- The Wind Belongs to the Sky
-					["sourceQuests"] = { 66783 },	-- Renewal of Vows
 					["provider"] = { "n", 188601 },	-- Khanam Matra Sarest
+					["sourceQuests"] = { 66783 },	-- Renewal of Vows
 					["coord"] = { 22.3, 51.0, OHNAHRAN_PLAINS },
 					["groups"] = {
 						i(197666),	-- Maruuk Ring of Bravery

@@ -25,8 +25,8 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(QUESTS, {
 				q(60057, {	-- Necrotic Wake: A Paragon's Plight
-					["sourceQuests"] = { 60055 },	-- A Time For Courage
 					["provider"] = { "n", 167584 },	-- Disciple Artemede
+					["sourceQuests"] = { 60055 },	-- A Time For Courage
 					["coord"] = { 40.9, 55.3, BASTION },
 					["groups"] = {
 						i(184714),	-- Refulgent Chestguard

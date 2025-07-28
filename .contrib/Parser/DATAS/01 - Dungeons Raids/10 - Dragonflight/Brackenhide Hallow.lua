@@ -16,8 +16,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(QUESTS, {
 				q(66211, {	-- Brackenhide Hollow: To the Source
-					["sourceQuests"] = { 65849 },	-- To Iskaara
 					["provider"] = { "n", 186480 },	-- Brena
+					["sourceQuests"] = { 65849 },	-- To Iskaara
 					["coord"] = { 13.2, 49.6, THE_AZURE_SPAN },
 					["groups"] = {
 						i(193661),	-- Blightweaver's Clutches

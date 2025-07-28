@@ -8,8 +8,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		["groups"] = {
 			n(QUESTS, {
 				q(83322, {	-- The Dawnbreaker: The Christening
-					-- ["sourceQuests"] = { xx },	-- TODO: figure out when they become available
 					["provider"] = { "n", 215335 },	-- General Steelstrike
+					-- ["sourceQuests"] = { xx },	-- TODO: figure out when they become available
 					["coord"] = { 40.5, 50.8, HALLOWFALL },
 					["groups"] = {
 						i(226141),	-- Airship Captain's Lost Pendant

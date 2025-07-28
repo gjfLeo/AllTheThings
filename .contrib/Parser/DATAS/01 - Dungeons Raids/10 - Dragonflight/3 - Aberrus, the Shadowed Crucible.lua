@@ -326,13 +326,13 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						["provider"] = { "i", 204255 },	-- Cracked Titan Gem
 					}),
 					q(74913, {	-- Memories of an Artifact
-						["sourceQuests"] = { 74912 },	-- Neltharion's Legacy
 						["provider"] = { "n", 187669 },	-- Nozdormu
+						["sourceQuests"] = { 74912 },	-- Neltharion's Legacy
 						["coord"] = { 60.8, 39.2, VALDRAKKEN },
 					}),
 					q(74923, {	-- It Takes a Village to Make an Artifact
-						["sourceQuests"] = { 74913 },	-- Memories of an Artifact
 						["provider"] = { "n", 187669 },	-- Nozdormu
+						["sourceQuests"] = { 74913 },	-- Memories of an Artifact
 						["coord"] = { 60.8, 39.2, VALDRAKKEN },
 						["cost"] = {
 							{ "i", 204854, 1 },	-- 1x Immaculate Coalescing Dracothyst
@@ -346,8 +346,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						},
 					}),
 					q(76158, {	-- Temporal Gossamer
-						["sourceQuests"] = { 74913 },	-- Memories of an Artifact
 						["provider"] = { "i", 206163 },	-- Temporal Gossamer
+						["sourceQuests"] = { 74913 },	-- Memories of an Artifact
 						["timeline"] = { ADDED_10_1_0, REMOVED_10_2_7 },
 						["groups"] = {
 							i(204808),	-- Empowered Temporal Gossamer
@@ -357,8 +357,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						},
 					}),
 					q(74924, {	-- Nasz'uro, the Unbound Legacy
-						["sourceQuests"] = { 74923 },	-- It Takes a Village to Make an Artifact
 						["provider"] = { "n", 187669 },	-- Nozdormu
+						["sourceQuests"] = { 74923 },	-- It Takes a Village to Make an Artifact
 						["coord"] = { 60.8, 39.2, VALDRAKKEN },
 						["maps"] = { 2176 },	-- The Maelstrom
 						["groups"] = {

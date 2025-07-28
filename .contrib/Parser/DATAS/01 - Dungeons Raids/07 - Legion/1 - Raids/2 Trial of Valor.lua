@@ -114,8 +114,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(QUESTS, {
 				q(44868, {	-- Trial of Valor: Odyn's Judgment
-					["sourceQuest"] = 44729,	-- Trial of Valor: Odyn's Favor
 					["provider"] = { "n", 114263 },	-- Odyn
+					["sourceQuest"] = 44729,	-- Trial of Valor: Odyn's Favor
 				}),
 				q(45088, {	-- Trial of Valor: The Lost Army
 					["provider"] = { "n", 114263 },	-- Odyn
