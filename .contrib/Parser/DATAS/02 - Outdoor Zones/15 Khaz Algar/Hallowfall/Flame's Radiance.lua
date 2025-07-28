@@ -39,9 +39,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}, bubbleDownRep(FACTION_FLAMES_RADIANCE, {
 				{		-- RENOWN 1 --
 					q(89493, {	-- Welcome to the Field
+						--spell(1227124),	-- Sacred Flame's Ward
 						i(233297),	-- Radiant Recruit's Buckle
 						i(233288),	-- Radiant Recruit's Tabard
-						--spell(1227124),	-- Sacred Flame's Ward
 					}),
 				}, {	-- RENOWN 2 --
 					q(89349),	-- Flame's Radiance Stipend
