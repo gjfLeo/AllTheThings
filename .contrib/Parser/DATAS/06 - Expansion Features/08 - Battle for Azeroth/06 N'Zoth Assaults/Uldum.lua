@@ -238,17 +238,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							["coord"] = { 59.4, 49.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57359, {	-- Summoning Ritual
-							["description"] = "The portal needs to be clicked multiple times in order for the rares to spawn.  You can only click the portal once per day, so work together with others to get the spawn.  Three rares will spawn at a time and any of the rares can spawn in any of the locations.",
 							["altQuests"] = { 57620, 57621 },	-- Summoning Ritual
-							--["isWorldQuest"] = true, -- maybe?  classified as wq on wowhead
 							["coords"] = {
 								{ 55.2, 79.4, NZOTH_ASSAULT_ULDUM },
 								{ 50.0, 78.6, NZOTH_ASSAULT_ULDUM },
 								{ 50.8, 87.4, NZOTH_ASSAULT_ULDUM },
 							},
-							["groups"] = sharedData({
-								["isDaily"] = true,
-							}, {
+							["description"] = "The portal needs to be clicked multiple times in order for the rares to spawn.  You can only click the portal once per day, so work together with others to get the spawn.  Three rares will spawn at a time and any of the rares can spawn in any of the locations.",
+							--["isWorldQuest"] = true, -- maybe?  classified as wq on wowhead
+							["groups"] = sharedData({ ["isDaily"] = true, }, {
 								-- Summoning Ritual (there seem to be 3 separate questIDs, probably depending on the location that's up)
 								q(57620),	-- Summoning Ritual
 								q(57621),	-- Summoning Ritual (Portal event in Uldum at coords during Black Empire assault.)
@@ -279,16 +277,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					n(WORLD_QUESTS, sharedData({
 						["isWorldQuest"] = true,
 					}, {
+						--[[
 						--TODO: this is the wrong questID, and also this quest title doesn't exist on Wowhead...
-						--q(57585, {	-- Abyssal Santuary
-						--	["lvl"] = 120,
-						--	["isWorldQuest"] = true,
-						--}),
-						--[[ this one is bugged on PTR. No floor to land on, so you disconnect after falling a short distance
-						q(, {	-- Consuming Maw
+						q(57585, {	-- Abyssal Santuary
+							["isWorldQuest"] = true,
 							["lvl"] = 120,
+						}),
+						]]--
+						--[[
+						-- this one is bugged on PTR. No floor to land on, so you disconnect after falling a short distance
+						q(, {	-- Consuming Maw
 							["coord"] = { 46.8, 34.2, NZOTH_ASSAULT_ULDUM },
 							["isWorldQuest"] = true,
+							["lvl"] = 120,
 						}),
 						]]--
 						q(57541, {	-- Call of the Void
