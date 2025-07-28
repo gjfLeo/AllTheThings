@@ -565,7 +565,7 @@ root(ROOTS.Zones, {
 							29666,	-- The Sting of Learning
 							29677,	-- The Sun Pearl
 						},
-						["coord"] = { 70.6, 38.7, THE_WANDERING_ISLE_STARTING_ZONE },
+						["coord"] = { 78.4, 43, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
 							objective(1, {	-- Cross to the Pool of Reflection
 								["description"] = "Jump into the swirling blue effects on the closest rock to the shore to jump up the rest of the stones to ledge.",
