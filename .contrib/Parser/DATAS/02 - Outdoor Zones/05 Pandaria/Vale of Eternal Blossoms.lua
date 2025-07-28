@@ -528,18 +528,18 @@ root(ROOTS.Zones, {
 					})),
 					q(30284, {	-- A Thousand Pointy Teeth
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30338, {	-- A Weighty Task
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -555,9 +555,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30236, {	-- Aetha
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -582,27 +582,27 @@ root(ROOTS.Zones, {
 					}),
 					q(31246, {	-- Attack on Mistfall Village
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30286, {	-- Backed Into a Corner
 						["qg"] = 59337,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30297, {	-- Baolai the Immolator
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -622,8 +622,8 @@ root(ROOTS.Zones, {
 					q(30642, {	-- Battle Axe of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						["sourceQuests"] = { 30641 },	-- Battle Helm of the Thunder King
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -642,8 +642,8 @@ root(ROOTS.Zones, {
 					q(30641, {	-- Battle Helm of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						["sourceQuests"] = { 30640 },	-- Battle Spear of the Thunder King
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -651,8 +651,8 @@ root(ROOTS.Zones, {
 					q(30640, {	-- Battle Spear of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						["sourceQuests"] = { 30639 },	-- The Secrets of Guo-Lai
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -668,9 +668,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30226, {	-- Blood on the Rise
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -692,9 +692,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30282, {	-- Burning Away the Filth
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -710,27 +710,27 @@ root(ROOTS.Zones, {
 					}),
 					q(30481, {	-- Carved in Stone
 						["qg"] = 59333,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30263, {	-- Clearing in the Forest
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30233, {	-- Cracklefang
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -766,27 +766,27 @@ root(ROOTS.Zones, {
 					}),
 					q(30194, {	-- Encroaching Storm
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30264, {	-- Enemy at the Gates
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30342, {	-- Fiery Tongue, Fragile Feet
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -805,18 +805,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30289, {	-- Freeing Mind and Body
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30296, {	-- Gaohun the Soul-Severer
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -832,18 +832,18 @@ root(ROOTS.Zones, {
 					}),
 					q(31244, {	-- Guo-Lai Encampment
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(31240, {	-- Guo-Lai Infestation
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -859,9 +859,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30305, {	-- He Knows What He's Doing
 						["qg"] = 59333,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -877,9 +877,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30200, {	-- In Ashen Webs
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -950,9 +950,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30239, {	-- Lao-Fe the Slavebinder
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1026,9 +1026,9 @@ root(ROOTS.Zones, {
 					}),
 					q(31245, {	-- Mistfall Village
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1044,18 +1044,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30287, {	-- Mogu Make Poor House Guests
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(31293, {	-- Mogu Make Poor House Guests
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1077,9 +1077,9 @@ root(ROOTS.Zones, {
 					})),
 					q(31295, {	-- Mogu within the Ruins of Guo-Lai
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1095,9 +1095,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30288, {	-- My Town, It's On Fire Again
 						["qg"] = 59336,	-- Mayor Shiyo
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1113,18 +1113,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30299, {	-- No Stone Unturned
 						["qg"] = 59334,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30301, {	-- Offering a Warm Welcome
 						["qg"] = 59332,	-- Leven Dawnblade
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1140,9 +1140,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30298, {	-- Painting the Ruins Red
 						["qg"] = 59332,	-- Leven Dawnblade
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1158,9 +1158,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30235, {	-- Quid Pro Quo
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1183,9 +1183,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30238, {	-- Return to Rest
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1206,9 +1206,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30232, {	-- Ruffling Some Feathers
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1242,18 +1242,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30385, {	-- Setting Sun Garrison
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(31247, {	-- Setting Sun Garrison
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1269,18 +1269,18 @@ root(ROOTS.Zones, {
 					}),
 					q(31297, {	-- Setting Sun Garrison
 						["qg"] = 59337,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30265, {	-- Sparkle in the Eye
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1314,9 +1314,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30290, {	-- Stonebound Killers
 						["qg"] = 58911,	-- Rook Stonetoe
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endifss
@@ -1344,9 +1344,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30291, {	-- Stunning Display
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1386,9 +1386,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30225, {	-- The Ashweb Matriarch
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1418,9 +1418,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30314, {	-- The Displaced Paleblade
 						["qg"] = 59342,	-- He Softfoot
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1488,18 +1488,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30302, {	-- The Imperion Threat
 						["qg"] = 59332,	-- Leven Dawnblade
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30300, {	-- The Key to Success
 						["qg"] = 59334,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1550,9 +1550,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30313, {	-- The Moving Mists
 						["qg"] = 59342,	-- He Softfoot
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1564,9 +1564,9 @@ root(ROOTS.Zones, {
 					})),
 					q(30237, {	-- The Pandaren Uprising Relived
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1596,18 +1596,18 @@ root(ROOTS.Zones, {
 					}),
 					q(31294, {	-- The Ruins of Guo-Lai
 						["qg"] = 59338,	-- Che Wildwalker
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(31296, {	-- The Ruins of Guo-Lai
 						["qg"] = 59337,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1708,9 +1708,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30228, {	-- Troubling the Troublemakers
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1731,9 +1731,9 @@ root(ROOTS.Zones, {
 					}),
 					q(30341, {	-- Under Watchful Eyes
 						["qg"] = 59342,	-- He Softfoot
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1763,27 +1763,27 @@ root(ROOTS.Zones, {
 					}),
 					q(30246, {	-- Upon the Ramparts
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30234, {	-- Vicejaw
 						["qg"] = 59343,	-- Ren Firetongue
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30251, {	-- Vyraxxis, the Krik'thik Swarm-Lord
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1805,8 +1805,8 @@ root(ROOTS.Zones, {
 					q(30644, {	-- What Comes to Pass
 						["qg"] = 59905,	-- Zhi the Harmonious
 						["sourceQuests"] = { 30643 },	-- The Mogu's Message
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
@@ -1822,18 +1822,18 @@ root(ROOTS.Zones, {
 					}),
 					q(30285, {	-- Wu Kao Scouting Reports
 						["qg"] = 59337,	-- Sun Tenderheart
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
 					q(30227, {	-- Wulon, the Granite Sentinel
 						["qg"] = 58503,	-- Anji Autumnlight
+						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["isDaily"] = true,
-						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
