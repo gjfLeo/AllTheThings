@@ -1300,21 +1300,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(46727, {	-- Battle for Azeroth: Tides of War (BfA version)
-				["qgs"] = {
-					142930,	-- Halford Wyrmbane
-					-- #if AFTER 9.0.2
-					49748,	-- Hero's Herald
-					-- #endif
-				},
-				["coords"] = {
-					{ 27.6, 21.2, STORMWIND_CITY },	-- Halford Wyrmbane
-					{ 62.3, 30.3, STORMWIND_CITY },	-- Hero's Herald
-					{ 63.2, 71.4, STORMWIND_CITY },	-- Hero's Herald
-					{ 45.2, 50.2, DARNASSUS },	-- Hero's Herald
-				},
-				["timeline"] = { ADDED_8_0_1 },
-				["races"] = ALLIANCE_ONLY,
-			}),
+					["qgs"] = {
+						142930,	-- Halford Wyrmbane
+						-- #if AFTER 9.0.2
+						49748,	-- Hero's Herald
+						-- #endif
+					},
+					["coords"] = {
+						{ 27.6, 21.2, STORMWIND_CITY },	-- Halford Wyrmbane
+						{ 62.3, 30.3, STORMWIND_CITY },	-- Hero's Herald
+						{ 63.2, 71.4, STORMWIND_CITY },	-- Hero's Herald
+						{ 45.2, 50.2, DARNASSUS },	-- Hero's Herald
+					},
+					["timeline"] = { ADDED_8_0_1 },
+					["races"] = ALLIANCE_ONLY,
+				}),
 				q(1640, {	-- Beat Bartleby
 					["qg"] = 6090,	-- Bartleby
 					["sourceQuest"] = 1639,	-- Bartleby the Drunk
