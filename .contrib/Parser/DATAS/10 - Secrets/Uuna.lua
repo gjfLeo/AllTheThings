@@ -7,12 +7,12 @@ root(ROOTS.Secrets, {
 		["description"] = "This secret is a prerequisite for Baa'l.  It requires having collected |cff0070d0Uuna's Doll|r, which drops from |cff883325The Many-Faced Devourer|r, a rare elite in Antoran Wastes.",
 		["modelScale"] = 1.1,
 		["displayID"] = 76829,
-		["g"] = {
+		["groups"] = {
 			q(50098, {	-- Steps 1-4: A New Friend
 				["description"] = "1. Summon Uuna and wait for her to say one of the following lines:\n'|cffffffffMama? Mama! Why is it so dark? It's scary here...|r'\n'|cffffffffCan anybody hear me?|r'\n'|cffffffffC-c-cold...|r'\n",
 				["name"] = "Steps 1-4: A New Friend",
 				["icon"] = 134506,
-				["g"] = {
+				["groups"] = {
 					q(50099, {	-- /whistle at Uuna
 						["sourceQuests"] = { 50098 },	-- Steps 1-4: A New Friend
 						["name"] = "2. /whistle at Uuna",

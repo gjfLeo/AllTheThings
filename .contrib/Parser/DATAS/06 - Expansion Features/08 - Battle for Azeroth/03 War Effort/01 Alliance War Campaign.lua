@@ -6,13 +6,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 	n(WAR_EFFORT, {
 		n(WAR_CAMPAIGN_ALLIANCE, {
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(12510, {	-- Ready for War
 						["races"] = ALLIANCE_ONLY,
 						["maps"] = { BORALUS },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							crit(40201, {	-- Nazmir Foothold
 								["sourceQuests"] = { 51967 },	-- Return to Boralus (Nazmir)
 							}),
@@ -47,7 +47,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					ach(13467, {	-- Tides of Vengeance
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { ADDED_8_1_5 },
-						["g"] = {
+						["groups"] = {
 							crit(44260, {	-- War Marches On
 								["sourceQuests"] = { 53887 },	-- War Marches On
 							}),
@@ -70,7 +70,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							13467,	-- Tides of Vengeance
 						}},
 						["timeline"] = { ADDED_8_2_5 },
-						["g"] = {
+						["groups"] = {
 							title(412),	-- Veteran of the Fourth War
 						},
 					})),
@@ -78,7 +78,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 				n(REWARDS, {
 					["description"] = "You'll be offered these rewards at the end of your first foothold.",
 					["modID"] = 25,
-					["g"] = {
+					["groups"] = {
 						-- 163 = azerite; 175 = azewrong
 						-- Cloth
 						i(163654),	-- 7th Legionnaire's Circlet
@@ -165,7 +165,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 69.7, 27.6, BORALUS },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 53332 },	-- Time for War
-						["g"] = {
+						["groups"] = {
 							follower(1065),	-- Falstad Wildhammer — Follower
 						},
 					}),
@@ -338,7 +338,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 61.8, 41.3, NAZMIR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51177 },	-- Lessons of the Damned
-						["g"] = {
+						["groups"] = {
 							follower(1069),	-- John J. Keeshan
 						},
 					}),
@@ -372,7 +372,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 39.0, 42.9, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51349 },	-- Honor Bound
-						["g"] = {
+						["groups"] = {
 							i(160044),	-- Prickly Pear Root (QI!)
 						},
 					}),
@@ -381,7 +381,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 39.0, 42.9, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51349 },	-- Honor Bound
-						["g"] = {
+						["groups"] = {
 							i(159958),	-- Saltspine Barb (QI!)
 						},
 					}),
@@ -439,7 +439,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 37.5, 35.8, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51402 },	-- Reporting In
-						["g"] = {
+						["groups"] = {
 							follower(1072),	-- Magister Umbric
 						},
 					}),
@@ -474,7 +474,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 77.1, 55.5, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51201 },	-- The Troll's Tale
-						["g"] = {
+						["groups"] = {
 							i(160249),	-- Bundle of Supplies (QI!)
 						},
 					}),
@@ -483,7 +483,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 77.1, 55.5, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51201 },	-- The Troll's Tale
-						["g"] = {
+						["groups"] = {
 							i(159779),	-- Degdod's Hammer (QI!)
 						},
 					}),
@@ -492,7 +492,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 77.1, 55.5, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51201 },	-- The Troll's Tale
-						["g"] = {
+						["groups"] = {
 							i(160433),	-- Bandages (QI!)
 						},
 					}),
@@ -520,7 +520,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 137401 },	-- Anvil-Thane Thurgaden
 						["coord"] = { 40.7, 70.8, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(159910),	-- Firelands Slag (QI!)
 						},
 					}),
@@ -532,7 +532,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							51331,	-- Mole Machinations
 							51309,	-- Rocks of Ragnaros
 						},
-						["g"] = {
+						["groups"] = {
 							i(160058),	-- Stabilize Magma Elemental (QI!)
 						},
 					}),
@@ -541,7 +541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 40.7, 70.6, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51359 },	-- Fragment of the Firelands
-						["g"] = {
+						["groups"] = {
 							follower(1068),	-- Kelsey Steelspark
 						},
 					}),
@@ -570,7 +570,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 						["coord"] = { 69.4, 27.0, BORALUS },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							spell(273746),	-- World Quests
 							i(141605, {	-- Flight Master Whistle
 								["modID"] = 11,
@@ -582,7 +582,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 						["coord"] = { 69.4, 27.0, BORALUS },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							spell(273746),	-- World Quests
 							i(141605, {	-- Flight Master Whistle
 								["modID"] = 11,
@@ -612,7 +612,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 40.7, 47.8, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52028 },	-- Comb the Desert
-						["g"] = {
+						["groups"] = {
 							i(161086),	-- Reliquary Orders (QI!)
 						},
 					}),
@@ -627,7 +627,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 44.9, 58.7, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52030 },	-- Keep Combing
-						["g"] = {
+						["groups"] = {
 							i(161087),	-- Reliquary Map: Vol'dun (QI!)
 						},
 					}),
@@ -642,17 +642,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 41.0, 72.5, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52032 },	-- Never Stop Combing
-						["g"] = {
+						["groups"] = {
 							o(292784, {
 								["coord"] = { 40.8, 74.3, VOLDUN },
-								["g"] = { i(161241) },	-- Zandalari Dunemelon (QI!)
+								["groups"] = { i(161241) },	-- Zandalari Dunemelon (QI!)
 							}),
 							o_repeated({	-- Zandalari Water Jug
 								["coords"] = {
 									{ 40.8, 76.0, VOLDUN },
 									{ 40.7, 75.4, VOLDUN },
 								},
-								["g"] = {
+								["groups"] = {
 									o(292782),	-- Zandalari Water Jug
 									o(292783),	-- Zandalari Water Jug
 									i(161240),	-- Zandalari Water Jug (QI!)
@@ -671,7 +671,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 41.0, 72.5, VOLDUN },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52032 },	-- Never Stop Combing
-						["g"] = {
+						["groups"] = {
 							i(161333),	-- Ultra-Safe Electrified Alpaca Lasso (QI!)
 						},
 					}),
@@ -763,7 +763,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 140258 },	-- Shandris Feathermoon
 						["coord"] = { 51.2, 21.8, NAZMIR },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(161332),	-- Horde Missive (QI!)
 						},
 					}),
@@ -794,7 +794,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							52171,	-- One Option: Fire
 							52172,	-- They Can't Stay Here
 						},
-						["g"] = {
+						["groups"] = {
 							i(163196),	-- Invisibility Flask (QI!)
 						},
 					}),
@@ -840,7 +840,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 40.6, 70.7, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52173 },	-- The Void Elves Stand Ready
-						["g"] = {
+						["groups"] = {
 							i(161422),	-- Magister Umbric's Void Shard (QI!)
 						},
 					}),
@@ -849,7 +849,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 40.6, 70.7, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52173 },	-- The Void Elves Stand Ready
-						["g"] = {
+						["groups"] = {
 							i(161420),	-- Orders from Gallywix (QI!)
 						},
 					}),
@@ -922,18 +922,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "o", 293821 },	-- The Banshee's Wail Cannon
 						["coord"] = { 36.8, 52.4, 1156 },	-- The Great Sea
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							o(293812, {	-- Azerite-Infused Cannonballs
 								["coord"] = { 37.0, 52.1, 1156 },	-- The Great Sea
-								["g"] = { i(162528) },	-- Azerite-Infused Cannonballs (QI!)
+								["groups"] = { i(162528) },	-- Azerite-Infused Cannonballs (QI!)
 							}),
 							o(293814, {	-- Azerite-Infused Gunpowder
 								["coord"] = { 36.8, 52.8, 1156 },	-- The Great Sea
-								["g"] = { i(162529) },	-- Azerite-Infused Gunpowder (QI!)
+								["groups"] = { i(162529) },	-- Azerite-Infused Gunpowder (QI!)
 							}),
 							o(293817, {	-- Blazing Torch
 								["coord"] = { 36.6, 53.2, 1156 },	-- The Great Sea
-								["g"] = { i(162537) },	-- Banshee's Wail Torch (QI!)
+								["groups"] = { i(162537) },	-- Banshee's Wail Torch (QI!)
 							}),
 						},
 					}),
@@ -1014,7 +1014,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 57.6, 87.5, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52281 },	-- Under the Cover of Swiftwing
-						["g"] = {
+						["groups"] = {
 							i(162264),	-- Kelsey's Jump Boots (QI!)
 							i(162253),	-- Naval Records (QI!)
 						},
@@ -1057,7 +1057,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 48.8, 68.5, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52290 },	-- My Enemy's Enemy is My Disguise
-						["g"] = {
+						["groups"] = {
 							i(162450),	-- Portal Orb (QI!)
 						},
 					}),
@@ -1099,7 +1099,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 85.7, 31.7, STORMWIND_CITY },
 						["sourceQuests"] = { 52790 },	-- An End to the Killing
 						["lvl"] = 120,
-						["g"] = {
+						["groups"] = {
 							follower(1062),	-- Shandris Feathermoon
 						},
 					}),
@@ -1155,7 +1155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 53909 },	-- Besieged Allies
 						-- This quest was available before I turned in Squad Goals, Repel the Horde, or Zero Zeppelins.  Not sure if those 3 are optional or required further down the chain.  Assuming they are required for the next part, so listing them.
-						["g"] = {
+						["groups"] = {
 							o(312356, {	-- Outrigger Weapon
 								["coords"] = {
 									{ 42.2, 26.8, TIRAGARDE_SOUND },
@@ -1163,7 +1163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 									{ 42.8, 26.4, TIRAGARDE_SOUND },
 									{ 43.4, 27.8, TIRAGARDE_SOUND },
 								},
-								["g"] = { i(166280) },	-- Outrigger Weapon (QI!)
+								["groups"] = { i(166280) },	-- Outrigger Weapon (QI!)
 							}),
 						}
 					}),
@@ -1177,7 +1177,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 145593 },	-- Rosaline Madison
 						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							o(309657, {	-- Gunpowder Keg
 								["coords"] = {
 									{ 37.1, 24.2, TIRAGARDE_SOUND },
@@ -1189,7 +1189,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 									{ 40.3, 26.4, TIRAGARDE_SOUND },
 									{ 40.6, 27.5, TIRAGARDE_SOUND },
 								},
-								["g"] = { i(164968) },	-- Gunpowder Keg
+								["groups"] = { i(164968) },	-- Gunpowder Keg
 							}),
 						},
 					}),
@@ -1203,7 +1203,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 145593 },	-- Rosaline Madison
 						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = { i(166682) },	-- Blight Specialist Mask (QI!)
+						["groups"] = { i(166682) },	-- Blight Specialist Mask (QI!)
 					}),
 					q(54559, {	-- Free Plumeria
 						["sourceQuests"] = {
@@ -1232,7 +1232,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 145580 },	-- Lady Jaina Proudmoore
 						["coord"] = { 37.4, 24.9, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							o(307778, {	-- Large Azerite Bomb
 								["coords"] = {
 									{ 34.2, 31.0, TIRAGARDE_SOUND },
@@ -1241,7 +1241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 									{ 36.4, 24.3, TIRAGARDE_SOUND },
 									{ 36.4, 28.4, TIRAGARDE_SOUND },
 								},
-								["g"] = { i(164921) },	-- Large Azerite Bomb (QI!)
+								["groups"] = { i(164921) },	-- Large Azerite Bomb (QI!)
 							}),
 						},
 					}),
@@ -1326,7 +1326,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 41.1, 70.6, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 54200 },	-- Bring the Base
-						["g"] = {
+						["groups"] = {
 							i(165759),	-- Azerite Infused Ore (QI!)
 						},
 					}),
@@ -1356,7 +1356,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 41.1, 70.6, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 54204 },	-- Total Temple Destruction
-						["g"] = {
+						["groups"] = {
 							i(165815),	-- Tranquilizer Dart (QI!)
 						},
 					}),
@@ -1386,7 +1386,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 40.6, 70.7, ZULDAZAR },
 						["races"] = ALLIANCE_ONLY,
 						["modID"] = 5,
-						["g"] = {
+						["groups"] = {
 							i(163339),	-- 7th Legionnaire's Hood (Cloth)
 							i(163337),	-- 7th Legionnaire's Amice (Cloth)
 							i(163248),	-- 7th Legionnaire's Robes (Cloth)
@@ -1476,7 +1476,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							54421,	-- Taming their Beasts
 							54418,	-- The Mech of Death
 						},
-						["g"] = {
+						["groups"] = {
 							i(166230),	-- Re-Discombobulator (QI!)
 						},
 					}),
@@ -1485,7 +1485,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 50.4, 84.1, NAZMIR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 54441 },	-- Taking the Blood Gate
-						["g"] = {
+						["groups"] = {
 							i(166230),	-- Re-Discombobulator (QI!)
 						},
 					}),
@@ -1525,7 +1525,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150796 },	-- Kelsey Steelspark
 						["coord"] = { 80.1, 75.0, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167151),	-- A Pile of Betting Slips (QI!)
 							i(167149),	-- An Annotated Recipe (QI!)
 							i(167153),	-- Ashvane Shipping Record (QI!)
@@ -1541,7 +1541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150796 },	-- Kelsey Steelspark
 						["coord"] = { 80.1, 75.0, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167155),	-- Ashvane Cipher Ring (QI!)
 						},
 					}),
@@ -1550,7 +1550,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150796 },	-- Kelsey Steelspark
 						["coord"] = { 80.1, 75.0, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167102),	-- A Decrypted Letter from Ashvane (QI!)
 						},
 					}),
@@ -1595,7 +1595,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150637 },	-- Kelsey Steelspark
 						["coord"] = { 48.2, 41.4, STORMSONG_VALLEY },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167216),	-- Salvaged Parts (QI!)
 						},
 					}),
@@ -1644,18 +1644,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 146374 },	-- Shandris Feathermoon
 						["coord"] = { 11.5, 17.6, ASHENVALE },
 						["races"] = ALLIANCE_ONLY,
-						["g"] = {
+						["groups"] = {
 							o(310600, {	-- Ancient Kaldorei Tome
 								["coord"] = { 9.9, 13.9, ASHENVALE },
-								["g"] = { i(165232) },	-- Ancient Kaldorei Tome (QI!)
+								["groups"] = { i(165232) },	-- Ancient Kaldorei Tome (QI!)
 							}),
 							o(310601, {	-- Discarded Nightsaber Bridle
 								["coord"] = { 11.3, 13.7, ASHENVALE },
-								["g"] = { i(165233) },	-- Discarded Nightsaber Bridle (QI!)
+								["groups"] = { i(165233) },	-- Discarded Nightsaber Bridle (QI!)
 							}),
 							o(310603, {	-- Bow of the High Priestess
 								["coord"] = { 12.0, 15.4, ASHENVALE },
-								["g"] = { i(165250) },	-- Elun'tara, Bow of the High Priestess (QI!)
+								["groups"] = { i(165250) },	-- Elun'tara, Bow of the High Priestess (QI!)
 							}),
 						},
 					}),

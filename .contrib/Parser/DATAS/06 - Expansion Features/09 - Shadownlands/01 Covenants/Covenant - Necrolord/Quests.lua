@@ -86,7 +86,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61742 },	-- A Fitting Guise
 				["provider"] = { "n", 174020 },	-- Captain Prateq
 				["coord"] = { 70.4, 27.7, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(183394, {	-- Discarded Grimoire
 						["description"] = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 					}),
@@ -115,7 +115,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 161905 },	-- Bonesmith Heirmir
 				["coord"] = { 42.8, 31.9, SEAT_OF_THE_PRIMUS },
 				["timeline"] = { ADDED_9_1_5 },
-				["g"] = {
+				["groups"] = {
 					follower(1262),	-- Bonesmith Heirmir
 				},
 			}),
@@ -123,7 +123,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59597 },	-- Come On, We're Simpatico!
 				["provider"] = { "n", 161904 },	-- Plague Deviser Marileth
 				["coord"] = { 38.8, 32.4, SEAT_OF_THE_PRIMUS },
-				["g"] = appendGroups(CONDUIT_GROUP, {
+				["groups"] = appendGroups(CONDUIT_GROUP, {
 					i(181770),	-- Bone Marrow Hops
 					i(182706),	-- Brooding Pool
 					i(182292),	-- Brutal Grasp
@@ -153,7 +153,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 60050 },	-- Trouble on the Western Front
 				["provider"] = { "n", 167810 },	-- Emeni
 				["coord"] = { 28.1, 37.5, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(180899),	-- Riding Hook (QI!)
 				},
 			}),
@@ -193,7 +193,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 161907 },	-- Baroness Draka
 				["coord"] = { 49.7, 50.7, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					i(182275),	-- Bladesworn Conjurer's Wristwraps
 					i(182257),	-- Bladesworn Harbinger's Vambraces
 					i(182284),	-- Bladesworn Tactician's Bracers
@@ -213,7 +213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 62844 },	-- Return to Draka
 				["provider"] = { "n", 161907 },	-- Baroness Draka
 				["coord"] = { 49.7, 50.1, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					i(182272),	-- Bladesworn Conjurer's Leggings
 					i(182254),	-- Bladesworn Harbinger's Greaves
 					i(182281),	-- Bladesworn Tactician's Chausses
@@ -228,7 +228,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 168744 },	-- Artemede
 				["coord"] = { 35.2, 26.9, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(180845),	-- Stitchflesh Design (QI!)
 				},
 			}),
@@ -241,7 +241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61749 },	-- Necessary Ingredients
 				["provider"] = { "n", 173492 },	-- Jor'dan the Powerful
 				["coord"] = { 69.9, 32.7, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182678),	-- Intact Spore Cluster (QI!)
 				},
 			}),
@@ -249,7 +249,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61230 },	-- Outside Influence
 				["provider"] = { "n", 173343 },	-- Ascended Bearer
 				["coord"] = { 54.2, 16.2, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(181162),	-- Beacon Trigger (QI!)
 				},
 			}),
@@ -263,7 +263,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61745 },	-- Mistress of Tomes
 				["provider"] = { "n", 172924 },	-- Baroness Ninadar
 				["coord"] = { 66.3, 26.3, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182609),	-- Overdue Scroll (QI!)
 				},
 			}),
@@ -271,7 +271,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61748 },	-- The Hall of Tomes
 				["provider"] = { "o", 358319 },	-- Sorcerer's Note
 				["coord"] = { 46.5, 31.5, 1652 },	-- Vault of Souls
-				["g"] = {
+				["groups"] = {
 					i(183397, {	-- Sorcerer's Blade
 						["description"] = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 					}),
@@ -303,7 +303,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59596, 63003 },	-- Collective Soul
 				["provider"] = { "n", 161904 },	-- Plague Deviser Marileth
 				["coord"] = { 38.8, 32.4, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					follower(1261),	-- Plague Deviser Marileth
 				},
 			}),
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61548 },	-- Set Me Free
 				["provider"] = { "n", 172573 },	-- Khaliiq
 				["coord"] = { 28.5, 47.7, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182268),	-- Bladesworn Conjurer's Cowl
 					i(182250),	-- Bladesworn Harbinger's Greathelm
 					i(182277),	-- Bladesworn Tactician's Faceguard
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59910 },	-- Fight and Flight
 				["provider"] = { "o", 357246 },	-- Tattered Scroll
 				["coord"] = { 33.5, 24.1, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(181285),	-- Abhorrent Design (QI!)
 				},
 			}),
@@ -358,7 +358,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 173172 },	-- Balmedar
 				["coord"] = { 66.2, 32.1, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182779),	-- Bundle of "Modified" Reagents (QI!)
 				},
 			}),
@@ -385,7 +385,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["description"] = "Requires Renown 5.",
 				["provider"] = { "n", 161907 },	-- Baroness Draka
 				["coord"] = { 49.6, 50.7, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					i(182077),		-- War-Bred Tauralus (MOUNT!)
 				},
 			}),
@@ -393,7 +393,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61745 },	-- Mistress of Tomes
 				["provider"] = { "n", 172924 },	-- Baroness Ninadar
 				["coord"] = { 66.3, 26.3, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182615),	-- Errant Tome (QI!)
 					i(182616),	-- Mischievous Quill (QI!)
 				},
@@ -456,7 +456,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61749 },	-- Necessary Ingredients
 				["provider"] = { "n", 173492 },	-- Jor'dan the Powerful
 				["coord"] = { 69.9, 32.7, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182676),	-- Veilwing's Heart (QI!)
 				},
 			}),
@@ -485,7 +485,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 					58599,	-- Drive A Dredge Between Them
 				},
 				["provider"] = { "n", 161474 },	-- Baroness Draka
-				["g"] = {
+				["groups"] = {
 					i(182386),	-- Pauldrons of Imperium (QI!)
 				},
 			}),
@@ -511,7 +511,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 172813 },	-- Ton'hamil
 				["coord"] = { 67.9, 30.6, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(183399, {	-- Ritualist's Mantle
 						["description"] = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 					}),
@@ -558,7 +558,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 60049 },	-- At Your Service
 				["provider"] = { "n", 161906 },	-- Emeni <The Slaughter Daughter>
 				["coord"] = { 38.3, 36.7, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					follower(1263),	-- Emeni
 				},
 			}),
@@ -566,7 +566,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61753 },	-- Explosive Schemes
 				["provider"] = { "n", 173422 },	-- Balmedar's Oculus
 				["_drop"] = { "g" },	-- make items stop showing up that are not actually rewarded by this quest
-				["g"] = {
+				["groups"] = {
 					i(182734),	-- Assorted Curios (QI!)
 					i(182735),	-- Domination Blade (QI!)
 				},
@@ -575,7 +575,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61226 },	-- Extra Limbs
 				["provider"] = { "n", 158604 },	-- Navigator Xennir
 				["coord"] = { 52.0, 16.9, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(183118),	-- Venomous Solvent (QI!)
 					i(181237),	-- Venomous Solvent (QI!)
 				},
@@ -607,7 +607,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 171875 },	-- Khaliiq <Vashj's Devoted>
 				["coord"] = { 50.0, 17.9, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(175796),	-- Loose Stitch's Key (QI!)
 					i(173312),	-- Toc's Key (QI!)
 				},
@@ -616,7 +616,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 58608 },	-- It's Treason, Then
 				["provider"] = { "n", 161865 },	-- Baroness Draka
 				["coord"] = { 78.1, 62.2, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(182273),	-- Bladesworn Conjurer's Mantle
 					i(182255),	-- Bladesworn Harbinger's Pauldrons
 					i(182282),	-- Bladesworn Tactician's Spaulders
@@ -657,7 +657,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 57475 },	-- The Mantle Returned
 				["provider"] = { "n", 161907 },	-- Baroness Draka
 				["coord"] = { 49.8, 50.6, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					i(182276),	-- Bladesworn Conjurer's Cape
 					i(182258),	-- Bladesworn Harbinger's Greatcloak
 					i(182285),	-- Bladesworn Tactician's Drape
@@ -668,7 +668,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 57530 },	-- Gharmal's Tower
 				["provider"] = { "n", 173194 },	-- Alexandros Mograine
 				["coord"] = { 27.3, 23.8, MALDRAXXUS },
-				["g"]= {
+				["groups"]= {
 					i(182658),	-- Mantle of Eternal Victory (QI!)
 				},
 			}),
@@ -676,7 +676,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 58007 },	-- Eyes on the Problem
 				["provider"] = { "n", 164619 },	-- Baroness Vashj
 				["coord"] = { 50.8, 24.4, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(175795),	-- Betrayer's Eye (QI!)
 				},
 			}),
@@ -689,7 +689,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61227 },	-- The Other Foot
 				["provider"] = { "n", 159814 },	-- Ansid the Mechanic
 				["coord"] = { 48.6, 18.5, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(173312),	-- Toc's Key (QI!)
 				},
 			}),
@@ -697,7 +697,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61749 },	-- Necessary Ingredients
 				["provider"] = { "n", 174120 },	-- Moret the Vogue
 				["coord"] = { 71.7, 32.9, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(183401, {	-- Amethystine Dye
 						["description"] = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 					}),
@@ -739,7 +739,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 158529 },	-- Whisperer Vyn
 				["coord"] = { 49.9, 17.8, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(181162),	-- Beacon Trigger (QI!)
 					i(182265),	-- Bladesworn Wraith's Belt
 					i(182274),	-- Bladesworn Conjurer's Cinch
@@ -751,7 +751,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 60112 },	-- Cut to the Bone
 				["provider"] = { "n", 172573 },	-- Khaliiq
 				["coord"] = { 27.2, 45.2, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(181785),	-- Ossein Key (QI!)
 				},
 			}),
@@ -760,7 +760,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 183248 },	-- Construct Attendant
 				["coord"] = { 37.9, 36.2, SEAT_OF_THE_PRIMUS },
 				["timeline"] = { ADDED_9_1_5 },
-				["g"] = {
+				["groups"] = {
 					follower(1263),	-- Emeni
 				},
 			}),
@@ -768,7 +768,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59020 },	-- The Third Fall of Kel'Thuzad
 				["provider"] = { "n", 161907 },	-- Baroness Draka
 				["coord"] = { 49.6, 50.6, SEAT_OF_THE_PRIMUS },
-				["g"] = LFR_WEAPON_GROUP,
+				["groups"] = LFR_WEAPON_GROUP,
 			}),
 			q(59678, {	-- Sustain, In Vain
 				["sourceQuests"] = { 59653 },	-- Don't Cross Courage
@@ -788,7 +788,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61760 },	-- The Traitor Unmasked
 				["provider"] = { "n", 173831 },	-- Balmedar
 				["coord"] = { 69.9, 27.0, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(183847),	-- Acolyte's Guise (TOY!)
 				},
 			}),
@@ -809,7 +809,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 173492 },	-- Jor'dan the Powerful
 				["coord"] = { 69.9, 32.7, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182270),	-- Bladesworn Conjurer's Slippers
 					i(182252),	-- Bladesworn Harbinger's Stompers
 					i(182279),	-- Bladesworn Tactician's Sabatons
@@ -821,7 +821,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59922 },	-- Do Not Forget
 				["provider"] = { "n", 161988 },	-- Alexandros Mograine
 				["coord"] = { 49.0, 51.6, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					i(181803),	-- Bladesworn Battle Standard
 				},
 			}),
@@ -832,7 +832,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 172924 },	-- Baroness Ninadar
 				["coord"] = { 66.3, 26.3, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182645),	-- Binding of the Banished One (QI!)
 					i(182644),	-- Greater Wards and Barriers, Volume IV (QI!)
 					i(182643),	-- Paths of the First Ones (QI!)
@@ -853,7 +853,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59698 },	-- Wipe the Slate Clean
 				["provider"] = { "n", 165716 },	-- Xandria <Paragon of Courage>
 				["coord"] = { 30.0, 55.2, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(182271),	-- Bladesworn Conjurer's Gloves
 					i(182253),	-- Bladesworn Harbinger's Crushers
 					i(182280),	-- Bladesworn Tactician's Gauntlets
@@ -907,7 +907,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 174179 },	-- Baroness Draka
 				["coord"] = { 62.2, 41.0, MALDRAXXUS },
 				["maps"] = { 1689 },	-- Maldraxxus (scenario version)
-				["g"] = {
+				["groups"] = {
 					i(181822),	-- Armored War-Bred Tauralus (MOUNT!)
 				},
 			}),
@@ -915,7 +915,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 61759 },	-- A Helpful Hand
 				["provider"] = { "n", 173172 },	-- Balmedar
 				["coord"] = { 52.5, 63.8, 1652 },	-- Vault of Souls
-				["g"] = {
+				["groups"] = {
 					i(182269),	-- Bladesworn Conjurer's Tunic
 					i(182251),	-- Bladesworn Harbinger's Chestguard
 					i(182278),	-- Bladesworn Tactician's Hauberk
@@ -951,7 +951,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 58007 },	-- Eyes on the Problem
 				["provider"] = { "n", 164619 },	-- Baroness Vashj
 				["coord"] = { 50.8, 24.4, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(172371),	-- Mark of Vashj (QI!)
 				},
 			}),
@@ -972,7 +972,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 62406 },	-- Staff of the Primus
 				["provider"] = { "n", 161905 },	-- Bonesmith Heirmir
 				["coord"] = { 42.8, 32.2, SEAT_OF_THE_PRIMUS },
-				["g"] = {
+				["groups"] = {
 					follower(1262),	-- Bonesmith Heirmir
 				},
 			}),

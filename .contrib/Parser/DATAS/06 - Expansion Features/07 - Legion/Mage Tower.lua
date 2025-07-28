@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 	-- Original Legion content
 	n(MAGE_TOWER, bubbleDown(MageTowerFilter, {
 		["description"] = "The Mage Tower Challenges were solo encounters designed for all of the 36 talent specializations in the game during Legion. They were designed to be challenging, but beatable. Access to these challenges was removed with the BFA Prepatch, 8.0.1.\n\nCongratulations to everyone that worked really hard attempting to collect all of these appearances!\n\n - Crieve (31/36)",
-		["g"] = {
+		["groups"] = {
 			ach(11611, {	-- A Challenging Look
 				["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },
 			}),
@@ -46,7 +46,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					115642,	-- Umbral Imp
 					115640,	-- Fuming Imp
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(947, {	-- Apocalypse
 						["classes"] = { DEATHKNIGHT },
 					}),
@@ -80,7 +80,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					115244,	-- Archmage Xylem
 					116839,	-- Corrupting Shadows
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(383, {	-- Blades of the Fallen Prince
 						["classes"] = { DEATHKNIGHT },
 					}),
@@ -116,7 +116,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					119478,	-- Corrupted Risen Mage
 					119474,	-- Corrupted Risen Soldier
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(875, {	-- G'Hanir, the Mother Tree
 						["classes"] = { DRUID },
 					}),
@@ -146,7 +146,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					117230,	-- Tugar Bloodtotem
 					117484,	-- Jormog the Behemoth
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(466, {	-- Titanstrike
 						["classes"] = { HUNTER },
 					}),
@@ -175,7 +175,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					116499,	-- Jarl Velbrand
 					116496,	-- Runeseer Faljar
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(144, {	-- Aluneth
 						["classes"] = { MAGE },
 					}),
@@ -210,7 +210,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					118044,	-- Nether Horror
 					117198,	-- Highlord Kruul
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(364, {	-- Maw of the Damned
 						["classes"] = { DEATHKNIGHT },
 					}),
@@ -246,7 +246,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					118698,	-- Hand from Beyond
 					119098,	-- Thing of Nightmare
 				},
-				["g"] = {
+				["groups"] = {
 					artifact(929, {	-- Scythe of Elune
 						["classes"] = { DRUID },
 					}),
@@ -269,7 +269,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 	-- Rehashed Permanent content
 	n(MAGE_TOWER, bubbleDown(MageTowerFilter92, {
 		["description"] = "The Mage Tower Challenges are back, more challenging than ever. Good luck everyone!",
-		["g"] = {
+		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(15309),	-- A Towering Success
 				ach(15310, {	-- A Tour of Towers

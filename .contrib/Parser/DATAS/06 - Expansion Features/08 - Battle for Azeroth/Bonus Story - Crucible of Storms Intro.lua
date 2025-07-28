@@ -37,10 +37,10 @@ root(ROOTS.ExpansionFeatures, {
 				["coord"] = { 40.4, 36.4, STORMSONG_VALLEY },
 				["provider"] = { "n", 135793 },	-- Collector Kojo
 				["classes"] = exclude(PRIEST, ALL_CLASSES),
-				["g"] = {
+				["groups"] = {
 					o(307091, {	-- Ominous Whispering Dagger
 						["coord"] = { 40.5, 36.5, STORMSONG_VALLEY },
-						["g"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
+						["groups"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
 					}),
 				},
 			}),
@@ -57,10 +57,10 @@ root(ROOTS.ExpansionFeatures, {
 				["coord"] = { 71.4, 30.2, ZULDAZAR },
 				["provider"] = { "n", 134345 },	-- Collector Kojo
 				["classes"] = exclude(PRIEST, ALL_CLASSES),
-				["g"] = {
+				["groups"] = {
 					o(307091, {	-- Ominous Whispering Dagger
 						["coord"] = { 40.5, 36.5, STORMSONG_VALLEY },
-						["g"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
+						["groups"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
 					}),
 				},
 			}),
@@ -116,10 +116,10 @@ root(ROOTS.ExpansionFeatures, {
 					{ 78.0, 36.7, ZULDAZAR },
 					{ 34.2, 31.8, STORMSONG_VALLEY },
 				},
-				["g"] = {
+				["groups"] = {
 					o(309505, {	-- Void Stone
 						["coord"] = { 20.1, 35.8, DRUSTVAR },
-						["g"] = { i(164911) },	-- Void Stone (QI!)
+						["groups"] = { i(164911) },	-- Void Stone (QI!)
 					}),
 				},
 			}),
@@ -134,10 +134,10 @@ root(ROOTS.ExpansionFeatures, {
 					{ 78.0, 36.7, ZULDAZAR },
 					{ 34.2, 31.8, STORMSONG_VALLEY },
 				},
-				["g"] = {
+				["groups"] = {
 					o(311163, {	-- Void Stone
 						["coord"] = { 20.1, 35.8, DRUSTVAR },
-						["g"] = { i(164911) },	-- Void Stone (QI!)
+						["groups"] = { i(164911) },	-- Void Stone (QI!)
 					}),
 				},
 			}),
@@ -148,11 +148,11 @@ root(ROOTS.ExpansionFeatures, {
 				},
 				["provider"] = { "n", 144773 },	-- Xal'atath
 				["coord"] = { 20.0, 35.8, DRUSTVAR },
-				["g"] = {
+				["groups"] = {
 					i(164976),	-- Skeleton Key (QI!)
 					o(307066, {	-- Ocean Chest
 						["coord"] = { 74.9, 78.9, TIRAGARDE_SOUND },
-						["g"] = { i(164763) },	-- Trident of Deep Ocean (QI!)
+						["groups"] = { i(164763) },	-- Trident of Deep Ocean (QI!)
 					}),
 				},
 			}),
@@ -160,7 +160,7 @@ root(ROOTS.ExpansionFeatures, {
 				["sourceQuests"] = { 53761 },	-- The Pirate's Treasure
 				["provider"] = { "n", 145396 },	-- Xal'atath
 				["coord"] = { 75.0, 77.7, TIRAGARDE_SOUND },
-				["g"] = {
+				["groups"] = {
 					i(165018),	-- Tempest Caller (QI!)
 				},
 			}),
@@ -187,7 +187,7 @@ root(ROOTS.ExpansionFeatures, {
 				["provider"] = { "n", 146902 },	-- Brother Pike
 				["coord"] = { 67.4, 21.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(168123),	-- Twitching Eyeball (TOY!)
 				},
 			}),
@@ -203,7 +203,7 @@ root(ROOTS.ExpansionFeatures, {
 					{ 49.9, 46.6, DAZARALOR },
 					{ 41.7, 66.7, THE_GREAT_SEAL },
 				},
-				["g"] = {
+				["groups"] = {
 					i(168123),	-- Twitching Eyeball (TOY!)
 				},
 			}),

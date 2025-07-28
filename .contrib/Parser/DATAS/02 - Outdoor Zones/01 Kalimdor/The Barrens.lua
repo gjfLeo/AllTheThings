@@ -1220,7 +1220,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(7329, {	-- Thun'grim's Sword
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
-					}
+					},
 				}),
 				q(1799, {	-- Fragments of the Orb of Orahil
 					["qg"] = 6266,	-- Menara Voidrender
@@ -1808,7 +1808,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(18160, {	-- Recipe: Thistle Tea (RECIPE!)
 							["timeline"] = { ADDED_1_3_0, REMOVED_4_0_3 },
 						}),
-					}
+					},
 				}),
 				q(3301, {	-- Mura Runetotem
 					["qg"] = 3448,	-- Tonga Runetotem

@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						spell(119467),	-- Battle Pet Training
 						-- #endif
-					}
+					},
 				}),
 				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
 				q(32008, {	-- Audrey Burnhep
@@ -5212,73 +5212,73 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- Now any class and race can buy this
 						-- MAGE --
 						i(55, {	-- Apprentice's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52554, {	-- Apprentice's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(1395, {	-- Apprentice's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(56, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52553, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23478, {	-- Recruit's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23479, {	-- Recruit's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- PRIEST --
 						i(1396, {	-- Acolyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23322, {	-- Acolyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(51, {	-- Neophyte's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6098, {	-- Neophyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6119, {	-- Neophyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- WARLOCK --
 						i(1396, {	-- Acolyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(57, {	-- Acolyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(59, {	-- Acolyte's Shoes
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- ??? --
 						i(6116, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23350, {	-- Battleworn Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23349, {	-- Battleworn Shoes
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23472, {	-- Rugged Trapper's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(23471, {	-- Rugged Trapper's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6118, {	-- Squire's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 					},
@@ -5932,7 +5932,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(52557, {	-- Battleworn Hammer
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(2523),	-- Bullova
 						i(2521),	-- Flamberge
@@ -5952,7 +5952,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(57243, {	-- Worn Spear
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(52532, {	-- Worn Wood Chopper
 							["timeline"] = { ADDED_10_1_7 },
@@ -6345,19 +6345,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(237),		-- Cured Leather Pants
 						-- #if AFTER 10.0.5
 						i(48, {	-- Footpads Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(47, {	-- Footpads Shoes
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58234, {	-- Footpads Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6124, {	-- Novices Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6123, {	-- Novices Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 						i(1839),	-- Rough Leather Belt
@@ -6898,16 +6898,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(15809),	-- Heavy Crossbow
 						i(15807),	-- Light Crossbow
 						i(20981, {	-- Neophyte's Mace
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(20977, {	-- Recruit's Shortsword
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(20982, {	-- Sharp Dagger
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(37, {	-- Worn Axe
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 					},
 				}),

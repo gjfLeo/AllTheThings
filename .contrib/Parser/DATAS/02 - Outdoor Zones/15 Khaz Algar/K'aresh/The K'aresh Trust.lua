@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["provider"] = { "n", 238016 },	-- Ba'eth
 					["coord"] = { 57.6, 58.1, KARESH_TAZAVESH },
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 9 },	-- The K'aresh Trust Renown 9
-					["g"] = {
+					["groups"] = {
 						i(242535, {	-- Missing Imports (QI!)
 							["coord"] = { 46.8, 35.7, KARESH_TAZAVESH },
 							["providers"] = {
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(VENDORS, {
 				n(235252, {	-- Om'sirik <Renown Quartermaster>
 					["coord"] = { 40.6, 29.2, KARESH_TAZAVESH },
-					["g"] = bubbleDownRep(FACTION_THE_KARESH_TRUST, {
+					["groups"] = bubbleDownRep(FACTION_THE_KARESH_TRUST, {
 						{		-- RENOWN 1 --
 						}, {	-- RENOWN 2 --
 						}, {	-- RENOWN 3 --

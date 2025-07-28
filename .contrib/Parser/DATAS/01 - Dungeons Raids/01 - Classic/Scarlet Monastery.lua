@@ -746,7 +746,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									i(10330, {	-- Scarlet Leggings
 										["timeline"] = { REMOVED_5_0_4, ADDED_10_1_7 },
 									}),
-								}
+								},
 							}),
 							n(3977, {	-- High Inquisitor Whitemane
 								-- NOTE: The boss herself was not removed, only redesigned with a new loot table.

@@ -72,7 +72,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		})),
 		ach(19489, {	-- Class Connoisseur
 			["timeline"] = { ADDED_11_0_2 },
-			["g"] = {
+			["groups"] = {
 				crit(55223),	-- Druid
 				crit(55224),	-- Hunter
 				crit(64623),	-- Mage
@@ -93,7 +93,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		ach(7382, {	-- Dynamic Duo
 			["timeline"] = { ADDED_5_0_4 },
-			["g"] = {
+			["groups"] = {
 				i(212174, {	-- The Warband Map to Everywhere All At Once (TOY!)
 					["timeline"] = { ADDED_11_0_0 },
 				}),
@@ -1468,7 +1468,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 					["coord"] = { 47.4, 78.9, DARKMOON_ISLAND },
 					["classes"] = { WARLOCK },
 					["timeline"] = { ADDED_10_1_5 },
-					["g"] = {
+					["groups"] = {
 						i(206160),	-- Madam Shadow's Grimoire (QI!)
 						spell(412234),	-- Madam Shadow's Soulstone
 					},
@@ -1500,7 +1500,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 					["coord"] = { 8.4, 36.0, BURNING_STEPPES },
 					["classes"] = { WARLOCK },
 					["timeline"] = { ADDED_10_1_5 },
-					["g"] = {
+					["groups"] = {
 						spell(417884),	-- Fiendish Imps
 						i(208108),	-- Madam Shadow's Old Grimoire
 					},
@@ -1511,7 +1511,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 					["classes"] = { WARLOCK },
 					["description"] = "You get this quest in your mailbox next weekly reset after finishing 'When Revenge Burns Green'",
 					["timeline"] = { ADDED_10_1_5 },
-					["g"] = {
+					["groups"] = {
 						i(207101),	-- Glyph of Banehollow's Soulstone
 					},
 				}),
@@ -1984,7 +1984,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	-- #if BEFORE 11.0.0
 	-- Fixed with TWW - you can collect any armor with any class
 	filter(CLOTH, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
-		["g"] = sharedData({
+		["groups"] = sharedData({
 			["sharedDescription"] = "This item is obtained by a newly created worgen monk, but because it's soulbound cloth item, you can't learn it.",
 			["collectible"] = false,
 		},{
@@ -1995,7 +1995,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 	})),
 	filter(CLOTH, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
-		["g"] = sharedData({
+		["groups"] = sharedData({
 			["sharedDescription"] = "This item is obtained by a newly created goblin monk, but because it's soulbound cloth item, you can't learn it.",
 			["collectible"] = false,
 		},{
@@ -2020,7 +2020,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["sourceQuests"] = { 84423 },	-- Shaking the Dust Off
 			["provider"] = { "n", 229075 },	-- Scalecommander Emberthal
 			["coord"] = { 43.0, 89.4, THE_WAR_CRECHE },
-			["g"] = {
+			["groups"] = {
 				o(467064, {	-- Quest Journal
 					i(229165),	-- Quest Journal (QI!)
 				}),

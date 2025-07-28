@@ -26,7 +26,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			["sourceQuest"] = 51513,	-- Zalazane Returns
 			["provider"] = { "n", 120173 },	-- Zen'tarba
 			["coord"] = { 59.2, 52.0, ECHO_ISLES },
-			["g"] = {
+			["groups"] = {
 				i(160323),	-- The Glaive of Vol'jin (QI!)
 			},
 		}),
@@ -37,7 +37,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			},
 			["provider"] = { "n", 137878 },	-- Master Gadrin
 			["coord"] = { 59.5, 51.5, ECHO_ISLES },
-			["g"] = {
+			["groups"] = {
 				i(160443),	-- The Glaive of Vol'jin (QI!)
 			},
 		}),
@@ -55,7 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			["sourceQuest"] = 52113,	-- Vole'jin, Son of Sen'jin
 			["provider"] = { "n", 138138 },	-- Princess Telanji
 			["coord"] = { 43.7, 39.5, ZULDAZAR },
-			["g"] = {
+			["groups"] = {
 				i(160479),	-- Urn of Vol'jin (QI!)
 			},
 		}),
@@ -64,7 +64,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			["provider"] = { "n", 138148 },	-- Bwonsamdi
 			["coord"] = { 38.9, 36.6, ZULDAZAR },
 			["maps"] = { 934, 935 },	-- Atal'Dazar
-			["g"] = {
+			["groups"] = {
 				crit(40709, {	-- The Fallen Chieftain
 					["achievementID"] = 12719,	-- Spirits Be With You
 				}),
@@ -86,7 +86,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			["provider"] = { "n", 140725 },	-- Spirit of Vol'jin
 			["coord"] = { 57.6, 63.0, ZULDAZAR },
 			["maps"] = { 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155 },	-- Uldir
-			["g"] = {
+			["groups"] = {
 				crit(40710, {	-- Justice for the Fallen
 					["achievementID"] = 12719,	-- Spirits Be With You
 				}),

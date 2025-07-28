@@ -204,7 +204,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					{ "i", 124113, 20 },	-- 20x Stonehide Leather
 					{ "i", 124115, 5 },		-- 5x Stormscale
 				},
-				["g"] = {
+				["groups"] = {
 					r(195119, {	-- Leatherworking (Legion Master)
 						["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 						["collectible"] = false,
@@ -221,7 +221,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 39958 },	-- Skin Deep
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194739),	-- Battlebound Warhelm (RECIPE!)
 					r(194699),	-- Warhide Mask (RECIPE!)
 					r(196428, {["u"]=TRAINING}),	-- Rough Warhide Mask
@@ -253,7 +253,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40197 },	-- The Necessary Materials
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(196648),	-- Stonehide Leather Barding (RECIPE!)
 					r(196469, {["u"]=TRAINING}),	-- Stonehide Caparison
 					r(196467, {["u"]=TRAINING}),	-- Stonehide Champron
@@ -288,7 +288,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				},
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194776),	-- Leather Pet Bed (RECIPE!)
 					r(196375, {["u"]=TRAINING}),	-- Shaved Stonehide Pelt
 					r(196442, {["u"]=TRAINING}),	-- Stonehide Leather Bed
@@ -316,7 +316,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40177 },	-- Leather Lady
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194696),	-- Warhide Belt [Rank 1] (RECIPE!)
 					r(194698),	-- Warhide Pants [Rank 1] (RECIPE!)
 					i(129972),	-- Vrykul Leather Binding (QI!)
@@ -326,7 +326,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40177 },	-- Leather Lady
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194702),	-- Warhide Jerkin [Rank 1] (RECIPE!)
 					i(129971),	-- Hideshaper's Vestment (QI!)
 				},
@@ -335,7 +335,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40180 },	-- Mail Men
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194736),	-- Battlebound Girdle [Rank 1] (RECIPE!)
 					r(194738),	-- Battlebound Leggings [Rank 1] (RECIPE!)
 					i(129973),	-- Black Rook Armor (QI!)
@@ -345,7 +345,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40180 },	-- Mail Men
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194742),	-- Battlebound Hauberk [Rank 1] (RECIPE!)
 					i(129974),	-- Black Rook Hauberk (QI!)
 				},
@@ -358,7 +358,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				},
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194741),	-- Battlebound Treads [Rank 1] (RECIPE!)
 					r(194701),	-- Warhide Footpads [Rank 1] (RECIPE!)
 					r(196375, {["u"]=TRAINING}),	-- Shaved Stonehide Pelt
@@ -387,7 +387,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40184 },	-- Tauren Tanning
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194695),	-- Warhide Bindings [Rank 1] (RECIPE!)
 					r(194700),	-- Warhide Gloves [Rank 1] (RECIPE!)
 				},
@@ -396,7 +396,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40184 },	-- Tauren Tanning
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194697),	-- Warhide Shoulderguard [Rank 1] (RECIPE!)
 					i(129976),	-- Lohrumn's Shoulderguard (QI!)
 				},
@@ -414,7 +414,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40190 },	-- Hardening the Hide
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194710),	-- Warhide Jerkin [Rank 2] (RECIPE!)
 				},
 			}),
@@ -422,7 +422,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40191 },	-- Stamped Stories
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194704),	-- Warhide Belt [Rank 2] (RECIPE!)
 					r(194703),	-- Warhide Bindings [Rank 2] (RECIPE!)
 					i(130070),	-- Stalker Claw (QI!)
@@ -432,7 +432,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40187 },	-- Links in the Chain
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194735),	-- Battlebound Armbands [Rank 1] (RECIPE!)
 					r(194740),	-- Battlebound Grips [Rank 1] (RECIPE!)
 				},
@@ -441,7 +441,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40187 },	-- Links in the Chain
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194737),	-- Battlebound Spaulders [Rank 1] (RECIPE!)
 					i(129980),	-- Naga Shoulderguard (QI!)
 				},
@@ -456,7 +456,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40193 },	-- Getting the Kinks Out
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194743),	-- Battlebound Armbands [Rank 2] (RECIPE!)
 					r(194744),	-- Battlebound Girdle [Rank 2] (RECIPE!)
 					i(130072),	-- Mail Armor Shipment (QI!)
@@ -466,7 +466,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40194 },	-- Reclaimed Cargo
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					i(130263),	-- Celea's Hauberk (QI!)
 				},
 			}),
@@ -474,7 +474,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40195 },	-- A Daring Rescue
 				["provider"] = { "n", 99689 },	-- Taldranis
 				["coord"] = { 51.6, 58.0, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194750),	-- Battlebound Hauberk [Rank 2] (RECIPE!)
 				},
 			}),
@@ -485,7 +485,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				},
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194709),	-- Warhide Footpads [Rank 2] (RECIPE!)
 					r(194705),	-- Warhide Shoulderguard [Rank 2] (RECIPE!)
 					i(130077),	-- Highmountain Leatherworking Pattern (QI!)
@@ -496,7 +496,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40198 },	-- Rats!
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194745),	-- Battlebound Spaulders [Rank 2] (RECIPE!)
 					r(194749),	-- Battlebound Treads [Rank 2] (RECIPE!)
 					i(132172),	-- Crowbar
@@ -512,7 +512,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40202 },	-- The Final Lessons
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194708),	-- Warhide Gloves [Rank 2] (RECIPE!)
 					i(130100),	-- Basilisk Hide (QI!)
 				},
@@ -521,7 +521,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40202 },	-- The Final Lessons
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194706),	-- Warhide Pants [Rank 2] (RECIPE!)
 				},
 			}),
@@ -529,7 +529,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40202 },	-- The Final Lessons
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
-				["g"] = {
+				["groups"] = {
 					r(194707),	-- Warhide Mask [Rank 2] (RECIPE!)
 					i(130098),	-- Scale of Deathwing (QI!)
 				},
@@ -553,7 +553,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
 				["maps"] = { 713 },	-- Eye of Azshara
-				["g"] = {
+				["groups"] = {
 					r(194747),	-- Battlebound Warhelm [Rank 2] (RECIPE!)
 					i(130106),	-- Warlord Parjesh's Hauberk (QI!)
 				},
@@ -562,7 +562,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40206 },	-- A Debt Paid
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194748),	-- Battlebound Grips [Rank 2] (RECIPE!)
 					i(130104),	-- Blue Dragon Scale (QI!)
 				},
@@ -571,7 +571,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40206 },	-- A Debt Paid
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(194746),	-- Battlebound Leggings [Rank 2] (RECIPE!)
 					i(130110),	-- Axetail Basilisk Matriarch Scales (QI!)
 				},
@@ -603,7 +603,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40212 },	-- Wrong End of the Knife
 				["provider"] = { "n", 98969 },	-- Stalriss Dawnrunner
 				["coord"] = { 26.6, 71.6, SURAMAR },
-				["g"] = {
+				["groups"] = {
 					i(130129),	-- Fel Hound Corpse (QI!)
 				},
 			}),
@@ -612,7 +612,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98969 },	-- Stalriss Dawnrunner
 				["coord"] = { 26.6, 71.6, SURAMAR },
 				["cost"] = {{ "i", 124438, 5 }},	-- 5x Unbroken Claw
-				["g"] = {
+				["groups"] = {
 					r(194787),	-- Dreadleather Bindings [Rank 1] (RECIPE!)
 					r(194796),	-- Gravenscale Armbands [Rank 1] (RECIPE!)
 					r(196457, {["u"]=TRAINING}),	-- Fel Leather Cuff
@@ -628,7 +628,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["sourceQuests"] = { 40214 },	-- Fel Tanning
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(194780),	-- Elderhorn Riding Harness (RECIPE!)
 				},
 			}),
@@ -645,7 +645,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146693),	-- Ancient Dreadleather (QI!)
 					i(146692),	-- Ancient Dreadleather Armor (QI!)
 				},
@@ -656,7 +656,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, },	-- The Emerald Nightmare
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146691),	-- Immaculate Spellsash (QI!)
 					i(146690);	-- Xavius' Torn Spellsash (QI!)
 				},
@@ -667,7 +667,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 713 },	-- Eye of Azshara
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146689),	-- Oiled Handmaiden's Gloves (QI!)
 					i(146688),	-- Waterlogged Handmaiden's Gloves (QI!)
 				},
@@ -678,7 +678,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 733 },	-- Darkheart Thicket
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146686),	-- Colorless Shroud of Xavius (QI!)
 					i(146687),	-- Dyed Shroud of Xavius (QI!)
 				},
@@ -693,7 +693,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 				["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(147438),	-- Bag of Wisp-Touched Elderhide (QI!)
 					i(146977),	-- Legendary Tanner's Kit (QI!)
 					i(146712),	-- Wisp-Touched Elderhide
@@ -706,7 +706,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["repeatable"] = true,
 				["timeline"] = { ADDED_7_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(147116),	-- Captured Spirit of the Father of Owls (QI!)
 					i(147075),	-- Spirit Net (QI!)
 				},
@@ -716,7 +716,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146701),	-- Ancient Gravenscale (QI!)
 					i(146700),	-- Ancient Gravenscale Armor (QI!)
 				},
@@ -727,7 +727,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 845, 846, 847, 848, 849 },	-- Cathedral of Eternal Night
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146697),	-- Refinished Legplates of Mephistroth (QI!)
 					i(146696),	-- Rusted Legplates of Mephistroth (QI!)
 				},
@@ -738,7 +738,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 815, 816, 817, 818, 819, 820, 821, 822, 809, 810, 811, 812, 813, 814 },	-- Return to Karazhan
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146699),	-- Gleaming Bracers of the First War (QI!)
 					i(146698),	-- Torn Bracers of the First War (QI!)
 				},
@@ -749,7 +749,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["maps"] = { 710, 711, 712, },	-- Vault of the Wardens
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(146694),	-- Chipped Felsong Mantle (QI!)
 					i(146695),	-- Immaculate Felsong Mantle (QI!)
 				},
@@ -764,7 +764,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 				["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(147439),	-- Box of Completed Prime Wardenscale (QI!)
 					i(147209),	-- Legendary Wardenscale Supplies (QI!)
 					i(146713),	-- Prime Wardenscale
@@ -779,7 +779,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					{ "i", 151566, 12 },	-- 12x Fiendish Leather
 					{ "i", 151567, 12 },	-- 12x Lightweave Cloth
 				},
-				["g"] = {
+				["groups"] = {
 					i(151880),	-- Enstraa's Tanning Oil (QI!)
 					i(151740),	-- Pattern: Fiendish Shoulderguards [Rank 1] (RECIPE!)
 					i(151743),	-- Pattern: Fiendish Spaulders [Rank 1] (RECIPE!)
@@ -858,7 +858,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 42.6, 60.6, STORMWIND_CITY },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167550),	-- Avarice's Chest Key (QI!)
 					i(167541),	-- Rare Hides (QI!)
 				},
@@ -869,7 +869,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 69.7, 26.7, THUNDER_BLUFF },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167541),	-- Rare Hides (QI!)
 					i(167673),	-- Verd's Chest Key (QI!)
 				},
@@ -894,7 +894,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 53.6, 54.4, VALSHARAH },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167542),	-- Brilliant Azure Scales (QI!)
 				},
 			}),
@@ -904,7 +904,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 54.9, 77.9, 750 },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167543),	-- Brilliant Golden Scales (QI!)
 				},
 			}),
@@ -914,7 +914,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 69.6, 29.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167549),	-- Unwaning Bones (QI!)
 				},
 			}),
@@ -924,7 +924,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 53.4, 92.5, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(165231),	-- Unwaning Bones (QI!)
 				},
 			}),
@@ -937,7 +937,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 151173 },	-- Daniss Ghostdancer
 				["coord"] = { 69.6, 29.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(167560),	-- Cleaned Brilliant Scales (QI!)
 					i(167558),	-- Etched Bones (QI!)
 					r(293135, {["u"]=TRAINING}),	--	Drum of Primal Might (RECIPE!)
@@ -954,7 +954,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 151162 },	-- Atikka "Ace" Moonchaser
 				["coord"] = { 53.4, 92.5, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(167560),	-- Cleaned Brilliant Scales (QI!)
 					i(167558),	-- Etched Bones (QI!)
 					r(293135, {["u"]=TRAINING}),	--	Drum of Primal Might (RECIPE!)
@@ -967,7 +967,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 151173 },	-- Daniss Ghostdancer
 				["coord"] = { 69.6, 29.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(293076),	-- Mallet of Thunderous Skins (RECIPE!)
 				},
 			})),
@@ -976,7 +976,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 151162 },	-- Atikka "Ace" Moonchaser
 				["coord"] = { 53.4, 92.5, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(293076),	-- Mallet of Thunderous Skins (RECIPE!)
 				},
 			})),
@@ -1017,7 +1017,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -1025,7 +1025,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		n(QUESTS, sharedData({
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(198613),	-- Leatherworking Designs
 			},
 		},{
@@ -1034,7 +1034,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.8, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(191780),	-- Rigid Basilisk Hide (QI!)
 				},
 			}),
@@ -1047,7 +1047,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194448),	-- Salvaged Hide (QI!)
 				},
 			}),
@@ -1055,7 +1055,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201822),	-- Waterproof Hide (QI!)
 				},
 			}),
@@ -1063,7 +1063,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(191782),	-- Fresh Proto-Dragon Wings (QI!)
 				},
 			}),
@@ -1094,7 +1094,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(204792),	-- Nightlight Conkerbell Sample (QI!)
 				},
 			}),
@@ -1102,7 +1102,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(198613),	-- Leatherworking Designs
 					i(204800),	-- Scaly Stone Hide (QI!)
 				},
@@ -1118,7 +1118,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(198613),	-- Leatherworking Designs
 					i(208950),	-- Emerald Fiber (QI!)
 				},
@@ -1126,7 +1126,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_LEATHERWORKING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_LEATHERWORKING_KNOWLEDGE, 1 }} }, {
 				r(375125),	-- Bow of the Dragon Hunters
 				r(375159),	-- Fang Adornments
 				r(375123),	-- Flame-Touched Chain
@@ -1155,77 +1155,77 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			o(380593, {	-- Bag of Decayed Scales
 				["questID"] = 70294,
 				["coord"] = { 56.8, 30.5, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(198690),	-- Decayed Scales
 				},
 			}),
 			o(380587, {	-- Crate of Treated Hides
 				["questID"] = 70286,
 				["coord"] = { 57.5, 41.3, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198683),	-- Treated Hides
 				},
 			}),
 			o(380547, {	-- Decay-Infused Tanning Oil
 				["questID"] = 70266,
 				["coord"] = { 16.77, 38.83, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198658),	-- Decay-Infused Tanning Oil
 				},
 			}),
 			o(410550, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Dreamtalon Claw
 				["coord"] = { 34.0, 29.7, EMERALD_DREAM },
 				["questID"] = 78305,
-				["g"] = {
+				["groups"] = {
 					i(210215),	-- Dreamtalon Claw
 				},
 			})),
 			o(398783, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Flame-Infused Scale Oil
 				["coord"] = { 41.2, 48.7, ZARALEK_CAVERN },
 				["questID"] = 75495,
-				["g"] = {
+				["groups"] = {
 					i(204986),	-- Flame-Infused Scale Oil
 				},
 			})),
 			o(398785, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Lava-Forged Leatherworker's "Knife"
 				["coord"] = { 45.2, 21.0, ZARALEK_CAVERN },
 				["questID"] = 75496,
-				["g"] = {
+				["groups"] = {
 					i(204987),	-- Lava-Forged Leatherworker's "Knife"
 				},
 			})),
 			o(410534, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Molted Faerie Dragon Scales
 				["coord"] = { 37.4, 71.0, EMERALD_DREAM },
 				["questID"] = 78299,
-				["g"] = {
+				["groups"] = {
 					i(210211),	-- Molted Faerie Dragon Scales
 				},
 			})),
 			o(380615, {	-- Poacher's Pack
 				["questID"] = 70308,
 				["coord"] = { 39.4, 86.3, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198711),	-- Poacher's Pack
 				},
 			}),
 			o(380579, {	-- Spare Djaradin Tools
 				["questID"] = 70280,
 				["coord"] = { 64.3, 25.4, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198667),	-- Spare Djaradin Tools
 				},
 			}),
 			o(398791, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Sulfur-Soaked Skins
 				["coord"] = { 49.5, 54.8, ZARALEK_CAVERN },
 				["questID"] = 75502,
-				["g"] = {
+				["groups"] = {
 					i(204988),	-- Sulfur-Soaked Skins
 				},
 			})),
 			o(410529, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Tuft of Dreamsaber Fur
 				["coord"] = { 41.7, 66.4, EMERALD_DREAM },
 				["questID"] = 78298,
-				["g"] = {
+				["groups"] = {
 					i(210208),	-- Tuft of Dreamsaber Fur
 				},
 			})),
@@ -1233,21 +1233,21 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["description"] = "Fix the drum by interacting with it, wait for the little Tuskarr to finish dancing, then you can loot the treasure.",
 				["questID"] = 70269,
 				["coord"] = { 12.5, 49.4, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(201018),	-- Well-Danced Drum
 				},
 			}),
 			o(380602, {	-- Wind-Blessed Hide
 				["questID"] = 70300,
 				["coord"] = { 86.4, 53.7, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(198696),	-- Wind-Blessed Hide
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_LEATHERWORKING_KNOWLEDGE),
 			},
 		},{
@@ -1300,7 +1300,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228778),	-- Algari Leatherworker's Journal
 			},
 		},{
@@ -1311,7 +1311,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_LEATHERWORKING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_LEATHERWORKING_KNOWLEDGE, 1 }} }, {
 				r(441460),	-- Blessed Weapon Grip
 				r(441065),	-- Glyph-Etched Binding
 				r(441059),	-- Glyph-Etched Breastplate
@@ -1338,63 +1338,63 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			o(455965, {	-- Arathi Beveler Set
 				["coord"] = { 47.5, 65.1, HALLOWFALL },
 				["questID"] = 83902,
-				["g"] = {
+				["groups"] = {
 					i(226328),	-- Arathi Beveler Set
 				},
 			}),
 			o(455964, {	-- Arathi Leather Burnisher
 				["coord"] = { 41.5, 57.8, HALLOWFALL },
 				["questID"] = 83903,
-				["g"] = {
+				["groups"] = {
 					i(226329),	-- Arathi Leather Burnisher
 				},
 			}),
 			o(455962, {	-- Curved Nerubian Skinning Knife
 				["coord"] = { 59.9, 54.0, AZJ_KAHET },
 				["questID"] = 83905,
-				["g"] = {
+				["groups"] = {
 					i(226331),	-- Curved Nerubian Skinning Knife
 				},
 			}),
 			o(455968, {	-- Dornogal Craftsman's Flat Knife
 				["coord"] = { 58.6, 30.7, ISLE_OF_DORN },
 				["questID"] = 83899,
-				["g"] = {
+				["groups"] = {
 					i(226325),	-- Dornogal Craftsman's Flat Knife
 				},
 			}),
 			o(455966, {	-- Earthen Awl
 				["coord"] = { 64.3, 65.2, THE_RINGING_DEEPS },
 				["questID"] = 83901,
-				["g"] = {
+				["groups"] = {
 					i(226327),	-- Earthen Awl
 				},
 			}),
 			o(455969, {	-- Earthen Lacing Tools
 				["coord"] = { 68.2, 23.3, DORNOGAL },	-- TODO: re-check mapID
 				["questID"] = 83898,
-				["g"] = {
+				["groups"] = {
 					i(226324),	-- Earthen Lacing Tools
 				},
 			}),
 			o(455963, {	-- Nerubian Tanning Mallet
 				["coord"] = { 55.0, 27.0, NERUBAR },
 				["questID"] = 83904,
-				["g"] = {
+				["groups"] = {
 					i(226330),	-- Nerubian Tanning Mallet
 				},
 			}),
 			o(455967, {	-- Underground Stropping Compound
 				["coord"] = { 47.1, 34.9, THE_RINGING_DEEPS },
 				["questID"] = 83900,
-				["g"] = {
+				["groups"] = {
 					i(226326),	-- Underground Stropping Compound
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_LEATHERWORKING_KNOWLEDGE),
 			},
 		},{

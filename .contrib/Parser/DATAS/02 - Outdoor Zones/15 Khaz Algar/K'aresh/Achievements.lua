@@ -54,7 +54,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					{ 56.5, 86.7, KARESH_TAZAVESH },
 					{ 60.7, 55.3, KARESH_TAZAVESH },
 				},
-				["g"] = {
+				["groups"] = {
 					i(250240),	-- Phase-Lost Slateback (MOUNT!)
 					i(250282),	-- Phase-Lost Bardiche (COSMETIC!)
 					i(250283),	-- Phase-Lost Carver (COSMETIC!)

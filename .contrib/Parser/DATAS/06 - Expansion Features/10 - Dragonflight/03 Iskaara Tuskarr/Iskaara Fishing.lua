@@ -87,7 +87,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
-					["g"] = {
+					["groups"] = {
 						i(199925),	-- Stone With Hole
 						i(199924),	-- Strong Sea Kelp
 					},
@@ -149,7 +149,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(70438, {	-- Flying Fish
 					["provider"] = { "n", 195338 },	-- Fisherman Pasqaa
 					["coord"] = { 63.7, 76.5, THE_WAKING_SHORES },
-					["g"] = {
+					["groups"] = {
 						i(198855),	-- Throw Net
 					},
 				}),
@@ -164,7 +164,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(72075, {	-- Hot Stock
 					["provider"] = { "n", 198767 },	-- Explorative Fisher
 					["coord"] = { 34.5, 65.2, THE_WAKING_SHORES },
-					["g"] = {
+					["groups"] = {
 						i(198855),	-- Throw Net
 					},
 				}),
@@ -172,7 +172,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(72072, {	-- Dragonsprings Drop
 					["provider"] = { "n", 198766 },	-- Thrifty Fisher
 					["coord"] = { 80.8, 78.4, OHNAHRAN_PLAINS },
-					["g"] = {
+					["groups"] = {
 						i(198855),	-- Throw Net
 					},
 				}),
@@ -184,7 +184,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(71191, {	-- Net Worth
 					["provider"] = { "n", 197700 },	-- Gruff Fisher
 					["coord"] = { 58.6, 34.4, OHNAHRAN_PLAINS },
-					["g"] = {
+					["groups"] = {
 						i(200646),	-- Gruff Fisher's Net (QI!)
 					},
 				}),
@@ -196,7 +196,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(71193, {	-- Underwater Menace
 					["provider"] = { "n", 197597 },	-- Cautious Fisher
 					["coord"] = { 57.2, 65.3, THALDRASZUS },
-					["g"] = {
+					["groups"] = {
 						i(200667),	-- Grim Morsel (QI!)
 					},
 				}),
@@ -208,7 +208,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				q(73226, {	-- Dragonskull Shoal
 					["provider"] = { "n", 200947 },	-- Reclusive Fisher
 					["coord"] = { 74.1, 40.5, THE_FORBIDDEN_REACH },
-					["g"] = {
+					["groups"] = {
 						i(198855),	-- Throw Net
 					},
 				}),
@@ -273,7 +273,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			},{
 				["crs"] = { 195935 },
 				["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					filter(RECIPES, sharedData({ ["u"] = TRAINING }, {
 						r(388251),	-- Braided Seavine Harpoon Rope
 						r(388253),	-- Dense Draconium Net Weights
@@ -397,7 +397,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["sharedDescription"] = "Chance to spawn after using 5 |cffffffffOminous Conches|r at specific |cffffffffLarge Lunker Sighting|r Locations.\nWhich Lunker Sighting is up changes every week & if there is no fish icon, the pool is not up and you cannot spawn a Lunker at that location.",
 				["cost"] = { { "i", 194701, 5 } },	-- 5x Ominous Conch
 				["isDaily"] = true,
-				["g"] = {
+				["groups"] = {
 					i(200086),	-- Khaz'gorite-Infused Resin
 				},
 			},{
@@ -427,7 +427,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				n(193708, {	-- Skald the Impaler <Lunker>
 					["coord"] = { 33.8, 64.4, THE_WAKING_SHORES },
 					["questID"] = 74078,
-					["g"] = {
+					["groups"] = {
 						i(200086),	-- Khaz'gorite-Infused Resin
 						i(200218, {	-- Charred Fishing Pole
 							--["collectible"] = true,	-- Changed flag from false to true so that it can be collected.  Was able to collect with SS June 21, 2024
@@ -519,14 +519,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coords"] = {
 							{ 80.0, 27.0, THE_WAKING_SHORES },
 						},
-						["g"] = {
+						["groups"] = {
 							i(200079),	-- Sea-Polished Basalt
 						},
 					}),
 					o(381512, {	-- Wooden Pole
 						["description"] = "Used to craft Iskaaran Harpoon.",
 						["coord"] = { 15.6, 44.5, THE_AZURE_SPAN },
-						["g"] = {
+						["groups"] = {
 							i(200077),	-- Wooden Pole
 						},
 					}),

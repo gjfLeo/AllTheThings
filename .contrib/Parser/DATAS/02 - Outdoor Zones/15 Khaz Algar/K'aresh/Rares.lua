@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					{ 72.8, 84.2, KARESH_TAZAVESH },
 				},
 				["questID"] = 90587,
-				["g"] = {
+				["groups"] = {
 					i(242323),	-- Chowdar's Favorite Ribbon (TOY!)
 					i(239477),	-- Reshii Brute's Epaulettes
 					i(239455),	-- Reshii Magi's Bands
@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
 				["coord"] = { 75.2, 31.0, KARESH },
 				["questID"] = 91276,
-				["g"] = {
+				["groups"] = {
 					i(245272),	-- Heka'Tarnos, Bringer of Discord (PET!)
 				},
 			}),
@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 64.0, 43.6, KARESH },
 				["questID"] = 90596,
-				["g"] = {
+				["groups"] = {
 					i(240171),	-- Observer's Soul Fetters
 					i(240213),	-- Veiling Mana Shroud
 				},
@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 				["coord"] = { 71.5, 27.4, KARESH },
 				["questID"] = 91309,
-				["g"] = {
+				["groups"] = {
 					i(232467),	-- Crystallized Anima (QS!)
 					i(246240),	-- Devoured Energy-Pod
 				},
@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Malek'ta is burrowed under the ground. Jump around to lure it out.",
 				["coord"] = { 54.1, 58.8, KARESH },
 				["questID"] = 91275,
-				["g"] = {
+				["groups"] = {
 					i(245214),	-- Palek'ti, the Mouth of Nothingness (PET!)
 					i(240169),	-- Reshii Magi's Amulet
 					i(240168),	-- Reshii Magi's Seal
@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 54.5, 54.5, KARESH },
 				["questID"] = 90594,
-				["g"] = {
+				["groups"] = {
 					i(240172),	-- Depleted K'areshi Battery
 					i(240214),	-- Miniature Reshii Sandgarden
 				},
@@ -79,7 +79,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 				["coord"] = { 50.6, 54.1, KARESH },
 				["questID"] = 91310,
-				["g"] = {
+				["groups"] = {
 					i(238663),	-- Crystallized Anima (QS!)
 					i(246240),	-- Devoured Energy-Pod
 				},
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 56.1, 52.7, KARESH },
 				["questID"] = 90588,
-				["g"] = {
+				["groups"] = {
 					i(244915),	-- Jimmy (PET!)
 					i(239450),	-- Reshii Magi's Gloves
 				},
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 58.9, 20.8, KARESH },
 				["questID"] = 90595,
-				["g"] = {
+				["groups"] = {
 					i(240172),	-- Depleted K'areshi Battery
 				},
 			}),
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 45.8, 24.2, KARESH },
 				["questID"] = 90590,
-				["g"] = {
+				["groups"] = {
 					i(239478),	-- Reshii Brute's Greatbelt
 					i(239464),	-- Reshii Skirmisher's Brigandine
 				},
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(232006, {	-- Sha'ryth the Cursed
 				["coord"] = { 72.3, 55.8, KARESH },
 				["questID"] = 90585,
-				["g"] = {
+				["groups"] = {
 					i(239453),	-- Reshii Magi's Spines
 				},
 			}),
@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 54.1, 49.1, KARESH },
 				["questID"] = 90583,
-				["g"] = {
+				["groups"] = {
 					i(239469),	-- Reshii Skirmisher's Pauldrons
 				},
 			}),
@@ -143,7 +143,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 76.7, 42.0, KARESH },
 				["questID"] = 90592,
-				["g"] = {
+				["groups"] = {
 					--- Junk item worth 50g. Only source of it for now.
 					i(246063),	-- Void-Polished Warpstalker Stone
 				},
@@ -157,7 +157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
 				["coord"] = { 49.5, 64.2, KARESH },
 				["questID"] = 91311,
-				["g"] = {
+				["groups"] = {
 					i(238664),	-- Crystallized Anima (QS!)
 					i(246240),	-- Devoured Energy-Pod
 				},
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(232111, {	-- The Nightreaver
 				["coord"] = { 52.7, 56.5, KARESH },
 				["questID"] = 90589,
-				["g"] = {
+				["groups"] = {
 					i(245254),	-- Duskthief (PET!)
 					i(239467),	-- Reshii Skirmisher's Cowl
 				},
@@ -174,7 +174,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 				--["coord"] = { ?, ?, KARESH_TAZAVESH },
 				["questID"] = 91312,
-				["g"] = {
+				["groups"] = {
 					i(238665),	-- Crystallized Anima (QS!)
 					i(246240),	-- Devoured Energy-Pod
 				},
@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 65.1, 50.0, KARESH },
 				["questID"] = 90584,
-				["g"] = {
+				["groups"] = {
 					i(239451),	-- Reshii Magi's Crown
 					i(239463),	-- Reshii Scout's Bracers
 				},
@@ -196,7 +196,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
-				["g"] = {
+				["groups"] = {
 					i(239479),	-- Reshii Brute's Vambraces
 				},
 			}),

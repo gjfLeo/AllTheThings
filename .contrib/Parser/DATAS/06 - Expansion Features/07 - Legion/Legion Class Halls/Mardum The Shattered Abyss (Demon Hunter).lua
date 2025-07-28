@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(DEMONHUNTER, bubbleDownSelf({ ["classes"] = { DEMONHUNTER } }, {
 			["maps"] = { MARDUM_THE_SHATTERED_ABYSS_UPPER_COMMAND_CENTER, MARDUM_THE_SHATTERED_ABYSS_LOWER_COMMAND_CENTER },
-			["g"] = {
+			["groups"] = {
 				n(FOLLOWERS, bubbleDownSelf({
 					["collectible"] = false,
 					["u"] = UNLEARNABLE,	-- Temporary troops
@@ -110,7 +110,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 41121,	-- By Any Means (Altruis)
 							["provider"] = { "n", 103156 },	-- Altruis the Sufferer
 							["maps"] = { 723 },	-- Violet Hold
-							["g"] = {
+							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -129,7 +129,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 39051,	-- By Any Means (Kayn)
 							["provider"] = { "n", 94902 },	-- Kayn Sunfury
 							["maps"] = { 723 },	-- Violet Hold
-							["g"] = {
+							["groups"] = {
 								i(127829, {	-- Twinblades of the Deceiver [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -198,7 +198,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 41807 },	-- Establishing a Connection
 							["provider"] = { "n", 99254 },	-- Altruis the Sufferer
 							["coord"] = { 74.9, 49.0, LEGION_DALARAN },
-							["g"] = {
+							["groups"] = {
 								i(128832, {	-- Aldrachi Warblades [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -217,7 +217,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 41807 },	-- Establishing a Connection
 							["provider"] = { "n", 99247 },	-- Kayn Sunfury
 							["coord"] = { 74.9, 49.0, LEGION_DALARAN },
-							["g"] = {
+							["groups"] = {
 								i(128832, {	-- Aldrachi Warblades [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -348,7 +348,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 57.9, 57.4, 720 },
 						["provider"] = { "n", 108239 },	-- Akama
 						["description"] = "This follower is only available if you sided with |cFFFFD700Altruis the Sufferer|r.",
-						["g"] = {
+						["groups"] = {
 							follower(718),	-- Champion: Akama
 						},
 					}),
@@ -356,7 +356,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42132 },	-- Last, But Not Least (must be in log)
 						["provider"] = { "n", 98648 },	-- Allari the Souleater
 						["coord"] = { 62.0, 49.2, 721 },
-						["g"] = {
+						["groups"] = {
 							follower(499),	-- Champion: Allari the Souleater
 						},
 					}),
@@ -365,7 +365,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108571 },	-- Altruis the Sufferer
 						["coord"] = { 58.6, 57.7, 720 },
 						["lvl"] = 101,
-						["g"] = {
+						["groups"] = {
 							follower(498),	-- Champion: Altruis the Sufferer
 						},
 					}),
@@ -377,7 +377,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108326 },	-- Asha Ravensong
 						["coord"] = { 56.2, 38.9, 720 },
 						["lvl"] = 101,
-						["g"] = {
+						["groups"] = {
 							follower(722),	-- Champion: Asha Ravensong
 						},
 					}),
@@ -386,7 +386,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108782 },	-- Belath Dawnblade
 						["coord"] = { 57.2, 51.4, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							follower(594),	-- Champion: Belath Dawnblade
 						},
 					}),
@@ -394,7 +394,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42132 },	-- Last, But Not Least (must be in log)
 						["provider"] = { "n", 98646 },	-- Jace Darkweaver
 						["coord"] = { 59.0, 73.5, 721 },
-						["g"] = {
+						["groups"] = {
 							follower(807),	-- Champion: Jace Darkweaver
 						},
 					}),
@@ -403,7 +403,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108572 },	-- Kayn Sunfury
 						["coord"] = { 59.1, 58.7, 720 },
 						["lvl"] = 101,
-						["g"] = {
+						["groups"] = {
 							follower(595),	-- Champion: Kayn Sunfury
 						},
 					}),
@@ -415,7 +415,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 103761 },	-- Kor'vas Bloodthorn
 						["coord"] = { 58.5, 56.4, 720 },
 						["lvl"] = 103,
-						["g"] = {
+						["groups"] = {
 							follower(721),	-- Champion: Kor'vas Bloodthorn
 						},
 					}),
@@ -424,7 +424,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117481 },	-- Lady S'theno
 						["coord"] = { 61.1, 55.4, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							follower(990),	-- Champion: Lady S'theno
 						},
 					}),
@@ -433,7 +433,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98632 },	-- Matron Mother Malevolence
 						["coord"] = { 59.0, 49.3, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							follower(720),	-- Champion: Matron Mother Malevolence
 						},
 					}),
@@ -446,7 +446,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 58.5, 56.4, 720 },
 						["lvl"] = 103,
 						["description"] = "This follower is only available if you sided with |cFFFFD700Kayn Sunfury|r.",
-						["g"] = {
+						["groups"] = {
 							follower(719),	-- Champion: Shade of Akama
 						},
 					}),
@@ -537,7 +537,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 58.5, 59.3, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							i(142056),	-- Arcanum of the Order
 							i(142058),	-- Fel Ward of the Order
 							i(142061),	-- Iron Will of the Order
@@ -660,7 +660,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45385 },	-- We Must be Prepared!
 						["provider"] = { "n", 117709 },	-- Lady S'theno
 						["coord"] = { 52.1, 21.3, BROKEN_SHORE },
-						["g"] = {
+						["groups"] = {
 							i(143918),	-- Stabilizing Crystal (QI!)
 						},
 					}),
@@ -823,7 +823,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 60.1, 50.8, 720 },
 						["maps"] = { 861 },	-- Mardum, the Shattered Abyss (scenario)
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							mount(229417, {	-- Slayer's Felbroken Shrieker (MOUNT!)
 									}),
 						},
@@ -836,7 +836,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 58.6, 58.8, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							i(139722),	-- Wristwraps of the Shattered Abyss
 						},
 					}),
@@ -883,7 +883,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 112407 },	-- Falara Nightsong
 						["coord"] = { 57.7, 44.2, 720 },
 						["lvl"] = 110,
-						["g"] = {
+						["groups"] = {
 							i(139718),	-- Helm of the Shattered Abyss
 						},
 					}),
@@ -898,10 +898,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["description"] = "They will fling you up in the air to flying demon Downfall.",
 							["coord"] = { 28.2, 70.2, SURAMAR },
 							["cost"] = {{ "i", 141409, 1}},	-- 1xCandrael's Charm
-							["g"] = {
+							["groups"] = {
 								n(111110, {	-- Downfall
 									["description"] = "If you are near him his winds will keep you aloft while you fight him.\nHe will occassionaly knock you back, make use of your glide ability and make sure you float back to (through) him, you will begin to float once you come near.\n\nWhen he dies his corpse will fall to the ground.",
-									["g"] = {
+									["groups"] = {
 										i(139549, {	-- Guise of the Deathwalker
 											artifact(982),	-- Twinblades of the Deceiver [Main Hand]
 											artifact(982),	-- Twinblades of the Deceiver [Off Hand]
@@ -935,7 +935,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							112388,	-- Thel'draz
 							112375,	-- Zaldrok
 						},
-						["g"] = {
+						["groups"] = {
 							i(139550, {	-- Bulwark of the Iron Warden
 								artifact(571),	-- Aldrachi Warblades [Main Hand]
 								artifact(571),	-- Aldrachi Warblades [Off Hand]
@@ -952,7 +952,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(VENDORS, {
 					n(116621, {	-- Demissya Gladestrider <Illidari Provisioner's Assistant>
 						["coord"] = { 59.3, 42.4, 720 },
-						["g"] = {
+						["groups"] = {
 							i(123960),	-- Charm of Demonic Fire
 							i(123959),	-- Demon Trophy
 							i(128950),	-- Demon-Rend Shoulderblades (A)
@@ -1003,7 +1003,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(112407, {	-- Falara Nightsong <Illidari Provisioner>
 						["coord"] = { 57.8, 43.5, 720 },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(147537, {	-- A Tiny Set of Warglaives (TOY!)
 								["description"] = "|c808080FAIn order to purchase the toy|r |c00FF96AFTiny Set of Warglaives|r|c808080FA, you must have completed the class mount quest|r |cFFFFD700To Fel and Back|r|c808080FA.\n|c808080FAOnce completed you have to unlock all 52 traits on either spec to be able purchase it.|r",
 								["cost"] = { { "c", 1220, 10000 }, },	-- 10,000x Order Resources

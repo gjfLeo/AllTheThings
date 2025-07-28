@@ -460,7 +460,7 @@ root(ROOTS.Zones, {
 									{ "i",  23343 },	-- Torn Pilgrim's Pack
 									{ "o", 184478 },	-- Torn Pilgrim's Pack
 								},
-								["coord"] = { 22.1, 68.5, HELLFIRE_PENINSULA }
+								["coord"] = { 22.1, 68.5, HELLFIRE_PENINSULA },
 							}),
 							i(25783),	-- Pilgrim's Cover
 							i(25781),	-- Segmented Breastplate
@@ -501,7 +501,7 @@ root(ROOTS.Zones, {
 									{ "i",  29501 },	-- Sha'naar Key
 									{ "o", 184466 },	-- Metal Coffer
 								},
-								["coord"] = { 14.3, 63.5, HELLFIRE_PENINSULA }
+								["coord"] = { 14.3, 63.5, HELLFIRE_PENINSULA },
 							}),
 						},
 					}),

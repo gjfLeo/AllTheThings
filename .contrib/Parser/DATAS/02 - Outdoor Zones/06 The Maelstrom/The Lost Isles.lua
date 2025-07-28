@@ -356,7 +356,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(52920),	-- Cardio-Extractor Gloves
 							i(131835, {	-- Cardio-Extractor Handguards
-								["timeline"] = { ADDED_7_0_3 }
+								["timeline"] = { ADDED_7_0_3 },
 							}),
 							i(52937),	-- Chip's Cloak
 							-- #if ANYCLASSIC
@@ -423,7 +423,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(52920),	-- Cardio-Extractor Gloves
 							i(131835, {	-- Cardio-Extractor Handguards
-								["timeline"] = { ADDED_7_0_3 }
+								["timeline"] = { ADDED_7_0_3 },
 							}),
 							i(52937),	-- Chip's Cloak
 							i(52965),	-- Heartache Dagger

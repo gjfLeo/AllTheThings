@@ -813,7 +813,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 								36928,	-- Dreadstone
 								36922,	-- King's Amber
 								36925,	-- Majestic Zircon
-							}
+							},
 						},
 					}),
 				},

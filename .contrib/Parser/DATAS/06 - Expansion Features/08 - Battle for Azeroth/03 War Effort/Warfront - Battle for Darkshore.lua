@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures,
 								["isRaid"] = true,
 								["isWeekly"] = true,
 								["isWorldQuest"] = true,
-								["g"] = {
+								["groups"] = {
 									i(166695),	-- Petrified Ironbark Crown
 									i(166687),	-- Warring Ancient's Mask
 									i(166691),	-- Forest Protector's Shoulderguards
@@ -46,7 +46,7 @@ root(ROOTS.ExpansionFeatures,
 								["isRaid"] = true,
 								["isWeekly"] = true,
 								["isWorldQuest"] = true,
-								["g"] = {
+								["groups"] = {
 									i(166696),	-- Petrified Ironbark Crown
 									i(166688),	-- Warring Ancient's Crown
 									i(166692),	-- Forest Protector's Shoulderguards
@@ -103,10 +103,10 @@ root(ROOTS.ExpansionFeatures,
 							147942,	-- Twilight Prophet Graeme
 							147664,	-- Zimkaga
 						},
-						["g"] = {
+						["groups"] = {
 							n(WEAPONS, {
 								["description"] = "Appearances from:\nDarkshore Rares/Treasures\nNormal Warfront Completion\nNormal Warfront Quest\nHeroic Warfront Quest",
-								["g"] = {
+								["groups"] = {
 									-- Alliance
 									i(164966, { ["timeline"] = { CREATED_8_1_0 }}),	-- Glade Warden's Glaive
 									i(166898),	-- Sentinel's Blade
@@ -139,7 +139,7 @@ root(ROOTS.ExpansionFeatures,
 							}),
 							n(BACK, {
 								["description"] = "Appearances from:\nDarkshore Rares/Treasures",
-								["g"] = {
+								["groups"] = {
 									-- Alliance
 									i(166758),	-- Moonpriest's Cloak
 									i(166759),	-- Darkwood Sentinel's Drape
@@ -154,7 +154,7 @@ root(ROOTS.ExpansionFeatures,
 							}),
 							n(ARMOR, {
 								["description"] = "Appearances from:\nDarkshore Rares/Treasures",
-								["g"] = {
+								["groups"] = {
 									-- Alliance
 									i(166572),	-- Moonpriest's Visor
 									i(165435),	-- Moonpriest's Coronet
@@ -257,7 +257,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 49.5, 25.1, DARKSHORE },
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166438),	-- Caged Bear (MOUNT!)
 							},
 						}),
@@ -266,7 +266,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54696,		-- Alash'anir [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 56.48, 30.73, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166432),	-- Ashenvale Chimaera (MOUNT!)
 							},
 						}),
@@ -289,7 +289,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 40.69, 73.23, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166449),	-- Darkshore Sentinel (PET!)
 								i(166803),	-- Umber Nightsaber (MOUNT!)
 							},
@@ -299,7 +299,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54279,		-- Athrikus Narassin [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 58.5, 24.2, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166784),	-- Narassin's Soul Gem (TOY!)
 							},
 						}),
@@ -309,7 +309,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 49.68, 24.94, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166428),	-- Blackpaw (MOUNT!)
 							},
 						}),
@@ -320,7 +320,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 41.5, 76.4, DARKSHORE },
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166449),	-- Darkshore Sentinel (PET!)
 								i(166788),	-- Twiddle Twirler: Shredder Blade (TOY!)
 							},
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 46.51, 86.14, DARKSHORE },
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166790),	-- Highborne Memento (TOY!)
 							},
 						}),
@@ -341,7 +341,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54427,		-- Commander Ralesh [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 37.96, 76.23, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166787),	-- Twiddle Twirler: Sentinel's Glaive (TOY!)
 							},
 						}),
@@ -350,7 +350,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54233,		-- Conflagros [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 39.07, 61.98, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166451),	-- Detective Ray (PET!)
 							},
 						}),
@@ -364,7 +364,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 50.79, 32.22, DARKSHORE },
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166437),	-- Captured Kaldorei Nightsaber (MOUNT!)
 							},
 						}),
@@ -373,7 +373,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54230,		-- Cyclarus [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 43.79, 53.75, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166448),	-- Gust of Cyclarus (PET!)
 							},
 						}),
@@ -391,7 +391,7 @@ root(ROOTS.ExpansionFeatures,
 								{ 45.01, 51.31, DARKSHORE },
 								{ 45.01, 67.01, DARKSHORE },
 							},
-							["g"] = {
+							["groups"] = {
 								i(166433),	-- Frightened Kodo (MOUNT!)
 							},
 						}),
@@ -412,7 +412,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54429,		-- Gren Tornfur [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 40.92, 56.43, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166785),	-- Detoxified Blight Grenade (TOY!)
 							},
 						}),
@@ -422,7 +422,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 50.72, 32.32, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166525, {	-- Nightwreathed Egg
 									i(166528),	-- Nightwreathed Watcher (PET!)
 								}),
@@ -433,7 +433,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54228,		-- Hydrath [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 52.51, 32.11, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166452),	-- Hydrath Droplet (PET!)
 							},
 						}),
@@ -455,7 +455,7 @@ root(ROOTS.ExpansionFeatures,
 								{ 64.39, 20.09, DARKSHORE },
 							},
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166434),	-- Captured Umber Nightsaber (MOUNT!)
 							},
 						}),
@@ -471,7 +471,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 45.17, 74.99, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166453),	-- Everburning Treant (PET!)
 							},
 						}),
@@ -482,7 +482,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 39.79, 32.94, DARKSHORE },
 							["description"] = "Only shows up when Alliance Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166525, {	-- Nightwreathed Egg
 									i(166528),	-- Nightwreathed Watcher (PET!)
 								}),
@@ -494,7 +494,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 32.98, 83.94, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166788),	-- Twiddle Twirler: Shredder Blade (TOY!)
 							},
 						}),
@@ -510,7 +510,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 39.79, 32.94, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								--i(166437),	-- Captured Kaldorei Nightsaber (MOUNT!) -- Possible it's a drop here; will need data
 								i(166435),	-- Kaldorei Nightsaber (MOUNT!)
 							},
@@ -526,7 +526,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54321,		-- Soggoth The Slitherer [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 40.57, 85.09, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166454),	-- Void Jelly (PET!)
 							},
 						}),
@@ -542,7 +542,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 62.12, 16.49, DARKSHORE },
 							["description"] = "Only shows up when Horde Controlled.",
-							["g"] = {
+							["groups"] = {
 								i(166790),	-- Highborne Memento (TOY!)
 							},
 						}),
@@ -551,7 +551,7 @@ root(ROOTS.ExpansionFeatures,
 							["hordeQuestID"] = 54398,		-- Twilight Prophet Graeme [Horde]
 							["isWeekly"] = true,
 							["coord"] = { 40.62, 82.72, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166455),	-- Zur'aj the Depleted (PET!)
 							},
 						}),
@@ -560,7 +560,7 @@ root(ROOTS.ExpansionFeatures,
 							["questID"] = 54274,
 							["isWeekly"] = true,
 							["coord"] = { 62.38, 9.84, DARKSHORE },
-							["g"] = {
+							["groups"] = {
 								i(166453),	-- Everburning Treant (PET!)
 							},
 						}),
@@ -643,7 +643,7 @@ root(ROOTS.ExpansionFeatures,
 						q(54841),	-- Orwell Stevenson (A)
 						q(54668),	-- Out of Their Mine (A)
 						q(54674, {	-- Prisoners of the Darkscale (A)
-							["g"] = {
+							["groups"] = {
 								i(166273),	-- Darkscale Key (QI!)
 							},
 						}),
@@ -667,7 +667,7 @@ root(ROOTS.ExpansionFeatures,
 						q(54797),	-- Alash'anir (H)
 						q(54795),	-- Aman (H)
 						q(54531, {	-- Anything We Can Salvage (H)
-							["g"] = {
+							["groups"] = {
 								i(166287),	-- Silver Dawning Salvage (QI!)
 							},
 						}),
@@ -693,7 +693,7 @@ root(ROOTS.ExpansionFeatures,
 						q(54802),	-- Mrggr'marr (H)
 						q(54792),	-- Onu (H)
 						q(54514, {	-- Prisoners of the Darkscale (H)
-							["g"] = {
+							["groups"] = {
 								i(166273),	-- Darkscale Key (QI!)
 							},
 						}),
@@ -737,7 +737,7 @@ root(ROOTS.ExpansionFeatures,
 							n(ACHIEVEMENTS, {	-- Achievements
 								ach(13310, {	-- By Nature's Call (A)
 									["races"] = ALLIANCE_ONLY,
-									["g"] = {
+									["groups"] = {
 										crit(43919),	-- Dryad
 										crit(43920),	-- Faerie Dragon
 										crit(43921),	-- Keeper of the Grove
@@ -745,7 +745,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								ach(13309, {	-- Deforester
 									["races"] = HORDE_ONLY,
-									["g"] = {
+									["groups"] = {
 										crit(43924),	-- Banshee
 										crit(43923),	-- AzerMEK Prototype
 										crit(43922),	-- Abomination
@@ -759,7 +759,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								ach(13305, {	-- Night Moves (A)
 									["races"] = ALLIANCE_ONLY,
-									["g"] = {
+									["groups"] = {
 										ach(13302, {	-- Under Cover of Darkness
 											["races"] = ALLIANCE_ONLY,
 										}),
@@ -774,7 +774,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								ach(13306, {	-- Night Moves (H)
 									["races"] = HORDE_ONLY,
-									["g"] = {
+									["groups"] = {
 										ach(13301, {	-- Under Cover of Darkness
 											["races"] = HORDE_ONLY,
 										}),
@@ -789,7 +789,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								ach(13308, {	-- Recruitment Officer (A)
 									["races"] = ALLIANCE_ONLY,
-									["g"] = {
+									["groups"] = {
 										crit(43911),	-- Kaldorei Archer
 										crit(43913),	-- Druid of the Branch
 										crit(43915),	-- Kaldorei Hunter
@@ -799,7 +799,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								ach(13307, {	-- Recruitment Officer (H)
 									["races"] = HORDE_ONLY,
-									["g"] = {
+									["groups"] = {
 										crit(43903),	-- Forsaken Alchemist
 										crit(43905),	-- Forsaken Lancer
 										crit(43907),	-- Forsaken Deathguard
@@ -821,7 +821,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 54.6, 20.8, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54049,	-- The Dead of Night
-									["g"] = {
+									["groups"] = {
 										i(166678),	-- Brynja's Beacon (TOY!)
 									},
 								}),
@@ -829,7 +829,7 @@ root(ROOTS.ExpansionFeatures,
 									["provider"] = { "n", 149418 },	-- Maiev Shadowsong
 									["races"] = ALLIANCE_ONLY,
 									["sourceQuest"] = 54871,	-- We Are Coming
-									["g"] = {
+									["groups"] = {
 										i(166525),	-- Nightwreathed Egg
 									},
 								}),
@@ -854,7 +854,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54042,	-- Trouble in Darkshore
-									["g"] = {
+									["groups"] = {
 										i(166544),	-- Dark Ranger's Spare Cowl (TOY!)
 									},
 								}),
@@ -995,7 +995,7 @@ root(ROOTS.ExpansionFeatures,
 									["sourceQuest"] = 53957,	-- Darkshore Recruits (A)
 									["races"] = ALLIANCE_ONLY,
 									["lvl"] = 120,
-									["g"] = {
+									["groups"] = {
 										spell(281872),	-- Flight Master's Whistle Upgrade: Warfronts
 									},
 								}),
@@ -1012,10 +1012,10 @@ root(ROOTS.ExpansionFeatures,
 									["sourceQuest"] = 54652,	-- The War Chest (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
-									["g"] = {
+									["groups"] = {
 										o(317402, {	-- Goblin Explosives
 											["coord"] = { 52.6, 56.4, 1332 },
-											["g"] = { i(166773) },	-- Goblin Explosives (QI!)
+											["groups"] = { i(166773) },	-- Goblin Explosives (QI!)
 										}),
 									},
 								}),
@@ -1025,7 +1025,7 @@ root(ROOTS.ExpansionFeatures,
 									["sourceQuest"] = 54652,	-- The War Chest (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 50,
-									["g"] = {
+									["groups"] = {
 										i(166387),	-- Freshly-Harvested Wood (QI!)
 										i(166713),	-- Sturdy Axe (QI!)
 									},
@@ -1077,7 +1077,7 @@ root(ROOTS.ExpansionFeatures,
 									-- ["sourceQuest"] = 54660,	-- Throwing Blight
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
-									["g"] = {
+									["groups"] = {
 										spell(281872),	-- Flight Master's Whistle Upgrade: Warfronts
 										i(166389),	-- Crankshot's Note (QI!)
 									},
@@ -1228,9 +1228,9 @@ root(ROOTS.ExpansionFeatures,
 									["provider"] = { "n", 142721 },	-- Ralston Karn <Recruitment Officer>
 									["coord"] = { 66.0, 26.0, BORALUS },
 									["_drop"] = { "g" },	-- bad API data
-									["g"] = {
+									["groups"] = {
 										i(166370, {	-- Sentinel Equipment Cache
-											["g"] = bubbleDown({ ["modID"] = 23 }, {
+											["groups"] = bubbleDown({ ["modID"] = 23 }, {
 												un(NEVER_IMPLEMENTED, i(164966)),	-- Glade Warden's Glaive
 												i(166898),	-- Sentinel's Blade
 												i(165628),	-- Sentinel's Branch
@@ -1301,9 +1301,9 @@ root(ROOTS.ExpansionFeatures,
 									["provider"] = { "n", 142721 },	-- Ralston Karn <Recruitment Officer>
 									["coord"] = { 66.0, 26.0, BORALUS },
 									["_drop"] = { "g" },	-- bad API data
-									["g"] = {
+									["groups"] = {
 										i(166370, {	-- Sentinel Equipment Cache
-											["g"] = bubbleDown({["modID"] = 6}, {
+											["groups"] = bubbleDown({["modID"] = 6}, {
 												-- ALLIANCE SET --
 												un(NEVER_IMPLEMENTED, i(164966)),	-- Glade Warden's Glaive
 												i(166898),	-- Sentinel's Blade
@@ -1516,9 +1516,9 @@ root(ROOTS.ExpansionFeatures,
 								q(57959, {	-- Heroic Warfront: The Battle for Darkshore
 									["provider"] = { "n", 138949 },	-- Throk <Recruitment Officer>
 									["coord"] = { 52.9, 94.3, DAZARALOR },
-									["g"] = {
+									["groups"] = {
 										i(166369, {	-- Deathguard Equipment Cache
-											["g"] = bubbleDown({ ["modID"] = 23 }, {
+											["groups"] = bubbleDown({ ["modID"] = 23 }, {
 												i(165614),	-- Apothecary Spellstaff
 												i(165608),	-- Blightspreader's Crescent
 												i(165622),	-- Deathguard's Blade
@@ -1596,9 +1596,9 @@ root(ROOTS.ExpansionFeatures,
 								q(53955, {	-- Warfront: The Battle for Darkshore [Tier 3]
 									["provider"] = { "n", 138949 },	-- Throk <Recruitment Officer>
 									["coord"] = { 52.97, 94.35, DAZARALOR },
-									["g"] = {
+									["groups"] = {
 										i(166369, {	-- Deathguard Equipment Cache
-											["g"] = bubbleDown({["modID"] = 6}, {
+											["groups"] = bubbleDown({["modID"] = 6}, {
 															-- HORDE SET --
 												i(165614),	-- Apothecary Spellstaff
 												i(165608),	-- Blightspreader's Crescent
@@ -1697,7 +1697,7 @@ root(ROOTS.ExpansionFeatures,
 								-- [ ] Heroic Quest (23) [Cloaks/Armor/Weapons]
 
 								["description"] = "These are obtained by winning the warfront and can be awarded multiple times a week.",
-								["g"] = bubbleDown({["modID"] = 3}, {
+								["groups"] = bubbleDown({["modID"] = 3}, {
 									-- ALLIANCE SET --
 									un(NEVER_IMPLEMENTED, i(164966)),	-- Glade Warden's Glaive
 									i(166898),	-- Sentinel's Blade

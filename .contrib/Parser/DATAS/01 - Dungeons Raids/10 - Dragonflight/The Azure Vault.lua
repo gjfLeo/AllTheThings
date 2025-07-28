@@ -22,7 +22,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					--["sourceQuests"] = { },	-- TODO
 					["provider"] = { "n", 186188 },	-- Sindragosa
 					["coord"] = { 39.5, 63.1, THE_AZURE_SPAN },
-					["timeline"] = { ADDED_10_1_0 }
+					["timeline"] = { ADDED_10_1_0 },
 				}),
 			}),
 			n(ZONE_DROPS, {

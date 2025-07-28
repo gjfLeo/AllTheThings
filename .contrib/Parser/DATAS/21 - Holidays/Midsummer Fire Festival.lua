@@ -394,7 +394,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
 						["timeline"] = { ADDED_10_2_7 },
 						["isDaily"] = true,
-						["g"] = {
+						["groups"] = {
 							i(224163, {	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor (MM!)
 								["timeline"] = { ADDED_10_2_7 },
 							}),

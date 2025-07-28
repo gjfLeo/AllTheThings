@@ -16,10 +16,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuests"] = { 84638 },	-- Trouble in the Highlands
 				["provider"] = { "n", 231748 },	-- Maggie Wiltshire
 				["coord"] = { 20.5, 39.6, 2372 },	-- Is it like 3rd version of Arathi?
-				["g"] = {
+				["groups"] = {
 					o(474102, {	-- Ellie
 						["coord"] = { 14.2, 41.9, 2372 },	-- Arathi Highlands
-						["g"] = { i(230000) },	-- Ellie (QI!)
+						["groups"] = { i(230000) },	-- Ellie (QI!)
 					}),
 				},
 			}),
@@ -27,14 +27,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuests"] = { 84638 },	-- Trouble in the Highlands
 				["provider"] = { "n", 230174 },	-- Walker Gresham
 				["coord"] = { 20.5, 39.3, 2372 },	-- Arathi Highlands
-				["g"] = {
+				["groups"] = {
 					o(474113, {	-- Barrel of Tar
 						["coords"] = {
 							{ 15.0, 42.7, 2372 },	-- Arathi Highlands
 							{ 17.0, 40.4, 2372 },	-- Arathi Highlands
 							{ 17.4, 41.1, 2372 },	-- Arathi Highlands
 						},
-						["g"] = { i(229094) },	-- Barrel of Tar (QI!)
+						["groups"] = { i(229094) },	-- Barrel of Tar (QI!)
 					}),
 					o(503465, {	-- Barrels of Tar
 						["coords"] = {
@@ -42,7 +42,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							{ 16.2, 39.9, 2372 },	-- Arathi Highlands
 							{ 16.6, 42.2, 2372 },	-- Arathi Highlands
 						},
-						["g"] = { i(229094) },	-- Barrel of Tar (QI!)
+						["groups"] = { i(229094) },	-- Barrel of Tar (QI!)
 					}),
 					i(229095),	-- Stolen Torches (QI!)
 				},
@@ -90,7 +90,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuests"] = { 84649 },	-- Marran Trollbane
 				["provider"] = { "n", 229940 },	-- Colonel Veronice Nials
 				["coord"] = { 17.5, 59.5, 2372 },
-				["g"] = {
+				["groups"] = {
 					i(235345),	-- Familiar Emblem (QI!)
 				},
 			}),
@@ -185,7 +185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuests"] = { 84711 },	-- Danath's Disappearance
 				["provider"] = { "n", 231829 },	-- Overlord Geya'rah
 				["coord"] = { 41.5, 61.6, 2372 },
-				["g"] = {
+				["groups"] = {
 					o(477883, {	-- Orcish Axe
 						["coord"] = { 42.1, 61.3, 2372 },
 					}),
@@ -205,7 +205,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["provider"] = { "n", 238012 },	-- Captain Roderick Brewston
 				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 17.7, 60.3, 2372 },
-				["g"] = {
+				["groups"] = {
 					i(231878), -- Articles of Proof (QI!)
 					i(231879), -- Defias Bandana (QI!)
 					i(231880), -- Orange Bandana (QI!)
@@ -219,7 +219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["provider"] = { "n", 238012 },	-- Captain Roderick Brewston
 				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 17.7, 60.3, 2372 },
-				["g"] = {
+				["groups"] = {
 					o(516416, {	-- Red Dawn Propaganda
 						["coord"] = { 15.2, 62.0, 2372 },
 					}),
@@ -245,7 +245,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["provider"] = { "n", 231832 },	-- Eitrigg
 				["races"] = HORDE_ONLY,
 				["coord"] = { 27.8, 25.6, 2372 },
-				["g"] = {
+				["groups"] = {
 					o(478203, {	-- Barracks Prison Key
 						["coord"] = { 28.0, 34.1, 2372 },
 					}),
@@ -268,7 +268,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["provider"] = { "n", 231833 },	-- Overlord Geya'rah
 				["races"] = HORDE_ONLY,
 				["coord"] = { 27.9, 25.7, 2372 },
-				["g"] = {
+				["groups"] = {
 					i(235999),	-- Bundle of Heavy Silk Bandages (QI!)
 					i(236001),	-- Cans of Loch Frenzy (QI!)
 					i(236000),	-- Pack of Heavy Armor Kits (QI!)
@@ -296,7 +296,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuestNumRequired"] = 1,	-- TODO: for horde it is 1 quest (84716) but for alliance it is up after 2 (84659 & 87299)
 				["provider"] = { "n", 231837 },	-- Faering Lothar
 				["coord"] = { 19.4, 59.1, 2372 },
-				["g"] = {
+				["groups"] = {
 					h(i(239135)),	-- Hammerfall Tabard (COSMETIC!)
 					a(i(239136)),	-- Stromgarde Tabard (COSMETIC!)
 				},
@@ -305,7 +305,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["sourceQuests"] = { 84717 },	-- Rise of the Red Dawn
 				["provider"] = { "n", 232986 },	-- Danath Trollbane
 				["coord"] = { 21.6, 65.0, 2372 },
-				["g"] = {
+				["groups"] = {
 					i(239137),	-- Lamplighter's Pauldrons (COSMETIC!)
 					a(ach(41818)),	-- Rise of the Red Dawn (A)
 					h(ach(41820)),	-- Rise of the Red Dawn (H)

@@ -95,7 +95,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61135 },	-- Heart of the Crest
 				["provider"] = { "n", 174177 },	-- Polemarch Adrestes
 				["coord"] = { 43.7, 66.6, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(180766),	-- Eternal Phalynx of Courage (MOUNT!)
 					i(180633),	-- Grubby (PET!)
 					i(181295),	-- Selfless Wings of the Ascended
@@ -140,7 +140,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61776 },	-- Trouble on the Western Front
 				["provider"] = { "n", 167810 },	-- Emeni
 				["coord"] = { 28.5, 37.5, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(180899),	-- Riding Hook (QI!)
 				},
 			}),
@@ -163,7 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 160037 },	-- Polemarch Adrestes
 				["coord"] = { 55.6, 42.0, ARCHONS_RISE },
 				["lockCriteria"] = { 1, "questID", 65147 },	-- No Ordinary Steward
-				["g"] = {
+				["groups"] = {
 					follower(1258),	-- Mikanikos
 				},
 			}),
@@ -177,7 +177,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58793 },	-- Faith Through the Darkness
 				["provider"] = { "n", 160037 },	-- Polemarch Adrestes
 				["coord"] = { 47.8, 53.6, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(178157),	-- Selfless Watcher's Legguards
 					i(177054),	-- Selfless Bearer's Legs
 					i(179944),	-- Selfless Forgelite's Breeches
@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58183 },	-- Friend to the Forgelite
 				["provider"] = { "n", 160280 },	-- Mikanikos
 				["coord"] = { 45.2, 56.7, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(180763),	-- Phalynx of Courage (MOUNT!)
 				},
 			}),
@@ -211,7 +211,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 168744 },	-- Artemede
 				["coord"] = { 35.1, 26.8, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(180845),	-- Stitchflesh Design (QI!)
 				},
 			}),
@@ -219,7 +219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58787 },	-- Trial of Ascension
 				["provider"] = { "n", 162542 },	-- Kleia
 				["coord"] = { 33.2, 26.1, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(174821),	-- Incense of Guidance (QI!)
 				},
 			}),
@@ -252,7 +252,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61877 },	-- Return to the Hold
 				["provider"] = { "n", 173313 },	-- Xandria
 				["coord"] = { 38.9, 59.8, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(182341),	-- Fleshshaper's Heart (QI!)
 				},
 			}),
@@ -271,7 +271,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61769 },	-- Fight and Flight
 				["provider"] = { "o", 357246 },	-- Tattered Scroll
 				["coord"] = { 33.5, 24.1, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(181285),	-- Abhorrent Design (QI!)
 				},
 			}),
@@ -283,7 +283,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 166333 },	-- Xandria
 				["coord"] = { 35.5, 26.4, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(177056),	-- Selfless Bearer's Waist
 					i(174295),	-- Selfless Collector's Girdle
 					i(179946),	-- Selfless Forgelite's Belt
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 62837 },	-- Hopeful News
 				["provider"] = { "n", 167745 },    -- Haephus
 				["coord"] = { 42.6, 53.1, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(177053),	-- Selfless Bearer's Hands
 					i(174292),	-- Selfless Collector's Gauntlets
 					i(179942),	-- Selfless Forgelite's Gloves
@@ -330,7 +330,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					{ "n", 163060 },	-- Willowblossom
 				},
 				["coord"] = { 50.5, 68.9, ARDENWEALD },
-				["g"] = {
+				["groups"] = {
 					i(174938),	-- Devourer Essence (QI!)
 					i(179941),	-- Selfless Forgelite's Boots
 					i(178155),	-- Selfless Watcher's Warboots
@@ -356,7 +356,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 156327 },	-- Voitha
 				["coord"] = { 66.0, 47.0, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(181291),	-- Selfless Sigil of the Archon
 				},
 			}),
@@ -369,7 +369,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58791 },	-- A Day in the Life
 				["provider"] = { "n", 162953 },	-- Sarah Howell
 				["coord"] = { 21.6, 42.0, REDRIDGE_MOUNTAINS },
-				["g"] = {
+				["groups"] = {
 					i(174935),	-- Rabbit Meat (QI!)
 				},
 			}),
@@ -378,7 +378,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 163650 },	-- Kleia
 				["coord"] = { 51.6, 47.7, ARCHONS_RISE },
 				["lockCriteria"] = { 1, "questID", 65168 },	-- My Wings Are Yours
-				["g"] = {
+				["groups"] = {
 					follower(1260),	-- Kleia
 				},
 			}),
@@ -398,7 +398,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					58832,	-- Trinkle Trinkle Little Twerp
 				},
 				["provider"] = { "n", 162679 },	-- Willowblossom
-				["g"] = {
+				["groups"] = {
 					i(174845),	-- Wreath of Night's Veil Flowers (QI!)
 				},
 			}),
@@ -414,7 +414,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58557 },	-- Assistance from Sinfall
 				["provider"] = { "n", 165011 },	-- Pelagos
 				["coord"] = { 50.6, 52.1, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174336),	-- Crimson Cravat (QI!)
 					i(176052),	-- Iron Skull Belt Buckle (QI!)
 					i(176055),	-- Lace-Up Bracers (QI!)
@@ -432,7 +432,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 160037 },	-- Polemarch Adrestes
 				["coord"] = { 55.6, 42.0, ARCHONS_RISE },
 				["_drop"] = { "g" },	-- fix Grubby showing up as a reward when it is not a reward for this quest
-				["g"] = {
+				["groups"] = {
 					i(180778),	-- Vessel of Ardenweald (QI!)
 				},
 			}),
@@ -443,7 +443,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 170375 },	-- Kleia
 				["coord"] = { 33.5, 56.4, THE_MAW },
-				["g"] = {
+				["groups"] = {
 					i(177051),	-- Selfless Bearer's Chest
 					i(174290),	-- Selfless Collector's Chestplate
 					i(179940),	-- Selfless Forgelite's Vest
@@ -454,7 +454,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58857 },	-- Seeds Away!
 				["provider"] = { "n", 163328 },	-- Pelagos
 				["coord"] = { 45.2, 65.4, ARDENWEALD },
-				["g"] = {
+				["groups"] = {
 					i(175153),	-- Vessel of Ardenweald (QI!)
 				},
 			}),
@@ -467,7 +467,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58175 },	-- The Eternal Forge
 				["provider"] = { "n", 160648 },	-- Sika
 				["coord"] = { 50.1, 20.6, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(173910),	-- Gracepetal Incense Burner (QI!)
 					i(173882),	-- Soulsteel Clamps (QI!)
 					i(173909),	-- Sparkling Driftglobe Core (QI!)
@@ -516,7 +516,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 166693 },	-- Polemarch Adrestes
 				["coord"] = { 67.4, 15.2, BASTION },
 				["_drop"] = { "g" },	-- make a bunch of vendor items stop showing up that are not actually rewarded by this quest
-				["g"] = LFR_WEAPON_GROUP,
+				["groups"] = LFR_WEAPON_GROUP,
 			}),
 			q(58951, {	-- Lakeshire's Last Stand
 				["sourceQuests"] = { 58950 },	-- Lumber for Lakeshire
@@ -532,7 +532,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58565 },	-- Land of Light
 				["provider"] = { "n", 161540 },	-- Kleia
 				["coord"] = { 31.9, 47.7, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174497),	-- Brushberry (QI!)
 				},
 			}),
@@ -543,7 +543,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 162953 },	-- Sarah Howell
 				["coord"] = { 21.6, 42.0, REDRIDGE_MOUNTAINS },
-				["g"] = {
+				["groups"] = {
 					i(174997),	-- Bundle of Lumber (QI!)
 				},
 			}),
@@ -576,7 +576,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58787 },	-- Trial of Ascension
 				["provider"] = { "n", 162544 },	-- Achillon
 				["coord"] = { 33.2, 26.2, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(177058),	-- Selfless Bearer's Cloak
 					i(174297),	-- Selfless Collector's Greatcloak
 					i(179948),	-- Selfless Forgelite's Drape
@@ -589,7 +589,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 58.7, 36.2, SANCTUM_OF_BINDING },
 				["timeline"] = { ADDED_9_1_5 },
 				["lockCriteria"] = { 1, "questID", 58797 },	-- Forged by Trial
-				["g"] = {
+				["groups"] = {
 					follower(1260),	-- Kleia
 				},
 			}),
@@ -603,7 +603,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 59.5, 37.4, SANCTUM_OF_BINDING },
 				["timeline"] = { ADDED_9_1_5 },
 				["lockCriteria"] = { 1, "questID", 59919 },	-- An Earned Bond
-				["g"] = {
+				["groups"] = {
 					follower(1258),	-- Mikanikos
 				},
 			}),
@@ -631,7 +631,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58557 },	-- Assistance from Sinfall
 				["provider"] = { "n", 161544 },	-- The Curator
 				["coord"] = { 60.3, 60.8, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(176083),	-- A Personal Affront (QI!)
 					i(176082),	-- Inane Drabblings (QI!)
 					i(176084),	-- List of Demands (QI!)
@@ -651,7 +651,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 160280 },	-- Mikanikos
 				["coord"] = { 50.1, 20.5, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(174061),	-- Phaestus, Genesis of Aeons (QI!)
 					i(177057),	-- Selfless Bearer's Wrists
 					i(174296),	-- Selfless Collector's Wristguards
@@ -677,7 +677,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61781 },	-- The End is Now
 				["provider"] = { "n", 172002 },	-- Xandria
 				["coord"] = { 31.7, 30.3, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(177055),	-- Selfless Bearer's Shoulders
 					i(174294),	-- Selfless Collector's Spaulders
 					i(179945),	-- Selfless Forgelite's Spaulders
@@ -688,7 +688,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58175 },	-- The Eternal Forge
 				["provider"] = { "n", 160280 },	-- Mikanikos
 				["coord"] = { 50.1, 20.5, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(173880),	-- Purified Metal (QI!)
 					i(173879),	-- Tainted Centurion Component (QI!)
 				},
@@ -745,7 +745,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 57114 },	-- Aerial Reconnaissance
 				["provider"] = { "n", 156327 },	-- Voitha
 				["coord"] = { 66.0, 47.0, BASTION },
-				["g"] = {
+				["groups"] = {
 					i(170550),	-- Sacred Scroll (QI!)
 				},
 			}),
@@ -762,7 +762,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 161540 },	-- Kleia
 				["coord"] = { 56.3, 41.4, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174359),	-- Shard of the Countess (QI!)
 					i(174374),	-- Shard of the Countess (QI!)
 					i(174375),	-- Shard of the Countess (QI!)
@@ -772,7 +772,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58563 },	-- Through Glass
 				["provider"] = { "n", 161544 },	-- The Curator
 				["coord"] = { 77.8, 39.6, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174454),	-- The Countess's Sinstone (QI!)
 				},
 			}),
@@ -800,7 +800,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 57898 },	-- Soul Meets Body
 				["provider"] = { "n", 160212 },	-- Soulguide Daelia
 				["coord"] = { 59.5, 34.2, SANCTUM_OF_BINDING },
-				["g"] = appendGroups(CONDUIT_GROUP, {
+				["groups"] = appendGroups(CONDUIT_GROUP, {
 					i(181974),	-- Courageous Ascension
 					i(182321),	-- Enfeebled Mark
 					i(182345),	-- Elysian Dirge
@@ -829,7 +829,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 61782 },	-- Pursuit of Justice
 				["provider"] = { "n", 173193 },	-- Xandria
 				["coord"] = { 31.0, 29.1, MALDRAXXUS },
-				["g"] = {
+				["groups"] = {
 					i(182334),	-- Fleshshaper's Heart (QI!)
 				},
 			}),
@@ -840,7 +840,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 165110 },	-- Pelagos
 				-- no coords, is your 'pet'
-				["g"] = {
+				["groups"] = {
 					i(176446),	-- Ripened Anima Seed (QI!)
 				},
 			}),
@@ -868,7 +868,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 161553 },	-- Mindscorched Alwin
 				["coord"] = { 39.9, 59.0, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174498),	-- Seal of Contrition (QI!)
 				},
 			}),
@@ -901,7 +901,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58570 },	-- Parting Words
 				["provider"] = { "n", 162149 },	-- Mikanikos
 				["coord"] = { 45.7, 56.5, ARCHONS_RISE },
-				["g"] = {
+				["groups"] = {
 					i(174498),	-- Seal of Contrition (QI!)
 					i(177050),	-- Selfless Bearer's Head
 					i(174289),	-- Selfless Collector's GreatHelm
@@ -928,7 +928,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 				["provider"] = { "n", 161544 },	-- The Curator
 				["coord"] = { 55.2, 34.7, REVENDRETH },
-				["g"] = {
+				["groups"] = {
 					i(174382),	-- Death Lotus Powder (QI!)
 					i(174454),	-- The Countess's Sinstone (QI!)
 					i(181286),	-- Halo of the Selfless
@@ -961,7 +961,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					161878, -- Sicklethorn Slicer
 					163363,	-- Sicklethorn Zapper
 				},
-				["g"] = {
+				["groups"] = {
 					i(175982),	-- Sicklethorn To-Do List (QI!)
 				},
 			}),
@@ -978,7 +978,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58951 },	-- Lakeshire's Last Stand
 				["provider"] = { "n", 162558 },	-- Alithea
 				["coord"] = { 32.5, 39.7, REDRIDGE_MOUNTAINS },
-				["g"] = {
+				["groups"] = {
 					i(175011),	-- Vesper of Veilflight (QI!)
 				},
 			}),
@@ -986,7 +986,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 58775 },	-- Meet the Queen
 				["provider"] = { "n", 162392 },	-- Willowblossom
 				["coord"] = { 44.0, 51.8, ARDENWEALD },
-				["g"] = {
+				["groups"] = {
 					i(174843),	-- Sicklethorn Trickster Powder (QI!)
 				},
 			}),

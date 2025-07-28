@@ -91,7 +91,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70215 },	-- Curiosity is Key
 					["provider"] = { "n", 189764 },	-- Warpcaster Delandra
 					["coord"] = { 45.9, 40.7, THE_AZURE_SPAN },
-					["g"] = {
+					["groups"] = {
 						i(198605),	-- Energized Arcana Vessel
 						i(192448),	-- Imbued Arcana Vessel
 					},
@@ -106,7 +106,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 189764 },	-- Warpcaster Delandra
 					["coord"] = { 48.6, 30.3, THE_AZURE_SPAN },
 					--["timeline"] = { REMOVED_10_2_6 },	-- TODO: Is this removed?
-					["g"] = {
+					["groups"] = {
 						ach(16291),	-- An Ancient Awakening
 						i(198858),	-- Energized Arcana Vessel
 						crit(54646, {	-- Cobalt Assembly
@@ -122,7 +122,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 189764 },	-- Warpcaster Delandra
 					["coord"] = { 48.6, 30.3, THE_AZURE_SPAN },
 					["timeline"] = { ADDED_10_2_6 },
-					["g"] = {
+					["groups"] = {
 						--[[	-- TODO: Is this a replacement quest of the original one? (questID 70156)
 						ach(16291),	-- An Ancient Awakening
 						i(198858),	-- Energized Arcana Vessel
@@ -163,7 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(200527),	-- Enchanted Arcana Vessel
 						crit(54641, {	-- Rusza'thar Reach
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -185,7 +185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(200556),	-- Enchanted Arcana Vessel
 						crit(54645, {	-- Skytop Observatory
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -207,7 +207,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(200557),	-- Enchanted Arcana Vessel
 						crit(54639, {	-- Vakthros
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -229,7 +229,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(200558),	-- Enchanted Arcana Vessel
 						crit(54642, {	-- Algeth'era
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -251,7 +251,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(200560),	-- Enchanted Arcana Vessel
 						crit(54640, {	-- Eon's Fringe
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -273,7 +273,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
 					["description"] = "Spawns Anywhere on Dragon Isles. \n\nIn order to complete all of the Doc Nanners |cffffff00Continued Waygate Exploration|r breadcrumbs, you MUST complete the Waygate Unlocks on one character. If you use Alts, the breadcrumbs will repeat, locking you out of the last few in the sequence, depending on the number of Waygates opened by an Alt.",
-					["g"] = {
+					["groups"] = {
 						i(199556),	-- Enchanted Arcana Vessel
 						crit(54643, {	-- Shady Sanctuary
 							["achievementID"] = 16292,	-- Mastering the Waygates
@@ -359,7 +359,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["DisablePartySync"] = true,
 					["isBreadcrumb"] = true,
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS, VALDRAKKEN },
-					["g"] = {
+					["groups"] = {
 						i(200596),	-- Letter from Thaelin Darkanvil
 					},
 				}),
@@ -371,7 +371,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 189066 },	-- Thaelin Darkanvil
 					["coord"] = { 47.2, 90.3, THE_WAKING_SHORES },
 					["DisablePartySync"] = true,
-					["g"] = {
+					["groups"] = {
 						i(204438),	-- Enchanted Arcana Vessel
 					},
 				})),

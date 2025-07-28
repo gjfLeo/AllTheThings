@@ -348,7 +348,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(33847),	-- Epoch Hunter's Head
 						},
 					}),
-				}
+				},
 			}),
 		},
 	})),

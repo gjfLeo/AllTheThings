@@ -88,7 +88,7 @@ root(ROOTS.Zones, {
 						["providers"] = {
 							{ "n", 69200 },	-- Drakkari God-Hulk
 							{ "o", 218059 },	-- Zandalari Potion
-						}
+						},
 					}),
 					ach(8104),	-- Thunder Plunder
 					ach(8108, {	-- When in Ihgaluk, Do as the Skumblade Do

@@ -6,14 +6,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
 			["maps"] = { THE_WANDERING_ISLE },
-			["g"] = {
+			["groups"] = {
 				n(ARTIFACTS, {
 					cl(MONK, BREWMASTER, {
 						gt(254, {	-- Brewhouse
 							["description"] = "Click this once per day.",
 							["questID"] = 43974,
 							["coord"] = { 55, 56.5, THE_WANDERING_ISLE },
-							["g"] = {
+							["groups"] = {
 								i(139561, {	-- Legend of the Monkey King
 									artifact(959),	-- Fu Zan, the Wanderer's Companion
 								}),
@@ -120,7 +120,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42762 },	-- The Wanderer's Companion
 							["provider"] = { "n", 108700 },	-- The Monkey King
 							["coord"] = { 41.6, 27.4, THE_JADE_FOREST },
-							["g"] = {
+							["groups"] = {
 								i(138477),	-- Pure Water Core (QI!)
 								i(173703),	-- Purity Jug (QI!)
 							},
@@ -134,7 +134,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42762 },	-- The Wanderer's Companion
 							["provider"] = { "n", 108700 },	-- The Monkey King
 							["coord"] = { 41.6, 27.4, THE_JADE_FOREST },
-							["g"] = {
+							["groups"] = {
 								i(173704, {	-- Granary Jug (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
@@ -149,7 +149,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["provider"] = { "n", 109049 },	-- The Monkey King
 							["maps"] = { VALLEY_OF_THE_FOUR_WINDS },
-							["g"] = {
+							["groups"] = {
 								i(173706, {	-- Jade Jug (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
@@ -165,7 +165,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 109187 },	-- The Monkey King
 							["coord"] = { 55.4, 58.3, THE_JADE_FOREST },
 							["maps"] = { 791, 792 },	-- Temple of the Jade Serpent (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(128938, {	-- Fu Zan, the Wanderer's Companion
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -186,7 +186,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 							["coord"] = { 51.4, 48.4, THE_WANDERING_ISLE },
 							["maps"] = { 728 },	-- Terrace of Endless Spring (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(128937, {	-- Sheilun, Staff of the Mists
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -216,14 +216,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 40633 },	-- Off To Adventure!
 							["provider"] = { "n", 47684 },	-- King Phaoris
 							["coord"] = { 54.9, 32.8, ULDUM },
-							["g"] = { i(132560) },	-- Essence of the Whirlwind (QI!)
+							["groups"] = { i(132560) },	-- Essence of the Whirlwind (QI!)
 						}),
 						q(40570, {	-- Into The Heavens
 							["sourceQuests"] = { 40634 },	-- Thunder on the Sands
 							["provider"] = { "n", 47684 },	-- King Phaoris
 							["coord"] = { 54.9, 32.8, ULDUM },
 							["maps"] = { 716 },	-- Skywall (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(132745),	-- Essence of the Whirlwind (QI!)
 								i(128940, {	-- Fists of the Heavens [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
@@ -249,7 +249,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 112338 },	-- Caydori Brightstar
 						["coord"] = { 50.3, 59.0, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							i(139734),	-- Grandmaster's Crown
 						},
 					}),
@@ -297,7 +297,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42187 },	-- Rise, Champions
 						["provider"] = { "n", 102820 },	-- Chen Stormstout
 						["coord"] = { 55.2, 57.1, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(596),	-- Chen Stormstout
 						},
 					}),
@@ -305,7 +305,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42187 },	-- Rise, Champions
 						["provider"] = { "n", 101046 },	-- Li Li Stormstout
 						["coord"] = { 49.1, 58.6, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(588),	-- Li Li Stormstout
 						},
 					}),
@@ -337,7 +337,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42191 },	-- Tech It Up a Notch
 						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.5, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							i(140483),	-- Jade Fragment
 						},
 					}),
@@ -375,7 +375,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41732 },	-- The Hand of Keletress
 						["provider"] = { "n", 104744 },	-- High Elder Cloudfall
 						["coord"] = { 45.4, 25.0, THE_JADE_FOREST },
-						["g"] = {
+						["groups"] = {
 							artifact(342),	-- Fu Zan, the Wanderer's Companion
 							artifact(511),	-- Sheilun, Staff of the Mists
 							artifact(530),	-- Fists of the Heavens [Main Hand]
@@ -391,7 +391,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43319 },	-- The Way of the Tiger
 						["provider"] = { "n", 104984 },	-- Taran Zhu <Lord of the Shado-Pan>
 						["coord"] = { 51.1, 49.5, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(603),	-- Taran Zhu
 						},
 					}),
@@ -399,7 +399,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43319 },	-- The Way of the Tiger
 						["provider"] = { "n", 102902 },	-- The Monkey King
 						["coord"] = { 51.1, 49.5, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(602),	-- The Monkey King
 						},
 					}),
@@ -480,7 +480,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 105152 },	-- Hiro
 						["maps"] = { STORMHEIM },
-						["g"] = {
+						["groups"] = {
 							i(139738),	-- Grandmaster's Cuffs
 						},
 					}),
@@ -488,7 +488,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
 						["provider"] = { "n", 105058 },	-- Hiro
 						["coord"] = { 51.8, 49.6, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(606),	-- Hiro
 						},
 					}),
@@ -496,7 +496,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
 						["provider"] = { "n", 105056 },	-- Sylara Steelsong
 						["coord"] = { 51.8, 49.6, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(604),	-- Sylara Steelsong
 						},
 					}),
@@ -504,7 +504,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41854 },	-- Brick by Brick
 						["provider"] = { "n", 105046 },	-- Angus Ironfist
 						["coord"] = { 51.8, 49.6, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(605),	-- Angus Ironfist
 						},
 					}),
@@ -522,7 +522,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41038 },	-- The Mead Master
 						["provider"] = { "n", 102843 },	-- Aegira
 						["coord"] = { 62.1, 20.2, STORMHEIM },
-						["g"] = {
+						["groups"] = {
 							i(133995),	-- Storm Brew Recipe (QI!)
 						},
 					}),
@@ -540,7 +540,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41039 },	-- Stolen Knowledge
 						["provider"] = { "n", 102996 },	-- Aegira (Broken Temple Brewmaster)
 						["maps"] = { STORMHEIM },
-						["g"] = {
+						["groups"] = {
 							i(139033),	-- Amaranthine Hops (QI!)
 						},
 					}),
@@ -573,7 +573,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 32442 },	-- Impending Danger
 						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.4, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							title(329),	-- Grandmaster <Name>
 							i(139731),	-- Grandmaster's Tunic
 							i(142056),	-- Arcanum of the Order
@@ -594,7 +594,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							{ 31.1, 40.5, THE_WANDERING_ISLE },	-- Next to Storm Brew turn-in
 							{ 55.3, 57.3, THE_WANDERING_ISLE },	-- If you leave Storm Brew turn-in area without doing this quest
 						},
-						["g"] = {
+						["groups"] = {
 							follower(607),	-- Aegira
 						},
 					}),
@@ -602,7 +602,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41087 },	-- Storm Brew
 						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.5, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							artifact(337),	-- Fu Zan, the Wanderer's Companion
 							artifact(512),	-- Sheilun, Staff of the Mists
 							artifact(533),	-- Fists of the Heavens [Main Hand]
@@ -655,7 +655,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117305 },	-- Brewmaster Almai
 						["coord"] = { 53.6, 53.3, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(146312),	-- Demonic Ash (QI!)
 							i(146311),	-- Flask of Fel Blood (QI!)
 							i(146310),	-- Vial of Liquid Felflame (QI!)
@@ -666,7 +666,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117305 },	-- Brewer Almai
 						["coord"] = { 53.6, 53.3, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = { i(146308) },	-- Barrel of Storm Brew (QI!)
+						["groups"] = { i(146308) },	-- Barrel of Storm Brew (QI!)
 					}),
 					q(45449, {	-- Alchemist Koryla
 						["sourceQuests"] = { 45459 },	-- Storming the Legion
@@ -700,7 +700,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45771 },	-- A Time for Everything
 						["provider"] = { "n", 117504 },	-- Brewer Almai
 						["coord"] = { 51.6, 48.5, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							follower(998),	-- Brewer Almai
 						},
 					})),
@@ -733,7 +733,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 120744 },	-- Smelly Mountaintop
 						["coord"] = { 47.9, 49.0, KUN_LAI_SUMMIT },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(147314),	-- Part of Smelly's Luckydo (QI!)
 						},
 					}),
@@ -760,7 +760,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 120726 },	-- Waterspeaker Ryuli
 						["coord"] = { 74.4, 88.7, KUN_LAI_SUMMIT },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(147313),	-- Moon Lily (QI!)
 						},
 					}),
@@ -768,7 +768,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 46349 },	-- Lilies for Ryuli
 						["provider"] = { "n", 120726 },	-- Waterspeaker Ryuli
 						["coord"] = { 73.9, 88.9, KUN_LAI_SUMMIT },
-						["g"] = {
+						["groups"] = {
 							mount(229385),	-- Ban-Lu, Grandmaster's Companion (MOUNT!)
 						},
 					})),
@@ -817,7 +817,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(112338, {	-- Caydori Brightstar <Purveyor of Rare Goods>
 						["coord"] = { 50.3, 59.0, THE_WANDERING_ISLE },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(140543),	-- Fist of the Broken Temple
 							i(140940, {	-- Grandmaster's Armor Kit
 								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
@@ -859,7 +859,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					n(99154, {	-- Mei Chele
 						["coord"] = { 54.9, 62.4, THE_WANDERING_ISLE },
-						["g"] = {
+						["groups"] = {
 							i(147542, {	-- Ban-Fu, Cub of Ban-Lu (PET!)
 								["sourceQuest"] = 46350,	-- The Trial of Ban-Lu
 								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources

@@ -98,11 +98,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(DRUID, bubbleDownSelf({ ["classes"] = { DRUID } }, {
 			["maps"] = { THE_DREAMGROVE },
-			["g"] = {
+			["groups"] = {
 				o(253161, {	-- Grove Vine
 					["classes"] = { DRUID },
 					["description"] = "|c808080FAThese pets are obtained by picking them from the|r |cFFFFD700Evergreen|r |c808080FAclass hall ability that druids get on Tier 2.\nOnce the ability is learned you will gain access to two plots where you grow plants every three days and it will randomly pick amongst six plots.  When Grove Vine spawns it has a chance for these two pets.|r",
-					["g"] = {
+					["groups"] = {
 						i(139554, {	-- Acorn of the Endless
 							artifact(62),	-- Restoration Druid Hidden Artifact Appearance
 						}),
@@ -174,7 +174,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 101195 },	-- Rensar Greathoof
 						["coord"] = { 44.7, 52.0, THE_DREAMGROVE },
 						["sourceQuests"] = { 42056 },	-- Champion: Remulos
-						["g"] = {
+						["groups"] = {
 							spell(219663) -- Heroic Weapons [No item associated]
 						},
 					}),
@@ -182,7 +182,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106250 },	-- Keeper Remulos
 						["coord"] = { 60.5, 23.6, MOUNT_HYJAL },
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
-						["g"] = {
+						["groups"] = {
 							i(139730),	-- Bracers of the Dreamgrove
 						},
 					}),
@@ -190,7 +190,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 44663 },	-- In the Blink of an Eye
 						["provider"] = { "n", 101061 },	-- Archdruid Hamuul Runetotem
 						["coord"] = { 57.8, 45.8, LEGION_DALARAN },
-						["g"] = {
+						["groups"] = {
 							i(173716),	-- Mossy Hearthstone (QI!)
 						},
 					}),
@@ -264,7 +264,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							43365,	-- The Cycle Continues
 							42129,	-- The Pendant of Starlight
 						},
-						["g"] = {
+						["groups"] = {
 							follower(645),	-- Brightwing
 						},
 					}),
@@ -273,7 +273,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106091 },	-- Broll Bearmantle
 						["coord"] = { 49.0, 47.1, THE_DREAMGROVE },
 						["sourceQuests"] = { 42036 },	-- Idol of the Wilds
-						["g"] = {
+						["groups"] = {
 							follower(641),	-- Broll Bearmantle
 						},
 					}),
@@ -282,7 +282,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 107025 },	-- Archdruid Hamuul Runetotem
 						["coord"] = { 47.9, 55.4, THE_DREAMGROVE },
 						["sourceQuests"] = { 42046 },	-- A New Beginning
-						["g"] = {
+						["groups"] = {
 							follower(643),	-- Archdruid Hamuul Runetotem
 						},
 					}),
@@ -291,7 +291,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 107026 },	-- Mylune
 						["coord"] = { 53.7, 51.0, THE_DREAMGROVE },
 						["sourceQuests"] = { 42046 },	-- A New Beginning
-						["g"] = {
+						["groups"] = {
 							follower(644),	-- Mylune
 						},
 					}),
@@ -299,7 +299,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 103778 },	-- Naralex
 						["coord"] = { 67.2, 75.8, THE_DREAMGROVE },
-						["g"] = {
+						["groups"] = {
 							follower(639),	-- Naralex
 						},
 					}),
@@ -307,7 +307,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 103832 },	-- Keeper Remulos
 						["coord"] = { 44.6, 50.2, THE_DREAMGROVE },
 						["sourceQuests"] = { 42055 },	-- The Demi-God's Return
-						["g"] = {
+						["groups"] = {
 							follower(646),	-- Keeper Remulos
 						},
 					}),
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106093 },	-- Sylendra Gladesong
 						["coord"] = { 49.0, 46.8, THE_DREAMGROVE },
 						["sourceQuests"] = { 42036 },	-- Idol of the Wilds
-						["g"] = {
+						["groups"] = {
 							follower(642),	-- Sylendra Gladesong
 						},
 					}),
@@ -324,7 +324,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
 						["coord"] = { 44.4, 51.5, THE_DREAMGROVE },
 						["sourceQuests"] = { 45425 },	-- Grovebound
-						["g"] = {
+						["groups"] = {
 							follower(999),	-- Thisalee Crow
 						},
 					}),
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42583 },	-- Rise, Champions
 						["provider"] = { "n", 98013 },	-- Zen'tabra
 						["coord"] = { 47.3, 7.5, THE_DREAMGROVE },
-						["g"] = {
+						["groups"] = {
 							follower(640),	-- Zen'tabra
 						},
 					}),
@@ -345,7 +345,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41690 },	-- Reconvene
 						["provider"] = { "n", 104577 },	-- Lyessa Bloomwatcher
 						["coord"] = { 45.2, 51.9, THE_DREAMGROVE },
-						["g"] = {
+						["groups"] = {
 							title(332),	-- <Name>, Guardian of G'Hanir
 							i(128306, {	-- G'Hanir, the Mother Tree
 								["ItemAppearanceModifierID"] = 9,
@@ -488,7 +488,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41449 },	-- Join the Dreamer
 						["provider"] = { "n", 104349 },	-- Naralex
 						["coord"] = { 39.6, 18.2, VALSHARAH },	-- technically Dreamgrove, but inside the barrow den the mapID changes
-						["g"] = {
+						["groups"] = {
 							i(135582),	-- Corrupted G'Hanir, the Mother Tree
 						},
 					}),
@@ -657,7 +657,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98008 },	-- Brightwing
 						["coord"] = { 39.6, 45.5, 715 },
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
-						["g"] = {
+						["groups"] = {
 							i(139380),	-- Dream Seeds (QI!)
 						},
 					}),
@@ -665,7 +665,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 40837 },	-- The Deadwind Hunt
 						["provider"] = { "n", 100812 },	-- Revil Kost
 						["coord"] = { 46.9, 69.5, DEADWIND_PASS },
-						["g"] = {
+						["groups"] = {
 							i(128858, {	-- Scythe of Elune
 								["ItemAppearanceModifierID"] = 9,
 								["groups"] = {
@@ -683,7 +683,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 106905 },	-- Malorne
 						["coord"] = { 66.1, 66.8, 760 },
 						["sourceQuests"] = { 42054 },	-- Call of the Wilds
-						["g"] = {
+						["groups"] = {
 							i(139723),	-- Robes of the Dreamgrove
 							title(327),	-- Archdruid <Name>
 						},
@@ -707,7 +707,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 42440 },	-- The Shrine in Peril
 						["provider"] = { "n", 107392 },	-- Delandros Shimmermoon
 						["coord"] = { 73.8, 38.4, VALSHARAH },
-						["g"] = {
+						["groups"] = {
 							i(128860, {	-- Fangs of Ashamane
 								["ItemAppearanceModifierID"] = 9,
 								["groups"] = {
@@ -741,7 +741,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					--	["sourceQuests"] = { },	--
 						["provider"] = { "n", 112323 },	-- Amurra Thistledew
 						["coord"] = { 40.0, 24.8, THE_DREAMGROVE },
-						["g"] = {
+						["groups"] = {
 							i(139726),	-- Hood of the Dreamgrove
 						},
 					}),
@@ -829,7 +829,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["coord"] = { 43.5, 58.3, BROKEN_SHORE },
 						["sourceQuests"] = { 46674 },	-- The Preservation of Nature
-						["g"] = {
+						["groups"] = {
 							i(147282),	-- Impsorrow Missive (QI!)
 						},
 					}),
@@ -856,7 +856,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["maps"] = {
 							757,	-- Ursoc's Lair
 						},
-						["g"] = {
+						["groups"] = {
 							i(128821, {	-- Claws of Ursoc
 								["ItemAppearanceModifierID"] = 9,
 								["groups"] = {
@@ -898,7 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(46319, {	-- You Can't Take the Sky from Me
 						["sourceQuests"] = { 46318 },	-- Defense of Aviana
 						["provider"] = { "n", 106299 },	-- Thisalee Crow
-						["g"] = {
+						["groups"] = {
 							mount(231437),	-- Archdruid's Lunarwing Form (MOUNT!)
 							mount(241857),	-- Archdruid's Lunarwing Form (MOUNT!)
 						},
@@ -936,7 +936,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					--]]
 				}),
 				n(98000, {	-- Scouting Map
-					["g"] = {
+					["groups"] = {
 						i(139420),	-- Wild Mushroom
 					},
 					["achievementID"] = 11217,
@@ -945,7 +945,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(TREASURES, {
 					o_repeated({	-- Spirit Berries
 						["coord"] = { 45.6, 63.7, THE_DREAMGROVE },
-						["g"] = {
+						["groups"] = {
 							o(253157),	-- Spirit Berries
 							o(253183),	-- Spirit Berries
 							i(140347),	-- Spirit Berries
@@ -957,7 +957,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(112323, {	-- Amurra Thistledew <Proprietor>
 						["coord"] = { 40.0, 24.8, THE_DREAMGROVE },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(139728, {	-- Amice of the Dreamgrove
 								["cost"] = 5000000,	-- 500g
 							}),
@@ -1004,7 +1004,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				}),
 				m(715, bubbleDown({["classes"] = { DRUID }},{	-- Emerald Dreamway
 					["icon"] = 135745,	-- Dream Portal Icon
-					["g"] = {
+					["groups"] = {
 						n(DAILY_DREAMWAY_EVENT_ROLL, {
 							["questID"] = 44326,	-- "daily dreamway event roll" on WoWHead
 							["isDaily"] = true,

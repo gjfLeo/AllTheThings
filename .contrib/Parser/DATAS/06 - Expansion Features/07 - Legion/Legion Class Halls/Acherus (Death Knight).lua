@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(DEATHKNIGHT, bubbleDownSelf({ ["classes"] = { DEATHKNIGHT } }, {
 			["maps"] = { ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },	-- Uppstairs/Down
-			["g"] = {
+			["groups"] = {
 				n(ARTIFACTS, {
 					cl(DEATHKNIGHT, BLOOD, {
 						i(139546, {	-- Twisting Anima of Souls
@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["questID"] = 44188,	-- Hidden Tracking
 							["maps"] = { ICECROWN_CITADEL, 187, 188, 189, 190, 191, 192, 193 },	-- Icecrown Citadel
 							["description"] = "\"Professor Putricide's Lost Journal\" drops from ghouls summoned by your Apocalypse or Army of the Dead spells anywhere in the world. If this is checked off as completed, you will be eligible to enter the trap door in Putricide's room under the Green Slime Pipe. You do not have to interact with the book to be eligible.",
-							["g"] = {
+							["groups"] = {
 								i(139548, {	-- The Bonereaper's Hook
 									artifact(404),	-- Apocalypse
 								}),
@@ -102,7 +102,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								{ 58.2, 60.6, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 							},
 							["maps"] = { 714 },	-- Niskara (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(128402, {	-- Maw of the Damned
 									artifact(107),	-- Maw of the Damned
 								}),
@@ -126,7 +126,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								{ 58.2, 60.6, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 							},
 							["maps"] = { 698, 700, 701 },	-- Icecrown Citadel (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(128292, {	-- Blades of the Fallen Prince [Main Hand]
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -159,7 +159,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								{ 72.8, 46.8, LEGION_DALARAN },
 								{ 58.2, 60.6, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 							},
-							["g"] = {
+							["groups"] = {
 								i(173527, {	-- Duskwood Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
@@ -185,7 +185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 40933, -- A Grisly Task
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
-							["g"] = {
+							["groups"] = {
 								i(128403, {	-- Apocalypse
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 40933, -- A Grisly Task
 							["provider"] = { "n", 100812 },	-- Revil Kost
 							["coord"] = { 49.4, 74.6, DEADWIND_PASS },
-							["g"] = {
+							["groups"] = {
 								i(128403, {	-- Apocalypse
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -245,7 +245,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 39761, -- Advanced Runecarving
 						["provider"] = { "n", 93550 },	-- Quartermaster Ozorg
 						["coord"] = { 44.2, 37.5, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
-						["g"] = {
+						["groups"] = {
 							i(139676),	-- Deathlord's Helm
 						},
 					}),
@@ -286,7 +286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43264,	-- Rise, Champions
 						["provider"] = { "n", 93456 },	-- Thassarian
 						["coord"] = { 55.9, 30.8, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(584),	-- Thassarian
 						},
 					}),
@@ -294,7 +294,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43264,	-- Rise, Champions
 						["provider"] = { "n", 109890 },	-- Nazgrim
 						["coord"] = { 39.8, 68.2, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(586),	-- Nazgrim
 						},
 					}),
@@ -359,7 +359,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42537, -- The King Rises
 						["provider"] = { "n", 113419 },	-- King Thoras Trollbane
 						["coord"] = { 59.5, 34.0, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(838),	-- Thoras Trollbane
 						},
 					}),
@@ -368,7 +368,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 93456 },	-- Thassarian
 						["coord"] = { 56.0, 30.7, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
 						["maps"] = { UNDERCITY },
-						["g"] = {
+						["groups"] = {
 							artifact(357),	-- Maw of the Damned
 							artifact(376),	-- Blades of the Fallen Prince [Main Hand]
 							-- artifact(376),	-- Blades of the Fallen Prince [Off Hand]
@@ -379,7 +379,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42708,	-- A Personal Request
 						["provider"] = { "n", 93453 },	-- Koltira Deathweaver
 						["coord"] = { 66.3, 64.6, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(599),	-- Koltira Deathweaver
 						},
 					}),
@@ -439,7 +439,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42824,	-- The Zealot Rises
 						["provider"] = { "n", 113481 },	-- High Inquisitor Whitemane
 						["coord"] = { 44.8, 72.9, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(839),	-- High Inquisitor Whitemane
 						},
 					}),
@@ -454,7 +454,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 44286,	-- Vault of the Wardens: A Masterpiece of Flesh
 						["provider"] = { "n", 108975 },	-- Rottgut
 						["coord"] = { 64.1, 69.5, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							i(139680),		-- Deathlord's Bracers
 							follower(853),	-- Rottgut
 						},
@@ -494,7 +494,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 44282,	-- Eye of Azshara: The Frozen Soul
 						["provider"] = { "n", 93555 },	-- Amal'thazad
 						["coord"] = { 58.1, 31.1, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							follower(854),	-- Amal'thazad
 						},
 					}),
@@ -506,7 +506,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 51.6, 50.0, ACHERUS_THE_EBON_HOLD_HALL_OF_COMMAND },
-						["g"] = {
+						["groups"] = {
 							title(328),	-- Deathlord
 							i(139673),	-- Deathlord's Chestguard
 						},
@@ -515,7 +515,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 113695 },	-- Highlord Darion Mograine
 						["coord"] = { 27.0, 28.9, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["sourceQuest"] = 43686,	-- The Fourth Horseman
-						["g"] = {
+						["groups"] = {
 							follower(855),	-- Highlord Darion Mograine
 						},
 					}),
@@ -524,7 +524,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 93437 },	-- Highlord Darion Mograine
 						["coord"] = { 56.9, 58.5, ACHERUS_THE_EBON_HOLD_THE_HEART_OF_ACHERUS },
 						["sourceQuest"] = 44248, -- Champion: Darion Mograine
-						["g"] = {
+						["groups"] = {
 							artifact(358),	-- Maw of the Damned
 							artifact(370),	-- Blades of the Fallen Prince [Main Hand]
 							artifact(370),	-- Blades of the Fallen Prince [Off Hand]
@@ -556,7 +556,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 45240, -- Making Preparations
 						["provider"] = { "n", 119539 },	-- Minerva Ravensorrow
 						["coord"] = { 47.8, 19.2, 823 },	-- Pit of Saron (Scenario Map)
-						["g"] = {
+						["groups"] = {
 							i(143676),	-- Rimefang's Harness (QI!)
 						},
 					}),
@@ -610,7 +610,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 95900 },		-- Minerva Ravensorrow
 						["coord"] = { 25.6, 34.2, 647 },
 						["sourceQuest"] = 45103,	-- We Ride!
-						["g"] = {
+						["groups"] = {
 							follower(1003),	-- Minerva Ravensorrow
 						},
 					}),
@@ -635,7 +635,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							860,	-- The Ruby Sanctum (Scenario Map)
 							871,	-- The Lost Glacier (Scenario Map)
 						},
-						["g"] = {
+						["groups"] = {
 							mount(229387),	-- Deathlord's Vilebrood Vanquisher (MOUNT!)
 						},
 					}),
@@ -683,7 +683,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					o(252395, {	-- Deathcharger Hitching Post
 						["questID"] = 43579,
 						["isDaily"] = true,
-						["g"] = {
+						["groups"] = {
 							i(139502),	-- Reins of the Deathcharger
 						},
 					}),
@@ -692,7 +692,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(93550, {	-- Quartermaster Ozorg
 						["coord"] = { 44.2, 37.5, 647 },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(34649),	-- Archerus Knight's Gauntlets
 							i(34651),	-- Archerus Knight's Girdle
 							i(34648),	-- Archerus Knight's Greaves
@@ -793,7 +793,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(121752, {	-- Slimy
 						["sourceQuest"] = 46813,	-- The Lost Glacier
 						["coord"] = { 54.8, 28.9, 648 },
-						["g"] = {
+						["groups"] = {
 							i(147539, {	-- Bloodbrood Whelpling (PET!)
 								["sourceQuest"] = 46813,	-- The Lost Glacier
 								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources

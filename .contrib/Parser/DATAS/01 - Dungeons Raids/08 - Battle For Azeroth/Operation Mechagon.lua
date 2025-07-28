@@ -390,8 +390,8 @@ if CombineSeasonalLoot then
 						i(168983),	-- Maniacal Monarch's Girdle
 						i(168982),	-- Regal Mekanospurs
 						i(168988),	-- Royal Attendant's Trouser
-					}
-				))),
+					})
+				)),
 			}),
 		})),
 		-- Item Appearance changes during the Season

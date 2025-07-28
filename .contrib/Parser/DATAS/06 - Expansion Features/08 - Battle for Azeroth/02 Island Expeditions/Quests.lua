@@ -51,7 +51,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				["provider"] = { "n", 131290 },	-- Flynn
 				["coord"] = { 66.6, 35.5, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(168615),	-- Volatile Worldvein (Rank 1)
 					i(166883),	-- Treasure Map (Displayed when hovering over the quest on the map.)
 					i(166999),	-- Treasure Map
@@ -59,21 +59,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					mi(2158, {	-- Investigating the Rumors
 						["questID"] = 56528,	-- procs when completing Investigating the Rumors on Alliance
 						["sourceQuest"] = 56533,	-- Worldvein Rumors
-						["g"] = {
+						["groups"] = {
 							i(171985),	-- Captured Documents
 						},
 					}),
 					mi(2161, {	-- Finding a Key
 						["questID"] = 56529,	-- procs when completing Finding a Key on Alliance
 						["sourceQuest"] = 56528,	-- Investigating the Rumors
-						["g"] = {
+						["groups"] = {
 							i(171986),	-- Resonance Locator
 						},
 					}),
 					mi(2162, {	-- Tracking the Worldvein
 						["questID"] = 56530,
 						["sourceQuest"] = 56529,	-- Investigating the Rumors
-						["g"] = {
+						["groups"] = {
 							i(168617, {	-- Fluctuating Worldvein (Rank 3)
 								["modID"] = 14,
 							}),
@@ -93,7 +93,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				["provider"] = { "n", 123000 },	-- Captain Rez'okun
 				["races"] = HORDE_ONLY,
 				["coord"] = { 44.60, 95.40, THE_GREAT_SEAL },
-				["g"] = {
+				["groups"] = {
 					i(168615),	-- Volatile Worldvein (Rank 1)
 					i(166883),	-- Treasure Map (Displayed when hovering over the quest on the map.)
 					i(166999),	-- Treasure Map
@@ -101,21 +101,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					mi(2159, {	-- Investigating the Rumors
 						-- ["questID"] = ,	-- procs when completing Investigating the Rumors on Horde
 						["sourceQuest"] = 56534,	-- Worldvein Rumors
-						["g"] = {
+						["groups"] = {
 							i(171985),	-- Captured Documents
 						},
 					}),
 					mi(2161, {	-- Finding a Key
 						-- ["questID"] = ,	-- procs when completing Finding a Key on Horde
 						-- ["sourceQuest"] = ,	-- Investigating the Rumors
-						["g"] = {
+						["groups"] = {
 							i(171986),	-- Resonance Locator
 						},
 					}),
 					mi(2162, {	-- Tracking the Worldvein
 						-- ["questID"] = ,	-- procs when completing Tracking the Worldvein on Horde
 						-- ["sourceQuest"] = ,	-- Finding a Key
-						["g"] = {
+						["groups"] = {
 							i(168617, {	-- Fluctuating Worldvein (Rank 3)
 								["modID"] = 14,
 							}),
@@ -291,7 +291,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 130216 },	-- Magni Bronzebeard
 					{ "i", 163217 },	-- Azeroth's Tear
 				},
-				["g"] = {
+				["groups"] = {
 					i(174502),	-- Tear of Azeroth
 				},
 			}),
@@ -302,7 +302,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 122370 },	-- Cyrus Crestfall
 					{ "i", 163616 },	-- Dented Coin (A)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174504),	-- Proudmoore War Copper
 				},
 			}),
@@ -313,7 +313,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 136269 },	-- Xun Xun Sweetflower
 					{ "i", 163614 },	-- Exotic Spices (A)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174503),	-- Exotically Spiced Carrot
 				},
 			}),
@@ -324,7 +324,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 120551 },	-- Krag'wa the Huge
 					{ "i", 163619 },	-- Golden Beetle (H)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174506),	-- Golden Insect Wings
 				},
 			}),
@@ -336,7 +336,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 126334 },	-- Jani
 					{ "i", 163620 },	-- Island Flotsam (H)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174518),	-- Jani Figurine
 				},
 			}),
@@ -347,7 +347,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 130576 },	-- Brother Pike
 					{ "i", 163615 },	-- Lost Sea Scroll (A)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174505),	-- Tide-Speaker's Tome
 				},
 			}),
@@ -358,7 +358,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 135446 },	-- Vindicator Jaelaana
 					{ "i", 163617 },	-- Rusted Alliance Insignia
 				},
-				["g"] = {
+				["groups"] = {
 					i(174507),	-- Fallen Soldier's Insignia
 				},
 			}),
@@ -369,7 +369,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 135447 },	-- Ransa Greyfeather
 					{ "i", 163621 },	-- Rusted Horde Insignia (H)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174508),	-- Fallen Soldier's Insignia
 				},
 			}),
@@ -380,7 +380,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 135804 },	-- Hoarder Jena
 					{ "i", 163618 },	-- Shimmering Shell (H)
 				},
-				["g"] = {
+				["groups"] = {
 					i(174501),	-- Ornate Voldunai Jewelry
 				},
 			}),
@@ -390,7 +390,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					{ "n", 134345 },	-- Collector Kojo (H)
 					{ "i", 166501 },	-- Soggy Page
 				},
-				["g"] = {
+				["groups"] = {
 					i(174519),	-- Verdant Hills of Chokingvine - Page 17
 				},
 			}),

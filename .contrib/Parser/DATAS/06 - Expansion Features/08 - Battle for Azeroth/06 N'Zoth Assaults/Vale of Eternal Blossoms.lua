@@ -12,7 +12,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 		["crs"] = {
 			163463,	-- Zidormi
 		},
-		["g"] = {
+		["groups"] = {
 			n(WORLD_BOSSES, {
 				["isRaid"] = true,
 				["groups"] = {
@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 5.9, 56.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						["isRaid"] = true,
 						["isWeekly"] = true,
-						["g"] = {
+						["groups"] = {
 							i(174243),	-- Guise of the Voracious Prowler
 							i(174234),	-- Maniacal Speaker's Cover
 							i(174264),	-- Chitinous Conqueror's Legplates
@@ -35,7 +35,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 			q(56064, {	-- Assault: The Black Empire
 				["isWeekly"] = true,
 				["isWorldQuest"] = true,
-				["g"] = {
+				["groups"] = {
 					n(QUESTS, sharedData({
 						["isDaily"] = true,
 					}, {
@@ -54,7 +54,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 83.7, 27.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 156003 },	-- Lorewalker Cho
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174197),	-- Loremaster's Notebook (QI!)
 							},
 						}),
@@ -62,7 +62,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 83.7, 27.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 156003 },	-- Lorewalker Cho
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174744),	-- Artifact of the Black Empire (QI!)
 								o(334220, {	-- Black Empire Cache placeholder [Until we find the otherIDs]
 									["coords"] = {
@@ -189,7 +189,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 83.7, 27.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 156003 },	-- Lorewalker Cho
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174196),	-- Tome of Ancient Madness (QI!)
 							},
 						}),
@@ -244,7 +244,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["description"] = "Spawns on a platform high up in the air.",
 							["questID"] = 57342,
 							["coord"] = { 52.0, 41.7, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							["g"] = {
+							["groups"] = {
 								i(174473),	-- K'uddly (PET!)
 							},
 						}),
@@ -259,7 +259,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						n(154495, {	-- Will of N'Zoth
 							["questID"] = 56303,
 							["coord"] = { 52.9, 62.2, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							["g"] = {
+							["groups"] = {
 								i(175141),	-- All-Seeing Left Eye
 								i(174474),	-- Corrupted Tentacle (PET!)
 							},
@@ -343,7 +343,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 			q(57008, {	-- Assault: The Warring Clans
 				["isWeekly"] = true,
 				["isWorldQuest"] = true,
-				["g"] = {
+				["groups"] = {
 					n(QUESTS, {
 						-- Assault questline
 						q(57067, {	-- Mogu at the Gates	-- showed up when the Warring Clans assault was up. is there a pre-req?
@@ -364,7 +364,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 38.4, 75.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 158673 },	-- Kun Autumnlight
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(170497),	-- Stoneshaper Rod
 							},
 						}),
@@ -387,7 +387,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 43.8, 71.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 154677 },	-- Forgemaster Han <Repairs>
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174747),	-- Mogu Armament (QI!)
 							},
 						}),
@@ -405,7 +405,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 37.7, 79.3, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 161405 },	-- Taoshi
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								o(211807, {	-- Mogu Plunder placeholder
 									["coords"] = {	-- Treasure chests
 										{ 17.7, 12.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },	-- 57206	250 coals
@@ -431,7 +431,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 43.9, 71.7, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 154677 },	-- Forgemaster Han
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(172463),	-- Salvaged Mogu Armor (QI!)
 							},
 						}),
@@ -444,7 +444,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 44.7, 73.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 154444 },	-- Stormspeaker Qian
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174210),	-- Anima Globule (QI!)
 							},
 						}),
@@ -469,7 +469,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 								157468,	-- Tisiphon
 								157443,	-- Xiln the Mountain
 							},
-							["g"] = {
+							["groups"] = {
 								i(174225),	-- Bulwark of the Traitorous Disciple
 								i(174221),	-- Cleaver of the Fractured Dynasty
 								i(174229),	-- Lantern of the Damned
@@ -483,7 +483,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["questID"] = 57363,
 							["coord"] = { 33.7, 68.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["isDaily"] = true,
-							["g"] = {
+							["groups"] = {
 								i(174840),	-- Xinlao (MOUNT!)
 							},
 						}),
@@ -502,7 +502,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 								{ 30.6, 37.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 								{ 32.4, 44.0, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							},
-							["g"] = {
+							["groups"] = {
 								i(173887),	-- Clutch of Ha-Li (MOUNT!)
 							},
 						}),
@@ -514,7 +514,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["questID"] = 57345,
 							["coord"] = { 13.1, 25.5, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							-- TODO:: determine patrol path
-							["g"] = {
+							["groups"] = {
 								i(174841),	-- Ren's Stalwart Hound (MOUNT!)
 							},
 						}),
@@ -530,7 +530,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 29.0, 53.0, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["description"] = "Requires a Zan-Tien Lasso to wrangle!",
 							["cost"] = {{ "i", 174927, 1 }},	-- Zan-Tien Lasso
-							["g"] = {
+							["groups"] = {
 								i(174752),	-- Ivory Cloud Serpent (MOUNT!)
 							},
 						}),
@@ -538,14 +538,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["description"] = "Spawns inside Guo-Lai Halls, all the way to the back (not off to the left or right).\n\nThe scale drops from the rare and can be turned in to the Rajani provisioner for the mount.",
 							["questID"] = 57346,
 							["coord"] = { 21.9, 12.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							["g"] = {
+							["groups"] = {
 								i(174230),	-- Pristine Cloud Serpent Scale
 							},
 						}),
 						n(156083, {	-- Sanguifang
 							["questID"] = 56954,
 							["coord"] = { 46.4, 57.2, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							["g"] = {
+							["groups"] = {
 								i(174071),	-- Sanguifang's Pulsating Canine
 							},
 						}),
@@ -565,7 +565,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["questID"] = 58507,
 							["coord"] = { 31.0, 22.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["isDaily"] = true,
-							["g"] = {
+							["groups"] = {
 								i(174873),	-- Trans-mogu-rifier (TOY!)
 							},
 						}),
@@ -647,7 +647,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 			q(57728, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {	-- Assault: The Endless Swarm
 				["isWeekly"] = true,
 				["isWorldQuest"] = true,
-				["g"] = {
+				["groups"] = {
 					i(169888),	-- Ooze-covered Amber (QI!)
 					n(QUESTS, {
 						-- Assault questline
@@ -686,7 +686,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 43.8, 71.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 154677 },	-- Forgemaster Han <Repairs>
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174762),	-- Amber Blade (QI!)
 							},
 						}),
@@ -729,7 +729,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["coord"] = { 38.4, 75.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["provider"] = { "n", 158673 },	-- Kun Autumnlight
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
-							["g"] = {
+							["groups"] = {
 								i(174763),	-- Golden Lotus Supplies (QI!)
 							},
 						}),
@@ -768,7 +768,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 								160922,	-- Needler Zhesalla
 								160906,	-- Skiver
 							},
-							["g"] = {
+							["groups"] = {
 								i(174220),	-- Ambered Greatstaff
 								i(174223),	-- Ooze-Imbued Rifle
 								i(174226)	-- Paragon's Will
@@ -902,7 +902,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 			n(EMISSARY_QUESTS, {
 				q(58096, bubbleDownSelf({ ["minReputation"] = { FACTION_RAJANI, EXALTED } }, {	-- Supplies from the Rajani
 					["repeatable"] = true,
-					["g"] = {
+					["groups"] = {
 						i(174483, {	-- Rajani Supplies
 							i(168816, {	-- Pulsing Star Heart (Rank 4)
 								["u"] = REMOVED_FROM_GAME,
@@ -958,7 +958,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 83.7, 27.1, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						["provider"] = { "n", 156003 },	-- Lorewalker Cho
 						["sourceQuest"] = 56538,	-- Clans of the Mogu
-						["g"] = {
+						["groups"] = {
 							i(170384),	-- Mogu Scouting Report (QI!)
 						},
 					}),
@@ -966,7 +966,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 44.7, 73.9, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						["provider"] = { "n", 154444 },	-- Stormspeaker Qian
 						["sourceQuest"] = 56771,	-- Time-Lost Warriors
-						["g"] = {
+						["groups"] = {
 							i(170385),	-- Conqueror's Trophy (QI!)
 							-- Plate
 							i(173837),	-- Malignant Leviathan's Hauberk
@@ -991,7 +991,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["coord"] = { 45.3, 74.3, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						["provider"] = { "n", 154418 },	-- Ra-den
 						["sourceQuest"] = 56541,	-- The Engine of Nalak'sha
-						["g"] = {
+						["groups"] = {
 							i(168573),	-- Death-Resistant Leaf (Rank 1)
 							i(168436),	-- Focused Star Point (Rank 1)
 						},
@@ -1052,7 +1052,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 				n(VENDORS, {
 					n(160711, {	-- Zhang Ku
 						["coord"] = { 44.5, 75.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-						["g"] = {
+						["groups"] = {
 							i(168573, {	-- Death-Resistant Leaf (Rank 1)
 								["cost"] = { { "c", 1719, 10 }, },	-- 10x Corrupted Memento
 							}),
@@ -1083,7 +1083,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							i(174905, {	-- Troop Requisition: Rajani Sparkcaller
 								["cost"] = { { "c", 1560, 500 }, },	-- 500x War Resources
 								["questID"] = 58907,
-								["g"] = {
+								["groups"] = {
 									follower(1187, {	-- Rajani Sparkcallers
 										["collectible"] = false,
 										["u"] = UNLEARNABLE,	-- Temporary troops

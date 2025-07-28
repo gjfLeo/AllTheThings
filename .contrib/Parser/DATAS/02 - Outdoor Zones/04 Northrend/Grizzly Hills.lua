@@ -1527,7 +1527,7 @@ root(ROOTS.Zones, {
 							i(36849),	-- Golem Blueprint Section 1 (QI!)
 							i(36850),	-- Golem Blueprint Section 2 (QI!)
 							i(36851),	-- Golem Blueprint Section 3 (QI!)
-						}
+						},
 					}),
 					q(11988, {	-- The Runic Keystone
 						["qg"] = 26361,	-- Torthen Deepdig

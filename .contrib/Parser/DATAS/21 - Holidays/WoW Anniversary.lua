@@ -504,13 +504,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		}),
 		ach(9729, {		-- Victory in Hillsbrad (Alliance)
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				title(280),		-- <Name>, Tarren Mill Terror
 			},
 		}),
 		ach(9566, {		-- Victory in Hillsbrad (Horde)
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				title(281),		-- <Name>, Southshore Slayer
 			},
 		}),
@@ -1359,7 +1359,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 			n(231351, {	-- Kieule <Souvenirs>
 				["coord"] = { 62.38, 49.92, TANARIS },
-				["g"] = {
+				["groups"] = {
 					i(140670),	-- Souvenir Elekk
 					i(140671),	-- Souvenir Raptor
 					i(118052),	-- Murloc Chew Toy
@@ -1826,7 +1826,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = 10,
-						["g"] = { i(17410) },	-- Zinfizzlex's Portable Shredder Unit
+						["groups"] = { i(17410) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
 					q(57731, {	-- Zinfizzlex's Portable Shredder Unit (H)
 						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
@@ -1834,7 +1834,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
 						["races"] = HORDE_ONLY,
 						["lvl"] = 10,
-						["g"] = { i(17384) },	-- Zinfizzlex's Portable Shredder Unit
+						["groups"] = { i(17384) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
 				}),
 				n(VENDORS, {
@@ -2475,7 +2475,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				2362,	-- Shadowforge City
 				2363,	-- Detention Block
 			},
-			["g"] = {
+			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(41220, { ["timeline"] = { "removed 11.0.7.58238" } }),	-- WoW's 20th Anniversary
 					ach(40999, {		-- You're in Your Blackrock Depths
@@ -2538,7 +2538,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							-- #endif
 						},
 						["isWeekly"] = true,
-						["g"] = {
+						["groups"] = {
 							i(232471, {	-- Cache of Dark Iron Treasures
 								["sym"] = SYM_ALL_BRD_DROPS,
 							}),
@@ -2752,7 +2752,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					40992,	-- Peanut Gallery
 					40989,	-- Pet Mischief
 				}},
-				["g"] = {
+				["groups"] = {
 					i(228760),	-- Coldflame Tempest (MOUNT!)
 				},
 			}),
@@ -2943,7 +2943,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				["coord"] = { 62.6, 50.0, TANARIS },
 				["maps"] = { 2354 },	-- Silithus
 				["isWeekly"] = true,
-				["g"] = {
+				["groups"] = {
 					ach(40977),	-- Codex Editor: Ahn'Qiraj
 					i(233014, {	-- Bronze Celebration Cache of Treasures
 						["sym"] = SYM_ALL_BRD_DROPS,
@@ -2973,7 +2973,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		n(VENDORS, {
 			n(223884, {	--  Bobadormu
 				["coord"] = { 62.7, 50.3, TANARIS },
-				["g"] = {
+				["groups"] = {
 					n(ARMOR, bubbleDownFiltered({
 						["cost"] = {{"c", TIMEWARPED_BADGE, 25}},
 					},FILTERFUNC_itemID,{
@@ -3182,7 +3182,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 			n(158061, {	-- Historian Ma'di
 				["coord"] = { 62.6, 50.4, TANARIS },
-				["g"] = {
+				["groups"] = {
 					i(229828, {	-- 20th Anniversary Balloon Chest (TOY!)
 						["cost"] = {{"c", BRONZE_TOKEN, 10}}
 					}),
@@ -3191,19 +3191,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 					i(232598, {	-- Bag of Timewarped Badges
 						["cost"] = {{"c", BRONZE_TOKEN, 1}},
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					i(235505, {	-- Satchel of Timewarped Badges
 						["cost"] = {{"c", BRONZE_TOKEN, 5}},
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					i(235506, {	-- Box of Timewarped Badges
 						["cost"] = {{"c", BRONZE_TOKEN, 25}},
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
@@ -3229,94 +3229,94 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 			n(231352, {	-- Notary Grably <Titles of Olde>
 				["coord"] = { 63.3, 50.7, TANARIS },
-				["g"] = {
+				["groups"] = {
 					i(230264, {	-- Bronze Celebration Titles: Broken Isles Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(587),	-- Broken Isles Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230261, {	-- Bronze Celebration Titles: Cataclysm Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(584),	-- Cataclsym Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230258, {	-- Bronze Celebration Titles: Classic Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(581),	-- Classic Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230263, {	-- Bronze Celebration Titles: Draenor Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(586),	-- Draenor Enthusias <Name> (TITLE!)
 						},
 					}),
 					i(230268, {	-- Bronze Celebration Titles: Dragon Isles Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(591),	-- Dragon Isles Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(229826, {	-- Bronze Celebration Titles: Grizzly Hills Hiker (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(577),	-- Grizzly Hills Hiker <Name> (TITLE!)
 						},
 					}),
 					i(231833, {	-- Bronze Celebration Titles: Karazhan Graduate (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(596),	-- Karazhan Graduate <Name> (TITLE!)
 						},
 					}),
 					i(230266, {	-- Bronze Celebration Titles: Kul Tiras Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(589),	-- Kul Tiras Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(231832, {	-- Bronze Celebration Titles: Molten Core Prospector (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(595),	-- Molten Core Prospector <Name> (TITLE!)
 						},
 					}),
 					i(230260, {	-- Bronze Celebration Titles: Northrend Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(583),	-- Northrend Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230259, {	-- Bronze Celebration Titles: Outland Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(582),	-- Outland Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230262, {	-- Bronze Celebration Titles: Pandaria Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(585),	-- Pandaria Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(229827, {	-- Bronze Celebration Titles: Plaguelands Survivor (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(578),	-- Plaguelands Survivor <Name> (TITLE!)
 						},
 					}),
 					i(230267, {	-- Bronze Celebration Titles: Shadowlands Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(590),	-- Shadowlands Enthusiast <Name> (TITLE!)
 						},
 					}),
 					i(230265, {	-- Bronze Celebration Titles: Zuldazar Enthusiast (CI!)
 						["cost"] = {{"c", TIMEWARPED_BADGE, 100}},
-						["g"] = {
+						["groups"] = {
 							title(588),	-- Zuldazar Enthusiast <Name> (TITLE!)
 						},
 					}),
@@ -3324,7 +3324,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 			n(229707, {	-- Storekeeper Reginald <Out of Time-ly Trinkets>
 				["coord"] = { 62.9, 51.1, TANARIS },
-				["g"] = sharedData({
+				["groups"] = sharedData({
 					["cost"] = {{"c", BRONZE_TOKEN, 10}},
 				}, {
 					i(44819),	-- Baby Blizzard Bear (PET!)
@@ -3342,7 +3342,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 			n(223902, {	-- Traeya <Armor Vendor>
 				["coord"] = { 63.1, 50.9, TANARIS },
-				["g"] = sharedData({
+				["groups"] = sharedData({
 					["cost"] = {{"c", BRONZE_TOKEN, 60}},
 				}, {
 					iensemble(228205, {	-- Ensemble: Pale Rider's Eternal Armor
@@ -3397,7 +3397,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					74,	--	Caverns of Time Entrance
 					CAVERNS_OF_TIME,
 				},
-				["g"] = {
+				["groups"] = {
 					filter(MOUNTS, {
 						i(87771),	-- Reins of the Heavenly Onyx Cloud Serpent (MOUNT!)
 					}),
@@ -3502,7 +3502,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					74,	--	Caverns of Time Entrance
 					CAVERNS_OF_TIME,
 				},
-				["g"] = {
+				["groups"] = {
 					filter(MOUNTS, {
 						a(i(43959)),	-- Reins of the Grand Black War Mammoth (A) (MOUNT!)
 						h(i(44083)),	-- Reins of the Grand Black War Mammoth (H) (MOUNT!)

@@ -59,7 +59,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["repeatable"] = true,
 		}, {
 			q(29481, {	-- Elixir Master
-				["g"] = {
+				["groups"] = {
 					r(28677, {	-- Elixir Master
 						-- #if NOT ANYCLASSIC
 						["collectible"] = false,
@@ -70,7 +70,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			}),
 			q(29067, {	-- Potion Master
-				["g"] = {
+				["groups"] = {
 					r(28675, {	-- Potion Master
 						-- #if NOT ANYCLASSIC
 						["collectible"] = false,
@@ -81,7 +81,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			}),
 			q(29482, {	-- Transmutation Master
-				["g"] = {
+				["groups"] = {
 					r(28672, {	-- Transmutation Master
 						-- #if NOT ANYCLASSIC
 						["collectible"] = false,
@@ -96,13 +96,13 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		applyclassicphase(SOD_PHASE_EIGHT, n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_1_15_7 }}, {
 			q(90560, {	-- Familiar Foulness
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(241651),	-- Recipe: Major Discolored Healing Potion (RECIPE!)
 				},
 			}),
 			q(90567, {	-- Unfamiliar Foulness
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(241651),	-- Recipe: Major Discolored Healing Potion (RECIPE!)
 				},
 			}),
@@ -145,7 +145,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				{ "i", 22831, 5 },	-- Elixir of Major Agility
 			},
 			["lvl"] = 68,
-			["g"] = {
+			["groups"] = {
 				r(28677, {	-- Elixir Master
 					-- #if NOT ANYCLASSIC
 					["collectible"] = false,
@@ -235,7 +235,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				{ "i", 23571, 4 },	-- Primal Might
 			},
 			["lvl"] = 68,
-			["g"] = {
+			["groups"] = {
 				r(28672, {	-- Transmutation Master
 					-- #if NOT ANYCLASSIC
 					["collectible"] = false,
@@ -261,7 +261,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["provider"] = { "i", 80240 },	-- Strange Spherical Stone
 			["maps"] = { PANDARIA },
 			["cost"] = {{ "i", 72238, 3 }},	-- 3x Golden Lotus
-			["g"] = {
+			["groups"] = {
 				i(80240),	-- Strange Spherical Stone (QI!)
 				i(75274),	-- Zen Alchemist Stone
 			},
@@ -271,7 +271,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		q(39325, {	-- Get Your Mix On
 			["provider"] = { "n", 92458 },	-- Deucus Valdera
 			["coord"] = { 41.6, 32.8, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(195095, {	-- Blacksmithing (Legion Master)
 					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 					["collectible"] = false,
@@ -556,7 +556,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 132228 },	-- Elric Whalgrene
 				["coord"] = { 74.2, 6.5, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(288182, {["u"]=TRAINING}),	-- Potion of Durability
 					r(288176, {["u"]=TRAINING}),	-- Potion of Shifting States (QI!)
 					i(166371),	-- Dried Star Moss Leaves (QI!)
@@ -572,7 +572,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 122703 },	-- Clever Kumali
 				["coord"] = { 42.2, 38.0, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(288182, {["u"]=TRAINING}),	-- Potion of Durability
 					r(288176, {["u"]=TRAINING}),	-- Potion of Shifting States (QI!)
 					i(166371),	-- Dried Star Moss Leaves (QI!)
@@ -589,7 +589,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 74.2, 6.5, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156657),	-- Highlands Mauler Eye (QI!)
 				},
 			}),
@@ -599,7 +599,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 42.2, 38.0, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156806),	-- Razorwing Eye (QI!)
 				},
 			}),
@@ -643,7 +643,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 30.6, 49.6, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156658),	-- Deathshroom (QI!)
 				},
 			}),
@@ -653,7 +653,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 65.2, 36.9, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156658),	-- Deathshroom (QI!)
 				},
 			}),
@@ -663,7 +663,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 30.6, 49.6, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156665),	-- Bag of Transmutation Stones (QI!)
 					i(156687),	-- Vial of Altered Blood (QI!)
 				},
@@ -674,7 +674,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 65.2, 36.9, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156831),	-- Bag of Transmutation Stones (QI!)
 					i(156664),	-- Vial of Altered Blood (QI!)
 				},
@@ -704,7 +704,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "o", 280755 },	-- Quintin's Satchel
 				["coord"] = { 62.9, 28.9, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(260403),	-- Silus' Sphere of Transmutation (RECIPE!)
 				},
 			})),
@@ -713,7 +713,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "o", 280957 },	-- Zukashi's Satchel
 				["coord"] = { 62.9, 28.9, NAZMIR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(260403),	-- Silus' Sphere of Transmutation (RECIPE!)
 				},
 			})),
@@ -770,7 +770,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -778,7 +778,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(198608),	-- Alchemy Notes
 			},
 		},{
@@ -787,7 +787,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201828),	-- Spiked Leaves (QI!)
 				},
 			}),
@@ -795,7 +795,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194103),	-- Rotting Sample (QI!)
 				},
 			}),
@@ -803,7 +803,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194427),	-- Gorloc Mucus (QI!)
 				},
 			}),
@@ -811,7 +811,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194424),	-- Tusk Marrow (QI!)
 				},
 			}),
@@ -843,7 +843,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(198608),	-- Alchemy Notes
 					i(204796),	-- Deepflayer Dust (QI!)
 				},
@@ -852,7 +852,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(204801),	-- Gelcap Spores (QI!)
 				},
 			}),
@@ -861,7 +861,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(198608),	-- Alchemy Notes
 				},
 			}),
@@ -869,7 +869,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(198608),	-- Alchemy Notes
 					i(208938),	-- Metamorphic Soot (QI!)
 				},
@@ -877,7 +877,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_ALCHEMY_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_ALCHEMY_KNOWLEDGE, 1 }} }, {
 				r(370747),	-- Advanced Phial Experimentation
 				r(370745),	-- Advanced Potion Experimentation
 				r(370730),	-- Brood Salt
@@ -892,7 +892,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Inside cave.",
 				["coord"] = { 79.2, 83.8, OHNAHRAN_PLAINS },
 				["questID"] = 70305,
-				["g"] = {
+				["groups"] = {
 					i(198710),	-- Canteen of Suspicious Water
 				},
 			}),
@@ -900,21 +900,21 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Hidden in some bushes, hard to see.",
 				["coord"] = { 59.5, 38.4, THALDRASZUS },
 				["questID"] = 70301,
-				["g"] = {
+				["groups"] = {
 					i(198697),	-- Contraband Concoction
 				},
 			}),
 			o(380457, {	-- Experimental Decay Cauldron
 				["coord"] = { 16.4, 38.5, THE_AZURE_SPAN },
 				["questID"] = 70208,
-				["g"] = {
+				["groups"] = {
 					i(198599),	-- Experimental Decay Sample
 				},
 			}),
 			o(380559, {	-- Frostforged Potion
 				["coord"] = { 55.0, 81.0, THE_WAKING_SHORES },
 				["questID"] = 70274,
-				["g"] = {
+				["groups"] = {
 					i(198663),	-- Frostforged Potion
 				},
 			}),
@@ -922,7 +922,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 54.0, 32.6, EMERALD_DREAM },
 				["questID"] = 78264,
-				["g"] = {
+				["groups"] = {
 					i(210184),	-- Half-Filled Dreamless Sleep Potion
 				},
 			})),
@@ -930,7 +930,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "Grab and drop a Discarded Toy in each of these, then you can collect the treasure.",
 				["coord"] = { 55.2, 30.5, THALDRASZUS },
 				["questID"] = 70278,
-				["g"] = {
+				["groups"] = {
 					i(201003, {["timeline"] = {ADDED_10_0_2_LAUNCH, REMOVED_10_0_5}}),	-- Furry Gloop
 					i(203471, {["timeline"] = {ADDED_10_0_5}}),	-- Tasty Candy
 				},
@@ -939,7 +939,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 52.6, 18.3, ZARALEK_CAVERN },
 				["questID"] = 75646,
-				["g"] = {
+				["groups"] = {
 					i(205211),	-- Nutrient Diluted Protofluid
 				},
 			})),
@@ -947,7 +947,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 62.1, 41.1, ZARALEK_CAVERN },
 				["questID"] = 75649,
-				["g"] = {
+				["groups"] = {
 					i(205212),	-- Marrow-Ripened Slime
 				},
 			})),
@@ -955,14 +955,14 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 36.2, 46.6, EMERALD_DREAM },
 				["questID"] = 78275,
-				["g"] = {
+				["groups"] = {
 					i(210190),	-- Blazeroot
 				},
 			})),
 			o(380616, {	-- Small Basket of Firewater Powder
 				["coord"] = { 67.0, 13.2, THE_AZURE_SPAN },
 				["questID"] = 70309,
-				["g"] = {
+				["groups"] = {
 					i(198712),	-- Firewater Powder Sample
 				},
 			}),
@@ -970,7 +970,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 40.4, 59.2, ZARALEK_CAVERN },
 				["questID"] = 75651,
-				["g"] = {
+				["groups"] = {
 					i(205213),	-- Suspicious Mold
 				},
 			})),
@@ -979,21 +979,21 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				["description"] = "In cavern.",
 				["coord"] = { 50.9, 49.7, 2254 },
 				["questID"] = 78269,
-				["g"] = {
+				["groups"] = {
 					i(210185),	-- Splash Potion of Narcolepsy
 				},
 			})),
 			o(380590, {	-- Well-Insulated Mug
 				["coord"] = { 25.1, 73.3, THE_WAKING_SHORES },
 				["questID"] = 70289,
-				["g"] = {
+				["groups"] = {
 					i(198685),	-- Well-Insulated Mug
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_ALCHEMY_KNOWLEDGE),
 			},
 		}, {
@@ -1035,7 +1035,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228773),	-- Algari Alchemist's Notebook
 			},
 		},{
@@ -1046,7 +1046,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_ALCHEMY_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ALCHEMY_KNOWLEDGE, 1 }} }, {
 				r(432962),	-- Algari Flask Cauldron
 				r(432963),	-- Algari Potion Cauldron
 				r(433087),	-- Formulated Courage
@@ -1063,63 +1063,63 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			o(456021, {	-- Chemist's Purified Water
 				["coord"] = { 42.7, 55.1, HALLOWFALL },
 				["questID"] = 83844,
-				["g"] = {
+				["groups"] = {
 					i(226269),	-- Chemist's Purified Water
 				},
 			}),
 			o(456018, {	-- Dark Apothecary's Vial
 				["coord"] = { 42.9, 57.3, AZJ_KAHET },
 				["questID"] = 83847,
-				["g"] = {
+				["groups"] = {
 					i(226272),	-- Dark Apothecary's Vial
 				},
 			}),
 			o(456025, {	-- Earthen Iron Powder
 				["coord"] = { 32.5, 60.3, DORNOGAL },
 				["questID"] = 83840,
-				["g"] = {
+				["groups"] = {
 					i(226265),	-- Earthen Iron Powder
 				},
 			}),
 			o(456022, {	-- Engraved Stirring Rod
 				["coord"] = { 64.9, 61.8, THE_RINGING_DEEPS },
 				["questID"] = 83843,
-				["g"] = {
+				["groups"] = {
 					i(226268),	-- Engraved Stirring Rod
 				},
 			}),
 			o(456024, {	-- Metal Dornogal Frame
 				["coord"] = { 57.7, 61.8, ISLE_OF_DORN },
 				["questID"] = 83841,
-				["g"] = {
+				["groups"] = {
 					i(226266),	-- Metal Dornogal Frame
 				},
 			}),
 			o(456019, {	-- Nerubian Mixing Salts
 				["coord"] = { 45.4, 13.2, NERUBAR },
 				["questID"] = 83846,
-				["g"] = {
+				["groups"] = {
 					i(226271),	-- Nerubian Mixing Salts
 				},
 			}),
 			o(456023, {	-- Reinforced Beaker
 				["coord"] = { 42.2, 24.1, THE_RINGING_DEEPS },
 				["questID"] = 83842,
-				["g"] = {
+				["groups"] = {
 					i(226267),	-- Reinforced Beaker
 				},
 			}),
 			o(456020, {	-- Sanctified Mortar and Pestle
 				["coord"] = { 41.7, 55.8, HALLOWFALL },
 				["questID"] = 83845,
-				["g"] = {
+				["groups"] = {
 					i(226270),	-- Sanctified Mortar and Pestle
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_ALCHEMY_KNOWLEDGE),
 			},
 		}, {

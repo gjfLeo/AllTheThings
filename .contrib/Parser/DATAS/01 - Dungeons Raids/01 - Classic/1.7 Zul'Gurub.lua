@@ -779,7 +779,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					["lvl"] = 58,
 					["groups"] = {
 						i(19858),	-- Zandalar Honor Token
-					}
+					},
 				}),
 				q(8201, {	-- A Collection of Heads
 					["qg"] = 14910,	-- Exzhal <Servitor of Rastakhan>
@@ -825,7 +825,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					["lvl"] = 58,
 					["groups"] = {
 						i(19858),	-- Zandalar Honor Token
-					}
+					},
 				}),
 				q(8227, {	-- Nat's Measuring Tape
 					["provider"] = { "i", 19973 },	-- Nat's Measuring Tape
@@ -844,7 +844,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					["lvl"] = 58,
 					["groups"] = {
 						i(19858),	-- Zandalar Honor Token
-					}
+					},
 				}),
 				q(8246, {	-- Signets of the Zandalar
 					["qg"] = 14921,	-- Rin'wosho the Trader <Zandalar Supplies & Repair>
@@ -932,7 +932,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					["lvl"] = 58,
 					["groups"] = {
 						i(19858),	-- Zandalar Honor Token
-					}
+					},
 				}),
 			}),
 			n(VENDORS, {

@@ -514,7 +514,7 @@ root(ROOTS.Zones, {
 											i(80236),	-- Apple-Berry Hooch (QI!)
 											i(80234),	-- Yoon's Apple (QI!)
 											i(80235),	-- Yoon's Craneberry (QI!)
-										}
+										},
 									}),
 									q(30321, {	-- Weed War II
 										["sourceQuest"] = 30257,	-- Learn and Grow V: Halfhill Market

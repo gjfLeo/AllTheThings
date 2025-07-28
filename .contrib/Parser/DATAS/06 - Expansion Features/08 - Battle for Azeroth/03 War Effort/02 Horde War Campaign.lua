@@ -6,12 +6,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 	n(WAR_EFFORT, {
 		n(WAR_CAMPAIGN_HORDE, {
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(12509, {	-- Ready for War
 						["races"] = HORDE_ONLY,
 						["maps"] = { THE_GREAT_SEAL, HALL_OF_CHRONICLERS, DAZARALOR },	-- Dazar'alor
-						["g"] = {
+						["groups"] = {
 							crit(40200, {	-- Drustvar Foothold
 								["sourceQuests"] = { 51985 },	-- Return to Zuldazar (Drustvar Foothold)
 							}),
@@ -41,7 +41,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					ach(13466, {	-- Tides of Vengeance
 						["races"] = HORDE_ONLY,
 						["timeline"] = { ADDED_8_1_5 },
-						["g"] = {
+						["groups"] = {
 							crit(44256, {	-- The Day is Won
 								["sourceQuests"] = { 53981 },	-- The Day is Won
 							}),
@@ -66,14 +66,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							13466,	-- Tides of Vengeance
 						}},
 						["timeline"] = { ADDED_8_2_5 },
-						["g"] = {
+						["groups"] = {
 							title(412),	-- Veteran of the Fourth War
 						},
 					})),
 				}),
 				n(REWARDS, {
 					["description"] = "You'll be offered these rewards at the end of your first foothold.",
-					["g"] = {
+					["groups"] = {
 						-- 163 = azerite; 175 = azewrong
 						-- Cloth
 						i(163664),	-- Honorbound Artificer's Robes
@@ -135,7 +135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						["coord"] = { 58.4, 62.6, ZULDAZAR },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							follower(1065),	-- Arcanist Valtrois
 						},
 					}),
@@ -230,7 +230,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 137613 },	-- Hobart Grapplehammer
 							["coord"] = { 36.9, 27.1, DRUSTVAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								follower(1068),	-- Hobart Grapplehammer
 							},
 						}),
@@ -282,7 +282,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 138677 },	-- Rexxar
 							["coord"] = { 51.7, 29.9, STORMSONG_VALLEY },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160565),	-- Fading Umbral Wand (QI!)
 							},
 						}),
@@ -313,7 +313,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 138876 },	-- Rexxar
 							["coord"] = { 52.1, 33.7, STORMSONG_VALLEY },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								follower(1069),	-- Rexxar
 							},
 						}),
@@ -359,7 +359,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 137742 },	-- Shadow Hunter Ty'jin
 							["coord"] = { 87.3, 50.0, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160260),	-- Fogsail Cannonball (QI!)
 							},
 						}),
@@ -380,7 +380,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 137742 },	-- Shadow Hunter Ty'jin
 							["coord"] = { 87.3, 50.0, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160405),	-- Goblin-Engineered Hand Cannon (QI!)
 							},
 						}),
@@ -404,7 +404,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 137742 },	-- Shadow Hunter Ty'jin
 							["coord"] = { 87.3, 50.0, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								follower(1072),	-- Shadow Hunter Ty'jin
 							},
 						}),
@@ -438,7 +438,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						["coord"] = { 58.4, 62.6, ZULDAZAR },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(141605, {	-- Flight Master Whistle
 								["modID"] = 11,
 							}),
@@ -449,7 +449,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						["coord"] = { 58.4, 62.6, ZULDAZAR },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(141605, {	-- Flight Master Whistle
 								["modID"] = 11,
 							}),
@@ -483,7 +483,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 138285 },	-- Nathanos Blightcaller
 							["coord"] = { 72.0, 51.8, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o_repeated({
 									i(160511),	-- Length of Chain (QI!)
 									o(290708),	-- Anchor Chains
@@ -522,7 +522,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 138287 },	-- Lilian Voss
 							["coord"] = { 77.5, 49.9, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o(290776, {	-- Gunpowder Crate
 									i(160555),	-- Ashvane Explosives (QI!)
 								}),
@@ -533,7 +533,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 138287 },	-- Lilian Voss
 							["coord"] = { 77.5, 49.9, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160553),	-- Ashvane Explosives Formula (QI!)
 								i(160552),	-- Gunpowder Manufacturing Guide (QI!)
 							},
@@ -597,7 +597,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 139062 },	-- Lilian Voss
 							["coord"] = { 61.3, 51.1, DRUSTVAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o(273537, {	-- Gravebloom
 									i(152480),	-- Gravebloom (QI!)
 								}),
@@ -612,7 +612,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 139061 },	-- Nathanos Blightcaller
 							["coord"] = { 61.4, 51.1, DRUSTVAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160736),	-- Valentine's Key (QI!)
 							},
 						}),
@@ -621,10 +621,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 139061 },	-- Nathanos Blightcaller
 							["coord"] = { 61.4, 51.1, DRUSTVAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o(291277, {	-- Valentine's Log
 									["coord"] = { 61.1, 49, DRUSTVAR },
-									["g"] = { i(160939) }
+									["groups"] = { i(160939) }
 								}),
 							},
 						}),
@@ -660,7 +660,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 139101 },	-- Lilian Voss
 							["coord"] = { 62.6, 31.9, STORMSONG_VALLEY },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160901),	-- Val'kyr Horn (QI!)
 							},
 						}),
@@ -669,7 +669,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 139098 },	-- Thomas Zelling
 							["coord"] = { 62.6, 31.9, STORMSONG_VALLEY },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(160745),	-- Book of Forbidden Magics (QI!)
 							},
 						}),
@@ -838,7 +838,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 140487 },	-- Thomas Zelling
 							["coord"] = { 71.0, 84.8, BORALUS },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(161336),	-- Compass of Clarity (QI!)
 								i(161335),	-- Curio of the Depths (QI!)
 								i(161334),	-- Key of the Sea (QI!)
@@ -849,7 +849,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 140487 },	-- Thomas Zelling
 							["coord"] = { 71.0, 84.8, BORALUS },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(162106),	-- Tome of Tidesage Research (QI!)
 							},
 						}),
@@ -868,10 +868,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 140487 },	-- Thomas Zelling
 							["coord"] = { 71.0, 84.8, BORALUS },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o(293901, {	-- Abyssal Scepter
 									["coord"] = { 71.2, 82.4, BORALUS },
-									["g"] = { i(162579) },	-- Abyssal Scepter (QI!)
+									["groups"] = { i(162579) },	-- Abyssal Scepter (QI!)
 								}),
 							},
 						}),
@@ -898,7 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 141961 },	-- Lilian Voss
 							["coord"] = { 58.4, 62.6, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								follower(1062),	-- Lilian Voss
 							},
 						}),
@@ -946,7 +946,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 146806 },	-- Dark Ranger Lyana
 						["coord"] = { 11.3, 66.8, REDRIDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
-						["g"] = { i(165638) },	-- Humanizing Potion (QI!)
+						["groups"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54104, {	-- Signs of Saurfang
 						["sourceQuests"] = { 54103 },	-- Corner Crossing
@@ -965,7 +965,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 147210 },	-- Dark Ranger Lyana
 						["coord"] = { 80.6, 46.9, REDRIDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
-						["g"] = { i(165638) },	-- Humanizing Potion (QI!)
+						["groups"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54754, {	-- For the Queen
 						["sourceQuests"] = { 54106 },	-- Tracking Tipoff
@@ -988,7 +988,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 147297 },	-- Zekhan
 						["coord"] = { 79.7, 74.7, SWAMP_OF_SORROWS },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(165791),	-- Worn Cloak (TOY!)
 						},
 					}),
@@ -1007,14 +1007,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 134711 },	-- Lady Sylvanas Windrunner
 							["coord"] = { 48.4, 71.4, ORGRIMMAR },
 							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							["groups"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53851, {	-- Our War Continues
 							["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
 							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 							["coord"] = { 58.4, 62.6, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							["groups"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53852, {	-- Azerite Denied
 							["sourceQuests"] = {
@@ -1024,14 +1024,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 							["coord"] = { 58.4, 62.6, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							["groups"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53856, {	-- The Fury of the Horde
 							["sourceQuests"] = { 53852 },	-- Azerite Denied
 							["provider"] = { "n", 145422 },	-- Rexxar
 							["coord"] = { 47.5, 21.8, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							["groups"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53879, {	-- Cleaning Out the Estate
 							["sourceQuests"] = { 53856 },	-- The Fury of the Horde
@@ -1050,7 +1050,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							},
 							["coord"] = { 48.9, 25.0, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(164778),	-- Abyssal Scepter (QI!)
 								o(307683, {	-- Azerite Bombs
 									["coords"] = {
@@ -1064,7 +1064,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 										{ 51.6, 28.0, TIRAGARDE_SOUND },
 										{ 51.7, 27.0, TIRAGARDE_SOUND },
 									},
-									["g"] = { i(164917) },	-- Azerite Bomb Cluster (QI!)
+									["groups"] = { i(164917) },	-- Azerite Bomb Cluster (QI!)
 								}),
 								o(310513, {	-- Azerite Weapon Cache
 									["coords"] = {
@@ -1079,7 +1079,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 										{ 51.8, 26.1, TIRAGARDE_SOUND },
 										{ 52.4, 27.4, TIRAGARDE_SOUND },
 									},
-									["g"] = { i(165225) },	-- Azerite Rifle (QI!)
+									["groups"] = { i(165225) },	-- Azerite Rifle (QI!)
 								}),
 							},
 						}),
@@ -1123,7 +1123,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 145751 },	-- Trade Prince Gallywix
 							["coord"] = { 36.2, 72.0, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(166309),	-- Azerite Vacuumizer (QI!)
 							},
 						}),
@@ -1177,11 +1177,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "i", 164987 },	-- Alliance Battle Plans
 							["races"] = HORDE_ONLY,
 							["maps"] = { TIRAGARDE_SOUND },
-							["g"] = {
+							["groups"] = {
 								i(164987),	-- Alliance Battle Plans (QI!)
 								o(309916, {	-- Mekkatorque's Battle Plans
 									["coord"] = { 59.1, 61.8, TIRAGARDE_SOUND },
-									["g"] = { i(164989) },	-- Mekkatorque's Battle Plans (QI!)
+									["groups"] = { i(164989) },	-- Mekkatorque's Battle Plans (QI!)
 								}),
 							},
 						}),
@@ -1214,7 +1214,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 147088 },	-- Arcanist Valtrois
 							["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(165702),	-- Shard of Vesara (QI!)
 							},
 						}),
@@ -1223,7 +1223,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 147088 },	-- Arcanist Valtrois
 							["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(166293),	-- Barely Used Bracers (QI!)
 								i(165697),	-- Captain's Overcoat (QI!)
 								i(165698),	-- Proudmoore Equipment (QI!)
@@ -1238,7 +1238,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 146931 },	-- Rexxar
 							["coord"] = { 83.0, 49.6, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								o(311174, {	-- Volatile Azerite Weapons
 									i(165690),	-- Volatile Azerite (QI!)
 								})
@@ -1265,7 +1265,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 								1350,	-- Tol Dagor (Scenario)
 								1351,	-- Tol Dagor (Scenario)
 							},
-							["g"] = {
+							["groups"] = {
 								i(165734),	-- Master Key
 								i(163426),	-- Honorbound Artificer's Guise (Cloth)
 								i(163424),	-- Honorbound Artificer's Amice (Cloth)
@@ -1334,7 +1334,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["provider"] = { "n", 147155 },	-- Patch
 							["coord"] = { 50.3, 78.4, NAZMIR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
+							["groups"] = {
 								i(165710),	-- A.F.M.O.D. Part (QI!)
 							},
 						}),
@@ -1459,12 +1459,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 149842 },	-- Baine Bloodhoof
 						["coord"] = { 85.8, 45.8, TIRAGARDE_SOUND },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167073),	-- Apothecary's Key (QI!)
 							i(167074),	-- Captain's Key (QI!)
 							o(322064, {	-- Navigator's Keyring
 								["coord"] = { 86.7, 45.2, TIRAGARDE_SOUND },
-								["g"] = { i(167072) },	-- Navigator's Key (QI!)
+								["groups"] = { i(167072) },	-- Navigator's Key (QI!)
 							}),
 						},
 					}),
@@ -1489,7 +1489,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150311 },	-- Thomas Zelling
 						["coord"] = { 76.3, 42.7, DUSTWALLOW_MARSH },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167228),	-- Charm of Returning (QI!)
 						},
 					}),
@@ -1502,7 +1502,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150311 },	-- Thomas Zelling
 						["coord"] = { 76.3, 42.7, DUSTWALLOW_MARSH },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167228),	-- Charm of Returning (QI!)
 						},
 					}),
@@ -1529,7 +1529,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 150690 },	-- Boss Mida
 						["coord"] = { 51.0, 32.9, STORMSONG_VALLEY },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(167078),	-- Electronic Mayhem Projector (QI!)
 						},
 					}),
@@ -1699,7 +1699,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 156440 },	-- Nathanos Blightcaller
 						["coord"] = { 50.4, 76.1, 1534 },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(171365),	-- Put on disguise (QI!)
 						},
 					}),
@@ -1734,7 +1734,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 156425 },	-- Dark Ranger Lenara
 						["coord"] = { 50, 91.3, 1534 },
 						["races"] = HORDE_ONLY,
-						["g"] = {
+						["groups"] = {
 							i(172203),	-- Cracked Hearthstone (QI!)
 						},
 					}),

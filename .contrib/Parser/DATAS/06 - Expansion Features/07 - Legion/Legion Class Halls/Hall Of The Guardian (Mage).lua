@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(MAGE, bubbleDownSelf({ ["classes"] = { MAGE } }, {
 			["maps"] = { HALL_OF_THE_GUARDIAN, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-			["g"] = {
+			["groups"] = {
 				n(ARTIFACTS, {
 					cl(MAGE, ARCANE, {
 						q(43787, {	-- Zone Targets Polymorphed: Azsuna
@@ -75,7 +75,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								43789,	-- Plains Runehorn Calf [Stormheim]
 								43790,	-- Wild Dreamrunner [Val'Sharah]
 							},
-							["g"] = {
+							["groups"] = {
 								q(43799, {	-- Summoned Sheep Exploded
 									["name"] = "Summoned Sheep Exploded",
 									["description"] = "The next step is pure RNG - when you teleport to your class order hall you have (once a day) chance to trigger a spawn of Volatile Sheep. If it does spawn for you, you will see Cote's dialogue box saying 'Success!' - the sheep will be standing just next to Dalaran portal, all you have to do is to right-click it couple times to make it explode. After you do you'll get another speech box, this time Extemely Volatile Stormheim Sheep bleating '...' - for some reason you can see someone else's sheep dialogue box, so if you see that one in Hall of the guardian without doing previous mob sheeping, means someone just made their sheep explode in the class hall :) As I said this step is pure luck, so it may take some time until you get your sheep to spawn (for me it was around 3 weeks).",
@@ -106,7 +106,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["crs"] = { 111704 },	-- Cote "Shepherd" Metcalf
 							["sourceQuests"] = { 43800 },	-- Extremely Volatile Stormheim Sheep
 							["maps"] = { ELWYNN_FOREST },
-							["g"] = {
+							["groups"] = {
 								i(139558, {	-- The Woolomancer's Charge
 									artifact(846),	-- Aluneth
 								}),
@@ -122,7 +122,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					cl(MAGE, FROST, {
 						gt(386, {		-- Teleportation Nexus
 							["description"] = "A set of 5 portals is generated in the Class Hall; there is a small daily chance instead you will be phased to Frostfire Ridge where you can loot Everburning Crystal. You will be alerted to this chance by an emote when walking around on the stairs of your class hall.",
-							["g"] = {
+							["groups"] = {
 								n(DAILY_EVENT_ROLL, {
 									["questID"] = 44384,	-- "Daily Portal Event Roll" on WoWHead
 									["isBreadcrumb"] = true,
@@ -131,7 +131,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								n(113513, {	-- Asher <Fury of Frostfire>
 									["description"] = "If this quest has a checkmark next to it, then that means the scenario portal is active. He only appears in a special phase in Frostfire Ridge upon taking the portal.",
 									["sourceQuest"] = 44384,	-- Daily Portal Event Roll
-									["g"] = {
+									["groups"] = {
 										i(139560, {	-- Everburning Crystal
 											artifact(180),	-- Ebonchill
 										}),
@@ -176,7 +176,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 41035,	-- Felstorm's Plea
 						["provider"] = { "n", 102700 },	-- Meryl Felstorm
 						["maps"] = { LEGION_DALARAN },
-						["g"] = {
+						["groups"] = {
 							spell(204287),	-- Teleport: Hall of the Guardian
 						},
 					}),
@@ -221,7 +221,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42007,	-- A Forgotten Enemy
 							["provider"] = { "n", 105917 },	-- Image of Kalec
 							["coord"] = { 56.6, 69.1, DRAGONBLIGHT },
-							["g"] = {
+							["groups"] = {
 								i(173430),	-- Nexus Teleport Scroll (QI!)
 							},
 						}),
@@ -240,7 +240,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 105917 },	-- Image of Kalec
 							["coord"] = { 27.8, 26.7, BOREAN_TUNDRA },
 							["maps"] = { 736 },	-- The Nexus (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(127857, {	-- Aluneth
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -272,7 +272,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 99415 },	-- Aethas Sunreaver
 							["coord"] = { 28.6, 37.2, HILLSBRAD_FOOTHILLS },
 							["maps"] = { 700 },	-- Icecrown Citadel (Scenario Map)
-							["g"] = {
+							["groups"] = {
 								i(128820, {	-- Felo'melorn
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -309,7 +309,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42452,	-- Finding Ebonchill
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-							["g"] = {
+							["groups"] = {
 								i(141327),	-- Functional Ward (QI!)
 								i(173698, {	-- Karazhan Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
@@ -322,7 +322,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuest"] = 42452,	-- Finding Ebonchill
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-							["g"] = {
+							["groups"] = {
 								i(173699, {	-- Blasted Lands Scroll (QI!)
 									["timeline"] = { ADDED_9_0_1 },
 								}),
@@ -337,7 +337,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 59.1, 43.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-							["g"] = {
+							["groups"] = {
 								i(128862, {	-- Ebonchill
 									["ItemAppearanceModifierID"] = 9,
 									["groups"] = {
@@ -362,7 +362,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuestNumRequired"] = 1,
 						["provider"] = { "n", 112440 },	-- Jackson Watkins
 						["coord"] = { 44.8, 57.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							i(139749),	-- Cowl of Tirisgarde
 						},
 					}),
@@ -421,7 +421,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42663,	-- Rise, Champions
 						["provider"] = { "n", 108247 },	-- Archmage Kalec <Kirin Tor>
 						["coord"] = { 56.3, 37.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(716),	-- Archmage Kalec
 						},
 					}),
@@ -429,7 +429,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42663,	-- Rise, Champions
 						["provider"] = { "n", 108248 },	-- Archmage Modera <Kirin Tor>
 						["coord"] = { 55.3, 39.6, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(717),	-- Archmage Modera
 						},
 					}),
@@ -511,7 +511,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 108380 },	-- Esara Verrinde <Magisters>
 						["coord"] = { 74.0, 59.4, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(726),	-- Esara Verrinde
 						},
 					}),
@@ -519,7 +519,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42222,	-- Empyrean Society Report
 						["provider"] = { "n", 108377 },	-- Ravandwyr <Senior Kirin Tor Apprentice>
 						["coord"] = { 70.4, 53.3, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(725),	-- Ravandwyr
 						},
 					}),
@@ -563,7 +563,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42508,	-- Not a Toothless Dragon
 						["provider"] = { "n", 111553 },	-- Kalecgos
 						["coord"] = { 34.1, 83.4, SURAMAR },
-						["g"] = { i(138115) },	-- Kalec's Image Crystal
+						["groups"] = { i(138115) },	-- Kalec's Image Crystal
 					}),
 					q(42493, {	-- Impending Dooooooom!
 						["sourceQuest"] = 42521,	-- The Enemy of My Enemy...
@@ -579,7 +579,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108085 },	-- Image of Kalec
 						["coord"] = { 41.7, 59.8, 683 },
 						["maps"] = { SURAMAR },
-						["g"] = {
+						["groups"] = {
 							i(139754),	-- Bracers of Tirisgarde
 							artifact(128),	-- Aluneth
 							artifact(492),	-- Felo'melorn
@@ -594,7 +594,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 						["provider"] = { "n", 108342 },	-- Millhouse Manastorm
 						["coord"] = { 56.0, 58.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(723),	-- Millhouse Manastorm
 						},
 					}),
@@ -620,7 +620,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 107351 },	-- Archmage Khadgar
 						["coord"] = { 71.7, 54.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["maps"] = { 799, 800, 801, 802, 803 },	-- The Oculus (Scenario Map)
-						["g"] = {
+						["groups"] = {
 							i(139751),	-- Robes of Tirisgarde
 							title(61),	-- Archmage <Name>
 						},
@@ -629,7 +629,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42734,	-- Into the Oculus
 						["provider"] = { "n", 109222 },	-- Meryl Felstorm
 						["coord"] = { 72.8, 61.7, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(761),	-- Meryl Felstorm
 						},
 					}),
@@ -637,7 +637,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42734,	-- Into the Oculus
 						["provider"] = { "n", 109226 },	-- Archmage Vargoth <Kirin Tor>
 						["coord"] = { 71.2, 63.5, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(762),	-- Archmage Vargoth
 						},
 					}),
@@ -645,7 +645,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42914,	-- Champion: Meryl Felstorm
 						["provider"] = { "n", 109222 },	-- Meryl Felstorm
 						["coord"] = { 72.8, 61.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							artifact(132),	-- Aluneth
 							artifact(495),	-- Felo'melorn
 							artifact(495),	-- Heart of the Phoenix
@@ -690,7 +690,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.2, 37.9, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(146404),	-- Coronet of the Lu'minellia (QI!)
 							i(146405),	-- Crystallized Silithid Essence (QI!)
 							i(146402),	-- Erno's Enigma (QI!)
@@ -721,7 +721,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 121357 },	-- Arcanist Ryanna
 						["coord"] = { 55.8, 41.9, SURAMAR },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(142241),	-- Unusual Crystal (QI!)
 						},
 					}),
@@ -739,7 +739,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 116321 },	-- Arcanist Ryanna
 						["coord"] = { 47.1, 23.5, 691 },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(142212),	-- Nighborne Construct Progenitor (QI!)
 						},
 					}),
@@ -775,7 +775,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117331 },	-- Aethas Sunreaver
 						["coord"] = { 49.2, 18.6, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(143795),	-- Nightborne Soulstone (QI!)
 						},
 					}),
@@ -798,7 +798,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 46290,	-- Return of the Archmage
 						["provider"] = { "n", 117497 },	-- Aethas Sunreaver
 						["coord"] = { 72.2, 63.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
-						["g"] = {
+						["groups"] = {
 							follower(994),	-- Aethas Sunreaver
 						},
 					})),
@@ -813,7 +813,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(143837),	-- Tri-Disc of Frost (QI!)
 						},
 					}),
@@ -822,7 +822,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(143836),	-- Tri-Disc of Fire (QI!)
 						},
 					}),
@@ -831,7 +831,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
-						["g"] = {
+						["groups"] = {
 							i(143838),	-- Tri-Disc of the Arcane (QI!)
 						},
 					}),
@@ -844,7 +844,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["maps"] = { 881 },	-- The Eye of Eternity (Scenario Map)
-						["g"] = {
+						["groups"] = {
 							mount(229376),	-- Archmage's Prismatic Disc (MOUNT!)
 						},
 					})),
@@ -863,7 +863,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42955,	-- The Proper Way of Things
 						["provider"] = { "n", 109307 },	-- Ari
 						["coord"] = { 37.0, 48.3, HALL_OF_THE_GUARDIAN },
-						["g"] = {
+						["groups"] = {
 							i(141880),	-- Ari's Wooden Ring
 						},
 					}),
@@ -876,7 +876,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42959,	-- Three Is a Lucky Number
 						["provider"] = { "n", 108368 },	-- Arcane Destroyer
 						["coord"] = { 38.2, 46.1, HALL_OF_THE_GUARDIAN },
-						["g"] = {
+						["groups"] = {
 							follower(724),	-- Arcane Destroyer
 						},
 					}),
@@ -904,7 +904,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 46722,	-- Nothing Up My Sleeve
 						["provider"] = { "n", 103092 },	-- The Great Akazamzarak
 						["coord"] = { 81.5, 60.3, HALL_OF_THE_GUARDIAN },
-						["g"] = {
+						["groups"] = {
 							i(147838),	-- Akazamzarak's Spare Hat (TOY!)
 						},
 					})),
@@ -912,7 +912,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 46723,	-- Down the Rabbit Hole
 						["provider"] = { "n", 103092 },	-- The Great Akazamzarak
 						["coord"] = { 81.5, 60.3, HALL_OF_THE_GUARDIAN },
-						["g"] = {
+						["groups"] = {
 							follower(995),	-- The Great Akazamzarak
 						},
 					})),
@@ -968,7 +968,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(112440, {	-- Jackson Watkins <Tirisgarde Quartermaster>
 						["coord"] = { 45.6, 57.6, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(140939, {	-- Archmage's Armor Kit
 								["cost"] = { { "c", 1220, 2000 }, },	-- 2,000x Order Resources
 							}),
@@ -1007,7 +1007,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					n(103169, {	-- Uthel'nay
 						["sourceQuest"] = 45354,	-- Dispersion of the Discs
-						["g"] = {
+						["groups"] = {
 							i(147832, {	-- Magical Saucer (TOY!)
 								["sourceQuest"] = 45354,	-- Dispersion of the Discs
 								["cost"] = { { "c", 1220, 1000 }, },	-- 1,000x Order Resources

@@ -5304,7 +5304,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["coord"] = { 27.6, 52.3, VOLDUN },
 				["maps"] = { 1038, 1043 },	-- Temple of Sethraliss
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156512),	-- Tome of Oblivion (QI!)
 				},
 			}),
@@ -5389,7 +5389,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{"i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -5397,7 +5397,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		n(QUESTS, sharedData({
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(198607),	-- Scribe's Glyphs
 			},
 		},{
@@ -5406,7 +5406,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194451),	-- Icy Excrement (QI!)
 				},
 			}),
@@ -5414,7 +5414,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194321),	-- Peacock Feather (QI!)
 				},
 			}),
@@ -5422,7 +5422,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201835),	-- Draconic Scroll (QI!)
 				},
 			}),
@@ -5430,7 +5430,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194332),	-- Bark Parchment (QI!)
 				},
 			}),
@@ -5467,7 +5467,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(204435),	-- Obsidian Tablet (QI!)
 				},
 			}),
@@ -5481,7 +5481,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(208886),	-- Fiery Essence (QI!)
 				},
 			}),
@@ -5489,14 +5489,14 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(208946),	-- Burning Rune (QI!)
 				},
 			}),
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_INSCRIPTION_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_INSCRIPTION_KNOWLEDGE, 1 }} }, {
 				r(383533),	-- Azurescale Sigil
 				r(383536),	-- Bronzescale Sigil
 				r(383512),	-- Bundle O' Cards: Dragon Isles
@@ -5523,7 +5523,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			o(402892, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Ancient Research
 				["coord"] = { 54.6, 20.2, ZARALEK_CAVERN },
 				["questID"] = 76121,
-				["g"] = {
+				["groups"] = {
 					i(206035),	-- Ancient Research
 				},
 			})),
@@ -5531,7 +5531,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Interact with the glyph, cross the bridge and kill the neutral NPC at the end, then return to collect the treasure.",
 				["questID"] = 70248,
 				["coord"] = { 47.1, 40.1, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(198672),	-- Decryption Key
 					i(198659),	-- Forgetful Apprentice's Tome (1 of 2)
 				},
@@ -5539,7 +5539,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			o(380601, {	-- Dusty Darkmoon Card
 				["questID"] = 70297,
 				["coord"] = { 46.2, 24.0, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198693),	-- Dusty Darkmoon Card
 				},
 			}),
@@ -5548,35 +5548,35 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Speak to Siennagosa and offer to help putting her deck back together, then gather the cards in the proper order (Ace through Eight) to collect the treasure.",
 				["questID"] = 70287,
 				["coord"] = { 56.1, 40.9, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(201015),	-- Counterfeit Darkmoon Deck
 				},
 			}),
 			o(380550, {	-- Forgetful Apprentice's Tome
 				["questID"] = 70264,
 				["coord"] = { 56.3, 41.2, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(198659),	-- Forgetful Apprentice's Tome (1 of 2)
 				},
 			}),
 			o(380595, {	-- Frosted Parchment
 				["questID"] = 70293,
 				["coord"] = { 43.7, 30.9, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198686),	-- Frosted Parchment
 				},
 			}),
 			o(411169, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Grove Keeper's Pillar
 				["coord"] = { 63.4, 71.5, EMERALD_DREAM },
 				["questID"] = 78412,
-				["g"] = {
+				["groups"] = {
 					i(210459),	-- Grove Keeper's Pillar
 				},
 			})),
 			o(402890, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Hissing Rune Draft
 				["coord"] = { 53.0, 74.3, ZARALEK_CAVERN },
 				["questID"] = 76120,
-				["g"] = {
+				["groups"] = {
 					i(206034),	-- Hissing Rune Draft
 				},
 			})),
@@ -5584,49 +5584,49 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["description"] = "Collect the Pulsing Earth Rune first! Otherwise this treasure might erroneously contain the rune, and you will not be able to collect the proper treasure.",
 				["questID"] = 70281,
 				["coord"] = { 13.2, 63.7, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(198669),	-- How to Train Your Whelpling
 				},
 			}),
 			o(402888, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Intricate Zaqali Runes
 				["coord"] = { 36.7, 46.3, ZARALEK_CAVERN },
 				["questID"] = 76117,
-				["g"] = {
+				["groups"] = {
 					i(206031),	-- Intricate Zaqali Runes
 				},
 			})),
 			o(411170, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Primalist Shadowbinding Rune
 				["coord"] = { 36.0, 46.6, EMERALD_DREAM },
 				["questID"] = 78413,
-				["g"] = {
+				["groups"] = {
 					i(210460),	-- Primalist Shadowbinding Rune
 				},
 			})),
 			o(380610, {	-- Pulsing Earth Rune
 				["questID"] = 70306,
 				["coord"] = { 67.9, 58.0, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198704),	-- Pulsing Earth Rune
 				},
 			}),
 			o(380612, {	-- Sign Language Reference Sheet
 				["questID"] = 70307,
 				["coord"] = { 85.7, 25.2, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(198703),	-- Sign Language Reference Sheet
 				},
 			}),
 			o(411168, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Winnie's Notes on Flora and Fauna
 				["coord"] = { 55.6, 27.5, EMERALD_DREAM },
 				["questID"] = 78411,
-				["g"] = {
+				["groups"] = {
 					i(210458),	-- Winnie's Notes on Flora and Fauna
 				},
 			})),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_INSCRIPTION_KNOWLEDGE),
 			},
 		},{
@@ -5673,7 +5673,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228776),	-- Algari Scribe's Journal
 			},
 		},{
@@ -5684,7 +5684,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_INSCRIPTION_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_INSCRIPTION_KNOWLEDGE, 1 }} }, {
 				r(447868),	-- Algari Treatise on Inscription
 				r(444192),	-- Darkmoon Sigil: Evolve
 				r(444193),	-- Darkmoon Sigil: Radiance
@@ -5704,63 +5704,63 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			o(455982, {	-- Blue Earthen Pigment
 				["coord"] = { 62.4, 58.0, THE_RINGING_DEEPS },
 				["questID"] = 83885,
-				["g"] = {
+				["groups"] = {
 					i(226311),	-- Blue Earthen Pigment
 				},
 			}),
 			o(455980, {	-- Calligrapher's Chiseled Marker
 				["coord"] = { 42.8, 49.0, HALLOWFALL },
 				["questID"] = 83887,
-				["g"] = {
+				["groups"] = {
 					i(226313),	-- Calligrapher's Chiseled Marker
 				},
 			}),
 			o(455985, {	-- Dornogal Scribe's Quill
 				["coord"] = { 57.1, 46.98, DORNOGAL },
 				["questID"] = 83882,
-				["g"] = {
+				["groups"] = {
 					i(226308),	-- Dornogal Scribe's Quill
 				},
 			}),
 			o(455984, {	-- Historian's Dip Pen
 				["coord"] = { 55.9, 60.0, ISLE_OF_DORN },
 				["questID"] = 83883,
-				["g"] = {
+				["groups"] = {
 					i(226309),	-- Historian's Dip Pen
 				},
 			}),
 			o(455981, {	-- Informant's Fountain Pen
 				["coord"] = { 43.2, 58.9, HALLOWFALL },
 				["questID"] = 83886,
-				["g"] = {
+				["groups"] = {
 					i(226312),	-- Informant's Fountain Pen
 				},
 			}),
 			o(455979, {	-- Nerubian Texts
 				["coord"] = { 55.8, 43.9, AZJ_KAHET },
 				["questID"] = 83888,
-				["g"] = {
+				["groups"] = {
 					i(226314),	-- Nerubian Texts
 				},
 			}),
 			o(455983, {	-- Runic Scroll
 				["coord"] = { 48.5, 34.3, THE_RINGING_DEEPS },
 				["questID"] = 83884,
-				["g"] = {
+				["groups"] = {
 					i(226310),	-- Runic Scroll
 				},
 			}),
 			o(455978, {	-- Venomancer's Ink Well
 				["coord"] = { 50.1, 30.8, NERUBAR },
 				["questID"] = 83889,
-				["g"] = {
+				["groups"] = {
 					i(226315),	-- Venomancer's Ink Well
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_INSCRIPTION_KNOWLEDGE),
 			},
 		},{

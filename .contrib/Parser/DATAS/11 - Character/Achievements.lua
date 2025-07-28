@@ -144,7 +144,7 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 	})),
 	applyclassicphase(MOP_PHASE_ONE, ach(6742, bubbleDownSelf({["timeline"] = {ADDED_5_0_4}}, {	-- 60 Exalted Reputations
 		["_noautomation"] = true,
-		["g"] = {
+		["groups"] = {
 			title(197),	-- <Name> the Beloved
 		},
 	}))),
@@ -154,7 +154,7 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 	})),
 	applyclassicphase(BFA_PHASE_ONE, ach(12864, bubbleDownSelf({["timeline"] = {ADDED_8_0_1_LAUNCH}}, {	-- 80 Exalted Reputations
 		["_noautomation"] = true,
-		["g"] = {
+		["groups"] = {
 			title(380),		-- <Name> the Admired
 		},
 	}))),
@@ -164,7 +164,7 @@ root(ROOTS.Character, n(ACHIEVEMENTS, {
 	})),
 	applyclassicphase(BFA_PHASE_ONE, ach(12866, bubbleDownSelf({["timeline"] = {ADDED_8_0_1_LAUNCH}}, {	-- 100 Exalted Reputations
 		["_noautomation"] = true,
-		["g"] = {
+		["groups"] = {
 			i(163982),		-- Pureheart Courser (MOUNT!)
 			title(379),		-- Esteemed <Name>
 		},

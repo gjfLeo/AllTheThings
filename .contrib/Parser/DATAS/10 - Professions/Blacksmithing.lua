@@ -191,7 +191,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38499, {	-- Strange New Ores
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(195097, {	-- Blacksmithing (Legion Master)
 					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 					["collectible"] = false,
@@ -208,7 +208,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38499,	-- Strange New Ores
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(182928),	-- Leystone Armguards [Rank 1] (RECIPE!)
 				r(182929),	-- Leystone Waistguard [Rank 1] (RECIPE!)
 			},
@@ -222,7 +222,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 39681,	-- The Properties of Leystone
 			["provider"] = { "n", 97261 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(182935),	-- Leystone Breastplate [Rank 1] (RECIPE!)
 				r(182930),	-- Leystone Pauldrons [Rank 1] (RECIPE!)
 			},
@@ -255,7 +255,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38515,	-- Nature Provides
 			["provider"] = { "n", 97261 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(182934),	-- Leystone Boots [Rank 1] (RECIPE!)
 				r(182933),	-- Leystone Gauntlets [Rank 1] (RECIPE!)
 				r(182931),	-- Leystone Greaves [Rank 1] (RECIPE!)
@@ -290,7 +290,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuests"] = { 38514 },	-- You Are Not Worthy
 			["provider"] = { "n", 92242 },	-- Barm Stonebreaker
 			["coord"] = { 55.2, 84.2, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				r(184216, {["u"]=TRAINING}),	-- Large Heated Scrap Metal
 				r(184215, {["u"]=TRAINING}),	-- Medium Heated Scrap Metal
 				r(184214, {["u"]=TRAINING}),	-- Small Heated Scrap Metal
@@ -305,7 +305,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuests"] = { 39699 },	-- Ironhorn Leysmithing
 			["provider"] = { "n", 92245 },	-- Thala Steeltotem
 			["coord"] = { 55.2, 84.2, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				r(182967),	-- Leystone Gauntlets [Rank 2] (RECIPE!)
 			},
 		}),
@@ -319,7 +319,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38518,	-- From One Master to Another
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(184309, {["u"]=TRAINING}),	-- Hard Leystone Bar
 				r(184313, {["u"]=TRAINING}),	-- Hard Leystone Ingots
 				r(184315, {["u"]=TRAINING}),	-- Hard Leystone Nail
@@ -333,7 +333,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38522,	-- Not Just Weapons and Armor
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(182999),	-- Leystone Hoofplates (RECIPE!)
 			},
 		}),
@@ -374,7 +374,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38564,	-- A Sweet Bargain
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(182969),	-- Leystone Breastplate [Rank 2] (RECIPE!)
 				r(184184, {["u"]=TRAINING}),	-- Dull Hard Leystone Armguards
 				r(184185, {["u"]=TRAINING}),	-- Hard Leystone Armguards
@@ -398,7 +398,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38525,	-- Part of the Team
 			["provider"] = { "n", 92264 },	-- Felsmith Nal'ryssa
 			["coord"] = { 30.0, 53.4, SURAMAR },
-			["g"] = {
+			["groups"] = {
 				r(182968),	-- Leystone Boots [Rank 2] (RECIPE!)
 				r(184344, {["u"]=TRAINING}),	-- Handmade Leystone Boots
 				r(184339, {["u"]=TRAINING}),	-- Leystone Footguard
@@ -421,7 +421,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 38527,	-- Nal'ryssa's Technique
 			["provider"] = { "n", 92264 },	-- Felsmith Nal'ryssa
 			["coord"] = { 30.0, 53.4, SURAMAR },
-			["g"] = {
+			["groups"] = {
 				r(182962),	-- Leystone Armguards [Rank 2] (RECIPE!)
 				r(184405, {["u"]=TRAINING}),	-- Brimstone-Covered Armguards
 				r(184407, {["u"]=TRAINING}),	-- Brimstone-Crusted Armguards
@@ -452,7 +452,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				{ "i", 123898, 1 },	-- 1xLeystone Armguards
 				{ "i", 123898, 1 },	-- 1xLeystone Armguards
 			},
-			["g"] = {
+			["groups"] = {
 				r(182966),	-- Leystone Helm [Rank 2] (RECIPE!)
 				r(182964),	-- Leystone Pauldrons [Rank 2] (RECIPE!)
 			},
@@ -463,7 +463,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92242 },	-- Barm Stonebreaker
 			["coord"] = { 55.2, 84.2, HIGHMOUNTAIN },
 			["maps"] = { 706, 707, 708 },	-- Maw of Souls
-			["g"] = {
+			["groups"] = {
 				i(124025, {	-- Ancient Vrykul Hammer (QI!)
 					["cr"] = 96759,	-- Helya
 				}),
@@ -482,7 +482,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuests"] = { 38559 },	-- Worthy of the Stone
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				r(184442),	-- Demonsteel Bar
 			},
 		}),
@@ -490,7 +490,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuests"] = { 38833 },	-- The Art of Demonsteel
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				r(182944),	-- Demonsteel Armguards [Rank 1] (RECIPE!)
 			},
 		}),
@@ -500,7 +500,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123917, 1 } },	-- 1x Demonsteel Armguards
-			["g"] = {
+			["groups"] = {
 				i(123940),	-- Plans: Demonsteel Armguards [Rank 2] (RECIPE!)
 			},
 		}),
@@ -510,7 +510,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123911, 1 } },	-- 1x Demonsteel Boots
-			["g"] = {
+			["groups"] = {
 				i(123946),	-- Plans: Demonsteel Boots [Rank 2] (RECIPE!)
 			},
 		}),
@@ -520,7 +520,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123910, 1 } },	-- 1x Demonsteel Breastplate
-			["g"] = {
+			["groups"] = {
 				i(123947),	-- Plans: Demonsteel Breastplate [Rank 2] (RECIPE!)
 			},
 		}),
@@ -530,7 +530,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123912, 1 } },	-- 1x Demonsteel Gauntlets
-			["g"] = {
+			["groups"] = {
 				i(123945),	-- Plans: Demonsteel Gauntlets [Rank 2] (RECIPE!)
 			},
 		}),
@@ -540,7 +540,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123914, 1 } },	-- 1x Demonsteel Greaves
-			["g"] = {
+			["groups"] = {
 				i(123943),	-- Plans: Demonsteel Greaves [Rank 2] (RECIPE!)
 			},
 		}),
@@ -550,7 +550,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123913, 1 } },	-- 1x Demonsteel Helm
-			["g"] = {
+			["groups"] = {
 				i(123944),	-- Plans: Demonsteel Helm [Rank 2] (RECIPE!)
 			},
 		}),
@@ -560,7 +560,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123915, 1 } },	-- 1x Demonsteel Pauldrons
-			["g"] = {
+			["groups"] = {
 				i(123942),	-- Plans: Demonsteel Pauldrons [Rank 2] (RECIPE!)
 			},
 		}),
@@ -570,7 +570,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92243 },	-- Muirn Ironhorn <Blacksmithing Trainer>
 			["coord"] = { 54.6, 84.0, HIGHMOUNTAIN },
 			["cost"] = { {"i", 123916, 1 } },	-- 1x Demonsteel Waistguard
-			["g"] = {
+			["groups"] = {
 				i(123941),	-- Plans: Demonsteel Waistguard [Rank 2] (RECIPE!)
 			},
 		}),
@@ -580,7 +580,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(147197),	-- Legends of the Four Hammers (QI!)
 			},
 		})),
@@ -589,7 +589,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(146709),	-- Ancient Demonsteel (QI!)
 				i(146708),	-- Ancient Demonsteel Armor (QI!)
 			},
@@ -600,7 +600,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["maps"] = { 731 },	-- Neltharion's Lair
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(146704),	-- Red-Hot Draconic Slag (QI!)
 			},
 		})),
@@ -610,7 +610,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["maps"] = { 703, 704, 705 },	-- Halls of Valor
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(146703),	-- Godfighter Hammer (QI!)
 				i(146702),	-- White Lightningsteel (QI!)
 			},
@@ -621,7 +621,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["maps"] = { 806, 807, 808 },	-- Trial of Valor
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(146707),	-- Hellslayer Hammer (QI!)
 				i(146706),	-- Frostveined Shale (QI!)
 			},
@@ -636,7 +636,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 			["repeatable"] = true,
-			["g"] = {
+			["groups"] = {
 				i(147443),	-- Carrying Case For Hammer of Forgotten Heroes (QI!)
 				i(147207),	-- Legendary Blacksmithing Supplies (QI!)
 				i(146714),	-- Hammer of Forgotten Heroes
@@ -651,7 +651,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				{ "i", 151564, 42 },	-- 42xEmpyrium
 				{ "i", 151568, 2 },		-- 2xPrimal Sargerite
 			},
-			["g"] = {
+			["groups"] = {
 				r(247710),	-- Empyrial Breastplate [Rank 1] (RECIPE!)
 				r(248869, {["u"]=TRAINING}),	-- Empyrial Back Plate
 				r(248870, {["u"]=TRAINING}),	-- Empyrial Breastplate
@@ -668,7 +668,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92183 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				r(247700),	-- Felslate Anchor (RECIPE!)
 				i(151871),	-- Crate of Felslate (QI!)
 			},
@@ -678,7 +678,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 106655 },	-- Arcanomancer Vridiel
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				r(247700),	-- Felslate Anchor (RECIPE!)
 				i(151871),	-- Crate of Felslate (QI!)
 			},
@@ -710,7 +710,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 73.6, 8.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156875),	-- Revlis Ore (QI!)
 				},
 			}),
@@ -720,7 +720,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 43.6, 38.3, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156875),	-- Revlis Ore (QI!)
 				},
 			}),
@@ -761,7 +761,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 53.9, 50.0, DEEPHOLM },
 				["sourceQuestNumRequired"] = 1,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(156887),	-- Diaminium (QI!)
 				},
 			}),
@@ -774,7 +774,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 53.9, 50.0, DEEPHOLM },
 				["sourceQuestNumRequired"] = 1,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(157556),	-- Earthen Thumper (QI!)
 					i(156886),	-- Endurite (QI!)
 				},
@@ -793,7 +793,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["provider"] = { "n", 133796 },	-- Therazane
 				["coord"] = { 27.5, 50.8, DEEPHOLM },
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167021),	-- Khaz'gorian Anvil (QI!)
 				},
 			}),
@@ -802,7 +802,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["provider"] = { "n", 133796 },	-- Therazane
 				["coord"] = { 27.5, 50.8, DEEPHOLM },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(253145),	-- Khaz'gorian Smithing Hammer (RECIPE!)
 				},
 			})),
@@ -811,7 +811,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["provider"] = { "n", 133796 },	-- Therazane
 				["coord"] = { 27.5, 50.8, DEEPHOLM },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(253145),	-- Khaz'gorian Smithing Hammer (RECIPE!)
 				},
 			})),
@@ -854,7 +854,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -862,7 +862,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(198606),	-- Blacksmith's Writ
 			},
 		},{
@@ -876,7 +876,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(193864),	-- Magma Core (QI!)
 				},
 			}),
@@ -884,7 +884,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201819),	-- Earthen Sample (QI!)
 				},
 			}),
@@ -892,7 +892,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.6, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194435),	-- Large Tool (QI!)
 				},
 			}),
@@ -902,7 +902,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "Requires 45 Skill.",
 				["provider"] = { "n", 191002 },	-- Dhurrel
 				["coord"] = { 36.8, 63.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(192126),	-- Intact Dracthyr Weapon (QI!)
 				},
 			}),
@@ -932,7 +932,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(198606),	-- Blacksmith's Writ
 					i(204434),	-- Lava-Quenched Blade (QI!)
 				},
@@ -953,7 +953,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(198606),	-- Blacksmith's Writ
 					i(209049),	-- Essence of Endless Flame (QI!)
 				},
@@ -961,7 +961,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_BLACKSMITHING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_BLACKSMITHING_KNOWLEDGE, 1 }} }, {
 				r(376700),	-- Illustrious Insight
 				r(371412),	-- Khaz'gorite Blacksmith's Hammer
 				r(371374),	-- Khaz'gorite Blacksmith's Toolbox
@@ -989,7 +989,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 49.8, 63.0, EMERALD_DREAM },
 				["questID"] = 78417,
-				["g"] = {
+				["groups"] = {
 					i(210464),	-- Amirdrassil Defender's Shield
 				},
 			})),
@@ -998,14 +998,14 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["crs"] = { 188648 },	-- Enchanted Bulwark
 				["coord"] = { 22.3, 87.7, THE_WAKING_SHORES },
 				["questID"] = 70246,
-				["g"] = {
+				["groups"] = {
 					i(201007),	-- Ancient Monument
 				},
 			}),
 			o(380620, {	-- Ancient Spear Shards
 				["coord"] = { 81.1, 37.9, OHNAHRAN_PLAINS },
 				["questID"] = 70313,
-				["g"] = {
+				["groups"] = {
 					i(201004),	-- Ancient Spear Shards
 				},
 			}),
@@ -1013,21 +1013,21 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 48.3, 22.0, ZARALEK_CAVERN },
 				["questID"] = 76079,
-				["g"] = {
+				["groups"] = {
 					i(205987),	-- Brimstone Rescue Ring
 				},
 			})),
 			o(380619, {	-- Curious Ingots
 				["coord"] = { 65.6, 25.7, THE_WAKING_SHORES },
 				["questID"] = 70312,
-				["g"] = {
+				["groups"] = {
 					i(201005),	-- Curious Ingots
 				},
 			}),
 			o(380618, {	-- Draconic Flux
 				["coord"] = { 52.2, 80.5, THALDRASZUS },
 				["questID"] = 70311,
-				["g"] = {
+				["groups"] = {
 					i(201006),	-- Draconic Flux
 				},
 			}),
@@ -1035,14 +1035,14 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 36.34, 46.79, EMERALD_DREAM },
 				["questID"] = 78418,
-				["g"] = {
+				["groups"] = {
 					i(210465),	-- Deathstalker Chassis
 				},
 			})),
 			o(380709, {	-- Falconer Gauntlet Drawings
 				["coord"] = { 50.9, 66.5, OHNAHRAN_PLAINS },
 				["questID"] = 70353,
-				["g"] = {
+				["groups"] = {
 					i(201009),	-- Falconer Gauntlet Drawings
 				},
 			}),
@@ -1050,7 +1050,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 37.27, 22.94, EMERALD_DREAM },
 				["questID"] = 78419,
-				["g"] = {
+				["groups"] = {
 					i(210466),	-- Flamesworn Render
 				},
 			})),
@@ -1059,21 +1059,21 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["sourceQuests"] = { 70232 },	-- This triggers when crafting the Alloy, which makes the treasure appear.
 				["coord"] = { 56.4, 19.5, THE_WAKING_SHORES },
 				["questID"] = 70230,
-				["g"] = {
+				["groups"] = {
 					i(198791),	-- Glimmer of Blacksmithing Wisdom
 				},
 			}),
 			o(380598, {	-- Molten Ingot
 				["coord"] = { 35.6, 64.5, THE_WAKING_SHORES },
 				["questID"] = 70296,
-				["g"] = {
+				["groups"] = {
 					i(201008),	-- Molten Ingot
 				},
 			}),
 			o(380617, {	-- Qalashi Weapon Diagram
 				["coord"] = { 34.5, 67.1, THE_WAKING_SHORES },
 				["questID"] = 70310,
-				["g"] = {
+				["groups"] = {
 					i(201010),	-- Qalashi Weapon Diagram
 				},
 			}),
@@ -1081,7 +1081,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["description"] = "If you do not have Mining to clear the Rock Wall, try dying. Ghosts can walk through it.",
 				["coord"] = { 53.1, 66.1, THE_AZURE_SPAN },
 				["questID"] = 70314,
-				["g"] = {
+				["groups"] = {
 					i(201011),	-- Spelltouched Tongs
 				},
 			}),
@@ -1089,7 +1089,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 57.2, 54.6, ZARALEK_CAVERN },
 				["questID"] = 76078,
-				["g"] = {
+				["groups"] = {
 					i(205986),	-- Well-Worn Kiln
 				},
 			})),
@@ -1097,14 +1097,14 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 27.5, 42.9, ZARALEK_CAVERN },
 				["questID"] = 76080,
-				["g"] = {
+				["groups"] = {
 					i(205988),	-- Zaqali Elder Spear
 				},
 			})),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_BLACKSMITHING_KNOWLEDGE),
 			},
 		},{
@@ -1154,7 +1154,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228774),	-- Algari Blacksmiths's Journal
 			},
 		},{
@@ -1165,7 +1165,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_BLACKSMITHING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_BLACKSMITHING_KNOWLEDGE, 1 }} }, {
 				r(450281),	-- Artisan Blacksmith's Hammer
 				r(450282),	-- Artisan Blacksmith's Toolbox
 				r(450238),	-- Charged Claymore
@@ -1197,63 +1197,63 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			o(456017, {	-- Ancient Earthen Anvil
 				["coord"] = { 59.8, 61.9, ISLE_OF_DORN },
 				["questID"] = 83848,
-				["g"] = {
+				["groups"] = {
 					i(226276),	-- Ancient Earthen Anvil
 				},
 			}),
 			o(456016, {	-- Dornogal Hammer
 				["coord"] = { 47.7, 26.5, DORNOGAL },
 				["questID"] = 83849,
-				["g"] = {
+				["groups"] = {
 					i(226277),	-- Dornogal Hammer
 				},
 			}),
 			o(456014, {	-- Earthen Chisels
 				["coord"] = { 60.6, 53.8, THE_RINGING_DEEPS },
 				["questID"] = 83851,
-				["g"] = {
+				["groups"] = {
 					i(226279),	-- Earthen Chisels
 				},
 			}),
 			o(456013, {	-- Holy Flame Forge
 				["coord"] = { 47.6, 61.0, HALLOWFALL },
 				["questID"] = 83852,
-				["g"] = {
+				["groups"] = {
 					i(226280),	-- Holy Flame Forge
 				},
 			}),
 			o(456011, {	-- Nerubian Smith's Kit
 				["coord"] = { 46.6, 22.7, NERUBAR },
 				["questID"] = 83854,
-				["g"] = {
+				["groups"] = {
 					i(226282),	-- Nerubian Smith's Kit
 				},
 			}),
 			o(456012, {	-- Radiant Tongs
 				["coord"] = { 44.1, 55.6, HALLOWFALL },
 				["questID"] = 83853,
-				["g"] = {
+				["groups"] = {
 					i(226281),	-- Radiant Tongs
 				},
 			}),
 			o(456015, {	-- Ringing Hammer Vise
 				["coord"] = { 47.7, 33.2, THE_RINGING_DEEPS },
 				["questID"] = 83850,
-				["g"] = {
+				["groups"] = {
 					i(226278),	-- Ringing Hammer Vise
 				},
 			}),
 			o(456010, {	-- Spiderling's Wire Brush
 				["coord"] = { 53.0, 51.3, AZJ_KAHET },
 				["questID"] = 83855,
-				["g"] = {
+				["groups"] = {
 					i(226283),	-- Spiderling's Wire Brush
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_BLACKSMITHING_KNOWLEDGE),
 			},
 		}, {

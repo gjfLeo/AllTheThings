@@ -71,7 +71,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			["sourceQuests"] = { 65665 },	-- Embodiment
 			["provider"] = { "n", 185829 },	-- Lilian Voss
 			["coord"] = { 68.6, 81.8, MALDRAXXUS },
-			["g"] = {
+			["groups"] = {
 				i(191029),	-- Lilian's Hearthstone (QI!)
 			},
 		}),
@@ -102,7 +102,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			["sourceQuest"] = 66091,	-- Path of the Dark Rangers (H)
 			["coord"] = { 61.8, 67.8, 2070 },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				ach(15579, {	-- Return to Lordaeron
 					title(460),	-- <Name> of Lordaeron
 				}),
@@ -113,7 +113,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			["sourceQuest"] = 66090,	-- Path of the Dark Rangers (A)
 			["coord"] = { 61.9, 67.8, 2070 },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				ach(15579, {	-- Return to Lordaeron
 					title(460),	-- <Name> of Lordaeron
 				}),

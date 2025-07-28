@@ -6,11 +6,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	n(CLASS_HALL, {
 		cl(PRIEST, bubbleDownSelf({ ["classes"] = { PRIEST } }, {
 			["maps"] = { NETHERLIGHT_TEMPLE },
-			["g"] = {
+			["groups"] = {
 				n(ARTIFACTS, {
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow
 						["description"] = "Obtain 12 of these books to complete the set and receive the Discipline Priest Hidden Artifact Appearance.\n\nStart with Volume VI and Archivist Inkforge in your Order Hall.",
-						["g"] = sharedData({
+						["groups"] = sharedData({
 							["groups"] = {
 								i(141332),	-- The Annals of Light and Shadow
 							},
@@ -146,7 +146,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							{ "n", 102333 },	-- Hooded Priestess (Alliance)
 						},
 						["maps"] = { LEGION_DALARAN },
-						["g"] = {
+						["groups"] = {
 							i(173373, {	-- Faol's Hearthstone (QI!)
 								["timeline"] = { ADDED_9_0_1 },
 							}),
@@ -185,7 +185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							{ 12.8, 59.1, TIRISFAL_GLADES },
 							-- #endif
 						},
-						["g"] = { i(173523) },	-- Tirisfal Camp Scroll (QI!)
+						["groups"] = { i(173523) },	-- Tirisfal Camp Scroll (QI!)
 					}),
 					-- Holy
 					q(41957, {	-- The Vindicator's Plea
@@ -197,7 +197,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41957 },	-- The Vindicator's Plea
 						["provider"] = { "n", 105602 },	-- Vindicator Boros
 						["coord"] = { 37.7, 36.7, LEGION_DALARAN },
-						["g"] = {
+						["groups"] = {
 							i(173379),	-- Purify Stone (QI!)
 						},
 					}),
@@ -236,7 +236,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(41628, {	-- Eyes of the Dragon
 						["sourceQuests"] = { 41626 },	-- A Forgotten Enemy
 						["provider"] = { "n", 105917 },	-- Image of Kalec
-						["g"] = {
+						["groups"] = {
 							i(173430),	-- Nexus Teleport Scroll (QI!)
 						},
 					}),
@@ -270,7 +270,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["lvl"] = 45,
 						["provider"] = { "n", 112401 },	-- Meridelle Lightspark
 						["coord"] = { 38.9, 24.4, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							i(139757),	-- Miter of the High Priest
 						},
 					}),
@@ -295,7 +295,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43270 },	-- Rise, Champions (must be on this quest)
 						["provider"] = { "n", 110596 },	-- Calia Menethil
 						["coord"] = { 51.6, 50.0, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							follower(856),	-- Calia Menethil
 						},
 					}),
@@ -303,7 +303,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43270 },	-- Rise, Champions (must be on this quest)
 						["coord"] = { 57.4, 26.9, NETHERLIGHT_TEMPLE },
 						["provider"] = { "n", 110598 },	-- High Priestess Ishanah
-						["g"] = {
+						["groups"] = {
 							follower(857),	-- High Priestess Ishanah
 						},
 					}),
@@ -348,7 +348,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43389 },	-- Unexpected Guests
 						["coord"] = { 51.2, 49.6, NETHERLIGHT_TEMPLE },
 						["provider"] = { "n", 111215 },	-- Mariella Ward
-						["g"] = {
+						["groups"] = {
 							i(139762),	-- Bracers of the High Priest
 							follower(873),	-- Mariella Ward
 						},
@@ -373,7 +373,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 43392,	-- Into the Void
 						["provider"] = { "n", 110684 },	-- Natalie Seline
 						["coord"] = { 24.2, 37.8, DUSKWOOD },
-						["g"] = {
+						["groups"] = {
 							follower(874),	-- Natalie Seline
 						},
 					}),
@@ -456,7 +456,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43401 },	-- A Light in the Darkness
 						["provider"] = { "n", 110564 },	-- Alonsus Faol <Bishop of Secrets>
 						["coord"] = { 51.0, 48.4, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							follower(875),	-- Alonsus Faol
 						},
 					}),
@@ -464,7 +464,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43398 },	-- Champion: Alonsus Faol
 						["provider"] = { "n", 110564 },	-- Alonsus Faol
 						["coord"] = { 51.0, 48.4, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							i(139759),	-- Robes of the High Priest
 							title(339),	-- High Priest <Name>
 						},
@@ -503,7 +503,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45343 },	-- A Curious Contagion
 						["provider"] = { "n", 118528 },	-- Aelthalyste
 						["coord"] = { 30.0, 55.9, HIGHMOUNTAIN },
-						["g"] = {
+						["groups"] = {
 							i(143678),	-- Shimmering Dust (QI!)
 						},
 					}),
@@ -548,7 +548,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 46145 },	-- Sterile Surroundings
 						["provider"] = { "n", 120842 },	-- Aelthalyste
 						["coord"] = { 24.8, 40.1, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							follower(1002),	-- Aelthalyste
 						},
 					}),
@@ -562,7 +562,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 102709 },	-- Betild Deepanvil <Master Artificer>
 						["coord"] = { 50.4, 21.8, NETHERLIGHT_TEMPLE },
 						["maps"] = { 839 },	-- THe Maelstrom
-						["g"] = {
+						["groups"] = {
 							mount(229377),	-- High Priest's Lightsworn Seeker (MOUNT!)
 						},
 					}),
@@ -580,7 +580,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43383 },	-- Awakening the Light
 						["coord"] = { 73.9, 40.8, NETHERLIGHT_TEMPLE },
 						["provider"] = { "n", 110457 },	-- Sol
-						["g"] = {
+						["groups"] = {
 							follower(872),	-- Sol
 						},
 					}),
@@ -588,7 +588,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43376 },	-- Problem Salver
 						["coord"] = { 47.1, 43.9, AZSUNA },
 						["provider"] = { "n", 110687 },	-- Yalia Sagewhisper
-						["g"] = {
+						["groups"] = {
 							follower(871),	-- Yalia Sagewhisper
 						},
 					}),
@@ -596,7 +596,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 43376 },	-- Problem Salver
 						["coord"] = { 47.1, 43.9, AZSUNA },
 						["provider"] = { "n", 110686 },	-- Zabra Hexx
-						["g"] = {
+						["groups"] = {
 							follower(870),	-- Zabra Hexx
 						},
 					}),
@@ -701,7 +701,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(TREASURES, {
 					o(252162, {	-- Light Well
 						["coord"] = { 75.5, 40.6, NETHERLIGHT_TEMPLE },
-						["g"] = {
+						["groups"] = {
 							i(139459),	-- Blessing of the Light
 							i(139452),	-- Essence of the Ligh
 							i(139449),	-- Essence of the Naaru
@@ -713,7 +713,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					n(112401, {	-- Meridelle Lightspark <Logistics>
 						["coord"] = { 39.0, 24.6, NETHERLIGHT_TEMPLE },
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
-						["g"] = {
+						["groups"] = {
 							i(139762, {	-- Bracers of the High Priest
 								["cost"] = 5000000,	-- 500g
 							}),

@@ -923,12 +923,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 55.4, 54.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
-				["requireSkill"] = TAILORING,
 				["cost"] = {
 					{ "i", 2320, 1 },	-- Coarse Thread
 					{ "i", 2604, 1 },	-- Red Dye
 					{ "i", 6260, 1 },	-- Blue Dye
 				},
+				["requireSkill"] = TAILORING,
 				["isMonthly"] = true,
 				["groups"] = {
 					objective(1, {	-- Plant Darkmoon Banner
@@ -1013,8 +1013,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 36.2, 35.2, MULGORE },
 				},
 				["maxReputation"] = TIER_ONE_MAX_REPUTATION,
-				["cost"] = { { "i", 2309, 3 } },	-- Embossed Leather Boots
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 2309, 3 } },	-- Embossed Leather Boots
 				["repeatable"] = true,
 				["groups"] = {
 					TATTERED_DARKMOON_PRIZE_TICKET,
@@ -1057,8 +1057,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 36.2, 35.2, MULGORE },
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
-				["cost"] = { { "i", 2314, 3 } },	-- Toughened Leather Armor
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 2314, 3 } },	-- Toughened Leather Armor
 				["repeatable"] = true,
 				["lvl"] = 10,
 				["groups"] = {
@@ -1101,8 +1101,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37.8, 39.8, MULGORE },
 				},
 				["maxReputation"] = TIER_ONE_MAX_REPUTATION,
-				["cost"] = { { "i", 3240, 10 } },	-- Coarse Weightstone
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 3240, 10 } },	-- Coarse Weightstone
 				["repeatable"] = true,
 				["groups"] = {
 					TATTERED_DARKMOON_PRIZE_TICKET,
@@ -1144,8 +1144,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37.1, 37.2, MULGORE },
 				},
 				["maxReputation"] = TIER_ONE_MAX_REPUTATION,
-				["cost"] = { { "i", 4363, 5 } },	-- Copper Modulator
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 4363, 5 } },	-- Copper Modulator
 				["repeatable"] = true,
 				["groups"] = {
 					TATTERED_DARKMOON_PRIZE_TICKET,
@@ -1734,12 +1734,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
-				["requireSkill"] = LEATHERWORKING,
 				["cost"] = {
 					{ "i", 6529, 10 },	-- Shiny Bauble
 					{ "i", 2320, 5 },	-- Coarse Thread
 					{ "i", 6260, 5 },	-- Blue Dye
 				},
+				["requireSkill"] = LEATHERWORKING,
 				["isMonthly"] = true,
 				["groups"] = {
 					objective(1, {	-- 0/5 Darkmoon Prize
@@ -1881,8 +1881,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37.8, 39.8, MULGORE },
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
-				["cost"] = { { "i", 3486, 7 } },	-- Heavy Grinding Stone
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 3486, 7 } },	-- Heavy Grinding Stone
 				["repeatable"] = true,
 				["lvl"] = 10,
 				["groups"] = {
@@ -2345,8 +2345,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37.5, 39.6, MULGORE },
 				},
 				["maxReputation"] = TIER_ONE_MAX_REPUTATION,
-				["cost"] = { { "i", 5134, 5 } },	-- Small Furry Paw
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 5134, 5 } },	-- Small Furry Paw
 				["repeatable"] = true,
 				["groups"] = {
 					TATTERED_DARKMOON_PRIZE_TICKET,
@@ -2701,8 +2701,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37.5, 39.6, MULGORE },
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
-				["cost"] = { { "i", 11407, 5 } },	-- Torn Bear Pelt
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 11407, 5 } },	-- Torn Bear Pelt
 				["repeatable"] = true,
 				["lvl"] = 10,
 				["groups"] = {
@@ -2768,8 +2768,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					{ 37, 37.4, MULGORE },
 				},
 				["maxReputation"] = TIER_TWO_MAX_REPUTATION,
-				["cost"] = { { "i", 4375, 7 } },	-- Whirring Bronze Gizmo
 				["timeline"] = { REMOVED_2_0_1 },
+				["cost"] = { { "i", 4375, 7 } },	-- Whirring Bronze Gizmo
 				["repeatable"] = true,
 				["lvl"] = 10,
 				["groups"] = {
@@ -2863,8 +2863,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 				["timeline"] = { REMOVED_4_3_0 },
 				["maps"] = { WAILING_CAVERNS },
-				["cr"] = 14822,	-- Sayge
 				["repeatable"] = true,
+				["cr"] = 14822,	-- Sayge
 				["lvl"] = 10,
 				["groups"] = {
 					i(19425, {	-- Mysterious Lockbox

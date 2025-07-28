@@ -9,7 +9,7 @@ root(ROOTS.ExpansionFeatures,
 			["description"] = "The Chromie Scenario sends you through multiple timeways to defeat Chromie's attackers. As you gain reputation with Chromie by killing mobs in the scenario, you will unlock more powerful abilities for Chromie to help speed up your run. Unlike past solo scenarios like Withered Army Training, you do not need to worry about gearing up--your gear is scaled up to 1000 and your player level is increased as well to 112. You can also fly inside this scenario--unusual for instanced content.\n\nEach scenario attempt lasts 15 minutes and the ultimate goal is to defeat 8 timeways in one attempt. Progress can be speed up through obtaining items that grant extra time, buffs from Chromie, and items which auto-complete a timeway threat.",
 			["icon"] = 236699,
 			["maps"] = { DRAGONBLIGHT, 898, 899, 900, 901, 902 },	-- Dragonblight / Scenario
-			["g"] = {
+			["groups"] = {
 				n(124764, {	-- Azure Dragonshrine Area
 					n(QUESTS, {
 						q(47557, {	-- Smoldering Chronoshard
@@ -23,7 +23,7 @@ root(ROOTS.ExpansionFeatures,
 						}),
 					}),
 					n(122552, {	-- Leyline Elemental
-						["g"] = {
+						["groups"] = {
 							i(151141),	-- Darkened Scrap of Vellum
 						},
 					}),
@@ -40,14 +40,14 @@ root(ROOTS.ExpansionFeatures,
 						}),
 					}),
 					n(122548, {	-- Emerald Skytalon
-						["g"] = {
+						["groups"] = {
 							i(151168, {	-- Emeraldine Plume
 								i(151166),	-- Nightmare-Catcher
 							}),
 						},
 					}),
 					n(122549, {	-- Emerald Lasher
-						["g"] = {
+						["groups"] = {
 							i(151167, {	-- Twisted Fiber
 								i(151166),	-- Nightmare-Catcher
 							}),
@@ -84,17 +84,17 @@ root(ROOTS.ExpansionFeatures,
 						}),
 					}),
 					n(122542, {	-- -Alyndriel Graveborn
-						["g"] = {
+						["groups"] = {
 							i(150939),	-- Soul Crystal Fragment
 						},
 					}),
 					n(122541, {	-- Earlis the Deathrider
-						["g"] = {
+						["groups"] = {
 							i(150939),	-- Soul Crystal Fragment
 						},
 					}),
 					n(122540, {	-- Festerbloat
-						["g"] = {
+						["groups"] = {
 							i(150939),	-- Soul Crystal Fragment
 						},
 					}),
@@ -110,7 +110,7 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 123781 },	-- Emery Neill
 							["repeatable"] = true,
 							["sourceQuest"] = 47750,	-- For Emery
-							["g"] = {
+							["groups"] = {
 								i(151347),	-- Town Hall Door Key
 							},
 						}),
@@ -125,7 +125,7 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
 							["repeatable"] = true,
 							["sourceQuest"] = 47745,	-- Yeah, Definitely for the Kids
-							["g"] = {
+							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
@@ -133,7 +133,7 @@ root(ROOTS.ExpansionFeatures,
 							["coord"] = { 56.3, 68.3, 902 },
 							["provider"] = { "n", 123781 },	-- Emery Neill
 							["repeatable"] = true,
-							["g"] = {
+							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
@@ -146,34 +146,34 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(VENDORS, {
 						n(123781, {	-- Emery Neill <Barkeep>
-							["g"] = {
+							["groups"] = {
 								i(151285),	-- Keg of Booty Bay Rum
 							},
 						}),
 						n(123782, {	-- Ezra Grimm
-							["g"] = {
+							["groups"] = {
 								i(151284),	-- Flinty Firestarter
 								i(151280),	-- Grimm's Special Pipe Blend
 							},
 						}),
 						n(123778, {	-- George Goodman <General Goods>
-							["g"] = {
+							["groups"] = {
 								i(151286),	-- Heavy Straw Rope
 								i(151281),	-- Salted Venison Jerky
 							},
 						}),
 						n(123780, {	-- Olivia Zenith
-							["g"] = {
+							["groups"] = {
 								i(151283),	-- Basic Cloth Bandages
 							},
 						}),
 						n(123783, {	-- Robert Pierce
-							["g"] = {
+							["groups"] = {
 								i(151282),	-- Refurbished Military Rifle
 							},
 						}),
 						n(123779, {	-- Sophie Aaren <Florist>
-							["g"] = {
+							["groups"] = {
 								i(151287),	-- Marigold Bouquet
 							},
 						}),
@@ -187,7 +187,7 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 124154 },	-- Chromie
 							["repeatable"] = true,
 							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
-							["g"] = {
+							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
@@ -197,33 +197,33 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 124154 },	-- Chromie
 							["repeatable"] = true,
 							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
-							["g"] = {
+							["groups"] = {
 								i(151493),	-- Sands of Time
 							},
 						}),
 					}),
 					n(124100, {	-- Apothecary Tillings
-						["g"] = {
+						["groups"] = {
 							i(151368),	-- Experimental Alchemy Reagent
 						},
 					}),
 					n(QUALITY_ELITE, {
-						["g"] = {
+						["groups"] = {
 							i(151370),	-- Military Explosives
 						},
 					}),
 					n(124095, {	-- Gatzin Zapwrench
-						["g"] = {
+						["groups"] = {
 							i(151369),	-- Lightning Absorption Capsule
 						},
 					}),
 					n(124094, {	-- Potionmaster Donovan
-						["g"] = {
+						["groups"] = {
 							i(151368),	-- Experimental Alchemy Reagent
 						},
 					}),
 					n(124101, {	-- Roobi Skizzelvolt
-						["g"] = {
+						["groups"] = {
 							i(151369),	-- Lightning Absorption Capsule
 						},
 					}),
@@ -235,7 +235,7 @@ root(ROOTS.ExpansionFeatures,
 							{ "n", 90417 },	-- Archmage Khadgar
 							{ "n", 122926 },	-- Image of Chromie
 						},
-						["g"] = {
+						["groups"] = {
 							i(151700),	-- Wayfinder's Sundial
 						},
 					}),
@@ -243,7 +243,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 59.6, 54.6, 897 },
 						["provider"] = { "n", 122513 },	-- Lord Itharius
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
@@ -251,7 +251,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 59.5, 54.3, 897 },
 						["provider"] = { "n", 122514 },	-- Kalecgos
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
@@ -259,7 +259,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47550,	-- The Many Advantages of Being a Time Dragon
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
@@ -267,14 +267,14 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47543,	-- The Day That Chromie Dies
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
 					q(47543, {	-- The Day That Chromie Dies
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
@@ -282,7 +282,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 59.8, 54.7, 897 },
 						["provider"] = { "n", 122511 },	-- Alexstrasza the Life-Binder
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
@@ -290,7 +290,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
 						["sourceQuest"] = 47545,	-- Rewind
-						["g"] = {
+						["groups"] = {
 							currency(TIMEWARPED_BADGE),
 						},
 					}),
@@ -298,7 +298,7 @@ root(ROOTS.ExpansionFeatures,
 						["coord"] = { 60.0, 54.5, 897 },
 						["provider"] = { "n", 122510 },	-- Chromie
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							i(151493),	-- Sands of Time
 						},
 					}),
@@ -311,7 +311,7 @@ root(ROOTS.ExpansionFeatures,
 					q(47906, {	-- The Deaths of Chromie
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["provider"] = { "n", 27856 },	-- Chromie
-						["g"] = {
+						["groups"] = {
 							iensemble(151692),	-- Ensemble: Chronoscryer's Finery
 							iensemble(151693),	-- Ensemble: Riftscarred Vestments
 							iensemble(151694),	-- Ensemble: Epoch Sentinel's Mail
@@ -320,7 +320,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 				}),
 				n(ZONE_DROPS, {	--
-					["g"] = {
+					["groups"] = {
 						i(151493, {	-- Sands of Time
 							i(151482, {	-- Time-Lost Wallet
 								i(151829),		-- Bronze Proto-Whelp (PET!)

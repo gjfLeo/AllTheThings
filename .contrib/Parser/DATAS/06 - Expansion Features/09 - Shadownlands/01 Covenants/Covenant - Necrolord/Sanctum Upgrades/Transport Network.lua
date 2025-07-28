@@ -6,10 +6,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(NECROLORD, {
 		n(SANCTUM_UPGRADES, {
 			["icon"] = 3641396,
-			["g"] = {
+			["groups"] = {
 				n(TRANSPORT_NETWORK, {
 					["icon"] = 3854019,
-					["g"] = sharedData({ ["icon"] = 3854019 }, {
+					["groups"] = sharedData({ ["icon"] = 3854019 }, {
 						n(TIER_ONE, {
 							n(QUESTS, {
 								q(63059, {	-- Blink of an Eye

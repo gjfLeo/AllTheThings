@@ -1466,7 +1466,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(LOVE_TOKEN),
 				o(413126, {	-- Box of Artisanal Goods
 					["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-					["g"] = {
+					["groups"] = {
 						i(210431),	-- Artisanal Bon-Bombs (QI!)
 						i(211127),	-- Note from Bang Sparknozzle (QI!) [book]
 					},
@@ -1546,7 +1546,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(LOVE_TOKEN),
 				o(413126, {	-- Box of Artisanal Goods
 					["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-					["g"] = {
+					["groups"] = {
 						i(210431),	-- Artisanal Bon-Bombs (QI!)
 						i(211782),	-- Note from Zikky (QI!) [book]
 					},
@@ -1965,7 +1965,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(211873, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Bang Sparknozzle <Lovely Novelties>
 			["coord"] = { 33.6, 47.8, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210318, {	-- Chocolate Bon-Bomb
 					["cost"] = {{"i", LOVE_TOKEN, 1}},
 				}),
@@ -1989,7 +1989,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(213094, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Bimble Longberry
 			["coord"] = { 33.7, 51.3, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210928),	-- Healthy Body Package
 				i(239015, {	-- Rock Candy Package
 					["timeline"] = { ADDED_11_0_7 },
@@ -1999,7 +1999,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214482, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Grogg Skullsmasher <Fruit Vendor>
 			["coord"] = { 41.2, 18.2, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210821),	-- Berry Chocolate Tart
 				i(210819),	-- Chocolate-Covered Cherries
 				i(239015, {	-- Rock Candy Package
@@ -2010,7 +2010,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214493, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Guo Plumpaw
 			["coord"] = { 3357, 50.9, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210841),	-- Buttered Oysters
 				i(210929),	-- Comfort Food Package
 				i(210842),	-- Fresh Fig
@@ -2022,7 +2022,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214488, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Hana Breezeheart <Flower Vendor>
 			["coord"] = { 41.4, 17.8, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(211359, {	-- Eternal Black Rose
 					["cost"] = {{"i", LOVE_TOKEN, 20}},
 				}),
@@ -2076,14 +2076,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214861, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Jeremiah Payson <Crunchy Sweets> [Need HORDE Version]
 			["coord"] = { 41.2, 17.5, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(211810),	-- Chocolate-Covered Crunchies
 			},
 		})),
 		n(211812, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Kiera Torres <Lovely Prizes and Heirlooms>
 			["coord"] = { 32.2, 50.4, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				filter(BATTLE_PETS, {
 					i(205156, {	-- Heartseeker Moth (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
@@ -2122,7 +2122,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				filter(MISC, {
 					i(21813, {	-- Bag of Heart Candies
 						["cost"] = {{"i", LOVE_TOKEN, 2}},
-						["g"] = {
+						["groups"] = {
 							i(21816),	-- Heart Candy (Be Mine!)
 							i(21817),	-- Heart Candy (I LOVE YOU)
 							i(21818),	-- Heart Candy (I'll follow you all around Azeroth.)
@@ -2138,7 +2138,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(50160, {	-- Lovely Dress Box
 						["cost"] = {{"i", LOVE_TOKEN, 20}},
-						["g"] = {
+						["groups"] = {
 							ach(1694, {	-- Lovely Luck Is On Your Side
 								["provider"] = { "i", 151770 },	-- Lovely Black Dress
 							}),
@@ -2150,7 +2150,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(50161, {	-- Dinner Suit Box
 						["cost"] = {{"i", LOVE_TOKEN, 20}},
-						["g"] = {
+						["groups"] = {
 							i(151765),	-- Blue Dinner Suit
 							i(151764),	-- Purple Dinner Suit
 							i(151766),	-- Red Dinner Suit
@@ -2396,7 +2396,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214481, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Lythianne Morningspear <Lovely Prizes and Heirlooms>
 			["coord"] = { 41.9, 17.3, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				filter(BATTLE_PETS, {
 					i(205156, {	-- Heartseeker Moth (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
@@ -2435,7 +2435,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				filter(MISC, {
 					i(21813, {	-- Bag of Heart Candies
 						["cost"] = {{"i", LOVE_TOKEN, 2}},
-						["g"] = {
+						["groups"] = {
 							i(21816),	-- Heart Candy (Be Mine!)
 							i(21817),	-- Heart Candy (I LOVE YOU)
 							i(21818),	-- Heart Candy (I'll follow you all around Azeroth.)
@@ -2451,7 +2451,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(50160, {	-- Lovely Dress Box
 						["cost"] = {{"i", LOVE_TOKEN, 20}},
-						["g"] = {
+						["groups"] = {
 							ach(1694, {	-- Lovely Luck Is On Your Side
 								["provider"] = { "i", 151770 },	-- Lovely Black Dress
 							}),
@@ -2463,7 +2463,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(50161, {	-- Dinner Suit Box
 						["cost"] = {{"i", LOVE_TOKEN, 20}},
-						["g"] = {
+						["groups"] = {
 							i(151765),	-- Blue Dinner Suit
 							i(151764),	-- Purple Dinner Suit
 							i(151766),	-- Red Dinner Suit
@@ -2508,11 +2508,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(211864, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Maurice Guichi <House of Chocolates>
 			["coord"] = { 33.6, 49.8, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210926),	-- Me, Myself, and Chocolate Package
 				i(49909, {	-- Box of Chocolates
 					["cost"] = {{"i", LOVE_TOKEN, 10}},
-					["g"] = {
+					["groups"] = {
 						i(22236),	-- Buttermilk Delight
 						i(22237),	-- Dark Desire
 						i(22239),	-- Sweet Surprise
@@ -2527,14 +2527,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(212886, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Melanie Charles <Bountiful Brews>
 			["coord"] = { 34.2, 50.6, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210927),	-- Fruity Cocktail Flight
 			},
 		})),
 		n(214493, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Ming Plumpaw <Lovely Snacks> [Need Alliance Version]
 			["coord"] = { 41.1, 17.8, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210841),	-- Buttered Oysters
 				i(210929),	-- Comfort Food Package
 				i(210842),	-- Fresh Fig
@@ -2546,7 +2546,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(211810, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Ronathan Graham <Fruit Vendor>
 			["coord"] = { 33.6, 49.8, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210821),	-- Berry Chocolate Tart
 				i(210819),	-- Chocolate-Covered Cherries
 				i(210928),	-- Healthy Body Package
@@ -2555,7 +2555,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(211887, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Sylandra Silverbreeze <Flower Vendor>
 			["coord"] = { 34.2, 48.8, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(211359, {	-- Eternal Black Rose
 					["cost"] = {{"i", LOVE_TOKEN, 20}},
 				}),
@@ -2609,21 +2609,21 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(215109, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Ugawa <Bountiful Brews>
 			["coord"] = { 40.8, 17.8, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210927),	-- Fruity Cocktail Flight
 			},
 		})),
 		n(212587, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Wobbley Sugarfizz <House of Chocolates>
 			["coord"] = { 33.5, 50.1, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210695),	-- Delightful Chocolate Sample
 			},
 		})),
 		n(214489, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Zikky <Lovely Novelties>
 			["coord"] = { 41.0, 17.2, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(210318, {	-- Chocolate Bon-Bomb
 					["cost"] = {{"i", LOVE_TOKEN, 1}},
 				}),
@@ -2647,10 +2647,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		n(214480, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Zin'boja <De Chocolate Den>
 			["coord"] = { 41.2, 18.0, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["g"] = {
+			["groups"] = {
 				i(49909, {	-- Box of Chocolates
 					["cost"] = {{"i", LOVE_TOKEN, 10}},
-					["g"] = {
+					["groups"] = {
 						i(22236),	-- Buttermilk Delight
 						i(22237),	-- Dark Desire
 						i(22239),	-- Sweet Surprise

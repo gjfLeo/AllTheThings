@@ -58,7 +58,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							}),
 							ach(17366, {	-- Relics of a Fallen Empire
 								["sourceQuest"] = 74576,	-- Restored Hakkari Bijou
-								["timeline"] = { ADDED_10_0_7 }
+								["timeline"] = { ADDED_10_0_7 },
 							}),
 						}),
 						header(HEADERS.Item, 203757, {	-- Brazier of Madness

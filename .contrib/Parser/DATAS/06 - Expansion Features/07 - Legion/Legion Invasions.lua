@@ -41,28 +41,28 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					q(45838, {	-- Assault on Azsuna
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							-- Blizzard links this HQT as the criteria for 'Defender of the Broken Isles' (11544)
 							hqt(47193, {["name"] = "First Completion"}),
 						}
 					}),
 					q(45840, {	-- Assault on Highmountain
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							-- Blizzard links this HQT as the criteria for 'Defender of the Broken Isles' (11544)
 							hqt(47194, {["name"] = "First Completion"}),
 						}
 					}),
 					q(45839, {	-- Assault on Stormheim
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							-- Blizzard links this HQT as the criteria for 'Defender of the Broken Isles' (11544)
 							hqt(47195, {["name"] = "First Completion"}),
 						}
 					}),
 					q(45812, {	-- Assault on Val'sharah
 						["repeatable"] = true,
-						["g"] = {
+						["groups"] = {
 							-- Blizzard links this HQT as the criteria for 'Defender of the Broken Isles' (11544)
 							hqt(47196, {["name"] = "First Completion"}),
 						}
@@ -142,7 +142,7 @@ root(ROOTS.ExpansionFeatures,
 							147223,	-- Dauntless Trinket
 						},
 					},
-					["g"] = {
+					["groups"] = {
 						i(139158),	-- Battle Mace of the Niskaran Guard
 						i(139163),	-- Star of Niskara
 						i(138762),	-- Niskaran Morning Star

@@ -50,7 +50,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					}),
 					crit(52464, {	-- Waffle
 						["cr"] = 180824,	-- Waffle
-						["coord"] = { 77.29, 45.70, TAZAVESH_THE_VEILED_MARKET }
+						["coord"] = { 77.29, 45.70, TAZAVESH_THE_VEILED_MARKET },
 					}),
 				}),
 			}),

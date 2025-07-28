@@ -37,7 +37,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 78386 },	-- Emerald Reawakening (TODO: may be become available without renown after done once?)
 				["provider"] = { "n", 211209 },	-- Elianna
 				["coord"] = { 50.2, 61.8, EMERALD_DREAM },
-				["g"] = {
+				["groups"] = {
 					i(205160),	-- Rithro (PET!)
 				},
 			}),
@@ -46,7 +46,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 211209 },	-- Elianna
 				["coord"] = { 50.2, 61.8, EMERALD_DREAM },
 				["repeatable"] = true,	-- TODO: ShadowBrooks remove repeatable flag once blizzard fixes quest
-				["g"] = {
+				["groups"] = {
 					i(210776),	-- Lesser Dream Infusion
 				},
 			}),
@@ -55,21 +55,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 211209 },	-- Elianna
 				["coord"] = { 50.2, 61.8, EMERALD_DREAM },
 				["repeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					currency(CURRENCY_DREAM_INFUSION),
 				},
 			}),
 			q(78595, {	-- Dream Infused
 				["description"] = "Requires Renown 18",
 				["provider"] = { "n", 211962 },	-- Merlsysra
-				["g"] = {
+				["groups"] = {
 					currency(CURRENCY_DREAM_INFUSION),
 				},
 			}),
 			n(VENDORS, {
 				n(211209, {	-- Elianna <Dream Infuser>
 					["coord"] = { 50.2, 61.8, EMERALD_DREAM },
-					["g"] = bubbleDownFiltered({
+					["groups"] = bubbleDownFiltered({
 						["cost"] = {{"c", CURRENCY_DREAM_INFUSION, 1}},
 					},FILTERFUNC_itemID,{
 						filter(BATTLE_PETS, {
@@ -138,7 +138,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["isWeekly"] = true,
 						["coord"] = { 50.2, 61.6, EMERALD_DREAM },
 						["maxReputation"] = { FACTION_DREAM_WARDENS, 20 },
-						["g"] = {
+						["groups"] = {
 							i(210421),	-- Dream Wardens Insignia [Epic 500]
 							i(210872, {	-- Satchel of Dreams
 								["sym"] = {
@@ -147,13 +147,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 									{"exclude","itemID",211417},	-- Dream Wardens Insignia [Epic 1k]
 									{"exclude","itemID",210243},	-- Technique: Contract: Dream Wardens (RECIPE!)
 								},
-								["g"] = {
+								["groups"] = {
 									i(202172),	-- Overflowing Satchel of Coins
 								},
 							}),
 							--[[ Discuss-
 							i(210872, {	-- Satchel of Dreams
-								["g"] = {
+								["groups"] = {
 									i(202172),	-- Overflowing Satchel of Coins
 								--	filter(CLOTH, {	-- Commented out due Tooltip Length
 										i(210349),	-- Frigid Conservator's Gown
@@ -287,7 +287,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(78363, {	-- The Tabard of Your Dreams
 						["provider"] = { "n", 211962 },	-- Melsysra
 						["maps"] = { EMERALD_DREAM },	-- follow you around
-						["g"] = {
+						["groups"] = {
 							i(210501),	-- Dream Wardens Tabard
 						},
 					}),
@@ -379,7 +379,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["provider"] = { "n", 208143 },	-- Keeper Amrymn
 						["repeatable"] = true,
 						["coord"] = { 50.2, 61.6, EMERALD_DREAM },
-						["g"] = {
+						["groups"] = {
 								i(210992, {	-- Overflowing Dream Warden Trove
 							}),
 						},
@@ -390,7 +390,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 		n(VENDORS, {
 			n(208156, {	-- Moon Priestress Lasara <Renown Quatermaster>
 				["coord"] = { 50.3, 61.6, EMERALD_DREAM },
-				["g"] = bubbleDownRep(FACTION_DREAM_WARDENS, {
+				["groups"] = bubbleDownRep(FACTION_DREAM_WARDENS, {
 					{		-- RENOWN 1 --
 					}, {	-- RENOWN 2 --
 					}, {	-- RENOWN 3 --

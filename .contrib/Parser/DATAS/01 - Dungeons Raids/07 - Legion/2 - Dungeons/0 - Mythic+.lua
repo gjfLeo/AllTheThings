@@ -23,7 +23,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					crit(32357),	-- Maw of Souls
 					crit(32355),	-- The Arcway
 					crit(32354),	-- Court of Stars
-				}
+				},
 			}),
 		}),
 	}),

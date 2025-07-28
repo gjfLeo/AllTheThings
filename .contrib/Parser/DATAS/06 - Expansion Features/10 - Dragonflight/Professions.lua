@@ -36,7 +36,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				-- ["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
 				["provider"] = { "n", 192498 },	-- Haephesta
 				["coord"] = { 57.9, 68.2, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198790),	-- I.O.U
 					i(195357),	-- Artisan's Consortium Invoice
 				},
@@ -49,7 +49,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
 				["cost"] = { { "i", 194728, 3 }, },	-- 3xFiery Spirit++
-				["g"] = {
+				["groups"] = {
 					i(194715),	-- Gatherer's Pouch
 				},
 			}),
@@ -60,7 +60,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
-				["g"] = {
+				["groups"] = {
 					i(202097),	-- Bulging Box of Skins and Scales
 					i(202098),	-- Crowded Crate of Mined Materials
 					i(202100),	-- Populous Pack of Castoff Clothes
@@ -92,7 +92,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
-				["g"] = {
+				["groups"] = {
 					i(193487),	-- Alchemist's Hat
 					i(193615),	-- Jeweler's Tool Apron
 					i(193486),	-- Resilient Smock
@@ -114,7 +114,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["provider"] = { "n", 192539 },	-- Miguel Bright
 				["coord"] = { 39.4, 69.8, VALDRAKKEN },
 				["description"] = "Even though Miguel can be found in numerous places around the Dragon Isles, this quest is only offered in Valdrakken once the Dragon Shard of Knowledge chain has been completed.",
-				["g"] = {
+				["groups"] = {
 					i(197765),	-- Impossibly Sharp Cutting Knife
 					i(191516),	-- Brood Salt
 					i(190456),	-- Artisan's Mettle
@@ -127,7 +127,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
-				["g"] = {
+				["groups"] = {
 					i(191784),	-- Dragon Shard of Knowledge
 				},
 			}),
@@ -138,7 +138,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
-				["g"] = {
+				["groups"] = {
 					i(197860),	-- Ancient Scrap of Draconic Wisdom (QI!)
 					i(191784),	-- Dragon Shard of Knowledge
 				},
@@ -150,7 +150,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
-				["g"] = {
+				["groups"] = {
 					i(191784),	-- Dragon Shard of Knowledge
 				},
 			}),
@@ -158,7 +158,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 69946 },	-- The Master of Their Craft
 				["provider"] = { "n", 193110 },	-- Khadin
 				["coord"] = { 51.7, 33, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(191784),	-- Dragon Shard of Knowledge
 					i(198137),	-- Esoteric Dragon Shard of Knowledge
 				},
@@ -172,7 +172,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 72.0, 81.1, OHNAHRAN_PLAINS },
 					{ 35.4, 58.8, VALDRAKKEN },
 				},
-				["g"] = {
+				["groups"] = {
 					i(193528),	-- Wildercloth Alchemist's Robe
 					i(193529),	-- Wildercloth Fishing Cap
 					i(193615),	-- Jeweler's Cover
@@ -181,7 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			q(69915, {	-- Targeted Ads
 				["provider"] = { "n", 193108 },	-- Azley
 				["coord"] = { 72.0, 81.1, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(198348),	-- "Custom High-Quality Gear: Better Business with Personal Orders!" (QI!)
 					i(198346),	-- "Order Anything Crafters Make!" (QI!)
 					i(198347),	-- "Public Orders: Fast and Made For You!" (QI!)
@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 72.0, 81.1, OHNAHRAN_PLAINS },
 					{ 35.4, 58.8, VALDRAKKEN },
 				},
-				["g"] = {
+				["groups"] = {
 					i(201343),	-- Bag of Cloth Armor Reagents
 					i(201352),	-- Bag of Leather Reagents
 					i(201353),	-- Bag of Mail Armor Reagents
@@ -218,7 +218,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 					{ 39.4, 69.9, VALDRAKKEN },
 				},
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -260,7 +260,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70845 },	-- In Tyr's Footsteeps
 					["provider"] = { "o", 379290 },	-- Ornamented Statue
 					["coord"] = { 67.2, 30.8, THE_AZURE_SPAN },
-					["g"] = {
+					["groups"] = {
 						i(199197),	-- Bottled Essence
 					},
 				}),
@@ -284,7 +284,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70339 },	-- In Tyr's Footsteps: The Ohn'ahran Plains
 					["provider"] = { "o", 380540 },	-- Ornamented Statue
 					["coord"] = { 66.2, 55.3, OHNAHRAN_PLAINS },
-					["g"] = {
+					["groups"] = {
 						i(199197),	-- Bottled Essence
 					},
 				}),
@@ -303,7 +303,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70650 },	-- In Tyr's Footsteps: The Waking Shores
 					["provider"] = { "o", 380918 },	-- Broken Ornamented Statue
 					["coord"] = { 63.9, 41.5, THE_WAKING_SHORES },
-					["g"] = {
+					["groups"] = {
 						i(198983),	-- Broken Part: Arm (QI!)
 						i(198982),	-- Broken Part: Head (QI!)
 						i(198984),	-- Broken Part: Shattered Orb (QI!)
@@ -313,7 +313,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70509 },	-- Third Challenge of Tyr: Persistence
 					["provider"] = { "n", 195737 },	-- Maiden of Inspiration
 					["coord"] = { 64, 41.3, THE_WAKING_SHORES },
-					["g"] = {
+					["groups"] = {
 						i(199197),	-- Bottled Essence
 					},
 				}),
@@ -328,7 +328,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 196475 },	-- Maiden of Inspiration
 					["coord"] = { 83.9, 53.2, VALDRAKKEN },
 					["maps"] = { 2082, 2083 },	-- Halls of Infusion
-					["g"] = {
+					["groups"] = {
 						i(199197),	-- Bottled Essence
 						i(200108),	-- Irideus' Power Core (QI!)
 					},
@@ -338,7 +338,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["sourceQuests"] = { 70881 },	-- Fourth Challenge of Tyr: Resourcefulness
 					["provider"] = { "n", 196475 },	-- Maiden of Inspiration
 					["coord"] = { 83.9, 53.2, VALDRAKKEN },
-					["g"] = {
+					["groups"] = {
 						i(199197),	-- Bottled Essence
 						i(200120),	-- Irideus' Power Core
 					},
@@ -368,7 +368,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ "i", 200938, 1 },	-- 1x Empty Soul Cage
 				},
 				["coord"] = { 58.2, 66.6, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(201296, {	-- Docile Airy Soul
 						i(193921),	-- Airy Soul
 						i(201262),	-- Gale Spirit (PET!)
@@ -386,7 +386,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ 46.8, 32.8, THE_WAKING_SHORES },
 					{ 77.8, 38.8, THE_AZURE_SPAN },
 				},
-				["g"] = {
+				["groups"] = {
 					i(201297, {	-- Docile Earthen Soul
 						i(193920),	-- Earthen Soul
 						i(201260),	-- Dust Spirit (PET!)
@@ -400,7 +400,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ "i", 200938, 1 },	-- 1x Empty Soul Cage
 				},
 				["coord"] = { 78.4, 38.8, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(201298, {	-- Docile Fiery Soul
 						i(193362),	-- Fiery Soul
 						i(201261),	-- Blaze Spirit (PET!)
@@ -414,7 +414,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					{ "i", 200938, 1 },	-- 1x Empty Soul Cage
 				},
 				["coord"] = { 58.2, 66.6, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(201299, {	-- Docile Frosty Soul
 						i(193919),	-- Frosty Soul
 						i(201265),	-- Tide Spirit (PET!)

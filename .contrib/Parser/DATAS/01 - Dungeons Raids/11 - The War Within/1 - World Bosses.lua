@@ -130,17 +130,17 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			BossWorldQuest(SHURRAI, 81653),	-- Shurrai, Atrocity of the Undersea (WQ)
 			Boss(GOBFATHER, {	-- The Gobfather <Demodome Champion>
 				["questID"] = 85089,
-				["timeline"] = { ADDED_11_1_0_SEASONSTART }
+				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
 			BossWorldQuest(GOBFATHER, 85088, {	-- The Main Event (WQ)
-				["timeline"] = { ADDED_11_1_0_SEASONSTART }
+				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
 			Boss(RESHANOR, {	-- Reshanor <The Untethered>
 				["questID"] = 87352,
 				["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			}),
 			BossWorldQuest(RESHANOR, 87354, {	-- Reshanor, the Untethered (WQ)
-				["timeline"] = { ADDED_11_2_0_SEASONSTART }
+				["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			}),
 		}),
 	}),

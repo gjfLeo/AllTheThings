@@ -257,7 +257,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(33858),	-- Aeonus' Hourglass
 						},
 					})
-				}
+				},
 			}),
 		},
 	}),

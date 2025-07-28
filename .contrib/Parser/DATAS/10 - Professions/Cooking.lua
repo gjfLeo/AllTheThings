@@ -241,7 +241,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				7303,	-- Master of the Steamer
 				7301,	-- Master of the Wok
 			}},
-			["g"] = {
+			["groups"] = {
 				title(202),	-- <Name>, Master of the Ways
 			},
 		}),
@@ -301,7 +301,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74845, 1 }},	-- 1x Ginseng
-				["g"] = {
+				["groups"] = {
 					r(125589),	-- Way of the Brew
 				},
 			}),
@@ -316,7 +316,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74833, 5 }},	-- 5x Raw Tiger Steak
-				["g"] = {
+				["groups"] = {
 					r(124694),	-- Way of the Grill
 				},
 			}),
@@ -331,7 +331,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74839, 5 }},	-- 5x Wildfowl Breast
-				["g"] = {
+				["groups"] = {
 					r(125588),	-- Way of the Oven
 				},
 			}),
@@ -346,7 +346,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74856, 5 }},	-- 5x Jade Lungfish
-				["g"] = {
+				["groups"] = {
 					r(125586),	-- Way of the Pot
 				},
 			}),
@@ -361,7 +361,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74857, 5 }},	-- 5x Giant Mantis Shrimp
-				["g"] = {
+				["groups"] = {
 					r(125587),	-- Way of the Steamer
 				},
 			}),
@@ -376,7 +376,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 				["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 				["cost"] = {{ "i", 74841, 5 }},	-- 5x Juicycrunch Carrot
-				["g"] = {
+				["groups"] = {
 					r(125584),	-- Way of the Wok
 				},
 			}),
@@ -434,7 +434,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 					["sourceQuests"] = { 33021 },	-- Secrets Lost, Forever?
 					["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 					["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
-					["g"] = {
+					["groups"] = {
 						r(145038),	-- Noodle Cart Kit
 					},
 				}),
@@ -444,7 +444,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 					["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
 					["cost"] = {{ "i", 101661, 1 }},	-- 1x Noodle Cart Kit
 					["maps"] = { 439, 440, 441, 442 },	-- Stormstout Brewery
-					["g"] = {
+					["groups"] = {
 						r(145061),	-- Deluxe Noodle Cart Kit
 					},
 				}),
@@ -458,7 +458,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 					["sourceQuests"] = { 33026 },	-- These Aren't Your Fatty Goatsteaks
 					["provider"] = { "n", 64231 },	-- Sungshin Ironpaw
 					["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
-					["g"] = {
+					["groups"] = {
 						r(145062),	-- Pandaren Treasure Noodle Cart Kit
 					},
 				}),
@@ -497,13 +497,13 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 			q(40991, {	-- Opening the Test Kitchen
 				["sourceQuests"] = { 40990 },	-- A Good Recipe List
 				["provider"] = { "n", 101846 },	-- Nomi
-				["g"] = {
+				["groups"] = {
 					ach(10591),	-- All Grown Up
 				},
 			}),
 			q(44581, {	-- Spicing Things Up
 				["provider"] = { "n", 101846 },	-- Nomi
-				["g"] = {
+				["groups"] = {
 					i(133826),	-- Recipe: Dried Mackerel Strips [Rank 1] (RECIPE!)
 				},
 			}),
@@ -573,7 +573,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 			ach(16631),	-- Dragon Isles Cook
 			ach(17736, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- The Gift of Cheese
 				["cost"] = {{ "i", 204848, 50 }},	-- 50x Charitable Cheddar
-				["g"] = {
+				["groups"] = {
 					i(204894, {	-- Roland (PET!)
 						["description"] = "Roland will also teach your alts the recipes for Deviously Deviled Eggs and Charitable Cheddar, if you learned the recipes via the original source.",
 						["groups"] = {

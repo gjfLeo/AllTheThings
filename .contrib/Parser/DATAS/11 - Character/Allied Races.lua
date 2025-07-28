@@ -61,7 +61,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = ALLIANCE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(51813, {	-- Blackrock Depths
 				["sourceQuests"] = { 50239 },	-- A Choice of Allies (A)
 				["provider"] = { "n", 133197 },	-- Moira Thaurissan
@@ -74,7 +74,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 57.0, 30.6, 1159 },	-- Blackrock Depths: Dark Iron Dwarf Scenario
 				["maps"] = { 1160 },	-- Blackrock Depths: Dark Iron Dwarf Scenario
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(163708),	-- Ironfoe (QI!)
 				},
 			}),
@@ -83,7 +83,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 133197 },	-- Moira Thaurissan
 				["coord"] = { 52.0, 13.8, STORMWIND_CITY },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(163693),	-- Fragment o' the Molten Core (QI!)
 				},
 			}),
@@ -106,7 +106,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 57.0, 30.6, 1159 },	-- Blackrock Depths: Dark Iron Dwarf Scenario
 				["maps"] = { 1160 },	-- Blackrock Depths: Dark Iron Dwarf Scenario
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(12515),	-- Allied Races: Dark Iron Dwarf
 					i(161331),	-- Dark Iron Core Hound (MOUNT!)
 				},
@@ -117,7 +117,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 56.6, 31.8, 1186 },
 				["races"] = { DARKIRON },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(161329),	-- Tabard of the Dark Iron
 					i(157022),	-- Letter from King Anduin Wrynn (QI!)
 				},
@@ -168,7 +168,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["coord"] = { 62.6, 49.2, 2322 },	-- Hall of Awakening
 			["classes"] = exclude({ HUNTER }, EARTHEN_CLASSES),
 			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
-			["g"] = {
+			["groups"] = {
 				-- bag
 				i(222982),	-- Earthen Satchel
 				-- cloth
@@ -240,7 +240,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["coord"] = { 62.6, 49.2, 2322 },	-- Hall of Awakening
 			["classes"] = HUNTER,
 			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
-			["g"] = {
+			["groups"] = {
 				-- bag
 				i(222982),	-- Earthen Satchel
 				-- mail
@@ -275,7 +275,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["provider"] = { "n", 221900 },	-- Speaker Kuldas
 			["coord"] = { 16.3, 48.1, 2322 },
 			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
-			["g"] = {
+			["groups"] = {
 				i(224166),	-- Awakened Tabard
 			},
 		}),
@@ -291,7 +291,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["provider"] = { "n", 133362 },	-- Ambassador Moorgard
 			["coord"] = { 53.0, 15.2, STORMWIND_CITY },
 			["races"] = { EARTHEN_ALLIANCE },
-			["g"] = {
+			["groups"] = {
 				--spell(452029),	-- Ensemble: Earthen Copper Regalia
 				i(224195),	-- Earthen Shoulders
 				i(224196),	-- Earthen Trousers
@@ -353,7 +353,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["provider"] = { "n", 133407 },	-- Ambassador Blackguard
 			["coord"] = { 39.4, 79.5, ORGRIMMAR },
 			["races"] = { EARTHEN_HORDE },
-			["g"] = {
+			["groups"] = {
 				-- didn't have Ensemble (spell) as reward here
 				-- and didn't fire 82770, 82788, 82789 (they are already flagged as completed)
 				i(224195),	-- Earthen Shoulders
@@ -414,7 +414,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = HORDE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(48066, {	-- A Feast for Our Kin
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
 				["provider"] = { "n", 125285 },	-- Baine Bloodhoof <High Chieftain>
@@ -519,7 +519,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 126134 },	-- Baine Bloodhoof <High Chieftain>
 				["coord"] = { 56.6, 92.6, HIGHMOUNTAIN },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(12245),	-- Allied Races: Highmountain Tauren
 					i(155662),	-- Highmountain Thunderhoof (MOUNT!)
 				},
@@ -530,7 +530,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 46.6, 61.0, HIGHMOUNTAIN },
 				["races"] = { HIGHMOUNTAIN_TAUREN },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(157757),	-- Highmountain Tabard
 					i(157028),	-- Letter from Lady Sylvannas (QI!)
 				},
@@ -552,7 +552,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = ALLIANCE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(54706, {	-- Made in Kul Tiras
 				["sourceQuests"] = { 50239 },	-- A Choice of Allies (A)
 				["provider"] = { "n", 148798 },	-- Lady Jaina Proudmoore
@@ -576,7 +576,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 150515 },	-- Cyrus Crestfall
 				["coord"] = { 58.6, 70.4, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(166462),	-- Letter from the Lord Admiral (QI!)
 				},
 			}),
@@ -618,7 +618,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 148870 },	-- Dorian Atwater
 				["coord"] = { 67.1, 12.3, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(166675),	-- Algerson Lumber Sample (QI!)
 				},
 			}),
@@ -651,7 +651,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 150885 },	-- Wicker Beast
 				["coord"] = { 36.5, 28.9, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(167174),	-- Gnawed Bone (QI!)
 					i(167173),	-- Squeaky Toy (QI!)
 					i(167168),	-- Storehouse Key (QI!)
@@ -676,7 +676,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 					{ 33.0, 30.4, DRUSTVAR },
 				},
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(167199),	-- Dorian's Ore Shipment (QI!)
 					i(166674),	-- Hastily Scrawled Note (QI!)
 					i(167200),	-- Purified Lumber Sample (QI!)
@@ -699,7 +699,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 148798 },	-- Lady Jaina Proudmoore
 				["coord"] = { 71.1, 43.9, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(13163),	-- Allied Races: Kul Tiran
 					i(164762),	-- Kul Tiran Charger (MOUNT!)
 				},
@@ -711,7 +711,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["races"] = { KULTIRAN },
 				["classes"] = exclude({ DEATHKNIGHT }, ALL_CLASSES),
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(165010),	-- Tabard of Kul Tiras
 					i(157022),	-- Letter from King Anduin Wrynn (QI!)
 				},
@@ -734,7 +734,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = ALLIANCE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(49698, {	-- The Lightforged
 				["sourceQuests"] = { 50239 },	-- A Choice of Allies (A)
 				["qgs"] = {
@@ -759,7 +759,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 130810 },	-- High Exarch Turalyon
 				["coord"] = { 48.6, 40.4, 940 },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(12243),	-- Allied Races: Lightforged Draenei
 					i(155656),	-- Lightforged Felcrusher (MOUNT!)
 				},
@@ -770,7 +770,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 42.96, 24.16, 940 },
 				["races"] = { LIGHTFORGED },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(157756),	-- Lightforged Tabard
 					i(157022),	-- Letter from King Anduin Wrynn (QI!)
 				},
@@ -792,7 +792,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = HORDE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(53466, {	-- Vision of Time
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
 				["provider"] = { "n", 126066 },	-- Eitrigg
@@ -852,7 +852,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 143845 },	-- Overlord Geya'rah
 				["coord"] = { 41.2, 16.8, DUROTAR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(12518),	-- Allied Races: Mag'har Orc
 					i(161330, {	-- Mag'har Direwolf (MOUNT!)
 						["races"] = HORDE_ONLY
@@ -865,7 +865,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 70.6, 44.6, ORGRIMMAR },
 				["races"] = { MAGHAR },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(161328),	-- Tabard of the Mag'har Clans
 					i(157028),	-- Letter from Lady Sylvannas (QI!)
 				},
@@ -887,7 +887,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = ALLIANCE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(58214, {	-- Urgent Care
 				["isBreadcrumb"] = true,
 				["providers"] = {
@@ -923,7 +923,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 150555 },	-- Waren Gearhart
 				["coord"] = { 73.1, 33.3, MECHAGON },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(172521),	-- Acquisitioned Machine Part (QI!)
 					i(172522),	-- Heat Tolerant Ooze (QI!)
 				},
@@ -983,7 +983,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 157997 },	-- Kelsey Steelspark
 				["coord"] = { 17.8, 65.5, MECHAGON_CITY },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(14013),	-- Allied Races: Mechagnome
 					i(174067),	-- Mechagon Mechanostrider (MOUNT!)
 				},
@@ -994,7 +994,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 34.0, 57.5, MECHAGON_CITY },
 				["races"] = { MECHAGNOME },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(174068),	-- Mechagonian Tabard
 					i(157022),	-- Letter from King Anduin Wrynn (QI!)
 				},
@@ -1016,7 +1016,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = HORDE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(49973, {	-- Thalyssra's Estate
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
 				["provider"] = { "n", 133523 },	-- Ji Firepaw
@@ -1040,7 +1040,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 130133 },	-- Lady Liadrin
 				["coord"] = { 58.2, 19.4, SILVERMOON_CITY },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(12244),	-- Allied Races: Nightborne
 					i(156487),	-- Nightborne Manasaber (MOUNT!)
 				},
@@ -1051,7 +1051,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 59.4, 85.4, SURAMAR },
 				["races"] = { NIGHTBORNE },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(157759),	-- Shal'dorei Tabard
 					i(157028),	-- Letter from Lady Sylvannas (QI!)
 				},
@@ -1074,7 +1074,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		-- #endif
 		["races"] = ALLIANCE_ONLY,
 		["maps"] = { TELOGRUS_RIFT },
-		["g"] = {
+		["groups"] = {
 			q(49787, {	-- The Ghostlands
 				["qgs"] = {
 					-- #if BEFORE 10.1.5
@@ -1093,7 +1093,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["races"] = ALLIANCE_ONLY,
 				["maps"] = { 972 },	-- Telogrus Rift, Void Elf Scenario
 				["coord"] = { 79.6, 19.7, GHOSTLANDS },
-				["g"] = {
+				["groups"] = {
 					ach(12242),	-- Allied Races: Void Elf
 					i(156486),	-- Starcursed Voidstrider (MOUNT!)
 				},
@@ -1104,7 +1104,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 28.6, 22.3, TELOGRUS_RIFT },
 				["races"] = { VOIDELF },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(157758),	-- Ren'dorei Tabard
 					i(157022),	-- Letter from King Anduin Wrynn (QI!)
 				},
@@ -1126,7 +1126,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = HORDE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(53870, {	-- Guests at Grommash Hold
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
 				-- #if BEFORE 10.1.5
@@ -1161,7 +1161,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 145416 },	-- Kiro
 				["coord"] = { 46.8, 66.2, TWILIGHT_HIGHLANDS },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(171358),	-- Clucker Tidbits (QI!)
 					i(171356),	-- Enlarging Totem (QI!)
 					i(164926),	-- Saber Flank (QI!)
@@ -1173,7 +1173,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 145416 },	-- Kiro
 				["coord"] = { 46.8, 66.2, TWILIGHT_HIGHLANDS },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					o(307836, {	-- Twilight Ore
 						i(164927),	-- Twilight Ore (QI!)
 					}),
@@ -1230,7 +1230,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 145980 },	-- Nisha
 				["coord"] = { 74.8, 63.0, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(171970),	-- Nazeshi Trident (QI!)
 					i(171971),	-- Nazeshi Mace (QI!)
 					i(171972),	-- Nazeshi Spear (QI!)
@@ -1283,7 +1283,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 146301 },	-- Nomi
 				["coord"] = { 60.5, 56.2, SURAMAR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(165013),	-- Fermented Firebloom (QI!)
 					i(165012),	-- Silkwing Fibers (QI!)
 				},
@@ -1293,7 +1293,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 146301 },	-- Nomi
 				["coord"] = { 60.5, 56.2, SURAMAR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					i(173727),	-- Nomi's Vintage (TOY!)
 					i(165014),	-- Nomi's Wine (QI!)
 				},
@@ -1308,7 +1308,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["sourceQuests"] = { 53908 },	-- Awaiting Our Arrival
 				["provider"] = { "n", 145424 },	-- Baine Bloodhoof
 				["coord"] = { 48.2, 71.0, ORGRIMMAR },
-				["g"] = {
+				["groups"] = {
 					ach(13206),	-- Allied Races: Vulpera
 					i(174066, {	-- Caravan Hyena (MOUNT!)
 						["races"] = HORDE_ONLY,
@@ -1321,7 +1321,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["coord"] = { 64.6, 46.5, ORGRIMMAR },
 				["races"] = { VULPERA },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(174069),	-- Tabard of the Vulpera
 					i(167169),	-- Letter from Lady Sylvannas
 				},
@@ -1343,7 +1343,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 		"To unlock this questline you need to be logged in on a |cFFa335eelevel 40 Character|r.",
 		-- #endif
 		["races"] = HORDE_ONLY,
-		["g"] = {
+		["groups"] = {
 			q(53831, {	-- A Royal Occasion
 				["sourceQuests"] = { 50242 },	-- A Choice for Allies (H)
 				["providers"] = {
@@ -1461,7 +1461,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				["provider"] = { "n", 146335 },	-- Queen Talanji
 				["coord"] = { 42.4, 9.2, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					ach(13161),	-- Allied Races: Zandalari Troll
 					i(157870),	-- Zandalari Direhorn (MOUNT!)
 				},
@@ -1475,7 +1475,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 				},
 				["races"] = { ZANDALARI },
 				["lvl"] = 20,
-				["g"] = {
+				["groups"] = {
 					i(165001),	-- Tabard of the Zandalari
 					i(167169),	-- Letter from Lady Sylvannas
 				},

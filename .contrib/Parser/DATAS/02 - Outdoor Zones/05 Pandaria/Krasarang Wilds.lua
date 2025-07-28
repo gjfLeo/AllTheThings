@@ -1015,7 +1015,7 @@ root(ROOTS.Zones, {
 									["isDaily"] = true,
 									["groups"] = {
 										i(93187),	-- Unstable Explosive (QI!)
-									}
+									},
 								}),
 								q(32420, {	-- Cashing Out
 									["qg"] = 68687,	-- Vereesa Windrunner

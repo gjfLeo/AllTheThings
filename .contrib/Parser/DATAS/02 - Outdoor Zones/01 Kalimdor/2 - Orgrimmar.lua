@@ -3090,7 +3090,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(52557, {	-- Battleworn Hammer
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(2523),	-- Bullova
 						i(2521),	-- Flamberge
@@ -3110,7 +3110,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(57243, {	-- Worn Spear
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(52532, {	-- Worn Wood Chopper
 							["timeline"] = { ADDED_10_1_7 },
@@ -3503,7 +3503,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(2028),	-- Hammer
 						i(924),	-- Maul
 						i(20981, {	-- Neophyte's Mace
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(2026),	-- Rock Hammer
 					},
@@ -4185,25 +4185,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(237),		-- Cured Leather Pants
 						-- #if AFTER 10.0.5
 						i(20896, {	-- Lookouts Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20898, {	-- Lookouts Shoes
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58238, {	-- Lookouts Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6124, {	-- Novices Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6139, {	-- Novices Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(153, {	-- Primitive Kilt
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6135, {	-- Primitive Kilt
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 						i(1843),	-- Tanned Leather Belt
@@ -4214,13 +4214,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(845),		-- Tanned Leather Pants
 						-- #if AFTER 10.0.5
 						i(121, {	-- Thug Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(120, {	-- Thug Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58246, {	-- Thug Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 					},
@@ -4267,48 +4267,48 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- Now any class and race can buy this
 						-- PALADIN --
 						i(24146, {	-- Initiate's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52549, {	-- Initiate's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(24145, {	-- Initiate's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58248, {	-- Initiate's Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58237, {	-- Initiate's Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- WARRIOR --
 						i(140, {	-- Brawler's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(139, {	-- Brawler's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58245, {	-- Brawler's Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(40, {	-- Recruit's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20903, {	-- Recruit's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(39, {	-- Recruit's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20902, {	-- Recruit's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20904, {	-- Recruit's Tunic
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(58231, {	-- Recruit's Vest
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 					},
@@ -4395,81 +4395,81 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- Now any class and race can buy this
 						-- MAGE --
 						i(55, {	-- Apprentice's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20895, {	-- Apprentice's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(1395, {	-- Apprentice's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52681, {	-- Apprentice's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20894, {	-- Apprentice's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52546, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6140, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20893, {	-- Apprentice's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- PRIEST --
 						i(1396, {	-- Acolyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(51, {	-- Neophyte's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52, {	-- Neophyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52680, {	-- Neophyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6144, {	-- Neophyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52547, {	-- Neophyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20891, {	-- Neophyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- WARLOCK --
 						i(1396, {	-- Acolyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52679, {	-- Acolyte's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(52543, {	-- Acolyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6129, {	-- Acolyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(20892, {	-- Acolyte's Robe
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(59, {	-- Acolyte's Shoes
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 
 						-- ??? --
 						i(52556, {	-- Initiate's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6126, {	-- Trapper's Pants
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						i(6127, {	-- Trapper's Boots
-							["timeline"] = { ADDED_10_0_5 }
+							["timeline"] = { ADDED_10_0_5 },
 						}),
 						-- #endif
 					},
@@ -4941,12 +4941,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(2526),	-- Main Gauche
 						i(2208),	-- Poniad
 						i(20977, {	-- Recruit's Shortsword
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(2534),	-- Rondel
 						i(2027),	-- Scimitar
 						i(20982, {	-- Sharp Dagger
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 						i(15903),	-- Slicing Claw
 					},
@@ -5658,7 +5658,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(2507),	-- Laminated Recurve Bow
 						i(928),		-- Long Staff
 						i(37, {	-- Worn Axe
-							["timeline"] = { ADDED_10_1_7 }
+							["timeline"] = { ADDED_10_1_7 },
 						}),
 					},
 				}),

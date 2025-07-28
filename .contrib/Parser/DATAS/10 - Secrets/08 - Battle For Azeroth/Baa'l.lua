@@ -6,7 +6,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED
 		["description"] = "***Quest tracking enabled is required to see all the steps.*** \n\n***Before you can complete the last step of Baa'l, an upgraded Uuna is required, so it is recommended that you complete that secret first.***\n\nOther things you may want to have on hand for this secret:\n-Goblin Gliders (if you don't have flying)\n-Invisibility potions\n-Underlight Angler or potions to increase your swim speed\n",
 		["modelScale"] = 1.1,
 		["displayID"] = 80456,
-		["g"] = {
+		["groups"] = {
 			q(52819, {	-- Step 1: Conspicious Note
 				["name"] = translate({
 					en = "|cFFFFFFFFStep 1:|r Conspicious Note",
@@ -127,7 +127,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED
 				["sourceQuests"] = { 52827 },	-- Step 14: Thirteenth Ordinary Pebble
 				["coord"] = { 62.3, 22.9, FROSTFIRE_RIDGE },
 				["questID"] = 52828,
-				["g"] = {
+				["groups"] = {
 					i(162578),	-- Baa'l (PET!)
 				},
 			}),

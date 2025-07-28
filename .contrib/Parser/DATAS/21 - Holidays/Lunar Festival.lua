@@ -460,7 +460,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["qg"] = 155759,	-- Myrael Lunarbloom
 			["coord"] = { 53.1, 36.0, MOONGLADE },
 			["timeline"] = { ADDED_8_3_0 },
-			["g"] = {
+			["groups"] = {
 				i(170084),	-- Blessed Staff of Moonflowers (QI!)
 				i(170083),	-- Staff of Moonflowers (QI!)
 			},

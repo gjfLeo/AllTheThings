@@ -35,7 +35,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				KROKUUN,
 				EREDATH,
 			},
-			["g"] = {
+			["groups"] = {
 				q(48034, {	-- Empyrium Deposit Chunk
 					["provider"] = { "i", 151860 },	-- Empyrium Deposit Chunk
 					["groups"] = {
@@ -65,7 +65,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				KROKUUN,
 				EREDATH,
 			},
-			["g"] = {
+			["groups"] = {
 				q(48037, {	-- Empyrium Seam Chunk
 					["provider"] = { "i", 151863 },	-- Empyrium Seam Chunk
 					["groups"] = {
@@ -101,7 +101,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38795, {	-- Felslate Deposit Sample
 					["provider"] = { "i", 124496 },	-- Felslate Deposit Sample
 					["groups"] = {
@@ -138,7 +138,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38796, {	-- Felslate Seam Sample
 					["provider"] = { "i", 124497 },	-- Felslate Seam Sample
 					["groups"] = {
@@ -175,7 +175,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38806, {	-- Infernal Brimstone Sample
 					["provider"] = { "i", 124502 },	-- Infernal Brimstone Sample
 					["groups"] = {
@@ -206,7 +206,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["sourceQuests"] = { 38807 },	-- Infernal Brimstone Analysis
 					["provider"] = { "n", 93189 },	-- Mama Diggs <Mining Trainer>
 					["coord"] = { 46.2, 26.4, LEGION_DALARAN },
-					["g"] = {
+					["groups"] = {
 						i(128852),	-- Infernal Brimstone Sample (QI!)
 					},
 				}),
@@ -214,7 +214,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["sourceQuests"] = { 39790 },	-- Infernal Brimstone Theory
 					["provider"] = { "n", 97360 },	-- Matthew Rabis <Feral Warlock>
 					["coord"] = { 47.2, 56.0, LEGION_THE_UNDERBELLY },
-					["g"] = {
+					["groups"] = {
 						i(128813),	-- Fel Energy Core (QI!)
 					},
 				}),
@@ -247,7 +247,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38777, {	-- Leystone Deposit Sample
 					["provider"] = { "i", 124489 },	-- Leystone Deposit Sample
 					["groups"] = {
@@ -284,7 +284,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38784, {	-- Leystone Seam Sample
 					["provider"] = { "i", 124490 },	-- Leystone Seam Sample
 					["groups"] = {
@@ -321,7 +321,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38797, {	-- Living Felslate Sample
 					["provider"] = { "i", 124498 },	-- Living Felslate Sample
 					["groups"] = {
@@ -362,7 +362,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				HIGHMOUNTAIN,
 				BROKEN_SHORE,
 			},
-			["g"] = {
+			["groups"] = {
 				q(38785, {	-- Living Leystone Sample
 					["provider"] = { "i", 124491 },	-- Living Leystone Sample
 					["groups"] = {
@@ -428,7 +428,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				["sourceQuests"] = { 38888 },	-- The Highmountain Tauren
 				["provider"] = { "n", 93691 },	-- Ronos Ironhorn <Mining Trainer>
 				["maps"] = { 55.0, 84.0, HIGHMOUNTAIN },
-				["g"] = {
+				["groups"] = {
 					i(128769),	-- Glass-Extracted Leystone (QI!)
 					i(128767),	-- Ronos' Pick (QI!)
 				},
@@ -509,13 +509,13 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(48752, {	-- A Need For Coal
 					["description"] = "Requires 50 Kul'Tiran Mining.",
 					["provider"] = { "n", 136091 },	-- Myra Cabot
 					["coord"] = { 75.01, 7.61, BORALUS },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253334),	-- Monelite Deposit [Rank 2]
 						i(160902),	-- Ashvane Coal (QI!)
 					},
@@ -526,7 +526,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["description"] = "Requires 50 Zandalari Mining",
 					["requireSkill"] = MINING,
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253334),	-- Monelite Deposit [Rank 2]
 						i(160941),	-- Dry Firewood (QI!)
 					},
@@ -537,7 +537,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 136091 },	-- Myra Cabot
 					["coord"] = { 75.01, 7.61, BORALUS },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253335),	-- Monelite Deposit [Rank 3]
 					},
 				}),
@@ -547,7 +547,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 122694 },	-- Secott the Goldsmith
 					["coord"] = { 44.0, 39.0, DAZARALOR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253335),	-- Monelite Deposit [Rank 3]
 					},
 				}),
@@ -566,13 +566,13 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(48764, {	-- Don't Pick a Fight
 					["description"] = "Requires 50 Kul'Tiran Mining.",
 					["provider"] = { "n", 136091 },	-- Myra Cabot
 					["coord"] = { 75.01, 7.61, BORALUS },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253343),	-- Monelite Seam [Rank 2]
 						i(160904),	-- Myra's Favorite Pick (QI!)
 					},
@@ -582,7 +582,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 122694 },	-- Secott the Goldsmith
 					["coord"] = { 44.0, 39.0, DAZARALOR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253343),	-- Monelite Seam [Rank 2]
 						i(160943),	-- Secott's Old Hand (QI!)
 					},
@@ -592,7 +592,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["sourceQuests"] = { 48764 },	-- Don't Pick a Fight
 					["provider"] = { "i", 160905 },	-- Lost Anchor Necklace
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253344),	-- Monelite Seam [Rank 3]
 					},
 				}),
@@ -602,7 +602,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "i", 160944 },	-- An Exquisite Brooch
 					["coord"] = { 44.0, 39.0, DAZARALOR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253344),	-- Monelite Seam [Rank 3]
 					},
 				}),
@@ -614,18 +614,18 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				{ "o", 325873 },	-- Rich Osmenite Deposit
 			},
 			["maps"] = { NAZJATAR },
-			["g"] = {
+			["groups"] = {
 				q(56103, {	-- Ounces of Osmenite [A]
 					["provider"] = { "i", 168939 },	-- Osmenite Shards [A]
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(296147),	-- Osmenite Deposit [Rank 3]
 					},
 				}),
 				q(56431, {	-- Ounces of Osmenite [H]
 					["provider"] = { "i", 169597 },	-- Osmenite Shards [H]
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(296147),	-- Osmenite Deposit [Rank 3]
 					},
 				}),
@@ -634,18 +634,18 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		header(HEADERS.Spell, 296143, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {	-- Osmenite Seam [Rank 3]
 			["provider"] = { "o", 325874 },	-- Osmenite Seam
 			["maps"] = { NAZJATAR },
-			["g"] = {
+			["groups"] = {
 				q(56126, {	-- Seams to be a Problem [A]
 					["provider"] = { "i", 168954 },	-- Osmenite Dust [A]
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(296143),	-- Osmenite Seam [Rank 3]
 					},
 				}),
 				q(56432, {	-- Seams to be a Problem [H]
 					["provider"] = { "i", 169598 },	-- Osmenite Dust [H]
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(296143),	-- Osmenite Seam [Rank 3]
 					},
 				}),
@@ -667,12 +667,12 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(52044, {	-- An Exceptional Platinum Shard [A]
 					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Kul Tiran Mining.",
 					["provider"] = { "i", 161078 },	-- Exceptional Platinum Shard [A]
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253340),	-- Platinum Deposit [Rank 2]
 					},
 				}),
@@ -680,7 +680,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Zandalari Mining.",
 					["provider"] = { "i", 161079 },	-- Exceptional Platinum Shard [H]
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253340),	-- Platinum Deposit [Rank 2]
 					},
 				}),
@@ -689,7 +689,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["sourceQuests"] = { 52044 },	-- An Exceptional Platinum Shard [A]
 					["provider"] = { "i", 161085 },	-- Tattered Map
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(161085),	-- Tattered Map (QI!)
 					},
 				}),
@@ -704,7 +704,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 139746 },		-- First Mate Cinderfuse
 					["coord"] = { 19.76, 44.54, DRUSTVAR },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253341),	-- Platinum Deposit [Rank 3]
 						i(161082),	-- Platinum Nugget (QI!)
 					},
@@ -714,7 +714,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 139792 },	-- Ta'mil Nadu
 					["coord"] = { 27.6, 69.8, VOLDUN },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253341),	-- Platinum Deposit [Rank 3]
 						i(161082),	-- Platinum Nugget (QI!)
 					},
@@ -737,7 +737,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(51568, {	-- Ritualistic Preparations [A]
 					["description"] = "Requires 50 Kul'Tiran Mining\n73.4, 8.4 in Boralus is location of the Forge\n41.8, 30.0 in Tiragarde Sound is the location to get the Blessing",
 					["provider"] = { "n", 136091 },	-- Myra Cabot
@@ -747,7 +747,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 						{ 41.8, 30.0, BORALUS },	-- Ingot Blessing
 					},
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253337),	-- Storm Silver Deposit [Rank 2]
 						i(160974),	-- Sanctified Storm Silver Ingots (QI!)
 						i(161133),	-- Unsanctified Storm Silver Ingots (QI!)
@@ -763,7 +763,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 						{ 52.8, 95.6, DAZARALOR },	-- Ingot Blessing
 					},
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253337),	-- Storm Silver Deposit [Rank 2]
 						i(160974),	-- Sanctified Storm Silver Ingots (QI!)
 						i(161133),	-- Unsanctified Storm Silver Ingots (QI!)
@@ -776,7 +776,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["coord"] = { 75.01, 7.61, BORALUS },
 					["description"] = "Requires 135 Kul'Tiran Mining.",
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253338),	-- Storm Silver Deposit [Rank 3]
 						i(160453),	-- Stolen Storm Silver Bar (QI!)
 					},
@@ -788,7 +788,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["coord"] = { 44.0, 39.0, DAZARALOR },
 					["description"] = "Requires 135 Zandalari Mining",
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253338),	-- Storm Silver Deposit [Rank 3]
 						i(160453),	-- Stolen Storm Silver Bar (QI!)
 					},
@@ -808,7 +808,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(48770, {	-- Three Sheets to the Wind [A]
 					["description"] = "Requires 125 Kul'Tiran Mining\n75.25, 14.33 in Boralus is Harold Atkey Location\n75.51, 23.21 in Boralus is Franklin the Drunk Location\nWhen you visit Harold you want to buy \"Brennadam Apple Brand\".",
 					["provider"] = { "n", 136091 },	-- Myra Cabot
@@ -818,7 +818,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 						{ 75.5, 23.2, BORALUS },	-- Franklin The Drunk
 					},
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253346),	-- Storm Silver Seam [Rank 2]
 					},
 				}),
@@ -827,7 +827,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 122694 },	-- Secott the Goldsmith
 					["coord"] = { 44.0, 39.0, DAZARALOR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253346),	-- Storm Silver Seam [Rank 2]
 					},
 				}),
@@ -857,7 +857,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 						{ 72.5, 11.6, BORALUS },	-- Pile of Sausages
 					},
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253347),	-- Storm Silver Seam [Rank 3]
 						i(160998),	-- Hillock of Eggs (QI!)
 						i(160995),	-- Jar of Pickle Juice (QI!)
@@ -871,7 +871,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["provider"] = { "n", 139634 },	-- Biru The Drunk
 					["coord"] = { 52.7, 84.3, DAZARALOR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						r(253347),	-- Storm Silver Seam [Rank 3]
 						i(160998),	-- Hillock of Eggs (QI!)
 						i(160995),	-- Jar of Pickle Juice (QI!)
@@ -891,7 +891,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					18818,	-- Geologist's Ledger - Serevite
 					18821,	-- Geologist's Ledger - Overloaded Elements
 				}},
-				["g"] = {
+				["groups"] = {
 					crit(61388, {	-- Iridescent Ore Recovered
 						["provider"] = {"i",201301},	-- Iridescent Ore
 					}),
@@ -1201,7 +1201,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -1212,7 +1212,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			["coord"] = { 39.0, 51.2, VALDRAKKEN },
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(199122),	-- Mining Field Notes
 			},
 		},{
@@ -1223,7 +1223,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_MINING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_MINING_KNOWLEDGE, 1 }} }, {
 				r(388213, {["timeline"] = {ADDED_10_0_5}}),	-- Overload Elemental Deposit
 				r(383793),	-- Refine Draconium++
 				r(383795),	-- Refine Draconium+++
@@ -1235,7 +1235,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_MINING_KNOWLEDGE),
 			},
 		},{
@@ -1277,7 +1277,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			["provider"] = { "n", 219097 },	-- Tarib <Mining Trainer>
 			["coord"] = { 52.6, 52.6, DORNOGAL },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(224818),	-- Algari Mining Notes
 			},
 		},{
@@ -1289,7 +1289,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_MINING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_MINING_KNOWLEDGE, 1 }} }, {
 				r(442330),	-- Refine Aqirite++
 				r(442331),	-- Refine Aqirite+++
 				r(442328),	-- Refine Bismuth++
@@ -1301,7 +1301,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(224818),	-- Algari Mining Notes
 			},
 		},{
@@ -1325,63 +1325,63 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			o(455957, {	-- Arathi Precision Drill
 				["coord"] = { 46.1, 64.4, HALLOWFALL },
 				["questID"] = 83910,
-				["g"] = {
+				["groups"] = {
 					i(226336),	-- Arathi Precision Drill
 				},
 			}),
 			o(455956, {	-- Devout Archaeologist's Excavator
 				["coord"] = { 43.1, 56.8, HALLOWFALL },
 				["questID"] = 83911,
-				["g"] = {
+				["groups"] = {
 					i(226337),	-- Devout Archaeologist's Excavator
 				},
 			}),
 			o(455960, {	-- Dornogal Chisel
 				["coord"] = { 36.6, 79.3, DORNOGAL },
 				["questID"] = 83907,
-				["g"] = {
+				["groups"] = {
 					i(226333),	-- Dornogal Chisel
 				},
 			}),
 			o(455959, {	-- Earthen Excavator's Shovel
 				["coord"] = { 49.4, 27.5, THE_RINGING_DEEPS },
 				["questID"] = 83908,
-				["g"] = {
+				["groups"] = {
 					i(226334),	-- Earthen Excavator's Shovel
 				},
 			}),
 			o(455961, {	-- Earthen Miner's Gavel
 				["coord"] = { 58.2, 62.0, ISLE_OF_DORN },
 				["questID"] = 83906,
-				["g"] = {
+				["groups"] = {
 					i(226332),	-- Earthen Miner's Gavel
 				},
 			}),
 			o(455955, {	-- Heavy Spider Crusher
 				["coord"] = { 46.8, 21.7, NERUBAR },
 				["questID"] = 83912,
-				["g"] = {
+				["groups"] = {
 					i(226338),	-- Heavy Spider Crusher
 				},
 			}),
 			o(455954, {	-- Nerubian Mining Supplies
 				["coord"] = { 48.0, 40.6, NERUBAR_LOWER },
 				["questID"] = 83913,
-				["g"] = {
+				["groups"] = {
 					i(226339),	-- Nerubian Mining Supplies
 				},
 			}),
 			o(455958, {	-- Regenerating Ore
 				["coord"] = { 66.2, 66.2, THE_RINGING_DEEPS },
 				["questID"] = 83909,
-				["g"] = {
+				["groups"] = {
 					i(226335),	-- Regenerating Ore
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_MINING_KNOWLEDGE),
 			},
 		},{

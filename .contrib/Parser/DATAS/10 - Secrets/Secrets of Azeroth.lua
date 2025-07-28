@@ -655,7 +655,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 							{ 48.3, 46.1, THE_WAKING_SHORES },
 						},
 						["provider"] = { "i", 207730 },	-- Idol of Ohn'ahra
-						["g"] = {
+						["groups"] = {
 							i(208835),	-- Rose Gold Dust (QI!)
 						},
 					}),
@@ -667,7 +667,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 							{ 23.1, 78.9, THE_WAKING_SHORES },
 							{ 23.8, 78.8, THE_WAKING_SHORES },
 						},
-						["g"] = {
+						["groups"] = {
 							i(208836),	-- Igneous Flux (QI!)
 						},
 					}),
@@ -685,7 +685,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				["groups"] = {
 					o(408754, {	-- Reforged Titan Key
 						["coord"] = { 24.5, 60.7, THE_WAKING_SHORES },
-						["g"] = {
+						["groups"] = {
 							i(208830),	--  Reforged Titan Key (QI!)
 						},
 					}),
@@ -772,7 +772,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					o(408980, {	-- Tyr's Legacy
 						["description"] = "There are three clues inside the Guardian's Library. Pull out your thinking cap to find all three and the final object.",
 						["coord"] = { 33.1, 50.9, KARAZHAN },
-						["g"] = {
+						["groups"] = {
 							i(208889),	-- Tyr's Legacy
 						},
 					}),
@@ -849,7 +849,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					i(208942),	-- Preservationist's Dispatch Three (QI!)
 					o(409320, {	-- Buried Object
 						["coord"] = { 49.5, 79.7, THALDRASZUS },
-						["g"] = {
+						["groups"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
 							hqt(78108, name(HEADERS.Item, 208092, {	-- Using torch at (50.1, 80.9 Thaldraszus - in a cave)Eastern Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
@@ -860,7 +860,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					}),
 					o(409329, {	-- Buried Object
 						["coord"] = { 45.9, 79.7, THALDRASZUS },
-						["g"] = {
+						["groups"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
 							hqt(78109, name(HEADERS.Item, 208092, {	-- Using torch at (46.6 77.6 Thaldraszus - in a cave) Western Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
@@ -871,7 +871,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					}),
 					o(409333, {	-- Buried Object
 						["coord"] = { 50.1, 78.0, THALDRASZUS },
-						["g"] = {
+						["groups"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
 							hqt(78111, name(HEADERS.Item, 208092, {	-- Using torch at (48.6 76.3 Thaldraszus - in a cave) Northern Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
@@ -1072,7 +1072,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					}),
 					o(409120, {	-- Cache of Cosmic Mysteries
 						["coord"] = { 60.2, 58.7, THALDRASZUS },
-						["g"] = {
+						["groups"] = {
 							i(208980),	--  Cache of Cosmic Curiosities (QI!)
 						},
 					}),
@@ -1113,7 +1113,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					["questID"] = 78098,
 					["coord"] = { 58.9, 78.1, THE_CAPE_OF_STRANGLETHORN },
 					["provider"] = { "i", 208092 },	-- Torch of Pyrreth
-					["g"] = {
+					["groups"] = {
 						i(208984),	-- First Booster Part
 					},
 				}),
@@ -1122,7 +1122,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					["questID"] = 78099,
 					["description"] = "Takes 4 people. Someone to control the Water Elemental, 3 people to Envelope",
 					["coord"] = { 50.2, 25.7, FELWOOD },
-					["g"] = {
+					["groups"] = {
 						i(209781),	-- Second Booster Part
 					},
 				}),
@@ -1131,7 +1131,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					["questID"] = 78100,
 					["description"] = "Take out the cannons so you can loot.",
 					["coord"] = { 54.8, 52.1, BLASTED_LANDS },
-					["g"] = {
+					["groups"] = {
 						i(209055),	-- Third Booster Part
 					},
 				}),
@@ -1148,7 +1148,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 		n(VENDORS, {
 			n(206864, {	-- Preservationist Kathos
 				["coord"] = { 47.3, 48.2, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(229375, {	-- Neural Enlarger
 						["timeline"] = { ADDED_11_0_5 },
 					}),

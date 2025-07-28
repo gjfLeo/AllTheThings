@@ -112,7 +112,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		q(39874, {	-- Some Enchanted Evening
 			["provider"] = { "n", 93531 },	-- Enchanter Nalthanis
 			["coord"] = { 38.6, 40.8, LEGION_DALARAN },
-			["g"] = {
+			["groups"] = {
 				r(195096, {	-- Enchanting (Legion Master)
 					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 					["collectible"] = false,
@@ -153,7 +153,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 			["provider"] = { "n", 90317 },	-- Jace Darkweaver
 			["coord"] = { 43.2, 43.6, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				r(190866),	-- Word of Critical Strike [Rank 1]
 				r(190867),	-- Word of Haste [Rank 1]
 				r(190868),	-- Word of Mastery [Rank 1]
@@ -173,7 +173,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 39878 },	-- Thunder Struck
 			["provider"] = { "n", 98017 },	-- Guron Twaintail
 			["coord"] = { 46.6, 60.4, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				i(137195),	-- Highmountain Armor
 			},
 		}),
@@ -184,7 +184,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			},
 			["provider"] = { "n", 98017 },	-- Guron Twaintail
 			["coord"] = { 46.6, 60.4, HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				r(190875),	-- Word of Agility [Rank 1]
 				r(190876),	-- Word of Intellect [Rank 1]
 				r(190874),	-- Word of Strength [Rank 1]
@@ -213,7 +213,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["provider"] = { "n", 98156 },	-- Nalamya
 			["maps"] = { 733, },	-- Darkheart Thicket
 			["coord"] = { 54.4, 57.6, VALSHARAH },
-			["g"] = {
+			["groups"] = {
 				r(190954),	-- Boon of the Scavenger
 			},
 		}),
@@ -232,7 +232,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["provider"] = { "n", 98367 },	-- Tigrid the Charmer
 			["coord"] = { 39.4, 42.6, STORMHEIM },
 			["maps"] = { 703, 704, 705 },	-- Halls of Valor
-			["g"] = {
+			["groups"] = {
 				r(191076),	-- Enchanted Pen
 			},
 		}),
@@ -250,7 +250,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 40169 },	-- Crossroads Rendezvous
 			["provider"] = { "n", 98675 },	-- Fallen Priestess
 			["coord"] = { 63.8, 30.2, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				i(129751),	-- Dust of Foul Lies
 				i(137286),	-- Fel-Crusted Rune
 			},
@@ -264,7 +264,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 40130 },	-- Washed Clean
 			["provider"] = { "n", 98698 },	-- Priestess Driana
 			["coord"] = { 36.4, 34.0, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				r(228408),	-- Mark of the Ancient Priestess [Rank 1]
 				r(190894),	-- Mark of the Hidden Satyr [Rank 1]
 			},
@@ -273,7 +273,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 39891 },	-- Cursed, But Convenient
 			["provider"] = { "n", 98381 },	-- Merrus Dawnwind
 			["coord"] = { 46.8, 40.8, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				r(190892),	-- Mark of the Claw [Rank 1]
 				r(228402),	-- Mark of the Heavy Hide [Rank 1]
 			},
@@ -292,7 +292,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 39906 },	-- Prepping For Battle
 			["provider"] = { "n", 98159 },	-- Alynblaze
 			["coord"] = { 46.8, 40.8, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				r(190893),	-- Mark of the Distant Army [Rank 1]
 				r(228405),	-- Mark of the Trained Soldier [Rank 1]
 			},
@@ -325,7 +325,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["sourceQuests"] = { 39921 },	-- Neltharion's Lair: Rod of Azure
 			["provider"] = { "n", 99420 },	-- Kharmeera
 			["coord"] = { 47.2, 26.4, AZSUNA },
-			["g"] = {
+			["groups"] = {
 				r(190870),	-- Binding of Critical Strike [Rank 1]
 				r(190871),	-- Binding of Haste [Rank 1]
 				r(190872),	-- Binding of Mastery [Rank 1]
@@ -335,7 +335,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		q(42971, {	-- Controlling the Elements
 			["provider"] = { "n", 42465 },	-- Therazane <The Stonemother>
 			["coord"] = { 56.4, 12.2, DEEPHOLM },
-			["g"] = {
+			["groups"] = {
 				r(217649),	-- Tome of Illusions: Elemental Lords
 			},
 		}),
@@ -395,7 +395,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["coord"] = { 53.4, 40.1, DRUSTVAR },
 				["sourceQuestNumRequired"] = 1,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(164979),	-- Bundle of Hard Wood (QI!)
 				},
 			}),
@@ -416,7 +416,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["provider"] = { "n", 146091 },	-- Sef Iwen
 				["coord"] = { 55.3, 46.1, DRUSTVAR },
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(164985),	-- Durable Spider Silk (QI!)
 				},
 			}),
@@ -424,7 +424,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["sourceQuests"] = { 53999 },	-- Exhumed
 				["provider"] = { "n", 146093 },	-- Sef Iwen
 				["coord"] = { 63.0, 59.4, DRUSTVAR },
-				["g"] = {
+				["groups"] = {
 					r(284415, {["u"]=TRAINING}),	-- Enchant Runic Power Core
 					i(165023),	-- Runic Power Core (QI!)
 					i(165022),	-- Smooth River Stone (QI!)
@@ -440,7 +440,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["sourceQuests"] = { 54001 },	-- We're Going In
 				["provider"] = { "n", 152255 },	-- Sef Iwen
 				["coord"] = { 57.8, 80.8, DRUSTVAR },
-				["g"] = {
+				["groups"] = {
 					r(287494),	-- Iwen's Enchanting Rod
 				},
 			})),
@@ -514,7 +514,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -522,7 +522,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		n(QUESTS, sharedData({
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(198610),	-- Enchanter's Script
 			},
 		},{
@@ -531,7 +531,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194053),	-- Crystal Quill (QI!)
 				},
 			}),
@@ -539,7 +539,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(193867),	-- Enchanted Relics (QI!)
 				},
 			}),
@@ -547,7 +547,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(193624),	-- Fireproof Gear (QI!)
 				},
 			}),
@@ -555,7 +555,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191004 },	-- Temnaayu
 				["coord"] = { 36.8, 62.4, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201826),	-- Tempest Armaments (QI!)
 				},
 			}),
@@ -587,7 +587,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(204433),	-- Everburning Fireshard (QI!)
 				},
 			}),
@@ -607,7 +607,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 					{ 56.0, 56.8, ZARALEK_CAVERN },
 				},
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(208947),	-- Enchanted Watering Can (QI!)
 				},
 			}),
@@ -615,14 +615,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(209018),	-- Glowdrop Sugar (QI!)
 				},
 			}),
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_ENCHANTING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_ENCHANTING_KNOWLEDGE, 1 }} }, {
 				r(389547),	-- Burning Devotion
 				r(391302),	-- Crystalline Shatter
 				r(389301),	-- Devotion of Avoidance
@@ -651,14 +651,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["description"] = "Interact with the Disenchanted Broom, then follow it to the location of the treasure.",
 				["questID"] = 70272,
 				["coord"] = { 57.5, 58.5, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(201012),	-- Enchanted Debris
 				},
 			}),
 			o(380600, {	-- Enriched Earthen Shard
 				["questID"] = 70298,
 				["coord"] = { 21.6, 45.5, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198694),	-- Enriched Earthen Shard
 				},
 			}),
@@ -666,7 +666,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 66.3, 74.2, EMERALD_DREAM },
 				["questID"] = 78310,
-				["g"] = {
+				["groups"] = {
 					i(210234),	-- Essence of Dreams
 				},
 			})),
@@ -674,7 +674,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 46.1, 20.5, EMERALD_DREAM },
 				["questID"] = 78309,
-				["g"] = {
+				["groups"] = {
 					i(210231),	-- Everburning Core
 				},
 			})),
@@ -682,28 +682,28 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["questID"] = 70290,
 				["coord"] = { 45.1, 61.2, THE_AZURE_SPAN },
 				["crs"] = { 194882 },	-- Enchanted Crystaline Construct
-				["g"] = {
+				["groups"] = {
 					i(201013),	-- Faintly Enchanted Remains
 				},
 			}),
 			o(380643, {	-- Flashfrozen Scroll
 				["questID"] = 70320,
 				["coord"] = { 57.5, 83.6, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198798),	-- Flashfrozen Scroll
 				},
 			}),
 			o(380647, {	-- Forgotten Arcane Tome
 				["questID"] = 70336,
 				["coord"] = { 38.5, 59.2, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198799),	-- Forgotten Arcane Tome
 				},
 			}),
 			o(380652, {	-- Fractured Titanic Sphere
 				["questID"] = 70342,
 				["coord"] = { 59.9, 70.4, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(198800),	-- Fractured Titanic Sphere
 				},
 			}),
@@ -711,14 +711,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 48.0, 17.0, ZARALEK_CAVERN },
 				["questID"] = 75508,
-				["g"] = {
+				["groups"] = {
 					i(204990),	-- Lava-Drenched Shadow Crystal
 				},
 			})),
 			o(380580, {	-- Lava-Infused Seed
 				["questID"] = 70283,
 				["coord"] = { 68.0, 26.8, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198675),	-- Lava-Infused Seed
 				},
 			}),
@@ -726,7 +726,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 38.3, 30.1, EMERALD_DREAM },
 				["questID"] = 78308,
-				["g"] = {
+				["groups"] = {
 					i(210228),	-- Pure Dream Water
 				},
 			})),
@@ -734,7 +734,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 36.7, 69.3, ZARALEK_CAVERN },
 				["questID"] = 75510,
-				["g"] = {
+				["groups"] = {
 					i(205001),	-- Resonating Arcane Crystal
 				},
 			})),
@@ -742,21 +742,21 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 62.4, 53.8, ZARALEK_CAVERN },
 				["questID"] = 75509,
-				["g"] = {
+				["groups"] = {
 					i(204999),	-- Shimmering Aqueous Orb
 				},
 			})),
 			o(380592, {	-- Stormbound Horn
 				["questID"] = 70291,
 				["coord"] = { 61.4, 67.6, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(198689),	-- Stormbound Horn
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_ENCHANTING_KNOWLEDGE),
 			},
 		},{
@@ -795,7 +795,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			["provider"] = { "n", 219085 },	-- Nagad <Enchanting Trainer>
 			["coord"] = { 52.7, 71.1, DORNOGAL },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(227667),	-- Algari Enchanter's Folio
 			},
 		},{
@@ -805,7 +805,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_ENCHANTING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ENCHANTING_KNOWLEDGE, 1 }} }, {
 				r(445378),	-- Algari Ingenuity
 				r(445403),	-- Authority of Fiery Resolve
 				r(445336),	-- Authority of Storms
@@ -846,63 +846,63 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			o(456006, {	-- Animated Enchanting Dust
 				["coord"] = { 67.2, 65.9, THE_RINGING_DEEPS },
 				["questID"] = 83861,
-				["g"] = {
+				["groups"] = {
 					i(226287),	-- Animated Enchanting Dust
 				},
 			}),
 			o(456003, {	-- Book of Dark Magic
 				["coord"] = { 61.7, 22.0, NERUBAR },
 				["questID"] = 83864,
-				["g"] = {
+				["groups"] = {
 					i(226290),	-- Book of Dark Magic
 				},
 			}),
 			o(456004, {	-- Enchanted Arathi Scroll
 				["coord"] = { 48.6, 64.5, HALLOWFALL },
 				["questID"] = 83863,
-				["g"] = {
+				["groups"] = {
 					i(226289),	-- Enchanted Arathi Scroll
 				},
 			}),
 			o(456005, {	-- Essence of Holy Fire
 				["coord"] = { 40.1, 70.5, HALLOWFALL },
 				["questID"] = 83862,
-				["g"] = {
+				["groups"] = {
 					i(226288),	-- Essence of Holy Fire
 				},
 			}),
 			o(456009, {	-- Grinded Earthen Gem
 				["coord"] = { 57.6, 61.5, ISLE_OF_DORN },
 				["questID"] = 83856,
-				["g"] = {
+				["groups"] = {
 					i(226284),	-- Grinded Earthen Gem
 				},
 			}),
 			o(456008, {	-- Silver Dornogal Rod
 				["coord"] = { 58.0, 56.9, DORNOGAL },
 				["questID"] = 83859,
-				["g"] = {
+				["groups"] = {
 					i(226285),	-- Silver Dornogal Rod
 				},
 			}),
 			o(456007, {	-- Soot-Coated Orb
 				["coord"] = { 44.6, 22.1, THE_RINGING_DEEPS },
 				["questID"] = 83860,
-				["g"] = {
+				["groups"] = {
 					i(226286),	-- Soot-Coated Orb
 				},
 			}),
 			o(456002, {	-- Void Shard
 				["coord"] = { 57.3, 44.0, AZJ_KAHET },
 				["questID"] = 83865,
-				["g"] = {
+				["groups"] = {
 					i(226291),	-- Void Shard
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_ENCHANTING_KNOWLEDGE),
 			},
 		},{i(225230),

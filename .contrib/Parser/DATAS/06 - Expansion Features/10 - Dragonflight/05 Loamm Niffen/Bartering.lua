@@ -33,7 +33,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			n(ACHIEVEMENTS, {
 				ach(17841, {	-- Pyramid Scheme
 					["provider"] = { "i", 205421 },	-- Ponzo's Scheming Topper
-					["g"] = {
+					["groups"] = {
 						title(502),	-- <Name>, Barter Boss
 					},
 				}),
@@ -121,7 +121,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			n(VENDORS, {
 				n(203172, {	-- Dustmonger Topuiz
 					["coord"] = { 55.9, 56.8, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(204978, {	-- Formula: Enchant Weapon - Spore Tender (RECIPE!)
 							["cost"] = {{"i", PONZOS_CREAM, 1}},
 						}),
@@ -138,7 +138,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203612, {	-- Fanilly
 					["coord"] = { 56.7, 55.3, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205174, {	-- Design: B.B.F. Fist (RECIPE!)
 							["cost"] = {{"i", VOUCHER, 1}},
 						}),
@@ -152,7 +152,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203644, {	-- Garram
 					["coord"] = { 57.3, 55.9, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(204970, {	-- Pattern: Adaptive Dracothyst Armguards (RECIPE!)
 							["cost"] = {{"i", VOUCHER, 1}},
 						}),
@@ -166,7 +166,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203170, {	-- Kilnmaster Crubus
 					["coord"] = { 57.1, 55.0, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205137, {	-- Plans: Shadowed Alloy (RECIPE!)
 							["cost"] = {{"i", PONZOS_CREAM, 1}},
 						}),
@@ -178,7 +178,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203607, {	-- Mistie
 					["coord"] = { 56.0, 56.5, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(204984, {	-- Recipe: Stinky Bright Potion (RECIPE!)
 							["cost"] = {{"i", VOUCHER, 1}},
 						}),
@@ -189,7 +189,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203609, {	-- Phiary <Cooking>
 					["coord"] = { 56.9, 56.3, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205690, {	-- Barter-B-Q
 							["cost"] = BarterCost(5, 1),
 						}),
@@ -197,7 +197,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(204693, {	-- Ponzo
 					["coord"] = { 58.1, 53.8, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(BARTER_BOULDER, {
 							["cost"] = {{"i", BARTER_BRICK, 3 }},
 						}),
@@ -329,7 +329,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203608, {	-- Rossmar
 					["coord"] = { 56.1, 56.7, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205138, {	-- Pattern: Medical Wrap Kit (RECIPE!)
 							["cost"] = { { "i", VOUCHER, 1 } }
 						}),
@@ -340,7 +340,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203171, {	-- Scridorsa the Chiseler
 					["coord"] = { 55.8, 55.7, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205136, {	-- Technique: Contract: Loamm Niffen (RECIPE!)
 							["cost"] = {{"i", VOUCHER, 1}},
 						}),
@@ -366,7 +366,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				n(203610, {	-- Scrybbil
 					["coord"] = { 55.8, 55.9, ZARALEK_CAVERN },
-					["g"] = {
+					["groups"] = {
 						i(205178, {	-- Schematic: Mallard Mortar (RECIPE!)
 							["cost"] = {{"i", VOUCHER, 1}},
 						}),

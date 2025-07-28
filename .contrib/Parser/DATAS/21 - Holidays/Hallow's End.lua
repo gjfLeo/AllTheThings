@@ -3885,7 +3885,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["lvl"] = lvlsquish(10, 10, 1),
 			["groups"] = {
 				i(71076, {	-- Creepy Crate (PET!)
-					["timeline"] = { ADDED_4_2_0}
+					["timeline"] = { ADDED_4_2_0 },
 				}),
 			},
 		}),
@@ -3898,7 +3898,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["lvl"] = lvlsquish(10, 10, 1),
 			["groups"] = {
 				i(71076, {	-- Creepy Crate (PET!)
-					["timeline"] = { ADDED_4_2_0}
+					["timeline"] = { ADDED_4_2_0 },
 				}),
 			},
 		}),
@@ -3976,7 +3976,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 						i(139134),	-- Hat of the Second Sister
 						i(139135),	-- Hat of the Third Sister
 						i(139136),	-- Hat of the Youngest Sister
-					}
+					},
 				}),
 			},
 		}),

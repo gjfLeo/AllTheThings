@@ -239,7 +239,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					{ "o", 216761 },	-- Mixed Ocean School
 					{ "o", 216764 },	-- Sagefish School
 				},
-				["g"] = {
+				["groups"] = {
 					i(19803),	-- Brownell's Blue Striped Racer
 					i(19806),	-- Dezian Queenfish
 					i(19805),	-- Keefer's Angelfish
@@ -257,7 +257,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 						-- #endif
 					}),
 					i(19807),	-- Speckled Tastyfish
-				}
+				},
 			}),
 			-- #else
 			o(180248, {	-- School of Tastyfish

@@ -22,7 +22,7 @@ LOREWALKING = createHeader({
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 	n(LOREWALKING, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
 		["cr"] = 230246,	-- Lorewalker Cho
-		["g"] = {
+		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(42188),	-- Lorewalking: Blade's Bane
 				ach(42187),	-- Lorewalking: Ethereal Wisdom
@@ -50,11 +50,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						},
 						["isRepeatable"] = true,
 						-- Alex: when I picked up this quest - it flag 40706 & 42074 as completed
-						["g"] = {
+						["groups"] = {
 							o(247690, {	-- Xal'atath
 								["coord"] = { 58.8, 76.6, 20 }, -- Keeper's Rest
 								-- Alex: this is also looted during q:40710
-								["g"] = { i(229361) },	-- Xal'atath, Blade of the Black Empire (QI!)
+								["groups"] = { i(229361) },	-- Xal'atath, Blade of the Black Empire (QI!)
 							}),
 						},
 					}),
@@ -104,7 +104,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 230321 },	-- Xithixxin
 						["coord"] = { 52.5, 73.1, 2381 },	-- Ny'alotha, the Waking City
 						["maps"] = { 2379 },	-- Annex of Prophecy
-						["g"] = {
+						["groups"] = {
 							i(244888),	-- Echo of Xal'atath, Blade of the Black Empire (TOY!)
 							i(244846),	-- Lorewalker's Notes: Xal'atath, Blade of the Black Empire (lore)
 						},
@@ -142,13 +142,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 						["isRepeatable"] = true,
-						["g"] = { i(231831) },	-- Ve'nari's Parcel (QI!)
+						["groups"] = { i(231831) },	-- Ve'nari's Parcel (QI!)
 					}),
 					q(85036, {	-- Veni Vidi Ve'nari
 						["sourceQuests"] = { 85035 },	-- Locus-Walker, Telogrus Ranger
 						["provider"] = { "n", 231706 },	-- Locus-Walker
 						["coord"] = { 27.5, 28.3, TELOGRUS_RIFT },
-						["g"] = {
+						["groups"] = {
 							i(245567),	-- K'aresh Memory Crystal (TOY!)
 							i(244843),	-- Lorewalker's Notes: The Ethereals (lore)
 						},
@@ -179,7 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 							{ 54.5, 57.2, ORGRIMMAR },
 							{ 64.2, 16.1, STORMWIND_CITY },
 						},
-						["g"] = {
+						["groups"] = {
 							i(245631),	-- Royal Visage (TOY!)
 							i(244858),	-- Lorewalker's Notes: The Lich King (lore)
 						},

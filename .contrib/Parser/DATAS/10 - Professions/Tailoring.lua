@@ -111,14 +111,14 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		q(90116, {	-- Holy Threads
 			["provider"] = { "n", 240631 },	-- Taylor Stitchings <Tailoring Supplies>
 			["coord"] = { 94.6, 83.6, EASTERN_PLAGUELANDS },
-			["g"] = {
+			["groups"] = {
 				i(239149),	-- Pattern: Crusader's Knapsack (RECIPE!)
 			},
 		}),
 		q(90120, {	-- Red is Not Dead
 			["provider"] = { "n", 240631 },	-- Taylor Stitchings <Tailoring Supplies>
 			["coord"] = { 94.6, 83.6, EASTERN_PLAGUELANDS },
-			["g"] = {
+			["groups"] = {
 				i(239150),	-- Pattern: Crimson Dawnwoven Bag (RECIPE!)
 			},
 		}),
@@ -319,7 +319,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["coord"] = { 76.6, 11.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
 			}),
@@ -329,7 +329,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["coord"] = { 43.5, 34.8, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
 			}),
@@ -383,7 +383,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 64.2, 69.5, SURAMAR },
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
 			}),
@@ -473,7 +473,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					{ 79.0, 51.8, NAZJATAR },
 					-- #endif
 				},
-				["g"] = {
+				["groups"] = {
 					i(167889, {	-- Pattern: Azure Silk Cloak
 						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 50}}
 					}),
@@ -560,7 +560,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -568,7 +568,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		n(QUESTS, sharedData({
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(198609),	-- Tailoring Examples
 			},
 		},{
@@ -576,7 +576,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194450),	-- Fluffy Fur (QI!)
 				},
 			}),
@@ -584,7 +584,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(193865),	-- Fuzzy Legs (QI!)
 				},
 			}),
@@ -592,7 +592,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201825),	-- Pointy Pincer (QI!)
 				},
 			}),
@@ -605,7 +605,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194328),	-- Gnoll-Worn Cloth (QI!)
 				},
 			}),
@@ -637,7 +637,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["provider"] = { "n", 203516 },	-- Kayann
 				["coord"] = { 36.5, 62.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
-				["g"] = {
+				["groups"] = {
 					i(204817),	-- Underlight Cocoon Fibers (QI!)
 				},
 			}),
@@ -651,7 +651,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(209021),	-- Shed Great Feathers (QI!)
 				},
 			}),
@@ -659,14 +659,14 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(208956),	-- Intact Primalist Garb (QI!)
 				},
 			}),
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_TAILORING_KNOWLEDGE, 1 }}, }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_TAILORING_KNOWLEDGE, 1 }}, }, {
 				r(376556),	-- Azureweave Bolt
 				r(376502),	-- Azureweave Mantle
 				r(376500),	-- Azureweave Robe
@@ -690,7 +690,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			o(402868, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Abandoned Reserve Chute
 				["coord"] = { 47.2, 48.6, ZARALEK_CAVERN },
 				["questID"] = 76102,
-				["g"] = {
+				["groups"] = {
 					i(206019),	-- Abandoned Reserve Chute
 				},
 			})),
@@ -698,70 +698,70 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["description"] = "Interact with the loom and complete the minigame to be awared this treasure.",
 				["questID"] = 70372,
 				["coord"] = { 58.6, 45.8, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(201019),	-- Ancient Dragonweave Bolt
 				},
 			}),
 			o(380597, {	-- Battle Hardened Centaur Carpet
 				["questID"] = 70295,
 				["coord"] = { 35.3, 40.1, OHNAHRAN_PLAINS },
-				["g"] = {
+				["groups"] = {
 					i(198692),	-- Noteworthy Scrap of Carpet
 				},
 			}),
 			o(380583, {	-- Decaying Brackenhide Blanket
 				["questID"] = 70284,
 				["coord"] = { 16.2, 38.8, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198680),	-- Decaying Brackenhide Blanket
 				},
 			}),
 			o(411171, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Exceedingly Soft Wildercloth
 				["coord"] = { 53.2, 27.9, EMERALD_DREAM },
 				["questID"] = 78414,
-				["g"] = {
+				["groups"] = {
 					i(210461),	-- Exceedingly Soft Wildercloth
 				},
 			})),
 			o(402887, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Exquisitely Embroidered Banner
 				["coord"] = { 44.5, 15.7, ZARALEK_CAVERN },
 				["questID"] = 76116,
-				["g"] = {
+				["groups"] = {
 					i(206030),	-- Exquisitely Embroidered Banner
 				},
 			})),
 			o(380549, {	-- Intriguing Bolt of Blue Cloth
 				["questID"] = 70267,
 				["coord"] = { 40.7, 54.9, THE_AZURE_SPAN },
-				["g"] = {
+				["groups"] = {
 					i(198662),	-- Intriguing Bolt of Blue Cloth
 				},
 			}),
 			o(380607, {	-- Itinerant Singed Fabric
 				["questID"] = 70304,
 				["coord"] = { 24.9, 69.7, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198702),	-- Itinerant Singed Fabric
 				},
 			}),
 			o(380588, {	-- Miniature Bronze Dragonflight Banner
 				["questID"] = 70288,
 				["coord"] = { 60.5, 79.7, THALDRASZUS },
-				["g"] = {
+				["groups"] = {
 					i(198684),	-- Miniature Bronze Dragonflight Banner
 				},
 			}),
 			o(380604, {	-- Mysterious Banner
 				["questID"] = 70302,
 				["coord"] = { 74.7, 37.9, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198699),	-- Mysterious Banner
 				},
 			}),
 			o(411176, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Plush Pillow
 				["coord"] = { 49.8, 61.4, EMERALD_DREAM },
 				["questID"] = 78415,
-				["g"] = {
+				["groups"] = {
 					i(210462),	-- Plush Pillow
 				},
 			})),
@@ -770,28 +770,28 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["questID"] = 70303,
 				["coord"] = { 66.1, 52.9, OHNAHRAN_PLAINS },
 				["crs"] = { 194873 },	-- Playful Prowler
-				["g"] = {
+				["groups"] = {
 					i(201020),	-- Silky Surprise
 				},
 			}),
 			o(411177, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Snuggle Buddy
 				["coord"] = { 40.7, 86.1, EMERALD_DREAM },
 				["questID"] = 78416,
-				["g"] = {
+				["groups"] = {
 					i(210463),	-- Snuggle Buddy
 				},
 			})),
 			o(402878, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Used Medical Wrap Kit
 				["coord"] = { 59.1, 73.1, ZARALEK_CAVERN },
 				["questID"] = 76110,
-				["g"] = {
+				["groups"] = {
 					i(206025),	-- Used Medical Wrap Kit
 				},
 			})),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_TAILORING_KNOWLEDGE),
 			},
 		},{
@@ -840,7 +840,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228779),	-- Algari Tailor's Notebook
 			},
 		},{
@@ -851,7 +851,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_TAILORING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_TAILORING_KNOWLEDGE, 1 }} }, {
 				r(446940),	-- Consecrated Cloak
 				r(446939),	-- Consecrated Cord
 				r(446938),	-- Consecrated Cuffs
@@ -883,63 +883,63 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			o(455941, {	-- Arathi Rotary Cutter
 				["coord"] = { 49.2, 62.3, HALLOWFALL },
 				["questID"] = 83926,
-				["g"] = {
+				["groups"] = {
 					i(226352),	-- Arathi Rotary Cutter
 				},
 			}),
 			o(455945, {	-- Dornogal Seam Ripper
 				["coord"] = { 61.4, 18.6, DORNOGAL },
 				["questID"] = 83922,
-				["g"] = {
+				["groups"] = {
 					i(226348),	-- Dornogal Seam Ripper
 				},
 			}),
 			o(455944, {	-- Earthen Tape Measure
 				["coord"] = { 56.2, 61.0, ISLE_OF_DORN },
 				["questID"] = 83923,
-				["g"] = {
+				["groups"] = {
 					i(226349),	-- Earthen Tape Measure
 				},
 			}),
 			o(455942, {	-- Eathen Sticher's Snips
 				["coord"] = { 64.2, 60.2, THE_RINGING_DEEPS },
 				["questID"] = 83925,
-				["g"] = {
+				["groups"] = {
 					i(226351),	-- Earthen Stitcher's Snips
 				},
 			}),
 			o(455938, {	-- Nerubian's Pincushion
 				["coord"] = { 50.2, 16.7, NERUBAR },
 				["questID"] = 83929,
-				["g"] = {
+				["groups"] = {
 					i(226355),	-- Nerubian's Pincushion
 				},
 			}),
 			o(455939, {	-- Nerubian Quilt
 				["coord"] = { 53.2, 53.1, AZJ_KAHET },
 				["questID"] = 83928,
-				["g"] = {
+				["groups"] = {
 					i(226354),	-- Nerubian Quilt
 				},
 			}),
 			o(455940, {	-- Royal Outfitter's Protractor
 				["coord"] = { 40.1, 68.1, HALLOWFALL },
 				["questID"] = 83927,
-				["g"] = {
+				["groups"] = {
 					i(226353),	-- Royal Outfitter's Protractor
 				},
 			}),
 			o(455943, {	-- Runed Earthen Pins
 				["coord"] = { 48.8, 32.8, THE_RINGING_DEEPS },
 				["questID"] = 83924,
-				["g"] = {
+				["groups"] = {
 					i(226350),	-- Runed Earthen Pins
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_TAILORING_KNOWLEDGE),
 			},
 		},{

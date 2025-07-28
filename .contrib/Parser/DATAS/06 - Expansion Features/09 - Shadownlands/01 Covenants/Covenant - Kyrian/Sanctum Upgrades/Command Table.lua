@@ -5,11 +5,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 	n(KYRIAN, {
 		n(SANCTUM_UPGRADES, {
 			["icon"] = 3641395,
-			["g"] = {
+			["groups"] = {
 				n(COMMAND_TABLE, {
 					n(TIER_ONE, {
 						["icon"] = 3675495,
-						["g"] = {
+						["groups"] = {
 							n(FOLLOWERS, bubbleDownSelf({
 								["u"] = TRAINING,	-- Temporary troops
 							}, {
@@ -27,7 +27,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["sourceQuests"] = { 57899 },	-- More Work?
 									["provider"] = { "n", 160389 },	-- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1259),	-- Pelagos
 									},
 								}),
@@ -36,7 +36,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 27.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1276),	-- Apolon
 									},
 								}),
@@ -45,7 +45,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 71.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1343),	-- Auric Spiritguide
 									},
 								}),
@@ -54,7 +54,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 33.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1275),	-- Bron
 									},
 								}),
@@ -63,7 +63,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 17.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1273),	-- Clora
 									},
 								}),
@@ -72,7 +72,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 62.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1342),	-- Cromas the Mystic
 									},
 								}),
@@ -81,7 +81,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 38.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1274),	-- Disciple Kosmas
 									},
 								}),
@@ -90,7 +90,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 44.",
 									["provider"] = { "n", 160389 },	-- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1341),	-- Hermestes
 									},
 								}),
@@ -104,7 +104,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 4. Must choose Nemea in the Pride or Unit quest to get this follower.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1270),	-- Nemea
 									},
 								}),
@@ -118,7 +118,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 4. Must choose Pelodis in the Pride or Unit quest to get this follower.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1271),	-- Pelodis
 									},
 								}),
@@ -127,7 +127,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["description"] = "Requires Renown 12.",
 									["provider"] = { "n", 160389 },    -- Koros
 									["coord"] = { 43.8, 40.7, ARCHONS_RISE },
-									["g"] = {
+									["groups"] = {
 										follower(1272),	-- Sika
 									},
 								}),

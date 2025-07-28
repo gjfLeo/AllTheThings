@@ -2385,7 +2385,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				{ 52.9, 77.4, ORGRIMMAR },
 			},
 			["timeline"] = { CREATED_8_3_0, ADDED_9_0_1 },
-			["g"] = { i(174865) },	-- A Tiny Winter Hat (Pepe!)
+			["groups"] = { i(174865) },	-- A Tiny Winter Hat (Pepe!)
 		}),
 		o(187236, {	-- Winter Veil Gift
 			i(178528, {	-- Winter Veil Gift

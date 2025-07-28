@@ -13,7 +13,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					["coord"] = { 40.5, 50.8, HALLOWFALL },
 					["groups"] = {
 						i(226141),	-- Airship Captain's Lost Pendant
-					}
+					},
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {

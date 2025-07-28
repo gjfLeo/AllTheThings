@@ -516,7 +516,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								i(59649),	-- Chum-Coated Robes
 								i(59648),	-- Handguards of the Severed Starfish
 								i(59647),	-- Captain Verne's Splitter
-							}
+							},
 						}),
 						q(26015, {	-- Phosphora Hunting
 							["qg"] = 41910,	-- Humphrey Digsong
@@ -892,7 +892,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["coord"] = { 53.6, 57.6, VASHJIR_KELPTHAR_FOREST },
 									["cr"] = 41018,	-- King Gurboggle
 								}),
-							}
+							},
 						}),
 						q(25471, {	-- Across the Great Divide
 							["qg"] = 41341,	-- Erunak Stonespeaker
@@ -935,7 +935,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["coord"] = { 49.6, 43.0, VASHJIR_KELPTHAR_FOREST },
 									["cr"] = 39918,	-- Clacksnap Pincer
 								}),
-							}
+							},
 						}),
 						q(25598, {	-- Ain't Too Proud to Beg
 							["qg"] = 39883,	-- Adarrah
@@ -1133,7 +1133,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["provider"] = { "n", 41340 },	-- Private Pollard
 									["coord"] = { 63.8, 59.8, VASHJIR_KELPTHAR_FOREST },
 								}),
-							}
+							},
 						}),
 						q(26007, {	-- Debriefing (H)
 							["qg"] = 41341,	-- Erunak Stonespeaker
@@ -1145,7 +1145,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["provider"] = { "n", 41885 },	-- Gurrok
 									["coord"] = { 63.8, 59.8, VASHJIR_KELPTHAR_FOREST },
 								}),
-							}
+							},
 						}),
 						q(25743, {	-- Decisions, Decisions
 							["qg"] = 46458,	-- Budd

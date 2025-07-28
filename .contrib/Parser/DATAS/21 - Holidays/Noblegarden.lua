@@ -852,7 +852,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				i(212608),	-- Duck Potion (QI!)
 				o(420195, {	-- Golden Egg Heirloom
 					["coord"] = { 30.4, 91.3, ELWYNN_FOREST },
-					["g"] = { i(212643) },	-- Golden Egg Heirloom (QI!)
+					["groups"] = { i(212643) },	-- Golden Egg Heirloom (QI!)
 				}),
 			},
 		}),
@@ -873,7 +873,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				i(216488),	-- Duck Potion (QI!)
 				o(424098, {	-- Golden Egg Heirloom
 					["coord"] = { 44.5, 35.2, DUROTAR },
-					["g"]  = { i(216489) },	-- Golden Egg Heirloom (QI!)
+					["groups"]  = { i(216489) },	-- Golden Egg Heirloom (QI!)
 				}),
 			},
 		}),

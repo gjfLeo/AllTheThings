@@ -72,7 +72,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 193294, {	-- Aethril [Rank 3]
 			["provider"] = { "o", 244774 },	-- Aethril
 			["maps"] = { AZSUNA },
-			["g"] = {
+			["groups"] = {
 				q(40013, {	-- Aethril Sample
 					["provider"] = { "i", 129117 },	-- Aethril Sample
 				}),
@@ -119,7 +119,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				KROKUUN,
 				EREDATH,
 			},
-			["g"] = {
+			["groups"] = {
 				q(48027, {	-- The Glory of Argus
 					["provider"] = { "i", 151856 },	-- Withered Astral Glory
 					["groups"] = {
@@ -148,7 +148,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				{ "o", 244775 },	-- Dreamleaf
 			},
 			["maps"] = { VALSHARAH },
-			["g"] = {
+			["groups"] = {
 				q(40018, {	-- Dreamleaf Sample
 					["provider"] = { "i", 129118 },	-- Dreamleaf Sample
 				}),
@@ -213,7 +213,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				SURAMAR,
 				VALSHARAH,
 			},
-			["g"] = {
+			["groups"] = {
 				q(40040, {	-- Felwort Sample
 					["provider"] = { "i", 129122 },	-- Felwort Sample
 					["groups"] = {
@@ -262,7 +262,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 193303, {	-- Fjarnskaggl [Rank 3]
 			["provider"] = { "o", 244777 },	-- Fjarnskaggl
 			["maps"] = { STORMHEIM },
-			["g"] = {
+			["groups"] = {
 				q(40029, {	-- Fjarnskaggl Sample
 					["provider"] = { "i", 129120 },	-- Fjarnskaggl Sample
 					["cost"] = {{ "i", 124104, 20 }},	-- 20x Fjarnskaggl
@@ -304,7 +304,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 193300, {	-- Foxflower [Rank 3]
 			["provider"] = { "o", 241641 },	-- Foxflower
 			["maps"] = { HIGHMOUNTAIN },
-			["g"] = {
+			["groups"] = {
 				q(40024, {	-- Foxflower Sample
 					["provider"] = { "i", 129119 },	-- Foxflower Sample
 					["cost"] = {{ "i", 124103, 20 }},	-- 20x Foxflower
@@ -338,7 +338,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 193306, {	-- Starlight Rose [Rank 3]
 			["provider"] = { "o", 244778 },	-- Starlight Rose
 			["maps"] = { SURAMAR },
-			["g"] = {
+			["groups"] = {
 				q(40034, {	-- Starlight Rosedust
 					["provider"] = { "i", 129121 },	-- Starlight Rosedust
 				}),
@@ -436,7 +436,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 252413, {	-- Akunda's Bite [Rank 3]
 			["provider"] = { "o", 276237 },	-- Akunda's Bite
 			["maps"] = { VOLDUN },
-			["g"] = {
+			["groups"] = {
 				q(51398, {	-- An Unusual Mentor [A]
 					["description"] = "Requires 50 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -459,7 +459,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["provider"] = { "n", 137572 },	-- Patu
 					["coord"] = { 62.21, 25.81, VOLDUN },
 					["sourceQuestNumRequired"] = 1,
-					["g"] = {
+					["groups"] = {
 						i(160108),	-- Digested Akunda's Bite Seed (QI!)
 					},
 				}),
@@ -498,7 +498,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(51016, {	-- Seeking More Knowledge
 					["description"] = "Requires 100 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -532,7 +532,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["sourceQuests"] = { 51482 },	-- Seeking More Knowledge [H]
 					["provider"] = { "i", 160035 },	-- Enormous Anchor Pod
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(160550),	-- Enormous Anchor Pod (QI!)
 					},
 				}),
@@ -576,7 +576,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(48753, {	-- Emergency Transplants [A]
 					["description"] = "Requires 50 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -633,7 +633,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(51365, {	-- Cultural Signifcance [A]
 					["description"] = "Requires 50 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -692,7 +692,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				MECHAGON,
 				-- #endif
 			},
-			["g"] = {
+			["groups"] = {
 				q(51312, {	-- Aromatic Pollenator [A]
 					["description"] = "This can drop from |cFFFFD700Siren's Pollen|r at any herbalism level. You can only turn it in at Level 50 Kul Tiran Herbalism.",
 					["provider"] = { "i", 159877 },	-- Dead Pollen-Covered Bee
@@ -776,7 +776,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				VOLDUN,
 				ZULDAZAR,
 			},
-			["g"] = {
+			["groups"] = {
 				q(48756, {	-- Here in Spirit [A]
 					["description"] = "Requires 50 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -823,7 +823,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 252417, {	-- Winter's Kiss [Rank 3]
 			["provider"] = { "o", 276238 },	-- Winter's Kiss
 			["maps"] = { DRUSTVAR },
-			["g"] = {
+			["groups"] = {
 				q(48762, {	-- Meet Sweetflower [A]
 					["description"] = "Requires 50 Kul Tiran Herbalism.",
 					["provider"] = { "n", 136096 },	-- Declan Senal
@@ -864,7 +864,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		header(HEADERS.Spell, 298144, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {	-- Zin'anthid [Rank 3]
 			["provider"] = { "o", 326598 },	-- Zin'anthid
 			["maps"] = { NAZJATAR },
-			["g"] = {
+			["groups"] = {
 				q(56098, {	-- Defensive in Death [A]
 					["provider"] = { "i", 168919 },	-- Zin'anthid Tentacle
 					["races"] = ALLIANCE_ONLY,
@@ -893,7 +893,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					18823,	-- Botanist's Log - Saxifrage
 					18825,	-- Botanist's Log - Writhebark
 				}},
-				["g"] = {
+				["groups"] = {
 					crit(61434),	-- Infused Pollen Recovered
 					crit(61433),	-- Dreambloom Recovered
 				},
@@ -1340,7 +1340,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -1351,7 +1351,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			["coord"] = { 38.2, 68.6, VALDRAKKEN },
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(199115),	-- Herbalism Field Notes
 			},
 		},{
@@ -1362,7 +1362,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_HERBALISM_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_HERBALISM_KNOWLEDGE, 1 }} }, {
 				r(391088),	-- Refine Herbs++
 				r(391089),	-- Refine Herbs+++
 				r(390392, {["timeline"] = {ADDED_10_0_5}}),	-- Overload Elemental Herb
@@ -1370,7 +1370,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_HERBALISM_KNOWLEDGE),
 			},
 		},{
@@ -1412,7 +1412,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			["provider"] = { "n", 219101 },	-- Akdan <Herbalism Trainer>
 			["coord"] = { 44.8, 69.3, DORNOGAL },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(224817),	-- Algari Herbalism Notes
 			},
 		},{
@@ -1423,7 +1423,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_HERBALISM_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_HERBALISM_KNOWLEDGE, 1 }} }, {
 				r(442990),	-- Empowered Mulch
 				r(442989),	-- Imbued Mulch
 				r(442988),	-- Magical Mulch
@@ -1436,7 +1436,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			["coord"] = { 44.8, 69.4, DORNOGAL },
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(224817),	-- Algari Herbalist's Notes
 			},
 		},{
@@ -1458,63 +1458,63 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			o(455993, {	-- Ancient Flower
 				["coord"] = { 57.5, 61.5, ISLE_OF_DORN },
 				["questID"] = 83874,
-				["g"] = {
+				["groups"] = {
 					i(226300),	-- Ancient Flower
 				},
 			}),
 			o(455989, {	-- Arathi Garden Trowel
 				["coord"] = { 47.7, 63.3, HALLOWFALL },
 				["questID"] = 83878,
-				["g"] = {
+				["groups"] = {
 					i(226304),	-- Arathi Garden Trowel
 				},
 			}),
 			o(455988, {	-- Arathi Herb Pruner
 				["coord"] = { 36.0, 55.0, HALLOWFALL },
 				["questID"] = 83879,
-				["g"] = {
+				["groups"] = {
 					i(226305),	-- Arathi Herb Pruner
 				},
 			}),
 			o(455992, {	-- Dornogal Gardening Scythe
 				["coord"] = { 59.2, 23.5, DORNOGAL },
 				["questID"] = 83875,
-				["g"] = {
+				["groups"] = {
 					i(226301),	-- Dornogal Gardening Scythe
 				},
 			}),
 			o(455991, {	-- Earthen Digging Fork
 				["coord"] = { 48.2, 35.0, THE_RINGING_DEEPS },
 				["questID"] = 83876,
-				["g"] = {
+				["groups"] = {
 					i(226302),	-- Earthen Digging Fork
 				},
 			}),
 			o(455990, {	-- Fungarian Slicer's Knife
 				["coord"] = { 52.8, 65.8, THE_RINGING_DEEPS },
 				["questID"] = 83877,
-				["g"] = {
+				["groups"] = {
 					i(226303),	-- Fungarian Slicer's Knife
 				},
 			}),
 			o(455986, {	-- Tunneler's Shovel
 				["coord"] = { 46.8, 16.1, NERUBAR },
 				["questID"] = 83881,
-				["g"] = {
+				["groups"] = {
 					i(226307),	-- Tunneler's Shovel
 				},
 			}),
 			o(455987, {	-- Web-Entangled Lotus
 				["coord"] = { 54.6, 20.9, NERUBAR },
 				["questID"] = 83880,
-				["g"] = {
+				["groups"] = {
 					i(226306),	-- Web-Entangled Lotus
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_HERBALISM_KNOWLEDGE),
 			},
 		},{

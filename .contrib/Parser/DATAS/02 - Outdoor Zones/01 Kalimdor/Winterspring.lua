@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["coords"] = {
 								{ 63.0, 30.4, WINTERSPRING },
 								{ 65.2, 76.6, WINTERSPRING },
-								{ 57.6, 75.6, WINTERSPRING }
+								{ 57.6, 75.6, WINTERSPRING },
 							},
 						}),
 						crit(16178, {	-- Shardtooth Bears

@@ -464,7 +464,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			q(40545, {	-- Aww Scrap!
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(195112, {	-- Engineering (Legion Master)
 						["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
 						["collectible"] = false,
@@ -491,7 +491,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuest"] = 40855,	-- Our Man in Azsuna
 				["provider"] = { "n", 102195 },	-- Fargo Flintlocke
 				["coord"] = { 65.2, 24.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198939),	-- Blink-Trigger Headgun [Rank 1] (RECIPE!)
 					r(198966),	-- Bolt-Action Headgun [Rank 1] (RECIPE!)
 					r(198967),	-- Reinforced Headgun [Rank 1] (RECIPE!)
@@ -505,7 +505,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 				["provider"] = { "n", 102195 },	-- Fargo Flintlocke
 				["coord"] = { 65.2, 24.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198976),	-- Auto-Hammer [Rank 1] (RECIPE!)
 				},
 			}),
@@ -513,7 +513,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40858 },	-- The Missing Pieces
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198982),	-- Reaves Battery (RECIPE!)
 				},
 			}),
@@ -521,7 +521,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40863 },	-- Always the Last Thing
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198984),	-- Reaves Module: Repair Mode (RECIPE!)
 					r(198988),	-- Reaves Module: Snack Distrubition Mode (RECIPE!)
 				},
@@ -535,7 +535,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40860 },	-- Resupplying the Line
 				["provider"] = { "n", 102197 },	-- Fargo Flintlocke
 				["coord"] = { 59.8, 62.2, VALSHARAH },
-				["g"] = {
+				["groups"] = {
 					r(198973),	-- Gunpowder Charge [Rank 1] (RECIPE!)
 				},
 			}),
@@ -543,7 +543,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40860 },	-- Resupplying the Line
 				["provider"] = { "n", 102197 },	-- Fargo Flintlocke
 				["coord"] = { 59.8, 62.2, VALSHARAH },
-				["g"] = {
+				["groups"] = {
 					r(198972),	-- Deployable Bullet Dispenser [Rank 1] (RECIPE!)
 				},
 			}),
@@ -554,7 +554,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198987),	-- Reaves Module: Fireworks Display Mode (RECIPE!)
 				},
 			}),
@@ -565,7 +565,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198974),	-- Pump-Action Bandage Gun [Rank 1] (RECIPE!)
 				},
 			}),
@@ -586,7 +586,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40865 },	-- It's Not Rocket Science
 				["provider"] = { "n", 102198 },	-- Fargo Flintlocke
 				["coord"] = { 78.2, 57.2, STORMHEIM },
-				["g"] = {
+				["groups"] = {
 					r(200466),	-- Sonic Environment Enhancer (RECIPE!)
 				},
 			}),
@@ -607,7 +607,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40871 },	-- 'Locke and Load
 				["provider"] = { "n", 102196 },	-- Fargo Flintlocke
 				["coord"] = { 43.0, 62.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198978),	-- Gunshoes (RECIPE!)
 					i(133941),	-- Hobart's Prototype Gunshoes (QI!)
 				},
@@ -616,7 +616,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40872 },	-- Going Out With a Bang
 				["provider"] = { "n", 102196 },	-- Fargo Flintlocke
 				["coord"] = { 43.0, 62.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198975),	-- Gunpack [Rank 1] (RECIPE!)
 				},
 			}),
@@ -629,7 +629,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40872 },	-- Going Out With a Bang
 				["provider"] = { "n", 102196 },	-- Fargo Flintlocke
 				["coord"] = { 43.0, 62.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198977),	-- Failure Detection Pylon [Rank 1] (RECIPE!)
 				},
 			}),
@@ -641,7 +641,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 				["provider"] = { "n", 102196 },	-- Fargo Flintlocke
 				["coord"] = { 43.0, 62.8, AZSUNA },
-				["g"] = {
+				["groups"] = {
 					r(198991),	-- Blink-Trigger Headgun [Rank 2] (RECIPE!)
 					r(198993),	-- Bolt-Action Headgun [Rank 2] (RECIPE!)
 					r(198994),	-- Reinforced Headgun [Rank 2] (RECIPE!)
@@ -653,7 +653,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
 				["maps"] = { 703, 704, 705 },	-- Halls of Valor
-				["g"] = {
+				["groups"] = {
 					r(198981),	-- Trigger (RECIPE!)
 				},
 			}),
@@ -663,7 +663,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
 				["maps"] = { 732 },	-- Assault of Violet Hold (Legion)
 				["cost"] = {{ "i", 132515, 2 }},	-- 2x Failure Detection Pylon
-				["g"] = {
+				["groups"] = {
 					r(198985),	-- Reaves Module: Failure Detection Mode (RECIPE!)
 				},
 			}),
@@ -672,7 +672,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
 				["maps"] = { 761, 762, 763 },	-- Court of Stars
-				["g"] = {
+				["groups"] = {
 					i(133673),	-- Schematic: Double-Barreled Cranial Cannon [Rank 1] (RECIPE!)
 					i(133674),	-- Schematic: Ironsight Cranial Cannon [Rank 1] (RECIPE!)
 					i(133672),	-- Schematic: Sawed-Off Cranial Cannon [Rank 1] (RECIPE!)
@@ -686,7 +686,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198980),	-- Blingtron's Circuit Design Tutorial (RECIPE!)
 				},
 			}),
@@ -694,7 +694,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40880 },	-- Short Circuit
 				["provider"] = { "o", 246438 },	-- Blingtron Circuit Design
 				["coord"] = { 69.5, 68.4, TANARIS },
-				["g"] = {
+				["groups"] = {
 					i(141849),	-- Schematic: Reaves Module: Bling Mode (RECIPE!)
 				},
 			}),
@@ -702,7 +702,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40881 },	-- Oil Rags to Riches
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(198990),	-- Reaves Module: Piloted Combat Mode (RECIPE!)
 				},
 			}),
@@ -711,7 +711,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40882 },	-- Court of Stars: Revamping the Recoil
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					i(144328),	-- Boon of the Builder
 				},
 			})),
@@ -719,7 +719,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 40864 },	-- Modular Modifications
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(235775),	-- Rechargeable Reaves Battery
 				},
 			})),
@@ -734,7 +734,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 48069 },	-- The Wrench Calls
 				["provider"] = { "n", 93539 },	-- Hobart Grapplehammer
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(247717),	-- Gravitational Reduction Slippers (RECIPE!)
 					i(151927),	-- Prototype Gravitational Reduction Slippers (QI!)
 				},
@@ -743,7 +743,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["sourceQuests"] = { 48069 },	-- The Wrench Calls
 				["provider"] = { "n", 93520 },	-- Didi the Wrench
 				["coord"] = { 38.8, 25.6, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					r(247744),	-- Wormhole Generator: Argus (RECIPE!)
 					i(151926),	-- Ionized Geographical Recorder (QI!)
 				},
@@ -776,7 +776,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 77.4, 14.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167041),	-- Coiled Current Culler (QI!)
 					i(167037),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 				},
@@ -787,7 +787,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 45.1, 40.6, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(167041),	-- Coiled Current Culler (QI!)
 					i(167037),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 				},
@@ -814,7 +814,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 145131 },	-- Dataguru Gryzix
 				["coord"] = { 26.3, 47.3, VOLDUN },
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(164770),	-- Faithless Lightning Rod (QI!)
 				},
 			}),
@@ -845,7 +845,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 145131 },	-- Dataguru Gryzix
 				["coord"] = { 26.3, 47.3, VOLDUN },
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(166881),	-- Gryzix's Toolbox (QI!)
 				},
 			}),
@@ -855,7 +855,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 26.3, 47.3, VOLDUN },
 				["races"] = ALLIANCE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(164919),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 					i(166886),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 					i(164773),	-- Gryzix's Decoder (QI!)
@@ -867,7 +867,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 26.3, 47.3, VOLDUN },
 				["races"] = HORDE_ONLY,
 				["timeline"] = { ADDED_8_1_5 },
-				["g"] = {
+				["groups"] = {
 					i(164919),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 					i(166886),	-- Encrypted Ub3r-Spanner Schematic (QI!)
 					i(164773),	-- Gryzix's Decoder (QI!)
@@ -878,7 +878,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 136059 },	-- Layla Evenkeel
 				["coord"] = { 77.4, 14.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(282975),	-- The Ub3r-Spanner (RECIPE!)
 					r(283399),	-- Ub3r-Module: Short-Fused Bomb Bots (RECIPE!)
 					r(283403),	-- Ub3r-Module: Ub3r-Improved Target Dummy (RECIPE!)
@@ -890,7 +890,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 131840 },	-- Shuga Blastcaps
 				["coord"] = { 45.1, 40.6, DAZARALOR },
 				["races"] = HORDE_ONLY,
-				["g"] = {
+				["groups"] = {
 					r(282975),	-- The Ub3r-Spanner (RECIPE!)
 					r(283399),	-- Ub3r-Module: Short-Fused Bomb Bots (RECIPE!)
 					r(283403),	-- Ub3r-Module: Ub3r-Improved Target Dummy (RECIPE!)
@@ -919,7 +919,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "You can collect additional portal options.\nRANDOM LOCATION = Carelessly leap into the portal...\nTHE WAKING SHORES = Pray return to the Waking Shores.\nOHN’AHRAN PLAINS = Clomp your hooves, imaginary or otherwise...\nTHE AZURE SPAN = Ensure your arrival at the Azure Span...\nTHALDRASZUS = Audibly spell out 'Thaldraszus'...\nTHE FORBIDDEN REACH = Disregard the word 'Forbidden' and venture...\nZARALEK CAVERN = Flip the portal horizontally...\nEMERALD DREAM = Close your eyes and snore loudly.",
 				-- Object IDs and quest IDs are put at random to each other.
 				-- There seems to be no way of getting the correct object ID for the Deactivated Signal Transmitter in game. (does not matter for ATT purpose)
-				["g"] = {
+				["groups"] = {
 					-- The Waking Shores
 					o(381964, {	-- Deactivated Signal Transmitter
 						["questID"] = 70573,
@@ -1026,7 +1026,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 51.8, 33.0, OHNAHRAN_PLAINS },
 				["cost"] = {{ "i", 191784, 1 }},	-- 1x Dragon Shard of Knowledge
 				["isRepeatable"] = true,
-				["g"] = {
+				["groups"] = {
 					i(190456),	-- Artisan's Mettle
 				},
 			}),
@@ -1034,7 +1034,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		n(QUESTS, sharedData({
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				i(198611),	-- Engineering Details
 			},
 		},{
@@ -1043,7 +1043,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191001 },	-- Gnoklin Quirkcoil
 				["coord"] = { 36.8, 62.8, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(194437),	-- Primal Ritual (QI!)
 				},
 			}),
@@ -1061,7 +1061,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(201816),	-- Springy Horns (QI!)
 				},
 			}),
@@ -1069,7 +1069,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "Requires 25 Skill.",
 				["provider"] = { "n", 191000 },	-- Dothenos
 				["coord"] = { 36.6, 62.6, VALDRAKKEN },
-				["g"] = {
+				["groups"] = {
 					i(193836),	-- Stolen Tools (QI!)
 				},
 			}),
@@ -1117,14 +1117,14 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["provider"] = { "n", 210162 },	-- Magnolia Oaken
 				["coord"] = { 36.8, 63.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_0 },
-				["g"] = {
+				["groups"] = {
 					i(209017),	-- Teleportal Creator (QI!)
 				},
 			}),
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", DF_ENGINEERING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", DF_ENGINEERING_KNOWLEDGE, 1 }} }, {
 				r(382345),	-- Assorted Safety Fuses
 				r(382408),	-- Cartomancy Cannon
 				r(382368),	-- Centralized Precipitation Emitter
@@ -1152,7 +1152,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 57.7, 73.9, ZARALEK_CAVERN },
 				["questID"] = 75430,
-				["g"] = {
+				["groups"] = {
 					i(204850),	-- Handful of Khaz'gorite Bolts
 					i(204851),	-- Oblong Brass Sculpture
 				},
@@ -1161,7 +1161,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "Interact with the Note next to the rocket, then gather the items in the surrounding area. You may need to leave and return to the area after gathering all objects for the treasure to be clickable after that.",
 				["questID"] = 70270,
 				["coord"] = { 56.0, 44.9, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(201014),	-- Boomthyr Rocket
 					i(198816),	-- Aerospace Grace Draconium
 					i(198815),	-- Ash
@@ -1173,7 +1173,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 37.8, 58.8, ZARALEK_CAVERN },
 				["questID"] = 75186,
-				["g"] = {
+				["groups"] = {
 					i(204475),	-- Busted Wyrmhole Generator
 					i(205954),	-- Three-Dimensional Compass (CI!)
 				},
@@ -1182,7 +1182,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 50.5, 47.9, ZARALEK_CAVERN },
 				["questID"] = 75184,
-				["g"] = {
+				["groups"] = {
 					i(204471),	-- Defective Survival Pack
 				},
 			})),
@@ -1190,7 +1190,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "Click on the three exposed items to make the treasure appear.",
 				["questID"] = 70275,
 				["coord"] = { 49.1, 77.5, THE_WAKING_SHORES },
-				["g"] = {
+				["groups"] = {
 					i(198789),	-- Intact Coil Capacitor
 				},
 			}),
@@ -1198,7 +1198,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 49.4, 79.0, ZARALEK_CAVERN },
 				["questID"] = 75431,
-				["g"] = {
+				["groups"] = {
 					i(204853),	-- Discarded Dracothyst Drill
 				},
 			})),
@@ -1206,7 +1206,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 39.5, 52.2, EMERALD_DREAM },
 				["questID"] = 78278,
-				["g"] = {
+				["groups"] = {
 					i(210193),	-- Experimental Dreamcatcher
 				},
 			})),
@@ -1214,7 +1214,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 48.2, 27.9, ZARALEK_CAVERN },
 				["questID"] = 75183,
-				["g"] = {
+				["groups"] = {
 					i(204470),	-- Haphazardly Discarded Bomb
 				},
 			})),
@@ -1222,7 +1222,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 49.9, 59.3, ZARALEK_CAVERN },
 				["questID"] = 75188,
-				["g"] = {
+				["groups"] = {
 					i(204480),	-- Inconspicuous Data Miner
 				},
 			})),
@@ -1231,7 +1231,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["description"] = "In cavern.",
 				["coord"] = { 49.4, 69.2, 2254 },
 				["questID"] = 78279,
-				["g"] = {
+				["groups"] = {
 					i(210194),	-- Insomniotron
 				},
 			})),
@@ -1239,7 +1239,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 48.5, 48.6, ZARALEK_CAVERN },
 				["questID"] = 75180,
-				["g"] = {
+				["groups"] = {
 					i(204469),	-- Misplaced Aberrus Outflow Blueprints
 				},
 			})),
@@ -1247,7 +1247,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				["coord"] = { 48.1, 16.6, ZARALEK_CAVERN },
 				["questID"] = 75433,
-				["g"] = {
+				["groups"] = {
 					i(204855),	-- Overclocked Determination Core
 				},
 			})),
@@ -1255,7 +1255,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 62.6, 36.2, EMERALD_DREAM },
 				["questID"] = 78281,
-				["g"] = {
+				["groups"] = {
 					i(210197, {	-- Unhatched Battery
 						i(210198),	-- Depleted Battery
 					}),
@@ -1264,7 +1264,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(DF_ENGINEERING_KNOWLEDGE),
 			},
 		},{
@@ -1302,7 +1302,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		n(QUESTS, sharedData({
 			["isWeekly"] = true,
 			["maxReputation"] = { FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, 5 },
-			["g"] = {
+			["groups"] = {
 				i(228775),	-- Algari Engineer's Notepad
 			},
 		},{
@@ -1313,7 +1313,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		})),
 		filter(RECIPES, {
 			["description"] = "These are learned by specialization.",
-			["g"] = sharedData({ ["cost"] = {{ "c", TWW_ENGINEERING_KNOWLEDGE, 1 }} }, {
+			["groups"] = sharedData({ ["cost"] = {{ "c", TWW_ENGINEERING_KNOWLEDGE, 1 }} }, {
 				r(447356),	-- Adjustable Cogwheel
 				r(447333),	-- Aqirite Fueled Samophlange
 				r(447374),	-- Box o' Booms
@@ -1327,63 +1327,63 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			o(455996, {	-- Arathi Safety Gloves
 				["coord"] = { 41.5, 48.9, HALLOWFALL },
 				["questID"] = 83871,
-				["g"] = {
+				["groups"] = {
 					i(226297),	-- Arathi Safety Gloves
 				},
 			}),
 			o(456000, {	-- Dornogal Spectacles
 				["coord"] = { 64.7, 52.7, DORNOGAL },
 				["questID"] = 83867,
-				["g"] = {
+				["groups"] = {
 					i(226293),	-- Dornogal Spectacles
 				},
 			}),
 			o(455998, {	-- Earthen Construct Blueprints
 				["coord"] = { 64.5, 58.8, THE_RINGING_DEEPS },
 				["questID"] = 83869,
-				["g"] = {
+				["groups"] = {
 					i(226295),	-- Earthen Construct Blueprints
 				},
 			}),
 			o(455994, {	-- Emptied Venom Canister
 				["coord"] = { 63.1, 11.1, NERUBAR },
 				["questID"] = 83873,
-				["g"] = {
+				["groups"] = {
 					i(226299),	-- Emptied Venom Canister
 				},
 			}),
 			o(455997, {	-- Holy Firework Dud
 				["coord"] = { 46.3, 61.3, HALLOWFALL },
 				["questID"] = 83870,
-				["g"] = {
+				["groups"] = {
 					i(226296),	-- Holy Firework Dud
 				},
 			}),
 			o(455999, {	-- Inert Mining Bomb
 				["coord"] = { 42.6, 27.3, THE_RINGING_DEEPS },
 				["questID"] = 83868,
-				["g"] = {
+				["groups"] = {
 					i(226294),	-- Inert Mining Bomb
 				},
 			}),
 			o(455995, {	-- Puppeted Mechanical Spider
 				["coord"] = { 56.8, 38.6, AZJ_KAHET },
 				["questID"] = 83872,
-				["g"] = {
+				["groups"] = {
 					i(226298),	-- Puppeted Mechanical Spider
 				},
 			}),
 			o(456001, {	-- Rock Engineer's Wrench
 				["coord"] = { 61.3, 69.6, ISLE_OF_DORN },
 				["questID"] = 83866,
-				["g"] = {
+				["groups"] = {
 					i(226292),	-- Rock Engineer's Wrench
 				},
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({
 			["isWeekly"] = true,
-			["g"] = {
+			["groups"] = {
 				currency(TWW_ENGINEERING_KNOWLEDGE),
 			},
 		},{
