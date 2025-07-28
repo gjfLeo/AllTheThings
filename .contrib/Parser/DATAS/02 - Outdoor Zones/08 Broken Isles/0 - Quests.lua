@@ -10,49 +10,9 @@ root(ROOTS.Zones, {
 					ach(11427, {	-- No Shellfish Endeavor (automated)
 						i(143660),	-- Mrgrglhjorn (TOY!)
 					}),
-					ach(10877, {	-- Pillars of Creation
-						crit(31588, {	-- Aegis of Aggramar
-							["sourceQuest"] = 43349,	-- The Aegis of Aggramar
-						}),
-						crit(31589, {	-- Tidestone of Golganneth
-							["sourceQuest"] = 42213,	-- Eye of Azshara: The Tidestone of Golganneth
-						}),
-						crit(36177, {	-- Eye of Aman'Thul
-							["sourceQuest"] = 45420,	-- The Nighthold: The Eye of Aman'Thul
-						}),
-						crit(31590, {	-- Hammer of Khaz'goroth
-							["sourceQuest"] = 42454,	-- The Hammer of Khaz'goroth
-						}),
-						crit(31591, {	-- Tears of Elune
-							["sourceQuest"] = 40890,	-- The Tears of Elune
-						}),
-					}),
-					ach(11186, {	-- Tehd & Marius' Excellent Adventure
-						crit(32400, {		-- Azsuna
-							["_quests"] = {
-								42367,	-- Arkethrax
-							},
-						}),
-						crit(32401, {		-- Azsuna
-							["_quests"] = {
-								42069,	-- Felwing
-							},
-						}),
-						crit(32402, {		-- Azsuna
-							["_quests"] = {
-								38352,	-- Kazrok
-							},
-						}),
-						crit(32403, {		-- Azsuna
-							["_quests"] = {
-								38212,	-- Brogozog
-							},
-						}),
-						crit(32404),		-- Val'sharah
-						crit(32405),		-- Highmountain
-						crit(32406),		-- Stormheim
-					}),
-					ach(11189),		-- Variety is the Spice of Life
+					ach(10877),	-- Pillars of Creation (automated)
+					ach(11186),	-- Tehd & Marius' Excellent Adventure (automated)
+					ach(11189),	-- Variety is the Spice of Life
 				}),
 				header(HEADERS.Spell, 41341, {	-- Balance of Power
 					["description"] = "The only known requirement to start this questline is the completion of your class campaign.",
