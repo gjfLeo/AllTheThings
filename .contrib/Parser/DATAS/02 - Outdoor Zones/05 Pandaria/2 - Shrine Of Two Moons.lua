@@ -13,12 +13,11 @@ root(ROOTS.Zones, m(PANDARIA, {
 			n(QUESTS, sharedData({
 				["races"] = HORDE_ONLY,
 			},{
-				-- q(31511, {	-- A Witness to History
-				-- }),
+				-- q(31511),	-- A Witness to History
 				q(31528, {	-- A Worthy Challenge: Darkmaster Gandling
 					["isDaily"] = true,
-					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 					["u"] = REMOVED_FROM_GAME,
+					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31526, {	-- A Worthy Challenge: Durand
 					["isDaily"] = true,
@@ -69,10 +68,8 @@ root(ROOTS.Zones, m(PANDARIA, {
 					["timeline"] = { REMOVED_8_0_1 },	-- no longer available due to the profession level changes
 					["requireSkill"] = BLACKSMITHING,
 				}),
-				-- q(31391, {	-- The Klaxxi
-				-- }),
-				-- q(31388, {	-- The Shado-Pan Offensive
-				-- }),
+				-- q(31391),	-- The Klaxxi
+				-- q(31388),	-- The Shado-Pan Offensive
 			})),
 			n(VENDORS, sharedData({
 				["races"] = HORDE_ONLY,
