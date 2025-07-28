@@ -1762,42 +1762,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						},
 						["races"] = HORDE_ONLY,
 					}),
-							57094,	-- The Price of Victory
-							55782,	-- Stay of Execution (Sylvanas Version)
-						},
-						["altQuests"] = { 57095 },	-- Old Soldier
-					--	["provider"] = { "n", 155789 },	-- Lor'themar Theron
-					--	["coord"] = { 34.9, 60.1, 1535 },
-						["races"] = HORDE_ONLY,
-						["maps"] = {
-							1534,	-- Orgrimmar (Scenario)
-							1535,	-- Durotar (Scenario)
-						},
-					}),
-							57094,	-- The Price of Victory
-							55782,	-- Stay of Execution (Sylvanas Version)
-						},
-						["altQuests"] = { 57095 },	-- Old Soldier
-					--	["provider"] = { "n", 155789 },	-- Lor'themar Theron
-					--	["coord"] = { 34.9, 60.1, 1535 },
-						["races"] = HORDE_ONLY,
-						["maps"] = {
-							1534,	-- Orgrimmar (Scenario)
-							1535,	-- Durotar (Scenario)
-						},
-					}),
-							57094,	-- The Price of Victory
-							55782,	-- Stay of Execution (Sylvanas Version)
-						},
-						["altQuests"] = { 57095 },	-- Old Soldier
-					--	["provider"] = { "n", 155789 },	-- Lor'themar Theron
-					--	["coord"] = { 34.9, 60.1, 1535 },
-						["races"] = HORDE_ONLY,
-						["maps"] = {
-							1534,	-- Orgrimmar (Scenario)
-							1535,	-- Durotar (Scenario)
-						},
-					}),
 					]]--
 				})),
 			},
