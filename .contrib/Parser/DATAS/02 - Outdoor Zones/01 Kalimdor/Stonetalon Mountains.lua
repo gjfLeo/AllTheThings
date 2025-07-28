@@ -2364,7 +2364,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						o(19595, {	-- Gatekeeper's Hold
 							["coord"] = { 30.0, 15.5, STONETALON_MOUNTAINS },
-							["group"] = { i(5687) },	-- Gatekeeper's Key
+							["groups"] = { i(5687) },	-- Gatekeeper's Key
 						}),
 						i(6671, {	-- Juggernaut Leggings
 							["timeline"] = { REMOVED_4_0_3 },

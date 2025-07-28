@@ -396,7 +396,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				n(16739, {	-- Caregiver Breel <Innkeeper>
 					["coord"] = { 59.5, 18.76, THE_EXODAR },	-- The Exobar
 					["races"] = ALLIANCE_ONLY,
-					["group"] = {
+					["groups"] = {
 						i(1179),	-- Ice Cold Milk
 					},
 				}),

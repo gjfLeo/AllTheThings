@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {
 				["coord"] = { 59.6, 61.8, THALDRASZUS },
 				["questID"] = 74565,
-				["group"] = {
+				["groups"] = {
 					bo(74449, true),
 					i(203677),	-- Watcher's 'Neck' Ring
 				},

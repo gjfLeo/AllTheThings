@@ -1506,7 +1506,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 67.2, 15.8, DARNASSUS },	-- Craftsmen's Terrace
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
-					["group"] = {
+					["groups"] = {
 						i(1179),	-- Ice Cold Milk
 					},
 				}),

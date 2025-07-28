@@ -319,7 +319,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					["maps"] = CAPITAL_GARDENS_MAPS,
 					["classes"] = { WARLOCK },
 					["lvl"] = 60,
-					["group"] = {
+					["groups"] = {
 						ach(2357, {	-- Dreadsteed of Xoroth
 							["sourceQuest"] = 7631,	-- Dreadsteed of Xoroth
 							["timeline"] = { REMOVED_4_0_3 },

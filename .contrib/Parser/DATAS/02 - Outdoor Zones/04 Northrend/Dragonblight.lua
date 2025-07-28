@@ -2962,7 +2962,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 93, 26, DRAGONBLIGHT },
 						["cost"] = {{ "i", 45000, 4 }},	-- Winter Hyacinth
 						["cr"] = 33273,	-- Maiden of Drak'Mar
-						["group"] = { i(44978) },	-- Blade of Drak'Mar
+						["groups"] = { i(44978) },	-- Blade of Drak'Mar
 					})),
 				}),
 				n(VENDORS, {

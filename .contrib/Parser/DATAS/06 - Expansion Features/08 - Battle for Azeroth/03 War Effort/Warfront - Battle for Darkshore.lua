@@ -15,7 +15,7 @@ root(ROOTS.ExpansionFeatures,
 					n(WORLD_BOSSES, {
 						["isRaid"] = true,
 						["modID"] = 3,
-						["group"] = {
+						["groups"] = {
 							e(2345, {	-- Ivus the Decayed [Alliance Only]
 								["creatureID"] = 148295,	-- Ivus the Decayed
 								["questID"] = 54895,	-- Ivus the Decayed (WQ)

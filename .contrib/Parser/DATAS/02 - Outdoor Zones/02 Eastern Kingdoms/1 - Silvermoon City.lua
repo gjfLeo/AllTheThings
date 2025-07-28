@@ -624,7 +624,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				n(17630, {	-- Innkeeper Jovia <Innkeeper>
 					["coord"] = { 67.85, 72.9, SILVERMOON_CITY },	-- Wayfarer's Rest
 					["races"] = HORDE_ONLY,
-					["group"] = {
+					["groups"] = {
 						i(1179),	-- Ice Cold Milk
 					},
 				}),

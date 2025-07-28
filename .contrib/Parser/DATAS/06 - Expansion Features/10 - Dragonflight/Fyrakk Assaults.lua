@@ -141,7 +141,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					-- ["maps"] = { THE_AZURE_SPAN },
 					["isWeekly"] = IGNORED_VALUE,	-- One-Time
 					["_drop"] = { "g" },	-- Drop Crest
-					["group"] = {
+					["groups"] = {
 						i(201922, {	-- Iskaara Tuskarr Insignia [Epic 500]
 						}),
 					},
