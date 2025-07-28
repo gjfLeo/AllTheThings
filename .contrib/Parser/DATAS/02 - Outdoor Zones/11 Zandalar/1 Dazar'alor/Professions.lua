@@ -135,8 +135,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 				}),
 				q(52217, {	-- Loa Fit For A King
 					["provider"] = { "n", 122699 },	-- Rana the Cutta
-					["coord"] = { 43.8, 34.7, DAZARALOR },
 					["sourceQuest"] = 52216,	-- Hexoskeleton
+					["coord"] = { 43.8, 34.7, DAZARALOR },
 					["description"] = "Requires 150 Zandalari Skinning",
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -148,8 +148,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 				q(51575, {	-- Lost But Not Forgotten
 					["provider"] = { "n", 122699 },	-- Rana the Cutta
 					["coord"] = { 43.8, 34.7, DAZARALOR },
-					["requireSkill"] = SKINNING,
 					["description"] = "Requires 50 Zandalari Skinning",
+					["requireSkill"] = SKINNING,
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						recipe(257147),	-- Skinning Technique: Leather Gathering (Rank 2)
@@ -170,8 +170,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 				}),
 				q(52215, {	-- A Thicker Thread
 					["provider"] = { "n", 122699 },	-- Rana the Cutta
-					["coord"] = { 43.8, 34.7, DAZARALOR },
 					["sourceQuest"] = 52214,	-- Ceremonial Vestments
+					["coord"] = { 43.8, 34.7, DAZARALOR },
 					["description"] = "Requires 150 Zandalari Skinning",
 					["requireSkill"] = SKINNING,
 					["races"] = HORDE_ONLY,

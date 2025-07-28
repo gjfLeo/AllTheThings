@@ -430,82 +430,82 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(51002, {	-- Work Order: Akunda's Bite
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = HERBALISM,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52427, {	-- Work Order: Battle Flag: Rallying Swiftness
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = TAILORING,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162445),	-- Pattern: Battle Flag: Rallying Swiftness [Rank 3] (RECIPE!)
 				},
 			}),
 			q(51008, {	-- Work Order: Blood-Stained Bone
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52419, {	-- Work Order: Coarse Leather Barding
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = LEATHERWORKING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52397, {	-- Work Order: Contract: Voldunai
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = INSCRIPTION,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162370),	-- Technique: Contract: Voldunai [Rank 3] (RECIPE!)
 				},
 			}),
 			q(52362, {	-- Work Order: Enchant Weapon - Quick Navigation
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = ENCHANTING,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162314),	-- Formula: Enchant Weapon - Quick Navigation [Rank 3] (RECIPE!)
 				},
 			}),
 			q(52371, {	-- Work Order: F.R.I.E.D.
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = ENGINEERING,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162331),	-- Schematic: F.R.I.E.D. [Rank 3] (RECIPE!)
 				},
 			}),
 			q(52413, {	-- Work Order: Golden Beryl
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = JEWELCRAFTING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52408, {	-- Work Order: Kyanite
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = JEWELCRAFTING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52338, {	-- Work Order: Potion of Concealment
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = ALCHEMY,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162260),	-- Recipe: Potion of Concealment [Rank 3] (RECIPE!)
 				},
 			}),
 			q(52412, {	-- Work Order: Rubelite
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = JEWELCRAFTING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(51007, {	-- Work Order: Storm Silver Ore
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = MINING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(51011, {	-- Work Order: Tempest Hide
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = SKINNING,
+				["races"] = HORDE_ONLY,
 			}),
 			q(52370, {	-- Work Order: Thermo-Accelerated Plague Spreader
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = ENGINEERING,
+				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(162736),	-- Schematic: Thermo-Accelerated Plague Spreader [Rank 3] (RECIPE!)
 				},
 			}),
 			q(51003, {	-- Work Order: Winter's Kiss
-				["races"] = HORDE_ONLY,
 				["requireSkill"] = HERBALISM,
+				["races"] = HORDE_ONLY,
 			}),
 			q(51783, {	-- Zem'lan Rescue
 				["races"] = ALLIANCE_ONLY,
