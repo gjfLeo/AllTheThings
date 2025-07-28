@@ -126,8 +126,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
 					["description"] = "Requires 50 Kul Tiran Skinning.",
-					["races"] = ALLIANCE_ONLY,
 					["requireSkill"] = SKINNING,
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						recipe(257153),	-- Skinning Technique: Bone Gathering (Rank 2)
 						i(161427),	-- Immaculate Quill (QI!)
@@ -137,8 +137,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
 					["description"] = "Requires 150 Kul Tiran Skinning.",
-					["races"] = ALLIANCE_ONLY,
 					["requireSkill"] = SKINNING,
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						recipe(257154),	-- Skinning Technique: Bone Gathering (Rank 3)
 						i(161429),	-- Rezan's Bone Splinter (QI!)
@@ -149,8 +149,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
 					["description"] = "Requires 50 Kul Tiran Skinning.",
-					["races"] = ALLIANCE_ONLY,
 					["requireSkill"] = SKINNING,
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						recipe(257147),	-- Skinning Technique: Leather Gathering (Rank 2)
 						i(161423),	-- Brinepinch's "Head" (QI!)
@@ -161,8 +161,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
 					["description"] = "Requires 50 Kul Tiran Skinning.",
-					["races"] = ALLIANCE_ONLY,
 					["requireSkill"] = SKINNING,
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						recipe(257150),	-- Skinning Technique: Scale Gathering (Rank 2)
 						i(161425),	-- Pristine Saurlisk Skin (QI!)
@@ -172,8 +172,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
 					["description"] = "Requires 150 Kul Tiran Skinning.",
-					["races"] = ALLIANCE_ONLY,
 					["requireSkill"] = SKINNING,
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						recipe(257151),	-- Skinning Technique: Scale Gathering (Rank 3)
 						i(161426),	-- Sulphur Speckled Turtle Skin (QI!)

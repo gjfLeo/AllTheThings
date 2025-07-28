@@ -44,12 +44,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(53371, {	-- Let's Bee Friends
-				["sourceQuests"] = { 53347 },	-- Bumbles the Bee
-				["description"] = "Complete this daily quest 7 times to receive the Bumbles pet in your mailbox.",
 				["provider"] = { "n", 132647 },	-- Ancel Mildenhall
-				["isDaily"] = true,
+				["sourceQuests"] = { 53347 },	-- Bumbles the Bee
 				["coord"] = { 71.0, 69.2, STORMSONG_VALLEY },
+				["description"] = "Complete this daily quest 7 times to receive the Bumbles pet in your mailbox.",
 				["races"] = ALLIANCE_ONLY,
+				["isDaily"] = true,
 				["groups"] = {
 					ach(13062, {	-- Let's Bee Friends
 						["races"] = ALLIANCE_ONLY,
