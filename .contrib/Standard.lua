@@ -98,12 +98,13 @@ q(questID, {	-- Quest Name
 	["races"] = { raceID },
 	["lockCriteria"] = { criteriaID },
 	["customCollect"] = { customID },
+	["isBreadcrumb"] = true,
+	["isWorldQuest"] = true,
 	["repeatable"] = true,
 	["isYearly"] = true,
 	["isMonthly"] = true,
 	["isWeekly"] = true,
 	["isDaily"] = true,
-	["isBreadcrumb"] = true,
 	["groups"] = {
 		i(itemID),	-- Item Name
 	},
