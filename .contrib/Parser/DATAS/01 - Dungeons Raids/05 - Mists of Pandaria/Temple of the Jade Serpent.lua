@@ -8,12 +8,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			429,	-- Temple of the Jade Serpent
 			430,	-- The Scrollkeeper's Sanctum
 		},
-		["g"] = {
+		["groups"] = {
 			n(QUESTS, {
 				q(31356, {	-- Deep Doubts, Deep Wisdom
 					["qg"] = 64399,	-- Master Windstrong
 					["coord"] = { 35.4, 44.4, 429 },
-					["g"] = {
+					["groups"] = {
 						objective(1, {	-- 0/1 Sha of Doubt slain
 							["provider"] = { "n", 56439 },	-- Sha of Doubt
 						}),
@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				q(31355, {	-- Restoring Jade's Purity
 					["qg"] = 60578,	-- Priestess Summerpetal
 					["coord"] = { 35.4, 44.4, 429 },
-					["g"] = {
+					["groups"] = {
 						objective(1, {	-- 0/1 Wise Mari assisted
 							["provider"] = { "n", 56448 },	-- Wise Mari
 						}),
@@ -59,7 +59,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(335, {	-- Sha of Doubt
 					["crs"] = { 56439 },	-- Sha of Doubt
-					["g"] = {
+					["groups"] = {
 						ach(6757),	-- Temple of the Jade Serpent
 					},
 				}),
@@ -67,7 +67,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				e(672, {	-- Wise Mari
 					["crs"] = { 56448 },	-- Wise Mari
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144017, {	-- Waterburst Helm
 							["timeline"] = { ADDED_7_1_5 },
@@ -99,7 +99,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(664, {	-- Lorewalker Stonestep
 					["crs"] = { 56843 },	-- Lorewalker Stonestep
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144081, {	-- Girdle of Endemic Anger
 							["timeline"] = { ADDED_7_1_5 },
@@ -131,7 +131,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(658, {	-- Liu Flameheart
 					["crs"] = { 56732 },	-- Liu Flameheart
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144090, {	-- Firebelcher Hand Cannon
 							["timeline"] = { ADDED_7_1_5 },
@@ -163,7 +163,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(335, {	-- Sha of Doubt
 					["crs"] = { 56439 },	-- Sha of Doubt
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144216, {	-- Je'lyu, Spirit of the Serpent
 							["timeline"] = { ADDED_7_1_5 },
@@ -224,7 +224,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				e(672, {	-- Wise Mari
 					["crs"] = { 56448 },	-- Wise Mari
-					["g"] = {
+					["groups"] = {
 						-- Available
 						ach(6460),	-- Hydrophobia
 						i(144017, {	-- Waterburst Helm
@@ -263,7 +263,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(664, {	-- Lorewalker Stonestep
 					["crs"] = { 56843 },	-- Lorewalker Stonestep
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144081, {	-- Girdle of Endemic Anger
 							["timeline"] = { ADDED_7_1_5 },
@@ -301,7 +301,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(658, {	-- Liu Flameheart
 					["crs"] = { 56732 },	-- Liu Flameheart
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144090, {	-- Firebelcher Hand Cannon
 							["timeline"] = { ADDED_7_1_5 },
@@ -339,7 +339,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(335, {	-- Sha of Doubt
 					["crs"] = { 56439 },	-- Sha of Doubt
-					["g"] = {
+					["groups"] = {
 						-- Available
 						ach(6475),	-- Cleaning Up
 						ach(6758),	-- Heroic: Temple of the Jade Serpent

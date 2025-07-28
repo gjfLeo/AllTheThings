@@ -4,7 +4,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
-		["g"] = sharedData({
+		["groups"] = sharedData({
 			["isRaid"] = true,
 			["isWeekly"] = true,
 		},{
@@ -18,7 +18,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					516,	-- Scenario [Phase 1]
 					517,	-- Lightning Vein Mine
 				},
-				["g"] = {
+				["groups"] = {
 					ach(8137),	-- Nalak Guild Run
 					ach(8028),	-- Praise the Sun!
 					-- Mounts
@@ -393,7 +393,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["questID"] = 32519,
 				["coord"] = { 49.9, 56.8, ISLE_OF_GIANTS },
 				["crs"] = { 69161 },	-- Oondasta
-				["g"] = {
+				["groups"] = {
 					ach(8123),	-- Millions of Years of Evolution vs. My Fist
 					ach(8138),	-- Oondasta Guild Run
 					-- Mounts
@@ -497,7 +497,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					555,	-- Cavern of Lost Spirits
 				},
 				["crs"] = { 72057 },	-- Ordos, Fire-God of the Yaungol
-				["g"] = {
+				["groups"] = {
 					ach(8533),	-- Ordos
 					ach(8790),	-- Ordos Guild Run
 					-- Head
@@ -568,7 +568,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					-- Consolation Prize
 					i(104273, {	-- Flame-Scarred Cache of Offerings
 						["description"] = "Awarded if you fail your loot roll. Usually contains gold or crafting materials. May follow your actual spec instead of loot spec, please provide more information to ATT Discord.",
-						["g"] = {
+						["groups"] = {
 						--	NOTE FOR CONTRIBS: Only add items you receive to this if they are only currently obtainable from this container. The old listings on WoWHead may be inaccurate or out of date.
 						--	it's likely that the commented items drop also.  if they get confirmed, uncomment them and adjust the unobtainable filter here + in Siege of Orgrimmar
 							i(105838),	-- Aeth's Swiftcinder Cloak Normal
@@ -597,7 +597,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					377,	-- Cavern of Endless Echoes
 				},
 				["crs"] = { 62346 },	-- Galleon
-				["g"] = {
+				["groups"] = {
 					ach(6517),	-- Extinction Event
 					ach(6708),	-- Salyis's Warband Guild Run
 					-- Mounts
@@ -705,7 +705,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					434,	-- The Ancient Passage
 				},
 				["crs"] = { 60491 },	-- Sha of Anger
-				["g"] = {
+				["groups"] = {
 					ach(6480),	-- Settle Down, Bro
 					ach(6709),	-- Sha of Anger Guild Run
 					-- Mounts and Quest Items!
@@ -977,7 +977,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					71953,	-- Xuen, The White Tiger
 					71955,	-- Yu'lon, The Jade Serpent
 				},
-				["g"] = {
+				["groups"] = {
 					ach(8535, {	-- Celestial Challenge
 						crit(23743, {	-- Chi-Ji slain
 							["_encounter"] =  { 857, 8535 },

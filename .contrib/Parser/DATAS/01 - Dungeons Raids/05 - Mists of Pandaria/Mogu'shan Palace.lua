@@ -12,12 +12,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			1546,	-- Mogu'shan Palace (reported a lot on Remix)
 			-- #endif
 		},
-		["g"] = {
+		["groups"] = {
 			n(QUESTS, {
 				q(31360, {	-- A New Lesson for the Master
 					["provider"] = { "n", 64432 },	-- Sinan the Dreamer
 					["coord"] = { 38.8, 81.8, 455 },
-					["g"] = {
+					["groups"] = {
 						objective(1, {	-- 0/1 Xin the Weaponmaster slain
 							["provider"] = { "n", 61398 },	-- Xin the Weaponmaster
 						}),
@@ -35,7 +35,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				q(31357, {	-- Relics of the Four Kings
 					["provider"] = { "n", 64432 },	-- Sinan the Dreamer
 					["coord"] = { 38.8, 81.8, 455 },
-					["g"] = {
+					["groups"] = {
 						objective(1, {	-- 0/1 Lantern of the Sorcerer King
 							["providers"] = {
 								{ "i",  86476 },	-- Lantern of the Sorcerer King
@@ -93,7 +93,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
 				e(698, {	-- Xin the Weaponmaster
 					["crs"] = { 61398 },	-- Xin the Weaponmaster
-					["g"] = {
+					["groups"] = {
 						ach(6755),	-- Mogu'shan Palace
 					},
 				}),
@@ -105,7 +105,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						61442,	-- Kuai the Brute
 						61444,	-- Ming the Cunning
 					},
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144020, {	-- Crest of the Clan Lords
 							["timeline"] = { ADDED_7_1_5 },
@@ -143,7 +143,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(690, {	-- Gekkan
 					["crs"] = { 61243 },	-- Gekkan
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144148, {	-- Claws of Gekkan
 							["timeline"] = { ADDED_7_1_5 },
@@ -181,7 +181,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(698, {	-- Xin the Weaponmaster
 					["crs"] = { 61398 },	-- Xin the Weaponmaster
-					["g"] = {
+					["groups"] = {
 						-- Avalable
 						i(144214, {	-- Mogu'Dar, Blade of the Thousand Slaves
 							["timeline"] = { ADDED_7_1_5 },
@@ -261,7 +261,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						61442,	-- Kuai the Brute
 						61444,	-- Ming the Cunning
 					},
-					["g"] = {
+					["groups"] = {
 						-- Available
 						i(144020, {	-- Crest of the Clan Lords
 							["timeline"] = { ADDED_7_1_5 },
@@ -299,7 +299,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(690, {	-- Gekkan
 					["crs"] = { 61243 },	-- Gekkan
-					["g"] = {
+					["groups"] = {
 						-- Available
 						ach(6478),	-- Glintrok N' Roll
 						i(144148, {	-- Claws of Gekkan
@@ -338,7 +338,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 				e(698, {	-- Xin the Weaponmaster
 					["crs"] = { 61398 },	-- Xin the Weaponmaster
-					["g"] = {
+					["groups"] = {
 						-- Available
 						ach(6756),	-- Heroic: Mogu'shan Palace
 						ach(6766),	-- Heroic: Mogu'shan Palace Guild Run
