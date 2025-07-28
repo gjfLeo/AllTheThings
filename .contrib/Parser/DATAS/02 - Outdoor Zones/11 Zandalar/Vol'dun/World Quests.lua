@@ -81,10 +81,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(50848, {	-- Brgl-Lrgl the Basher
 				n(134643, {	-- Brgl-Lrgl the Basher
-					["description"] = "This rare is only up when its associated world quest is active.",
-					["repeatable"] = true,
 					["questID"] = 50663,
 					["coord"] = { 29.78, 46.47, VOLDUN },
+					["description"] = "This rare is only up when its associated world quest is active.",
+					["repeatable"] = true,
 					["groups"] = {
 						i(161044),	-- Tideflat Brute's Greatbelt
 					},
@@ -154,9 +154,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(51924),	-- Faithless Follow-Through
 			q(51156, {	-- Fangcaller Xorreth
 				n(136323, {	-- Fangcaller Xorreth
-					["description"] = "This rare is only up when its associated world quest is active.",
 					["questID"] = 51065,
 					["coord"] = { 53.60, 35.01, VOLDUN },
+					["description"] = "This rare is only up when its associated world quest is active.",
 					["groups"] = {
 						i(162612),	-- Cobra Priest's Headdress
 					},
@@ -182,12 +182,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(51157, {	-- Golanar
 				n(129027, {	-- Golanar
-					["description"] = "This rare is only up when its associated world quest is active.",
 					["questID"] = 50362,
 					["coords"] = {
 						{ 57.6, 6.40, VOLDUN },
 						{ 59.6, 8.80, VOLDUN },
 					},
+					["description"] = "This rare is only up when its associated world quest is active.",
 					["groups"] = {
 						i(160972),	-- Herculean Golden Sword
 					},
@@ -248,10 +248,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(50851, {	-- Mor'fani the Exile
 				n(134694, {	-- Mor'fani the Exile
-					["description"] = "This rare is only up when its associated world quest is active.",
-					["repeatable"] = true,
 					["questID"] = 50666,
 					["coord"] = { 37.41, 88.71, VOLDUN },
+					["description"] = "This rare is only up when its associated world quest is active.",
+					["repeatable"] = true,
 					["groups"] = {
 						i(162616),	-- Master Dinomancer's Tunic
 					},
