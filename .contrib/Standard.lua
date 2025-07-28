@@ -51,7 +51,7 @@ q(questID, {	-- Quest Name
 	["sourceQuests"] = { questID },	-- Quest Name
 	["provider"] = { "n", npcID },	-- Npc Name
 	["coord"] = { X, Y, mapID },
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -80,9 +80,6 @@ Discussion Points
 3] The use of coord and coords.
 	I dont think anyone uses ["coords"] for single coords....
 
-4] The use of g and groups
-	The old tale about ["g"] or ["groups"] both are used in the same way.
-
 Extended Quest
 
 Braghe:
@@ -106,7 +103,7 @@ q(questID, {	-- Quest Name
 	["sourceQuestNumRequired"] = number,
 	["lockCriteria"] = { criteriaID },
 	["timeline"] = { timeline },
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -142,7 +139,7 @@ n(npcID, {	-- Name
 	["coord"] = { X, Y, mapID },	-- Map Name
 	["questID"] = questID,
 	["isDaily"] = true,
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -156,7 +153,7 @@ n(184804, {	-- Helmix
 	},
 	["coord"] = { 58.2, 68.3, ZERETH_MORTIS },
 	["questID"] = 65551,
-	["g"] = {
+	["groups"] = {
 		i(189931),	-- Annelid's Hinge Wrappings
 		i(189965),	-- Armored Cuffs of the Unbroken
 		i(190056),	-- Enlightened Explorer's Lantern
@@ -180,7 +177,7 @@ n(npcID, {	-- Name
 	["repeatable"] = true,
 	["cost"] = { { "i", itemID, number }, },	-- numberxItem Name
 	["timeline"] = { timeline },
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -192,7 +189,7 @@ n(187306, {	-- Morchok <Harbinger of Twilight>
 	["questID"] = 74067,
 	["isDaily"] = true,
 	["cost"] = { { "i", 191264, 20 }, },	-- 20x Restored Obsidian Key
-	["g"] = {
+	["groups"] = {
 		i(200207),	-- Petrified Fungal Spores
 	},
 }),
@@ -204,7 +201,7 @@ o(objectID, {	-- Object Name
 	["description"] = "Text",
 	["coord"] = { X, Y, mapID },	-- Map Name
 	["questID"] = questID,
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -214,7 +211,7 @@ o(375668, {	-- Misty Treasure Chest
 	["description"] = "Stand on the Handhold sticking out of the waterfall and walk forward to find this treasure (it's very hidden behind the water).",
 	["coord"] = { 58.6, 53.1, THE_WAKING_SHORES },
 	["questID"] = 65646,
-	["g"] = {
+	["groups"] = {
 		i(202194),	-- Misty Satchel
 	},
 }),
@@ -236,7 +233,7 @@ o(objectID, {	-- Object Name
 	["repeatable"] = true,
 	["cost"] = { { "i", itemID, number }, },	-- numberxItem Name
 	["timeline"] = { timeline },
-	["g"] = {
+	["groups"] = {
 		i(itemID),	-- Item Name
 	},
 }),
@@ -247,7 +244,7 @@ o(373568, {	-- Provis Cache
 	["coord"] = { 42, 51.9, ZERETH_MORTIS },
 	["questID"] = 65183,
 	["cost"] = { { "i", 188231, 1 }, },	-- 1xProvis Cache Key
-	["g"] = {
+	["groups"] = {
 		i(189710, {	-- Pocopoc's Ruby and Platinum Body
 			["questID"] = 65474,
 		}),
