@@ -1,4 +1,4 @@
-﻿--   WARNING: This file is dynamically generated   --
+--   WARNING: This file is dynamically generated   --
 root("Items.SOURCES",{
 [17]=14,
 [25]=15,
