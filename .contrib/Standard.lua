@@ -109,19 +109,20 @@ q(questID, {	-- Quest Name
 }),
 
 Crieve List
-qg/qgs
+qg/qgs/provider
 altQuests
 sourceQuest/sourceQuests
 coords
 timeline
 maps
-crs
 races
 classes
 isDaily/isYearly/repeatable/isBreadcrumb (they don't typically exist together on the same object)
+crs
 lvl
 f
 OnClick
+OnInit
 OnUpdate
 OnTooltip
 groups
