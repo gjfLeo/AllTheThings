@@ -400,6 +400,7 @@ i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
 i(163375);	-- Portrait of Commander Martens
 i(158840);	-- Prehensile Tongue
+i(162545);	-- Razordog
 i(158779);	-- Robust Horn
 i(158756);	-- Rotary Gasket
 i(158758);	-- Royal Jelly
@@ -443,6 +444,7 @@ i(158747);	-- Thorny Prickle
 i(158754);	-- Trueflight Fletching
 i(155844);	-- Unreliable Lodestone
 i(158872);	-- Unstable Essence
+i(158857);	-- Untainted Wicker
 i(163851);	-- Venerated Golden Censer
 i(158796);	-- Venomous Tentacle
 i(155636);	-- Viscous Ink
@@ -2529,6 +2531,7 @@ i(229809);	-- Weighted Metal Ball
 -- PATCH 11.1.5 --
 ------------------
 i(241632);	-- Heroic Waxy Figurine
+i(238896);	-- Macho's Magnificent "Fish" Tacos
 i(241635);	-- Patchy Spider-Silk Square
 i(241636);	-- Storm Glass and Feather Necklace
 i(241616);	-- The Underpin

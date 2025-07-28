@@ -31,9 +31,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						--	above definitely required; unclear if these are
 						--	27028,	-- Hornet Hunting
 						--	27030,	-- Foxtails by the Handful
-						
+
 						-- #if AFTER 5.0.4
-						-- Patch 5.0.4 (2012-08-28): Merged with Wetlands quests. 
+						-- Patch 5.0.4 (2012-08-28): Merged with Wetlands quests.
 						25734,	-- Down in Thelgen Rock
 						25733,	-- Get Out of Here, Stalkers
 						25735,	-- Incendicite Ore
@@ -1352,11 +1352,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 9,
 				}),
-				q(13636, {	-- Stormpike's Orders [TODO: confirm if breadcrumb]
+				q(13636, {	-- Stormpike's Orders
 					["qg"] = 1340,	-- Mountaineer Kadrell
 					["coord"] = { 35.1, 46.6, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1,
+						"questID", 26843,	-- A Tiny, Clever Commander
+						"questID", 26844,	-- Kobold and Kobolder
+					},
+					["isBreadcrumb"] = true,
 				}),
 				q(26927, {	-- Suddenly, Murlocs!
 					["qg"] = 1340,	-- Mountaineer Kadrell
