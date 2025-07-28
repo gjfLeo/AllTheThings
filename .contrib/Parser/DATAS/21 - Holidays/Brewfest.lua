@@ -1140,7 +1140,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(11293, {	-- Bark for the Barleybrews! (A)
 					["qg"] = 23627,	-- Becan Barleybrew
-					["sourceQuest"] = 11318,	-- Now This is Ram Racing... Almost. (A)
 					--[[
 					-- TODO: If they don't both check off when you complete one, uncomment.
 					["altQuests"] = {
@@ -1148,6 +1147,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						11294,	-- Bark for the Thunderbrews! (A)
 					},
 					]]--
+					["sourceQuest"] = 11318,	-- Now This is Ram Racing... Almost. (A)
 					-- #if AFTER CATA
 					["coord"] = { 56.0, 38.0, DUN_MOROGH },
 					-- #else
@@ -1155,16 +1155,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["timeline"] = { ADDED_2_2_2 },
 					["maps"] = { IRONFORGE },
-					["races"] = ALLIANCE_ONLY,
 					["cost"] = {
 						{ "i", 33306, 1 },	-- Ram Racing Reins
 					},
+					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = BREWFEST_TOKEN,
 				}),
 				q(11407, {	-- Bark for Drohn's Distillery! (H)
 					["qg"] = 24498,	-- Cort Gorestein
-					["sourceQuest"] = 11409,	-- Now This is Ram Racing... Almost. (H)
 					--[[
 					-- TODO: If they don't both check off when you complete one, uncomment.
 					["altQuests"] = {
@@ -1172,6 +1171,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						11408,	-- Bark for T'chali's Voodoo Brewery! (H)
 					},
 					]]--
+					["sourceQuest"] = 11409,	-- Now This is Ram Racing... Almost. (H)
 					-- #if AFTER CATA
 					["coord"] = { 40.5, 18.3, DUROTAR },
 					-- #else
@@ -1179,16 +1179,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["timeline"] = { ADDED_2_2_2 },
 					["maps"] = { ORGRIMMAR },
-					["races"] = HORDE_ONLY,
 					["cost"] = {
 						{ "i", 33306, 1 },	-- Ram Racing Reins
 					},
+					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 					["groups"] = BREWFEST_TOKEN,
 				}),
 				q(11294, {	-- Bark for the Thunderbrews! (A)
 					["qg"] = 23628,	-- Daran Thunderbrew
-					["sourceQuest"] = 11318,	-- Now This is Ram Racing... Almost. (A)
 					--[[
 					-- TODO: If they don't both check off when you complete one, uncomment.
 					["altQuests"] = {
@@ -1196,6 +1195,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						11294,	-- Bark for the Thunderbrews! (A)
 					},
 					]]--
+					["sourceQuest"] = 11318,	-- Now This is Ram Racing... Almost. (A)
 					-- #if AFTER CATA
 					["coord"] = { 56.6, 36.8, DUN_MOROGH },
 					-- #else
@@ -1203,16 +1203,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["timeline"] = { ADDED_2_2_2 },
 					["maps"] = { IRONFORGE },
-					["races"] = ALLIANCE_ONLY,
 					["cost"] = {
 						{ "i", 33306, 1 },	-- Ram Racing Reins
 					},
+					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = BREWFEST_TOKEN,
 				}),
 				q(11408, {	-- Bark for T'chali's Voodoo Brewery! (H)
 					["qg"] = 24498,	-- Cort Gorestein
-					["sourceQuest"] = 11409,	-- Now This is Ram Racing... Almost. (H)
 					--[[
 					-- TODO: If they don't both check off when you complete one, uncomment.
 					["altQuests"] = {
@@ -1220,6 +1219,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						11408,	-- Bark for T'chali's Voodoo Brewery! (H)
 					},
 					]]--
+					["sourceQuest"] = 11409,	-- Now This is Ram Racing... Almost. (H)
 					-- #if AFTER CATA
 					["coord"] = { 40.5, 18.3, DUROTAR },
 					-- #else
