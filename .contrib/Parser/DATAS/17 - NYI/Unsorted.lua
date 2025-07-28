@@ -1257,9 +1257,6 @@ root(ROOTS.Unsorted, {
 				i(238957),	-- Deathwarder's Great Grove Blade
 				i(238958),	-- Deathwarder's Great Twilight Blade
 			}),
-			filter(MISC, {
-				i(238896),	-- Macho's Magnificent "Fish" Tacos
-			}),
 			filter(MOUNTS, {
 				i(238900),	-- Summer Harvesthog
 				i(238901),	-- Winter Harvesthog
@@ -2254,7 +2251,6 @@ root(ROOTS.Unsorted, {
 				i(161384),	-- Farraki Fritters
 				i(162117),	-- Marie's Famous Cookies
 				i(159750),	-- Tangy Haw'liday Cider
-				i(162545),	-- Razordog
 				i(162546),	-- Boiled Mire Whelk
 				i(162547),	-- Raw Nazmani Mineral Water
 				i(162550),	-- Brutoburger
@@ -2695,7 +2691,6 @@ root(ROOTS.Unsorted, {
 				i(158852),	-- PH Flavor - Unused \\ PH Flavor - Fox
 				i(158853),	-- Bony Skullplate \\ PH Flavor - Naga Brute
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
-				i(158857),	-- Untainted Wicker \\ PH Flavor - Porcupine
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158873),	-- Crystalline Honeymead \\ PH Flavor - Dire Troll Female - Blood Troll
 				i(158727),	-- Decayed Equipment
@@ -3479,8 +3474,6 @@ root(ROOTS.Unsorted, {
 			i(168021),	-- Nullifier Transport Relay
 			i(168187),	-- Highborne Relic
 			i(168188),	-- Sage Agate
-			i(168190),	-- Lava Lazuli
-			i(168191),	-- Sea Currant
 			i(168232),	-- Murloco's "Fish" Tacos
 			i(168237),	-- Coral Root Chunk
 			i(168242),	-- Angel Scale Starfish
