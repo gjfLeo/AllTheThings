@@ -48,6 +48,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(243521),	-- Wastelander Skirmisher's Pauldrons
 					i(243522),	-- Wastelander Skirmisher's Sash
 				}),
+				filter(MISC, {
+					i(242529),	-- Shadowtrade Imports
+				}),
 				filter(NECK_F, {
 					i(243499),	-- Wastelander's Gilded Pendant
 				}),

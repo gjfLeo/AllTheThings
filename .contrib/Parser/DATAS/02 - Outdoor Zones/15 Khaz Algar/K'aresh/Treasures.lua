@@ -106,7 +106,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(499086, {	-- Lightly-Dented Luggage
 					["coord"] = { 54.9, 62.5, KARESH },
 					["questID"] = 91352,
-					["g"] = { i(242529), },	-- Shadowtrade Imports
 				}),
 				o(503823, {	-- Mailroom Distribution
 					["description"] = "Grab the Mail Overflow from the Mailbox in front of the Mailroom.",
@@ -282,7 +281,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					-- Alex: symed zone drop, added additional source of shared (?) stuff
 					i(243147),	-- Ethereal Defense Pylon
 					i(243219),	-- Phased Ethereal Bow
-					i(242529),	-- Shadowtrade Imports
 					i(242371),	-- Untethered Xy'bucha
 				},
 			}),
@@ -300,7 +298,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["g"] = {	-- Has a chance to drop following
 					i(243147),	-- Ethereal Defense Pylon
 					i(243219),	-- Phased Ethereal Bow
-					i(242529),	-- Shadowtrade Imports
 					i(242371),	-- Untethered Xy'bucha
 				},
 			}),

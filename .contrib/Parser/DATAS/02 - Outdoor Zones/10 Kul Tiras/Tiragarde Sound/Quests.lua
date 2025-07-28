@@ -26,7 +26,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 125922 },	-- Brother Therold
 				["g"] = {
 					o(273270, {	-- Harbor Seaweed
-						i(152401),	-- Bunch of Seaweed (QI!) (QI!)
+						i(152401),	-- Bunch of Seaweed (QI!)
 					}),
 					i(160098),	-- Freebooter Bands
 					i(158258),	-- Freebooter Handwraps

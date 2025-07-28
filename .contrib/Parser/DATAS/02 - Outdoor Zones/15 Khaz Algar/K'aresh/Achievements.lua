@@ -20,9 +20,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			ach(42730),	-- Jump, Jump, and Away!
 			skyriding(ach(42727)),	-- K'aresh Glyph Hunter (automated)
 			ach(41978, {	-- Moonlighter
-				["g"] = {
-					iensemble(244140),	-- Ethereal Sash Cache
-				},
+				iensemble(244140),	-- Ethereal Sash Cache
 			}),
 			ach(41808),	-- Otherworldly Ecologist (automated)
 			ach(61017, {	-- Phase-Lost-and-Found

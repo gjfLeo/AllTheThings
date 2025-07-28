@@ -676,6 +676,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["provider"] = { "n", 231820 },	-- Ve'nari
 					["coord"] = { 75.9, 34.2, KARESH },
 				}),
+				-- Following headers are placed in order of completion
 				header(HEADERS.AchCriteria, 41808.01, {	-- The Bees Knees
 					q(85075, {	-- To Stormsong
 						["sourceQuests"] = { 87340 },	-- Junk Mail
@@ -835,8 +836,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					--
 					q(85259, {	-- Waggle Dance
-						-- Note: Drawing circles is so obnoxious... Definitelly going to be either a daily or a WQ	-Exo 22.06.2025.
-						-- Note2: I GOD DAMN KNEW IT! Daily "Shake your Bee-hind" -Exo 24.06.2025.
 						["sourceQuests"] = { 85258 },	-- Oh Honey Honey
 						["provider"] = { "n", 230736 },	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
@@ -858,6 +857,434 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 75.8, 33.9, KARESH },
 					}),
 				}),
+				header(HEADERS.AchCriteria, 41808.06, {	-- Nesingwary Necessities
+					q(86352, {	-- Hunting for a Good Author
+						["sourceQuests"] = { 85262 },	-- The Royal Procession
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(86353, {	-- Protecting the Young
+						["sourceQuests"] = { 86352 },	-- Hunting for a Good Author
+						["provider"] = { "n", 234745 },	-- Hemet Nesingwary
+						["coord"] = { 18.8, 39.9, THE_AZURE_SPAN },
+					}),
+					q(86354, {	-- A Percussive Antidote
+						["sourceQuests"] = { 86352 },	-- Hunting for a Good Author
+						["provider"] = { "n", 234745 },	-- Hemet Nesingwary
+						["coord"] = { 18.8, 39.9, THE_AZURE_SPAN },
+					}),
+					q(84822, {	-- To Iskaara
+						["sourceQuests"] = {
+							86353,	-- Protecting the Young
+							86354,	-- A Percussive Antidote
+						},
+						["provider"] = { "n", 234745 },	-- Hemet Nesingwary
+						["coord"] = { 18.8, 39.9, THE_AZURE_SPAN },
+					}),
+					q(86356, {	-- Sustainable Harvesting
+						["sourceQuests"] = { 84822 },	-- To Iskaara
+						["provider"] = { "n", 235290 },	-- Hemet Nesingwary
+						["coord"] = { 13.6, 49.1, THE_AZURE_SPAN },
+						["g"] = {
+							o(504181, {	-- Fallen Log
+								i(234452),	-- Chopped Wood (QI!)
+							}),
+						},
+					}),
+					q(86355, {	-- Using the Whole Animal
+						["sourceQuests"] = { 84822 },	-- To Iskaara
+						["provider"] = { "n", 235290 },	-- Hemet Nesingwary
+						["coord"] = { 13.6, 49.1, THE_AZURE_SPAN },
+						["g"] = {
+							i(234457),	-- Butcher's Knife (PQI!)
+							--
+							i(234036),	-- Bruffalon Meat (QI!)
+						},
+					}),
+					q(86357, {	-- Time for Noms
+						["sourceQuests"] = {
+							86356,	-- Sustainable Harvesting
+							86355,	-- Using the Whole Animal
+						},
+						["provider"] = { "n", 235290 },	-- Hemet Nesingwary
+						["coord"] = { 13.6, 49.1, THE_AZURE_SPAN },
+						["g"] = {
+							o(504191, {	-- Pile of Meat
+								["coord"] = { 14.8, 48.3, THE_AZURE_SPAN },
+							}),
+						},
+					}),
+					q(86358, {	-- Any Old Excuse
+						["sourceQuests"] = {
+							86356,	-- Sustainable Harvesting
+							86355,	-- Using the Whole Animal
+						},
+						["provider"] = { "n", 235290 },	-- Hemet Nesingwary
+						["coord"] = { 13.6, 49.1, THE_AZURE_SPAN },
+					}),
+					q(86359, {	-- Return to K'aresh
+						["sourceQuests"] = {
+							86357,	-- Time for Noms
+							86358,	-- Any Old Excuse
+						},
+						["provider"] = { "n", 235290 },	-- Hemet Nesingwary
+						["coord"] = { 13.6, 49.1, THE_AZURE_SPAN },
+					}),
+				}),
+				header(HEADERS.AchCriteria, 41808.02, {	-- Roaming Free
+					q(86182, {	-- Ghost Buster
+						["sourceQuests"] = { 86359 },	-- Return to K'aresh
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(229395), },	-- Slateback Essence (QI!)
+					}),
+					------ Stay awhile and listen ------
+					hqt(89330, {	-- Stay awhile and listen: Hemet Nesingwary
+						["name"] = "Stay awhile and listen: Hemet Nesingwary",
+						["description"] = "Dialogue becomes available after you accept 'Ghost Buster' (86182).",
+						["sourceQuests"] = { 86359 },	-- Return to K'aresh
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+					--
+					q(86183, {	-- The Power of Gods
+						["sourceQuests"] = { 86182 },	-- Ghost Buster
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(86184, {	-- Diminishing Returns
+						["sourceQuests"] = { 86183 },	-- The Power of Gods
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(232432), },	-- Condenser Disc (PQI!)
+					}),
+					q(86185, {	-- Running Free
+						["sourceQuests"] = { 86184 },	-- Diminishing Returns
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+					q(86186, {	-- The Super Sniffer
+						["sourceQuests"] = { 86185 },	-- Running Free
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(86187, {	-- The Smallest Possible Effort
+						["sourceQuests"] = { 86186 },	-- The Super Sniffer
+						["provider"] = { "n", 234272 },	-- Rhubarn
+						["coord"] = { 77.6, 61.8, AZJ_KAHET },
+						["g"] = {
+							i(232992, {	-- Large Bug Bits (QI!)
+								i(232990),	-- Bug Bits (QI!)
+							}),
+						},
+					}),
+					q(86188, {	-- More-shrooms
+						["sourceQuests"] = { 86186 },	-- The Super Sniffer
+						["provider"] = { "n", 234272 },	-- Rhubarn
+						["coord"] = { 77.6, 61.8, AZJ_KAHET },
+						["g"] = {
+							o(500744, {	-- Rak-ush Mushroom
+								i(233010),	-- Rak-ush Mushroom (QI!)
+							}),
+						},
+					}),
+					q(86189, {	-- Fungal Invasion
+						["sourceQuests"] = {
+							86187,	-- The Smallest Possible Effort
+							86188,	-- More-shrooms
+						},
+						["provider"] = { "n", 234272 },	-- Rhubarn
+						["coord"] = { 77.6, 61.8, AZJ_KAHET },
+					}),
+					q(86190, {	-- One Mushroom to Rule Them All
+						["sourceQuests"] = {
+							86187,	-- The Smallest Possible Effort
+							86188,	-- More-shrooms
+						},
+						["provider"] = { "n", 234272 },	-- Rhubarn
+						["coord"] = { 77.6, 61.8, AZJ_KAHET },
+						["g"] = {
+							o(500779, {	-- Voshshroom
+								["coord"] = { 54.1, 16.5, AZJ_KAHET },
+								["g"] = {
+									i(233011),	-- Voshshroom (QI!)
+								},
+							}),
+						},
+					}),
+					q(86191, {	-- Smell Ya Later
+						["sourceQuests"] = {
+							86189,	-- Fungal Invasion
+							86190,	-- One Mushroom to Rule Them All
+						},
+						["provider"] = { "n", 234272 },	-- Rhubarn
+						["coord"] = { 77.6, 61.8, AZJ_KAHET },
+					}),
+					q(86194, {	-- The Scent of Love
+						["sourceQuests"] = { 86191 },	-- Smell Ya Later
+						["provider"] = { "n", 234316 },	-- Rhubarn
+						["coord"] = { 75.9, 34.6, KARESH },
+						["g"] = { i(233195), },	-- Pheromone Disperser (PQI!)
+					}),
+					q(86192, {	-- On a Bed of Bones They Lie
+						["sourceQuests"] = { 86194 },	-- The Scent of Love
+						["provider"] = { "n", 234316 },	-- Rhubarn
+						["coord"] = { 75.9, 34.6, KARESH },
+						["g"] = {
+							i(233016),	-- Creature Bones (QI!)
+							o(502399, {	-- Pile of Bones
+								["coord"] = { 73.1, 32.5, KARESH },
+							}),
+						},
+					}),
+					q(86195, {	-- Slateback Soccer
+						["sourceQuests"] = { 86192 },	-- On a Bed of Bones They Lie
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(229420), },	-- Anima Orb (PQI!)
+					}),
+					------ Stay awhile and listen ------
+					hqt(89292, {	-- Stay awhile and listen: Rhubarn
+						["name"] = "Stay awhile and listen: Rhubarn",
+						["description"] = "Dialogue becomes available after you accept 'Slateback Soccer' (86195).",
+						["sourceQuests"] = { 86192 },	-- On a Bed of Bones They Lie
+						["provider"] = { "n", 234316 },	-- Rhubarn
+						["coord"] = { 75.9, 34.6, KARESH },
+					}),
+					--
+				}),
+				header(HEADERS.AchCriteria, 41808.03, {	-- Fox-strut
+					q(86348, {	-- Fox Bane
+						["sourceQuests"] = { 86195 },	-- Slateback Soccer
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(237896), },	-- Thorntail Essence (QI!)
+					}),
+					q(86350, {	-- Eau de Foxy
+						["sourceQuests"] = { 86348 },	-- Fox Bane
+						["provider"] = { "n", 234316 },	-- Rhubarn
+						["coord"] = { 75.9, 34.6, KARESH },
+						["g"] = { i(233487), },	-- Pheromone Disperser (PQI!)
+					}),
+					q(86362, {	-- What Does the Fox Dream?
+						["sourceQuests"] = { 86350 },	-- Eau de Foxy
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(233552), },	-- Tranquilizing Dart (PQI!)
+					}),
+					q(86351, {	-- Strike a Pose
+						["sourceQuests"] = { 86362 },	-- What Does the Fox Dream?
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(233488), },	-- Appropriated Azerothian Camera (PQI!)
+					}),
+					q(86360, {	-- Fantastic Ms. Fox
+						["sourceQuests"] = { 86351 },	-- Strike a Pose
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+					q(86361, {	-- Are You Kitting Me?
+						["sourceQuests"] = { 86360 },	-- Fantastic Ms. Fox
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(229420), },	-- Anima Orb (PQI!)
+					}),
+					q(86392, {	-- Foxy Footwork
+						["sourceQuests"] = { 86361 },	-- Are You Kitting Me?
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+				}),
+				header(HEADERS.AchCriteria, 41808.04, {	-- Lil' Lapbugs
+					q(86349, {	-- Lapbug Essence Hunter
+						["sourceQuests"] = { 86195 },	-- Slateback Soccer
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(229393), },	-- Lapbug Essence (QI!)
+					}),
+					q(87292, {	-- Rooting for Trouble
+						["sourceQuests"] = { 86349 },	-- Lapbug Essence Hunter
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+					}),
+					q(87291, {	-- Salad Bar
+						["sourceQuests"] = { 87292 },	-- Rooting for Trouble
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+						["g"] = {
+							i(235914, {	-- Chopped Oasis Plants (QI!)
+								["providers"] = {
+									{ "o", 516304 },	-- Lustrous Conker
+									{ "o", 516302 },	-- Pricklebloom
+								},
+							}),
+							-- Exo Note: Objective 2 is "Plant Platter placed". They don't trigger reports (currently?) so I don't know which is which.
+							-- Plant Platter ObjectID: 516306, 523779, 523780. Coords: 73.0, 31.5 / 72.0, 33.5 / 72.9, 34.4
+						},
+					}),
+					q(87293, {	-- Shameless Hawking
+						["sourceQuests"] = { 87291 },	-- Salad Bar
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(87294, {	-- A Truth Universally Acknowledged
+						["sourceQuests"] = { 87293 },	-- Shameless Hawking
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(236406), },	-- Appropriated S.E.L.F.I.E. Camera (PQI!)
+					}),
+				}),
+				header(HEADERS.AchCriteria, 41808.05, {	-- Rays of Sunshine
+					q(86587, {	-- To Maldraxxus
+						["sourceQuests"] = {
+							86392,	-- Foxy Footwork
+							87294,	-- A Truth Universally Acknowledged
+						},
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(86589, {	-- A Plague a Day Keeps the Doctor Away
+						["sourceQuests"] = { 86587 },	-- To Maldraxxus
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+						["g"] = {
+							o(505258, {	-- Pestilential Necroray
+								i(234815),	-- Plague Sample (QI!)
+							}),
+						},
+					}),
+					q(86590, {	-- I Don't Even Work Here
+						["sourceQuests"] = { 86587 },	-- To Maldraxxus
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+						["g"] = { i(234944), },	-- Rancor Essence (QI!)
+					}),
+					q(86588, {	-- Ritualistic Murder
+						["sourceQuests"] = { 86587 },	-- To Maldraxxus
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+					}),
+					q(86591, {	-- A Poor Imitation
+						["sourceQuests"] = {
+							86589,	-- A Plague a Day Keeps the Doctor Away
+							86590,	-- I Don't Even Work Here
+							86588,	-- Ritualistic Murder
+						},
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+					}),
+					q(86592, {	-- Get Your Jabs
+						["sourceQuests"] = { 86591 },	-- A Poor Imitation
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+					}),
+					q(86593, {	-- To the Oasis
+						["sourceQuests"] = { 86592 },	-- Get Your Jabs
+						["provider"] = { "n", 235860 },	-- Plague Deviser Marileth
+						["coord"] = { 69.0, 48.5, MALDRAXXUS },
+					}),
+					q(86782, {	-- Atrium Hospital
+						["sourceQuests"] = { 86593 },	-- To the Oasis
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(86594, {	-- A Cultured Palette
+						["sourceQuests"] = { 86782 },	-- Atrium Hospital
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+						["g"] = {
+							o(507176, {	-- Crate of Food
+								["coord"] = { 48.5, 61.3, KARESH },
+								["g"] = { i(235370), },	-- Crate of Food (QI!)
+							}),
+							o(507178, {	-- Bowl of Succulents
+								["coord"] = { 47.6, 61.6, KARESH },
+							}),
+							o(507220, {	-- Chopped Plants
+								["coord"] = { 48.5, 62.5, KARESH },
+							}),
+							o(507219, {	-- Slab of Meat
+								["coord"] = { 48.0, 63.3, KARESH },
+							}),
+						},
+					}),
+					q(86595, {	-- Custodial Duties
+						["sourceQuests"] = { 86782 },	-- Atrium Hospital
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+						["g"] = { i(235384), },	-- Anima Vacuum (PQI!)
+					}),
+					q(86783, {	-- Rays of Sunshine
+						["sourceQuests"] = {
+							86594,	-- A Cultured Palette
+							86595,	-- Custodial Duties
+						},
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+					}),
+					q(86602, {	-- Medical Checkup
+						["sourceQuests"] = { 86783 },	-- Rays of Sunshine
+						["provider"] = { "n", 236890 },	-- Hemet Nesingwary
+						["coord"] = { 49.0, 57.0, KARESH },
+						["g"] = {
+							i(235410),	-- Lapbug Molting (QI!)
+							i(235408),	-- Slateback Fur (QI!)
+							i(235409),	-- Thorntail Fur (QI!)
+						},
+					}),
+					q(86601, {	-- Triple Twenty
+						["sourceQuests"] = { 86783 },	-- Rays of Sunshine
+						["provider"] = { "n", 236890 },	-- Hemet Nesingwary
+						["coord"] = { 49.0, 57.0, KARESH },
+						["g"] = { i(235411), },	-- Tagging Dart (PQI!)
+					}),
+					q(86603, {	-- Ray-ket Ball
+						["sourceQuests"] = {
+							86602,	-- Medical Checkup
+							86601,	-- Triple Twenty
+						},
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(229420), },	-- Anima Orb (PQI!)
+					}),
+					q(86604, {	-- Dubious Intent
+						["sourceQuests"] = { 86603 },	-- Ray-ket Ball
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = {
+							i(235500),	-- Tranquilizing Dart (PQI!)
+							i(235501),	-- Necroray Gunk (QI!)
+						},
+					}),
+					q(86605, {	-- Booster Shots
+						["sourceQuests"] = { 86604 },	-- Dubious Intent
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["g"] = { i(235851), },	-- Lasso (PQI!)
+					}),
+					q(86606, {	-- The Golden Ooze
+						["sourceQuests"] = { 86605 },	-- Booster Shots
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = { i(235384), },	-- Anima Vacuum (PQI!)
+					}),
+					q(86607, {	-- The Freedom of Ray-cing
+						["sourceQuests"] = { 86606 },	-- The Golden Ooze
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+				}),
+			}),
+			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
+				-- Exo Note: These are Achievement criteria. They don't appear as quests when you do /att q: in-game
+				-- @Myrhial, This is a job for you, Mistress...
+				q(84744),	-- A Slither of Snakes
+				q(84742),	-- Fox-strut
+				q(86793),	-- Hard K'arroc
+				q(84745),	-- Honey Bees (Move to HQT? Triggered when "Honey Bees" criteria for the ach is fulfilled)
+				q(85520),	-- Lil' Lapbugs
+				q(89306),	-- Rays of Sunshine
+				q(84992),	-- Slatebacks
 			}),
 			header(HEADERS.Achievement, 41809, {	-- Ecological Variety (Daily Quests)
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
@@ -905,28 +1332,57 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(89210),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
+					q(88980, {	-- Who You Gonna Call?
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["isDaily"] = true,
+						["g"] = { i(229395), },	-- Slateback Essence (QI!)
+					}),
 					q(85462),	--
-					q(88980),	--
 					q(85481),	--
 					q(85710),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.03, {	-- Fox-strut
+					q(89240, {	--  Dream-Dream-Dream-Dream-Dreameringeding!
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
+						["g"] = { i(238912), },	-- Tranquilizing Dart (PQI!)
+					}),
 					q(89212),	--
 					q(85465),	--
 					q(85721),	--
 					q(89057),	--
-					q(89240),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.04, {	-- Lil' Lapbugs
+					q(89221, {	--  Leafing Things on the Ground
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+						["isDaily"] = true,
+						["g"] = {
+							i(235914, {	-- Chopped Oasis Plants (QI!)
+								["providers"] = {
+									{ "o", 516304 },	-- Lustrous Conker
+									{ "o", 516302 },	-- Pricklebloom
+								},
+							}),
+							-- Exo Note: Objective 2 is "Plant Platter placed". They don't trigger reports (currently?) so I don't know which is which.
+							-- Plant Platter ObjectID: 516306, 523779, 523780. Coords: 73.0, 31.5 / 72.0, 33.5 / 72.9, 34.4
+						},
+					}),
 					q(89254),	--
-					q(89221),	--
 					q(89297),	--
 					q(85470),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.05, {	-- Rays of Sunshine
+					q(89056, {	--  Ray-ket Ball, Redux
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
+						["g"] = { i(238915), },	-- Anima Orb (PQI!)
+					}),
 					q(89197),	--
 					q(89065),	--
-					q(89056),	--
 					q(89242),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.06, {	-- Hard K'arroc
@@ -1469,15 +1925,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 			}),
-			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
-				q(84744),	-- A Slither of Snakes
-				q(84742),	-- Fox-strut
-				q(86793),	-- Hard K'arroc
-				q(84745),	-- Honey Bees (Move to HQT? Triggered when "Honey Bees" criteria for the ach is fulfilled)
-				q(85520),	-- Lil' Lapbugs
-				q(89306),	-- Rays of Sunshine
-				q(84992),	-- Slatebacks
-			}),
 			header(HEADERS.Achievement, 41980, {	-- Vigiliante
 				q(87344, {	-- A Key Threat
 					["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
@@ -1642,13 +2089,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["repeatable"] = true,
 			}),
 			-- Unsorted
-			q(86191),	--
-			q(86195),	--
-			q(86359),	--
-			q(86392),	--
 			--q(86492),	-- TODO: Alex - ach(42736),	-- Ixthar's Legacy
-			q(86607),	--
-			q(87294),	--
 			q(87415),	--
 			q(88672),	--
 			--q(90954),	--	TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
@@ -1671,6 +2112,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807, { ["repeatable"] = true, } ),	-- Triggered at the completion of a main Warrant quest and obtaining the (QS!) item that starts "Eliminate" quest
 				q(91286, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Oasis' (84993)
+				q(91287, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 				q(91289, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
 

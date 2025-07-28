@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--i(244509),	-- Worn Shadowguard Cleaver
 				--i(244516),	-- Worn Shadowguard Falchion
 				i(244523),	-- Worn Shadowguard Greatsword
-				--i(244513),	-- Worn Shadowguard Kris
+				i(244513),	-- Worn Shadowguard Kris
 				--i(244517),	-- Worn Shadowguard Longsword
 				--i(244514),	-- Worn Shadowguard Mace
 				--i(244521),	-- Worn Shadowguard Pole

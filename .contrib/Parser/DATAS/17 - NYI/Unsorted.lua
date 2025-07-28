@@ -57,7 +57,6 @@ root(ROOTS.Unsorted, {
 				i(244476),	-- Worn Shadowguard Pendant
 				i(244509),	-- Worn Shadowguard Cleaver
 				i(244510),	-- Worn Shadowguard Carver
-				i(244513),	-- Worn Shadowguard Kris
 				i(244514),	-- Worn Shadowguard Mace
 				i(244515),	-- Worn Shadowguard Warmace
 				i(244516),	-- Worn Shadowguard Falchion
@@ -717,7 +716,6 @@ root(ROOTS.Unsorted, {
 				i(229404),	-- Carved Toy
 				i(229405),	-- Entropic Core
 				i(229406),	-- Codex of The Exchange
-				i(229420),	-- Anima Orb
 				i(229898),	-- Capture Device
 				i(230284),	-- Artisan's Consortium Pamphlet
 				i(231094),	-- Unused - Tranquilizing Dart [DNT]
@@ -728,45 +726,23 @@ root(ROOTS.Unsorted, {
 				i(232280),	-- Cracked Pendant
 				i(232281),	-- Small Fossil
 				i(232426),	-- Game Board
-				i(232432),	-- Condenser Disc
 				i(232516),	-- Fading Essence
 				i(232522),	-- High Priest's Record[DNT]
 				i(232553),	-- Temple Keystone[DNT]
 				i(232554),	-- Waning Essence[DNT]
 				i(232568),	-- Priest's Remains[DNT]
 				i(232630),	-- Xy Imports Ledger
-				i(232992),	-- Large Bug Bits
 				i(233005),	-- Om'taha's Toolkit[DNT]
 				i(233012),	-- Flamethrower
-				i(233195),	-- Pheromone Disperser
 				i(233287),	-- Barrel of Swirling Energy
-				i(233487),	-- Pheromone Disperser
-				i(233488),	-- Appropriated Azerothian Camera
-				i(233552),	-- Tranquilizing Dart
-				i(234036),	-- Bruffalon Meat
-				i(234452),	-- Chopped Wood
-				i(234457),	-- Butcher's Knife
-				i(234815),	-- Plague Sample
-				i(234944),	-- Rancor Essence
-				i(235370),	-- Crate of Food
-				i(235384),	-- Anima Vacuum
-				i(235408),	-- Slateback Fur
-				i(235409),	-- Thorntail Fur
-				i(235410),	-- Lapbug Molting
-				i(235411),	-- Tagging Dart
-				i(235500),	-- Tranquilizing Dart
-				i(235501),	-- Necroray Gunk
-				i(235851),	-- Lasso
 				i(235866),	-- Calculation Container
 				i(235898),	-- Containment Trap
 				i(235913),	-- Marking Matrix
-				i(235914),	-- Chopped Oasis Plants
 				i(235917),	-- Pile of Voidbane Gems
 				i(235918),	-- Corrupted Granules
 				i(235982),	-- Void Fused Resin
 				i(235983),	-- Warrant: Shatterpulse
 				i(236353),	-- Shatterpulse Cell Key
-				i(236406),	-- Appropriated S.E.L.F.I.E. Camera
 				i(236407),	-- Voidbane Gem
 				i(236679),	-- Essence Scanner
 				i(236688),	-- Umbral Facade
@@ -801,10 +777,8 @@ root(ROOTS.Unsorted, {
 				i(238909),	-- Anima Vacuum
 				i(238910),	-- Lasso
 				i(238911),	-- Pheromone Disperser
-				i(238912),	-- Tranquilizing Dart
 				i(238913),	-- Condenser Disc
 				i(238914),	-- Hemet's Soothin' Flute
-				i(238915),	-- Anima Orb
 				i(238916),	-- Anima Vacuum
 				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
 				i(239314),	-- Arcane Lure

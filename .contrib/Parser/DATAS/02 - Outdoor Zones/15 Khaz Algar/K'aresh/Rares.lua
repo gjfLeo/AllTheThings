@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			n(234970, {	-- Miasmawrath
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
-				--["coord"] = { ?, ?, KARESH },
+				["coord"] = { 50.6, 54.1, KARESH },
 				["questID"] = 91310,
 				["g"] = {
 					i(238663),	-- Crystallized Anima (QS!)
@@ -149,7 +149,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(234845, {	-- Sthaarbs <the Mindroiler>
-				["coord"] = { 74.0, 32.2, KARESH },	-- a bit off
+				["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
+				["coord"] = { 74.0, 32.4, KARESH },
 				["questID"] = 91293,
 			}),
 			n(235087, {	-- The Harvester
@@ -183,6 +184,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90593,
 			}),
 			n(232199, {	-- Xarran the Binder
+				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 65.1, 50.0, KARESH },
 				["questID"] = 90584,
 				["g"] = {
