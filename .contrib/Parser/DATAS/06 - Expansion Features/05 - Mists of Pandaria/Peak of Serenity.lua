@@ -269,11 +269,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 				q(31857, {	-- The Peak of Serenity - Continue Your Training /lvl 10
 					["qg"] = 66260,	-- Master Hight <Grand Master>
 					["sourceQuests"] = {
-					-- #if BEFORE 7.3.5
+						-- #if BEFORE 7.3.5
 						31833,	-- Continue Your Training: Master Woo
-					-- #else
+						-- #else
 						31834,	-- Begin Your Training: Master Cheng
-					-- #endif
+						-- #endif
 					},
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
