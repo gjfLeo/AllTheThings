@@ -1416,13 +1416,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = {
 								objective(1, {	-- 0/3 Saltwater Starfish
 									["providers"] = {
-										{ "i", 54828 },	-- Saltwater Starfish
+										{ "i",  54828 },	-- Saltwater Starfish
 										{ "o", 205989 },	-- Saltwater Star
-							},
+									},
 								}),
 								objective(2, {	-- 0/1 Conch Shell
 									["providers"] = {
-										{ "i", 52504 },	-- Conch Shell
+										{ "i",  52504 },	-- Conch Shell
 										{ "o", 202560 },	-- Conch Shell
 									},
 								}),
@@ -1436,22 +1436,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = {
 								objective(1, {	-- 0/3 Saltwater Starfish
 									["providers"] = {
-										{ "i", 54828 },	-- Saltwater Starfish
+										{ "i",  54828 },	-- Saltwater Starfish
 										{ "o", 205989 },	-- Saltwater Star
-							},
+									},
 								}),
 								objective(2, {	-- 0/1 Conch Shell
 									["providers"] = {
-										{ "i", 52504 },	-- Conch Shell
+										{ "i",  52504 },	-- Conch Shell
 										{ "o", 202560 },	-- Conch Shell
 									},
 								}),
 							},
 						}),
 						q(27699, {	-- Shark Weak
-							["description"] = "If you abandon this quest, leave the area and swim back to the boat. You must NOT use a mount.",
 							["sourceQuest"] = 25657,	-- Dah, Nunt.. Dah, Nunt...
 							["coord"] = { 58.3, 48.8, VASHJIR_KELPTHAR_FOREST },
+							["description"] = "If you abandon this quest, leave the area and swim back to the boat. You must NOT use a mount.",
 							["groups"] = {
 								objective(1, {	-- 0/5 Gnaws' Tooth
 									["providers"] = {

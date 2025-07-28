@@ -94,8 +94,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "i", 60956 },	-- Korok's Second Head
 					["sourceQuest"] = 27290,	-- To Forsaken Forward Command
 					["description"] = "If Forward Commander Onslaught is dead, you can turn this quest in to |cFFFFD700Deathguard Podrig|r at |cFFFFD700The Sepulcher|r.",
-					["crs"] = { 45301, 46657 },	-- Korok the Colossus
 					["races"] = HORDE_ONLY,
+					["crs"] = { 45301, 46657 },	-- Korok the Colossus
 					["groups"] = {
 						i(62867),	-- Belt of the Second Head
 						i(62866),	-- Cromush's Cloak

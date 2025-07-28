@@ -1072,8 +1072,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 10838,	-- Commander Ashlam Valorfist
 					["sourceQuest"] = 8415,	-- Chillwind Point [TBC+] / Chillwind Camp
 					["coord"] = { 42.8, 84.0, WESTERN_PLAGUELANDS },
-					["cost"] = { { "i", 12840, 20 } },	-- Minion's Scourgestone
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 12840, 20 } },	-- Minion's Scourgestone
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 50,
@@ -1576,8 +1576,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 9601,	-- To The Bulwark
 					["coord"] = { 83.2, 71.2, TIRISFAL_GLADES },
 					["timeline"] = { ADDED_2_0_1, REMOVED_4_0_3 },
-					["cost"] = { { "i", 12840, 20 } },	-- Minion's Scourgestone
 					["maps"] = { UNDERCITY },
+					["cost"] = { { "i", 12840, 20 } },	-- Minion's Scourgestone
 					["classes"] = { PALADIN },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 50,
