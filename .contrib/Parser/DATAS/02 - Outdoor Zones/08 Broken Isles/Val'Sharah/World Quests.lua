@@ -266,10 +266,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["requireSkill"] = MINING,
 			}),
 			q(41634, {	-- Work Order: Leystone Armguards
-				["requireSkill"] = BLACKSMITHING,
 				["provider"] = { "n", 106901 },	-- Sylvia Hartshorn
-				["lvl"] = 110,
+				["requireSkill"] = BLACKSMITHING,
 				["isWorldQuest"] = true,
+				["lvl"] = 110,
 				["groups"] = {
 					i(123936),	-- Plans: Leystone Armguards [Rank 3] (RECIPE!)
 				},

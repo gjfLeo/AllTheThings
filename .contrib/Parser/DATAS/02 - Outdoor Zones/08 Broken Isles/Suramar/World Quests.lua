@@ -235,9 +235,9 @@ root(ROOTS.Zones, {
 				q(44012),	-- WANTED: Siegemaster Aedrin
 				q(44023),	-- WANTED: Siegemaster Aedrin (rare wq)
 				q(43943, {	-- Withered Army Training
-					["providers"] = {
-						{ "n", 97140 },	-- First Arcanist Thalyssra (Frail)
-						{ "n", 115736 },	-- First Arcanist Thalyssra (Kinda Hot)
+					["qgs"] = {
+						97140,	-- First Arcanist Thalyssra (Frail)
+						115736,	-- First Arcanist Thalyssra (Kinda Hot)
 					},
 					["maps"] = {
 						692,	-- Falanaar Arcway

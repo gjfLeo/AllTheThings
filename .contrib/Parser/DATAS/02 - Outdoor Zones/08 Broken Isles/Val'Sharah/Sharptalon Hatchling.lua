@@ -71,13 +71,13 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				q(44992, {	-- The Smell of Night Elves
 					["provider"] = { "n", 115786 },	-- Sharptalon Hatchling
-					["races"] = ALLIANCE_ONLY,
 					["sourceQuest"] = 44989,	-- Raising Your Sharptalon
+					["races"] = ALLIANCE_ONLY,
 				}),
 				q(44994, {	-- The Smell of Undead
 					["provider"] = { "n", 115786 },	-- Sharptalon Hatchling
-					["races"] = HORDE_ONLY,
 					["sourceQuest"] = 44989,	-- Raising Your Sharptalon
+					["races"] = HORDE_ONLY,
 				}),
 				q(45005, {	-- The Uncongenial Faction
 					["provider"] = { "n", 115786 },	-- Sharptalon Hatchling
