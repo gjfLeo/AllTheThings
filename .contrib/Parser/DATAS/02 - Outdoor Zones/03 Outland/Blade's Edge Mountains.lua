@@ -1087,7 +1087,7 @@ root(ROOTS.Zones, {
 					}),
 					q(10983, {	-- Mog'dorg the Wizened
 						["qg"] = 22940,	-- Grok
-						["altQuests"] = { 10989, }	-- Mog'dorg the Wizened
+						["altQuests"] = { 10989 },	-- Mog'dorg the Wizened
 						["sourceQuest"] = 10984,	-- Speak with the Ogre
 						["coord"] = { 65.0, 68.4, SHATTRATH_CITY },
 						-- #IF ANYCLASSIC
@@ -1099,7 +1099,7 @@ root(ROOTS.Zones, {
 					}),
 					q(10989, {	-- Mog'dorg the Wizened
 						["qg"] = 22995,	-- Chort
-						["altQuests"] = { 10983, }	-- Mog'dorg the Wizened
+						["altQuests"] = { 10983 },	-- Mog'dorg the Wizened
 						["coord"] = { 55.4, 45.2, BLADES_EDGE_MOUNTAINS },
 						-- #IF ANYCLASSIC
 						-- maybe this is true in classic? in Retail was unable to pick up any quest from Mog'dorg until completing this
