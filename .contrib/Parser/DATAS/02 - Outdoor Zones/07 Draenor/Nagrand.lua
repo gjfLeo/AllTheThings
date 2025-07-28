@@ -779,7 +779,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 80083 },	-- Goldmane the Skinner
 						["crs"] = { 80080 },	-- Bolkar the Cruel
 						["coord"] = { 40.4, 76.1, DRAENOR_NAGRAND },
-						["description"] = "Kill |cFFFFD700Bolkar the Cruel|r to loot |cFFFFD700Goldmane's Cage Key|r, then use the key on the cage.";
+						["description"] = "Kill |cFFFFD700Bolkar the Cruel|r to loot |cFFFFD700Goldmane's Cage Key|r, then use the key on the cage.",
 						["groups"] = {
 							follower(170),	-- Goldmane the Skinner
 						},
