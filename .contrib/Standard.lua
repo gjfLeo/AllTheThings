@@ -48,8 +48,8 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.SL, {
 
 Braghe:
 q(questID, {	-- Quest Name
-	["sourceQuests"] = { questID },	-- Quest Name
 	["provider"] = { "n", npcID },	-- Npc Name
+	["sourceQuests"] = { questID },	-- Quest Name
 	["coord"] = { X, Y, mapID },
 	["groups"] = {
 		i(itemID),	-- Item Name
@@ -84,25 +84,25 @@ Extended Quest
 
 Braghe:
 q(questID, {	-- Quest Name
-	["description"] = "Text",
-	["sourceQuests"] = { questID },	-- Quest Name
-	["altQuests"] = { questID },	-- Quest Name
 	["provider"] = { "n", npcID },	-- Npc Name
-	["coord"] = { X, Y, mapID },	-- Map Name
-	["maps"] = { mapID },	-- Map Name
-	["races"] = { raceID },
-	["classes"] = { classID },
-	["customCollect"] = { customID },
-	["cost"] = { { "i", itemID, number }, },	-- numberxItem Name
-	["isDaily"] = true,
-	["isWeekly"] = true,
-	["isMonthly"] = true,
-	["isYearly"] = true,
-	["repeatable"] = true,
-	["isBreadcrumb"] = true,
+	["altQuests"] = { questID },	-- Quest Name
+	["sourceQuests"] = { questID },	-- Quest Name
 	["sourceQuestNumRequired"] = number,
-	["lockCriteria"] = { criteriaID },
+	["coord"] = { X, Y, mapID },	-- Map Name
+	["description"] = "Text",
 	["timeline"] = { timeline },
+	["maps"] = { mapID },	-- Map Name
+	["cost"] = { { "i", itemID, number }, },	-- numberxItem Name
+	["classes"] = { classID },
+	["races"] = { raceID },
+	["lockCriteria"] = { criteriaID },
+	["customCollect"] = { customID },
+	["repeatable"] = true,
+	["isYearly"] = true,
+	["isMonthly"] = true,
+	["isWeekly"] = true,
+	["isDaily"] = true,
+	["isBreadcrumb"] = true,
 	["groups"] = {
 		i(itemID),	-- Item Name
 	},
