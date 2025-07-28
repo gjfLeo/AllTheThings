@@ -19,10 +19,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				q(86416, {	-- Ancient Coffer
+					--["questID"] = 86416,	-- Wowhead data
+					["coord"] = { 60.9, 38.4, KARESH },
 					-- TODO: Bugged. Invisible. Can't be looted 25.06.2025. -Exo
 					-- Vignette not visible while Phase Diving so, it's an "open world" treasure. It may has some prerequisite? Something must be done in order to see the treasure?
-					["coord"] = { 60.9, 38.4, KARESH },
-					--["questID"] = 86416,	-- Wowhead data
 				}),
 				o(548597, {	-- Bladed Rifle Of Unfettered Momentum
 					["coord"] = { 70.0, 70.8, KARESH },	-- could be KARESH_TAZAVESH
@@ -47,9 +47,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				q(89378, {	-- Ethereal Voidforged Container
-					-- TODO: I think this one is bugged as well. No matter how I get to the top of the pillar, there is no container. 25.06.2025. -Exo
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
 					["coord"] = { 52.1, 68.3, KARESH },
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
+					-- TODO: I think this one is bugged as well. No matter how I get to the top of the pillar, there is no container. 25.06.2025. -Exo
 				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },

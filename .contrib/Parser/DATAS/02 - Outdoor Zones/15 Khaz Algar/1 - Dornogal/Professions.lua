@@ -20,44 +20,44 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(84288, {	-- Crafting Orders: Alchemy
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = ALCHEMY,
 				}),
 				q(84274, {	-- Crafting Orders: Blacksmithing
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = BLACKSMITHING,
 				}),
 				q(84285, {	-- Crafting Orders: Engineering
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = ENGINEERING,
 				}),
 				q(84287, {	-- Crafting Orders: Inscription
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = INSCRIPTION,
 				}),
 				q(84279, {	-- Crafting Orders: Jewelcrafting
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = JEWELCRAFTING,
 				}),
 				q(84280, {	-- Crafting Orders: Leatherworking
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = LEATHERWORKING,
 				}),
 				q(84281, {	-- Crafting Orders: Tailoring
-					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["provider"] = { "n", 219108 },	-- Roldira
+					["sourceQuests"] = { 84260 },	-- Crafting to Order
 					["coord"] = { 59.1, 55.8, DORNOGAL },
 					["requireSkill"] = TAILORING,
 				}),

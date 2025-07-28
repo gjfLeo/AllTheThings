@@ -13,14 +13,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			})),
 			n(QUESTS, {
 				q(84225, {	-- Eggstinction
-					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["provider"] = { "n", 231937 },	-- Sally Boltwrench
+					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["coord"] = { 63.4, 66.4, SIREN_ISLE },
 					["isWeekly"] = true,
 				}),
 				q(84241, {	-- Shoreline Stand
-					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["provider"] = { "n", 232297 },	-- Regald Hornfyre
+					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["coord"] = { 43.7, 23.9, SIREN_ISLE },
 					["maps"] = { 2375 },	-- The Forgotten Vault
 					["isWeekly"] = true,
@@ -47,6 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["cost"] = {{"i",232569,1}},	-- Cyclonic Runekey
 				}),
 				q(85811, {	-- Thrayir, Eyes of the Siren
+					["provider"] = { "n", 233582 },	-- Thrayir, Eyes of the Siren
 					["sourceQuests"] = {
 						85800,	-- Cyclonic (spellID 471163)
 						85803,	-- Thunderous (spellID 471169)
@@ -54,7 +55,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						85799,	-- Turbulent (spellID 471162)
 						85802,	-- Whirling (spellID 471167)
 					},
-					["provider"] = { "n", 233582 },	-- Thrayir, Eyes of the Siren
 					["coord"] = { 72.5, 61.3, 2375 },
 					["groups"] = {
 						i(232639),	-- Thrayir, Eyes of the Siren (MOUNT!)

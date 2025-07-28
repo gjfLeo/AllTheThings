@@ -30,11 +30,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["sourceQuest"] = 70853,	-- A Friend for Lubbins
 				["coord"] = { 38.9, 83.3, THE_WAKING_SHORES },
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
+				["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 				["groups"] = {
 					i(200519),	-- Mister Toots (PET!)
 					ach(16399),	-- Lovin' Lubbins
 				},
-				["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 			}),
 		}),
 	}),

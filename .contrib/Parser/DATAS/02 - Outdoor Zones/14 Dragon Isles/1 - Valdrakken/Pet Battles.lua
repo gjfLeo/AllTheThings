@@ -12,10 +12,10 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 				["coord"] = { 10.4, 58.3, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
+				["_drop"] = { "g" },	-- Drop Battle Pet Bandage
 				["groups"] = {
 					i(199175),	-- Lubbins (PET!)
 				},
-				["_drop"] = { "g" },	-- Drop Battle Pet Bandage
 			}),
 			q(70697, {	-- An Expert Opinion
 				["qg"] = 185563,	-- Jyhanna

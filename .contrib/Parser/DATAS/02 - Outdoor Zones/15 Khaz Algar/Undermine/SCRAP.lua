@@ -122,15 +122,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}))),
 				n(QUESTS, {
 					q(85879, {	-- Reduce, Reuse, Resell
+						["qgs"] = {
+							237659,	-- Carlo Greasegrind
+							231409,	-- Smaks Topskimmer
+						},
 						["sourceQuests"] = {
 							86934,	-- Trash to Profit
 							85463,	-- The Cartels of Undermine Renown Unlock
 						},
 						["sourceQuestNumRequired"] = 1,
-						["providers"] = {
-							{ "n", 237659 },	-- Carlo Greasegrind
-							{ "n", 231409 },	-- Smaks Topskimmer
-						},
 						["coords"] = {
 							{ 26.6, 37.2, UNDERMINE },	-- Carlo Greasegrind
 							{ 43.9, 50.9, UNDERMINE },	-- Smaks Topskimmer

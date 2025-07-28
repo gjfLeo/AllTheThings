@@ -16,8 +16,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				})),
 				n(QUESTS, {
 					q(85051, {	-- Beach Comber
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 231783 },	-- Machinist Kromleg
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 41.9, 68.0, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -32,8 +32,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84430, {	-- Crystal Crusade
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 227796 },	-- Sky-Captain Elaena Lancekat
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 69.4, 42.8, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -44,8 +44,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(85589, {	-- Ruffled Pages
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 229716 },	-- Stellin Verasa
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 71.0, 39.6, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -55,8 +55,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84627, {	-- Three Heads of the Deep
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 227796 },	-- Sky-Captain Elaena Lancekat
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 69.4, 42.8, SIREN_ISLE },
 						["isWeekly"] = true,
 					}),

@@ -96,12 +96,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					q(82756, {	-- Sixth Crab
 						["name"] = "Sixth Crab",
-						["description"] = "On tree branch.",
 						["providers"] = {
 							{ "n", 224548 },	-- Pearlescent Shellcrab
 							{ "i", 224185 },	-- Crab-Guiding Branch
 						},
 						["coord"] = { 38.3, 42.0, ISLE_OF_DORN },
+						["description"] = "On tree branch.",
 					}),
 					o(443318, {	-- Tree's Treasure
 						["sourceQuests"] = { 82751, 82752, 82753, 82754, 82755, 82756 },

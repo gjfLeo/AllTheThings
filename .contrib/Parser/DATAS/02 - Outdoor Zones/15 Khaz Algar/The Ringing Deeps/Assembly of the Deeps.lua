@@ -294,26 +294,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(79220, {	-- Renowned with the Assembly of the Deeps
 					["provider"] = { "n", 221390 },	-- Waxmonger Squick <Quatermaster>
 					["coord"] = { 47.5, 32.8, THE_RINGING_DEEPS },
-					["isRepeatable"] = true,
 					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },
+					["isRepeatable"] = true,
 					["groups"] = { i(225245) },	-- Overflowing Trove of the Deeps
 				}),
 			}),
 			n(SNUFFLING, {
 				n(QUESTS, {
 					q(80378, {	-- A Light of the Dark
-						["description"] = "Quest Item drops from Nerubian enemies in the area.\nYou may need to get a few stacks of Unseeming Shift by standing in Blood Pools.",
 						["provider"] = { "i", 217390 },	-- Coagulated Black Blood Clot
 						["coord"] = { 64.8, 80.8, AZJ_KAHET },
+						["description"] = "Quest Item drops from Nerubian enemies in the area.\nYou may need to get a few stacks of Unseeming Shift by standing in Blood Pools.",
 						["groups"] = {
 							i(217391),	-- Coagulated Black Blood (QI!)
 							i(220161),	-- Coagulated Sticks of Blood
 						},
 					}),
 					q(79555, {	-- Deep Wax Galactic
-					["description"] = "Quest Item drops from Nerubian enemies in the area.",
 						["provider"] = { "i", 217385 },	-- Clump of Waxy Excretion
 						["coord"] = { 79.4, 76.5, AZJ_KAHET },
+						["description"] = "Quest Item drops from Nerubian enemies in the area.",
 						["groups"] = {
 							i(212980),	-- Waxy Excretion (QI!)
 						},

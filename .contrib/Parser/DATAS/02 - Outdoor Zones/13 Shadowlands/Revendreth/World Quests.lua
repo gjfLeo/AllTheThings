@@ -153,10 +153,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(59643, {	-- It's Race Day in the Ramparts!
+				ach(14765),	-- Ramparts Racer
 				i(177239, {	-- Racing Permit (EC!)
 					["customCollect"] = "SL_COV_VEN",
 				}),
-				ach(14765),	-- Ramparts Racer
 			}),
 			q(61625, {	-- Jewelcrafting: Sinister Choker
 				["requireSkill"] = JEWELCRAFTING,

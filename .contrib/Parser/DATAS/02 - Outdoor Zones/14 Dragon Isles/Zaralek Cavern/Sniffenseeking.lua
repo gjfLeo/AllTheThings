@@ -189,8 +189,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				n(QUESTS, {
 					-- Intro Quests --
 					q(74876, {	-- The Buddy System
-						["sourceQuests"] = { 75644 },	-- Six Hundred Feet Under
 						["provider"] = { "n", 201426 },	-- Myrrit
+						["sourceQuests"] = { 75644 },	-- Six Hundred Feet Under
 						["coord"] = { 55.6, 57.4, ZARALEK_CAVERN },
 					}),
 					q(75459, {	-- Brand New Digs
@@ -200,23 +200,23 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						},
 					}),
 					q(74877, {	-- Best Friends
+						["provider"] = { "n", 201426 },	-- Myrrit
 						["sourceQuests"] = {
 							74876,	-- The Buddy System
 							DF_ACCOUNT_ZC_UNLOCK_QUEST,
 						},
 						["sourceQuestNumRequired"] = 1,
-						["provider"] = { "n", 201426 },	-- Myrrit
 						["coord"] = { 55.6, 57.4, ZARALEK_CAVERN },
 						["cost"] = { { "i", 204791, 1 } },	-- 1x Squishy Snack
 					}),
 					q(74953, {	-- The Heavy Crown
-						["sourceQuests"] = { 74877 },	-- Best Friends
 						["provider"] = { "n", 201426 },	-- Myrrit
+						["sourceQuests"] = { 74877 },	-- Best Friends
 						["coord"] = { 55.6, 57.4, ZARALEK_CAVERN },
 					}),
 					q(74878, {	-- Old Friends, Dear Friends
-						["sourceQuests"] = { 74953 },	-- The Heavy Crown
 						["provider"] = { "n", 202766 },	-- Myrrit
+						["sourceQuests"] = { 74953 },	-- The Heavy Crown
 						["coord"] = { 54.6, 54.4, ZARALEK_CAVERN },
 					}),
 				}),

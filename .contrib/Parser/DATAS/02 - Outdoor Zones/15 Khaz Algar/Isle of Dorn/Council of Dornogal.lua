@@ -132,8 +132,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 21 },
 						}),
 						q(79282, {	-- The Grand Debut
-							["sourceQuests"] = { 79150 },	-- Thespians at the Proscenium
 							["provider"] = { "n", 214296 },	-- Stage Manager Huberta
+							["sourceQuests"] = { 79150 },	-- Thespians at the Proscenium
 							["coords"] = {
 								{ 56.5, 52.8, ISLE_OF_DORN },
 								{ 49.9, 65.7, THE_PROSCENIUM },

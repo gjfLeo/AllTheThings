@@ -16,8 +16,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				})),
 				n(QUESTS, {
 					q(83753, {	-- Cannon Karma
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 227818 },	-- Skaggit
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 69.3, 43.4, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -30,8 +30,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84001, {	-- Cart Blanche
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 232730 },	-- Machinist Kromleg
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 48.5, 53.0, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -41,8 +41,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84619, {	-- Ooker Dooker Literature Club
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 229716 },	-- Stellin Verasa
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 71.0, 39.6, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -75,8 +75,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84299, {	-- Pirate Plunder
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 227818 },	-- Skaggit
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 69.3, 43.4, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -101,8 +101,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(83827, {	-- Silence the Song
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 232753 },	-- Regald Hornfyre
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 45.2, 67.7, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {

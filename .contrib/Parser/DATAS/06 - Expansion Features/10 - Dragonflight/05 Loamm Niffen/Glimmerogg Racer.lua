@@ -91,8 +91,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				q(74515),	-- Snail Mail
 				q(74514, {	-- The Slowest Fan Club
-					i(204178),	-- Snailcatcher Net
 					n(201875),	-- Aimless Snail
+					i(204178),	-- Snailcatcher Net
 				}),
 			})),
 			n(QUESTS, sharedData({

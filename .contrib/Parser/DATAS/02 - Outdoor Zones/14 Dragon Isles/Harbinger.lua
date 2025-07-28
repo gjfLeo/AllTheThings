@@ -10,77 +10,77 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 			},
 		}),
 		q(81654, {	-- The Harbinger
-			["provider"] = { "n", 221491 },	-- Khadgar's Summons
 			["aqd"] = {
 				["coord"] = { 84.8, 25.2, STORMWIND_CITY },
 			},
 			["hqd"] = {
 				["coord"] = { 41.4, 75.6, ORGRIMMAR },
 			},
+			["provider"] = { "n", 221491 },	-- Khadgar's Summons
 			["groups"] = {
 				i(223988),	-- Dalaran Hearthstone (QI!)
 			},
 		}),
 		q(79010, {	-- Door to the Ren'dorei
+			["provider"] = { "n", 215013 },	-- Alleria Windrunner
 			["sourceQuests"] = {
 				79009,	-- The Harbinger
 				81654,	-- The Harbinger
 			},
 			["sourceQuestNumRequired"] = 1,
-			["provider"] = { "n", 215013 },	-- Alleria Windrunner
 			["coord"] = { 31.4, 41.8, AEGWYNNS_GALLERY },
 		}),
 		q(79011, {	-- Riftwalker Reports
-			["sourceQuests"] = { 79010 },	-- Door to the Ren'dorei
 			["provider"] = { "n", 214702 },	-- Magister Umbric
+			["sourceQuests"] = { 79010 },	-- Door to the Ren'dorei
 			["coord"] = { 27.2, 27.8, TELOGRUS_RIFT },
 		}),
 		q(79012, {	-- Cracks in the Void
-			["sourceQuests"] = { 79010 },	-- Door to the Ren'dorei
 			["provider"] = { "n", 214702 },	-- Magister Umbric
+			["sourceQuests"] = { 79010 },	-- Door to the Ren'dorei
 			["coord"] = { 27.2, 27.8, TELOGRUS_RIFT },
 		}),
 		q(79013, {	-- Galakrond's Unrest
+			["provider"] = { "n", 214698 },	-- Alleria Windrunner
 			["sourceQuests"] = {
 				79011,	-- Riftwalker Reports
 				79012,	-- Cracks in the Void
 			},
-			["provider"] = { "n", 214698 },	-- Alleria Windrunner
 			["coord"] = { 40.7, 60.7, TELOGRUS_RIFT },
 		}),
 		q(79014, {	-- Walk a Mile in Her Shadows
-			["sourceQuests"] = { 79013 },	-- Galakrond's Unrest
 			["provider"] = { "n", 214634 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79013 },	-- Galakrond's Unrest
 			["coord"] = { 56.6, 39, DRAGONBLIGHT },
 		}),
 		q(79015, {	-- Dark Descension
-			["sourceQuests"] = { 79014 },	-- Walk a Mile in Her Shadows
 			["provider"] = { "n", 214759 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79014 },	-- Walk a Mile in Her Shadows
 			["coord"] = { 41.5, 22.7, THE_STORM_PEAKS },
 		}),
 		q(79016, {	-- Legacy of the Void
-			["sourceQuests"] = { 79015 },	-- Dark Descension
 			["provider"] = { "n", 221539 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79015 },	-- Dark Descension
 			["coord"] = { 44, 21, THE_STORM_PEAKS },
 		}),
 		q(79017, {	-- The Path Taken
-			["sourceQuests"] = { 79016 },	-- Legacy of the Void
 			["provider"] = { "n", 214645 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79016 },	-- Legacy of the Void
 			["coord"] = { 22.5, 53.4, EREDATH },
 		}),
 		q(79018, {	-- And Be One Traveler, Long I Stood
-			["sourceQuests"] = { 79017 },	-- The Path Taken
 			["provider"] = { "n", 215597 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79017 },	-- The Path Taken
 			["coord"] = { 22.5, 53.4, EREDATH },
 		}),
 		q(79019, {	-- Defend Telogrus Rift
-			["sourceQuests"] = { 79018 },	-- And Be One Traveler, Long I Stood
 			["provider"] = { "n", 214660 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79018 },	-- And Be One Traveler, Long I Stood
 			["coord"] = { 28.6, 23.8, TELOGRUS_RIFT },
 		}),
 		q(79020, {	-- Null and Void
-			["sourceQuests"] = { 79019 },	-- Defend Telogrus Rift
 			["provider"] = { "n", 216264 },	-- Alleria Windrunner
+			["sourceQuests"] = { 79019 },	-- Defend Telogrus Rift
 			["coord"] = { 43.6, 63.8, TELOGRUS_RIFT },
 			["groups"] = {
 				i(213269),	-- Bow of the Ranger Captain
@@ -91,8 +91,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 			},
 		}),
 		q(79021, {	-- Radiant Warnings
-			["sourceQuests"] = { 79020 },	-- Null and Void
 			["provider"] = { "n", 214657 },	-- Locus-Walker
+			["sourceQuests"] = { 79020 },	-- Null and Void
 			["coord"] = { 50.2, 75.2, TELOGRUS_RIFT },
 			["groups"] = {
 				i(213561),	-- Winding Slitherdrake: Void Scales (MM!)

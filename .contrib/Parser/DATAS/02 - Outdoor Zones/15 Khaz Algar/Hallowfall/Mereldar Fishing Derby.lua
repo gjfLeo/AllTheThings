@@ -16,41 +16,41 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				n(QUESTS, sharedData({ ["isWeekly"] = true }, {
 					q(82778, {	-- Hallowfall Fishing Derby
-						["description"] = "Nibbling Minnow, Arathor Hammerfish, Queen's Lureback",
 						["provider"] = { "n", 226846 },	--  Captain Oathmyt
 						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["description"] = "Nibbling Minnow, Arathor Hammerfish, Queen's Lureback",
 						["groups"] = {
 							currency(DERBY_MARK),
 						},
 					}),
 					q(83529, {	-- Hallowfall Fishing Derby
-						["description"] = "Bismuth Bitterling, Whispering Stargazer, Regal Dottyback",
 						["provider"] = { "n", 226846 },	--  Captain Oathmyt
 						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["description"] = "Bismuth Bitterling, Whispering Stargazer, Regal Dottyback",
 						["groups"] = {
 							currency(DERBY_MARK),
 						},
 					}),
 					q(83530, {	-- Hallowfall Fishing Derby
-						["description"] = "Bloody Perch, Roaring Anglerseeker, Spiked Sea Raven",
 						["provider"] = { "n", 226846 },	--  Captain Oathmyt
 						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["description"] = "Bloody Perch, Roaring Anglerseeker, Spiked Sea Raven",
 						["groups"] = {
 							currency(DERBY_MARK),
 						},
 					}),
 					q(83531, {	-- Hallowfall Fishing Derby
-						["description"] = "Dilly-Dally Dace, Dornish Pike, Azj-Kahet Slum Shark",
 						["provider"] = { "n", 226846 },	--  Captain Oathmyt
 						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["description"] = "Dilly-Dally Dace, Dornish Pike, Azj-Kahet Slum Shark",
 						["groups"] = {
 							currency(DERBY_MARK),
 						},
 					}),
 					q(83532, {	-- Hallowfall Fishing Derby
-						["description"] = "Crystalline Sturgeon, Specular Rainbowfish, Sanguine Dogfish",
 						["provider"] = { "n", 226846 },	--  Captain Oathmyt
 						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["description"] = "Crystalline Sturgeon, Specular Rainbowfish, Sanguine Dogfish",
 						["groups"] = {
 							currency(DERBY_MARK),
 						},

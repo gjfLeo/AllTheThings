@@ -5,8 +5,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 	m(AMIRDRASSIL, {
 		n(QUESTS, {
 			q(78643, {	-- Fair Skies and Strong Winds
-				["sourceQuests"] = { 76283 },	-- Andu-falah-dor
 				["provider"] = { "n", 187678 },	-- Alexstrasza the Life-Binder
+				["sourceQuests"] = { 76283 },	-- Andu-falah-dor
 				["coord"] = { 58.0, 35.7, VALDRAKKEN },
 				["groups"] = {
 					ach(20206, {	-- Champion of the Dragonflights
@@ -15,18 +15,18 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 				},
 			}),
 			q(78863, {	-- A Place Beneath the Boughs
-				["sourceQuests"] = { 78643 },	-- Fair Skies and Strong Winds
 				["provider"] = { "n", 187678 },	-- Alexstrasza the Life-Binder
+				["sourceQuests"] = { 78643 },	-- Fair Skies and Strong Winds
 				["coord"] = { 58.0, 35.7, VALDRAKKEN },
 			}),
 			q(78865, {	-- Siblings Until the End
-				["sourceQuests"] = { 78643 },	-- Fair Skies and Strong Winds
 				["provider"] = { "n", 214051 },	-- Vyranoth
+				["sourceQuests"] = { 78643 },	-- Fair Skies and Strong Winds
 				["coord"] = { 57.1, 37.6, VALDRAKKEN },
 			}),
 			q(78864, {	-- The Returning
-				["sourceQuests"] = { 78863 },	-- A Place Beneath the Boughs
 				["provider"] = { "n", 216067 },	-- Shandris Feathermoon
+				["sourceQuests"] = { 78863 },	-- A Place Beneath the Boughs
 				["coord"] = { 51, 60.6, AMIRDRASSIL },
 				["groups"] = {
 					i(213004),	-- Violet Kaldorei Backpack (COSMETIC!)
@@ -40,26 +40,26 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80069, {	-- Tears of Teldrassil
-				["sourceQuests"] = { 82229 },	-- An Uncommon Request
 				["provider"] = { "n", 218623 },	-- Kelestra
+				["sourceQuests"] = { 82229 },	-- An Uncommon Request
 				["coord"] = { 72.4, 72.6, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80071, {	-- Fact Finding
-				["sourceQuests"] = { 80069 },	-- Tears of Teldrassil
 				["provider"] = { "n", 218697 },	-- Kelestra
+				["sourceQuests"] = { 80069 },	-- Tears of Teldrassil
 				["coord"] = { 73, 79.4, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80072, {	-- A Primalist Point of View
-				["sourceQuests"] = { 80071 },	-- Fact Finding
 				["provider"] = { "n", 218698 },	-- Kelestra
+				["sourceQuests"] = { 80071 },	-- Fact Finding
 				["coord"] = { 33.6, 18.8, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80073, {	-- Bones of a Bygone Battle
-				["sourceQuests"] = { 80072 },	-- A Primalist Point of View
 				["provider"] = { "n", 218698 },	-- Kelestra
+				["sourceQuests"] = { 80072 },	-- A Primalist Point of View
 				["coord"] = { 33.6, 18.8, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 				["groups"] = {
@@ -67,14 +67,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }
 				},
 			}),
 			q(80075, {	-- A Barrow Den Burial
-				["sourceQuests"] = { 80073 },	-- Bones of a Bygone Battle
 				["provider"] = { "n", 218701 },	-- Kelestra
+				["sourceQuests"] = { 80073 },	-- Bones of a Bygone Battle
 				["coord"] = { 88.8, 20.9, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(80077, {	-- Sins of the Sister
-				["sourceQuests"] = { 80075 },	-- A Barrow Den Burial
 				["provider"] = { "n", 218785 },	-- Kelestra
+				["sourceQuests"] = { 80075 },	-- A Barrow Den Burial
 				["coord"] = { 72.2, 71.8, AMIRDRASSIL },
 				["timeline"] = { ADDED_10_2_7 },
 				["groups"] = {

@@ -16,14 +16,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				})),
 				n(QUESTS, {
 					q(84248, {	-- A Ritual of Runes
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 233139 },	-- Machinist Kromleg
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 51.4, 48.2, SIREN_ISLE },
 						["isWeekly"] = true,
 					}),
 					q(83932, {	-- Historical Documents
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 229716 },	-- Stellin Verasa
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 71.0, 39.6, SIREN_ISLE },
 						["isWeekly"] = true,
 						["groups"] = {
@@ -34,8 +34,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 					q(84432, {	-- Longship Landing
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 228096 },	-- Dawn
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coords"] = {
 							{ 69.1, 43.0, SIREN_ISLE },
 							{ 71.4, 44.1, SIREN_ISLE },
@@ -43,14 +43,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["isWeekly"] = true,
 					}),
 					q(84222, {	-- Secure the Perimeter
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 227796 },	-- Sky-Captain Elaena Lancekat
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coord"] = { 69.4, 42.8, SIREN_ISLE },
 						["isWeekly"] = true,
 					}),
 					q(84680, {	-- Rock 'n' Stone Revival
-						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["provider"] = { "n", 228096 },	-- Dawn
+						["sourceQuests"] = { 84725 },	-- The Circlet Calls
 						["coords"] = {
 							{ 69.1, 43.0, SIREN_ISLE },
 							{ 71.4, 44.1, SIREN_ISLE },
