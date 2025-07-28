@@ -49,9 +49,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					q(64297, {["name"] = "Day 5"}),	-- Day 5
 					q(64299, {["name"] = "Day 6"}),	-- Day 6
 					q(64292, {	-- Maelie, The Wanderer
-						["description"] = "After you find Maelie 6 times, return to Tinybell and accept responsibility for the wayward unicorn.",
 						["provider"] = { "n", 179930 },	-- Tinybell
 						["coord"] = { 60.7, 21.8, KORTHIA },
+						["description"] = "After you find Maelie 6 times, return to Tinybell and accept responsibility for the wayward unicorn.",
 						["groups"] = {
 							i(186643),	-- Reins of the Wanderer (MOUNT!)
 						},

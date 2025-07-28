@@ -63,31 +63,31 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 		n(QUESTS, {
 			cl(DRUID, sharedData({ ["classes"] = { DRUID } }, {
 				q(59350, {	-- A Druid's Form [A]
-					["sourceQuests"] = { 55639 },	-- Who Lurks in the Pit [A]
 					["provider"] = { "n", 156932 },	-- Ralia Dreamchaster
+					["sourceQuests"] = { 55639 },	-- Who Lurks in the Pit [A]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59951, {	-- A Druid's Form [H]
-					["sourceQuests"] = { 59949 },	-- Who Lurks in the Pit [H]
 					["provider"] = { "n", 166575 },	-- Crenna Earth-Daughter
+					["sourceQuests"] = { 59949 },	-- Who Lurks in the Pit [H]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(HUNTER, sharedData({ ["classes"] = { HUNTER } }, {
 				q(59342, {	-- Taming the Wilds [A]
-					["sourceQuests"] = { 55173 },	-- Northbound [A]
 					["provider"] = { "n", 154327 },	-- Austin Huxworth
+					["sourceQuests"] = { 55173 },	-- Northbound [A]
 					["coord"] = { 62.7, 69.8, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59355, {	-- A Hunter's Trap [A]
+					["provider"] = { "n", 161666 },	-- Austin Huxworth
 					["sourceQuests"] = {
 						55882,	-- Message to Base [A]
 						55639,	-- Who Lurks in the Pit [A]
 					},
-					["provider"] = { "n", 161666 },	-- Austin Huxworth
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -97,26 +97,26 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59356, {	-- Hunting the Stalker [A]
-					["sourceQuests"] = { 59355 },	-- A Hunter's Trap [A]
 					["provider"] = { "n", 161666 },	-- Austin Huxworth
+					["sourceQuests"] = { 59355 },	-- A Hunter's Trap [A]
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(60168, {	-- The Art of Taming [A]
-					["sourceQuests"] = { 59356 },	-- Hunting the Stalker [A]
 					["provider"] = { "n", 161666 },	-- Austin Huxworth
+					["sourceQuests"] = { 59356 },	-- Hunting the Stalker [A]
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59937, {	-- Taming the Wilds [H]
-					["sourceQuests"] = { 59935 },	-- Northbound [H]
 					["provider"] = { "n", 166996 },	-- Mithdran Dawntracker
+					["sourceQuests"] = { 59935 },	-- Northbound [H]
 					["coord"] = { 62.7, 69.8, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(59952, {	-- A Hunter's Trap [H]
-					["sourceQuests"] = { 59947 },	-- Message to Base [H]
 					["provider"] = { "n", 167215 },	-- Mithdran Dawntracker
+					["sourceQuests"] = { 59947 },	-- Message to Base [H]
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -126,22 +126,22 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59953, {	-- Hunting the Stalker [H]
-					["sourceQuests"] = { 59952 },	-- A Hunter's Trap [H]
 					["provider"] = { "n", 167215 },	-- Mithdran Dawntracker
+					["sourceQuests"] = { 59952 },	-- A Hunter's Trap [H]
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60162, {	-- The Art of Taming [H]
-					["sourceQuests"] = { 59953 },	-- Hunting the Stalker [H]
 					["provider"] = { "n", 167215 },	-- Mithdran Dawntracker
+					["sourceQuests"] = { 59953 },	-- Hunting the Stalker [H]
 					["coord"] = { 52.4, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(MAGE, sharedData({ ["classes"] = { MAGE } }, {
 				q(59352, {	-- A Mage's Knowledge [A]
-					["sourceQuests"] = { 55882 },	-- Message to Base [A]
 					["provider"] = { "n", 156886 },	-- Meredy Huntswell
+					["sourceQuests"] = { 55882 },	-- Message to Base [A]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -149,14 +149,14 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59354, {	-- The Best Way to Use Sheep [A]
-					["sourceQuests"] = { 59352 },	-- A Mage's Knowledge [A]
 					["provider"] = { "n", 156886 },	-- Meredy Huntswell
+					["sourceQuests"] = { 59352 },	-- A Mage's Knowledge [A]
 					["coord"] = { 52.2, 55.4, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59954, {	-- A Mage's Knowledge [H]
-					["sourceQuests"] = { 59947 },	-- Message to Base [H]
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59947 },	-- Message to Base [H]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -164,112 +164,112 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59955, {	-- The Best Way to Use Sheep [H]
-					["sourceQuests"] = { 59954 },	-- A Mage's Knowledge
 					["provider"] = { "n", 167309 },	-- Herbert Gloomburst
+					["sourceQuests"] = { 59954 },	-- A Mage's Knowledge
 					["coord"] = { 52.2, 55.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(MONK, sharedData({ ["classes"] = { MONK } }, {
 				q(59339, {	-- Enhanced Combat Tactics [A]
-					["sourceQuests"] = { 55174 },	-- Cooking Meat [A]
 					["provider"] = { "n", 156651 },	-- Captain Garrick
+					["sourceQuests"] = { 55174 },	-- Cooking Meat [A]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59347, {	-- A Monk's Focus [A]
+					["provider"] = { "n", 156885 },	-- Kee-La
 					["sourceQuests"] = {
 						55882,	-- Message to Base [A]
 						55639,	-- Who Lurks in the Pit [A]
 					},
-					["provider"] = { "n", 156885 },	-- Kee-La
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59349, {	-- One Last Spar [A]
-					["sourceQuests"] = { 59347 },	-- A Monk's Focus
 					["provider"] = { "n", 164835 },	-- Kee-La
+					["sourceQuests"] = { 59347 },	-- A Monk's Focus
 					["coord"] = { 52.6, 49.4, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59934, {	-- Enhanced Combat Tactics [H]
-					["sourceQuests"] = { 59932 },	-- Cooking Meat [H]
 					["provider"] = { "n", 166906 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59932 },	-- Cooking Meat [H]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(59956, {	-- A Monk's Focus [H]
+					["provider"] = { "n", 167308 },	-- Bo
 					["sourceQuests"] = {
 						59947,	-- Message to Base [H]
 						59949,	-- Who Lurks in the Pit [H]
 					},
-					["provider"] = { "n", 167308 },	-- Bo
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(59957, {	-- One Last Spar [H]
-					["sourceQuests"] = { 59956 },	-- A Monk's Focus [H]
 					["provider"] = { "n", 167537 },	-- Bo
+					["sourceQuests"] = { 59956 },	-- A Monk's Focus [H]
 					["coord"] = { 52.6, 49.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(PALADIN, sharedData({ ["classes"] = { PALADIN } }, {
 				q(58923, {	-- A Paladin's Service [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["provider"] = { "n", 156801 },	-- Private Cole
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["coord"] = { 52.0, 55.4, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58946, {	-- The Divine's Shield [A]
-					["sourceQuests"] = { 58923 },	-- A Paladin's Service [A]
 					["provider"] = { "n", 162998 },	-- Yorah
+					["sourceQuests"] = { 58923 },	-- A Paladin's Service [A]
 					["coord"] = { 57.5, 52.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59958, {	-- A Paladin's Service [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["coord"] = { 52.0, 55.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60174, {	-- The Divine's Shield [H]
-					["sourceQuests"] = { 59958 },	-- A Paladin's Service [H]
 					["provider"] = { "n", 167179 },	-- Daelya Twilightsbane
+					["sourceQuests"] = { 59958 },	-- A Paladin's Service [H]
 					["coord"] = { 57.5, 52.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(PRIEST, sharedData({ ["classes"] = { PRIEST } }, {
 				q(58953, {	-- A Priest's End [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["provider"] = { "n", 156801 },	-- Private Cole
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58960, {	-- Resurrecting the Recruits [A]
-					["sourceQuests"] = { 58953 },	-- A Priest's End [A]
 					["provider"] = { "n", 163108 },	-- Branven Hammerheart
+					["sourceQuests"] = { 58953 },	-- A Priest's End [A]
 					["coord"] = { 56.1, 53.6, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59961, {	-- A Priest's End [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(59965, {	-- Resurrecting the Recruits [H]
-					["sourceQuests"] = { 59961 },	-- A Priest's End [H]
 					["provider"] = { "n", 167188 },	-- Sha'zul
+					["sourceQuests"] = { 59961 },	-- A Priest's End [H]
 					["coord"] = { 56.1, 53.6, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(ROGUE, sharedData({ ["classes"] = { ROGUE } }, {
 				q(58917, {	-- A Rogue's End [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 156801 },	-- Private Cole
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -277,14 +277,14 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(58933, {	-- The Deadliest of Poisons [A]
-					["sourceQuests"] = { 58917 },	-- A Rogue's End [A]
 					["provider"] = { "n", 163024 },	-- Coulston Nereus
+					["sourceQuests"] = { 58917 },	-- A Rogue's End [A]
 					["coord"] = { 45.6, 56.1, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59967, {	-- A Rogue's End [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -292,16 +292,16 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59968, {	-- The Deadliest of Poisons [H]
-					["sourceQuests"] = { 59967 },	-- A Rogue's End [H]
 					["provider"] = { "n", 167586 },	-- Drizza Sidestabber
+					["sourceQuests"] = { 59967 },	-- A Rogue's End [H]
 					["coord"] = { 45.6, 56.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 			})),
 			cl(SHAMAN, sharedData({ ["classes"] = { SHAMAN } }, {
 				q(59002, {	-- A Shaman's Duty
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 163329 },	-- Ghostwolf
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["coord"] = { 52.3, 55.6, EXILES_REACH },
 					["groups"] = {
 						i(174968),	-- Veil Blossom (QI!)
@@ -310,8 +310,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 			})),
 			cl(WARLOCK, sharedData({ ["classes"] = { WARLOCK } }, {
 				q(58962, {	-- A Warlock's Bargain [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 156801 },	-- Private Cole
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -319,8 +319,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59970, {	-- A Warlock's Bargain [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -330,26 +330,26 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 			})),
 			cl(WARRIOR, sharedData({ ["classes"] = { WARRIOR } }, {
 				q(58914, {	-- A Warrior's End [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 156801 },	-- Private Cole
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58915, {	-- Hjalmar's Final Execution [A]
-					["sourceQuests"] = { 58914 },	-- A Warrior's End [A]
 					["provider"] = { "n", 162943 },	-- Hjalmar the Undying
+					["sourceQuests"] = { 58914 },	-- A Warrior's End [A]
 					["coord"] = { 51.5, 47.8, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59971, {	-- A Warrior's End [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["provider"] = { "n", 167216 },	-- Grunt Throg
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies
 					["coord"] = { 52.0, 55.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(59972, {	-- Hjalmar's Final Execution [H]
-					["sourceQuests"] = { 59971 },	-- A Warrior's End [H]
 					["provider"] = { "n", 162943 },	-- Hjalmar the Undying
+					["sourceQuests"] = { 59971 },	-- A Warrior's End [H]
 					["coord"] = { 51.5, 47.8, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
@@ -364,28 +364,28 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["races"] = HORDE_ONLY,
 				}),
 				q(58209, {	-- Stand Your Ground [A]
-					["sourceQuests"] = { 56775 },	-- Warming Up [A]
 					["provider"] = { "n", 160664 },	-- Private Cole
+					["sourceQuests"] = { 56775 },	-- Warming Up [A]
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59927, {	-- Stand Your Ground [H]
-					["sourceQuests"] = { 59926 },	-- Warming Up [H]
 					["provider"] = { "n", 166583 },	-- Grunt Throg
+					["sourceQuests"] = { 59926 },	-- Warming Up [H]
 					["races"] = HORDE_ONLY,
 				}),
 				q(58208, {	-- Brace for Impact [A]
-					["sourceQuests"] = { 58209 },	-- Stand Your Ground [A]
 					["provider"] = { "n", 160664 },	-- Private Cole
+					["sourceQuests"] = { 58209 },	-- Stand Your Ground [A]
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59928, {	-- Brace for Impact [H]
-					["sourceQuests"] = { 59927 },	-- Stand Your Ground [H]
 					["provider"] = { "n", 166583 },	-- Grunt Throg
+					["sourceQuests"] = { 59927 },	-- Stand Your Ground [H]
 					["races"] = HORDE_ONLY,
 				}),
 				q(55122, {	-- Murloc Mania [A]
-					["sourceQuests"] = { 58208 },	-- Brace for Impact [A]
 					["provider"] = { "n", 156626 },	-- Captain Garrick
+					["sourceQuests"] = { 58208 },	-- Brace for Impact [A]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -393,8 +393,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59929, {	-- Murloc Mania [H]
-					["sourceQuests"] = { 59928 },	-- Brace for Impact [H]
 					["provider"] = { "n", 166782 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59928 },	-- Brace for Impact [H]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -402,8 +402,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(54951, {	-- Emergency First Aid [A]
-					["sourceQuests"] = { 55122 },	-- Murloc Mania [A]
 					["provider"] = { "n", 156626 },	-- Captain Garrick
+					["sourceQuests"] = { 55122 },	-- Murloc Mania [A]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -411,8 +411,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59930, {	-- Emergency First Aid [H]
-					["sourceQuests"] = { 59929 },	-- Murloc Mania [H]
 					["provider"] = { "n", 166782 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59929 },	-- Murloc Mania [H]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -420,20 +420,20 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(54952, {	-- Finding the Lost Expedition [A]
-					["sourceQuests"] = { 54951 },	-- Emergency First Aid [A]
 					["provider"] = { "n", 156626 },	-- Captain Garrick
+					["sourceQuests"] = { 54951 },	-- Emergency First Aid [A]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59931, {	-- Finding the Lost Expedition [H]
-					["sourceQuests"] = { 59930 },	-- Emergency First Aid [H]
 					["provider"] = { "n", 166782 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59930 },	-- Emergency First Aid [H]
 					["coord"] = { 61.8, 82.8, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(55174, {	-- Cooking Meat [A]
-					["sourceQuests"] = { 54952 },	-- Finding the Lost Expedition [A]
 					["provider"] = { "n", 156651 },	-- Captain Garrick
+					["sourceQuests"] = { 54952 },	-- Finding the Lost Expedition [A]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -442,8 +442,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59932, {	-- Cooking Meat [H]
-					["sourceQuests"] = { 59931 },	-- Finding the Lost Expedition [H]
 					["provider"] = { "n", 166906 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59931 },	-- Finding the Lost Expedition [H]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -452,79 +452,79 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59254, {	-- Enhanced Combat Tactics [A]
-					["sourceQuests"] = { 55174 },	-- Cooking Meat [A]
 					["provider"] = { "n", 156651 },	-- Captain Garrick
+					["sourceQuests"] = { 55174 },	-- Cooking Meat [A]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["classes"] = exclude({ HUNTER, MONK }, ALL_CLASSES),
 				}),
 				q(59933, {	-- Enhanced Combat Tactics [H]
-					["sourceQuests"] = { 59932 },	-- Cooking Meat [H]
 					["provider"] = { "n", 166906 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59932 },	-- Cooking Meat [H]
 					["coord"] = { 58.3, 74.6, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["classes"] = exclude({ HUNTER, MONK }, ALL_CLASSES),
 				}),
 				q(55173, {	-- Northbound [A]
+					["provider"] = { "n", 175031 },	-- Alaria
 					["sourceQuests"] = {
 						59254,	-- Enhanced Combat Tactics [A]
 						55174,	-- Cooking Meat [A] [Hunter]
 						59339,	-- Enhanced Combat Tactics [A] [Monk]
 					},
-					["provider"] = { "n", 175031 },	-- Alaria
+					["sourceQuestNumRequired"] = 1,
 					["coord"] = { 58.3, 74.4, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
-					["sourceQuestNumRequired"] = 1,
 					["groups"] = {
 						i(167206),	-- Fire Essence (QI!)
 					},
 				}),
 				q(59935, {	-- Northbound [H]
+					["qgs"] = {
+						166854,	-- Won'sa
+						175030,	-- Won'sa (Note: this creatureID here at least from 11.0.5)
+					},
 					["sourceQuests"] = {
 						59933,	-- Enhanced Combat Tactics [H]
 						59932,	-- Cooking Meat [H] [Hunter]
 						59934,	-- Enhanced Combat Tactics [H] [Monk]
 					},
-					["providers"] = {
-						{ "n", 166854 },	-- Won'sa
-						{ "n", 175030 },	-- Won'sa (Note: this creatureID here at least from 11.0.5)
-					},
+					["sourceQuestNumRequired"] = 1,
 					["coord"] = { 58.3, 74.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
-					["sourceQuestNumRequired"] = 1,
 					["groups"] = {
 						i(167206),	-- Fire Essence (QI!)
 					},
 				}),
 				q(55186, {	-- Down with the Quilboar [A]
+					["provider"] = { "n", 154327 },	-- Austin Huxworth
 					["sourceQuests"] = {
 						55173,	-- Northbound [A]
 						59342,	-- Taming the Wilds [A] [Hunter]
 					},
-					["coord"] = { 62.7, 69.8, EXILES_REACH },
-					["provider"] = { "n", 154327 },	-- Austin Huxworth
-					["races"] = ALLIANCE_ONLY,
 					["sourceQuestNumRequired"] = 1,
+					["coord"] = { 62.7, 69.8, EXILES_REACH },
+					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59938, {	-- Down with the Quilboar [H]
+					["provider"] = { "n", 166996 },	-- Mithdran Dawntracker
 					["sourceQuests"] = {
 						59935,	-- Northbound [H]
 						59937,	-- Taming the Wilds [H] [Hunter]
 					},
-					["coord"] = { 62.7, 69.8, EXILES_REACH },
-					["provider"] = { "n", 166996 },	-- Mithdran Dawntracker
-					["races"] = HORDE_ONLY,
 					["sourceQuestNumRequired"] = 1,
+					["coord"] = { 62.7, 69.8, EXILES_REACH },
+					["races"] = HORDE_ONLY,
 				}),
 				q(55184, {	-- Forbidden Quilboar Necromancy [A]
+					["provider"] = { "n", 154327 },	-- Austin Huxworth
 					["sourceQuests"] = {
 						55173,	-- Northbound [A]
 						59342,	-- Taming the Wilds [A] [Hunter]
 					},
-					["coord"] = { 62.7, 69.8, EXILES_REACH },
-					["provider"] = { "n", 154327 },	-- Austin Huxworth
-					["races"] = ALLIANCE_ONLY,
 					["sourceQuestNumRequired"] = 1,
+					["coord"] = { 62.7, 69.8, EXILES_REACH },
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(174789, { ["timeline"] = { REMOVED_11_0_0 } }),	-- Dented Plate Mitts
 						i(174788, { ["timeline"] = { REMOVED_11_0_0 } }),	-- Linked Mail Gloves
@@ -537,14 +537,14 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59939, {	-- Forbidden Quilboar Necromancy [H]
+					["provider"] = { "n", 166996 },	-- Mithdran Dawntracker
 					["sourceQuests"] = {
 						59935,	-- Northbound [H]
 						59937,	-- Taming the Wilds [H] [Hunter]
 					},
-					["coord"] = { 62.7, 69.8, EXILES_REACH },
-					["provider"] = { "n", 166996 },	-- Mithdran Dawntracker
-					["races"] = HORDE_ONLY,
 					["sourceQuestNumRequired"] = 1,
+					["coord"] = { 62.7, 69.8, EXILES_REACH },
+					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(174789, { ["timeline"] = { REMOVED_11_0_0 } }),	-- Dented Plate Mitts
 						i(174788, { ["timeline"] = { REMOVED_11_0_0 } }),	-- Linked Mail Gloves
@@ -557,26 +557,26 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55193, {	-- The Scout-o-Matic 5000
+					["provider"] = { "n", 149899 },	-- Lindie Springstock
 					["sourceQuests"] = {
 						55186,	-- Down with the Quilboar [A]
 						55184,	-- Forbidden Quilboar Necromancy [A]
 					},
 					["coord"] = { 56.1, 59.1, EXILES_REACH },
-					["provider"] = { "n", 149899 },	-- Lindie Springstock
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59940, {	-- The Choppy Booster Mk 5
+					["provider"] = { "n", 167019 },	-- Cork Fizzlepop
 					["sourceQuests"] = {
 						59938,	-- Down with the Quilboar [H]
 						59939,	-- Forbidden Quilboar Necromancy [H]
 					},
 					["coord"] = { 56.1, 59.1, EXILES_REACH },
-					["provider"] = { "n", 167019 },	-- Cork Fizzlepop
 					["races"] = HORDE_ONLY,
 				}),
 				q(56034, {	-- Re-sizing the Situation [A]
-					["sourceQuests"] = { 55193 },	-- The Scout-o-Matic 5000
 					["provider"] = { "n", 149899 },	-- Lindie Springstock
+					["sourceQuests"] = { 55193 },	-- The Scout-o-Matic 5000
 					["coord"] = { 56.1, 59.1, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -584,8 +584,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59941, {	-- Re-sizing the Situation [H]
-					["sourceQuests"] = { 59940 },	-- The Choppy Booster Mk 5
 					["provider"] = { "n", 167019 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 59940 },	-- The Choppy Booster Mk 5
 					["coord"] = { 56.1, 59.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -593,8 +593,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55879, {	-- Ride of the Scientifically Enhanced Boar
-					["sourceQuests"] = { 56034 },	-- Re-sizing the Situation [A]
 					["provider"] = { "n", 156280 },	-- Captain Garrick
+					["sourceQuests"] = { 56034 },	-- Re-sizing the Situation [A]
 					["coord"] = { 56.2, 59.0, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -608,8 +608,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59942, {	-- The Re-Deather
-					["sourceQuests"] = { 59941 },	-- Re-sizing the Situation [H]
 					["provider"] = { "n", 167019 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 59941 },	-- Re-sizing the Situation [H]
 					["coord"] = { 56.1, 59.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -623,8 +623,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55194, {	-- Stocking Up on Supplies [A]
-					["sourceQuests"] = { 55879 },	-- Ride of the Scientifically Enhanced Boar
 					["provider"] = { "n", 156807 },	-- Captain Garrick
+					["sourceQuests"] = { 55879 },	-- Ride of the Scientifically Enhanced Boar
 					["coord"] = { 52.3, 55.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -632,8 +632,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59950, {	-- Stocking Up on Supplies [H]
-					["sourceQuests"] = { 59942 },	-- The Re-Deather
 					["provider"] = { "n", 167212 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59942 },	-- The Re-Deather
 					["coord"] = { 52.1, 55.3, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -641,32 +641,32 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55196, {	-- The Harpy Problem [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["provider"] = { "n", 156833 },	-- Henry Garrick
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["coord"] = { 53.5, 52.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59943, {	-- The Harpy Problem [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["provider"] = { "n", 167219 },	-- Shuja Grimaxe
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["coord"] = { 53.7, 52.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(55764, {	-- Harpy Culling [A]
-					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["provider"] = { "n", 156860 },	-- Kee-La
+					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["coord"] = { 56.9, 46.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59945, {	-- Harpy Culling [H]
-					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["provider"] = { "n", 167291 },	-- Bo
+					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["coord"] = { 56.9, 46.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(55881, {	-- Purge the Totems [A]
-					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["provider"] = { "n", 156859 },	-- Henry Garrick
+					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["coord"] = { 56.9, 46.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -678,8 +678,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59946, {	-- Purge the Totems [H]
-					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["provider"] = { "n", 167291 },	-- Bo
+					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["coord"] = { 56.9, 46.2, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -691,8 +691,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55763, {	-- The Rescue of Meredy Huntswell
-					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["provider"] = { "n", 156859 },	-- Henry Garrick
+					["sourceQuests"] = { 55196 },	-- The Harpy Problem [A]
 					["coord"] = { 56.8, 46.1, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -700,8 +700,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59944, {	-- The Rescue of Herbert Gloomburst
-					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["provider"] = { "n", 167290 },	-- Shuja Grimaxe
+					["sourceQuests"] = { 59943 },	-- The Harpy Problem [H]
 					["coord"] = { 56.8, 46.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -709,12 +709,12 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55882, {	-- Message to Base [A]
+					["provider"] = { "n", 156859 },	-- Henry Garrick
 					["sourceQuests"] = {
 						55764,	-- Harpy Culling [A]
 						55881,	-- Purge the Totems [A]
 						55763,	-- The Rescue of Meredy Huntswell
 					},
-					["provider"] = { "n", 156859 },	-- Henry Garrick
 					["coord"] = { 56.8, 46.1, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -725,12 +725,12 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59947, {	-- Message to Base [H]
+					["provider"] = { "n", 167290 },	-- Shuja Grimaxe
 					["sourceQuests"] = {
 						59945,	-- Harpy Culling [H]
 						59946,	-- Purge the Totems [H]
 						59944,	-- The Rescue of Herbert Gloomburst
 					},
-					["provider"] = { "n", 167290 },	-- Shuja Grimaxe
 					["coord"] = { 56.8, 46.1, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -741,20 +741,20 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55965, {	-- Westward Bound [A]
-					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["provider"] = { "n", 154300 },	-- Bjorn Stouthands
+					["sourceQuests"] = { 55194 },	-- Stocking Up on Supplies [A]
 					["coord"] = { 53.0, 55.0, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59948, {	-- Westward Bound [H]
-					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["provider"] = { "n", 167221 },	-- Lana Jordan
+					["sourceQuests"] = { 59950 },	-- Stocking Up on Supplies [H]
 					["coord"] = { 52.9, 56.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(55639, {	-- Who Lurks in the Pit [A]
-					["sourceQuests"] = { 55965 },	-- Westward Bound [A]
 					["provider"] = { "n", 156803 },	-- Alaria
+					["sourceQuests"] = { 55965 },	-- Westward Bound [A]
 					["coord"] = { 51.1, 59.5, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -765,8 +765,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59949, {	-- Who Lurks in the Pit [H]
-					["sourceQuests"] = { 59948 },	-- Westward Bound [H]
 					["provider"] = { "n", 167225 },	-- Lana Jordan
+					["sourceQuests"] = { 59948 },	-- Westward Bound [H]
 					["coord"] = { 51.1, 59.5, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -778,15 +778,16 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 				}),
 				q(85678, {	-- Repair Yourself [A]
 					["coord"] = { 52.2, 55.2, EXILES_REACH },
-					["races"] = ALLIANCE_ONLY,
 					["timeline"] = { ADDED_11_1_7 },
+					["races"] = ALLIANCE_ONLY,
 				}),
 				q(85679, {	-- Repair Yourself [H]
 					["coord"] = { 52.4, 55.6, EXILES_REACH },
-					["races"] = HORDE_ONLY,
 					["timeline"] = { ADDED_11_1_7 },
+					["races"] = HORDE_ONLY,
 				}),
 				q(56344, {	-- To Darkmaul Citadel [A]
+					["provider"] = { "n", 156807 },	-- Captain Garrick
 					["sourceQuests"] = {
 						55882,	-- Message to Base [A]
 						55639,	-- Who Lurks in the Pit [A]
@@ -798,11 +799,11 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 						85678,	-- Repair Yourself
 						-- #endif
 					},
-					["provider"] = { "n", 156807 },	-- Captain Garrick
 					["coord"] = { 52.1, 55.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59975, {	-- To Darkmaul Citadel [H]
+					["provider"] = { "n", 167212 },	-- Warlord Breka Grimaxe
 					["sourceQuests"] = {
 						59947,	-- Message to Base [H]
 						59949,	-- Who Lurks in the Pit [H]
@@ -815,36 +816,35 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 						-- #endif
 					},
 					["coord"] = { 52.1, 55.3, EXILES_REACH },
-					["provider"] = { "n", 167212 },	-- Warlord Breka Grimaxe
 					["races"] = HORDE_ONLY,
 				}),
 				q(55981, {	-- Right Beneath Their Eyes [A]
+					["provider"] = { "n", 156941 },	-- Captain Garrick
 					["sourceQuests"] = { 56344 },	-- To Darkmaul Citadel [A]
 					["coord"] = { 48.9, 49.2, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
-					["provider"] = { "n", 156941 },	-- Captain Garrick
 				}),
 				q(59978, {	-- Right Beneath Their Eyes [H]
+					["provider"] = { "n", 167596 },	-- Warlord Breka Grimaxe
 					["sourceQuests"] = { 59975 },	-- To Darkmaul Citadel [H]
 					["coord"] = { 48.9, 49.3, EXILES_REACH },
 					["races"] = HORDE_ONLY,
-					["provider"] = { "n", 167596 },	-- Warlord Breka Grimaxe
 				}),
 				q(55989, {	-- Catapult Destruction [A]
-					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["provider"] = { "n", 156960 },	-- Meredy Huntswell
+					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["coord"] = { 40.2, 32.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59980, {	-- Catapult Destruction [H]
-					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["provider"] = { "n", 167631 },	-- Herbert Gloomburst
+					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["coord"] = { 40.3, 32.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(55990, {	-- Controlling their Stones [A]
-					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["provider"] = { "n", 156961 },	-- Captain Garrick
+					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["coord"] = { 40.1, 32.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -854,8 +854,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59981, {	-- Controlling Their Stones [H]
-					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["provider"] = { "n", 167633 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["coord"] = { 40.2, 32.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -865,8 +865,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55988, {	-- Like Ogres to the Slaughter [A]
-					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["provider"] = { "n", 156942 },	-- Henry Garrick
+					["sourceQuests"] = { 55981 },	-- Right Beneath Their Eyes [A]
 					["coord"] = { 40.2, 32.3, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -877,8 +877,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59979, {	-- Like Ogres to the Slaughter [H]
-					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["provider"] = { "n", 167632 },	-- Shuja Grimaxe
+					["sourceQuests"] = { 59978 },	-- Right Beneath Their Eyes [H]
 					["coord"] = { 40.2, 32.5, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -889,15 +889,15 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55992, {	-- Dungeon: Darkmaul Citadel [A]
+					["provider"] = { "n", 156965 },	-- Captain Kelra
 					["sourceQuests"] = {
 						55989,	-- Catapult Destruction [A]
 						55990,	-- Controlling their Stones [A]
 						55988,	-- Like Ogres to the Slaughter [A]
 					},
-					["provider"] = { "n", 156965 },	-- Captain Kelra
 					["coord"] = { 39.9, 32.1, EXILES_REACH },
-					["races"] = ALLIANCE_ONLY,
 					["maps"] = { DARKMAUL_CITADEL },
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(175188),	-- Expeditionary Cloth Hood
 						i(175190),	-- Expeditionary Leather Helm
@@ -906,15 +906,15 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59984, {	-- Dungeon: Darkmaul Citadel [H]
+					["provider"] = { "n", 167183 },	-- Warlord Mulgrin Thunderwalker
 					["sourceQuests"] = {
 						59980,	-- Catapult Destruction [H]
 						59981,	-- Controlling their Stones [H]
 						59979,	-- Like Ogres to the Slaughter [H]
 					},
-					["provider"] = { "n", 167183 },	-- Warlord Mulgrin Thunderwalker
 					["coord"] = { 39.9, 32.1, EXILES_REACH },
-					["races"] = HORDE_ONLY,
 					["maps"] = { DARKMAUL_CITADEL },
+					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(175220),	-- Expeditionary Cloth Hood
 						i(175222),	-- Expeditionary Leather Helm
@@ -923,8 +923,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(55991, {	-- An End to Beginnings [A]
-					["sourceQuests"] = { 55992 },	-- Dungeon: Darkmaul Citadel [A]
 					["provider"] = { "n", 156961 },	-- Captain Garrick
+					["sourceQuests"] = { 55992 },	-- Dungeon: Darkmaul Citadel [A]
 					["coord"] = { 39.6, 31.9, EXILES_REACH },
 					["races"] = ALLIANCE_ONLY,
 					["_drop"] = { "g" },
@@ -936,8 +936,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					},
 				}),
 				q(59985, {	-- An End to Beginnings [H]
-					["sourceQuests"] = { 59984 },	-- Dungeon: Darkmaul Citadel [H]
 					["provider"] = { "n", 167675 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59984 },	-- Dungeon: Darkmaul Citadel [H]
 					["coord"] = { 39.6, 31.9, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["_drop"] = { "g" },
@@ -951,95 +951,96 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 
 					-- Stormwind --
 				q(59583, {	-- Welcome to Stormwind
-					["sourceQuests"] = { 55991 },	-- An End to Beginnings [A]
 					["provider"] = { "n", 154169 },	-- Captain Garrick
+					["sourceQuests"] = { 55991 },	-- An End to Beginnings [A]
 					["coord"] = { 73.6, 91.3, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58908, {	-- Finding Your Way
-					["sourceQuests"] = { 59583 },	-- Welcome to Stormwind
 					["provider"] = { "n", 163095 },	-- Lindie Springstock
+					["sourceQuests"] = { 59583 },	-- Welcome to Stormwind
 					["coord"] = { 70.1, 85.3, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58909, {	-- License to Ride [A]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163007 },	-- Curly
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.3, 67.0, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
 					["timeline"] = { ADDED_9_0_1, REMOVED_10_1_5 },
+					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58910, {	-- What's Your Specialty? [A] [Druid]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { DRUID },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59586, {	-- What's Your Specialty? [A] [Hunter]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { HUNTER },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59587, {	-- What's Your Specialty? [A] [Mage]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { MAGE },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59588, {	-- What's Your Specialty? [A] [Monk]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { MONK },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59589, {	-- What's Your Specialty? [A] [Paladin]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59590, {	-- What's Your Specialty? [A] [Priest]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { PRIEST },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59591, {	-- What's Your Specialty? [A] [Rogue]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { ROGUE },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59592, {	-- What's Your Specialty? [A] [Shaman]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { SHAMAN },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59593, {	-- What's Your Specialty? [A] [Warlock]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { WARLOCK },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(59594, {	-- What's Your Specialty? [A] [Warrior]
-					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuests"] = { 58908 },	-- Finding Your Way [A]
 					["coord"] = { 77.4, 67.2, STORMWIND_CITY },
 					["classes"] = { WARRIOR },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(58911, {	-- Home Is Where the Hearth Is [A]
+					["provider"] = { "n", 163097 },	-- Lindle Springstock
 					["sourceQuests"] = {
 						58910,	-- What's Your Specialty? [A] [Druid]
 						59586,	-- What's Your Specialty? [A] [Hunter]
@@ -1052,26 +1053,25 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 						59593,	-- What's Your Specialty? [A] [Warlock]
 						59594,	-- What's Your Specialty? [A] [Warrior]
 					},
-					["provider"] = { "n", 163097 },	-- Lindle Springstock
+					["sourceQuestNumRequired"] = 1,
 					["coord"] = { 79.0, 69.8, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
-					["sourceQuestNumRequired"] = 1
 				}),
 				q(58912, {	-- An Urgent Meeting [A]
-					["sourceQuests"] = { 58911 },	-- Home Is Where the Hearth Is [A]
 					["provider"] = { "n", 163211 },	-- Henry Garrick
+					["sourceQuests"] = { 58911 },	-- Home Is Where the Hearth Is [A]
 					["coord"] = { 75.3, 54.3, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
 					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
+					["races"] = ALLIANCE_ONLY,
 					["customCollect"] = IGNORED_VALUE,	-- Technically only possible by NPE quest completion, but technically no longer NPE when accepting this quest...
 				}),
 				q(58983, {	-- Battle for Azeroth: Tides of War (SL/new player version)
 					["qg"] = 163219,	-- Captain Garrick
 					["sourceQuest"] = 58912,	-- An Urgent Meeting [A]
-					["description"] = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					["coord"] = { 85.2, 32.1, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
+					["description"] = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
+					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(178941),	-- Alliance Dog Tags,
 					}
@@ -1080,101 +1080,102 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["qg"] = 165395,	-- Anduin Wrynn
 					["sourceQuest"] = 58983,	-- Battle for Azeroth: Tides of War (SL/new player version)
 					["coord"] = { 85.8, 31.6, STORMWIND_CITY },
-					["races"] = ALLIANCE_ONLY,
 					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
+					["races"] = ALLIANCE_ONLY,
 				}),
 
 					-- Orgrimmar --
 				q(60343, {	-- Welcome to Orgrimmar
-					["sourceQuests"] = { 59985 },	-- An End to Beginnings [H]
 					["provider"] = { "n", 168431 },	-- Warlord Breka Grimaxe
+					["sourceQuests"] = { 59985 },	-- An End to Beginnings [H]
 					["coord"] = { 52.5, 88.0, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60344, {	-- Finding Your Way [H]
-					["sourceQuests"] = { 60343 },	-- Welcome to Orgrimmar
 					["provider"] = { "n", 168441 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60343 },	-- Welcome to Orgrimmar
 					["coord"] = { 51.9, 85.4, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60345, {	-- License to Ride
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168540 },	-- Rohaka Tuskmaul
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 32.9, ORGRIMMAR },
-					["races"] = HORDE_ONLY,
 					["timeline"] = { ADDED_9_0_1, REMOVED_10_1_5 },
+					["races"] = HORDE_ONLY,
 				}),
 				q(60346, {	-- What's Your Specialty? [H] [Druid]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { DRUID },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60347, {	-- What's Your Specialty? [H] [Hunter]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { HUNTER },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60348, {	-- What's Your Specialty? [H] [Mage]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { MAGE },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60349, {	-- What's Your Specialty? [H] [Monk]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { MONK },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60350, {	-- What's Your Specialty? [H] [Paladin]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { PALADIN },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60351, {	-- What's Your Specialty? [H] [Priest]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { PRIEST },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60352, {	-- What's Your Specialty? [H] [Rogue]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { ROGUE },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60353, {	-- What's Your Specialty? [H] [Shaman]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { SHAMAN },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60355, {	-- What's Your Specialty? [H] [Warlock]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { WARLOCK },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60357, {	-- What's Your Specialty? [H] [Warrior]
-					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuests"] = { 60344 },	-- Finding Your Way [H]
 					["coord"] = { 61.5, 33.0, ORGRIMMAR },
 					["classes"] = { WARRIOR },
 					["races"] = HORDE_ONLY,
 				}),
 				q(60359, {	-- Home Is Where the Hearth Is [H]
+					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
 					["sourceQuests"] = {
 						60346,	-- What's Your Specialty? [H] [Druid]
 						60347,	-- What's Your Specialty? [H] [Hunter]
@@ -1187,28 +1188,27 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 						60355,	-- What's Your Specialty? [H] [Warlock]
 						60357,	-- What's Your Specialty? [H] [Warrior]
 					},
-					["provider"] = { "n", 168545 },	-- Cork Fizzlepop
+					["sourceQuestNumRequired"] = 1,
 					["coord"] = { 73.6, 43.4, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
-					["sourceQuestNumRequired"] = 1,
 				}),
 				----- The original ending of the questline where new players got funneled into BfA -----
 				-- After 11.0.2 players receive Lost Dragonscale and the quest The Dragon Isles Await (65436 [A] / 65435 [H])
 				q(60360, {	-- An Urgent Meeting [H]
-					["sourceQuests"] = { 60359 },	-- Home Is Where the Hearth Is [H]
 					["provider"] = { "n", 168771 },	-- Shuja Grimaxe
+					["sourceQuests"] = { 60359 },	-- Home Is Where the Hearth Is [H]
 					["coord"] = { 70.9, 49.6, ORGRIMMAR },
-					["races"] = HORDE_ONLY,
 					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
+					["races"] = HORDE_ONLY,
 					["customCollect"] = IGNORED_VALUE,	-- Technically only possible by NPE quest completion, but technically no longer NPE when accepting this quest...
 				}),
 				q(60361, {	-- Battle for Azeroth: Mission Statement (SL/new player version)
-					["sourceQuest"] = 60360,	-- An Urgent Meeting
-					["description"] = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					["qg"] = 168431,	-- Warlord Breka Grimaxe
+					["sourceQuest"] = 60360,	-- An Urgent Meeting
 					["coord"] = { 48.3, 71.4, ORGRIMMAR },
-					["races"] = HORDE_ONLY,
+					["description"] = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
+					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(178942),	-- War-Chain of the Horde
 					},
@@ -1216,11 +1216,11 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 			}),
 			------ Miscellaneous ------
 			q(54933, {	-- Freeing the Light
+				["provider"] = { "n", 157114 },	-- Lightspawn
 				["sourceQuests"] = {
 					55879,	-- Ride of the Scientifically Enhanced Boar
 					59942,	-- The Re-Deather
 				},
-				["provider"] = { "n", 157114 },	-- Lightspawn
 				["coord"] = { 58.1, 50.2, EXILES_REACH },
 				["lockCriteria"] = { 1,
 					"questID", 55991,	-- An End to Beginnings [A]
@@ -1228,11 +1228,11 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 				},
 			}),
 			q(56839, {	-- Killclaw the Terrible
+				["provider"] = { "o", 330627 },	-- Danger Sign
 				["sourceQuests"] = {
 					55879,	-- Ride of the Scientifically Enhanced Boar
 					59942,	-- The Re-Deather
 				},
-				["provider"] = { "o", 330627 },	-- Danger Sign
 				["coord"] = { 48.7, 54.2, EXILES_REACH },
 				["lockCriteria"] = { 1,
 					"questID", 55991,	-- An End to Beginnings [A]
