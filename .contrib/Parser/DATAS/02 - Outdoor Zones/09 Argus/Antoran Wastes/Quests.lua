@@ -5,8 +5,8 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(ANTORAN_WASTES, {
 		n(QUESTS, {
 			q(49007, {	-- Commander on Deck!
-				["description"] = "Collect all four parts from mobs near the Terminus, and combine them to repair the Portal Generator.  This allows you to summon Squadron Commander Vishax.",
 				["provider"] = { "i", 152965 },	-- Vishax's Portal Generator
+				["description"] = "Collect all four parts from mobs near the Terminus, and combine them to repair the Portal Generator.  This allows you to summon Squadron Commander Vishax.",
 				["cost"] = {
 					{ "i", 152890, 1 },	-- Smashed Portal Generator
 					{ "i", 152940, 1 },	-- Arc Circuit
@@ -15,12 +15,12 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 			}),
 			q(48605, {	-- Commander's Downfall
-				["sourceQuests"] = { 48513 },	-- Invasion Point Offensive
 				["qgs"] = {
 					126408,	-- Illidan Stormrage
 					127051,	-- Illidan Stormrage
 					127057,	-- Illidan Stormrage
 				},
+				["sourceQuests"] = { 48513 },	-- Invasion Point Offensive
 				["coords"] = {
 					{ 31.4, 60.0, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 					{ 39.1, 19.8, THE_VINDICAAR_KROKUUN_UPPER },
@@ -28,26 +28,26 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 			}),
 			q(48448, {	-- Hindering the Legion War Machine
+				["provider"] = { "n", 124312 },	-- High Exarch Turalyon
 				["sourceQuests"] = {
 					48446,	-- Relics of the Ancient Eredar
 					48654,	-- Beneath Oronaar
 				},
-				["provider"] = { "n", 124312 },	-- High Exarch Turalyon
 				["coord"] = { 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
 			}),
 			q(47473, {	-- Sizing Up The Opposition (Light's Purchase)
-				["sourceQuests"] = { 48201 },	-- Reinforce Light's Purchase
 				["provider"] = { "n", 127051 },	-- Illidan Stormrage
+				["sourceQuests"] = { 48201 },	-- Reinforce Light's Purchase
 				["coord"] = { 68.8, 25.9, ANTORAN_WASTES },
 			}),
 			q(48929, {	-- Sizing Up The Opposition (The Veiled Den)
-				["sourceQuests"] = { 48202 },	-- Reinforce the Veiled Den
 				["provider"] = { "n", 127051 },	-- Illidan Stormrage
+				["sourceQuests"] = { 48202 },	-- Reinforce the Veiled Den
 				["coord"] = { 68.8, 25.9, ANTORAN_WASTES },
 			}),
 			q(48600, {	-- Take the Edge Off
-				["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
 				["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+				["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
 				["coord"] = { 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
 			}),
 			q(48870, {	-- The Many-Faced Devourer

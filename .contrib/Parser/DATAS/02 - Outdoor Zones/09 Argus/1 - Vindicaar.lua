@@ -148,8 +148,8 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				})),
 				q(48977, bubbleDownSelf({ ["minReputation"] = { FACTION_ARMY_OF_THE_LIGHT, EXALTED }}, {	-- Supplies From the Army of the Light
-					["repeatable"] = true,
 					["provider"] = { "n", 127120 },	-- Vindicator Jaelaana
+					["repeatable"] = true,
 					["groups"] = {
 						i(152923, {	-- Gleaming Footlocker
 							i(153044),	-- Avenging Felcrusher (MOUNT!)
@@ -177,8 +177,8 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			n(QUESTS, {
 				q(48075, {	-- A Colorful Key
 					["provider"] = { "n", 125343 },		-- Vorel
-					["requireSkill"] = JEWELCRAFTING,
 					["sourceQuests"] = { 46941 },	-- The Path Forward
+					["requireSkill"] = JEWELCRAFTING,
 					["groups"] = {
 						i(151736),	-- Design: Deadly Deep Chemirine (RECIPE!)
 						i(151738),	-- Design: Masterful Argulite (RECIPE!)
@@ -189,9 +189,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				}),
 				q(48076, {	-- A Crowning Achievment
 					["provider"] = { "n", 125343 },		-- Vorel
-					["requireSkill"] = JEWELCRAFTING,
 					["sourceQuests"] = { 48075 },	-- A Colorful Key
 					["coord"] = { 44.45, 73.35, THE_VINDICAAR_KROKUUN_UPPER },
+					["requireSkill"] = JEWELCRAFTING,
 					["groups"] = {
 						i(151724),	-- Design: Empyrial Cosmic Crown [Rank 1] (RECIPE!)
 						i(151727),	-- Design: Empyrial Deep Crown [Rank 1] (RECIPE!)
@@ -200,48 +200,48 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(48081, {	-- A Floating Ruin
-					["sourceQuests"] = { 47994 },	-- Forming a Bond
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 47994 },	-- Forming a Bond
 					["coord"] = { 41.3, 24.9, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(46938, {	-- Alone in the Abyss
-					["sourceQuests"] = { 48440 },	-- Into the Night
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 48440 },	-- Into the Night
 					["coord"] = { 41.1, 24.3, THE_VINDICAAR_KROKUUN_UPPER },
 					["lvl"] = 110,
 				}),
 				q(48500, {	-- A Moment of Respite
-					["sourceQuests"] = { 46843 },	-- Return to the Vindicaar
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 46843 },	-- Return to the Vindicaar
 					["coord"] = { 40.9, 24.7, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48559, {	-- An Offering of Light
-					["sourceQuests"] = { 49143 },	-- Essence of the Light Mother
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 49143 },	-- Essence of the Light Mother
 					["coord"] = { 46.0, 36.7, THE_VINDICAAR_KROKUUN_UPPER },
 					["groups"] = {
 						i(152593),	-- Essence of Light (QI!)
 					},
 				}),
 				q(48560, {	-- An Offering of Shadow
-					["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
 					["provider"] = { "n", 128722 },	-- Prophet Velen
+					["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
 					["coord"] = { 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
 					["groups"] = {
 						i(152594),	-- Essence of Shadow (QI!)
 					},
 				}),
 				q(49143, {	-- Essence of the Light Mother
-					["sourceQuests"] = { 47743 },	-- The Child of Light and Shadow
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 47743 },	-- The Child of Light and Shadow
 					["coord"] = { 45.9, 34.0, THE_VINDICAAR_KROKUUN_UPPER },
 					["groups"] = {
 						i(153125),	-- Vestige of Light (QI!)
 					},
 				}),
 				q(47134, {	-- Foiling the Legion's Jailbreak
-					["sourceQuests"] = { 47104 },	-- Imprisoned Inquisitor
 					["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
+					["sourceQuests"] = { 47104 },	-- Imprisoned Inquisitor
 					["coord"] = { 43.2, 25.5, THE_VINDICAAR_KROKUUN_UPPER },
 					["maps"] = {
 						889,	-- Arcatraz
@@ -249,35 +249,35 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(47994, {	-- Forming a Bond
-					["sourceQuests"] = { 47993 },	-- Lord of the Spire
 					["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
+					["sourceQuests"] = { 47993 },	-- Lord of the Spire
 					["coord"] = { 43.2, 25.5, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48799, {	-- Fuel of a Doomed World
+					["qgs"] = {
+						124312,	-- High Exarch Turalyon @ Krokuun
+						126954,	-- High Exarch Turalyon @ Antoran Wastes
+					},
 					["sourceQuests"] = {
 						47473,	-- Sizing Up the Opposition (Light's Purchase)
 						48929,	-- Sizing Up the Opposition (The Veiled Den)
 					},
-					["providers"] = {
-						{ "n", 124312 },	-- High Exarch Turalyon @ Krokuun
-						{ "n", 126954 },	-- High Exarch Turalyon @ Antoran Wastes
-					},
-					["isWeekly"] = true,
 					["coords"] = {
 						{ 59.1, 20.2, EREDATH },
 						{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 						{ 45.8, 23.9, THE_VINDICAAR_EREDATH_UPPER },
 						{ 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
 					},
+					["isWeekly"] = true,
 					["groups"] = {
 						i(153014),	-- Pristine Argunite (QI!)
 					},
 				}),
 				q(48636, {	-- Fueling the Antoran Campaign
-					["sourceQuests"] = { 48912 },	-- Supplying the Antoran Campaign
-					["repeatable"] = true,
 					["qg"] = 126954,	-- High Exarch Turalyon
+					["sourceQuests"] = { 48912 },	-- Supplying the Antoran Campaign
 					["cost"] = { { "c", 1220, 900 } },	-- 900x Order Resources
+					["repeatable"] = true,
 					["groups"] = {
 						i(152097, {	-- Lightforged Bulwark
 							follower(1059, {	-- Lightforged Bulwark (Temporary Troop)
@@ -292,16 +292,16 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(47431, {	-- Gathering Light
-					["sourceQuests"] = { 48500 },	-- A Moment of Respite
 					["provider"] = { "n", 122378 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48500 },	-- A Moment of Respite
 					["coord"] = { 42.9, 26.4, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(49293, {	-- Invasion Onslaught
-					["sourceQuests"] = { 48605 },	-- Commander's Downfall
 					["qgs"] = {
 						126408,	-- Illidan Stormrage
 						127057,	-- Illidan Stormrage
 					},
+					["sourceQuests"] = { 48605 },	-- Commander's Downfall
 					["coords"] = {
 						{ 40.1, 21.3, THE_VINDICAAR_KROKUUN_UPPER },
 						{ 30.3, 60.1, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
@@ -309,22 +309,22 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["isWeekly"] = true,
 				}),
 				q(48513, {	-- Invasion Point Offensive
-				--	might unlock differently/have different SQ(s) on main character vs alts.
-					["sourceQuests"] = { 48440 },	-- Into the Night
 					["qgs"] = {
 						120978,	-- Illidan Stormrage
 						126408,	-- Illidan Stormrage
 						127057,	-- Illidan Stormrage
 					},
+					["sourceQuests"] = { 48440 },	-- Into the Night
 					["coords"] = {
 						{ 31.4, 59.1, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 						{ 46.8, 20.5, THE_VINDICAAR_EREDATH_UPPER },
 						{ 40.2, 21.4, THE_VINDICAAR_KROKUUN_UPPER },
 					},
+				--	might unlock differently/have different SQ(s) on main character vs alts.
 				}),
 				q(47182, {	-- Long Overdue
-					["sourceQuests"] = { 47134 },	-- Foiling the Legion's Jailbreak
 					["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
+					["sourceQuests"] = { 47134 },	-- Foiling the Legion's Jailbreak
 					["coord"] = { 43.3, 23.2, THE_VINDICAAR_KROKUUN_UPPER },
 					["lvl"] = 45,
 					["groups"] = {
@@ -332,56 +332,56 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(48074, {	-- Looming Over Me
-					["requireSkill"] = TAILORING,
 					["sourceQuests"] = { 46941 },	-- The Path Forward
+					["requireSkill"] = TAILORING,
 					["groups"] = {
 						recipe(247807),	-- Lightweave Breeches [Rank 1]
 						i(151874),	-- Lightweave Loom (QI!)
 					},
 				}),
 				q(46815, {	-- Eredath, Jewel of Argus
-					["sourceQuests"] = { 48081 },	-- A Floating Ruin
 					["provider"] = { "n", 128725 },	-- Prophet Velen
+					["sourceQuests"] = { 48081 },	-- A Floating Ruin
 					["coord"] = { 47.4, 24.5, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48201, {	-- Reinforce Light's Purchase
-					["sourceQuests"] = { 48200 },	-- Securing a Foothold
-					["altQuests"] = { 48202 },	-- Reinforce the Veiled Den — you get one of two quests depending on which camp is up at the time
 					["provider"] = { "n", 126954 },	-- High Exarch Turalyon
+					["altQuests"] = { 48202 },	-- Reinforce the Veiled Den — you get one of two quests depending on which camp is up at the time
+					["sourceQuests"] = { 48200 },	-- Securing a Foothold
 					["coords"] = {
 						{ 33.6, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 						{ 34.4, 57.2, THE_VINDICAAR_KROKUUN_UPPER },
 					},
 				}),
 				q(48202, {	-- Reinforce the Veiled Den
-					["sourceQuests"] = { 48200 },	-- Securing a Foothold
-					["altQuests"] = { 48201 },	-- Reinforce Light's Purchase — you get one of two quests depending on which camp is up at the time
 					["provider"] = { "n", 126954 },	-- High Exarch Turalyon
+					["altQuests"] = { 48201 },	-- Reinforce Light's Purchase — you get one of two quests depending on which camp is up at the time
+					["sourceQuests"] = { 48200 },	-- Securing a Foothold
 					["coord"] = { 34.4, 57.2, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(47654, {	-- Seat of the Triumvirate: The Crest of Knowledge
-					["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
 					["provider"] = { "n", 128722 },	-- Prophet Velen
+					["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
 					["coord"] = { 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
 					["groups"] = {
 						i(151090),	-- The Crest of Knowledge (QI!)
 					},
 				}),
 				q(48200, {	-- Securing a Foothold
-					["sourceQuests"] = { 48199 },	-- The Burning Heart
 					["provider"] = { "n", 126954 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48199 },	-- The Burning Heart
 					["coord"] = { 34.4, 57.2, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(47892, {	-- Storming the Citadel
-					["sourceQuests"] = { 47891 },	-- Dire News
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 47891 },	-- Dire News
 					["coord"] = { 40.1, 25.6, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48912, {	-- Supplying the Antoran Campaign
-					["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
-					["isWeekly"] = true,
 					["qg"] = 126954,	-- High Exarch Turalyon
+					["sourceQuests"] = { 48448 },	-- Hindering the Legion War Machine
 					["cost"] = { { "c", 1220, 150 } },	-- 150x Order Resources
+					["isWeekly"] = true,
 					["groups"] = {
 						i(152097, {	-- Lightforged Bulwark
 							follower(1059, {	-- Lightforged Bulwark (Temporary Troop)
@@ -396,13 +396,13 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(48199, {	-- The Burning Heart
-					["sourceQuests"] = { 48559 },	-- An Offering of Light
 					["provider"] = { "n", 126307 },	-- Prophet Velen
+					["sourceQuests"] = { 48559 },	-- An Offering of Light
 					["coord"] = { 40.1, 25.2, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(49014, {	-- The Burning Throne
-					["sourceQuests"] = { 48559 },	-- An Oferring of Light
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48559 },	-- An Oferring of Light
 					["coords"] = {
 						{ 59.1, 20.2, EREDATH },
 						{ 46.2, 23.5, THE_VINDICAAR_EREDATH_UPPER },
@@ -412,47 +412,47 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(48203, {	-- The Burning Throne
-					["sourceQuests"] = { 47654 },	-- An Oferring of Light
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 47654 },	-- An Oferring of Light
 					["coord"] = { 40.1, 25.2, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(47743, {	-- The Child of Light and Shadow
-					["sourceQuests"] = { 47653 },	-- Light's Return
 					["provider"] = { "n", 122378 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 47653 },	-- Light's Return
 					["coord"] = { 42.9, 26.5, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(49224, {	-- The Netherlight Crucible
-					["u"] = REMOVED_FROM_GAME,	-- removed in BFA 8.0.1
-					["sourceQuests"] = { 48560 },	-- An Offering of Shadow
 					["provider"] = { "n", 126389 },	-- Artificer Shela'na
+					["sourceQuests"] = { 48560 },	-- An Offering of Shadow
 					["coord"] = { 58.8, 69.4, THE_VINDICAAR_KROKUUN_LOWER },
+					["u"] = REMOVED_FROM_GAME,	-- removed in BFA 8.0.1
 				}),
 				q(49445, {	-- The Prime Exchange
-					["sourceQuests"] = { 48440 },	-- Into the Night
 					["provider"] = { "n", 129674 },	-- Maras
+					["sourceQuests"] = { 48440 },	-- Into the Night
 					["coord"] = { 40.4, 64.7, THE_VINDICAAR_KROKUUN_LOWER },
 				}),
 				q(47238, {	-- The Seat of the Triumvirate
-					["sourceQuests"] = { 47416 },	-- Shadow of the Triumvirate
 					["provider"] = { "n", 128735 },	-- Prophet Velen
+					["sourceQuests"] = { 47416 },	-- Shadow of the Triumvirate
 					["coord"] = { 57.8, 61.5, THE_VINDICAAR_EREDATH_UPPER },
 				}),
 				q(47889, {	-- The Speaker Calls
+					["provider"] = { "n", 126954 },	-- High Exarch Turalyon
 					["sourceQuests"] = {
 						47473,	-- Sizing Up the Opposition (Light's Purchase)
 						48929,	-- Sizing Up the Opposition (The Veiled Den)
 					},
-					["provider"] = { "n", 126954 },	-- High Exarch Turalyon
 					["coord"] = { 34.1, 57.1, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48273, {	-- The Speaker Listens
-					["sourceQuests"] = { 48560 },	-- An Offering of Shadow
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48560 },	-- An Offering of Shadow
 					["coord"] = { 46.7, 25.0, THE_VINDICAAR_EREDATH_UPPER },
 				}),
 				q(48277, {	-- The Speaker Seeks
-					["sourceQuests"] = { 48272 },	-- Visions of Fear
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48272 },	-- Visions of Fear
 					["coords"] = {
 						{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 						{ 45.9, 24.1, THE_VINDICAAR_EREDATH_UPPER },
@@ -460,29 +460,29 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					},
 				}),
 				q(47287, {	-- The Vindicaar Matrix Core
-					["sourceQuests"] = { 47743 },	-- Child of Light and Shadow
 					["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
+					["sourceQuests"] = { 47743 },	-- Child of Light and Shadow
 					["coord"] = { 43.7, 29.2, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48344, {	-- We Have a Problem
-					["sourceQuests"] = { 48461 },	-- Where They Least Expect It
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
+					["sourceQuests"] = { 48461 },	-- Where They Least Expect It
 					["coords"] = {
 						{ 50.9, 23.1, THE_VINDICAAR_EREDATH_UPPER },
 						{ 44.9, 24.0, THE_VINDICAAR_KROKUUN_UPPER },
 					},
 				}),
 				q(48461, {	-- Where They Least Expect It
-					["sourceQuests"] = { 48107 },	-- The Sigil of Awakening
 					["provider"] = { "n", 126408 },	-- Illidan Stormrage
+					["sourceQuests"] = { 48107 },	-- The Sigil of Awakening
 					["coords"] = {
 						{ 46.7, 21.0, THE_VINDICAAR_EREDATH_UPPER },
 						{ 47.0, 21.7, THE_VINDICAAR_KROKUUN_UPPER },
 					},
 				}),
 				q(40761, {	-- Whispers from Oronaar
-					["sourceQuests"] = { 47238 },	-- The Seat of the Triumvirate
 					["provider"] = { "n", 121230 },	-- Alleria Windrunner
+					["sourceQuests"] = { 47238 },	-- The Seat of the Triumvirate
 					["coord"] = { 58.2, 61.1, THE_VINDICAAR_EREDATH_UPPER },
 				}),
 			}),
