@@ -30,11 +30,7 @@ root(ROOTS.Zones, {
 					["requireSkill"] = MINING,
 				}),
 				petbattle(q(41990)),	-- Chopped
-				q(45307, {	-- Claws for Alarm!
-					crit(34848, {	-- Claws for Alarm!
-						["achievementID"] = 11427,	-- No Shellfish Endeavor
-					}),
-				}),
+				q(45307),	-- Claws for Alarm!
 				petbattle(q(41914)),	-- Clear the Catacombs
 				q(42151),	-- Clear the Skies
 				q(44067, {	-- Consolidating Power

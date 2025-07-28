@@ -7,11 +7,8 @@ root(ROOTS.Zones, {
 		n(QUESTS, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {	-- Achievements
-					ach(11427, {	-- No Shellfish Endeavor
+					ach(11427, {	-- No Shellfish Endeavor (automated)
 						i(143660),	-- Mrgrglhjorn (TOY!)
-						crit(34847),	-- Now That's Just Clawful!
-						crit(34846),	-- Oh, the Clawdacity!
-						crit(34848),	-- Claws for Alarm!
 					}),
 					ach(10877, {	-- Pillars of Creation
 						crit(31588, {	-- Aegis of Aggramar
