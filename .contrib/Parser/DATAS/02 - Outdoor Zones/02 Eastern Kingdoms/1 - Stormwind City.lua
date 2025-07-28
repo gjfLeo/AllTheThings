@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						"Provides the Alliance Battle Pet questline, the quests are given in the following order:\n\n1. The inital quests touring southern Eastern Kingdoms\n2. 'Battle Pet Tamers: Eastern Kingdoms' + 'Battle Pet Tamers: Kalimdor'\n3. 'Grand Master Lydia Accoste' + 'Grand Master Trixxy'\n4. 'Battle Pet Tamers: Outland'\n5. 'Grand Master Antari'\n6. 'Battle Pet Tamers: Northrend'\n7. 'Grand Master Payne'\n8. 'Battle Pet Tamers: Cataclysm'\n9. 'Grand Master Obalis'\n10. 'Battle Pet Tamers: Pandaria'\n11. 'Grand Master Aki'\n\nYou might have to tinker with Chromie time on low-level character to obtain these account-wide quests, and new quest might not be given until daily reset.",
 						-- #endif
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						-- #if ANYCLASSIC
 						r(119467),	-- Battle Pet Training
 						-- #else
@@ -174,8 +174,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31966, {	-- Battle Pet Tamers: Cataclysm (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
-					["sourceQuest"] = 31984,	-- A Brief Reprieve (A)
 					-- ["altQuests"] = { 31967 },
+					["sourceQuest"] = 31984,	-- A Brief Reprieve (A)
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
 					["maps"] = { MOUNT_HYJAL, DEEPHOLM, TWILIGHT_HIGHLANDS },
@@ -198,8 +198,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31902, {	-- Battle Pet Tamers: Eastern Kingdoms (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
-					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
 					-- ["altQuests"] = { 31903 },	-- Battle Pet Tamers: Eastern Kingdoms (Horde version, since only one can be completed per account and Blizz doesn't check it off, apparently)
+					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["maps"] = { THE_HINTERLANDS, EASTERN_PLAGUELANDS, SEARING_GORGE, SWAMP_OF_SORROWS, BURNING_STEPPES },
 					["races"] = ALLIANCE_ONLY,
@@ -229,8 +229,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31889, {	-- Battle Pet Tamers: Kalimdor (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
-					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
 					-- ["altQuests"] = { 31891 },
+					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
 					["maps"] = { FERALAS, DUSTWALLOW_MARSH, THOUSAND_NEEDLES, FELWOOD, MOONGLADE },
@@ -261,8 +261,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31927, {	-- Battle Pet Tamers: Northrend (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
-					["sourceQuest"] = 31981,	-- Exceeding Expectations (A)
 					-- ["altQuests"] = { 31929 },
+					["sourceQuest"] = 31981,	-- Exceeding Expectations (A)
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
 					["maps"] = { HOWLING_FJORD, CRYSTALSONG_FOREST, DRAGONBLIGHT, ZULDRAK },
@@ -289,11 +289,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31919, {	-- Battle Pet Tamers: Outland (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
+					-- ["altQuests"] = { 31921 },
 					["sourceQuests"] = {
 						31975,	-- The Returning Champion (A)
 						31976,	-- The Returning Champion (A)
 					},
-					-- ["altQuests"] = { 31921 },
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
 					["maps"] = { HELLFIRE_PENINSULA, ZANGARMARSH, NAGRAND, SHATTRATH_CITY },
@@ -320,8 +320,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(31930, {	-- Battle Pet Tamers: Pandaria (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
-					["sourceQuest"] = 31985,	-- The Triumphant Return (A)
 					-- ["altQuests"] = { 31952 },
+					["sourceQuest"] = 31985,	-- The Triumphant Return (A)
 					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
 					["maps"] = { THE_JADE_FOREST, VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, KUN_LAI_SUMMIT, TOWNLONG_STEPPES, DREAD_WASTES },
@@ -731,8 +731,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.2, 73.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["cost"] = { { "i", 4338, 60 } },	-- Mageweave Cloth
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 4338, 60 } },	-- Mageweave Cloth
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 40,
 				}),
@@ -745,8 +745,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.2, 73.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["cost"] = { { "i", 14047, 60 } },	-- Runecloth
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 14047, 60 } },	-- Runecloth
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 50,
 				}),
@@ -759,8 +759,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.2, 73.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["cost"] = { { "i", 4306, 60 } },	-- Silk Cloth
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 4306, 60 } },	-- Silk Cloth
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 26,
 				}),
@@ -773,8 +773,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.2, 73.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["cost"] = { { "i", 2592, 60 } },	-- Wool Cloth
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 2592, 60 } },	-- Wool Cloth
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 12,
 				}),
@@ -811,11 +811,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(5645, {	-- A Lack of Fear
 					["qg"] = 376,	-- High Priestess Laurena <Priest Trainer>
-					["coord"] = { 38.8, 26.4, STORMWIND_CITY },
 					["altQuests"] = {
 						5647,	-- A Lack of Fear [Darnassus]
 						5641,	-- A Lack of Fear [Ironforge]
 					},
+					["coord"] = { 38.8, 26.4, STORMWIND_CITY },
 					["timeline"] = { REMOVED_2_3_0 },
 					["maps"] = { IRONFORGE },
 					["classes"] = { PRIEST },
@@ -914,7 +914,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { CREATED_9_0_2, ADDED_10_0_2 },
 					["races"] = ALLIANCE_ONLY,
 					["lockCriteria"] = { 1, "lvl", 61 },	-- either level or some HQT probably locks this... good luck
-					["g"] = {
+					["groups"] = {
 						i(183185),	-- Chromie's Scroll (A) (QI!)
 					},
 				}),
@@ -1021,9 +1021,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 44.2, 73.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["cost"] = { { "i", 14047, 20 } },	-- Runecloth
 					["maxReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
 					["timeline"] = { REMOVED_4_0_3 },
+					["cost"] = { { "i", 14047, 20 } },	-- Runecloth
 					["races"] = ALLIANCE_ONLY,
 					["repeatable"] = true,
 					["lvl"] = 50,
@@ -1032,8 +1032,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.2, 17.6, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["isBreadcrumb"] = true,
 				}),
 				q(11451, {	-- Alicia's Poem
@@ -1116,11 +1116,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(7645, {	-- Ancient Equine Spirit
 							["qg"] = 2357,	-- Merideth Carlson <Horse Breeder>
 							["coord"] = { 52, 55.6, HILLSBRAD_FOOTHILLS },
+							["timeline"] = { REMOVED_4_0_3 },
 							["cost"] = {
 								{ "i", 13724, 20 },	-- Enriched Manna Biscuit
 								{ "g", 500000 },	-- 50g
 							},
-							["timeline"] = { REMOVED_4_0_3 },
 							["repeatable"] = true,
 							["groups"] = {
 								objective(1, {	-- 0/1 Manna-Enriched Horse Feed
@@ -1138,14 +1138,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						376,	-- High Priestess Laurena <Priest Trainer>
 						11401,	-- Priestess Alathea <Priest Trainer>
 					},
+					["altQuests"] = {
+						5677,	-- Arcane Feedback [Ironforge]
+						5678,	-- Arcane Feedback [Darnassus]
+					},
 					["coords"] = {
 						{ 26.4, 7.6, IRONFORGE },
 						{ 38.8, 26.6, STORMWIND_CITY },
 						{ 40.0, 80.0, DARNASSUS },
-					},
-					["altQuests"] = {
-						5677,	-- Arcane Feedback [Ironforge]
-						5678,	-- Arcane Feedback [Darnassus]
 					},
 					["timeline"] = { REMOVED_3_0_2 },
 					["races"] = { HUMAN },
@@ -1164,11 +1164,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5676, {	-- Arcane Feedback [Stormwind City]
 					["qg"] = 376,	-- High Priestess Laurena <Priest Trainer>
-					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["altQuests"] = {
 						5677,	-- Arcane Feedback [Ironforge]
 						5678,	-- Arcane Feedback [Darnassus]
 					},
+					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["races"] = { HUMAN },
 					["classes"] = { PRIEST },
@@ -1233,7 +1233,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 6090 },	-- Bartleby
 						{ "i", 6781 },	-- Bartleby's Mug
 					},
-					["sourceQuest"] = 1640,	-- Beat Bartleby
 					["altQuests"] = {
 						--1665,	-- Bartleby's Mug
 						-- #if AFTER TBC
@@ -1242,6 +1241,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1678,	-- Vejrek
 						1683,	-- Vorlus Vilehoof
 					},
+					["sourceQuest"] = 1640,	-- Beat Bartleby
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 76.8, 52.5, STORMWIND_CITY },
@@ -1472,24 +1472,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 60120,	-- Burning Crusade: To Outland!
 					["coord"] = { 56.2, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				q(60120, {	-- Burning Crusade: To Outland!
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.3, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["isBreadcrumb"] = true,
 				}),
 				q(60891, {	-- Cataclysm: Onward to Adventure in the Eastern Kingdoms
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.2, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				q(27092, {	-- Cataclysm in the Catacombs
@@ -1509,6 +1509,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 51.6, 12.2, STORMWIND_CITY },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3 },
+					["maps"] = { STRATHOLME },
 					["cost"] = {
 						{ "i", 13180, 5 },	-- Stratholme Holy Water
 						{ "i", 8836, 10 },	-- Arthas' Tears
@@ -1516,8 +1518,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 12360, 6 },	-- Arcanite Bar
 						{ "g", 1500000 },	-- 150g
 					},
-					["timeline"] = { REMOVED_4_0_3 },
-					["maps"] = { STRATHOLME },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 60,
@@ -1534,8 +1534,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 32470,	-- Light Camera Action (A)
 					["coord"] = { 61.2, 22.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
-					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["groups"] = {
 						i(155832),	-- Pristine Crystal Shard (QI!)
 						i(122661, {	-- S.E.L.F.I.E. Lens Upgrade Kit
@@ -1590,6 +1590,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						376,	-- High Priestess Laurena <Priest Trainer>
 						3600,	-- Laurna Morninglight <Priest Trainer>
 					},
+					["altQuests"] = {
+						5635,	-- Desperate Prayer [Elwynn Forest]
+						5636,	-- Desperate Prayer [Teldrassil]
+						5637,	-- Desperate Prayer [Dun Morogh]
+						5638,	-- Desperate Prayer [Stormwind City #2]
+						5639,	-- Desperate Prayer [Ironforge]
+						5640,	-- Desperate Prayer [Darnassus]
+					},
 					["coords"] = {
 						{ 39.6, 80.8, DARNASSUS },
 						{ 47.2, 52.2, DUN_MOROGH },
@@ -1598,14 +1606,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 20.8, 50.2, STORMWIND_CITY },
 						{ 38.8, 26.6, STORMWIND_CITY },
 						{ 55.6, 56.8, TELDRASSIL },
-					},
-					["altQuests"] = {
-						5635,	-- Desperate Prayer [Elwynn Forest]
-						5636,	-- Desperate Prayer [Teldrassil]
-						5637,	-- Desperate Prayer [Dun Morogh]
-						5638,	-- Desperate Prayer [Stormwind City #2]
-						5639,	-- Desperate Prayer [Ironforge]
-						5640,	-- Desperate Prayer [Darnassus]
 					},
 					["timeline"] = { REMOVED_3_0_2 },
 					["races"] = { HUMAN, DWARF },
@@ -1624,7 +1624,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5634, {	-- Desperate Prayer
 					["qg"] = 376,	-- High Priestess Laurena <Priest Trainer>
-					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["altQuests"] = {
 						5635,	-- Desperate Prayer [Elwynn Forest]
 						5636,	-- Desperate Prayer [Teldrassil]
@@ -1633,6 +1632,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5639,	-- Desperate Prayer [Ironforge]
 						5640,	-- Desperate Prayer [Darnassus]
 					},
+					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["races"] = { HUMAN, DWARF },
 					["classes"] = { PRIEST },
@@ -1650,7 +1650,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5638, {	-- Desperate Prayer
 					["qg"] = 11397,	-- Nara Meideros <Priest Trainer>
-					["coord"] = { 20.8, 50.2, STORMWIND_CITY },
 					["altQuests"] = {
 						5634,	-- Desperate Prayer [Stormwind City #1]
 						5635,	-- Desperate Prayer [Elwynn Forest]
@@ -1659,6 +1658,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5639,	-- Desperate Prayer [Ironforge]
 						5640,	-- Desperate Prayer [Darnassus]
 					},
+					["coord"] = { 20.8, 50.2, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["races"] = { HUMAN, DWARF },
 					["classes"] = { PRIEST },
@@ -1705,10 +1705,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 74.2, 47.6, STORMWIND_CITY },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_4_0_3 },
 					-- #if AFTER 4.0.3
 					["description"] = "This quest gets marked as completed when you complete the quest 'Dungar Longdrink' (26395).",
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = { HUMAN },
 					["lvl"] = 10,
 				}),
@@ -1764,11 +1764,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5673, {	-- Elune's Grace [Stormwind City]
 					["qg"] = 376,	-- High Priestess Laurena <Priest Trainer>
-					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["altQuests"] = {
 						5672,	-- Elune's Grace [Darnassus]
 						5675,	-- Elune's Grace [Ironforge]
 					},
+					["coord"] = { 38.8, 26.6, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["classes"] = { PRIEST },
 					["races"] = { NIGHTELF },
@@ -1797,8 +1797,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["timeline"] = { REMOVED_4_0_3 },
-					["cost"] = 1500000,	-- 150g
 					["maps"] = { IRONFORGE },
+					["cost"] = 1500000,	-- 150g
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 60,
@@ -2225,13 +2225,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "This quest is automatically offered to Alliance players upon reaching the specified level.",
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = ALLIANCE_ONLY,
-					["DisablePartySync"] = true,
-					["isBreadcrumb"] = true,
 					["lockCriteria"] = { 1,
 						"spellID", 34090,	-- Expert Riding
 						"spellID", 34091,	-- Artisan Riding
 						"spellID", 90265,	-- Master Riding
 					},
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
 					["lvl"] = lvlsquish(60, 60, 30),
 				}),
 				q(44120, {	-- Illidari Allies
@@ -2446,8 +2446,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "This quest is automatically granted to Pandaren upon reaching the specified level.",
 					["timeline"] = { ADDED_5_2_0, REMOVED_10_1_5 },
 					["races"] = { PANDAREN_ALLIANCE },
-					["DisablePartySync"] = true,
-					["isBreadcrumb"] = true,
 					["lockCriteria"] = { 1,
 						"spellID", 33388,	-- Apprentice Riding
 						"spellID", 33391,	-- Journeyman Riding
@@ -2455,14 +2453,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						"spellID", 34091,	-- Artisan Riding
 						"spellID", 90265,	-- Master Riding
 					},
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(60971, {	-- Legion: Onward to Adventure in the Broken Isles
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.2, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				q(65896, {	-- Let the Healing Begin
@@ -2477,8 +2477,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 61.2, 22.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
 					["cost"] = { { "i", 4406, 1 } },	-- Standard Scope
-					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["groups"] = {
 						objective(1, {	-- 0/1 Iron Box
 							["provider"] = { "i", 155856 },	-- Iron Box
@@ -2665,8 +2665,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(1861, {	-- Mirror Lake
 					["qg"] = 5497,	-- Jennea Cannon <Mage Trainer>
-					["sourceQuest"] = 1860,	-- Speak with Jennea
 					["altQuests"] = { 1880 },	-- Mage-tastic Gizmonitor
+					["sourceQuest"] = 1860,	-- Speak with Jennea
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 49.5, 85.8, STORMWIND_CITY },
@@ -2728,17 +2728,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(60965, {	-- Mists of Pandaria: Onward to Adventure in Pandaria
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.2, 17.3, STORMWIND_CITY },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["timeline"] = { ADDED_9_0_1 },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				q(60125, {	-- Mists of Pandaria: To Pandaria!
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.3, 17.3, STORMWIND_CITY },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["isBreadcrumb"] = true,
 				}),
 				q(26960, {	-- My Son, the Prince
@@ -2773,6 +2773,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1748,	-- Highlord Bolvar Fordragon
 						-- #endif
 					},
+					["sourceQuest"] = 6186,	-- The Blightcaller Cometh
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 79.8, 38.6, STORMWIND_CITY },	-- King Varian Wrynn <King of Stormwind>
@@ -2780,7 +2781,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 78.0, 18.0, STORMWIND_CITY },	-- Highlord Bolvar Fordragon
 						-- #endif
 					},
-					["sourceQuest"] = 6186,	-- The Blightcaller Cometh
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { EASTERN_PLAGUELANDS },
 					["races"] = ALLIANCE_ONLY,
@@ -2945,7 +2945,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 85.2, 32.5, STORMWIND_CITY },
 					["timeline"] = { ADDED_8_3_0 },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(175151),	-- Fearbreaker (QI!)
 					},
 				}),
@@ -2973,10 +2973,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 66.2, 62.4, STORMWIND_CITY },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_4_0_3 },
 					-- #if AFTER 4.0.3
 					["description"] = "This quest gets marked as completed when you complete the quest 'Return to Argus' (26396) in Elwynn Forest.",
 					-- #endif
+					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { WESTFALL },
 					["races"] = { HUMAN },
 					["lvl"] = 10,
@@ -2984,7 +2984,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5631, {	-- Returning Home [Stormwind City]
 					["qg"] = 5489,	-- Brother Joshua <Priest Trainer>
-					["coord"] = { 38.6, 26.8, STORMWIND_CITY },
 					["altQuests"] = {
 						5627,	-- Returning Home [Darnassus]
 						5628,	-- Returning Home [Elwynn Forest]
@@ -2993,6 +2992,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5632,	-- Returning Home [Stormwind City]
 						5633,	-- Returning Home [Ironforge]
 					},
+					["coord"] = { 38.6, 26.8, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["classes"] = { PRIEST },
 					["races"] = { NIGHTELF },
@@ -3010,7 +3010,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5632, {	-- Returning Home [Stormwind City]
 					["qg"] = 11397,	-- Nara Meideros <Priest Trainer>
-					["coord"] = { 20.8, 50.2, STORMWIND_CITY },
 					["altQuests"] = {
 						5627,	-- Returning Home [Darnassus]
 						5628,	-- Returning Home [Elwynn Forest]
@@ -3019,6 +3018,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						5631,	-- Returning Home [Stormwind City]
 						5633,	-- Returning Home [Ironforge]
 					},
+					["coord"] = { 20.8, 50.2, STORMWIND_CITY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["classes"] = { PRIEST },
 					["races"] = { NIGHTELF },
@@ -3309,15 +3309,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(42740, {	-- The Battle for Broken Shore
-					-- CRIEVE NOTE: Perhaps move this and related quests/things to the Expansion Features section?
-					-- Also find the right mapID for the scenario.
 					["qg"] = 108916,	-- Knight Dameron
-					["sourceQuest"] = 42782,	-- To Be Prepared
 				--	["altQuests"] = { 43806 },	-- Scenario Skip (A)
+					["sourceQuest"] = 42782,	-- To Be Prepared
 					["coord"] = { 19.0, 26.1, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_0_3 },
 					["classes"] = exclude({ DEMONHUNTER }, ALL_CLASSES),
 					["races"] = ALLIANCE_ONLY,
+					-- CRIEVE NOTE: Perhaps move this and related quests/things to the Expansion Features section?
+					-- Also find the right mapID for the scenario.
 					["groups"] = {
 						i(138767),	-- Stormwind Vanguard Battle Mace
 						i(138772),	-- Stormwind Vanguard Bonegrinder
@@ -3468,11 +3468,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.6, 32.6, STORMWIND_CITY },
 						-- #endif
 					},
+					["timeline"] = { REMOVED_4_0_3 },
 					["cost"] = {
 						{ "i", 12800, 1 },	-- Azerothian Diamond
 						{ "i", 18335, 1 },	-- Pristine Black Diamond
 					},
-					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 60,
@@ -3497,7 +3497,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 19.8, 34.9, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(132251),	-- Letter to Anduin (QI!)
 					},
 				}),
@@ -3684,7 +3684,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(1447, {	-- The Missing Diplomat (8/17)
 					["qg"] = 4961,	-- Dashel Stonefist
 					["sourceQuest"] = 1246,	-- The Missing Diplomat (7/17)
-					["description"] = "Dashel Stonefist will spawn 2 level 26 adds to fight alongside him.",
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 74.3, 59.2, STORMWIND_CITY },
@@ -3692,6 +3691,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 70.5, 44.9, STORMWIND_CITY },
 						-- #endif
 					},
+					["description"] = "Dashel Stonefist will spawn 2 level 26 adds to fight alongside him.",
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 28,
@@ -3771,9 +3771,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						REMOVED_4_0_3,
 						-- #endif
 					},
+					["cost"] = { { "i", 6040, 6 } },	-- Golden Scale Bracers
 					["requireSkill"] = BLACKSMITHING,
 					["learnedAt"] = 210,
-					["cost"] = { { "i", 6040, 6 } },	-- Golden Scale Bracers
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 40,
 					["groups"] = {
@@ -3790,9 +3790,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 7798,	-- Hank the Hammer
 					["coord"] = { 56.0, 16.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_1_15_1 },
+					["cost"] = { { "i", 6040, 6 } },	-- Golden Scale Bracers
 					["requireSkill"] = BLACKSMITHING,
 					["learnedAt"] = 210,
-					["cost"] = { { "i", 6040, 6 } },	-- Golden Scale Bracers
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 40,
 					["groups"] = {
@@ -3870,11 +3870,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(1641, {	-- The Tome of Divinity (2/10)
 					["qg"] = 6171,	-- Duthorian Rall
+					["altQuests"] = { 1787 },	-- The Tome of Divinity (8)
 					["sourceQuests"] = {
 						2998,	-- The Tome of Divinity (1a/10)
 						3681,	-- The Tome of Divinity (1b/10)
 					},
-					["altQuests"] = { 1787 },	-- The Tome of Divinity (8)
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 50.5, 47.5, STORMWIND_CITY },
@@ -4224,12 +4224,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["timeline"] = { REMOVED_4_0_3 },
-					["races"] = ALLIANCE_ONLY,
-					["classes"] = { ROGUE },
 					["cost"] = {
 						{ "i", 3372, 1 },	-- Leaded Vial
 						{ "i", 4371, 1 },	-- Bronze Tube
 					},
+					["races"] = ALLIANCE_ONLY,
+					["classes"] = { ROGUE },
 					["lvl"] = 20,
 					["groups"] = {
 						objective(1, {	-- 0/1 Simple Wildflowers
@@ -4403,8 +4403,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.3, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				-- #if ANYCLASSIC
@@ -4507,16 +4507,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 60096,	-- Wrath of the Lich King: To Northrend!
 					["coord"] = { 56.2, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["repeatable"] = true,
 				}),
 				q(60096, {	-- Wrath of the Lich King: To Northrend!
 					["qg"] = 167032,	-- Chromie <Emissary of the Bronze Dragonflight>
 					["coord"] = { 56.3, 17.3, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
-					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["races"] = ALLIANCE_ONLY,
+					["lockCriteria"] = { 1, "lvl", LEVEL_CHROMIETIME_MAX },
 					["isBreadcrumb"] = true,
 				}),
 				q(397, {	-- You Have Served Us Well

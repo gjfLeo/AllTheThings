@@ -930,7 +930,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					o(421151, {	-- Carved Eye
 						["coord"] = { 40.5, 53.6, SCARLET_MONASTERY_ENTRANCE },
 						["timeline"] = { ADDED_10_2_5 },
-						["g"] = {
+						["groups"] = {
 							i(212984),	-- Grimoire of the Zealous Observer (CI!)
 						},
 					}),

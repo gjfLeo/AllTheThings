@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 						["races"] = HORDE_ONLY,
 						-- #if BEFORE 2.1.0
-						["g"] = ARTISAN_TAILORING,
+						["groups"] = ARTISAN_TAILORING,
 						-- #endif
 					}),
 				}),

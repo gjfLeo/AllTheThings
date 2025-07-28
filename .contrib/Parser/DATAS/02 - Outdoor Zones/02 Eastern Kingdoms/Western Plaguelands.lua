@@ -3005,14 +3005,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 76250,	-- Spectral Essence
 					["coord"] = { 68.8, 78.9, WESTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_10_1_5 },
-					["g"] = { i(206359) },	-- Caer Darrow Fountain Water
+					["groups"] = { i(206359) },	-- Caer Darrow Fountain Water
 				}),
 				o(403535, {	-- The Deed to Andorhal
 					["description"] = "Located by the town hall in Andorhal, on a wall to the right of where Rattlegore spawns.",
 					["sourceQuest"] = 76250,	-- Spectral Essence
 					["coord"] = { 43.6, 69.3, WESTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_10_1_5 },
-					["g"] = { i(206362) },	-- The Deed to Andorhal
+					["groups"] = { i(206362) },	-- The Deed to Andorhal
 				}),
 			}),
 			-- #endif

@@ -168,7 +168,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["coord"] = { 13.4, 43.4, THE_HINTERLANDS },
 						["races"] = ALLIANCE_ONLY,
 						-- #if BEFORE 2.1.0
-						["g"] = EXPERT_ARTISAN_LEATHERWORKING,
+						["groups"] = EXPERT_ARTISAN_LEATHERWORKING,
 						-- #endif
 					}),
 				}),
