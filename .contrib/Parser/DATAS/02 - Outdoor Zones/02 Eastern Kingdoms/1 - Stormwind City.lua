@@ -2562,9 +2562,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(65047, {	-- Mark of the Nightwing Raven
+					["name"] = "Mark of the Nightwing Raven",	-- TODO: What is this?
 					["qg"] = 44395,	-- Celestine of the Harvest
 					["coord"] = { 57.6, 24.8, STORMWIND_CITY },
-					["name"] = "Mark of the Nightwing Raven",	-- TODO: What is this?
 					["timeline"] = { ADDED_9_1_5 },
 					["classes"] = { DRUID },
 				}),
