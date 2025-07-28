@@ -20,7 +20,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			920,	-- Lower Deck
 		},
 		["lvl"] = { 45 },
-		["g"] = {
+		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(42032, {	-- Antorus, the Burning Throne (automated)
 					["timeline"] = { ADDED_11_1_7 },
@@ -92,7 +92,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				q(48954, {	-- Blood of a Titan
 					["provider"] = { "i", 152900 },	-- Blood of the Unmaker
 					["timeline"] = { ADDED_7_3_0, REMOVED_8_0_1 },
-					["g"] = {
+					["groups"] = {
 						i(152901, {	-- Violet Spellwing (MOUNT!)
 							["timeline"] = { ADDED_7_3_0, REMOVED_8_0_1 },
 						}),
@@ -100,7 +100,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				}),
 				q(49077, {	-- Moments of Reflection
 					["provider"] = { "n", 129429 },	-- Alor'idal Crystal
-					["g"] = { i(153555) },	-- Alor'idal Crystal (QI!)
+					["groups"] = { i(153555) },	-- Alor'idal Crystal (QI!)
 				}),
 			}),
 			d(DIFFICULTY.RAID.MULTI.ALL, {
@@ -124,7 +124,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						121975,	-- Aggramar
 						124828,	-- Argus the Unmaker
 					},
-					["g"] = {
+					["groups"] = {
 						i(151654),	-- Vantus Rune Technique: Antorus, the Burning Throne [Rank 1] (RECIPE!)
 						i(151655),	-- Vantus Rune Technique: Antorus, the Burning Throne [Rank 2] (RECIPE!)
 						i(151656),	-- Vantus Rune Technique: Antorus, the Burning Throne [Rank 3] (RECIPE!)
@@ -135,7 +135,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122477,	-- F'harg
 						122135,	-- Shatug
 					},
-					["g"] = {
+					["groups"] = {
 						i(152816),	-- Antoran Charhound (MOUNT!)
 						i(151726),	-- Design: Empyrial Cosmic Crown (Rank 3)
 						i(151729),	-- Design: Empyrial Deep Crown (Rank 3)
@@ -152,7 +152,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122369,	-- Chief Engineer Ishkar
 						122333,	-- General Erodus
 					},
-					["g"] = {
+					["groups"] = {
 						i(151742),	-- Pattern: Fiendish Shoulderguards [Rank 3] (RECIPE!)
 						i(151745),	-- Pattern: Fiendish Spaulders [Rank 3] (RECIPE!)
 					},
@@ -185,7 +185,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			d(DIFFICULTY.RAID.LFR, {
 				["crs"] = { 111246 },	-- Archmage Timear
 				["coord"] = { 63.7, 55.0, LEGION_DALARAN },
-				["g"] = {
+				["groups"] = {
 					n(ZONE_DROPS, {
 						i(152084),	-- Gloves of Abhorrent Strategies
 						i(152085),	-- Cuffs of the Viridian Flameweavers
@@ -223,7 +223,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 								122477,	-- F'Harg
 								122135,	-- Shatug
 							},
-							["g"] = {
+							["groups"] = {
 								i(152000),	-- Shadowfused Chain Coif
 								i(151973),	-- Collar of Null-Flame
 								i(152004),	-- Pauldrons of the Soulburner
@@ -248,7 +248,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 								122369,	-- Chief Engineer Ishkar
 								122333,	-- General Erodus
 							},
-							["g"] = {
+							["groups"] = {
 								i(151985),	-- General Erodus' Tricorne
 								i(152019),	-- Pauldrons of the Eternal Offensive
 								i(152125),	-- Bearmantle Cloak
@@ -284,7 +284,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 								122500,	-- Essence of Eonar
 								124445,	-- The Paraxis
 							},
-							["g"] = {
+							["groups"] = {
 								i(152681),	-- Headdress of Living Brambles
 								i(152013),	-- Helmet of the Hidden Sanctuary
 								i(152124),	-- Bearmantle Harness
@@ -405,7 +405,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 								122469,	-- Diima, Mother of Gloom
 								122468,	-- Noura, Mother of Flames
 							},
-							["g"] = {
+							["groups"] = {
 								i(152129),	-- Bearmantle Shoulders
 								i(152117),	-- Dreadwake Pauldrons
 								i(152123),	-- Felreaper Spaulders
@@ -500,7 +500,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122477,	-- F'harg
 						122135,	-- Shatug
 					},
-					["g"] = {
+					["groups"] = {
 						ach(12065),	-- Hounds Good To Me
 					},
 				}),
@@ -510,7 +510,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122369,	-- Chief Engineer Ishkar
 						122333,	-- General Erodus
 					},
-					["g"] = {
+					["groups"] = {
 						ach(12129),	-- This is the War Room!
 					},
 				}),
@@ -519,7 +519,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122500,	-- Essence of Eonar
 						124445,	-- The Paraxis
 					},
-					["g"] = {
+					["groups"] = {
 						ach(12067),	-- Spheres of Influence
 					},
 				}),
@@ -541,7 +541,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122469,	-- Diima, Mother of Gloom
 						122468,	-- Noura, Mother of Flames
 					},
-					["g"] = {
+					["groups"] = {
 						ach(12046),	-- Remember the Titans
 					},
 				}),
@@ -563,7 +563,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 							49076,	-- Antorus, the Burning Throne: Dark Passage (Mythic)
 						},
 						["provider"] = { "n", 125512 },	-- High Exarch Turalyon
-						["g"] = { i(152902) },	-- Rune of Passage (QI!)
+						["groups"] = { i(152902) },	-- Rune of Passage (QI!)
 					}),
 					q(49133, {	-- Antorus, the Burning Throne: The Heart of Argus (Normal)
 						["sourceQuests"] = { 49032 },	-- Antorus, the Burning Throne: Dark Passage (Normal)
@@ -573,7 +573,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 							49135,	-- Antorus, the Burning Throne: The Heart of Argus (Mythic)
 						},
 						["provider"] = { "n", 125682 },	-- Prophet Velen
-						["g"] = { i(152908) },	-- Sigil of the Dark Titan (QI!)
+						["groups"] = { i(152908) },	-- Sigil of the Dark Titan (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -612,7 +612,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122477,	-- F'harg
 						122135,	-- Shatug
 					},
-					["g"] = {
+					["groups"] = {
 						i(152000),	-- Shadowfused Chain Coif
 						i(151973),	-- Collar of Null-Flame
 						i(152004),	-- Pauldrons of the Soulburner
@@ -637,7 +637,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122369,	-- Chief Engineer Ishkar
 						122333,	-- General Erodus
 					},
-					["g"] = {
+					["groups"] = {
 						i(151985),	-- General Erodus' Tricorne
 						i(152019),	-- Pauldrons of the Eternal Offensive
 						i(152125),	-- Bearmantle Cloak
@@ -671,7 +671,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122500,	-- Essence of Eonar
 						124445,	-- The Paraxis
 					},
-					["g"] = {
+					["groups"] = {
 						i(152681),	-- Headdress of Living Brambles
 						i(152013),	-- Helmet of the Hidden Sanctuary
 						i(152124),	-- Bearmantle Harness
@@ -790,7 +790,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122469,	-- Diima, Mother of Gloom
 						122468,	-- Noura, Mother of Flames
 					},
-					["g"] = {
+					["groups"] = {
 						i(152129),	-- Bearmantle Shoulders
 						i(152117),	-- Dreadwake Pauldrons
 						i(152123),	-- Felreaper Spaulders
@@ -882,14 +882,14 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						["description"] = "Finishing this quest will grant you immediate access to Imonar the Soulhunter on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["altQuests"] = { 49076 },	-- Antorus, the Burning Throne: Dark Passage (Mythic)
 						["provider"] = { "n", 125512 },	-- High Exarch Turalyon
-						["g"] = { i(152906) },	-- Rune of Passage (QI!)
+						["groups"] = { i(152906) },	-- Rune of Passage (QI!)
 					}),
 					q(49134, {	-- Antorus, the Burning Throne: The Heart of Argus (Heroic)
 						["sourceQuests"] = { 49075 },	-- Antorus, the Burning Throne: Dark Passage (Heroic)
 						["description"] = "Finishing this quest will grant you immediate access to Aggramar on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["altQuests"] = { 49135 },	-- Antorus, the Burning Throne: The Heart of Argus (Mythic)
 						["provider"] = { "n", 125682 },	-- Prophet Velen
-						["g"] = { i(152909) },	-- Sigil of the Dark Titan (QI!)
+						["groups"] = { i(152909) },	-- Sigil of the Dark Titan (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -928,7 +928,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122477,	-- F'harg
 						122135,	-- Shatug
 					},
-					["g"] = {
+					["groups"] = {
 						i(152000),	-- Shadowfused Chain Coif
 						i(151973),	-- Collar of Null-Flame
 						i(152004),	-- Pauldrons of the Soulburner
@@ -954,7 +954,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122369,	-- Chief Engineer Ishkar
 						122333,	-- General Erodus
 					},
-					["g"] = {
+					["groups"] = {
 						i(151985),	-- General Erodus' Tricorne
 						i(152019),	-- Pauldrons of the Eternal Offensive
 						i(152125),	-- Bearmantle Cloak
@@ -988,7 +988,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122500,	-- Essence of Eonar
 						124445,	-- The Paraxis
 					},
-					["g"] = {
+					["groups"] = {
 						i(152681),	-- Headdress of Living Brambles
 						i(152013),	-- Helmet of the Hidden Sanctuary
 						i(152124),	-- Bearmantle Harness
@@ -1107,7 +1107,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122469,	-- Diima, Mother of Gloom
 						122468,	-- Noura, Mother of Flames
 					},
-					["g"] = {
+					["groups"] = {
 						i(152129),	-- Bearmantle Shoulders
 						i(152117),	-- Dreadwake Pauldrons
 						i(152123),	-- Felreaper Spaulders
@@ -1204,13 +1204,13 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					q(49076, {	-- Antorus, the Burning Throne: Dark Passage (Mythic)
 						["description"] = "Finishing this quest will grant you immediate access to Imonar the Soulhunter on Mythic difficulty each week.\n",
 						["provider"] = { "n", 125512 },	-- High Exarch Turalyon
-						["g"] = { i(152907) },	-- Rune of Passage (QI!)
+						["groups"] = { i(152907) },	-- Rune of Passage (QI!)
 					}),
 					q(49135, {	-- Antorus, the Burning Throne: The Heart of Argus (Mythic)
 						["sourceQuests"] = { 49076 },	-- Antorus, the Burning Throne: Dark Passage (Mythic)
 						["description"] = "Finishing this quest will grant you immediate access to Aggramar on Mythic difficulty each week.\n",
 						["provider"] = { "n", 125682 },	-- Prophet Velen
-						["g"] = { i(152910) },	-- Sigil of the Dark Titan (QI!)
+						["groups"] = { i(152910) },	-- Sigil of the Dark Titan (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -1250,7 +1250,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122477,	-- F'harg
 						122135,	-- Shatug
 					},
-					["g"] = {
+					["groups"] = {
 						ach(11993),	-- Mythic: Hounds of Sargeras
 						i(152000),	-- Shadowfused Chain Coif
 						i(151973),	-- Collar of Null-Flame
@@ -1276,7 +1276,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122369,	-- Chief Engineer Ishkar
 						122333,	-- General Erodus
 					},
-					["g"] = {
+					["groups"] = {
 						ach(11994),	-- Mythic: Antoran High Command
 						i(151985),	-- General Erodus' Tricorne
 						i(152019),	-- Pauldrons of the Eternal Offensive
@@ -1311,7 +1311,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122500,	-- Essence of Eonar
 						124445,	-- The Paraxis
 					},
-					["g"] = {
+					["groups"] = {
 						ach(11996),	-- Mythic: Eonar
 						i(152681),	-- Headdress of Living Brambles
 						i(152013),	-- Helmet of the Hidden Sanctuary
@@ -1435,7 +1435,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						122469,	-- Diima, Mother of Gloom
 						122468,	-- Noura, Mother of Flames
 					},
-					["g"] = {
+					["groups"] = {
 						ach(12000),	-- Mythic: The Coven of Shivarra
 						i(152129),	-- Bearmantle Shoulders
 						i(152117),	-- Dreadwake Pauldrons

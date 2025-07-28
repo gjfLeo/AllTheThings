@@ -89,7 +89,7 @@ InstanceHelper.Coords = EncounterCoords
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
-		["g"] = bubbleDownFiltered({
+		["groups"] = bubbleDownFiltered({
 			["isRaid"] = true,
 			["isWeekly"] = true,
 		},FILTERFUNC_questIDORencounterID,{
@@ -101,7 +101,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					EncounterToCRS[ORTA],
 					EncounterToCRS[SHURRAI]
 				),
-				["g"] = {
+				["groups"] = {
 					i(225733),	-- Abyssal Tendril Tights
 					i(225745),	-- Crystal Star Cuisses
 					i(225732),	-- Deep Dweller's Tabi

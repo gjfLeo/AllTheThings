@@ -13,7 +13,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					ADDED_7_0_3,
 					REMOVED_8_0_1,
 				},
-				["g"] = {
+				["groups"] = {
 					crit(32353),	-- Eye of Azshara
 					crit(32359),	-- Darkheart Thicket
 					crit(32360),	-- Neltharion's Lair

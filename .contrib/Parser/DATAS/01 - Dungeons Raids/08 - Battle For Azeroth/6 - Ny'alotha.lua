@@ -214,7 +214,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			1596,	-- Chamber of Rebirth
 			1597,	-- Locus of Infinite Truths
 		},
-		["g"] = {
+		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(14058),	-- All Eyes On Me (Ny'alotha)
 				ach(14146, {	-- Glory of the Ny'alotha Raider (automated)
@@ -399,7 +399,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							"questID", 58374,	-- Ny'alotha: MOTHER's Guidance [H]
 							"questID", 58375,	-- Ny'alotha: MOTHER's Guidance [M]
 						},
-						["g"] = {
+						["groups"] = {
 							i(174910),	-- Dragon Heart (QI!)
 							i(174913),	-- Prophetic Eye (QI!)
 							i(174063),	-- Titan Core (QI!)
@@ -437,7 +437,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						["lockCriteria"] = { 1,
 							"questID", 58375,	-- Ny'alotha: MOTHER's Guidance [M]
 						},
-						["g"] = {
+						["groups"] = {
 							i(174909),	-- Dragon Heart (QI!)
 							i(174911),	-- Prophetic Eye (QI!)
 							i(174064),	-- Titan Core (QI!)
@@ -462,7 +462,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				n(QUESTS, {
 					q(58375, {	-- Ny'alotha: MOTHER's Guidance [M]
 						["provider"] = { "n", 160177 },	-- Wrathion
-						["g"] = {
+						["groups"] = {
 							i(174908),	-- Dragon Heart (QI!)
 							i(174912),	-- Prophetic Eye (QI!)
 							i(174065),	-- Titan Core (QI!)
@@ -510,12 +510,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					ach(14071, {	-- Hall of Fame: N'Zoth the Corruptor (Alliance)
 						["races"] = ALLIANCE_ONLY,
 						["timeline"] = { REMOVED_9_0_1 },
-						["g"] = { title(416) },	-- <Name>, Famed Slayer of N'Zoth
+						["groups"] = { title(416) },	-- <Name>, Famed Slayer of N'Zoth
 					}),
 					ach(14072, {	-- Hall of Fame: N'Zoth the Corruptor (Horde)
 						["races"] = HORDE_ONLY,
 						["timeline"] = { REMOVED_9_0_1 },
-						["g"] = { title(416) },	-- <Name>, Famed Slayer of N'Zoth
+						["groups"] = { title(416) },	-- <Name>, Famed Slayer of N'Zoth
 					}),
 					ach(14055, {	-- Mythic: N'Zoth, the Corruptor
 						title(417),	-- the Uncorrupted

@@ -4,7 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_2_0 } }, {
 	cl(WARLOCK, {
 		["description"] = "The Warlock Green Fire is a special visual effect for Destruction Warlocks. To unlock it you will have to complete a series of warlock-exclusive quests related to the Council of the Black Harvest.\n\nTo start the quest you must first find a Sealed Tome of the Lost Legion from rares on the Isle of Thunder.",
-		["g"] = bubbleDown({ ["classes"] = { WARLOCK }, ["lvl"] = lvlsquish(90, 35, 35) },{
+		["groups"] = bubbleDown({ ["classes"] = { WARLOCK }, ["lvl"] = lvlsquish(90, 35, 35) },{
 			n(QUESTS, {
 				i(92426, {	-- Sealed Tome of the Lost Legion
 					["maps"] = { ISLE_OF_THUNDER },
@@ -55,7 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						{ 50.2, 6.8, IRONFORGE },
 					},
 					["races"] = ALLIANCE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(83078),	-- Legacy of the Masters (Part 1)
 					},
 				}),
@@ -64,7 +64,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["qg"] = 88705,	-- Kranosh
 					["coord"] = { 53.8, 35.8, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
-					["g"] = {
+					["groups"] = {
 						i(83078),	-- Legacy of the Masters (Part 1)
 					},
 				}),
