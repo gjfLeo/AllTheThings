@@ -1023,7 +1023,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			}),
 			TempForceMisc(i(219192, {	-- Comprehensibly Organized Ideas
 				["description"] = "NOTE: Some of these require a specific specialization to discover.",
-				["g"] = {
+				["groups"] = {
 					r(447325, {	-- Aqirite Brainwave Projector
 						["description"] = "Requires specialization - Profession Gear to discover",
 					}),

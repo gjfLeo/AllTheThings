@@ -895,7 +895,6 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 		q(36435, {	-- Unintelligible Intelligence
 			["provider"] = { "i", 115593 },	-- Illegible Sootstained Notes
 			["description"] = "This item can drop from any Draenor mob.",
-			["requireSkill"] = INSCRIPTION,
 			["maps"] = {
 				FROSTFIRE_RIDGE,
 				GORGROND,
@@ -904,6 +903,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 				SPIRES_OF_ARAK,
 				TALADOR,
 			},
+			["requireSkill"] = INSCRIPTION,
 			["races"] = HORDE_ONLY,
 			["lvl"] = 90,
 		}),
