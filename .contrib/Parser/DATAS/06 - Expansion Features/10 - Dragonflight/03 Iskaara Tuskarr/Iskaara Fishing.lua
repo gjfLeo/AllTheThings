@@ -70,75 +70,75 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			n(QUESTS, {
 				------ RENOWN 4 ------
 				q(70941, {	-- Fishing Holes
-					["description"] = "Spawns Anywhere on Dragon Isles.",
 					["provider"] = { "n", 197631 },	-- Rowie
 					["coord"] = { 45.8, 55.2, VALDRAKKEN },
+					["description"] = "Spawns Anywhere on Dragon Isles.",
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 				}),
 				------ RENOWN 5 ------
 				q(71230, {	-- Tuskarr Fishing Gear
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
-					["description"] = "Spawns Anywhere on Dragon Isles.",
 					["provider"] = { "n", 197631 },	-- Rowie
 					["coord"] = { 45.8, 55.2, VALDRAKKEN },
+					["description"] = "Spawns Anywhere on Dragon Isles.",
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
 					["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS },
 				}),
 				q(70871, {	-- Iskaaran Fishing Net
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
 					["groups"] = {
 						i(199925),	-- Stone With Hole
 						i(199924),	-- Strong Sea Kelp
 					},
 				}),
 				q(72584, {	-- Setting Your Very Own Net
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
-					["sourceQuests"] = { 70871 },	-- Iskaaran Fishing Net
 					["provider"] = { "n", 195935 },	-- Tavio
+					["sourceQuests"] = { 70871 },	-- Iskaaran Fishing Net
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 5 },
 				}),
 				------ RENOWN 6 ------
 				q(70942, {	-- Highland Fishing
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 6 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 6 },
 				}),
 				------ RENOWN 7 ------
 				q(70943, {	-- Harpooning
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 7 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 7 },
 				}),
 				------ RENOWN 10 ------
 				q(70944, {	-- Ice Fishing
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 10 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 10 },
 				}),
 				------ RENOWN 13 ------
 				q(70945, {	-- Netting More
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 13 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 13 },
 				}),
 				------ RENOWN 15 ------
 				q(70948, {	-- Hook, Line, and Swelter!
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 15 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 15 },
 				}),
 				------ RENOWN 18 ------
 				q(70950, {	-- Fishy Entertainment
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 18 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 18 },
 				}),
 				------ RENOWN 27 ------
 				q(70952, {	-- Abandoned... or Hidden Caches
-					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 27 },
 					["provider"] = { "n", 195935 },	-- Tavio
 					["coord"] = { 12.8, 49.2, THE_AZURE_SPAN },
+					["minReputation"] = { FACTION_ISKAARA_TUSKARR, 27 },
 				}),
 			}),
 			n(QUESTS, sharedData({

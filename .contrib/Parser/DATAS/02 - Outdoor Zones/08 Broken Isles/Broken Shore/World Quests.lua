@@ -118,7 +118,7 @@ root(ROOTS.Zones, {
 				}),
 				q(46707),	-- Minion! Kill That One Too!
 				q(46755, {	-- Mission: Felraging
-					-- TODO: ["classes"] = { ? },
+					-- ["classes"] = { ? },
 				}),
 				q(46756),	-- Mission: Felrage Destruction
 				q(46825, {	-- Mud Mucking

@@ -41,9 +41,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						-- #else
 						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
 						-- #endif
-						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75721 },	-- Bartering 101 [Renown 3]
 						["DisablePartySync"] = true,
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(205964),	-- Small Loammian Supply Pack
 						},
@@ -59,8 +59,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["isBreadcrumb"] = true,
 					}),
 					q(75721, {	-- Bartering 101
-						["sourceQuests"] = { 75720 },	-- Care to Barter?
 						["provider"] = { "n", 204693 },	-- Ponzo
+						["sourceQuests"] = { 75720 },	-- Care to Barter?
 						["coord"] = { 58.0, 53.8, ZARALEK_CAVERN },
 						["groups"] = {
 							i(204985),	-- Barter Brick
@@ -141,9 +141,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						-- #else
 						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
 						-- #endif
-						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75728 },	-- Bartering Boulders [Renown 12]
 						["DisablePartySync"] = true,
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(205965),	-- Large Loammian Supply Pack
 						},
@@ -192,9 +192,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						-- #else
 						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
 						-- #endif
-						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 76030 },	-- Airborne Winding [Renown 16]
 						["DisablePartySync"] = true,
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(205968),	-- Overflowing Loammian Supply Pack
 						},
@@ -228,9 +228,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						-- #else
 						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
 						-- #endif
-						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75742 },	-- Drake Helms [Renown 19]
 						["DisablePartySync"] = true,
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(205968),	-- Overflowing Loammian Supply Pack
 						},
@@ -276,8 +276,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					q(76067, {	-- Signed, Sealed, Self-Delivered
-						["sourceQuests"] = { 75744 },	-- A Token of Our Gratitude
 						["provider"] = { "n", 205127 },	-- Newsy
+						["sourceQuests"] = { 75744 },	-- A Token of Our Gratitude
 						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
 						-- #else

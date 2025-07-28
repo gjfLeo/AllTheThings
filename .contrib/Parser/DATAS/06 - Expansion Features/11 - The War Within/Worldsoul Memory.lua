@@ -95,8 +95,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				}),
 				q(86476, {	-- Worldsoul Memory: Early Cartel Wars
 					["coord"] = { 43.3, 14.4, UNDERMINE },
-					["repeatable"] = true,
 					["timeline"] = { ADDED_11_1_0 },
+					["repeatable"] = true,
 					["groups"] = {
 						n(235071),	-- Peet the Wheedler
 						n(235072),	-- Vynnie Samophlangus
@@ -120,8 +120,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				}),
 				q(86477, {	-- Worldsoul Memory: Kaja'mite Contact
 					["coord"] = { 58.2, 68.6, UNDERMINE },
-					["repeatable"] = true,
 					["timeline"] = { ADDED_11_1_0 },
+					["repeatable"] = true,
 					["groups"] = {
 						n(235113),	-- Deep-King Grobrosh
 						n(235116),	-- Geomancer Keeri

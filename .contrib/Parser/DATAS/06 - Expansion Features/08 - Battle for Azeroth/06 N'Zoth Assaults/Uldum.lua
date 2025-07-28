@@ -290,7 +290,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							["coord"] = { 46.8, 34.2, NZOTH_ASSAULT_ULDUM },
 							["isWorldQuest"] = true,
 						}),
-						]]
+						]]--
 						q(57541, {	-- Call of the Void
 							["coord"] = { 65.9, 72.9, NZOTH_ASSAULT_ULDUM },
 						}),

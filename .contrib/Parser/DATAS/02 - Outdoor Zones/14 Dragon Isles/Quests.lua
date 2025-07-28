@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			["timeline"] = { ADDED_10_0_5 },
 		}),
 		q(78113, {	-- The Challenge Tour
-			-- TODO: ["sourceQuests"] = { 72985 },	-- The Thaldraszus Reverse Tour
+			-- ["sourceQuests"] = { 72985 },	-- The Thaldraszus Reverse Tour
 			["provider"] = { "n", 193411 },	-- Celormu
 			["coord"] = { 73.3, 52.1, THE_WAKING_SHORES },
 			["timeline"] = { ADDED_10_1_7 },

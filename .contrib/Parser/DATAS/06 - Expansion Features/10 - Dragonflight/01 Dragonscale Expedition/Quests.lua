@@ -201,9 +201,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}, {	-- RENOWN 4 --
 					q(70812, {	-- Expedition Cloaks
-						["description"] = "Buying the Renowned cloaks will remove this quest from being available!",
 						["provider"] = { "n", 187700 },	-- Pathfinder Jab
 						["coord"] = { 47.3, 83.4, THE_WAKING_SHORES },
+						["description"] = "Buying the Renowned cloaks will remove this quest from being available!",
 						["groups"] = {
 							i(199873),	-- Renowned Expeditioner's Cape
 							i(199874),	-- Renowned Expeditioner's Cloak
@@ -305,10 +305,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(72035, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 189226 },	-- Cataloger Jakes
 						["coord"] = { 47.1, 82.6, THE_WAKING_SHORES },
-						-- technically not accurate, but no other way to lock this properly for first character
+						["timeline"] = { REMOVED_11_0_0 },
 						["lockCriteria"] = { 1, "questID", 72037 },	-- Dragon Isles Supplies [Renown 11]
 						["DisablePartySync"] = true,
-						["timeline"] = { REMOVED_11_0_0 },
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(198863),	-- Small Dragon Expedition Supply Pack
 						},
@@ -317,10 +317,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(72036, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 189226 },	-- Cataloger Jakes
 						["coord"] = { 47.1, 82.6, THE_WAKING_SHORES },
-						-- technically not accurate, but no other way to lock this properly for first character
+						["timeline"] = { REMOVED_11_0_0 },
 						["lockCriteria"] = { 1, "questID", 72037 },	-- Dragon Isles Supplies [Renown 11]
 						["DisablePartySync"] = true,
-						["timeline"] = { REMOVED_11_0_0 },
+						-- technically not accurate, but no other way to lock this properly for first character
 						["groups"] = {
 							i(198863),	-- Small Dragon Expedition Supply Pack
 						},
@@ -349,54 +349,54 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}, {	-- RENOWN 13 --
 					q(69093, {	-- A New Mystery
-						["description"] = "Spawns Anywhere on Dragon Isles.",
 						["provider"] = { "n", 196643 },	-- Doc Nanners
+						["description"] = "Spawns Anywhere on Dragon Isles.",
 						["maps"] = { THE_WAKING_SHORES },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
 					}),
 					q(66012, {	-- The Sealed Door
-						["sourceQuests"] = { 69093 },	-- A New Mystery
 						["provider"] = { "n", 186869 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 69093 },	-- A New Mystery
 						["coord"] = { 47.9, 82.4, THE_WAKING_SHORES },
 					}),
 					q(66013, {	-- Investigate the Door
-						["sourceQuests"] = { 66012 },	-- The Sealed Door
 						["provider"] = { "n", 186870 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 66012 },	-- The Sealed Door
 						["coord"] = { 54.5, 55.7, THALDRASZUS },
 					}),
 					q(66673, {	-- Speak to Koranos
-						["sourceQuests"] = { 66013 },	-- Investigate the Door
 						["provider"] = { "n", 186870 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 66013 },	-- Investigate the Door
 						["coord"] = { 54.5, 55.7, THALDRASZUS },
 						["groups"] = {
 							i(197958),	-- Watcher Log (QI!)
 						},
 					}),
 					q(66094, {	-- The Ruins of Szat Skeleth
-						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["provider"] = { "n", 186870 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["coord"] = { 54.5, 55.7, THALDRASZUS },
 					}),
 					q(70784, {	-- The Abandoned Outpost
-						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["provider"] = { "n", 186870 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["coord"] = { 54.5, 55.7, THALDRASZUS },
 					}),
 					q(70785, {	-- The City of the Dead
-						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["provider"] = { "n", 186870 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 66673 },	-- Speak to Koranos
 						["coord"] = { 54.5, 55.7, THALDRASZUS },
 					}),
 					q(70507, {	-- The Insight of Tyr
-						["sourceQuests"] = { 66094 },	-- The Ruins of Szat Skeleth
 						["provider"] = { "n", 191159 },	-- Toddy Whiskers
+						["sourceQuests"] = { 66094 },	-- The Ruins of Szat Skeleth
 						["coord"] = { 40.0, 67.5, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(193070),	-- The Insight of Tyr (QI!)
 						},
 					}),
 					q(70766, {	-- The Fractured Flame
-						["sourceQuests"] = { 70507 },	-- The Insight of Tyr
 						["provider"] = { "i", 199790 },	-- Makko's Journal Cover
+						["sourceQuests"] = { 70507 },	-- The Insight of Tyr
 						["coord"] = { 44, 66, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(203598),	-- Makko's Journal Cover (QI!)
@@ -410,8 +410,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					q(70503, {	-- The Vigilance of Tyr
-						["sourceQuests"] = { 70784 },	-- The Abandoned Outpost
 						["provider"] = { "n", 193350 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 70784 },	-- The Abandoned Outpost
 						["coord"] = { 53.9, 50.7, THE_AZURE_SPAN },
 						["groups"] = {
 							i(200473),	-- Agitated Fragment (QI!)
@@ -422,22 +422,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					q(66814, {	-- The Judgement of Tyr
-						["sourceQuests"] = { 70785 },	-- The City of the Dead
 						["provider"] = { "n", 190855 },	-- Naleidea Rivergleam
+						["sourceQuests"] = { 70785 },	-- The City of the Dead
 						["coord"] = { 62.2, 18.3, THALDRASZUS },
 						["groups"] = {
 							i(193072),	-- The Judgment of Tyr (QI!)
 						},
 					}),
 					q(66128, {	-- Next Steps
+						["qgs"] = {
+							191159,	-- Toddy Whiskers
+							193350,	-- Naleidea Rivergleam
+						},
 						["sourceQuests"] = {
 							70507,	-- The City of the Dead
 							70503,	-- The Vigilance of Tyr
 							66814,	-- The Judgement of Tyr
-						},
-						["providers"] = {
-							{ "n", 191159 },	-- Toddy Whiskers
-							{ "n", 193350 },	-- Naleidea Rivergleam
 						},
 						["coords"] = {
 							{ 40.0, 67.5, OHNAHRAN_PLAINS },
@@ -717,39 +717,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}, {	-- RENOWN 24 --
 					q(69097, {	-- A Vault Unsealed
-						["description"] = "Spawns Anywhere on Dragon Isles.",
 						["provider"] = { "n", 196643 },	-- Doc Nanners
+						["description"] = "Spawns Anywhere on Dragon Isles.",
 						["maps"] = { THE_WAKING_SHORES, OHNAHRAN_PLAINS, THE_AZURE_SPAN, THALDRASZUS, VALDRAKKEN },
 						["isBreadcrumb"] = true,	-- TODO: double check this
 					}),
 					q(67722, {	-- Break on Through
 						["provider"] = { "n", 189226 },	-- Cataloger Jakes
-						["coord"] = { 47.1, 82.6, THE_WAKING_SHORES },
 						["sourceQuests"] = { 69097 },	-- A Vault Unsealed
+						["coord"] = { 47.1, 82.6, THE_WAKING_SHORES },
 					}),
 					q(66636, {	-- The Other Side
-						["sourceQuests"] = { 67722 },	-- Break on Through
 						["provider"] = { "n", 191838 },	-- Toddy Whiskers
+						["sourceQuests"] = { 67722 },	-- Break on Through
 						["coord"] = { 54.2, 55.4, THALDRASZUS },
 					}),
 					q(66173, {	-- Hall of Samples
-						["sourceQuests"] = { 66636 },	-- The Other Side
 						["provider"] = { "n", 192820 },	-- Toddy Whiskers
+						["sourceQuests"] = { 66636 },	-- The Other Side
 						["coord"] = { 55.1, 56.2, THALDRASZUS },
 					}),
 					q(66174, {	-- Hall of the Aspects
-						["sourceQuests"] = { 66636 },	-- The Other Side
 						["provider"] = { "n", 192820 },	-- Toddy Whiskers
+						["sourceQuests"] = { 66636 },	-- The Other Side
 						["coord"] = { 55.1, 56.2, THALDRASZUS },
 					}),
 					q(71152, {	-- Back to the Main Hall
+						["qgs"] = {
+							191853,	-- Toddy Whiskers
+							193374,	-- Toddy Whiskers
+						},
 						["sourceQuests"] = {
 							66173,	-- Hall of Samples
 							66174,	-- Hall of the Aspects
-						},
-						["providers"] = {
-							{ "n", 191853 },	-- Toddy Whiskers
-							{ "n", 193374 },	-- Toddy Whiskers
 						},
 						["coords"] = {
 							{ 58.1, 53.0, THALDRASZUS },
@@ -757,21 +757,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					q(66546, {	-- Retrieve the Discs
-						["sourceQuests"] = { 71152 },	-- Back to the Main Hall
 						["provider"] = { "n", 192820 },	-- Toddy Whiskers
+						["sourceQuests"] = { 71152 },	-- Back to the Main Hall
 						["coord"] = { 55.1, 56.2, THALDRASZUS },
 						["groups"] = {
 							i(192768),	-- Titan Disk
 						},
 					}),
 					q(66547, {	-- It Belongs in a Museum... Eventually
-						["sourceQuests"] = { 66546 },	-- Retrieve the Discs
 						["provider"] = { "n", 192967 },	-- Toddy Whiskers
+						["sourceQuests"] = { 66546 },	-- Retrieve the Discs
 						["coord"] = { 54.4, 55.5, THALDRASZUS },
 					}),
 					q(69888, {	-- Unusual Suspects
-						["sourceQuests"] = { 66547 },	-- It Belongs in a Museum... Eventually
 						["provider"] = { "n", 187276 },	-- Toddy Whiskers
+						["sourceQuests"] = { 66547 },	-- It Belongs in a Museum... Eventually
 						["coord"] = { 47.2, 82.7, THE_WAKING_SHORES },
 						["description"] = "This quest will become available on the next weekly reset after completing |cffffff00It Belongs in a Museum... Eventually|r.",
 						["groups"] = {
