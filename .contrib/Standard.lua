@@ -84,14 +84,15 @@ Extended Quest
 
 Braghe:
 q(questID, {	-- Quest Name
+	["name"] = "Quest Name, if the name will NEVER load in game",
 	["provider"] = { "n", npcID },	-- Npc Name
 	["altQuests"] = { questID },	-- Quest Name
 	["sourceQuests"] = { questID },	-- Quest Name
 	["sourceQuestNumRequired"] = number,
-	["coord"] = { X, Y, mapID },	-- Map Name
+	["coord"] = { X, Y, MAPID_CONSTANT },
 	["description"] = "Text",
 	["timeline"] = { timeline },
-	["maps"] = { mapID },	-- Map Name
+	["maps"] = { MAPID_CONSTANT },
 	["cost"] = { { "i", itemID, number }, },	-- numberxItem Name
 	["classes"] = { classID },
 	["races"] = { raceID },
