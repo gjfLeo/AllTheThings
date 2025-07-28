@@ -681,33 +681,86 @@ namespace ATT
                 case "[\"hqd\"]":
                 case "[\"hordeQuestData\"]":
                     {
-                        property.Priority = -2;
+                        property.Priority = -1000;
                         lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-
-                // Name
-                case "[\"name\"]":
-                    {
-                        property.Priority = -1;
-                        if (line.Contains("{")) lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        else lineIndex = CheckForMultilinedData(lines, line, lineIndex, property);
                         break;
                     }
 
                 // Quest ID
                 case "[\"questID\"]":
                     {
-                        property.Priority = 0;
+                        property.Priority = -500;
+                        break;
+                    }
+
+                // Name
+                case "[\"name\"]":
+                    {
+                        property.Priority = -499;
+                        if (line.Contains("{")) lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        else lineIndex = CheckForMultilinedData(lines, line, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Description
+                case "[\"description\"]":
+                    {
+                        property.Priority = -498;
+                        lineIndex = ProcessLuaString(lines, line, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Icon
+                case "[\"icon\"]":
+                    {
+                        property.Priority = -497;
+                        lineIndex = CheckForMultilinedData(lines, line, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Source Achievements
+                case "[\"sourceAchievement\"]":
+                case "[\"sourceAchievements\"]":
+                    {
+                        property.Priority = -450;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Source Quests
+                case "[\"sourceQuest\"]":
+                case "[\"sourceQuests\"]":
+                    {
+                        property.Priority = -449;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        break;
+                    }
+                case "[\"sourceQuestNumRequired\"]":
+                    {
+                        property.Priority = -448;
+                        break;
+                    }
+
+                // Followed by Alt Achievements
+                case "[\"altAchievement\"]":
+                case "[\"altAchievements\"]":
+                    {
+                        property.Priority = -440;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        break;
+                    }
+
+                // Followed by Alt Quests
+                case "[\"altQuest\"]":
+                case "[\"altQuests\"]":
+                    {
+                        property.Priority = -438;
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
                         break;
                     }
 
                 // Quest Givers
                 case "[\"qg\"]":
-                    {
-                        property.Priority = 1;
-                        break;
-                    }
                 case "[\"qgs\"]":
                     {
                         property.Priority = 1;
@@ -739,83 +792,12 @@ namespace ATT
                         break;
                     }
 
-                // Followed by Alt Achievements
-                case "[\"altAchievement\"]":
-                    {
-                        property.Priority = 2;
-                        break;
-                    }
-                case "[\"altAchievements\"]":
-                    {
-                        property.Priority = 2;
-                        lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-
-                // Followed by Alt Quests
-                case "[\"altQuest\"]":
-                    {
-                        property.Priority = 3;
-                        break;
-                    }
-                case "[\"altQuests\"]":
-                    {
-                        property.Priority = 3;
-                        lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-
-                // Followed by Source Achievements
-                case "[\"sourceAchievement\"]":
-                    {
-                        property.Priority = 4;
-                        break;
-                    }
-                case "[\"sourceAchievements\"]":
-                    {
-                        property.Priority = 4;
-                        lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-
-                // Followed by Source Quests
-                case "[\"sourceQuest\"]":
-                    {
-                        property.Priority = 5;
-                        break;
-                    }
-                case "[\"sourceQuests\"]":
-                    {
-                        property.Priority = 5;
-                        lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-                case "[\"sourceQuestNumRequired\"]":
-                    {
-                        property.Priority = 6;
-                        break;
-                    }
-
                 // Followed by Coordinates
                 case "[\"coord\"]":
                 case "[\"coords\"]":
                     {
                         property.Priority = 10;
                         lineIndex = ProcessBrackets(lines, lineIndex, property);
-                        break;
-                    }
-
-                // Followed by Icon/Description
-                case "[\"icon\"]":
-                    {
-                        property.Priority = 12;
-                        lineIndex = CheckForMultilinedData(lines, line, lineIndex, property);
-                        break;
-                    }
-                case "[\"description\"]":
-                    {
-                        property.Priority = 13;
-                        lineIndex = ProcessLuaString(lines, line, lineIndex, property);
                         break;
                     }
 
