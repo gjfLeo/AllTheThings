@@ -29,23 +29,8 @@ namespace ATT
                 allFiles.AddRange(Directory.GetFiles("../Parser/", "*.lua", SearchOption.AllDirectories));
             }
 
-            // Step 1: Trim the Files in a big batch
-            // This removes newlines from the end and also substitutes ["g"] for ["groups"]
-            var changedFiles = new List<string>();
-            foreach (var filename in allFiles)
-            {
-                if (TrimFile(filename)) changedFiles.Add(filename);
-            }
-            if (changedFiles.Count > 0)
-            {
-                Console.WriteLine($"Converted 'g' to 'groups':");
-                foreach (var filename in changedFiles)
-                {
-                    Console.WriteLine($" {filename}");
-                }
-                Console.WriteLine("Press Enter when you have staged these changes in Git. (This will help spot check data later)");
-                Console.ReadLine();
-            }
+            // Step 1: Clean the files before processing them.
+            foreach (var filename in allFiles) CleanFile(filename);
 
             // Step 2: Process the Files
             foreach (var filename in allFiles)
@@ -1250,6 +1235,24 @@ namespace ATT
         }
 
         /// <summary>
+        /// Clean the file for groups and trimming.
+        /// </summary>
+        /// <param name="filename">The file name.</param>
+        static void CleanFile(string filename)
+        {
+            // Replace "g" with "groups". Crieve hates the shortness of "g" because it makes it
+            // harder to find in processing and it doesn't stand out when reading vertically.
+            Console.Title = $"[PAT] Cleaning {filename}";
+            Console.WriteLine($"Cleaning {filename}");
+            var withGContent = File.ReadAllText(filename);
+            var originalContent = withGContent.Replace("[\"g\"]", "[\"groups\"]").Trim() + "\n";
+            if (originalContent != withGContent)
+            {
+                File.WriteAllText(filename, originalContent);
+            }
+        }
+
+        /// <summary>
         /// Process the file.
         /// </summary>
         /// <param name="filename">The file name.</param>
@@ -1259,7 +1262,8 @@ namespace ATT
             {
                 // Read the text as separated by newlines (TODO: Maybe not use lines? It is easier to keep indents as lines, technically.)
                 Console.Title = $"[PAT] Processing {filename}";
-                var content = ProcessLines(File.ReadAllLines(filename)).Trim();
+                Console.WriteLine($"Processing {filename}");
+                var content = ProcessLines(File.ReadAllLines(filename)).Trim() + "\n";
                 if (File.ReadAllText(filename) != content) File.WriteAllText(filename, content);
             }
             catch (Exception e)
@@ -1267,34 +1271,6 @@ namespace ATT
                 Console.WriteLine(e);
                 Console.ReadLine();
             }
-        }
-
-        /// <summary>
-        /// Process the file for groups and trimming.
-        /// </summary>
-        /// <param name="filename">The file name.</param>
-        /// <returns>Whether or not the file was trimmed.</returns>
-        static bool TrimFile(string filename)
-        {
-            try
-            {
-                // Replace "g" with "groups". Crieve hates the shortness of "g" because it makes it
-                // harder to find in processing and it doesn't stand out when reading vertically.
-                Console.Title = $"[PAT] Trimming {filename}";
-                var withGContent = File.ReadAllText(filename);
-                var originalContent = withGContent.Replace("[\"g\"]", "[\"groups\"]").Trim();
-                if (originalContent != withGContent)
-                {
-                    File.WriteAllText(filename, originalContent);
-                    return true;
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                Console.ReadLine();
-            }
-            return false;
         }
     }
 }
