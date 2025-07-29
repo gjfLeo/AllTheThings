@@ -252,9 +252,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["coord"] = { 38.5, 51.1, KARESH_TAZAVESH },
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(42190),	-- Let Me Solo Her: Nexus-Princess Ky'veza
-					ach(42193),	-- My Stab-Happy Nemesis
-					ach(42194),	-- Pruning the Princess
+					ach(42190, {	-- Let Me Solo Her: Nexus-Princess Ky'veza
+						i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive (MM!)
+					}),
+					ach(42193, {	-- My Stab-Happy Nemesis
+						i(245529),	-- Hal'hadar's Phasebound Visor (COSMETIC!)
+					}),
+					ach(42194, {	-- Pruning the Princess
+						title(639),	-- Contract Killer %s
+					}),
 				}),
 			},
 		})),

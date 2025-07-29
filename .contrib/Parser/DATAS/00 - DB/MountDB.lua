@@ -2083,6 +2083,7 @@ i(243592, 1235806);	-- Grandmaster's Smokey Board
 i(242730, 1233547);	-- Acidic Void Creeper
 i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
+i(242733, 1233559);	-- Blue Barry
 i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(242717, 1233518);	-- Lavender K'arroc
 i(250240, 1250578);	-- Phase-Lost Slateback
@@ -2098,7 +2099,6 @@ i(243157, 1234820);	-- Vicious Void Creeper [A]
 i(243159, 1234821);	-- Vicious Void Creeper [H]
 --- UNSORTED ---
 i(247791, 1245357);	-- Adorned Northeron Gryphon
-i(242733, 1233559);	-- Blue Barry
 i(248761, 1247662);	-- Brewfest Barrel Bomber
 i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
 i(246919, 1244259);	-- Cinder-seared Elekk

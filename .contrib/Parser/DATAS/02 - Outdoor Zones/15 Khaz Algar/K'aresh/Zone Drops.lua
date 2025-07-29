@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			n(WEAPONS, {
 				i(244526),	-- Worn Shadowguard Bastion
-				i(244520),	-- Worn Shadowguard Bident*
+				i(244520),	-- Worn Shadowguard Bident
 				i(244524),	-- Worn Shadowguard Blade*
 				i(244518),	-- Worn Shadowguard Blaster*
 				i(244510),	-- Worn Shadowguard Carver*

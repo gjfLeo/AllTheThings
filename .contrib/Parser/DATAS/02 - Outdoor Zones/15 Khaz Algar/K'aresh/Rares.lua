@@ -43,11 +43,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(241956, {	-- Arcana-Monger So'zer
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				--["coord"] = { x, y, KARESH },
 				--["questID"] = ,
 			}),
 			n(238540, {	-- Grubber
-				["coord"] = { 71.1, 57.2, KARESH_TAZAVESH },
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
+				["coord"] = { 71.2, 57.2, KARESH_TAZAVESH },
 				["questID"] = 90698,
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
@@ -57,6 +59,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["groups"] = {
 					i(245272),	-- Heka'Tarnos, Bringer of Discord (PET!)
 				},
+			}),
+			n(238536, {	-- Hollowbane
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
+				--["coord"] = { x, y, KARESH },
+				--["questID"] = ,
 			}),
 			n(232128, {	-- Ixthar the Unblinking
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
@@ -139,7 +146,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(241920, {	-- Purple Peat
-				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
 				["questID"] = 90692,
 			}),
@@ -162,6 +169,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["groups"] = {
 					i(239469),	-- Reshii Skirmisher's Pauldrons
 				},
+			}),
+			n(238135, {	-- Shatterpulse
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
+				--["coord"] = { x, y, KARESH },
+				--["questID"] = ,
 			}),
 			n(232193, {	-- Stalker of the Wastes
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
@@ -196,7 +208,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			n(235104, {	-- The Wallbreaker
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
-				--["coord"] = { ?, ?, KARESH_TAZAVESH },
+				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
 				["questID"] = 91312,
 				["groups"] = {
 					i(238665),	-- Crystallized Anima (QS!)
@@ -217,7 +229,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
-				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
+				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
 				["groups"] = {

@@ -306,6 +306,7 @@ i(153570);	-- "Magic" Rock
 i(155842);	-- "Preserved" Foodstuffs
 i(153566);	-- "Shiny" Rock
 i(153567);	-- "Smooth" Rock
+i(162981);	-- A Steamy Romance Novel: Stormy Seas
 i(158862);	-- Ancient Grave Dust
 i(162634);	-- Ancient Nazmani Coins
 i(158811);	-- Ashen Coal
@@ -402,6 +403,7 @@ i(163375);	-- Portrait of Commander Martens
 i(158840);	-- Prehensile Tongue
 i(162545);	-- Razordog
 i(158779);	-- Robust Horn
+i(162554);	-- Rootway Papaya
 i(158756);	-- Rotary Gasket
 i(158758);	-- Royal Jelly
 i(163030);	-- Rusted Mining Pick

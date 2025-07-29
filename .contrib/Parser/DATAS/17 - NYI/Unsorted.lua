@@ -36,7 +36,6 @@ root(ROOTS.Unsorted, {
 			filter(BATTLE_PETS, {
 				i(244467),	-- Veridian Thorntail
 				i(244468),	-- Scrappy Thorntail
-				i(244907),	-- Dread Horrorling
 				i(244914),	-- Xanthous Siphonmite
 				i(244916),	-- Cyan Siphonmite
 				i(245215),	-- Shimmering Inchshifter
@@ -86,7 +85,6 @@ root(ROOTS.Unsorted, {
 				i(245526),	-- Bloodmarked Phasebound Visor
 				i(245527),	-- Consortium's Phasebound Visor
 				i(245528),	-- Wastlander's Phasebound Visor
-				i(245529),	-- Hal'hadar's Phasebound Visor
 				i(244806),	-- Renowned Explorer's Versatile Vest
 
 				-- Trading Post?
@@ -410,8 +408,6 @@ root(ROOTS.Unsorted, {
 				--]]
 			}),
 			filter(MISC, {
-
-				i(236632),	-- Pouch of Voidbane Gems
 				i(238808),	-- Celeste-Touched Fin
 				i(238810),	-- Mana-Blessed Fin
 				i(238849),	-- Ominous Unblinking Eye
@@ -446,9 +442,6 @@ root(ROOTS.Unsorted, {
 				i(246844),	-- I Have Become Void!
 				i(246904),	-- Unseen Path of the Phase Stalker
 				i(246906),	-- Locus Console
-				i(247689),	-- K'areshi Copper Ingot
-				i(247690),	-- Void-Tainted Lotus
-				i(247691),	-- Slateback Hide
 				i(247926),	-- Muted Mana-Stone
 				i(247927),	-- Humming Mana-Stone
 				i(248200),	-- The Brothers' Not-So-Final Present
@@ -506,7 +499,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
 				i(242713),	-- Resplendent K'arroc
-				i(242733),	-- Blue Barry
 				i(246067),	-- Pearlescent Krolusk
 				i(246159),	-- Translocated Gorger
 				i(246160),	-- Sthaarbs's Last Lunch
@@ -537,7 +529,6 @@ root(ROOTS.Unsorted, {
 				i(231774),	-- Nascent Weathered Ethereal Crest
 				i(231775),	-- Nascent Gilded Ethereal Crest
 				i(231776),	-- Nascent Runed Ethereal Crest
-				i(246811),	-- Technique: Inspired Writer's Quill
 				i(246584),	-- A Steamy Romance Novel: Devouring Love
 				i(246816),	-- A Steamy Romance Novel: Nightborne of the Living Dead
 				i(246817),	-- A Steamy Romance Novel: Of Elven Bondage
@@ -654,16 +645,6 @@ root(ROOTS.Unsorted, {
 				i(236679),	-- Essence Scanner
 				i(236688),	-- Umbral Facade
 				i(236957),	-- Hollowbane Portal Key
-				i(236962),	-- Basket of Zo'kita Fruit
-				i(236966),	-- Flavorful Scraps
-				i(236967),	-- Grubber Lure
-				i(236972),	-- Freshly Picked Zo'kita
-				i(237012),	-- Appropriated Azerothian Camera
-				i(237013),	-- Anima Vacuum
-				i(237022),	-- Discarded Items
-				i(237030),	-- Condenser Disc
-				i(237266),	-- Stolen Veilshard
-				i(237352),	-- A Dozen Veilshards
 				i(237353),	-- Om'sto's Veilshards
 				i(237354),	-- A Bag of Veilshards
 				i(237356),	-- Vermin Attuned Optic-Visualizer
@@ -676,16 +657,12 @@ root(ROOTS.Unsorted, {
 				i(238242),	-- K'arroc Egg
 				i(238296),	-- Phase Disruptor
 				i(238903),	-- Appropriated Azerothian Camera
-				i(238905),	-- Condenser Disc
 				i(238906),	-- Appropriated Azerothian Camera
 				i(238907),	-- Anima Orb
 				i(238908),	-- Appropriated Azerothian Camera
-				i(238909),	-- Anima Vacuum
 				i(238910),	-- Lasso
-				i(238911),	-- Pheromone Disperser
 				i(238913),	-- Condenser Disc
 				i(238914),	-- Hemet's Soothin' Flute
-				i(238916),	-- Anima Vacuum
 				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
 				i(239314),	-- Arcane Lure
 				i(239446),	-- Uncharged Cyrstal
@@ -701,9 +678,6 @@ root(ROOTS.Unsorted, {
 				i(241353),	-- Hydrobite
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock
-				i(242794),	-- Dustback Flank
-				i(242796),	-- Siltwing Tail
-				i(242797),	-- Swoopwing Egg
 				i(244064),	-- Pretzel
 				i(245740),	-- Etched Fragment
 				i(245743),	-- A Curious Crystalline Fragment
@@ -749,7 +723,6 @@ root(ROOTS.Unsorted, {
 			i(250082),	-- T'uure, Remnant of the Naaru
 			i(250104),	-- Soulbinder's Nethermantle
 			i(244913),	-- Looker Gaz'kreth Jr.
-			i(245255),	-- Starlight
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl
@@ -1663,7 +1636,6 @@ root(ROOTS.Unsorted, {
 				i(162546),	-- Boiled Mire Whelk
 				i(162547),	-- Raw Nazmani Mineral Water
 				i(162550),	-- Brutoburger
-				i(162554),	-- Rootway Papaya
 				i(162555),	-- Zocalo Cheddar
 				i(162556),	-- Zeb'ahari Kiwi \\ Zeb'Ahri Kiwi
 				i(162557),	-- Salted Frog Legs
@@ -1867,7 +1839,6 @@ root(ROOTS.Unsorted, {
 				i(162689),	-- Scroll of Town Portal
 				i(162773),	-- REUSE ME
 				i(162974),	-- Gently Shaken Gift
-				i(162981),	-- A Steamy Romance Novel: Stormy Seas
 				i(162982),	-- A Steamy Romance Novel: Stormy Seas
 				i(163017),	-- Pitch-Soaked Torch
 				i(163029),	-- Misplaced Funereal Offering

@@ -5,33 +5,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 	m(KARESH, {
 		n(ZONE_REWARDS, {
 			-- * Means not confirmed yet
-			filter(COSMETIC, {
-				-- Temp Placement. Should probably be moved to treasures after figuring it out? List items directly and attach coords to them, maybe?
-				-- These are related to 'Phase-Lost-and-Found" achievement
-				-- You find orbs while Phase Diving and when you go through them, you get the item
-				-- Orb can't be targeted so idk if it is an object or NPC.
-				i(250276),	-- Phase-Lost Greatsword
-				i(250300),	-- Phase-Lost Rod (51.2, 67.7, KARESH)
-
-				-- Not confirmed
-				i(250269),	-- Phase-Lost Longsword
-				i(250272),	-- Phase-Lost Cudgel
-				i(250278),	-- Phase-Lost Great Mace
-				i(250280),	-- Phase-Lost Chopper
-				i(250281),	-- Phase-Lost Battleaxe
-				i(250284),	-- Phase-Lost Spire
-				i(250285),	-- Phase-Lost Shillelagh
-				i(250286),	-- Phase-Lost Blunderbuss
-				i(250287),	-- Phase-Lost Longbow
-				i(250288),	-- Phase-Lost Baselard
-				i(250289),	-- Phase-Lost Dirk
-				i(250294),	-- Phase-Lost Katar
-				i(250295),	-- Phase-Lost Claw
-				i(250297),	-- Phase-Lost Beacon
-				i(250298),	-- Phase-Lost Bulwark
-				i(250299),	-- Phase-Lost Pavise
-				i(250301),	-- Phase-Lost Wand
-			}),
 			filter(CLOTH, {
 				i(243507),	-- Wastelander Magi's Bands
 				i(243506),	-- Wastelander Magi's Cord
