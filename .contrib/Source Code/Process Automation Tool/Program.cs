@@ -1227,7 +1227,7 @@ namespace ATT
             Console.Title = $"[PAT] Cleaning {filename}";
             Console.WriteLine($"Cleaning {filename}");
             var withGContent = File.ReadAllText(filename);
-            var originalContent = withGContent.Replace("[\"g\"]", "[\"groups\"]").Trim() + "\n";
+            var originalContent = withGContent.Replace("[\"g\"]", "[\"groups\"]").Trim() + "\r\n";
             if (originalContent != withGContent)
             {
                 File.WriteAllText(filename, originalContent);
@@ -1245,7 +1245,7 @@ namespace ATT
                 // Read the text as separated by newlines (TODO: Maybe not use lines? It is easier to keep indents as lines, technically.)
                 Console.Title = $"[PAT] Processing {filename}";
                 Console.WriteLine($"Processing {filename}");
-                var content = ProcessLines(File.ReadAllLines(filename)).Trim() + "\n";
+                var content = ProcessLines(File.ReadAllLines(filename)).Trim() + "\r\n";
                 if (File.ReadAllText(filename) != content) File.WriteAllText(filename, content);
             }
             catch (Exception e)
