@@ -1342,7 +1342,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								}),
 								i(239126, {	-- Radiant Cache (S2)
 									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-									["timeline"] = { ADDED_11_1_0_SEASONSTART },
+									["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+									["groups"] = {
+										i(223134),	-- Formula: Illusory Adornment: Radiance (RECIPE!)
+										i(223099),	-- Pattern: Sanctified Torchbearer's Grips (RECIPE!)
+										i(227283),	-- Recipe: Feast of the Divine Day (RECIPE!)
+									},
+								}),
+								i(250766, {	-- Radiant Cache (S3)
+									["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+									["timeline"] = { ADDED_11_2_0_SEASONSTART },
 									["groups"] = {
 										i(223134),	-- Formula: Illusory Adornment: Radiance (RECIPE!)
 										i(223099),	-- Pattern: Sanctified Torchbearer's Grips (RECIPE!)

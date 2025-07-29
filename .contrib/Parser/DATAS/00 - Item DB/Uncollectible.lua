@@ -2542,11 +2542,13 @@ i(241633);	-- Tiny Decorative Rocket
 ------------------
 i(244358);	-- "Prophecies of the Void"
 i(238881);	-- Barbed Predator Tusk
+i(245672);	-- Blade of the Void Swamp
 i(238834);	-- Burnished Void Claw
 i(238874);	-- Congealed Mana
 i(247686);	-- Crystallized Nightshade
 i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
+i(243016);	-- Efrat's Totally Abandonded Bulwark
 i(238889);	-- Eldritch Signal Antenna
 i(238838);	-- Enlarged Nerve
 i(244359);	-- Ethereal Pylon Conduit
@@ -2557,8 +2559,10 @@ i(238872);	-- Fragmented Fin
 i(238799);	-- Harrowed Ichor
 i(238877);	-- Hollow Mandible
 i(238813);	-- Irridescent Eye
-i(247688);	-- K'arroc Feather Quill
+i(243154);	-- Korgorath's Broken Nail
 i(244360);	-- K'aresh Nightbloom
+i(247688);	-- K'arroc Feather Quill
+i(243014);	-- Light-Dimmed Cleaver
 i(238812);	-- Long Fibrous Tongue
 i(238871);	-- Luminous Brushtail
 i(238884);	-- Machine Remnant
@@ -2569,23 +2573,31 @@ i(238855);	-- Netherclaw
 i(238880);	-- Oily Blubber
 i(247687);	-- Overly-Preserved K'areshi Preserves
 i(238870);	-- Pearly Incisor
+i(243018);	-- Petrified Twig of the Fennad
 i(250305);	-- Phase-Lost Detritus
+i(245670);	-- P.O.S.T. Employee's Backup Stamp
+i(245674);	-- Rifle of Leaden Movement
 i(238873);	-- Serrated Scale Shard
+i(243021);	-- Shadowguard Bonker
 i(238878);	-- Shadow-Touched Fang
 i(238832);	-- Sinuous Wing Membrane
 i(238854);	-- Sleek Beak
 i(247685);	-- Slightly Used Containment Device
 i(238800);	-- Soggy Bone Splinters
+i(243015);	-- Spear of Forgotten Memories
 i(238836);	-- Spindly Flesh
+i(243022);	-- Sufaadi Skiff Candle
 i(244357);	-- Time-Worn Memento
 i(238847);	-- Torn Maw Fragment
 i(238887);	-- Torn Voidscript Page
+i(243017);	-- Tulwar of the Pyrite Guard
 i(238875);	-- Twisted Sediment
 i(238867);	-- Unstable Void Essence
 i(238814);	-- Vibrantly Colored Crest
 i(238866);	-- Void Dust
 i(238848);	-- Void Tendril
+i(244355);	-- Voidstorm Obsidian
 i(244361);	-- Void-Carved Amethyst
 i(238841);	-- Void-Seeping Eyeball
 i(238865);	-- Void-Warped Hoof
-i(244355);	-- Voidstorm Obsidian
+i(245668);	-- Warglaive of the Subdued Tracker

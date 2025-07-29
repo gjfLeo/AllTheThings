@@ -1354,6 +1354,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					})),
 					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 						i(238007),	-- Bulwark of the Great Dark
+						i(246086, {	-- Fate Weaver
+							["description"] = "Fly to Fate Weaver's Spool in Azj-Kahet to perform the ritual, coords 64.2, 74.8",
+							["groups"] = {
+								i(219941),	-- Fateweaved Mallet
+								i(219382),	-- Fateweaved Needle
+							},
+						}),
 					})),
 				}),
 			},

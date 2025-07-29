@@ -669,7 +669,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 							i(239122, {	-- The General's War Chest (S2)
 								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-								["timeline"] = { ADDED_11_1_0_SEASONSTART },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+								["groups"] = {
+									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+									i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+								},
+							}),
+							i(250767, {	-- The General's War Chest (S3)
+								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 								["groups"] = {
 									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
 									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
@@ -701,7 +710,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 							i(239124, {	-- The Vizier's Capital (S2)
 								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-								["timeline"] = { ADDED_11_1_0_SEASONSTART },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+								["groups"] = {
+									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+									i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+								},
+							}),
+							i(250768, {	-- The Vizier's Capital (S3)
+								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 								["groups"] = {
 									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
 									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
@@ -733,7 +751,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 							i(239125, {	-- The Weaver's Gratuity (S2)
 								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
-								["timeline"] = { ADDED_11_1_0_SEASONSTART },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+								["groups"] = {
+									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+									i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+								},
+							}),
+							i(250769, {	-- The Weaver's Gratuity (S3)
+								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 								["groups"] = {
 									i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
 									i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
