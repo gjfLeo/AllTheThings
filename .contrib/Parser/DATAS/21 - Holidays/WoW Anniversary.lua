@@ -2463,7 +2463,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TWENTY, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5, REMOVED_11_1_0 } },{
+	n(WOW_ANNIVERSARY_TWENTY, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" } },{
 		inst(1301, {	-- Blackrock Depths
 			["isRaid"] = true,
 			--["coord"] = { },
