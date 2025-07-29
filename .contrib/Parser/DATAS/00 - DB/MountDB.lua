@@ -2019,13 +2019,12 @@ i(229988, 466145);	-- Vicious Electro Eel [H]
 i(229936, 466002);	-- Violet Armored Growler
 i(235556, 1217342);	-- Violet Darkmoon Charger
 i(229947, 466021);	-- Violet Goblin Shredder
--- TRADING POST TAG
+--- NYI ---
+i(232523, 460013);	-- G-99 Breakneck
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
---- NYI ---
-i(232523, 460013);	-- G-99 Breakneck
 
 ------------------
 -- PATCH 11.1.5 --
@@ -2050,7 +2049,7 @@ i(239563, 1228865);	-- Void-Scarred Lynx
 i(235706, 1218306);	-- Void-Scarred Pack Mother
 i(235707, 1218307);	-- Void-Scarred Windrider
 i(211089, 428068);	-- Voidfire Deathcycle
---- UNSORTED ---
+--- NYI ---
 i(238902, 1226533);	-- Autumn Harvesthog
 i(238968, 1226856);	-- Lavaborn Cormaera
 i(238900, 1226531);	-- Summer Harvesthog
@@ -2067,10 +2066,10 @@ i(239076, 1227192);	-- Herald of Sa'Bak
 i(221270, 446352);	-- Kickin' Kezan Waveshredder
 i(245695, 1237631);	-- Moonlit Nightsaber
 i(246237, 1241263);	-- OC91 Chariot
-i(0, 1236262);	-- Shaohao's Sage Serpent
+i(0, 1236262);		-- Shaohao's Sage Serpent
 i(245936, 1240003);	-- Unarmored Deathtusk Felboar
 i(243596, 1235819);	-- Wailing Banshee's Charger
---- UNSORTED ---
+--- NYI ---
 i(243593, 1234859);	-- Banshee's Chilling Charger
 i(243597, 1235820);	-- Banshee's Sickening Charger
 i(243590, 1235763);	-- Grandmaster's Deep Board

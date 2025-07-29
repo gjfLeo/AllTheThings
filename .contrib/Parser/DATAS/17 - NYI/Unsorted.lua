@@ -525,7 +525,7 @@ root(ROOTS.Unsorted, {
 				i(247794),	-- Darkfeather Eclipse
 				i(247795),	-- Ornery Breezestrider
 				i(248761),	-- Brewfest Barrel Bomber
-				i(238051),	-- Delver's Mana-Skimmer
+
 
 				-- Mount Mods
 				i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
@@ -762,24 +762,6 @@ root(ROOTS.Unsorted, {
 			i(244231),	-- Ensemble: Stillwater Fisher Attire
 			i(244352),	-- Cloak of the Veiled Paws
 			i(251543),	-- Cracked Keystone
-		})),
-		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
-			filter(MOUNTS, {
-				i(243590),	-- Grandmaster's Deep Board
-				i(243572),	-- Grandmaster's Prophetic Board
-				i(243591),	-- Grandmaster's Royal Board
-				i(243592),	-- Grandmaster's Smokey Board
-				i(243593),	-- Banshee's Chilling Charger
-				i(243597),	-- Banshee's Sickening Charger
-			}),
-		})),
-		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
-			filter(MOUNTS, {
-				i(238900),	-- Summer Harvesthog
-				i(238901),	-- Winter Harvesthog
-				i(238902),	-- Autumn Harvesthog
-				i(238968),	-- Lavaborn Cormaera
-			}),
 		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			-- Left Remaining To Darkal --
