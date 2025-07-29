@@ -115,6 +115,9 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			q(42028),	-- Into the Nightmare
 			q(41271, {	-- Into the Whirlpool
 				["requireSkill"] = FISHING,
+				["g"] = {
+					i(139279),	-- Albino Barracuda (QI!)
+				},
 			}),
 			q(41531, {	-- Iridescent Dreamleaf
 				["requireSkill"] = HERBALISM,

@@ -169,6 +169,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 42002 },	-- To Northrend
 							["provider"] = { "n", 105724 },	-- Orik Trueheart
 							["coord"] = { 56.8, 78.7, HOWLING_FJORD },
+							["g"] = {
+								i(136710),	-- Aura Stone (QI!)
+							},
 						}),
 						q(42017, {	-- Shrine of the Truthguard
 							["sourceQuests"] = { 42005 },	-- The End of the Saga
@@ -449,6 +452,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "o", 252232 },	-- Aponi's Libram
 						["coord"] = { 66.2, 26.1, AZSUNA },
 						["maps"] = { 748 },	-- Niskara (Scenario Map)
+						["g"] = {
+							i(139540),	-- Aponi's Journal Page (QI!)
+						},
 					}),
 					q(43540, {	-- The Mind of the Enemy
 						["sourceQuests"] = { 43490 },	-- Aponi's Trail

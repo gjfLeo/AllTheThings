@@ -152,6 +152,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 40604 },	-- Disturbing the Past
 							["provider"] = { "o", 245793 },	-- Battered Journal
 							["coord"] = { 52.3, 33.9, DEADWIND_PASS },
+							["g"] = {
+								i(132377),	-- Ariden's Compass (QI!)
+							},
 						}),
 						q(40611, {	-- The Fate of Deadwind
 							["sourceQuests"] = { 40606 },	-- To Point the Way
@@ -213,6 +216,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coords"] = {
 								{ 56.4, 64.6, LEGION_THE_UNDERBELLY },
 								{ 37.7, 31.8, DREADSCAR_RIFT },
+							},
+							["g"] = {
+								i(136987),	-- Aged Snowplum Brandy (QI!)
+								i(136985),	-- Can of Overheated Oil (QI!)
+								i(136983),	-- Grave Dust (QI!)
+								i(136986),	-- Stag Blood Sample (QI!)
 							},
 						}),
 						q(42168, {	-- Looking into the Darkness

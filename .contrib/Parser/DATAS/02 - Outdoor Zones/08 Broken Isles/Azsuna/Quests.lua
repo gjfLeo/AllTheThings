@@ -643,6 +643,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["provider"] = { "n", 89341 },	-- Magister Garuhod
 				["coord"] = { 47.0, 41.3, AZSUNA },
 				["groups"] = {
+					i(120939),	-- Arcane-Infused Egg (QI!)
 					i(133814),	-- Recipe: Faronaar Fizz [Rank 1] (RECIPE!)
 				},
 			}),

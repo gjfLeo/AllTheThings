@@ -549,6 +549,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 93446 },	-- Shieldmaiden Iounn
 					["coord"] = { 68.0, 48.6, STORMHEIM },
 					["groups"] = {
+						i(124512),	-- Ashildir's Bones (QI!)
 						i(129229),	-- Runespeaker's Sandals
 						i(129231),	-- Stormborn Treads
 						i(129230),	-- Runesworn Boots
@@ -788,6 +789,9 @@ root(ROOTS.Zones, {
 				q(42635, {	-- The Mystery of Dreyrgrot
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
 					["coord"] = { 74.8, 55.5, STORMHEIM },
+					["g"] = {
+						i(138149),	-- Ancient Dreyrgrot Tablet (QI!)
+					},
 				}),
 				q(38332, {	-- The Ranger Lord
 					["sourceQuests"] = { 39801 },	-- The Splintered Fleet
@@ -847,6 +851,9 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39984 },	-- Remnants of the Past
 					["provider"] = { "n", 97973 },	-- Havi
 					["coord"] = { 59.0, 42.9, STORMHEIM },
+					["g"] = {
+						i(139539),	-- Ancient Tideskorn Blade (QI!)
+					},
 				}),
 				q(45522, {	-- To Silence the Bonespeakers
 					["sourceQuests"] = { 45486 },	-- The Reluctant Queen

@@ -206,6 +206,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuestNumRequired"] = 1,
 							["provider"] = { "n", 102700 },	-- Meryl Felstorm
 							["coord"] = { 55.3, 38.1, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+							["g"] = {
+								i(136694),	-- Ancient Scrolls of Meitre (QI!)
+							},
 						}),
 						q(42006, {	-- A New Threat
 							["sourceQuests"] = { 42001 },	-- Aluneth, Greatstaff of the Magna
@@ -389,6 +392,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						-- #endif
 						["provider"] = { "n", 102700 },	-- Meryl Felstorm
 						["coord"] = { 56.5, 33.8, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
+						["g"] = {
+							i(134060),	-- A Sizeable Pouch of Gold (QI!)
+						},
 					}),
 					q(41113, {	-- The Only Way to Travel
 						["sourceQuest"] = 41112,	-- The Great Akazamzarak

@@ -618,6 +618,9 @@ profession(SKINNING, {
 				["sourceQuest"] = 40146,	-- Seymour and Agnes
 				["qg"] = 98721,	-- Seymour <Skinning Trainer>
 				["coord"] = { 45.7, 25.6, STORMHEIM },
+				["g"] = {
+					i(129910),	-- Agnes' Skinning Knife (QI!)
+				},
 			}),
 			q(40148, {	-- Red-Eyed Revenge
 				["sourceQuest"] = 40146,	-- Seymour and Agnes

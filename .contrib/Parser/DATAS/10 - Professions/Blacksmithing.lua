@@ -217,6 +217,9 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["sourceQuest"] = 39681,	-- The Properties of Leystone
 			["provider"] = { "n", 97261 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["g"] = {
+				i(123976),	-- Ancient Sentry Construct Memory Core (QI!)
+			},
 		}),
 		q(38501, {	-- Hatecoil Hammerwork
 			["sourceQuest"] = 39681,	-- The Properties of Leystone
@@ -234,11 +237,17 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			},
 			["provider"] = { "n", 97261 },	-- Alard Schmied
 			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["g"] = {
+				i(123977),	-- Ancient Sentry Construct Memory Core (QI!)
+			},
 		}),
 		q(38506, {	-- Chicken Scratch
 			["sourceQuest"] = 38505,	-- Engineers: Not COMPLETELY Useless
 			["provider"] = { "n", 92194 },	-- Timofey Oshenko
 			["coord"] = { 38.4, 27.4, LEGION_DALARAN },
+			["g"] = {
+				i(123978),	-- Ancient Highborne Data Printout (QI!)
+			},
 		}),
 		q(38507, {	-- Secrets of Leysmithing
 			["sourceQuest"] = 38506,	-- Chicken Scratch

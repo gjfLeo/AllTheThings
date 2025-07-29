@@ -509,6 +509,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["sourceQuests"] = { 42397 },	-- Baron and the Huntsman
 						["provider"] = { "n", 107981 },	-- Huntsman Blake
 						["coord"] = { 80.1, 66.2, STORMHEIM },
+						["g"] = {
+							i(138299),	-- Ancient Bones (QI!)
+						},
 					}),
 					q(42412, {	-- Champion: Huntsman Blake
 						["sourceQuests"] = { 42398 },	-- Awakening the Senses
@@ -578,11 +581,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["sourceQuests"] = { 42405 },	-- Informing Our Allies
 						["provider"] = { "n", 108456 },	-- Halduron Brightwing
 						["coord"] = { 43.1, 6.1, TRUESHOT_LODGE },
+						["g"] = {
+							i(138273),	-- Azure Ore (QI!)
+						},
 					}),
 					q(43182, {	-- The Missing Vessel
 						["sourceQuests"] = { 42405 },	-- Informing Our Allies
 						["provider"] = { "n", 107966 },	-- Archmage Khadgar
 						["coord"] = { 42.9, 25.4, TRUESHOT_LODGE },
+						["g"] = {
+							i(139041),	-- Arcane Vessel Fragment (QI!)
+						},
 					}),
 					q(42408, {	-- Required Reagents
 						["sourceQuests"] = { 42405 },	-- Informing Our Allies

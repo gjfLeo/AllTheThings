@@ -1467,6 +1467,8 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 27.0, 70.0, SURAMAR },
 						["groups"] = {
+							i(136398),	-- Ancient Vial (QI!)
+							i(136397),	-- Dusty Disc Fragment (QI!)
 							i(131743),	-- Blood of Young Mannoroth
 						},
 					}),
@@ -1650,6 +1652,9 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["sourceQuests"] = { 41183 },	-- Academic Exploration
 						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, AZSUNA },
+						["g"] = {
+							i(134117),	-- Azsunian Key Mold Piece (QI!)
+						},
 					}),
 					q(41185, {	-- The Keys to Success
 						["sourceQuests"] = { 41184 },
@@ -1677,6 +1682,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 47.4, 42.6, AZSUNA },
 						["groups"] = {
+							i(134108),	-- Ancient Highborne Artifact (QI!)
 							i(131717),	-- Starlight Beacon
 						},
 					}),
@@ -1713,6 +1719,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
+							i(134094),	-- Ancient Highmountain Necklace (QI!)
 							i(131736),	-- Prizerock Neckband
 						},
 					}),
@@ -1726,12 +1733,16 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["sourceQuests"] = { 41186 },	-- History of Highmountain
 						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
+						["g"] = {
+							i(136372),	-- Archaeologist's Whistle (QI!)
+						},
 					}),
 					q(41188, {	-- Neltharion's Lair: Misdirected
 						["sourceQuests"] = { 41187 },	-- Surveying Student
 						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
+							i(134093),	-- Ancient Highmountain Artifact (QI!)
 							i(131733),	-- Spear of Rethu
 						},
 					}),
