@@ -517,12 +517,20 @@ root(ROOTS.Zones, {
 					q(33229, applyclassicphase(MOP_PHASE_ESCALATION, {	-- A Flash of Bronze... (A)
 						["qg"] = 73691,	-- Chromie <The Timewalkers>
 						["timeline"] = { ADDED_5_3_0 },
+						-- Supposedly accidentally removed since 11.0.0?
+						-- #if NOT ANYCLASSIC
+						["u"] = REMOVED_FROM_GAME,
+						-- #endif
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
 					})),
 					q(33230, applyclassicphase(MOP_PHASE_ESCALATION, {	-- A Flash of Bronze... (H)
 						["qg"] = 73691,	-- Chromie <The Timewalkers>
 						["timeline"] = { ADDED_5_3_0 },
+						-- Supposedly accidentally removed since 11.0.0?
+						-- #if NOT ANYCLASSIC
+						["u"] = REMOVED_FROM_GAME,
+						-- #endif
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					})),
