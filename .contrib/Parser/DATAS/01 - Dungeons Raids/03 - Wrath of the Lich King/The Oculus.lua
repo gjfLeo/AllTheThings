@@ -96,8 +96,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			}),
 			n(QUESTS, {
 				q(13126, {	-- A Unified Front
-					["qg"] = 27658,	-- Belgaristrasz
 					["sourceQuest"] = 13124,	-- The Struggle Persists
+					["qg"] = 27658,	-- Belgaristrasz
 					["lvl"] = lvlsquish(77, 77, 20),
 					["groups"] = {
 						objective(1, {	-- 0/10 Centrifuge Construct destroyed
@@ -109,8 +109,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 				q(13128, {	-- A Wing and a Prayer
-					["qg"] = 28012,	-- Image of Belgaristrasz
 					["sourceQuest"] = 13127,	-- Mage-Lord Urom
+					["qg"] = 28012,	-- Image of Belgaristrasz
 					["lvl"] = lvlsquish(77, 77, 20),
 					["groups"] = {
 						objective(1, {	-- 0/1 Ley-Guardian Eregos slain
@@ -123,8 +123,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 				q(13127, {	-- Mage-Lord Urom
-					["qg"] = 28012,	-- Image of Belgaristrasz
 					["sourceQuest"] = 13126,	-- A Unified Front
+					["qg"] = 28012,	-- Image of Belgaristrasz
 					["lvl"] = lvlsquish(77, 77, 20),
 					["groups"] = {
 						objective(1, {	-- 0/1 Mage-Lord Urom slain

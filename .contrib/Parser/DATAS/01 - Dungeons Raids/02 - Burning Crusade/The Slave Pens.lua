@@ -29,16 +29,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["lvl"] = lvlsquish(62, 62, 10),
 				}),
 				q(9876, {	-- Failed Incursion
-					["qg"] = 17841,	-- Ysiel Windsinger
 					["sourceQuest"] = 9732,	-- Return to the Marsh
+					["qg"] = 17841,	-- Ysiel Windsinger
 					["coord"] = { 78.4, 62.0, ZANGARMARSH },
 					["timeline"] = { REMOVED_4_3_0 },
 					["isBreadcrumb"] = true,
 					["lvl"] = lvlsquish(62, 62, 10),
 				}),
 				q(9738, {	-- Lost in Action
-					["qg"] = 17884,	-- Watcher Jhang
 					["sourceQuest"] = 9876,	-- Failed Incursion
+					["qg"] = 17884,	-- Watcher Jhang
 					["coord"] = { 52.3, 36.0, ZANGARMARSH },
 					["timeline"] = { REMOVED_4_3_0 },
 					["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
@@ -84,8 +84,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(10901, {	-- The Cudgel of Kar'desh
-					["qg"] = 22421,	-- Skar'this the Heretic
 					["sourceQuest"] = 10900,	-- The Mark of Vashj
+					["qg"] = 22421,	-- Skar'this the Heretic
 					["timeline"] = { REMOVED_3_0_2 },
 					["maps"] = {
 						KARAZHAN,
@@ -103,9 +103,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 				-- #if AFTER WRATH
 				q(13431, {	-- The Cudgel of Kar'desh
-					["qg"] = 22421,	-- Skar'this the Heretic
-					["altQuests"] = { 10901 },	-- The Cudgel of Kar'desh
 					["sourceQuest"] = 10900,	-- The Mark of Vashj
+					["altQuests"] = { 10901 },	-- The Cudgel of Kar'desh
+					["qg"] = 22421,	-- Skar'this the Heretic
 					["timeline"] = { ADDED_3_0_2 },
 					["maps"] = {
 						KARAZHAN,

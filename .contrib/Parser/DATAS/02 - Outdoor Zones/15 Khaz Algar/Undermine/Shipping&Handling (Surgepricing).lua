@@ -23,8 +23,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				n(QUESTS, {
 					q(86775, {	-- Urge to Surge
-						["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 						--["sourceQuests"] = { xx },	-- ??
+						["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 						["coord"] = { 43.8, 50.8, UNDERMINE },
 						["isWeekly"] = true,
 						["groups"] = {

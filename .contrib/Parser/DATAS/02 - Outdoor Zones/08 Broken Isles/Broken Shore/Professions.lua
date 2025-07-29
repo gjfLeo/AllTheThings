@@ -42,8 +42,8 @@ root(ROOTS.Zones, {
 				}),
 				prof(TAILORING, {
 					q(46678, {	-- The Legend of the Threads
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuest"] = 46804,	-- Fashion History and a Philosophy of Style
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,
@@ -52,8 +52,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(46682, {	-- Drapings of the Ancients
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,
@@ -63,8 +63,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(46680, {	-- The Thread of Starlight
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,
@@ -74,8 +74,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(46679, {	-- The Thread of Shadow
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,
@@ -85,8 +85,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(46681, {	-- The Thread of Souls
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuest"] = 46678,	-- The Legend of the Threads
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,
@@ -96,13 +96,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(46683, {	-- Starweave and Shadowcloth
-						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["sourceQuests"] = {
 							46682,	-- Drapings of the Ancients
 							46680,	-- The Thread of Starlight
 							46679,	-- The Thread of Shadow
 							46681,	-- The Thread of Souls
 						},
+						["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 						["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 						["requireSkill"] = TAILORING,
 						["repeatable"] = true,

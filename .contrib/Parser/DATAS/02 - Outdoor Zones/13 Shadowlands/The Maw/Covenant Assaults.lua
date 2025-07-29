@@ -174,8 +174,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 			}),
 			q(63824, {	-- Kyrian Assault
-				["provider"] = { "n", 177900 },	-- Xandria
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["provider"] = { "n", 177900 },	-- Xandria
 				["coord"] = { 42.8, 44.8, THE_MAW },
 				["isWeekly"] = true,
 				["groups"] = {
@@ -305,8 +305,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(63543, {	-- Necrolord Assault
-				["provider"] = { "n", 177072 },	-- Baroness Draka
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["provider"] = { "n", 177072 },	-- Baroness Draka
 				["coord"] = { 33.8, 54.8, THE_MAW },
 				["isWeekly"] = true,
 				["groups"] = {
@@ -339,8 +339,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						q(63594, {	-- Clearing the Walls
-							["provider"] = { "i", 186573 },	-- Defense Map
 							["sourceQuests"] = { 63545 },	-- Putting A Plan Together
+							["provider"] = { "i", 186573 },	-- Defense Map
 							["groups"] = {
 								i(186601),	-- Quartered Ancient Ring
 							},
@@ -364,16 +364,16 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						q(63621, {	-- Pulling His Chain
-							["provider"] = { "n", 177226 },	-- Artemede
 							["sourceQuests"] = { 63772 },	-- Waiting in the Wings
+							["provider"] = { "n", 177226 },	-- Artemede
 							["coord"] = { 37.0, 63.3, THE_MAW },
 							["groups"] = {
 								i(184513),	-- Containment Orb (QI!)
 							},
 						}),
 						q(63545, {	-- Putting A Plan Together
-							["provider"] = { "n", 177175 },	-- Mikanikos
 							["sourceQuests"] = { 63772 },	-- Waiting in the Wings
+							["provider"] = { "n", 177175 },	-- Mikanikos
 							["coord"] = { 37.0, 63.5, THE_MAW },
 							["groups"] = {
 								o(367965, {
@@ -541,8 +541,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(63823, {	-- Night Fae Assault
-				["provider"] = { "n", 178828 },	-- Lord Herne
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["provider"] = { "n", 178828 },	-- Lord Herne
 				["coord"] = { 22.4, 43.3, THE_MAW },
 				["isWeekly"] = true,
 				["groups"] = {
@@ -767,16 +767,16 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(64554, {	-- Venthyr Assault (as reported via the world quest API, sometimes?)
-				["provider"] = { "n", 178006 },	-- Prince Renathal
-				["altQuests"] = { 63822 },	-- Venthyr Assault
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["altQuests"] = { 63822 },	-- Venthyr Assault
+				["provider"] = { "n", 178006 },	-- Prince Renathal
 				["coord"] = { 29.9, 17.1, THE_MAW },
 				["isWeekly"] = true,
 			}),
 			q(63822, {	-- Venthyr Assault
-				["provider"] = { "n", 178006 },	-- Prince Renathal
-				["altQuests"] = { 64554 },	-- Venthyr Assault (as reported via the world quest API)
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["altQuests"] = { 64554 },	-- Venthyr Assault (as reported via the world quest API)
+				["provider"] = { "n", 178006 },	-- Prince Renathal
 				["coord"] = { 29.9, 17.1, THE_MAW },
 				["isWeekly"] = true,
 				["groups"] = {

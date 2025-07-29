@@ -1458,13 +1458,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41165, {	-- Deciphering Demonology
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41164 },	-- One Step Closer
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 27.0, 70.0, SURAMAR },
 					}),
 					q(41166, {	-- Dark Secrets
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41165 },	-- Deciphering Demonology
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 27.0, 70.0, SURAMAR },
 						["groups"] = {
 							i(131743),	-- Blood of Young Mannoroth
@@ -1477,8 +1477,8 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41157, {	-- Corrupted Studies
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 40857 },	-- Bits and Pieces
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 52.2, 52.6, STORMHEIM },
 						["groups"] = {
 							i(136362, {	-- Ancient War Remnants
@@ -1494,13 +1494,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41159, {	-- Process of Elimination
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41158 },	-- Fragments of the Fjords
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 52.2, 52.6, STORMHEIM },
 					}),
 					q(41802, {	-- The Gates of Valor
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41159 },	-- Process of Elimination
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 52.2, 52.6, STORMHEIM },
 						["groups"] = {
 							i(131735),	-- Imp Generator
@@ -1513,13 +1513,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41168, {	-- The Purple Hills of Eredath
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41167 },	-- Fel Fragments
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 61.8, 87.9, VALSHARAH },
 					}),
 					q(41169, {	-- Darkheart Thicket: Through the Fog
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41168 },	-- The Purple Hills of Eredath
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 61.8, 87.9, VALSHARAH },
 						["groups"] = {
 							i(131732),	-- Purple Hills of Eredath
@@ -1532,13 +1532,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41162, {	-- And Into the Fel Fire
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41161 },	-- Out of the Frying Pan
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 39.0, 38.6, AZSUNA },
 					}),
 					q(41163, {	-- The Apocalypse Bringer
-						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["sourceQuests"] = { 41162 },	-- And Into the Fel Fire
+						["provider"] = { "n", 103484 },	-- Brann Bronzebeard
 						["coord"] = { 39.0, 38.6, AZSUNA },
 						["groups"] = {
 							i(136922),	-- Wyrmy Tunkins (PET!)
@@ -1580,13 +1580,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41175, {	-- Fit for an Elven Queen
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41174 },	-- Worth Its Weight
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, SURAMAR },
 					}),
 					q(41176, {	-- Sifting Through the Rubble
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41175 },	-- Fit for an Elven Queen
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, SURAMAR },
 						["groups"] = {
 							i(131740),	-- Crown Jewels of Suramar
@@ -1599,13 +1599,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41181, {	-- Narrowing Down
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41180 },	-- Unspeakable Power
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, SURAMAR },
 					}),
 					q(41182, {	-- Uncovering the Orb of Sciallax
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41181 },	-- Narrowing Down
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, SURAMAR },
 						["groups"] = {
 							i(134076),	-- Crystallized Shard of Sciallax
@@ -1623,13 +1623,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41178, {	-- Explosive Results
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41177 },	-- Goblin Archaeology
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.8, 81.6, VALSHARAH },
 					}),
 					q(41179, {	-- What Once Was Lost
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41178 },
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.8, 81.6, VALSHARAH },
 						["groups"] = {
 							i(136383, {	-- Ravencrest Cache
@@ -1647,13 +1647,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41184, {	-- Tried and True
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41183 },	-- Academic Exploration
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, AZSUNA },
 					}),
 					q(41185, {	-- The Keys to Success
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41184 },
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, AZSUNA },
 						["groups"] = {
 							i(131744, {	-- Key to Nar'thalas Academy
@@ -1668,13 +1668,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41172, {	-- Echoes of My Ancestors
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41171 },	-- The Reliquary Calls
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 47.4, 42.6, AZSUNA },
 					}),
 					q(41173, {	-- A Beacon of Hope
-						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["sourceQuests"] = { 41172 },	-- Echoes of My Ancestors
+						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 47.4, 42.6, AZSUNA },
 						["groups"] = {
 							i(131717),	-- Starlight Beacon
@@ -1704,13 +1704,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41190, {	-- Crystal Eyes
-						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["sourceQuests"] = { 41189 },	-- A New Lead
+						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 					}),
 					q(41191, {	-- Drogbar Deception
-						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["sourceQuests"] = { 41190 },	-- Crystal Eyes
+						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
 							i(131736),	-- Prizerock Neckband
@@ -1723,13 +1723,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41187, {	-- Surveying Student
-						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["sourceQuests"] = { 41186 },	-- History of Highmountain
+						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 					}),
 					q(41188, {	-- Neltharion's Lair: Misdirected
-						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["sourceQuests"] = { 41187 },	-- Surveying Student
+						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
 							i(131733),	-- Spear of Rethu
@@ -1742,8 +1742,8 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 40.4, 24.0, LEGION_DALARAN },
 					}),
 					q(41193, {	-- Laying to Rest
-						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["sourceQuests"] = { 41192 },	-- The Right Path
+						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
 						["groups"] = {
 							i(131734),	-- Spirit of Eche'ro (MOUNT!)

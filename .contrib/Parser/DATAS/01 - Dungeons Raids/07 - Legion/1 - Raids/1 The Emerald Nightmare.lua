@@ -349,12 +349,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			d(DIFFICULTY.RAID.NORMAL, {
 				n(QUESTS, {
 					q(44283, {	-- The Emerald Nightmare: Piercing the Veil (Normal)
-						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
+						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 						["altQuests"] = {
 							44284,	-- The Emerald Nightmare: Piercing the Veil (Heroic)
 							44285,	-- The Emerald Nightmare: Piercing the Veil (Mythic)
 						},
-						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
+						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
 						["groups"] = { i(141303) },	-- Essence of Clarity (QI!)
 					}),
 				}),
@@ -499,9 +499,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			d(DIFFICULTY.RAID.HEROIC, {
 				n(QUESTS, {
 					q(44284, {	-- The Emerald Nightmare: Piercing the Veil [Heroic]
-						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
-						["altQuests"] = { 44285 },	-- The Emerald Nightmare: Piercing the Veil (Mythic)
 						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
+						["altQuests"] = { 44285 },	-- The Emerald Nightmare: Piercing the Veil (Mythic)
+						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
 						["groups"] = { i(141304) },	-- Essence of Clarity (QI!)
 					}),
 				}),
@@ -650,8 +650,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			d(DIFFICULTY.RAID.MYTHIC, {
 				n(QUESTS, {
 					q(44285, {	-- The Emerald Nightmare: Piercing the Veil [Mythic]
-						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
 						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Mythic difficulty each week.\n",
+						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
 						["groups"] = { i(141305) },	-- Essence of Clarity (QI!)
 					}),
 				}),

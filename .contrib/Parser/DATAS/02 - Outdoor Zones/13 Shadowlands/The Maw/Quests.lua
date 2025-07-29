@@ -32,11 +32,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["races"] = HORDE_ONLY,
 				}),
 				q(59751, {	-- Through the Shattered Sky
-					["provider"] = { "n", 169076 },	-- Highlord Bolvar Fordragon
 					["sourceQuests"] = {
 						60545, -- A Chilling Summons [A]
 						61874, -- A Chilling Summons [H]
 					},
+					["provider"] = { "n", 169076 },	-- Highlord Bolvar Fordragon
 					["maps"] = {
 						1681,	-- Icecrown Citadel (Lower Acherus)
 						1682,	-- Icecrown Citadel (Upper Acherus)
@@ -44,134 +44,134 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59752, {	-- A Fractured Blade
-					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = { 59751 },	-- Through the Shattered Sky
+					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["coord"] = { 19.2, 57.0, 1648 },	-- pre-SL scenario
 				}),
 				q(59907, {	-- Mawsworn Menace
-					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = { 59751 },	-- Through the Shattered Sky
+					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["coord"] = { 19.2, 57.0, 1648 },	-- pre-SL scenario
 				}),
 				q(59753, {	-- Ruiner's End
-					["provider"] = { "n", 170624 },	-- Wilona Thorne
 					["sourceQuests"] = { 59751 },	-- Through the Shattered Sky
+					["provider"] = { "n", 170624 },	-- Wilona Thorne
 					["coord"] = { 22.7, 51.9, 1648 },	-- pre-SL scenario
 				}),
 				q(59914, {	-- Fear to Tread
-					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = {
 						59752,	-- A Fractured Blade
 						59907,	-- Mawsworn Menace
 						59753,	-- Ruiner's End
 					},
+					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["coord"] = { 21.5, 41.7, 1648 },	-- pre-SL scenario
 				}),
 				q(59754, {	-- On Blackened Wings
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 59914 },	-- Fear to Tread
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 22.2, 33.0, 1648 },	-- pre-SL scenario
 				}),
 				q(59755, {	-- A Flight from Darkness
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 59754 },	-- On Blackened Wings
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 23.1, 31.6, 1648 },	-- pre-SL scenario
 				}),
 				q(59756, {	-- A Moment's Respite
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 59755 },	-- A Flight from Darkness
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 24.4, 36.2, 1648 },	-- pre-SL scenario
 				}),
 				q(59757, {	-- Field Seance
-					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = { 59756 },	-- A Moment's Respite
+					["provider"] = { "n", 165918 },	-- Highlord Darion Morgraine
 					["coord"] = { 24.4, 35.9, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						i(178495),	-- Shattered Helm of Domination (QI!)
 					},
 				}),
 				q(59758, {	-- Speaking to the Dead
-					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = { 59757 },	-- Field Seance
+					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["coord"] = { 27.4, 30.8, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						i(184313),	-- Shattered Helm of Domination (QI!)
 					},
 				}),
 				q(59915, {	-- Soul in Hand
-					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["sourceQuests"] = { 59758 },	-- Speaking to the Dead
+					["provider"] = { "n", 166723 },	-- Highlord Darion Morgraine
 					["coord"] = { 27.4, 30.8, 1648 },	-- pre-SL scenario
 				}),
 				q(59759, {	-- The Lion's Cage
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 59915 },	-- Soul in Hand
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 24.4, 36.2, 1648 },	-- pre-SL scenario
 				}),
 				q(59760, {	-- The Afflictor's Key
-					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["sourceQuests"] = { 59759 },	-- The Lion's Cage
+					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["coord"] = { 25.0, 13.3, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						i(178558),	-- Afflictor's Key (QI!)
 					},
 				}),
 				q(59761, {	-- An Undeserved Fate
-					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["sourceQuests"] = { 59759 },	-- The Lion's Cage
+					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["coord"] = { 25.0, 13.3, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						i(178553),	-- Mawsworn Key (QI!)
 					},
 				}),
 				q(59776, {	-- From the Mouths of Madness
-					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["sourceQuests"] = {
 						59760,	-- The Afflictor's Key
 						59761,	-- An Undeserved Fate
 					},
+					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["coord"] = { 25.0, 13.4, 1648 },	-- pre-SL scenario
 				}),
 				q(59762, {	-- By and Down the River
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 59776 },	-- From the Mouths of Madness
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 24.4, 37.0, 1648 },	-- pre-SL scenario
 				}),
 				q(59766, {	-- A Good Axe
+					["sourceQuests"] = { 59762 },	-- By and Down the River
 					["qgs"] = {
 						166981,	-- Thrall, pre-pickup
 						167827,	-- Thrall, post-pickup
 					},
-					["sourceQuests"] = { 59762 },	-- By and Down the River
 					["coord"] = { 29.6, 43.6, 1648 },	-- pre-SL scenario
 				}),
 				q(59765, {	-- Wounds Beyond Flesh
+					["sourceQuests"] = { 59762 },	-- By and Down the River
 					["qgs"] = {
 						166981,	-- Thrall, pre-pickup
 						167827,	-- Thrall, post-pickup
 					},
-					["sourceQuests"] = { 59762 },	-- By and Down the River
 					["coord"] = { 29.6, 43.6, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						i(180050),	-- Wither Blade (QI!)
 					},
 				}),
 				q(60644, {	-- Draw Out the Darkness
-					["provider"] = { "n", 167827 },	-- Thrall
 					["sourceQuests"] = {
 						59766,	-- A Good Axe
 						59765,	-- Wounds Beyond Flesh
 					},
+					["provider"] = { "n", 167827 },	-- Thrall
 					["coord"] = { 33.3, 41.5, 1648 },	-- pre-SL scenario
 				}),
 				q(59767, {	-- The Path to Salvation
-					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 60644 },	-- Draw Out the Darkness
+					["provider"] = { "n", 166980 },	-- Lady Jaina Proudmoore
 					["coord"] = { 29.4, 44.0, 1648 },	-- pre-SL scenario
 				}),
 				q(59770, {	-- Stand as One
-					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["sourceQuests"] = { 59767 },	-- The Path to Salvation
+					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["coord"] = { 42.3, 42.1, 1648 },	-- pre-SL scenario
 					["groups"] = {
 						ach(14334),	-- Into the Maw
@@ -248,31 +248,31 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			header(HEADERS.Achievement, 14747, {	-- Make it Double!
 				q(62882, {	-- Setting the Ground Rules
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = {
 						62905,	-- Back into the Darkness (Venthyr)
 						62893,	-- Do What We Cannot (Night Fae)
 						62832,	-- Friends in Dark Places (Kyrian)
 						62843,	-- The Soul Contact (Necrolords)
 					},
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 				}),
 				q(60287, {	-- Rule 1: Have an Escape Plan
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 62882 },	-- Setting the Ground Rules
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 				}),
 				q(61355, {	-- Rule 2: Keep a Low Profile
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 60287 },	-- Rule 1: Have an Escape Plan
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 					["groups"] = {
 						i(184314),	-- Broker Device (QI!)
 					},
 				}),
 				q(60289, {	-- Rule 3: Trust is Earned
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 61355 },	-- Rule 2: Keep a Low Profile
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 					["groups"] = {
 						o(364498, {	-- Bloodhoof Warmace
@@ -282,17 +282,17 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(62837, {	-- Hopeful News
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 60289 },	-- Rule 3: Trust is Earned
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 				}),
 				q(63051, {	-- Trust Issues
-					["provider"] = { "n", 168432 },	-- Ve'rayn
 					["sourceQuests"] = { 61099 },	-- The Search for Baine
+					["provider"] = { "n", 168432 },	-- Ve'rayn
 				}),
 				q(60281, {	-- Rule 4: Make A List
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 63051 },	-- Trust Issues
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 					["groups"] = {
 						o(364872, {	-- Broker Cache
@@ -302,20 +302,20 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60284, {	-- Rule 5: Be Audacious
-					["provider"] = { "n", 162804 },	-- Ve'nari
-					["sourceQuests"] = { 60281 },	-- Rule 4: Make a List
-					["coord"] = { 46.9, 41.7, THE_MAW },
 					["description"] = "Requires Tentative reputation with Ve'nari.",
+					["sourceQuests"] = { 60281 },	-- Rule 4: Make a List
+					["provider"] = { "n", 162804 },	-- Ve'nari
+					["coord"] = { 46.9, 41.7, THE_MAW },
 					["groups"] = {
 						ach(14746),	-- Prepare for Trouble!
 						i(182688),	-- Cypher of Obfuscation (QI!)
 					},
 				}),
 				q(60285, {	-- Rule 6: Concealment is Everything
-					["provider"] = { "n", 162804 },	-- Ve'nari
-					["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
-					["coord"] = { 46.9, 41.7, THE_MAW },
 					["description"] = "Requires Ambivalent reputation with Ve'nari.",
+					["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+					["provider"] = { "n", 162804 },	-- Ve'nari
+					["coord"] = { 46.9, 41.7, THE_MAW },
 					["groups"] = {
 						ach(14747),	-- Make it Double!
 						i(182956),	-- Broker Hunting Rune (QI!)
@@ -323,37 +323,37 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(62461, {	-- Stalking the Warrens
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.8, 41.6, THE_MAW },
 				}),
 				q(63060, {	-- Rule 6 Footnote: Don't Forget Anything
-					["provider"] = { "n", 162804 },	-- Ve'nari
-					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
-					["coord"] = { 46.9, 41.7, THE_MAW },
 					["description"] = "Requires Ambivalent reputation with Ve'nari.",
+					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
+					["provider"] = { "n", 162804 },	-- Ve'nari
+					["coord"] = { 46.9, 41.7, THE_MAW },
 					["isBreadcrumb"] = true,
 					["groups"] = {
 						i(182955),	-- Cypher of Dampening (QI!)
 					},
 				}),
 				q(63022, {	-- Rule 6 Addendum: Save Me At Any Cost
-					["provider"] = { "n", 175703 },	-- Ve'brax <Asset Analyst>
+					["description"] = "Requires Ambivalent reputation with Ve'nari.",
 					["sourceQuests"] = {
 						60284,	-- Rule 5: Be Audacious
 						63060,	-- Rule 6 Footnote: Don't Forget Anything
 					},
+					["provider"] = { "n", 175703 },	-- Ve'brax <Asset Analyst>
 					["coord"] = { 56.9, 57.5, THE_MAW },
-					["description"] = "Requires Ambivalent reputation with Ve'nari.",
 					["groups"] = {
 						i(182955),	-- Cypher of Dampening (QI!)
 					},
 				}),
 				q(60158, {	-- Rule 7: Betrayal is Inevitable
-					["provider"] = { "n", 162804 },	-- Ve'nari
-					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
-					["coord"] = { 46.9, 41.7, THE_MAW },
 					["description"] = "Requires Appreciative reputation with Ve'nari.",
+					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
+					["provider"] = { "n", 162804 },	-- Ve'nari
+					["coord"] = { 46.9, 41.7, THE_MAW },
 				}),
 			}),
 		}),
@@ -406,29 +406,29 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 38.8, 23.6, THE_MAW },
 			}),
 			q(63045, {	-- Feed Your Soul
-				["provider"] = { "n", 175866 },	-- Vengeful Soul
 				["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+				["provider"] = { "n", 175866 },	-- Vengeful Soul
 				["coord"] = { 25.2, 66.6, THE_MAW },
 			}),
 			q(63038, {	-- Guaranteed Delivery
-				["provider"] = { "n", 175797 },	-- Deceased Broker
 				["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+				["provider"] = { "n", 175797 },	-- Deceased Broker
 				["coord"] = { 30.7, 58.3, THE_MAW },
 				["groups"] = {
 					i(184513),	-- Containment Orb (QI!)
 				},
 			}),
 			q(63040, {	-- Guaranteed Delivery
-				["provider"] = { "n", 175797 },	-- Deceased Broker
 				["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+				["provider"] = { "n", 175797 },	-- Deceased Broker
 				["coord"] = { 30.7, 58.3, THE_MAW },
 				["groups"] = {
 					i(184513),	-- Containment Orb (QI!)
 				},
 			}),
 			q(61088, {	-- Dust to Dust
-				["provider"] = { "n", 162804 },	-- Ve'nari
 				["sourceQuests"] = { 60289 },	-- Rule 3: Trust is Earned
+				["provider"] = { "n", 162804 },	-- Ve'nari
 				["coord"] = { 46.9, 41.7, THE_MAW },
 			}),
 			q(63100, {	-- Misery's Company
@@ -454,8 +454,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 28.2, 14.6, THE_MAW },
 			}),
 			q(61103, {	-- Thin Their Numbers
-				["provider"] = { "n", 162804 },	-- Ve'nari
 				["sourceQuests"] = { 60289 },	-- Rule 3: Trust is Earned
+				["provider"] = { "n", 162804 },	-- Ve'nari
 				["coord"] = { 46.9, 41.7, THE_MAW },
 			}),
 			q(63062, {	-- Torment for the Taking
@@ -463,16 +463,16 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 28.0, 47.0, THE_MAW },
 			}),
 			q(63069, {	-- What They Know
-				["provider"] = { "o", 364987 },	-- Broker Journal
 				["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
+				["provider"] = { "o", 364987 },	-- Broker Journal
 				["coord"] = { 46.4, 62.3, THE_MAW },
 				["groups"] = {
 					i(184579),	-- Torn Journal Page (QI!)
 				},
 			}),
 			q(61765, {	-- Words of Warding
-				["provider"] = { "n", 162804 },	-- Ve'nari
 				["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+				["provider"] = { "n", 162804 },	-- Ve'nari
 				["coord"] = { 46.9, 41.7, THE_MAW },
 				["groups"] = {
 					i(182303),	-- Assassin's Soulcloak (QI!)
@@ -511,8 +511,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(62214, {	-- Forces of Perdition
-				["provider"] = { "n", 162804 },	-- Ve'nari
 				["sourceQuests"] = { 60284 },	-- Rule 5: Be Audacious
+				["provider"] = { "n", 162804 },	-- Ve'nari
 				["coord"] = { 46.9, 41.7, THE_MAW },
 			}),
 			q(61104, {	-- Grathalax, the Extractor
@@ -520,8 +520,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 46.9, 41.7, THE_MAW },
 			}),
 			q(64521, {	-- Helsworn Battle Plans
-				["provider"] = { "i", 187275 },	-- Helsworn Battle Plans
 				["sourceQuests"] = { 63902 },	-- Good News, Everyone!
+				["provider"] = { "i", 187275 },	-- Helsworn Battle Plans
 				["timeline"] = { ADDED_9_1_0 },
 			}),
 			q(60646, {	-- Misery Business

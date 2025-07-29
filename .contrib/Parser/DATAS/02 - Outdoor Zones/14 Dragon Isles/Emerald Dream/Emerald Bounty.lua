@@ -87,20 +87,20 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			}),
 			n(QUESTS,{
 				q(78172, {	-- Mysterious Seeds
-					["provider"] = { "i", 210050 },	-- Mysterious Seeds
 					--["sourceQuests"] = { xx },	-- xx
+					["provider"] = { "i", 210050 },	-- Mysterious Seeds
 				}),
 				q(77209, {	-- Seed Legacy
-					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["sourceQuests"] = { 78172 },	-- Mysterious Seeds
+					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["coord"] = { 59.7, 16.9, EMERALD_DREAM },
 					["groups"] = {
 						i(210014),	-- Mysterious Ageless Seeds (QI!)
 					},
 				}),
 				q(78170, {	-- Nurturing Ageless Seeds // 14.10 -- quest bugged (no quest item in loot table)
-					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["sourceQuests"] = { 77209 },	-- Seed Legacy
+					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["coord"] = { 59.7, 16.9, EMERALD_DREAM },
 					["groups"] = {
 						i(211406),	-- Ageless Dewdrops (QI!)
@@ -108,8 +108,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					},
 				}),
 				q(78171, {	-- Blossoms of the Past
-					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["sourceQuests"] = { 78170 },	-- Nurturing Ageless Seeds
+					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["coord"] = { 59.7, 16.9, EMERALD_DREAM },
 					["groups"] = {
 						o_repeated({
@@ -121,18 +121,18 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					},
 				}),
 				q(78206, {	-- Emerald Bounty
-					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["sourceQuests"] = { 78171 },	-- Blossoms of the Past
+					["provider"] = { "n", 211265 },	-- Sylvia Whisperbloom
 					["coord"] = { 59.7, 16.9, EMERALD_DREAM },
 				}),
 				--
 				q(78821, {	-- Blooming Dreamseeds
-					["provider"] = { "n", 212797 },	-- Talisa Whisperbloom
 					--["sourceQuests"] = {
 					--	78206,	-- Emerald Bounty (TODO: need to confirm)
 					--	77887,	-- 'World Quest Unlock' (spellID 421687)
 					--},
 					--["sourceQuestNumRequired"] = 1
+					["provider"] = { "n", 212797 },	-- Talisa Whisperbloom
 					["coord"] = { 49.7, 62.1, EMERALD_DREAM },
 					["maxReputation"] = { FACTION_DREAM_WARDENS, 20 },
 					["isWeekly"] = true,

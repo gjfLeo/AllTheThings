@@ -86,8 +86,8 @@ applyclassicphase(PHASE_SIX,
 								["classes"] = { PRIEST, MAGE, WARLOCK, DRUID },
 							}),
 							q(9251, {	-- Atiesh, the Befouled Greatstaff
-								["qg"] = 15192,	-- Anachronos
 								["sourceQuest"] = 9250,	-- Frame of Atiesh
+								["qg"] = 15192,	-- Anachronos
 								["maps"] = { TEMPLE_OF_AHNQIRAJ },
 								["classes"] = { PRIEST, MAGE, WARLOCK, DRUID },
 								["lvl"] = 60,
@@ -101,8 +101,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9257, {	-- Atiesh, Greatstaff of the Guardian [Priest]
-								["qg"] = 15192,	-- Anachronos
 								["sourceQuest"] = 9251,	-- Atiesh, the Befouled Greatstaff
+								["qg"] = 15192,	-- Anachronos
 								["maps"] = { STRATHOLME },
 								["cost"] = {
 									{ "i", 22737, 1 },	-- Atiesh, Greatstaff of the Guardian
@@ -113,8 +113,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9270, {	-- Atiesh, Greatstaff of the Guardian [Mage]
-								["qg"] = 15192,	-- Anachronos
 								["sourceQuest"] = 9251,	-- Atiesh, the Befouled Greatstaff
+								["qg"] = 15192,	-- Anachronos
 								["maps"] = { STRATHOLME },
 								["cost"] = {
 									{ "i", 22737, 1 },	-- Atiesh, Greatstaff of the Guardian
@@ -125,8 +125,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9271, {	-- Atiesh, Greatstaff of the Guardian [Warlock]
-								["qg"] = 15192,	-- Anachronos
 								["sourceQuest"] = 9251,	-- Atiesh, the Befouled Greatstaff
+								["qg"] = 15192,	-- Anachronos
 								["maps"] = { STRATHOLME },
 								["cost"] = {
 									{ "i", 22737, 1 },	-- Atiesh, Greatstaff of the Guardian
@@ -137,8 +137,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9269, {	-- Atiesh, Greatstaff of the Guardian [Druid]
-								["qg"] = 15192,	-- Anachronos
 								["sourceQuest"] = 9251,	-- Atiesh, the Befouled Greatstaff
+								["qg"] = 15192,	-- Anachronos
 								["maps"] = { STRATHOLME },
 								["cost"] = {
 									{ "i", 22737, 1 },	-- Atiesh, Greatstaff of the Guardian
@@ -149,8 +149,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9250, {	-- Frame of Atiesh
-								["provider"] = { "i", 22727 },	-- Frame of Atiesh
 								["description"] = "Collect 40 of the Splinters to craft the Frame of Atiesh. This starts the quest chain for Atiesh. You will need to coordinate with your guild to get priority on Splinters.",
+								["provider"] = { "i", 22727 },	-- Frame of Atiesh
 								["cost"] = {
 									{ "i", 22726, 40 },	-- Splinter of Atiesh
 								},
@@ -170,8 +170,8 @@ applyclassicphase(PHASE_SIX,
 					n(QUESTS, {
 						cl(WARRIOR, {
 							q(9037, {	-- Dreadnaught Helmet
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22353, 1 },	-- Desecrated Helmet
@@ -186,8 +186,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9038, {	-- Dreadnaught Pauldrons
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22354, 1 },	-- Desecrated Pauldrons
@@ -202,8 +202,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9034, {	-- Dreadnaught Breastplate
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22349, 1 },	-- Desecrated Breastplate
@@ -218,8 +218,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9042, {	-- Dreadnaught Bracers
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22355, 1 },	-- Desecrated Bracers
@@ -234,8 +234,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9040, {	-- Dreadnaught Gauntlets
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22357, 1 },	-- Desecrated Gauntlets
@@ -250,8 +250,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9041, {	-- Dreadnaught Waistguard
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22356, 1 },	-- Desecrated Waistguard
@@ -266,8 +266,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9036, {	-- Dreadnaught Legplates
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22352, 1 },	-- Desecrated Legplates
@@ -282,8 +282,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9039, {	-- Dreadnaught Sabatons
-								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 								["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22358, 1 },	-- Desecrated Sabatons
@@ -300,8 +300,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(PALADIN, {
 							q(9045, {	-- Redemption Headpiece
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22360, 1 },	-- Desecrated Headpiece
@@ -316,8 +316,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9046, {	-- Redemption Spaulders
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22361, 1 },	-- Desecrated Spaulders
@@ -332,8 +332,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9043, {	-- Redemption Tunic
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22350, 1 },	-- Desecrated Tunic
@@ -348,8 +348,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9050, {	-- Redemption Wristguards
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22362, 1 },	-- Desecrated Wristguards
@@ -364,8 +364,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9048, {	-- Redemption Handguards
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22364, 1 },	-- Desecrated Handguards
@@ -380,8 +380,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9049, {	-- Redemption Girdle
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22363, 1 },	-- Desecrated Girdle
@@ -396,8 +396,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9044, {	-- Redemption Legguards
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22359, 1 },	-- Desecrated Legguards
@@ -412,8 +412,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9047, {	-- Redemption Boots
-								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22365, 1 },	-- Desecrated Boots
@@ -430,8 +430,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(HUNTER, {
 							q(9056, {	-- Cryptstalker Headpiece
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22360, 1 },	-- Desecrated Headpiece
@@ -446,8 +446,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9057, {	-- Cryptstalker Spaulders
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22361, 1 },	-- Desecrated Spaulders
@@ -462,8 +462,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9054, {	-- Cryptstalker Tunic
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22350, 1 },	-- Desecrated Tunic
@@ -478,8 +478,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9061, {	-- Cryptstalker Wristguards
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22362, 1 },	-- Desecrated Wristguards
@@ -494,8 +494,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9059, {	-- Cryptstalker Handguards
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22364, 1 },	-- Desecrated Handguards
@@ -510,8 +510,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9060, {	-- Cryptstalker Girdle
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22363, 1 },	-- Desecrated Girdle
@@ -526,8 +526,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9055, {	-- Cryptstalker Legguards
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22359, 1 },	-- Desecrated Legguards
@@ -542,8 +542,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9058, {	-- Cryptstalker Boots
-								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16132,	-- Huntsman Leopold <The Scarlet Crusade>
 								["coord"] = { 82.5, 58.6, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22365, 1 },	-- Desecrated Boots
@@ -560,8 +560,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(ROGUE, {
 							q(9079,	{	-- Bonescythe Helmet
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22353, 1 },	-- Desecrated Helmet
@@ -577,8 +577,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9080,	{	-- Bonescythe Pauldrons
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22354, 1 },	-- Desecrated Pauldrons
@@ -594,8 +594,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9077,	{	-- Bonescythe Breastplate
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22349, 1 },	-- Desecrated Breastplate
@@ -610,8 +610,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9084,	{	-- Bonescythe Bracers
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22355, 1 },	-- Desecrated Bracers
@@ -627,8 +627,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9082,	{	-- Bonescythe Gauntlets
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22357, 1 },	-- Desecrated Gauntlets
@@ -643,8 +643,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9083,	{	-- Bonescythe Waistguard
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22356, 1 },	-- Desecrated Waistguard
@@ -660,8 +660,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9078,	{	-- Bonescythe Legplates
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22352, 1 },	-- Desecrated Legplates
@@ -677,8 +677,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9081,	{	-- Bonescythe Sabatons
-								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16131,	-- Rohan the Assassin <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.5, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22358, 1 },	-- Desecrated Sabatons
@@ -696,8 +696,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(PRIEST, {
 							q(9113, {	-- Circlet of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22367, 1 },	-- Desecrated Circlet
@@ -712,8 +712,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9114, {	-- Shoulderpads of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22368, 1 },	-- Desecrated Shoulderpads
@@ -728,8 +728,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9111, {	-- Robe of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22351, 1 },	-- Desecrated Robe
@@ -744,8 +744,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9118, {	-- Bindings of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22369, 1 },	-- Desecrated Bindings
@@ -760,8 +760,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9116, {	-- Gloves of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["cost"] = {
 									{ "i", 22371, 1 },	-- Desecrated Gloves
 									{ "i", 22376, 8 },	-- Wartorn Cloth Scrap
@@ -774,8 +774,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9117, {	-- Belt of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22370, 1 },	-- Desecrated Belt
@@ -790,8 +790,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9112, {	-- Leggings of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22366, 1 },	-- Desecrated Leggings
@@ -806,8 +806,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9115, {	-- Sandals of Faith
-								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16113,	-- Father Inigo Montoy <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22372, 1 },	-- Desecrated Sandals
@@ -824,8 +824,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(SHAMAN, {
 							q(9070, {	-- Earthshatter Headpiece
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22360, 1 },	-- Desecrated Headpiece
@@ -840,8 +840,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9071, {	-- Earthshatter Spaulders
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22361, 1 },	-- Desecrated Spaulders
@@ -856,8 +856,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9068, {	-- Earthshatter Tunic
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22350, 1 },	-- Desecrated Tunic
@@ -872,8 +872,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9075, {	-- Earthshatter Wristguards
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22362, 1 },	-- Desecrated Wristguards
@@ -888,8 +888,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9073, {	-- Earthshatter Handguards
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22364, 1 },	-- Desecrated Handguards
@@ -904,8 +904,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9074, {	-- Earthshatter Girdle
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22363, 1 },	-- Desecrated Girdle
@@ -920,8 +920,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9069, {	-- Earthshatter Legguards
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22359, 1 },	-- Desecrated Legguards
@@ -936,8 +936,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9072, {	-- Earthshatter Boots
-								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16134,	-- Rimblat Earthshatter <The Earthen Ring>
 								["coord"] = { 81.1, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22365, 1 },	-- Desecrated Boots
@@ -954,8 +954,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(MAGE, {
 							q(9097, {	-- Frostfire Circlet
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22367, 1 },	-- Desecrated Circlet
@@ -970,8 +970,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9098, {	-- Frostfire Shoulderpads
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22368, 1 },	-- Desecrated Shoulderpads
@@ -986,8 +986,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9095, {	-- Frostfire Robe
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22351, 1 },	-- Desecrated Robe
@@ -1002,8 +1002,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9102, {	-- Frostfire Bindings
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22369, 1 },	-- Desecrated Bindings
@@ -1018,8 +1018,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9100, {	-- Frostfire Gloves
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22371, 1 },	-- Desecrated Gloves
@@ -1033,8 +1033,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9101, {	-- Frostfire Belt
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22370, 1 },	-- Desecrated Belt
@@ -1049,8 +1049,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9096, {	-- Frostfire Leggings
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22366, 1 },	-- Desecrated Leggings
@@ -1065,8 +1065,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9099, {	-- Frostfire Sandals
-								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 								["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22372, 1 },	-- Desecrated Sandals
@@ -1083,8 +1083,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(WARLOCK, {
 							q(9105, {	-- Plagueheart Circlet
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22367, 1 },	-- Desecrated Circlet
@@ -1099,8 +1099,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9106, {	-- Plagueheart Shoulderpads
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22368, 1 },	-- Desecrated Shoulderpads
@@ -1115,8 +1115,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9103, {	-- Plagueheart Robe
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22351, 1 },	-- Desecrated Robe
@@ -1131,8 +1131,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9110, {	-- Plagueheart Bindings
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22369, 1 },	-- Desecrated Bindings
@@ -1147,8 +1147,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9108, {	-- Plagueheart Gloves
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22371, 1 },	-- Desecrated Gloves
@@ -1162,8 +1162,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9109, {	-- Plagueheart Belt
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22370, 1 },	-- Desecrated Belt
@@ -1178,8 +1178,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9104, {	-- Plagueheart Leggings
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22366, 1 },	-- Desecrated Leggings
@@ -1194,8 +1194,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9107, {	-- Plagueheart Sandals
-								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16133,	-- Mataus the Wrathcaster <The Scarlet Crusade>
 								["coord"] = { 81.4, 58.2, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22372, 1 },	-- Desecrated Sandals
@@ -1212,8 +1212,8 @@ applyclassicphase(PHASE_SIX,
 						}),
 						cl(DRUID, {
 							q(9088,	{	-- Dreamwalker Headpiece
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22360, 1 },	-- Desecrated Headpiece
@@ -1228,8 +1228,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9089,	{	-- Dreamwalker Spaulders
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22361, 1 },	-- Desecrated Spaulders
@@ -1244,8 +1244,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9086,	{	-- Dreamwalker Tunic
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22350, 1 },	-- Desecrated Tunic
@@ -1260,8 +1260,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9093,	{	-- Dreamwalker Wristguards
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22362, 1 },	-- Desecrated Wristguards
@@ -1276,8 +1276,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9091,	{	-- Dreamwalker Handguards
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22364, 1 },	-- Desecrated Handguards
@@ -1292,8 +1292,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9092,	{	-- Dreamwalker Girdle
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22363, 1 },	-- Desecrated Girdle
@@ -1308,8 +1308,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9087,	{	-- Dreamwalker Legguards
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22359, 1 },	-- Desecrated Legguards
@@ -1324,8 +1324,8 @@ applyclassicphase(PHASE_SIX,
 								},
 							}),
 							q(9090,	{	-- Dreamwalker Boots
-								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["sourceQuest"] = 9033,	-- Echoes of War
+								["qg"] = 16135,	-- Rayne <Cenarion Circle>
 								["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
 								["cost"] = {
 									{ "i", 22365, 1 },	-- Desecrated Boots
@@ -1341,12 +1341,12 @@ applyclassicphase(PHASE_SIX,
 							}),
 						}),
 						q(9033, {	-- Echoes of War
-							["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 							["sourceQuests"] = {
 								9121,	-- The Dread Citadel - Naxxramas
 								9122,	-- The Dread Citadel - Naxxramas
 								9123,	-- The Dread Citadel - Naxxramas
 							},
+							["qg"] = 16115,	-- Commander Eligor Dawnbringer <Brotherhood of the Light>
 							["coord"] = { 81.5, 58.2, EASTERN_PLAGUELANDS },
 							["lvl"] = 60,
 							["groups"] = {
@@ -1365,8 +1365,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9237, {	-- Glacial Cloak
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["cost"] = {
@@ -1385,8 +1385,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9239, {	-- Glacial Gloves
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
@@ -1405,8 +1405,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9240, {	-- Glacial Vest
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["cost"] = {
@@ -1426,8 +1426,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9238, {	-- Glacial Wrists
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
@@ -1446,8 +1446,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9235, {	-- Icebane Bracers
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
@@ -1466,8 +1466,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9236, {	-- Icebane Breastplate
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["cost"] = {
@@ -1487,8 +1487,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9234, {	-- Icebane Gauntlets
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
@@ -1507,8 +1507,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9244, {	-- Icy Scale Bracers
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
@@ -1527,8 +1527,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9246, {	-- Icy Scale Breastplate
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["cost"] = {
@@ -1548,8 +1548,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9245, {	-- Icy Scale Gauntlets
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
@@ -1568,8 +1568,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9233, {	-- Omarion's Handbook
-							["provider"] = { "i", 22719 },	-- Omarion's Handbook
 							["description"] = "You must not have a profession above 270 skill for you to get this item from Omarion.",
+							["provider"] = { "i", 22719 },	-- Omarion's Handbook
 							["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn, Revered.
 							["lvl"] = 60,
 							-- #if BEFORE WRATH
@@ -1577,8 +1577,8 @@ applyclassicphase(PHASE_SIX,
 							-- #endif
 						}),
 						q(9241, {	-- Polar Bracers
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
@@ -1597,8 +1597,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9242, {	-- Polar Gloves
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
@@ -1617,8 +1617,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9243, {	-- Polar Tunic
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["cost"] = {
@@ -1638,8 +1638,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9230, {	-- Ramaladni's Icy Grasp
-							["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 							["sourceQuest"] = 9229,	-- The Fate of Ramaldni
+							["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 							["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 1 },	-- Frozen Rune
@@ -1652,12 +1652,12 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9121, {	-- The Dread Citadel - Naxxramas [Honored]
-							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["altQuests"] = {
 								9122,	-- The Dread Citadel - Naxxramas [Revered]
 								9123,	-- The Dread Citadel - Naxxramas [Exalted]
 								9378,	-- Attunement [HIDDEN QUEST TRIGGER]
 							},
+							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, HONORED },	-- Argent Dawn, Honored.
 							["cost"] = {
@@ -1670,12 +1670,12 @@ applyclassicphase(PHASE_SIX,
 							["lvl"] = 60,
 						}),
 						q(9122, {	-- The Dread Citadel - Naxxramas [Revered]
-							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["altQuests"] = {
 								9121,	-- The Dread Citadel - Naxxramas [Honored]
 								9123,	-- The Dread Citadel - Naxxramas [Exalted]
 								9378,	-- Attunement [HIDDEN QUEST TRIGGER]
 							},
+							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn, Revered.
 							["cost"] = {
@@ -1686,12 +1686,12 @@ applyclassicphase(PHASE_SIX,
 							["lvl"] = 60,
 						}),
 						q(9123, {	-- The Dread Citadel - Naxxramas [Exalted]
-							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["altQuests"] = {
 								9121,	-- The Dread Citadel - Naxxramas [Honored]
 								9122,	-- The Dread Citadel - Naxxramas [Revered]
 								9378,	-- Attunement [HIDDEN QUEST TRIGGER]
 							},
+							["qg"] = 16116,	-- Archmage Angela Dosantos <Brotherhood of the Light>
 							["coord"] = { 81.5, 58.3, EASTERN_PLAGUELANDS },
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["lvl"] = 60,
@@ -1705,8 +1705,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9229, {	-- The Fate of Ramaladni
-							["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 							["sourceQuest"] = 9033,	-- Echoes of War
+							["qg"] = 16112,	-- Korfax, Champion of the Light <Brotherhood of the Light>
 							["coord"] = { 81.8, 58.1, EASTERN_PLAGUELANDS },
 							["lvl"] = 60,
 							["groups"] = {
@@ -1716,8 +1716,8 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9232, {	-- The Only Song I Know...
-							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["sourceQuest"] = 9033,	-- Echoes of War
+							["qg"] = 16376,	-- Craftsman Wilhelm <Brotherhood of the Light>
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["cost"] = {
 								{ "i", 22682, 2 },	-- Frozen Rune

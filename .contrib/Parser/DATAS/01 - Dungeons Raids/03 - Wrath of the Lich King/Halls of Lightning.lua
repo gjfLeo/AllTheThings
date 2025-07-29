@@ -142,15 +142,15 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 				q(29863, {	-- Stormherald Eljrrin
-					["qg"] = 30105,	-- King Jokkum
 					["sourceQuest"] = 13047,	-- The Reckoning
+					["qg"] = 30105,	-- King Jokkum
 					["coord"] = { 65.4, 60.1, THE_STORM_PEAKS },
 					["timeline"] = { ADDED_4_3_0 },
 					["isBreadcrumb"] = true,
 				}),
 				q(13108, {	-- Whatever it Takes!
-					["qg"] = 30105,	-- King Jokkum
 					["sourceQuest"] = 13047,	-- The Reckoning
+					["qg"] = 30105,	-- King Jokkum
 					["coord"] = { 65.4, 60.2, THE_STORM_PEAKS },
 					["timeline"] = { REMOVED_4_3_0 },
 					["lvl"] = lvlsquish(77, 77, 20),
@@ -166,8 +166,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 				q(29861, {	-- Whatever it Takes!
-					["qg"] = 56027,	-- Stormherald Eljrrin
 					["sourceQuest"] = 29863,	-- Stormherald Eljrrin
+					["qg"] = 56027,	-- Stormherald Eljrrin
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(77, 77, 20),
 					["groups"] = {

@@ -221,26 +221,26 @@ root(ROOTS.Zones, {
 				}),
 				n(QUESTS, {
 					q(34228, {	-- A Clew of Worms
-						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["sourceQuest"] = 34216,	-- Safe Passage
+						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["coord"] = { 31.8, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34264, {	-- A Collection of Coils
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["altQuests"] = { 34067 },	-- A Collection of Coils
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34067, {	-- A Collection of Coils
-						["provider"] = { "i", 109121 },	-- Coil of Sturdy Rope
 						["altQuests"] = { 34264 },	-- A Collection of Coils
+						["provider"] = { "i", 109121 },	-- Coil of Sturdy Rope
 						["races"] = HORDE_ONLY,
 						["crs"] = { 77106 },	-- Thunderlord Wrangler
 					}),
 					q(34592, {	-- A Gronnling Problem
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuest"] = 34364,	-- For the Horde!
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 51.2, 39.6, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
@@ -250,25 +250,25 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(33815, {	-- A Song of Frost and Fire
-						["provider"] = { "n", 76411 },	-- Farseer Drek'Thar
 						["sourceQuests"] = {
 							-- #if AFTER 7.3.5
 							49545,	-- Warchief's Command: Frostfire Ridge!
 							-- #endif
 							33868,	-- The Home of the Frostwolves
 						},
+						["provider"] = { "n", 76411 },	-- Farseer Drek'Thar
 						["coord"] = { 40.7, 67.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34280, {	-- All is Revealed
-						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["sourceQuest"] = 34230,	-- Eye Need That
+						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["coord"] = { 31.7, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(36132, {	-- Anglin' In Our Garrison
-						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["sourceQuest"] = 36131,	-- Proving Your Worth
+						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["coord"] = { 55.7, 75.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
@@ -277,14 +277,14 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33344, {	-- Armed and Dangerous
-						["provider"] = { "n", 75186 },	-- Thrall
 						["sourceQuest"] = 33410,	-- The Butcher of Bladespire
+						["provider"] = { "n", 75186 },	-- Thrall
 						["coord"] = { 70.7, 78.5, 527 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32804, {	-- Articles of the Fallen
-						["provider"] = { "n", 74223 },	-- Kal'gor the Honorable
 						["sourceQuest"] = 32791,	-- Let the Hunt Begin!
+						["provider"] = { "n", 74223 },	-- Kal'gor the Honorable
 						["coord"] = { 46.3, 32.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -293,19 +293,19 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.5, 15.5, FROSTFIRE_RIDGE },
 					}),
 					q(34070, {	-- At the End of Your Rope
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["sourceQuests"] = {
 							34067,	-- A Collection of Coils
 							34264,	-- A Collection of Coils
 							34069,	-- Getting the Points
 							34093,	-- Getting the Points
 						},
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35106, {	-- Avenge and Reclaim
-						["provider"] = { "n", 81210 },	-- Ang'kra
 						["sourceQuests"] = { 35104 },	-- The Apprentice
+						["provider"] = { "n", 81210 },	-- Ang'kra
 						["coord"] = { 37.8, 47.4, FROSTFIRE_RIDGE },
 						["requireSkill"] = ALCHEMY,
 						["races"] = HORDE_ONLY,
@@ -314,20 +314,20 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					q(33473, {	-- Back to Bladespire Citadel
-						["provider"] = { "n", 74272 },	-- Farseer Drek'Thar
 						["sourceQuest"] = 33470,	-- Pool of Visions
+						["provider"] = { "n", 74272 },	-- Farseer Drek'Thar
 						["coord"] = { 16.7, 57.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34375, {	-- Back to Work
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuest"] = 34364,	-- For the Horde!
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 51.2, 39.6, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34729, {	-- Blood Oath of Na'Shra
-						["provider"] = { "n", 76452 },	-- Weaponsmith Na'Shra
 						["sourceQuest"] = 33838,	-- Smeltcraft
+						["provider"] = { "n", 76452 },	-- Weaponsmith Na'Shra
 						["coord"] = { 64.7, 39.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -335,21 +335,21 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34073, {	-- Burn Them Down
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["sourceQuest"] = 34072,	-- Tar Get of Opportunity
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(36457, {	-- Bypassing Security
-						["provider"] = { "n", 85439 },	-- Raleigh Puule
 						["sourceQuest"] = 36435,	-- Unintelligible Intelligence
+						["provider"] = { "n", 85439 },	-- Raleigh Puule
 						["coord"] = { 21.0, 56.0, FROSTFIRE_RIDGE },
 						["requireSkill"] = INSCRIPTION,
 						["races"] = HORDE_ONLY,
 					}),
 					q(36516, {	-- Cut 'Em Out!
-						["provider"] = { "n", 85751 },	-- Gaoda Hidecleaver
 						["sourceQuests"] = { 36505 },	-- A Warrior's Shroud
+						["provider"] = { "n", 85751 },	-- Gaoda Hidecleaver
 						["coord"] = { 20.6, 60.2, FROSTFIRE_RIDGE },
 						["requireSkill"] = LEATHERWORKING,
 						["races"] = HORDE_ONLY,
@@ -360,8 +360,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33546, {	-- Deeds Left Undone
-						["provider"] = { "n", 74273 },	-- Durotan
 						["sourceQuest"] = 33526,	-- These Colors Don't Run
+						["provider"] = { "n", 74273 },	-- Durotan
 						["coord"] = { 43.5, 23.2, 526 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -371,8 +371,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35341, {	-- Defection of Gronnstalker Rokash
-						["provider"] = { "n", 79229 },	-- Gronnstalker Rokash
 						["sourceQuest"] = 32981,	-- Only the Winner
+						["provider"] = { "n", 79229 },	-- Gronnstalker Rokash
 						["coord"] = { 59.5, 31.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -380,8 +380,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34278, {	-- Desecration of the Dead
-						["provider"] = { "n", 72837 },	-- Farseer Urquan
 						["sourceQuest"] = 34227,	-- What Must Be Done
+						["provider"] = { "n", 72837 },	-- Farseer Urquan
 						["coord"] = { 31.7, 11.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -391,8 +391,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36380, {	-- Diamonds Are Forever
-						["provider"] = { "n", 85106 },	-- Gem Grinder Orolak
 						["sourceQuest"] = 36378,	-- Locating the Lapidarist
+						["provider"] = { "n", 85106 },	-- Gem Grinder Orolak
 						["coord"] = { 20.0, 56.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = HORDE_ONLY,
@@ -403,8 +403,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36419, {	-- Dyed in the Fur
-						["provider"] = { "n", 84689 },	-- Trega
 						["sourceQuests"] = { 36417 },	-- From Their Cold Dead Hands
+						["provider"] = { "n", 84689 },	-- Trega
 						["coord"] = { 20.4, 60.6, FROSTFIRE_RIDGE },
 						["requireSkill"] = TAILORING,
 						["races"] = HORDE_ONLY,
@@ -413,22 +413,22 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					q(34292, {	-- Eliminate the Shadow Council
-						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["sourceQuest"] = 34280,	-- All is Revealed
+						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["coord"] = { 31.8, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["lockCriteria"] = {1,"questID", 34293},	-- Eliminate the Shadow Council
 					}),
 					q(34293, {	-- Eliminate the Shadow Council
-						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["sourceQuest"] = 34280,	-- All is Revealed
+						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["coord"] = { 21.9, 14.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["lockCriteria"] = {1,"questID", 34292},	-- Eliminate the Shadow Council
 					}),
 					q(32994, {	-- Enfilade
-						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["sourceQuest"] = 33826,	-- Where's My Wolf?!
+						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["coord"] = { 60.9, 65.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -444,36 +444,36 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34230, {	-- Eye Need That
-						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["sourceQuest"] = 34227,	-- What Must Be Done
+						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["coord"] = { 31.7, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(36257, {	-- Failed Apprentice
-						["provider"] = { "n", 84739 },	-- Arcanist Delath
 						["sourceQuests"] = { 36256 },	-- The Arakkoan Enchanter
+						["provider"] = { "n", 84739 },	-- Arcanist Delath
 						["coord"] = { 54.4, 51.8, FROSTFIRE_RIDGE },
 						["requireSkill"] = ENCHANTING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34325, {	-- Flames of the Earth
-						["provider"] = { "n", 77998 },	-- Molthron
 						["sourceQuest"] = 34321,	-- Ashes of the Past
+						["provider"] = { "n", 77998 },	-- Molthron
 						["coord"] = { 43.5, 15.5, FROSTFIRE_RIDGE },
 					}),
 					q(33807, {	-- Free Our Brothers and Sisters
+						["description"] = "Must be on |cFFFFD700Save Wolf Home|r to pick up this quest.",
+						["sourceQuest"] = 33527,	-- Last Steps
 						["qgs"] = {
 							74507,	-- Wor'gol Defender
 							79415,	-- Durotan
 						},
-						["sourceQuest"] = 33527,	-- Last Steps
 						["coord"] = { 21.7, 56.3, FROSTFIRE_RIDGE },
-						["description"] = "Must be on |cFFFFD700Save Wolf Home|r to pick up this quest.",
 						["races"] = HORDE_ONLY,
 					}),
 					q(36417, {	-- From Their Cold Dead Hands
-						["provider"] = { "n", 84689 },	-- Trega
 						["sourceQuests"] = { 36301 },	-- Trega's Tailoring Kit
+						["provider"] = { "n", 84689 },	-- Trega
 						["coord"] = { 20.4, 60.6, FROSTFIRE_RIDGE },
 						["requireSkill"] = TAILORING,
 						["races"] = HORDE_ONLY,
@@ -484,26 +484,26 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(32783, {	-- Ga'nar's Vengeance
-						["provider"] = { "n", 70860 },	-- Durotan
 						["sourceQuest"] = 33473,	-- Back to Bladespire Citadel
+						["provider"] = { "n", 70860 },	-- Durotan
 						["coord"] = { 43.1, 41.3, 526 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34069, {	-- Getting the Points
-						["provider"] = { "o", 227504 },	-- Barbed Thunderlord Spear
 						["altQuests"] = { 34093 },	-- Getting the Points
+						["provider"] = { "o", 227504 },	-- Barbed Thunderlord Spear
 						["coord"] = { 84.1, 65.1, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34093, {	-- Getting the Points
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["altQuests"] = { 34069 },	-- Getting the Points
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33784, {	-- Gormaul Tower
-						["provider"] = { "n", 76557 },	-- Durotar
 						["sourceQuest"] = 34380,	-- Rally the Frostwolves
+						["provider"] = { "n", 76557 },	-- Durotar
 						["coord"] = { 20.9, 57.9, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -514,8 +514,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33408, {	-- Great Balls of Fire!
-						["provider"] = { "n", 75177 },	-- Durotan
 						["sourceQuest"] = 33546,	-- Deeds Left Undone
+						["provider"] = { "n", 75177 },	-- Durotan
 						["coord"] = { 34.2, 72.9, 526 },
 						["races"] = HORDE_ONLY,
 					}),
@@ -525,8 +525,8 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34291, {	-- Have a Heart
-						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["sourceQuest"] = 34280,	-- All is Revealed
+						["provider"] = { "n", 72874 },	-- Archmage Khadgar
 						["coord"] = { 31.7, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -536,30 +536,30 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(36141, {	-- Icespine Stingers
-						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["sourceQuest"] = 34758,	-- Looking For Help
+						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["coord"] = { 55.7, 75.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(32991, {	-- Into the Boneslag
-						["provider"] = { "n", 72274 },	-- Lokra
 						["sourceQuest"] = 32990,	-- They Who Held Fast
+						["provider"] = { "n", 72274 },	-- Lokra
 						["coord"] = { 38.5, 52.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33785, {	-- Karg Unchained
-						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["sourceQuest"] = 32993,	-- The Strength of Our Bonds
+						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["coord"] = { 63.1, 60.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33527, {	-- Last Steps
-						["provider"] = { "n", 75177 },	-- Durotar
 						["sourceQuests"] = {
 							33344,	-- Armed and Dangerous
 							33622,	-- To the Slaughter
 						},
+						["provider"] = { "n", 75177 },	-- Durotar
 						["coord"] = { 50.4, 32.6, 527 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -570,8 +570,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32792, {	-- Leave Nothing Behind!
-						["provider"] = { "n", 74000 },	-- Ga'nar
 						["sourceQuest"] = 32791,	-- Let the Hunt Begin!
+						["provider"] = { "n", 74000 },	-- Ga'nar
 						["coord"] = { 35.9, 25.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -584,14 +584,14 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32791, {	-- Let the Hunt Begin!
-						["provider"] = { "n", 70909 },	-- Ga'nar
 						["sourceQuest"] = 32783,	-- Ga'nar's Vengeance
+						["provider"] = { "n", 70909 },	-- Ga'nar
 						["coord"] = { 30.8, 25.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34344, {	-- Lurkers
-						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["sourceQuest"] = 34736,	-- We Be Needin' Supplies
+						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["coord"] = { 52.6, 40.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -602,8 +602,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36238, {	-- Mending A Broken Heart
-						["provider"] = { "n", 84494 },	-- Waruk the Frostforger
 						["sourceQuest"] = 36230,	-- The Restless Spirit
+						["provider"] = { "n", 84494 },	-- Waruk the Frostforger
 						["coord"] = { 46.0, 48.6, FROSTFIRE_RIDGE },
 						["requireSkill"] = BLACKSMITHING,
 						["races"] = HORDE_ONLY,
@@ -612,39 +612,39 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					q(33955, {	-- Missing Pack
-						["provider"] = { "n", 76941 },	-- Kar'lak
 						["sourceQuest"] = 33468,	-- Save Wolf Home
+						["provider"] = { "n", 76941 },	-- Kar'lak
 						["coord"] = { 21.6, 55.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
 					q(34775, {	-- Mission Probable
-						["provider"] = { "n", 79740 },	-- Warmaster Zog
 						["sourceQuest"] = 34462,	-- Winds of Change
+						["provider"] = { "n", 79740 },	-- Warmaster Zog
 						["coord"] = { 53.9, 54.9, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33412, {	-- Mopping Up
-						["provider"] = { "n", 81678 },	-- Snowrunner Rolga
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "n", 81678 },	-- Snowrunner Rolga
 						["coord"] = { 28.2, 45.7, 526 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33657, {	-- Moving In
-						["provider"] = { "n", 75188 },	-- Durotan
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "n", 75188 },	-- Durotan
 						["coord"] = { 66.3, 56.5, 528 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32992, {	-- Moving Target
-						["provider"] = { "n", 72274 },	-- Lokra
 						["sourceQuest"] = 32991,	-- Into the Boneslag
+						["provider"] = { "n", 72274 },	-- Lokra
 						["coord"] = { 47.5, 45.5, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34732, {	-- Mulverick's Offer of Service
-						["provider"] = { "n", 79047 },	-- Mulverick
 						["sourceQuest"] = 33483,	-- Mulverick's Plight
+						["provider"] = { "n", 79047 },	-- Mulverick
 						["coord"] = { 30.7, 41.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -652,8 +652,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33483, {	-- Mulverick's Plight
-						["provider"] = { "n", 72890 },	-- Mulverick
 						["sourceQuest"] = 33119,	-- Slavery and Strife
+						["provider"] = { "n", 72890 },	-- Mulverick
 						["coord"] = { 30.7, 41.5, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -667,15 +667,15 @@ root(ROOTS.Zones, {
 						["coord"] = { 67.9, 18.9, FROSTFIRE_RIDGE },
 					}),
 					q(36378, {	-- No Pressure, No Diamonds
-						["provider"] = { "n", 85106 },	-- Gem Grinder Orolak
 						["sourceQuest"] = 36352,	-- Locating the Lapidarist
+						["provider"] = { "n", 85106 },	-- Gem Grinder Orolak
 						["coord"] = { 20.0, 56.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = JEWELCRAFTING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34731, {	-- Oath of Shadow Hunter Rala
-						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["sourceQuest"] = 34348,	-- The Real Prey
+						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["coord"] = { 52.6, 40.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -688,8 +688,8 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34402, {	-- Of Wolves and  Warriors
-						["provider"] = { "n", 78272 },	-- Durotan
 						["sourceQuest"] = 33815,	-- A Song of Frost and Fire
+						["provider"] = { "n", 78272 },	-- Durotan
 						["coord"] = { 41.8, 69.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -704,8 +704,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36260, {	-- Oru'kai's Scepter
-						["provider"] = { "n", 84747 },	-- Torag Stonefury
 						["sourceQuests"] = { 36257 },	-- Failed Apprentice
+						["provider"] = { "n", 84747 },	-- Torag Stonefury
 						["coord"] = { 55.8, 48.6, FROSTFIRE_RIDGE },
 						["requireSkill"] = ENCHANTING,
 						["races"] = HORDE_ONLY,
@@ -715,8 +715,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33470, {	-- Pool of Visions
-						["provider"] = { "n", 74272 },	-- Farseer Drek'Thar
 						["sourceQuest"] = 33469,	-- The Farseer
+						["provider"] = { "n", 74272 },	-- Farseer Drek'Thar
 						["coord"] = { 16.7, 57.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -732,15 +732,15 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(36131, {	-- Proving Your Worth
-						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["sourceQuest"] = 36141,	-- Icespine Stingers
+						["provider"] = { "n", 79896 },	-- Mokugg Lagerpounder
 						["coord"] = { 55.7, 75.3, FROSTFIRE_RIDGE },
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34380, {	-- Rally the Frostwolves
-						["provider"] = { "n", 70860 },	-- Durotan
 						["sourceQuest"] = 34379,	-- Den of Wolves
+						["provider"] = { "n", 70860 },	-- Durotan
 						["coord"] = { 20.7, 57.9, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -750,16 +750,16 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(33493, {	-- Return to the Pack
-						["provider"] = { "n", 72940 },	-- Frostwolf Champion
 						["sourceQuests"] = {
 							32994,	-- Enfilade
 							33828,	-- The Master Siegesmith
 						},
+						["provider"] = { "n", 72940 },	-- Frostwolf Champion
 						["races"] = HORDE_ONLY,
 					}),
 					q(34216, {	-- Safe Passage
-						["provider"] = { "n", 72814 },	-- Cordana Felsong
 						["sourceQuest"] = 34209,	-- Vouchsafe Our Arrival
+						["provider"] = { "n", 72814 },	-- Cordana Felsong
 						["coord"] = { 31.4, 16.2, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -778,32 +778,32 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33468, {	-- Save Wolf Home
-						["provider"] = { "n", 70860 },	-- Durotan
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "n", 70860 },	-- Durotan
 						["coord"] = { 43.1, 41.3, 526 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32989, {	-- Securing the South
-						["provider"] = { "n", 70860 },	-- Durotan
 						["sourceQuest"] = 33473,	-- Back to Bladespire Citadel
+						["provider"] = { "n", 70860 },	-- Durotan
 						["coord"] = { 43.1, 41.2, 526 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33929, {	-- Shivertail's Den
-						["provider"] = { "n", 76889 },	-- Shivertail
 						["sourceQuest"] = 33955,	-- Missing Pack
+						["provider"] = { "n", 76889 },	-- Shivertail
 						["coord"] = { 19.5, 50.9, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33119, {	-- Slavery and Strife
-						["provider"] = { "n", 78222 },	-- Guse
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "n", 78222 },	-- Guse
 						["coord"] = { 20.0, 52.8, 526 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33898, {	-- Slaying Slavers
-						["provider"] = { "n", 76662 },	-- Gol'kosh the Axe
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "n", 76662 },	-- Gol'kosh the Axe
 						["coord"] = { 24.1, 39.3, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -813,8 +813,8 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(36475, {	-- Stealing the Declaration
-						["provider"] = { "n", 85440 },	-- Nicholaus Page
 						["sourceQuest"] = 36457,	-- Bypassing Security
+						["provider"] = { "n", 85440 },	-- Nicholaus Page
 						["coord"] = { 61.2, 71.2, FROSTFIRE_RIDGE },
 						["requireSkill"] = INSCRIPTION,
 						["races"] = HORDE_ONLY,
@@ -834,32 +834,32 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34277, {	-- Stop the Flow
-						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["sourceQuest"] = 34227,	-- What Must Be Done
+						["provider"] = { "n", 72836 },	-- Cordana Felsong
 						["coord"] = { 31.8, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34072, {	-- Tar Get of Opportunity
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["sourceQuests"] = {
 							34067,	-- A Collection of Coils
 							34264,	-- A Collection of Coils
 							34069,	-- Getting the Points
 							34093,	-- Getting the Points
 						},
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35104, {	-- The Apprentice
-						["provider"] = { "n", 81209 },	-- Kadar
 						["sourceQuests"] = { 35103 },	-- The Alchemist
+						["provider"] = { "n", 81209 },	-- Kadar
 						["coord"] = { 38.0, 47.4, FROSTFIRE_RIDGE },
 						["requireSkill"] = ALCHEMY,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34124, {	-- The Battle of Thunder Pass
-						["provider"] = { "n", 76487 },	-- Lokra
 						["sourceQuest"] = 34123,	-- To Thunder Pass
+						["provider"] = { "n", 76487 },	-- Lokra
 						["coord"] = { 73.4, 58.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -870,14 +870,14 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34123, {	-- To Thunder Pass
-						["provider"] = { "n", 76720 },	-- Thrall
 						["sourceQuest"] = 33010,	-- The Iron Wolf
+						["provider"] = { "n", 76720 },	-- Thrall
 						["coord"] = { 53.3, 56.7, 530 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33410, {	-- The Butcher of Bladespire
-						["provider"] = { "n", 75186 },	-- Thrall
 						["sourceQuest"] = 33408,	-- Great Balls of Fire!
+						["provider"] = { "n", 75186 },	-- Thrall
 						["coord"] = { 70.7, 78.5, 527 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -888,23 +888,23 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33454, {	-- The Cure
-						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["sourceQuest"] = 33412,	-- Mopping Up
+						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["coord"] = { 24.4, 28.3, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34765, {	-- The Den of Skog
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuests"] = {
 							34592,	-- A Gronnling Problem
 							34375,	-- Back to Work
 						},
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 51.2, 39.6, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32795, {	-- The Eldest
-						["provider"] = { "n", 70941 },	-- Ga'nar
 						["sourceQuest"] = 32794,	-- Wrath of Gronn
+						["provider"] = { "n", 70941 },	-- Ga'nar
 						["coord"] = { 50.5, 54.3, 532 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -915,11 +915,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33467, {	-- The Fall of the Warlord
-						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["sourceQuests"] = {
 							33454,	-- The Cure
 							33450,	-- The Warlord's Guard
 						},
+						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["coord"] = { 24.4, 29.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -929,17 +929,17 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33469, {	-- The Farseer
-						["provider"] = { "n", 74651 },	-- Draka
 						["sourceQuests"] = {
 							33807,	-- Free Our Brothers and Sisters
 							33468,	-- Save Wolf Home
 						},
+						["provider"] = { "n", 74651 },	-- Draka
 						["coord"] = { 20.7, 57.9, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34294, {	-- The Fel Crystals
-						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["sourceQuest"] = 34291,	-- Have a Heart
+						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["coords"] = {
 							{ 22.0, 14.7, FROSTFIRE_RIDGE },
 							{ 31.7, 11.8, FROSTFIRE_RIDGE },
@@ -947,19 +947,19 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(36205, {	-- The Fractured Hammer
-						["provider"] = { "i", 114965 },	-- Fractured Forge Hammer
 						["description"] = "This can be looted from almost any mob in Frostfire Ridge; however, Dorogg has a guaranteed drop for the item.",
+						["provider"] = { "i", 114965 },	-- Fractured Forge Hammer
 						["requireSkill"] = BLACKSMITHING,
 						["races"] = HORDE_ONLY,
 						["crs"] = { 74254 },	-- Dorogg the Ruthless
 					}),
 					q(37563, {	-- The Frostwolves Stand Ready
+						["description"] = "You can only pick one of the three available followers. The other two can be purchased in the lvl 3 garrison.",
+						["sourceQuest"] = 34124,	-- The Battle of Thunder Pass
 						["qgs"] = {
 							76730,	-- Makara Stonebinder
 							88147,	-- Makara Stonebinder
 						},
-						["sourceQuest"] = 34124,	-- The Battle of Thunder Pass
-						["description"] = "You can only pick one of the three available followers. The other two can be purchased in the lvl 3 garrison.",
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							follower(186),	-- Greatmother Geyah
@@ -976,8 +976,8 @@ root(ROOTS.Zones, {
 						-- Unsure if a character which does this can go find it again somehow
 					}),
 					q(33010, {	-- The Iron Wolf
-						["provider"] = { "n", 74163 },	-- Durotar
 						["sourceQuest"] = 37291,	-- Thunderlord Invasion
+						["provider"] = { "n", 74163 },	-- Durotar
 						["coord"] = { 50.1, 37.9, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -996,17 +996,17 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34102, {	-- The Mark of Defiance
-						["provider"] = { "o", 227806 },	-- Battle-Worn Frostwolf Banner
 						["sourceQuests"] = {
 							34073,	-- Burn Them Down
 							34072,	-- Tar Get of Opportunity
 						},
+						["provider"] = { "o", 227806 },	-- Battle-Worn Frostwolf Banner
 						["coord"] = { 82.6, 69.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33828, {	-- The Master Siegesmith
-						["provider"] = { "n", 72940 },	-- Frostwolf Champion
 						["sourceQuest"] = 33826,	-- Where's My Wolf?!
+						["provider"] = { "n", 72940 },	-- Frostwolf Champion
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(113249),	-- Grom'gar Chain Boots
@@ -1016,18 +1016,18 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34823, {	-- The Ogron Live?
-						["provider"] = { "n", 78487 },	-- Rokhan
 						["sourceQuest"] = 34378,	-- Establish Your Garrison
+						["provider"] = { "n", 78487 },	-- Rokhan
 						["coord"] = { 51.2, 51.4, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34348, {	-- The Real Prey
-						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["sourceQuests"] = {
 							34346,	-- Frosted Fury
 							34344,	-- Lurkers
 							34345,	-- Poulticide
 						},
+						["provider"] = { "n", 78208 },	-- Shadow Hunter Rala
 						["coord"] = { 52.6, 40.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1035,34 +1035,34 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36230, {	-- The Restless Spirit
-						["provider"] = { "n", 84494 },	-- Waruk the Frostforger
 						["sourceQuest"] = 36207,	-- Waruk the Frostforger
+						["provider"] = { "n", 84494 },	-- Waruk the Frostforger
 						["coord"] = { 46.0, 48.6, FROSTFIRE_RIDGE },
 						["requireSkill"] = BLACKSMITHING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34867, {	-- The Secrets of Gorgrond
-						["provider"] = { "n", 76484 },	-- Durotan
 						["sourceQuest"] = 34124,	-- The Battle of Thunder Pass
+						["provider"] = { "n", 76484 },	-- Durotan
 						["coord"] = { 76.1, 55.1, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
 					q(33484, {	-- The Slavemaster's Demise
-						["provider"] = { "n", 79047 },	-- Mulverick
 						["sourceQuest"] = 33483,	-- Mulverick's Plight
+						["provider"] = { "n", 79047 },	-- Mulverick
 						["coord"] = { 30.7, 41.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34229, {	-- The Sleeper Has Awakened
-						["provider"] = { "n", 72837 },	-- Farseer Urquan
 						["sourceQuest"] = 34228,	-- A Clew of Worms
+						["provider"] = { "n", 72837 },	-- Farseer Urquan
 						["coord"] = { 31.7, 11.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32993, {	-- The Strength of Our Bonds
-						["provider"] = { "n", 72274 },	-- Lokra
 						["sourceQuest"] = 32992,	-- Moving Target
+						["provider"] = { "n", 72274 },	-- Lokra
 						["coord"] = { 55.4, 56.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1072,8 +1072,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33450, {	-- The Warlord's Guard
-						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["sourceQuest"] = 33412,	-- Mopping Up
+						["provider"] = { "n", 74635 },	-- Igrimar the Resolute
 						["coord"] = { 24.4, 28.3, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1089,23 +1089,23 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33526, {	-- These Colors Don't Run
+						["sourceQuest"] = 33784,	-- Gormaul Tower
 						["qgs"] = {
 							70860,	-- Durotan
 							76240,	-- Durotan
 						},
-						["sourceQuest"] = 33784,	-- Gormaul Tower
 						["coord"] = { 19.7, 44.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32929, {	-- They Rely on Numbers
-						["provider"] = { "n", 74222 },	-- Ligra the Unyielding
 						["sourceQuest"] = 32791,	-- Let the Hunt Begin!
+						["provider"] = { "n", 74222 },	-- Ligra the Unyielding
 						["coord"] = { 35.9, 25.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(32990, {	-- They Who Held Fast
-						["provider"] = { "n", 72274 },	-- Lokra
 						["sourceQuest"] = 32989,	-- Securing the South
+						["provider"] = { "n", 72274 },	-- Lokra
 						["coord"] = { 38.5, 52.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -1115,27 +1115,27 @@ root(ROOTS.Zones, {
 						-- ["races"] = HORDE_ONLY,	-- via #errors 20201104-19:22
 					}),
 					q(37291, {	-- Thunderlord Invasion
-						["qgs"] = {
-							74163,	-- Durotan
-							88228,	-- Sergeant Grimjaw
-						},
+						["description"] = "This cannot be acquired with a Level 3 Garrison.",
 						["sourceQuests"] = {
 							36567,	-- Bigger is Better
 							32796,	-- To the Garrison
 							33493,	-- Return to the Pack
 						},
+						["qgs"] = {
+							74163,	-- Durotan
+							88228,	-- Sergeant Grimjaw
+						},
 						["coords"] = {
 							{ 50.1, 37.9, FROSTWALL },	-- lvl 2 garrison, Durotan
 							{ 43.6, 47.8, FROSTWALL },	-- lvl 2 garrison, Sergeant Grimjaw
 						},
-						["description"] = "This cannot be acquired with a Level 3 Garrison.",
 						["races"] = HORDE_ONLY,
 						["lockCriteria"] = { 1, "questID", 36614 },	-- My Very Own Fortress
 						["isBreadcrumb"] = true,
 					}),
 					q(34295, {	-- To Capture Gul'dan
-						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["sourceQuest"] = 34294,	-- The Fel Crystals
+						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["coord"] = { 19.8, 14.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1145,23 +1145,23 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32796, {	-- To the Garrison
-						["provider"] = { "n", 70941 },	-- Ga'nar
 						["sourceQuest"] = 32795,	-- The Eldest
+						["provider"] = { "n", 70941 },	-- Ga'nar
 						["coord"] = { 49.7, 51.5, 532 },	-- Grulloc's Grotto
 						["races"] = HORDE_ONLY,
 					}),
 					q(33622, {	-- To the Slaughter
-						["provider"] = { "n", 75186 },	-- Thrall
 						["sourceQuest"] = 33410,	-- The Butcher of Bladespire
+						["provider"] = { "n", 75186 },	-- Thrall
 						["coord"] = { 70.7, 78.5, 527 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34075, {	-- Vul'gath's End
-						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["sourceQuests"] = {
 							34073,	-- Burn Them Down
 							34102,	-- The Mark of Defiance
 						},
+						["provider"] = { "n", 77210 },	-- Scout Ruk'Gan
 						["coord"] = { 82.8, 76.3, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1172,8 +1172,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33918, {	-- WANTED: Grondo's Bounty
-						["coord"] = { 54.4, 42.4, FROSTFIRE_RIDGE },
 						["description"] = "Granted automatically when you are near Grondo in The Cracking Plains.",
+						["coord"] = { 54.4, 42.4, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(111546),	-- Grondo's Eyepatch
@@ -1182,8 +1182,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33919, {	-- WANTED: Gutsmash the Destroyer
-						["provider"] = { "o", 226961 },	-- Bounty Board
 						["sourceQuest"] = 33527,	-- Last Steps
+						["provider"] = { "o", 226961 },	-- Bounty Board
 						["coord"] = { 28.8, 44.7, 526 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1193,8 +1193,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					warchiefscommand(q(49545, {	-- Warchief's Command: Frostfire Ridge!
-						["sourceQuest"]	= 33868,	-- The Home of the Frostwolves
 						["description"] = "Currently no verified way to actually obtain this quest on a character which has established their Garrison.\n\nOther characters will be able to obtain this Quest from the Warboard after completion of 'The Home of the Frostwolves' (33868) if completing the Tanaan intro quests, or possibly from the Warboard during WoD Chromie Time.",
+						["sourceQuest"]	= 33868,	-- The Home of the Frostwolves
 						["timeline"] = { ADDED_7_3_5 },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
@@ -1208,44 +1208,44 @@ root(ROOTS.Zones, {
 						-- Additionally, it can be shared to a character who has not established their Garrison without any known pre-requisites being completed
 					})),
 					q(36207, {	-- Waruk the Frostforger
-						["provider"] = { "n", 78989 },	-- Axe-Shaper Kugra
 						["sourceQuest"] = 36205,	-- The Fractured Hammer
+						["provider"] = { "n", 78989 },	-- Axe-Shaper Kugra
 						["requireSkill"] = BLACKSMITHING,
 						["races"] = HORDE_ONLY,
 					}),
 					q(34861, {	-- We Need An Army
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuest"] = 34461,	-- Build Your Barracks
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 57.4, 48.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34227, {	-- What Must Be Done
-						["provider"] = { "n", 72837 },	-- Fareseer Urquan
 						["sourceQuest"] = 34216,	-- Safe Passage
+						["provider"] = { "n", 72837 },	-- Fareseer Urquan
 						["coord"] = { 31.7, 11.7, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34824, {	-- What We Got
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuest"] = 34378,	-- Establish Your Garrison
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 52.4, 53.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34822, {	-- What We Need
-						["provider"] = { "n", 78466 },	-- Gazlowe
 						["sourceQuest"] = 34378,	-- Establish Your Garrison
+						["provider"] = { "n", 78466 },	-- Gazlowe
 						["coord"] = { 52.4, 53.3, FROSTWALL },
 						["races"] = HORDE_ONLY,
 					}),
 					q(33826, {	-- Where's My Wolf?!
-						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["sourceQuest"] = 32993,	-- The Strength of Our Bonds
+						["provider"] = { "n", 73097 },	-- Frostwolf Champion
 						["coord"] = { 63.1, 60.0, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34462, {	-- Winds of Change
-						["provider"] = { "n", 79740 },	-- Warmaster Zog
 						["sourceQuest"] = 34461,	-- Build Your Barracks
+						["provider"] = { "n", 79740 },	-- Warmaster Zog
 						["coord"] = { 53.9, 54.9, FROSTWALL },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -1253,11 +1253,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32794, {	-- Wrath of Gronn
-						["provider"] = { "n", 70910 },	-- Ga'nar
 						["sourceQuests"] = {
 							32929,	-- They Rely on Numbers
 							32792,	-- Leave Nothing Behind!
 						},
+						["provider"] = { "n", 70910 },	-- Ga'nar
 						["coord"] = { 46.3, 32.1, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -1284,8 +1284,8 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(33915, {	-- Young Hearts
-						["provider"] = { "n", 76862 },	-- Gog'rak
 						["sourceQuest"] = 33468,	-- Save Wolf Home
+						["provider"] = { "n", 76862 },	-- Gog'rak
 						["coord"] = { 19.2, 59.1, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 					}),

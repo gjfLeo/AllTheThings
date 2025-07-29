@@ -446,8 +446,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					q(58156, {	-- Vanquishing the Darkness
-						["provider"] = { "n", 160252 },	-- Blacktalon Agent
 						["sourceQuest"] = 56771,	-- Time-Lost Warriors (is it really a prereq? should it be on all lesser visions quest?)
+						["provider"] = { "n", 160252 },	-- Blacktalon Agent
 						["coords"] = {
 							{ 56.6, 31.7, NZOTH_ASSAULT_ULDUM },
 							{ 84.2, 51.7, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
@@ -463,8 +463,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					q(58155, {	-- A Hand in the Dark
-						["provider"] = { "n", 160252 },
 						["sourceQuest"] = 56771,	-- Time-Lost Warriors (is it really a prereq? should it be on all lesser visions quest?)
+						["provider"] = { "n", 160252 },
 						["coords"] = {
 							{ 56.6, 31.7, NZOTH_ASSAULT_ULDUM },
 							{ 84.2, 51.7, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },

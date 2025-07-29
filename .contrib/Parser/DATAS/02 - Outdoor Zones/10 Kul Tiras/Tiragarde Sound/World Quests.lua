@@ -244,8 +244,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(52145, {	-- Heave-Ho!
-				["coord"] = { 77.10, 76.25, TIRAGARDE_SOUND },
 				["description"] = "This WQ doesn't show up on the map when active, plot waypoint to find the location!",
+				["coord"] = { 77.10, 76.25, TIRAGARDE_SOUND },
 				["groups"] = {
 					i(152667),	-- "Sea Dog" Grog (QI!)
 				},

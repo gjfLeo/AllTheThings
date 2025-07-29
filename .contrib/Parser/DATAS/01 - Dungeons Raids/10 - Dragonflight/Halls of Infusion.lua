@@ -12,8 +12,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(72192, {	-- Halls of Infusion: Entropy to Order
-					["provider"] = { "n", 191369 },	-- Watcher Koranos
 					-- ["sourceQuests"] = {  },	--
+					["provider"] = { "n", 191369 },	-- Watcher Koranos
 					["coord"] = { 54.4, 40.9, VALDRAKKEN },
 				}),
 			}),

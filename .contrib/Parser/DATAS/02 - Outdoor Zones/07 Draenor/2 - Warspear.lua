@@ -124,13 +124,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36709, {	-- Burning Beauty
-						["provider"] = { "n", 86312 },	-- Lieutenant Kragil
 						["sourceQuest"] = 36708,	-- Inspiring Ashran
+						["provider"] = { "n", 86312 },	-- Lieutenant Kragil
 						["coord"] = { 44.1, 45.4, WARSPEAR },
 					}),
 					q(36708, {	-- Inspiring Ashran
-						["provider"] = { "n", 86312 },	-- Lieutenant Kragil
 						["sourceQuest"] = 36707,	-- Warspear Welcome
+						["provider"] = { "n", 86312 },	-- Lieutenant Kragil
 						["coord"] = { 44.1, 45.4, WARSPEAR },
 					}),
 					q(36055, {	-- Sealing Fate: Apexis Crystals
@@ -147,11 +147,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37458, {	-- Sealing Fate: Extended Honor
+						["sourceQuests"] = { 36057 },	-- Sealing Fate: Honor
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 36057 },	-- Sealing Fate: Honor
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -187,11 +187,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37452, {	-- Sealing Fate: Heap of Apexis Crystals
+						["sourceQuests"] = { 36055 },	-- Sealing Fate: Apexis Crystals
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 36055 },	-- Sealing Fate: Apexis Crystals
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -214,11 +214,11 @@ root(ROOTS.Zones, {
 						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(37455, {	-- Sealing Fate: Immense Fortune of Gold
+						["sourceQuests"] = { 37454 },	-- Sealing Fate: Piles of Gold
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 37454 },	-- Sealing Fate: Piles of Gold
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -228,11 +228,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37459, {	-- Sealing Fate: Monumental Honor
+						["sourceQuests"] = { 37458 },	-- Sealing Fate: Extended Honor
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 37458 },	-- Sealing Fate: Extended Honor
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -242,11 +242,11 @@ root(ROOTS.Zones, {
 						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(37453, {	-- Sealing Fate: Mountain of Apexis Crystals
+						["sourceQuests"] = { 37452 },	-- Sealing Fate: Heap of Apexis Crystals
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 37452 },	-- Sealing Fate: Heap of Apexis Crystals
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -256,11 +256,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37454, {	-- Sealing Fate: Piles of Gold
+						["sourceQuests"] = { 36054 },	-- Sealing Fate: Gold
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 36054 },	-- Sealing Fate: Gold
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -270,11 +270,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37456, {	-- Sealing Fate: Stockpiled Garrison Resources
+						["sourceQuests"] = { 36056 },	-- Sealing Fate: Garrison Resources
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 36056 },	-- Sealing Fate: Garrison Resources
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -284,11 +284,11 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(37457, {	-- Sealing Fate: Tremendous Garrison Resources
+						["sourceQuests"] = { 37456 },	-- Sealing Fate: Stockpiled Garrison Resources
 						["qgs"] = {
 							87391,	-- Fate-Twister Seress
 							88570,	-- Fate-Twister Tiklal
 						},
-						["sourceQuests"] = { 37456 },	-- Sealing Fate: Stockpiled Garrison Resources
 						["coords"] = {
 							{ 51.6, 61.9, STORMSHIELD },	-- Alliance
 							{ 64.6, 62.0, WARSPEAR },	-- Horde
@@ -298,16 +298,16 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					q(35243, {	-- The Dark Lady's Gift
-						["provider"] = { "n", 81765 },	-- Vivianne
 						["sourceQuest"] = 36709,	-- Burning Beauty
+						["provider"] = { "n", 81765 },	-- Vivianne
 						["coord"] = { 62.1, 23.0, WARSPEAR },
 						["groups"] = {
 							follower(216),	-- Vivianne
 						},
 					}),
 					q(36707, {	-- Warspear Welcome
-						["provider"] = { "n", 86315 },	-- Stomphoof
 						["sourceQuest"] = 36706,	-- Ashran Appearance
+						["provider"] = { "n", 86315 },	-- Stomphoof
 						["coord"] = { 45.5, 34.6, WARSPEAR },
 					}),
 				}),

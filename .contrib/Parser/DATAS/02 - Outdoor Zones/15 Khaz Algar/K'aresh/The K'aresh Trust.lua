@@ -69,8 +69,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				q(90729, {	-- Win-Win Situation
-					["provider"] = { "n", 238016 },	-- Ba'eth
 					["sourceQuests"] = { 90663 },	-- Stealing What is Ours
+					["provider"] = { "n", 238016 },	-- Ba'eth
 					["coord"] = { 57.6, 58.1, KARESH_TAZAVESH },
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 9 },	-- The K'aresh Trust Renown 9
 				}),

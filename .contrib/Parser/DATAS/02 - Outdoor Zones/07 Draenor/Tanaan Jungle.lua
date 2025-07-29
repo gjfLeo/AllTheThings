@@ -349,14 +349,14 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(39313, {	-- Bring the Reinforcements [A]
-						["provider"] = { "n", 90963 },	-- Angar Steelbellow
 						["sourceQuest"] = 38445,	-- The Assault Base
+						["provider"] = { "n", 90963 },	-- Angar Steelbellow
 						["coord"] = { 58.1, 58.6, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(39315, {	-- Bring the Reinforcements [H]
-						["provider"] = { "n", 90993 },	-- Fraggs
 						["sourceQuest"] = 37935,	-- The Assault Base
+						["provider"] = { "n", 90993 },	-- Fraggs
 						["coord"] = { 59.9, 47.5, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -379,14 +379,14 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(38446, {	-- Commander in the Field! [A]
-						["provider"] = { "n", 91935 },	-- Exarch Maladaar
 						["sourceQuest"] = 38581,	-- The Battle for the West
+						["provider"] = { "n", 91935 },	-- Exarch Maladaar
 						["coord"] = { 9.8, 53.5, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(38001, {	-- Commander in the Field! [H]
-						["provider"] = { "n", 90553 },	-- Durotan
 						["sourceQuest"] = 38577,	-- The Battle for the West
+						["provider"] = { "n", 90553 },	-- Durotan
 						["coord"] = { 9.6, 56.2, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -427,14 +427,14 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(38444, {	-- In, Through, and Beyond! [A]
-						["provider"] = { "n", 91923 },	-- Exarch Naielle
 						["sourceQuest"] = 38436,	-- Obstacle Course
+						["provider"] = { "n", 91923 },	-- Exarch Naielle
 						["coord"] = { 69.4, 52.9, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(37934, {	-- In, Through, and Beyond! [H]
-						["provider"] = { "n", 90238 },	-- Shadow Hunter Mutumba
 						["sourceQuest"] = 37890,	-- Obstacle Course
+						["provider"] = { "n", 90238 },	-- Shadow Hunter Mutumba
 						["coord"] = { 69.5, 54.2, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -449,23 +449,23 @@ root(ROOTS.Zones, {
 						["requireSkill"] = JEWELCRAFTING,
 					}),
 					q(38436, {	-- Obstacle Course [A]
-						["provider"] = { "n", 91913 },	-- Exarch Yrel
 						["sourceQuest"] = 38435,	-- The Invasion of Tanaan
+						["provider"] = { "n", 91913 },	-- Exarch Yrel
 						["coord"] = { 73.4, 71.1, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(37890, {	-- Obstacle Course [H]
-						["provider"] = { "n", 89822 },	-- Draka
 						["sourceQuest"] = 37889,	-- The Invasion of Tanaan
+						["provider"] = { "n", 89822 },	-- Draka
 						["coord"] = { 73.4, 71.2, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(39395, {	-- Oronok's Offer
-						["provider"] = { "n", 92338 },	-- Oronok Torn-heart
 						["sourceQuests"] = {
 							39394,	-- The Cipher of Damnation (A)
 							38463,	-- The Cipher of Damnation (H)
 						},
+						["provider"] = { "n", 92338 },	-- Oronok Torn-heart
 						["coord"] = { 62.8, 27.8, TANAAN_JUNGLE },
 						["groups"] = {
 							follower(468),	-- Oronok Torn-heart
@@ -484,8 +484,8 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(39177, {	-- Ruined Construct
-						["provider"] = { "n", 94605 },	-- Apexis Gemcutter
 						["sourceQuest"] = 39176,	-- Mastery of Taladite
+						["provider"] = { "n", 94605 },	-- Apexis Gemcutter
 						["coord"] = { 17.5, 45.1, TANAAN_JUNGLE },
 						["requireSkill"] = JEWELCRAFTING,
 						["groups"] = {
@@ -512,48 +512,48 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(38603, {	-- Setting the Signal
-						["provider"] = { "n", 92545 },	-- Norman Powerspark
 						["sourceQuest"] = 38445,	-- The Assault Base
+						["provider"] = { "n", 92545 },	-- Norman Powerspark
 						["coord"] = { 58.1, 58.5, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(39422, {	-- Shipyard Report [A]
-						["provider"] = { "n", 90309 },	-- Exarch Yrel
 						["sourceQuest"] = 38445,	-- The Assault Base
+						["provider"] = { "n", 90309 },	-- Exarch Yrel
 						["coord"] = { 58.4, 60.3, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
 						["DisablePartySync"] = true,
 					}),
 					q(39423, {	-- Shipyard Report [H]
-						["provider"] = { "n", 90481 },	-- Draka
 						["sourceQuest"] = 37935,	-- The Assault Base
+						["provider"] = { "n", 90481 },	-- Draka
 						["coord"] = { 61.5, 45.9, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 						["DisablePartySync"] = true,
 					}),
 					q(38445, {	-- The Assault Base [A]
-						["provider"] = { "n", 91923 },	-- Exarch Naielle
 						["sourceQuest"] = 38444,	-- In, Through, and Beyond!
+						["provider"] = { "n", 91923 },	-- Exarch Naielle
 						["coord"] = { 62.4, 54.2, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(37935, {	-- The Assault Base [H]
-						["provider"] = { "n", 90238 },	-- Shadow Hunter Mutumba
 						["sourceQuest"] = 37934,	-- In, Through, and Beyond!
+						["provider"] = { "n", 90238 },	-- Shadow Hunter Mutumba
 						["coord"] = { 62.6, 50.9, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
 					q(38581, {	-- The Battle for the West [A]
-						["provider"] = { "n", 90309 },	-- Exarch Yrel
 						["sourceQuest"] = 38445,	-- The Assault Base
+						["provider"] = { "n", 90309 },	-- Exarch Yrel
 						["coord"] = { 58.4, 60.3, TANAAN_JUNGLE },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(38577, {	-- The Battle for the West [H]
-						["provider"] = { "n", 90481 },	-- Draka
 						["sourceQuest"] = 37935,	-- The Assault Base
+						["provider"] = { "n", 90481 },	-- Draka
 						["coord"] = { 61.5, 45.9, TANAAN_JUNGLE },
 						["races"] = HORDE_ONLY,
 					}),
@@ -587,8 +587,8 @@ root(ROOTS.Zones, {
 						["hordeQuestData"] = {
 							["coord"] = { 60.4, 46.6, TANAAN_JUNGLE },
 						},
-						["provider"] = { "n", 95424 },	-- Dawn-Seeker Krisek
 						["sourceQuest"] = 39432,	-- Unknowable Power
+						["provider"] = { "n", 95424 },	-- Dawn-Seeker Krisek
 						["isDaily"] = true,
 					}),
 					q(38996, {	-- Your Orders, General? (A)

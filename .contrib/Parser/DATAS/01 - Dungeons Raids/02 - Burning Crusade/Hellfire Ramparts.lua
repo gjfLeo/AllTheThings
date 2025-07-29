@@ -93,13 +93,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				},
 				{	-- Weaken the Ramparts
 					["allianceQuestData"] = q(9575, {	-- Weaken the Ramparts (A)
-						["qg"] = 17557,	-- Lieutenant Chadwick
 						["sourceQuest"] = 10142,	-- The Path of Anguish
+						["qg"] = 17557,	-- Lieutenant Chadwick
 						["coord"] = { 56.7, 66.3, HELLFIRE_PENINSULA },
 					}),
 					["hordeQuestData"] = q(9572, {	-- Weaken the Ramparts (H)
-						["qg"] = 17493,	-- Stone Guard Stok'ton
 						["sourceQuest"] = 10124,	-- Forward Base: Reaver's Fall
+						["qg"] = 17493,	-- Stone Guard Stok'ton
 						["coord"] = { 55.2, 36.0, HELLFIRE_PENINSULA },
 					}),
 					["timeline"] = { REMOVED_4_3_0 },

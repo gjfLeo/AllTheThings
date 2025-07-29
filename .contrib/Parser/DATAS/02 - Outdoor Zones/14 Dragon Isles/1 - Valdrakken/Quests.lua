@@ -58,14 +58,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["isBreadcrumb"] = true,
 					}),
 					q(70930, {	-- All Tea, No Shadeleaf
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 71238 },	-- The Ruby Feast!
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67047, {	-- Warm Away These Shivers
-						["provider"] = { "n", 185778 },	-- Lilial Dawnburst
 						["sourceQuests"] = { 70930 },	-- All Tea, No Shadeleaf
+						["provider"] = { "n", 185778 },	-- Lilial Dawnburst
 						["coord"] = { 51.7, 62.0, THE_AZURE_SPAN },
 						["groups"] = {
 							i(200759),	-- Aruunem Berrytart
@@ -76,14 +76,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 2 ------
 					q(70932, {	-- The Life of Spice
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67047 },	-- Warm Away These Shivers
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67063, {	-- 10,000 Years of Roasting
-						["provider"] = { "n", 189207 },	-- Griftah
 						["sourceQuests"] = { 70932 },	-- The Life of Spice
+						["provider"] = { "n", 189207 },	-- Griftah
 						["coord"] = { 25.6, 54.3, THE_WAKING_SHORES },
 						["groups"] = {
 							i(200887),	-- Charred Porter
@@ -94,14 +94,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 3 ------
 					q(70957, {	-- The Sea Out West
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67063 },	-- 10,000 Years of Roasting
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67064, {	-- Rambling Delight
-						["provider"] = { "n", 186502 },	-- Sugarbough
 						["sourceQuests"] = { 70957 },	-- The Sea Out West
+						["provider"] = { "n", 186502 },	-- Sugarbough
 						["coord"] = { 28.6, 60.5, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(200892),	-- Dragonfruit Punch
@@ -112,14 +112,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 4 ------
 					q(70958, {	-- Finest Fungi at the Feast
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67064 },	-- Rambling Delight
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67065, {	-- Future-Fresh Fungi
-						["provider"] = { "n", 187025 },	-- Warden Captain Sinjoirmi
 						["sourceQuests"] = { 70958 },	-- Finest Fungi at the Feast
+						["provider"] = { "n", 187025 },	-- Warden Captain Sinjoirmi
 						["coord"] = { 60.2, 82.2, THALDRASZUS },
 						["groups"] = {
 							i(200893),	-- Azsunian Poached Lobster
@@ -130,14 +130,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 5 ------
 					q(70981, {	-- Savory Seas
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67065 },	-- Future-Fresh Fungi
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67066, {	-- Delights to Delve For
-						["provider"] = { "n", 186212 },	-- Wayun
 						["sourceQuests"] = { 70981 },	-- Savory Seas
+						["provider"] = { "n", 186212 },	-- Wayun
 						["coord"] = { 7.4, 44.2, THE_AZURE_SPAN },
 						["groups"] = {
 							i(200896),	-- Captain's Caramelized Catfish
@@ -148,14 +148,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 6 ------
 					q(70987, {	-- Hearts of Starch
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67066 },	-- Delights to Delve For
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67067, {	-- Navigating the Leapmaize
-						["provider"] = { "n", 189400 },	-- Meliane Enorath
 						["sourceQuests"] = { 70987 },	-- Hearts of Starch
+						["provider"] = { "n", 189400 },	-- Meliane Enorath
 						["coord"] = { 65.2, 58.0, THE_WAKING_SHORES },
 						["groups"] = {
 							i(200900),	-- Fried Emperor Wraps
@@ -166,14 +166,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 7 ------
 					q(70988, {	-- The Egg's the Thing
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67067 },	-- Navigating the Leapmaize
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 					}),
 					q(67068, {	-- Anything But a Breeze
-						["provider"] = { "n", 196161 },	-- Ilana
 						["sourceQuests"] = { 70988 },	-- The Egg's the Thing
+						["provider"] = { "n", 196161 },	-- Ilana
 						["coord"] = { 85.8, 35.2, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(194556),	-- Breezehunter Egg (QI!)
@@ -184,9 +184,9 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					------ Day 8 ------
 					q(67071, {	-- What a Long, Sweet Trip It's Been
-						["provider"] = { "n", 189479 },	-- Rumiastrasza
-						["altQuests"] = { 72258 },	-- Daily Lockout
 						["sourceQuests"] = { 67068 },	-- Anything But a Breeze
+						["altQuests"] = { 72258 },	-- Daily Lockout
+						["provider"] = { "n", 189479 },	-- Rumiastrasza
 						["coord"] = { 61.5, 11.8, VALDRAKKEN },
 						["groups"] = {
 							i(198132),	-- Recipe: Hoard of Draconic Delicacies (RECIPE!)
@@ -197,18 +197,18 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			------ Dryad Storyline ------
 			q(67094, {	-- A Dryad's Work Is Never Done
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = {
 					66244,	-- To Valdrakken
 					70125,	-- Where is Wrathion? (A)
 					69910,	-- Where is Wrathion? (H)
 				},
 				["sourceQuestNumRequired"] = 1,
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 			}),
 			q(67606, {	-- A Dryadic Remedy
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = { 67094 },	-- A Dryad's Work Is Never Done
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 				["cost"] = { { "i", 197769, 1 }, },	-- 1x Tasty Hatchling's Treat
 				["groups"] = {
@@ -218,8 +218,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(69937, {	-- Sylvan Succor
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = { 67094 },	-- A Dryad's Work Is Never Done
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_5 },
 				["cost"] = { { "i", 197769, 1 }, },	-- 1x Tasty Hatchling's Treat
@@ -231,8 +231,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(69939, {	-- Sylvan Succor
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = { 67094 },	-- A Dryad's Work Is Never Done
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_5 },
 				["cost"] = { { "i", 197766, 1 }, },	-- 1x Snow in a Cone
@@ -244,8 +244,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(69940, {	-- Sylvan Succor
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = { 67094 },	-- A Dryad's Work Is Never Done
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_5 },
 				["cost"] = { { "i", 197767, 1 }, },	-- 1x Blubbery Muffin
@@ -257,8 +257,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(69950, {	-- Sylvan Succor
-				["provider"] = { "n", 192522 },	-- Thalendra
 				["sourceQuests"] = { 67094 },	-- A Dryad's Work Is Never Done
+				["provider"] = { "n", 192522 },	-- Thalendra
 				["coord"] = { 72.8, 66.2, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_5 },
 				["cost"] = { { "i", 197768, 1 }, },	-- 1x Tasty Hatchling's Treat
@@ -271,36 +271,36 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			------ Evoker ------
 			q(75408, {	-- Calling All Dracthyr!
-				["provider"] = { "o", 398674 },	-- Vibrant Flyer
 				["sourceQuests"] = { 75417 },	-- Symbol of Hope
+				["provider"] = { "o", 398674 },	-- Vibrant Flyer
 				["coord"] = { 55.1, 40.0, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 				["classes"] = { EVOKER },
 			}),
 			q(73092, {	-- Something Like Family
-				["provider"] = { "n", 201764 },	-- Talon Scaralesh
 				["sourceQuests"] = {
 					75408,	-- Calling All Dracthyr!
 					76597,	-- On New Wings
 					73085,	-- Cold Feet
 				},
+				["provider"] = { "n", 201764 },	-- Talon Scaralesh
 				["coord"] = { 23.1, 32.1, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 				["classes"] = { EVOKER },
 			}),
 			q(73086, {	-- Healthy Competition
-				["provider"] = { "n", 203325 },	-- Amythora
 				["sourceQuests"] = { 73092 },	-- Something Like Family
+				["provider"] = { "n", 203325 },	-- Amythora
 				["coord"] = { 26.3, 35.9, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 				["classes"] = { EVOKER },
 			}),
 			q(73093, {	-- Empty Chairs
-				["provider"] = { "n", 203629 },	-- Marithos
 				["sourceQuests"] = { 73086 },	-- Healthy Competition
+				["provider"] = { "n", 203629 },	-- Marithos
 				["coord"] = { 24.0, 35.8, VALDRAKKEN },
 				["timeline"] = { ADDED_10_1_0 },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
@@ -346,8 +346,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_2 },
 			}),
 			q(79453, {	-- Awakened Crests, Unlimited Possibilities
-				["provider"] = { "n", 216449 },	-- Vaskarn
 				["sourceQuests"] = { 79448 },	-- Leave No Flightstone Unturned
+				["provider"] = { "n", 216449 },	-- Vaskarn
 				["coord"] = { 45.5, 55.9, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_2 },
 				["groups"] = {
@@ -363,14 +363,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				--["isBreadcrumb"] = xx, TODO: re-check it
 			}),
 			q(79512, {	-- Who Are You?
-				["provider"] = { "n", 216945 },	-- Scalecommander Emberthal
 				["sourceQuests"] = { 79511 },	-- Identity Crisis
+				["provider"] = { "n", 216945 },	-- Scalecommander Emberthal
 				["coord"] = { 29.4, 49.8, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_7 },
 			}),
 			q(79515, {	-- Gather Your Rosebuds
-				["provider"] = { "n", 216951 },	-- Kalecgos
 				["sourceQuests"] = { 79512 },	-- Who Are You?
+				["provider"] = { "n", 216951 },	-- Kalecgos
 				["coord"] = { 29.5, 49.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_7 },
 				["groups"] = {
@@ -384,8 +384,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(79514, {	-- Don't Threaten Me With a Good Time
-				["provider"] = { "n", 216967 },	-- Scalecommander Cindrethresh
 				["sourceQuests"] = { 79512 },	-- Who Are You?
+				["provider"] = { "n", 216967 },	-- Scalecommander Cindrethresh
 				["coord"] = { 29.6, 49.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_7 },
 				["groups"] = {
@@ -393,7 +393,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(79513, {	-- Dragon Isles Adventuring: Being Yourself
-				["provider"] = { "n", 216950 },	-- Scalecommander Viridia
 				["sourceQuests"] = {
 					79514,	-- Don't Threaten Me With a Good Time
 					79515,	-- Gather Your Rosebuds
@@ -401,6 +400,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					65920,	-- For the Ward! (unlocks dialog with Zuttiki)
 					-- maybe more?
 				},
+				["provider"] = { "n", 216950 },	-- Scalecommander Viridia
 				["coord"] = { 29.5, 49.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_7 },
 				["groups"] = {
@@ -408,8 +408,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(82762, {	-- Keeping a Close Tabard
-				["provider"] = { "n", 216946 },	-- Chromie
 				["sourceQuests"] = { 79513 },	-- Dragon Isles Adventuring: Being Yourself
+				["provider"] = { "n", 216946 },	-- Chromie
 				["coord"] = { 29.6, 49.5, VALDRAKKEN },
 				["timeline"] = { ADDED_10_2_7 },
 			}),

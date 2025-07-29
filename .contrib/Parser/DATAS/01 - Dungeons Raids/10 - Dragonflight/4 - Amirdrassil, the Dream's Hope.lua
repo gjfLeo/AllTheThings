@@ -404,8 +404,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						["provider"] = { "i", 207729 },	-- Fyr'alath the Dreamrender
 					}),
 					q(77191, {	-- Handling It
-						["provider"] = { "n", 206107 },	-- Eadweard Dalyngrigge
 						["sourceQuests"] = { 77093 },	-- The Shadowflame Axe
+						["provider"] = { "n", 206107 },	-- Eadweard Dalyngrigge
 						["coord"] = { 61.6, 31.2, THALDRASZUS },
 						["cost"] = {
 							{ "i", 208577, 1 },	-- 1x Symbiotic Glowspore Grip
@@ -417,23 +417,23 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(77833, {	-- Handling It: Concentrated Sophic Vellum
-						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["sourceQuests"] = { 77191 },	-- Handling It
+						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["coord"] = { 61.6, 31.2, THALDRASZUS },
 					}),
 					q(77835, {	-- Handling It: Rune of Shadowbinding
-						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["sourceQuests"] = { 77191 },	-- Handling It
+						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["coord"] = { 61.6, 31.2, THALDRASZUS },
 					}),
 					q(77791, {	-- Handling It: Symbiotic Glowspore Grip
-						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["sourceQuests"] = { 77191 },	-- Handling It
+						["provider"] = { "n", 209601 },	-- Eadweard's Notes
 						["coord"] = { 61.6, 31.2, THALDRASZUS },
 					}),
 					q(78155, {	-- Handling It: Radiant Fleck of Ash
-						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["sourceQuests"] = { 77833 },	-- Handling It: Concentrated Sophic Vellum
+						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["coord"] = { 62.4, 18.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(210002),	-- Ashen Dowsing Rod (QI!)
@@ -442,8 +442,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78003, {	-- Handling It: Taut Tethercoil
-						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["sourceQuests"] = { 77835 },	-- Handling It: Rune of Shadowbinding
+						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["coord"] = { 40.2, 64.4, THE_AZURE_SPAN },
 						["groups"] = {
 							i(209352),	-- Prototype Binding Rune (QI!)
@@ -452,8 +452,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(77886, {	-- Handling It: Shadowed Dreamleaf
-						["provider"] = { "n", 194842 },	-- Erden
 						["sourceQuests"] = { 77791 },	-- Handling It: Symbiotic Glowspore Grip
+						["provider"] = { "n", 194842 },	-- Erden
 						["coord"] = { 82.4, 50.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(210009),	-- Prototype Dreamleaf Grip (QI!)
@@ -462,14 +462,14 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(77838, {	-- Tattered Dreamleaf
-						["provider"] = { "i", 210199 },	-- Tattered Dreamleaf
+						["description"] = "Appears that ANY class can be given this quest by another player with the Tattered Dreamleaf.",
 						["sourceQuests"] = {
 							77833,	-- Handling It: Concentrated Sophic Vellum
 							77835,	-- Handling It: Rune of Shadowbinding
 							77791,	-- Handling It: Symbiotic Glowspore Grip
 						},
 						["sourceQuestNumRequired"] = 1,
-						["description"] = "Appears that ANY class can be given this quest by another player with the Tattered Dreamleaf.",
+						["provider"] = { "i", 210199 },	-- Tattered Dreamleaf
 						["classes"] = IGNORED_VALUE,	-- prevent bubbleDown... this was given to my Hunter
 						["groups"] = {
 							i(211927),	-- Tattered Dreamleaf
@@ -480,8 +480,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78156, {	-- Handling It: Radiant Vellum
-						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["sourceQuests"] = { 78155 },	-- Handling It: Radiant Fleck of Ash
+						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["coord"] = { 62.4, 18.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(210003, {	-- Shalasar's Sophic Vellum (QI!)
@@ -502,8 +502,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78153, {	-- Handling It: Prototype Rune
-						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["sourceQuests"] = { 78003 },	-- Handling It: Taut Tethercoil
+						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["coord"] = { 40.2, 64.4, THE_AZURE_SPAN },
 						["groups"] = {
 							i(209998, {	-- Lydiara's Binding Rune (QI!)
@@ -523,8 +523,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78159, {	-- Handling It: Glowspore Grip
-						["provider"] = { "n", 194842 },	-- Erden
 						["sourceQuests"] = { 77886 },	-- Handling It: Shadowed Dreamleaf
+						["provider"] = { "n", 194842 },	-- Erden
 						["coord"] = { 82.4, 50.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(209351, {	-- Erden's Dreamleaf Grip (QI!)
@@ -545,8 +545,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78002, {	-- To The Test: Concentrated Sophic Vellum
-						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["sourceQuests"] = { 78156 },	-- Handling It: Radiant Vellum
+						["provider"] = { "n", 194837 },	-- Shalasar Glimmerdusk
 						["coord"] = { 62.4, 18.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(210222),	-- Resolved Element (QI!)
@@ -558,8 +558,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78154, {	-- To the Test: Rune of Shadowbinding
-						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["sourceQuests"] = { 78153 },	-- Handling It: Prototype Rune
+						["provider"] = { "n", 194840 },	-- Lydiara Whisperfeather
 						["coord"] = { 40.2, 64.4, THE_AZURE_SPAN },
 						["groups"] = {
 							i(209999),	-- Lydiara's Rune of Shadowbinding (QI!)
@@ -569,8 +569,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78655, {	-- Adaptive Cooling Salve
-						["provider"] = { "n", 194842 },	-- Erden
 						["sourceQuests"] = { 78159 },	-- Handling It: Glowspore Grip
+						["provider"] = { "n", 194842 },	-- Erden
 						["coord"] = { 82.4, 50.6, OHNAHRAN_PLAINS },
 						["cost"] = {
 							{ "i", 190329, 5 },		-- Awakened Frost
@@ -583,8 +583,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78160, {	-- To the Test: Symbiotic Glowspore Grip
-						["provider"] = { "n", 194842 },	-- Erden
 						["sourceQuests"] = { 78159 },	-- Handling It: Glowspore Grip
+						["provider"] = { "n", 194842 },	-- Erden
 						["coord"] = { 82.4, 50.6, OHNAHRAN_PLAINS },
 						["groups"] = {
 							i(211396, {	-- Attuned Glowspore Grip (QI!)
@@ -595,13 +595,13 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(77192, {	-- An Axe Tempered
-						["provider"] = { "n", 206107 },	-- Eadweard Dalyngrigge
 						["sourceQuests"] = { 77191 },	-- Handling It
+						["provider"] = { "n", 206107 },	-- Eadweard Dalyngrigge
 						["coord"] = { 61.6, 31.2, THALDRASZUS },
 					}),
 					q(77193, {	-- The Power of Temptation
-						["provider"] = { "n", 208421 },	-- Wrathion
 						["sourceQuests"] = { 77192 },	-- An Axe Tempered
+						["provider"] = { "n", 208421 },	-- Wrathion
 						["coord"] = { 24.6, 60.6, THE_WAKING_SHORES },
 						--["maps"] = { 2211 },	-- Aberrus, the Shadowed Crucible
 						-- It seems this subzone is still in The Waking Shores (mapID 2022)
@@ -1449,8 +1449,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						["provider"] = { "i", 210430 },	-- Twisted Dreaming Essence (QI!)
 					}),
 					q(78421, {	-- The Power of Dreams
-						["provider"] = { "n", 210039 },	-- Merithra
 						["sourceQuest"] = 78355,	-- Essence of a Broken Dream (QI!)
+						["provider"] = { "n", 210039 },	-- Merithra
 						["groups"] = {
 							i(210470),	-- Echoed Ephemera (QI!)
 							i(210472),	-- Igira's Cruel Nightmare (QI!)
@@ -1460,8 +1460,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78429, {	-- The Power of Dreams, Awoken
-						["provider"] = { "n", 210039 },	-- Merithra
 						["sourceQuest"] = 78421,	-- The Power of Dreams
+						["provider"] = { "n", 210039 },	-- Merithra
 						["groups"] = {
 							i(210498, {	-- Fused Essence
 								i(210494),	-- Incandescent Essence
@@ -1469,9 +1469,9 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78473, {	-- The Power of Dreams, Lost
-						["provider"] = { "n", 210039 },	-- Merithra
-						["sourceQuest"] = 78429,	-- The Power of Dreams, Awoken
 						["description"] = "This quest allows a player to recover their Incandescent Essence if it was deleted.",
+						["sourceQuest"] = 78429,	-- The Power of Dreams, Awoken
+						["provider"] = { "n", 210039 },	-- Merithra
 						["repeatable"] = true,
 						["groups"] = {
 							i(210494),	-- Incandescent Essence

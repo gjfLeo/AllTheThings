@@ -17,10 +17,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["customCollect"] = "SL_COV_NFA",
 			}, {
 				q(62693, {	-- A Calling in Ardenweald
-					["provider"] = { "n", 165702 },	-- Blodwyn
-					["sourceQuests"] = { 62697 },	-- A Call to Service
-					["coord"] = { 53.8, 6.2, THE_TRUNK },
 					["description"] = "Will only be offered as the initial 'Calling' during the Covenant introduction.",
+					["sourceQuests"] = { 62697 },	-- A Call to Service
+					["provider"] = { "n", 165702 },	-- Blodwyn
+					["coord"] = { 53.8, 6.2, THE_TRUNK },
 					["groups"] = { i(181475) },	-- Bounty of the Grove Wardens
 				}),
 				q(60418, {	-- A Call to Bastion

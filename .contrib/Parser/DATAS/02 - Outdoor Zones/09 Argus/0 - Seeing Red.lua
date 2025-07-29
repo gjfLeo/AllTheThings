@@ -18,34 +18,34 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_10_1_7 } }, {
 				},
 			}),
 			q(77409, {	-- Uncertainty
-				["provider"] = { "n", 208815 },	-- Prophet Velen
 				["sourceQuests"] = { 77408 },	-- Prophecy Stirs
+				["provider"] = { "n", 208815 },	-- Prophet Velen
 				["coord"] = { 44.2, 26.4, THE_VINDICAAR },
 			}),
 			q(77410, {	-- Opening Wounds
-				["provider"] = { "n", 208830 },	-- Chieftan Hatuun
 				["sourceQuests"] = { 77409 },	-- Uncertainty
+				["provider"] = { "n", 208830 },	-- Chieftan Hatuun
 				["coord"] = { 53.8, 68.1, KROKUUN },
 			}),
 			q(77411, {	-- Contrition
-				["provider"] = { "n", 208831 },	-- Arzal'kal
 				["sourceQuests"] = { 77410 },	-- Opening Wounds
+				["provider"] = { "n", 208831 },	-- Arzal'kal
 				["coord"] = { 53.7, 68.2, KROKUUN },
 				["groups"] = {
 					i(208203),	-- Brilliant Star (QI!)
 				},
 			}),
 			q(77789, {	-- Severing Ties
-				["provider"] = { "n", 208858 },	-- Arzal'kal
 				["sourceQuests"] = { 77410 },	-- Opening Wounds
+				["provider"] = { "n", 208858 },	-- Arzal'kal
 				["coord"] = { 63.5, 42.6, KROKUUN },
 			}),
 			q(77412, {	-- Proof and Promise
-				["provider"] = { "n", 208836 },	-- Arzal'kal
 				["sourceQuests"] = {
 					77411,	-- Contrition
 					77789,	-- Severing Ties
 				},
+				["provider"] = { "n", 208836 },	-- Arzal'kal
 				["coord"] = { 73, 32.3, KROKUUN },
 				["groups"] = {
 					ach(18854),	-- Seeing Red
@@ -53,8 +53,8 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_10_1_7 } }, {
 				},
 			}),
 			q(77795, {	-- Scavenged Artifacts
-				["provider"] = { "n", 125246 },	-- Gaal
 				["sourceQuests"] = { 77412 },	-- Proof and Promise
+				["provider"] = { "n", 125246 },	-- Gaal
 				["coord"] = { 56.7, 68.6, KROKUUN },
 			}),
 		}),

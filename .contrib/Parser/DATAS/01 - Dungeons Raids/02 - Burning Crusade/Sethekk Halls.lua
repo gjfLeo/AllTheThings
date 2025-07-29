@@ -16,8 +16,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["groups"] = {
 			n(QUESTS, {
 				q(10097, {	-- Brother Against Brother
-					["qg"] = 18933,	-- Isfar
 					["sourceQuest"] = 10180,	-- Can't Stay Away
+					["qg"] = 18933,	-- Isfar
 					["coord"] = { 44.1, 65.0, TEROKKAR_FOREST },
 					["timeline"] = { REMOVED_4_3_0 },
 					["lvl"] = lvlsquish(65, 65, 15),
@@ -35,8 +35,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29605, {	-- Brother Against Brother
-					["qg"] = 54840,	-- Isfar
 					["sourceQuest"] = 10180,	-- Can't Stay Away
+					["qg"] = 54840,	-- Isfar
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(65, 65, 15),
 					["groups"] = {
@@ -56,8 +56,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["lvl"] = lvlsquish(65, 65, 15),
 				}),
 				applyclassicphase(TBC_PHASE_TWO_SWIFTFLIGHTFORM, q(11011, {	-- Eternal Vigilance
-					["qg"] = 22832,	-- Morthis Whisperwing <Druid of the Talon>
 					["sourceQuest"] = 11001,	-- Vanquish the Raven God
+					["qg"] = 22832,	-- Morthis Whisperwing <Druid of the Talon>
 					["coord"] = { 80.2, 65.2, ZANGARMARSH },
 					["timeline"] = { REMOVED_4_0_1 },
 					["classes"] = { DRUID },
@@ -68,8 +68,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				})),
 				q(29607, {	-- Eyes of Desire
-					["qg"] = 54847,	-- Dealer Vijaad
 					["description"] = "Dealer Vijaad appears upon defeating Darkweaver Syth.",
+					["qg"] = 54847,	-- Dealer Vijaad
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(65, 65, 15),
 					["groups"] = {
@@ -80,8 +80,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(10098, {	-- Terokk's Legacy
-					["qg"] = 18933,	-- Isfar
 					["sourceQuest"] = 10180,	-- Can't Stay Away
+					["qg"] = 18933,	-- Isfar
 					["coord"] = { 44.1, 65.0, TEROKKAR_FOREST },
 					["timeline"] = { REMOVED_4_3_0 },
 					["cost"] = {
@@ -123,8 +123,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				applyclassicphase(TBC_PHASE_TWO_SWIFTFLIGHTFORM, q(11001, {	-- Vanquish the Raven God
-					["qg"] = 22832,	-- Morthis Whisperwing <Druid of the Talon>
 					["sourceQuest"] = 10994,	-- Chasing the Moonstone
+					["qg"] = 22832,	-- Morthis Whisperwing <Druid of the Talon>
 					["coord"] = { 80.2, 65.2, ZANGARMARSH },
 					["timeline"] = { REMOVED_4_0_1 },
 					["classes"] = { DRUID },

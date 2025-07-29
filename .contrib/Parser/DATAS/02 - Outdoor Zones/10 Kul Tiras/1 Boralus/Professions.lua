@@ -123,9 +123,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 			prof(SKINNING, {
 				-- Bone Gathering
 				q(52227, {	-- Bone Needle
+					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
-					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["requireSkill"] = SKINNING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -134,9 +134,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					},
 				}),
 				q(52228, {	-- Atal'Dazar: An Unbreakable Bone Needle
+					["description"] = "Requires 150 Kul Tiran Skinning.",
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
-					["description"] = "Requires 150 Kul Tiran Skinning.",
 					["requireSkill"] = SKINNING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -146,9 +146,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 				}),
 				-- Leather Gathering
 				q(52223, {	-- Brinepinch
+					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
-					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["requireSkill"] = SKINNING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -158,9 +158,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 				}),
 				-- Scale Gathering
 				q(52225, {	-- In Pursuit of Fashion
+					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
-					["description"] = "Requires 50 Kul Tiran Skinning.",
 					["requireSkill"] = SKINNING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -169,9 +169,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 					},
 				}),
 				q(52226, {	-- Turtle Soup
+					["description"] = "Requires 150 Kul Tiran Skinning.",
 					["provider"] = { "n", 136061 },	-- Camilla Darksky
 					["coord"] = { 75.8, 13.1, BORALUS },
-					["description"] = "Requires 150 Kul Tiran Skinning.",
 					["requireSkill"] = SKINNING,
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

@@ -8,13 +8,13 @@ root(ROOTS.Zones, {
 			m(HELHEIM, {
 				n(QUESTS, {
 					q(39837, {	-- An Unworthy Task
-						["provider"] = { "n", 97319 },	-- Ashildir
 						["sourceQuests"] = { 38818 },	-- The Final Judgment
+						["provider"] = { "n", 97319 },	-- Ashildir
 						["coord"] = { 65.3, 46.9, HELHEIM },
 					}),
 					q(38324, {	-- Accessories of the Cursed
-						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["sourceQuests"] = { 39837 },	-- An Unworthy Task
+						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["coord"] = { 64.6, 43.8, HELHEIM },
 						["groups"] = {
 							i(129331),	-- Soulflayer Cord
@@ -25,31 +25,31 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38339, {	-- A Little Kelp From My Foes
-						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["sourceQuests"] = { 39837 },	-- An Unworthy Task
+						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["coord"] = { 64.6, 43.8, HELHEIM },
 					}),
 					q(38347, {	-- Stealth by Seaweed
-						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["sourceQuests"] = {
 							38324,	-- Accessories of the Cursed
 							38339,	-- A Little Kelp From My Foes
 						},
+						["provider"] = { "n", 91531 },	-- Colborn the Unworthy
 						["coord"] = { 64.6, 43.8, HELHEIM },
 					}),
 					q(39848, {	-- A Desperate Bargain
-						["provider"] = { "n", 97419 },	-- Ashildir
 						["sourceQuests"] = { 38347 },	-- Stealth by Seaweed
+						["provider"] = { "n", 97419 },	-- Ashildir
 						["coord"] = { 47.2, 32.5, HELHEIM },
 					}),
 					q(39857, {	-- The Eternal Nemesis
+						["icon"] = 537227,
 						["sourceQuests"] = { 39848 },	-- A Desperate Bargain
 						["coord"] = { 34.2, 28.1, HELHEIM },
-						["icon"] = 537227,
 					}),
 					q(39849, {	-- To Light the Way
-						["provider"] = { "n", 97480 },	-- Ashildir
 						["sourceQuests"] = { 39857 },	-- The Eternal Nemesis
+						["provider"] = { "n", 97480 },	-- Ashildir
 						["coord"] = { 46.6, 49.4, HELHEIM },
 						["groups"] = {
 							i(129339),	-- Drape of the Undying Raider
@@ -57,26 +57,26 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(39850, {	-- Sundered
-						["provider"] = { "n", 97480 },	-- Ashildir
 						["sourceQuests"] = { 39849 },	-- To Light the Way
+						["provider"] = { "n", 97480 },	-- Ashildir
 						["coord"] = { 46.6, 49.4, HELHEIM },
 					}),
 					q(39851, {	-- Allies in Death
-						["provider"] = { "n", 97480 },	-- Ashildir
 						["sourceQuests"] = { 39849 },	-- To Light the Way
+						["provider"] = { "n", 97480 },	-- Ashildir
 						["coord"] = { 46.6, 49.4, HELHEIM },
 					}),
 					q(39853, {	-- Victory is Eternal
-						["provider"] = { "n", 97480 },	-- Ashildir
 						["sourceQuests"] = {
 							39851,	-- Allies in Death
 							39850,	-- Sundered
 						},
+						["provider"] = { "n", 97480 },	-- Ashildir
 						["coord"] = { 46.6, 49.4, HELHEIM },
 					}),
 					q(39855, {	-- Paid in Lifeblood
-						["provider"] = { "n", 97558 },	-- Ashildir
 						["sourceQuests"] = { 39853 },	-- Victory is Eternal
+						["provider"] = { "n", 97558 },	-- Ashildir
 						["coord"] = { 46.2, 60.6, HELHEIM },
 						["groups"] = {
 							i(132832),	-- Bones of Geir

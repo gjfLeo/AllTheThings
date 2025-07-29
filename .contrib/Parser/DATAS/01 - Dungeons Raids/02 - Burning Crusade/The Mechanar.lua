@@ -16,8 +16,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["groups"] = {
 			n(QUESTS, {
 				q(10665, {	-- Fresh from the Mechanar
-					["qg"] = 21465,	-- David Wayne
 					["sourceQuest"] = 10664,	-- Additional Materials
+					["qg"] = 21465,	-- David Wayne
 					["coord"] = { 77.4, 38.6, TEROKKAR_FOREST },
 					["lvl"] = lvlsquish(67, 67, 25),
 					["groups"] = {
@@ -27,7 +27,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29659, {	-- Lost Treasure
-					["qg"] = 18481,	-- A'dal
 					-- #if BEFORE MOP
 					["description"] = "Blizzard broke the cache of the legion with Cataclysm Classic by removing the keys and not adding the automatic unlock from killing the mini bosses.",
 					["isBounty"] = true,
@@ -38,6 +37,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["description"] = "Automatically provided after killing either Gatewatcher. This appears to be bugged.",
 					-- #endif
 					-- #endif
+					["qg"] = 18481,	-- A'dal
 					["timeline"] = {
 						ADDED_4_3_0,
 						REMOVED_4_3_0,
@@ -51,9 +51,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29658, {	-- The Calculator
-					["qg"] = 18481,	-- A'dal
-					["sourceQuest"] = 29657,	-- With Great Power, Comes Great Responsibility
 					["description"] = "Automatically provided upon stepping into the final hallway. If autocomplete doesn't work, you can turn in at A'dal in Shattrath City.",
+					["sourceQuest"] = 29657,	-- With Great Power, Comes Great Responsibility
+					["qg"] = 18481,	-- A'dal
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(67, 67, 20),
 					["groups"] = {
@@ -63,8 +63,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29657, {	-- With Great Power, Comes Great Responsibility
-					["qg"] = 18481,	-- A'dal
 					["description"] = "Automatically provided upon starting the instance. If autocomplete doesn't work, you can turn in at A'dal in Shattrath City.",
+					["qg"] = 18481,	-- A'dal
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(67, 67, 20),
 					["groups"] = {

@@ -41,8 +41,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			}),
 			n(QUESTS, {
 				q(64861, {	-- Kismetric Disc
-					["provider"] = { "i", 187792 },	-- Kismetric Disc
 					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
+					["provider"] = { "i", 187792 },	-- Kismetric Disc
 					["groups"] = {
 						i(190062, {	-- Wicked Pocopoc
 							["questID"] = 65530,
@@ -50,169 +50,169 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				q(65674, {	-- What Is This Thing?
-					["provider"] = { "i", 190579 },	-- Unformed Essence
 					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
+					["provider"] = { "i", 190579 },	-- Unformed Essence
 				}),
 				q(66579, {	-- Sounds of Healing
-					["provider"] = { "i", 192444 },	-- Resonating Disc
 					["sourceQuests"] = { 65219 },	-- Jiro to Hero
+					["provider"] = { "i", 192444 },	-- Resonating Disc
 					["timeline"] = { ADDED_9_2_5 },
 				}),
 				-- Puzzle Quests
 				q(65460, {	-- Your First Cantaric Protolock
-					["provider"] = { "n", 177958 },	-- Firim
-					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
-					["coord"] = { 34.6, 48.1, ZERETH_MORTIS },
 					["description"] = "Requires Cachial.",
+					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
+					["provider"] = { "n", 177958 },	-- Firim
+					["coord"] = { 34.6, 48.1, ZERETH_MORTIS },
 				}),
 				q(65461, {	-- Your First Mezzonic Protolock
-					["provider"] = { "n", 177958 },	-- Firim
 					["sourceQuests"] = { 65460 },	-- Your First Mezzonic Protolock
+					["provider"] = { "n", 177958 },	-- Firim
 					["coord"] = { 34.6, 48.1, ZERETH_MORTIS },
 				}),
 				q(65466, {	-- Your First Fugueal Protolock
-					["provider"] = { "n", 177958 },	-- Firim
 					["sourceQuests"] = { 65461 },	-- Your First Mezzonic Protolock
+					["provider"] = { "n", 177958 },	-- Firim
 					["coord"] = { 34.6, 48.1, ZERETH_MORTIS },
 				}),
 				-- Cypher Research
 				q(65431, {	-- Further Research: Aealic
-					["provider"] = { "n", 181397 },	-- Cypher Console
 					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
+					["provider"] = { "n", 181397 },	-- Cypher Console
 					["coord"] = { 33.8, 49.4, ZERETH_MORTIS },
 				}),
 				q(65432, {	-- Further Research: Dealic
-					["provider"] = { "n", 181397 },	-- Cypher Console
 					["sourceQuests"] = { 65431 },	-- Further Research: Aealic
+					["provider"] = { "n", 181397 },	-- Cypher Console
 					["coord"] = { 33.8, 49.4, ZERETH_MORTIS },
 				}),
 				q(65433, {	-- Further Research: Trebalim
-					["provider"] = { "n", 181397 },	-- Cypher Console
 					["sourceQuests"] = { 65432 },	-- Further Research: Dealic
+					["provider"] = { "n", 181397 },	-- Cypher Console
 					["coord"] = { 33.8, 49.4, ZERETH_MORTIS },
 				}),
 				q(65700, {	-- Core Control
-					["provider"] = { "n", 177958 },	-- Firim
-					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
-					["coord"] = { 34.2, 48.7, ZERETH_MORTIS },
 					["description"] = "Requires Dealic Understanding.",
+					["sourceQuests"] = { 64230 },	-- Cyphers of the First Ones
+					["provider"] = { "n", 177958 },	-- Firim
+					["coord"] = { 34.2, 48.7, ZERETH_MORTIS },
 				}),
 				-- Hanoa Questline (Terrace of Formation)
 				q(64772, {	-- Broken Circle
-					["provider"] = { "n", 181091 },	-- Hanoa the Exile
-					["sourceQuests"] = { 65431 },	-- Further Research: Aealic
-					["coord"] = { 40.1, 42.1, ZERETH_MORTIS },
 					["description"] = "Requires Altonian Understanding.",
+					["sourceQuests"] = { 65431 },	-- Further Research: Aealic
+					["provider"] = { "n", 181091 },	-- Hanoa the Exile
+					["coord"] = { 40.1, 42.1, ZERETH_MORTIS },
 				}),
 				q(64773, {	-- A Jiro Guide to Not Being Eaten
-					["provider"] = { "n", 181098 },	-- Olea Pau
 					["sourceQuests"] = { 64772 },	-- Broken Circle
+					["provider"] = { "n", 181098 },	-- Olea Pau
 					["coord"] = { 38, 39.8, ZERETH_MORTIS },
 				}),
 				q(64713, {	-- Picking Up the Pieces... Literally
-					["provider"] = { "n", 180919 },	-- Olea Novi
 					["sourceQuests"] = { 64772 },	-- Broken Circle
+					["provider"] = { "n", 180919 },	-- Olea Novi
 					["coord"] = { 36.7, 37.7, ZERETH_MORTIS },
 					["groups"] = {
 						i(187615),	-- Orb Fragment (QI!)
 					},
 				}),
 				q(65370, {	-- Gut Check
-					["provider"] = { "n", 181102 },	-- Olea Manu
 					["sourceQuests"] = { 64772 },	-- Broken Circle
+					["provider"] = { "n", 181102 },	-- Olea Manu
 					["coord"] = { 38.2, 35.3, ZERETH_MORTIS },
 					["groups"] = {
 						i(189450),	-- Crescendal (QI!)
 					},
 				}),
 				q(64775, {	-- Mawdified Behavior
-					["provider"] = { "n", 180984 },	-- Hanoa the Exile
 					["sourceQuests"] = {
 						64773,	-- A Jiro Guide to Not Being Eaten
 						64713,	-- Picking Up the Pieces... Literally
 						65370,	-- Gut Check
 					},
+					["provider"] = { "n", 180984 },	-- Hanoa the Exile
 					["coord"] = { 39.5, 31.9, ZERETH_MORTIS },
 					["groups"] = {
 						i(189493),	-- Black Steel Fragment (QI!)
 					},
 				}),
 				q(64739, {	-- Zovaal's Grasp
-					["provider"] = { "n", 184469 },	-- Hanoa the Exile
 					["sourceQuests"] = { 64775 },	-- Mawdified Behavior
+					["provider"] = { "n", 184469 },	-- Hanoa the Exile
 					["coord"] = { 39.4, 32.2, ZERETH_MORTIS },
 				}),
 				q(64778, {	-- Rift Recon
-					["provider"] = { "n", 18170 },	-- Olea Manu
 					["sourceQuests"] = { 64739 },	-- Zovaal's Grasp
+					["provider"] = { "n", 18170 },	-- Olea Manu
 					["coord"] = { 42.7, 31.6, ZERETH_MORTIS },
 				}),
 				q(64780, {	-- Mawsteel, Maw Problems
-					["provider"] = { "n", 181177 },	-- Olea Novi
 					["sourceQuests"] = { 64739 },	-- Zovaal's Grasp
+					["provider"] = { "n", 181177 },	-- Olea Novi
 					["coord"] = { 42.6, 31.6, ZERETH_MORTIS },
 				}),
 				q(64779, {	-- Pound of Flesh
-					["provider"] = { "n", 181174 },	-- Olea Pau
 					["sourceQuests"] = { 64739 },	-- Zovaal's Grasp
+					["provider"] = { "n", 181174 },	-- Olea Pau
 					["coord"] = { 42.3, 31.5, ZERETH_MORTIS },
 					["groups"] = {
 						i(187950),	-- Warped Flesh (QI!)
 					},
 				}),
 				q(65219, {	-- Jiro to Hero
-					["provider"] = { "n", 180989 },	-- Hanoa the Exile
 					["sourceQuests"] = {
 						64778,	-- Rift Recon
 						64780,	-- Mawsteel, Maw Problems
 						64779,	-- Pound of Flesh
 					},
+					["provider"] = { "n", 180989 },	-- Hanoa the Exile
 					["coord"] = { 42.7, 31.4, ZERETH_MORTIS },
 				}),
 				-- Glimmercane Questline
 				q(64641, {	-- Mysterious Greenery
-					["provider"] = { "n", 180799 },	-- Glimmercane
-					["sourceQuests"] = { 65432 },	-- Further Research: Dealic
-					["coord"] = { 55.3, 64.4, ZERETH_MORTIS },
 					["description"] = "Requires Sorpranian Understanding.",
+					["sourceQuests"] = { 65432 },	-- Further Research: Dealic
+					["provider"] = { "n", 180799 },	-- Glimmercane
+					["coord"] = { 55.3, 64.4, ZERETH_MORTIS },
 				}),
 				q(64642, {	-- Clearing the Ruins
-					["provider"] = { "n", 179900 },	-- Koh Shira
 					["sourceQuests"] = { 64641 },	-- Mysterious Greenery
+					["provider"] = { "n", 179900 },	-- Koh Shira
 					["coord"] = { 60.5, 70, ZERETH_MORTIS },
 				}),
 				q(64643, {	-- Scavenging A Solution
-					["provider"] = { "n", 179923 },	-- Koh Riva
 					["sourceQuests"] = { 64641 },	-- Mysterious Greenery
+					["provider"] = { "n", 179923 },	-- Koh Riva
 					["coord"] = { 60.5, 70.1, ZERETH_MORTIS },
 					["groups"] = {
 						i(187131),	-- Automa Internals (QI!)
 					},
 				}),
 				q(64644, {	-- A Splash of the Eternal
-					["provider"] = { "n", 180702 },	-- Glimmercane
 					["sourceQuests"] = {
 						64642,	-- Clearing the Ruins
 						64643,	-- Scavenging A Solution
 					},
+					["provider"] = { "n", 180702 },	-- Glimmercane
 					["coord"] = { 60.7, 69.8, ZERETH_MORTIS },
 					["groups"] = {
 						i(187925),	-- Eternal Water (QI!)
 					},
 				}),
 				q(64645, {	-- Moment of Truth
-					["provider"] = { "n", 179900 },	-- Koh Shira
 					["sourceQuests"] = { 64644 },	-- A Splash of the Eternal
+					["provider"] = { "n", 179900 },	-- Koh Shira
 					["coord"] = { 60.5, 70.1, ZERETH_MORTIS },
 				}),
 				q(64646, {	-- Ramping Up
-					["provider"] = { "n", 180797 },	-- Koh Shira
 					["sourceQuests"] = { 64645 },	-- Moment of Truth
+					["provider"] = { "n", 180797 },	-- Koh Shira
 					["coord"] = { 63.2, 73.1, ZERETH_MORTIS },
 				}),
 				q(64647, {	-- Strange Gears
-					["provider"] = { "o", 375021 },	-- Perished Automa
 					["sourceQuests"] = { 64645 },	-- Moment of Truth
+					["provider"] = { "o", 375021 },	-- Perished Automa
 					["coord"] = { 29.3, 15.3, 2027 },
 					["groups"] = {
 						i(187619),	-- Winding Seed (QI!)
@@ -220,11 +220,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				q(64648, {	-- Reap What We Have Sown
-					["provider"] = { "n", 180800 },	-- Koh Shira
 					["sourceQuests"] = {
 						64646,	-- Ramping Up
 						64647,	-- Strange Gears
 					},
+					["provider"] = { "n", 180800 },	-- Koh Shira
 					["coord"] = { 39.3, 55.5, 2027 },
 					["groups"] = {
 						i(190985),	-- Crystallic Cryptic Mask

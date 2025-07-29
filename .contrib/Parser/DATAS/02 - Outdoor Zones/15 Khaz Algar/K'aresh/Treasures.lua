@@ -47,8 +47,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				q(89378, {	-- Ethereal Voidforged Container
-					["coord"] = { 52.1, 68.3, KARESH },
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
+					["coord"] = { 52.1, 68.3, KARESH },
 					-- TODO: I think this one is bugged as well. No matter how I get to the top of the pillar, there is no container. 25.06.2025. -Exo
 				}),
 				o(499093, {	-- Forlorn Wind Chime

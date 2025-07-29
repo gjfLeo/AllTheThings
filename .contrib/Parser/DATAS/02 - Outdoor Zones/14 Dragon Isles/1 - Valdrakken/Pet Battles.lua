@@ -5,11 +5,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 	m(VALDRAKKEN, {
 		petbattles({
 			q(70647, {	-- Oh Where, Oh Where Can He Be?
-				["qg"] = 185563,	-- Jyhanna
 				["sourceQuests"] = {
 					66244,	-- To Valdrakken
 					DF_ACCOUNT_CAMPAIGN_QUEST,
 				},
+				["qg"] = 185563,	-- Jyhanna
 				["coord"] = { 10.4, 58.3, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["_drop"] = { "g" },	-- Drop Battle Pet Bandage
@@ -18,8 +18,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(70697, {	-- An Expert Opinion
-				["qg"] = 185563,	-- Jyhanna
 				["sourceQuest"] = 70647,	-- Oh Where, Oh Where Can He Be?
+				["qg"] = 185563,	-- Jyhanna
 				["coord"] = { 10.4, 58.3, VALDRAKKEN },
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["maps"] = { THE_AZURE_SPAN },

@@ -19,8 +19,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			n(QUESTS, {
 				q(47098, {	-- Out Like Flynn
-					["provider"] = { "n", 121239 },	-- Flynn Fairwind
 					["sourceQuests"] = { 51341 },	-- Tol Dagor
+					["provider"] = { "n", 121239 },	-- Flynn Fairwind
 					["coord"] = { 47.3, 46.2, TOL_DAGOR },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

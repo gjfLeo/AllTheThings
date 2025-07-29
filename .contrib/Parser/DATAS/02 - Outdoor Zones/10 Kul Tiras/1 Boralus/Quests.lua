@@ -70,11 +70,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				q(56648, {	-- Call to Arms: Nazjatar
+					["sourceQuests"] = { 56156 },	-- A Tempered Blade
 					["qgs"] = {
 						143559,	-- Grand Marshal Tremblade
 						154640,	-- Grand Marshal Tremblade
 					},
-					["sourceQuests"] = { 56156 },	-- A Tempered Blade
 					["coords"] = {
 						{ 56.4, 26.0, BORALUS },
 						{ 38.0, 55.4, NAZJATAR },
@@ -167,8 +167,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				q(53075, {	-- Dueler's Guild
-					["provider"] = { "n", 143559 },	-- Grand Marshal Tremblade
 					["sourceQuests"] = { 53073 },	-- Hook Point Investigation
+					["provider"] = { "n", 143559 },	-- Grand Marshal Tremblade
 					["coord"] = { 56.3, 26.0, BORALUS },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -207,8 +207,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(54307, {	-- Outpost Upgrade: Arom's Stand
-								["provider"] = { "n", 135612 },		-- Halford Wyrmbane
 								["sourceQuests"] = { 54306 },		-- Mission Report: Arom's Stand
+								["provider"] = { "n", 135612 },		-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -230,8 +230,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(54263, {	-- Outpost Upgrade: Brennadam
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 54262 },	-- Mission Report: Brennadam
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -253,8 +253,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(54288, {	-- Outpost Upgrade: Castaway Point
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 54284 },	-- Mission Report: Castaway Point
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -279,8 +279,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53007, {	-- Grimwatt's Crash
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53006 },	-- Mission Report: Grimwatt's Crash
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -288,16 +288,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								["races"] = ALLIANCE_ONLY,
 								["groups"] = {
 									q(53186, {	-- Mission Report: Ambush at Grimwatt's Crash
-										["provider"] = { "n", 138704 },	-- Mission Command Table
 										["sourceQuests"] = { 53006 },	-- Mission Report: Grimwatt's Crash
+										["provider"] = { "n", 138704 },	-- Mission Command Table
 										["coord"] = { 70.5, 27.2, BORALUS },
 										["races"] = ALLIANCE_ONLY,
 									}),
 								},
 							}),
 							q(53187, {	-- An Unexpected Guest
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53186 },	-- Mission Report: Ambush at Grimwatt's Crash
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -322,8 +322,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(52963, {	-- Mistvine Ledge
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 52962 },	-- Mission Report: Mistvine Ledge
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -339,8 +339,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53307, {	-- Jungle Escort
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53306 },	-- Mission Report: Jungle Escort
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -365,8 +365,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(52852, {	-- Mugamba Overlook
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 52851 },	-- Mission Report: Mugamba Overlook
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -385,8 +385,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53276, {	-- Spare Parts
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53275 },	-- Mission Report: Spare Parts
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -411,8 +411,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(52802, {	-- Veiled Grotto
-								["provider"] = { "n", 135612 },		-- Halford Wyrmbane
 								["sourceQuests"] = { 52801 },		-- Mission Report: Veiled Grotto
+								["provider"] = { "n", 135612 },		-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -437,8 +437,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(52888, {	-- Verdant Hollow
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 52886 },	-- Mission Report: Verdant Hollow
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -457,8 +457,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53268, {	-- Dino Research
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53267 },	-- Mission Report: Dino Research
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -483,8 +483,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53044, {	-- Vulture's Nest
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53043 },	-- Mission Report: Vulture's Nest
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -503,8 +503,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 								},
 							}),
 							q(53222, {	-- Necessary Supplies
-								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["sourceQuests"] = { 53221 },	-- Mission Report: Missing Supplies
+								["provider"] = { "n", 135612 },	-- Halford Wyrmbane
 								["coord"] = { 69.4, 27.0, BORALUS },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -513,14 +513,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(57126, {	-- ...And Following Seas
-				["provider"] = { "n", 150633 },	-- Lady Jaina Proudmoore
 				["sourceQuests"] = { 57002 },	-- Old Soldier
+				["provider"] = { "n", 150633 },	-- Lady Jaina Proudmoore
 				["coord"] = { 69.5, 27.1, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(51144, {	-- A Bundle of Furs
-				["provider"] = { "n", 124289 },	-- "Risky" Liz Seminario <Fur Trader>
 				["sourceQuests"] = { 47189 },	-- A Nation Divided
+				["provider"] = { "n", 124289 },	-- "Risky" Liz Seminario <Fur Trader>
 				["coord"] = { 72.2, 16.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -528,22 +528,22 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(52453, {	-- A Forlorn Hope
-				["provider"] = { "n", 140495 },
 				["sourceQuests"] = { 52449 },	-- The Mysterious Island
+				["provider"] = { "n", 140495 },
 				["coord"] = { 36.4, 62.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(58674, {	-- A Gathering of Champions
-				["provider"] = { "n", 135614 },	-- Master Mathias Shaw
 				["sourceQuests"] = {
 					58631,	-- Into Dreams
 				},
+				["provider"] = { "n", 135614 },	-- Master Mathias Shaw
 				["coord"] = { 70.4, 27.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52462, {	-- A Load of Scrap
-				["provider"] = { "n", 141274 },	-- Crenzo Sparkshatter
 				["sourceQuests"] = { 46728 },	-- The Nation of Kul Tiras
+				["provider"] = { "n", 141274 },	-- Crenzo Sparkshatter
 				["coord"] = { 77.1, 16.4, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -553,26 +553,26 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(52762, {	-- A Local Guide
-				["provider"] = { "n", 140649 },	-- Genn Greymane
 				["sourceQuests"] = { 52246 },	-- Lost Shipment
+				["provider"] = { "n", 140649 },	-- Genn Greymane
 				["coord"] = { 67.0, 36.2, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52151, {	-- A Nation United
-				["provider"] = { "n", 120788 },	-- Genn Greymane
 				["sourceQuests"] = { 52153 },	-- Siege of Boralus: Lady Ashvane's Return
+				["provider"] = { "n", 120788 },	-- Genn Greymane
 				["coord"] = { 67.9, 22.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54947, {	-- A Small Team
-				["provider"] = { "n", 151100 },	-- Gila Crosswires
 				["sourceQuests"] = { 54946 },	-- Report to Gila
+				["provider"] = { "n", 151100 },	-- Gila Crosswires
 				["coord"] = { 67.3, 15.7, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52252, {	-- An Explosive Entrance
-				["provider"] = { "n", 140732 },	-- Flynn Fairwind
 				["sourceQuests"] = { 52762 },	-- A Local Guide
+				["provider"] = { "n", 140732 },	-- Flynn Fairwind
 				["coord"] = { 67.7, 22.1, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -584,33 +584,33 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(51488, {	-- Archived Knowledge
-				["provider"] = { "n", 137871 },	-- Taelia
 				["sourceQuests"] = { 51487 },	-- Searching for Answers
+				["provider"] = { "n", 137871 },	-- Taelia
 				["coord"] = { 60.1, 85.4, BORALUS },
 				["maps"] = { STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50789, {	-- Clear the Air
-				["provider"] = { "n", 135259 },	-- Taelia
 				["sourceQuests"] = { 50787 },	-- Make Our Case
+				["provider"] = { "n", 135259 },	-- Taelia
 				["coord"] = { 49.9, 87.3, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(51341, {	-- Daughter of the Sea
-				["provider"] = { "n", 120922 },	-- Lady Jaina Proudmoore
 				["sourceQuests"] = { 46728 },	-- The Nation of Kul Tiras
+				["provider"] = { "n", 120922 },	-- Lady Jaina Proudmoore
 				["coord"] = { 65.7, 50.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(47961, {	-- Drustvar
-				["provider"] = { "n", 139522 },	-- Scouting Map
 				["sourceQuests"] = { 47189 },	-- A Nation Divided
+				["provider"] = { "n", 139522 },	-- Scouting Map
 				["races"] = ALLIANCE_ONLY,
 				["isBreadcrumb"] = true,
 			}),
 			q(50788, {	-- Enemies Within
-				["provider"] = { "n", 135259 },	-- Taelia
 				["sourceQuests"] = { 50787 },	-- Make Our Case
+				["provider"] = { "n", 135259 },	-- Taelia
 				["coord"] = { 49.9, 87.3, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -620,22 +620,22 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52128, {	-- Ferry Pass
-				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["sourceQuests"] = { 46729 },	-- The Old Knight
+				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["coord"] = { 68.0, 21.9, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50790, {	-- Hot Pursuit
-				["provider"] = { "n", 135259 },	-- Taelia
 				["sourceQuests"] = {
 					50789,	-- Clear the Air
 					50788,	-- Enemies Within
 				},
+				["provider"] = { "n", 135259 },	-- Taelia
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52246, {	-- Lost Shipment
-				["provider"] = { "n", 140495 },	-- Katherine Proudmoore
 				["sourceQuests"] = { 52194 },	-- Lost Shipment
+				["provider"] = { "n", 140495 },	-- Katherine Proudmoore
 				["coord"] = { 67.0, 36.2, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -643,13 +643,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(50787, {	-- Make Our Case
-				["provider"] = { "n", 135335 },	-- Proudmoore Guard
 				["sourceQuests"] = { 50795 },	-- Prepare for Trouble
+				["provider"] = { "n", 135335 },	-- Proudmoore Guard
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52481, {	-- Of Myth and Fable
-				["provider"] = { "n", 140495 },	-- Katherine Proudmoore
 				["sourceQuests"] = { 52513 },	-- Lost in Darkness
+				["provider"] = { "n", 140495 },	-- Katherine Proudmoore
 				["coord"] = { 36.4, 62.8, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -662,14 +662,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(50795, {	-- Prepare for Trouble
-				["provider"] = { "n", 135259 },	-- Taelia
 				["sourceQuests"] = { 50110 },	-- Bearers of Bad News
+				["provider"] = { "n", 135259 },	-- Taelia
 				["coord"] = { 48.9, 75.5, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50972, {	-- Proudmoore's Parley
-				["provider"] = { "n", 121144 },	-- Katherine Proudmoore <Lord Admiral of Kul Tiras>
 				["sourceQuests"] = { 50790 },	-- Hot Pursuit
+				["provider"] = { "n", 121144 },	-- Katherine Proudmoore <Lord Admiral of Kul Tiras>
 				["coord"] = { 48.2, 80.7, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -692,8 +692,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(57324, {	-- Sail With the Tide
-				["provider"] = { "n", 150633 },	-- Lady Jaina Proudmoore
 				--["sourceQuests"] = { 57126 },	-- ...And Following Seas -- maybe this one? but it was back in 8.2.5
+				["provider"] = { "n", 150633 },	-- Lady Jaina Proudmoore
 				["coord"] = { 69.34, 27.15, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -716,59 +716,59 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				q(52840),	-- Seal of Wartorn Fate: Stashed War Resources
 			})),
 			q(51487, {	-- Searching for Answers
-				["provider"] = { "n", 137866 },	-- Taelia
 				["sourceQuests"] = { 47952 },	-- The Missing Fleet
+				["provider"] = { "n", 137866 },	-- Taelia
 				["coord"] = { 65.2, 68.7, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56043, {	-- Send the Fleet -- also triggered 56881
-				["provider"] = { "n", 153932 },	-- Genn Greymane
 				["sourceQuests"] = { 56031 },	-- The Wolf's Offensive
+				["provider"] = { "n", 153932 },	-- Genn Greymane
 				["coord"] = { 70.6, 27.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52153, {	-- Siege of Boralus: Lady Ashvane's Return
-				["provider"] = { "n", 141785 },	-- Katherine Proudmoore
 				["sourceQuests"] = { 51445 },	-- Thros, the Blighted Lands
+				["provider"] = { "n", 141785 },	-- Katherine Proudmoore
 				["coord"] = { 44.7, 62.7, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(47962, {	-- Stormsong Valley
-				["provider"] = { "n", 139522 },	-- Scouting Map
 				["sourceQuests"] = { 47189 },	-- A Nation Divided
+				["provider"] = { "n", 139522 },	-- Scouting Map
 				["races"] = ALLIANCE_ONLY,
 				["isBreadcrumb"] = true,
 			}),
 			q(47485, {	-- The Ashvane Trading Company
-				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["sourceQuests"] = { 47181 },	-- The Smoking Gun
+				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["coord"] = { 67.9, 22.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54088, {	-- The Legend of Mechagon
-				["provider"] = { "n", 150208 },	-- Tinkmaster Overspark
 				["sourceQuests"] = {
 					57009,	-- Fame Waits for Gnome One (Nazjatar)
 					58708,	-- Fame Waits for Gnome One (Stormwind)
 				},
+				["provider"] = { "n", 150208 },	-- Tinkmaster Overspark
 				["coord"] = { 67.2, 15.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49223, {	-- The Long Con
-				["provider"] = { "n", 129940 },	-- Roko <Wandering Merchant> (mobileNPC)
 				["sourceQuests"] = { 49523 },	-- A Bad Deal
+				["provider"] = { "n", 129940 },	-- Roko <Wandering Merchant> (mobileNPC)
 				["coord"] = { 70.3, 8.4, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52449, {	-- The Mysterious Island
-				["provider"] = { "n", 140732 },	-- Flynn Fairwind
 				["sourceQuests"] = { 52445 },	-- Tol Dagor: The Fourth Key
+				["provider"] = { "n", 140732 },	-- Flynn Fairwind
 				["coord"] = { 68.0, 22.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56378, {	-- The Missing Crew
-				["provider"] = { "n", 135681 },	-- Grand Admiral Jes-Tereth
 			--	["sourceQuests"] = {  },	-- UNKNOWN
+				["provider"] = { "n", 135681 },	-- Grand Admiral Jes-Tereth
 				["coord"] = { 67.9, 26.4, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -776,26 +776,26 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(47952, {	-- The Missing Fleet
-				["provider"] = { "n", 121235 },	-- Taelia
 				["sourceQuests"] = { 47962 },	-- Stormsong Valley
+				["provider"] = { "n", 121235 },	-- Taelia
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(47181, {	-- The Smoking Gun
-				["provider"] = { "n", 121239 },	-- Flynn Fairwind
 				["sourceQuests"] = { 47960 },	-- Tiragarde Sound
+				["provider"] = { "n", 121239 },	-- Flynn Fairwind
 				["coord"] = { 67.7, 22.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54992, {	-- The Start of Something Bigger
-				["provider"] = { "n", 150145 },	-- Gila Crosswires
 				["sourceQuests"] = { 54947 },	-- A Small Team
+				["provider"] = { "n", 150145 },	-- Gila Crosswires
 				["coord"] = { 43.3, 32.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(48622, {	-- The Vanishing Lord
-				["provider"] = { "n", 121235 },	-- Taelia
-				["altQuests"] = { 53434 },	-- The Vanishing Lord
 				["sourceQuests"] = { 47961 },	-- Drustvar
+				["altQuests"] = { 53434 },	-- The Vanishing Lord
+				["provider"] = { "n", 121235 },	-- Taelia
 				["coord"] = { 68.0, 22.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -805,20 +805,20 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["isBreadcrumb"] = true,
 			}),
 			q(51489, {	-- Time to Leave
-				["provider"] = { "n", 137871 },	-- Taelia
 				["sourceQuests"] = { 51488 },	-- Archived Knowledge
+				["provider"] = { "n", 137871 },	-- Taelia
 				["coord"] = { 73.6, 39.5, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(47960, {	-- Tiragarde Sound
-				["provider"] = { "n", 139522 },	-- Scouting Map
 				["sourceQuests"] = { 47189 },	-- A Nation Divided
+				["provider"] = { "n", 139522 },	-- Scouting Map
 				["coord"] = { 68.3, 22.1, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(52800, {	-- Tol Dagor: The Ashvane Overseer
-				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["sourceQuests"] = { 50972 },	-- Proudmoore's Parley
+				["provider"] = { "n", 122370 },	-- Cyrus Crestfall
 				["coord"] = { 67.9, 22.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["lvl"] = 10,
@@ -827,8 +827,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(49715, {	-- Trouble at Greystone Keep
-				["provider"] = { "n", 130377 },	-- Courier Gerald
 				-- ["sourceQuests"] = { 50790 },	-- Hot Pursuit	-- TODO maybe earlier? maybe none?
+				["provider"] = { "n", 130377 },	-- Courier Gerald
 				["coord"] = { 69.2, 11.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["isBreadcrumb"] = true,
@@ -839,8 +839,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(53815, {	-- Whatever Happened to Saffy Flivvers?
-				["provider"] = { "n", 143851 },	-- Kelsey Steelspark
 				["sourceQuests"] = { 55119 },	-- Reporting In!
+				["provider"] = { "n", 143851 },	-- Kelsey Steelspark
 				["coord"] = { 67.8, 26.2, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),

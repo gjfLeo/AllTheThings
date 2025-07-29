@@ -13,19 +13,19 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["crs"] = CLASS_HALL_MISSION_TABLES,
 				}),
 				q(39861, {	-- Tying Up Loose Ends
-					["provider"] = { "n", 91172 },	-- Archmage Khadgar
 					["sourceQuests"] = { 39731 },	-- The Tranquil Forest
+					["provider"] = { "n", 91172 },	-- Archmage Khadgar
 					["coord"] = { 70.1, 43.7, LEGION_DALARAN },
 					["isBreadcrumb"] = true,
 				}),
 				q(40122, {	-- Cenarius, Keeper of the Grove
-					["provider"] = { "n", 91462 },	-- Malfurion Stormrage
 					["sourceQuests"] = { 39861 },	-- Tying Up Loose Ends
+					["provider"] = { "n", 91462 },	-- Malfurion Stormrage
 					["coord"] = { 54.6, 72.8, VALSHARAH },
 				}),
 				q(38384, {	-- Nature's Call
-					["provider"] = { "n", 91109 },	-- Malfurion Stormrage
 					["sourceQuests"] = { 40122 },	-- Cenarius, Keeper of the Grove
+					["provider"] = { "n", 91109 },	-- Malfurion Stormrage
 					["coord"] = { 51.9, 64.1, VALSHARAH },
 					["groups"] = {
 						i(141618),	-- Life-Giving Berries
@@ -34,23 +34,23 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				------ Chapter 1 ------
 				q(38382, {	-- Archdruid of the Vale
-					["provider"] = { "n", 94179 },	-- Aranelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 94179 },	-- Aranelle
 					["coord"] = { 54.3, 73.4, VALSHARAH },
 				}),
 				q(39383, {	-- Dishonored
-					["provider"] = { "n", 95395 },	-- Thaon Moonclaw
 					["sourceQuests"] = { 38382 },	-- Archdruid of the Vale
+					["provider"] = { "n", 95395 },	-- Thaon Moonclaw
 					["coord"] = { 60.9, 73.3, VALSHARAH },
 				}),
 				q(39384, {	-- The Corruptor
-					["provider"] = { "n", 95396 },	-- Thaon Moonclaw
 					["sourceQuests"] = { 39383 },	-- Dishonored
+					["provider"] = { "n", 95396 },	-- Thaon Moonclaw
 					["coord"] = { 62.8, 71.5, VALSHARAH },
 				}),
 				q(40573, {	-- The Nightmare Lord
-					["provider"] = { "n", 91650 },	-- Evelle Nightwhisper
 					["sourceQuests"] = { 39384 },	-- The Corruptor
+					["provider"] = { "n", 91650 },	-- Evelle Nightwhisper
 					["coord"] = { 65.1, 67.0, VALSHARAH },
 					["groups"] = {
 						i(130008),	-- Armbands of Unrelenting Anguish
@@ -61,30 +61,30 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38323, {	-- Return to the Grove
-					["provider"] = { "n", 100573 },	-- Evelle Nightwhisper
-					["sourceQuests"] = { 40573 },	-- The Nightmare Lord
-					["coord"] = { 62.2, 76.2, VALSHARAH },
 					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
+					["sourceQuests"] = { 40573 },	-- The Nightmare Lord
+					["provider"] = { "n", 100573 },	-- Evelle Nightwhisper
+					["coord"] = { 62.2, 76.2, VALSHARAH },
 				}),
 				------ Chapter 2 ------
 				q(38142, {	-- Archdruid of the Claw
-					["provider"] = { "n", 94179 },	-- Aranelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 94179 },	-- Aranelle
 					["coord"] = { 54.3, 73.4, VALSHARAH },
 				}),
 				q(38455, {	-- Frenzied Furbolgs
-					["provider"] = { "n", 73426 },	-- Rylissa Bearsong
 					["sourceQuests"] = { 38142 },	-- Archdruid of the Claw
+					["provider"] = { "n", 73426 },	-- Rylissa Bearsong
 					["coord"] = { 49.0, 82.2, VALSHARAH },
 				}),
 				q(38922, {	-- Littlefur
-					["provider"] = { "n", 93890 },	-- Elder Sookh
 					["sourceQuests"] = { 38142 },	-- Archdruid of the Claw
+					["provider"] = { "n", 93890 },	-- Elder Sookh
 					["coord"] = { 48.3, 84.5, VALSHARAH },
 				}),
 				q(38246, {	-- Totemic Call
-					["provider"] = { "n", 93581 },	-- Littlefur
 					["sourceQuests"] = { 38922 },	-- Littlefur
+					["provider"] = { "n", 93581 },	-- Littlefur
 					["coord"] = { 46.3, 84.6, VALSHARAH },
 					["groups"] = {
 						i(121599),	-- Nightvale Cord
@@ -103,30 +103,30 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["cr"] = 91318,	-- Chieftain Graw
 				}),
 				q(38143, {	-- Awakening the Archdruid
-					["provider"] = { "n", 73426 },	-- Rylissa Bearsong
 					["sourceQuests"] = {
 						38455,	-- Frenzied Furbolgs
 						38146,	-- The Chieftain's Beads
 						38246,	-- Totemic Call
 					},
+					["provider"] = { "n", 73426 },	-- Rylissa Bearsong
 					["coord"] = { 49.0, 82.2, VALSHARAH },
 				}),
 				q(38145, {	-- Out of the Dream
-					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["sourceQuests"] = { 38143 },	-- Awakening the Archdruid
+					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coord"] = { 60.7, 19.1, 643 },	-- Sleeper's Barrow
 				}),
 				q(38144, {	-- The Demons Below
-					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["sourceQuests"] = { 38143 },	-- Awakening the Archdruid
+					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coord"] = { 60.7, 19.1, 643 },	-- Sleeper's Barrow
 				}),
 				q(38147, {	-- Entangled Dreams
-					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["sourceQuests"] = {
 						38145,	-- Out of the Dream
 						38144,	-- The Demons Below
 					},
+					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coord"] = { 63.7, 49.9, 643 },	-- Sleeper's Barrow
 					["groups"] = {
 						i(121586),	-- Nightvale Cowl
@@ -140,30 +140,30 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38148, {	-- Return to the Grove
-					["provider"] = { "n", 91223 },	-- Koda Steelclaw
-					["sourceQuests"] = { 38147 },	-- Entangled Dreams
-					["coord"] = { 48.9, 81.6, VALSHARAH },
 					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
+					["sourceQuests"] = { 38147 },	-- Entangled Dreams
+					["provider"] = { "n", 91223 },	-- Koda Steelclaw
+					["coord"] = { 48.9, 81.6, VALSHARAH },
 				}),
 				------ Chapter 3 ------
 				q(38381, {	-- Archdruid of Lore (Non-Druid version)
-					["provider"] = { "n", 94179 },	-- Aranelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 94179 },	-- Aranelle
 					["coord"] = { 54.3, 73.4, VALSHARAH },
 					["classes"] = exclude(DRUID, ALL_CLASSES),
 				}),
 				q(44106, {	-- Archdruid of Lore (Druid version)
-					["provider"] = { "n", 94179 },	-- Aranelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 94179 },	-- Aranelle
 					["coord"] = { 54.3, 73.4, VALSHARAH },
 					["classes"] = { DRUID },
 				}),
 				q(38225, {	-- Death to the Witchmother
-					["provider"] = { "n", 91066 },	-- Elothir
 					["sourceQuests"] = {
 						38381,	-- Archdruid of Lord (Non-Druid)
 						44106,	-- Archdruid of Lore (Druid)
 					},
+					["provider"] = { "n", 91066 },	-- Elothir
 					["coord"] = { 48.9, 70.1, VALSHARAH },
 					["groups"] = {
 						i(121646),	-- Witchmother Drape
@@ -171,30 +171,30 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38235, {	-- Solid as a Rock
-					["provider"] = { "n", 91066 },	-- Elothir
 					["sourceQuests"] = {
 						38381,	-- Archdruid of Lord (Non-Druid)
 						44106,	-- Archdruid of Lore (Druid)
 					},
+					["provider"] = { "n", 91066 },	-- Elothir
 					["coord"] = { 48.9, 70.1, VALSHARAH },
 				}),
 				q(38322, {	-- Return to the Grove
-					["provider"] = { "n", 91066 },	-- Elothir
+					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
 					["sourceQuests"] = {
 						38225,	-- Death to the Witchmother
 						38235,	-- Solid as a Rock
 					},
+					["provider"] = { "n", 91066 },	-- Elothir
 					["coord"] = { 48.8, 70.2, VALSHARAH },
-					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
 				}),
 				------ Chapter 4 ------
 				q(38377, {	-- The Emerald Queen
-					["provider"] = { "n", 91109 },	-- Malfurion Stormrage
 					["sourceQuests"] = {
 						38148,	-- Return to the Grove
 						38322,	-- Return to the Grove
 						38323,	-- Return to the Grove
 					},
+					["provider"] = { "n", 91109 },	-- Malfurion Stormrage
 					["coord"] = { 51.9, 64.1, VALSHARAH },
 					["groups"] = {
 						i(200669, {	-- Emerald Mace of Dreams
@@ -225,18 +225,18 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38641, {	-- The Temple of Elune
-					["provider"] = { "n", 98584 },	-- Ysera
 					["sourceQuests"] = { 38377 },	-- The Emerald Queen
+					["provider"] = { "n", 98584 },	-- Ysera
 					["coord"] = { 52.4, 63.6, VALSHARAH },
 				}),
 				q(38655, {	-- Root Cause
-					["provider"] = { "n", 92697 },	-- Isoraen Nightstar
 					["sourceQuests"] = { 38641 },	-- The Temple of Elune
+					["provider"] = { "n", 92697 },	-- Isoraen Nightstar
 					["coord"] = { 51.4, 56.9, VALSHARAH },
 				}),
 				q(38662, {	-- Tears for Fears
-					["provider"] = { "n", 92680 },	-- Lyanis Moonfall
 					["sourceQuests"] = { 38641 },	-- The Temple of Elune
+					["provider"] = { "n", 92680 },	-- Lyanis Moonfall
 					["coord"] = { 51.4, 56.9, VALSHARAH },
 					["groups"] = {
 						i(121651),	-- Darkfiend Dreadbringer Horn
@@ -246,21 +246,21 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38663, {	-- The Die is Cast
-					["provider"] = { "n", 92680 },	-- Lyanis Moonfall
 					["sourceQuests"] = {
 						38655,	-- Root Cause
 						38662,	-- Tears for Fears
 					},
+					["provider"] = { "n", 92680 },	-- Lyanis Moonfall
 					["coord"] = { 51.4, 56.9, VALSHARAH },
 				}),
 				q(38595, {	-- Malfurion's Fury
-					["provider"] = { "n", 92742 },	-- Ysera
 					["sourceQuests"] = { 38663 },	-- The Die is Cast
+					["provider"] = { "n", 92742 },	-- Ysera
 					["coord"] = { 52.2, 63.5, VALSHARAH },
 				}),
 				q(38582, {	-- To Old Friends
-					["provider"] = { "n", 92420 },	-- Ysera
 					["sourceQuests"] = { 38595 },	-- Malfurion's Fury
+					["provider"] = { "n", 92420 },	-- Ysera
 					["coord"] = { 60.7, 61.5, VALSHARAH },
 					["groups"] = {
 						i(129986),	-- Nightvale Footwraps
@@ -274,81 +274,81 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38753, {	-- The Demon's Trail
-					["provider"] = { "n", 92710 },	-- Ysera
 					["sourceQuests"] = { 38582 },	-- To Old Friends
+					["provider"] = { "n", 92710 },	-- Ysera
 					["coord"] = { 65.0, 61.1, VALSHARAH },
 				}),
 				------ Chapter 5 ------
 				q(41056, {	-- Love Lost (Alliance)
-					["provider"] = { "n", 102938 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 38753 },	-- The Demon's Trail
+					["provider"] = { "n", 102938 },	-- Tyrande Whisperwind
 					["coord"] = { 67.4, 56.1, VALSHARAH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(41708, {	-- Dark Side of the Moon (Alliance)
-					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 41056 },	-- Love Lost (Alliance)
+					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(41054, {	-- Love Lost (Horde)
-					["provider"] = { "n", 102938 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 38753 },	-- The Demon's Trail
+					["provider"] = { "n", 102938 },	-- Tyrande Whisperwind
 					["coord"] = { 67.4, 56.1, VALSHARAH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(41890, {	-- Dark Side of the Moon (Horde)
-					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 41054 },	-- Love Lost (Horde)
+					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(43576, {	-- Regroup at the Refuge
-					["provider"] = { "n", 104885 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 41708, 41890 },	-- Dark Side of the Moon (A, H)
+					["provider"] = { "n", 104885 },	-- Tyrande Whisperwind
 					["coord"] = { 66.8, 50.2, VALSHARAH },
 				}),
 				q(41724, {	-- Heart of the Nightmare (Alliance)
-					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 43576 },	-- Regroup at the Refuge
+					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["coord"] = { 69.4, 49.4, VALSHARAH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(38675, {	-- Heart of the Nightmare (Horde)
-					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 43576 },	-- Regroup at the Refuge
+					["provider"] = { "n", 103022 },	-- Tyrande Whisperwind
 					["coord"] = { 69.4, 49.4, VALSHARAH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(41893, {	-- Given to Corruption (Alliance)
-					["provider"] = { "n", 92783 },	-- Elothir
 					["sourceQuests"] = { 41724 },	-- Heart of the Nightmare (Alliance)
+					["provider"] = { "n", 92783 },	-- Elothir
 					["coord"] = { 66.1, 44.6, VALSHARAH },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(41749, {	-- Given to Corruption (Horde)
-					["provider"] = { "n", 92783 },	-- Elothir
 					["sourceQuests"] = { 38675 },	-- Heart of the Nightmare (Horde)
+					["provider"] = { "n", 92783 },	-- Elothir
 					["coord"] = { 66.1, 44.6, VALSHARAH },
 					["races"] = HORDE_ONLY,
 				}),
 				q(38684, {	-- Reading the Leaves
-					["provider"] = { "n", 92783 },	-- Elothir
 					["sourceQuests"] = { 41724, 38675 },	-- Heart of the Nightmare (A, H)
+					["provider"] = { "n", 92783 },	-- Elothir
 					["coord"] = { 66.1, 44.6, VALSHARAH },
 				}),
 				q(43702, {	-- Softening the Target
-					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["sourceQuests"] = {
 						41893,	-- Given to Corruption (Alliance)
 						41749,	-- Given to Corruption (Horde)
 						38684,	-- Reading the Leaves
 					},
+					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["coord"] = { 66.1, 44.8, VALSHARAH },
 				}),
 				q(38687, {	-- Close Enough to Touch (Alliance)
-					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 43702 },	-- Softening the Target
+					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["coord"] = { 63.2, 42.1, VALSHARAH },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -371,8 +371,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(41763, {	-- Close Enough to Touch (Horde)
-					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 43702 },	-- Softening the Target
+					["provider"] = { "n", 104728 },	-- Tyrande Whisperwind
 					["coord"] = { 63.2, 42.1, VALSHARAH },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -395,14 +395,14 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38743, {	-- The Fate of Val'sharah
-					["provider"] = { "n", 104799 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 38687, 41763 },	-- Close Enough to Touch (A, H)
+					["provider"] = { "n", 104799 },	-- Tyrande Whisperwind
 					["coord"] = { 57.8, 38.6, VALSHARAH },
 				}),
 				--
 				q(40567, {	-- Darkheart Thicket: Enter the Nightmare
-					["provider"] = { "n", 104921 },	-- Tyrande Whisperwind
 					["sourceQuests"] = { 38743 },	-- The Fate of Val'sharah
+					["provider"] = { "n", 104921 },	-- Tyrande Whisperwind
 					["coord"] = { 53.7, 55.8, VALSHARAH },
 					["groups"] = {
 						i(141551),	-- Boots of the Receding Nightmare
@@ -412,10 +412,10 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(40890, {	-- The Tears of Elune
-					["provider"] = { "o", 248534 },	-- The Tears of Elune
-					["sourceQuests"] = { 38743 },	-- The Fate of Val'Sharah
-					["coord"] = { 53.7, 55.8, VALSHARAH },
 					["icon"] = 237230,
+					["sourceQuests"] = { 38743 },	-- The Fate of Val'Sharah
+					["provider"] = { "o", 248534 },	-- The Tears of Elune
+					["coord"] = { 53.7, 55.8, VALSHARAH },
 					["groups"] = {
 						i(139043),	-- Tear of Elune (QI!)
 						i(130001),	-- Shaladrassil Cuirass
@@ -432,23 +432,23 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				q(39149),	-- A Village in Peril
 				q(38646, {	-- A Sight For Sore Eyes
-					["provider"] = { "n", 92618 },	-- Granny Marl
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
+					["provider"] = { "n", 92618 },	-- Granny Marl
 					["coord"] = { 38.9, 61.4, VALSHARAH },
 				}),
 				q(38645, {	-- Children of the Night
-					["provider"] = { "n", 92620 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
+					["provider"] = { "n", 92620 },	-- Commander Jarod Shadowsong
 					["coord"] = { 42.4, 58.9, VALSHARAH },
 				}),
 				q(38647, {	-- For the Corn!
-					["provider"] = { "n", 92618 },	-- Granny Marl
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
+					["provider"] = { "n", 92618 },	-- Granny Marl
 					["coord"] = { 38.9, 61.4, VALSHARAH },
 				}),
 				q(39117, {	-- Shriek No More
-					["provider"] = { "n", 94117 },	-- Cecily Radcliffe
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
+					["provider"] = { "n", 94117 },	-- Cecily Radcliffe
 					["coord"] = { 37.1, 58.4, VALSHARAH },
 					["groups"] = {
 						i(133812),	-- Recipe: Deep-Fried Mossgill [Rank 1] (RECIPE!)
@@ -457,8 +457,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38644, {	-- The Farmsteads
-					["provider"] = { "n", 92683 },	-- Emmeline
 					["sourceQuests"] = { 38643 },	-- A Village in Peril
+					["provider"] = { "n", 92683 },	-- Emmeline
 					["coord"] = { 42.2, 59.0, VALSHARAH },
 					["groups"] = {
 						i(121583),	-- Nightvale Handwraps
@@ -472,7 +472,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38691, {	-- Jarod's Mission
-					["provider"] = { "n", 92620 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = {
 						39117,	-- Shriek No More (definitely required)
 						-- "Shriek No More" was the last quest i turned in from the bradensbrook area, so i'm not sure what else is required.
@@ -482,16 +481,17 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						38647,	-- For the Corn!
 						38644,	-- The Farmsteads
 					},
+					["provider"] = { "n", 92620 },	-- Commander Jarod Shadowsong
 					["coord"] = { 42.5, 59.0, VALSHARAH },
 				}),
 				q(38718, {	-- Kur'talos Ravencrest
-					["provider"] = { "n", 92842 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38691 },	-- Jarod's Mission
+					["provider"] = { "n", 92842 },	-- Commander Jarod Shadowsong
 					["coord"] = { 40.8, 53.0, VALSHARAH },
 				}),
 				q(38714, {	-- Maiev's Trail
-					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38718 },	-- Kur'talos Ravencrest
+					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
 					["coord"] = { 40.7, 53.0, VALSHARAH },
 					["groups"] = {
 						i(129983),	-- Farseeker Drape
@@ -502,46 +502,46 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38715, {	-- The Rook's Guard
-					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38718 },	-- Kur'talos Ravencrest
+					["provider"] = { "n", 92850 },	-- Commander Jarod Shadowsong
 					["coord"] = { 40.7, 53.0, VALSHARAH },
 				}),
 				q(38717, {	-- Black Rook Prison
-					["provider"] = { "n", 92842 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = {
 						38714,	-- Maiev's Trail
 						38715,	-- The Rook's Guard
 					},
+					["provider"] = { "n", 92842 },	-- Commander Jarod Shadowsong
 					["coord"] = { 43.7, 50.2, VALSHARAH },
 					["groups"] = { i(127863) },	-- Prison Keys (QI!)
 				}),
 				q(38724, {	-- Brotherly Love
-					["provider"] = { "n", 92850 },		-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38717 },		-- Black Rook Prison
+					["provider"] = { "n", 92850 },		-- Commander Jarod Shadowsong
 					["coord"] = { 42.3, 81.7, 642 },	-- Darkpens
 					["classes"] = exclude(DEMONHUNTER, ALL_CLASSES),
 				}),
 				q(44457, {	-- Brotherly Love (Demon Hunter)
-					["provider"] = { "n", 92850 },		-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 38717 },		-- Black Rook Prison
+					["provider"] = { "n", 92850 },		-- Commander Jarod Shadowsong
 					["coord"] = { 42.3, 81.7, 642 },	-- Darkpens
 					["classes"] = { DEMONHUNTER },
 				}),
 				q(44278, {	-- Illidari Freedom
-					["provider"] = { "n", 93029 },	-- Arduen Soulblade
 					["sourceQuests"] = { 38717 },	-- Black Rook Prison
+					["provider"] = { "n", 93029 },	-- Arduen Soulblade
 					["coord"] = { 42.3, 81.7, 642 },	-- Darkpens
 					["classes"] = { DEMONHUNTER },
 				}),
 				q(38719, {	-- Illidari Freedom
-					["provider"] = { "n", 93029 },	-- Arduen Soulblade
 					["sourceQuests"] = { 38717 },	-- Black Rook Prison
+					["provider"] = { "n", 93029 },	-- Arduen Soulblade
 					["coord"] = { 42.3, 81.7, 642 },	-- Darkpens
 					["classes"] = exclude(DEMONHUNTER, ALL_CLASSES),
 				}),
 				q(38721, {	-- Lieutenant of the Tower
-					["provider"] = { "n", 93027 },	-- Maiev Shadowsong
 					["sourceQuests"] = { 38724 },	-- Brotherly Love
+					["provider"] = { "n", 93027 },	-- Maiev Shadowsong
 					["coord"] = { 24.5, 42.3, 642 },
 					["groups"] = {
 						i(200668, {	-- Ravencourt Field Sickle
@@ -574,16 +574,16 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			}),
 				-- KEK --
 				q(39354, {	-- Wisp in the Willows
-					["provider"] = { "n", 95202 },	-- Syndrelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 95202 },	-- Syndrelle
 					["coord"] = { 54.3, 68.3, VALSHARAH },
 					["groups"] = {
 						i(130127),	-- Syndrelle's Favorite Ring
 					},
 				}),
 				q(44825, {	-- Wisp in the Willows
-					["provider"] = { "n", 95202 },	-- Syndrelle
 					["sourceQuests"] = { 38384 },	-- Nature's Call
+					["provider"] = { "n", 95202 },	-- Syndrelle
 					["coord"] = { 54.3, 68.3, VALSHARAH },
 					["groups"] = {
 						i(130127),	-- Syndrelle's Favorite Ring
@@ -637,8 +637,8 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				}),
 				-- KEK 5
 				q(42750, {	-- Dreamcatcher
-					["provider"] = { "n", 108358 },	-- Leirana
 					["sourceQuests"] = { 42748 },	-- Emerald Sisters (must be on quest)
+					["provider"] = { "n", 108358 },	-- Leirana
 					["coord"] = { 59.4, 81.9, VALSHARAH },
 				}),
 				q(42748, {	-- Emerald Sisters
@@ -655,29 +655,29 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					-- Not sure if you have to be on Where the Wildkin Are and/or Emerald Sisters to pick up this quest.
 				}),
 				q(42751, {	-- Moon Reaver
-					["provider"] = { "n", 108304 },	-- Guviena Bladesong
 					["sourceQuests"] = {
 						42750,	-- Dreamcatcher
 						42748,	-- Emerald Sisters
 						42747,	-- Where the Wildkin Are
 					},
+					["provider"] = { "n", 108304 },	-- Guviena Bladesong
 					["coord"] = { 59.4, 84.2, VALSHARAH },
 				}),
 				-- Andutalah Side Quests --
 				q(38671, {	-- Lost in Retreat
-					["provider"] = { "n", 94863 },	-- Mender Onelle
 					["sourceQuests"] = { 41054 },	-- Love Lost
+					["provider"] = { "n", 94863 },	-- Mender Onelle
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 				}),
 				q(41707, {	-- Wormtalon Wreckage
-					["provider"] = { "n", 95117 },	-- Aldos Duskwing
 					["sourceQuests"] = { 41054 },	-- Love Lost
+					["provider"] = { "n", 95117 },	-- Aldos Duskwing
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 				}),
 
 				q(38889, {	-- Adopting the Adorable
-					["coord"] = { 53.0, 87.7, VALSHARAH },	-- cave entrance
 					["description"] = "You have to kill Jinikki the Puncturer to get this quest.",
+					["coord"] = { 53.0, 87.7, VALSHARAH },	-- cave entrance
 					["crs"] = { 93686 },	-- Jinikki the Puncturer
 					["groups"] = {
 						i(128690),	-- Ashmaw Cub (PET!)
@@ -686,7 +686,6 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 
 				-- APPEARANCE --
 				q(46079, {	-- Aid on the Front Lines
-					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["sourceQuests"] = {
 						47006,	-- Holy: The Bradensbrook Investigation, Paladin
 						46078,	-- Holy: The Bradensbrook Investigation, Priest
@@ -694,44 +693,45 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 						47004,	-- Restoration: The Bradensbrook Investigation, Druid
 						47003,	-- Restoration: The Bradensbrook Investigation, Shaman
 					},
+					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data
 				}),
 				q(46082, {	-- Shadowsong's Return
-					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["sourceQuests"] = { 46079 },	-- Aid on the Front Lines
+					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data
 				}),
 				q(46106, {	-- Cutting off the Heads
-					["provider"] = { "n", 118947 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
+					["provider"] = { "n", 118947 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data
 				}),
 				q(46080, {	-- Quieting the Spirits
-					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
+					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data
 				}),
 				q(46107, {	-- Source of the Corruption
-					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["sourceQuests"] = {
 						46106,	-- Cutting off the Heads
 						46080,	-- Quieting the Spirits
 					},
+					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data
 				}),
 				q(46200, {	-- The Matter Resolved... For Now...
-					["provider"] = { "n", 118954 },	-- Night Elf Warrior
 					["sourceQuests"] = { 46107 },	-- Source of the Corruption
+					["provider"] = { "n", 118954 },	-- Night Elf Warrior
 					["classes"] = { DRUID, MONK, PALADIN, PRIEST, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 					["_drop"] = { "classes" },	-- bad API data

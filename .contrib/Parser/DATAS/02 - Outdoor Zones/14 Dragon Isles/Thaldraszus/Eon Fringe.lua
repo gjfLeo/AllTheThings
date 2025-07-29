@@ -32,30 +32,30 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 
 				q(76350, {	-- The Chronosmith
-					["provider"] = { "n", 195773 },	-- Temporal Investigator Tempo
 					["sourceQuests"] = { 77437 },	-- Eon's Fringe
+					["provider"] = { "n", 195773 },	-- Temporal Investigator Tempo
 					["coord"] = { 54.7, 81.6, THALDRASZUS },
 				}),
 				q(75935, {	-- Time, Signature
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = { 77437 },	-- Eon's Fringe
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 54.9, 81.6, THALDRASZUS },
 				}),
 				q(76598, {	-- Rough Edges
-					["provider"] = { "n", 208052 },	-- Nozdormu
 					["sourceQuests"] = { 77437 },	-- Eon's Fringe
+					["provider"] = { "n", 208052 },	-- Nozdormu
 					["coord"] = { 54.7, 81.4, THALDRASZUS },
 				}),
 
 				--- `The Chronosmith` quest chain ---
 				q(76352, {	-- Chronohammer Time!
-					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["sourceQuests"] = { 76350 },	-- The Chronosmith
+					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["coord"] = { 52.5, 80.4, THALDRASZUS },
 				}),
 				q(76354, {	-- For the Hoard!
-					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["sourceQuests"] = { 76350 },	-- The Chronosmith
+					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["coord"] = { 52.5, 80.4, THALDRASZUS },
 					["groups"] = {
 						i(208469),	-- At-a-Stall Crystal (QI!)
@@ -72,16 +72,16 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}
 				}),
 				q(76355, {	-- If a Hammer Can Break a Lock...
-					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["sourceQuests"] = {
 						76352,	-- Chronohammer Time!
 						76354,	-- For the Hoard!
 					},
+					["provider"] = { "n", 205679 },	-- Ironus Coldsteel
 					["coord"] = { 52.5, 80.4, THALDRASZUS },
 				}),
 				q(76258, {	-- By Time Fire be Purged!
-					["provider"] = { "n", 208825 },	-- Ironus Coldsteel
 					["sourceQuests"] = { 76355 },	-- If a Hammer Can Break a Lock...
+					["provider"] = { "n", 208825 },	-- Ironus Coldsteel
 					["coord"] = { 52.2, 80.6, THALDRASZUS },
 					["groups"] = {
 						i(206763),	-- Kabluey (PET!)
@@ -89,8 +89,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}
 				}),
 				q(76356, {	-- Sword Stealing Searers
-					["provider"] = { "n", 208825 },	-- Ironus Coldsteel
 					["sourceQuests"] = { 76355 },	-- If a Hammer Can Break a Lock...
+					["provider"] = { "n", 208825 },	-- Ironus Coldsteel
 					["coord"] = { 52.2, 80.6, THALDRASZUS },
 					["groups"] = {
 						i(208100),	-- Seashellamayne the Shattered (QI!)
@@ -99,8 +99,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 
 				--- `Time, Signature` quests chain ---
 				q(77432, {	-- Pedgi the Parched
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = { 75935 },	-- Time, Signature
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 52.3, 81.8, THALDRASZUS },
 					["groups"] = {
 						i(206520),	-- Beverage for Pedgi (QI!)
@@ -110,8 +110,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(75949, {	-- Downbeat Data
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = { 77432 },	-- Pedgi the Parched
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 52.3, 81.8, THALDRASZUS },
 					["groups"] = {
 						i(208236),	-- Melly's Metronographer (QI!)
@@ -119,37 +119,37 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(75966, {	-- Compose Yourself
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = { 75949 },	-- Downbeat Data
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 52.3, 81.7, THALDRASZUS },
 				}),
 				q(74942, {	-- Grime Lies Where You're Killing Slimes
-					["provider"] = { "n", 204987 },	-- Pedgi
 					["sourceQuests"] = { 75966 },	-- Compose Yourself
+					["provider"] = { "n", 204987 },	-- Pedgi
 					["coord"] = { 53.8, 87.7, THALDRASZUS },
 					["groups"] = {
 						i(204263),	-- Time Grime (QI!)
 					},
 				}),
 				q(74476, {	-- Slime Dies When You're Having Fun
-					["provider"] = { "n", 204987 },	-- Pedgi
 					["sourceQuests"] = { 75966 },	-- Compose Yourself
+					["provider"] = { "n", 204987 },	-- Pedgi
 					["coord"] = { 53.8, 87.7, THALDRASZUS },
 				}),
 				q(76552, {	-- In Sync
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = {
 						74942,	-- Grime Lies Where You're Killing Slimes
 						74476,	-- Slime Dies When You're Having Fun
 					},
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 53.7, 87.7, THALDRASZUS },
 					["groups"] = {
 						i(208401),	-- Melly's Metronographer++ (QI!)
 					},
 				}),
 				q(75986, {	-- Feats Per Minute
-					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["sourceQuests"] = { 76552 },	-- In Sync
+					["provider"] = { "n", 204990 },	-- Melly Teletone
 					["coord"] = { 53.7, 87.7, THALDRASZUS },
 					["groups"] = {
 						i(206997),	-- Gilded Sunglasses (COSMETIC!)

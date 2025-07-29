@@ -219,8 +219,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							["coord"] = { 42.8, 50.4, UNDERMINE },
 						}),
 						q(86935, {	-- On-the-Job Training
-							["provider"] = { "n", 237659 },	-- Carlo Greasegrind
 							["sourceQuests"] = { 86934 },	-- Trash to Profit
+							["provider"] = { "n", 237659 },	-- Carlo Greasegrind
 							["coord"] = { 26.6, 37.2, UNDERMINE },
 						}),
 					}, {	-- RENOWN 4 --

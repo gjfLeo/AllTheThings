@@ -31,8 +31,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			}),
 			n(QUESTS, {
 				q(13159, {	-- Containment
-					["qg"] = 31080,	-- Warden Alturas
 					["sourceQuest"] = 13158,	-- Discretion is Key
+					["qg"] = 31080,	-- Warden Alturas
 					["coord"] = { 61.2, 63.2, NORTHREND_DALARAN },
 					["timeline"] = { REMOVED_4_3_0 },
 					["lvl"] = lvlsquish(75, 75, 15),
@@ -52,8 +52,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 				q(29830, {	-- Containment
-					["qg"] = 30658,	-- Lieutenant Sinclari
 					["sourceQuest"] = 29829,	-- Discretion is Key
+					["qg"] = 30658,	-- Lieutenant Sinclari
 					["timeline"] = { ADDED_4_3_0 },
 					["lvl"] = lvlsquish(75, 75, 15),
 					["groups"] = {

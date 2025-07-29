@@ -19,10 +19,10 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(46804, {	-- Fashion History and a Philosophy of Style
-					["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
-					["sourceQuest"] = 46774,	-- The Nether Disruptor
-					["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 					["description"] = "Available for Blacksmithing, Leatherworking, and Tailoring Professions.\n\nYou must turn in the Commendation before this quest becomes available.",
+					["sourceQuest"] = 46774,	-- The Nether Disruptor
+					["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
+					["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 					["cost"] = {
 						{ "i", 147451, 1 },	-- Armorcrafter's Commendation
 					},

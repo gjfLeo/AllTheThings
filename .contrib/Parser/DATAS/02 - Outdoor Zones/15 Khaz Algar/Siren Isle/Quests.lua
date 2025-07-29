@@ -82,23 +82,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				}),
 			}),
 			q(84719, {	-- The Expedition Awaits
-				["provider"] = { "n", 232132 },	-- Dawn
 				--["sourceQuests"] = { ??? },	-- TODO: unknown
+				["provider"] = { "n", 232132 },	-- Dawn
 				["coord"] = { 41.8, 26.1, DORNOGAL },
 			}),
 			q(84720, {	-- To the Siren Isle!
-				["provider"] = { "n", 230235 },	-- Skaggit
 				["sourceQuests"] = { 84719 },	-- The Expedition Awaits
+				["provider"] = { "n", 230235 },	-- Skaggit
 				["coord"] = { 73.3, 6.2, DORNOGAL },
 			}),
 			q(84940, {	-- Friendly Competition
-				["provider"] = { "n", 230238 },	-- Skaggit
 				["sourceQuests"] = { 84720 },	-- To the Siren Isle!
+				["provider"] = { "n", 230238 },	-- Skaggit
 				["coord"] = { 69.3, 48.1, SIREN_ISLE },
 			}),
 			q(84721, {	-- To Scan a Crystal
-				["provider"] = { "n", 230242 },	-- Bargus
 				["sourceQuests"] = { 84940 },	-- Friendly Competition
+				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 41.9, SIREN_ISLE },
 				["groups"] = {
 					i(230851),	-- Ornate Arathi Box (QI!)
@@ -114,29 +114,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(84722, {	-- Facet-nating Signals
-				["provider"] = { "n", 230242 },	-- Bargus
 				["sourceQuests"] = { 84721 },	-- To Scan a Crystal
+				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.4, 41.9, SIREN_ISLE },
 			}),
 			q(84727, {	-- The Second Signal
-				["provider"] = { "n", 231140 },	-- Bargus
 				["sourceQuests"] = { 84722 },	-- Facet-nating Signals
+				["provider"] = { "n", 231140 },	-- Bargus
 				["coord"] = { 48.1, 44.0, SIREN_ISLE },
 			}),
 			q(84941, {	-- Cave Barging
-				["provider"] = { "n", 233501 },	-- Bargus
 				["sourceQuests"] = { 84727 },	-- The Second Signal
+				["provider"] = { "n", 233501 },	-- Bargus
 				["coord"] = { 43.5, 28.5, SIREN_ISLE },
 			}),
 			q(84723, {	-- Buried Secrets
-				["provider"] = { "n", 230271 },	-- Bargus
 				["sourceQuests"] = { 84941 },	-- Cave Barging
+				["provider"] = { "n", 230271 },	-- Bargus
 				["coord"] = { 48.8, 18.4, SIREN_ISLE },
 				["maps"] = { 2375 },	-- The Forgotten Vault (TODO: possibly gonna make it into separate map or just sub-map?)
 			}),
 			q(84724, {	-- The Radiant Vault
-				["provider"] = { "n", 231143 },	-- Bargus
 				["sourceQuests"] = { 84723 },	-- Buried Secrets
+				["provider"] = { "n", 231143 },	-- Bargus
 				["coord"] = { 40.1, 70.7, 2375 },	-- The Forgotten Vault
 				["groups"] = {
 					i(229002),	-- Cracked Citrine (QI!)
@@ -145,22 +145,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(84728, {	-- Reforged Anew
-				["provider"] = { "n", 228074 },	-- Angorla
 				["sourceQuests"] = { 84724 },	-- The Radiant Vault
+				["provider"] = { "n", 228074 },	-- Angorla
 				["coord"] = { 71.0, 44.1, SIREN_ISLE },
 				["groups"] = {
 					i(228640),	-- Windsinger's Runed Citrine
 				},
 			}),
 			q(84725, {	-- The Circlet Calls
-				["provider"] = { "n", 228074 },	-- Angorla
 				["sourceQuests"] = { 84728 },	-- Reforged Anew
+				["provider"] = { "n", 228074 },	-- Angorla
 				["coord"] = { 71.0, 44.1, SIREN_ISLE },
 				-- TODO: This quest unlock WQs / daily stuff / bonus objectives but it is not account wide in 57361 build
 			}),
 			q(84726, {	-- Uncovered Mysteries
-				["provider"] = { "n", 228074 },	-- Angorla
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
+				["provider"] = { "n", 228074 },	-- Angorla
 				["coord"] = { 71.0, 44.1, SIREN_ISLE },
 				["groups"] = {
 					o(499620, {	-- Runed Storm Cache
@@ -181,8 +181,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(84730, {	-- An Armored Charge
-				["provider"] = { "n", 230242 },	-- Bargus
 				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
+				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 42.0, SIREN_ISLE },
 				["races"] = { DARKIRON, DWARF, EARTHEN_ALLIANCE, EARTHEN_HORDE },
 				--TODO: I am not sure with this source quest because I used the alt skip
@@ -192,8 +192,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(86496, {	-- An Ordered Design
-				["provider"] = { "n", 230242 },	-- Bargus
 				["sourceQuests"] = { 84730 },	-- An Armored Charge
+				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 42.0, SIREN_ISLE },
 				["races"] = { DARKIRON, DWARF, EARTHEN_ALLIANCE, EARTHEN_HORDE },
 				["groups"] = {
@@ -202,14 +202,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85876, {	-- Reading the Runes
-				["provider"] = { "n", 230242 },	-- Bargus
 				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
+				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 42.0, SIREN_ISLE },
 				--TODO: I'm still not sure what exactly trigger it. It could be first filled bar for special assigment?
 			}),
 			q(85653, {	-- Dipping a Toe
-				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
+				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.3, 42.9, SIREN_ISLE },
 				["groups"] = {
 					o(500688, {	-- Seafarer's Cache
@@ -230,8 +230,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85654, {	-- Juicing Up And Storming Out
-				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["sourceQuests"] = { 85653 },	-- Dipping a Toe
+				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["coord"] = { 71.3, 45.9, SIREN_ISLE },
 				["groups"] = {
 					--spell(470167),	-- Superjuiced
@@ -240,8 +240,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85655, {	-- Unleashing Her Power
-				["provider"] = { "n", 228074 },	-- Angorla
 				["sourceQuests"] = { 85654 },	-- Juicing Up And Storming Out
+				["provider"] = { "n", 228074 },	-- Angorla
 				["coord"] = { 71.2, 44.0, SIREN_ISLE },
 				["groups"] = {
 					--spell(470168),	-- Cyrce's Zephyr
@@ -250,8 +250,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85656, {	-- The Singing Bandit Catcher
-				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["sourceQuests"] = { 85655 },	-- Unleashing Her Power
+				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.1, 42.9, SIREN_ISLE },
 				["groups"] = {
 					i(232860),	-- Singing Fragments (QI!)
@@ -263,8 +263,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85657, {	-- Cyrce Would Be So Proud
-				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["sourceQuests"] = { 85656 },	-- The Singing Bandit Catcher
+				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["coord"] = { 71.2, 45.8, SIREN_ISLE },
 				["groups"] = {
 					--spell(470170),	-- Wings of the Siren
@@ -273,8 +273,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			--
 			q(84252, {	-- Peak Precision
-				["provider"] = { "n", 232255 },	-- Benny Springjet
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
+				["provider"] = { "n", 232255 },	-- Benny Springjet
 				["coord"] = { 42.3, 49.1, SIREN_ISLE },
 				-- TODO: it look like SHOULD BE same as all weekly quests but it is not marked as such in-game
 				["groups"] = {
@@ -283,37 +283,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			-- Teaching to use donation system
 			q(85059, {	-- A Piece of the Action
-				["provider"] = { "n", 227817 },	-- Jack the Hammer
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
+				["provider"] = { "n", 227817 },	-- Jack the Hammer
 				["coord"] = { 69.3, 43.7, SIREN_ISLE },
 			}),
 			q(86156, {	-- Getting Involved
-				["provider"] = { "n", 227817 },	-- Jack the Hammer
 				["sourceQuests"] = { 85059 },	-- A Piece of the Action
+				["provider"] = { "n", 227817 },	-- Jack the Hammer
 				["coord"] = { 69.3, 43.7, SIREN_ISLE },
 			}),
 			-- Random open world object with quest?
 			q(84547, {	-- Redemption Guaranteed
-				["provider"] = { "i", 228665 },	-- Empty Kaja'Cola
 				--["sourceQuests"] = { 85059 },	-- A Piece of the Action (TODO: ???)
+				["provider"] = { "i", 228665 },	-- Empty Kaja'Cola
 				["coord"] = { 69.3, 43.7, SIREN_ISLE },
 			}),
 			q(85716, {	-- Rune-Seared Spear
-				["provider"] = { "i", 232439 },	-- Rune-Seared Spear
 				--["sourceQuests"] = { 85059 },	-- A Piece of the Action (TODO: ???)
+				["provider"] = { "i", 232439 },	-- Rune-Seared Spear
 				["coord"] = { 57.9, 78.5, SIREN_ISLE },
 			}),
 			q(85570, {	-- The Tattered Journal
-				["provider"] = { "o", 494923 },	-- Tattered Journal
 				--["sourceQuests"] = { ??? },	-- ???
+				["provider"] = { "o", 494923 },	-- Tattered Journal
 				["coord"] = { 37.1, 77.2, 2375 },	-- The Forgotten Vault
 				["groups"] = {
 					i(232643),	-- Mysterious Tattered Journal (QI!)
 				},
 			}),
 			q(85571, {	-- Scattered To The Winds
-				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["sourceQuests"] = { 85570 },	-- The Tattered Journal
+				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 				["groups"] = {
 					i(235543),	-- Faded Journal Page (QI!)
@@ -328,13 +328,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(85572, {	-- A Group Effort
-				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["sourceQuests"] = { 85571 },	-- Scattered To The Winds
+				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 			}),
 			q(85573, {	-- Laid To Rest At Last
-				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["sourceQuests"] = { 85572 },	-- A Group Effort
+				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 				["groups"] = {
 					o(499466, {	-- Tattered Kul Tiran Journal
@@ -345,32 +345,32 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			-- Snapdragon
 			q(86482, {	-- A Lifeline
-				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
 				["sourceQuests"] = { 84726  },	-- Uncovered Mysteries
+				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["groups"] = {
 					i(234426),	-- Kaja'Cola-Braised Meat (QI!)
 				},
 			}),
 			q(86483, {	-- Snap To It
-				["provider"] = { "n", 235237 },	-- Growing Snapdragon Runt
 				["sourceQuests"] = { 86482 },	-- A Lifeline
+				["provider"] = { "n", 235237 },	-- Growing Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["groups"] = {
 					i(234443),	-- Meaty Ration (QI!)
 				},
 			}),
 			q(86484, {	-- Temper Like A Tempest
-				["provider"] = { "n", 235243 },	-- Maturing Prismatic Snapdragon
 				["sourceQuests"] = { 86483 },	-- Snap To It
+				["provider"] = { "n", 235243 },	-- Maturing Prismatic Snapdragon
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["groups"] = {
 					i(234592),	-- Storminfused Mystery Meat (QI!)
 				},
 			}),
 			q(86485, {	-- A Loyal Friend
-				["provider"] = { "n", 235250 },	-- Mature Prismatic Snapdragon
 				["sourceQuests"] = { 86484 },	-- Temper Like A Tempest
+				["provider"] = { "n", 235250 },	-- Mature Prismatic Snapdragon
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				-- dialogs do nothing and didn't trigger additional hqts on ptr
 				["groups"] = {
@@ -379,12 +379,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(86486, {	-- Hungry, Hungry Snapdragon
+				["sourceQuests"] = { 86482 },	-- A Lifeline
 				["qgs"] = {
 					235237,	-- Growing Snapdragon Runt
 					235250,	-- Mature Prismatic Snapdragon
 					235243,	-- Maturing Prismatic Snapdragon
 				},
-				["sourceQuests"] = { 86482 },	-- A Lifeline
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["isDaily"] = true,
 				-- available after 24hrs (not on next day!) of turn in previous quest
@@ -395,10 +395,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			-- Marmaduke (move to special?)
 			q(86261, {	-- Homeward Bound to Safer Shores
-				["provider"] = { "n", 234357 },	-- Marmaduke
-				["sourceQuests"] = { 86240 },	-- HQT: give toy to Marmaduke
-				["coord"] = { 68.3, 44.9, SIREN_ISLE },
 				["description"] = "You need to give Marmaduke the well loved squeky toy before to trigger this quest",
+				["sourceQuests"] = { 86240 },	-- HQT: give toy to Marmaduke
+				["provider"] = { "n", 234357 },	-- Marmaduke
+				["coord"] = { 68.3, 44.9, SIREN_ISLE },
 				["groups"] = {
 					i(233056),	-- Marmaduke (PET!)
 				},

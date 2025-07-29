@@ -24,8 +24,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(40378, {	-- Enter the Illidar: Ashtongue
-						["provider"] = { "n", 98229 },	-- Kayn Sunfury
 						["sourceQuests"] = { 40077 },	-- Treads of Illidari Supremacy
+						["provider"] = { "n", 98229 },	-- Kayn Sunfury
 						["coord"] = { 28.5, 63.0, 672 },
 						["groups"] = {
 							mount(200175, {	-- Felsaber (MOUNT!)
@@ -34,18 +34,18 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(39279, {	-- Assault on Mardum
-						["sourceQuests"] = { 40077 },	-- Treads of Illidari Supremacy
 						["description"] = "This is a bonus objective.",
+						["sourceQuests"] = { 40077 },	-- Treads of Illidari Supremacy
 						["collectible"] = false, -- TODO: check this
 					}),
 					q(40379, {	-- Enter the Illidari: Coilskar
-						["provider"] = { "n", 100982 },	-- Sevis Brightflame
 						["sourceQuests"] = { 40378 },	-- Enter the Illidar: Ashtongue
+						["provider"] = { "n", 100982 },	-- Sevis Brightflame
 						["coord"] = { 33.9, 69.9, 672 },
 					}),
 					q(39049, {	-- Eye On the Prize
-						["provider"] = { "n", 94410 },	-- Allari the Souleater
 						["sourceQuests"] = { 40378 },	-- Enter the Illidar: Ashtongue
+						["provider"] = { "n", 94410 },	-- Allari the Souleater
 						["coord"] = { 33.9, 70.0, 672 },
 						["groups"] = {
 							i(201989, {	-- Twisted Heart
@@ -54,8 +54,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38759, {	-- Set Them Free
-						["provider"] = { "n", 94410 },	-- Allari the Souleater
 						["sourceQuests"] = { 40378 },	-- Enter the Illidar: Ashtongue
+						["provider"] = { "n", 94410 },	-- Allari the Souleater
 						["coord"] = { 33.9, 70.0, 672 },
 						["groups"] = {
 							i(128952),	-- Torment Ender's Chestguard
@@ -63,17 +63,17 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(39050, {	-- Meeting With the Queen
-						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["sourceQuests"] = {
 							40379,	-- Enter the Illidari: Coilskar
 							39049,	-- Eye on the Prize
 							38759,	-- Set Them Free
 						},
+						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["coord"] = { 38.8, 60.6, 672 },
 					}),
 					q(38766, {	-- Before We're Overrun
-						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["sourceQuests"] = { 39050 },	-- Meeting With the Queen
+						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["coord"] = { 38.8, 60.6, 672 },
 						["groups"] = {
 							i(201989, {	-- Twisted Heart
@@ -82,8 +82,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38765, {	-- Enter the Illidari: Shivarra
-						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["sourceQuests"] = { 39050 },	-- Meeting With the Queen
+						["provider"] = { "n", 93759 },	-- Jace Darkweaver
 						["coord"] = { 38.8, 60.6, 672 },
 						["groups"] = {
 							i(128951),	-- Leggings of Sacrifice
@@ -91,21 +91,21 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38813, {	-- Orders for Your Captains
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = {
 							38766,	-- Before We're Overrun
 							38765,	-- Enter the Illidari: Shivarra
 						},
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(39262, {	-- Give Me Sight Beyond Sight
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = { 38813 },	-- Orders For Your Captains
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(39495, {	-- Hidden No More
-						["provider"] = { "n", 96436 },	-- Jace Darkweaver
 						["sourceQuests"] = { 39262 },	-- Give Me Sight Beyond Sight
+						["provider"] = { "n", 96436 },	-- Jace Darkweaver
 						["coord"] = { 64.0, 52.2, 672 },
 						["groups"] = {
 							i(201989, {	-- Twisted Heart
@@ -114,8 +114,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38819, {	-- Their Numbers Are Legion
-						["provider"] = { "n", 96420 },	-- Cyana Nightglaive
 						["sourceQuests"] = { 39495 },	-- Hidden No More
+						["provider"] = { "n", 96420 },	-- Cyana Nightglaive
 						["coord"] = { 60.5, 44.8, 672 },
 						["groups"] = {
 							i(128950),	-- Demon-Rend Shoulderblades
@@ -123,22 +123,22 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38727, {	-- Stop the Bombardment
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = { 39495 },	-- Hidden No More
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(38725, {	-- Into the Foul Creche
-						["provider"] = { "n", 96655 },	-- Allari the Souleater
 						["sourceQuests"] = { 39495 },	-- Hidden No More
+						["provider"] = { "n", 96655 },	-- Allari the Souleater
 						["coord"] = { 60.5, 44.6, 672 },
 						["isBreadcrumb"] = true,
 					}),
 					q(40222, {	-- The Imp Mother's Tome
-						["provider"] = { "n", 98711 },	-- Kor'vas Bloodthorn
 						["sourceQuests"] = {
 							39495,	-- Hidden No More
 							38725,	-- Into the Foul Creche
 						},
+						["provider"] = { "n", 98711 },	-- Kor'vas Bloodthorn
 						["coord"] = { 73.1, 33.8, 672 },
 						["groups"] = {
 							i(128954),	-- Power Handler's Gloves
@@ -146,31 +146,31 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(40051, {	-- Fel Secrets
-						["provider"] = { "n", 99045 },	-- Kor'vas Bloodthorn
 						["sourceQuests"] = { 40222 },	-- The Imp Mother's Tome
+						["provider"] = { "n", 99045 },	-- Kor'vas Bloodthorn
 						["coord"] = { 60.5, 44.8, 672 },
 					}),
 					q(39515, {	-- Vengeance Will Be Mine! [Only if you choose Vengeance Spec]
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = { 40051 },	-- Fel Secrets
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(39516, {	-- Cry Havoc and Let Slip the Illidari! [Only if you choose Havoc Spec]
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = { 40051 },	-- Fel Secrets
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(39663, {	-- On Felbat Wings
-						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["sourceQuests"] = {
 							39516,	-- Cry Havoc and Let Slip the Illidari!
 							39515,	-- Vengeance Will Be Mine!
 						},
+						["provider"] = { "n", 93127 },	-- Kayn Sunfury
 						["coord"] = { 60.5, 44.7, 672 },
 					}),
 					q(38728, {	-- The Keystone
-						["provider"] = { "n", 97297 },	-- Cyana Nightglaive
 						["sourceQuests"] = { 39663 },	-- On Felbat Wings
+						["provider"] = { "n", 97297 },	-- Cyana Nightglaive
 						["coord"] = { 69.9, 44.2, 672 },
 						["groups"] = {
 							i(128955),	-- The Brood Queen's Veil
@@ -178,8 +178,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38729, {	-- Return to the Black Temple
-						["provider"] = { "n", 97303 },	-- Kayn Sunfury
 						["sourceQuests"] = { 38728 },	-- The Keystone
+						["provider"] = { "n", 97303 },	-- Kayn Sunfury
 						["coord"] = { 69.8, 37.9, 672 },
 						["groups"] = {
 							i(132243),	-- Fel-Etched Glaive
@@ -327,53 +327,53 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						n(QUESTS, {
 							q(38672, {	-- Breaking Out
-								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
-								["sourceQuests"] = { 38729 },	-- Return to the Black Temple
-								["coord"] = { 80.1, 36.6, 677 },
 								["description"] = "Maiev upgrades your uncommon Illidari Glaives to these two glaives.",
+								["sourceQuests"] = { 38729 },	-- Return to the Black Temple
+								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
+								["coord"] = { 80.1, 36.6, 677 },
 								["groups"] = {
 									i(132243),	-- Fel-Etched Glaive
 									i(128956),	-- Fel-Etched Glaive
 								},
 							}),
 							q(39742, {	-- Vault of the Wardens
-								["sourceQuests"] = { 38672 },	-- Breaking Out
 								["description"] = "This is a bonus objective.",
+								["sourceQuests"] = { 38672 },	-- Breaking Out
 							}),
 							q(38689, {	-- Fel Infusion
-								["provider"] = { "n", 92986 },	-- Altruis the Sufferer
 								["sourceQuests"] = { 38672 },	-- Breaking Out
+								["provider"] = { "n", 92986 },	-- Altruis the Sufferer
 								["coord"] = { 74.4, 37.1, 677 },
 							}),
 							q(38690, {	-- Rise of the Illidari
-								["provider"] = { "n", 92980 },	-- Kayn Sunfury
 								["sourceQuests"] = { 38672 },	-- Breaking Out
+								["provider"] = { "n", 92980 },	-- Kayn Sunfury
 								["coord"] = { 74.4, 35.9, 677 },
 							}),
 							q(38723, {	-- Stop Gul'dan! [Havoc Version]
-								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
 								["sourceQuests"] = {
 									38689,	-- Fel Infusion
 									38690,	-- Rise of the Illidari
 								},
+								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
 								["coord"] = { 49.4, 49.7, 677 },
 							}),
 							q(40253, {	-- Stop Gul'dan! [Vengeance Version]
-								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
 								["sourceQuests"] = {
 									38689,	-- Fel Infusion
 									38690,	-- Rise of the Illidari
 								},
+								["provider"] = { "n", 92718 },	-- Maiev Shadowsong
 								["coord"] = { 49.4, 49.7, 677 },
 							}),
 							q(39682, {	-- Grand Theft Felbat
-								["provider"] = { "n", 96665 },	-- Kayn Sunfury
 								["sourceQuests"] = { 38723, 40253 },	-- Stop Gul'dan!
+								["provider"] = { "n", 96665 },	-- Kayn Sunfury
 								["coord"] = { 50.8, 72.8, 677 },
 							}),
 							q(39683, {	-- Forged in Fire [Havoc Only]
-								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["sourceQuests"] = { 39682 },	-- Grand Theft Felbat
+								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["coord"] = { 41.0, 47.1, 678 },
 								["groups"] = {
 									i(201989, {	-- Twisted Heart
@@ -382,8 +382,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(40254, {	-- Forged in Fire [Vengeance Only]
-								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["sourceQuests"] = { 39682 },	-- Grand Theft Felbat
+								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["coord"] = { 41.0, 47.1, 678 },
 								["groups"] = {
 									i(201989, {	-- Twisted Heart
@@ -392,13 +392,13 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(39684, {	-- Beam Me Up
-								["provider"] = { "n", 97643 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 39682 },	-- Grand Theft Felbat
+								["provider"] = { "n", 97643 },	-- Kor'vas Bloodthorn
 								["coord"] = { 41.3, 47.3, 678 },
 							}),
 							q(39685, {	-- Frozen in Time
-								["provider"] = { "n", 97643 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 39682 },	-- Grand Theft Felbat
+								["provider"] = { "n", 97643 },	-- Kor'vas Bloodthorn
 								["coord"] = { 41.3, 47.3, 678 },
 								["groups"] = {
 									i(128949),	-- Infernal Firecord Sash
@@ -406,18 +406,18 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(39686, {	-- All The Way Up
-								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["sourceQuests"] = {
 									39683,	-- Forged in Fire (Havoc)
 									40254,	-- Forged in Fire (Vengeance)
 									39684,	-- Beam Me Up
 									39685,	-- Frozen in Time
 								},
+								["provider"] = { "n", 96675 },	-- Allari the Souleater
 								["coord"] = { 41.1, 47.1, 678 },
 							}),
 							q(40373, {	-- A New Direction
-								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 39686 },	-- All The Way Up
+								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["coord"] = { 24.4, 55.7, 679 },
 								["groups"] = {
 									i(138970),	-- Helm of Reaffirmed Purpose
@@ -425,8 +425,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(39688, {	-- Between Us and Freedom / Nightelf [Havoc]
-								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 40373 },	-- A New Direction
+								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								--["coord"] = { 24.4, 55.7, 679 },	-- Vault of the Wardens
 								["races"] = { NIGHTELF },
 								["groups"] = {
@@ -436,8 +436,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(40255, {	-- Between Us and Freedom / Night Elf [Vengeance]
-								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 40373 },	-- A New Direction
+								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								--["coord"] = { 24.4, 55.7, 679 },	-- Vault of the Wardens
 								["races"] = { NIGHTELF },
 								["groups"] = {
@@ -447,8 +447,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(39694, {	-- Between Us and Freedom / Blood Elf [Havoc]
-								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 40373 },	-- A New Direction
+								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["coord"] = { 24.5, 56.2, 679 },	-- Vault of the Wardens
 								["races"] = { BLOODELF },
 								["groups"] = {
@@ -458,8 +458,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(40256, {	-- Between Us and Freedom / Blood Elf [Vengeance]
-								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["sourceQuests"] = { 40373 },	-- A New Direction
+								["provider"] = { "n", 97644 },	-- Kor'vas Bloodthorn
 								["coord"] = { 24.5, 56.2, 679 },	-- Vault of the Wardens
 								["races"] = { BLOODELF },
 								["groups"] = {
@@ -469,13 +469,13 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(39690, {	-- Illidari, We Are Leaving / Horde
-								["provider"] = { "n", 97978 },	-- Archmage Khadgar
 								["sourceQuests"] = { 39694, 40256 },	-- Between Us and Freedom
+								["provider"] = { "n", 97978 },	-- Archmage Khadgar
 								["races"] = { BLOODELF },
 							}),
 							q(39689, {	-- Illidari, We Are Leaving / Alliance
-								["provider"] = { "n", 97978 },	-- Archmage Khadgar
 								["sourceQuests"] = { 39688, 40255 },	-- Between Us and Freedom
+								["provider"] = { "n", 97978 },	-- Archmage Khadgar
 								["races"] = { NIGHTELF },
 							}),
 						}),

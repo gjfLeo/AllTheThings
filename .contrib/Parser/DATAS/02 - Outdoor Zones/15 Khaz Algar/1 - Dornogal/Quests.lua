@@ -10,8 +10,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 49.8, 54.3, DORNOGAL },
 			}),
 			q(82651, {	-- Omens Unified
-				["provider"] = { "n", 223533 },	-- Custodian Khubon
 				--["sourceQuests"] = { 82296 },	-- The Power of Creation //not required?
+				["provider"] = { "n", 223533 },	-- Custodian Khubon
 				["coord"] = { 49.8, 54.1, DORNOGAL },
 				["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 				["groups"] = {
@@ -27,8 +27,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(90660, {	-- A Golden Circumstance
-				["provider"] = { "n", 223533 },	-- Custodian Khubon
 				["sourceQuest"] = 86369,	-- A Sparkling Fortune
+				["provider"] = { "n", 223533 },	-- Custodian Khubon
 				["coord"] = { 49.8, 54.1, DORNOGAL },
 				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 				["groups"] = {
@@ -38,14 +38,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			------ Crests ------
 			--- TODO: sort out in next push
 			q(86363, {	-- The Better Part of Valorstones
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				--["sourceQuests"] = { XX },	-- ??
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
 			}),
 			q(86364, {	-- Crests from the Ether
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 86363 },	-- The Better Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
 				["groups"] = {
@@ -53,8 +53,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(86365, {	-- Crest Transmutation
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 86363 },	-- The Better Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
 				["groups"] = {
@@ -63,8 +63,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			------ Miscellaneous ------
 			q(86401, {	-- Crests Transmutation
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 86399 },	-- Don't Undermine the Crests
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 				["groups"] = {
@@ -78,8 +78,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["isBreadcrumb"] = true,	-- but need to confirm
 			}),
 			q(86399, {	-- Don't Undermine the Crests
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 86396 },	-- The Best Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 				["groups"] = {
@@ -121,15 +121,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(82050, {	-- The Harbinger of Crests
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 82042 },	-- The Better Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { REMOVED_11_1_0 },
 				["groups"] = { i(221269) },	-- Crimson Valorstone
 			}),
 			q(82059, {	-- Transmutation Station
-				["provider"] = { "n", 219226 },	-- Vaskarn
 				["sourceQuests"] = { 82050 },	-- The Harbinger of Crests
+				["provider"] = { "n", 219226 },	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["timeline"] = { REMOVED_11_1_0 },
 				["groups"] = { i(221269) },	-- Crimson Valorstone
@@ -155,42 +155,42 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["lockCriteria"] = { 1, "questID", 79197 },	-- Surface Bound (final quest of pre-lvl 80 Campaign / Acct story unlock)
 		},{
 			q(84367, {	-- A Time to Come Together
-				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				--["sourceQuests"] = {  },	-- Auto-accepted after reaching 80 on an alt who has not done the leveling campaign?
 				-- breadcrumb to the lvl 80 campaign, test if locked when skipped
+				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				["coord"] = { 47.4, 44.4, DORNOGAL },
 			}),
 			q(84365, {	-- Something on the Horizon
-				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				--["sourceQuests"] = { 83621 },	-- HQT (I'm not sure if there any other way to get it)
+				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				["coord"] = { 47.4, 44.4, DORNOGAL },
 			}),
 			q(83543, {	-- Adventuring in Khaz Algar
-				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				--["sourceQuests"] = { 83621 },	-- HQT (I'm not sure if there any other way to get it)
+				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				["coord"] = { 47.4, 44.4, DORNOGAL },
 			}),
 			q(83552, {	-- Azj-Kahet
-				["provider"] = { "n", 227038 },	-- Scouting Map
 				--["sourceQuests"] = { 83621 },
+				["provider"] = { "n", 227038 },	-- Scouting Map
 				["coord"] = { 48.2, 43.7, DORNOGAL },
 				--["isBreadcrumb"] = true,	-- ?
 			}),
 			q(83551, {	-- Hallowfall
-				["provider"] = { "n", 227038 },	-- Scouting Map
 				--["sourceQuests"] = { 83621 },
+				["provider"] = { "n", 227038 },	-- Scouting Map
 				["coord"] = { 48.2, 43.7, DORNOGAL },
 				--["isBreadcrumb"] = true,	-- ?
 			}),
 			q(83548, {	-- Isle of Dorn
-				["provider"] = { "n", 227038 },	-- Scouting Map
 				--["sourceQuests"] = { 83621 },
+				["provider"] = { "n", 227038 },	-- Scouting Map
 				["coord"] = { 48.2, 43.7, DORNOGAL },
 				--["isBreadcrumb"] = true,	-- ?
 			}),
 			q(83550, {	-- The Ringing Deeps
-				["provider"] = { "n", 227038 },	-- Scouting Map
 				--["sourceQuests"] = { 83621 },
+				["provider"] = { "n", 227038 },	-- Scouting Map
 				["coord"] = { 48.2, 43.7, DORNOGAL },
 				--["isBreadcrumb"] = true,	-- ?
 			}),
@@ -245,8 +245,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(82679, {	-- Archives: Seeking History
-				["provider"] = { "n", 226511 },	-- High Speaker Brinthe
 				--["sourceQuests"] = { 82678 },	-- Archives: The First Disk (TODO: or just rng weekly?)
+				["provider"] = { "n", 226511 },	-- High Speaker Brinthe
 				["coord"] = { 46.3, 49.3, DORNOGAL },
 				["maps"] = { VAULT_OF_MEMORY },
 				["groups"] = {

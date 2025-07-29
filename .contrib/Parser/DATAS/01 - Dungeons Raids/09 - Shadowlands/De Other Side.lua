@@ -18,8 +18,8 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					["isBreadcrumb"] = true,
 				}),
 				q(62456,{	-- De Other Side: Dealin' Wit' Da Boss
-					["provider"] = { "n", 174327 },	-- Mask of Bwonsamdi
 					["sourceQuests"] = { 62458 },	-- De Other Side
+					["provider"] = { "n", 174327 },	-- Mask of Bwonsamdi
 					["_drop"] = { "g" },	-- Anima Trash
 				}),
 			}),

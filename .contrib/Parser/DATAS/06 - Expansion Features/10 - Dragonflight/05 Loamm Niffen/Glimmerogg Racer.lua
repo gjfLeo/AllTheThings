@@ -24,11 +24,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			}),
 			n(QUESTS, {
 				q(74787, {	-- Come Snail Away
-					["provider"] = { "n", 201752 },	-- Briggul
 					["sourceQuests"] = {
 						73709,	-- Favor on the Side
 						73708,	-- Pay to Play
 					},
+					["provider"] = { "n", 201752 },	-- Briggul
 					["coord"] = { 44.2, 80.0, ZARALEK_CAVERN },
 					["groups"] = {
 						i(203708),	-- Conch Whistle

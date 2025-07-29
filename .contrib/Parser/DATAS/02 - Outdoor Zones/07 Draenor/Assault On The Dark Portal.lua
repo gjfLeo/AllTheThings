@@ -40,8 +40,8 @@ root(ROOTS.Zones, {
 				}),
 				n(QUESTS, {
 					q(34478, {	-- A Potential Ally (A)
-						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["sourceQuest"] = 34425,	-- The Kargathar Proving Grounds
+						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["coord"] = { 73.0, 38.1, 577 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -52,8 +52,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34427, {	-- A Potential Ally (H)
-						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["sourceQuest"] = 34425,	-- The Kargathar Proving Grounds
+						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["coord"] = { 73.0, 38.1, 577 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -64,12 +64,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34445, {	-- A Taste of Iron
-						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["sourceQuest"] = 35747,	-- Taking a Trip to the Top of the Tank
+						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["coord"] = { 40.1, 48.4, 577 },
 					}),
 					q(34423, {	-- Altar Altercation
-						["provider"] = { "n", 78559 },	-- Archmage Khadgar
 						["sourceQuests"] = {
 							34422,	-- Blaze of Glory
 							34421,	-- Bled Dry
@@ -77,19 +76,20 @@ root(ROOTS.Zones, {
 							35242,	-- Vengeance for the Fallen (A)
 							35241,	-- Vengeance for the Fallen	(H)
 						},
+						["provider"] = { "n", 78559 },	-- Archmage Khadgar
 						["coord"] = { 71.5, 62.3, 577 },
 					}),
 					q(35933, {	-- Azeroth's Last Stand
-						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["sourceQuests"] = {
 							36881,	-- The Dark Portal (A)
 							34398,	-- The Dark Portal (H)
 						},
+						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["coord"] = { 54.7, 48.2, 577 },
 					}),
 					q(34422, {	-- Blaze of Glory
-						["provider"] = { "n", 78559 },	-- Archmage Khadgar
 						["sourceQuest"] = 34420,	-- The Cost of War
+						["provider"] = { "n", 78559 },	-- Archmage Khadgar
 						["coord"] = { 60.2, 56.3, 577 },
 						["groups"] = {
 							i(112431),	-- Hollowheart Legguards
@@ -99,72 +99,72 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35240, {	-- Bled Dry (A)
-						["provider"] = { "n", 81762 },	-- Taag
 						["sourceQuest"] = 34420,	-- The Cost of War
+						["provider"] = { "n", 81762 },	-- Taag
 						["coord"] = { 62.2, 52.9, 577 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34421, {	-- Bled Dry (H)
-						["provider"] = { "n", 78573 },	-- Korag
 						["sourceQuest"] = 34420,	-- The Cost of War
+						["provider"] = { "n", 78573 },	-- Korag
 						["coord"] = { 62.2, 52.9, 577 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34442, {	-- Ga'nar of the Frostwolf
-						["provider"] = { "n", 78996 },	-- Farseer Drek'Thar
 						["sourceQuest"] = 34439,	-- The Battle of the Forge
+						["provider"] = { "n", 78996 },	-- Farseer Drek'Thar
 						["coord"] = { 43.0, 26.4, 577 },
 					}),
 					q(34436, {	-- Keli'dan the Breaker (A)
-						["provider"] = { "n", 79537 },	-- Exarch Maladaar
 						["sourceQuests"] = {
 							34431,	-- Masters of Shadow
 							34432,	-- The Shadowmoon Clan
 							34740,	-- Yrel
 						},
+						["provider"] = { "n", 79537 },	-- Exarch Maladaar
 						["coord"] = { 50.0, 48.1, 578 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34741, {	-- Keli'dan the Breaker (H)
-						["provider"] = { "n", 79675 },	-- Lady Liadrin
 						["sourceQuests"] = {
 							34737,	-- Masters of Shadow
 							34739,	-- The Shadowmoon Clan
 							34740,	-- Yrel
 						},
+						["provider"] = { "n", 79675 },	-- Lady Liadrin
 						["coord"] = { 50.0, 48.1, 578 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34429, {	-- Kill Your Hundred
-						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["sourceQuest"] = 34427,	-- A Potential Ally
+						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["coord"] = { 73.0, 38.0, 577 },
 					}),
 					q(34431, {	-- Masters of Shadow (A)
-						["provider"] = { "n", 79661 },	-- Luuka
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 79661 },	-- Luuka
 						["coord"] = { 82.8, 44.2, 578 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34737, {	-- Masters of Shadow (H)
-						["provider"] = { "n", 79661 },	-- Luuka
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 79661 },	-- Luuka
 						["coord"] = { 82.8, 44.2, 578 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34392, {	-- Onslaught's End
-						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["sourceQuest"] = 35933,	-- Azeroth's Last Stand
+						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["coord"] = { 54.7, 48.2, 577 },
 					}),
 					q(34925, {	-- Polishing the Iron Throne
-						["provider"] = { "n", 79917 },	-- Ga'nar
 						["sourceQuest"] = 34442,	-- Ga'nar of the Frostwolf
+						["provider"] = { "n", 79917 },	-- Ga'nar
 						["coord"] = { 41.8, 41.6, 577 },
 					}),
 					q(35019, {	-- Prepare for Battle (A)
-						["provider"] = { "n", 78554 },	-- Vindicator Maraad
 						["sourceQuest"] = 34436,	-- Keli'dan the Breaker
+						["provider"] = { "n", 78554 },	-- Vindicator Maraad
 						["coord"] = { 48.6, 14.2, 577 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -175,8 +175,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35005, {	-- Prepare for Battle (H)
-						["provider"] = { "n", 78553 },	-- Thrall
 						["sourceQuest"] = 34741,	-- Keli'dan the Breaker
+						["provider"] = { "n", 78553 },	-- Thrall
 						["coord"] = { 50.0, 13.3, 577 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -187,30 +187,30 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35747, {	-- Taking a Trip to the Top of the Tank
-						["provider"] = { "n", 78563 },	-- Archmage Khadgar
 						["sourceQuests"] = {
 							34987,	-- The Gunpowder Plot (is this really needed?)
 							34437,	-- The Prodigal Frostwolf
 							34958,	-- The Shadow of the Worldbreaker
 						},
+						["provider"] = { "n", 78563 },	-- Archmage Khadgar
 						["coord"] = { 43.1, 28.7, 577 },
 					}),
 					q(34439, {	-- The Battle of the Forge
-						["provider"] = { "n", 78430 },	-- Cordana Felsong
 						["sourceQuests"] = {
 							35005,	-- Prepare for Battle
 							35019,	-- Prepare for Battle
 						},
+						["provider"] = { "n", 78430 },	-- Cordana Felsong
 						["coord"] = { 49.5, 14.2, 577 },
 					}),
 					q(34420, {	-- The Cost of War
-						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["sourceQuest"] = 34393,	-- The Portal's Power
+						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["coord"] = { 54.7, 48.2, 577 },
 					}),
 					q(34987, {	-- The Gunpowder Plot
-						["provider"] = { "n", 78569 },	-- Hansel Heavyhands
 						["sourceQuest"] = 34439,	-- The Battle of the Forge
+						["provider"] = { "n", 78569 },	-- Hansel Heavyhands
 						["coord"] = { 44.0, 29.5, 577 },
 						["groups"] = {
 							o(231119, {	-- Blackrock Powder Keg
@@ -220,25 +220,25 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35884, {	-- The Home Stretch (A)
-						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["sourceQuest"] = 34445,	-- A Taste of Iron
+						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["coord"] = { 40.1, 48.4, 577 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34446, {	-- The Home Stretch (H)
-						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["sourceQuest"] = 34445,	-- A Taste of Iron
+						["provider"] = { "n", 80521 },	-- Thaelin Darkanvil
 						["coord"] = { 40.1, 48.4, 577 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34425, {	-- The Kargathar Proving Grounds
-						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["sourceQuest"] = 34423,	-- Altar Altercation
+						["provider"] = { "n", 78560 },	-- Archmage Khadgar
 						["coord"] = { 71.9, 40.4, 577 },
 					}),
 					q(34393, {	-- The Portal's Power
-						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["sourceQuest"] = 34392,	-- Onslaught's End
+						["provider"] = { "n", 78558 },	-- Archmage Khadgar
 						["coord"] = { 54.6, 48.2, 577 },
 						["groups"] = {
 							i(112387),	-- Iron Horde Bolt-Thrower
@@ -252,18 +252,18 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34437, {	-- The Prodigal Frostwolf
-						["provider"] = { "n", 79917 },	-- Ga'nar
 						["sourceQuest"] = 34925,	-- Polishing the Iron Throne
+						["provider"] = { "n", 79917 },	-- Ga'nar
 						["coord"] = { 41.8, 42.0, 577 },
 					}),
 					q(34958, {	-- The Shadow of the Worldbreaker
-						["provider"] = { "n", 78568 },	-- Thaelin Darkanvil
 						["sourceQuest"] = 34439,	-- The Battle of the Forge
+						["provider"] = { "n", 78568 },	-- Thaelin Darkanvil
 						["coord"] = { 44.0, 29.6, 577 },
 					}),
 					q(34432, {	-- The Shadowmoon Clan (A)
-						["provider"] = { "n", 78554 },	-- Vindicator Maraad
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 78554 },	-- Vindicator Maraad
 						["coord"] = { 80.7, 45.3, 578 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -274,8 +274,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34739, {	-- The Shadowmoon Clan (H)
-						["provider"] = { "n", 78553 },	-- Thrall
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 78553 },	-- Thrall
 						["coord"] = { 81.5, 44.7, 578 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -286,26 +286,26 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35242, {	-- Vengeance for the Fallen (A)
-						["provider"] = { "n", 81763 },	-- Rephuura
 						["sourceQuest"] = 34420,	-- The Cost of War
+						["provider"] = { "n", 81763 },	-- Rephuura
 						["coord"] = { 62.2, 52.9, 577 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35241, {	-- Vengeance for the Fallen (H)
-						["provider"] = { "n", 81761 },	-- Ashka
 						["sourceQuest"] = 34420,	-- The Cost of War
+						["provider"] = { "n", 81761 },	-- Ashka
 						["coord"] = { 62.2, 52.9, 577 },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34434, {	-- Yrel (A)
-						["provider"] = { "n", 78994 },	-- Yrel
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 78994 },	-- Yrel
 						["coord"] = { 45.1, 15.9, 578 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34740, {	-- Yrel (H)
-						["provider"] = { "n", 78994 },	-- Yrel
 						["sourceQuest"] = 34429,	-- Kill Your Hundred
+						["provider"] = { "n", 78994 },	-- Yrel
 						["coord"] = { 45.1, 15.9, 578 },
 						["races"] = HORDE_ONLY,
 					}),

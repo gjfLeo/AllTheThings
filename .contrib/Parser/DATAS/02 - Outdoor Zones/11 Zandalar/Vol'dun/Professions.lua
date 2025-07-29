@@ -7,8 +7,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		n(PROFESSIONS, {
 			prof(JEWELCRAFTING, {
 				q(55581, {	-- Sun-Speckled Dunes (A)
-					["provider"] = { "n", 150895 },	-- Shrine of the Sands
 					["sourceQuest"] = 49584,	-- The Missing Chapter (A)
+					["provider"] = { "n", 150895 },	-- Shrine of the Sands
 					["coord"] = { 44.2, 38.0, VOLDUN },
 					["requireSkill"] = JEWELCRAFTING,
 					["races"] = ALLIANCE_ONLY,

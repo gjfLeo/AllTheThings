@@ -91,8 +91,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			}),
 			n(QUESTS, {
 				q(13151, {	-- A Royal Escort
-					["qg"] = 27915,	-- Chromie
 					["sourceQuest"] = 13149,	-- Dispelling Illusions
+					["qg"] = 27915,	-- Chromie
 					["lvl"] = lvlsquish(78, 78, 25),
 					["groups"] = {
 						objective(1, {	-- 0/1 Mal'Ganis Defeated

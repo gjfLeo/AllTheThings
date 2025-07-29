@@ -8,8 +8,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		["groups"] = {
 			n(QUESTS, {
 				q(43349, {	-- The Aegis of Aggramar
-					["provider"] = {"o",251991},	-- The Aegis of Aggramar
 					["sourceQuests"] = { 40072 },	-- Halls of Valor: Securing the Aegis
+					["provider"] = {"o",251991},	-- The Aegis of Aggramar
 					["modelScale"] = 3,
 					["groups"] = {
 						i(130016),	-- Valor-Bound Legplates

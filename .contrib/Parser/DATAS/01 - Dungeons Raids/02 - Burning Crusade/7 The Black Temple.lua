@@ -31,8 +31,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 			}),
 			n(QUESTS, {
 				q(10985, {	-- A Distraction for Akama (legacy version)
-					["qg"] = 18528,	-- Xi'ri
 					["sourceQuest"] = 10949,	-- Entry Into the Black Temple
+					["qg"] = 18528,	-- Xi'ri
 					["coord"] = { 65.2, 44.0, SHADOWMOON_VALLEY },
 					["timeline"] = { REMOVED_3_0_2 },
 					["lvl"] = lvlsquish(70, 70, 30),
@@ -49,9 +49,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 				}),
 				-- #if AFTER 3.0.1
 				q(13429, {	-- A Distraction for Akama
-					["qg"] = 18528,	-- Xi'ri
-					["altQuests"] = { 10985 },	-- A Distraction for Akama (legacy version)
 					["sourceQuest"] = 10949,	-- Entry Into the Black Temple
+					["altQuests"] = { 10985 },	-- A Distraction for Akama (legacy version)
+					["qg"] = 18528,	-- Xi'ri
 					["coord"] = { 65.2, 43.9, SHADOWMOON_VALLEY },
 					["timeline"] = { ADDED_3_0_2 },
 					["lvl"] = lvlsquish(70, 70, 30),
@@ -61,14 +61,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 				}),
 				-- #endif
 				q(10949, {	-- Entry Into the Black Temple
-					["qg"] = 18481,	-- A'dal
 					["sourceQuest"] = 10948,	-- The Hostage Soul
+					["qg"] = 18481,	-- A'dal
 					["coord"] = { 54.3, 44.3, SHATTRATH_CITY },
 					["lvl"] = lvlsquish(70, 70, 30),
 				}),
 				q(10957, {	-- Redemption of the Ashtongue
-					["qg"] = 23158,	-- Seer Kanai
 					["sourceQuest"] = 10958,	-- Seek Out the Ashtongue
+					["qg"] = 23158,	-- Seer Kanai
 					["coord"] = { 62.0, 50.2, THE_BLACK_TEMPLE },
 					["lvl"] = lvlsquish(70, 70, 30),
 					["groups"] = {
@@ -78,7 +78,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					},
 				}),
 				q(10958, {	-- Seek Out the Ashtongue
-					["qg"] = 18528,	-- Xi'ri
 					["sourceQuests"] = {
 						10985,	-- A Distraction for Akama
 						-- #if AFTER 3.0.1
@@ -88,12 +87,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					-- #if AFTER 3.0.1
 					["sourceQuestNumRequired"] = 1,
 					-- #endif
+					["qg"] = 18528,	-- Xi'ri
 					["coord"] = { 65.2, 44.0, SHADOWMOON_VALLEY },
 					["lvl"] = lvlsquish(70, 70, 30),
 				}),
 				q(10959, {	-- The Fall of the Betrayer
-					["qg"] = 23158,	-- Seer Kanai
 					["sourceQuest"] = 10957,	-- Redemption of the Ashtongue
+					["qg"] = 23158,	-- Seer Kanai
 					["coord"] = { 62.0, 50.2, THE_BLACK_TEMPLE },
 					["lvl"] = lvlsquish(70, 70, 30),
 					["groups"] = {
@@ -104,8 +104,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					},
 				}),
 				q(10948, {	-- The Hostage Soul
-					["qg"] = 21700,	-- Akama
 					["sourceQuest"] = 10947,	-- An Artifact From the Past
+					["qg"] = 21700,	-- Akama
 					["coord"] = { 58.1, 48.2, SHADOWMOON_VALLEY },
 					["lvl"] = lvlsquish(70, 70, 30),
 				}),

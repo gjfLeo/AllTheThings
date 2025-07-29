@@ -9,14 +9,14 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		56325 - alliance end to the zone, completed after turning in The Tide Turns (55799)
 		]]--
 		q(55558, {	-- A Bolt Hole
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = { 56234 },	-- Friends in Need
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 40.2, 55.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(54975, {	-- A Brief Respite
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.3, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -24,8 +24,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56561, {	-- A Curious Discovery (A)
-			["provider"] = { "o", 329805 },	-- Strange Crystal
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "o", 329805 },	-- Strange Crystal
 			["coords"] = {
 				{ 32.8, 39.5, NAZJATAR },
 				{ 55.2, 48.8, NAZJATAR },
@@ -36,8 +36,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56560, {	-- A Curious Discovery (H)
-			["provider"] = { "o", 329805 },	-- Strange Crystal
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 329805 },	-- Strange Crystal
 			["coords"] = {
 				{ 32.8, 39.5, NAZJATAR },
 				{ 55.2, 48.8, NAZJATAR },
@@ -48,61 +48,61 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56787, {	-- Additional Supplies
-			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 2.",
+			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169903),	-- Nazjatar Survival Pack
 			},
 		}),
 		q(56810, {	-- A Friend Indeed
-			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["description"] = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 7.",
+			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169919),	-- Unshackled Commendation Crate
 			},
 		}),
 		q(56777, {	-- A Gift From The Clan
-			["provider"] = { "n", 150202 },	-- Waveblade Hunter (Hunter Akana)
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 2.",
+			["provider"] = { "n", 150202 },	-- Waveblade Hunter (Hunter Akana)
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169903),	-- Nazjatar Survival Pack
 			},
 		}),
 		q(56789, {	-- A Gift of Supplies
-			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 7.",
+			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169904),	-- Ankoan Commendation Crate
 			},
 		}),
 		q(56778, {	-- A Glint of the Darkness
-			["provider"] = { "n", 150202 },	-- Waveblade Hunter (Hunter Akana)
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 5.",
+			["provider"] = { "n", 150202 },	-- Waveblade Hunter (Hunter Akana)
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55984, {	-- A Good Offense
-			["provider"] = { "n", 153623 },	-- Korl
-			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
-			["coord"] = { 36.3, 30.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
+			["provider"] = { "n", 153623 },	-- Korl
+			["coord"] = { 36.3, 30.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(56816, {	-- A Kelfin's Best Friend
+			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 9.",
 			["provider"] = { "n", 151309 },	-- Kelfin Scout (Neri Sharpfin)
 			["coord"] = { 45.0, 60.9, NAZJATAR },
-			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 9.",
 			["races"] = HORDE_ONLY,
 		}),
 		q(55636, {	-- A Life's Work
-			["provider"] = { "o", 325853 },	-- Empty Bookcase
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 78.4, 28.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "o", 325853 },	-- Empty Bookcase
+			["coord"] = { 78.4, 28.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -113,9 +113,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55993, {	-- A Little Edge
+			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["provider"] = { "n", 153743 },	-- Kade Makreef
 			["coord"] = { 26.0, 41.8, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -123,10 +123,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55662, {	-- Arcane Cache (A)
-			["provider"] = {"o",325894},	-- Arcane Cache
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 53.1, 28.3, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = {"o",325894},	-- Arcane Cache
+			["coord"] = { 53.1, 28.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -134,9 +134,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56233, {	-- Arcane Cache (H)
+			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
 			["coord"] = { 53.1, 28.3, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -144,38 +144,38 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55983, {	-- A Safer Place (A)
-			["provider"] = { "n", 152084 },	-- Mrrl
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 152084 },	-- Mrrl
 			["coord"] = { 48.1, 45.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55530, {	-- A Safer Place (H)
-			["provider"] = { "n", 152084 },	-- Mrrl
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 152084 },	-- Mrrl
 			["coord"] = { 48.1, 45.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56156, {	-- A Tempered Blade
-			["provider"] = { "n", 154248 },	-- Bladesman Inowari
-			["sourceQuest"] = 55363,	-- Rescue the Farseer
-			["coord"] = { 39.4, 53.4, NAZJATAR },
 			["description"] = "Must complete this quest for the rest of the zone to become available.",
+			["sourceQuest"] = 55363,	-- Rescue the Farseer
+			["provider"] = { "n", 154248 },	-- Bladesman Inowari
+			["coord"] = { 39.4, 53.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				spell(304905),	-- World Quests
 			},
 		}),
 		q(56779, {	-- A Valorous Reward
-			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 7.",
+			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169904),	-- Ankoan Commendation Crate
 			},
 		}),
 		q(54972, {	-- A Way Home
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 55175,	-- Where the Road Leads
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.2, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -201,8 +201,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55053, {	-- A Way Home
-			["provider"] = { "n", 151851 },	-- Chief Telemancer Oculeth
 			["sourceQuest"] = 55094,	-- Stay Low, Stay Fast!
+			["provider"] = { "n", 151851 },	-- Chief Telemancer Oculeth
 			["coord"] = { 48.4, 62.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -221,31 +221,31 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(57006, {	-- A Worthy Ally
-			["provider"] = { "n", 153509 },	-- Artisan Okata
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 153509 },	-- Artisan Okata
 			["coord"] = { 37.8, 55.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56347, {	-- An Abyssal Opportunity
-			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["sourceQuest"] = 56346,	-- Ancient Technology
+			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["coord"] = { 37.9, 52.9, NAZJATAR },
 			["cost"] = { { "i", 171247, 15 } },	-- 15x Abyssal Shard
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56353, {	-- An Abyssal Opportunity
-			["provider"] = { "n", 154408 },	-- Rolm
 			["sourceQuest"] = 56354,	-- Ancient Technology
+			["provider"] = { "n", 154408 },	-- Rolm
 			["coord"] = { 49.3, 61.8, NAZJATAR },
 			["cost"] = { { "i", 171247, 15 } },	-- 15x Abyssal Shard
 			["races"] = HORDE_ONLY,
 		}),
 		q(56813, {	-- An Unexpected Friend
+			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 2.",
 			["qgs"] = {
 				149904,	-- Neri Sharpfin
 				151300,	-- Kelfin Scout
 			},
-			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 2.",
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169903),	-- Nazjatar Survival Pack
@@ -276,42 +276,42 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56346, {	-- Ancient Technology
-			["provider"] = { "o", 327596 },	-- Broken Abyssal Focus
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 38.1, 36.9, NAZJATAR },
 			["description"] = "This quest is not available unless you have 150 in Kul Tiran Alchemy, Blacksmithing, Engineering, Jewelcrafting, Leatherworking, or Tailoring.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "o", 327596 },	-- Broken Abyssal Focus
+			["coord"] = { 38.1, 36.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169320),	-- Broken Power Core (QI!)
 			},
 		}),
 		q(56354, {	-- Ancient Technology
-			["provider"] = { "o", 327596 },	-- Broken Abyssal Focus
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 38.1, 36.9, NAZJATAR },
 			["description"] = "This quest is not available unless you have 150 in Zandalari Alchemy, Blacksmithing, Engineering, Jewelcrafting, Leatherworking, or Tailoring.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 327596 },	-- Broken Abyssal Focus
+			["coord"] = { 38.1, 36.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169320),	-- Broken Power Core (QI!)
 			},
 		}),
 		q(56814, {	-- Anytime You Need a Friend
+			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 5.",
 			["qgs"] = {
 				149904,	-- Neri Sharpfin
 				151300,	-- Kelfin Scout
 			},
-			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 5.",
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169908),	-- Cleverly Concealed Supplies
 			},
 		}),
 		q(56218, {	-- Beauty in the Deeps
+			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 20.",
 			["qgs"] = {
 				154297,	-- Bladesman Inowari
 				149803,	-- Bladesman Inowari (inactive in front of the bonfire)
 			},
-			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 20.",
 			["races"] = ALLIANCE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -319,8 +319,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(57005, {	-- Becoming a Friend
-			["provider"] = { "n", 154002 },	-- Atolia Seapearl
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 154002 },	-- Atolia Seapearl
 			["coord"] = { 51.0, 65.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -328,8 +328,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55597, {	-- Bound by Honor
-			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["sourceQuest"] = 55593,	-- Insight into Our Enemies
+			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["coord"] = { 38.9, 54.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
@@ -568,24 +568,24 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(56370, {	-- Break a Few Eggs (A)
+			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["qgs"] = {
 				154075,	-- Tracker Kenji
 				155844,	-- Apprentice Anako
 			},
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["coords"] = {
 				{ 66.8, 29.2, NAZJATAR },
 				{ 67.1, 26.1, NAZJATAR },
 			},
-			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(55986, {	-- Break a Few Eggs (H)
-			["provider"] = { "n", 153684 },	-- Caitfin Gills
-			["sourceQuest"] = 55500,	-- Save A Friend -- confirm sourceQuest. Possibly  "The Needs of the People" instead?
-			["coord"] = { 70.2, 23.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save A Friend -- confirm sourceQuest. Possibly  "The Needs of the People" instead?
+			["provider"] = { "n", 153684 },	-- Caitfin Gills
+			["coord"] = { 70.2, 23.2, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 		}),
@@ -596,8 +596,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(56325, {	-- Changing Tides
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuests"] = { 56741 },	-- The Spear of Destiny
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.2, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -605,32 +605,32 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56309, {	-- City of Drowned Friends
-			["provider"] = { "n", 154522 },	-- Shandris Feathermoon
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 154522 },	-- Shandris Feathermoon
 			["coord"] = { 76.0, 45.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56310, {	-- City of Drowned Friends -- TODO:: verify sourceQuest
-			["provider"] = { "n", 154520 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 154520 },	-- First Arcanist Thalyssra
 			["coord"] = { 73.4, 47.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55937, {	-- Clearing Out the Cache (A)
-			["provider"] = { "o", 326588 },	-- Azerite Weapons Cache`
 			["sourceQuest"] = 55861,	-- Let the Residue Lead You
+			["provider"] = { "o", 326588 },	-- Azerite Weapons Cache`
 			["coord"] = { 46.0, 51.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55869, {	-- Clearing Out the Cache (H)
-			["provider"] = { "o", 326588 },	-- Azerite Weapons Cache`
 			["sourceQuest"] = 55868,	-- Let the Residue Lead You
+			["provider"] = { "o", 326588 },	-- Azerite Weapons Cache`
 			["coord"] = { 46.0, 51.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55601, {	-- Coveted Crystals (A)
-			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["sourceQuest"] = 56037,	-- Stealing the Naga's Secrets
+			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -638,8 +638,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55867, {	-- Coveted Crystals (H)
-			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["sourceQuest"] = 56045,	-- Stealing the Naga's Secrets
+			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -647,10 +647,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55681, {	-- Crab Marks The Spot
-			["provider"] = {"o",325954},	-- Illegible Treasure Map
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 43.8, 54.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = {"o",325954},	-- Illegible Treasure Map
+			["coord"] = { 43.8, 54.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -660,20 +660,20 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(57004, {	-- Create Your Own Strength
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 56350,	-- Scouting the Palace
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.2, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(57003, {	-- Create Your Own Strength
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 55481,	-- Scouting the Palace
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.2, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56642, {	-- Dark Tides
-			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["sourceQuest"] = 54969,	-- Descent
+			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["coord"] = { 48.7, 86.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -690,8 +690,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56063, {	-- Dark Tides
-			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 54021,	-- The First Arcanist
+			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["coord"] = { 41.9, 80.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -708,38 +708,38 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(54969, {	-- Descent (A)
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 55095,	-- Upheaval
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 48.8, 89.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(54018, {	-- Descent (H)
-			["provider"] = { "n", 150206 },	-- Chief Telemancer Oculeth
 			["sourceQuest"] = 55054,	-- Upheaval
+			["provider"] = { "n", 150206 },	-- Chief Telemancer Oculeth
 			["coord"] = { 36.6, 86.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55595, {	-- Deteriorating Knowledge (A)
-			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["sourceQuest"] = 55593,	-- Insight into Our Enemies
+			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["coord"] = { 38.9, 54.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55863, {	-- Deteriorating Knowledge (H)
-			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["sourceQuest"] = 55862,	-- Insight into Our Enemies
+			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56243, {	-- Diaries of the Dead (A)
-			["provider"] = { "o", 327591 },	-- Preserved Journal
 			["sourceQuest"] = 56241,	-- Preserved Clues
+			["provider"] = { "o", 327591 },	-- Preserved Journal
 			["coord"] = { 81.4, 45.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56244, {	-- Diaries of the Dead (H)
-			["provider"] = { "o", 327591 },	-- Preserved Journal
 			["sourceQuest"] = 56242,	-- Preserved Clues
+			["provider"] = { "o", 327591 },	-- Preserved Journal
 			["coord"] = { 81.4, 45.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
@@ -768,8 +768,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		},
 		q(56236, {	-- Down But Not Out
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 55869,	-- Clearing Out the Cache
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -777,8 +777,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56235, {	-- Down Into Nazjatar
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -786,8 +786,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		pvp(q(56433, {	-- Drowning the Alliance
-			["provider"] = { "n", 154652 },	-- Dazzerian
 			["sourceQuest"] = 55481,	-- Scouting the Palace
+			["provider"] = { "n", 154652 },	-- Dazzerian
 			["coord"] = { 48.8, 60.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -795,8 +795,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		})),
 		pvp(q(56128, {	-- Drowning the Horde
-			["provider"] = { "n", 154653 },	-- Tomas Riogain
 			["sourceQuest"] = 57010,	-- Harnessing the Power
+			["provider"] = { "n", 154653 },	-- Tomas Riogain
 			["coord"] = { 38.1, 55.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -804,10 +804,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		})),
 		q(56001, {	-- Drunk Angry Murlocs (A)
-			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
+			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -818,10 +818,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56265, {	-- Drunk Angry Murlocs (H)
-			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
-			["sourceQuest"] = 55500,	-- Save A Friend
-			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
+			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -832,12 +832,12 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55569, {	-- Echoes of Pain
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = {	-- may not require other two, definitely requires *
 				55565,	-- Shoring Up Mana Reserves
 				55694,	-- There's Something in the Water
 				55560,	-- Utama's Vengeance
 			},
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.6, 25.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
@@ -855,8 +855,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(55362, {	-- Elemental Fury
-			["provider"] = { "n", 151741 },	-- Apprentice Odari
 			["sourceQuest"] = 55361,	-- The Lost Shaman
+			["provider"] = { "n", 151741 },	-- Apprentice Odari
 			["coord"] = { 43.4, 49.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -873,27 +873,27 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56246, {	-- Enchanted Lock (A)
-			["provider"] = { "o", 327592 },	-- Enchanted Lock
-			["sourceQuest"] = 56243,	-- Diaries of the Dead
-			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["description"] = "Match 3 purple runes.",
+			["sourceQuest"] = 56243,	-- Diaries of the Dead
+			["provider"] = { "o", 327592 },	-- Enchanted Lock
+			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56245, {	-- Enchanted Lock (H)
-			["provider"] = { "o", 327592 },	-- Enchanted Lock
-			["sourceQuest"] = 56244,	-- Diaries of the Dead
-			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["description"] = "Match 3 purple runes.",
+			["sourceQuest"] = 56244,	-- Diaries of the Dead
+			["provider"] = { "o", 327592 },	-- Enchanted Lock
+			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55851, {	-- Essential Empowerment
-			["qgs"] = {
-				154166,	-- Magni Bronzebeard (A)
-				154167,	-- Magni Bronzebeard (H)
-			},
 			["sourceQuests"] = {
 				54972,	-- A Way Home (A)
 				55053,	-- A Way Home (H)
+			},
+			["qgs"] = {
+				154166,	-- Magni Bronzebeard (A)
+				154167,	-- Magni Bronzebeard (H)
 			},
 			["coords"] = {
 				{ 40.0, 55.2, NAZJATAR },	-- Alliance
@@ -901,10 +901,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55985, {	-- Extra Shiny
-			["provider"] = { "n", 153685 },	-- Mari Lazarfin
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 60.8, 30.9, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153685 },	-- Mari Lazarfin
+			["coord"] = { 60.8, 30.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -912,8 +912,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(57009, {	-- Fame Waits for Gnome One
-			["provider"] = { "n", 156179 },	-- Gila Crosswires
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 156179 },	-- Gila Crosswires
 			["coord"] = { 39.5, 53.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isBreadcrumb"] = true,
@@ -932,10 +932,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56149, {	-- Feed Them All (A)
-			["provider"] = { "n", 154235 },	-- Harvester Akaro
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 55.6, 47.0, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 154235 },	-- Harvester Akaro
+			["coord"] = { 55.6, 47.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -944,10 +944,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55715, {	-- Feed Them All (H)
-			["provider"] = { "n", 152786 },	-- Oben Sandfin
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 57.4, 45.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 152786 },	-- Oben Sandfin
+			["coord"] = { 57.4, 45.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -956,10 +956,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55661, {	-- Fighting Venomous With Venom -- TODO:: verify sourceQuest
-			["provider"] = { "n", 153777 },	-- Cando Mikfin
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 64.5, 48.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153777 },	-- Cando Mikfin
+			["coord"] = { 64.5, 48.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -969,10 +969,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55846, {	-- Forbidden Rituals
-			["provider"] = { "n", 153147 },	-- Apprentice Ukaro
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 56.5, 29.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 153147 },	-- Apprentice Ukaro
+			["coord"] = { 56.5, 29.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -980,10 +980,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55683, {	-- Forgotten Memories
-			["provider"] = { "n", 152716 },	-- Arylina
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 78.5, 26.8, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 152716 },	-- Arylina
+			["coord"] = { 78.5, 26.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1004,29 +1004,29 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56640, {	-- Fortunate Souls
-			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["sourceQuest"] = 54969,	-- Descent
+			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["coord"] = { 48.7, 86.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(54012, {	-- Fortunate Souls
-			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 54021,	-- The First Arcanist
+			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["coord"] = { 41.9, 80.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56812, {	-- Friendship Is Magic
-			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
-			["sourceQuest"] = 55500,	-- Save a Friend
 			["description"] = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 13.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169921),	-- Spine Guarded Supplies
 			},
 		}),
 		q(56234, {	-- Friends in Need
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 55937,	-- Clearing Out the Cache
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.3, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -1034,22 +1034,22 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56806, {	-- Friends Through Eternity
+			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 9.",
+			["sourceQuest"] = 55500,	-- Save a Friend
 			["qgs"] = {
 				151309,	-- Kelfin Scout (Vim Brineheart)
 				149906,	-- Vim Brineheart
 			},
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 9.",
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169916),	-- Brew-Soaked Supplies
 			},
 		}),
 		q(55871, {	-- Gather Friends -- also triggered 56544, 56682
-			["provider"] = { "n", 151311 },	-- Narm
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 26.6, 42.3, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151311 },	-- Narm
+			["coord"] = { 26.6, 42.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1068,8 +1068,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56215, {	-- Glittering Shell
-			["provider"] = { "n", 151310 },	-- Poen Gillbrack
 			["description"] = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 20.",
+			["provider"] = { "n", 151310 },	-- Poen Gillbrack
 			["races"] = HORDE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -1077,8 +1077,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56214, {	-- Good Girl
-			["provider"] = { "n", 151300 },	-- Neri Sharpfin
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 20.",
+			["provider"] = { "n", 151300 },	-- Neri Sharpfin
 			["races"] = HORDE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -1088,27 +1088,27 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56784, {	-- Helpful Provisions
-			["provider"] = { "n", 154304 },	-- Farseer Ori
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 7.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154304 },	-- Farseer Ori
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169904),	-- Ankoan Commendation Crate (contained a benthic token, some war resources, and some zin'anthid)
 			},
 		}),
 		q(55571, {	-- Help Them See the Truth
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = {
 				55569,	-- Echoes of Pain
 				55570,	-- Secrets in the Ruins
 			},
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.2, 40.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56780, {	-- Hidden, But Dangerous
-			["provider"] = { "n", 150202 },	-- Hunter Akana
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 9.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169911, {	-- Liberated Naga Cache
@@ -1118,21 +1118,21 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56643, {	-- In Deep
-			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["sourceQuests"] = {
 				56642,	-- Dark Tides
 				56641,	-- Disruption of Power
 				56640,	-- Fortunate Souls
 			},
+			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(54015, {	-- In Deep
-			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["sourceQuests"] = {
 				55092,	-- Distruption of Power
 				54012,	-- Fortunate Souls
 				56063,	-- Dark Tides
 			},
+			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["coord"] = { 41.9, 80.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1140,45 +1140,45 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55593, {	-- Insight into Our Enemies
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 54975,	-- A Brief Respite
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.3, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55862, {	-- Insight into Our Enemies
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 56235,	-- Down Into Nazjatar
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56803, {	-- Just A Friend
-			["provider"] = { "n", 149906 },	-- Vim Brineheart
-			--["sourceQuest"] =
-			["coord"] = { 50.8, 65.2, NAZJATAR },
 			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches rank 2.",
+			--["sourceQuest"] =
+			["provider"] = { "n", 149906 },	-- Vim Brineheart
+			["coord"] = { 50.8, 65.2, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56150, {	-- Kill the Kritch (A)
-			["provider"] = { "n", 153537 },	-- Rlgmrr
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 45.0, 76.7, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 153537 },	-- Rlgmrr
+			["coord"] = { 45.0, 76.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(55873, {	-- Kill the Kritch (H)
-			["provider"] = { "n", 153537 },	-- Rlgmrr
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 153537 },	-- Rlgmrr
 			["coord"] = { 44.9, 76.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(56216, {	-- Last Heirloom
+			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches rank 20.",
 			["qgs"] = {
 				154304,	-- Farseer Ori (active bodyguard ID)
 				149805,	-- (inactive in front of the bonfire)
 			},
-			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches rank 20.",
 			["races"] = ALLIANCE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -1188,28 +1188,28 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56095, {	-- Legacy of Nar'anan
-			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade
 				55500,	-- Save A Friend
 			},
+			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["coord"] = { 66.4, 47.3, NAZJATAR },
 		}),
 		q(57086, {	-- Legacy of the Mad Mage
+			["description"] = "Loot the Arcane Chest at the provided coordinates to get the item that starts this quest.",
 			["provider"] = { "i", 170512 },	-- Lesser Benthic Arcanocrystal
 			["coord"] = { 79.4, 27.2, NAZJATAR },
-			["description"] = "Loot the Arcane Chest at the provided coordinates to get the item that starts this quest.",
 			["groups"] = {
 				currency(1721),	-- Prismatic Manapearls x7
 				i(170547),	-- Mardivas's Arcane Cache Key (QI!)
 			},
 		}),
 		q(55861, {	-- Let the Residue Lead You (A)
-			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["sourceQuests"] = {
 				55601,	-- Coveted Crystals
 				55860,	-- Sea Slug Liquidation
 			},
+			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -1217,11 +1217,11 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55868, {	-- Let the Residue Lead You (H)
-			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["sourceQuests"] = {
 				55867,	-- Coveted Crystals
 				55870,	-- Sea Slug Liquidation
 			},
+			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1229,10 +1229,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56146, {	-- Making Kelpberry Wine (A)
-			["provider"] = { "o", 325869 },	-- Empty Cask
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 59.5, 42.0, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 325869 },	-- Empty Cask
+			["coord"] = { 59.5, 42.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1248,8 +1248,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55638, {	-- Making Kelpberry Wine (H)
-			["provider"] = { "o", 325869 },	-- Empty Cask
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "o", 325869 },	-- Empty Cask
 			["coord"] = { 59.5, 42.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
@@ -1266,8 +1266,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55482, {	-- Making the Connection
-			["provider"] = { "n", 152066 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 55469,	-- To Zin-Azshari
+			["provider"] = { "n", 152066 },	-- First Arcanist Thalyssra
 			["coord"] = { 64.2, 52.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1286,8 +1286,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55767, {	-- Misdirection
-			["provider"] = { "n", 152985 },	-- Dani Bluegill
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 152985 },	-- Dani Bluegill
 			["coord"] = { 31.2, 32.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
@@ -1296,10 +1296,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(54949, {	-- More Mouths To Feed
-			["provider"] = { "n", 150123 },	-- Tracker Onu
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 35.0, 49.0, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 150123 },	-- Tracker Onu
+			["coord"] = { 35.0, 49.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1308,10 +1308,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56153, {	-- Most Delicious Clams (A)
-			["provider"] = { "n", 154239 },	-- Tracker Otaru
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 45.6, 19.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154239 },	-- Tracker Otaru
+			["coord"] = { 45.6, 19.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1322,10 +1322,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56035, {	-- Most Delicious Clams (H)
-			["provider"] = { "n", 153900 },	-- Sardina Lauray
-			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
-			["coord"] = { 48.7, 22.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
+			["provider"] = { "n", 153900 },	-- Sardina Lauray
+			["coord"] = { 48.7, 22.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1336,10 +1336,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56002, {	-- Mgglurky's Mugglrgl
-			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 25.4, 26.3, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
+			["coord"] = { 25.4, 26.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1347,29 +1347,29 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56791, {	-- Mysterious Treasure
-			["provider"] = { "n", 154297 },	-- Bladesman Inowari
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches Rank 13.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169917),	-- Mysterious Azshari Chest (contained 1 stranged mineralized water, 2 battle-scarred augment runes, 16 gilded seaweave, 8 prismatic manapearls, and 115 war resources.  not sure if rewards are static or just "uhhh [throws random crafting materials/currency at you]"
 			},
 		}),
 		q(56786, {	-- Naga Treasure
-			["provider"] = { "n", 154304 },	-- Farseer Ori
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 13.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154304 },	-- Farseer Ori
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169917),	-- Mysterious Azshari Chest
 			},
 		}),
 		q(55529, {	-- No Backs
-			["provider"] = { "n", 152084 },	-- Mrrl
 			["sourceQuests"] = {
 				55983,	-- A Safer Place (A)
 				55530,	-- A Safer Place (H)
 			},
+			["provider"] = { "n", 152084 },	-- Mrrl
 			["coords"] = {
 				{ 46.9, 61.4, NAZJATAR },	-- Alliance
 				{ 39.1, 54.3, NAZJATAR },	-- Horde
@@ -1379,15 +1379,15 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56422, {	-- On Ghostly Wings
-			["provider"] = { "n", 154601 },	-- Kelya Moonfall
 			["sourceQuest"] = 56321,	-- Saving Corin
+			["provider"] = { "n", 154601 },	-- Kelya Moonfall
 			["coord"] = { 80.2, 31.8, NAZJATAR },
 		}),
 		q(55625, {	-- Pearls of Unimaginable Power
-			["provider"] = { "n", 152407 },	-- Arcanist Owara
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 31.5, 37.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 152407 },	-- Arcanist Owara
+			["coord"] = { 31.5, 37.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1414,10 +1414,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55845, {	-- Plans of Attack
-			["provider"] = {"o",326148},	-- Naga Attack Plans
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 37.2, 19.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = {"o",326148},	-- Naga Attack Plans
+			["coord"] = { 37.2, 19.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1425,10 +1425,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55877, {	-- Plug the Geysers (H)
-			["provider"] = { "n", 153522 },	-- Scout Tuli
-			["sourceQuests"] = { 55500 },	-- Save a Friend
-			["coord"] = { 48.0, 46.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuests"] = { 55500 },	-- Save a Friend
+			["provider"] = { "n", 153522 },	-- Scout Tuli
+			["coord"] = { 48.0, 46.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1436,10 +1436,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56157, {	-- Plug the Geysers
-			["provider"] = { "n", 154246 },	-- Apprentice Inari
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 31.0, 37.7, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 154246 },	-- Apprentice Inari
+			["coord"] = { 31.0, 37.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1447,10 +1447,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56158, {	-- Plug the Geysers
-			["provider"] = { "n", 154245 },	-- Apprentice Unato
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
-			["coord"] = { 45.9, 76.6, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
+			["provider"] = { "n", 154245 },	-- Apprentice Unato
+			["coord"] = { 45.9, 76.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1458,10 +1458,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56159, {	-- Plug the Geysers (A)
-			["provider"] = { "n", 154244 },	-- Apprentice Uataro
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
-			["coord"] = { 44.6, 45.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
+			["provider"] = { "n", 154244 },	-- Apprentice Uataro
+			["coord"] = { 44.6, 45.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1469,10 +1469,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56160, {	-- Plug the Geysers
-			["provider"] = { "n", 154243 },	-- Apprentice Aonari
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 71.5, 31.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",	-- NOT Farseer Ori!
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154243 },	-- Apprentice Aonari
+			["coord"] = { 71.5, 31.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1480,10 +1480,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56155, {	-- Plug the Geysers
-			["provider"] = { "n", 154247 },	-- Apprentice Utapo
-			["sourceQuest"] = 56156,	-- A Tempered Blade
-			["coord"] = { 60.7, 50.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 154247 },	-- Apprentice Utapo
+			["coord"] = { 60.7, 50.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1491,10 +1491,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55874, {	-- Plug the Geysers
-			["provider"] = { "n", 153524 },	-- Scout Kleda
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 60.6, 52.8, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153524 },	-- Scout Kleda
+			["coord"] = { 60.6, 52.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1502,10 +1502,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55875, {	-- Plug the Geysers
-			["provider"] = { "n", 153834 },	-- Scout Tambrine
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 33.5, 47.9, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153834 },	-- Scout Tambrine
+			["coord"] = { 33.5, 47.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1513,10 +1513,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55876, {	-- Plug the Geysers
-			["provider"] = { "n", 153833 },	-- Scout Newly
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 48.2, 73.8, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153833 },	-- Scout Newly
+			["coord"] = { 48.2, 73.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1524,10 +1524,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55878, {	-- Plug the Geysers
-			["provider"] = { "n", 153833 },	-- Scout Newly
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 48.2, 73.8, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153833 },	-- Scout Newly
+			["coord"] = { 48.2, 73.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1535,10 +1535,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56151, {	-- Poen's Favorite Dish
-			["provider"] = { "n", 151635 },	-- Slen Darkroe
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 50.8, 64.7, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151635 },	-- Slen Darkroe
+			["coord"] = { 50.8, 64.7, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1546,31 +1546,31 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55637, {	-- Poor, Unfortunate Souls
-			["provider"] = { "n", 152494 },	-- Elycina Starcaller
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 74.2, 24.8, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 152494 },	-- Elycina Starcaller
+			["coord"] = { 74.2, 24.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(56241, {	-- Preserved Clues (A)
-			["provider"] = { "n", 153510 },	-- Artisan Itanu
 			["sourceQuest"] = 56239,	-- Strange Silver Knife
+			["provider"] = { "n", 153510 },	-- Artisan Itanu
 			["coord"] = { 37.8, 55.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56242, {	-- Preserved Clues (H)
-			["provider"] = { "n", 153514 },	-- Finder Palta
 			["sourceQuest"] = 56240,	-- Strange Silver Knife
+			["provider"] = { "n", 153514 },	-- Finder Palta
 			["coord"] = { 49.2, 62.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55573, {	-- Purging the Defilers
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = {
 				55569,	-- Echoes of Pain
 				55570,	-- Secrets in the Ruins
 			},
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.2, 40.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
@@ -1579,12 +1579,12 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isWeekly"] = true,
 		}),
 		q(56807, {	-- Real Friends Help Hide Bodies
+			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 13.",
+			["sourceQuest"] = 55500,	-- Save a Friend
 			["qgs"] = {
 				151309,	-- Kelfin Scout (Vim Brineheart)
 				149906,	-- Vim Brineheart
 			},
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 13.",
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169922),	-- Vim's Gift of Appreciation
@@ -1615,19 +1615,19 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56788, {	-- Reclaimed Treasure
-			["provider"] = { "n", 154297 },	-- Bladesman Inowari
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches Rank 5.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169905),	-- Faintly Glowing Supplies
 			},
 		}),
 		q(55728, {	-- Reinforced Cache
-			["provider"] = { "o", 326047 },	-- Reinforced Cache
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 45.0, 22.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326047 },	-- Reinforced Cache
+			["coord"] = { 45.0, 22.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1635,10 +1635,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56231, {	-- Reinforced Cache
-			["provider"] = { "o", 326047 },	-- Reinforced Cache
-			["sourceQuests"] = { 55500 },	-- Save a Friend
-			["coord"] = { 45.0, 22.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuests"] = { 55500 },	-- Save a Friend
+			["provider"] = { "o", 326047 },	-- Reinforced Cache
+			["coord"] = { 45.0, 22.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1646,10 +1646,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55659, {	-- Relics of the Sundering
-			["provider"] = { "n", 152532 },	-- Shirelle McFadden
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 78.9, 42.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 152532 },	-- Shirelle McFadden
+			["coord"] = { 78.9, 42.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -1659,13 +1659,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55723, {	-- Requisition: A Few Carp
-			["qgs"] = {
-				151352,	-- Lily Bopip (H)
-				155941,	-- Tamer Orami (A)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				151352,	-- Lily Bopip (H)
+				155941,	-- Tamer Orami (A)
 			},
 			["coords"] = {
 				{ 39.5, 55.4, NAZJATAR },	-- (A)
@@ -1674,13 +1674,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55726, {	-- Requisition: A Few Cone Shells
-			["qgs"] = {
-				154436,	-- Craftsman Azama (A)
-				151633,	-- Karn Deepweld (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				154436,	-- Craftsman Azama (A)
+				151633,	-- Karn Deepweld (H)
 			},
 			["coords"] = {
 				{ 38.0, 53.3, NAZJATAR },	-- Alliance
@@ -1689,13 +1689,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55724, {	-- Requisition: A Few Deepcoral Buds
-			["qgs"] = {
-				151772,	-- Ray Tamer Enaka (A)
-				153772,	-- Lina Bluegill (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				151772,	-- Ray Tamer Enaka (A)
+				153772,	-- Lina Bluegill (H)
 			},
 			["coords"] = {
 				{ 39.8, 54.1, NAZJATAR },	-- Alliance
@@ -1704,13 +1704,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55727, {	-- Requisition: A Few Flotsam
-			["qgs"] = {
-				153509,	-- Artisan Okata (A)
-				153512,	-- Finder Pruc (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				153509,	-- Artisan Okata (A)
+				153512,	-- Finder Pruc (H)
 			},
 			["coords"] = {
 				{ 37.9, 55.7, NAZJATAR },	-- Alliance
@@ -1719,13 +1719,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55721, {	-- Requisition: A Few Kelp Buds (also popped 56278, 56605)
-			["qgs"] = {
-				153591,	-- Mikah Brewbelly (A)
-				151635,	-- Slen Darkroe (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				153591,	-- Mikah Brewbelly (A)
+				151635,	-- Slen Darkroe (H)
 			},
 			["coords"] = {
 				{ 40.0, 55.6, NAZJATAR },	-- Alliance
@@ -1734,13 +1734,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55720, {	-- Requisition: A Few Seaweed
-			["qgs"] = {
-				151763,	-- Isla (A)
-				151614,	-- Nevin Tideheart (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				151763,	-- Isla (A)
+				151614,	-- Nevin Tideheart (H)
 			},
 			["coords"] = {
 				{ 37.8, 55.4, NAZJATAR },	-- Alliance
@@ -1749,13 +1749,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55725, {	-- Requisition: A Few Spiral Leaf
-			["qgs"] = {
-				151763,	-- Isla (A)
-				151614,	-- Nevin Tideheart (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				151763,	-- Isla (A)
+				151614,	-- Nevin Tideheart (H)
 			},
 			["coords"] = {
 				{ 37.7, 55.3, NAZJATAR },	-- alliance
@@ -1764,13 +1764,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55719, {	-- Requisition: A Few Starfish
-			["providers"] = {
-				{ "n", 154436 },	-- Craftsman Azama
-			--	,	--  (Horde)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["providers"] = {
+				{ "n", 154436 },	-- Craftsman Azama
+			--	,	--  (Horde)
 			},
 			["coords"] = {
 				{ 38.0, 53.3, NAZJATAR },	-- Alliance
@@ -1779,13 +1779,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55789, {	-- Requisition: More Carp
-			["qgs"] = {
-				155941,	-- Tamer Orami (A)
-				151352,	-- Lily Bopip  (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				155941,	-- Tamer Orami (A)
+				151352,	-- Lily Bopip  (H)
 			},
 			["coords"] = {
 				{ 39.5, 55.4, NAZJATAR },	-- Alliance
@@ -1794,13 +1794,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55792, {	-- Requisition: More Cone Shells
-			["qgs"] = {
-				154436,	-- Craftsman Azama (A)
-				151633,	-- Karn Deepweld (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				154436,	-- Craftsman Azama (A)
+				151633,	-- Karn Deepweld (H)
 			},
 			["coords"] = {
 				{ 38.0, 53.4, NAZJATAR },	-- Alliance
@@ -1809,13 +1809,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55790, {	-- Requisition: More Deepcoral Buds
-			["qgs"] = {
-				151772,	-- Ray Tamer Enaka (A)
-				153772,	-- Lina Bluegill (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				151772,	-- Ray Tamer Enaka (A)
+				153772,	-- Lina Bluegill (H)
 			},
 			["coords"] = {
 				{ 39.8, 54.1, NAZJATAR },	-- Alliance
@@ -1824,13 +1824,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55793, {	-- Requisition: More Flotsam
-			["qgs"] = {
-				153509,	-- Artisan Okata (A)
-				153512,	-- Finder Pruc (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				153509,	-- Artisan Okata (A)
+				153512,	-- Finder Pruc (H)
 			},
 			["coords"] = {
 				{ 37.9, 55.6, NAZJATAR },	-- Alliance
@@ -1839,13 +1839,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55787, {	-- Requisition: More Kelp Buds
-			["qgs"] = {
-				153591,	-- Mikah Brewbelly (A)
-				151635,	-- Slen Darkroe (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				153591,	-- Mikah Brewbelly (A)
+				151635,	-- Slen Darkroe (H)
 			},
 			["coords"] = {
 				{ 40.1, 55.6, NAZJATAR },	-- Alliance
@@ -1854,13 +1854,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55786, {	-- Requisition: More Seaweed
-			["qgs"] = {
-				151763,	-- Isla (A)
-				151614,	-- Nevin Tideheart (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				151763,	-- Isla (A)
+				151614,	-- Nevin Tideheart (H)
 			},
 			["coords"] = {
 				{ 37.8, 55.4, NAZJATAR },	-- Alliance
@@ -1869,13 +1869,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55791, {	-- Requisition: More Spiral Leaf
-			["qgs"] = {
-				151763,	-- Isla (A)
-				151614,	-- Nevin Tideheart (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				151763,	-- Isla (A)
+				151614,	-- Nevin Tideheart (H)
 			},
 			["coords"] = {
 				{ 37.8, 55.4, NAZJATAR },	-- Alliance
@@ -1884,13 +1884,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55785, {	-- Requisition: More Starfish
-			["qgs"] = {
-				154436,	-- Craftsman Azama (A)
-				151633,	-- Karn Deepweld (H)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
+			},
+			["qgs"] = {
+				154436,	-- Craftsman Azama (A)
+				151633,	-- Karn Deepweld (H)
 			},
 			["coords"] = {
 				{ 37.9, 53.4, NAZJATAR },	-- Alliance
@@ -1899,13 +1899,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55801, {	-- Requisition: We Need It All
-			["qgs"] = {
-				151618,	-- Asme Seapearl (H)
-				155940,	-- Enizo (A)
-			},
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save A Friend (H)
+			},
+			["qgs"] = {
+				151618,	-- Asme Seapearl (H)
+				155940,	-- Enizo (A)
 			},
 			["coords"] = {
 				{ 37.7, 55.4, NAZJATAR },	-- Alliance
@@ -1914,8 +1914,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(55363, {	-- Rescue The Farseer
-			["provider"] = { "n", 151741 },	-- Apprentice Odari
 			["sourceQuest"] = 55361,	-- The Lost Shaman
+			["provider"] = { "n", 151741 },	-- Apprentice Odari
 			["coord"] = { 43.4, 49.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -1923,8 +1923,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(57024, {	-- Rumors of Mechagon
-			["provider"] = { "n", 156187 },	-- Disgruntled Laborer
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 156187 },	-- Disgruntled Laborer
 			["coords"] = {
 				{ 48.4, 60.6, NAZJATAR },
 				{ 50.1, 92.8, DAZARALOR },
@@ -1933,8 +1933,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isBreadcrumb"] = true,
 		}),
 		q(55600, {	-- Sating Snapdragons (A)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuest"] = 55599,	-- Scouting Undercover
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -1942,8 +1942,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55967, {	-- Sating Snapdragons (H)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuest"] = 55866,	-- Scouting Undercover
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1951,26 +1951,26 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55500, {	-- Save a Friend
-			["provider"] = { "n", 152047 },	-- Poen Gillbrack
-			["sourceQuest"] = 55385,	-- Scouting the Pens
-			["coord"] = { 38.8, 42.4, NAZJATAR },
 			["description"] = "Unlocks the rest of the zone and opens up World Quests.",
+			["sourceQuest"] = 55385,	-- Scouting the Pens
+			["provider"] = { "n", 152047 },	-- Poen Gillbrack
+			["coord"] = { 38.8, 42.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				spell(304906),	-- World Quests
 			},
 		}),
 		q(56321, {	-- Saving Corin
-			["provider"] = { "n", 154514 },	-- Kelya Moonfall
 			["sourceQuest"] = 56304,	-- The High Life
+			["provider"] = { "n", 154514 },	-- Kelya Moonfall
 			["coord"] = { 80.0, 31.4, NAZJATAR },
 		}),
 		q(56350, {	-- Scouting the Palace
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuests"] = {
 				56162,	-- Back Out to Sea (optional quest, but not an actual breadcrumb)
 				57010,	-- Harnessing the Power
 			},
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 40.2, 55.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -1981,11 +1981,11 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55481, {	-- Scouting the Palace
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuests"] = {
 				56161,	-- Back Out to Sea (optional quest, but not an actual breadcrumb)
 				57010,	-- Harnessing the Power
 			},
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1996,26 +1996,26 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55385, {	-- Scouting the Pens
-			["provider"] = { "n", 152108 },	-- Kelfin Scout (neri sharpfin)
 			["sourceQuest"] = 55384,	-- Settling In
+			["provider"] = { "n", 152108 },	-- Kelfin Scout (neri sharpfin)
 			["coord"] = { 49.7, 64.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55599, {	-- Scouting Undercover
-			["provider"] = { "n", 153496 },	-- Adaru
 			["sourceQuest"] = 55598,	-- What We Know of the Naga
+			["provider"] = { "n", 153496 },	-- Adaru
 			["coord"] = { 38.9, 30.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55866, {	-- Scouting Undercover
-			["provider"] = { "n", 153492 },	-- Fenn
 			["sourceQuest"] = 55865,	-- What We Know of the Naga
+			["provider"] = { "n", 153492 },	-- Fenn
 			["coord"] = { 38.9, 30.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56211, {	-- Scrying Stones
-			["provider"] = { "n", 153509 },	-- Artisan Okata
 			["sourceQuest"] = 56156,	-- A Tempered Blade
+			["provider"] = { "n", 153509 },	-- Artisan Okata
 			["coord"] = { 37.8, 55.8, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2023,8 +2023,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56210, {	-- Scrying Stones
-			["provider"] = { "n", 153512 },	-- Finder Pruc
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 153512 },	-- Finder Pruc
 			["coord"] = { 49.0, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2032,8 +2032,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55860, {	-- Sea Slug Liquidation (A)
-			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["sourceQuest"] = 56037,	-- Stealing the Naga's Secrets
+			["provider"] = { "n", 153385 },	-- Blademaster Okani
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2041,8 +2041,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55870, {	-- Sea Slug Liquidation (H)
-			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["sourceQuest"] = 56045,	-- Stealing the Naga's Secrets
+			["provider"] = { "n", 153422 },	-- Chief Telemancer Oculeth
 			["coord"] = { 38.8, 30.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2050,18 +2050,18 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55570, {	-- Secrets in the Ruins
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = {	-- may not require other two, definitely requires *
 				55565,	-- Shoring Up Mana Reserves
 				55694,	-- There's Something in the Water
 				55560,	-- Utama's Vengeance
 			},
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.6, 25.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55486, {	-- Secrets of Telemancy
-			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["sourceQuest"] = 55485,	-- Terrors in the Deep
+			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["coord"] = { 76.4, 29.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2069,14 +2069,14 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55384, {	-- Settling In
-			["provider"] = { "n", 149904 },	-- Neri Sharpfin
 			["sourceQuest"] = 55481,	-- Scouting the Palace
+			["provider"] = { "n", 149904 },	-- Neri Sharpfin
 			["coord"] = { 49.7, 64.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55766, {	-- She Sells These Shells
-			["provider"] = { "n", 153006 },	-- Bren Inkfin
 			["sourceQuest"] = 55500,	-- Save A Friend
+			["provider"] = { "n", 153006 },	-- Bren Inkfin
 			["coord"] = { 38.0, 48.6, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
@@ -2085,8 +2085,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55565, {	-- Shoring Up Mana Reserves
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = { 55561 },	-- What Remains of Zin-Azshari
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 66.0, 43.6, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2094,21 +2094,21 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56118, {	-- Snap Back
-			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade
 				55500,	-- Save A Friend
 			},
+			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["coord"] = { 66.4, 47.3, NAZJATAR },
 			["groups"] = {
 				i(168947),	-- Scroll of Bursting Power (QI!)
 			},
 		}),
 		q(55701, {	-- Snapdragon Claws
-			["provider"] = { "n", 152737 },	-- Tracker Ikuto
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 62.5, 51.7, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 152737 },	-- Tracker Ikuto
+			["coord"] = { 62.5, 51.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2116,20 +2116,20 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55488, {	-- Speak with the Dead
-			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["sourceQuest"] = 55485,	-- Terrors in the Deep
+			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["coord"] = { 76.4, 29.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55094, {	-- Stay Low, Stay Fast!
-			["provider"] = { "n", 150209 },	-- Neri Sharpfin
 			["sourceQuest"] = 56429,	-- Up Against It
+			["provider"] = { "n", 150209 },	-- Neri Sharpfin
 			["coord"] = { 37.2, 67.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56037, {	-- Stealing the Naga's Secrets (A)
-			["provider"] = { "o", 327170 },	-- Weapon Rack
 			["sourceQuest"] = 56039,	-- We Can't Have Dull Weapons
+			["provider"] = { "o", 327170 },	-- Weapon Rack
 			["coord"] = { 34.6, 21.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2137,8 +2137,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56045, {	-- Stealing the Naga's Secrets (H)
-			["provider"] = { "o", 327170 },	-- Weapon Rack
 			["sourceQuest"] = 56047,	-- We Can't Have Dull Weapons
+			["provider"] = { "o", 327170 },	-- Weapon Rack
 			["coord"] = { 34.6, 21.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2158,21 +2158,21 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56239, {	-- Strange Silver Knife (A)
-			["provider"] = { "i", 169215 },	-- Silver Knife
 			["description"] = "Obtained from the first Arcane Chest you find.",
+			["provider"] = { "i", 169215 },	-- Silver Knife
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56240, {	-- Strange Silver Knife (H)
-			["provider"] = { "i", 169216 },	-- Silver Knife
 			["description"] = "Obtained from the first Arcane Chest you find.",
+			["provider"] = { "i", 169216 },	-- Silver Knife
 			["races"] = HORDE_ONLY,
 		}),
 		q(56830, {	-- Summons from the Deep
+			["description"] = "This event takes place every 3 hours (based on realm time, it starts at 3:00, 6:00, 9:00, and 12:00 for NA realms; 1:00, 4:00, 7:00, and 10:00 for EU realms).  A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
 			["coords"] = {
 				{ 48.5, 40.4, NAZJATAR },
 				{ 58.2, 28.7, NAZJATAR },
 			},
-			["description"] = "This event takes place every 3 hours (based on realm time, it starts at 3:00, 6:00, 9:00, and 12:00 for NA realms; 1:00, 4:00, 7:00, and 10:00 for EU realms).  A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
 			["isDaily"] = true,
 			["crs"] = { -- not sure if there are any other bosses that get summoned
 				153306,	-- Azsh'ari Leviathan
@@ -2190,9 +2190,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56809, {	-- Super Friends
-			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
-			["sourceQuest"] = 55500,	-- Save a Friend
 			["description"] = "Offered when |cFFFFD700Poen Gillbrack|r reaches Rank 5.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169909, {	-- Poen's Neat Things
@@ -2201,36 +2201,36 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56817, {	-- Thank You For Being A Friend
-			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 13.",
+			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169920),	-- Neri's Spare Supplies
 			},
 		}),
 		q(55485, {	-- Terrors in the Deep
-			["provider"] = { "n", 152066 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 55482,	-- Making the Connection
+			["provider"] = { "n", 152066 },	-- First Arcanist Thalyssra
 			["coord"] = { 64.2, 52.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56805, {	-- That's What Friends Are For
+			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 7.",
+			["sourceQuest"] = 55500,	-- Save a Friend
 			["qgs"] = {
 				151309,	-- Kelfin Scout (Vim Brineheart)
 				149906,	-- Vim Brineheart
 			},
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 7.",
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169919),	-- Unshackled Commendation Crate
 			},
 		}),
 		q(55665, {	-- The Dark Garden
-			["provider"] = { "n", 152787 },	-- Moris Criz
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 56.0, 18.4, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 152787 },	-- Moris Criz
+			["coord"] = { 56.0, 18.4, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2238,20 +2238,20 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56358, {	-- The Eternal Palace: Queen's Gambit (A)
-			["provider"] = { "n", 153253 },	-- Lady Jaina Proudmoore
 			["sourceQuests"] = { 56325 },	-- Changing Tides
+			["provider"] = { "n", 153253 },	-- Lady Jaina Proudmoore
 			["coord"] = { 50.4, 24.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56356, {	-- The Eternal Palace: Queen's Gambit (H)
-			["provider"] = { "n", 153251 },	-- Lor'themar Theron
 			["sourceQuest"] = 55799,	-- The Tide Turns
+			["provider"] = { "n", 153251 },	-- Lor'themar Theron
 			["coord"] = { 50.6, 24.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56348, {	-- The Eternal Palace: We Can Make It Stronger... (A)
-			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["sourceQuest"] = 56347,	-- An Abyssal Opportunity
+			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["coord"] = { 37.9, 52.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2259,8 +2259,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56352, {	-- The Eternal Palace: We Can Make It Stronger... (H)
-			["provider"] = { "n", 154408 },	-- Rolm
 			["sourceQuest"] = 56353,	-- An Abyssal Opportunity
+			["provider"] = { "n", 154408 },	-- Rolm
 			["coord"] = { 49.3, 61.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2268,8 +2268,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56349, {	-- The Eternal Palace: Pushing the Limits (A)
-			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["sourceQuest"] = 56348,	-- The Eternal Palace: We Can Make It Stronger... (A)
+			["provider"] = { "n", 154257 },	-- Instructor Ulooaka
 			["coord"] = { 37.9, 52.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2277,8 +2277,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56351, {	-- The Eternal Palace: Pushing the Limits (H)
-			["provider"] = { "n", 154408 },	-- Rolm
 			["sourceQuest"] = 56352,	-- The Eternal Palace: We Can Make It Stronger... (H)
+			["provider"] = { "n", 154408 },	-- Rolm
 			["coord"] = { 49.3, 61.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2286,24 +2286,24 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56311, {	-- The Ever Drowning (A)
-			["provider"] = { "n", 154660 },	-- Shandris Feathermoon
 			["sourceQuest"] = 56309,	-- City of Drowned Friends
+			["provider"] = { "n", 154660 },	-- Shandris Feathermoon
 			["coord"] = { 73.9, 41.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56312, {	-- The Ever Drowning (H)
-			["provider"] = { "n", 154661 },	-- First Arcanist Thalyssra
-			["sourceQuest"] = 56310,	-- City of Drowned Friends
-			["coord"] = { 73.9, 41.7, NAZJATAR },
 			["description"] = "Dodge the fleeing civilians.",
+			["sourceQuest"] = 56310,	-- City of Drowned Friends
+			["provider"] = { "n", 154661 },	-- First Arcanist Thalyssra
+			["coord"] = { 73.9, 41.7, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56143, {	-- The Fate of Professor Elryna
-			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["sourceQuests"] = {
 				56095,	-- Legacy of Nar'anan
 				56118,	-- Snap Back
 			},
+			["provider"] = { "n", 154143 },	-- Collector Kojo
 			["coord"] = { 66.4, 47.3, NAZJATAR },
 			["groups"] = {
 				i(169207),	-- Memory Core (QI!)
@@ -2311,17 +2311,17 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(54021, {	-- The First Arcanist
-			["provider"] = { "n", 150207 },	-- Lor'thermar Theron
 			["sourceQuest"] = 54018,	-- Descent
+			["provider"] = { "n", 150207 },	-- Lor'thermar Theron
 			["coord"] = { 36.3, 82.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55489, {	-- The Handmaiden's Tale
-			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["sourceQuests"] = {
 				55486,	-- Secrets of Telemancy
 				55488,	-- Speak with the Dead
 			},
+			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["coord"] = { 76.4, 29.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2329,10 +2329,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55751, {	-- The Heart of the Water
-			["provider"] = { "n", 153685 },	-- Mari Lazarfin
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 60.8, 30.9, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153685 },	-- Mari Lazarfin
+			["coord"] = { 60.8, 30.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2340,19 +2340,19 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56304, {	-- The High Life
-			["provider"] = { "n", 154574 },	-- Kelya Moonfall
 			["sourceQuests"] = {
 				56156,	-- A Tempered Blade (A)
 				55500,	-- Save a Friend (H)
 			},
+			["provider"] = { "n", 154574 },	-- Kelya Moonfall
 			["coord"] = { 74.2, 24.9, NAZJATAR },
 		}),
 		q(55574, {	-- The Javelins of Azshara
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = {
 				55573,	-- Purging the Defilers
 				56739,	-- The Power of Worship
 			},
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.2, 40.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2360,26 +2360,26 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56783, {	-- The Lambent Lockbox
-			["provider"] = { "n", 154304 },	-- Farseer Ori
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 5.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154304 },	-- Farseer Ori
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169905),	-- Faintly Glowing Supplies
 			},
 		}),
 		q(55361, {	-- The Lost Shaman
-			["provider"] = { "n", 151626 },	-- Hunter Akana
 			["sourceQuest"] = 56350,	-- Scouting the Palace
+			["provider"] = { "n", 151626 },	-- Hunter Akana
 			["coord"] = { 39.4, 53.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56785, {	-- The Mystic Chest
+			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 9.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["qgs"] = {
 				154304,	-- Farseer Ori
 			},
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 9.",
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169911, {	-- Liberated Naga Cache
@@ -2389,60 +2389,60 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56739, {	-- The Power of Worship
-			["provider"] = { "n", 152238 },	-- Riathia Silverstar
 			["sourceQuests"] = { 55571 },	-- Help Them See the Truth
+			["provider"] = { "n", 152238 },	-- Riathia Silverstar
 			["coord"] = { 54.2, 20.8, 1499 },	-- a temple... thing?  not sure the actual map's name
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55864, {	-- The Price is Death
-			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["sourceQuest"] = 55862,	-- Insight into Our Enemies
+			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56782, {	-- The Speaker's Gift (also gave credit for Horde quest 56803 "Just a Friend")
-			["provider"] = { "n", 154304 },	-- Waveblade Shaman (Farseer Ori)
 			["description"] = "Offered when |cFFFFD700Farseer Ori|r reaches rank 2.",
+			["provider"] = { "n", 154304 },	-- Waveblade Shaman (Farseer Ori)
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169903),	-- Nazjatar Survival Pack
 			},
 		}),
 		q(56741, {	-- The Spear of Destiny
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = { 55574 },	-- The Javelins of Azshara
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 74.2, 40.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55799, {	-- The Tide Turns
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 55490,	-- We'll Poke Their Eye Out
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56313, {	-- The Warbringer (A)
-			["provider"] = { "n", 155071 },	-- Shandris Feathermoon
 			["sourceQuest"] = 56311,	-- The Ever Drowning
+			["provider"] = { "n", 155071 },	-- Shandris Feathermoon
 			["coord"] = { 79.7, 44.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56314, {	-- The Warbringer (H)
-			["provider"] = { "n", 155325 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 56312,	-- The Ever Drowning
+			["provider"] = { "n", 155325 },	-- First Arcanist Thalyssra
 			["coord"] = { 79.7, 44.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55694, {	-- There's Something in the Water
-			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["sourceQuests"] = { 55558 },	-- A Bolt Hole
+			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["coord"] = { 62.4, 36.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55633, {	-- The Sunken Chest
-			["provider"] = { "o", 325795 },	-- Sunken Chest
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 45.7, 83.7, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 325795 },	-- Sunken Chest
+			["coord"] = { 45.7, 83.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2466,20 +2466,20 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56315, {	-- They Made Their Choice (A)
-			["provider"] = { "n", 155071 },	-- Shandris Feathermoon
 			["sourceQuest"] = 56313,	-- The Warbringer
+			["provider"] = { "n", 155071 },	-- Shandris Feathermoon
 			["coord"] = { 79.7, 44.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56316, {	-- They Made Their Choice (H)
-			["provider"] = { "n", 155325 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 56314,	-- The Warbringer
+			["provider"] = { "n", 155325 },	-- First Arcanist Thalyssra
 			["coord"] = { 79.7, 44.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56219, {	--	Tome of Tears
-			["provider"] = { "n", 151309 },	-- Vim Brineheart
 			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches rank 20.",
+			["provider"] = { "n", 151309 },	-- Vim Brineheart
 			["races"] = HORDE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -2489,8 +2489,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55883, {	-- To Soar Like a Ray
-			["provider"] = { "n", 153321 },	-- Ian Langill
 			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 153321 },	-- Ian Langill
 			["coord"] = { 52.7, 52.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
@@ -2500,22 +2500,22 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55469, {	-- To Zin-Azshari
-			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["sourceQuest"] = 56236,	-- Down But Not Out
+			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56781, {	-- Treasure in the Deep
-			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 20.",
+			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169917),	-- Mysterious Azshari Cache
 			},
 		}),
 		q(56247, {	-- Treasure Tale (A)
-			["provider"] = { "o", 327592 },	-- Enchanted Lock
 			["sourceQuest"] = 56246,	-- Enchanted Lock
+			["provider"] = { "o", 327592 },	-- Enchanted Lock
 			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2523,8 +2523,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56248, {	-- Treasure Tale (H)
-			["provider"] = { "o", 327592 },	-- Enchanted Lock
 			["sourceQuest"] = 56245,	-- Enchanted Lock
+			["provider"] = { "o", 327592 },	-- Enchanted Lock
 			["coord"] = { 78.8, 41.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2532,8 +2532,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56790, {	-- Treasure to Find
-			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["description"] = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 9.",
+			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(169911, {	-- Liberated Naga Cache
@@ -2542,9 +2542,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56152, {	-- Turn the Scale (A)
+			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["provider"] = { "n", 154238 },	-- Tracker Akatani
 			["coord"] = { 31.2, 37.5, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2552,9 +2552,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55980, {	-- Turn the Scale (H)
+			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 			["provider"] = { "n", 153543 },	-- Krato Flipperfoot
 			["coord"] = { 34.4, 37.8, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2562,10 +2562,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55032, {	-- Unchained Resistance
-			["provider"] = { "n", 150553 },	-- Tracker Okaju
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 48.4, 52.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 150553 },	-- Tracker Okaju
+			["coord"] = { 48.4, 52.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2573,40 +2573,40 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56644, {	-- Up Against it (A)
-			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["sourceQuest"] = 56643,	-- In Deep
+			["provider"] = { "n", 150101 },	-- Lady Jaina Proudmoore
 			["coord"] = { 45.5, 74.9, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56429, {	-- Up Against It (H)
-			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["sourceQuest"] = 54015,	-- In Deep
+			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
 			["coord"] = { 38.5, 76.1, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55095, {	-- Upheaval (A)
-			["provider"] = { "n", 150087 },	-- Genn Greymane
 			["sourceQuest"] = 56043,	-- Send the Fleet
+			["provider"] = { "n", 150087 },	-- Genn Greymane
 			["coord"] = { 48.2, 92.7, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55054, {	-- Upheaval (H)
-			["provider"] = { "n", 150187 },	-- Nathanos Blightcaller
 			["sourceQuest"] = 56044,	-- Send the Fleet
+			["provider"] = { "n", 150187 },	-- Nathanos Blightcaller
 			["coord"] = { 36.7, 93.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55560, {	-- Utama's Vengeance
-			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["sourceQuests"] = { 55558 },	-- A Bolt Hole
+			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["coord"] = { 62.4, 36.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55714, {	-- Void Cache (A)
-			["provider"] = { "o", 326026 },	-- Void Cache
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
-			["coord"] = { 56.3, 15.0, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
+			["provider"] = { "o", 326026 },	-- Void Cache
+			["coord"] = { 56.3, 15.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2614,9 +2614,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56232, {	-- Void Cache (H)
+			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["sourceQuest"] = 55500,	-- Save a Friend
 			["coord"] = { 56.3, 15.0, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2624,9 +2624,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55777, {	-- Wanted: Braxicus
+			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["provider"] = { "o", 326140 },	-- Bounty Board
 			["coord"] = { 39.1, 54.1, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2634,9 +2634,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55770, {	-- WANTED: Commander Sarj'eth (A)
+			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["provider"] = { "o", 326141 },	-- Bounty Board
 			["coord"] = { 39.1, 54.1, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2653,18 +2653,18 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55776, {	-- WANTED: Emorneth
-			["provider"] = { "o", 326140 },	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326140 },	-- Bounty Board
+			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 		}),
 		q(55773, {	-- WANTED: Gler'thogg (A)
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2672,10 +2672,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56226, {	-- WANTED: Gler'thogg (H)
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2683,10 +2683,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55775, {	-- WANTED: Haggronar
-			["provider"] = { "o", 326140 },	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326140 },	-- Bounty Board
+			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2694,10 +2694,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55774, {	-- WANTED: Inquisitor Ithriza (A)
-			["provider"] = {"o",326141},	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
-			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
+			["provider"] = {"o",326141},	-- Bounty Board
+			["coord"] = { 39.2, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2714,9 +2714,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55772, {	-- WANTED: Lady Narjiss (A)
+			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["provider"] = { "o", 326141 },	-- Bounty Board
 			["coord"] = { 39.1, 54.1, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2724,9 +2724,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56225, {	-- Wanted: Lady Narjiss (H)
+			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["provider"] = { "o", 327585 },	-- Bounty Board
 			["coord"] = { 47.9, 61.3, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2734,10 +2734,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55750, {	-- WANTED: Lady Naz'jess
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2745,10 +2745,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56222, {	-- WANTED: Lady Naz'jess
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 48.0, 61.5, NAZJATAR },
 			--["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2756,10 +2756,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55771, {	-- WANTED: Lord Ha'kass
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] ={
@@ -2767,10 +2767,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56224, {	-- WANTED: Lord Ha'kass
-			["provider"] = { "o", 326142 },	-- Bounty Board
-			["sourceQuest"] = 55500,	-- Save a Friend
-			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "o", 326142 },	-- Bounty Board
+			["coord"] = { 48.0, 61.5, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] ={
@@ -2778,39 +2778,39 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56039, {	-- We Can't Have Dull Weapons (A)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuests"] = {
 				55600,	-- Sating Snapdragons
 				56038,	-- Working with Purpose
 			},
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56047, {	-- We Can't Have Dull Weapons (H)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuests"] = {
 				55967,	-- Sating Snapdragons
 				56046,	-- Working with Purpose
 			},
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55490, {	-- We'll Poke Their Eye Out
-			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["sourceQuest"] = 55489,	-- The Handmaiden's Tale
+			["provider"] = { "n", 152316 },	-- Image of Thalyssra
 			["coord"] = { 79.8, 38.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56808, {	-- We're Going To Be Friends
-			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["description"] = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 2.",
+			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrack)
 			["races"] = HORDE_ONLY,
 		}),
 		q(56000, {	-- We've Got Crabs! (A)
-			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
+			["coord"] = { 25.5, 26.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2818,10 +2818,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56264, {	-- We've Got Crabs! (H)
-			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
-			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
-			["coord"] = { 25.4, 26.3, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend -- todo: verify sourceQuest. Most likely after unlocking the conch
+			["provider"] = { "n", 153884 },	-- King Mrgl-Mrgl
+			["coord"] = { 25.4, 26.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2829,17 +2829,17 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55561, {	-- What Remains of Zin-Azshari
-			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["sourceQuests"] = { 55558 },	-- A Bolt Hole
+			["provider"] = { "n", 153617 },	-- Shandris Feathermoon
 			["coord"] = { 62.4, 36.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55598, {	-- What We Know of the Naga
-			["provider"] = { "n", 153496 },	-- Adaru
 			["sourceQuests"] = {
 				55597,	-- Bound by Honor
 				55595,	-- Deteriorating Knowledge
 			},
+			["provider"] = { "n", 153496 },	-- Adaru
 			["coord"] = { 38.9, 30.3, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2850,11 +2850,11 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55865, {	-- What We Know of the Naga
-			["provider"] = { "n", 153492 },	-- Fenn
 			["sourceQuests"] = {
 				55863,	-- Deteriorating Knowledge
 				55864,	-- The Price is Death
 			},
+			["provider"] = { "n", 153492 },	-- Fenn
 			["coord"] = { 38.9, 30.3, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2865,8 +2865,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55426, {	-- What Will It Grow?
-			["provider"] = { "i", 167786 },	-- Germinating Seed
 			["description"] = "Germinating Seed can drop from any rare in Nazjatar.",
+			["provider"] = { "i", 167786 },	-- Germinating Seed
 			["_drop"] = { "g" },	-- Drops Zin'anthid
 			["groups"] = {
 				currency(1721),	-- Prismatic Manapearl
@@ -2874,8 +2874,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55602, {	-- What Will It Lure?
-			["provider"] = { "i", 168155 },	-- Chum
 			["description"] = "Chum can drop from any rare in Nazjatar.",
+			["provider"] = { "i", 168155 },	-- Chum
 			["_drop"] = { "g" },
 			["groups"] = {
 				currency(1721),	-- Prismatic Manapearls
@@ -2885,8 +2885,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55531, {	-- What Will It Mine?
-			["provider"] = { "i", 168081 },	-- Brinestone Pickaxe
 			["description"] = "Brinestone Pickaxe can drop from any rare in Nazjatar or be mined from Osmenite Deposits or Seams.",
+			["provider"] = { "i", 168081 },	-- Brinestone Pickaxe
 			["_drop"] = { "g" },	-- Drop Osmemite Ore
 			["groups"] = {
 				currency(1721),	-- Prismatic Manapearl
@@ -2900,16 +2900,16 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55175, {	-- Where the Road Leads
-			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["sourceQuest"] = 56644,	-- Up Against It
+			["provider"] = { "n", 151000 },	-- Blademaster Okani
 			["coord"] = { 48.9, 67.4, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56154, {	-- Where They Hide
-			["provider"] = { "n", 154241 },	-- Seeker Anagi
-			["sourceQuests"] = { 56156 },	-- A Tempered Blade
-			["coord"] = { 41.3, 58.2, NAZJATAR },
 			["description"] = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
+			["sourceQuests"] = { 56156 },	-- A Tempered Blade
+			["provider"] = { "n", 154241 },	-- Seeker Anagi
+			["coord"] = { 41.3, 58.2, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2917,13 +2917,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55872, {	-- Where They Hide
+			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
+			["sourceQuest"] = 55500,	-- Save a Friend
 			["providers"] = {
 				{"o",326142},	-- Bounty Board
 				{"n",153364},	-- Scout Marlin
 			},
-			["sourceQuest"] = 55500,	-- Save a Friend
 			["coord"] = { 45.6, 58.6, NAZJATAR },
-			["description"] = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 			["races"] = HORDE_ONLY,
 			["isDaily"] = true,
 			["groups"] = {
@@ -2931,11 +2931,11 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56217, {	-- Wild Tame
+			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 20.",
 			["qgs"] = {
 				150202,	-- Hunter Akana	(active bodyguard ID)
 				149804,	-- Hunter Akana (inactive in front of the bonfire)
 			},
-			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 20.",
 			["races"] = ALLIANCE_ONLY,
 			["lvl"] = 120,
 			["groups"] = {
@@ -2945,17 +2945,17 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56815, {	-- With A Little Help From My Friends
-			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 7.",
+			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169919),	-- Unshackled Commendation Crate
 			},
 		}),
 		q(56804, {	-- With Friends Like You, Who Needs Anemones?
-			["provider"] = { "n", 151309 },	-- Vim Brineheart
-			["sourceQuest"] = 55500,	-- Save a Friend
 			["description"] = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 5.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151309 },	-- Vim Brineheart
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169910, {	-- Vim's Scavenged Supplies
@@ -2964,8 +2964,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56038, {	-- Working with Purpose (A)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuests"] = { 55599 },	-- Scouting Undercover
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
@@ -2973,8 +2973,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56046, {	-- Working with Purpose (H)
-			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["sourceQuest"] = 55866,	-- Scouting Undercover
+			["provider"] = { "n", 153936 },	-- Overseer Hajeer
 			["coord"] = { 36.9, 27.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -2982,9 +2982,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56811, {	-- You've Got A Friend In Me
-			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrac)
-			["sourceQuest"] = 55500,	-- Save a Friend
 			["description"] = "Offered when |cFFFFD700Poen Gillbract|r reaches Rank 9.",
+			["sourceQuest"] = 55500,	-- Save a Friend
+			["provider"] = { "n", 151310 },	-- Kelfin Scout (Poen Gillbrac)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(169915),	-- Poen's Stashed Supplies

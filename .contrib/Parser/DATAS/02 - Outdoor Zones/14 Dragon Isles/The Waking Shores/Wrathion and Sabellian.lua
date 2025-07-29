@@ -107,15 +107,15 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(72337, {	-- Greater Obsidian Key
-					["provider"] = { "n", 187284 },	-- Wrathion
 					["sourceQuest"] = 66133,	-- Keys of Loyalty
+					["provider"] = { "n", 187284 },	-- Wrathion
 					["coord"] = { 26.8, 62.5, THE_WAKING_SHORES },
 					["cost"] = { { "i", 191255, 1 }, },	-- 1x Greater Obsidian Key
 					["isWeekly"] = true,
 				}),
 				q(72338, {	-- Greater Obsidian Key
-					["provider"] = { "n", 187447 },	-- Sabellian
 					["sourceQuest"] = 66805,	-- Keys of Loyalty
+					["provider"] = { "n", 187447 },	-- Sabellian
 					["coord"] = { 27.6, 56.5, THE_WAKING_SHORES },
 					["cost"] = { { "i", 191255, 1 }, },	-- 1x Greater Obsidian Key
 					["isWeekly"] = true,
@@ -155,8 +155,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66130, {	-- Unlocking our Past
-					["provider"] = { "n", 187284 },	-- Wrathion
 					["sourceQuests"] = { 72337 },	-- Greater Obsidian Key
+					["provider"] = { "n", 187284 },	-- Wrathion
 					["coord"] = { 26.8, 62.5, THE_WAKING_SHORES },
 					["cost"] = { { "i", 191264, 1 }, },	-- 1x Restored Obsidian Key
 					["repeatable"] = true,
@@ -176,8 +176,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(67221, {	-- A Head For Metal
-					["provider"] = { "n", 191194 },	-- Weaponsmith Mida
 					["sourceQuests"] = { 66359 },	-- First Completion of 'Unlocking our Past' (Forgemaster Bazentus)
+					["provider"] = { "n", 191194 },	-- Weaponsmith Mida
 					["coord"] = { 24.5, 60.9, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -191,23 +191,23 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["isWeekly"] = true,
 				}),
 				q(66883, {	-- Ancient Horn Ring
-					["provider"] = { "i", 193611 },	-- Ancient Horn Ring
 					["sourceQuests"] = { 66805 },	-- Keys of Loyalty
+					["provider"] = { "i", 193611 },	-- Ancient Horn Ring
 					["isWeekly"] = true,
 				}),
 				q(70847, {	-- Ancient Obsidian Charm
-					["provider"] = { "i", 199915 },	-- Ancient Obsidian Charm
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "i", 199915 },	-- Ancient Obsidian Charm
 					["isWeekly"] = true,
 				}),
 				q(66321, {	-- Bar Their Efforts
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["isWeekly"] = true,
 				}),
 				q(66856, {	-- Becca Black and the Seven Gnomes
-					["provider"] = { "n", 191014 },	-- Becca Black
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191014 },	-- Becca Black
 					["coord"] = { 26.5, 62.5, THE_WAKING_SHORES },
 					["isDaily"] = true,
 					["groups"] = {
@@ -217,8 +217,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(69926, {	-- Becca Black and the Seven Gnomes
-					["provider"] = { "n", 191014 },	-- Becca Black
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191014 },	-- Becca Black
 					["coord"] = { 26.4, 62.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -228,8 +228,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65842, {	-- Disarming Behavior
-					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["coord"] = { 26.6, 62.5, THE_WAKING_SHORES },
 					["isDaily"] = true,
 					["groups"] = {
@@ -237,8 +237,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(67051, {	-- Dragon Eyes
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["coord"] = { 27.6, 56.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -248,8 +248,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(67099, {	-- Dragon Eyes
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["coord"] = { 27.6, 56.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -259,14 +259,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66103, {	-- Eager to Please
-					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["coord"] = { 26.6, 62.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 				}),
 				q(66308, {	-- Feeding the Fire
-					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["coord"] = { 24.8,60.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -274,35 +274,35 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(69983, {	-- Flamecarved Bone
-					["provider"] = { "i", 198071 },	-- Flamecarved Bone
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "i", 198071 },	-- Flamecarved Bone
 					["isWeekly"] = true,
 				}),
 				q(70848, {	-- Forgotten Dragon Crest
-					["provider"] = { "i", 199831 },	-- Forgotten Dragon Crest
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "i", 199831 },	-- Forgotten Dragon Crest
 					["isDaily"] = true,
 				}),
 				q(69984, {	-- Gold-Banded Dragon Tooth
-					["provider"] = { "i", 198072 },	-- Gold-Banded Dragon Tooth
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "i", 198072 },	-- Gold-Banded Dragon Tooth
 					["isWeekly"] = true,
 				}),
 				q(67004, {	-- Good Things in Large Boxes
-					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["sourceQuest"] = 66359,	-- First Completion of 'Unlocking our Past' (Forgemaster Bazentus)
+					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["coord"] = { 24.8,60.3, THE_WAKING_SHORES },
 					["isDaily"] = true,
 				}),
 				q(72447, {	-- Greatest of Threads
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["coord"] = { 27.6, 56.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 				}),
 				q(66449, {	-- Hands-Off Operation
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["coord"] = { 27.6, 56.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -310,8 +310,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66445, {	-- Honor Our Fallen
-					["provider"] = { "n", 191193 },	-- Exadria
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 191193 },	-- Exadria
 					["coord"] = { 27.6, 56.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -321,13 +321,13 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66882, {	-- Lost Battlepack
-					["provider"] = { "i", 193600 },	-- Lost Battlepack
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "i", 193600 },	-- Lost Battlepack
 					["isDaily"] = true,
 				}),
 				q(66633, {	-- Make a Statement
-					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["coord"] = { 26.6, 62.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -335,8 +335,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65840, {	-- Same as the Old Boss
-					["provider"] = { "n", 191304 },	-- Aizir the Inflamed
 					["sourceQuest"] = 66362,	-- First Completion of 'Unlocking our Past' (Igys the Believer)
+					["provider"] = { "n", 191304 },	-- Aizir the Inflamed
 					["coord"] = { 32.0, 52.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["crs"] = { 186163 },	-- Doventhal the Chosen
@@ -345,8 +345,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66894, {	-- Same as the Old Boss
-					["provider"] = { "n", 191307 },	-- Vyzos the Prophet
 					["sourceQuest"] = 66362,	-- First Completion of 'Unlocking our Past' (Igys the Believer)
+					["provider"] = { "n", 191307 },	-- Vyzos the Prophet
 					["coord"] = { 32.0, 52.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["crs"] = { 191306 },	-- Aizir the Inflamed
@@ -364,20 +364,20 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(72448, {	-- Securing Our Legacy
-					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["coord"] = { 26.6, 62.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 				}),
 				q(69918, {	-- Shaking Our Foundations
-					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 190899 },	-- Talonstalker Kavia
 					["coord"] = { 26.6, 62.4, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 				}),
 				q(66326, {	-- The Tools of One's Trade
-					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 188179 },	-- Stoker Volrax
 					["coord"] = { 24.8,60.3, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -388,8 +388,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(72456, {	-- Tomes Of Trust
-					["provider"] = { "n", 188344 },	-- Chydrass
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 188344 },	-- Chydrass
 					["coord"] = { 25, 56.1, THE_WAKING_SHORES },
 					-- TODO: Possibly this requires HQT 64277 to unlock rather than the quest above
 					["groups"] = {
@@ -397,8 +397,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(67142, {	-- Wyrm Food
-					["provider"] = { "n", 196518 },	-- Voraxian
 					["sourceQuest"] = 66419,	-- Allegiance To One
+					["provider"] = { "n", 196518 },	-- Voraxian
 					["coord"] = { 27.6,56.7, THE_WAKING_SHORES },
 					["isWeekly"] = true,
 					["groups"] = {

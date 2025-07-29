@@ -19,38 +19,38 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["isBreadcrumb"] = true,
 				}),
 				q(67700, {	-- To The Dragon Isles! [A]
-					["provider"] = { "n", 189077 },	-- Toddy Whiskers
 					["sourceQuests"] = {
 						66596,	--  Whispers in the Winds [A]
 						70197,	--	The Call of the Isles [A]
 					},
+					["provider"] = { "n", 189077 },	-- Toddy Whiskers
 					["coord"] = { 22.7, 55.6, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(65444, {	-- To the Dragon Isles! [H]
-					["provider"] = { "n", 197279 },	-- Naleidea Rivergleam
 					["sourceQuests"] = {
 						65439,	-- Whispers on the Winds [H]
 						70198,	-- The Call of the Isles [H]
 					},
+					["provider"] = { "n", 197279 },	-- Naleidea Rivergleam
 					["coord"] = { 55.8, 12.7, DUROTAR },
 					["races"] = HORDE_ONLY,
 				}),
 				q(70122, {	-- Explorers in Peril [A]
-					["provider"] = { "n", 189022 },	-- Toddy Whiskers
 					["sourceQuests"] = { 67700 },	-- To The Dragon Isles! [A]
+					["provider"] = { "n", 189022 },	-- Toddy Whiskers
 					["coord"] = { 82.1, 31.9, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(65452, {	-- Explorers in Peril [H]
-					["provider"] = { "n", 184841 },	-- Naleidea Rivergleam
 					["sourceQuests"] = { 65444 },	-- To the Dragon Isles! [H]
+					["provider"] = { "n", 184841 },	-- Naleidea Rivergleam
 					["coord"] = { 80.6, 27.6, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,
 				}),
 				q(70124, {	-- Practice Materials [A]
-					["provider"] = { "n", 189021 },	-- Thaelin Darkanvil
 					["sourceQuests"] = { 67700 },	-- To The Dragon Isles! [A]
+					["provider"] = { "n", 189021 },	-- Thaelin Darkanvil
 					["coord"] = { 82.1, 31.9, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -58,8 +58,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65451, {	-- Practice Materials [H]
-					["provider"] = { "n", 184844 },	-- Boss Magor
 					["sourceQuests"] = { 65444 },	-- To the Dragon Isles! [H]
+					["provider"] = { "n", 184844 },	-- Boss Magor
 					["coord"] = { 80.6, 27.7, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -67,43 +67,42 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70123, {	-- Primal Pests [A]
-					["provider"] = { "n", 189035 },	-- Scalecommander Azurathel
 					["sourceQuests"] = { 67700 },		-- To The Dragon Isles! [A]
+					["provider"] = { "n", 189035 },	-- Scalecommander Azurathel
 					["coord"] = { 82.2, 31.8, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(65453, {	-- Primal Pests [H]
-					["provider"] = { "n", 184859 },	-- Scalecommander Cindretresh
 					["sourceQuests"] = { 65444 },	-- To the Dragon Isles! [H]
+					["provider"] = { "n", 184859 },	-- Scalecommander Cindretresh
 					["coord"] = { 80.7, 27.6, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,
 				}),
 				q(70125, {	-- Where is Wrathion? [A]
-					["provider"] = { "n", 187251 },	-- Toddy Whiskers
 					["sourceQuests"] = {
 						70122,	-- Explorers in Peril [A]
 					},
+					["provider"] = { "n", 187251 },	-- Toddy Whiskers
 					["coord"] = { 76.6, 33.6, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(69910, {	-- Where is Wrathion? [H]
-					["provider"] = { "n", 184870 },	-- Naleidea Rivergleam
 					["sourceQuests"] = {
 						65452,	-- Explorers in Peril [H]
 					},
+					["provider"] = { "n", 184870 },	-- Naleidea Rivergleam
 					["coord"] = { 76.6, 33.6, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,
 				}),
 				q(69911, {	-- Excuse the Mess
-					["provider"] = { "n", 193362 },	-- Sendrax
 					["sourceQuests"] = {
 						70125,	-- Where is Wrathion? [A]
 						69910,	-- Where is Wrathion? [H]
 					},
+					["provider"] = { "n", 193362 },	-- Sendrax
 					["coord"] = { 76.6, 33.7, THE_WAKING_SHORES },
 				}),
 				q(69912, {	-- My First Real Emergency!
-					["provider"] = { "n", 193362 },	-- Sendrax
 					["sourceQuests"] = {
 						69911,	-- Excuse the Mess
 						70123,	-- Primal Pests [A]
@@ -111,27 +110,28 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						70124,	-- Practice Materials [A]
 						65451,	-- Practice Materials [H]
 					},
+					["provider"] = { "n", 193362 },	-- Sendrax
 					["coord"] = { 76.6, 33.7, THE_WAKING_SHORES },
 				}),
 				q(69914, {	-- The Djaradin Have Awoken
-					["provider"] = { "n", 193372 },	-- Majordomo Selistra
 					["sourceQuests"] = { 69912 },	-- My First Real Emergency!
+					["provider"] = { "n", 193372 },	-- Majordomo Selistra
 					["coord"] = { 76.6, 33.7, THE_WAKING_SHORES },
 				}),
 				------ Chapter 1 ------
 				q(65760, {	-- Reporting for Duty
-					["provider"] = { "n", 193363 },	-- Sendrax
 					["sourceQuests"] = { 69914 },	-- The Djaradin Have Awoken
+					["provider"] = { "n", 193363 },	-- Sendrax
 					["coord"] = { 76.3, 34.4, THE_WAKING_SHORES },
 				}),
 				q(65990, {	-- Deliver Whelps From Evil
-					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["sourceQuests"] = { 65760 },	-- Reporting for Duty
+					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["coord"] = { 71.2, 40.8, THE_WAKING_SHORES },
 				}),
 				q(65989, {	-- Invader Djaradin
-					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["sourceQuests"] = { 65760 },	-- Reporting for Duty
+					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["coord"] = { 71.2, 40.8, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194401),	-- Expedition Guard's Chestguard
@@ -141,21 +141,21 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65991, {	-- Time for a Reckoning
-					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["sourceQuests"] = {
 						65990,	-- Deliver Whelps From Evil
 						65989,	-- Invader Djaradin
 					},
+					["provider"] = { "n", 186584 },	-- Commander Lethanak
 					["coord"] = { 71.2, 40.8, THE_WAKING_SHORES },
 				}),
 				q(65992, {	-- Blacktalon Intel
-					["provider"] = { "n", 186640 },	-- Wrathion
 					["sourceQuests"] = { 65991 },	-- Time for a Reckoning
+					["provider"] = { "n", 186640 },	-- Wrathion
 					["coord"] = { 66.4, 35.0, THE_WAKING_SHORES },
 				}),
 				q(65993, {	-- Killjoy
-					["provider"] = { "n", 186640 },	-- Wrathion
 					["sourceQuests"] = { 65991 },	-- Time for a Reckoning
+					["provider"] = { "n", 186640 },	-- Wrathion
 					["coord"] = { 66.4, 35.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194389),	-- Brush Clearing Axe
@@ -170,34 +170,34 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65995, {	-- The Obsidian Citadel
-					["provider"] = { "i", 193874 },	-- Qalashi Plans
 					["sourceQuests"] = {
 						65992,	-- Blacktalon Intel
 						65993,	-- Killjoy
 					},
+					["provider"] = { "i", 193874 },	-- Qalashi Plans
 					["coord"] = { 63.1, 29.5, THE_WAKING_SHORES },
 				}),
 				q(65996, {	-- Veteran Reinforcements
-					["provider"] = { "n", 186767 },	-- Majordomo Selistra
 					["sourceQuests"] = { 65995 },	-- The Obsidian Citadel
+					["provider"] = { "n", 186767 },	-- Majordomo Selistra
 					["coord"] = { 62.7, 33.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(193917),	-- Rejuvenating Draught
 					},
 				}),
 				q(65997, {	-- Chasing Sendrax
-					["provider"] = { "n", 190155 },	-- Caretaker Azkra
 					["sourceQuests"] = { 65996 },	-- Veteran Reinforcements
+					["provider"] = { "n", 190155 },	-- Caretaker Azkra
 					["coord"] = { 55.0, 30.8, THE_WAKING_SHORES },
 				}),
 				q(65998, {	-- Future of the Flights
-					["provider"] = { "n", 187406 },	-- Sendrax
 					["sourceQuests"] = { 65997 },	-- Chasing Sendrax
+					["provider"] = { "n", 187406 },	-- Sendrax
 					["coord"] = { 55.2, 25.0, THE_WAKING_SHORES },
 				}),
 				q(66000, {	-- Library of Alexstrasza
-					["provider"] = { "o", 377499 },	-- On the Origin of Draconic Species
 					["sourceQuests"] = { 65997 },	-- Chasing Sendrax
+					["provider"] = { "o", 377499 },	-- On the Origin of Draconic Species
 					["coord"] = { 55.3, 24.7, THE_WAKING_SHORES },
 					["groups"] = {
 						o(376943, {	-- Dracuixote
@@ -227,20 +227,20 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65999, {	-- Red in Tooth and Claw
-					["provider"] = { "n", 187406 },	-- Sendrax
 					["sourceQuests"] = { 65997 },	-- Chasing Sendrax
+					["provider"] = { "n", 187406 },	-- Sendrax
 					["coord"] = { 55.2, 25.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194369),	-- Primalist Pendant
 					},
 				}),
 				q(66001, {	-- A Last Hope
-					["provider"] = { "n", 190171 },	-- Sendrax
 					["sourceQuests"] = {
 						65998,	-- Future of the Flights
 						66000,	-- Library of Alexstrasza
 						65999,	-- Red in Tooth and Claw
 					},
+					["provider"] = { "n", 190171 },	-- Sendrax
 					["coord"] = { 54.0, 22.8, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194382),	-- Expedition Mercenary's Boots
@@ -251,13 +251,13 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				------ Chapter 2 ------
 				q(66114, {	-- For the Benefit of the Queen
-					["provider"] = { "n", 186795 },	-- Majordomo Selistra
 					["sourceQuests"] = { 66001 },	-- A Last Hope
+					["provider"] = { "n", 186795 },	-- Majordomo Selistra
 					["coord"] = { 55.1, 31.0, THE_WAKING_SHORES },
 				}),
 				q(68795, {	-- Dragonriding
-					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
+					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 62.3, 73.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194034),	-- Renewed Proto-Drake (MOUNT!)
@@ -265,32 +265,32 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(65118, {	-- How to Glide with Your Dragon
-					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["sourceQuests"] = { 68795 },	-- Dragonriding
+					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["coord"] = { 57.7, 66.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(188134),	-- Bronze Timepiece
 					},
 				}),
 				q(65120, {	-- How To Dive with Your Dragon
-					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["sourceQuests"] = { 65118 },	-- How to Glide with Your Dragon
+					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["coord"] = { 57.7, 66.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(188139),	-- Bronze Timepiece
 					},
 				}),
 				q(65133, {	-- How to Use Momentum with Your Dragon
-					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["sourceQuests"] = { 65120 },	-- How To Dive with Your Dragon
+					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["coord"] = { 57.7, 66.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(188169),	-- Bronze Timepiece
 					},
 				}),
 				q(77345, {	-- The Need For Higher Velocities
-					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["sourceQuests"] = { 65133 },	-- How to Use Momentum with Your Dragon
+					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["coord"] = { 57.7, 66.9, THE_WAKING_SHORES },
 					["timeline"] = { ADDED_10_1_7 },
 					["groups"] = {
@@ -298,13 +298,13 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(68796, {	-- The Skytop Observatory
-					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["sourceQuests"] = { 65133 },	-- How to Use Momentum with Your Dragon
+					["provider"] = { "n", 193287 },	-- Lord Andestrasz
 					["coord"] = { 57.7, 66.9, THE_WAKING_SHORES },
 				}),
 				q(68797, {	-- A New Set of Horns
-					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["sourceQuests"] = { 68796 },	-- The Skytop Observatory
+					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["coord"] = { 75.2, 55.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(197380),	-- Renewed Proto-Drake: Curved Horns (MM!)
@@ -312,18 +312,18 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(68798, {	-- Dragon Glyphs and You
-					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["sourceQuests"] = { 68797 },	-- A New Set of Horns
+					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["coord"] = { 75.2, 55.0, THE_WAKING_SHORES },
 				}),
 				q(68799, {	-- Return to the Ruby Lifeshrine
-					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["sourceQuests"] = { 68798 },	-- Meet the Trainers
+					["provider"] = { "n", 193359 },	-- Lord Andestrasz
 					["coord"] = { 75.2, 55.0, THE_WAKING_SHORES },
 				}),
 				q(66115, {	-- The Mandate of the Red
-					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
+					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 62.3, 73.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194344),	-- Expedition Guard's Gauntlets
@@ -333,56 +333,56 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70061, {	-- Training Wings
-					["provider"] = { "n", 194174 },	-- Amella
 					["sourceQuests"] = { 66115 },	-- The Mandate of the Red
+					["provider"] = { "n", 194174 },	-- Amella
 					["coord"] = { 62.2, 70.5, THE_WAKING_SHORES },
 					["groups"] = {
 						i(197406),	-- Renewed Proto-Drake: Spined Tail (MM!)
 					},
 				}),
 				q(66931, {	-- Who Brought the Ruckus?
-					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = {
 						68799,	-- Return to the Ruby Lifeshrine
 						70061,	-- Training Wings
 					},
+					["provider"] = { "n", 187290 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 62.3, 73.0, THE_WAKING_SHORES },
 				}),
 				q(66116, {	-- The Primary Threat
-					["provider"] = { "n", 190293 },	-- Majordomo Selistra
 					["sourceQuests"] = { 66931 },	-- Who Brought the Ruckus?
+					["provider"] = { "n", 190293 },	-- Majordomo Selistra
 					["coord"] = { 59.5, 72.6, THE_WAKING_SHORES },
 				}),
 				q(66118, {	-- Basalt Assault
-					["provider"] = { "n", 187119 },	-- Commander Lethanak
 					["sourceQuests"] = { 66116 },	-- The Primary Threat
+					["provider"] = { "n", 187119 },	-- Commander Lethanak
 					["coord"] = { 59.5, 75.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194366),	-- Carved Basalt Ring
 					},
 				}),
 				q(66121, {	-- Egg Evac
-					["provider"] = { "n", 187129 },	-- Majordomo Selistra
 					["sourceQuests"] = { 66118 },	-- Basalt Assault
+					["provider"] = { "n", 187129 },	-- Majordomo Selistra
 					["coord"] = { 59.5, 76.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192436),	-- Ruby Spear
 					},
 				}),
 				q(66122, {	-- Proto-Fight
-					["provider"] = { "n", 187119 },	-- Commander Lethanak
 					["sourceQuests"] = { 66118 },	-- Basalt Assault
+					["provider"] = { "n", 187119 },	-- Commander Lethanak
 					["coord"] = { 59.5, 75.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192436),	-- Ruby Spear
 					},
 				}),
 				q(66123, {	-- Cut Off the Head
-					["provider"] = { "n", 191895 },	-- Majordomo Selistra
 					["sourceQuests"] = {
 						66121,	-- Egg Evac
 						66122,	-- Proto-Fight
 					},
+					["provider"] = { "n", 191895 },	-- Majordomo Selistra
 					["coord"] = { 53.7, 80.2, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194355),	-- Expedition Guard's Spaulders
@@ -393,8 +393,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66124, {	-- Exeunt, Triumphant
-					["provider"] = { "n", 191895 },	-- Majordomo Selistra
 					["sourceQuests"] = { 66123 },	-- Cut Off the Head
+					["provider"] = { "n", 191895 },	-- Majordomo Selistra
 					["coord"] = { 53.7, 80.2, THE_WAKING_SHORES },
 					["groups"] = {
 						i(197378),	-- Renewed Proto-Drake: Subtle Horns (MM!)
@@ -402,72 +402,72 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				------ Chapter 3 ------
 				q(66079, {	-- Wrathion Awaits
-					["provider"] = { "n", 187115 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = { 66124 },	-- Exeunt, Triumphant
+					["provider"] = { "n", 187115 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 46.1, 78.3, THE_WAKING_SHORES },
 				}),
 				q(72241, {	-- Lessons from Our Past
-					["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 					["sourceQuests"] = {
 						66124,	-- Exeunt, Triumphant
 						66079,	-- Wrathion Awaits
 					},
+					["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 					["coord"] = { 42.4, 66.8, THE_WAKING_SHORES },
 				}),
 				q(66048, {	-- Best Plans and Intentions
-					["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 					["sourceQuests"] = { 72241 },	-- Lessons from Our Past
+					["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 					["coord"] = { 42.5, 66.8, THE_WAKING_SHORES },
 				}),
 				q(66078, {	-- Sharp Practice
-					["provider"] = { "n", 186274 },	-- Wrathion
 					["sourceQuests"] = { 72241 },	-- Lessons from Our Past
+					["provider"] = { "n", 186274 },	-- Wrathion
 					["coord"] = { 42.5, 66.8, THE_WAKING_SHORES },
 				}),
 				q(65957, {	-- No Time For Heroes
-					["provider"] = { "n", 186274 },	-- Wrathion
 					["sourceQuests"] = {
 						66048,	-- Best Plans and Intentions
 						66078,	-- Sharp Practice
 					},
+					["provider"] = { "n", 186274 },	-- Wrathion
 					["coord"] = { 42.5, 66.8, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194370),	-- Drape of the Djaradin Slayer
 					},
 				}),
 				q(65956, {	-- Talon Strike
-					["provider"] = { "n", 186274 },	-- Wrathion
 					["sourceQuests"] = {
 						66048,	-- Best Plans and Intentions
 						66078,	-- Sharp Practice
 					},
+					["provider"] = { "n", 186274 },	-- Wrathion
 					["coord"] = { 42.5, 66.8, THE_WAKING_SHORES },
 				}),
 				q(65939, {	-- The Courage of One's Convictions
-					["provider"] = { "n", 186681 },	-- Wrathion
 					["sourceQuests"] = {
 						65957,	-- No Time For Heroes
 						65956,	-- Talon Strike
 					},
+					["provider"] = { "n", 186681 },	-- Wrathion
 					["coord"] = { 34.0, 61.3, THE_WAKING_SHORES },
 				}),
 				q(66044, {	-- Taking the Walls
-					["provider"] = { "n", 186933 },	-- Wrathion
 					["sourceQuests"] = {
 						65957,	-- No Time For Heroes
 						65956,	-- Talon Strike
 						65939,	-- The Courage of One's Convictions
 					},
+					["provider"] = { "n", 186933 },	-- Wrathion
 					["coord"] = { 29.2, 58.8, THE_WAKING_SHORES },
 				}),
 				q(66049, {	-- Obsidian Oathstone
-					["provider"] = { "n", 196265 },	-- Wrathion
 					["sourceQuests"] = { 66044 },	-- Taking the Walls
+					["provider"] = { "n", 196265 },	-- Wrathion
 					["coord"] = { 26.4, 58.8, THE_WAKING_SHORES },
 				}),
 				q(66055, {	-- A Shattered Past
-					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["sourceQuests"] = { 66049 },	-- Obsidian Oathstone
+					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["coord"] = { 27.3, 62.8, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194358),	-- Expedition Guard's Girdle
@@ -478,24 +478,24 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66056, {	-- Forging A New Future
-					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["sourceQuests"] = {
 						66055,	-- A Shattered Past
 						65939,	-- The Courage of One's Convictions
 					},
+					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["coord"] = { 27.3, 62.8, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192548),	-- Cindershard Coal (QI!)
 					},
 				}),
 				q(66354, {	-- The Spark
-					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["sourceQuests"] = { 66056 },	-- Forging A New Future
+					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["coord"] = { 24.7, 61.1, THE_WAKING_SHORES },
 				}),
 				q(66057, {	-- Restoring the Faith
-					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["sourceQuests"] = { 66354 },	-- The Spark
+					["provider"] = { "n", 186493 },	-- Forgemaster Bazentus
 					["coord"] = { 24.7, 61.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194340),	-- Expedition Guard's Greaves
@@ -506,21 +506,21 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				------ Chapter 4 ------
 				q(66780, {	-- Claimant to the Throne
-					["provider"] = { "n", 187495 },	-- Wrathion
 					["sourceQuests"] = { 66057 },	-- Restoring the Faith
+					["provider"] = { "n", 187495 },	-- Wrathion
 					["coord"] = { 24.4, 55.5, THE_WAKING_SHORES },
 				}),
 				q(66779, {	-- Heir Apparent
-					["provider"] = { "n", 185894 },	-- Sabellian
 					["sourceQuests"] = { 66057 },	-- Restoring the Faith
+					["provider"] = { "n", 185894 },	-- Sabellian
 					["coord"] = { 24.2, 55.9, THE_WAKING_SHORES },
 				}),
 				q(65793, {	-- Black Wagon Flight
-					["provider"] = { "n", 185894 },	-- Sabellian
 					["sourceQuests"] = {
 						66780,	-- Claimant to the Throne
 						66779,	-- Heir Apparent
 					},
+					["provider"] = { "n", 185894 },	-- Sabellian
 					["coord"] = { 24.2, 55.9, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194363),	-- Expedition Guard's Vambraces
@@ -530,26 +530,26 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66785, {	-- The Last Eggtender
-					["provider"] = { "n", 190740 },	-- Sabellian
 					["sourceQuests"] = { 65793 },	-- Black Wagon Flight
+					["provider"] = { "n", 190740 },	-- Sabellian
 					["coord"] = { 58.0, 67.3, THE_WAKING_SHORES },
 				}),
 				q(66788, {	-- Eggcited for the Future
-					["provider"] = { "n", 185904 },	-- Mother Elion
 					["sourceQuests"] = { 66785 },	-- The Last Eggtender
+					["provider"] = { "n", 185904 },	-- Mother Elion
 					["coord"] = { 61.6, 68.7, THE_WAKING_SHORES },
 				}),
 				q(65791, {	-- Life-Binder on Duty
-					["provider"] = { "n", 185904 },	-- Mother Elion
 					["sourceQuests"] = { 66788 },	-- Eggcited for the Future
+					["provider"] = { "n", 185904 },	-- Mother Elion
 					["coord"] = { 61.6, 68.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194399),	-- Lifegift Ruby
 					},
 				}),
 				q(65794, {	-- A Change of Care
-					["provider"] = { "n", 185905 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = { 65791 },	-- Life-Binder on Duty
+					["provider"] = { "n", 185905 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 62.3, 73.0, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194380),	-- Expedition Guard's Helm
@@ -559,8 +559,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70641, {	-- A Waking Oath
-					["provider"] = { "n", 185905 },	-- Alexstrasza the Life-Binder
 					["sourceQuests"] = { 65791 },	-- Life-Binder on Duty
+					["provider"] = { "n", 185905 },	-- Alexstrasza the Life-Binder
 					["coord"] = { 62.3, 73.0, THE_WAKING_SHORES },
 					["classes"] = { EVOKER },
 					["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
@@ -569,24 +569,24 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16401.01, {	-- Beyond the Barrier
 				q(69896, {	-- Disastrous Detour
-					["provider"] = { "n", 190273 },	-- Scout Kuvaeth
 					["sourceQuests"] = { 66001 },	-- A Last Hope
+					["provider"] = { "n", 190273 },	-- Scout Kuvaeth
 					["coord"] = { 63.5, 61.8, THE_WAKING_SHORES },
 					["isBreadcrumb"] = true,
 				}),
 				q(66437, {	-- A Key Element
-					["provider"] = { "i", 191904 },	-- Orb of Primal Stone
 					["sourceQuests"] = { 69896 },	-- Disastrous Detour
+					["provider"] = { "i", 191904 },	-- Orb of Primal Stone
 					["coord"] = { 66.5, 57.7, THE_WAKING_SHORES },
 				}),
 				q(66435, {	-- Site Salvage
-					["provider"] = { "n", 188735 },	-- Elementalist Taiyang
 					["sourceQuests"] = { 69896 },	-- Disastrous Detour
+					["provider"] = { "n", 188735 },	-- Elementalist Taiyang
 					["coord"] = { 66.1, 58.1, THE_WAKING_SHORES },
 				}),
 				q(66436, {	-- Unearthed Troublemakers
-					["provider"] = { "n", 188735 },	-- Elementalist Taiyang
 					--["sourceQuests"] = {  },	-- Unknown
+					["provider"] = { "n", 188735 },	-- Elementalist Taiyang
 					["coord"] = { 66.1, 58.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194410),	-- Cinch of the Ruby Defenders
@@ -596,12 +596,12 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66441, {	-- Distilled Effort
-					["provider"] = { "n", 190352 },	-- Elementalist Taiyang
 					["sourceQuests"] = {
 						66437,	-- A Key Element
 						66435,	-- Site Salvage
 						66436,	-- Unearthed Troublemakers
 					},
+					["provider"] = { "n", 190352 },	-- Elementalist Taiyang
 					["coord"] = { 66.6, 56.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194367),	-- Band of Focused Elements
@@ -609,24 +609,24 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66438, {	-- Lofty Goals
-					["provider"] = { "n", 188503 },	-- Examiner Tae'Shara Bloodwatcher
 					["sourceQuests"] = {
 						66437,	-- A Key Element
 						66435,	-- Site Salvage
 						66436,	-- Unearthed Troublemakers
 					},
+					["provider"] = { "n", 188503 },	-- Examiner Tae'Shara Bloodwatcher
 					["coord"] = { 66.6, 56.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192524),	-- Orb of Primal Gales (QI!)
 					},
 				}),
 				q(66439, {	-- Rapid Fire Plans
-					["provider"] = { "n", 188053 },	-- Acadia Chistlestone
 					["sourceQuests"] = {
 						66437,	-- A Key Element
 						66435,	-- Site Salvage
 						66436,	-- Unearthed Troublemakers
 					},
+					["provider"] = { "n", 188053 },	-- Acadia Chistlestone
 					["coord"] = { 66.6, 56.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192546),	-- Orb of Primal Flames (QI!)
@@ -634,17 +634,17 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66442, {	-- Let's Get Theoretical
-					["provider"] = { "n", 190352 },	-- Elementalist Taiyang
 					["sourceQuests"] = {
 						66441,	-- Distilled Effort
 						66438,	-- Lofty Goals
 						66439,	-- Rapid Fire Plans
 					},
+					["provider"] = { "n", 190352 },	-- Elementalist Taiyang
 					["coord"] = { 66.6, 56.1, THE_WAKING_SHORES },
 				}),
 				q(66447, {	-- Beyond the Barrier
-					["provider"] = { "n", 190353 },	-- Elementalist Taiyang
 					["sourceQuests"] = { 66442 },	-- Let's Get Theoretical
+					["provider"] = { "n", 190353 },	-- Elementalist Taiyang
 					["coord"] = { 66.4, 55.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194393),	-- Expedition Guard's Cudgel
@@ -661,39 +661,39 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16401.02, {	-- Brave Researchers
 				q(69897, {	-- Behavior Analysis "Homework"
-					["provider"] = { "n", 193500 },	-- Iyali
 					["sourceQuests"] = { 66963 },	-- Out For Delivery
+					["provider"] = { "n", 193500 },	-- Iyali
 					["coord"] = { 45.9, 81.4, THE_WAKING_SHORES },
 				}),
 				q(69898, {	-- Scientfic Meat-thod
-					["provider"] = { "n", 193500 },	-- Iyali
 					["sourceQuests"] = { 66963 },	-- Out For Delivery
+					["provider"] = { "n", 193500 },	-- Iyali
 					["coord"] = { 45.9, 81.4, THE_WAKING_SHORES },
 				}),
 				q(69899, {	-- Secret Research
-					["provider"] = { "n", 193500 },	-- Iyali
 					["sourceQuests"] = {
 						69897,	-- Behavior Analysis "Homework"
 						69898,	-- Scientfic Meat-thod
 					},
+					["provider"] = { "n", 193500 },	-- Iyali
 					["coord"] = { 45.9, 81.4, THE_WAKING_SHORES },
 				}),
 				q(69901, {	-- Bring In the Expert
-					["provider"] = { "n", 192298 },	-- Tyrgon
 					["sourceQuests"] = { 69899 },	-- Secret Research
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(69900, {	-- Identifying the Source
-					["provider"] = { "n", 192298 },	-- Tyrgon
 					["sourceQuests"] = { 69899 },	-- Secret Research
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(69902, {	-- Theory in Practice
-					["provider"] = { "n", 192298 },	-- Tyrgon
 					["sourceQuests"] = {
 						69901,	-- Bring In the Expert
 						69900,	-- Identifying the Source
 					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 			}),
@@ -704,45 +704,45 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["isBreadcrumb"] = true,
 				}),
 				q(66524, {	-- Amateur Protography
-					["provider"] = { "n", 187705 },	-- Cataloger Wulferd
 					["sourceQuests"] = { 66963 },	-- Out For Delivery
+					["provider"] = { "n", 187705 },	-- Cataloger Wulferd
 					["coord"] = { 48.5, 82.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192465),	-- Wulferd's Award-Winning Camera
 					},
 				}),
 				q(66525, {	-- Competitive Protography
-					["provider"] = { "n", 193740 },	-- Cataloger Wulferd
 					["sourceQuests"] = { 66524 },	-- Amateur Protography
+					["provider"] = { "n", 193740 },	-- Cataloger Wulferd
 					["coord"] = { 39.0, 83.2, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192465),	-- Wulferd's Award-Winning Camera
 					},
 				}),
 				q(66526, {	-- Preserving the Wild
-					["provider"] = { "n", 193954 },	-- Dervishian
 					["sourceQuests"] = { 66524 },	-- Amateur Protography
+					["provider"] = { "n", 193954 },	-- Dervishian
 					["coord"] = { 39.1, 83.3, THE_WAKING_SHORES },
 				}),
 				q(66527, {	-- Professional Protography
-					["provider"] = { "n", 193740 },	-- Cataloger Wulferd
 					["sourceQuests"] = {
 						66525,	-- Competitive Protography
 						66526,	-- Preserving the Wild
 					},
+					["provider"] = { "n", 193740 },	-- Cataloger Wulferd
 					["coord"] = { 39.0, 83.2, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192465),	-- Wulferd's Award-Winning Camera
 					},
 				}),
 				q(66528, {	-- King Without a Crown
-					["provider"] = { "n", 193954 },	-- Dervishian
 					["sourceQuests"] = { 66527 },	-- Professional Protography
+					["provider"] = { "n", 193954 },	-- Dervishian
 					["coord"] = { 39.1, 83.3, THE_WAKING_SHORES },
 				}),
 				q(66529, {	-- A Thousand Words
-					["provider"] = { "n", 193954 },	-- Dervishian
 					["sourceQuests"] = { 66528 },	-- King Without a Crown
+					["provider"] = { "n", 193954 },	-- Dervishian
 					["coord"] = { 39.1, 83.3, THE_WAKING_SHORES },
 					["groups"] = {
 						i(192465),	-- Wulferd's Award-Winning Camera
@@ -751,7 +751,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16401.04, {	-- Ruby Lifecalling
 				q(66825, {	-- A Ruby Lifecalling
-					["provider"] = { "n", 191025 },	-- Lifecaller Tzadrak
 					["sourceQuests"] = {
 						66114,	-- For the Benefit of the Queen
 						70125,	-- Where is Wrathion? (A)
@@ -759,73 +758,74 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 191025 },	-- Lifecaller Tzadrak
 					["coord"] = { 61.9, 73.8, THE_WAKING_SHORES },
 				}),
 				q(70351, {	-- Garden Party
-					["provider"] = { "n", 191012 },	-- Akora
 					["sourceQuests"] = { 66825 },	-- A Ruby Lifecalling
+					["provider"] = { "n", 191012 },	-- Akora
 					["coord"] = { 61.7, 73.7, THE_WAKING_SHORES },
 				}),
 				q(66827, {	-- Flowers of our Labor
-					["provider"] = { "n", 190866 },	-- Akora
 					["sourceQuests"] = { 70351 },	-- Garden Party
+					["provider"] = { "n", 190866 },	-- Akora
 					["coord"] = { 60.2, 66.4, THE_WAKING_SHORES },
 					["groups"] = {
 						i(193826),	-- Trusty Dragonkin Rake
 					},
 				}),
 				q(66828, {	-- Huddle at the Hollow
-					["provider"] = { "n", 190868 },	-- Keshki
 					["sourceQuests"] = { 66827 },	-- Flowers of our Labor
+					["provider"] = { "n", 190868 },	-- Keshki
 					["coord"] = { 60.2, 66.4, THE_WAKING_SHORES },
 				}),
 				q(66830, {	-- Hornswoggled!
-					["provider"] = { "n", 191011 },	-- Keshki
 					["sourceQuests"] = { 66828 },	-- Huddle at the Hollow
+					["provider"] = { "n", 191011 },	-- Keshki
 					["coord"] = { 65.3, 63.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(193918),	-- Jar of Fireflies
 					},
 				}),
 				q(66831, {	-- Home Is Where the Frogs Are
-					["provider"] = { "n", 191011 },	-- Keshki
 					["sourceQuests"] = { 66830 },	-- Hornswoggled!
+					["provider"] = { "n", 191011 },	-- Keshki
 					["coord"] = { 65.3, 63.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(197399),	-- Renewed Proto-Drake: Razor Snout (MM!)
 					},
 				}),
 				q(66879, {	-- Hornstrider Havoc
-					["provider"] = { "n", 191176 },	-- Dazakros
 					["sourceQuests"] = { 66825 },	-- A Ruby Lifecalling
+					["provider"] = { "n", 191176 },	-- Dazakros
 					["coord"] = { 61.7, 73.8, THE_WAKING_SHORES },
 				}),
 				q(66893, {	-- Beaky Reclamation
-					["provider"] = { "n", 191280 },	-- Dazakros
 					["sourceQuests"] = { 66879 },	-- Hornstrider Havoc
+					["provider"] = { "n", 191280 },	-- Dazakros
 					["coord"] = { 53.4, 58.4, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194434),	-- Pungent Salve
 					},
 				}),
 				q(66892, {	-- Deluge Dilemma
-					["provider"] = { "n", 191280 },	-- Dazakros
 					["sourceQuests"] = { 66879 },	-- Hornstrider Havoc
+					["provider"] = { "n", 191280 },	-- Dazakros
 					["coord"] = { 53.4, 58.4, THE_WAKING_SHORES },
 				}),
 				q(66997, {	-- Nursery Direction
-					["provider"] = { "n", 191174 },	-- Vaeros
 					["sourceQuests"] = { 66825 },	-- A Ruby Lifecalling
+					["provider"] = { "n", 191174 },	-- Vaeros
 					["coord"] = { 61.8, 73.6, THE_WAKING_SHORES },
 				}),
 				q(66735, {	-- Just a Trim
-					["provider"] = { "n", 190525 },	-- Vaeros
 					["sourceQuests"] = { 66997 },	-- Nursery Direction
+					["provider"] = { "n", 190525 },	-- Vaeros
 					["coord"] = { 55.3, 63.5, THE_WAKING_SHORES },
 				}),
 				q(66734, {	-- Leave Bee Alone
-					["provider"] = { "n", 190525 },	-- Vaeros
 					["sourceQuests"] = { 66997 },	-- Nursery Direction
+					["provider"] = { "n", 190525 },	-- Vaeros
 					["coord"] = { 55.3, 63.5, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194404),	-- Beetender's Hood
@@ -836,11 +836,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66737, {	-- A Better Start
-					["provider"] = { "n", 190533 },	-- Adazius
 					["sourceQuests"] = {
 						66735,	-- Just a Trim
 						66734,	-- Leave Bee Alone
 					},
+					["provider"] = { "n", 190533 },	-- Adazius
 					["coord"] = { 55.2, 63.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194419),	-- Life Pool Herb Pouch
@@ -850,17 +850,17 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16401.05, {	-- Save the Hippos!
 				q(72122, {	-- Erstwhile Ecologists
-					["provider"] = { "n", 195303 },	-- Mender Eskros
 					["sourceQuests"] = {
 						65990,	-- Deliver Whelps From Evil
 						65989,	-- Invader Djaradin
 					},
+					["provider"] = { "n", 195303 },	-- Mender Eskros
 					["coord"] = { 71.2, 40.5, THE_WAKING_SHORES },
 					["isBreadcrumb"] = true, -- Prob?
 				}),
 				q(66105, {	-- A Scalpel of a Solution
-					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["sourceQuests"] = { 72122 },	-- Erstwhile Ecologists
+					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["coord"] = { 74.4, 42.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194350),	-- Expedition Guard's Legguards
@@ -870,21 +870,21 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66107, {	-- Wildlife Rescue
-					["provider"] = { "n", 186428 },	-- Ecologist Tharu
 					["sourceQuests"] = { 72122 },	-- Erstwhile Ecologists
+					["provider"] = { "n", 186428 },	-- Ecologist Tharu
 					["coord"] = { 74.5, 42.2, THE_WAKING_SHORES },
 				}),
 				q(66104, {	-- Forensic Ecology
-					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["sourceQuests"] = {
 						66105,	-- A Scalpel of a Solution
 						66107,	-- Wildlife Rescue
 					},
+					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["coord"] = { 74.4, 42.1, THE_WAKING_SHORES },
 				}),
 				q(66108, {	-- A Sledgehammer of a Solution
-					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["sourceQuests"] = { 66104 },	-- Forensic Ecology
+					["provider"] = { "n", 186410 },	-- Ecologist Iskha
 					["coord"] = { 74.4, 42.1, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194412),	-- Expedition Guard's Wristguards
@@ -894,8 +894,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(66106, {	-- Don't Be So Shellfish
-					["provider"] = { "n", 186428 },	-- Ecologist Tharu
 					["sourceQuests"] = { 66104 },	-- Forensic Ecology
+					["provider"] = { "n", 186428 },	-- Ecologist Tharu
 					["coord"] = { 74.5, 42.2, THE_WAKING_SHORES },
 					["groups"] = {
 						i(191549),	-- Water-Infused Shell (QI!)
@@ -905,42 +905,42 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16401.06, {	-- The Shadow of His Wings
 				q(65690, {	-- A Cultist's Misgivings
-					["provider"] = { "n", 185627 },	-- Ingot
 					["sourceQuests"] = {
 						65444,	-- To the Dragon Isles! (H)
 						67700,	-- To the Dragon Isles! (A)
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 185627 },	-- Ingot
 					["coord"] = { 39.4, 48.3, THE_WAKING_SHORES },
 				}),
 				q(65782, {	-- Under Lock and Key
-					["provider"] = { "n", 185628 },	-- Ayasanth
 					["sourceQuests"] = { 65690 },	-- A Cultist's Misgivings
+					["provider"] = { "n", 185628 },	-- Ayasanth
 					["coord"] = { 37.4, 46.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(190612),	-- Worldbreaker Cell Key (QI!)
 					},
 				}),
 				q(65687, {	-- Punching Up
-					["provider"] = { "n", 185627 },	-- Ingot
 					["sourceQuests"] = {
 						65444,	-- To the Dragon Isles! (H)
 						67700,	-- To the Dragon Isles! (A)
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 185627 },	-- Ingot
 					["coord"] = { 39.4, 48.3, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194368),	-- Worldbreaker's Charm
 					},
 				}),
 				q(65691, {	-- The Shadow of His Wings
-					["provider"] = { "n", 185628 },	-- Ayasanth
 					["sourceQuests"] = {
 						65687,	-- Punching Up
 						65782,	-- Under Lock and Key
 					},
+					["provider"] = { "n", 185628 },	-- Ayasanth
 					["coord"] = { 37.4, 46.6, THE_WAKING_SHORES },
 					["groups"] = {
 						i(194420),	-- Blacktalon Blade
@@ -966,31 +966,31 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["races"] = HORDE_ONLY,
 				}),
 				q(70135, {	-- Encroaching Elementals [A]
-					["provider"] = { "n", 184452 },	-- Warlord Breka Grimaxe
 					["sourceQuests"] = { 67053 },	-- Give Peace a Chance [A]
+					["provider"] = { "n", 184452 },	-- Warlord Breka Grimaxe
 					["coord"] = { 76.4, 33.1, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(66111, {	-- Encroaching Elementals [H]
-					["provider"] = { "n", 184449 },	-- Captain Garrick
 					["sourceQuests"] = { 66110 },	-- Give Peace a Chance [H]
+					["provider"] = { "n", 184449 },	-- Captain Garrick
 					["coord"] = { 76.7, 34.6, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,
 				}),
 			}),
 			header(HEADERS.AchCriteria, 16406.02, {	-- Duroz & Kolgar
 				q(70239, {	-- Untold Regrets
-					["provider"] = { "n", 194801 },	-- Kolgar Flameguard
 					["sourceQuests"] = {
 						66114,	-- For the Benefit of the Queen
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 194801 },	-- Kolgar Flameguard
 					["coord"] = { 58.7, 67.8, THE_WAKING_SHORES },
 				}),
 				q(70240, {	-- Pain Management
-					["provider"] = { "n", 194805 },	-- Bathoras
 					["sourceQuests"] = { 70239 },	-- Untold Regrets
+					["provider"] = { "n", 194805 },	-- Bathoras
 					["coord"] = { 57.4, 65.7, THE_WAKING_SHORES },
 					["groups"] = {
 						o(380575, {	-- Blooming Shallowlily
@@ -1015,22 +1015,22 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70241, {	-- The Bitter End
-					["provider"] = { "n", 194801 },	-- Kolgar Flameguard
 					["sourceQuests"] = { 70240 },	-- Pain Management
+					["provider"] = { "n", 194801 },	-- Kolgar Flameguard
 					["coord"] = { 56.8, 64.5, THE_WAKING_SHORES },
 					-- TODO: Requirement to continue?? Next Day/Time/Finish Chap 3/4?
 				}),
 				q(70242, {	-- Life After Life
-					["provider"] = { "n", 194805 },	-- Bathoras
 					["sourceQuests"] = { 70241 },	-- The Bitter End
+					["provider"] = { "n", 194805 },	-- Bathoras
 					["coord"] = { 56.8, 64.4, THE_WAKING_SHORES },
 					["groups"] = {
 						i(198701),	-- Inert Vessel (QI!)
 					},
 				}),
 				q(70708, {	-- Hallow
-					["provider"] = { "n", 194801 },	-- Bathoras
 					["sourceQuests"] = { 70242 },	-- Life After Life
+					["provider"] = { "n", 194801 },	-- Bathoras
 					["coord"] = { 58.4, 67.5, THE_WAKING_SHORES },
 					["groups"] = {
 						i(200129),	-- Kolgar's Pack (QI!)
@@ -1049,17 +1049,17 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16406.04, {	-- Veritistrasz
 				q(70132, {	-- Stay a While
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = {
 						66114,	-- For the Benefit of the Queen
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.8, THE_WAKING_SHORES },
 				}),
 				q(70134, {	-- Memories
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70223 },	-- Stay a While [Post-RP #9]
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 					["groups"] = {
 						i(197361),	-- Renewed Proto-Drake: Spiked Crest (MM!)
@@ -1068,36 +1068,36 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70268, {	-- Memories Revived
-					["provider"] = { "i", 198661 },	-- Partially Destroyed Diary
-					["sourceQuests"] = { 70134 },	-- Memories
-					["coord"] = { 23, 60, THE_WAKING_SHORES },
 					["description"] = "To obtain this quest, you must enter the vault located at 27, 61. Once inside, head down the stairs and take a left, and then another left into the room. This room will have a bookshelf on it with the item to start this quest.",
+					["sourceQuests"] = { 70134 },	-- Memories
+					["provider"] = { "i", 198661 },	-- Partially Destroyed Diary
+					["coord"] = { 23, 60, THE_WAKING_SHORES },
 				}),
 			}),
 			header(HEADERS.Achievement, 16409, {	-- Let's Get Quacking
 				q(66196, {	-- A Quack For Help
-					["provider"] = { "n", 187439 },	-- Bubbled Duckling
 					["sourceQuests"] = { 66104 },	-- Forensic Ecology
+					["provider"] = { "n", 187439 },	-- Bubbled Duckling
 					["coord"] = { 80.1, 42.9, THE_WAKING_SHORES },
 				}),
 				q(70877, {	-- A Quack in Time
-					["provider"] = { "n", 196744 },	-- Bubbled Duckling
 					["sourceQuests"] = { 66196 },	-- A Quack For Help
+					["provider"] = { "n", 196744 },	-- Bubbled Duckling
 					["coord"] = { 80.1, 39.9, THE_WAKING_SHORES },
 				}),
 				q(70917, {	-- A Shoulder to Quack On
-					["provider"] = { "n", 196746 },	-- Bubbled Duckling
 					["sourceQuests"] = { 70877 },	-- A Quack in Time
+					["provider"] = { "n", 196746 },	-- Bubbled Duckling
 					["coord"] = { 81.6, 45.4, THE_WAKING_SHORES },
 				}),
 				q(70918, {	-- Quack for Your Life
-					["provider"] = { "n", 196572 },	-- Bubbled Duckling
 					["sourceQuests"] = { 70917 },	-- A Shoulder to Quack On
+					["provider"] = { "n", 196572 },	-- Bubbled Duckling
 					["coord"] = { 79.3, 42.7, THE_WAKING_SHORES },
 				}),
 				q(70919, {	-- Quacking Out For a Hero
-					["provider"] = { "n", 196747 },	-- Bubbled Duckling
 					["sourceQuests"] = { 70918 },	-- Quack for Your Life
+					["provider"] = { "n", 196747 },	-- Bubbled Duckling
 					["coord"] = { 82.8, 42.6, THE_WAKING_SHORES },
 					["groups"] = {
 						ach(16409),	-- Let's Get Quacking
@@ -1125,43 +1125,43 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			header(HEADERS.Achievement, 16323, {	-- Fragments of History
 				q(70231, {	-- Talk to Emilia Bellocq
 					["name"] = "Talk to Emilia Bellocq",
+					["description"] = "Talk to Emilia Bellocq and chose her dialogue option to complete this quest and unlock the objects required to complete achievement Fragments of History",
 					["provider"] = { "n", 193915 },	-- Emilia Bellocq
 					["coord"] = { 75.4, 34.0, THE_WAKING_SHORES },
-					["description"] = "Talk to Emilia Bellocq and chose her dialogue option to complete this quest and unlock the objects required to complete achievement Fragments of History",
 				}),
 				q(70175, {	-- Broken Banding
-					["provider"] = { "i", 198475 },	-- Broken Bankding
 					["sourceQuests"] = { 70231 },	-- Dialogue with Emilia Bellocq
+					["provider"] = { "i", 198475 },	-- Broken Bankding
 					["coord"] = { 81.0, 30.4, THE_WAKING_SHORES },
 				}),
 				q(70236, {	-- Dislodged Dragoneye
-					["provider"] = { "i", 198626 },	-- Dislodged Dragoneye
 					["sourceQuests"] = { 70231 },	-- Dialogue with Emilia Bellocq
+					["provider"] = { "i", 198626 },	-- Dislodged Dragoneye
 					["coord"] = { 60.5, 57.9, THE_WAKING_SHORES },
 				}),
 				q(70789, {	-- Finely Carved Wing
-					["provider"] = { "i", 199841 },	-- Finely Carved Wing
 					["sourceQuests"] = { 70231 },	-- Dialogue with Emilia Bellocq
+					["provider"] = { "i", 199841 },	-- Finely Carved Wing
 					["coord"] = { 47.2, 88.6, THE_WAKING_SHORES },
 				}),
 				q(70207, {	-- Tail Fragment
-					["provider"] = { "i", 198543 },	-- Tail Fragment
 					["sourceQuests"] = { 70231 },	-- Dialogue with Emilia Bellocq
+					["provider"] = { "i", 198543 },	-- Tail Fragment
 					["coord"] = { 58.2, 68.3, THE_WAKING_SHORES },
 				}),
 			}),
 			------ Miscellaneous ------
 			q(70179, {	-- A Two for One Deal
-				["provider"] = { "n", 194525 },	-- Apprentice Caretaker Zefren
 				["sourceQuests"] = { 66001 },	-- A Last Hope, -- TODO: Wasnt available when picking up 65997, but available before 66001....
+				["provider"] = { "n", 194525 },	-- Apprentice Caretaker Zefren
 				["coord"] = { 54.4, 30.8, THE_WAKING_SHORES },
 				["groups"] = {
 					i(198511),	-- Building Materials (QI!)
 				},
 			}),
 			q(66112, {	-- Always Be Crafting
-				["provider"] = { "n", 187261 },	-- Grun Ashbeard
 				["sourceQuests"] = { 66110 },	-- Give Peace a Chance
+				["provider"] = { "n", 187261 },	-- Grun Ashbeard
 				["coord"] = { 76.4, 34.6, THE_WAKING_SHORES },
 				["groups"] = {
 					i(190386),	-- Primal Earthen Core (QI!)
@@ -1169,39 +1169,39 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(66612, {	-- Crabtender's Quandry
-				["provider"] = { "n", 196827 },	-- Crabtender Kad'irsza
 				["sourceQuests"] = {
 					65439,	-- To the Dragon Isles! (H)
 					67700,	-- To the Dragon Isles! (A)
 				},
+				["provider"] = { "n", 196827 },	-- Crabtender Kad'irsza
 				["coord"] = { 59.7, 51.2, THE_WAKING_SHORES },
 			}),
 			q(72708, {	-- Dragon Isles Supplies
-				["provider"] = { "i", 202081 },	-- Dragon Isles Supply Bag
 				["sourceQuests"] = {
 					67700,	-- To The Dragon Isles! [A]
 					65444,	-- To the Dragon Isles! [H]
 				},
+				["provider"] = { "i", 202081 },	-- Dragon Isles Supply Bag
 			}),
 			q(70994, {	-- Drainage Solutions
-				["provider"] = { "n", 196820 },	-- Zikkori
 				["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
+				["provider"] = { "n", 196820 },	-- Zikkori
 				["coord"] = { 70.5, 56.8, THE_WAKING_SHORES },
 				["groups"] = {
 					i(200747),	-- Zikkori's Water Siphoning Device
 				},
 			}),
 			q(66998, {	-- Fighting Fire with... Water
-				["provider"] = { "n", 188297 },	-- Caretaker Ventraz
 				["sourceQuests"] = { 65995 },	-- The Obsidian Citadel
+				["provider"] = { "n", 188297 },	-- Caretaker Ventraz
 				["coord"] = { 59.1, 34.8, THE_WAKING_SHORES },
 				["groups"] = {
 					i(194441),	-- Bottled Water Elemental
 				},
 			}),
 			q(70058, {	-- Friend on the Mend
-				["provider"] = { "n", 193955 },	-- Lillistazsa
 				["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
+				["provider"] = { "n", 193955 },	-- Lillistazsa
 				["coord"] = { 59.9, 70.4, THE_WAKING_SHORES },
 				["groups"] = {
 					i(198345),	-- Glass Bead (QI!)
@@ -1211,16 +1211,16 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(66101, {	-- From Such Great Heights
-				["provider"] = { "n", 187257 },	-- Aster Cloudgaze
 				["sourceQuests"] = {
 					67700,	-- To The Dragon Isles! [A]
 					65444,	-- To the Dragon Isles! [H]
 				},
+				["provider"] = { "n", 187257 },	-- Aster Cloudgaze
 				["coord"] = { 75.8, 33., THE_WAKING_SHORES },
 			}),
 			q(72709, {	-- Funding a Treasure Hunt
-				["provider"] = { "n", 198846 },	-- Cataloger Jakes
 				["sourceQuests"] = 72708,	-- Dragon Isles Supplies
+				["provider"] = { "n", 198846 },	-- Cataloger Jakes
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
 				["isBreadcrumb"] = true,
 				["groups"] = {
@@ -1228,16 +1228,16 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(71141, {	-- Gills with Gall
-				["provider"] = { "n", 193304 },	-- Ru'Kroszk
 				["sourceQuests"] = {
 					65439,	-- To the Dragon Isles! (H)
 					67700,	-- To the Dragon Isles! (A)
 				},
+				["provider"] = { "n", 193304 },	-- Ru'Kroszk
 				["coord"] = { 59.7, 51.2, THE_WAKING_SHORES },
 			}),
 			q(66368, {	-- Island In A Storm
-				["provider"] = { "n", 187609 },	-- Earthcaller Yevaa
 				["sourceQuests"] = { 66369 },	-- The Earthen Ward
+				["provider"] = { "n", 187609 },	-- Earthcaller Yevaa
 				["coord"] = { 37.4, 71.8, THE_WAKING_SHORES },
 				["isWeekly"] = true,
 				["groups"] = {
@@ -1245,12 +1245,12 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(70042, {	-- Opportunities Abound
-				["provider"] = { "n", 193838 },	-- Vish the Sneak
 				["sourceQuests"] = {
 					70125,	-- Where is Wrathion? (A)
 					69910,	-- Where is Wrathion? (H)
 				},
 				["sourceQuestNumRequired"] = 1,
+				["provider"] = { "n", 193838 },	-- Vish the Sneak
 				["coord"] = { 76.6, 33.6, THE_WAKING_SHORES },
 				["classes"] = { ROGUE },
 				["groups"] = {
@@ -1261,8 +1261,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(69965, {	-- Quality Assurance
-				["provider"] = { "n", 192438 },	-- Haephesta
 				["sourceQuests"] = { 66110 },	-- Give Peace a Chance
+				["provider"] = { "n", 192438 },	-- Haephesta
 				["coord"] = { 76.4, 34.4, THE_WAKING_SHORES },
 			}),
 			q(66003, {	-- Rings To Bind Them
@@ -1282,8 +1282,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(66369, {	-- The Earthen Ward
-				["provider"] = { "n", 187609 },	-- Earthcaller Yevaa
 				["sourceQuests"] = { 66003 },	-- Rings To Bind Them
+				["provider"] = { "n", 187609 },	-- Earthcaller Yevaa
 				["coord"] = { 37.4, 71.8, THE_WAKING_SHORES },
 				["groups"] = {
 					i(191837),	-- Earthen Charm
@@ -1314,8 +1314,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 			}),
 			q(70742, {	-- Runs in the Family
-				["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 				["sourceQuests"] = { 70446 },	-- A Personal History
+				["provider"] = { "n", 192795 },	-- Scalecommander Emberthal
 				["coord"] = { 44.7, 64.1, THE_WAKING_SHORES },
 				["classes"] = { EVOKER },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
@@ -1328,39 +1328,39 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			------ Alt Quests ------
 			q(72293, {	-- Adventuring in the Dragon Isles
-				["provider"] = { "n", 193362 },	-- Sendrax
 				["sourceQuests"] = {
 					70125,	-- Where is Wrathion? (A)
 					69910,	-- Where is Wrathion? (H)
 				},
+				["provider"] = { "n", 193362 },	-- Sendrax
 				["coord"] = { 76.6, 33.7, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "questID", 69911 },	-- Excuse the Mess
 				["isBreadcrumb"] = true,
 			}),
 			q(72266, {	-- The Waking Shores
-				["provider"] = { "n", 198386 },	-- Scouting Map
 				["sourceQuests"] = { 72293 },	-- Adventuring in the Dragon Isles
+				["provider"] = { "n", 198386 },	-- Scouting Map
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "questID", 69911 },	-- Excuse the Mess
 				["isBreadcrumb"] = true,
 			}),
 			q(72267, {	-- Ohn'ahran Plains
-				["provider"] = { "n", 198386 },	-- Scouting Map
 				["sourceQuests"] = { 72293 },	-- Adventuring in the Dragon Isles
+				["provider"] = { "n", 198386 },	-- Scouting Map
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "questID", 65779 },	-- Into the Plains
 				["isBreadcrumb"] = true,
 			}),
 			q(72268, {	-- Azure Span
-				["provider"] = { "n", 198386 },	-- Scouting Map
 				["sourceQuests"] = { 72293 },	-- Adventuring in the Dragon Isles
+				["provider"] = { "n", 198386 },	-- Scouting Map
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "questID", 65686 },	-- To the Azure Span
 				["isBreadcrumb"] = true,
 			}),
 			q(72269, {	-- Thaldraszsus
-				["provider"] = { "n", 198386 },	-- Scouting Map
 				["sourceQuests"] = { 72293 },	-- Adventuring in the Dragon Isles
+				["provider"] = { "n", 198386 },	-- Scouting Map
 				["coord"] = { 76.5, 34.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "questID", 66244 },	-- To Valdrakken
 				["isBreadcrumb"] = true,
@@ -1455,69 +1455,69 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				q(72059, {	-- Stay awhile and listen: Commander Lethanak
 					["name"] = "Stay awhile and listen: Commander Lethanak",
-					["provider"] = { "n", 195212 },	-- Commander Lethanak
 					["sourceQuests"] = { 66788 },	-- Eggcited for the Future
+					["provider"] = { "n", 195212 },	-- Commander Lethanak
 					["coord"] = { 62.7, 72.2, THE_WAKING_SHORES },
 					["isDaily"] = true,	-- possible weekly?
 				}),
 				q(70206, {	-- Stay awhile and listen: Veritistrasz: 1
 					["name"] = "Stay awhile and listen: Veritistrasz: 1",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 66114 },	-- For the Benefit of the Queen
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70543, {	-- Stay awhile and listen: Veritistrasz: 2
 					["name"] = "Stay awhile and listen: Veritistrasz: 2",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70206 },	-- Veritistrasz: 1
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70544, {	-- Stay awhile and listen: Veritistrasz: 3
 					["name"] = "Stay awhile and listen: Veritistrasz: 3",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70543 },	-- Veritistrasz: 2
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70217, {	-- Stay awhile and listen: Veritistrasz: 4
 					["name"] = "Stay awhile and listen: Veritistrasz: 4",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70544 },	-- Veritistrasz: 3
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70546, {	-- Stay awhile and listen: Veritistrasz: 5
 					["name"] = "Stay awhile and listen: Veritistrasz: 5",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70217 },	-- Veritistrasz: 4
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70547, {	-- Stay awhile and listen: Veritistrasz: 6
 					["name"] = "Stay awhile and listen: Veritistrasz: 6",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70546 },	-- Veritistrasz: 5
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70219, {	-- Stay awhile and listen: Veritistrasz: 7
 					["name"] = "Stay awhile and listen: Veritistrasz: 7",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70547 },	-- Veritistrasz: 6
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70548, {	-- Stay awhile and listen: Veritistrasz: 8
 					["name"] = "Stay awhile and listen: Veritistrasz: 8",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70219 },	-- Veritistrasz: 7
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70223, {	-- Stay awhile and listen: Veritistrasz: 9
 					["name"] = "Stay awhile and listen: Veritistrasz: 9",
-					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["sourceQuests"] = { 70548 },	-- Veritistrasz: 8
+					["provider"] = { "n", 194076 },	-- Veritistrasz
 					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
 				}),
 				q(70709, {	-- Talk to: Wu'de Prepfoot
 					["name"] = "Talk to: Wu'de Prepfoot",
-					["provider"] = { "n", 196072 },	-- Wu'de Prepfoot
 					["sourceQuests"] = { 65691 },	-- The Shadow of His Wings
+					["provider"] = { "n", 196072 },	-- Wu'de Prepfoot
 					["coord"] = { 35.1, 47.2, THE_WAKING_SHORES },
 					["isDaily"] = true,	-- possible weekly?
 				}),
@@ -1555,7 +1555,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 				-- TODO: how do we sort these types of things going forward? Also, is Skytop an actual quest or should this be a NYI/Never Implemented?
 				q(72178, {	-- Theory in Practice: Baron von Swoopenbite
 					["name"] = "Theory in Practice: Baron von Swoopenbite",
-					["provider"] = { "n", 192298 },	-- Tyrgon
+					["sourceQuests"] = {
+						69901,	-- Bring In the Expert
+						69900,	-- Identifying the Source
+					},
 					["altQuests"] = {
 						-- 72178,	-- Theory in Practice: Baron von Swoopenbite
 						72174,	-- Theory in Practice: Bob
@@ -1563,15 +1566,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 						72177,	-- Theory in Practice: Mr.Nibbles
 						72176,	-- Theory in Practice: Toughscale
 					},
-					["sourceQuests"] = {
-						69901,	-- Bring In the Expert
-						69900,	-- Identifying the Source
-					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(72174, {	-- Theory in Practice: Bob
 					["name"] = "Theory in Practice: Bob",
-					["provider"] = { "n", 192298 },	-- Tyrgon
+					["sourceQuests"] = {
+						69901,	-- Bring In the Expert
+						69900,	-- Identifying the Source
+					},
 					["altQuests"] = {
 						72178,	-- Theory in Practice: Baron von Swoopenbite
 						-- 72174,	-- Theory in Practice: Bob
@@ -1579,15 +1582,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 						72177,	-- Theory in Practice: Mr.Nibbles
 						72176,	-- Theory in Practice: Toughscale
 					},
-					["sourceQuests"] = {
-						69901,	-- Bring In the Expert
-						69900,	-- Identifying the Source
-					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(72179, {	-- Theory in Practice: Lord Firegiggle
 					["name"] = "Theory in Practice: Lord Firegiggle",
-					["provider"] = { "n", 192298 },	-- Tyrgon
+					["sourceQuests"] = {
+						69901,	-- Bring In the Expert
+						69900,	-- Identifying the Source
+					},
 					["altQuests"] = {
 						72178,	-- Theory in Practice: Baron von Swoopenbite
 						72174,	-- Theory in Practice: Bob
@@ -1595,15 +1598,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 						72177,	-- Theory in Practice: Mr.Nibbles
 						72176,	-- Theory in Practice: Toughscale
 					},
-					["sourceQuests"] = {
-						69901,	-- Bring In the Expert
-						69900,	-- Identifying the Source
-					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(72177, {	-- Theory in Practice: Mr.Nibbles
 					["name"] = "Theory in Practice: Mr.Nibbles",
-					["provider"] = { "n", 192298 },	-- Tyrgon
+					["sourceQuests"] = {
+						69901,	-- Bring In the Expert
+						69900,	-- Identifying the Source
+					},
 					["altQuests"] = {
 						72178,	-- Theory in Practice: Baron von Swoopenbite
 						72174,	-- Theory in Practice: Bob
@@ -1611,15 +1614,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 						-- 72177,	-- Theory in Practice: Mr.Nibbles
 						72176,	-- Theory in Practice: Toughscale
 					},
-					["sourceQuests"] = {
-						69901,	-- Bring In the Expert
-						69900,	-- Identifying the Source
-					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(72176, {	-- Theory in Practice: Toughscale
 					["name"] = "Theory in Practice: Toughscale",
-					["provider"] = { "n", 192298 },	-- Tyrgon
+					["sourceQuests"] = {
+						69901,	-- Bring In the Expert
+						69900,	-- Identifying the Source
+					},
 					["altQuests"] = {
 						72178,	-- Theory in Practice: Baron von Swoopenbite
 						72174,	-- Theory in Practice: Bob
@@ -1627,10 +1630,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 						72177,	-- Theory in Practice: Mr.Nibbles
 						-- 72176,	-- Theory in Practice: Toughscale
 					},
-					["sourceQuests"] = {
-						69901,	-- Bring In the Expert
-						69900,	-- Identifying the Source
-					},
+					["provider"] = { "n", 192298 },	-- Tyrgon
 					["coord"] = { 46.0, 81.5, THE_WAKING_SHORES },
 				}),
 				q(72089, {	-- To Skytop Observatory

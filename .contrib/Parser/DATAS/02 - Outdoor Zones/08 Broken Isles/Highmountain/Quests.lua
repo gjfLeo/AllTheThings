@@ -7,53 +7,53 @@ root(ROOTS.Zones, {
 		m(HIGHMOUNTAIN, {
 			n(QUESTS, {
 				q(40216, {	-- A Hunter at Heart
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40170,	-- Amateur Hour
 						39859,	-- Note-Eating Goats
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 				}),
 				q(40170, {	-- Amateur Hour
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40217,	-- An Offering of Ammo
 						39417,	-- Rating Razik
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 				}),
 				q(39577, {	-- An Ancient Secret
-					["provider"] = { "n", 99190 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 39578 },	-- Titanic Showdown
+					["provider"] = { "n", 99190 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 48.9, 71.4, 657 },	-- Path of Huln
 				}),
 				q(39374, {	-- An Audience with Torok
-					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["sourceQuests"] = {
 						39373,	-- Hags of a Feather
 						39873,	-- I Have a Bad Feeling About This
 						39372,	-- Witch of the Wood
 					},
+					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["coord"] = { 39.3, 37.0, HIGHMOUNTAIN },
 				}),
 				q(40217, {	-- An Offering of Ammo
-					["qg"] = 99905,	-- Shale Greyfeather
 					["sourceQuests"] = {	-- either quest
 						39387,	-- The Skies of Highmountain
 						39456,	-- Unexpected Allies
 					},
 					["sourceQuestNumRequired"] = 1,
+					["qg"] = 99905,	-- Shale Greyfeather
 					["coord"] = { 42.4, 46.9, 750 },	-- Thunder Totem
 					["isBreadcrumb"] = true,
 				}),
 				q(39429, {	-- Assaulting the Haglands
-					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 38910 },	-- Rocs vs Eagles
+					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["coord"] = { 52.3, 36.5, HIGHMOUNTAIN },
 				}),
 				q(45841, {	-- A Triumphant Report
-					["provider"] = { "n", 117361 },	-- Navarrogg
 					["sourceQuests"] = { 45796 },	-- Destroying the Nest
+					["provider"] = { "n", 117361 },	-- Navarrogg
 					["coord"] = { 31.3, 25.1, HIGHMOUNTAIN },
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
@@ -68,54 +68,54 @@ root(ROOTS.Zones, {
 					["coord"] = { 57.5, 56.4, HIGHMOUNTAIN },
 				}),
 				q(40515, {	-- A Walk With the Spirits
-					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["coord"] = { 55.0, 63.0, 652 },	-- Thunder Totem
 				}),
 				q(39488, {	-- Balance of Elements
+					["sourceQuests"] = { 39661 },	-- Lifespring Cavern
 					["qgs"] = {
 						96520,	-- Jale Rivermane
 						96038,	-- Jale Rivermane
 					},
-					["sourceQuests"] = { 39661 },	-- Lifespring Cavern
 					["coord"] = { 38.4, 61.3, HIGHMOUNTAIN },
 				}),
 				q(38915, {	-- Battle of Snowblind Mesa
-					["provider"] = { "n", 108434 },	-- Mayla Highmountain
 					["sourceQuests"] = {
 						39580,	-- The High Chieftain
 						39387,	-- The Skies of Highmountain
 						39456,	-- Unexpected Allies
 					},
+					["provider"] = { "n", 108434 },	-- Mayla Highmountain
 					["coord"] = { 54.0, 62.8, 652 },	-- Thunder Totem
 				}),
 				q(39776, {	-- Battle Worms
-					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["sourceQuests"] = { 38915 },	-- Battle of Snowblind Mesa
+					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["coord"] = { 53.3, 64.0, HIGHMOUNTAIN },
 				}),
 				q(39392, {	-- Bear Huntin'
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40170,	-- Amateur Hour
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 				}),
 				q(39043, {	-- Bitestone Enclave
-					["provider"] = { "n", 97553 },	-- Warbrave Oro
 					["sourceQuests"] = {
 						39025,	-- Grasp of the Underking
 						39026,	-- The Drogbar
 					},
+					["provider"] = { "n", 97553 },	-- Warbrave Oro
 					["coord"] = { 11.7, 25.9, 651 },	-- Bitestone Enclave
 				}),
 				q(39426, {	-- Blood Debt
-					["provider"] = { "n", 95421 },	-- Navarrogg
 					["sourceQuests"] = {
 						39391,	-- Pet Rocks
 						39425,	-- Stonedark Crystal
 						39588,	-- They Will Pay With Blood
 					},
+					["provider"] = { "n", 95421 },	-- Navarrogg
 					["coord"] = { 45.1, 32.4, HIGHMOUNTAIN },
 					["groups"] = {
 						i(200664, {	-- Bloodgem of Greed
@@ -135,23 +135,23 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(42630, {	-- Bolas Bastion
-					["provider"] = { "n", 107660 },	-- Bolas Skyfeather
 					["sourceQuests"] = { 39387 },	-- The Skies of Highmountain
+					["provider"] = { "n", 107660 },	-- Bolas Skyfeather
 					["coord"] = { 43.0, 39.3, HIGHMOUNTAIN },
 				}),
 				q(40345, {	-- Burn the Candle at Both Ends
-					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["sourceQuests"] = { 40339 },	-- Candle of Command
+					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["coord"] = { 55.2, 41.8, HIGHMOUNTAIN },
 				}),
 				q(39777, {	-- Buy Us Time
-					["provider"] = { "n", 97344 },	-- Jale Rivermane
 					["sourceQuests"] = { 38915 },	-- Battle of Snowblind Mesa
+					["provider"] = { "n", 97344 },	-- Jale Rivermane
 					["coord"] = { 53.3, 64.0, HIGHMOUNTAIN },
 				}),
 				q(40339, {	-- Candle of Command
-					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["sourceQuests"] = { 39769 },	-- The Gates of Wax
+					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["coord"] = { 55.2, 41.8, HIGHMOUNTAIN },
 				}),
 				q(39768, {	-- Candle to the Grave
@@ -159,8 +159,8 @@ root(ROOTS.Zones, {
 					["coord"] = { 54.7, 45.0, HIGHMOUNTAIN },
 				}),
 				q(39772, {	-- Can't Hold a Candle To You
-					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["sourceQuests"] = { 40345 },	-- Burn the Candle at Both Ends
+					["provider"] = { "n", 97130 },	-- Bluewax Gatekeeper
 					["coord"] = { 55.2, 41.8, HIGHMOUNTAIN },
 					["groups"] = {
 						i(130275),	-- Chain of Bossing Around
@@ -171,26 +171,26 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39455, {	-- Cave of the Blood Trial
-					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["sourceQuests"] = { 39374 },	-- An Audience with Torok
+					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["coord"] = { 39.2, 34.4, HIGHMOUNTAIN },
 				}),
 				q(42622, {	-- Ceremonial Drums
-					["provider"] = { "n", 108017 },	-- Torv Dubstomp
 					["sourceQuests"] = { 39992 },	-- Huln's War - The Nathrezim
+					["provider"] = { "n", 108017 },	-- Torv Dubstomp
 					["coord"] = { 53.4, 78.0, 652 },	-- Thunder Totem
 				}),
 				q(39670, {	-- Critter Scatter Shot
-					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["sourceQuests"] = { 39386 },	-- Procuring a Prototype
+					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["coord"] = { 57.5, 56.6, HIGHMOUNTAIN },
 				}),
 				q(39487, {	-- Crystal Fury
-					["provider"] = { "n", 96038 },	-- Jale Rivermane
 					["sourceQuests"] = {
 						39488,	-- Balance of Elements
 						39489,	-- Invading Spelunkers
 					},
+					["provider"] = { "n", 96038 },	-- Jale Rivermane
 					["groups"] = {
 						i(200662, {	-- Encrusted Blade of the Mountains
 							["classes"] = { EVOKER },
@@ -215,8 +215,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39027, {	-- Dargrul and the Hammer
-					["provider"] = { "n", 97553 },	-- Warbrave Oro
 					["sourceQuests"] = { 39043 },	-- Bitestone Enclave
+					["provider"] = { "n", 97553 },	-- Warbrave Oro
 					["coord"] = { 46.6, 44.0, 651 },	-- Bitestone Enclave
 					["groups"] = {
 						i(121722),	-- Staunch Warbrave Loop
@@ -227,16 +227,16 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39437, {	-- Deep in the Cavern
-					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["sourceQuests"] = { 39440 },	-- You Lift, Brul?
+					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["coord"] = { 52.3, 61.6, 659 },	-- Stonedark Grotto
 				}),
 				q(39774, {	-- Demon Detainment
-					["provider"] = { "n", 97846 },	-- Apprentice Rosalyn
 					["sourceQuests"] = {
 						39764,	-- Shiny, But Deadly
 						39773,	-- The Soulkeeper's Fate
 					},
+					["provider"] = { "n", 97846 },	-- Apprentice Rosalyn
 					["coord"] = { 30.0, 62.7, 654 },	-- Mucksnout Den
 					["groups"] = {
 						i(132091),	-- Warmth of Uriah
@@ -249,8 +249,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(45796, {	-- Destroying the Nest
-					["provider"] = { "n", 117361 },	-- Navarrogg
 					["sourceQuests"] = { 45587 },	-- The Feltotem Menace
+					["provider"] = { "n", 117361 },	-- Navarrogg
 					["coord"] = { 31.3, 25.1, HIGHMOUNTAIN },
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
@@ -265,29 +265,29 @@ root(ROOTS.Zones, {
 					["coord"] = { 50.9, 36.6, HIGHMOUNTAIN },
 				}),
 				q(39305, {	-- Empty Nest
-					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["sourceQuests"] = {
 						40070,	-- Eagle Egg Recovery
 						42425,	-- Going Down, Going Up
 					--	may also require "Tamer Takedown"
 					},
+					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 49.4, 39.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(129277),	-- Skyhorn Nestling (PET!)
 					},
 				}),
 				q(42088, {	-- Evacuate Snowmane
-					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["sourceQuests"] = {
 						39776,	-- Battle Worms
 						39777,	-- Buy Us Time
 						39862,	-- The Siegebrul
 					},
+					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["coord"] = { 53.3, 64.0, HIGHMOUNTAIN },
 				}),
 				q(39614, {	-- Fish Out of Water
-					["provider"] = { "n", 95186 },	-- Angler Creel
 					["sourceQuests"] = { 39496 },	-- The Flow of the River
+					["provider"] = { "n", 95186 },	-- Angler Creel
 					["coord"] = { 41.2, 61.5, HIGHMOUNTAIN },
 				}),
 				q(40069, {	-- Fledgling Worm Guts
@@ -295,24 +295,24 @@ root(ROOTS.Zones, {
 					["coord"] = { 50.9, 36.6, HIGHMOUNTAIN },
 				}),
 				q(38909, {	-- Get to High Ground
-					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 39027 },	-- Dargrul and the Hammer
+					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 38.6, 68.3, HIGHMOUNTAIN },
 				}),
 				q(42425, {	-- Going Down, Going Up
-					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["sourceQuests"] = { 40069 },	-- Fledgling Worm Guts
+					["provider"] = { "n", 94068 },	-- Oren Windstrider
 					["coord"] = { 49.4, 39.2, HIGHMOUNTAIN },
 				--	didn't require "Eagle Egg Recovery" or "Tamer Takedown."
 				}),
 				q(39025, {	-- Grasp of the Underking
-					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 42104 },	-- The Underking Comes
+					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 38.6, 68.3, HIGHMOUNTAIN },
 				}),
 				q(39438, {	-- Guhruhlruhlruh
-					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["sourceQuests"] = { 39440 },	-- You Lift, Brul?
+					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["coord"] = { 52.3, 61.6, 659 },	-- Stonedark Grotto
 					["groups"] = {
 						i(130296),	-- Deep Squatter's Waistguard (Leather)
@@ -326,8 +326,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39373, {	-- Hags of a Feather
-					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["sourceQuests"] = { 38912 },	-- The Bloodtotem Tribe
+					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["coord"] = { 39.3, 37.0, HIGHMOUNTAIN },
 				}),
 				q(41094, {	-- Hatchlings of the Talon
@@ -339,43 +339,43 @@ root(ROOTS.Zones, {
 					["coord"] = { 47.1, 47.9, HIGHMOUNTAIN },
 				}),
 				q(42512, {	-- Highmountain Stands
-					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["sourceQuests"] = { 42088 },	-- Evacuate Snowmane
+					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["coord"] = { 52.2, 65.9, HIGHMOUNTAIN },
 				}),
 				q(39498, {	-- High Water
-					["provider"] = { "n", 96038 },	-- Jale Rivermane
 					["sourceQuests"] = { 39487 },	-- Crystal Fury
+					["provider"] = { "n", 96038 },	-- Jale Rivermane
 				}),
 				q(40112, {	-- Huln's War - Malorne's Favored
-					["provider"] = { "n", 97891 },	-- Unng Ak
 					["sourceQuests"] = { 39983 },	-- Huln's War: The Arrival
+					["provider"] = { "n", 97891 },	-- Unng Ak
 					["coord"] = { 29.5, 39.2, 697 },	-- Azshara (scenario)
 				}),
 				q(39990, {	-- Huln's War - Reinforcements
-					["provider"] = { "n", 97892 },	-- Malfurion Stormrage
 					["sourceQuests"] = { 39988 },	-- Huln's War - Stormrage
+					["provider"] = { "n", 97892 },	-- Malfurion Stormrage
 					["coord"] = { 27.8, 51.6, 697 },	-- Azshara (scenario)
 				}),
 				q(40388, {	-- Huln's War - Shadowsong
-					["provider"] = { "n", 97892 },	-- Malfurion Stormrage
 					["sourceQuests"] = { 39990 },	-- Huln's War - Reinforcements
+					["provider"] = { "n", 97892 },	-- Malfurion Stormrage
 					["coord"] = { 27.8, 51.7, 697 },	-- Azshara (scenario)
 				}),
 				q(39988, {	-- Huln's War - Stormrage
-					["provider"] = { "n", 98794 },	-- Eche'ro
 					["sourceQuests"] = { 40112 },	-- Huln's War - Malorne's Favored
+					["provider"] = { "n", 98794 },	-- Eche'ro
 					["coord"] = { 27.9, 47.2, 697 },	-- Azshara (scenario)
 				}),
 				q(39983, {	-- Huln's War - The Arrival
-					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 40520 },	-- To See the Past
+					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 					["maps"] = { 697 },	-- Azshara (scenario)
 				}),
 				q(39992, {	-- Huln's War - The Nathrezim
-					["provider"] = { "n", 97903 },	-- Jarod Shadowsong
 					["sourceQuests"] = { 40388 },	-- Huln's War - Shadowsong
+					["provider"] = { "n", 97903 },	-- Jarod Shadowsong
 					["coord"] = { 31.2, 52.4, 697 },	-- Azshara (Scenario)
 					["groups"] = {
 						i(130282),	-- Highmountain Trueshot Cape
@@ -383,154 +383,154 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39873, {	-- I Have a Bad Feeling About This
-					["provider"] = { "n", 97667 },	-- Navarrogg
 					["sourceQuests"] = { 38912 },	-- The Bloodtotem Tribe
+					["provider"] = { "n", 97667 },	-- Navarrogg
 					["coord"] = { 39.0, 37.3, HIGHMOUNTAIN },
 				}),
 				q(40047, {	-- I'll Huff, I'll Puff...
-					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
+					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
 				}),
 				q(39867, {	-- I'm Not Lion!
-					["provider"] = { "n", 95438 },	-- Ellias
 					["sourceQuests"] = { 39123 },	-- Lion Stalkin'
+					["provider"] = { "n", 95438 },	-- Ellias
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(133810),	-- Recipe: Salt and Pepper Shank [Rank 1] (RECIPE!)
 					},
 				}),
 				q(40219, {	-- In Defiance of Deathwing
-					["provider"] = { "n", 99153 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 39575 },	-- The Path of Huln
+					["provider"] = { "n", 99153 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 42.8, 28.7, 657 },	-- Path of Huln
 				}),
 				q(39489, {	-- Invading Spelunkers
+					["sourceQuests"] = { 39661 },	-- Lifespring Cavern
 					["qgs"] = {
 						96520,	-- Jale Rivermane
 						96038,	-- Jale Rivermane
 					},
-					["sourceQuests"] = { 39661 },	-- Lifespring Cavern
 					["coord"] = { 38.4, 61.3, HIGHMOUNTAIN },
 				}),
 				q(39490, {	-- Infestation
-					["provider"] = { "n", 95191 },	-- Farmer Maya
 					["sourceQuests"] = { 38911 },	-- The Rivermane Tribe
+					["provider"] = { "n", 95191 },	-- Farmer Maya
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 				}),
 				q(40594, {	-- Justice Rains from Above
-					["provider"] = { "n", 97407 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 42512 },	-- Highmountain Stands
+					["provider"] = { "n", 97407 },	-- Lasan Skyhorn
 					["coord"] = { 53.2, 64.3, HIGHMOUNTAIN },
 				}),
 				q(39661, {	-- Lifespring Cavern
-					["provider"] = { "n", 95956 },	-- Jale Rivermane
 					["sourceQuests"] = {
 						39614,	-- Fish Out of Water
 						39277,	-- Spray and Prey
 						39316,	-- Trapped Tauren
 					},
+					["provider"] = { "n", 95956 },	-- Jale Rivermane
 					["coord"] = { 41.1, 61.5, HIGHMOUNTAIN },
 				}),
 				q(39123, {	-- Lion Stalkin'
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40170,	-- Amateur Hour
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 				}),
 				q(39178, {	-- Moose on the Loose
-					["provider"] = { "n", 94101 },	-- Laeni Silvershot
 					["sourceQuests"] = { 39124 },	-- Moose Shootin'
+					["provider"] = { "n", 94101 },	-- Laeni Silvershot
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(141647),	-- Medallion of Morashu
 					},
 				}),
 				q(39124, {	-- Moose Shootin'
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40170,	-- Amateur Hour
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 				}),
 				q(39572, {	-- Moozy's Adventure
-					["provider"] = { "n", 95130 },	-- Mooze Waterwise
 					["sourceQuests"] = { 39323 },	-- Moozy's Sojourn
+					["provider"] = { "n", 95130 },	-- Mooze Waterwise
 					["coord"] = { 37.5, 64.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121724),	-- Whitewater Safety Blanket
 					},
 				}),
 				q(42590, {	-- Moozy's Reunion
-					["provider"] = { "n", 96084 },	-- Sella Waterwise
 					["sourceQuests"] = { 39572 },	-- Moozy's Adventure
+					["provider"] = { "n", 96084 },	-- Sella Waterwise
 					["coord"] = { 46.1, 54.6, 750 },	-- Thunder Totem
 				}),
 				q(39323, {	-- Moozy's Sojourn
-					["provider"] = { "n", 96083 },	-- Rordan Waterwise
 					["sourceQuests"] = {
 						39490,	-- Infestation
 						39491,	-- Ormgul the Pestilent
 						39272,	-- Poisoned Crops
 					},
+					["provider"] = { "n", 96083 },	-- Rordan Waterwise
 					["coord"] = { 40.2, 64.1, HIGHMOUNTAIN },
 				}),
 				q(42596, {	-- Mountainstrider Round-Up
-					["provider"] = { "n", 97854 },	-- Liza Galestride
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 97854 },	-- Liza Galestride
 					["coord"] = { 53.5, 45.7, 750 },	-- Thunder Totem
 				}),
 				q(40102, {	-- Murlocs: The Next Generation
-					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["sourceQuests"] = {
 						40047,	-- I'll Huff, I'll Puff...
 						40045,	-- Nature vs. Nurture
 						40049,	-- Slime Time
 					},
+					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
 					["groups"] = {
 						i(133818),	-- Recipe: Barracuda Mrglgagh [Rank 1] (RECIPE!)
 					},
 				}),
 				q(40045, {	-- Nature vs. Nurture
-					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
+					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
 				}),
 				q(39781, {	-- Neltharion's Lair: Death to the Underking
-					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["sourceQuests"] = { 39780 },	-- The Underking
+					["provider"] = { "n", 93846 },	-- Mayla Highmountain
 					["coord"] = { 53.1, 70.1, HIGHMOUNTAIN },
 				}),
 				q(39859, {	-- Note-Eating Goats
-					["provider"] = { "n", 94434 },	-- Addie Fizzlebog
 					["sourceQuests"] = {
 						40217,	-- An Offering of Ammo
 						39417,	-- Rating Razik
 					},
+					["provider"] = { "n", 94434 },	-- Addie Fizzlebog
 					["coord"] = { 39.9, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(130320),	-- Addie's Ink-Stained Satchel
 					},
 				}),
 				q(39133, {	-- No Time to Talk
-					["provider"] = { "n", 94561 },	-- Warbrave Nava
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 94561 },	-- Warbrave Nava
 					["coord"] = { 49.0, 55.2, HIGHMOUNTAIN },
 				}),
 				q(39318, {	-- Nursing the Wounds
-					["provider"] = { "n", 93841 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 38913 },	-- The Skyhorn Tribe
+					["provider"] = { "n", 93841 },	-- Lasan Skyhorn
 					["coord"] = { 52.4, 44.7, HIGHMOUNTAIN },
 				}),
 				q(40230, {	-- Oh, the Clawdacity!
-					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["sourceQuests"] = {
 						40047,	-- I'll Huff, I'll Puff...
 						40045,	-- Nature vs. Nurture
 						40049,	-- Slime Time
 					},
+					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
 					["groups"] = {
 						i(132116),	-- Slime-Stacked Shoulderguards
@@ -544,8 +544,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39491, {	-- Ormgul the Pestilent
-					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["sourceQuests"] = { 38911 },	-- The Rivermane Tribe
+					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121657),	-- Snowblind Treads
@@ -558,38 +558,38 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39391, {	-- Pet Rocks
-					["provider"] = { "n", 95421 },	-- Navarrogg
 					["sourceQuests"] = { 39381 },	-- Rock Troll in a Hard Place
+					["provider"] = { "n", 95421 },	-- Navarrogg
 					["coord"] = { 45.1, 32.4, HIGHMOUNTAIN },
 				}),
 				q(39272, {	-- Poisoned Crops
-					["provider"] = { "n", 95191 },	-- Farmer Maya
 					["sourceQuests"] = { 38911 },	-- The Rivermane Tribe
+					["provider"] = { "n", 95191 },	-- Farmer Maya
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 				}),
 				q(39386, {	-- Procuring a Prototype
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
-					["altQuests"] = { 39417 },	-- Rating Razik
+					["description"] = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Rating Razik|r on the same character.",
 					["sourceQuests"] = {	-- not sure if all 3 are required, or just Scout it Out
 						39867,	-- I'm Not Lion!
 						39178,	-- Moose on the Loose
 						40228,	-- Scout it Out
 					},
+					["altQuests"] = { 39417 },	-- Rating Razik
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
-					["description"] = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Rating Razik|r on the same character.",
 					["isBreadcrumb"] = true,
 				}),
 				q(39417, {	-- Rating Razik
-					["provider"] = { "n", 96513 },	-- Razik Gazbolt
-					["altQuests"] = { 39386 },	-- Procuring a Prototype
-					["sourceQuests"] = { 39656 },	-- Wolf Pack Attack
-					["coord"] = { 57.6, 56.6, HIGHMOUNTAIN },
 					["description"] = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Procuring a Prototype|r on the same character.",
+					["sourceQuests"] = { 39656 },	-- Wolf Pack Attack
+					["altQuests"] = { 39386 },	-- Procuring a Prototype
+					["provider"] = { "n", 96513 },	-- Razik Gazbolt
+					["coord"] = { 57.6, 56.6, HIGHMOUNTAIN },
 					["isBreadcrumb"] = true,
 				}),
 				q(39860, {	-- Rite of Blood
-					["provider"] = { "n", 93836 },	-- Torok Bloodtotem
 					["sourceQuests"] = { 39455 },	-- Cave of the Blood Trial
+					["provider"] = { "n", 93836 },	-- Torok Bloodtotem
 					["coord"] = { 59.1, 31.8, 653 },	-- Cave of the Blood Trial
 					["groups"] = {
 						i(121669),	-- Snowblind Leggings
@@ -602,23 +602,23 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39381, {	-- Rock Troll in a Hard Place
-					["provider"] = { "n", 96286 },	-- Navarrogg
 					["sourceQuests"] = { 39860 },	-- Rite of Blood
+					["provider"] = { "n", 96286 },	-- Navarrogg
 					["coord"] = { 41.4, 82.3, 653 },	-- Cave of the Blood Trial
 				}),
 				q(38910, {	-- Rocs vs Eagles
-					["provider"] = { "n", 93841 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 39318 },	-- Nursing the Wounds
+					["provider"] = { "n", 93841 },	-- Lasan Skyhorn
 					["coord"] = { 52.4, 44.7, HIGHMOUNTAIN },
 				}),
 				q(40228, {	-- Scout It Out
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = {
 						40216,	-- A Hunter at Heart
 						39392,	-- Bear Huntin'
 						39123,	-- Lion Stalkin'
 						39124,	-- Moose Shootin'
 					},
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121672),	-- Lead-Studded Robes
@@ -632,8 +632,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(38916, {	-- Secrets of Highmountain
-					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 39992 },	-- Huln's War - The Nathrezim
+					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 				}),
 				q(39764, {	-- Shiny, But Deadly
@@ -641,13 +641,13 @@ root(ROOTS.Zones, {
 					["coord"] = { 51.8, 82.0, 654 },	-- Mucksnout Den
 				}),
 				q(40049, {	-- Slime Time
-					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["sourceQuests"] = { 40244 },	-- That Guy in the Costume
+					["provider"] = { "n", 98067 },	-- King Mrgl-Mrgl
 					["coord"] = { 42.7, 10.8, HIGHMOUNTAIN },
 				}),
 				q(39277, {	-- Spray and Prey
-					["provider"] = { "n", 95956 },	-- Jale Rivermane
 					["sourceQuests"] = { 39496 },	-- The Flow of the River
+					["provider"] = { "n", 95956 },	-- Jale Rivermane
 					["coord"] = { 41.2, 61.5, HIGHMOUNTAIN },
 					["groups"] = {
 						i(130291),	-- Snowblind Gloves
@@ -661,18 +661,18 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(40229, {	-- Step into the Dark
-					["provider"] = { "n", 96453 },	-- Navarrogg
 					["sourceQuests"] = { 39426 },	-- Blood Debt
+					["provider"] = { "n", 96453 },	-- Navarrogg
 					["coord"] = { 49.4, 23.9, HIGHMOUNTAIN },
 				}),
 				q(39425, {	-- Stonedark Crystal
-					["provider"] = { "n", 95421 },	-- Navarrogg
 					["sourceQuests"] = { 39381 },	-- Rock Troll in a Hard Place
+					["provider"] = { "n", 95421 },	-- Navarrogg
 					["coord"] = { 45.1, 32.4, HIGHMOUNTAIN },
 				}),
 				q(39439, {	-- Stonedark Relics
-					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["sourceQuests"] = { 39440 },	-- You Lift, Brul?
+					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["coord"] = { 52.3, 61.6, 659 },	-- Stonedark Grotto
 				}),
 				q(40071, {	-- Tamer Takedown
@@ -687,14 +687,14 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(40244, {	-- That Guy in the Costume
-					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["sourceQuests"] = { 40228 },	-- Scout it Out
+					["provider"] = { "n", 94409 },	-- Hemet Nesingwary
 					["coord"] = { 40.0, 52.2, HIGHMOUNTAIN },
 					["isBreadcrumb"] = true,
 				}),
 				q(39579, {	-- The Backdoor
-					["provider"] = { "n", 96270 },	-- Ebyssian
 					["sourceQuests"] = { 39577 },	-- An Ancient Secret
+					["provider"] = { "n", 96270 },	-- Ebyssian
 					["coord"] = { 61.1, 73.7, 657 },	-- Path of Huln
 					["groups"] = {
 						i(133137),	-- Wisps of Illusion
@@ -710,18 +710,18 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(38912, {	-- The Bloodtotem Tribe
-					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["coord"] = { 55.0, 63.0, 652 },	-- Thunder Totem
 				}),
 				q(45564, {	-- The Burning Birds
-					["provider"] = { "n", 117225 },	-- Navarrogg
 					["sourceQuests"] = {
 						47018,	-- Beast Mastery: Rumblings Near Feltotem
 						45560,	-- Destruction: Rumblings Near Feltotem
 						47020,	-- Discipline: Rumblings Near Feltotem
 						47019,	-- Windwalker: Rumblings Near Feltotem
 					},
+					["provider"] = { "n", 117225 },	-- Navarrogg
 					["coord"] = { 35.6, 24.0, HIGHMOUNTAIN },
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
@@ -735,13 +735,13 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39026, {	-- The Drogbar
-					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 42104 },	-- The Underking Comes
+					["provider"] = { "n", 93805 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 38.6, 68.3, HIGHMOUNTAIN },
 				}),
 				q(45587, {	-- The Feltotem Menace
-					["provider"] = { "n", 117292 },	-- Navarrogg
 					["sourceQuests"] = { 45575 },	-- Village of the Corruptors
+					["provider"] = { "n", 117292 },	-- Navarrogg
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -752,50 +752,50 @@ root(ROOTS.Zones, {
 					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 				}),
 				q(39496, {	-- The Flow of the River
-					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["sourceQuests"] = {
 						39490,	-- Infestation
 						39491,	-- Ormgul the Pestilent
 						39272,	-- Poisoned Crops
 					},
+					["provider"] = { "n", 93833 },	-- Jale Rivermane
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 				}),
 				q(39769, {	-- The Gates of Wax
-					["provider"] = { "n", 96984 },	-- Oenia Skyhorn
 					["sourceQuests"] = {
 						39768,	-- Candle to the Grave
 						39765,	-- Wax On, Wax Off
 					},
+					["provider"] = { "n", 96984 },	-- Oenia Skyhorn
 					["coord"] = { 54.7, 44.9, HIGHMOUNTAIN },
 				}),
 				q(39580, {	-- The High Chieftain
-					["provider"] = { "n", 108305 },	-- Mayla Highmountain
 					["sourceQuests"] = { 39579 },	-- The Backdoor
+					["provider"] = { "n", 108305 },	-- Mayla Highmountain
 					["coord"] = { 47.4, 84.7, HIGHMOUNTAIN },
 				}),
 				q(39575, {	-- The Path of Huln
-					["provider"] = { "n", 94571 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 38916 },	-- Secrets of Highmountain
+					["provider"] = { "n", 94571 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 44.9, 65.6, HIGHMOUNTAIN },
 				}),
 				q(38911, {	-- The Rivermane Tribe
-					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["sourceQuests"] = { 38907 },	-- Keepers of the Hammer
+					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["coord"] = { 55.0, 64.3, 652 },	-- Thunder Totem
 				}),
 				q(39862, {	-- The Siegebrul
-					["provider"] = { "n", 97301 },	-- Navarrogg
 					["sourceQuests"] = { 38915 },	-- Battle of Snowblind Mesa
+					["provider"] = { "n", 97301 },	-- Navarrogg
 					["coord"] = { 53.3, 64.0, HIGHMOUNTAIN },
 				}),
 				q(39387, {	-- The Skies of Highmountain
-					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 39322 },	-- The Witchqueen
+					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["coord"] = { 45.7, 39.1, HIGHMOUNTAIN },
 				}),
 				q(38913, {	-- The Skyhorn Tribe
-					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 93826 },	-- Mayla Highmountain
 					["coord"] = { 55.0, 63.0, 652 },	-- Thunder Totem
 				}),
 				q(39773, {	-- The Soulkeeper's Fate
@@ -803,13 +803,13 @@ root(ROOTS.Zones, {
 					["coord"] = { 51.8, 82.0, 654 },	-- Mucksnout Den
 				}),
 				q(40167, {	-- The Story of Huln
-					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 40515 },	-- A Walk With the Spirits
+					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 				}),
 				q(45726, {	-- The Tainted Marsh
-					["provider"] = { "n", 117249 },	-- Navarrogg
 					["sourceQuests"] = { 45564 },	-- The Burning Birds
+					["provider"] = { "n", 117249 },	-- Navarrogg
 					["coord"] = { 31.3, 25.1, HIGHMOUNTAIN },
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
@@ -823,8 +823,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39321, {	-- The Three
-					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 38910 },	-- Rocs vs Eagles
+					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["coord"] = { 52.3, 36.5, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121665),	-- Snowblind Cowl
@@ -838,8 +838,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39780, {	-- The Underking
-					["provider"] = { "n", 97407 },	-- Lasan Skyhorn
 					["sourceQuests"] = { 40594 },	-- Justice Rains from Above
+					["provider"] = { "n", 97407 },	-- Lasan Skyhorn
 					["coord"] = { 53.1, 68.7, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121675),	-- Snowblind Mantle
@@ -853,16 +853,16 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(42104, {	-- The Underking Comes
-					["provider"] = { "n", 97662 },	-- Jale Rivermane
 					["sourceQuests"] = { 39498 },	-- High Water
+					["provider"] = { "n", 97662 },	-- Jale Rivermane
 					["coord"] = { 40.3, 71.6, HIGHMOUNTAIN },
 				}),
 				q(39322, {	-- The Witchqueen
-					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["sourceQuests"] = {
 						39429,	-- Assaulting the Haglands
 						39321,	-- The Three
 					},
+					["provider"] = { "n", 95410 },	-- Lasan Skyhorn
 					["coord"] = { 49.2, 36.5, HIGHMOUNTAIN },
 					["groups"] = {
 						i(133093),	-- Crawliac Charming Draught
@@ -902,13 +902,13 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39588, {	-- They Will Pay With Blood
-					["provider"] = { "n", 95421 },	-- Navarrogg
 					["sourceQuests"] = { 39381 },	-- Rock Troll in a Hard Place
+					["provider"] = { "n", 95421 },	-- Navarrogg
 					["coord"] = { 45.1, 32.4, HIGHMOUNTAIN },
 				}),
 				q(39578, {	-- Titanic Showdown
-					["provider"] = { "n", 108069 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 40219 },	-- In Defiance of Deathwing
+					["provider"] = { "n", 108069 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 49.3, 54.1, 657 },	-- Path of Huln
 					["groups"] = {
 						i(121662),	-- Snowblind Handwraps
@@ -919,23 +919,23 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(40520, {	-- To See the Past
-					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["sourceQuests"] = { 40167 },	-- The Story of Huln
+					["provider"] = { "n", 98825 },	-- Spiritwalker Ebonhorn
 					["coord"] = { 74.8, 75.0, 652 },	-- Thunder Totem
 				}),
 				q(39316, {	-- Trapped Tauren
-					["provider"] = { "n", 95186 },	-- Angler Creel
 					["sourceQuests"] = { 39496 },	-- The Flow of the River
+					["provider"] = { "n", 95186 },	-- Angler Creel
 					["coord"] = { 41.2, 61.5, HIGHMOUNTAIN },
 				}),
 				q(39456, {	-- Unexpected Allies
-					["provider"] = { "n", 95392 },	-- Navarrogg
 					["sourceQuests"] = { 40229 },	-- Step Into the Dark
+					["provider"] = { "n", 95392 },	-- Navarrogg
 					["coord"] = { 39.6, 53.8, 659 },	-- Stonedark Grotto
 				}),
 				q(45575, {	-- Village of the Corruptors
-					["provider"] = { "n", 117249 },	-- Navarrogg
 					["sourceQuests"] = { 45726 },	-- The Tainted Marsh
+					["provider"] = { "n", 117249 },	-- Navarrogg
 					["coord"] = { 31.3, 25.1, HIGHMOUNTAIN },
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
@@ -950,21 +950,21 @@ root(ROOTS.Zones, {
 					["coord"] = { 54.7, 45.0, HIGHMOUNTAIN },
 				}),
 				q(39372, {	-- Witch of the Wood
-					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["sourceQuests"] = { 38912 },	-- The Bloodtotem Tribe
+					["provider"] = { "n", 95256 },	-- Oakin Ironbull
 					["coord"] = { 39.3, 37.0, HIGHMOUNTAIN },
 				}),
 				q(39656, {	-- Wolf Pack Attack
-					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["sourceQuests"] = { 39670 },	-- Critter Scatter Shot
+					["provider"] = { "n", 96513 },	-- Razik Gazbolt
 					["coord"] = { 57.6, 56.5, HIGHMOUNTAIN },
 					["groups"] = {
 						i(131933),	-- Critter Hand Cannon (TOY!)
 					},
 				}),
 				q(39134, {	-- Wrathshard
-					["provider"] = { "n", 94561 },	-- Warbrave Nava
 					["sourceQuests"] = { 38909 },	-- Get to High Ground
+					["provider"] = { "n", 94561 },	-- Warbrave Nava
 					["coord"] = { 49.0, 55.2, HIGHMOUNTAIN },
 					["groups"] = {
 						i(121678),	-- Snowblind Cord
@@ -978,8 +978,8 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(39440, {	-- You Lift, Brul?
-					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["sourceQuests"] = { 40229 },	-- Step Into the Dark
+					["provider"] = { "n", 95799 },	-- Damrul the Stronk
 					["coord"] = { 51.5, 62.3, 659 },	-- Stonedark Grotto
 				}),
 				n(BONUS_OBJECTIVES, sharedData({

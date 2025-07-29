@@ -27,8 +27,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 			}),
 			n(QUESTS, {
 				q(24499, {	-- Echoes of Tortured Souls (A)
-					["qg"] = 37597,	-- Lady Jaina Proudmoore
 					["sourceQuest"] = 24510,	-- Inside the Frozen Citadel (A)
+					["qg"] = 37597,	-- Lady Jaina Proudmoore
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(78, 78, 25),
 					["groups"] = {
@@ -41,8 +41,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					},
 				}),
 				q(24511, {	-- Echoes of Tortured Souls (H)
-					["qg"] = 37596,	-- Lady Sylvanas Windrunner <Banshee Queen>
 					["sourceQuest"] = 24506,	-- Inside the Frozen Citadel (H)
+					["qg"] = 37596,	-- Lady Sylvanas Windrunner <Banshee Queen>
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(78, 78, 25),
 					["groups"] = {
@@ -72,15 +72,15 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					["lvl"] = lvlsquish(78, 78, 25),
 				}),
 				q(24683, {	-- The Pit of Saron (A)
-					["qg"] = 38160,	-- Lady Jaina Proudmoore
 					["sourceQuest"] = 24499,	-- Echoes of Tortured Souls (A)
+					["qg"] = 38160,	-- Lady Jaina Proudmoore
 					["maps"] = { PIT_OF_SARON },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(78, 78, 25),
 				}),
 				q(24682, {	-- The Pit of Saron (H)
-					["qg"] = 38161,	-- Lady Sylvanas Windrunner <Banshee Queen>
 					["sourceQuest"] = 24511,	-- Echoes of Tortured Souls (H)
+					["qg"] = 38161,	-- Lady Sylvanas Windrunner <Banshee Queen>
 					["maps"] = { PIT_OF_SARON },
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(78, 78, 25),

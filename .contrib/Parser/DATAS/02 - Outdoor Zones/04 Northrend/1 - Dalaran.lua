@@ -809,8 +809,8 @@ root(ROOTS.Zones, {
 						}),
 						n(QUESTS, {
 							q(13571, {	-- Fletcher's Lost and Found
-								["qg"] = 32516,	-- Washed-Up Mage
 								["sourceQuest"] = 12645,	-- The Taste Test
+								["qg"] = 32516,	-- Washed-Up Mage
 								["coord"] = { 44.2, 25.6, NORTHREND_THE_UNDERBELLY },
 								["requireSkill"] = COOKING,
 								["groups"] = {
@@ -1790,7 +1790,6 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12790, {	-- Learning to Leave and Return: the Magical Way
-						["qg"] = 29156,	-- Archmage Celindra
 						["sourceQuests"] = {
 							12791,	-- The Magical Kingdom of Dalaran (Horde only - Grizzly Hills, Dragonblight, Borean Tundra, Howling Fjord)
 							12794,	-- The Magical Kingdom of Dalaran (Alliance only - Grizzly Hills, Dragonblight, Borean Tundra, Howling Fjord)
@@ -1799,6 +1798,7 @@ root(ROOTS.Zones, {
 							39210,	-- The Magical Kingdom of Dalaran (Adventure Guide)
 							-- #endif
 						},
+						["qg"] = 29156,	-- Archmage Celindra
 						["coord"] = { 56.3, 46.7, NORTHREND_DALARAN },
 						["maps"] = { CRYSTALSONG_FOREST },
 					}),
@@ -1825,6 +1825,9 @@ root(ROOTS.Zones, {
 						},
 					})),
 					q(29073, {	-- Make Haste to Orgrimmar!
+						-- #if BEFORE 6.2.0
+						["description"] = "If you have your hearthstone set to Dalaran, this quest will be available to you.",
+						-- #endif
 						["providers"] = {
 							{ "o", 208317 },	-- Warchief's Command Board
 							{ "i",  68809 },	-- Veteran's Hearthstone
@@ -1833,14 +1836,14 @@ root(ROOTS.Zones, {
 							{ 48.7, 39.6, NORTHREND_DALARAN },
 							{ 59.2, 27.4, NORTHREND_DALARAN },
 						},
-						-- #if BEFORE 6.2.0
-						["description"] = "If you have your hearthstone set to Dalaran, this quest will be available to you.",
-						-- #endif
 						["timeline"] = { ADDED_4_0_6, REMOVED_6_2_0 },
 						["races"] = HORDE_ONLY,
 						["lvl"] = 80,
 					}),
 					q(29071, {	-- Make Haste to Stormwind!
+						-- #if BEFORE 6.2.0
+						["description"] = "If you have your hearthstone set to Dalaran, this quest will be available to you.",
+						-- #endif
 						["providers"] = {
 							{ "o", 208316 },	-- Hero's Call Board
 							{ "i",  68808 },	-- Hero's Hearthstone
@@ -1850,9 +1853,6 @@ root(ROOTS.Zones, {
 							{ 47.8, 41.2, NORTHREND_DALARAN },
 							{ 37.8, 63.8, NORTHREND_DALARAN },
 						},
-						-- #if BEFORE 6.2.0
-						["description"] = "If you have your hearthstone set to Dalaran, this quest will be available to you.",
-						-- #endif
 						["timeline"] = { ADDED_4_0_6, REMOVED_6_2_0 },
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = 80,
@@ -2153,11 +2153,11 @@ root(ROOTS.Zones, {
 					}),
 					-- #if ANYCLASSIC
 					applyclassicphase(WRATH_PHASE_FOUR, q(78752, {	-- Proof of Demise: Titan Rune Protocol Gamma
-						["qg"] = 20735,	-- Archmage Lan'dalock
-						["coord"] = { 57.6, 66.8, NORTHREND_DALARAN },
 						-- #if BEFORE 4.0.1
 						["description"] = "The quest item can also drop from any of the new Icecrown Heroic Dungeons.",
 						-- #endif
+						["qg"] = 20735,	-- Archmage Lan'dalock
+						["coord"] = { 57.6, 66.8, NORTHREND_DALARAN },
 						["maxReputation"] = { FACTION_KIRIN_TOR, EXALTED },	-- Kirin Tor, Exalted.
 						["timeline"] = { ADDED_3_3_0, REMOVED_4_0_1 },
 						["maps"] = {

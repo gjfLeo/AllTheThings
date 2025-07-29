@@ -23,8 +23,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(10257, {	-- Capturing the Keystone
-					["qg"] = 19481,	-- Archmage Vargoth
 					["sourceQuest"] = 10256,	-- Finding the Keymaster
+					["qg"] = 19481,	-- Archmage Vargoth
 					["coord"] = { 58.3, 86.4, NETHERSTORM },
 					["lvl"] = lvlsquish(67, 67, 25),
 					["groups"] = {

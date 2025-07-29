@@ -72,59 +72,59 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					["coord"] = { 67.0, 50.3, ORIBOS },	-- Ring of Fates
 				}),
 				q(63977, {	-- Insider Trading
-					["provider"] = { "n", 178908 },	-- Al'dalil
 					["sourceQuests"] = { 63976 },	-- The Al'ley Cat of Oribos
+					["provider"] = { "n", 178908 },	-- Al'dalil
 					["coord"] = { 57.1, 31.1, 1672 },	-- Broker's Den
 				}),
 				q(63979, {	-- Things Best Kept Dark
-					["provider"] = { "n", 178908 },	-- Al'dalil
 					["sourceQuests"] = { 63976 },	-- The Al'ley Cat of Oribos
+					["provider"] = { "n", 178908 },	-- Al'dalil
 					["coord"] = { 57.1, 31.1, 1672 },	-- Broker's Den
 					["groups"] = {
 						i(186182),	-- Cartel So Shipping Manifest (QI!)
 					},
 				}),
 				q(63980, {	-- Seeking Smugglers
-					["provider"] = { "n", 178908 },	-- Al'dalil
 					["sourceQuests"] = {
 						63977,	-- Insider Trading
 						63979,	-- Things Best Kept Dark
 					},
+					["provider"] = { "n", 178908 },	-- Al'dalil
 					["coord"] = { 57.1, 31.1, 1672 },	-- Broker's Den
 				}),
 				q(63982, {	-- Above My Station
-					["provider"] = { "n", 160090 },	-- Ta'nla the Identifier
 					["sourceQuests"] = { 63980 },	-- Seeking Smugglers
+					["provider"] = { "n", 160090 },	-- Ta'nla the Identifier
 					["coord"] = { 51.4, 82.7, REVENDRETH },
 				}),
 				q(63983, {	-- Dead Drop
-					["provider"] = { "n", 158890 },	-- Bounty Hunter Ta'oku
 					["sourceQuests"] = { 63982 },	-- Above My Station
+					["provider"] = { "n", 158890 },	-- Bounty Hunter Ta'oku
 					["coord"] = { 32.5, 32.4, BASTION },
 				}),
 				q(63984, {	-- Coins for the Ferryman
-					["provider"] = { "n", 158890 },	-- Bounty Hunter Ta'oku
 					["sourceQuests"] = { 63983 },	-- Dead Drop
+					["provider"] = { "n", 158890 },	-- Bounty Hunter Ta'oku
 					["coord"] = { 32.5, 32.4, BASTION },
 					["groups"] = {
 						i(186696),	-- Ta Coin of Favors (QI!)
 					},
 				}),
 				q(63985, {	-- The Veiled Market
-					["provider"] = { "n", 178792 },	-- Ta'meri
 					["sourceQuests"] = { 63984 },	-- Coins for the Ferryman
+					["provider"] = { "n", 178792 },	-- Ta'meri
 					["coord"] = { 29.6, 66.1, ORIBOS },	-- Ring of Fates
 				}),
 				q(63986, {	-- Tazavesh: Raiders of the Lost Artifact
-					["provider"] = { "n", 178908 },	-- Al'dalil
 					["sourceQuests"] = { 63985 },	-- The Veiled Market
+					["provider"] = { "n", 178908 },	-- Al'dalil
 					["coord"] = { 86.7, 48.3, TAZAVESH_THE_VEILED_MARKET_WORLD },
 					["_drop"] = { "g" },	-- Anima Trash
 				}),
 				q(64607, {	-- Tazavesh: A Hard Bargain
-					["provider"] = { "n", 180750 },	-- Au'manal <Master Forger>
-					["sourceQuests"] = { 63985 },	-- The Veiled Market
 					["description"] = "Requires |cFFFFFFFFPassably-Forged Credentials|r to be equipped to be able to accept the quest.",
+					["sourceQuests"] = { 63985 },	-- The Veiled Market
+					["provider"] = { "n", 180750 },	-- Au'manal <Master Forger>
 					["cost"] = { { "i", 185954, 1 } },	-- Passably-Forged Credentials
 					["groups"] = {
 						i(187552),	-- Perfectly-Forged Credentials

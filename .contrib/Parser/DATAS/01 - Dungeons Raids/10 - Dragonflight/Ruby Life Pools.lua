@@ -11,8 +11,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(66119, {	-- Defend the Life Pools!
-					["provider"] = { "n", 187145 },	-- Kildrumeh
 					["sourceQuests"] = { 66118 },	-- Basalt Assault
+					["provider"] = { "n", 187145 },	-- Kildrumeh
 					["coord"] = { 60.0, 76.0, THE_WAKING_SHORES },
 				}),
 			}),

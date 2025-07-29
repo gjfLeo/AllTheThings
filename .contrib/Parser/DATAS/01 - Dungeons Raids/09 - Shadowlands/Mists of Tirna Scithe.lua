@@ -8,8 +8,8 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(62371, {	-- Tirna Scithe: A Warning Silence
-					["provider"] = { "n", 168032 },	-- Flwngyrr
 					["sourceQuests"] = { 60905 },	-- Infusing the Wildseed
+					["provider"] = { "n", 168032 },	-- Flwngyrr
 					["coord"] = { 48.3, 50.5, ARDENWEALD },
 					["groups"] = {
 						i(184518),	-- Boots of the Oaken Assembly

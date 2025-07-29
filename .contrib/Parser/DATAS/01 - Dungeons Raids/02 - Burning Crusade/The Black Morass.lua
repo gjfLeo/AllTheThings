@@ -13,8 +13,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["groups"] = {
 			n(QUESTS, {
 				q(10298, {	-- Hero of the Brood
-					["qg"] = 20201,	-- Sa'at
 					["sourceQuest"] = 10297,	-- The Opening of the Dark Portal
+					["qg"] = 20201,	-- Sa'at
 					["timeline"] = { REMOVED_4_3_0 },
 					["lvl"] = lvlsquish(66, 66, 25),
 					-- #if BEFORE 4.3.0.14732
@@ -27,8 +27,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					-- #endif
 				}),
 				q(9837, {	-- Return to Khadgar
-					["qg"] = 15608,	-- Medivh
 					["sourceQuest"] = 9836,	-- The Master's Touch
+					["qg"] = 15608,	-- Medivh
 					["coord"] = { 48.8, 71.8, CAVERNS_OF_TIME_BLACK_MORASS },
 					["timeline"] = { REMOVED_7_1_0 },
 					["maps"] = { SHATTRATH_CITY },
@@ -40,28 +40,28 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(10296, {	-- The Black Morass
-					["qg"] = 20130,	-- Andormu
 					-- #if BEFORE 4.3.0.14732
 					["sourceQuest"] = 10285,	-- Return to Andormu
 					-- #endif
+					["qg"] = 20130,	-- Andormu
 					["coord"] = { 41.6, 38.5, CAVERNS_OF_TIME },
 					["lvl"] = lvlsquish(66, 66, 25),
 				}),
 				q(9836, {	-- The Master's Touch
+					["sourceQuest"] = 9832,	-- The Second and Third Fragments
 					["providers"] = {
 						{ "n", 18166 },	-- Khadgar <Sons of Lothar>
 						{ "i", 24489 },	-- Restored Apprentice's Key
 					},
-					["sourceQuest"] = 9832,	-- The Second and Third Fragments
 					["coord"] = { 54.8, 44.3, SHATTRATH_CITY },
 					["timeline"] = { REMOVED_7_1_0 },
 					["lvl"] = lvlsquish(69, 69, 30),
 				}),
 				q(10297, {	-- The Opening of the Dark Portal
-					["qg"] = 20201,	-- Sa'at
 					-- #if ANYCLASSIC
 					["sourceQuest"] = 10296,	-- The Black Morass
 					-- #endif
+					["qg"] = 20201,	-- Sa'at
 					["lvl"] = lvlsquish(66, 66, 25),
 					-- TODO Confirm if required in classic
 					["groups"] = {

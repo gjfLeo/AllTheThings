@@ -492,12 +492,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
 				n(QUESTS, {
 					q(47725, {	-- Tomb of Sargeras: Aegwynn's Path (Normal)
-						["provider"] = { "n", 119723 },	-- Image of Aegwynn
+						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 						["altQuests"] = {
 							47726,	-- Tomb of Sargeras: Aegwynn's Path (Heroic)
 							47727,	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						},
-						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
+						["provider"] = { "n", 119723 },	-- Image of Aegwynn
 						["groups"] = { i(151248) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),
@@ -522,9 +522,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
 				n(QUESTS, {
 					q(47726, {	-- Tomb of Sargeras: Aegwynn's Path (Heroic)
-						["provider"] = { "n", 119723 },	-- Image of Aegwynn
-						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
+						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
+						["provider"] = { "n", 119723 },	-- Image of Aegwynn
 						["groups"] = { i(151249) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),
@@ -542,9 +542,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				n(QUESTS, {
 					q(47727, {	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
-						["provider"] = { "n", 119723 },	-- Image of Aegwynn
-						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Mythic difficulty each week.\n",
+						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
+						["provider"] = { "n", 119723 },	-- Image of Aegwynn
 						["groups"] = { i(151250) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),

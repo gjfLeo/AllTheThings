@@ -32,14 +32,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["groups"] = { i(169391) },	-- Bubble-eyed Rolly (QI!)
 			}),
 			q(55672, {	-- A Historical Mess
-				["provider"] = { "n", 152633 },	-- Sir Finley Mrrgglton
 				["description"] = "This quest is only available if you pick up the clue from the |cFFffffffWaterlogged Scroll Case|r while on |cFFefc400Clues Abound|r.",
+				["provider"] = { "n", 152633 },	-- Sir Finley Mrrgglton
 				["isDaily"] = true,
 				["groups"] = { i(168224) },	-- Tortollan Relics (QI!)
 			}),
 			q(55697, {	-- A Little Leg Work
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 55373,	-- Knock 'Em Out The Box
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.4, 38.7, MECHAGON },
 				["groups"] = {
 					i(168281),	-- Mechaspider Leg (QI!)
@@ -67,9 +67,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56142, {	-- Adapt, Improve, Overcome!
+				["description"] = "Only available in the alternate timeline. Speak to |cFFFFD700Chromie|r when she is in town.",
 				["provider"] = { "n", 154214 },	-- Christy Punchcog
 				["coord"] = { 71.8, 35.8, MECHAGON },
-				["description"] = "Only available in the alternate timeline. Speak to |cFFFFD700Chromie|r when she is in town.",
 				["isDaily"] = true,
 				["groups"] = {
 					i(169213),	-- Leg Strut XS (QI!)
@@ -101,14 +101,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56355, {	-- Battle Tested
-				["provider"] = { "n", 151006 },	-- Rocket-Chief Fuselage
 				["sourceQuest"] = 54090,	-- Toys For Destruction
+				["provider"] = { "n", 151006 },	-- Rocket-Chief Fuselage
 				["coord"] = { 69.7, 33.0, MECHAGON },
 				["isDaily"] = true,
 			}),
 			q(56365, {	-- Be Kind, Rewind
-				["provider"] = { "n", 153982 },	-- Izira Gearsworn <Battle Captain>
 				--["sourceQuest"] =
+				["provider"] = { "n", 153982 },	-- Izira Gearsworn <Battle Captain>
 				["coords"] = {
 					--{ 69.7, 33.0, MECHAGON },	-- Future
 					{ 73.6, 35.6, MECHAGON },	-- Current
@@ -134,8 +134,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(55055, {	-- Build a Bigger Fish Trap
-				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["sourceQuest"] = 55339,	-- Tidying Up
+				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["coord"] = { 37.0, 47.1, MECHAGON },
 				["requireSkill"] = FISHING,
 				["groups"] = {
@@ -156,15 +156,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["_drop"] = { "isDaily" },
 			}),
 			q(56327, {	-- Chopped Bots
-				["provider"] = { "n", 150086 },	-- Bolten Springspark
 				["sourceQuest"] = 54965,	-- Chopped Bots
+				["provider"] = { "n", 150086 },	-- Bolten Springspark
 				["coord"] = { 63.1, 39.2, MECHAGON },
 				["isDaily"] = true,
 			}),
 			q(55658, {	-- Clues Abound
+				["description"] = "Depending on which clue you pick up, the follow-ups to this quest fulfill different achievement criteria for |cFFf0ef00Outside Influences|r.\n\n|cFFffffffDirt Pile|r > |cFFefc400A Growing Mystery|r\n|cFFffffffHearthstone Card|r > |cFFefc400Time for Heroics|r > |cFFefc400Deck 'Em|r\n|cFFffffffWaterlogged Scroll Case|r > |cFFefc400A Historical Mess|r\n\nWhile on any of the follow-up quests, |cFFcc4d38Congealed Oil|r has a chance to drop an item that will start |cFFefc400Pirates? I Hate Those Guys!|r and |cFFcc4d38Toxic Lurkers|r have a chance to drop an item that will start |cFFefc400Strange Discovery|r.\n",
 				["provider"] = { "n", 152501 },	-- Elise Starseeker
 				["coord"] = { 70.4, 31.0, MECHAGON },
-				["description"] = "Depending on which clue you pick up, the follow-ups to this quest fulfill different achievement criteria for |cFFf0ef00Outside Influences|r.\n\n|cFFffffffDirt Pile|r > |cFFefc400A Growing Mystery|r\n|cFFffffffHearthstone Card|r > |cFFefc400Time for Heroics|r > |cFFefc400Deck 'Em|r\n|cFFffffffWaterlogged Scroll Case|r > |cFFefc400A Historical Mess|r\n\nWhile on any of the follow-up quests, |cFFcc4d38Congealed Oil|r has a chance to drop an item that will start |cFFefc400Pirates? I Hate Those Guys!|r and |cFFcc4d38Toxic Lurkers|r have a chance to drop an item that will start |cFFefc400Strange Discovery|r.\n",
 				["isDaily"] = true,
 				["groups"] = {
 					i(168234),	-- Ancient Runestone (QI!)
@@ -194,13 +194,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55153, {	-- Collaborative Construction
-				["provider"] = { "n", 150555 },	-- Waren Gearhart
 				["sourceQuest"] = 55707,	-- First One's Free
+				["provider"] = { "n", 150555 },	-- Waren Gearhart
 				["coord"] = { 73.1, 33.3, MECHAGON },
 			}),
 			q(56049, {	-- Deck 'Em
-				["provider"] = { "n", 153538 },	-- Adalin Halfheight
 				["sourceQuests"] = { 55717 },	-- Time for Heroics
+				["provider"] = { "n", 153538 },	-- Adalin Halfheight
 				["coord"] = { 75.2, 69.8, MECHAGON },
 				["isDaily"] = true,
 				["groups"] = {
@@ -216,9 +216,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56410, {	-- Discs of Norgannon
+				["description"] = "The |cFF0070ddCorrupted Data Disc|r is the quest item for Discs of Norgannon, but on the day the quest is up you can loot the other four items.  They each have a daily cooldown, so you can use them to summon 4 Data Anomalies, abandon the quests, and use the items again the next day.\n\nIf the disc can summon more than one Data Anomaly, they share a daily lockout and you can only loot one of the two each day.\n",
 				["provider"] = { "n", 154982 },	-- Archivist Bitbyte
 				["coord"] = { 72.0, 36.5, MECHAGON },
-				["description"] = "The |cFF0070ddCorrupted Data Disc|r is the quest item for Discs of Norgannon, but on the day the quest is up you can loot the other four items.  They each have a daily cooldown, so you can use them to summon 4 Data Anomalies, abandon the quests, and use the items again the next day.\n\nIf the disc can summon more than one Data Anomaly, they share a daily lockout and you can only loot one of the two each day.\n",
 				["isDaily"] = true,
 				["groups"] = {
 					q(56425, {	-- Scorched Data Disc
@@ -328,8 +328,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56328, {	-- Do Not Drink -- 56329 also popped. Possibly a daily?
-				["provider"] = { "n", 153750 },	-- Koupal Oilshins
 				["sourceQuest"] = 55729,	-- The Resistance Needs You!
+				["provider"] = { "n", 153750 },	-- Koupal Oilshins
 				["coord"] = { 59.0, 31.6, MECHAGON },
 				["_drop"] = { "isDaily" },
 				["groups"] = {
@@ -337,21 +337,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55734, {	-- Drill Rig Construction
-				["provider"] = { "n", 153670 },	-- Rustbolt Resistance Fighter (Prince Erazmin)
 				["sourceQuest"] = 55995,	-- We Can Fix It
+				["provider"] = { "n", 153670 },	-- Rustbolt Resistance Fighter (Prince Erazmin)
 				["coord"] = { 55.7, 60.2, MECHAGON },
 			}),
 			q(55622, {	-- Drive It Away Today
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 55753,	-- Knock His Bot Off
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 				["groups"] = {
 					i(168827),	-- Scrapforged Mechaspider (MOUNT!)
 				},
 			}),
 			q(56175, {	-- Emission Free
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 54083,	-- Grease The Wheels
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 			}),
 			q(55213, {	-- Energy Cells for Everyone
@@ -360,8 +360,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56116, {	-- Even More Recycling
-				["provider"] = { "o", 326027 },	-- Recyclerizer DX-82
 				["sourceQuest"] = 55743,	-- More Recycling
+				["provider"] = { "o", 326027 },	-- Recyclerizer DX-82
 				["coords"] = {
 					{ 58.8, 59.2, MECHAGON },
 					{ 54.5, 56.4, MECHAGON },
@@ -375,16 +375,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56168, {	-- Factory Refurbished
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 54922,	-- The Nuts and Bolts of it
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 				["groups"] = {
 					i(169153),	-- Recycled Crawler Manifold (QI!)
 				},
 			}),
 			q(55707, {	-- First One's Free
-				["provider"] = { "n", 152747 },	-- Christy Punchcog
 				["sourceQuest"] = 55708,	-- Upgraded
+				["provider"] = { "n", 152747 },	-- Christy Punchcog
 				["coord"] = { 69.7, 32.3, MECHAGON },
 				["groups"] = {
 					i(168252),	-- Punchcard Satchel (QI!)
@@ -403,8 +403,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(54083, {	-- Grease The Wheels
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 56168,	-- Factory Refurbished
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 				["groups"] = {
 					i(167076),	-- Grease Trap (QI!)
@@ -460,29 +460,29 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55101, {	-- Junkyard Tinkering and You -- also triggered 56902 for alliance -- slumber note: maybe not on live?  didn't get it on my priest.
-				["provider"] = { "n", 152295 },	-- Pascal
 				["sourceQuest"] = 55736,	-- Welcome to the Resistance
+				["provider"] = { "n", 152295 },	-- Pascal
 				["coord"] = { 71.2, 32.3, MECHAGON },
 			}),
 			q(55373, {	-- Knock 'Em Out The Box
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 54929,	-- Ready to Rumble
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.4, 38.7, MECHAGON },
 				["groups"] = {
 					i(167745),	-- Spiderspring Gear (QI!)
 				},
 			}),
 			q(55753, {	-- Knock His Bot Off
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 55696,	-- Test Drive
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 				["groups"] = {
 					i(168305),	-- Powercore Schematics (QI!)
 				},
 			}),
 			q(56305, {	-- Let's Fish!
-				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["sourceQuest"] = 55055,	-- Build A Bigger Fish Trap
+				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["coord"] = { 37.0, 47.1, MECHAGON },
 				["requireSkill"] = FISHING,
 			}),
@@ -554,14 +554,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55731, {	-- My Father's Armies
-				["provider"] = { "n", 152820 },	-- Prince Erazmin
 				["sourceQuest"] = 55729,	-- The Resistance Needs You!
+				["provider"] = { "n", 152820 },	-- Prince Erazmin
 				["coord"] = { 59.1, 55.1, MECHAGON },
 			}),
 			q(56756, {	-- My Punkin, the Action Figure
+				["description"] = "Once you are exalted with Rustbolt Resistance, this quest is awarded after completing the Toys Like Us daily.",
 				["provider"] = { "n", 149815 },	-- Grizzek Fizzwrench
 				["coord"] = { 72.0, 34.2, MECHAGON },
-				["description"] = "Once you are exalted with Rustbolt Resistance, this quest is awarded after completing the Toys Like Us daily.",
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, EXALTED },
 				["groups"] = {
 					i(169882),	-- Sapphronetta Flivvers Action Figure (QI!)
@@ -601,8 +601,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55609, {	-- Operation: Mechagon - The Mechoriginator
-				["provider"] = { "n", 149816 },	-- Prince Erazmin
 				["sourceQuests"] = { 55736 },	-- Welcome to the Resistance
+				["provider"] = { "n", 149816 },	-- Prince Erazmin
 				["coord"] = { 74.0, 36.8, MECHAGON },
 			}),
 			q(55815, {	-- Other Interests
@@ -628,9 +628,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56746, {	-- Our Direct Line
+				["description"] = "Quest is offered once you have completed |cFFFFD700Other Interests|r dailies three times.",
 				["provider"] = { "n", 152575 },	-- Steelsage Gao
 				["coord"] = { 73.6, 34.3, MECHAGON },
-				["description"] = "Quest is offered once you have completed |cFFFFD700Other Interests|r dailies three times.",
 				["isDaily"] = true,	-- collection status for the quest resets over time
 				["groups"] = {
 					i(169176),	-- Blueprint: Encrypted Black Market Radio
@@ -660,20 +660,20 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55528, {	-- Playtime's Over
-				["provider"] = { "n", 151006 },	-- Rocket-Chief Fuselage
 				["sourceQuest"] = 54090,	-- Toys For Destruction
+				["provider"] = { "n", 151006 },	-- Rocket-Chief Fuselage
 				["coord"] = { 69.7, 33.0, MECHAGON },
 				["isDaily"] = true,
 			}),
 			q(55645, {	-- Princely Visit
-				["provider"] = { "n", 152484 },	-- Tinkmaster Overspark
 				["sourceQuest"] = 54992,	-- The Start of Something Bigger
+				["provider"] = { "n", 152484 },	-- Tinkmaster Overspark
 				["coord"] = { 77.7, 40.4, MECHAGON },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(55652, {	-- Prospectus Bay
-				["provider"] = { "n", 152783 },	-- Gazlowe
 				["sourceQuest"] = 55651,	-- To Mechagon!
+				["provider"] = { "n", 152783 },	-- Gazlowe
 				["coord"] = { 76.1, 15.3, MECHAGON },
 				["races"] = HORDE_ONLY,
 			}),
@@ -696,8 +696,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(54929, {	-- Ready to Rumble
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 54086,	-- Right Bot for the Job
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.4, 38.7, MECHAGON },
 				["groups"] = {
 					i(167175),	-- Sixteen-Servo-Actuator (QI!)
@@ -719,8 +719,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55211, {	-- Recharging Rustbolt
-				["provider"] = { "n", 150631 },	-- Pristy Quickcharge
 				["sourceQuest"] = 56319,	-- The Quickcharge Contract
+				["provider"] = { "n", 150631 },	-- Pristy Quickcharge
 				["coord"] = { 70.7, 38.4, MECHAGON },
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, HONORED },
 				["groups"] = {
@@ -735,8 +735,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["repeatable"] = true,
 			}),
 			q(55730, {	-- Rescuing the Resistance  (+ 56005 flag: engineers rescued -- horde only?  didn't pop on alliance on live)
-				["provider"] = { "n", 152820 },	-- Prince Erazmin
 				["sourceQuest"] = 55729,	-- The Resistance Needs You!
+				["provider"] = { "n", 152820 },	-- Prince Erazmin
 				["coord"] = { 59.1, 55.1, MECHAGON },
 			}),
 			q(56117),	-- Recyclable Parts
@@ -766,8 +766,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(54086, {	-- Right Bot for the Job -- 55907 and 56100 also popped
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 55608,	-- Shop Project
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.4, 38.7, MECHAGON },
 			}),
 			q(56747, {	-- Rustbolt Requisitions: Akunda's Bite (A)
@@ -927,25 +927,25 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56131, {	-- Security First
-				["sourceQuest"] = 55736,	-- Welcome to the Resistance
 				["description"] = "One-time completion per character.",
+				["sourceQuest"] = 55736,	-- Welcome to the Resistance
 				["lvl"] = { 50 },
 				["groups"] = {
 					i(168832),	-- Galvanic Oscillator
 				},
 			}),
 			q(55096, {	-- Send My Father a Message
-				["provider"] = { "n", 153670 },	-- Rustbolt Resistance Fighter (Prinze Erazmin)
 				["sourceQuests"] = {
 					55734,	-- Drill Rig Construction
 					55731,	-- My Father's Armies
 					55730,	-- Rescuing the Resistance
 				},
+				["provider"] = { "n", 153670 },	-- Rustbolt Resistance Fighter (Prinze Erazmin)
 				["coord"] = { 55.6, 60.1, MECHAGON },
 			}),
 			q(55608, {	-- Shop Project
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 55736,	-- Welcome to the Resistance
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.4, 38.7, MECHAGON },
 				["groups"] = {
 					i(168115),	-- Mechanobot Ignition (QI!)
@@ -954,22 +954,22 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56740, {	-- S.P.A.R.E. Crates
-				["provider"] = { "n", 152295 },	-- Pascal
-				["sourceQuest"] = 55101,	-- Junkyard Tinkering and You
-				["coord"] = { 71.2, 32.3, MECHAGON },
 				["description"] = "Quest is available if you have 250 Spare Parts in your bag",
+				["sourceQuest"] = 55101,	-- Junkyard Tinkering and You
+				["provider"] = { "n", 152295 },	-- Pascal
+				["coord"] = { 71.2, 32.3, MECHAGON },
 			}),
 			q(55718, {	-- Strange Discovery
 				["provider"] = { "i", 168256, },	-- Night Elf Ring
 				["isDaily"] = true,
 			}),
 			q(56501, {	-- Taking the Air Out
+				["description"] = "Only available during Unprofitable Ventures.",
 				["provider"] = { "i", 169682 },	-- Venture Co. Rocket Box
 				["coords"] = {
 					{ 47.6, 36.8, MECHAGON },	-- Alliance
 					{ 42.6, 41.4, MECHAGON },	-- Horde
 				},
-				["description"] = "Only available during Unprofitable Ventures.",
 				["isDaily"] = true,
 				["crs"] = {
 					155259,	-- Lifting Specialist Gogo <Venture Co.> (Horde)
@@ -980,8 +980,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55696, {	-- Test Drive
-				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["sourceQuest"] = 56175,	-- Emission Free
+				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 				["groups"] = {
 					i(168270),	-- Rusty Mechaspider (QI!)
@@ -996,8 +996,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56053, {	-- The Final Act
-				["provider"] = { "n", 153982 },	-- Izira Gearsworn
 				["sourceQuests"] = { 56142 },	-- Adapt, Improve, Overcome!
+				["provider"] = { "n", 153982 },	-- Izira Gearsworn
 				["coord"] = { 72.7, 33.9, MECHAGON },
 				["isDaily"] = true,
 			}),
@@ -1010,8 +1010,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(54922, {	-- The Nuts and Bolts of It
-				["provider"] = { "n", 150573 },	-- 2r Kerchunk
 				["sourceQuest"] = 55697,	-- A Little Leg Work
+				["provider"] = { "n", 150573 },	-- 2r Kerchunk
 				["coord"] = { 71.5, 38.7, MECHAGON },
 			}),
 			q(55816, {	-- The Other Place
@@ -1028,11 +1028,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, HONORED },
 			}),
 			q(55729, {	-- The Resistance Needs You!
-				["provider"] = { "n", 152851 },	-- Prince Erazmin
 				["sourceQuests"] = {
 					55645,	-- Princely Visit
 					55685,	-- We Come in Peace... and Profit
 				},
+				["provider"] = { "n", 152851 },	-- Prince Erazmin
 				["coord"] = { 71.1, 38.2, MECHAGON },
 			}),
 			q(56181, {	-- This One's On Me
@@ -1044,14 +1044,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55339, {	-- Tidying Up
-				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["sourceQuest"] = 55298,	-- Fishing For Something Bigger
+				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["coord"] = { 37.0, 47.1, MECHAGON },
 				["requireSkill"] = FISHING,
 			}),
 			q(55717, {	-- Time for Heroics
-				["provider"] = { "n", 152633 },	-- Sir Finley Mrrgglton
 				["description"] = "This quest is only available if you pick up the clue from the |cFFffffffHearthstone Card|r while on |cFFefc400Clues Abound|r.",
+				["provider"] = { "n", 152633 },	-- Sir Finley Mrrgglton
 				["isDaily"] = true,
 			}),
 			q(54090, {	-- Toys For Destruction
@@ -1075,8 +1075,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55708, {	-- Upgraded
-				["provider"] = { "n", 152747 },	-- Christy Punchcog
 				["sourceQuest"] = 55736,	-- Welcome to the Resistance
+				["provider"] = { "n", 152747 },	-- Christy Punchcog
 				["coord"] = { 69.7, 32.3, MECHAGON },
 				["groups"] = {
 					i(168250),	-- Microcogs (QI!)
@@ -1089,8 +1089,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56083, {	-- Unsafe Work Conditions
-				["provider"] = { "n", 150563 },	-- Skaggit
 				["sourceQuest"] = 55736,	-- Welcome to the Resistance
+				["provider"] = { "n", 150563 },	-- Skaggit
 				["coord"] = { 73.7, 26.0, MECHAGON },
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
@@ -1114,24 +1114,24 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55995, {	-- We Can Fix It
-				["provider"] = { "n", 150956 },	-- Broken Drill Rig
 				["sourceQuest"] = 55729,	-- The Resistance Needs You!
+				["provider"] = { "n", 150956 },	-- Broken Drill Rig
 				["coord"] = { 56.7, 59.7, MECHAGON },
 			}),
 			q(55685, {	-- We Come in Peace... and Profit
-				["provider"] = { "n", 152845 },	-- Gazlowe
 				["sourceQuest"] = 55652,	-- Prospectus Bay
+				["provider"] = { "n", 152845 },	-- Gazlowe
 				["coord"] = { 73.6, 25.9, MECHAGON },
 				["races"] = HORDE_ONLY,
 			}),
 			q(55736, {	-- Welcome to the Resistance
-				["provider"] = { "n", 151947 },	-- Prince Erazmin
 				["sourceQuest"] = 55096,	-- Send My Father a Message
+				["provider"] = { "n", 151947 },	-- Prince Erazmin
 				["coord"] = { 71.2, 35.8, MECHAGON },
 			}),
 			q(56320, {	-- Your First Charge is Free!
-				["provider"] = { "n", 150630 },	-- Flip Quickcharge
 				["sourceQuest"] = 55210,	-- Batteries Not Included
+				["provider"] = { "n", 150630 },	-- Flip Quickcharge
 				["coord"] = { 70.8, 39.1, MECHAGON },
 			}),
 			q(56324, {	-- Your First Charge Ain't Free!
@@ -1140,9 +1140,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["repeatable"] = true,	-- repeatable when the tower is up to craft filled energy cells
 			}),
 			q(55979, {	-- Iteration is Key
+				["description"] = "You do not lose your Ub3r-Spanner while completing this quest, you simply need to have it in your inventory.",
 				["provider"] = { "n", 152747 },	-- Christy Punchcog
 				["coord"] = { 69.7, 32.3, MECHAGON },
-				["description"] = "You do not lose your Ub3r-Spanner while completing this quest, you simply need to have it in your inventory.",
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, HONORED },
 				["cost"] = { { "i", 164740, 1 }, },	-- Ub3r-Spanner
 				["requireSkill"] = ENGINEERING,

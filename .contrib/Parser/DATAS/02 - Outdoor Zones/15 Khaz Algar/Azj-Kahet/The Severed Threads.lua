@@ -154,22 +154,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["DisablePartySync"] = true,
 					}),
 					q(84682, {	-- Of Pacts and Patrons
-						["provider"] = { "n", 207471 },	-- Widow Arak'nai
 						["sourceQuests"] = { 84700 },	-- Pacts Below
+						["provider"] = { "n", 207471 },	-- Widow Arak'nai
 						["coord"] = { 55.7, 43.8, AZJ_KAHET },
 						["lockCriteria"] = { 1, "questID", 84681 },	-- AW HQT for 'Of Pacts and Patrons'
 						["DisablePartySync"] = true,
 					}),
 					header(HEADERS.Achievement, 40832, {	-- Leave it to Weaver
 						q(83276, {	-- Saving Private Spindle
-							["provider"] = { "n", 207471 },	-- Widow Arak'nai
 							--["sourceQuests"] = {  },
+							["provider"] = { "n", 207471 },	-- Widow Arak'nai
 							["coord"] = { 55.6, 43.9, AZJ_KAHET },
 							["minReputation"] = { FACTION_THE_WEAVER, 4 },
 						}),
 						q(83277, {	-- Personal Pilfering
-							["provider"] = { "n", 226019 },	-- Spindle
 							["sourceQuests"] = { 83276 },	-- Saving Private Spindle
+							["provider"] = { "n", 226019 },	-- Spindle
 							["coord"] = { 87.7, 59.3, NERUBAR },
 							["minReputation"] = { FACTION_THE_WEAVER, 4 },
 							["groups"] = {
@@ -180,14 +180,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							},
 						}),
 						q(79532, {	-- Tinker, Tailor, Soldier, Spider
-							["provider"] = { "n", 207471 },	-- Widow Arak'nai
 							["sourceQuests"] = { 83277 },	-- Personal Pilfering
+							["provider"] = { "n", 207471 },	-- Widow Arak'nai
 							["coord"] = { 55.6, 43.9, AZJ_KAHET },
 							["minReputation"] = { FACTION_THE_WEAVER, 7 },
 						}),
 						q(79627, {	-- Wine and Die
-							["provider"] = { "n", 227428 },	-- Widow Arak'nai
 							["sourceQuests"] = { 79532 },	-- Tinker, Tailor, Soldier, Spider
+							["provider"] = { "n", 227428 },	-- Widow Arak'nai
 							["coord"] = { 62.9, 12.1, NERUBAR_LOWER },
 							["minReputation"] = { FACTION_THE_WEAVER, 7 },
 							["groups"] = {
@@ -200,8 +200,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							},
 						}),
 						q(79633, {	-- The Weaver's Legacy
-							["provider"] = { "n", 216298 },	-- Meesk the Venomtongue
 							["sourceQuests"] = { 79627 },	-- Wine and Die
+							["provider"] = { "n", 216298 },	-- Meesk the Venomtongue
 							["coord"] = { 62.8, 22.9, NERUBAR },
 							["minReputation"] = { FACTION_THE_WEAVER, 7 },
 							["groups"] = {
@@ -217,8 +217,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							["minReputation"] = { FACTION_THE_GENERAL, 4 },
 						}),
 						q(82339, {	-- An Honorless Kill
-							["provider"] = { "n", 223760 },	-- Ukos'via <Historical Spinner>
 							["sourceQuests"] = { 82338 },	-- Absent Errand
+							["provider"] = { "n", 223760 },	-- Ukos'via <Historical Spinner>
 							["coord"] = { 40.9, 33.5, NERUBAR },
 							["minReputation"] = { FACTION_THE_GENERAL, 4 },
 							["groups"] = {
@@ -227,20 +227,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							},
 						}),
 						q(82121, {	-- Demand Satisfaction
-							["provider"] = { "n", 224345 },	-- Anub'azal <Lord of Heritage Forces>
 							["sourceQuests"] = { 82339 },	-- An Honorless Kill
+							["provider"] = { "n", 224345 },	-- Anub'azal <Lord of Heritage Forces>
 							["coord"] = { 55.0, 41.1, AZJ_KAHET },
 							["minReputation"] = { FACTION_THE_GENERAL, 7 },
 						}),
 						q(82122, {	-- Duel of the Fates
-							["provider"] = { "n", 222788 },	-- Anub'azal <Lord of Heritage Forces>
 							["sourceQuests"] = { 82121 },	-- Demand Satisfaction
+							["provider"] = { "n", 222788 },	-- Anub'azal <Lord of Heritage Forces>
 							["coord"] = { 46.0, 24.2, AZJ_KAHET },
 							["minReputation"] = { FACTION_THE_GENERAL, 7 },
 						}),
 						q(82123, {	-- The General's Conviction
-							["provider"] = { "n", 224547 },	-- Anub'azal <Lord of Heritage Forces>
 							["sourceQuests"] = { 82122 },	-- Duel of the Fates
+							["provider"] = { "n", 224547 },	-- Anub'azal <Lord of Heritage Forces>
 							["coord"] = { 46.0, 24.2, AZJ_KAHET },
 							["minReputation"] = { FACTION_THE_GENERAL, 7 },
 							["groups"] = {
@@ -259,29 +259,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							},
 						}),
 						q(83178, {	-- Rules and Consequences
-							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["sourceQuests"] = { 83177 },	-- Socialized Medicine
+							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["coord"] = { 52.9, 46.2, NERUBAR },
 							["minReputation"] = { FACTION_THE_VIZIER, 4 },
 						}),
 						q(82954, {	-- Knives in the Dark
-							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["sourceQuests"] = { 83178 },	-- Rules and Consequences
+							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["coord"] = { 52.9, 46.1, NERUBAR },
 							["minReputation"] = { FACTION_THE_VIZIER, 7 },
 						}),
 						q(82953, {	-- A Cordial Invitation
-							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["sourceQuests"] = { 83178 },	-- Rules and Consequences
+							["provider"] = { "n", 208782 },	-- Executor Nizrek
 							["coord"] = { 52.9, 46.1, NERUBAR },
 							["minReputation"] = { FACTION_THE_VIZIER, 7 },
 						}),
 						q(82955, {	-- The Vizier's Resolve
-							["provider"] = { "n", 225024 },	-- Executor Nizrek
 							["sourceQuests"] = {
 								82954,	-- Knives in the Dark
 								82953,	-- A Cordial Invitation
 							},
+							["provider"] = { "n", 225024 },	-- Executor Nizrek
 							["coord"] = { 54.7, 33.2, NERUBAR },
 							["minReputation"] = { FACTION_THE_VIZIER, 7 },
 							["groups"] = {
@@ -630,29 +630,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					hqt(80544, name(HEADERS.Faction, FACTION_THE_WEAVER)),	-- picked up 'The Weaver'
 
 					q(80592, {	-- Forge a Pact
-						["qgs"] = {
-							223750,	-- Lady Vinazian
-							220867,	-- Y'tekhi
-						},
 						["sourceQuests"] = {
 							84682,	-- Of Pacts and Patrons
 							TWW_ACCOUNT_CAMPAIGN_QUEST,
 						},
 						["sourceQuestNumRequired"] = 1,
+						["qgs"] = {
+							223750,	-- Lady Vinazian
+							220867,	-- Y'tekhi
+						},
 						["coord"] = { 55.2, 41, AZJ_KAHET },
 					}),
 					q(80671, {	-- Blade of the General
+						["sourceQuests"] = {
+							84682,	-- Of Pacts and Patrons
+							80592,	-- Forge a Pact
+						},
+						["sourceQuestNumRequired"] = 1,
 						["qgs"] = {
 							224729,	-- Anub'okki
 							229184,	-- Aspirant Kiipka
 							223750,	-- Lady Vinazian
 							220867,	-- Y'tekhi
 						},
-						["sourceQuests"] = {
-							84682,	-- Of Pacts and Patrons
-							80592,	-- Forge a Pact
-						},
-						["sourceQuestNumRequired"] = 1,
 						["coords"] = {
 							{ 55.2, 41, AZJ_KAHET },
 							{ 55.9, 42.2, AZJ_KAHET },
@@ -679,15 +679,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					q(80672, {	-- Hand of the Vizier
-						["qgs"] = {
-							223750,	-- Lady Vinazian
-							220867,	-- Y'tekhi
-						},
 						["sourceQuests"] = {
 							84682,	-- Of Pacts and Patrons
 							80592,	-- Forge a Pact
 						},
 						["sourceQuestNumRequired"] = 1,
+						["qgs"] = {
+							223750,	-- Lady Vinazian
+							220867,	-- Y'tekhi
+						},
 						["coord"] = { 55.2, 41, AZJ_KAHET },
 						["groups"] = {
 							i(225573, {	-- The Vizier's Capital (S1)
@@ -711,15 +711,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					q(80670, {	-- Eyes of the Weaver
-						["qgs"] = {
-							223750,	-- Lady Vinazian
-							220867,	-- Y'tekhi
-						},
 						["sourceQuests"] = {
 							84682,	-- Of Pacts and Patrons
 							80592,	-- Forge a Pact
 						},
 						["sourceQuestNumRequired"] = 1,
+						["qgs"] = {
+							223750,	-- Lady Vinazian
+							220867,	-- Y'tekhi
+						},
 						["coord"] = { 55.2, 41, AZJ_KAHET },
 						["groups"] = {
 							i(225571, {	-- The Weaver's Gratuity (S1)

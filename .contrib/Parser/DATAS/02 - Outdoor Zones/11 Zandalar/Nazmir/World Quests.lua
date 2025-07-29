@@ -290,8 +290,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(50468, {	-- Shul-Nagruth
 				n(128610, {	-- Maw of Shul-Nagruth
 					["questID"] = 50467,
-					["coord"] = { 49.8, 67.0, NAZMIR },
 					["description"] = "This rare is only up when its associated world quest is active.",
+					["coord"] = { 49.8, 67.0, NAZMIR },
 					["groups"] = {
 						i(160973),	-- Accursed Tuskwand
 					},

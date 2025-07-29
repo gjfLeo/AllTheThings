@@ -11,8 +11,8 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(59520, {	-- Plaguefall: Knee Deep In It
-					["provider"] = { "n", 165052 },	-- Vial Master Lurgy
 					["sourceQuests"] = { 59223 },	-- By Any Other Name
+					["provider"] = { "n", 165052 },	-- Vial Master Lurgy
 					["coord"] = { 59.4, 72.9, MALDRAXXUS },
 					["groups"] = {
 						i(176057),	-- Margrave Stradama's Plasm (QI!)

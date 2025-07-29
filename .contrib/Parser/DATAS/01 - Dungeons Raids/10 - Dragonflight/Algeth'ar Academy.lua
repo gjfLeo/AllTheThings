@@ -12,8 +12,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(72193, {	-- The Algeth'ar Academy
-					["provider"] = { "n", 187676 },	-- Kalecgos
 					-- ["sourceQuests"] = {  },	--
+					["provider"] = { "n", 187676 },	-- Kalecgos
 					["coord"] = { 61.7, 36.2, VALDRAKKEN },
 				}),
 			}),

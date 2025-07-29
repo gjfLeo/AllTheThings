@@ -7,61 +7,61 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		n(QUESTS, {
 			header(HEADERS.Achievement, 20118, {	-- The Isle of Dorn
 				q(81966, {	-- Slept like a Rock
-					["sourceQuests"] = { 80500 },	-- The Bronzebeard Family
 					["description"] = "Requires re-logging to be accepted.",
+					["sourceQuests"] = { 80500 },	-- The Bronzebeard Family
 					["maps"] = { LEGION_DALARAN },
 					["isBreadcrumb"] = true,
 					["DisablePartySync"] = true,
 				}),
 				q(78717, {	-- A Mysterious Warning
-					["qg"] = 213624,	-- Magni Bronzebeard
 					["sourceQuests"] = { 81966 },	-- Slept like a Rock
+					["qg"] = 213624,	-- Magni Bronzebeard
 					["coords"] = {
 						{ 45.3, 57.4, LEGION_DALARAN },
 						{ 45.7, 56.1, 629 },	-- Legion Dalaran, Aegwynn's Gallery
 					},
 				}),
 				q(78719, {	-- Citizens of Dalaran
-					["qg"] = 213627,	-- Archmage Khadgar
 					["sourceQuests"] = { 78717 },	-- A Mysterious Warning
+					["qg"] = 213627,	-- Archmage Khadgar
 					["coord"] = { 41.2, 62.3, LEGION_DALARAN },
 				}),
 				q(78721, {	-- Meet the Team
-					["qg"] = 214669,	-- Brann Bronzebeard
 					["sourceQuests"] = { 78717 },	-- A Mysterious Warning
+					["qg"] = 214669,	-- Brann Bronzebeard
 					["coord"] = { 47.0, 49.1, LEGION_DALARAN },
 				}),
 				q(78718, {	-- Strengthen the Wards
-					["qg"] = 214665,	-- Archmage Drenden
 					["sourceQuests"] = { 78717 },	-- A Mysterious Warning
+					["qg"] = 214665,	-- Archmage Drenden
 					["coord"] = { 56.4, 33.2, LEGION_DALARAN },
 					["groups"] = {
 						i(220483),	-- Tuning Wand (QI!)
 					},
 				}),
 				q(78722, {	-- To Khaz Algar!
-					["qg"] = 213627,	-- Archmage Khadgar
 					["sourceQuests"] = {
 						78719,	-- Citizens of Dalaran
 						78721,	-- Meet the Team
 						78718,	-- Strengthen the Wards
 					},
+					["qg"] = 213627,	-- Archmage Khadgar
 					["coord"] = { 41.2, 62.3, LEGION_DALARAN },
 				}),
 				q(79105, {	-- Breach
-					["qg"] = 214908,	-- Alleria Windrunner
 					["sourceQuests"] = { 78722 },	-- To Khaz Algar!
+					["qg"] = 214908,	-- Alleria Windrunner
 					["coord"] = { 50.4, 50.4, 2305 },	-- Quest Dalaran
 				}),
 				q(79106, {	-- Rupture
-					["qg"] = 214908,	-- Alleria Windrunner
 					["sourceQuests"] = { 79105 },	-- Breach
+					["qg"] = 214908,	-- Alleria Windrunner
 					["coord"] = { 35.7, 71.3, 2305 },	-- Quest Dalaran
 					["maps"] = { 2307, 2306, },	-- Dalaran
 				}),
 				q(80321, {	-- Departure
-					["qg"] = 219885,	-- Anduin Wrynn
 					["sourceQuests"] = { 79106 },	-- Rupture
+					["qg"] = 219885,	-- Anduin Wrynn
 					["coord"] = { 72.6, 57.7, 2307 },	-- Quest Dalaran
 					["groups"] = {
 						i(220379),	-- City Guard's Chainmail (doesn't load ingame?)
@@ -73,63 +73,63 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				------ Chapter 1 ------
 				q(78529, {	-- Violent Impact
-					["qg"] = 217930,	-- Pile of Rubble
 					["sourceQuests"] = { 80321 },	-- Departure
+					["qg"] = 217930,	-- Pile of Rubble
 					["coord"] = { 28.8, 54.5, ISLE_OF_DORN },
 				}),
 				q(78530, {	-- Slay the Saboteurs
-					["provider"] = { "n", 211994 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = { 78529 },	-- Violet Impact
+					["provider"] = { "n", 211994 },	-- Lady Jaina Proudmoore
 					["coord"] = { 29.5, 55.0, ISLE_OF_DORN },
 				}),
 				q(78531, {	-- Urgent Recovery
-					["provider"] = { "n", 211993 },	-- Thrall
 					["sourceQuests"] = { 78529 },	-- Violet Impact
+					["provider"] = { "n", 211993 },	-- Thrall
 					["coord"] = { 29.5, 55.1, ISLE_OF_DORN },
 				}),
 				q(80334, {	-- Shattered Spires
-					["provider"] = { "n", 211994 },	-- Lady Jaina Proudmoore
 					["sourceQuests"] = {
 						78530,	-- Slay the Saboteurs
 						78531,	-- Urgent Recovery
 					},
+					["provider"] = { "n", 211994 },	-- Lady Jaina Proudmoore
 					["coord"] = { 29.5, 55.0, ISLE_OF_DORN },
 					["lockCriteria"] = { 1, "questID", 78532 },	-- Erratic Artifacts
 					["isBreadcrumb"] = true,
 				}),
 				q(78532, {	-- Erratic Artifacts
-					["provider"] = { "n", 223166 },	-- Archmage Aethas Sunreaver
 					["sourceQuests"] = { 78529 },	-- Violet Impact
+					["provider"] = { "n", 223166 },	-- Archmage Aethas Sunreaver
 					["coord"] = { 30.1, 55.1, ISLE_OF_DORN },
 					["groups"] = {
 						i(211535),	-- Scroll of Shattering (QI!)
 					},
 				}),
 				q(78533, {	-- Secure the Beach
-					["provider"] = { "n", 212450 },	-- Anduin Wrynn
 					["sourceQuests"] = {
 						78532,	-- Erratic Artifacts
 						78530,	-- Slay the Saboteurs
 						78531,	-- Urgent Recovery
 					},
+					["provider"] = { "n", 212450 },	-- Anduin Wrynn
 					["coord"] = { 29.5, 55.0, ISLE_OF_DORN },
 					["groups"] = {
 						i(219754),	-- Remembrance of the Fallen City
 					},
 				}),
 				q(78534, {	-- To Dornogal
-					["provider"] = { "n", 211859 },	-- Baelgrim
 					["sourceQuests"] = { 78533 },	-- Secure the Beach
+					["provider"] = { "n", 211859 },	-- Baelgrim
 					["coord"] = { 30.4, 55.7, ISLE_OF_DORN },
 				}),
 				q(78535, {	-- They Come from Below
-					["provider"] = { "n", 216628 },	-- Baelgrim
 					["sourceQuests"] = { 78534 },	-- To Dornogal
+					["provider"] = { "n", 216628 },	-- Baelgrim
 					["coord"] = { 33.6, 75.2, DORNOGAL },
 				}),
 				q(78536, {	-- Impossible Odds
-					["provider"] = { "n", 217852 },	-- Baelgrim
 					["sourceQuests"] = { 78535 },	-- They Come from Below
+					["provider"] = { "n", 217852 },	-- Baelgrim
 					["coord"] = { 36.2, 64.2, DORNOGAL },
 					["groups"] = {
 						i(219749),	-- Charred Nerubian Helm
@@ -140,16 +140,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				------ Chapter 2 ------
 				q(78460, {	-- Hypocenter
-					["provider"] = { "n", 217852 },	-- Baelgrim
 					["sourceQuests"] = { 78536 },	-- Impossible Odds
+					["provider"] = { "n", 217852 },	-- Baelgrim
 					["coord"] = { 36.2, 64.2, DORNOGAL },
 					["groups"] = {
 						i(217610),	-- Earthen Memory Gem (QI!)
 					},
 				}),
 				q(78468, {	-- The Archive
-					["provider"] = { "n", 217857 },	-- Speaker Brinthe
 					["sourceQuests"] = { 78460 },	-- Hypocenter
+					["provider"] = { "n", 217857 },	-- Speaker Brinthe
 					["coord"] = { 29.4, 59.9, DORNOGAL },
 				}),
 				------ Stay awhile and listen ------
@@ -162,10 +162,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				---
 				q(78457, {	-- Stones of Dornogal
-					["provider"] = { "n", 217854 },	-- Merrix
-					["sourceQuests"] = { 78460 },	-- Hypocenter
-					["coord"] = { 29.4, 59.4, DORNOGAL },
 					["description"] = "After speaking with Innkeeper Ronesh, enter The Inn and talk to Anduin Wrynn and Magni Bronzebeard.",
+					["sourceQuests"] = { 78460 },	-- Hypocenter
+					["provider"] = { "n", 217854 },	-- Merrix
+					["coord"] = { 29.4, 59.4, DORNOGAL },
 					["groups"] = {
 						i(216697),	-- Councilward's Signet (QI!)
 					},
@@ -189,16 +189,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				--
 				q(78459, {	-- State of the Union
-					["provider"] = { "n", 217861 },	-- Merrix
 					["sourceQuests"] = {
 						78457,	-- Stones of Dornogal
 						78468,	-- The Archive
 					},
+					["provider"] = { "n", 217861 },	-- Merrix
 					["coord"] = { 39.9, 26.0, DORNOGAL },
 				}),
 				q(78461, {	-- The Fourth Seat
-					["provider"] = { "n", 217864 },	-- Moira Thaurissan
 					["sourceQuests"] = { 78459 },	-- State of the Union
+					["provider"] = { "n", 217864 },	-- Moira Thaurissan
 					["coord"] = { 40.5, 25.8, DORNOGAL },
 				}),
 				------ Stay awhile and listen ------
@@ -211,10 +211,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				--
 				q(78464, {	-- Delve into the Earth
-					["provider"] = { "n", 217879 },	-- Adelgonn
-					["sourceQuests"] = { 78461 },	-- The Fourth Seat
-					["coord"] = { 41.8, 72.6, ISLE_OF_DORN },
 					["description"] = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
+					["sourceQuests"] = { 78461 },	-- The Fourth Seat
+					["provider"] = { "n", 217879 },	-- Adelgonn
+					["coord"] = { 41.8, 72.6, ISLE_OF_DORN },
 					["maps"] = { 2269 },	-- Earthcrawl Mines
 					["groups"] = {
 						i(219785),	-- Arachnophobic Spelunker's Battleaxe
@@ -229,16 +229,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79553, {	-- A Natural Remedy
-					["provider"] = { "n", 217879 },	-- Adelgonn
 					["sourceQuests"] = { 78464 },	-- Delve into the Earth
+					["provider"] = { "n", 217879 },	-- Adelgonn
 					["coord"] = { 41.8, 72.6, ISLE_OF_DORN },
 					["groups"] = {
 						i(213233),	-- Fungarian Chunks (QI!)
 					},
 				}),
 				q(78463, {	-- Building Blocks
-					["provider"] = { "n", 217881 },	-- Baelgrim
 					["sourceQuests"] = { 78464 },	-- Delve into the Earth
+					["provider"] = { "n", 217881 },	-- Baelgrim
 					["coord"] = { 41.8, 72.7, ISLE_OF_DORN },
 					["groups"] = {
 						o_repeated({
@@ -249,13 +249,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78462, {	-- Echoes of Compassion
-					["provider"] = { "n", 217879 },	-- Adelgonn
+					["description"] = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
 					["sourceQuests"] = {
 						79553,	-- A Natural Remedy
 						78463,	-- Building Blocks
 					},
+					["provider"] = { "n", 217879 },	-- Adelgonn
 					["coord"] = { 41.8, 72.7, ISLE_OF_DORN },
-					["description"] = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
 					["groups"] = {
 						i(219795),	-- Cured Terracotta Axe
 						i(219799),	-- Cured Terracotta Firearm
@@ -268,26 +268,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78470, {	-- The Proscenium
-					["provider"] = { "n", 217878 },	-- Moira Thaurissan
 					["sourceQuests"] = { 78462 },	-- Echoes of Compassion
+					["provider"] = { "n", 217878 },	-- Moira Thaurissan
 					["coord"] = { 41.9, 72.7, ISLE_OF_DORN },
 				}),
 				q(79701, {	-- The Calvalry is Here
-					["provider"] = { "n", 217766 },	-- Baelgrim
 					["sourceQuests"] = { 78470 },	-- The Proscenium
+					["provider"] = { "n", 217766 },	-- Baelgrim
 					["coord"] = { 56.5, 52.1, ISLE_OF_DORN },
 				}),
 				q(79721, {	-- Fire in the Hole
-					["provider"] = { "n", 212295 },	-- Wenbrandt
 					["sourceQuests"] = { 78470 },	-- The Proscenium
+					["provider"] = { "n", 212295 },	-- Wenbrandt
 					["coord"] = { 56.6, 52.1, ISLE_OF_DORN },
 				}),
 				q(78471, {	-- Convergence
-					["provider"] = { "n", 217898 },	-- Moira Thaurissan
 					["sourceQuests"] = {
 						79721,	-- Fire in the Hole
 						79701,	-- The Calvalry is Here
 					},
+					["provider"] = { "n", 217898 },	-- Moira Thaurissan
 					["coord"] = { 56.6, 48.8, ISLE_OF_DORN },
 					["groups"] = {
 						i(219752),	-- Congealed Cinderbrew Battleboots
@@ -298,50 +298,50 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				------ Chapter 3 ------
 				q(78538, {	-- Group Effort
-					["provider"] = { "n", 217904 },	-- Merrix
 					["sourceQuests"] = { 78471 },	-- Convergence
+					["provider"] = { "n", 217904 },	-- Merrix
 					["coord"] = { 39.9, 26.0, DORNOGAL },
 					["groups"] = {
 						i(213271),	-- Work Orders (QI!)
 					},
 				}),
 				q(80022, {	-- Calling the Stormriders
-					["provider"] = { "n", 212747 },	-- Baelgrim
 					["sourceQuests"] = { 78538 },	-- Group Effort
+					["provider"] = { "n", 212747 },	-- Baelgrim
 					["coord"] = { 36.0, 52.8, DORNOGAL },
 					--dungeon quest which queue you into follower dungeon
 				}),
 				q(78539, {	-- Lasting Repairs
-					["provider"] = { "n", 222555 },	-- Baelgrim
 					["sourceQuests"] = { 80022 },	-- Calling the Stormriders
+					["provider"] = { "n", 222555 },	-- Baelgrim
 					["coord"] = { 35.9, 52.7, DORNOGAL },
 				}),
 				q(78540, {	-- To the Meadery
-					["provider"] = { "n", 222555 },	-- Baelgrim
 					["sourceQuests"] = { 78539 },	-- Lasting Repairs
+					["provider"] = { "n", 222555 },	-- Baelgrim
 					["coord"] = { 35.9, 52.7, DORNOGAL },
 				}),
 				q(78541, {	-- Lay the Trap
-					["provider"] = { "n", 212749 },	-- Baelgrim
 					["sourceQuests"] = { 78540 },	-- To the Meadery
+					["provider"] = { "n", 212749 },	-- Baelgrim
 					["coord"] = { 75.3, 43.1, ISLE_OF_DORN },
 				}),
 				q(78542, {	-- Evacuation Area
-					["provider"] = { "n", 212750 },	-- Wenbrandt
 					["sourceQuests"] = { 78540 },	-- To the Meadery
+					["provider"] = { "n", 212750 },	-- Wenbrandt
 					["coord"] = { 75.3, 43.2, ISLE_OF_DORN },
 				}),
 				q(78543, {	-- Poking the Spider Nest
-					["provider"] = { "n", 212749 },	-- Baelgrim
 					["sourceQuests"] = {
 						78542,	-- Evacuation Area
 						78541,	-- Lay the Trap
 					},
+					["provider"] = { "n", 212749 },	-- Baelgrim
 					["coord"] = { 75.3, 43.1, ISLE_OF_DORN },
 				}),
 				q(78544, {	-- Bring the Thunder
-					["provider"] = { "n", 212756 },	-- Baelgrim
 					["sourceQuests"] = { 78543 },	-- Poking the Spider Nest
+					["provider"] = { "n", 212756 },	-- Baelgrim
 					["coord"] = { 74.8, 42.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(219757),	-- Mead-Speckled Full Helm
@@ -360,13 +360,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				--
 				q(78545, {	-- Return to the Coreway
-					["provider"] = { "n", 217849 },	-- Adelgonn
 					["sourceQuests"] = { 78544 },	-- Bring the Thunder
+					["provider"] = { "n", 217849 },	-- Adelgonn
 					["coord"] = { 75.1, 43.8, ISLE_OF_DORN },
 				}),
 				q(78546, {	-- Recompense
-					["provider"] = { "n", 217880 },	-- Merrix
 					["sourceQuests"] = { 78545 },	-- Return to the Coreway
+					["provider"] = { "n", 217880 },	-- Merrix
 					["coord"] = { 32.1, 59.7, DORNOGAL },
 					["groups"] = {
 						i(219761),	-- Rubble-Salvaged Grips
@@ -401,22 +401,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.01, {	-- Spores of Dread
 				q(78570, {	-- Frayed Legacy
-					["provider"] = { "n", 212708 },	-- Freysworn Cruton
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 212708 },	-- Freysworn Cruton
 					["coord"] = { 41.6, 71.3, ISLE_OF_DORN },
 					["isBreadcrumb"] = true,
 				}),
 				q(78571, {	-- Mycomayhem
-					["provider"] = { "n", 212700 },	-- Woldtender Igris
 					["sourceQuests"] = { 78570 },	-- Frayed Legacy
+					["provider"] = { "n", 212700 },	-- Woldtender Igris
 					["coord"] = { 53.5, 69.9, ISLE_OF_DORN },
 					["groups"] = {
 						i(210845),	-- Boskroot Spores (QI!)
 					},
 				}),
 				q(78572, {	-- Wold Memories
-					["provider"] = { "n", 212700 },	-- Woldtender Igris
 					["sourceQuests"] = { 78571 },	-- Mycomayhem
+					["provider"] = { "n", 212700 },	-- Woldtender Igris
 					["coord"] = { 53.5, 69.9, ISLE_OF_DORN },
 					["groups"] = {
 						o(411571, {	-- Freydrin's Shillelagh
@@ -425,16 +425,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78573, {	-- Keeper's Aid
-					["provider"] = { "n", 218333 },	-- Woldtender Igris
 					["sourceQuests"] = { 78572 },	-- Wold Memories
+					["provider"] = { "n", 218333 },	-- Woldtender Igris
 					["coord"] = { 53.9, 69.4, ISLE_OF_DORN },
 					["groups"] = {
 						i(215158),	-- Freydrin's Shillelagh (QI!)
 					},
 				}),
 				q(78574, {	-- Boss of the Bosk
-					["provider"] = { "n", 218333 },	-- Woldtender Igris
 					["sourceQuests"] = { 78573 },	-- Keeper's Aid
+					["provider"] = { "n", 218333 },	-- Woldtender Igris
 					["coord"] = { 54.2, 65.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(215142),	-- Freydrin's Shillelagh (QI!)
@@ -447,13 +447,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.02, {	-- Behind Closed Doors
 				q(80207, {	-- How Scandalous!
-					["provider"] = { "n", 219393 },	-- Aldra
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 219393 },	-- Aldra
 					["coord"] = { 62.7, 21.7, DORNOGAL },
 				}),
 				q(79521, {	-- Seizing Evidence
-					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["sourceQuests"] = { 80207 },	-- How Scandalous!
+					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["coord"] = { 49.9, 49.3, DORNOGAL },
 					["groups"] = {
 						o(432893, {	-- Shipment Crate
@@ -469,13 +469,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79522, {	-- Withheld Information
-					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["sourceQuests"] = { 79521 },	-- Seizing Evidence
+					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["coord"] = { 49.9, 49.3, DORNOGAL },
 				}),
 				q(79523, {	-- Something Hidden
-					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["sourceQuests"] = { 79522 },	-- Withheld Information
+					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["coord"] = { 49.9, 49.3, DORNOGAL },
 					["groups"] = {
 						o(433101, {	-- Bag of Glowing Shards
@@ -493,37 +493,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79525, {	-- Report to the Councilward
-					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["sourceQuests"] = { 79523 },	-- Something Hidden
+					["provider"] = { "n", 219394 },	-- Peacekeeper Kragad
 					["coord"] = { 49.9, 49.3, DORNOGAL },
 				}),
 				q(79542, {	-- The Councilward's Summons
-					["provider"] = { "n", 225426 },	-- Saradi
 					["sourceQuests"] = {
 						78838,	-- Cogs in the Machine
 						79525,	-- Report to the Councilward
 					},
+					["provider"] = { "n", 225426 },	-- Saradi
 					["coords"] = {
 						{ 46.0, 47.2, DORNOGAL },
 						{ 47.5, 32.7, THE_RINGING_DEEPS },	-- TODO: wrong?
 					},
 				}),
 				q(79543, {	-- Dornogal's Benefactor
+					["sourceQuests"] = { 79542 },	-- The Councilward's Summons
 					["qgs"] = {
 						217068,	-- Merrix
 						217069,	-- Merrix
 					},
-					["sourceQuests"] = { 79542 },	-- The Councilward's Summons
 					["coord"] = { 55.2, 6.2, DORNOGAL },
 				}),
 				q(79544, {	-- Security Through Trade
-					["provider"] = { "n", 217095 },	-- Merrix
 					["sourceQuests"] = { 79543 },	-- Dornogal's Benefactor
+					["provider"] = { "n", 217095 },	-- Merrix
 					["coord"] = { 49.3, 26.3, DORNOGAL },
 				}),
 				q(79545, {	-- The Market Reeveo of the Forgegrounds
-					["provider"] = { "n", 217072 },	-- Bevrusi
 					["sourceQuests"] = { 79544 },	-- Security Through Trade
+					["provider"] = { "n", 217072 },	-- Bevrusi
 					["coord"] = { 55.6, 50.2, DORNOGAL },
 					["groups"] = {
 						i(219961),	-- Fresh Mug of Cinderbrew Mead (QI!)
@@ -535,8 +535,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79176, {	-- Opals and Runes
-					["provider"] = { "n", 217091 },	-- Vokgret
 					["sourceQuests"] = { 79544 },	-- Security Through Trade
+					["provider"] = { "n", 217091 },	-- Vokgret
 					["coord"] = { 45.1, 48.9, DORNOGAL },
 					["groups"] = {
 						i(217414),	-- Speakeasy Passrune (QI!)
@@ -544,73 +544,73 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79546, {	-- The Machine Speakeasy
+					["sourceQuests"] = { 79176 },	-- Opals and Runes
 					["qgs"] = {
 						219126,	-- Merrix
 						217097,	-- Merrix
 					},
-					["sourceQuests"] = { 79176 },	-- Opals and Runes
 					["coord"] = { 60.5, 33.1, DORNOGAL },
 				}),
 				q(79526, {	-- Sedition
-					["provider"] = { "o", 429303 },	-- Angrily-Scrawled Poster
 					["sourceQuests"] = {
 						79546,	-- The Machine Speakeasy
 						78630,	-- The Rise of the Reckoning
 					},
+					["provider"] = { "o", 429303 },	-- Angrily-Scrawled Poster
 					["coord"] = { 45.9, 47.2, DORNOGAL },
 					["groups"] = {
 						i(223954),	-- Angrily-Scrawled Poster (QI!)
 					},
 				}),
 				q(79527, {	-- Damage Mitigation
-					["provider"] = { "n", 219400 },	-- Merrix
 					["sourceQuests"] = { 79526 },	-- Sedition
+					["provider"] = { "n", 219400 },	-- Merrix
 					["coord"] = { 55.6, 5.6, DORNOGAL },
 				}),
 				q(79528, {	-- Dispelling Rumors
-					["provider"] = { "n", 219400 },	-- Merrix
 					["sourceQuests"] = { 79526 },	-- Sedition
+					["provider"] = { "n", 219400 },	-- Merrix
 					["coord"] = { 55.6, 5.6, DORNOGAL },
 				}),
 				q(79529, {	-- Forcing My Hand
-					["provider"] = { "n", 219400 },	-- Merrix
 					["sourceQuests"] = {
 						79527,	-- Damage Mitigation
 						79528,	-- Dispelling Rumors
 					},
+					["provider"] = { "n", 219400 },	-- Merrix
 					["coord"] = { 55.6, 5.6, DORNOGAL },
 				}),
 				q(79530, {	-- Bad Business
-					["provider"] = { "n", 219475 },	-- Steelvein
 					["sourceQuests"] = { 79529 },	-- Forcing My Hand
+					["provider"] = { "n", 219475 },	-- Steelvein
 					["coord"] = { 55.6, 5.6, DORNOGAL },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 20595.03, {	-- Seven Soldiers
 				q(78996, {	-- Weapons and Warriors
-					["provider"] = { "n", 214444 },	-- Aggartha
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 214444 },	-- Aggartha
 					["coord"] = { 42.7, 71.7, ISLE_OF_DORN },
 				}),
 				q(78998, {	-- Frontline Farmers
-					["provider"] = { "n", 215201 },	-- Aggartha
 					["sourceQuests"] = { 78996 },	-- Weapons and Warriors
+					["provider"] = { "n", 215201 },	-- Aggartha
 					["coord"] = { 48.6, 83.0, ISLE_OF_DORN },
 				}),
 				q(78997, {	-- Pilfered Pearls
-					["provider"] = { "n", 215201 },	-- Aggartha
 					["sourceQuests"] = { 78996 },	-- Weapons and Warriors
+					["provider"] = { "n", 215201 },	-- Aggartha
 					["coord"] = { 48.6, 83.0, ISLE_OF_DORN },
 					["groups"] = {
 						i(212176),	-- Pilfered Pearl (QI!)
 					},
 				}),
 				q(78999, {	-- Heart of a Hero
-					["provider"] = { "n", 215327 },	-- Aggartha
 					["sourceQuests"] = {
 						78998,	-- Frontline Farmers
 						78997,	-- Pilfered Pearls
 					},
+					["provider"] = { "n", 215327 },	-- Aggartha
 					["coord"] = { 48.3, 82.9, ISLE_OF_DORN },
 					["groups"] = {
 						i(219764),	-- Luminescent Pearl Band
@@ -620,18 +620,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.04, {	-- Lost Lord of the Storm
 				q(78289, {	-- To Rumbleshire
-					["provider"] = { "n", 214352 },	-- Rooktender Otwin
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 214352 },	-- Rooktender Otwin
 					["coord"] = { 32.8, 33.6, DORNOGAL },
 				}),
 				q(78291, {	-- Power Predators
-					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["sourceQuests"] = { 78289 },	-- To Rambleshire
+					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["coord"] = { 61.4, 31.7, ISLE_OF_DORN },
 				}),
 				q(78290, {	-- Sleepy Sheep
-					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["sourceQuests"] = { 78289 },	-- To Rambleshire
+					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["coord"] = { 61.4, 31.7, ISLE_OF_DORN },
 					["groups"] = {
 						o(410459, {	-- Highlands Lodestone
@@ -641,36 +641,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78292, {	-- Lost Lord of the Storm
-					["provider"] = { "n", 209918 },	-- Head Rancher Stenspor
 					["sourceQuests"] = {
 						78291,	-- Power Predators
 						78290,	-- Sleepy Sheep
 					},
+					["provider"] = { "n", 209918 },	-- Head Rancher Stenspor
 					["coord"] = { 59.7, 29.0, ISLE_OF_DORN },
 				}),
 				q(78293, {	-- Their Moss, Our Gain
-					["provider"] = { "n", 209918 },	-- Head Rancher Stenspor
 					["sourceQuests"] = { 78292 },	-- Lost Lord of the Storm
+					["provider"] = { "n", 209918 },	-- Head Rancher Stenspor
 					["coord"] = { 58.7, 30.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(211858),	-- Electrified Mosswool (QI!)
 					},
 				}),
 				q(78294, {	-- Thunderhead Butt
-					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["sourceQuests"] = { 78293 },	-- Their Moss, Our Gain
+					["provider"] = { "n", 211740 },	-- Rooktender Lufsela
 					["coord"] = { 58.8, 30.2, ISLE_OF_DORN },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 20595.05, {	-- Hope, An Anomaly
 				q(78469, {	-- Prairie Fever
-					["provider"] = { "n", 217961 },	-- Hreka
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 217961 },	-- Hreka
 					["coord"] = { 41.8, 70.8, ISLE_OF_DORN },
 				}),
 				q(79692, {	-- Buried, Not Forgotten
-					["provider"] = { "n", 216094 },	-- Kodun
 					["sourceQuests"] = { 78469 },	-- Prairie Fever
+					["provider"] = { "n", 216094 },	-- Kodun
 					["coord"] = { 42.3, 73.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(215464),	-- Memory Gem Fragment (QI!)
@@ -679,16 +679,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79691, {	-- Monsters in the Dark
-					["provider"] = { "n", 216094 },	-- Kodun
 					["sourceQuests"] = { 78469 },	-- Prairie Fever
+					["provider"] = { "n", 216094 },	-- Kodun
 					["coord"] = { 42.3, 73.3, ISLE_OF_DORN },
 				}),
 				q(79703, {	-- Hope, An Anomaly
-					["provider"] = { "n", 217961 },	-- Hreka
 					["sourceQuests"] = {
 						79692,	-- Buried, Not Forgotten
 						79691,	-- Monsters in the Dark
 					},
+					["provider"] = { "n", 217961 },	-- Hreka
 					["coord"] = { 39.7, 78.9, ISLE_OF_DORN },
 					["groups"] = {
 						i(219920),	-- Hreka's Pot-Making Kit
@@ -698,8 +698,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.06, {	-- The Hermit
 				q(78754, {	-- Lost Delivery
-					["provider"] = { "o", 423987 },	-- Dropped Package
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "o", 423987 },	-- Dropped Package
 					["coords"] = {
 						{ 55.1, 59.3, ISLE_OF_DORN },
 						{ 68.7, 52.5, ISLE_OF_DORN },
@@ -707,18 +707,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78757, {	-- Honey and Clay the Pain Away
-					["provider"] = { "n", 213691 },	-- Harmot
 					["sourceQuests"] = { 78754 },	-- Lost Delivery
+					["provider"] = { "n", 213691 },	-- Harmot
 					["coord"] = { 67, 43.8, ISLE_OF_DORN },
 				}),
 				q(78758, {	-- Pulse within the Earth
-					["provider"] = { "n", 213691 },	-- Harmot
 					["sourceQuests"] = { 78757 },	-- Honey and Clay the Pain Away
+					["provider"] = { "n", 213691 },	-- Harmot
 					["coord"] = { 67, 43.8, ISLE_OF_DORN },
 				}),
 				q(78755, {	-- Playing in the Mud
-					["provider"] = { "n", 214921 },	-- Harmot
 					["sourceQuests"] = { 78758 },	-- Pulse within the Earth
+					["provider"] = { "n", 214921 },	-- Harmot
 					["coord"] = { 67, 47.3, ISLE_OF_DORN },
 					["groups"] = {
 						o(413246, {	-- Elemental Silt Mound
@@ -729,19 +729,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78756, {	-- Lots and Lots of FIre Honey
-					["provider"] = { "n", 214922 },	-- Harvester Farnee
 					["sourceQuests"] = { 78758 },	-- Pulse within the Earth
+					["provider"] = { "n", 214922 },	-- Harvester Farnee
 					["coord"] = { 67, 47.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(211489),	-- Enormous Glob of Fire Honey (QI!)
 					},
 				}),
 				q(78759, {	-- To Wake a Giant
-					["provider"] = { "n", 214921 },	-- Harmot
 					["sourceQuests"] = {
 						78756,	-- Lots and Lots of FIre Honey
 						78755,	-- Playing in the Mud
 					},
+					["provider"] = { "n", 214921 },	-- Harmot
 					["coord"] = { 67, 47.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(228380),	-- Earthmender's Signet
@@ -750,13 +750,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.07, {	-- A Titanic Expedition
 				q(79724, {	-- A Titanic Expedition!
-					["provider"] = { "n", 217763 },	-- Rannan Korren
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 217763 },	-- Rannan Korren
 					["coord"] = { 58.8, 28.3, ISLE_OF_DORN },
 				}),
 				q(79726, {	-- "Cataloguing"
-					["provider"] = { "n", 217656 },	-- Tuberros
 					["sourceQuests"] = { 79724 },	-- A Titanic Expedition!
+					["provider"] = { "n", 217656 },	-- Tuberros
 					["coord"] = { 77.9, 30.3, ISLE_OF_DORN },
 					["groups"] = {
 						o(423612, {	-- Titan Artifacts
@@ -765,47 +765,47 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79725, {	-- Not a Heating Pack
-					["provider"] = { "n", 217828 },	-- Rannan Korren
 					["sourceQuests"] = { 79724 },	-- A Titanic Expedition!
+					["provider"] = { "n", 217828 },	-- Rannan Korren
 					["coord"] = { 77.9, 30.3, ISLE_OF_DORN },
 				}),
 				q(79727, {	-- Because It's Shiny
-					["provider"] = { "n", 217659 },	-- Tharessa Sunstrand
 					["sourceQuests"] = {
 						79726,	-- "Cataloguing"
 						79725,	-- Not a Heating Pack
 					},
+					["provider"] = { "n", 217659 },	-- Tharessa Sunstrand
 					["coord"] = { 77.9, 30.3, ISLE_OF_DORN },
 					["groups"] = {
 						i(215234),	-- Titan Artifact (QI!)
 					},
 				}),
 				q(79728, {	-- It's Probably Nothing
-					["provider"] = { "n", 217828 },	-- Rannan Korren
 					["sourceQuests"] = { 79727 },	-- Because It's Shiny
+					["provider"] = { "n", 217828 },	-- Rannan Korren
 					["coord"] = { 77.9, 30.3, ISLE_OF_DORN },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 20595.08, {	-- Remember Me, Earthen
 				q(81661, {	-- To Mourning Rise
-					["provider"] = { "n", 221355 },	-- Urtago
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+					["provider"] = { "n", 221355 },	-- Urtago
 					["coord"] = { 55.7, 56.0, ISLE_OF_DORN },
 					["isBreadcrumb"] = true,
 				}),
 				q(78743, {	-- Before I Depart
-					["provider"] = { "n", 213184 },	-- Korgran
 					["sourceQuests"] = { 81661 },	-- To Mourning Rise
+					["provider"] = { "n", 213184 },	-- Korgran
 					["coord"] = { 57.4, 42.8, ISLE_OF_DORN },
 				}),
 				q(78744, {	-- Honor Their Memories
-					["provider"] = { "n", 213687 },	-- Urtago
 					["sourceQuests"] = { 78743 },	-- Before I Depart
+					["provider"] = { "n", 213687 },	-- Urtago
 					["coord"] = { 61.7, 41.6, ISLE_OF_DORN },
 				}),
 				q(78745, {	-- You No Take Plunder!
-					["provider"] = { "n", 213687 },	-- Urtago
 					["sourceQuests"] = { 78744 },	-- Honor Their Memories
+					["provider"] = { "n", 213687 },	-- Urtago
 					["coord"] = { 61.7, 41.6, ISLE_OF_DORN },
 					["groups"] = {
 						o(414199, {	-- Pile of Earthen Belongings
@@ -814,40 +814,40 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78746, {	-- Laws Apply to All
-					["provider"] = { "n", 213687 },	-- Urtago
 					["sourceQuests"] = { 78744 },	-- Honor Their Memories
+					["provider"] = { "n", 213687 },	-- Urtago
 					["coord"] = { 61.7, 41.6, ISLE_OF_DORN },
 				}),
 				q(78748, {	-- Cutting the Wick
-					["provider"] = { "n", 213688 },	-- Urtago
 					["sourceQuests"] = {
 						78745,	-- You No Take Plunder!
 						78746,	-- Laws Apply to All
 					},
+					["provider"] = { "n", 213688 },	-- Urtago
 					["coord"] = { 63.3, 42.6, ISLE_OF_DORN },
 				}),
 				q(78747, {	-- The Great Collapse
-					["provider"] = { "n", 213688 },	-- Urtago
 					["sourceQuests"] = {
 						78745,	-- You No Take Plunder!
 						78746,	-- Laws Apply to All
 					},
+					["provider"] = { "n", 213688 },	-- Urtago
 					["coord"] = { 63.3, 42.6, ISLE_OF_DORN },
 					["groups"] = {
 						i(211435),	-- Explosive Sticks (QI!)
 					},
 				}),
 				q(78749, {	-- Who Runs this Fine Establishment?
-					["provider"] = { "n", 213688 },	-- Urtago
 					["sourceQuests"] = {
 						78748,	-- Cutting the Wick
 						78747,	-- The Great Collapse
 					},
+					["provider"] = { "n", 213688 },	-- Urtago
 					["coord"] = { 63.3, 42.6, ISLE_OF_DORN },
 				}),
 				q(79335, {	-- One More Tradition
-					["provider"] = { "n", 213184 },	-- Korgran
 					["sourceQuests"] = { 78749 },	-- Who Runs this Fine Establishment?
+					["provider"] = { "n", 213184 },	-- Korgran
 					["coord"] = { 57.7, 42.7, ISLE_OF_DORN },
 					["groups"] = {
 						i(213002),	-- Charged Core (QI!)
@@ -857,21 +857,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79336, {	-- The Forging of Memories
-					["provider"] = { "n", 216169 },	-- Korgran
 					["sourceQuests"] = { 79335 },	-- One More Tradition
+					["provider"] = { "n", 216169 },	-- Korgran
 					["coord"] = { 57.3, 42.2, ISLE_OF_DORN },
 					["groups"] = {
 						i(219413),	-- Schematic: Stonebound Lantern (RECIPE!)
 					},
 				}),
 				q(79337, {	-- The Last Journey
-					["provider"] = { "n", 216169 },	-- Korgran
 					["sourceQuests"] = { 79336 },	-- The Forging of Memories
+					["provider"] = { "n", 216169 },	-- Korgran
 					["coord"] = { 57.3, 42.2, ISLE_OF_DORN },
 				}),
 				q(79338, {	-- The Lost Earthen
-					["provider"] = { "n", 213187 },	-- Urtago
 					["sourceQuests"] = { 79337 },	-- The Last Journey
+					["provider"] = { "n", 213187 },	-- Urtago
 					["coord"] = { 57.8, 42.7, ISLE_OF_DORN },
 					["groups"] = {
 						o(424253, {	-- Korgran's Lantern
@@ -880,13 +880,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79339, {	-- A Change of Tradition
-					["provider"] = { "n", 216878 },	-- Urtago
 					["sourceQuests"] = { 79338 },	-- The Lost Earthen
+					["provider"] = { "n", 216878 },	-- Urtago
 					["coord"] = { 62.0, 43.9, ISLE_OF_DORN },
 				}),
 				q(79341, {	-- Cleansing Ashes
-					["provider"] = { "n", 216173 },	-- Urtago
 					["sourceQuests"] = { 79339 },	-- A Change of Tradition
+					["provider"] = { "n", 216173 },	-- Urtago
 					["coord"] = { 69.8, 56.8, ISLE_OF_DORN },
 					["groups"] = {
 						o(420734, {	-- Ashenfold
@@ -895,27 +895,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(79340, {	-- Tools of Declaration
-					["provider"] = { "n", 216173 },	-- Urtago
 					["sourceQuests"] = { 79339 },	-- A Change of Tradition
+					["provider"] = { "n", 216173 },	-- Urtago
 					["coord"] = { 69.8, 56.8, ISLE_OF_DORN },
 					["groups"] = {
 						i(213171),	-- Pristine Horn (QI!)
 					},
 				}),
 				q(79342, {	-- As He Departs
-					["provider"] = { "n", 216173 },	-- Urtago
 					["sourceQuests"] = {
 						79341,	-- Cleansing Ashes
 						79340,	-- Tools of Declaration
 					},
+					["provider"] = { "n", 216173 },	-- Urtago
 					["coord"] = { 69.8, 56.8, ISLE_OF_DORN },
 					["groups"] = {
 						i(217041),	-- Horn of Declaration
 					},
 				}),
 				q(82895, {	-- The Weight of Duty
-					["provider"] = { "n", 224930 },	-- Urtago
 					["sourceQuests"] = { 79342 },	-- As He Departs
+					["provider"] = { "n", 224930 },	-- Urtago
 					["coord"] = { 69.9, 57.0, ISLE_OF_DORN },
 					["groups"] = {
 						i(224550),	-- Carved Placard (QI!)
@@ -924,34 +924,34 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.09, {	-- Brotherhood in the Skolzgal Wood
 				q(80456, {	-- A Sassy Arathi
-					["provider"] = { "n", 219437 },	-- Dornogal CItizen
 					["sourceQuests"] = { 78630 },	-- The Rise of the Reckoning
+					["provider"] = { "n", 219437 },	-- Dornogal CItizen
 					["coord"] = { 55.4, 55.8, ISLE_OF_DORN },
 					["isBreadcrumb"] = true,
 				}),
 				q(80209, {	-- An Oddball in Dornogal
-					["provider"] = { "n", 222224 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80456 },	-- A Sassy Arathi
+					["provider"] = { "n", 222224 },	-- Peacekeeper Leif
 					["coord"] = { 54.4, 19.3, DORNOGAL },
 				}),
 				q(80210, {	-- Found Around the Unbound
-					["provider"] = { "n", 222268 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80209 },	-- An Oddball in Dornogal
+					["provider"] = { "n", 222268 },	-- Peacekeeper Leif
 					["coord"] = { 67.2, 18.7, DORNOGAL },
 				}),
 				q(80211, {	-- The Pillage of Freywold Village
-					["provider"] = { "n", 222314 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80210 },	-- Found Around the Unbound
+					["provider"] = { "n", 222314 },	-- Peacekeeper Leif
 					["coord"] = { 42.7, 71.0, ISLE_OF_DORN },
 				}),
 				q(80212, {	-- The Abductors' Obstructors
-					["provider"] = { "n", 222314 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80211 },	-- The Pillage of Freywold Village
+					["provider"] = { "n", 222314 },	-- Peacekeeper Leif
 					["coord"] = { 42.7, 71.0, ISLE_OF_DORN },
 				}),
 				q(80213, {	-- Holy Fire in Rambleshire
-					["provider"] = { "n", 222352 },	-- Lamplighter Kaerter
 					["sourceQuests"] = { 80212 },	-- The Abductors' Obstructors
+					["provider"] = { "n", 222352 },	-- Lamplighter Kaerter
 					["coord"] = { 57.6, 30.1, ISLE_OF_DORN },
 					["groups"] = {
 						i(224104),	-- Flashfire Thurible (QI!)
@@ -959,36 +959,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(80214, {	-- A Time to Kill at the Lumber Mill
-					["provider"] = { "n", 222356 },	-- Lamplighter Kaerter
 					["sourceQuests"] = { 80213 },	-- Holy Fire in Rambleshire
+					["provider"] = { "n", 222356 },	-- Lamplighter Kaerter
 					["coord"] = { 62.1, 30.7, ISLE_OF_DORN },
 				}),
 				q(80215, {	-- Ungirthin' the Earthen
-					["provider"] = { "n", 222360 },	-- Lamplighter Kaerter
 					["sourceQuests"] = { 80214 },	-- A Time to Kill at the Lumber Mill
+					["provider"] = { "n", 222360 },	-- Lamplighter Kaerter
 					["coord"] = { 67.0, 31.2, ISLE_OF_DORN },
 				}),
 				q(80216, {	-- Concealed in the Weald
-					["provider"] = { "n", 222358 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80214 },	-- A Time to Kill at the Lumber Mill
+					["provider"] = { "n", 222358 },	-- Peacekeeper Leif
 					["coord"] = { 67.1, 31.3, ISLE_OF_DORN },
 				}),
 				q(80217, {	-- A Lamplight for the Shipwright
-					["provider"] = { "n", 222362 },	-- Peacekeeper Leif
 					["sourceQuests"] = {
 						80216,	-- Concealed in the Weald
 						80215,	-- Ungirthin' the Earthen
 					},
+					["provider"] = { "n", 222362 },	-- Peacekeeper Leif
 					["coord"] = { 65.9, 24.7, ISLE_OF_DORN },
 				}),
 				q(80218, {	-- Up to No Good Down in Silkwood
-					["provider"] = { "n", 222364 },	-- Lamplighter Kaerter
 					["sourceQuests"] = { 80217 },	-- A Lamplight for the Shipwright
+					["provider"] = { "n", 222364 },	-- Lamplighter Kaerter
 					["coord"] = { 66.0, 23.9, ISLE_OF_DORN },
 				}),
 				q(83181, {	-- Best Friends, Same Ends
-					["provider"] = { "n", 222363 },	-- Peacekeeper Leif
 					["sourceQuests"] = { 80217 },	-- A Lamplight for the Shipwright
+					["provider"] = { "n", 222363 },	-- Peacekeeper Leif
 					["coord"] = { 66.0, 23.86, ISLE_OF_DORN },
 					["groups"] = {
 						i(223456),	-- Algari Cinch
@@ -1000,27 +1000,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.AchCriteria, 20595.10, {	-- All Ore Nothing
 				q(82792, {	-- All Ore Nothing
-					["provider"] = { "n", 218535 },	-- Germira
 					["sourceQuests"] = {
 						TEMPORARY_SOURCEQUEST,
 						TWW_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
+					["provider"] = { "n", 218535 },	-- Germira
 					["coord"] = { 41.1, 72.1, ISLE_OF_DORN },
 				}),
 				q(82796, {	-- Third Mine Blind
-					["provider"] = { "n", 224707 },	-- Alvegar
 					["sourceQuests"] = { 82792 },	-- All Ore Nothing
+					["provider"] = { "n", 224707 },	-- Alvegar
 					["coord"] = { 45.9, 62.9, ISLE_OF_DORN },
 				}),
 				q(82797, {	-- Hit Rock Bottom
-					["provider"] = { "n", 224707 },	-- Alvegar
 					["sourceQuests"] = { 82796 },	-- Third Mine Blind
+					["provider"] = { "n", 224707 },	-- Alvegar
 					["coord"] = { 47.3, 61.6, ISLE_OF_DORN },
 				}),
 				q(82798, {	-- An Opal of Mine
-					["provider"] = { "n", 224708 },	-- Cenderragg
 					["sourceQuests"] = { 82797 },	-- Hit Rock Bottom
+					["provider"] = { "n", 224708 },	-- Cenderragg
 					["coord"] = { 48.6, 60.9, ISLE_OF_DORN },
 					["groups"] = {
 						o(454189, {	-- Opal Ore
@@ -1029,21 +1029,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(82799, {	-- Web Beats Rock
-					["provider"] = { "n", 224708 },	-- Cenderragg
 					["sourceQuests"] = { 82797 },	-- Hit Rock Bottom
+					["provider"] = { "n", 224708 },	-- Cenderragg
 					["coord"] = { 48.6, 60.9, ISLE_OF_DORN },
 				}),
 				q(82800, {	-- A Sedimental Moment
-					["provider"] = { "n", 224708 },	-- Cenderragg
 					["sourceQuests"] = {
 						82798,	-- An Opal of Mine
 						82799,	-- Web Beats Rock
 					},
+					["provider"] = { "n", 224708 },	-- Cenderragg
 					["coord"] = { 47.4, 60.9, ISLE_OF_DORN },
 				}),
 				q(82801, {	-- Beetlejeweled
-					["provider"] = { "n", 224708 },	-- Cenderragg
 					["sourceQuests"] = { 82800 },	-- A Sedimental Moment
+					["provider"] = { "n", 224708 },	-- Cenderragg
 					["coord"] = { 47.4, 60.9, ISLE_OF_DORN },
 					["groups"] = {
 						i(228375),	-- Belt of Kix'arak's Bane
@@ -1055,26 +1055,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			header(HEADERS.Item, 228217, {	-- Design: Solid Amber
 				q(82441, {	-- For The Love of Gems
-					["provider"] = { "n", 223637 },	-- Natalia Pearce
 					--["sourceQuests"] = { x },	-- ?
+					["provider"] = { "n", 223637 },	-- Natalia Pearce
 					["coord"] = { 43.0, 70.0, ISLE_OF_DORN },
 				}),
 				q(82465, {	-- Precious Gems
-					["provider"] = { "n", 223637 },	-- Natalia Pearce
 					["sourceQuests"] = { 82441 },	-- For The Love of Gems
+					["provider"] = { "n", 223637 },	-- Natalia Pearce
 					["coord"] = { 43.0, 70.0, ISLE_OF_DORN },
 				}),
 				q(82466, {	-- What We Do For Gems
-					["provider"] = { "n", 223924 },	-- Natalia Pearce
 					["sourceQuests"] = { 82465 },	-- Precious Gems
+					["provider"] = { "n", 223924 },	-- Natalia Pearce
 					["coord"] = { 33.9, 79.6, ISLE_OF_DORN },
 					["groups"] = {
 						i(223891),	-- Igneous Core (QI!)
 					},
 				}),
 				q(82467, {	-- Gems Are Forever
-					["provider"] = { "n", 223924 },	-- Natalia Pearce
 					["sourceQuests"] = { 82466 },	-- What We Do For Gems
+					["provider"] = { "n", 223924 },	-- Natalia Pearce
 					["coord"] = { 33.9, 79.6, ISLE_OF_DORN },
 					["groups"] = {
 						i(228217),	-- Design: Solid Amber (RECIPE!)
@@ -1083,26 +1083,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			------ Dagran & Brinthe ------
 			q(83081, {	-- Not Enought Minerals
-				["provider"] = { "n", 225451 },	-- Dagran Thaurissan II
 				["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+				["provider"] = { "n", 225451 },	-- Dagran Thaurissan II
 				["coord"] = { 44.8, 64.4, ISLE_OF_DORN },
 			}),
 			q(83082, {	-- The Opalfront
-				["provider"] = { "n", 225454 },	-- Peacekeeper Hektare
 				["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+				["provider"] = { "n", 225454 },	-- Peacekeeper Hektare
 				["coord"] = { 44.8, 64.3, ISLE_OF_DORN },
 			}),
 			q(78465, {	-- Golgrin's Reach
-				["provider"] = { "n", 225451 },	-- Dagran Thaurissan II
 				["sourceQuests"] = {
 					83081,	-- Not Enought Minerals
 					83082,	-- The Opalfront
 				},
+				["provider"] = { "n", 225451 },	-- Dagran Thaurissan II
 				["coord"] = { 44.8, 64.4, ISLE_OF_DORN },
 			}),
 			q(78467, {	-- Charge for a Charge
-				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["sourceQuests"] = { 78465 },	-- Not Enought Minerals
+				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["coord"] = { 61.7, 70.2, ISLE_OF_DORN },
 				["groups"] = {
 					o(423596, {	-- Sand Pile
@@ -1117,19 +1117,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(79716, {	-- The History Beneath Us
-				["provider"] = { "n", 225453 },	-- Dagran Thaurissan II
 				["sourceQuests"] = { 78465 },	-- Not Enought Minerals
+				["provider"] = { "n", 225453 },	-- Dagran Thaurissan II
 				["coord"] = { 61.6, 70.2, ISLE_OF_DORN },
 				["groups"] = {
 					i(225886),	-- Shattered Relic Fragments
 				},
 			}),
 			q(79213, {	-- The Anachronism
-				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["sourceQuests"] = {
 					78467,	-- Charge for a Charge
 					79716,	-- The History Beneath Us
 				},
+				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["coord"] = { 61.7, 70.2, ISLE_OF_DORN },
 				["groups"] = {
 					o(423688, {	-- Titan Device
@@ -1138,13 +1138,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(83083, {	-- A Place Forgotten
-				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["sourceQuests"] = { 79213 },	-- The Anachronism
+				["provider"] = { "n", 225478 },	-- Speaker Brinthe
 				["coord"] = { 61.7, 70.2, ISLE_OF_DORN },
 			}),
 			q(83084, {	-- The Old Orders
-				["provider"] = { "n", 226841 },	-- Speaker Brinthe
 				["sourceQuests"] = { 83083 },	-- A Place Forgotten
+				["provider"] = { "n", 226841 },	-- Speaker Brinthe
 				["coord"] = { 44.9, 20.6, ISLE_OF_DORN },
 				["groups"] = {
 					o(455170, {	-- Crumbling Ironwood Parchment
@@ -1154,8 +1154,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(83087, {	-- The Old Guard
-				["provider"] = { "n", 225472 },	-- Dagran Thaurissan II
 				["sourceQuests"] = { 83084 },	-- The Old Orders
+				["provider"] = { "n", 225472 },	-- Dagran Thaurissan II
 				["coord"] = { 44.9, 20.6, ISLE_OF_DORN },
 				["groups"] = {
 					i(225887),	-- Titan Emitter (QI!)
@@ -1165,27 +1165,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			------ Birdman ------
 			q(82680, {	-- Birdman of the Three Shields
-				["provider"] = { "n", 224394 },	-- Harmot
 				["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
+				["provider"] = { "n", 224394 },	-- Harmot
 				["coord"] = { 60.2, 28.4, ISLE_OF_DORN },
 				["isBreadcrumb"] = true,
 			}),
 			q(82681, {	-- Cloudrook Down
-				["provider"] = { "n", 224392 },	-- Olbarig
 				["sourceQuests"] = { 82680 },	-- Birdman of the Three Shields
+				["provider"] = { "n", 224392 },	-- Olbarig
 				["coord"] = { 74.6, 19.7, ISLE_OF_DORN },
 			}),
 			q(82682, {	-- Elemental Hors D'Oeuvers
-				["provider"] = { "n", 224392 },	-- Olbarig
 				["sourceQuests"] = { 82681 },	-- Cloudrook Down
+				["provider"] = { "n", 224392 },	-- Olbarig
 				["coord"] = { 74.6, 19.7, ISLE_OF_DORN },
 				["groups"] = {
 					i(224119),	-- Electric Eel (QI!)
 				},
 			}),
 			q(82768, {	-- Cloud Fishing
-				["provider"] = { "n", 224392 },	-- Olbarig
 				["sourceQuests"] = { 82682 },	-- Elemental Hors D'Oeuvers
+				["provider"] = { "n", 224392 },	-- Olbarig
 				["coord"] = { 74.6, 19.7, ISLE_OF_DORN },
 				["groups"] = {
 					i(224119),	-- Electric Eel (QI!)
@@ -1212,8 +1212,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			q(84220, {	-- Passage to the Ringing Deeps
-				["provider"] = { "n", 228304 },	-- Oathsworn Earthen
 				["sourceQuests"] = { 78546 },	-- Recompense
+				["provider"] = { "n", 228304 },	-- Oathsworn Earthen
 				["coord"] = { 37.6, 72.6, ISLE_OF_DORN },
 			}),
 			q(83337, {	-- Stormscarred

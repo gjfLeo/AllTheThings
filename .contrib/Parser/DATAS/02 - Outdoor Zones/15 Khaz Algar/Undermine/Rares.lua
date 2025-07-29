@@ -53,8 +53,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["isWeekly"] = true,
 				}),
 				q(86414, {	-- Magno-Scrapper 9000
-					["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
 					--["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
+					["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
 					["coord"] = { 40.0, 22.4, UNDERMINE },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -62,14 +62,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 				q(86390, {	-- Noggenfogger Nuisance
-					["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
 					--["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
+					["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
 					["coord"] = { 32.0, 76.5, UNDERMINE },
 					["isWeekly"] = true,
 				}),
 				q(86428, {	-- Voltstrike the Charged
-					["provider"] = { "n", 234834 },	-- Boatwright Frankle
 					--["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
+					["provider"] = { "n", 234834 },	-- Boatwright Frankle
 					["coord"] = { 61.4, 25.2, UNDERMINE },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -78,8 +78,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 				q(86431, {	-- Scrapchewer
-					["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
 					--["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
+					["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
 					["coord"] = { 56.7, 79.0, UNDERMINE },
 					["isWeekly"] = true,
 					["groups"] = {

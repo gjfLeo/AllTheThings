@@ -274,26 +274,26 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							q(35926, {	-- Assassin's Mark
-								["provider"] = { "n", 83609 },
 								["sourceQuests"] = { 35915 },	-- Attempted Murder
+								["provider"] = { "n", 83609 },
 								["coord"] = { 52.0, 23.5, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(35915, {	-- Attempted Murder
-								["provider"] = { "n", 83549 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 37329 },	-- Not Here, Not Now
+								["provider"] = { "n", 83549 },	-- Hulda Shadowblade
 								["coord"] = { 39.6, 60.8, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(37327, {	-- Befriending the Locals
-								["provider"] = { "n", 81929 },	-- Lieutenant Willem
 								["sourceQuests"] = { 35286 },	-- Orders, Commander?
+								["provider"] = { "n", 81929 },	-- Lieutenant Willem
 								["coord"] = { 39.8, 60.8, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(37287, {  -- Cleaning House
-								["provider"] = { "n", 84291 },	-- Kolrigg Stoktron
 								["sourceQuests"] = { 36165 },	-- No Time to Waste
+								["provider"] = { "n", 84291 },	-- Kolrigg Stoktron
 								["coord"] = { 39.5, 61.7, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 								["groups"] = {
@@ -301,35 +301,35 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(36023, {	-- Extrinsic Motivation
-								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 35926 },	-- Assassin's Mask
+								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(36029, {	-- Gardul Venomshiv
-								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["sourceQuests"] = {
 									36023,	-- Extrinsic Motivation
 									35959,	-- The Power of Poison
 								},
+								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(36165, {	-- No Time to Waste
-								["provider"] = { "n", 83900 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 36048 },	-- We Have Him Now
+								["provider"] = { "n", 83900 },	-- Hulda Shadowblade
 								["coord"] = { 57.1, 34.4, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(37329, {	-- Not Here, Not Now
-								["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 								["sourceQuests"] = { 37296 },	-- A Lack of Wasps
+								["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 								["coord"] = { 43.8, 48.9, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(37281, {	-- Standing United
-								["provider"] = { "n", 88195 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 36165 },	-- No Time to Waste
+								["provider"] = { "n", 88195 },	-- Hulda Shadowblade
 								["coord"] = { 39.7, 60.9, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 								["groups"] = {
@@ -337,14 +337,14 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(35959, {	-- The Power of Poison
-								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 35926 },	-- Assassin's Mask
+								["provider"] = { "n", 83773 },	-- Hulda Shadowblade
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
 							q(36048, {	-- We Have Him Now
-								["provider"] = { "n", 83900 },	-- Hulda Shadowblade
 								["sourceQuests"] = { 36029 },	-- Gardul Venomshiv
+								["provider"] = { "n", 83900 },	-- Hulda Shadowblade
 								["coord"] = { 57.1, 34.4, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
 							}),
@@ -354,56 +354,56 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							q(35924, {	-- Assassin's Mark
-								["provider"] = { "n", 83608 },	-- Dark Ranger Velonara
 								["sourceQuests"] = { 35907 },	-- Attempted Murder
+								["provider"] = { "n", 83608 },	-- Dark Ranger Velonara
 								["coord"] = { 52.0, 23.5, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(35907, {	-- Attempted Murder
-								["provider"] = { "n", 83529 },	-- Dark Ranger Velonara
 								["sourceQuests"] = {
 									37326,	-- Befriending the Locals
 									37328,	-- Not Here, Not Now
 								},
+								["provider"] = { "n", 83529 },	-- Dark Ranger Velonara
 								["coord"] = { 40.0, 43.2, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(37326, {	-- Befriending the Locals
-								["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 								["sourceQuests"] = { 35277 },	-- Orders, Commander?
+								["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 								["coord"] = { 40.1, 43.5, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(36022, {	-- Extrinsic Motivation
-								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["sourceQuests"] = { 35924 },	-- Assassin's Mask
+								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(36028, {	-- Gardul Venomshiv
-								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["sourceQuests"] = {
 									36022,	-- Extrinsic Motivation
 									35947,	-- The Power of Poison
 								},
+								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(36166, {	-- No Time to Waste
-								["provider"] = { "n", 83903 },	-- Dark Ranger Velonara
 								["sourceQuests"] = { 36047 },	-- We Have Him Now
+								["provider"] = { "n", 83903 },	-- Dark Ranger Velonara
 								["coord"] = { 57.1, 34.4, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(37328, {	-- Not Here, Not Now
-								["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 								["sourceQuests"] = { 37296 },	-- A Lack of Wasps
+								["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 								["coord"] = { 43.8, 48.9, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(37292, {  -- Not In Your Army
-								["provider"] = { "n", 84292 },	-- Lunzul
 								["sourceQuests"] = { 36166 },	-- No Time to Waste
+								["provider"] = { "n", 84292 },	-- Lunzul
 								["coord"] = { 40.1, 42.6, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 								["groups"] = {
@@ -411,8 +411,8 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(37276, {	-- Standing United
-								["provider"] = { "n", 88179 },	-- Dark Ranger Velonara
 								["sourceQuests"] = { 36166 },	-- No Time to Waste
+								["provider"] = { "n", 88179 },	-- Dark Ranger Velonara
 								["coord"] = { 40.0, 43.3, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 								["groups"] = {
@@ -420,14 +420,14 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(35947, {	-- The Power of Poison
-								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["sourceQuests"] = { 35924 },	-- Assassin's Mask
+								["provider"] = { "n", 83772 },	-- Dark Ranger Velonara
 								["coord"] = { 53.5, 27.5, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
 							q(36047, {	-- We Have Him Now
-								["provider"] = { "n", 83899 },	--	Dark Ranger Velonara
 								["sourceQuests"] = { 36028 },	--	Gardul Venomshiv
+								["provider"] = { "n", 83899 },	--	Dark Ranger Velonara
 								["coord"] = { 57.1, 34.4, SPIRES_OF_ARAK },
 								["races"] = HORDE_ONLY,
 							}),
@@ -435,107 +435,107 @@ root(ROOTS.Zones, {
 					}),
 					n(SMUGGLERS_DEN, {
 						q(35739, {	-- All Natural
-							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["sourceQuests"] = { 35719 },	-- Back on Track
+							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["coord"] = { 60.2, 53.1, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35738, {	-- All Natural
-							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["sourceQuests"] = { 35718 },	-- Back on Track
+							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["coord"] = { 60.1, 53.1, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35719, {	-- Back on Track
-							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["sourceQuests"] = {
 								35878,	-- Safety Measures
 								35716,	-- Sticky Situation
 							},
+							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["coord"] = { 56.2, 42.4, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35718, {	-- Back on Track
-							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["sourceQuests"] = {
 								35879,	-- Safety Measures
 								35706,	-- Sticky Situation
 							},
+							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["coord"] = { 56.0, 40.8, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35705, {	-- Best Deals Anywhere
-							["provider"] = { "n", 82691 },	-- Provisioner Galgar
 							["sourceQuests"] = { 37330 },	-- Not Here, Not Now
+							["provider"] = { "n", 82691 },	-- Provisioner Galgar
 							["coord"] = { 40.0, 43.1, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35782, {	-- I See Dead Arakkoa
-							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["sourceQuests"] = { 35719 },	-- Back on Track
+							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["coord"] = { 60.2, 53.1, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35766, {	-- I See Dead Arakkoa
-							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["sourceQuests"] = { 35718 },	-- Back on Track
+							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["coord"] = { 60.1, 53.1, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(37331, {	-- Not Here, Not Now
-							["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 							["sourceQuests"] = { 37296 },	-- A Lack of Wasps
+							["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 							["coord"] = { 43.9, 48.8, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(37330, {	-- Not Here, Not Now
-							["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 							["sourceQuests"] = { 37296 },	-- A Lack of Wasps
+							["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 							["coord"] = { 43.9, 48.8, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35699, {	-- Peace Offering (Alliance)
-							["provider"] = { "n", 82709 },	-- Milly Osworth
 							["sourceQuests"] = { 35286 },	-- Orders, Commander?
+							["provider"] = { "n", 82709 },	-- Milly Osworth
 							["coord"] = { 39.5, 61.2, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35697, {	-- Peace Offering (Horde)
-							["provider"] = { "n", 82691 },	-- Provisioner Galgar
 							["sourceQuests"] = { 35277 },	-- Orders, Commander?
+							["provider"] = { "n", 82691 },	-- Provisioner Galgar
 							["coord"] = { 40.0, 43.1, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35878, {	-- Safety Measures
-							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["sourceQuests"] = { 35713 },	-- The Tinkertoss Twins
+							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["coord"] = { 56.2, 42.4, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35879, {	-- Safety Measures
-							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["sourceQuests"] = { 35705 },	-- Best Deals Anywhere
+							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["coord"] = { 56.0, 40.8, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35716, {	-- Sticky Situation
-							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["sourceQuests"] = { 35713 },	-- The Tinkertoss Twins
+							["provider"] = { "n", 82759 },	-- Filbert Tinkertoss
 							["coord"] = { 56.2, 42.4, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(35706, {	-- Sticky Situation
-							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["sourceQuests"] = { 35705 },	-- Best Deals Anywhere
+							["provider"] = { "n", 82713 },	-- Mixxy Weldblast
 							["coord"] = { 56.0, 40.8, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 						}),
 						q(35835, {	-- The Ebon Hunter
-							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["sourceQuests"] = {
 								35739,	-- All Natural
 								35782,	-- I See Dead Arakkoa
 							},
+							["provider"] = { "n", 82788 },	-- Dilbert Tinkertoss
 							["coord"] = { 60.2, 53.1, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
@@ -543,11 +543,11 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(35797, {	-- The Ebon Hunter
-							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["sourceQuests"] = {
 								35738,	-- All Natural
 								35766,	-- I See Dead Arakkoa
 							},
+							["provider"] = { "n", 82786 },	-- Trixxy Weldblast
 							["coord"] = { 60.1, 53.1, SPIRES_OF_ARAK },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -555,15 +555,15 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(35713, {	-- The Tinkertoss Twins
-							["provider"] = { "n", 82709 },	-- Milly Osworth
 							["sourceQuests"] = { 37331 },	-- Not Here, Not Now
+							["provider"] = { "n", 82709 },	-- Milly Osworth
 							["coord"] = { 39.5, 61.2, SPIRES_OF_ARAK },
 							["races"] = ALLIANCE_ONLY,
 						}),
 					}),
 					q(34756, {	-- A Charming Deception
-						["provider"] = { "n", 79890 },	-- Ornekka
 						["sourceQuests"] = { 34659 },	-- The Crone
+						["provider"] = { "n", 79890 },	-- Ornekka
 						["coord"] = { 51.6, 31.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114948),	-- Skettis Deceiver's Band
@@ -574,8 +574,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34883, {	-- A Feast of Shadows
-						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["sourceQuests"] = { 34830 },	-- Behind the Veil
+						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["coord"] = { 44.4, 24.0, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114723),	-- Cragplate Helm
@@ -585,63 +585,63 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35671, {	-- A Gathering of Shadows
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = {
 							34756,	-- A Charming Deception
 							34805,	-- Echo Hunters
 							35668,	-- Syth's Secret
 						},
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 48.5, 44.4, SPIRES_OF_ARAK },
 					}),
 					q(37296, {	-- A Lack of Wasps
-						["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 						["sourceQuests"] = {
 							37326,	-- Befriending the Locals (tavern/brewery)
 							35699,	-- Peace Offering (smuggler's den)
 						},
 						["sourceQuestNumRequired"] = 1,
+						["provider"] = { "n", 83463 },	-- Dusk-Seer Irizzar
 						["coord"] = { 43.9, 48.8, SPIRES_OF_ARAK },
 					}),
 					q(35339, {	-- A Parting Favor
-						["qgs"] = {
-							82100,	-- Bryan Finn (first version fades out about a minute after turning in previous quest and is replaced with second version)
-							82101,	-- Bryan Finn
-						},
 						["sourceQuests"] = {
 							35329,	-- I See Dead People (A)
 							35322,	-- I See Dead People (H)
 						},
+						["qgs"] = {
+							82100,	-- Bryan Finn (first version fades out about a minute after turning in previous quest and is replaced with second version)
+							82101,	-- Bryan Finn
+						},
 						["coord"] = { 38.9, 48.8, SPIRES_OF_ARAK },
 					}),
 					q(35353, {	-- A Piece of the Puzzle
-						["provider"] = { "n", 82124 },	-- Alice Finn
 						["sourceQuests"] = { 35339 },	-- A Parting Favor
+						["provider"] = { "n", 82124 },	-- Alice Finn
 						["coord"] = { 37.6, 51.0, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114958),	-- Watch Commander Branson's Lape
 						},
 					}),
 					q(35245, {	-- A Sentimental Relic
-						["provider"] = { "n", 80834 },	-- Memory of Lithic
 						["sourceQuests"] = { 35013 },	-- Lithic's Gift
+						["provider"] = { "n", 80834 },	-- Memory of Lithic
 						["coord"] = { 60.5, 38.8, SPIRES_OF_ARAK },
 					}),
 					q(36059, {	-- A Worthy Vessel
-						["provider"] = { "n", 80153 },	-- Shadow-Sage Iskar
 						["sourceQuests"] = { 35895 },	-- Terokk's Fall
+						["provider"] = { "n", 80153 },	-- Shadow-Sage Iskar
 						["coord"] = { 46.5, 46.5, SPIRES_OF_ARAK },
 					}),
 					q(34657, {	-- Adherents of the Sun God
-						["provider"] = { "n", 79519 },	-- Reshad
 						["sourceQuests"] = { 34655 },	-- The Shadows of Skettis
+						["provider"] = { "n", 79519 },	-- Reshad
 						["coord"] = { 43.6, 12.9, SPIRES_OF_ARAK },
 					}),
 					q(35482, {	-- Admiral Taylor [A]
-						["provider"] = { "n", 82278 },	-- Lady Claudia
 						["sourceQuests"] = {
 							35408,	-- Prime the Cannons
 							35407,	-- Punishable by Death
 						},
+						["provider"] = { "n", 82278 },	-- Lady Claudia
 						["coord"] = { 37.6, 53.7, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -657,11 +657,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36183, {	-- Admiral Taylor [H]
-						["provider"] = { "n", 82278 },	-- Lady Claudia
 						["sourceQuests"] = {
 							35408,	-- Prime the Cannons
 							35407,	-- Punishable by Death
 						},
+						["provider"] = { "n", 82278 },	-- Lady Claudia
 						["coord"] = { 37.6, 53.8, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -677,90 +677,90 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35636, {	-- All Due Respect
-						["provider"] = { "n", 79890 },	-- Ornekka
 						["sourceQuests"] = { 34659 },	-- The Crone
+						["provider"] = { "n", 79890 },	-- Ornekka
 						["coord"] = { 51.6, 31.2, SPIRES_OF_ARAK },
 					}),
 					q(34886, {	-- Baby Bird
-						["provider"] = { "n", 80469 },	-- Ikky
 						["sourceQuests"] = { 34838 },	-- Ikky's Egg
+						["provider"] = { "n", 80469 },	-- Ikky
 						["coord"] = { 45.4, 36.6, SPIRES_OF_ARAK },
 					}),
 					q(34942, {	-- Back from Beyond
-						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["sourceQuests"] = {
 							34883,	-- A Feast of Shadows
 							34882,	-- Blades in the Dark
 						},
+						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["coord"] = { 44.4, 24.0, SPIRES_OF_ARAK },
 					}),
 					q(35000, {	-- Banished From the Sky
-						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["sourceQuests"] = { 34998 },	-- Talon Watch
+						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["coord"] = { 62.1, 42.6, SPIRES_OF_ARAK },
 					}),
 					q(34830, {	-- Behind the Veil
-						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["sourceQuests"] = { 34828 },	-- Ishaal's Orb
+						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["coord"] = { 47.9, 34.6, SPIRES_OF_ARAK },
 					}),
 					q(34882, {	-- Blades in the Dark
-						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["sourceQuests"] = { 34830 },	-- Behind the Veil
+						["provider"] = { "n", 80508 },	-- Talonpriest Zellek
 						["coord"] = { 44.4, 24.0, SPIRES_OF_ARAK },
 					}),
 					q(35009, {	-- Call of the Raven Mother
-						["provider"] = { "n", 80481 },	-- High Ravenspeaker Krikka
 						["sourceQuests"] = {
 							34939,	-- Declawing the Bloodmane
 							34938,	-- Ralshiara's Demise
 							34924,	-- The Egg Thieves
 						},
+						["provider"] = { "n", 80481 },	-- High Ravenspeaker Krikka
 						["coord"] = { 52.0, 49.9, SPIRES_OF_ARAK },
 					}),
 					q(37177, {	-- Call of the Talon King
+						["description"] = "Granted automatically. If you're in the zone when you hit exalted, leave the zone and return.",
 						["provider"] = { "n", 84122 },	-- Shade of Terokk
 						["coord"] = { 46.6, 46.7, SPIRES_OF_ARAK },
-						["description"] = "Granted automatically. If you're in the zone when you hit exalted, leave the zone and return.",
 						["minReputation"] = { FACTION_ARAKKOA_OUTCASTS, EXALTED },
 					}),
 					q(35081, {	-- Clearing Out Before Cleaning Up
-						["provider"] = { "n", 81784 },	-- Engineer Gazwitz
 						["sourceQuests"] = { 35080 },	-- The Mother Lode
+						["provider"] = { "n", 81784 },	-- Engineer Gazwitz
 						["coord"] = { 59.1, 79.2, SPIRES_OF_ARAK },
 					}),
 					q(35634, {	-- Control is King
-						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["sourceQuests"] = {
 							35260,	-- Hardly Working
 							35273,	-- Hot Seat
 							35258,	-- Legacy of the Apexis
 						},
+						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["coord"] = { 36.8, 24.5, SPIRES_OF_ARAK },
 					}),
 					q(34921, {	-- Cult of the Ravenspeakers
-						["provider"] = { "n", 80648 },	-- Anzu
 						["sourceQuests"] = {
 							35634,	-- Control is King
 							35012,	-- Sethe, the Dead God
 						},
+						["provider"] = { "n", 80648 },	-- Anzu
 						["coord"] = { 46.8, 46.0, SPIRES_OF_ARAK },
 					}),
 					q(36428, {	-- Curing With Force
-						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["sourceQuests"] = {
 							36384,	-- Field Trial
 							35089,	-- Skimming Off the Top
 							35090,	-- The Right Parts for the Job
 						},
+						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 					}),
 					q(34939, {  -- Declawing The Bloodmane
-						["provider"] = { "n", 80860 },	-- High Ravenspeaker Krikka
 						["sourceQuests"] = {
 							34923,	-- The Bloodmane
 							34922,	-- Words of the Raven Mother
 						},
+						["provider"] = { "n", 80860 },	-- High Ravenspeaker Krikka
 						["coord"] = { 54.8, 54.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114720),	-- Cragplate Gauntlets
@@ -770,8 +770,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35077, {  -- Defungination
-						["provider"] = { "n", 81109 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = { 35619, 35620, 36862 },	-- Pinchwhistle Gearworks (Alliance and 2 Horde versions)
+						["provider"] = { "n", 81109 },	-- Kimzee Pinchwhistle
 						["coord"] = { 61.4, 72.8, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(118071),	-- "Fireproof" Venture Co. Blastplate
@@ -781,43 +781,43 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34805, {	-- Echo Hunters
-						["provider"] = { "n", 80265 },	-- Reshad
 						["sourceQuests"] = { 34659 },	-- The Crone
+						["provider"] = { "n", 80265 },	-- Reshad
 						["coord"] = { 51.6, 31.2, SPIRES_OF_ARAK },
 					}),
 					q(36425, {	-- Egg Punt
-						["provider"] = { "n", 85425 },	-- Ravager Egg
 						["sourceQuests"] = { 34827 },	-- Last of the Talonpriests
+						["provider"] = { "n", 85425 },	-- Ravager Egg
 						["coord"] = { 47.1, 31.6, SPIRES_OF_ARAK },
 					}),
 					q(36384, {	-- Field Trial
-						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["sourceQuests"] = { 35285 },	-- Follow that Hotrod!
+						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 					}),
 					q(35298, {	-- Flame On
-						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["sourceQuests"] = {
 							36428,	-- Curing With Force
 							35211,	-- Preventing the Worst
 							35091,	-- Sporicide
 						},
+						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(111957),	-- Salvage Yard, Level 1
 						},
 					}),
 					q(35285, {	-- Follow that Hotrod!
-						["provider"] = { "n", 81784 },	-- Engineer Gazwitz
 						["sourceQuests"] = {
 							35081,	-- Clearing Out Before Cleaning Up
 							35082,	-- Getting the Crew Back Together
 						},
+						["provider"] = { "n", 81784 },	-- Engineer Gazwitz
 						["coord"] = { 59.1, 79.2, SPIRES_OF_ARAK },
 					}),
 					q(36353, {	-- For Old Times' Sake
-						["provider"] = { "n", 85080 },	-- Admiral Taylor
 						["sourceQuests"] = { 35482 },	-- Admiral Taylor
+						["provider"] = { "n", 85080 },	-- Admiral Taylor
 						["coord"] = { 39.9, 60.6, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -825,21 +825,21 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35001, {	-- Gaze of the Raven God
-						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["sourceQuests"] = { 35000 },	-- Banished From the Sky
+						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["coord"] = { 62.1, 42.6, SPIRES_OF_ARAK },
 					}),
 					q(35082, {	-- Getting the Crew Back Together
-						["provider"] = { "n", 81773 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = { 35080 },	-- The Mother Lode
+						["provider"] = { "n", 81773 },	-- Kimzee Pinchwhistle
 						["coord"] = { 59.1, 79.2, SPIRES_OF_ARAK },
 					}),
 					q(35260, {	-- Hardly Working
-						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["sourceQuests"] = {
 							34882,	-- Blades in the Dark
 							34883,	-- A Feast of Shadows
 						},
+						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["coord"] = { 36.9, 24.5, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114950),	-- Skywatch Adherent Choker
@@ -850,8 +850,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34999, {  -- Hatred Undying
-						["provider"] = { "n", 81514 },	-- Kazu
 						["sourceQuests"] = { 35611 },	-- Return to Veil Terokk
+						["provider"] = { "n", 81514 },	-- Kazu
 						["coord"] = { 61.9, 42.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114715),	-- Cragplate Warboots
@@ -866,8 +866,8 @@ root(ROOTS.Zones, {
 						["lvl"] = 96,
 					})),
 					q(34656, {  -- Hidden in Plain Sight
-						["provider"] = { "n", 79519 },	-- Reshad
 						["sourceQuests"] = { 34655 },	-- The Shadows of Skettis
+						["provider"] = { "n", 79519 },	-- Reshad
 						["coord"] = { 43.6, 12.9, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114733),	-- Cragplate Shoulders
@@ -877,16 +877,16 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35549, {	-- Honoring a Hero
-						["provider"] = { "n", 82403 },	-- Jasper Fel
 						["sourceQuests"] = { 35482 },	-- Admiral Taylor
+						["provider"] = { "n", 82403 },	-- Jasper Fel
 						["coord"] = { 36.8, 56.7, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35273, {  -- Hot Seat
-						["provider"] = {"o",232353},	-- Overseer's Chair
-						["sourceQuests"] = { 35261 },	-- Shot Caller
-						["coord"] = { 35.5, 32.1, SPIRES_OF_ARAK },
 						["icon"] = 1029590,
+						["sourceQuests"] = { 35261 },	-- Shot Caller
+						["provider"] = {"o",232353},	-- Overseer's Chair
+						["coord"] = { 35.5, 32.1, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114727),	-- Cragplate Legguards
 							i(114729),	-- Ravenchain Leggings
@@ -895,68 +895,68 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34898, {	-- Ikky
-						["provider"] = { "n", 85320 },	-- Ikky
 						["sourceQuests"] = { 34886 },	-- Baby Bird
+						["provider"] = { "n", 85320 },	-- Ikky
 						["coord"] = { 46.2, 45.6, SPIRES_OF_ARAK },
 						["groups"] = {
 							pet(1532),	-- Ikky (PET!)
 						},
 					}),
 					q(34838, {	-- Ikky's Egg
-						["provider"] = { "n", 80470 },	-- Kaliri Egg
-						["sourceQuests"] = { 34884 },	-- The Kaliri Whisperer (must pick up gavel)
-						["coord"] = { 45.4, 36.6, SPIRES_OF_ARAK },
 						["description"] = "Available once you pick up the gavel during |cFFFFD700The Kaliri Whisperer|r.",
+						["sourceQuests"] = { 34884 },	-- The Kaliri Whisperer (must pick up gavel)
+						["provider"] = { "n", 80470 },	-- Kaliri Egg
+						["coord"] = { 45.4, 36.6, SPIRES_OF_ARAK },
 					}),
 					q(35276, {	-- Inspecting the Troops (A)
-						["provider"] = { "n", 81891 },	-- Jasper Fel
 						["sourceQuests"] = { 35274 },	-- One of Our Own
+						["provider"] = { "n", 81891 },	-- Jasper Fel
 						["coord"] = { 45.9, 46.3, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35275, {	-- Inspecting the Troops (H)
-						["provider"] = { "n", 81890 },	-- Shadow Hunter Ukambe
 						["sourceQuests"] = { 35272 },	-- One of Our Own
+						["provider"] = { "n", 81890 },	-- Shadow Hunter Ukambe
 						["coord"] = { 45.9, 46.3, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35329, {	-- I See Dead People (A)
-						["provider"] = { "n", 81960 },	-- Jasper Fel
 						["sourceQuests"] = { 35293 },	-- Old Friends
+						["provider"] = { "n", 81960 },	-- Jasper Fel
 						["coord"] = { 39.1, 48.8, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35322, {	-- I See Dead People (H)
-						["provider"] = { "n", 81961 },	-- Shadow Hunter Ukambe
 						["sourceQuests"] = { 35295 },	-- What's Theirs is Ours
+						["provider"] = { "n", 81961 },	-- Shadow Hunter Ukambe
 						["coord"] = { 39.1, 48.9, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34828, {	-- Ishaal's Orb
-						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["sourceQuests"] = { 34827 },	-- Last of the Talonpriests
+						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["coord"] = { 47.9, 34.6, SPIRES_OF_ARAK },
 					}),
 					q(36062, {	-- Kimzee Pinchwhistle
-						["provider"] = { "n", 82468 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = { 35298 },	-- Flame On
+						["provider"] = { "n", 82468 },	-- Kimzee Pinchwhistle
 						["coord"] = { 61.5, 72.7, SPIRES_OF_ARAK },
 						["groups"] = {
 							follower(192),	-- Kimzee Pinchwhistle
 						},
 					}),
 					q(34827, {	-- Last of the Talonpriests
-						["provider"] = { "n", 80153 },	-- Shadow-Sage Iskar
 						["sourceQuests"] = { 35611 },	-- Return to Veil Terokk
+						["provider"] = { "n", 80153 },	-- Shadow-Sage Iskar
 						["coord"] = { 45.9, 45.7, SPIRES_OF_ARAK },
 					}),
 					q(35258, {	-- Legacy of the Apexis
-						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["sourceQuests"] = {
 							34882,	-- Blades in the Dark
 							34883,	-- Return to Veil Terokk
 							35257,	-- Power Unearthed (breadcrumb)
 						},
+						["provider"] = { "n", 80157 },	-- Darkscryer Raastok
 						["coord"] = { 36.9, 24.5, SPIRES_OF_ARAK },
 					}),
 					q(37168, {	-- Leorajh, the Enlightened
@@ -970,19 +970,19 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35013, {	-- Lithic's Gift
-						["provider"] = { "n", 86475 },	-- Talon Guard Kurekk
 						["sourceQuests"] = {
 							35011,	-- The False Talon King
 							35003,	-- Ritual Severance
 							35004,	-- Servants of a Dead God
 						},
+						["provider"] = { "n", 86475 },	-- Talon Guard Kurekk
 						["coord"] = { 64.1, 37.0, SPIRES_OF_ARAK },
 					}),
 					q(34885, {	-- Mother of Thorns
-						["provider"] = { "n", 80233 },	-- Skizzik
-						["sourceQuests"] = { 34884 },	-- The Kaliri Whisperer (must pick up gavel)
-						["coord"] = { 45.4, 36.3, SPIRES_OF_ARAK },
 						["description"] = "Available once you pick up the gavel during |cFFFFD700The Kaliri Whisperer|r.",
+						["sourceQuests"] = { 34884 },	-- The Kaliri Whisperer (must pick up gavel)
+						["provider"] = { "n", 80233 },	-- Skizzik
+						["coord"] = { 45.4, 36.3, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114957),	-- Oversized Shadeback Talon
 							i(114959),	-- Prickly Shadeback Thorn
@@ -990,8 +990,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34829, {  -- New Neighbors
-						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["sourceQuests"] = { 34827 },	-- Last of the Talonpriests
+						["provider"] = { "n", 80232 },	-- Talonpriest Ishaal
 						["coord"] = { 47.9, 34.6, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114736),	-- Cragplate Girdle
@@ -1001,107 +1001,107 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36606, {	-- News from Nagrand
-						["provider"] = { "n", 81929 },	-- Lieutenant Willem
 						["altQuests"] = { 36601 },	-- News from Nagrand
+						["provider"] = { "n", 81929 },	-- Lieutenant Willem
 						["coord"] = { 39.8, 60.9, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
 						["lvl"] = 96,	-- not sure why you can pick this up at 96 when nagrand is a 98 zone, but you can
 					}),
 					q(36601, {	-- News from Nagrand
-						["provider"] = { "n", 80153 },	-- Shadow-Sage iskar
 						["altQuests"] = { 36606 },	-- News from Nagrand
+						["provider"] = { "n", 80153 },	-- Shadow-Sage iskar
 						["coord"] = { 45.8, 45.6, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
 						["lvl"] = 96,
 					}),
 					q(36607, {	-- News from Nagrand
-						["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 						["altQuests"] = { 36602 },	-- News from Nagrand
+						["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 						["coord"] = { 40.2, 43.4, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 						["lvl"] = 96,
 					}),
 					q(36602, {	-- News from Nagrand
-						["provider"] = { "n", 80153 },	-- Shadow-Sage iskar
 						["altQuests"] = { 36607 },	-- News from Nagrand
+						["provider"] = { "n", 80153 },	-- Shadow-Sage iskar
 						["coord"] = { 45.8, 45.6, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 						["lvl"] = 96,
 					}),
 					q(35293, {	-- Old Friends
-						["provider"] = { "n", 81949 },	-- Jasper Fel
 						["sourceQuests"] = { 35286 },	-- Orders, Commander?
+						["provider"] = { "n", 81949 },	-- Jasper Fel
 						["coord"] = { 39.8, 60.7, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(36085, {	-- On Ebon Wings
-						["provider"] = { "n", 84276 },	-- Reshad
 						["sourceQuests"] = { 35009 },	-- Call of the Raven Mother
+						["provider"] = { "n", 84276 },	-- Reshad
 						["coord"] = { 51.3, 50.3, SPIRES_OF_ARAK },
 					}),
 					q(35274, {	-- One of Our Own (Alliance)
-						["provider"] = { "n", 81891 },	-- Jasper Fel
 						["sourceQuests"] = { 35671 },	-- A Gathering of Shadows
+						["provider"] = { "n", 81891 },	-- Jasper Fel
 						["coord"] = { 45.9, 46.3, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35272, {	-- One of Our Own (Horde)
-						["provider"] = { "n", 81890 },	-- Shadow Hunter Ukambe
 						["sourceQuests"] = { 35671 },	-- A Gathering of Shadows
+						["provider"] = { "n", 81890 },	-- Shadow Hunter Ukambe
 						["coord"] = { 45.9, 46.3, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35286, {	-- Orders, Commander? (Alliance)
-						["provider"] = { "n", 81929 },	-- Lieutenant Willem
 						["sourceQuests"] = { 35276 },	-- Inspecting the Troops (Alliance)
+						["provider"] = { "n", 81929 },	-- Lieutenant Willem
 						["coord"] = { 39.9, 60.7, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35277, {	-- Orders, Commander? (Horde)
-						["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 						["sourceQuests"] = { 35275 },	-- Inspecting the Troops (Horde)
+						["provider"] = { "n", 81920 },	-- Taskmaster Gornek
 						["coord"] = { 40.1, 43.4, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(34658, {	-- Orders From On High
-						["provider"] = { "n", 79519 },	-- Reshad
 						["sourceQuests"] = {
 							34657,	-- Adherents to the Sun God
 							34656,	-- Hidden in Plain Sight
 						},
+						["provider"] = { "n", 79519 },	-- Reshad
 						["coord"] = { 43.6, 12.9, SPIRES_OF_ARAK },
 					}),
 					q(35619, {	-- Pinchwhistle Gearworks (Alliance)
-						["provider"] = { "n", 85550 },	-- Watchman Kovak
 						["sourceQuests"] = { 35286 },	-- Orders, Commander?
+						["provider"] = { "n", 85550 },	-- Watchman Kovak
 						["coord"] = { 39.7, 60.6, SPIRES_OF_ARAK },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
 					q(35620, {	-- Pinchwhistle Gearworks (Horde)
-						["provider"] = { "n", 85566 },	-- Scout Cel
 						["sourceQuests"] = { 35277 },	-- Orders, Commander?
+						["provider"] = { "n", 85566 },	-- Scout Cel
 						["coord"] = { 40.0, 43.8, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
 					q(35257, {	-- Power Unearthed
-						["provider"] = { "n", 85598 },	-- Darkscryer Raastok
 						["sourceQuests"] = { 34942 },	-- Back from Beyond (must have picked up)
+						["provider"] = { "n", 85598 },	-- Darkscryer Raastok
 						["coord"] = { 44.4, 24.0, SPIRES_OF_ARAK },
 						["isBreadcrumb"] = true,
 					}),
 					q(35211, {  -- Preventing the Worst
-						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["sourceQuests"] = {
 							36384,	-- Field Trial
 							35089,	-- Skimming Off the Top
 							35090,	-- The Right Parts for the Job
 						},
+						["provider"] = { "n", 81443 },	-- Krixel Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(118090),	-- "Super Sterilized" Blastguard Britches
@@ -1111,53 +1111,53 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35408, {	-- Prime the Cannons
-						["provider"] = { "n", 82212 },	-- Lady Claudia
 						["sourceQuests"] = { 35380 },	-- Second in Command
+						["provider"] = { "n", 82212 },	-- Lady Claudia
 						["coord"] = { 37.6, 53.8, SPIRES_OF_ARAK },
 					}),
 					q(35407, {	-- Punishable by Death
-						["provider"] = { "n", 82194 },	-- Sir Edward
 						["sourceQuests"] = { 35380 },	-- Second in Command
+						["provider"] = { "n", 82194 },	-- Sir Edward
 						["coord"] = { 37.6, 53.8, SPIRES_OF_ARAK },
 					}),
 					q(34938, {	-- Ralshiara's Demise
-						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["sourceQuests"] = {
 							34923,	-- The Bloodmane
 							34922,	-- Words of the Raven Mother
 						},
+						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["coord"] = { 54.8, 54.2, SPIRES_OF_ARAK },
 					}),
 					q(35007, {	-- Rendezvous with the Ritualists
-						["provider"] = { "n", 80481 },	-- High Ravenspeaker Krikka
 						["sourceQuests"] = { 35010 },	-- The High Ravenspeaker
+						["provider"] = { "n", 80481 },	-- High Ravenspeaker Krikka
 						["coord"] = { 52.0, 49.9, SPIRES_OF_ARAK },
 					}),
 					q(35611, {	-- Return to Veil Terokk
-						["provider"] = { "n", 79748 },	-- Percy
 						["sourceQuests"] = {
 							35286,	-- Orders, Commander? (A)
 							35277,	-- Orders, Commander? (H)
 						},
+						["provider"] = { "n", 79748 },	-- Percy
 						["coords"] = {
 							{ 40.1, 60.3, SPIRES_OF_ARAK },	-- (A)
 							{ 40.0, 44.0, SPIRES_OF_ARAK },	-- (H)
 						},
 					}),
 					q(35733, {	-- Rites of the Talonpriests
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = {
 							34942,	-- Back from Beyond
 							34884,	-- The Kaliri Whisperer
 						},
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 46.5, 46.5, SPIRES_OF_ARAK },
 					}),
 					q(35003, {	-- Ritual Severance
-						["provider"] = { "n", 80648 },	-- Anzu
 						["sourceQuests"] = {
 							35001,	-- Gaze of the Raven God
 							35002,	-- Sons of Sethe
 						},
+						["provider"] = { "n", 80648 },	-- Anzu
 						["coord"] = { 66.7, 51.6, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114955),	-- Hollowblood Cloak
@@ -1168,16 +1168,16 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35380, {	-- Second in Command
-						["provider"] = { "n", 82126 },	-- Alice Finn
 						["sourceQuests"] = { 35353 },	-- A Piece of the Puzzle
+						["provider"] = { "n", 82126 },	-- Alice Finn
 						["coord"] = { 37.5, 50.7, SPIRES_OF_ARAK },
 					}),
 					q(35004, {  -- Servants of a Dead God
-						["provider"] = { "n", 80648 },	-- Anzu
 						["sourceQuests"] = {
 							35001,	-- Gaze of the Raven God
 							35002,	-- Sons of Sethe
 						},
+						["provider"] = { "n", 80648 },	-- Anzu
 						["coord"] = { 66.7, 51.6, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114955),	-- Hollowblood Cloak
@@ -1188,12 +1188,12 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35012, {  -- Sethe, the Dead God
-						["provider"] = { "n", 86355 },	-- Anzu
 						["sourceQuests"] = {
 							35011,	-- The False Talon King
 							35003,	-- Ritual Severance
 							-- 35004,	-- Servants of a Dead God [Not required 2023.07.14]
 						},
+						["provider"] = { "n", 86355 },	-- Anzu
 						["coord"] = { 64.1, 37.0, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114712),	-- Cragplate Chestplate
@@ -1203,29 +1203,29 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35261, {	-- Shot-Caller
-						["provider"] = { "n", 82123 },	-- Inactive Apexis Destroyer
 						["sourceQuests"] = { 35259 },	-- Sol Sisters
+						["provider"] = { "n", 82123 },	-- Inactive Apexis Destroyer
 						["coords"] = {	-- depends on which 'sister' you kill last
 							{ 31.9, 25.5, SPIRES_OF_ARAK },
 							{ 32.6, 29.0, SPIRES_OF_ARAK },
 						},
 					}),
 					q(35089, {	-- Skimming Off the Top
-						["provider"] = { "n", 81972 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = { 35285 },	-- Follow that Hotrod!
+						["provider"] = { "n", 81972 },	-- Kimzee Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 					}),
 					q(35259, {	-- Sol Sisters
-						["provider"] = { "n", 80155 },	-- Kura the Blind
 						["sourceQuests"] = {
 							34882,	-- Blades in the Dark
 							34883,	-- Return to Veil Terokk
 						},
+						["provider"] = { "n", 80155 },	-- Kura the Blind
 						["coord"] = { 36.9, 24.5, SPIRES_OF_ARAK },
 					}),
 					q(35002, {	-- Sons of Sethe
-						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["sourceQuests"] = { 35000 },	-- Banished From the Sky
+						["provider"] = { "n", 80758 },	-- Talon Guard Kurekk
 						["coord"] = { 62.1, 42.6, SPIRES_OF_ARAK },
 					}),
 					q(35079, {	-- Spore-be-Gone
@@ -1233,22 +1233,22 @@ root(ROOTS.Zones, {
 						["coord"] = { 61.4, 72.8, SPIRES_OF_ARAK },
 					}),
 					q(35091, {	-- Sporicide
-						["provider"] = { "n", 81978 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = {
 							35089,	-- Skimming Off the Top
 							35090,	-- The Right Parts for the Job
 						},
+						["provider"] = { "n", 81978 },	-- Kimzee Pinchwhistle
 						["coord"] = { 58.7, 92.7, SPIRES_OF_ARAK },
 					}),
 					q(35550, {	-- Surviving in a Savage Land
-						["provider"] = { "n", 82402 },	-- Shadow Hunter Ukambe
 						["sourceQuests"] = { 36183 },	-- Admiral Taylor
+						["provider"] = { "n", 82402 },	-- Shadow Hunter Ukambe
 						["coord"] = { 36.8, 56.8, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35668, {	-- Syth's Secret
-						["provider"] = { "n", 82621 },	-- Reshad
 						["sourceQuests"] = { 35636 },	-- All Due Respect
+						["provider"] = { "n", 82621 },	-- Reshad
 						["coord"] = { 50.3, 36.6, SPIRES_OF_ARAK },
 					}),
 					q(37144, {	-- Talon Guard Kurekk
@@ -1260,12 +1260,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34998, {	-- Talon Watch
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = { 35611 },	-- Return to Veil Terokk
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 45.9, 45.7, SPIRES_OF_ARAK },
 					}),
 					q(37141, {	-- Talonpriest Ishaal
-						["provider"] = { "n", 83959 },	-- Talonpriest Ishaal
 						["sourceQuests"] = {	-- all "Between Arak and a Hard Place" criteria
 							35671,	-- A Gathering of Shadows
 							35482,	-- Admiral Taylor [A]
@@ -1282,19 +1281,20 @@ root(ROOTS.Zones, {
 							35298,	-- Flame On
 							35704,	-- When All is Aligned
 						},
+						["provider"] = { "n", 83959 },	-- Talonpriest Ishaal
 						["coord"] = { 46.5, 46.7, SPIRES_OF_ARAK },
 						["groups"] = {
 							follower(218),	-- Talonpriest Ishaal
 						},
 					}),
 					q(35895, {	-- Terokk's Fall
-						["provider"] = { "n", 82813 },	-- Effigy of Terokk
 						["sourceQuests"] = { 35897 },	-- The Missing Piece
+						["provider"] = { "n", 82813 },	-- Effigy of Terokk
 						["coord"] = { 46.6, 46.6, SPIRES_OF_ARAK },
 					}),
 					q(35896, {	-- The Avatar of Terokk
-						["provider"] = { "n", 84122 },	-- Shade of Terokk
 						["sourceQuests"] = { 36059 },	-- A Worthy Vessel
+						["provider"] = { "n", 84122 },	-- Shade of Terokk
 						["coord"] = { 46.6, 46.6, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(119073),	-- Talon Guard Bloodsworn Band
@@ -1305,8 +1305,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34923, {  -- The Bloodmane
-						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["sourceQuests"] = { 35007 },	-- Rendezvous with the Ritualists
+						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["coord"] = { 54.8, 54.1, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114741),	-- Cragplate Wristwraps
@@ -1316,64 +1316,64 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34659, {	-- The Crone
-						["provider"] = { "n", 79519 },	-- Reshad
 						["sourceQuests"] = { 34658 },	-- Orders From On High
+						["provider"] = { "n", 79519 },	-- Reshad
 						["coord"] = { 45.4, 18.2, SPIRES_OF_ARAK },
 					}),
 					q(34924, {	-- The Egg Thieves
-						["provider"] = { "n", 80863 },	-- Vakora of the Flock
 						["sourceQuests"] = {
 							34923,	-- The Bloodmane
 							34922,	-- Words of the Raven Mother
 						},
+						["provider"] = { "n", 80863 },	-- Vakora of the Flock
 						["coord"] = { 54.8, 54.2, SPIRES_OF_ARAK },
 					}),
 					q(35011, {	-- The False Talon King
-						["provider"] = { "n", 86475 },	-- Talon Guard Kurekk
 						["sourceQuests"] = {
 							35001,	-- Gaze of the Raven God
 							35002,	-- Sons of Sethe
 						},
+						["provider"] = { "n", 86475 },	-- Talon Guard Kurekk
 						["coord"] = { 66.7, 51.6, SPIRES_OF_ARAK },
 					}),
 					q(35010, {	-- The High Ravenspeaker
-						["provider"] = { "n", 80639 },	-- Iktis of the Flock
 						["sourceQuests"] = { 34991 },	-- To the... Rescue?
+						["provider"] = { "n", 80639 },	-- Iktis of the Flock
 						["coord"] = { 48.9, 49.0, SPIRES_OF_ARAK },
 					}),
 					q(36790, {	-- The Initiate's Revenge
-						["provider"] = { "n", 86381 },	-- Mortally Wounded Initiate
 						["sourceQuests"] = {
 							34923,	-- The Bloodmane
 							34922,	-- Words of the Raven Mother
 						},
+						["provider"] = { "n", 86381 },	-- Mortally Wounded Initiate
 						["coord"] = { 50.9, 55.8, SPIRES_OF_ARAK },
 					}),
 					q(34884, {	-- The Kaliri Whisperer
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = { 35611 },	-- Return to Veil Terokk
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 45.9, 45.7, SPIRES_OF_ARAK },
 					}),
 					q(35897, {	-- The Missing Piece
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = {
 							35734,	-- The Talon King
 							35245,	-- A Sentimental Relic
 						},
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 46.5, 46.5, SPIRES_OF_ARAK },
 					}),
 					q(35080, {	-- The Mother Lode
-						["provider"] = { "n", 81109 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = {
 							35077,	-- Defungination
 							35079,	-- Spore-be-Gone
 							36179,	-- Unwanted Pests
 						},
+						["provider"] = { "n", 81109 },	-- Kimzee Pinchwhistle
 						["coord"] = { 61.4, 72.9, SPIRES_OF_ARAK },
 					}),
 					q(35090, {  -- The Right Parts for the Job
-						["provider"] = { "n", 81972 },	-- Kimzee Pinchwhistle
 						["sourceQuests"] = { 35285 },	-- Follow that Hotrod!
+						["provider"] = { "n", 81972 },	-- Kimzee Pinchwhistle
 						["coord"] = { 58.4, 92.2, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(118077),	-- Fungal Reisistant Chainmail Boots
@@ -1383,7 +1383,6 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34655, {	-- The Shadows of Skettis
-						["provider"] = { "n", 79539 },	-- Azik
 						["sourceQuests"] = {
 							34653,	-- Arakkoa Exodus
 							36951,	-- Arakkoa Exodus
@@ -1392,11 +1391,12 @@ root(ROOTS.Zones, {
 							49548,	-- Warchief's Command: Spires of Arak!
 							-- #endif
 						},
+						["provider"] = { "n", 79539 },	-- Azik
 						["coord"] = { 37.8, 18.0, SPIRES_OF_ARAK },
 					}),
 					q(35734, {	-- The Talon King
-						["provider"] = { "n", 82813 },	-- Effigy of Terokk
 						["sourceQuests"] = { 35733 },	-- Rites of the Talonpriests
+						["provider"] = { "n", 82813 },	-- Effigy of Terokk
 						["coord"] = { 46.6, 46.6, SPIRES_OF_ARAK },
 					}),
 					q(36864, {	-- Three Feet Under
@@ -1408,8 +1408,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34991, {	-- To the... Rescue?
-						["provider"] = { "n", 80639 },	-- Iktis of the Flock
 						["sourceQuests"] = { 34921 },	-- Cult of the Ravenspeakers
+						["provider"] = { "n", 80639 },	-- Iktis of the Flock
 						["coord"] = { 48.9, 49.0, SPIRES_OF_ARAK },
 					}),
 					q(36179, {	-- Unwanted Pests
@@ -1417,44 +1417,44 @@ root(ROOTS.Zones, {
 						["coord"] = { 62.5, 73.8, SPIRES_OF_ARAK },
 					}),
 					q(36316, {	-- Victory is Within Reach
-						["provider"] = { "n", 81770 },	-- Reshad
 						["sourceQuests"] = { 35704 },	-- When All is Aligned
+						["provider"] = { "n", 81770 },	-- Reshad
 						["coord"] = { 46.5, 46.5, SPIRES_OF_ARAK },
 					}),
 					q(35674, {	-- Wanted: Keeho's Severed Paw (Alliance)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35286 },	-- Orders, Commander?
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35669, {	-- Wanted: Keeho's Severed Paw (Horde)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35277 },	-- Orders, Commander?
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = HORDE_ONLY,
 					}),
 					q(35675, {	-- Wanted: Spineslicer's Husk (Alliance)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35286 },	-- Orders, Commander?
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35670, {	-- Wanted: Spineslicer's Husk (Horde)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35277 },	-- Orders, Commander?
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = HORDE_ONLY,
 					}),
 					q(35676, {	-- Wanted: Venombarb (Alliance)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35286 },	-- Orders, Commander?
 						["coord"] = { 39.6, 61.3, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35672, {	-- Wanted: Venombarb (Horde)
+						["icon"] = 632821,
 						["sourceQuests"] = { 35277 },	-- Orders, Commander?
 						["coord"] = { 40.1, 43.0, SPIRES_OF_ARAK },
-						["icon"] = 632821,
 						["races"] = HORDE_ONLY,
 					}),
 					warchiefscommand(q(49548, {	-- Warchief's Command: Spires of Arak!
@@ -1464,14 +1464,14 @@ root(ROOTS.Zones, {
 						["lvl"] = 96,
 					})),
 					q(35295, {	-- What's Theirs is Ours
-						["provider"] = { "n", 81959 },	-- Shadow Hunter Ukambe
 						["sourceQuests"] = { 35277 },	-- Orders, Commander?
+						["provider"] = { "n", 81959 },	-- Shadow Hunter Ukambe
 						["coord"] = { 40.2, 43.3, SPIRES_OF_ARAK },
 						["races"] = HORDE_ONLY,
 					}),
 					q(35704, {  -- When All Is Aligned
-						["provider"] = { "n", 84262 },	-- Reshad
 						["sourceQuests"] = { 36085 },	-- On Ebon Wings
+						["provider"] = { "n", 84262 },	-- Reshad
 						["coord"] = { 46.5, 54.3, SPIRES_OF_ARAK },
 						["groups"] = {
 							i(114905),	-- Talon Guard Bow
@@ -1485,8 +1485,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(34922, {	-- Words of the Raven Mother
-						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["sourceQuests"] = { 35007 },	-- Rendezvous with the Ritualists
+						["provider"] = { "n", 80740 },	-- Ravenspeaker Sekara
 						["coord"] = { 54.8, 54.1, SPIRES_OF_ARAK },
 					}),
 					n(BONUS_OBJECTIVES, {

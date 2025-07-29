@@ -22,10 +22,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 		["groups"] = {
 			n(QUESTS, {
 				q(10944, {	-- The Secret Compromised
-					["qg"] = 22820,	-- Seer Olum
-					["sourceQuest"] = 10708,	-- Akama's Promise
-					["coord"] = { 48, 18.2, SERPENTSHRINE_CAVERN },
 					["description"] = "After you defeat Fathom-Lord Karathress, Seer Olum will be freed from his cage and offer you the quest.",
+					["sourceQuest"] = 10708,	-- Akama's Promise
+					["qg"] = 22820,	-- Seer Olum
+					["coord"] = { 48, 18.2, SERPENTSHRINE_CAVERN },
 					["maps"] = { SHADOWMOON_VALLEY },
 				}),
 			}),

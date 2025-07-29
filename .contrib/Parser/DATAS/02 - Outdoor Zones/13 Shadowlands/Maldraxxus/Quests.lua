@@ -7,28 +7,28 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			header(HEADERS.Achievement, 14206, {	-- Blade of the Primus
 				------ Chapter 1 ------
 				q(57386, {	-- If You Want Peace...
-					["provider"] = { "n", 171338 },	-- Overseer Kah-Sher
 					["sourceQuests"] = { 61107 },	-- A Land of Strife
+					["provider"] = { "n", 171338 },	-- Overseer Kah-Sher
 					["coord"] = { 61.1, 36.9, ORIBOS },
 				}),
 				q(57390, {	-- To Die By the Sword
-					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["sourceQuests"] = { 57386 },	-- If You Want Peace...
+					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["coord"] = { 50.1, 41.6, MALDRAXXUS },
 				}),
 				q(60020, {	-- An Opportunistic Strike
-					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["sourceQuests"] = { 57390 },	-- To Die By the Sword
+					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["coord"] = { 50.3, 44.3, MALDRAXXUS },
 				}),
 				q(60021, {	-- Champion the Cause
-					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["sourceQuests"] = { 60020 },	-- An Opportunistic Strike
+					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["coord"] = { 50.3, 44.3, MALDRAXXUS },
 				}),
 				q(57425, {	-- Land of Opportunity
-					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["sourceQuests"] = { 60021 },	-- Champion the Cause
+					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["coord"] = { 50.3, 44.3, MALDRAXXUS },
 					["groups"] = {
 						i(175468),	-- Corpse-Stitcher's Mantle
@@ -38,24 +38,24 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(57511, {	-- Arms for the Poor
-					["provider"] = { "n", 162069 },	-- Baroness Draka
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 162069 },	-- Baroness Draka
 					["coord"] = { 48.3, 57.1, MALDRAXXUS },
 					["groups"] = {
 						i(172020),	-- Battered Weapon (QI!)
 					},
 				}),
 				q(57512, {	-- Walk Among Death
-					["provider"] = { "n", 162069 },	-- Baroness Draka
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 162069 },	-- Baroness Draka
 					["coord"] = { 48.3, 57.1, MALDRAXXUS },
 				}),
 				q(60181, {	-- Trench Warfare
-					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["sourceQuests"] = {
 						57511,	-- Arms for the Poor
 						57512,	-- Walk Among Death
 					},
+					["provider"] = { "n", 164244 },	-- Grandmaster Vole
 					["coord"] = { 50.3, 44.3, MALDRAXXUS },
 					["groups"] = {
 						i(178496),	-- Baron's Warhorn (QI!)
@@ -64,40 +64,40 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(57515, {	-- The House of the Chosen
-					["provider"] = { "n", 167535 },	-- Chosen Scrapper
 					["sourceQuests"] = {
 						60181,	-- Trench Warfare
 						60179,	-- Memory of Honor
 					},
+					["provider"] = { "n", 167535 },	-- Chosen Scrapper
 					["coord"] = { 45.0, 61.6, MALDRAXXUS },
 				}),
 				------ Chapter 2 ------
 				q(57514, {	-- The First Act of War
-					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["sourceQuests"] = { 57515 },	-- The House of the Chosen
+					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["coord"] = { 38.9, 65.1, MALDRAXXUS },
 				}),
 				q(58617, {	-- Maintaining Order
-					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["sourceQuests"] = { 57514 },	-- The First Act of War
+					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["coord"] = { 36.3, 60.2, MALDRAXXUS },
 				}),
 				q(58351, {	-- The Hills Have Eyes
-					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["sourceQuests"] = { 57514 },	-- The First Act of War
+					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["coord"] = { 36.3, 60.2, MALDRAXXUS },
 				}),
 				q(60451, {	-- Never Enough
-					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["sourceQuests"] = {
 						58617,	-- Maintaining Order
 						58351,	-- The Hills Have Eyes
 					},
+					["provider"] = { "n", 157895 },	-- Baron Vyraz
 					["coord"] = { 36.3, 60.2, MALDRAXXUS },
 				}),
 				q(57516, {	-- Through the Fire and Flames
-					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["sourceQuests"] = { 60451 },	-- Never Enough
+					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["coord"] = { 38.9, 65.1, MALDRAXXUS },
 					["groups"] = {
 						i(178662),	-- Unfinished Blade (QI!)
@@ -108,21 +108,21 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(58616, {	-- Forging a Champion
-					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["sourceQuests"] = { 57516 },	-- Through the Fire and Flames
+					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["coord"] = { 38.2, 66.5, MALDRAXXUS },
 				}),
 				q(58618, {	-- Ossein Enchantment
-					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["sourceQuests"] = { 58616 },	-- Forging a Champion
+					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["coord"] = { 36.2, 71.0, MALDRAXXUS },
 					["groups"] = {
 						i(174499),	-- Empowered Bones (QI!)
 					},
 				}),
 				q(58726, {	-- Thick Skin
-					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["sourceQuests"] = { 58616 },	-- Forging a Champion
+					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["coord"] = { 36.2, 71.0, MALDRAXXUS },
 					["groups"] = {
 						i(178676),	-- Pulsating Hide Scraps (QI!)
@@ -133,26 +133,26 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60428, {	-- The Blade of the Primus
-					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["sourceQuests"] = {
 						58618,	-- Ossein Enchantment
 						58726,	-- Thick Skin
 					},
+					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["coord"] = { 36.2, 71.0, MALDRAXXUS },
 				}),
 				q(60453, {	-- The Path to Glory
-					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["sourceQuests"] = { 60428 },	-- The Blade of the Primus
+					["provider"] = { "n", 157676 },	-- Bonesmith Heirmir
 					["coord"] = { 36.2, 71.0, MALDRAXXUS },
 				}),
 				q(60461, {	-- Meet the Margrave
-					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["sourceQuests"] = { 60453 },	-- The Path to Glory
+					["provider"] = { "n", 159065 },	-- Baroness Draka
 					["coord"] = { 38.9, 65.1, MALDRAXXUS },
 				}),
 				q(60886, {	-- The Seat of the Primus
-					["provider"] = { "n", 158007 },	-- Margrave Krexus
 					["sourceQuests"] = { 60461 },	-- Meet the Margrave
+					["provider"] = { "n", 158007 },	-- Margrave Krexus
 					["coord"] = { 36.9, 68.4, MALDRAXXUS },
 					["groups"] = {
 						i(180818),	-- Bonefused Bonesaw
@@ -168,59 +168,59 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				------ Chapter 3 ------
 				q(58751, {	-- A Common Peril
-					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["sourceQuests"] = { 60886 },	-- The Seat of the Primus
+					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(174755),	-- Summons of the Chosen (QI!)
 					},
 				}),
 				q(58821, {	-- Glorious Pursuits
-					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["sourceQuests"] = { 58751 },	-- A Common Peril
+					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(178940),	-- Vashj's Signal (QI!)
 					},
 				}),
 				q(59171, {	-- Prey Upon Them
-					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["sourceQuests"] = { 58751 },	-- A Common Peril
+					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(174934),	-- Anima-charged Maldracite (QI!)
 					},
 				}),
 				q(59172, {	-- War is Deception
-					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["sourceQuests"] = {
 						59171,	-- Prey Upon Them
 						58821,	-- Glorious Pursuits
 					},
+					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(175706),	-- Mind-Torn Band
 					},
 				}),
 				q(59185, {	-- Entangling Web
-					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["sourceQuests"] = { 59172 },	-- War is Deception
+					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(178684),	-- Maldracite Dust (QI!)
 					},
 				}),
 				q(59210, {	-- Tainted Cores
-					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["sourceQuests"] = { 59172 },	-- War is Deception
+					["provider"] = { "n", 162487 },	-- Baroness Vashj
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 					["groups"] = {
 						i(175409),	-- Fractured Anima Crystal (QI!)
 					},
 				}),
 				q(59188, {	-- Vaunted Vengeance
-					["provider"] = { "n", 164297 },	-- Khaliiq
 					["sourceQuests"] = { 59172 },	-- War is Deception
+					["provider"] = { "n", 164297 },	-- Khaliiq
 					["coord"] = { 67.7, 45.6, MALDRAXXUS },
 					["groups"] = {
 						i(178657),	-- Halen's Ritual Drafts (QI!)
@@ -233,22 +233,22 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59190, {	-- Seek Your Mark
-					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["sourceQuests"] = {
 						59210,	-- Tainted Cores
 						59185,	-- Entangling Web
 						59188,	-- Vaunted Vengeance
 					},
+					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["coord"] = { 73.5, 44.5, MALDRAXXUS },
 				}),
 				q(59025, {	-- Straight to the Heart
-					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["sourceQuests"] = { 59190 },	-- Seek Your Mark
+					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["coord"] = { 73.5, 44.5, MALDRAXXUS },
 				}),
 				q(59009, {	-- Her Rightful Place
-					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["sourceQuests"] = { 59025 },	-- Straight to the Heart
+					["provider"] = { "n", 164326 },	-- Baroness Vashj
 					["coord"] = { 73.5, 44.5, MALDRAXXUS },
 					["groups"] = {
 						i(175452),	-- Corpse-Stitcher's Treads
@@ -259,35 +259,35 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				------ Chapter 4 ------
 				q(57912, {	-- Baron of the Chosen
-					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["sourceQuests"] = { 60886 },	-- The Seat of the Primus
+					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 				}),
 				q(60557, {	-- First Time? You Have to Fight!
-					["provider"] = { "n", 159894 },	-- Baron Vyraz
 					["sourceQuests"] = { 57912 },	-- Baron of the Chosen
+					["provider"] = { "n", 159894 },	-- Baron Vyraz
 					["coord"] = { 39.2, 55.9, MALDRAXXUS },
 					["groups"] = {
 						i(179923),	-- Attack Battlehorn (QI!)
 					},
 				}),
 				q(57976, {	-- Lead By Example
-					["provider"] = { "n", 159894 },	-- Baron Vyraz
 					["sourceQuests"] = { 57912 },	-- Baron of the Chosen
+					["provider"] = { "n", 159894 },	-- Baron Vyraz
 					["coord"] = { 39.2, 55.9, MALDRAXXUS },
 				}),
 				q(58268, {	-- Take the High Ground
-					["provider"] = { "n", 169359 },	-- Secutor Mevix
 					["sourceQuests"] = { 57912 },	-- Baron of the Chosen
+					["provider"] = { "n", 169359 },	-- Secutor Mevix
 					["coord"] = { 39.4, 55.5, MALDRAXXUS },
 				}),
 				q(57979, {	-- Offensive Behavior
-					["provider"] = { "n", 169226 },	-- Secutor Mevix
 					["sourceQuests"] = {
 						57976,	-- Lead By Example
 						60557,	-- First Time? You Have to Fight!
 						58268,	-- Take the High Ground
 					},
+					["provider"] = { "n", 169226 },	-- Secutor Mevix
 					["coord"] = { 39.4, 46.7, MALDRAXXUS },
 					["groups"] = {
 						i(179923),	-- Attack Battlehorn (QI!)
@@ -295,21 +295,21 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59616, {	-- Army of One
-					["provider"] = { "n", 169462 },	-- Baron Vyraz
 					["sourceQuests"] = { 57979 },	-- Offensive Behavior
+					["provider"] = { "n", 169462 },	-- Baron Vyraz
 					["coord"] = { 39.7, 46.7, MALDRAXXUS },
 				}),
 				q(57983, {	-- Archon Save Us
-					["provider"] = { "n", 160211 },	-- Aspirant Thales
 					["sourceQuests"] = { 59616 },	-- Army of One
+					["provider"] = { "n", 160211 },	-- Aspirant Thales
 					["coord"] = { 33.8, 31.0, MALDRAXXUS },
 					["groups"] = {
 						i(176456),	-- Prisoner Cage Key (QI!)
 					},
 				}),
 				q(57984, {	-- The Ones in Charge
-					["provider"] = { "n", 161060 },	-- Aspirant Survivor
 					["sourceQuests"] = { 57983 },	-- Archon Save Us
+					["provider"] = { "n", 161060 },	-- Aspirant Survivor
 					["groups"] = {
 						i(175474),	-- Corpse-Stitcher's Wristwraps
 						i(175475),	-- Cruel Executioner's Wristwraps
@@ -318,35 +318,35 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(57986, {	-- A Burden Worth Bearing
-					["provider"] = { "n", 160211 },	-- Aspirant Thales
 					["sourceQuests"] = { 57984 },	-- The Ones in Charge
+					["provider"] = { "n", 160211 },	-- Aspirant Thales
 					["coord"] = { 32.0, 27.4, MALDRAXXUS },
 				}),
 				q(57987, {	-- A Deadly Distraction
-					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["sourceQuests"] = { 57984 },	-- The Ones in Charge
+					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["coord"] = { 31.9, 27.3, MALDRAXXUS },
 				}),
 				q(57985, {	-- Give Them a Hand
-					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["sourceQuests"] = { 57984 },	-- The Ones in Charge
+					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["coord"] = { 31.9, 27.3, MALDRAXXUS },
 					["groups"] = {
 						i(180120),	-- Harvesting Hook (QI!)
 					},
 				}),
 				q(57982, {	-- Breaking Down Barriers
-					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["sourceQuests"] = {
 						57986,	-- A Burden Worth Bearing
 						57987,	-- A Deadly Distraction
 						57985,	-- Give Them a Hand
 					},
+					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["coord"] = { 30.1, 23.7, MALDRAXXUS },
 				}),
 				q(57993, {	-- Two of Them, Two of Us
-					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["sourceQuests"] = { 57982 },	-- Breaking Down Barriers
+					["provider"] = { "n", 165397 },	-- Secutor Mevix
 					["coord"] = { 30.1, 23.7, MALDRAXXUS },
 					["groups"] = {
 						i(175447),	-- Corpse-Stitcher's Robe
@@ -356,24 +356,24 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(57994, {	-- In The Flesh
-					["provider"] = { "n", 165575 },	-- Aspirant Thales
 					["sourceQuests"] = { 57993 },	-- Two of Them, Two of Us
+					["provider"] = { "n", 165575 },	-- Aspirant Thales
 					["coord"] = { 28.8, 22.1, MALDRAXXUS },
 				}),
 				q(60733, {	-- Front and Center
-					["provider"] = { "n", 170094 },	-- Secutor Mevix
 					["sourceQuests"] = { 57994 },	-- In The Flesh
+					["provider"] = { "n", 170094 },	-- Secutor Mevix
 					["coord"] = { 37.6, 29.1, MALDRAXXUS },
 				}),
 				------ Chapter 5 ------
 				q(59130, {	-- The House of Plagues
-					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["sourceQuests"] = { 60886 },	-- The Seat of the Primus
+					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 				}),
 				q(58031, {	-- Applied Science
-					["provider"] = { "o", 353645 },	-- Marileth's Journal
 					["sourceQuests"] = { 59130 },	-- The House of Plagues
+					["provider"] = { "o", 353645 },	-- Marileth's Journal
 					["coord"] = { 56.5, 57.2, MALDRAXXUS },
 					["groups"] = {
 						i(180235),	-- Marileth's Journal - Page One (QI!)
@@ -383,46 +383,46 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(58011, {	-- Bug Bites
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = { 59130 },	-- The House of Plagues
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 56.4, 57.2, MALDRAXXUS },
 					["groups"] = {
 						i(173368),	-- Bloated Venom Sac (QI!)
 					},
 				}),
 				q(58016, {	-- Spores Galore
+					["sourceQuests"] = { 59130 },	-- The House of Plagues
 					["qgs"] = {
 						168381,	-- Baroness Draka
 						159930,	-- Plague Deviser Marileth
 					},
-					["sourceQuests"] = { 59130 },	-- The House of Plagues
 					["coords"] = {
 						{ 50.3, 67.7, MALDRAXXUS },
 						{ 56.5, 57.3, MALDRAXXUS },
 					},
 				}),
 				q(58027, {	-- Slime, Anyone?
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = {
 						58011,	-- Bug Bites
 						58016,	-- Spores Galore
 					},
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 56.4, 57.2, MALDRAXXUS },
 					["groups"] = {
 						i(173891),	--	Plagueborn Slime (PET!)
 					},
 				}),
 				q(58036, {	-- Hazardous Waste Collection
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = { 58027 },	-- Slime, Anyone?
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 56.4, 57.2, MALDRAXXUS },
 					["groups"] = {
 						i(173536),	-- Laboratory Equipment (QI!)
 					},
 				}),
 				q(58045, {	-- Plague is Thicker Than Water
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = { 58027 },	-- Slime, Anyone?
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 56.4, 57.2, MALDRAXXUS },
 					["groups"] = {
 						i(175455),	-- Adored Apprentice's Gloves
@@ -432,20 +432,20 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59223, {	-- By Any Other Name
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = {
 						58031,	-- Applied Science
 						58036,	-- Hazardous Waste Collection
 						58045,	-- Plague is Thicker Than Water
 					},
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 58.3, 71.6, MALDRAXXUS },
 					["groups"] = {
 						i(175410),	-- Dreadshade Extract (QI!)
 					},
 				}),
 				q(60831, {	-- Fit For a Margrave
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = { 59223 },	-- By Any Other Name
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 60.4, 71.6, MALDRAXXUS },
 					["groups"] = {
 						i(175723),	-- Rejuvenating Serum
@@ -453,28 +453,28 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59231, {	-- Fathomless Power
-					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["sourceQuests"] = { 60831 },	-- Fit For a Margrave
+					["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 					["coord"] = { 60.4, 71.6, MALDRAXXUS },
 				}),
 				------ Chapter 6 ------
 				q(59202, {	-- Among the Chosen
-					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["sourceQuests"] = {
 						59231,	-- Fathomless Power
 						60733,	-- Front and Center
 						59009,	-- Her Rightful Place
 					},
+					["provider"] = { "n", 168381 },	-- Baroness Draka
 					["coord"] = { 50.3, 67.7, MALDRAXXUS },
 				}),
 				q(59874, {	-- The Maw
-					["provider"] = { "n", 164843 },	-- Baron Vyraz
 					["sourceQuests"] = { 59202 },	-- Among the Chosen
+					["provider"] = { "n", 164843 },	-- Baron Vyraz
 					["coord"] = { 38.2, 66.7, MALDRAXXUS },
 				}),
 				q(59897, {	-- Seeking the Baron
-					["provider"] = { "n", 164079 },	-- Highlord Bolvar Fordragon
 					["sourceQuests"] = { 59874 },	-- The Maw
+					["provider"] = { "n", 164079 },	-- Highlord Bolvar Fordragon
 					["coord"] = { 39.9, 68.5, ORIBOS },
 				}),
 				q(60972, {	-- The Hunt for the Baron
@@ -490,8 +490,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59959, {	-- The Brand Holds the Key
-					["provider"] = { "o", 355798 },	-- Cage
 					["sourceQuests"] = { 59960 },	-- A Cooling Trail
+					["provider"] = { "o", 355798 },	-- Cage
 					["coord"] = { 38.3, 48.5, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 					["groups"] = {
@@ -499,32 +499,32 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59962, {	-- Hope Never Dies
-					["provider"] = { "n", 171770 },	-- Ve'nari
 					["sourceQuests"] = { 59959 },	-- The Brand Holds the Key
+					["provider"] = { "n", 171770 },	-- Ve'nari
 					["coord"] = { 36.5, 50.7, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 				}),
 				q(59973, {	-- A Bond Beyond Death
-					["provider"] = { "n", 172414 },	-- Highlord Darion Mograine
 					["sourceQuests"] = { 59962 },	-- Hope Never Dies
+					["provider"] = { "n", 172414 },	-- Highlord Darion Mograine
 					["coord"] = { 32.9, 66.4, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 				}),
 				q(59966, {	-- Delving Deeper
-					["provider"] = { "n", 171770 },	-- Ve'nari
 					["sourceQuests"] = { 59962 },	-- Hope Never Dies
+					["provider"] = { "n", 171770 },	-- Ve'nari
 					["coord"] = { 36.2, 55.7, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 				}),
 				q(61190, {	-- Wake of Ashes
-					["provider"] = { "n", 172414 },	-- Highlord Darion Mograine
 					["sourceQuests"] = { 59966 },	-- Delving Deeper
+					["provider"] = { "n", 172414 },	-- Highlord Darion Mograine
 					["coord"] = { 32.9, 66.4, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 				}),
 				q(62654, {	-- Maw Walker
-					["provider"] = { "n", 162804 },	-- Ve'nari
 					["sourceQuests"] = { 59973 },	-- A Bond Beyond Death
+					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 49.9, 41.6, THE_MAW },
 					["maps"] = { 1960 },	-- The Maw (Scenario Map)
 					["groups"] = {
@@ -535,14 +535,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59974, {	-- A Soul Saved
-					["provider"] = { "n", 167903 },	-- Baroness Draka
 					["sourceQuests"] = { 62654 },	-- Maw Walker
+					["provider"] = { "n", 167903 },	-- Baroness Draka
 					["coord"] = { 39.1, 49.9, ORIBOS },
 				}),
 				------ Chapter 7 ------
 				q(59011, {	-- In Death We Are Truly Tested
-					["provider"] = { "n", 162801 },	-- Alexandros Mograine
 					["sourceQuests"] = { 59974 },	-- A Soul Saved
+					["provider"] = { "n", 162801 },	-- Alexandros Mograine
 					["coord"] = { 41.3, 60.5, MALDRAXXUS },
 					["groups"] = {
 						i(180666),	-- Bonebender's Warblade
@@ -562,24 +562,24 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60737, {	-- The Door to the Unknown
-					["provider"] = { "n", 170309 },	-- Baroness Draka
 					["sourceQuests"] = { 59011 },	-- In Death We Are Truly Tested
+					["provider"] = { "n", 170309 },	-- Baroness Draka
 					["coord"] = { 50.5, 67.8, MALDRAXXUS },
 				}),
 				------ Epilogue ------
 				q(59206, {	-- Words of the Primus
-					["provider"] = { "n", 164545 },	-- Baroness Draka
 					["sourceQuests"] = { 60737 },	-- The Door to the Unknown
+					["provider"] = { "n", 164545 },	-- Baroness Draka
 					["coord"] = { 39.1, 49.9, MALDRAXXUS },
 				}),
 				q(61715, {	-- Request of the Highlord
-					["provider"] = { "n", 162928 },	-- Overseer Kah-Delen
 					["sourceQuests"] = { 59206 },	-- Words of the Primus
+					["provider"] = { "n", 162928 },	-- Overseer Kah-Delen
 					["coord"] = { 54.4, 54.2, ORIBOS },
 				}),
 				q(61716, {	-- A Glimpse into Darkness
-					["provider"] = { "n", 173384 },	-- Highlord Bolvar Fordragon
 					["sourceQuests"] = { 61715 },	-- Request of the Highlord
+					["provider"] = { "n", 173384 },	-- Highlord Bolvar Fordragon
 					["coord"] = { 40.3, 68.7, ORIBOS },
 					["groups"] = {
 						i(184165),	-- Seal of Fordragon
@@ -589,32 +589,32 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			header(HEADERS.AchCriteria, 14799.01, {	-- Theater of Pain
 				q(62785, {	-- I Could Be A Contender
-					["provider"] = { "n", 161733 },	-- Anzio The Infallible
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 161733 },	-- Anzio The Infallible
 					["coord"] = { 50.5, 51.6, MALDRAXXUS },
 					["isBreadcrumb"] = true,
 				}),
 				q(58068, {	-- ...Even The Most Ridiculous Request!
-					["provider"] = { "n", 159689 },	-- Overseer Kalvaros
 					["sourceQuests"] = { 62785 },	-- I Could Be A Contender
+					["provider"] = { "n", 159689 },	-- Overseer Kalvaros
 					["coord"] = { 54.0, 50.8, MALDRAXXUS },
 				}),
 				q(58088, {	-- Juicing Up
-					["provider"] = { "n", 159827 },	-- Scrapper Minoire
 					["sourceQuests"] = { 58068 },	-- ...Even The Most Ridiculous Request!
+					["provider"] = { "n", 159827 },	-- Scrapper Minoire
 					["coord"] = { 53.8, 50.5, MALDRAXXUS },
 				}),
 				q(58090, {	-- Side Effects
-					["provider"] = { "n", 159833 },	-- So'narynar
 					["sourceQuests"] = { 58088 },	-- Juicing Up
+					["provider"] = { "n", 159833 },	-- So'narynar
 					["coord"] = { 53.7, 47.8, MALDRAXXUS },
 					["groups"] = {
 						i(177957),	-- Necessary Enhancers (QI!)
 					},
 				}),
 				q(59750, {	-- How To Get A Head
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = { 62785 },	-- I Could Be A Contender
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 					["groups"] = {
 						i(177837),	-- Bloodtusk Skull (QI!)
@@ -622,73 +622,73 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(59781, {	-- The Last Guy
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = { 62785 },	-- I Could Be A Contender
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 					["groups"] = {
 						i(175725),	-- Newcomer's Gladiatorial Badge
 					},
 				}),
 				q(58575, {	-- Stuff We All Get
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = {
 						59750,	-- How To Get A Head
 						59781,	-- The Last Guy
 					},
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 					["groups"] = {
 						i(174324),	-- Weapons of the Fallen (QI!)
 					},
 				}),
 				q(59800, {	-- Team Spirit
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = {
 						59750,	-- How To Get A Head
 						59781,	-- The Last Guy
 					},
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 					["groups"] = {
 						i(177877),	-- Flask of Team Spirit (QI!)
 					},
 				}),
 				q(58947, {	-- Test Your Mettle
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = {
 						58575,	-- Stuff We All Get
 						59800,	-- Team Spirit
 					},
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 				}),
 				q(59879, {	-- This Thing Of Ours
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = {
 						58947,	-- Test Your Mettle
 						58090,	-- Side Effects
 					},
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 				}),
 				q(59203, {	-- Leave Me a Loan
-					["provider"] = { "n", 159830 },	-- Au'narim
 					["sourceQuests"] = { 59879 },	-- This Thing of Ours
+					["provider"] = { "n", 159830 },	-- Au'narim
 					["coord"] = { 53.6, 47.5, MALDRAXXUS },
 					["groups"] = {
 						i(175413),	-- Anima Vial (QI!)
 					},
 				}),
 				q(59837, {	-- Working For The Living
-					["provider"] = { "n", 159830 },	-- Au'narim
 					["sourceQuests"] = { 59203 },	-- Leave Me a Loan
+					["provider"] = { "n", 159830 },	-- Au'narim
 					["coord"] = { 53.6, 47.5, MALDRAXXUS },
 					["maps"] = { 1691 },	-- Shattered Grove (Scenario Map)
 				}),
 				q(58900, {	-- A Sure Bet
-					["provider"] = { "n", 161559 },	-- Louison
 					["sourceQuests"] = { 59837 },	-- Working For The Living
+					["provider"] = { "n", 161559 },	-- Louison
 					["coord"] = { 54.4, 48.6, MALDRAXXUS },
 				}),
 				q(57316, {	-- The Ladder
-					["provider"] = { "n", 161733 },	-- Anzio The Infallible
 					["sourceQuests"] = { 58900 },	-- A Sure Bet
+					["provider"] = { "n", 161733 },	-- Anzio The Infallible
 					["coord"] = { 50.5, 51.6, MALDRAXXUS },
 					["groups"] = {
 						i(181529),	-- Ruthless Contender's Blade
@@ -710,50 +710,50 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			header(HEADERS.AchCriteria, 14799.02, {	-- Archival Protection
 				q(62605, {	-- Broker Business
-					["provider"] = { "o", 358533 },	-- Forgotten Supplies
 					["sourceQuests"] = { 60733 },	-- Front and Center
+					["provider"] = { "o", 358533 },	-- Forgotten Supplies
 					["coord"] = { 38.2, 31.3, MALDRAXXUS },
 					["isBreadcrumb"] = true,
 				}),
 				q(58619, {	-- Read Between the Lines
-					["provider"] = { "n", 166657 },	-- Ta'eran
 					["sourceQuests"] = { 62605 },	-- Broker Business
+					["provider"] = { "n", 166657 },	-- Ta'eran
 					["coord"] = { 40.6, 33.0, MALDRAXXUS },
 				}),
 				q(59917, {	-- Kill Them, Of Course
-					["provider"] = { "n", 166664 },	-- Ta'eran
 					["sourceQuests"] = { 58619 },	-- Read Between the Lines
+					["provider"] = { "n", 166664 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 				}),
 				q(58621, {	-- Repeat After Me
-					["provider"] = { "n", 166664 },	-- Ta'eran
 					["sourceQuests"] = { 58619 },	-- Read Between the Lines
+					["provider"] = { "n", 166664 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 					["groups"] = {
 						i(175707),	-- Signet of the Learned
 					},
 				}),
 				q(58620, {	-- Slaylines
-					["provider"] = { "n", 166664 },	-- Ta'eran
 					["sourceQuests"] = { 58621 },	-- Repeat After Me
+					["provider"] = { "n", 166664 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 				}),
 				q(58622, {	-- Secrets Among the Shelves
-					["provider"] = { "n", 166664 },	-- Ta'eran
 					["sourceQuests"] = {
 						59917,	-- Kill Them, Of Course
 						58620,	-- Slaylines
 					},
+					["provider"] = { "n", 166664 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 				}),
 				q(60900, {	-- Archival Protection
-					["provider"] = { "n", 170667 },	-- Ta'eran
 					["sourceQuests"] = { 58622 },	-- Secrets Among the Shelves
+					["provider"] = { "n", 170667 },	-- Ta'eran
 					["coord"] = { 41.7, 23.6, MALDRAXXUS },
 				}),
 				q(59994, {	-- Trust Fall
-					["provider"] = { "n", 162476 },	-- Ta'eran
 					["sourceQuests"] = { 60900 },	-- Archival Protection
+					["provider"] = { "n", 162476 },	-- Ta'eran
 					["groups"] = {
 						o(340455, {	-- Volume of Victory: Vol 1
 							["coord"] = { 45.5, 32.1, MALDRAXXUS },
@@ -766,8 +766,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(58623, {	-- A Complete Set
-					["provider"] = { "n", 166806 },	-- Ta'eran
 					["sourceQuests"] = { 59994 },	-- Trust Fall
+					["provider"] = { "n", 166806 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 					["groups"] = {
 						o(349911, {	-- Additional Volumes
@@ -791,25 +791,25 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			header(HEADERS.AchCriteria, 14799.03, {	-- Mixing Monstrosities
 				q(59430, {	-- A Plague On Your House
-					["provider"] = { "n", 165049 },	-- Judas Sneap
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 165049 },	-- Judas Sneap
 					["coord"] = { 58.0, 72.1, MALDRAXXUS },
 				}),
 				q(58431, {	-- Pool of Potions
-					["provider"] = { "n", 157945 },	-- Boil Master Yetch
 					["sourceQuests"] = { 59430 },	-- Plagues Aid
+					["provider"] = { "n", 157945 },	-- Boil Master Yetch
 					["coord"] = { 59.0, 73.8, MALDRAXXUS },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 14799.04, {	-- Wasteland Work
 				q(58785, {	-- Smack And Grab
-					["provider"] = { "n", 162615 },	-- Caleesy
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 162615 },	-- Caleesy
 					["coord"] = { 47.0, 49.0, MALDRAXXUS },
 				}),
 				q(58750, {	-- Take The Bull By The Horns
-					["provider"] = { "n", 162474 },	-- Dundae
 					["sourceQuests"] = { 57425 },	-- Land of Opportunity
+					["provider"] = { "n", 162474 },	-- Dundae
 					["coord"] = { 46.8, 48.5, MALDRAXXUS },
 					["groups"] = {
 						i(174749),	-- Bone Splinter (QI!)
@@ -817,11 +817,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(58794, {	-- Stabbing Wasteward
-					["provider"] = { "n", 162474 },	-- Dundae
 					["sourceQuests"] = {
 						58785,	-- Smack And Grab
 						58750,	-- Take The Bull By The Horns
 					},
+					["provider"] = { "n", 162474 },	-- Dundae
 					["coord"] = { 46.8, 48.5, MALDRAXXUS },
 					["groups"] = {
 						i(174749),	-- Bone Splinter (QI!)
@@ -831,13 +831,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Miscellaneous ------
 			q(57284, {	-- Blade of Blades
+				["description"] = "Has a chance to be offered by a Recruitable Animate when using the |cffffffffAni-Matter Orb|r provided by 'Synder Sixfold' at |cffffffff26.3, 42.7|r.",
+				["sourceQuests"] = { 57245 },	-- Ani-Matter Animator
 				["qgs"] = {
 					157168,	-- Stubborn Animate
 					157169,	-- Bone Remains
 				},
-				["sourceQuests"] = { 57245 },	-- Ani-Matter Animator
 				["coord"] = { 27.1, 51.7, MALDRAXXUS },
-				["description"] = "Has a chance to be offered by a Recruitable Animate when using the |cffffffffAni-Matter Orb|r provided by 'Synder Sixfold' at |cffffffff26.3, 42.7|r.",
 				["_drop"] = { "isDaily" },
 				["groups"] = {
 					i(171205),	-- Foe Cleaver (QI!)
@@ -845,13 +845,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(57278, {	-- Bring Me Their Heads
+				["description"] = "Has a chance to be offered by a Recruitable Animate when using the |cffffffffAni-Matter Orb|r provided by 'Synder Sixfold' at |cffffffff26.3, 42.7|r.",
+				["sourceQuests"] = { 57245 },	-- Ani-Matter Animator
 				["qgs"] = {
 					157168,	-- Stubborn Animate
 					157169,	-- Bone Remains
 				},
-				["sourceQuests"] = { 57245 },	-- Ani-Matter Animator
 				["coord"] = { 29.8, 49.7, MALDRAXXUS },
-				["description"] = "Has a chance to be offered by a Recruitable Animate when using the |cffffffffAni-Matter Orb|r provided by 'Synder Sixfold' at |cffffffff26.3, 42.7|r.",
 				["_drop"] = { "isDaily" },
 				["groups"] = {
 					i(171204),	-- Traitor's Head (QI!)
@@ -865,8 +865,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(60179, {	-- Memory of Honor
-				["provider"] = { "o", 351467 },	-- Faded Epitaphs
 				["sourceQuests"] = { 57425 },	-- Land of Opportunity
+				["provider"] = { "o", 351467 },	-- Faded Epitaphs
 				["coord"] = { 48.3, 57.7, MALDRAXXUS },
 			}),
 			q(59867, {	-- WANTED: Appraiser Vix
@@ -939,8 +939,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(57301, {	-- Callous Concoctions
-				["provider"] = { "n", 157313 },	-- Foul-Tongue Cyrlix
 				["sourceQuests"] = { 58431 },	-- Pool of Potions
+				["provider"] = { "n", 157313 },	-- Foul-Tongue Cyrlix
 				["coord"] = { 58.5, 73.4, MALDRAXXUS },
 			}),
 		})),

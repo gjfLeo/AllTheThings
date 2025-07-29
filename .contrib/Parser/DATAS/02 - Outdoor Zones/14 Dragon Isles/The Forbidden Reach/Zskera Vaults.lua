@@ -36,25 +36,25 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 			})),
 			n(QUESTS, {
 				q(73160, {	-- Helping Hand and Claw
-					["provider"] = { "n", 199201 },	-- Scalecommander Viridia
 					["sourceQuests"] = {
 						75050,	-- An Eclectic Accord
 						74769,	-- Stemming the Irontide
 						73157,	--  Wings of Mercy
 					},
+					["provider"] = { "n", 199201 },	-- Scalecommander Viridia
 					["coord"] = { 34.6, 57.7, THE_FORBIDDEN_REACH },
 					["groups"] = {
 						i(202713),	-- Scattered Supplies (QI!)
 					},
 				}),
 				q(73159, {	-- Exploring Our Past
-					["provider"] = { "n", 199201 },	-- Scalecommander Viridia
 					["sourceQuests"] = { 73160 },	-- Helping Hand and Claw
+					["provider"] = { "n", 199201 },	-- Scalecommander Viridia
 					["coord"] = { 34.6, 57.7, THE_FORBIDDEN_REACH },
 				}),
 				q(74294, {	-- The Keys You Need
-					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["sourceQuests"] = { 73159 },	-- Exploring Our Past
+					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["coord"] = { 29.2, 53.1, THE_FORBIDDEN_REACH },	-- TODO: old 25.8, 47.9
 					["groups"] = {
 						-- Still available from the One-Time Quests, but since 10.2 its also buyable from a vendor
@@ -64,7 +64,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(72953, {	-- Zskera Vault: Az
-					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["sourceQuests"] = {
 						-- #IF AFTER 11.0.2
 						73159,	-- Exploring Our Past
@@ -72,26 +71,27 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 						74381,	-- Hidden Legacies
 						-- #ENDIF
 					},
+					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["coord"] = { 25.8, 47.9, THE_FORBIDDEN_REACH },
 				}),
 				q(72954, {	-- Zskera Vault: Ix
-					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["coord"] = { 29.1, 53.0, THE_FORBIDDEN_REACH },
 				}),
 				q(72955, {	-- Zskera Vault: Kx
-					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["coord"] = { 29.1, 53.0, THE_FORBIDDEN_REACH },
 				}),
 				q(72952, {	-- The Scary Vault of Ur
-					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["coord"] = { 29.1, 53.0, THE_FORBIDDEN_REACH },
 				}),
 				q(74771, {	-- Key Hunting
-					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["sourceQuests"] = { 72952 },	-- The Scary Vault of Ur
+					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["coord"] = { 29.1, 53.0, THE_FORBIDDEN_REACH },
 					["groups"] = {
 						-- Still available from the One-Time Quests, but since 10.2 its also buyable from a vendor
@@ -101,37 +101,37 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(73089, {	-- What's Behind The Next Door
-					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["sourceQuests"] = { 74294 },	-- The Keys You Need
+					["provider"] = { "n", 200041 },	-- Pathfinder Tacha
 					["coord"] = { 29.2, 53.1, THE_FORBIDDEN_REACH },	-- TODO: old 25.8, 47.9, could be changed with TWW release?
 				}),
 				q(72956, {	-- More Doors to Open
-					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 200040 },	-- Pathfinder Jeb
 					["coord"] = { 29.1, 53.0, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 				}),
 				q(74442, {	-- One Dragon's Junk
-					["provider"] = { "n", 201517 },	-- Voxarian
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 201517 },	-- Voxarian
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 					["groups"] = {
 						i(203656),	-- Odd Device
 					},
 				}),
 				q(74443, {	-- Is Another Dragon's Treasure?
-					["provider"] = { "n", 201517 },	-- Voxarian
 					["sourceQuests"] = { 74442 },	-- One Dragon's Junk
+					["provider"] = { "n", 201517 },	-- Voxarian
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 				}),
 				q(74447, {	-- Verbal Archaeology
-					["provider"] = { "n", 201517 },	-- Voxarian
 					["sourceQuests"] = { 74443 },	-- Is Another Dragon's Treasure?
+					["provider"] = { "n", 201517 },	-- Voxarian
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 				}),
 				q(74282, {	-- Authentic Authorization
-					["provider"] = { "n", 201180 },	-- Sealed Letter to Neltharion
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 201180 },	-- Sealed Letter to Neltharion
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -139,8 +139,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(74983, {	-- Authentic Authorization
-					["provider"] = { "n", 201180 },	-- Cataloger Wulferd
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 201180 },	-- Cataloger Wulferd
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -148,8 +148,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(74984, {	-- Authentic Authorization
-					["provider"] = { "n", 201180 },	-- Cataloger Wulferd
 					["sourceQuests"] = { 74381 },	-- Hidden Legacies
+					["provider"] = { "n", 201180 },	-- Cataloger Wulferd
 					["coord"] = { 29.2, 52.8, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -158,8 +158,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				}),
 				-- Inside of Az
 				q(74996, {	-- A Difficult Legacy
-					["provider"] = { "n", 201564 },	-- Voraxian
 					["sourceQuests"] = { 74796 },	-- A Dusty Vase
+					["provider"] = { "n", 201564 },	-- Voraxian
 					["coord"] = {85.5, 35, OHNAHRAN_PLAINS },
 				}),
 				q(74796, {	-- A Dusty Vase
@@ -167,23 +167,23 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					["coord"] = { 28.3, 57.4, THE_FORBIDDEN_REACH },
 				}),
 				q(74795, {	-- An Odd Round Object
-					["provider"] = { "i", 203686 },	-- Odd Round Object
 					["sourceQuests"] = { 74447 },	-- Verbal Archaeology
+					["provider"] = { "i", 203686 },	-- Odd Round Object
 					["coord"] = { 30.8, 57.5, THE_FORBIDDEN_REACH },
 				}),
 				q(74493, {	-- Second Time Is The Charm
-					["provider"] = { "n", 201564 },	-- Voraxian
 					["sourceQuests"] = { 74795 },	-- An Odd Round Object
+					["provider"] = { "n", 201564 },	-- Voraxian
 					["coord"] = {85.5, 35, OHNAHRAN_PLAINS },
 				}),
 				q(74293, {	-- Not Forgotten
-					["provider"] = { "n", 201240 },	-- Volethi
 					["sourceQuests"] = { 72953 },	-- Zskera Vault: Az
+					["provider"] = { "n", 201240 },	-- Volethi
 					["coord"] = { 25.5, 46.9, THE_FORBIDDEN_REACH },
 				}),
 				q(74502, {	-- Complimentary Gift
-					["provider"] = { "n", 201714 },	-- Prototype Tinker-Tron
 					["sourceQuests"] = { 72953 },	-- Zskera Vault: Az
+					["provider"] = { "n", 201714 },	-- Prototype Tinker-Tron
 					["coord"] = { 24.7, 52.0, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -191,8 +191,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(74503, {	-- Another Gift
-					["provider"] = { "n", 201714 },	-- Prototype Tinker-Tron
 					["sourceQuests"] = { 74502 },	-- Complimentary Gift
+					["provider"] = { "n", 201714 },	-- Prototype Tinker-Tron
 					["coord"] = { 24.7, 52.0, THE_FORBIDDEN_REACH },
 					["cost"] = { { "i", 203701, 1 }, },	-- 1x Neltharion Gift Token
 					["repeatable"] = true,
@@ -203,8 +203,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(73071, {	-- A Brew for the Ages
-					["provider"] = { "n", 200456 },	-- Tapper Swindlekeg
 					["sourceQuests"] = { 72953 },	-- Zskera Vault: Az
+					["provider"] = { "n", 200456 },	-- Tapper Swindlekeg
 					["isWeekly"] = true,
 					["groups"] = {
 						i(202294),	-- Recipe Pages
@@ -215,8 +215,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(74869, {	-- Primordial Answers
-					["provider"] = { "n", 202627 },	-- Earthcaller Yevaa
 					["sourceQuests"] = { 72953 },	-- Zskera Vault: Az
+					["provider"] = { "n", 202627 },	-- Earthcaller Yevaa
 					["coord"] = { 25.5, 53.2, THE_FORBIDDEN_REACH },
 					["isWeekly"] = true,
 					["groups"] = {
@@ -232,16 +232,16 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 				q(73155, {	-- The Forgotten Ring
-					["provider"] = { "o", 385952 },	-- Unusual Ring
 					["sourceQuests"] = { 72953 },	-- Zskera Vault: Az
+					["provider"] = { "o", 385952 },	-- Unusual Ring
 					["coord"] = { 29.7, 57.2, THE_FORBIDDEN_REACH },
 					["groups"] = {
 						i(203460),	-- Onyx Annulet
 					}
 				}),
 				q(74355, {	-- Primordial Embellishment
-					["provider"] = { "n", 200724 },	-- Researcher Imareth
 					["sourceQuests"] = { 73155 },	-- The Forgotten Ring
+					["provider"] = { "n", 200724 },	-- Researcher Imareth
 					["coord"] = { 35.1, 57.6, THE_FORBIDDEN_REACH },
 					["groups"] = {
 						i(204353),	-- Primordial Jeweler's Kit
