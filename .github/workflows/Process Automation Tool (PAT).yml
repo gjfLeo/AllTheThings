@@ -2,10 +2,9 @@ name: Process Automation Tool (PAT)
 
 # Controls when the action will run.
 on:
-  # Triggers the workflow on each push event
-  # push:
-  #   paths:
-  #     - '.contrib/Parser/**'
+  schedule:
+    - cron: '0 7 * * *'   #at 07:00 UTC everyday
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
