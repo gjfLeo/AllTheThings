@@ -534,12 +534,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(230082),	-- Prowler's Lively Mask
 				i(230041),	-- Prowler's Lively Shoulder Cape
 
-				------ Prowler's Midnight Set ------
-				i(230152),	-- Ensemble: Prowler's Midnight Headgear
-				i(230054),	-- Prowler's Midnight Cowl
-				i(230074),	-- Prowler's Midnight Mask
-				i(230033),	-- Prowler's Midnight Shoulder Cape
-
 				------ Prowler's Plum Set ------
 				i(230178),	-- Ensemble: Prowler's Plum Headgear
 				i(230068),	-- Prowler's Plum Cowl
@@ -575,12 +569,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233155),	-- Banded Grassy War Wraps
 				i(233177),	-- Banded Lively War Slippers
 				i(233160),	-- Banded Lively War Wraps
-				i(233169),	-- Banded Midnight War Slippers
-				i(233152),	-- Banded Midnight War Wraps
 				i(233180),	-- Banded Rosy War Slippers
 				i(233163),	-- Banded Rosy War Wraps
-				i(233184),	-- Banded Snowy War Slippers
-				i(233167),	-- Banded Snowy War Wraps
 				i(234710),	-- Earthen Artisan Kilt
 				i(234712),	-- Earthen Explorer's Kilt
 				i(234711),	-- Earthen Peacekeeper Warkilt
@@ -599,12 +589,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233138),	-- Long Grassy War Skirt and Leg Wraps
 				i(233104),	-- Long Lively War Skirt
 				i(233143),	-- Long Lively War Skirt and Leg Wraps
-				i(233096),	-- Long Midnight War Skirt
-				i(233135),	-- Long Midnight War Skirt and Leg Wraps
 				i(233107),	-- Long Rosy War Skirt
 				i(233146),	-- Long Rosy War Skirt and Leg Wraps
-				i(233111),	-- Long Snowy War Skirt
-				i(233150),	-- Long Snowy War Skirt and Leg Wraps
 				i(234059),	-- Lunar Festival Attire - Purple
 				i(234060),	-- Lunar Festival Attire - Teal
 				i(234043),	-- Lunar Festival Belt - Purple
@@ -630,12 +616,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233121),	-- Short Grassy War Skirt and Leg Wraps
 				i(233087),	-- Short Lively War Skirt
 				i(233126),	-- Short Lively War Skirt and Leg Wraps
-				i(233079),	-- Short Midnight War Skirt
-				i(233116),	-- Short Midnight War Skirt and Leg Wraps
 				i(233090),	-- Short Rosy War Skirt
 				i(233129),	-- Short Rosy War Skirt and Leg Wraps
-				i(233094),	-- Short Snowy War Skirt
-				i(233133),	-- Short Snowy War Skirt and Leg Wraps
 				i(234982),	-- Spare Sailor's Short-Sleeved Tunic
 				i(233272),	-- Steam-Powered Cobalt Clock Cloak
 				i(233275),	-- Steam-Powered Violet Clock Cloak
@@ -701,9 +683,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235028),	-- Vigilante's Faded Mask
 				i(235022),	-- Vigilante's Grassy Mask
 				i(235027),	-- Vigilante's Lively Mask
-				i(235019),	-- Vigilante's Midnight Mask
 				i(235030),	-- Vigilante's Rosy Mask
-				i(235035),	-- Vigilante's Snowy Mask
 				i(235036),	-- Vigilante's Sunny Mask
 				i(234601),	-- Wings of the Icy Rose Monarch
 			}),
@@ -974,10 +954,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 		-- 11.1.7
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
-			n(ARMOR, {
-				i(246015),	-- Classic Midnight Eye Patch
-				i(246016),	-- Classic Snowy Eye Patch
-			}),
 			n(SETS, {
 				------ Aquatic Sweatsuit Set ------
 				i(242485),	-- Ensemble: Aquatic Sweatsuit
@@ -1067,28 +1043,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(243262),	-- Grandmaster's Deep Pants
 				i(243267),	-- Grandmaster's Deep Tunic
 
-				------ Grandmaster's Fire Set ------
-				i(243258),	-- Ensemble: Grandmaster's Fire Attire
-				i(243256),	-- Grandmaster's Fire Belt
-				i(243257),	-- Grandmaster's Fire Cloak
-				i(243251),	-- Grandmaster's Fire Boots
-				i(243252),	-- Grandmaster's Fire Gloves
-				i(243253),	-- Grandmaster's Fire Helm
-				i(243255),	-- Grandmaster's Fire Mantle
-				i(243254),	-- Grandmaster's Fire Pants
-				i(243250),	-- Grandmaster's Fire Tunic
-
-				------ Grandmaster's Royal Set ------
-				i(243277),	-- Ensemble: Grandmaster's Royal Attire
-				i(243275),	-- Grandmaster's Royal Belt
-				i(243276),	-- Grandmaster's Royal Cloak
-				i(243270),	-- Grandmaster's Royal Boots
-				i(243271),	-- Grandmaster's Royal Gloves
-				i(243272),	-- Grandmaster's Royal Helm
-				i(243274),	-- Grandmaster's Royal Mantle
-				i(243273),	-- Grandmaster's Royal Pants
-				i(243269),	-- Grandmaster's Royal Tunic
-
 				------ Grandmaster's Smoke Set ------
 				i(243286),	-- Ensemble: Grandmaster's Smoke Attire
 				i(243279),	-- Grandmaster's Smoke Belt
@@ -1127,11 +1081,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242457),	-- Ensemble: Sepia Sweatsuit
 				i(242438),	-- Sepia Sweatpants
 				i(242409),	-- Sepia Sweatshirt
-
-				------ Snowy Sweatsuit Set ------
-				i(242489),	-- Ensemble: Snowy Sweatsuit
-				i(242452),	-- Snowy Sweatpants
-				i(242423),	-- Snowy Sweatshirt
 
 				------ Squall Braced Attire Set ------
 				i(242344),	-- Ensemble: Squall Braced Attire
@@ -1179,14 +1128,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(242373),	-- Grandmaster's Blue Bulwark
 				i(242540),	-- Grandmaster's Blue Mace
 				i(242358),	-- Grandmaster's Blue Stave
-				i(242525),	-- Grandmaster's Fire Grip Axe
-				i(242539),	-- Grandmaster's Fire Grip Mace
-				i(242357),	-- Grandmaster's Fire Grip Stave
-				i(242372),	-- Grandmaster's Fire Marked Bulwark
-				i(242527),	-- Grandmaster's Royal Axe
-				i(242374),	-- Grandmaster's Royal Bulwark
-				i(242541),	-- Grandmaster's Royal Mace
-				i(242359),	-- Grandmaster's Royal Stave
 				i(242528),	-- Grandmaster's White Axe
 				i(242375),	-- Grandmaster's White Bulwark
 				i(242542),	-- Grandmaster's White Mace

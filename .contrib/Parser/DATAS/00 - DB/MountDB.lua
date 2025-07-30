@@ -2060,6 +2060,8 @@ i(238901, 1226532);	-- Winter Harvesthog
 ------------------
 i(238739, 1226144);	-- Chrono Corsair
 i(243594, 1235817);	-- Forsaken's Grotesque Charger
+i(243572, 1235756);	-- Grandmaster's Prophetic Board
+i(243591, 1235803);	-- Grandmaster's Royal Board
 i(246264, 1241429);	-- Inarius' Charger
 i(245694, 1237703);	-- Ivory Savagemane
 i(239076, 1227192);	-- Herald of Sa'Bak
@@ -2073,8 +2075,6 @@ i(243596, 1235819);	-- Wailing Banshee's Charger
 i(243593, 1234859);	-- Banshee's Chilling Charger
 i(243597, 1235820);	-- Banshee's Sickening Charger
 i(243590, 1235763);	-- Grandmaster's Deep Board
-i(243572, 1235756);	-- Grandmaster's Prophetic Board
-i(243591, 1235803);	-- Grandmaster's Royal Board
 i(243592, 1235806);	-- Grandmaster's Smokey Board
 
 ------------------

@@ -1003,12 +1003,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(243590, {	-- Grandmaster's Deep Board (MOUNT!)
 				["displayID"] = 129383,
 			}),
-			i(243572, {	-- Grandmaster's Prophetic Board (MOUNT!)
-				["displayID"] = 129382,
-			}),
-			i(243591, {	-- Grandmaster's Royal Board (MOUNT!)
-				["displayID"] = 129384,
-			}),
 			i(243592, {	-- Grandmaster's Smokey Board (MOUNT!)
 				["displayID"] = 129385,
 			}),
