@@ -165,26 +165,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 	}),
 	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
-			ach(18852, {	-- Weaponsmithing, Reborn
-				crit(61556, {	-- Wicked Edge of the Planes, Reborn
-					["provider"] = { "i", 94579 },	-- Wicked Edge of the Planes, Reborn
-				}),
-				crit(61557, {	-- Bloodmoon, Reborn
-					["provider"] = { "i", 94580 },	-- Bloodmoon, Reborn
-				}),
-				crit(61558, {	-- Dragonstrike, Reborn
-					["provider"] = { "i", 94585 },	-- Dragonstrike, Reborn
-				}),
-				crit(61559, {	-- Stormherald, Reborn
-					["provider"] = { "i", 94586 },	-- Stormherald, Reborn
-				}),
-				crit(61560, {	-- Blazefury, Reborn
-					["provider"] = { "i", 94591 },	-- Blazefury, Reborn
-				}),
-				crit(61561, {	-- Lionheart Executioner, Reborn
-					["provider"] = { "i", 94592 },	-- Lionheart Executioner, Reborn
-				}),
-			}),
+			ach(18852),	-- Weaponsmithing, Reborn (automated)
 		})),
 	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
