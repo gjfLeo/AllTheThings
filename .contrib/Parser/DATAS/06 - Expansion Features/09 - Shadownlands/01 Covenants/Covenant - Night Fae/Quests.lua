@@ -78,6 +78,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 					59071,	-- Mending a Broken Hart
 					60272,	-- The Weak Link (not 100% on this, but it's as far in the chain at which I am able to accept this)
 					62899,	-- The Endless Forest
+					63427,	-- HQT to skip sanctum intro quests
 				},
 				["sourceQuestNumRequired"] = 1,
 				["provider"] = { "n", 161509 },	-- Lady Moonberry
