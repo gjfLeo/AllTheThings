@@ -346,9 +346,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			}),
 			n(SPECIAL, {
 				i(237434, {	-- Faceless Mask of the Nemesis (QI!/QS!)
-					["providers"] = {
-						{ "i", 239158 },	-- Nemesis Shard (GAMON)
-						{ "i", 239157 },	-- Nemesis Shard (HOGGER)
+					["cost"] = {
+						{ "i", 239158, 1 },	-- Nemesis Shard (GAMON)
+						{ "i", 239157, 1 },	-- Nemesis Shard (HOGGER)
 					},
 				}),
 				header(HEADERS.Item, 211089, {	-- Voidfire Deathcycle
