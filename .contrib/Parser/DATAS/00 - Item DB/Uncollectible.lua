@@ -2544,10 +2544,12 @@ i(241633);	-- Tiny Decorative Rocket
 -- PATCH 11.2.0 --
 ------------------
 i(244358);	-- "Prophecies of the Void"
+i(246584);	-- A Steamy Romance Novel: Devouring Love
 i(238881);	-- Barbed Predator Tusk
 i(245672);	-- Blade of the Void Swamp
 i(238834);	-- Burnished Void Claw
 i(238874);	-- Congealed Mana
+i(246298);	-- Cracked Staff of the Desperate Defender
 i(247686);	-- Crystallized Nightshade
 i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
@@ -2566,6 +2568,7 @@ i(243154);	-- Korgorath's Broken Nail
 i(244360);	-- K'aresh Nightbloom
 i(247688);	-- K'arroc Feather Quill
 i(243014);	-- Light-Dimmed Cleaver
+i(243161);	-- Long-Pressed Flowers
 i(238812);	-- Long Fibrous Tongue
 i(238871);	-- Luminous Brushtail
 i(238884);	-- Machine Remnant
@@ -2573,12 +2576,14 @@ i(238876);	-- Malicious Mandible
 i(238869);	-- Matted Pelt
 i(238801);	-- Mite-Kissed Silver Tooth
 i(238855);	-- Netherclaw
+i(246296);	-- Off-Balance Mace of the Tazavesh Lookout
 i(238880);	-- Oily Blubber
 i(247687);	-- Overly-Preserved K'areshi Preserves
+i(245670);	-- P.O.S.T. Employee's Backup Stamp
 i(238870);	-- Pearly Incisor
 i(243018);	-- Petrified Twig of the Fennad
 i(250305);	-- Phase-Lost Detritus
-i(245670);	-- P.O.S.T. Employee's Backup Stamp
+i(246301);	-- Pitted Blade of Lost Hope
 i(245674);	-- Rifle of Leaden Movement
 i(238873);	-- Serrated Scale Shard
 i(243021);	-- Shadowguard Bonker
@@ -2590,6 +2595,8 @@ i(238800);	-- Soggy Bone Splinters
 i(243015);	-- Spear of Forgotten Memories
 i(238836);	-- Spindly Flesh
 i(243022);	-- Sufaadi Skiff Candle
+i(243160);	-- Tazavesh Shipping Manifest
+i(248200);	-- The Brothers' Not-So-Final Present
 i(244357);	-- Time-Worn Memento
 i(238847);	-- Torn Maw Fragment
 i(238887);	-- Torn Voidscript Page
@@ -2604,3 +2611,4 @@ i(244361);	-- Void-Carved Amethyst
 i(238841);	-- Void-Seeping Eyeball
 i(238865);	-- Void-Warped Hoof
 i(245668);	-- Warglaive of the Subdued Tracker
+i(243145);	-- Well-Preserved Wrappings

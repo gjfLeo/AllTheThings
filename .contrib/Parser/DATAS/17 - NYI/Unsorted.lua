@@ -40,7 +40,6 @@ root(ROOTS.Unsorted, {
 				i(244916),	-- Cyan Siphonmite
 				i(245215),	-- Shimmering Inchshifter
 				i(245256),	-- Sao'rhon
-				i(245269),	-- Mr. Long-Legs
 				i(245273),	-- Copper Lapbug
 				i(245274),	-- Cerulean Lapbug
 				i(246337),	-- Rustyroot Fel Snooter
@@ -444,7 +443,6 @@ root(ROOTS.Unsorted, {
 				i(246906),	-- Locus Console
 				i(247926),	-- Muted Mana-Stone
 				i(247927),	-- Humming Mana-Stone
-				i(248200),	-- The Brothers' Not-So-Final Present
 				i(248970),	-- Nexus-Princess Ky'veza
 				-- Box/Weekly Box
 				i(230032),	-- Overflowing K'aresh Trust Trove
@@ -529,7 +527,6 @@ root(ROOTS.Unsorted, {
 				i(231774),	-- Nascent Weathered Ethereal Crest
 				i(231775),	-- Nascent Gilded Ethereal Crest
 				i(231776),	-- Nascent Runed Ethereal Crest
-				i(246584),	-- A Steamy Romance Novel: Devouring Love
 				i(246816),	-- A Steamy Romance Novel: Nightborne of the Living Dead
 				i(246817),	-- A Steamy Romance Novel: Of Elven Bondage
 				i(246818),	-- A Steamy Romance Novel: Waves of Desire
@@ -715,7 +712,6 @@ root(ROOTS.Unsorted, {
 			i(249711),	-- Cartel Ba Cypher
 			i(249712),	-- Cartel Om Cypher
 			i(249713),	-- Cartel Transmorpher
-			i(233799),	-- Submerged Bottle
 			i(249857),	-- Brewer's Blue Belt
 			i(249858),	-- Brewer's Basic Belt
 			i(249859),	-- Brewer's Green Belt

@@ -63,6 +63,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				we can try to source (at least) 17 coordinates and ask a new tester (that didn't obtain a single of these) to go through gathered coordinates and see if the orb will award the cosmetic 100% on the first "going through".
 				If awarding a cosmetic is based on a chance, the best course is to slap a description that there are "Le wild Orbs" scattered throughout the zones and send players to find them themselves.
 				Peace!
+				30.07.2025. 1 day after the writeup. You can get more than one cosmetic from 1 Orb. I got Rod and Bullwark from the same Orb only a day or two in between...
 			]]--
 				["coords"] = {
 					{ 44.2, 16.9, KARESH },
@@ -101,26 +102,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(250281),	-- Phase-Lost Battleaxe (COSMETIC!)
 					i(250297),	-- Phase-Lost Beacon (COSMETIC!)
 					i(250286),	-- Phase-Lost Blunderbuss (COSMETIC!)
-					i(250298),	-- Phase-Lost Bulwark (COSMETIC!)
-					i(250283),	-- Phase-Lost Carver (COSMETIC!) (Intruder? Only 1 Carver on the ach)
-					i(250273),	-- Phase-Lost Carver (COSMETIC!) (Intruder? Only 1 Carver on the ach)
+					i(250298),	-- Phase-Lost Bulwark (COSMETIC!)		{ 51.2, 67.7, KARESH }
+					i(250273),	-- Phase-Lost Carver (COSMETIC!)		{ 78.4, 48.9, KARESH }
 					i(250280),	-- Phase-Lost Chopper (COSMETIC!)
-					i(250295),	-- Phase-Lost Claw (COSMETIC!) (54.4, 49.3, KARESH)
+					i(250295),	-- Phase-Lost Claw (COSMETIC!)			{ 54.4, 49.3, KARESH }
 					i(250272),	-- Phase-Lost Cudgel (COSMETIC!)
 					i(250289),	-- Phase-Lost Dirk (COSMETIC!)
 					i(250278),	-- Phase-Lost Great Mace (COSMETIC!)
 					i(250276),	-- Phase-Lost Greatsword (COSMETIC!)
 					i(250271),	-- Phase-Lost Hammer (COSMETIC!)
 					i(250274),	-- Phase-Lost Hatchet (COSMETIC!)
-					i(250294),	-- Phase-Lost Katar (COSMETIC!)
+					i(250294),	-- Phase-Lost Katar (COSMETIC!)			{ 58.9, 57.5, KARESH }
 					i(250287),	-- Phase-Lost Longbow (COSMETIC!)
 					i(250269),	-- Phase-Lost Longsword (COSMETIC!)
 					i(250277),	-- Phase-Lost Maul (COSMETIC!)
 					i(250299),	-- Phase-Lost Pavise (COSMETIC!)
-					i(250300),	-- Phase-Lost Rod (COSMETIC!) (51.2, 67.7, KARESH)
+					i(250300),	-- Phase-Lost Rod (COSMETIC!)			{ 51.2, 67.7, KARESH }
 					i(250270),	-- Phase-Lost Scimitar (COSMETIC!)
-					i(250285),	-- Phase-Lost Shillelagh (COSMETIC!) (54.3, 63.2, KARESH)
+					i(250285),	-- Phase-Lost Shillelagh (COSMETIC!)	{ 54.3, 63.2, KARESH }
 					i(250296),	-- Phase-Lost Sigil (COSMETIC!)
+					i(250283),	-- Phase-Lost Spear (COSMETIC!)
 					i(250284),	-- Phase-Lost Spire (COSMETIC!)
 					i(250301),	-- Phase-Lost Wand (COSMETIC!)
 					i(250275),	-- Phase-Lost Zweihander (COSMETIC!)
