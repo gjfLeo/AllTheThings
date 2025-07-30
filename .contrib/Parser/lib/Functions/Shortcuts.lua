@@ -745,6 +745,10 @@ tolbaradcommendation = function(cost, item)				-- Assign a Tol Barad Commendatio
 	applycost(item, { "c", 391, cost });	-- Tol Barad Commendation
 	return item;
 end
+traderstender = function(cost, item)                    -- Assign a Traders Tender cost to an item.
+    if cost > 0 then applycost(item, { "c", TRADERS_TENDER, cost }); end
+    return item;
+end
 venture = function(cost, item)							-- Assign a Venture Coin cost to an item with proper timeline requirements.
 	-- #if BEFORE 4.0.1
 	applycost(item, { "c", 201, cost });	-- Venture Coin
@@ -1725,7 +1729,7 @@ createLocalizationString = function(data)
 			print("INVALID LOCALIZATION STRING", data.readable, textData);
 		else
 			localizationStringsByConstant[data.constant] = data;
-			
+
 			-- Build the text using icon and color, if supplied.
 			if data.color then
 				-- Include the color first!
