@@ -4,7 +4,7 @@
 
 -- Everything in this section should be common to both Vale and Uldum N'Zoth
 -- assault and tagged with location information
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_3_0 } }, {
 	n(NZOTH_ASSAULTS, {
 		["maps"] = {
 			NZOTH_ASSAULT_ULDUM,

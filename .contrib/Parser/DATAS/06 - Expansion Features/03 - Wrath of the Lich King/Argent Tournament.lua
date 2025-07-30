@@ -90,7 +90,7 @@ local FORCE_ITEM_FACTION = function(item, faction) -- Overwrite bad "races" Bliz
 	});
 end
 
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_TWO, bubbleDownSelf({ ["timeline"] = { ADDED_3_2_0 } }, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_TWO, bubbleDown({ ["timeline"] = { ADDED_3_2_0 } }, {
 	n(ARGENT_TOURNAMENT, {
 		["maps"] = { ICECROWN, 170 },
 		["groups"] = {

@@ -17,7 +17,7 @@ local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
 local BossOnly, Difficulty =
 InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
-root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_FOUR, bubbleDown({ ["timeline"] = { ADDED_3_3_0 } }, {
 	inst(280, {	-- The Forge of Souls
 		["mapID"] = THE_FORGE_OF_SOULS,
 		["coord"] = { 52.3, 89.3, ICECROWN },

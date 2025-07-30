@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 
 root(ROOTS.ExpansionFeatures, {
-	expansion(EXPANSION.BFA, {
+	expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_1_0 } }, {
 		header(HEADERS.Object, 311218, {	-- Xal'atath, Blade of the Black Empire
 			q(54141, {	-- The Azsharan Medallion [A]
 				["description"] = "To get the quest item, you need to kill Naga while the world quest 'Naga Attack!' is up.  Complete the questline to receive the Twitching Eyeball toy.",
@@ -238,5 +238,5 @@ root(ROOTS.ExpansionFeatures, {
 				["races"] = HORDE_ONLY,
 			}),
 		}),
-	}),
+	})),
 });
