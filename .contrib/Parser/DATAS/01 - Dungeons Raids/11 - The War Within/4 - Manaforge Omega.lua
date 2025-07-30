@@ -271,7 +271,7 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
 
-root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
 	inst(1302, {	-- Manaforge Omega
 		["isRaid"] = true,
 		["coord"] = { 41.9, 21.5, KARESH },
