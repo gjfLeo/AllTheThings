@@ -1652,7 +1652,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["sourceQuests"] = { 41183 },	-- Academic Exploration
 						["provider"] = { "n", 103482 },	-- Tae'thelan Bloodwatcher <High Examiner>
 						["coord"] = { 38.2, 90.0, AZSUNA },
-						["g"] = {
+						["groups"] = {
 							i(134117),	-- Azsunian Key Mold Piece (QI!)
 						},
 					}),
@@ -1733,7 +1733,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["sourceQuests"] = { 41186 },	-- History of Highmountain
 						["provider"] = { "n", 103485 },	-- Lessah Moonwater <Archaeologist>
 						["coord"] = { 45.8, 44.6, HIGHMOUNTAIN },
-						["g"] = {
+						["groups"] = {
 							i(136372),	-- Archaeologist's Whistle (QI!)
 						},
 					}),

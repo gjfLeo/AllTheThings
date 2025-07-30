@@ -152,7 +152,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 40604 },	-- Disturbing the Past
 							["provider"] = { "o", 245793 },	-- Battered Journal
 							["coord"] = { 52.3, 33.9, DEADWIND_PASS },
-							["g"] = {
+							["groups"] = {
 								i(132377),	-- Ariden's Compass (QI!)
 							},
 						}),
@@ -217,7 +217,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								{ 56.4, 64.6, LEGION_THE_UNDERBELLY },
 								{ 37.7, 31.8, DREADSCAR_RIFT },
 							},
-							["g"] = {
+							["groups"] = {
 								i(136987),	-- Aged Snowplum Brandy (QI!)
 								i(136985),	-- Can of Overheated Oil (QI!)
 								i(136983),	-- Grave Dust (QI!)

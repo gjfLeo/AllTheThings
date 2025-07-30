@@ -789,7 +789,7 @@ root(ROOTS.Zones, {
 				q(42635, {	-- The Mystery of Dreyrgrot
 					["provider"] = { "n", 108072 },	-- Sir Finley Mrrggglton
 					["coord"] = { 74.8, 55.5, STORMHEIM },
-					["g"] = {
+					["groups"] = {
 						i(138149),	-- Ancient Dreyrgrot Tablet (QI!)
 					},
 				}),
@@ -851,7 +851,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 39984 },	-- Remnants of the Past
 					["provider"] = { "n", 97973 },	-- Havi
 					["coord"] = { 59.0, 42.9, STORMHEIM },
-					["g"] = {
+					["groups"] = {
 						i(139539),	-- Ancient Tideskorn Blade (QI!)
 					},
 				}),

@@ -179,7 +179,7 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 100738 },	-- Ashildir
 							["coord"] = { 62.7, 68.1, STORMHEIM },
 							["maps"] = { 731 },	-- Neltharion's Lair
-							["g"] = {
+							["groups"] = {
 								i(132744),	-- Adamantium Casing Scrap (QI!)
 							},
 						}),

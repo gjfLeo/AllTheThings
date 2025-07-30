@@ -5055,7 +5055,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			["sourceQuests"] = { 39944 },	-- Mysterious Messages
 			["provider"] = { "n", 97748 },	-- Nicholo Swiftfuse
 			["coord"] = { 69.2, 40.6, STORMHEIM },
-			["g"] = {
+			["groups"] = {
 				i(129164),	-- Ancient Vrykul Rune Tablet (QI!)
 			},
 		}),

@@ -618,7 +618,7 @@ profession(SKINNING, {
 				["sourceQuest"] = 40146,	-- Seymour and Agnes
 				["qg"] = 98721,	-- Seymour <Skinning Trainer>
 				["coord"] = { 45.7, 25.6, STORMHEIM },
-				["g"] = {
+				["groups"] = {
 					i(129910),	-- Agnes' Skinning Knife (QI!)
 				},
 			}),

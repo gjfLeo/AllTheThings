@@ -320,7 +320,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				324,	-- The Stonecore
 				477, 478, 479,	-- Scholomance
 			},
-			["g"] = {
+			["groups"] = {
 				i(136617),	-- Ancient Arkhana (QI!)
 				i(136616),	-- Radiant Zephyrite (QI!)
 				i(136615),	-- Skystone Rod (QI!)

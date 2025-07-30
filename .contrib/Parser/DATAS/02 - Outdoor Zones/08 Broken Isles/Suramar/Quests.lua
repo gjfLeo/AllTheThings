@@ -122,7 +122,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 41123,	-- An Artisan's Mark
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(136537),	-- Arcane Glowlamp (QI!)
 						i(141949),	-- Everburning Arcane Glowlamp (QI!)
 					},
@@ -344,7 +344,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40796,	-- Lingering on the Edge
 					["provider"] = { "n", 101848 },	-- Absolon
 					["coord"] = { 37.7, 47.8, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(139779),	-- Absolon's Letter (QI!)
 					},
 				}),
@@ -490,7 +490,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 103175 },	-- Lespin Silverleaf
 					["coord"] = { 41.5, 71.2, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(135509),	-- "The Claw Clacks for Thee" (QI!)
 						i(136577),	-- Mornath's Key (QI!)
 					},
@@ -600,7 +600,7 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 102334 },	-- Brandolf
 					["coord"] = { 72.2, 59.0, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(133960),	-- Axetail Eyeball (QI!)
 						i(133961),	-- Sashj'tar Air Bladder (QI!)
 						i(133962),	-- Siren Blood (QI!)
@@ -1797,7 +1797,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 40617,	-- Turn Around, Nighteyes
 					["provider"] = { "n", 100775 },	-- Lilryia Dawnwind
 					["coord"] = { 61.8, 49.0, SURAMAR },
-					["g"] = {
+					["groups"] = {
 						i(134128),	-- Arcane Trap (QI!)
 						i(141670),	-- Arcane Trap Power Core
 					},

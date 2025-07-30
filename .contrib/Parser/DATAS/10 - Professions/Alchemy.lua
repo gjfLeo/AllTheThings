@@ -320,7 +320,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["provider"] = { "n", 92458 },	-- Deucus Valdera
 			["coord"] = { 41.6, 32.8, LEGION_DALARAN },
 			["maps"] = { 713 },	-- Eye of Azshara
-			["g"] = {
+			["groups"] = {
 				i(127873),	-- Advanced Corks (QI!)
 			},
 		}),
