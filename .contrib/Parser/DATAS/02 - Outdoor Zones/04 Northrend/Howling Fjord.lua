@@ -2852,6 +2852,19 @@ root(ROOTS.Zones, {
 							-- These 6 items could be symlinked to 6 more vendors
 						},
 					}),
+					n(24341, {	-- Barnabas Frye <Trade Goods>
+						["coord"] = { 79.5, 30.47, HOWLING_FJORD },
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								40411,	-- Enchanted Vial
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
+					}),
 					n(23735, {	-- Bartleby Armorfist
 						["coord"] = { 59.6, 63.6, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
@@ -2909,6 +2922,20 @@ root(ROOTS.Zones, {
 					n(31916, {	-- Tanaika <Kalu'ak Quartermaster>
 						["coord"] = { 25.4, 58.6, HOWLING_FJORD },
 						["sym"] = {{"sub","common_vendor",32763}},	-- Sairuk <Kalu'ak Quartermaster>
+					}),
+					n(23802, {	-- Wink Sprinklesprankle <General Goods & Trade Supplies>
+						["coord"] = { 58.4, 62.75, HOWLING_FJORD },
+						["description"] = "Walks in a circle inside Valgarde Inn.",
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								40411,	-- Enchanted Vial
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
 					}),
 				}),
 				n(ZONE_DROPS, {

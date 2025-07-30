@@ -1500,29 +1500,29 @@ root(ROOTS.Zones, {
 					}),
 					prof(TAILORING, {
 						n(28699, {	-- Charles Worth <Tailoring Trainer>
-						-- #if AFTER 6.2.2
-						["description"] = "You can now learn these recipes even if the achievements have been completed on a different character.  If your tailor isn't your main, rejoice!  Just speak to Charles Worth and tell him you're ready to learn the patterns.",
-						-- #endif
-						["coord"] = { 36.3, 33.4, NORTHREND_DALARAN },
-						["requireSkill"] = TAILORING,
-						["groups"] = appendGroups(WRATH_TAILORING, {
-							r(56017, {	-- Deathchill Cloak
-								["sourceAchievements"] = {
-									41,		-- Loremaster of Northrend (A)
-									-- #if BEFORE 5.0.4
-									1360,	-- Loremaster of Northrend (H)
-									-- #endif
-								},
-								["description"] = "In order to learn this recipe, you must have the Loremaster of Northrend achievement completed.",
-								["requireSkill"] = TAILORING,
-							}),
-							r(56016, {	-- Wispcloak
-								["sourceAchievement"] = 1288,	-- Northrend Dungeonmaster
-								["description"] = "In order to learn this recipe, you must have the Northrend Dungeonmaster achievement completed.",
-								["requireSkill"] = TAILORING,
+							-- #if AFTER 6.2.2
+							["description"] = "You can now learn these recipes even if the achievements have been completed on a different character.  If your tailor isn't your main, rejoice!  Just speak to Charles Worth and tell him you're ready to learn the patterns.",
+							-- #endif
+							["coord"] = { 36.3, 33.4, NORTHREND_DALARAN },
+							["requireSkill"] = TAILORING,
+							["groups"] = appendGroups(WRATH_TAILORING, {
+								r(56017, {	-- Deathchill Cloak
+									["sourceAchievements"] = {
+										41,		-- Loremaster of Northrend (A)
+										-- #if BEFORE 5.0.4
+										1360,	-- Loremaster of Northrend (H)
+										-- #endif
+									},
+									["description"] = "In order to learn this recipe, you must have the Loremaster of Northrend achievement completed.",
+									["requireSkill"] = TAILORING,
+								}),
+								r(56016, {	-- Wispcloak
+									["sourceAchievement"] = 1288,	-- Northrend Dungeonmaster
+									["description"] = "In order to learn this recipe, you must have the Northrend Dungeonmaster achievement completed.",
+									["requireSkill"] = TAILORING,
+								}),
 							}),
 						}),
-					}),
 					}),
 				}),
 				n(QUESTS, {
@@ -2672,7 +2672,9 @@ root(ROOTS.Zones, {
 							i(34834),	-- Recipe: Captain Rumsey's Lager (RECIPE!)
 							i(33925),	-- Recipe: Delicious Chocolate Cake (RECIPE!)
 							i(33871),	-- Recipe: Stormchops (RECIPE!)
-							i(43007),	-- Northern Spices
+							i(43007, {	-- Northern Spices
+								["description"] = "Only available from given Cooking suppliers."
+							}),
 							i(44228),	-- Baby Spice
 							i(44114),	-- Old Spices
 						},
@@ -3115,6 +3117,13 @@ root(ROOTS.Zones, {
 							emoh(40, i(40683)),	-- Valor Medal of the First War
 						},
 					}),
+					n(31032, {	-- Derek Odds <Cooking Supplies>
+						["coord"] = { 40.7, 65.9, NORTHREND_DALARAN },
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(30817),	-- Simple Flour
+						},
+					}),
 					n(34252, {	-- Dubin Clay <Plate Armor Merchant>
 						["coord"] = { 46.2, 27.2, NORTHREND_DALARAN },
 						["groups"] = {
@@ -3473,6 +3482,15 @@ root(ROOTS.Zones, {
 							i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 						},
 					}),]]
+					n(28682, {	-- Inzi Charmlight <Barmaid>
+						["coord"] = { 44.2, 62.3, NORTHREND_DALARAN },
+						["description"] = "Inzi is walking around in the Tavern.",
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(35948),	-- Savoury Snowplum
+							i(35949),	-- Tundra Berries
+						},
+					}),
 					-- #if BEFORE MOP
 					n(29493, {	-- Jarold Puller <Specialty Ammunition>
 						["coord"] = { 60.0, 51.8, NORTHREND_DALARAN },
@@ -3732,6 +3750,22 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					n(32420, {	-- Mimbihi <Barmaid>
+						["coord"] = { 67.4, 32.2, NORTHREND_DALARAN },
+						["description"] = "Mimbihi is walking around in the Tavern.",
+						["races"] = HORDE_ONLY,
+						["groups"] = {
+							i(35948),	-- Savoury Snowplum
+							i(35949),	-- Tundra Berries
+						},
+					}),
+					n(31031, {	-- Misensi <Cooking Supplies>
+						["coord"] = { 70.0, 38.6, NORTHREND_DALARAN },
+						["races"] = HORDE_ONLY,
+						["groups"] = {
+							i(30817),	-- Simple Flour
+						},
+					}),
 					n(29529, {	-- Ninsianna <Relics>
 						["description"] = "If you /dance with her, she will say Not bad, though some additional schooling wouldn't hurt! Here, watch my hips... like so! and start dancing.",
 						["groups"] = bubbleDown({ ["timeline"] = { REMOVED_5_0_4 } }, {
@@ -3823,6 +3857,14 @@ root(ROOTS.Zones, {
 							emov(60, i(40740)),	-- Wraps of the Astral Traveler
 							emov(40, i(40750)),	-- Xintor's Expeditionary Boots
 						},
+					}),
+					n(28714, {	-- Patricia Egan <Alchemy Supplies>
+						["coord"] = { 41.54, 33.32, NORTHREND_DALARAN },
+						-- #if AFTER CATA
+						["groups"] = CRYSTAL_VIAL,
+						-- #else
+						["groups"] = appendGroups(ENCHANTED_VIAL, IMBUED_VIAL, {}),
+						-- #endif
 					}),
 					n(35497, {	-- Rafael Langrom <Leather Armor Merchant>
 						["coord"] = { 51.2, 71.5, NORTHREND_DALARAN },
@@ -4403,6 +4445,12 @@ root(ROOTS.Zones, {
 							daljewelcraftingtoken(4, i(46952)),	-- Design: Willful Ametrine [CATA+] / Design: Durable Ametrine
 							-- #endif
 						}),
+					}),
+					n(32419, {	-- Umbiwa <Barmaid>
+						["coord"] = { 67.4, 32.2, NORTHREND_DALARAN },
+						["description"] = "Umbiwa is walking around in the Tavern.",
+						["races"] = HORDE_ONLY,
+						["sym"] = {{ "sub", "common_vendor", 32420 }},	-- Mimbihi <Barmaid>
 					}),
 					n(28991, {	-- Valaden Silverblade <Sword Merchant>
 						["coord"] = { 54.5, 62.9, NORTHREND_DALARAN },

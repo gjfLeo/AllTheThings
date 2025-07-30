@@ -3015,6 +3015,32 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					n(27012, {	-- Beem Goldsprocket <Trade Goods>
+						["coord"] = { 57.7, 72.32, BOREAN_TUNDRA },
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								40411,	-- Enchanted Vial
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
+					}),
+					n(26941, {	-- Brokkan Bear-Arms <Trade Goods>
+						["coord"] = { 41.34, 34.61, BOREAN_TUNDRA },
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								40411,	-- Enchanted Vial
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
+					}),
 					n(35131, {	-- Durgan Thunderbeak <Gryphon Keeper>
 						["coord"] = { 58.9, 68.1, BOREAN_TUNDRA },
 						["races"] = ALLIANCE_ONLY,
