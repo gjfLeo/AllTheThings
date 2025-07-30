@@ -396,7 +396,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				})),
 			})),
 		},
-	}),
+	})),
 }));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
