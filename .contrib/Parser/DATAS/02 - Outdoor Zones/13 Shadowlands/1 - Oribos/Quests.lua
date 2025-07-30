@@ -290,6 +290,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					{ 19.6, 50.2, ORIBOS },
 					{ 79.0, 49.2, ORIBOS },
 				},
+				["isBreadcrumb"] = true,
 			}),
 			q(62000, {	-- Choosing Your Purpose
 				["sourceQuests"] = { 62716 },	-- Re-Introductionse

@@ -405,6 +405,7 @@ ExportDB.AccountWideQuestsDB = {
 	[78878] = true,	-- Grotto Netherwing Drake: Violet Scales
 	[79088] = true,	-- Renewed Proto-Drake: Love Armor
 	[79112] = true,	-- Winding Slitherdrake: Lunar Festival Armor
+	[79458] = true,	-- Grimoire of the Riftsmolder Darkglare
 	[79690] = true,	-- Winding Slitherdrake: Void Scales
 	[80014] = true,	-- Highland Drake: Embodiment of the Draconic Gladiator
 	[82741] = true,	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor
