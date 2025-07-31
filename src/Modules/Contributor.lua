@@ -130,6 +130,7 @@ local MapPrecisionOverrides = {
 	[1700] = 3,	-- Sinfall
 	[1701] = 2,	-- The Trunk
 	[1702] = 2,	-- The Roots
+	[1703] = 5,	-- Heart of the Forest
 	[1912] = 10,	-- The Runecarver's Oubliette
 	[2328] = 3,	-- The Proscenium
 	[2477] = 4,	-- Voidscar Cavern, K'aresh
