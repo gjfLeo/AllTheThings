@@ -1500,13 +1500,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							},
 							["cr"] = 58717,	-- Bobo Ironpaw <Master of the Brew>
 						}),
-						i(80234, {	-- Yoon's Apple (QI!)
-							["provider"] = { "o", 211020 },	-- Yoon's Apples
+						o(211020, {	-- Yoon's Apples
 							["coord"] = { 52.7, 47.9, VALLEY_OF_THE_FOUR_WINDS },
+							["groups"] = { i(80234) },	-- Yoon's Apple (QI!)
 						}),
-						i(80235, {	-- Yoon's Craneberry (QI!)
-							["provider"] = { "o", 211022 },	-- Yoon's Craneberries
+						o(211022, {	-- Yoon's Craneberries
 							["coord"] = { 52.8, 47.9, VALLEY_OF_THE_FOUR_WINDS },
+							["groups"] = { i(80235) },	-- Yoon's Craneberry (QI!)
 						}),
 					},
 				}),
