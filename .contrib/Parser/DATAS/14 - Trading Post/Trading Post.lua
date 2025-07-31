@@ -3238,96 +3238,40 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				i(238967),	-- Molten Cormaera (MOUNT!)
 			}),
 			filter(MOUNTS, {
-				i(238941, {	-- Coldflame Cormaera (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 700}},
-				}),
-				i(221814, {	-- Pearlescent Goblin Wave Shredder (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 700}},
-				}),
-				i(236415, {	-- Reins of the Spotted Black Riding Goat (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 325}},
-				}),
+				traderstender(700, i(238941)),	-- Coldflame Cormaera (MOUNT!)
+				traderstender(700, i(221814)),	-- Pearlescent Goblin Wave Shredder (MOUNT!)
+				traderstender(325, i(236415)),	-- Reins of the Spotted Black Riding Goat (MOUNT!)
 			}),
 			filter(BATTLE_PETS, {
-				i(223145, {	-- Marrlok (PET!)
-					["cost"] = {{"c", TRADERS_TENDER, 500}},
-				}),
+				traderstender(500, i(223145)),	-- Marrlok (PET!)
 			}),
 			filter(TOYS, {
-				i(218112, {	-- Colorful Beach Chair (TOY!)
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
+				traderstender(200, i(218112)),	-- Colorful Beach Chair (TOY!)
 			}),
 			filter(COSMETIC, {
-				i(238947, {	-- Arcano-Stone Greathelm
-					["cost"] = {{"c", TRADERS_TENDER, 300}},
-				}),
-				i(233176, {	-- Banded Brick War Slippers
-					["cost"] = {{"c", TRADERS_TENDER, 20}},
-				}),
-				i(233159, {	-- Banded Brick War Wraps
-					["cost"] = {{"c", TRADERS_TENDER, 20}},
-				}),
-				i(238397, {	-- Coldflame Chopper
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(238892, {	-- Coldflame's Bite
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(238951, {	-- Coldflame Burner
-					["cost"] = {{"c", TRADERS_TENDER, 150}},
-				}),
-				iensemble(238418, {	-- Ensemble: Coldflame Battlegear
-					["cost"] = {{"c", TRADERS_TENDER, 550}},
-				}),
-				iensemble(238438, {	-- Ensemble: Lavaborn Battleplate
-					["cost"] = {{"c", TRADERS_TENDER, 550}},
-				}),
-				iensemble(230171, {	-- Ensemble: Prowler's Brick Headgear
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				iensemble(221542, {	-- Ensemble: Sunny Tropical Beachwear
-					["cost"] = {{"c", TRADERS_TENDER, 650}},
-				}),
-				iensemble(222961, {	-- Ensemble: Sunny Tropical Swimwear
-					["cost"] = {{"c", TRADERS_TENDER, 650}},
-				}),
-				i(238894, {	-- Lavaborn Barb
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(238399, {	-- Lavaborn Ruby's Edge
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(233103, {	-- Long Brick War Skirt
-					["cost"] = {{"c", TRADERS_TENDER, 40}},
-				}),
-				i(233142, {	-- Long Brick War Skirt and Leg Wraps
-					["cost"] = {{"c", TRADERS_TENDER, 50}},
-				}),
-				i(238950, {	-- Molten Inferno Helm
-					["cost"] = {{"c", TRADERS_TENDER, 300}},
-				}),
-				i(230039, {	-- Prowler's Brick Shoulder Cape
-					["cost"] = {{"c", TRADERS_TENDER, 75}},
-				}),
-				i(238953, {	-- Red Flame Burner
-					["cost"] = {{"c", TRADERS_TENDER, 150}},
-				}),
-				i(233086, {	-- Short Brick War Skirt
-					["cost"] = {{"c", TRADERS_TENDER, 40}},
-				}),
-				i(233125, {	-- Short Brick War Skirt and Leg Wraps
-					["cost"] = {{"c", TRADERS_TENDER, 50}},
-				}),
-				i(237856, {	-- Sunwell Bardiche
-					["cost"] = {{"c", TRADERS_TENDER, 245}},
-				}),
-				i(235026, {	-- Vigilante's Brick Mask
-					["cost"] = {{"c", TRADERS_TENDER, 50}},
-				}),
-				i(237854, {	-- Voidstorm Bardiche
-					["cost"] = {{"c", TRADERS_TENDER, 245}},
-				}),
+				traderstender(300, i(238947)),	-- Arcano-Stone Greathelm
+				traderstender(20, i(233176)),	-- Banded Brick War Slippers
+				traderstender(20, i(233159)),	-- Banded Brick War Wraps
+				traderstender(200, i(238397)),	-- Coldflame Chopper
+				traderstender(200, i(238892)),	-- Coldflame's Bite
+				traderstender(150, i(238951)),	-- Coldflame Burner
+				traderstender(550, iensemble(238418)),	-- Ensemble: Coldflame Battlegear
+				traderstender(550, iensemble(238438)),	-- Ensemble: Lavaborn Battleplate
+				traderstender(100, iensemble(230171)),	-- Ensemble: Prowler's Brick Headgear
+				traderstender(650, iensemble(221542)),	-- Ensemble: Sunny Tropical Beachwear
+				traderstender(650, iensemble(222961)),	-- Ensemble: Sunny Tropical Swimwear
+				traderstender(200, i(238894)),	-- Lavaborn Barb
+				traderstender(200, i(238399)),	-- Lavaborn Ruby's Edge
+				traderstender(40, i(233103)),	-- Long Brick War Skirt
+				traderstender(50, i(233142)),	-- Long Brick War Skirt and Leg Wraps
+				traderstender(300, i(238950)),	-- Molten Inferno Helm
+				traderstender(75, i(230039)),	-- Prowler's Brick Shoulder Cape
+				traderstender(150, i(238953)),	-- Red Flame Burner
+				traderstender(40, i(233086)),	-- Short Brick War Skirt
+				traderstender(50, i(233125)),	-- Short Brick War Skirt and Leg Wraps
+				traderstender(245, i(237856)),	-- Sunwell Bardiche
+				traderstender(50, i(235026)),	-- Vigilante's Brick Mask
+				traderstender(245, i(237854)),	-- Voidstorm Bardiche
 			}),
 		})),
 		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.1.7.99999" } }, {	-- TODO: Timeline /out correctly
@@ -3349,100 +3293,40 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				}),
 			}),
 			filter(MOUNTS, {
-				i(245936, {	-- Unarmored Deathtusk Felboar (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 325}},
-				}),
-				i(243596, {	-- Wailing Banshee's Charger (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 575}},
-				}),
+				traderstender(325, i(245936)),	-- Unarmored Deathtusk Felboar (MOUNT!)
+				traderstender(575, i(243596)),	-- Wailing Banshee's Charger (MOUNT!)
 			}),
 			filter(BATTLE_PETS, {
-				i(206174, {	-- Blub (PET!)
-					["cost"] = {{"c", TRADERS_TENDER, 500}},
-				}),
+				traderstender(500, i(206174)),	-- Blub (PET!)
 			}),
 			filter(COSMETIC, {
-				i(245745, {	-- Classic Plum Tabard
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				i(213155, {	-- Dark Ranger General's Quiver
-					["cost"] = {{"c", TRADERS_TENDER, 175}},
-				}),
-				i(223166, {	-- Deepsea Treasure Pack
-					["cost"] = {{"c", TRADERS_TENDER, 300}},
-				}),
-				i(212618, {	-- Dueler's Plum Shoulder Cape
-					["cost"] = {{"c", TRADERS_TENDER, 75}},
-				}),
-				iensemble(223244, {	-- Ensemble: Deepest Depths Diver Suit
-					["cost"] = {{"c", TRADERS_TENDER, 800}},
-				}),
-				iensemble(242466, {	-- Ensemble: Lively Sweatsuit
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				iensemble(242474, {	-- Ensemble: Plum Sweatsuit
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				iensemble(206323, {	-- Ensemble: Vagabond's Plum Threads
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				iensemble(244226, {	-- Ensemble: Wailing Banshee's Collection
-					["cost"] = {{"c", TRADERS_TENDER, 700}},
-				}),
-				iensemble(206334, {	-- Ensemble: Wanderer's Plum Trappings
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				i(242628, {	-- Forsaken's Grotesque Blade
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242632, {	-- Forsaken's Grotesque Great Blade
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242377, {	-- Forsaken's Grotesque Longbow
-					["cost"] = {{"c", TRADERS_TENDER, 175}},
-				}),
-				i(242349, {	-- Forsaken's Grotesque Mace
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242382, {	-- Forsaken's Grotesque Quiver
-					["cost"] = {{"c", TRADERS_TENDER, 175}},
-				}),
-				i(242387, {	-- Forsaken's Grotesque Wand
-					["cost"] = {{"c", TRADERS_TENDER, 150}},
-				}),
-				i(242353, {	-- Forsaken's Grotesque Warglaives
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(210859, {	-- Trader's Plum Sarong
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
-				}),
-				i(223165, {	-- Vengeful Crusader's Helm
-					["cost"] = {{"c", TRADERS_TENDER, 225}},
-				}),
-				i(242629, {	-- Wailing Banshee's Blade
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242523, {	-- Wailing Banshee's Cauldron
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242633, {	-- Wailing Banshee's Great Blade
-					["cost"] = {{"c", TRADERS_TENDER, 245}},
-				}),
-				i(242378, {	-- Wailing Banshee's Longbow
-					["cost"] = {{"c", TRADERS_TENDER, 175}},
-				}),
-				i(242350, {	-- Wailing Banshee's Mace
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
-				i(242383, {	-- Wailing Banshee's Quiver
-					["cost"] = {{"c", TRADERS_TENDER, 175}},
-				}),
-				i(242388, {	-- Wailing Banshee's Wand
-					["cost"] = {{"c", TRADERS_TENDER, 150}},
-				}),
-				i(242354, {	-- Wailing Banshee's Warglaives
-					["cost"] = {{"c", TRADERS_TENDER, 200}},
-				}),
+				traderstender(100, i(245745)),	-- Classic Plum Tabard
+				traderstender(175, i(213155)),	-- Dark Ranger General's Quiver
+				traderstender(300, i(223166)),	-- Deepsea Treasure Pack
+				traderstender(75, i(212618)),	-- Dueler's Plum Shoulder Cape
+				traderstender(800, iensemble(223244)),	-- Ensemble: Deepest Depths Diver Suit
+				traderstender(100, iensemble(242466)),	-- Ensemble: Lively Sweatsuit
+				traderstender(100, iensemble(242474)),	-- Ensemble: Plum Sweatsuit
+				traderstender(100, iensemble(206323)),	-- Ensemble: Vagabond's Plum Threads
+				traderstender(700, iensemble(244226)),	-- Ensemble: Wailing Banshee's Collection
+				traderstender(100, iensemble(206334)),	-- Ensemble: Wanderer's Plum Trappings
+				traderstender(200, i(242628)),	-- Forsaken's Grotesque Blade
+				traderstender(200, i(242632)),	-- Forsaken's Grotesque Great Blade
+				traderstender(175, i(242377)),	-- Forsaken's Grotesque Longbow
+				traderstender(200, i(242349)),	-- Forsaken's Grotesque Mace
+				traderstender(175, i(242382)),	-- Forsaken's Grotesque Quiver
+				traderstender(150, i(242387)),	-- Forsaken's Grotesque Wand
+				traderstender(200, i(242353)),	-- Forsaken's Grotesque Warglaives
+				traderstender(100, i(210859)),	-- Trader's Plum Sarong
+				traderstender(225, i(223165)),	-- Vengeful Crusader's Helm
+				traderstender(200, i(242629)),	-- Wailing Banshee's Blade
+				traderstender(200, i(242523)),	-- Wailing Banshee's Cauldron
+				traderstender(245, i(242633)),	-- Wailing Banshee's Great Blade
+				traderstender(175, i(242378)),	-- Wailing Banshee's Longbow
+				traderstender(200, i(242350)),	-- Wailing Banshee's Mace
+				traderstender(175, i(242383)),	-- Wailing Banshee's Quiver
+				traderstender(150, i(242388)),	-- Wailing Banshee's Wand
+				traderstender(200, i(242354)),	-- Wailing Banshee's Warglaives
 			}),
 		})),
 		n(AUGUST, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.1.7.99999" } }, {	-- TODO: Timeline in/out correctly
