@@ -300,20 +300,6 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					prof(FISHING, {
-						["requireSkill"] = FISHING,
-						["groups"] = {
-							q(32684, {	-- You Want Fish?
-								["sourceQuest"] = 31281,	-- So You Want to be a Chef...
-								["qg"] = 64231,	-- Sungshin Ironpaw
-								["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
-							}),
-							q(32685, {	-- No Fishing Pole Necessary!
-								["qg"] = 70398,	-- Ben of the Booming Voice (58.9,46.9)
-								["coord"] = { 58.9, 46.9, VALLEY_OF_THE_FOUR_WINDS },
-							}),
-						},
-					}),
 					q(30275, {	-- A Crocolisk Tale
 						["description"] = "Kill Manglemaw at the Pools of Purity to spawn Manglemaw's Mother.",
 						["provider"] = { "i", 79238 },	-- Enormous Crocolisk Tail
@@ -761,6 +747,15 @@ root(ROOTS.Zones, {
 							i(90545),	-- Safari Lantern
 						},
 					}),
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32685, {	-- No Fishing Pole Necessary!
+						["qg"] = 70398,	-- Ben of the Booming Voice
+						["coord"] = { 58.9, 46.9, VALLEY_OF_THE_FOUR_WINDS },
+						["timeline"] = { ADDED_5_2_0 },
+						["requireSkill"] = FISHING,
+						["groups"] = {
+							i(74866),	-- Golden Carp
+						},
+					})),
 					q(30030, {	-- Out of Sprite
 						["sourceQuest"] = 30048,	-- Li Li and the Grain
 						["qg"] = 57209,	-- Grainer Pan
@@ -1227,6 +1222,16 @@ root(ROOTS.Zones, {
 							i(88377),	-- Turnip Paint "Gun" (TOY!)
 						},
 					}),
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32684, {	-- You Want Fish?
+						["sourceQuest"] = 31281,	-- So You Want to be a Chef...
+						["qg"] = 64231,	-- Sungshin Ironpaw
+						["coord"] = { 53.6, 51.2, VALLEY_OF_THE_FOUR_WINDS },
+						["timeline"] = { ADDED_5_2_0 },
+						["requireSkill"] = FISHING,
+						["groups"] = {
+							i(74866),	-- Golden Carp
+						},
+					})),
 				}),
 				n(RARES, {
 					n(COMMON_BOSS_DROPS, {

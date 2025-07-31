@@ -1133,7 +1133,6 @@ localize(L.HEADER_NAMES, {
 	[-484] = "The Scourge Invasion",
 	[-520] = "BlizzCon",
 	[-521] = "Collector's Edition",
-	[-522] = "Heroic Edition",
 	[-546] = "iCoke",
 	[-547] =  AUCTION_CATEGORY_MISCELLANEOUS,
 	[-551] = BATTLE_PET_SOURCE_9,
@@ -1272,7 +1271,6 @@ localize(L.HEADER_ICONS, {
 	[-484] = 135228,
 	[-520] = _.asset("promotion_blizzcon"),
 	[-521] = _.asset("promotion_collector"),
-	[-522] = _.asset("weapon_type_heirloom"),
 	[-546] = 132797,
 	[-547] = 135999,
 	[-551] = 134493,
@@ -4738,6 +4736,36 @@ local achievements = {
 		icon = 354719,
 		category = 81,
 		criteria = {17023},
+	},
+	[15330] = {
+		name = "Survivor of the Firelord (Season of Mastery)",
+		description = "Defeat Ragnaros without ever dying during the Season of Mastery.",
+		icon = 254652,
+		category = 81,
+	},
+	[15333] = {
+		name = "Survivor of the Shadow Flame (Season of Mastery)",
+		description = "Defeat Nefarian without ever dying during the Season of Mastery.",
+		icon = 254649,
+		category = 81,
+	},
+	[15334] = {
+		name = "Survivor of the Old God (Season of Mastery)",
+		description = "Defeat C'Thun without ever dying during the Season of Mastery.",
+		icon = 236407,
+		category = 81,
+	},
+	[15335] = {
+		name = "Survivor of the Damned (Season of Mastery)",
+		description = "Defeat Kel'Thuzad without ever dying during the Season of Mastery.",
+		icon = 254094,
+		category = 81,
+	},
+	[15637] = {
+		name = "The Immortal (Season of Mastery)",
+		description = "Within one raid lockout, defeat every boss in Naxxramas without allowing any raid member to die during any of the boss encounters during Season of Mastery.",
+		icon = 135922,
+		category = 81,
 	},
 	[16433] = {
 		name = "Soul of Iron (Season of Mastery)",
@@ -12188,6 +12216,11 @@ for key,value in pairs({
 	[2496] = "Das Fünfte Element",
 	[3356] = "Frostsäbler aus Winterquell",
 	[5788] = "Agent der Shen'dralar",
+	[15330] = "Überlebender des Feuerlords (Saison der Meisterschaft)",
+	[15333] = "Überlebender der Schattenflamme (Saison der Meisterschaft)",
+	[15334] = "Überlebender des alten Gottes (Saison der Meisterschaft)",
+	[15335] = "Überlebender der Verdammten (Saison der Meisterschaft)",
+	[15637] = "Der Unsterbliche (Saison der Meisterschaft)",
 	[16433] = "Eisenseele (Saison der Meisterschaft)",
 })
 do achievements[key].name = value; end
@@ -12340,6 +12373,11 @@ for key,value in pairs({
 	[2496] = "Erhaltet eine wässrige Quintessenz.",
 	[3356] = "Erhaltet einen Frostsäbler aus Winterquell.",
 	[5788] = "Erreicht bei den Shen'dralar den Status ehrfürchtig.",
+	[15330] = "Bezwingt Ragnaros ohne zu sterben während der Saison der Meisterschaft.",
+	[15333] = "Bezwingt Nefarian ohne zu sterben während der Saison der Meisterschaft.",
+	[15334] = "Bezwingt C'Thun ohne zu sterben während der Saison der Meisterschaft.",
+	[15335] = "Bezwingt Kel'Thuzad ohne zu sterben während der Saison der Meisterschaft.",
+	[15637] = "Bezwingt jeden Boss in Naxxramas während der Saison der Meisterschaft innerhalb eines einzigen Schlachtzugzyklus, ohne dass ein Gruppenmitglied während der Bosskämpfe stirbt.",
 	[16433] = "Erreicht Stufe 60 ohne zu sterben während der Saison der Meisterschaft.",
 })
 do achievements[key].description = value; end
@@ -14694,6 +14732,11 @@ for key,value in pairs({
 	[2496] = "Le cinquième élément",
 	[3356] = "Sabre-de-givre de Berceau-de-l'Hiver",
 	[5788] = "Agent des Shen’dralar",
+	[15330] = "Survivant du seigneur du Feu (saison de la Maîtrise)",
+	[15333] = "Survivant de la Flamme d’ombre (saison de la Maîtrise)",
+	[15334] = "Survivant du Dieu très ancien (saison de la Maîtrise)",
+	[15335] = "Survivant des damnés (saison de la Maîtrise)",
+	[15637] = "Il en restera plus d’un (saison de la Maîtrise)",
 	[16433] = "Âme de fer (saison de la Maîtrise)",
 })
 do achievements[key].name = value; end
@@ -14846,6 +14889,11 @@ for key,value in pairs({
 	[2496] = "Obtenir une quintessence aquatique.",
 	[3356] = "Obtenir un sabre-de-givre de Berceau-de-l'Hiver.",
 	[5788] = "Être exalté auprès des Shen’dralar.",
+	[15330] = "Vaincre Ragnaros sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15333] = "Vaincre Nefarian sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15334] = "Vaincre C’Thun sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15335] = "Vaincre Kel’Thuzad sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15637] = "Entre deux réinitialisations de raids, vaincre chaque boss de Naxxramas sans qu’un seul membre du raid meure au cours des combats contre les boss durant la saison de la Maîtrise.",
 	[16433] = "Atteindre le niveau 60 sans jamais mourir au cours de la saison de la Maîtrise.",
 })
 do achievements[key].description = value; end
@@ -18371,6 +18419,11 @@ for key,value in pairs({
 	[2496] = "O quinto elemento",
 	[3356] = "Sabre-de-gelo de Hibérnia",
 	[5788] = "Agente dos Shen'dralar",
+	[15330] = "Sobrevivente do Senhor do Fogo (Temporada de Maestria)",
+	[15333] = "Sobrevivente da Chama Sombria (Temporada de Maestria)",
+	[15334] = "Sobrevivente do Deus Antigo (Temporada de Maestria)",
+	[15335] = "Sobrevivente do Senhor do Fogo (Temporada de Maestria)",
+	[15637] = "Imortal (Temporada de Maestria)",
 	[16433] = "Alma de Ferro (Temporada de Maestria)",
 })
 do achievements[key].name = value; end
@@ -18523,6 +18576,11 @@ for key,value in pairs({
 	[2496] = "Obter uma Quintessência Aquática.",
 	[3356] = "Obter um Sabre-de-gelo de Hibérnia.",
 	[5788] = "Tornar-se exaltado pelos Shen'dralar.",
+	[15330] = "Derrotar Ragnaros sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15333] = "Derrotar Nefarian sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15334] = "Derrotar C'Thun sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15335] = "Derrotar Kel'Thuzad sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15637] = "Durante 1 período de vínculo de raide, derrotar todos os chefes em Naxxramas sem permitir que nenhum integrante do raide morra em pelo menos 1 confronto com chefes, dentro da Temporada de Maestria.",
 	[16433] = "Alcançar o nível 60 sem ter morrido nenhuma vez durante a Temporada de Maestria.",
 })
 do achievements[key].description = value; end
@@ -21179,6 +21237,11 @@ for key,value in pairs({
 	[2496] = "Пятый элемент",
 	[3356] = "Ледопард Зимних Ключей",
 	[5788] = "Посланник Шен'дралар",
+	[15330] = "Выжить пред лицом Повелителя Огня (сезон мастерства)",
+	[15333] = "Выжить пред лицом Пламени Тьмы (сезон мастерства)",
+	[15334] = "Выжить пред лицом древнего бога (сезон мастерства)",
+	[15335] = "Выжить пред лицом Проклятых (сезон мастерства)",
+	[15637] = "Бессмертный (сезон мастерства)",
 	[16433] = "Душа из железа (сезон мастерства)",
 })
 do achievements[key].name = value; end
@@ -21331,6 +21394,11 @@ for key,value in pairs({
 	[2496] = "Получите квинтэссенцию воды.",
 	[3356] = "Получите ледопарда Зимних Ключей.",
 	[5788] = "Добейтесь того, чтобы вас превозносили Шен'дралар.",
+	[15330] = "Победите Рагнароса в ходе сезона мастерства, ни разу не умерев.",
+	[15333] = "Победите Нефариана в ходе сезона мастерства, ни разу не умерев.",
+	[15334] = "Победите К'Туна в ходе сезона мастерства, ни разу не умерев.",
+	[15335] = "Победите Кел'Тузада в ходе сезона мастерства, ни разу не умерев.",
+	[15637] = "В течение одного сохраненного рейда в ходе сезона мастерства убейте всех боссов в Наксрамасе, не допустив смерти ни одного участника рейда.",
 	[16433] = "Достигните в ходе сезона мастерства 60-го уровня, ни разу не умерев.",
 })
 do achievements[key].description = value; end
@@ -23397,6 +23465,11 @@ for key,value in pairs({
 	[2496] = "제5원소",
 	[3356] = "여명의 설원 눈호랑이",
 	[5788] = "셴드랄라의 대리인",
+	[15330] = "불의 군주의 생존자 (마스터리 서버)",
+	[15333] = "암흑 불길의 생존자 (마스터리 서버)",
+	[15334] = "고대 신의 생존자 (마스터리 서버)",
+	[15335] = "저주받은 자의 생존자 (마스터리 서버)",
+	[15637] = "불사신 (마스터리 서버)",
 	[16433] = "철의 영혼 (마스터리 서버)",
 })
 do achievements[key].name = value; end
@@ -23549,6 +23622,11 @@ for key,value in pairs({
 	[2496] = "물의 정기 획득",
 	[3356] = "여명의 설원 눈호랑이 획득",
 	[5788] = "셴드랄라 확고한 동맹",
+	[15330] = "마스터리 서버 도중 죽지 않고 라그나로스 처치",
+	[15333] = "마스터리 서버 도중 죽지 않고 네파리안 처치",
+	[15334] = "마스터리 서버 도중 죽지 않고 쑨 처치",
+	[15335] = "마스터리 서버 도중 죽지 않고 켈투자드 처치",
+	[15637] = "공격대 귀속 기간 내에 마스터리 서버에서 공격대원이 한 명도 죽지 않은 상태로 낙스라마스의 모든 우두머리 처치",
 	[16433] = "마스터리 서버 도중 죽지 않고 60 레벨 달성",
 })
 do achievements[key].description = value; end
@@ -25425,7 +25503,6 @@ localize(L.HEADER_NAMES, {
 	[-482] = "La apertura del Portal Oscuro",
 	[-483] = "El cetro del Mar de Dunas",
 	[-521] = "Edición de coleccionista",
-	[-522] = "Edición Heroica",
 	[-559] = "Semana de los Niños",
 	[-574] = "El festín del Festival de Invierno",
 	[-576] = "Halloween",
@@ -26417,6 +26494,11 @@ for key,value in pairs({
 	[2496] = "El quinto elemento",
 	[3356] = "Sable de Hielo de Cuna del Invierno",
 	[5788] = "Agente de los Shen'dralar",
+	[15330] = "Superviviente del Señor del Fuego (temporada de maestría)",
+	[15333] = "Superviviente de la Llama de las Sombras (temporada de maestría)",
+	[15334] = "Superviviente del dios antiguo (temporada de maestría)",
+	[15335] = "Superviviente de los malditos (temporada de maestría)",
+	[15637] = "El Inmortal (temporada de maestría)",
 	[16433] = "Alma de hierro (temporada de maestría)",
 })
 do achievements[key].name = value; end
@@ -26569,6 +26651,11 @@ for key,value in pairs({
 	[2496] = "Consigue una quintaesencia de agua.",
 	[3356] = "Obtén un Sable de Hielo de Cuna del Invierno.",
 	[5788] = "Alcanza la reputación Exaltado con los Shen'dralar",
+	[15330] = "Derrota a Ragnaros sin morir ni una sola vez durante la temporada de maestría.",
+	[15333] = "Derrota a Nefarian sin morir ni una sola vez durante la temporada de maestría.",
+	[15334] = "Derrota a C'Thun sin morir ni una sola vez durante la temporada de maestría.",
+	[15335] = "Derrota a Kel'Thuzad sin morir ni una sola vez durante la temporada de maestría.",
+	[15637] = "En el tiempo tope de la banda, derrota a todos los jefes de Naxxramas sin muertes de los miembros de la banda durante los enfrentamientos con estos durante la temporada de maestría.",
 	[16433] = "Alcanza el nivel 60 sin morir ni una sola vez durante la temporada de maestría.",
 })
 do achievements[key].description = value; end
@@ -27931,6 +28018,11 @@ for key,value in pairs({
 	[428] = "Trueno Furioso, espada bendita del Hijo del Viento",
 	[685] = "Guarida de Alanegra",
 	[3356] = "Sable de hielo de Cuna del Invierno",
+	[15330] = "Supervivientes del Señor del Fuego (Temporada de maestría)",
+	[15333] = "Superviviente de la Llama de las Sombras (Temporada de maestría)",
+	[15334] = "Superviviente del dios antiguo (Temporada de maestría)",
+	[15335] = "Superviviente de los Condenados (Temporada de maestría)",
+	[15637] = "Los inmortales (Temporada de maestría)",
 	[16433] = "Alma de hierro (Temporada de maestría)",
 })
 do achievements[key].name = value; end
@@ -27940,6 +28032,11 @@ for key,value in pairs({
 	[429] = "Equípate con Sulfuras, Mano de Ragnaros.",
 	[891] = "Aprende la habilidad Aprendiz jinete.",
 	[2336] = "Eleva tu reputación a Honrado con los Bucaneros Velasangre, y a Exaltado con Bahía del Botín, Vista Eterna, Gadgetzan, Trinquete, Feria de la Luna Negra, Ravenholdt y Shen'dralar.",
+	[15330] = "Derrota a Ragnaros sin morir ni una vez durante la temporada de maestría.",
+	[15333] = "Derrota a Nefarian sin morir ni una vez durante la temporada de maestría.",
+	[15334] = "Derrota a C'Thun sin morir ni una vez durante la temporada de maestría.",
+	[15335] = "Derrota a Kel'Thuzad sin morir ni una vez durante la temporada de maestría.",
+	[15637] = "En el tiempo tope de la banda, derrota a todos los jefes de Naxxramas sin muertes de los miembros de la banda durante esos enfrentamientos en la temporada de maestría.",
 	[16433] = "Alcanza el nivel 60 sin morir ni una vez durante la temporada de maestría.",
 })
 do achievements[key].description = value; end
@@ -29828,7 +29925,6 @@ localize(L.HEADER_NAMES, {
 	[-484] = "天灾入侵",
 	[-520] = "暴雪嘉年华",
 	[-521] = "典藏版",
-	[-522] = "英雄礼包",
 	[-546] = "可口可乐活动",
 	[-559] = "儿童周",
 	[-574] = "冬幕节",
@@ -30672,6 +30768,11 @@ for key,value in pairs({
 	[2496] = "第五元素",
 	[3356] = "冬泉霜刃豹",
 	[5788] = "辛德拉的代言人",
+	[15330] = "炎魔之王的生还者（赛季服）",
+	[15333] = "暗影烈焰的生还者（赛季服）",
+	[15334] = "上古之神的生还者（赛季服）",
+	[15335] = "诅咒生还者（赛季服）",
+	[15637] = "永恒者（赛季服）",
 	[16433] = "钢铁之魂（赛季服）",
 })
 do achievements[key].name = value; end
@@ -30824,6 +30925,11 @@ for key,value in pairs({
 	[2496] = "获得一份水之精萃。",
 	[3356] = "获得一只冬泉霜刃豹。",
 	[5788] = "在辛德拉阵营中达到崇拜声望。",
+	[15330] = "在赛季服直到击败拉格纳罗斯为止都没有死亡。",
+	[15333] = "在赛季服直到击败奈法利安为止都没有死亡。",
+	[15334] = "在赛季服直到击败克苏恩为止都没有死亡。",
+	[15335] = "在赛季服直到击败克尔苏加德为止都没有死亡。",
+	[15637] = "在一个团队副本锁定周期内，在赛季服击败纳克萨玛斯中的所有首领，并且在所有这些首领战中无一人死亡。",
 	[16433] = "在赛季服升到60级为止都没有死亡。",
 })
 do achievements[key].description = value; end
@@ -32529,7 +32635,6 @@ localize(L.HEADER_NAMES, {
 	[-483] = "流沙節杖",
 	[-484] = "天譴軍團入侵",
 	[-520] = "暴雪嘉年華",
-	[-522] = "英雄版",
 	[-546] = "可口可樂活動",
 	[-559] = "兒童週",
 	[-574] = "冬幕節",
@@ -32711,6 +32816,11 @@ for key,value in pairs({
 	[2357] = "克索諾斯恐懼戰馬",
 	[2358] = "戰騎",
 	[5788] = "辛德拉使者",
+	[15330] = "炎魔生還者(大師賽季)",
+	[15333] = "暗影烈焰生還者(大師賽季)",
+	[15334] = "古神生還者(大師賽季)",
+	[15335] = "詛咒生還者(大師賽季)",
+	[15637] = "不朽(大師賽季)",
 	[16433] = "鋼鐵之魂(大師賽季)",
 })
 do achievements[key].name = value; end
@@ -32863,6 +32973,11 @@ for key,value in pairs({
 	[2496] = "獲得水之精萃。",
 	[3356] = "獲得一隻冬泉霜刃豹。",
 	[5788] = "取得辛德拉的聲望崇拜。",
+	[15330] = "在大師賽季中，在完全沒有死亡的情況下擊敗拉格納羅斯。",
+	[15333] = "在大師賽季中，在完全沒有死亡的情況下擊敗奈法利安。",
+	[15334] = "在大師賽季中，在完全沒有死亡的情況下擊敗克蘇恩。",
+	[15335] = "在大師賽季中，在完全沒有死亡的情況下擊敗科爾蘇加德。",
+	[15637] = "大師賽季中，同一團隊進度時與首領戰鬥期間無人死亡的情況下擊敗納克薩瑪斯的所有首領。",
 	[16433] = "在大師賽季中，在完全沒有死亡的情況下達到60級。",
 })
 do achievements[key].description = value; end

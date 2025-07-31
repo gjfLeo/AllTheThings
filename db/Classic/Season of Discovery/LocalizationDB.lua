@@ -473,7 +473,7 @@ L.NO_ENTRIES_DESC = "If you believe this was in error, try activating 'Debug Mod
 L.NO_LINKED_ACCOUNTS = "No linked accounts found.";
 L.NO_SEARCH_METHOD = "No search method specified.";
 L.NOT_AVAILABLE_IN_PL = "Not available in Personal Loot.";
-L.NOT_COLLECTED = "|cffff9333Not Collected|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333Not Collected|r";
 L.NOT_COLLECTED_ICON = "|T" .. _.asset("unknown") .. ":0|t";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX = "Except NPCs";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP = "Enable this option to ignore rendering NPC tooltips while in combat.";
@@ -1137,7 +1137,6 @@ localize(L.HEADER_NAMES, {
 	[-484] = "The Scourge Invasion",
 	[-520] = "BlizzCon",
 	[-521] = "Collector's Edition",
-	[-522] = "Heroic Edition",
 	[-546] = "iCoke",
 	[-547] =  AUCTION_CATEGORY_MISCELLANEOUS,
 	[-551] = BATTLE_PET_SOURCE_9,
@@ -1328,7 +1327,6 @@ localize(L.HEADER_ICONS, {
 	[-484] = 135228,
 	[-520] = _.asset("promotion_blizzcon"),
 	[-521] = _.asset("promotion_collector"),
-	[-522] = _.asset("weapon_type_heirloom"),
 	[-546] = 132797,
 	[-547] = 135999,
 	[-551] = 134493,
@@ -1449,7 +1447,6 @@ _.Modules.Events.SetEventInformation(13, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=6,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=5,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(1, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=14,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=21,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=28,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=4,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=11,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=18,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=25,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=1,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
@@ -1475,7 +1472,8 @@ _.Modules.Events.SetEventInformation(1, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=1,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=8,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=15,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=22,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=29,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=6,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=13,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=20,["weekday"]=2,["year"]=2026},{["remappedID"]=375})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=13,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=20,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=27,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=3,["weekday"]=2,["year"]=2026},{["remappedID"]=374})
 });
 
 -- Filter Database Module
@@ -3887,6 +3885,7 @@ _.PhaseConstants = {
 	NEVER_IMPLEMENTED = 1,
 	REAL_MONEY = 3,
 	REMOVED_FROM_GAME = 2,
+	TRADING_POST = 7,
 	UNLEARNABLE = 5,
 };
 local phases = {
@@ -3915,6 +3914,11 @@ local phases = {
 		name = "Unlearnable",
 		description = "|cFFFFAAAAThis cannot be permanently collected, learned or used for transmog.|r",
 		state = 2,
+	},
+	[7] = {
+		name = "Trading Post",
+		description = "|cFFAAFFAAThis item is available in the Trading Post.|r",
+		state = 3,
 	},
 	[11] = {
 		name = "Phase 1",
@@ -5111,6 +5115,30 @@ local achievements = {
 		icon = 354719,
 		category = 81,
 		criteria = {17023},
+	},
+	[15333] = {
+		name = "Survivor of the Shadow Flame (Season of Mastery)",
+		description = "Defeat Nefarian without ever dying during the Season of Mastery.",
+		icon = 254649,
+		category = 81,
+	},
+	[15334] = {
+		name = "Survivor of the Old God (Season of Mastery)",
+		description = "Defeat C'Thun without ever dying during the Season of Mastery.",
+		icon = 236407,
+		category = 81,
+	},
+	[15335] = {
+		name = "Survivor of the Damned (Season of Mastery)",
+		description = "Defeat Kel'Thuzad without ever dying during the Season of Mastery.",
+		icon = 254094,
+		category = 81,
+	},
+	[15637] = {
+		name = "The Immortal (Season of Mastery)",
+		description = "Within one raid lockout, defeat every boss in Naxxramas without allowing any raid member to die during any of the boss encounters during Season of Mastery.",
+		icon = 135922,
+		category = 81,
 	},
 	[16433] = {
 		name = "Soul of Iron (Season of Mastery)",
@@ -11450,7 +11478,7 @@ L.NO_ENTRIES_DESC = "Wenn Sie glauben, dass dies ein Fehler war, versuchen Sie d
 L.NO_LINKED_ACCOUNTS = "Keine verknüpften Accounts gefunden.";
 L.NO_SEARCH_METHOD = "Keine Suchmethode festgelegt.";
 L.NOT_AVAILABLE_IN_PL = "Nicht vorhanden im Persönlicher Beute Modus.";
-L.NOT_COLLECTED = "|cffff9333Nicht gesammelt|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333Nicht gesammelt|r";
 L.NOT_TRADEABLE = "Nicht Handelbar";
 L.NOTHING_TO_SELECT_FROM = "Es wurde nichts für die zufällige Auswahl gefunden. Wenn 'Ad-Hoc Updates' in den Einstellungen aktiviert ist, muss die Hauptliste zuerst aktualisiert werden, (/att) bevor Ihr dieses Fenster benutzt.";
 L.OPEN_AUTOMATICALLY = "Automatisch öffnen";
@@ -12737,6 +12765,10 @@ for key,value in pairs({
 	[2496] = "Das Fünfte Element",
 	[3356] = "Frostsäbler aus Winterquell",
 	[5788] = "Agent der Shen'dralar",
+	[15333] = "Überlebender der Schattenflamme (Saison der Meisterschaft)",
+	[15334] = "Überlebender des alten Gottes (Saison der Meisterschaft)",
+	[15335] = "Überlebender der Verdammten (Saison der Meisterschaft)",
+	[15637] = "Der Unsterbliche (Saison der Meisterschaft)",
 	[16433] = "Eisenseele (Saison der Meisterschaft)",
 })
 do achievements[key].name = value; end
@@ -12889,6 +12921,10 @@ for key,value in pairs({
 	[2496] = "Erhaltet eine wässrige Quintessenz.",
 	[3356] = "Erhaltet einen Frostsäbler aus Winterquell.",
 	[5788] = "Erreicht bei den Shen'dralar den Status ehrfürchtig.",
+	[15333] = "Bezwingt Nefarian ohne zu sterben während der Saison der Meisterschaft.",
+	[15334] = "Bezwingt C'Thun ohne zu sterben während der Saison der Meisterschaft.",
+	[15335] = "Bezwingt Kel'Thuzad ohne zu sterben während der Saison der Meisterschaft.",
+	[15637] = "Bezwingt jeden Boss in Naxxramas während der Saison der Meisterschaft innerhalb eines einzigen Schlachtzugzyklus, ohne dass ein Gruppenmitglied während der Bosskämpfe stirbt.",
 	[16433] = "Erreicht Stufe 60 ohne zu sterben während der Saison der Meisterschaft.",
 })
 do achievements[key].description = value; end
@@ -14146,7 +14182,7 @@ L.NO_ENTRIES_DESC = "Si vous pensez qu’il s’agit d’une erreur, essayez d�
 L.NO_LINKED_ACCOUNTS = "Aucun compte lié n’a été trouvé.";
 L.NO_SEARCH_METHOD = "Aucune méthode de recherche n’est spécifiée.";
 L.NOT_AVAILABLE_IN_PL = "Non disponible pour le butin personnel.";
-L.NOT_COLLECTED = "|cffff9333Pas Collecté|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333Pas Collecté|r";
 L.NOT_TRADEABLE = "Non échangeable";
 L.OPEN_AUTOMATICALLY = "Ouvrir automatiquement";
 L.OPEN_AUTOMATICALLY_DESC = "Si vous n’êtes pas un développeur de chez Blizzard, il peut être judicieux de décocher cela. Ceci a été fait pour forcer Blizzard à corriger et / ou reconnaître ces bugs.";
@@ -15422,6 +15458,10 @@ for key,value in pairs({
 	[2496] = "Le cinquième élément",
 	[3356] = "Sabre-de-givre de Berceau-de-l'Hiver",
 	[5788] = "Agent des Shen’dralar",
+	[15333] = "Survivant de la Flamme d’ombre (saison de la Maîtrise)",
+	[15334] = "Survivant du Dieu très ancien (saison de la Maîtrise)",
+	[15335] = "Survivant des damnés (saison de la Maîtrise)",
+	[15637] = "Il en restera plus d’un (saison de la Maîtrise)",
 	[16433] = "Âme de fer (saison de la Maîtrise)",
 })
 do achievements[key].name = value; end
@@ -15574,6 +15614,10 @@ for key,value in pairs({
 	[2496] = "Obtenir une quintessence aquatique.",
 	[3356] = "Obtenir un sabre-de-givre de Berceau-de-l'Hiver.",
 	[5788] = "Être exalté auprès des Shen’dralar.",
+	[15333] = "Vaincre Nefarian sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15334] = "Vaincre C’Thun sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15335] = "Vaincre Kel’Thuzad sans jamais mourir au cours de la saison de la Maîtrise.",
+	[15637] = "Entre deux réinitialisations de raids, vaincre chaque boss de Naxxramas sans qu’un seul membre du raid meure au cours des combats contre les boss durant la saison de la Maîtrise.",
 	[16433] = "Atteindre le niveau 60 sans jamais mourir au cours de la saison de la Maîtrise.",
 })
 do achievements[key].description = value; end
@@ -19210,6 +19254,10 @@ for key,value in pairs({
 	[2496] = "O quinto elemento",
 	[3356] = "Sabre-de-gelo de Hibérnia",
 	[5788] = "Agente dos Shen'dralar",
+	[15333] = "Sobrevivente da Chama Sombria (Temporada de Maestria)",
+	[15334] = "Sobrevivente do Deus Antigo (Temporada de Maestria)",
+	[15335] = "Sobrevivente do Senhor do Fogo (Temporada de Maestria)",
+	[15637] = "Imortal (Temporada de Maestria)",
 	[16433] = "Alma de Ferro (Temporada de Maestria)",
 })
 do achievements[key].name = value; end
@@ -19362,6 +19410,10 @@ for key,value in pairs({
 	[2496] = "Obter uma Quintessência Aquática.",
 	[3356] = "Obter um Sabre-de-gelo de Hibérnia.",
 	[5788] = "Tornar-se exaltado pelos Shen'dralar.",
+	[15333] = "Derrotar Nefarian sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15334] = "Derrotar C'Thun sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15335] = "Derrotar Kel'Thuzad sem ter morrido nenhuma vez durante a Temporada de Maestria.",
+	[15637] = "Durante 1 período de vínculo de raide, derrotar todos os chefes em Naxxramas sem permitir que nenhum integrante do raide morra em pelo menos 1 confronto com chefes, dentro da Temporada de Maestria.",
 	[16433] = "Alcançar o nível 60 sem ter morrido nenhuma vez durante a Temporada de Maestria.",
 })
 do achievements[key].description = value; end
@@ -20779,7 +20831,7 @@ L.NO_ENTRIES_DESC = "Если Вы уверены, что это была оши
 L.NO_LINKED_ACCOUNTS = "Прикреплённых аккаунтов не найдено.";
 L.NO_SEARCH_METHOD = "Не выбран метод для поиска.";
 L.NOT_AVAILABLE_IN_PL = "Недоступно в Персональной добыче.";
-L.NOT_COLLECTED = "|cffff9333Не Собрано|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333Не Собрано|r";
 L.NOTHING_TO_SELECT_FROM = "Не из чего делать случайный выбор. Если включена опция 'Обновлять только видимые окна', то предварительно нужно открыть Основной Список (/att).";
 L.OBJECTIVES = "Цели";
 L.ONLY_RELEVANT_CHECKBOX = "Только Уместные";
@@ -22167,6 +22219,10 @@ for key,value in pairs({
 	[2496] = "Пятый элемент",
 	[3356] = "Ледопард Зимних Ключей",
 	[5788] = "Посланник Шен'дралар",
+	[15333] = "Выжить пред лицом Пламени Тьмы (сезон мастерства)",
+	[15334] = "Выжить пред лицом древнего бога (сезон мастерства)",
+	[15335] = "Выжить пред лицом Проклятых (сезон мастерства)",
+	[15637] = "Бессмертный (сезон мастерства)",
 	[16433] = "Душа из железа (сезон мастерства)",
 })
 do achievements[key].name = value; end
@@ -22319,6 +22375,10 @@ for key,value in pairs({
 	[2496] = "Получите квинтэссенцию воды.",
 	[3356] = "Получите ледопарда Зимних Ключей.",
 	[5788] = "Добейтесь того, чтобы вас превозносили Шен'дралар.",
+	[15333] = "Победите Нефариана в ходе сезона мастерства, ни разу не умерев.",
+	[15334] = "Победите К'Туна в ходе сезона мастерства, ни разу не умерев.",
+	[15335] = "Победите Кел'Тузада в ходе сезона мастерства, ни разу не умерев.",
+	[15637] = "В течение одного сохраненного рейда в ходе сезона мастерства убейте всех боссов в Наксрамасе, не допустив смерти ни одного участника рейда.",
 	[16433] = "Достигните в ходе сезона мастерства 60-го уровня, ни разу не умерев.",
 })
 do achievements[key].description = value; end
@@ -24516,6 +24576,10 @@ for key,value in pairs({
 	[2496] = "제5원소",
 	[3356] = "여명의 설원 눈호랑이",
 	[5788] = "셴드랄라의 대리인",
+	[15333] = "암흑 불길의 생존자 (마스터리 서버)",
+	[15334] = "고대 신의 생존자 (마스터리 서버)",
+	[15335] = "저주받은 자의 생존자 (마스터리 서버)",
+	[15637] = "불사신 (마스터리 서버)",
 	[16433] = "철의 영혼 (마스터리 서버)",
 })
 do achievements[key].name = value; end
@@ -24668,6 +24732,10 @@ for key,value in pairs({
 	[2496] = "물의 정기 획득",
 	[3356] = "여명의 설원 눈호랑이 획득",
 	[5788] = "셴드랄라 확고한 동맹",
+	[15333] = "마스터리 서버 도중 죽지 않고 네파리안 처치",
+	[15334] = "마스터리 서버 도중 죽지 않고 쑨 처치",
+	[15335] = "마스터리 서버 도중 죽지 않고 켈투자드 처치",
+	[15637] = "공격대 귀속 기간 내에 마스터리 서버에서 공격대원이 한 명도 죽지 않은 상태로 낙스라마스의 모든 우두머리 처치",
 	[16433] = "마스터리 서버 도중 죽지 않고 60 레벨 달성",
 })
 do achievements[key].description = value; end
@@ -26171,7 +26239,7 @@ L.NO_ENTRIES_DESC = "Si crees que se trata de un error, intenta activar el modo 
 L.NO_LINKED_ACCOUNTS = "No se encontraron cuentas conectadas.";
 L.NO_SEARCH_METHOD = "Método de búsqueda no especificado.";
 L.NOT_AVAILABLE_IN_PL = "No disponible en botín personal.";
-L.NOT_COLLECTED = "|cffff9333No adquirido|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333No adquirido|r";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX = "Excepto PNJ";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP = "Habilite esta opción para ignorar la presentación de la información sobre ventanas emergentes de los NPC durante el combate.";
 L.NOT_TRADEABLE = "No comerciable";
@@ -26547,7 +26615,6 @@ localize(L.HEADER_NAMES, {
 	[-482] = "La apertura del Portal Oscuro",
 	[-483] = "El cetro del Mar de Dunas",
 	[-521] = "Edición de coleccionista",
-	[-522] = "Edición Heroica",
 	[-559] = "Semana de los Niños",
 	[-574] = "El festín del Festival de Invierno",
 	[-576] = "Halloween",
@@ -27647,6 +27714,10 @@ for key,value in pairs({
 	[2496] = "El quinto elemento",
 	[3356] = "Sable de Hielo de Cuna del Invierno",
 	[5788] = "Agente de los Shen'dralar",
+	[15333] = "Superviviente de la Llama de las Sombras (temporada de maestría)",
+	[15334] = "Superviviente del dios antiguo (temporada de maestría)",
+	[15335] = "Superviviente de los malditos (temporada de maestría)",
+	[15637] = "El Inmortal (temporada de maestría)",
 	[16433] = "Alma de hierro (temporada de maestría)",
 })
 do achievements[key].name = value; end
@@ -27799,6 +27870,10 @@ for key,value in pairs({
 	[2496] = "Consigue una quintaesencia de agua.",
 	[3356] = "Obtén un Sable de Hielo de Cuna del Invierno.",
 	[5788] = "Alcanza la reputación Exaltado con los Shen'dralar",
+	[15333] = "Derrota a Nefarian sin morir ni una sola vez durante la temporada de maestría.",
+	[15334] = "Derrota a C'Thun sin morir ni una sola vez durante la temporada de maestría.",
+	[15335] = "Derrota a Kel'Thuzad sin morir ni una sola vez durante la temporada de maestría.",
+	[15637] = "En el tiempo tope de la banda, derrota a todos los jefes de Naxxramas sin muertes de los miembros de la banda durante los enfrentamientos con estos durante la temporada de maestría.",
 	[16433] = "Alcanza el nivel 60 sin morir ni una sola vez durante la temporada de maestría.",
 })
 do achievements[key].description = value; end
@@ -29031,7 +29106,7 @@ L.MUSIC_ROLL_ID = "ID de rollo musical";
 L.MUSIC_ROLLS_DESC = "Estos se desbloquean por personaje y actualmente no se comparten entre cuentas. Si alguien de Blizzard está leyendo esto, sería genial que los hicieran accesibles para toda la cuenta.\n\nDebes actualizar manualmente el addon " .. SHIFT_KEY_TEXT .. " click en el encabezado para que esto se detecte.";
 L.MUSIC_ROLLS_DESC_2 = "\n\nPrimero debes desbloquear los Rollos musicales completando la misión Poniendo el ritmo en tu fortaleza para que aparezca este objeto.\n\nSelfies requieren el juguete S.E.L.F.I.E.";
 L.NO_ENTRIES_DESC = "Si cree que se trata de un error, intente activar el modo de debug. Es posible que alguno de sus filtros esté restringiendo la visibilidad del grupo.";
-L.NOT_COLLECTED = "|cffff9333No coleccionado|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333No coleccionado|r";
 L.NOTHING_TO_SELECT_FROM = "No se encontró nada para seleccionar aleatoriamente. Si las 'actualizaciones Ad-Hoc' están habilitadas en los ajustes, la lista principal se tiene que actualizar (/att) antes de usar esta ventana.";
 L.NPC_ID = "ID de Pnj";
 L.OBJECT_ID = "ID de objeto";
@@ -29170,6 +29245,10 @@ for key,value in pairs({
 	[428] = "Trueno Furioso, espada bendita del Hijo del Viento",
 	[685] = "Guarida de Alanegra",
 	[3356] = "Sable de hielo de Cuna del Invierno",
+	[15333] = "Superviviente de la Llama de las Sombras (Temporada de maestría)",
+	[15334] = "Superviviente del dios antiguo (Temporada de maestría)",
+	[15335] = "Superviviente de los Condenados (Temporada de maestría)",
+	[15637] = "Los inmortales (Temporada de maestría)",
 	[16433] = "Alma de hierro (Temporada de maestría)",
 })
 do achievements[key].name = value; end
@@ -29179,6 +29258,10 @@ for key,value in pairs({
 	[429] = "Equípate con Sulfuras, Mano de Ragnaros.",
 	[891] = "Aprende la habilidad Aprendiz jinete.",
 	[2336] = "Eleva tu reputación a Honrado con los Bucaneros Velasangre, y a Exaltado con Bahía del Botín, Vista Eterna, Gadgetzan, Trinquete, Feria de la Luna Negra, Ravenholdt y Shen'dralar.",
+	[15333] = "Derrota a Nefarian sin morir ni una vez durante la temporada de maestría.",
+	[15334] = "Derrota a C'Thun sin morir ni una vez durante la temporada de maestría.",
+	[15335] = "Derrota a Kel'Thuzad sin morir ni una vez durante la temporada de maestría.",
+	[15637] = "En el tiempo tope de la banda, derrota a todos los jefes de Naxxramas sin muertes de los miembros de la banda durante esos enfrentamientos en la temporada de maestría.",
 	[16433] = "Alcanza el nivel 60 sin morir ni una vez durante la temporada de maestría.",
 })
 do achievements[key].description = value; end
@@ -30685,7 +30768,7 @@ L.NO_ENTRIES_DESC = "如果认为这是错误的，请尝试激活'调试模式'
 L.NO_LINKED_ACCOUNTS = "未找到链接帐号。";
 L.NO_SEARCH_METHOD = "未指定搜索方法。";
 L.NOT_AVAILABLE_IN_PL = "在个人拾取中不可用。";
-L.NOT_COLLECTED = "|cffff9333未收藏|r";
+L.NOT_COLLECTED = "|T" .. _.asset("unknown") .. ":0|t |cffff9333未收藏|r";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX = "排除 NPC";
 L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP = "启用此选项可在战斗中忽略显示 NPC 的提示。";
 L.NOT_TRADEABLE = "不可交易";
@@ -31069,7 +31152,6 @@ localize(L.HEADER_NAMES, {
 	[-484] = "天灾入侵",
 	[-520] = "暴雪嘉年华",
 	[-521] = "典藏版",
-	[-522] = "英雄礼包",
 	[-546] = "可口可乐活动",
 	[-559] = "儿童周",
 	[-574] = "冬幕节",
@@ -32002,6 +32084,10 @@ for key,value in pairs({
 	[2496] = "第五元素",
 	[3356] = "冬泉霜刃豹",
 	[5788] = "辛德拉的代言人",
+	[15333] = "暗影烈焰的生还者（赛季服）",
+	[15334] = "上古之神的生还者（赛季服）",
+	[15335] = "诅咒生还者（赛季服）",
+	[15637] = "永恒者（赛季服）",
 	[16433] = "钢铁之魂（赛季服）",
 })
 do achievements[key].name = value; end
@@ -32154,6 +32240,10 @@ for key,value in pairs({
 	[2496] = "获得一份水之精萃。",
 	[3356] = "获得一只冬泉霜刃豹。",
 	[5788] = "在辛德拉阵营中达到崇拜声望。",
+	[15333] = "在赛季服直到击败奈法利安为止都没有死亡。",
+	[15334] = "在赛季服直到击败克苏恩为止都没有死亡。",
+	[15335] = "在赛季服直到击败克尔苏加德为止都没有死亡。",
+	[15637] = "在一个团队副本锁定周期内，在赛季服击败纳克萨玛斯中的所有首领，并且在所有这些首领战中无一人死亡。",
 	[16433] = "在赛季服升到60级为止都没有死亡。",
 })
 do achievements[key].description = value; end
@@ -33859,7 +33949,6 @@ localize(L.HEADER_NAMES, {
 	[-483] = "流沙節杖",
 	[-484] = "天譴軍團入侵",
 	[-520] = "暴雪嘉年華",
-	[-522] = "英雄版",
 	[-546] = "可口可樂活動",
 	[-559] = "兒童週",
 	[-574] = "冬幕節",
@@ -34068,6 +34157,10 @@ for key,value in pairs({
 	[2357] = "克索諾斯恐懼戰馬",
 	[2358] = "戰騎",
 	[5788] = "辛德拉使者",
+	[15333] = "暗影烈焰生還者(大師賽季)",
+	[15334] = "古神生還者(大師賽季)",
+	[15335] = "詛咒生還者(大師賽季)",
+	[15637] = "不朽(大師賽季)",
 	[16433] = "鋼鐵之魂(大師賽季)",
 })
 do achievements[key].name = value; end
@@ -34220,6 +34313,10 @@ for key,value in pairs({
 	[2496] = "獲得水之精萃。",
 	[3356] = "獲得一隻冬泉霜刃豹。",
 	[5788] = "取得辛德拉的聲望崇拜。",
+	[15333] = "在大師賽季中，在完全沒有死亡的情況下擊敗奈法利安。",
+	[15334] = "在大師賽季中，在完全沒有死亡的情況下擊敗克蘇恩。",
+	[15335] = "在大師賽季中，在完全沒有死亡的情況下擊敗科爾蘇加德。",
+	[15637] = "大師賽季中，同一團隊進度時與首領戰鬥期間無人死亡的情況下擊敗納克薩瑪斯的所有首領。",
 	[16433] = "在大師賽季中，在完全沒有死亡的情況下達到60級。",
 })
 do achievements[key].description = value; end

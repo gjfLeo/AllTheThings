@@ -258,6 +258,7 @@ HeaderAssignments = {
 	["Halls of Gold and Glory"] = -427,
 	["Hands"] = -93,
 	["Harvest Festival"] = -577,
+	["Harvesting"] = -654,
 	["Hateful Gladiator"] = -252,
 	["Head"] = -94,
 	["Healers"] = -313,
@@ -652,4 +653,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -64,
 	["Zskera Vaults"] = -403,
 };
-NextHeaderID = -653;
+NextHeaderID = -655;
