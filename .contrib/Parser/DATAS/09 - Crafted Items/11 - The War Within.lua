@@ -124,8 +124,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				i(212948),	-- Fleeting Cavedweller's Delight+
 				i(212957),	-- Fleeting Draught of Shocking Revelations+
 				i(212954),	-- Fleeting Draught of Silent Footfalls+
-				i(212960),	-- Fleeting Grotesque Vial+
 				i(212966),	-- Fleeting Frontline Potion+
+				i(212960),	-- Fleeting Grotesque Vial+
 				i(212972),	-- Fleeting Potion of the Reborn Cheetah+
 				i(212963),	-- Fleeting Potion of Unwavering Focus+
 				i(212951),	-- Fleeting Slumbering Soul Serum+
@@ -137,8 +137,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				i(212949),	-- Fleeting Cavedweller's Delight++
 				i(212958),	-- Fleeting Draught of Shocking Revelations++
 				i(212955),	-- Fleeting Draught of Silent Footfalls++
-				i(212961),	-- Fleeting Grotesque Vial++
 				i(212967),	-- Fleeting Frontline Potion++
+				i(212961),	-- Fleeting Grotesque Vial++
 				i(212973),	-- Fleeting Potion of the Reborn Cheetah++
 				i(212964),	-- Fleeting Potion of Unwavering Focus++
 				i(212952),	-- Fleeting Slumbering Soul Serum++
@@ -150,8 +150,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				i(212950),	-- Fleeting Cavedweller's Delight+++
 				i(212959),	-- Fleeting Draught of Shocking Revelations+++
 				i(212956),	-- Fleeting Draught of Silent Footfalls+++
-				i(212962),	-- Fleeting Grotesque Vial+++
 				i(212968),	-- Fleeting Frontline Potion+++
+				i(212962),	-- Fleeting Grotesque Vial+++
+				i(244849, {["timeline"]={ADDED_11_2_0}}),-- Fleeting Invigorating Healing Potion+++
 				i(212974),	-- Fleeting Potion of the Reborn Cheetah+++
 				i(212965),	-- Fleeting Potion of Unwavering Focus+++
 				i(212953),	-- Fleeting Slumbering Soul Serum+++
@@ -1529,12 +1530,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			r(435829),	-- Lush Luredrop
 			r(435812),	-- Lush Mycobloom
 			r(435830),	-- Lush Orbinid
+			r(1250317, {["timeline"] = {ADDED_11_2_0}}),	-- Lush Phantom Bloom
 			r(435822),	-- Orbinid
 			r(438953),	-- Overload Altered Herb
 			r(438952),	-- Overload Crystallized Herb
 			r(423395),	-- Overload Empowered Herb
 			r(438955),	-- Overload Irradiated Herb
 			r(438961),	-- Overload Sporefused Herb
+			r(1250314, {["timeline"] = {ADDED_11_2_0}}),	-- Phantom Bloom
 			r(435880),	-- Sporefused Arathor's Spear
 			r(435873),	-- Sporefused Blessing Blossom
 			r(435861),	-- Sporefused Luredrop
@@ -2415,6 +2418,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			r(439716),	-- Crystallized Aqirite
 			r(439715),	-- Crystallized Bismuth
 			r(439717),	-- Crystallized Ironclaw
+			r(1250351, {["timeline"]={ADDED_11_2_0}}),-- Desolate Deposit
 			r(439722),	-- EZ-Mine Aqirite
 			r(439721),	-- EZ-Mine Bismuth
 			r(439723),	-- EZ-Mine Ironclaw
@@ -2427,6 +2431,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			r(439743),	-- Overload Weeping
 			r(439710),	-- Rich Aqirite
 			r(439709),	-- Rich Bismuth
+			r(1250356, {["timeline"]={ADDED_11_2_0}}),	-- Rich Desolate Deposit
 			r(439711),	-- Rich Ironclaw
 			r(439728),	-- Webbed Aqirite
 			r(439727),	-- Webbed Bismuth

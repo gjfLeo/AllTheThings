@@ -534,7 +534,7 @@ root(ROOTS.Unsorted, {
 				i(246821),	-- A Steamy Romance Novel: The Lusty Draconian Mage
 				i(246822),	-- A Steamy Romance Novel: Devouring Love
 				i(246823),	-- A Steamy Romance Novel: Got Milk?
-				i(244849),	-- Fleeting Invigorating Healing Potion+++
+
 			}),
 			n(PVP, {
 				i(232600),	-- Astral Gladiator's Weapon Token
@@ -704,10 +704,8 @@ root(ROOTS.Unsorted, {
 			i(249564),	-- Skymaster's Sapphire Shoulderguards
 			i(249565),	-- Skymaster's Sapphire Epaulets
 			i(249699),	-- Shadowguard Translocator
-			i(249701),	-- Technique: Deal: Cartel Zo
-			i(249703),	-- Technique: Deal: Cartel Ba
-			i(249705),	-- Technique: Deal: Cartel Om
-			i(249709),	-- Formula: Gleeful Glamour - Ethereal
+
+
 			i(249710),	-- Cartel Zo Cypher
 			i(249711),	-- Cartel Ba Cypher
 			i(249712),	-- Cartel Om Cypher

@@ -399,6 +399,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
+						i(249709),	-- Formula: Gleeful Glamour - Ethereal (RECIPE!)
+						i(249703),	-- Technique: Deal: Cartel Ba (RECIPE!)
+						i(249705),	-- Technique: Deal: Cartel Om (RECIPE!)
+						i(249701),	-- Technique: Deal: Cartel Zo (RECIPE!)
 						i(186640),	-- Vandal's Gearglider (MOUNT!)
 					}, {	-- RENOWN 9 --
 					}, {	-- RENOWN 10 --

@@ -127,28 +127,28 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						}, {	-- RENOWN 3 --
 						}, {	-- RENOWN 4 --
 						}, {	-- RENOWN 5 --
+							i(239486, {	-- Pattern: Pure Chronomatic Fiber (RECIPE!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+							}),
 							i(239487, {	-- Pattern: Pure Dexterous Fiber (RECIPE!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
 							}),
 							i(239485, {	-- Pattern: Pure Energizing Fiber (RECIPE!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
 							}),
-							i(239486, {	-- Pattern: Pure Chronomatic Fiber (RECIPE!)
-								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
-							}),
 							i(239488, {	-- Pattern: Pure Precise Fiber (RECIPE!)
-								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
-							}),
-							i(244043, {	-- Technique: Contract: The K'aresh Trust (RECIPE!)
-								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
-							}),
-							i(244334, {	-- Technique: Vantus Rune: Manaforge Omega (RECIPE!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
 							}),
 							i(244841, {	-- Recipe: Invigorating Healing Potion (RECIPE!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
 							}),
 							i(248550, {	-- Recipe: Umbral Essentia (RECIPE!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+							}),
+							i(244043, {	-- Technique: Contract: The K'aresh Trust (RECIPE!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
+							}),
+							i(244334, {	-- Technique: Vantus Rune: Manaforge Omega (RECIPE!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 150}},
 							}),
 						}, {	-- RENOWN 6 --
