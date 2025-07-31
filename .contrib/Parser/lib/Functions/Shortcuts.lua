@@ -994,6 +994,11 @@ expansion = function(id, patch, t)							-- Create an EXPANSION Object
 		t = togroups(t);
 	end
 	t = struct("expansionID", id, t);
+	-- TEMP until timeline use within bubbleDown is removed
+	if t.timeline then
+		-- print("WARN: Removing timeline from expansion header",id,unpack(t.timeline))
+		t.timeline = nil
+	end
 	if t and not t.timeline then
 		t._defaulttimeline = { "added " .. math.floor(id) .. ".0" };
 	end
@@ -1356,8 +1361,6 @@ local function HQTCleanup(data)
 		data.type = "hqt"
 		return
 	end
-	data.timeline = nil
-	data.u = nil
 end
 local SpecialRoots = {
 	__DropG = function(g)

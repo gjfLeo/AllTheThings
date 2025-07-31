@@ -3493,7 +3493,8 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = NEVER_IMPLEMENTED, }, {	-- Is this tagged with NEVER_IMPLEMENTED incorrectly?
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF,
+sharedData({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = NEVER_IMPLEMENTED, }, {
 	-- These don't trigger when using ensembles, but they are listed on Wowhead
 	q(65718),	-- Ensemble: Slumbering Caldera Regalia
 	q(72081),	-- Ensemble: Val'sharah Protector's Battleplate
