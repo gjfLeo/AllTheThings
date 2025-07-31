@@ -2472,664 +2472,429 @@ root(ROOTS.PVP, {
 							un(REMOVED_FROM_GAME, i(91182)),	-- Tyrannical Gladiator's Staff
 						}),
 						cl(DEATHKNIGHT, {
-							i(138683, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DEATHKNIGHT },
-									{"select", "itemID", 91306 },	-- Tyrannical Gladiator's Armplates of Alacrity
-									{"select", "itemID", 91297 },	-- Tyrannical Gladiator's Girdle of Accuracy
-									{"select", "itemID", 91303 },	-- Tyrannical Gladiator's Warboots of Alacrity
-									{"select", "itemID", 99891 },	-- Tyrannical Gladiator's Armplates of Alacrity
-									{"select", "itemID", 99886 },	-- Tyrannical Gladiator's Girdle of Accuracy
-									{"select", "itemID", 99889 },	-- Tyrannical Gladiator's Warboots of Alacrity
-									{"select", "itemID", 99806 },	-- Tyrannical Gladiator's Dreadplate Chestpiece
-									{"select", "itemID", 99807 },	-- Tyrannical Gladiator's Dreadplate Gauntlets
-									{"select", "itemID", 99808 },	-- Tyrannical Gladiator's Dreadplate Helm
-									{"select", "itemID", 99809 },	-- Tyrannical Gladiator's Dreadplate Legguards
-									{"select", "itemID", 99810 },	-- Tyrannical Gladiator's Dreadplate Shoulders
-								},
-								["groups"] = {
-									i(91147),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-									i(91149),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-									i(91151),	-- Tyrannical Gladiator's Dreadplate Helm
-									i(91153),	-- Tyrannical Gladiator's Dreadplate Legguards
-									i(91155),	-- Tyrannical Gladiator's Dreadplate Shoulders
-									-- S13 Tag
-									i(99806, {	-- Tyrannical Gladiator's Dreadplate Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99807, {	-- Tyrannical Gladiator's Dreadplate Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99808, {	-- Tyrannical Gladiator's Dreadplate Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99809, {	-- Tyrannical Gladiator's Dreadplate Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99810, {	-- Tyrannical Gladiator's Dreadplate Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138683, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91147),	-- Tyrannical Gladiator's Dreadplate Chestpiece
+							i(91149),	-- Tyrannical Gladiator's Dreadplate Gauntlets
+							i(91151),	-- Tyrannical Gladiator's Dreadplate Helm
+							i(91153),	-- Tyrannical Gladiator's Dreadplate Legguards
+							i(91155),	-- Tyrannical Gladiator's Dreadplate Shoulders
+							-- S13 Tag
+							i(99806, {	-- Tyrannical Gladiator's Dreadplate Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99807, {	-- Tyrannical Gladiator's Dreadplate Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99808, {	-- Tyrannical Gladiator's Dreadplate Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99809, {	-- Tyrannical Gladiator's Dreadplate Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99810, {	-- Tyrannical Gladiator's Dreadplate Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(DRUID, {
-							i(138691, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DRUID },
-									{"select", "itemID", 91171 },	-- Tyrannical Gladiator's Bindings of Meditation
-									{"select", "itemID", 91188 },	-- Tyrannical Gladiator's Bindings of Prowess
-									{"select", "itemID", 91184 },	-- Tyrannical Gladiator's Belt of Cruelty
-									{"select", "itemID", 91167 },	-- Tyrannical Gladiator's Belt of Meditation
-									{"select", "itemID", 91186 },	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-									{"select", "itemID", 91169 },	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-									{"select", "itemID", 99818 },	-- Tyrannical Gladiator's Bindings of Meditation
-									{"select", "itemID", 99827 },	-- Tyrannical Gladiator's Bindings of Prowess
-									{"select", "itemID", 99825 },	-- Tyrannical Gladiator's Belt of Cruelty
-									{"select", "itemID", 99816 },	-- Tyrannical Gladiator's Belt of Meditation
-									{"select", "itemID", 99826 },	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-									{"select", "itemID", 99817 },	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-									{"select", "itemID", 99811 },	-- Tyrannical Gladiator's Dragonhide Gloves
-									{"select", "itemID", 99812 },	-- Tyrannical Gladiator's Dragonhide Helm
-									{"select", "itemID", 99813 },	-- Tyrannical Gladiator's Dragonhide Legguards
-									{"select", "itemID", 99814 },	-- Tyrannical Gladiator's Dragonhide Robes
-									{"select", "itemID", 99815 },	-- Tyrannical Gladiator's Dragonhide Spaulders
-									{"select", "itemID", 99819 },	-- Tyrannical Gladiator's Kodohide Gloves
-									{"select", "itemID", 99820 },	-- Tyrannical Gladiator's Kodohide Helm
-									{"select", "itemID", 99821 },	-- Tyrannical Gladiator's Kodohide Legguards
-									{"select", "itemID", 99822 },	-- Tyrannical Gladiator's Kodohide Robes
-									{"select", "itemID", 99823 },	-- Tyrannical Gladiator's Kodohide Spaulders
-									{"select", "itemID", 99828 },	-- Tyrannical Gladiator's Wyrmhide Gloves
-									{"select", "itemID", 99829 },	-- Tyrannical Gladiator's Wyrmhide Helm
-									{"select", "itemID", 99830 },	-- Tyrannical Gladiator's Wyrmhide Legguards
-									{"select", "itemID", 99831 },	-- Tyrannical Gladiator's Wyrmhide Robes
-									{"select", "itemID", 99832 },	-- Tyrannical Gladiator's Wyrmhide Spaulders
-								},
-								["groups"] = {
-									i(91157),	-- Tyrannical Gladiator's Dragonhide Gloves
-									i(91159),	-- Tyrannical Gladiator's Dragonhide Helm
-									i(91161),	-- Tyrannical Gladiator's Dragonhide Legguards
-									i(91163),	-- Tyrannical Gladiator's Dragonhide Robes
-									i(91165),	-- Tyrannical Gladiator's Dragonhide Spaulders
-									i(91172),	-- Tyrannical Gladiator's Kodohide Gloves
-									i(91174),	-- Tyrannical Gladiator's Kodohide Helm
-									i(91176),	-- Tyrannical Gladiator's Kodohide Legguards
-									i(91178),	-- Tyrannical Gladiator's Kodohide Robes
-									i(91180),	-- Tyrannical Gladiator's Kodohide Spaulders
-									i(91189),	-- Tyrannical Gladiator's Wyrmhide Gloves
-									i(91191),	-- Tyrannical Gladiator's Wyrmhide Helm
-									i(91193),	-- Tyrannical Gladiator's Wyrmhide Legguards
-									i(91195),	-- Tyrannical Gladiator's Wyrmhide Robes
-									i(91197),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-									-- S13 Tag
-									i(99811, {	-- Tyrannical Gladiator's Dragonhide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99812, {	-- Tyrannical Gladiator's Dragonhide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99813, {	-- Tyrannical Gladiator's Dragonhide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99814, {	-- Tyrannical Gladiator's Dragonhide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99815, {	-- Tyrannical Gladiator's Dragonhide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99819, {	-- Tyrannical Gladiator's Kodohide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99820, {	-- Tyrannical Gladiator's Kodohide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99821, {	-- Tyrannical Gladiator's Kodohide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99822, {	-- Tyrannical Gladiator's Kodohide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99823, {	-- Tyrannical Gladiator's Kodohide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99828, {	-- Tyrannical Gladiator's Wyrmhide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99829, {	-- Tyrannical Gladiator's Wyrmhide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99830, {	-- Tyrannical Gladiator's Wyrmhide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99831, {	-- Tyrannical Gladiator's Wyrmhide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99832, {	-- Tyrannical Gladiator's Wyrmhide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138691, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91157),	-- Tyrannical Gladiator's Dragonhide Gloves
+							i(91159),	-- Tyrannical Gladiator's Dragonhide Helm
+							i(91161),	-- Tyrannical Gladiator's Dragonhide Legguards
+							i(91163),	-- Tyrannical Gladiator's Dragonhide Robes
+							i(91165),	-- Tyrannical Gladiator's Dragonhide Spaulders
+							i(91172),	-- Tyrannical Gladiator's Kodohide Gloves
+							i(91174),	-- Tyrannical Gladiator's Kodohide Helm
+							i(91176),	-- Tyrannical Gladiator's Kodohide Legguards
+							i(91178),	-- Tyrannical Gladiator's Kodohide Robes
+							i(91180),	-- Tyrannical Gladiator's Kodohide Spaulders
+							i(91189),	-- Tyrannical Gladiator's Wyrmhide Gloves
+							i(91191),	-- Tyrannical Gladiator's Wyrmhide Helm
+							i(91193),	-- Tyrannical Gladiator's Wyrmhide Legguards
+							i(91195),	-- Tyrannical Gladiator's Wyrmhide Robes
+							i(91197),	-- Tyrannical Gladiator's Wyrmhide Spaulders
+							-- S13 Tag
+							i(99811, {	-- Tyrannical Gladiator's Dragonhide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99812, {	-- Tyrannical Gladiator's Dragonhide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99813, {	-- Tyrannical Gladiator's Dragonhide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99814, {	-- Tyrannical Gladiator's Dragonhide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99815, {	-- Tyrannical Gladiator's Dragonhide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99819, {	-- Tyrannical Gladiator's Kodohide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99820, {	-- Tyrannical Gladiator's Kodohide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99821, {	-- Tyrannical Gladiator's Kodohide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99822, {	-- Tyrannical Gladiator's Kodohide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99823, {	-- Tyrannical Gladiator's Kodohide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99828, {	-- Tyrannical Gladiator's Wyrmhide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99829, {	-- Tyrannical Gladiator's Wyrmhide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99830, {	-- Tyrannical Gladiator's Wyrmhide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99831, {	-- Tyrannical Gladiator's Wyrmhide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99832, {	-- Tyrannical Gladiator's Wyrmhide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(HUNTER, {
-							i(138689, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, HUNTER },
-									{"select", "itemID", 91221 },	-- Tyrannical Gladiator's Wristguards of Accuracy
-									{"select", "itemID", 91220 },	-- Tyrannical Gladiator's Wristguards of Alacrity
-									{"select", "itemID", 91214 },	-- Tyrannical Gladiator's Links of Accuracy
-									{"select", "itemID", 91212 },	-- Tyrannical Gladiator's Links of Cruelty
-									{"select", "itemID", 91218 },	-- Tyrannical Gladiator's Sabatons of Alacrity
-									{"select", "itemID", 91216 },	-- Tyrannical Gladiator's Sabatons of Cruelty
-									{"select", "itemID", 99846 },	-- Tyrannical Gladiator's Wristguards of Accuracy
-									{"select", "itemID", 99845 },	-- Tyrannical Gladiator's Wristguards of Alacrity
-									{"select", "itemID", 99842 },	-- Tyrannical Gladiator's Links of Accuracy
-									{"select", "itemID", 99841 },	-- Tyrannical Gladiator's Links of Cruelty
-									{"select", "itemID", 99844 },	-- Tyrannical Gladiator's Sabatons of Alacrity
-									{"select", "itemID", 99843 },	-- Tyrannical Gladiator's Sabatons of Cruelty
-									{"select", "itemID", 99847 },	-- Tyrannical Gladiator's Chain Armor
-									{"select", "itemID", 99848 },	-- Tyrannical Gladiator's Chain Gauntlets
-									{"select", "itemID", 99849 },	-- Tyrannical Gladiator's Chain Helm
-									{"select", "itemID", 99850 },	-- Tyrannical Gladiator's Chain Leggings
-									{"select", "itemID", 99851 },	-- Tyrannical Gladiator's Chain Spaulders
-								},
-								["groups"] = {
-									i(91222),	-- Tyrannical Gladiator's Chain Armor
-									i(91224),	-- Tyrannical Gladiator's Chain Gauntlets
-									i(91226),	-- Tyrannical Gladiator's Chain Helm
-									i(91228),	-- Tyrannical Gladiator's Chain Leggings
-									i(91230),	-- Tyrannical Gladiator's Chain Spaulders
-									-- S13 Tag
-									i(99847, {	-- Tyrannical Gladiator's Chain Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99848, {	-- Tyrannical Gladiator's Chain Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99849, {	-- Tyrannical Gladiator's Chain Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99850, {	-- Tyrannical Gladiator's Chain Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99851, {	-- Tyrannical Gladiator's Chain Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138689, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91222),	-- Tyrannical Gladiator's Chain Armor
+							i(91224),	-- Tyrannical Gladiator's Chain Gauntlets
+							i(91226),	-- Tyrannical Gladiator's Chain Helm
+							i(91228),	-- Tyrannical Gladiator's Chain Leggings
+							i(91230),	-- Tyrannical Gladiator's Chain Spaulders
+							-- S13 Tag
+							i(99847, {	-- Tyrannical Gladiator's Chain Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99848, {	-- Tyrannical Gladiator's Chain Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99849, {	-- Tyrannical Gladiator's Chain Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99850, {	-- Tyrannical Gladiator's Chain Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99851, {	-- Tyrannical Gladiator's Chain Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(MAGE, {
-							i(138697, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MAGE },
-									{"select", "itemID", 91122 },	-- Tyrannical Gladiator's Cuffs of Prowess
-									{"select", "itemID", 91109 },	-- Tyrannical Gladiator's Cord of Cruelty
-									{"select", "itemID", 91115 },	-- Tyrannical Gladiator's Treads of Cruelty
-									{"select", "itemID", 99788 },	-- Tyrannical Gladiator's Cuffs of Prowess
-									{"select", "itemID", 99781 },	-- Tyrannical Gladiator's Cord of Cruelty
-									{"select", "itemID", 99784 },	-- Tyrannical Gladiator's Treads of Cruelty
-									{"select", "itemID", 99856 },	-- Tyrannical Gladiator's Silk Amice
-									{"select", "itemID", 99853 },	-- Tyrannical Gladiator's Silk Cowl
-									{"select", "itemID", 99852 },	-- Tyrannical Gladiator's Silk Handguards
-									{"select", "itemID", 99855 },	-- Tyrannical Gladiator's Silk Robe
-									{"select", "itemID", 99854 },	-- Tyrannical Gladiator's Silk Trousers
-								},
-								["groups"] = {
-									i(91240),	-- Tyrannical Gladiator's Silk Amice
-									i(91234),	-- Tyrannical Gladiator's Silk Cowl
-									i(91232),	-- Tyrannical Gladiator's Silk Handguards
-									i(91238),	-- Tyrannical Gladiator's Silk Robe
-									i(91236),	-- Tyrannical Gladiator's Silk Trousers
-									-- S13 Tag
-									i(99856, {	-- Tyrannical Gladiator's Silk Amice
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99853, {	-- Tyrannical Gladiator's Silk Cowl
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99852, {	-- Tyrannical Gladiator's Silk Handguards
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99855, {	-- Tyrannical Gladiator's Silk Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99854, {	-- Tyrannical Gladiator's Silk Trousers
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138697, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91240),	-- Tyrannical Gladiator's Silk Amice
+							i(91234),	-- Tyrannical Gladiator's Silk Cowl
+							i(91232),	-- Tyrannical Gladiator's Silk Handguards
+							i(91238),	-- Tyrannical Gladiator's Silk Robe
+							i(91236),	-- Tyrannical Gladiator's Silk Trousers
+							-- S13 Tag
+							i(99856, {	-- Tyrannical Gladiator's Silk Amice
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99853, {	-- Tyrannical Gladiator's Silk Cowl
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99852, {	-- Tyrannical Gladiator's Silk Handguards
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99855, {	-- Tyrannical Gladiator's Silk Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99854, {	-- Tyrannical Gladiator's Silk Trousers
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(MONK, {
-							i(138693, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MONK },
-									{"select", "itemID", 91246 },	-- Tyrannical Gladiator's Armwraps of Accuracy
-									{"select", "itemID", 91242 },	-- Tyrannical Gladiator's Waistband of Cruelty
-									{"select", "itemID", 91337 },	-- Tyrannical Gladiator's Boots of Alacrity
-									{"select", "itemID", 99859 },	-- Tyrannical Gladiator's Armwraps of Accuracy
-									{"select", "itemID", 99857 },	-- Tyrannical Gladiator's Waistband of Cruelty
-									{"select", "itemID", 99858 },	-- Tyrannical Gladiator's Boots of Alacrity
-									{"select", "itemID", 99865 },	-- Tyrannical Gladiator's Copperskin Gloves
-									{"select", "itemID", 99866 },	-- Tyrannical Gladiator's Copperskin Helm
-									{"select", "itemID", 99867 },	-- Tyrannical Gladiator's Copperskin Legguards
-									{"select", "itemID", 99868 },	-- Tyrannical Gladiator's Copperskin Spaulders
-									{"select", "itemID", 99869 },	-- Tyrannical Gladiator's Copperskin Tunic
-									{"select", "itemID", 99860 },	-- Tyrannical Gladiator's Ironskin Gloves
-									{"select", "itemID", 99861 },	-- Tyrannical Gladiator's Ironskin Helm
-									{"select", "itemID", 99862 },	-- Tyrannical Gladiator's Ironskin Legguards
-									{"select", "itemID", 99863 },	-- Tyrannical Gladiator's Ironskin Spaulders
-									{"select", "itemID", 99864 },	-- Tyrannical Gladiator's Ironskin Tunic
-								},
-								["groups"] = {
-									i(91257),	-- Tyrannical Gladiator's Copperskin Gloves
-									i(91259),	-- Tyrannical Gladiator's Copperskin Helm
-									i(91261),	-- Tyrannical Gladiator's Copperskin Legguards
-									i(91263),	-- Tyrannical Gladiator's Copperskin Spaulders
-									i(91265),	-- Tyrannical Gladiator's Copperskin Tunic
-									i(91247),	-- Tyrannical Gladiator's Ironskin Gloves
-									i(91249),	-- Tyrannical Gladiator's Ironskin Helm
-									i(91251),	-- Tyrannical Gladiator's Ironskin Legguards
-									i(91253),	-- Tyrannical Gladiator's Ironskin Spaulders
-									i(91255),	-- Tyrannical Gladiator's Ironskin Tunic
-									-- S13 Tag
-									i(99865, {	-- Tyrannical Gladiator's Copperskin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99866, {	-- Tyrannical Gladiator's Copperskin Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99867, {	-- Tyrannical Gladiator's Copperskin Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99868, {	-- Tyrannical Gladiator's Copperskin Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99869, {	-- Tyrannical Gladiator's Copperskin Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99860, {	-- Tyrannical Gladiator's Ironskin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99861, {	-- Tyrannical Gladiator's Ironskin Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99862, {	-- Tyrannical Gladiator's Ironskin Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99863, {	-- Tyrannical Gladiator's Ironskin Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99864, {	-- Tyrannical Gladiator's Ironskin Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138693, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91257),	-- Tyrannical Gladiator's Copperskin Gloves
+							i(91259),	-- Tyrannical Gladiator's Copperskin Helm
+							i(91261),	-- Tyrannical Gladiator's Copperskin Legguards
+							i(91263),	-- Tyrannical Gladiator's Copperskin Spaulders
+							i(91265),	-- Tyrannical Gladiator's Copperskin Tunic
+							i(91247),	-- Tyrannical Gladiator's Ironskin Gloves
+							i(91249),	-- Tyrannical Gladiator's Ironskin Helm
+							i(91251),	-- Tyrannical Gladiator's Ironskin Legguards
+							i(91253),	-- Tyrannical Gladiator's Ironskin Spaulders
+							i(91255),	-- Tyrannical Gladiator's Ironskin Tunic
+							-- S13 Tag
+							i(99865, {	-- Tyrannical Gladiator's Copperskin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99866, {	-- Tyrannical Gladiator's Copperskin Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99867, {	-- Tyrannical Gladiator's Copperskin Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99868, {	-- Tyrannical Gladiator's Copperskin Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99869, {	-- Tyrannical Gladiator's Copperskin Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99860, {	-- Tyrannical Gladiator's Ironskin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99861, {	-- Tyrannical Gladiator's Ironskin Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99862, {	-- Tyrannical Gladiator's Ironskin Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99863, {	-- Tyrannical Gladiator's Ironskin Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99864, {	-- Tyrannical Gladiator's Ironskin Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(PALADIN, {
-							i(138685, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PALADIN },
-									{"select", "itemID", 91286 },	-- Tyrannical Gladiator's Bracers of Meditation
-									{"select", "itemID", 91285 },	-- Tyrannical Gladiator's Bracers of Prowess
-									{"select", "itemID", 91277 },	-- Tyrannical Gladiator's Clasp of Cruelty
-									{"select", "itemID", 91279 },	-- Tyrannical Gladiator's Clasp of Meditation
-									{"select", "itemID", 91281 },	-- Tyrannical Gladiator's Greaves of Alacrity
-									{"select", "itemID", 91283 },	-- Tyrannical Gladiator's Greaves of Meditation
-									{"select", "itemID", 99880 },	-- Tyrannical Gladiator's Bracers of Meditation
-									{"select", "itemID", 99879 },	-- Tyrannical Gladiator's Bracers of Prowess
-									{"select", "itemID", 99875 },	-- Tyrannical Gladiator's Clasp of Cruelty
-									{"select", "itemID", 99876 },	-- Tyrannical Gladiator's Clasp of Meditation
-									{"select", "itemID", 99877 },	-- Tyrannical Gladiator's Greaves of Alacrity
-									{"select", "itemID", 99878 },	-- Tyrannical Gladiator's Greaves of Meditation
-									{"select", "itemID", 99881 },	-- Tyrannical Gladiator's Ornamented Chestguard
-									{"select", "itemID", 99882 },	-- Tyrannical Gladiator's Ornamented Gloves
-									{"select", "itemID", 99883 },	-- Tyrannical Gladiator's Ornamented Headcover
-									{"select", "itemID", 99884 },	-- Tyrannical Gladiator's Ornamented Legplates
-									{"select", "itemID", 99885 },	-- Tyrannical Gladiator's Ornamented Spaulders
-									{"select", "itemID", 99870 },	-- Tyrannical Gladiator's Scaled Chestpiece
-									{"select", "itemID", 99871 },	-- Tyrannical Gladiator's Scaled Gauntlets
-									{"select", "itemID", 99872 },	-- Tyrannical Gladiator's Scaled Helm
-									{"select", "itemID", 99873 },	-- Tyrannical Gladiator's Scaled Legguards
-									{"select", "itemID", 99874 },	-- Tyrannical Gladiator's Scaled Shoulders
-								},
-								["groups"] = {
-									i(91287),	-- Tyrannical Gladiator's Ornamented Chestguard
-									i(91289),	-- Tyrannical Gladiator's Ornamented Gloves
-									i(91291),	-- Tyrannical Gladiator's Ornamented Headcover
-									i(91293),	-- Tyrannical Gladiator's Ornamented Legplates
-									i(91295),	-- Tyrannical Gladiator's Ornamented Spaulders
-									i(91267),	-- Tyrannical Gladiator's Scaled Chestpiece
-									i(91269),	-- Tyrannical Gladiator's Scaled Gauntlets
-									i(91271),	-- Tyrannical Gladiator's Scaled Helm
-									i(91273),	-- Tyrannical Gladiator's Scaled Legguards
-									i(91275),	-- Tyrannical Gladiator's Scaled Shoulders
-									-- S13 Tag
-									i(99881, {	-- Tyrannical Gladiator's Ornamented Chestguard
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99882, {	-- Tyrannical Gladiator's Ornamented Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99883, {	-- Tyrannical Gladiator's Ornamented Headcover
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99884, {	-- Tyrannical Gladiator's Ornamented Legplates
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99885, {	-- Tyrannical Gladiator's Ornamented Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99870, {	-- Tyrannical Gladiator's Scaled Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99871, {	-- Tyrannical Gladiator's Scaled Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99872, {	-- Tyrannical Gladiator's Scaled Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99873, {	-- Tyrannical Gladiator's Scaled Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99874, {	-- Tyrannical Gladiator's Scaled Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138685, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91287),	-- Tyrannical Gladiator's Ornamented Chestguard
+							i(91289),	-- Tyrannical Gladiator's Ornamented Gloves
+							i(91291),	-- Tyrannical Gladiator's Ornamented Headcover
+							i(91293),	-- Tyrannical Gladiator's Ornamented Legplates
+							i(91295),	-- Tyrannical Gladiator's Ornamented Spaulders
+							i(91267),	-- Tyrannical Gladiator's Scaled Chestpiece
+							i(91269),	-- Tyrannical Gladiator's Scaled Gauntlets
+							i(91271),	-- Tyrannical Gladiator's Scaled Helm
+							i(91273),	-- Tyrannical Gladiator's Scaled Legguards
+							i(91275),	-- Tyrannical Gladiator's Scaled Shoulders
+							-- S13 Tag
+							i(99881, {	-- Tyrannical Gladiator's Ornamented Chestguard
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99882, {	-- Tyrannical Gladiator's Ornamented Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99883, {	-- Tyrannical Gladiator's Ornamented Headcover
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99884, {	-- Tyrannical Gladiator's Ornamented Legplates
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99885, {	-- Tyrannical Gladiator's Ornamented Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99870, {	-- Tyrannical Gladiator's Scaled Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99871, {	-- Tyrannical Gladiator's Scaled Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99872, {	-- Tyrannical Gladiator's Scaled Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99873, {	-- Tyrannical Gladiator's Scaled Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99874, {	-- Tyrannical Gladiator's Scaled Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(PRIEST, {
-							i(138699, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PRIEST },
-									{"select", "itemID", 91123 },	-- Tyrannical Gladiator's Cuffs of Meditation
-									{"select", "itemID", 91113 },	-- Tyrannical Gladiator's Cord of Meditation
-									{"select", "itemID", 91119 },	-- Tyrannical Gladiator's Treads of Meditation
-									{"select", "itemID", 99789 },	-- Tyrannical Gladiator's Cuffs of Meditation
-									{"select", "itemID", 99783 },	-- Tyrannical Gladiator's Cord of Meditation
-									{"select", "itemID", 99786 },	-- Tyrannical Gladiator's Treads of Meditation
-									{"select", "itemID", 99893 },	-- Tyrannical Gladiator's Mooncloth Gloves
-									{"select", "itemID", 99894 },	-- Tyrannical Gladiator's Mooncloth Helm
-									{"select", "itemID", 99895 },	-- Tyrannical Gladiator's Mooncloth Leggings
-									{"select", "itemID", 99897 },	-- Tyrannical Gladiator's Mooncloth Mantle
-									{"select", "itemID", 99896 },	-- Tyrannical Gladiator's Mooncloth Robe
-									{"select", "itemID", 99898 },	-- Tyrannical Gladiator's Satin Gloves
-									{"select", "itemID", 99899 },	-- Tyrannical Gladiator's Satin Hood
-									{"select", "itemID", 99900 },	-- Tyrannical Gladiator's Satin Leggings
-									{"select", "itemID", 99902 },	-- Tyrannical Gladiator's Satin Mantle
-									{"select", "itemID", 99901 },	-- Tyrannical Gladiator's Satin Robe
-								},
-								["groups"] = {
-									i(91309),	-- Tyrannical Gladiator's Mooncloth Gloves
-									i(91311),	-- Tyrannical Gladiator's Mooncloth Helm
-									i(91313),	-- Tyrannical Gladiator's Mooncloth Leggings
-									i(91317),	-- Tyrannical Gladiator's Mooncloth Mantle
-									i(91315),	-- Tyrannical Gladiator's Mooncloth Robe
-									i(91319),	-- Tyrannical Gladiator's Satin Gloves
-									i(91321),	-- Tyrannical Gladiator's Satin Hood
-									i(91323),	-- Tyrannical Gladiator's Satin Leggings
-									i(91327),	-- Tyrannical Gladiator's Satin Mantle
-									i(91325),	-- Tyrannical Gladiator's Satin Robe
-									-- S13 Tag
-									i(99893, {	-- Tyrannical Gladiator's Mooncloth Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99894, {	-- Tyrannical Gladiator's Mooncloth Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99895, {	-- Tyrannical Gladiator's Mooncloth Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99897, {	-- Tyrannical Gladiator's Mooncloth Mantle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99896, {	-- Tyrannical Gladiator's Mooncloth Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99898, {	-- Tyrannical Gladiator's Satin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99899, {	-- Tyrannical Gladiator's Satin Hood
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99900, {	-- Tyrannical Gladiator's Satin Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99902, {	-- Tyrannical Gladiator's Satin Mantle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99901, {	-- Tyrannical Gladiator's Satin Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138699, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91309),	-- Tyrannical Gladiator's Mooncloth Gloves
+							i(91311),	-- Tyrannical Gladiator's Mooncloth Helm
+							i(91313),	-- Tyrannical Gladiator's Mooncloth Leggings
+							i(91317),	-- Tyrannical Gladiator's Mooncloth Mantle
+							i(91315),	-- Tyrannical Gladiator's Mooncloth Robe
+							i(91319),	-- Tyrannical Gladiator's Satin Gloves
+							i(91321),	-- Tyrannical Gladiator's Satin Hood
+							i(91323),	-- Tyrannical Gladiator's Satin Leggings
+							i(91327),	-- Tyrannical Gladiator's Satin Mantle
+							i(91325),	-- Tyrannical Gladiator's Satin Robe
+							-- S13 Tag
+							i(99893, {	-- Tyrannical Gladiator's Mooncloth Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99894, {	-- Tyrannical Gladiator's Mooncloth Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99895, {	-- Tyrannical Gladiator's Mooncloth Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99897, {	-- Tyrannical Gladiator's Mooncloth Mantle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99896, {	-- Tyrannical Gladiator's Mooncloth Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99898, {	-- Tyrannical Gladiator's Satin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99899, {	-- Tyrannical Gladiator's Satin Hood
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99900, {	-- Tyrannical Gladiator's Satin Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99902, {	-- Tyrannical Gladiator's Satin Mantle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99901, {	-- Tyrannical Gladiator's Satin Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(ROGUE, {
-							i(138695, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, ROGUE },
-									{"select", "itemID", 91339 },	-- Tyrannical Gladiator's Armwraps of Alacrity
-									{"select", "itemID", 91335 },	-- Tyrannical Gladiator's Waistband of Accuracy
-									{"select", "itemID", 91337 },	-- Tyrannical Gladiator's Boots of Cruelty
-									{"select", "itemID", 99905 },	-- Tyrannical Gladiator's Armwraps of Alacrity
-									{"select", "itemID", 99903 },	-- Tyrannical Gladiator's Waistband of Accuracy
-									{"select", "itemID", 99904 },	-- Tyrannical Gladiator's Boots of Cruelty
-									{"select", "itemID", 99907 },	-- Tyrannical Gladiator's Leather Gloves
-									{"select", "itemID", 99908 },	-- Tyrannical Gladiator's Leather Helm
-									{"select", "itemID", 99909 },	-- Tyrannical Gladiator's Leather Legguards
-									{"select", "itemID", 99910 },	-- Tyrannical Gladiator's Leather Spaulders
-									{"select", "itemID", 99906 },	-- Tyrannical Gladiator's Leather Tunic
-								},
-								["groups"] = {
-									i(91342),	-- Tyrannical Gladiator's Leather Gloves
-									i(91344),	-- Tyrannical Gladiator's Leather Helm
-									i(91346),	-- Tyrannical Gladiator's Leather Legguards
-									i(91348),	-- Tyrannical Gladiator's Leather Spaulders
-									i(91340),	-- Tyrannical Gladiator's Leather Tunic
-									-- S13 Tag
-									i(99907, {	-- Tyrannical Gladiator's Leather Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99908, {	-- Tyrannical Gladiator's Leather Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99909, {	-- Tyrannical Gladiator's Leather Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99910, {	-- Tyrannical Gladiator's Leather Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99906, {	-- Tyrannical Gladiator's Leather Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138695, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91342),	-- Tyrannical Gladiator's Leather Gloves
+							i(91344),	-- Tyrannical Gladiator's Leather Helm
+							i(91346),	-- Tyrannical Gladiator's Leather Legguards
+							i(91348),	-- Tyrannical Gladiator's Leather Spaulders
+							i(91340),	-- Tyrannical Gladiator's Leather Tunic
+							-- S13 Tag
+							i(99907, {	-- Tyrannical Gladiator's Leather Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99908, {	-- Tyrannical Gladiator's Leather Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99909, {	-- Tyrannical Gladiator's Leather Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99910, {	-- Tyrannical Gladiator's Leather Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99906, {	-- Tyrannical Gladiator's Leather Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(SHAMAN, {
-							i(138687, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, SHAMAN },
-									{"select", "itemID", 91357 },	-- Tyrannical Gladiator's Armbands of Meditation
-									{"select", "itemID", 91356 },	-- Tyrannical Gladiator's Armbands of Prowess
-									{"select", "itemID", 91378 },	-- Tyrannical Gladiator's Waistguard of Cruelty
-									{"select", "itemID", 91350 },	-- Tyrannical Gladiator's Waistguard of Meditation
-									{"select", "itemID", 91352 },	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-									{"select", "itemID", 91354 },	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-									{"select", "itemID", 99915 },	-- Tyrannical Gladiator's Armbands of Meditation
-									{"select", "itemID", 99914 },	-- Tyrannical Gladiator's Armbands of Prowess
-									{"select", "itemID", 99926 },	-- Tyrannical Gladiator's Waistguard of Cruelty
-									{"select", "itemID", 99911 },	-- Tyrannical Gladiator's Waistguard of Meditation
-									{"select", "itemID", 99912 },	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-									{"select", "itemID", 99913 },	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-									{"select", "itemID", 99921 },	-- Tyrannical Gladiator's Linked Armor
-									{"select", "itemID", 99922 },	-- Tyrannical Gladiator's Linked Gauntlets
-									{"select", "itemID", 99923 },	-- Tyrannical Gladiator's Linked Helm
-									{"select", "itemID", 99924 },	-- Tyrannical Gladiator's Linked Leggings
-									{"select", "itemID", 99925 },	-- Tyrannical Gladiator's Linked Spaulders
-									{"select", "itemID", 99927 },	-- Tyrannical Gladiator's Mail Armor
-									{"select", "itemID", 99928 },	-- Tyrannical Gladiator's Mail Gauntlets
-									{"select", "itemID", 99929 },	-- Tyrannical Gladiator's Mail Helm
-									{"select", "itemID", 99930 },	-- Tyrannical Gladiator's Mail Leggings
-									{"select", "itemID", 99931 },	-- Tyrannical Gladiator's Mail Spaulders
-									{"select", "itemID", 99916 },	-- Tyrannical Gladiator's Ringmail Armor
-									{"select", "itemID", 99917 },	-- Tyrannical Gladiator's Ringmail Gauntlets
-									{"select", "itemID", 99918 },	-- Tyrannical Gladiator's Ringmail Helm
-									{"select", "itemID", 99919 },	-- Tyrannical Gladiator's Ringmail Leggings
-									{"select", "itemID", 99920 },	-- Tyrannical Gladiator's Ringmail Spaulders
-								},
-								["groups"] = {
-									i(91368),	-- Tyrannical Gladiator's Linked Armor
-									i(91370),	-- Tyrannical Gladiator's Linked Gauntlets
-									i(91372),	-- Tyrannical Gladiator's Linked Helm
-									i(91374),	-- Tyrannical Gladiator's Linked Leggings
-									i(91376),	-- Tyrannical Gladiator's Linked Spaulders
-									i(91380),	-- Tyrannical Gladiator's Mail Armor
-									i(91382),	-- Tyrannical Gladiator's Mail Gauntlets
-									i(91384),	-- Tyrannical Gladiator's Mail Helm
-									i(91386),	-- Tyrannical Gladiator's Mail Leggings
-									i(91388),	-- Tyrannical Gladiator's Mail Spaulders
-									i(91358),	-- Tyrannical Gladiator's Ringmail Armor
-									i(91360),	-- Tyrannical Gladiator's Ringmail Gauntlets
-									i(91362),	-- Tyrannical Gladiator's Ringmail Helm
-									i(91364),	-- Tyrannical Gladiator's Ringmail Leggings
-									i(91366),	-- Tyrannical Gladiator's Ringmail Spaulders
-									-- S13 Tag
-									i(99921, {	-- Tyrannical Gladiator's Linked Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99922, {	-- Tyrannical Gladiator's Linked Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99923, {	-- Tyrannical Gladiator's Linked Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99924, {	-- Tyrannical Gladiator's Linked Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99925, {	-- Tyrannical Gladiator's Linked Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99927, {	-- Tyrannical Gladiator's Mail Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99928, {	-- Tyrannical Gladiator's Mail Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99929, {	-- Tyrannical Gladiator's Mail Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99930, {	-- Tyrannical Gladiator's Mail Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99931, {	-- Tyrannical Gladiator's Mail Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99916, {	-- Tyrannical Gladiator's Ringmail Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99917, {	-- Tyrannical Gladiator's Ringmail Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99918, {	-- Tyrannical Gladiator's Ringmail Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99919, {	-- Tyrannical Gladiator's Ringmail Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99920, {	-- Tyrannical Gladiator's Ringmail Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138687, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91368),	-- Tyrannical Gladiator's Linked Armor
+							i(91370),	-- Tyrannical Gladiator's Linked Gauntlets
+							i(91372),	-- Tyrannical Gladiator's Linked Helm
+							i(91374),	-- Tyrannical Gladiator's Linked Leggings
+							i(91376),	-- Tyrannical Gladiator's Linked Spaulders
+							i(91380),	-- Tyrannical Gladiator's Mail Armor
+							i(91382),	-- Tyrannical Gladiator's Mail Gauntlets
+							i(91384),	-- Tyrannical Gladiator's Mail Helm
+							i(91386),	-- Tyrannical Gladiator's Mail Leggings
+							i(91388),	-- Tyrannical Gladiator's Mail Spaulders
+							i(91358),	-- Tyrannical Gladiator's Ringmail Armor
+							i(91360),	-- Tyrannical Gladiator's Ringmail Gauntlets
+							i(91362),	-- Tyrannical Gladiator's Ringmail Helm
+							i(91364),	-- Tyrannical Gladiator's Ringmail Leggings
+							i(91366),	-- Tyrannical Gladiator's Ringmail Spaulders
+							-- S13 Tag
+							i(99921, {	-- Tyrannical Gladiator's Linked Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99922, {	-- Tyrannical Gladiator's Linked Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99923, {	-- Tyrannical Gladiator's Linked Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99924, {	-- Tyrannical Gladiator's Linked Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99925, {	-- Tyrannical Gladiator's Linked Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99927, {	-- Tyrannical Gladiator's Mail Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99928, {	-- Tyrannical Gladiator's Mail Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99929, {	-- Tyrannical Gladiator's Mail Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99930, {	-- Tyrannical Gladiator's Mail Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99931, {	-- Tyrannical Gladiator's Mail Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99916, {	-- Tyrannical Gladiator's Ringmail Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99917, {	-- Tyrannical Gladiator's Ringmail Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99918, {	-- Tyrannical Gladiator's Ringmail Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99919, {	-- Tyrannical Gladiator's Ringmail Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99920, {	-- Tyrannical Gladiator's Ringmail Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(WARLOCK, {
-							i(138701, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARLOCK },
-									{"select", "itemID", 91121 },	-- Tyrannical Gladiator's Cuffs of Accuracy
-									{"select", "itemID", 91111 },	-- Tyrannical Gladiator's Cord of Accuracy
-									{"select", "itemID", 91117 },	-- Tyrannical Gladiator's Treads of Alacrity
-									{"select", "itemID", 99787 },	-- Tyrannical Gladiator's Cuffs of Accuracy
-									{"select", "itemID", 99782 },	-- Tyrannical Gladiator's Cord of Accuracy
-									{"select", "itemID", 99785 },	-- Tyrannical Gladiator's Treads of Alacrity
-									{"select", "itemID", 99956 },	-- Tyrannical Gladiator's Felweave Amice
-									{"select", "itemID", 99953 },	-- Tyrannical Gladiator's Felweave Cowl
-									{"select", "itemID", 99952 },	-- Tyrannical Gladiator's Felweave Handguards
-									{"select", "itemID", 99955 },	-- Tyrannical Gladiator's Felweave Raiment
-									{"select", "itemID", 99954 },	-- Tyrannical Gladiator's Felweave Trousers
-								},
-								["groups"] = {
-									i(91428),	-- Tyrannical Gladiator's Felweave Amice
-									i(91422),	-- Tyrannical Gladiator's Felweave Cowl
-									i(91420),	-- Tyrannical Gladiator's Felweave Handguards
-									i(91426),	-- Tyrannical Gladiator's Felweave Raiment
-									i(91424),	-- Tyrannical Gladiator's Felweave Trousers
-									-- S13 Tag
-									i(99956, {	-- Tyrannical Gladiator's Felweave Amice
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99953, {	-- Tyrannical Gladiator's Felweave Cowl
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99952, {	-- Tyrannical Gladiator's Felweave Handguards
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99955, {	-- Tyrannical Gladiator's Felweave Raiment
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99954, {	-- Tyrannical Gladiator's Felweave Trousers
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138701, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91428),	-- Tyrannical Gladiator's Felweave Amice
+							i(91422),	-- Tyrannical Gladiator's Felweave Cowl
+							i(91420),	-- Tyrannical Gladiator's Felweave Handguards
+							i(91426),	-- Tyrannical Gladiator's Felweave Raiment
+							i(91424),	-- Tyrannical Gladiator's Felweave Trousers
+							-- S13 Tag
+							i(99956, {	-- Tyrannical Gladiator's Felweave Amice
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99953, {	-- Tyrannical Gladiator's Felweave Cowl
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99952, {	-- Tyrannical Gladiator's Felweave Handguards
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99955, {	-- Tyrannical Gladiator's Felweave Raiment
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99954, {	-- Tyrannical Gladiator's Felweave Trousers
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(WARRIOR, {
-							i(138681, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARRIOR },
-									{"select", "itemID", 91305 },	-- Tyrannical Gladiator's Armplates of Proficiency
-									{"select", "itemID", 91299 },	-- Tyrannical Gladiator's Girdle of Prowess
-									{"select", "itemID", 91301 },	-- Tyrannical Gladiator's Warboots of Cruelty
-									{"select", "itemID", 99890 },	-- Tyrannical Gladiator's Armplates of Proficiency
-									{"select", "itemID", 99887 },	-- Tyrannical Gladiator's Girdle of Prowess
-									{"select", "itemID", 99888 },	-- Tyrannical Gladiator's Warboots of Cruelty
-									{"select", "itemID", 99957 },	-- Tyrannical Gladiator's Plate Chestpiece
-									{"select", "itemID", 99958 },	-- Tyrannical Gladiator's Plate Gauntlets
-									{"select", "itemID", 99959 },	-- Tyrannical Gladiator's Plate Helm
-									{"select", "itemID", 99960 },	-- Tyrannical Gladiator's Plate Legguards
-									{"select", "itemID", 99961 },	-- Tyrannical Gladiator's Plate Shoulders
-								},
-								["groups"] = {
-									i(91430),	-- Tyrannical Gladiator's Plate Chestpiece
-									i(91432),	-- Tyrannical Gladiator's Plate Gauntlets
-									i(91434),	-- Tyrannical Gladiator's Plate Helm
-									i(91436),	-- Tyrannical Gladiator's Plate Legguards
-									i(91438),	-- Tyrannical Gladiator's Plate Shoulders
-									-- S13 Tag
-									i(99957, {	-- Tyrannical Gladiator's Plate Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99958, {	-- Tyrannical Gladiator's Plate Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99959, {	-- Tyrannical Gladiator's Plate Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99960, {	-- Tyrannical Gladiator's Plate Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99961, {	-- Tyrannical Gladiator's Plate Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138681, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(91430),	-- Tyrannical Gladiator's Plate Chestpiece
+							i(91432),	-- Tyrannical Gladiator's Plate Gauntlets
+							i(91434),	-- Tyrannical Gladiator's Plate Helm
+							i(91436),	-- Tyrannical Gladiator's Plate Legguards
+							i(91438),	-- Tyrannical Gladiator's Plate Shoulders
+							-- S13 Tag
+							i(99957, {	-- Tyrannical Gladiator's Plate Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99958, {	-- Tyrannical Gladiator's Plate Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99959, {	-- Tyrannical Gladiator's Plate Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99960, {	-- Tyrannical Gladiator's Plate Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99961, {	-- Tyrannical Gladiator's Plate Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						n(BACK, {
@@ -3897,664 +3662,429 @@ root(ROOTS.PVP, {
 							un(REMOVED_FROM_GAME, i(94307)),	-- Tyrannical Gladiator's Staff
 						}),
 						cl(DEATHKNIGHT, {
-							i(138684, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, DEATHKNIGHT },
-									{"select", "itemID", 94487 },	-- Tyrannical Gladiator's Armplates of Alacrity
-									{"select", "itemID", 94353 },	-- Tyrannical Gladiator's Girdle of Accuracy
-									{"select", "itemID", 94461 },	-- Tyrannical Gladiator's Warboots of Alacrity
-									{"select", "itemID", 100157 },	-- Tyrannical Gladiator's Armplates of Alacrity
-									{"select", "itemID", 100023 },	-- Tyrannical Gladiator's Girdle of Accuracy
-									{"select", "itemID", 100084 },	-- Tyrannical Gladiator's Warboots of Alacrity
-									{"select", "itemID", 100062 },	-- Tyrannical Gladiator's Dreadplate Chestpiece
-									{"select", "itemID", 100034 },	-- Tyrannical Gladiator's Dreadplate Gauntlets
-									{"select", "itemID", 100099 },	-- Tyrannical Gladiator's Dreadplate Helm
-									{"select", "itemID", 100035 },	-- Tyrannical Gladiator's Dreadplate Legguards
-									{"select", "itemID", 100036 },	-- Tyrannical Gladiator's Dreadplate Shoulders
-								},
-								["groups"] = {
-									i(94392),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-									i(94364),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-									i(94429),	-- Tyrannical Gladiator's Dreadplate Helm
-									i(94365),	-- Tyrannical Gladiator's Dreadplate Legguards
-									i(94366),	-- Tyrannical Gladiator's Dreadplate Shoulders
-									-- S13 Tag
-									i(100062, {	-- Tyrannical Gladiator's Dreadplate Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100034, {	-- Tyrannical Gladiator's Dreadplate Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100099, {	-- Tyrannical Gladiator's Dreadplate Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100035, {	-- Tyrannical Gladiator's Dreadplate Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100036, {	-- Tyrannical Gladiator's Dreadplate Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138684, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94392),	-- Tyrannical Gladiator's Dreadplate Chestpiece
+							i(94364),	-- Tyrannical Gladiator's Dreadplate Gauntlets
+							i(94429),	-- Tyrannical Gladiator's Dreadplate Helm
+							i(94365),	-- Tyrannical Gladiator's Dreadplate Legguards
+							i(94366),	-- Tyrannical Gladiator's Dreadplate Shoulders
+							-- S13 Tag
+							i(100062, {	-- Tyrannical Gladiator's Dreadplate Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100034, {	-- Tyrannical Gladiator's Dreadplate Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100099, {	-- Tyrannical Gladiator's Dreadplate Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100035, {	-- Tyrannical Gladiator's Dreadplate Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100036, {	-- Tyrannical Gladiator's Dreadplate Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(DRUID, {
-							i(138692, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, DRUID },
-									{"select", "itemID", 94407 },	-- Tyrannical Gladiator's Bindings of Meditation
-									{"select", "itemID", 94439 },	-- Tyrannical Gladiator's Bindings of Prowess
-									{"select", "itemID", 94410 },	-- Tyrannical Gladiator's Belt of Cruelty
-									{"select", "itemID", 94491 },	-- Tyrannical Gladiator's Belt of Meditation
-									{"select", "itemID", 94344 },	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-									{"select", "itemID", 94476 },	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-									{"select", "itemID", 100077 },	-- Tyrannical Gladiator's Bindings of Meditation
-									{"select", "itemID", 100109 },	-- Tyrannical Gladiator's Bindings of Prowess
-									{"select", "itemID", 100080 },	-- Tyrannical Gladiator's Belt of Cruelty
-									{"select", "itemID", 100161 },	-- Tyrannical Gladiator's Belt of Meditation
-									{"select", "itemID", 100014 },	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-									{"select", "itemID", 100146 },	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-									{"select", "itemID", 100125 },	-- Tyrannical Gladiator's Dragonhide Gloves
-									{"select", "itemID", 100037 },	-- Tyrannical Gladiator's Dragonhide Helm
-									{"select", "itemID", 100038 },	-- Tyrannical Gladiator's Dragonhide Legguards
-									{"select", "itemID", 100126 },	-- Tyrannical Gladiator's Dragonhide Robes
-									{"select", "itemID", 100127 },	-- Tyrannical Gladiator's Dragonhide Spaulders
-									{"select", "itemID", 100041 },	-- Tyrannical Gladiator's Kodohide Gloves
-									{"select", "itemID", 100162 },	-- Tyrannical Gladiator's Kodohide Helm
-									{"select", "itemID", 100147 },	-- Tyrannical Gladiator's Kodohide Legguards
-									{"select", "itemID", 100107 },	-- Tyrannical Gladiator's Kodohide Robes
-									{"select", "itemID", 100042 },	-- Tyrannical Gladiator's Kodohide Spaulders
-									{"select", "itemID", 100082 },	-- Tyrannical Gladiator's Wyrmhide Gloves
-									{"select", "itemID", 100017 },	-- Tyrannical Gladiator's Wyrmhide Helm
-									{"select", "itemID", 100153 },	-- Tyrannical Gladiator's Wyrmhide Legguards
-									{"select", "itemID", 99988 },	-- Tyrannical Gladiator's Wyrmhide Robes
-									{"select", "itemID", 100086 },	-- Tyrannical Gladiator's Wyrmhide Spaulders
-								},
-								["groups"] = {
-									i(94455),	-- Tyrannical Gladiator's Dragonhide Gloves
-									i(94367),	-- Tyrannical Gladiator's Dragonhide Helm
-									i(94368),	-- Tyrannical Gladiator's Dragonhide Legguards
-									i(94456),	-- Tyrannical Gladiator's Dragonhide Robes
-									i(94457),	-- Tyrannical Gladiator's Dragonhide Spaulders
-									i(94371),	-- Tyrannical Gladiator's Kodohide Gloves
-									i(94492),	-- Tyrannical Gladiator's Kodohide Helm
-									i(94477),	-- Tyrannical Gladiator's Kodohide Legguards
-									i(94437),	-- Tyrannical Gladiator's Kodohide Robes
-									i(94372),	-- Tyrannical Gladiator's Kodohide Spaulders
-									i(94412),	-- Tyrannical Gladiator's Wyrmhide Gloves
-									i(94347),	-- Tyrannical Gladiator's Wyrmhide Helm
-									i(94483),	-- Tyrannical Gladiator's Wyrmhide Legguards
-									i(94327),	-- Tyrannical Gladiator's Wyrmhide Robes
-									i(94416),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-									-- S13 Tag
-									i(100125, {	-- Tyrannical Gladiator's Dragonhide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100037, {	-- Tyrannical Gladiator's Dragonhide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100038, {	-- Tyrannical Gladiator's Dragonhide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100126, {	-- Tyrannical Gladiator's Dragonhide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100127, {	-- Tyrannical Gladiator's Dragonhide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100041, {	-- Tyrannical Gladiator's Kodohide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100162, {	-- Tyrannical Gladiator's Kodohide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100147, {	-- Tyrannical Gladiator's Kodohide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100107, {	-- Tyrannical Gladiator's Kodohide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100042, {	-- Tyrannical Gladiator's Kodohide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100082, {	-- Tyrannical Gladiator's Wyrmhide Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100017, {	-- Tyrannical Gladiator's Wyrmhide Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100153, {	-- Tyrannical Gladiator's Wyrmhide Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99988, {	-- Tyrannical Gladiator's Wyrmhide Robes
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100086, {	-- Tyrannical Gladiator's Wyrmhide Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138692, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94455),	-- Tyrannical Gladiator's Dragonhide Gloves
+							i(94367),	-- Tyrannical Gladiator's Dragonhide Helm
+							i(94368),	-- Tyrannical Gladiator's Dragonhide Legguards
+							i(94456),	-- Tyrannical Gladiator's Dragonhide Robes
+							i(94457),	-- Tyrannical Gladiator's Dragonhide Spaulders
+							i(94371),	-- Tyrannical Gladiator's Kodohide Gloves
+							i(94492),	-- Tyrannical Gladiator's Kodohide Helm
+							i(94477),	-- Tyrannical Gladiator's Kodohide Legguards
+							i(94437),	-- Tyrannical Gladiator's Kodohide Robes
+							i(94372),	-- Tyrannical Gladiator's Kodohide Spaulders
+							i(94412),	-- Tyrannical Gladiator's Wyrmhide Gloves
+							i(94347),	-- Tyrannical Gladiator's Wyrmhide Helm
+							i(94483),	-- Tyrannical Gladiator's Wyrmhide Legguards
+							i(94327),	-- Tyrannical Gladiator's Wyrmhide Robes
+							i(94416),	-- Tyrannical Gladiator's Wyrmhide Spaulders
+							-- S13 Tag
+							i(100125, {	-- Tyrannical Gladiator's Dragonhide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100037, {	-- Tyrannical Gladiator's Dragonhide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100038, {	-- Tyrannical Gladiator's Dragonhide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100126, {	-- Tyrannical Gladiator's Dragonhide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100127, {	-- Tyrannical Gladiator's Dragonhide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100041, {	-- Tyrannical Gladiator's Kodohide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100162, {	-- Tyrannical Gladiator's Kodohide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100147, {	-- Tyrannical Gladiator's Kodohide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100107, {	-- Tyrannical Gladiator's Kodohide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100042, {	-- Tyrannical Gladiator's Kodohide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100082, {	-- Tyrannical Gladiator's Wyrmhide Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100017, {	-- Tyrannical Gladiator's Wyrmhide Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100153, {	-- Tyrannical Gladiator's Wyrmhide Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99988, {	-- Tyrannical Gladiator's Wyrmhide Robes
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100086, {	-- Tyrannical Gladiator's Wyrmhide Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(HUNTER, {
-							i(138690, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, HUNTER },
-									{"select", "itemID", 94469 },	-- Tyrannical Gladiator's Wristguards of Accuracy
-									{"select", "itemID", 94404 },	-- Tyrannical Gladiator's Wristguards of Alacrity
-									{"select", "itemID", 94358 },	-- Tyrannical Gladiator's Links of Accuracy
-									{"select", "itemID", 94330 },	-- Tyrannical Gladiator's Links of Cruelty
-									{"select", "itemID", 94359 },	-- Tyrannical Gladiator's Sabatons of Alacrity
-									{"select", "itemID", 94445 },	-- Tyrannical Gladiator's Sabatons of Cruelty
-									{"select", "itemID", 100139 },	-- Tyrannical Gladiator's Wristguards of Accuracy
-									{"select", "itemID", 100074 },	-- Tyrannical Gladiator's Wristguards of Alacrity
-									{"select", "itemID", 100028 },	-- Tyrannical Gladiator's Links of Accuracy
-									{"select", "itemID", 99991 },	-- Tyrannical Gladiator's Links of Cruelty
-									{"select", "itemID", 100029 },	-- Tyrannical Gladiator's Sabatons of Alacrity
-									{"select", "itemID", 100115 },	-- Tyrannical Gladiator's Sabatons of Cruelty
-									{"select", "itemID", 100075 },	-- Tyrannical Gladiator's Chain Armor
-									{"select", "itemID", 100123 },	-- Tyrannical Gladiator's Chain Gauntlets
-									{"select", "itemID", 100076 },	-- Tyrannical Gladiator's Chain Helm
-									{"select", "itemID", 100054 },	-- Tyrannical Gladiator's Chain Leggings
-									{"select", "itemID", 100120 },	-- Tyrannical Gladiator's Chain Spaulders
-								},
-								["groups"] = {
-									i(94405),	-- Tyrannical Gladiator's Chain Armor
-									i(94453),	-- Tyrannical Gladiator's Chain Gauntlets
-									i(94406),	-- Tyrannical Gladiator's Chain Helm
-									i(94384),	-- Tyrannical Gladiator's Chain Leggings
-									i(94450),	-- Tyrannical Gladiator's Chain Spaulders
-									-- S13 Tag
-									i(100075, {	-- Tyrannical Gladiator's Chain Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100123, {	-- Tyrannical Gladiator's Chain Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100076, {	-- Tyrannical Gladiator's Chain Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100054, {	-- Tyrannical Gladiator's Chain Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100120, {	-- Tyrannical Gladiator's Chain Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138690, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94405),	-- Tyrannical Gladiator's Chain Armor
+							i(94453),	-- Tyrannical Gladiator's Chain Gauntlets
+							i(94406),	-- Tyrannical Gladiator's Chain Helm
+							i(94384),	-- Tyrannical Gladiator's Chain Leggings
+							i(94450),	-- Tyrannical Gladiator's Chain Spaulders
+							-- S13 Tag
+							i(100075, {	-- Tyrannical Gladiator's Chain Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100123, {	-- Tyrannical Gladiator's Chain Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100076, {	-- Tyrannical Gladiator's Chain Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100054, {	-- Tyrannical Gladiator's Chain Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100120, {	-- Tyrannical Gladiator's Chain Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(MAGE, {
-							i(138698, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, MAGE },
-									{"select", "itemID", 94449 },	-- Tyrannical Gladiator's Cuffs of Prowess
-									{"select", "itemID", 94400 },	-- Tyrannical Gladiator's Cord of Cruelty
-									{"select", "itemID", 94402 },	-- Tyrannical Gladiator's Treads of Cruelty
-									{"select", "itemID", 100119 },	-- Tyrannical Gladiator's Cuffs of Prowess
-									{"select", "itemID", 100070 },	-- Tyrannical Gladiator's Cord of Cruelty
-									{"select", "itemID", 100072 },	-- Tyrannical Gladiator's Treads of Cruelty
-									{"select", "itemID", 100059 },	-- Tyrannical Gladiator's Silk Amice
-									{"select", "itemID", 100051 },	-- Tyrannical Gladiator's Silk Cowl
-									{"select", "itemID", 100121 },	-- Tyrannical Gladiator's Silk Handguards
-									{"select", "itemID", 100101 },	-- Tyrannical Gladiator's Silk Robe
-									{"select", "itemID", 100032 },	-- Tyrannical Gladiator's Silk Trousers
-								},
-								["groups"] = {
-									i(94389),	-- Tyrannical Gladiator's Silk Amice
-									i(94381),	-- Tyrannical Gladiator's Silk Cowl
-									i(94451),	-- Tyrannical Gladiator's Silk Handguards
-									i(94431),	-- Tyrannical Gladiator's Silk Robe
-									i(94362),	-- Tyrannical Gladiator's Silk Trousers
-									-- S13 Tag
-									i(100059, {	-- Tyrannical Gladiator's Silk Amice
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100051, {	-- Tyrannical Gladiator's Silk Cowl
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100121, {	-- Tyrannical Gladiator's Silk Handguards
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100101, {	-- Tyrannical Gladiator's Silk Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100032, {	-- Tyrannical Gladiator's Silk Trousers
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138698, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94389),	-- Tyrannical Gladiator's Silk Amice
+							i(94381),	-- Tyrannical Gladiator's Silk Cowl
+							i(94451),	-- Tyrannical Gladiator's Silk Handguards
+							i(94431),	-- Tyrannical Gladiator's Silk Robe
+							i(94362),	-- Tyrannical Gladiator's Silk Trousers
+							-- S13 Tag
+							i(100059, {	-- Tyrannical Gladiator's Silk Amice
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100051, {	-- Tyrannical Gladiator's Silk Cowl
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100121, {	-- Tyrannical Gladiator's Silk Handguards
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100101, {	-- Tyrannical Gladiator's Silk Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100032, {	-- Tyrannical Gladiator's Silk Trousers
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(MONK, {
-							i(138694, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, MONK },
-									{"select", "itemID", 94427 },	-- Tyrannical Gladiator's Armwraps of Accuracy
-									{"select", "itemID", 94360 },	-- Tyrannical Gladiator's Waistband of Cruelty
-									{"select", "itemID", 94432 },	-- Tyrannical Gladiator's Boots of Alacrity
-									{"select", "itemID", 100097 },	-- Tyrannical Gladiator's Armwraps of Accuracy
-									{"select", "itemID", 100030 },	-- Tyrannical Gladiator's Waistband of Cruelty
-									{"select", "itemID", 100102 },	-- Tyrannical Gladiator's Boots of Alacrity
-									{"select", "itemID", 100010 },	-- Tyrannical Gladiator's Copperskin Gloves
-									{"select", "itemID", 100011 },	-- Tyrannical Gladiator's Copperskin Helm
-									{"select", "itemID", 100148 },	-- Tyrannical Gladiator's Copperskin Legguards
-									{"select", "itemID", 100163 },	-- Tyrannical Gladiator's Copperskin Spaulders
-									{"select", "itemID", 100149 },	-- Tyrannical Gladiator's Copperskin Tunic
-									{"select", "itemID", 100061 },	-- Tyrannical Gladiator's Ironskin Gloves
-									{"select", "itemID", 100098 },	-- Tyrannical Gladiator's Ironskin Helm
-									{"select", "itemID", 100040 },	-- Tyrannical Gladiator's Ironskin Legguards
-									{"select", "itemID", 100009 },	-- Tyrannical Gladiator's Ironskin Spaulders
-									{"select", "itemID", 100106 },	-- Tyrannical Gladiator's Ironskin Tunic
-								},
-								["groups"] = {
-									i(94340),	-- Tyrannical Gladiator's Copperskin Gloves
-									i(94341),	-- Tyrannical Gladiator's Copperskin Helm
-									i(94478),	-- Tyrannical Gladiator's Copperskin Legguards
-									i(94493),	-- Tyrannical Gladiator's Copperskin Spaulders
-									i(94479),	-- Tyrannical Gladiator's Copperskin Tunic
-									i(94391),	-- Tyrannical Gladiator's Ironskin Gloves
-									i(94428),	-- Tyrannical Gladiator's Ironskin Helm
-									i(94370),	-- Tyrannical Gladiator's Ironskin Legguards
-									i(94339),	-- Tyrannical Gladiator's Ironskin Spaulders
-									i(94436),	-- Tyrannical Gladiator's Ironskin Tunic
-									-- S13 Tag
-									i(100010, {	-- Tyrannical Gladiator's Copperskin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100011, {	-- Tyrannical Gladiator's Copperskin Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100148, {	-- Tyrannical Gladiator's Copperskin Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100163, {	-- Tyrannical Gladiator's Copperskin Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100149, {	-- Tyrannical Gladiator's Copperskin Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100061, {	-- Tyrannical Gladiator's Ironskin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100098, {	-- Tyrannical Gladiator's Ironskin Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100040, {	-- Tyrannical Gladiator's Ironskin Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100009, {	-- Tyrannical Gladiator's Ironskin Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100106, {	-- Tyrannical Gladiator's Ironskin Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138694, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94340),	-- Tyrannical Gladiator's Copperskin Gloves
+							i(94341),	-- Tyrannical Gladiator's Copperskin Helm
+							i(94478),	-- Tyrannical Gladiator's Copperskin Legguards
+							i(94493),	-- Tyrannical Gladiator's Copperskin Spaulders
+							i(94479),	-- Tyrannical Gladiator's Copperskin Tunic
+							i(94391),	-- Tyrannical Gladiator's Ironskin Gloves
+							i(94428),	-- Tyrannical Gladiator's Ironskin Helm
+							i(94370),	-- Tyrannical Gladiator's Ironskin Legguards
+							i(94339),	-- Tyrannical Gladiator's Ironskin Spaulders
+							i(94436),	-- Tyrannical Gladiator's Ironskin Tunic
+							-- S13 Tag
+							i(100010, {	-- Tyrannical Gladiator's Copperskin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100011, {	-- Tyrannical Gladiator's Copperskin Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100148, {	-- Tyrannical Gladiator's Copperskin Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100163, {	-- Tyrannical Gladiator's Copperskin Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100149, {	-- Tyrannical Gladiator's Copperskin Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100061, {	-- Tyrannical Gladiator's Ironskin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100098, {	-- Tyrannical Gladiator's Ironskin Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100040, {	-- Tyrannical Gladiator's Ironskin Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100009, {	-- Tyrannical Gladiator's Ironskin Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100106, {	-- Tyrannical Gladiator's Ironskin Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(PALADIN, {
-							i(138686, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, PALADIN },
-									{"select", "itemID", 94481 },	-- Tyrannical Gladiator's Bracers of Meditation
-									{"select", "itemID", 94411 },	-- Tyrannical Gladiator's Bracers of Prowess
-									{"select", "itemID", 94480 },	-- Tyrannical Gladiator's Clasp of Cruelty
-									{"select", "itemID", 94464 },	-- Tyrannical Gladiator's Clasp of Meditation
-									{"select", "itemID", 94351 },	-- Tyrannical Gladiator's Greaves of Alacrity
-									{"select", "itemID", 94352 },	-- Tyrannical Gladiator's Greaves of Meditation
-									{"select", "itemID", 100151 },	-- Tyrannical Gladiator's Bracers of Meditation
-									{"select", "itemID", 100081 },	-- Tyrannical Gladiator's Bracers of Prowess
-									{"select", "itemID", 100150 },	-- Tyrannical Gladiator's Clasp of Cruelty
-									{"select", "itemID", 100134 },	-- Tyrannical Gladiator's Clasp of Meditation
-									{"select", "itemID", 100021 },	-- Tyrannical Gladiator's Greaves of Alacrity
-									{"select", "itemID", 100022 },	-- Tyrannical Gladiator's Greaves of Meditation
-									{"select", "itemID", 100015 },	-- Tyrannical Gladiator's Ornamented Chestguard
-									{"select", "itemID", 100108 },	-- Tyrannical Gladiator's Ornamented Gloves
-									{"select", "itemID", 100018 },	-- Tyrannical Gladiator's Ornamented Headcover
-									{"select", "itemID", 100154 },	-- Tyrannical Gladiator's Ornamented Legplates
-									{"select", "itemID", 100083 },	-- Tyrannical Gladiator's Ornamented Spaulders
-									{"select", "itemID", 100133 },	-- Tyrannical Gladiator's Scaled Chestpiece
-									{"select", "itemID", 100013 },	-- Tyrannical Gladiator's Scaled Gauntlets
-									{"select", "itemID", 100165 },	-- Tyrannical Gladiator's Scaled Helm
-									{"select", "itemID", 100166 },	-- Tyrannical Gladiator's Scaled Legguards
-									{"select", "itemID", 100130 },	-- Tyrannical Gladiator's Scaled Shoulders
-								},
-								["groups"] = {
-									i(94345),	-- Tyrannical Gladiator's Ornamented Chestguard
-									i(94438),	-- Tyrannical Gladiator's Ornamented Gloves
-									i(94348),	-- Tyrannical Gladiator's Ornamented Headcover
-									i(94484),	-- Tyrannical Gladiator's Ornamented Legplates
-									i(94413),	-- Tyrannical Gladiator's Ornamented Spaulders
-									i(94463),	-- Tyrannical Gladiator's Scaled Chestpiece
-									i(94343),	-- Tyrannical Gladiator's Scaled Gauntlets
-									i(94495),	-- Tyrannical Gladiator's Scaled Helm
-									i(94496),	-- Tyrannical Gladiator's Scaled Legguards
-									i(94460),	-- Tyrannical Gladiator's Scaled Shoulders
-									-- S13 Tag
-									i(100015, {	-- Tyrannical Gladiator's Ornamented Chestguard
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100108, {	-- Tyrannical Gladiator's Ornamented Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100018, {	-- Tyrannical Gladiator's Ornamented Headcover
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100154, {	-- Tyrannical Gladiator's Ornamented Legplates
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100083, {	-- Tyrannical Gladiator's Ornamented Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100133, {	-- Tyrannical Gladiator's Scaled Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100013, {	-- Tyrannical Gladiator's Scaled Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100165, {	-- Tyrannical Gladiator's Scaled Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100166, {	-- Tyrannical Gladiator's Scaled Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100130, {	-- Tyrannical Gladiator's Scaled Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138686, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94345),	-- Tyrannical Gladiator's Ornamented Chestguard
+							i(94438),	-- Tyrannical Gladiator's Ornamented Gloves
+							i(94348),	-- Tyrannical Gladiator's Ornamented Headcover
+							i(94484),	-- Tyrannical Gladiator's Ornamented Legplates
+							i(94413),	-- Tyrannical Gladiator's Ornamented Spaulders
+							i(94463),	-- Tyrannical Gladiator's Scaled Chestpiece
+							i(94343),	-- Tyrannical Gladiator's Scaled Gauntlets
+							i(94495),	-- Tyrannical Gladiator's Scaled Helm
+							i(94496),	-- Tyrannical Gladiator's Scaled Legguards
+							i(94460),	-- Tyrannical Gladiator's Scaled Shoulders
+							-- S13 Tag
+							i(100015, {	-- Tyrannical Gladiator's Ornamented Chestguard
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100108, {	-- Tyrannical Gladiator's Ornamented Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100018, {	-- Tyrannical Gladiator's Ornamented Headcover
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100154, {	-- Tyrannical Gladiator's Ornamented Legplates
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100083, {	-- Tyrannical Gladiator's Ornamented Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100133, {	-- Tyrannical Gladiator's Scaled Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100013, {	-- Tyrannical Gladiator's Scaled Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100165, {	-- Tyrannical Gladiator's Scaled Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100166, {	-- Tyrannical Gladiator's Scaled Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100130, {	-- Tyrannical Gladiator's Scaled Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(PRIEST, {
-							i(138700, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, PRIEST },
-									{"select", "itemID", 94380 },	-- Tyrannical Gladiator's Cuffs of Meditation
-									{"select", "itemID", 94425 },	-- Tyrannical Gladiator's Cord of Meditation
-									{"select", "itemID", 94468 },	-- Tyrannical Gladiator's Treads of Meditation
-									{"select", "itemID", 100050 },	-- Tyrannical Gladiator's Cuffs of Meditation
-									{"select", "itemID", 100095 },	-- Tyrannical Gladiator's Cord of Meditation
-									{"select", "itemID", 100138 },	-- Tyrannical Gladiator's Treads of Meditation
-									{"select", "itemID", 99989 },	-- Tyrannical Gladiator's Mooncloth Gloves
-									{"select", "itemID", 100089 },	-- Tyrannical Gladiator's Mooncloth Helm
-									{"select", "itemID", 100090 },	-- Tyrannical Gladiator's Mooncloth Leggings
-									{"select", "itemID", 100136 },	-- Tyrannical Gladiator's Mooncloth Mantle
-									{"select", "itemID", 100067 },	-- Tyrannical Gladiator's Mooncloth Robe
-									{"select", "itemID", 100093 },	-- Tyrannical Gladiator's Satin Gloves
-									{"select", "itemID", 100137 },	-- Tyrannical Gladiator's Satin Hood
-									{"select", "itemID", 99996 },	-- Tyrannical Gladiator's Satin Leggings
-									{"select", "itemID", 100055 },	-- Tyrannical Gladiator's Satin Mantle
-									{"select", "itemID", 99998 },	-- Tyrannical Gladiator's Satin Robe
-								},
-								["groups"] = {
-									i(94328),	-- Tyrannical Gladiator's Mooncloth Gloves
-									i(94419),	-- Tyrannical Gladiator's Mooncloth Helm
-									i(94420),	-- Tyrannical Gladiator's Mooncloth Leggings
-									i(94466),	-- Tyrannical Gladiator's Mooncloth Mantle
-									i(94397),	-- Tyrannical Gladiator's Mooncloth Robe
-									i(94423),	-- Tyrannical Gladiator's Satin Gloves
-									i(94467),	-- Tyrannical Gladiator's Satin Hood
-									i(94334),	-- Tyrannical Gladiator's Satin Leggings
-									i(94385),	-- Tyrannical Gladiator's Satin Mantle
-									i(94335),	-- Tyrannical Gladiator's Satin Robe
-									-- S13 Tag
-									i(99989, {	-- Tyrannical Gladiator's Mooncloth Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100089, {	-- Tyrannical Gladiator's Mooncloth Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100090, {	-- Tyrannical Gladiator's Mooncloth Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100136, {	-- Tyrannical Gladiator's Mooncloth Mantle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100067, {	-- Tyrannical Gladiator's Mooncloth Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100093, {	-- Tyrannical Gladiator's Satin Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100137, {	-- Tyrannical Gladiator's Satin Hood
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99996, {	-- Tyrannical Gladiator's Satin Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100055, {	-- Tyrannical Gladiator's Satin Mantle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99998, {	-- Tyrannical Gladiator's Satin Robe
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138700, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94328),	-- Tyrannical Gladiator's Mooncloth Gloves
+							i(94419),	-- Tyrannical Gladiator's Mooncloth Helm
+							i(94420),	-- Tyrannical Gladiator's Mooncloth Leggings
+							i(94466),	-- Tyrannical Gladiator's Mooncloth Mantle
+							i(94397),	-- Tyrannical Gladiator's Mooncloth Robe
+							i(94423),	-- Tyrannical Gladiator's Satin Gloves
+							i(94467),	-- Tyrannical Gladiator's Satin Hood
+							i(94334),	-- Tyrannical Gladiator's Satin Leggings
+							i(94385),	-- Tyrannical Gladiator's Satin Mantle
+							i(94335),	-- Tyrannical Gladiator's Satin Robe
+							-- S13 Tag
+							i(99989, {	-- Tyrannical Gladiator's Mooncloth Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100089, {	-- Tyrannical Gladiator's Mooncloth Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100090, {	-- Tyrannical Gladiator's Mooncloth Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100136, {	-- Tyrannical Gladiator's Mooncloth Mantle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100067, {	-- Tyrannical Gladiator's Mooncloth Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100093, {	-- Tyrannical Gladiator's Satin Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100137, {	-- Tyrannical Gladiator's Satin Hood
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99996, {	-- Tyrannical Gladiator's Satin Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100055, {	-- Tyrannical Gladiator's Satin Mantle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99998, {	-- Tyrannical Gladiator's Satin Robe
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(ROGUE, {
-							i(138696, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, ROGUE },
-									{"select", "itemID", 94470 },	-- Tyrannical Gladiator's Armwraps of Alacrity
-									{"select", "itemID", 94424 },	-- Tyrannical Gladiator's Waistband of Accuracy
-									{"select", "itemID", 94374 },	-- Tyrannical Gladiator's Boots of Cruelty
-									{"select", "itemID", 100140 },	-- Tyrannical Gladiator's Armwraps of Alacrity
-									{"select", "itemID", 100094 },	-- Tyrannical Gladiator's Waistband of Accuracy
-									{"select", "itemID", 100044 },	-- Tyrannical Gladiator's Boots of Cruelty
-									{"select", "itemID", 100047 },	-- Tyrannical Gladiator's Leather Gloves
-									{"select", "itemID", 100096 },	-- Tyrannical Gladiator's Leather Helm
-									{"select", "itemID", 100116 },	-- Tyrannical Gladiator's Leather Legguards
-									{"select", "itemID", 100117 },	-- Tyrannical Gladiator's Leather Spaulders
-									{"select", "itemID", 100113 },	-- Tyrannical Gladiator's Leather Tunic
-								},
-								["groups"] = {
-									i(94377),	-- Tyrannical Gladiator's Leather Gloves
-									i(94426),	-- Tyrannical Gladiator's Leather Helm
-									i(94446),	-- Tyrannical Gladiator's Leather Legguards
-									i(94447),	-- Tyrannical Gladiator's Leather Spaulders
-									i(94443),	-- Tyrannical Gladiator's Leather Tunic
-									-- S13 Tag
-									i(100047, {	-- Tyrannical Gladiator's Leather Gloves
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100096, {	-- Tyrannical Gladiator's Leather Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100116, {	-- Tyrannical Gladiator's Leather Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100117, {	-- Tyrannical Gladiator's Leather Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100113, {	-- Tyrannical Gladiator's Leather Tunic
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138696, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94377),	-- Tyrannical Gladiator's Leather Gloves
+							i(94426),	-- Tyrannical Gladiator's Leather Helm
+							i(94446),	-- Tyrannical Gladiator's Leather Legguards
+							i(94447),	-- Tyrannical Gladiator's Leather Spaulders
+							i(94443),	-- Tyrannical Gladiator's Leather Tunic
+							-- S13 Tag
+							i(100047, {	-- Tyrannical Gladiator's Leather Gloves
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100096, {	-- Tyrannical Gladiator's Leather Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100116, {	-- Tyrannical Gladiator's Leather Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100117, {	-- Tyrannical Gladiator's Leather Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100113, {	-- Tyrannical Gladiator's Leather Tunic
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(SHAMAN, {
-							i(138688, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, SHAMAN },
-									{"select", "itemID", 94337 },	-- Tyrannical Gladiator's Armbands of Meditation
-									{"select", "itemID", 94379 },	-- Tyrannical Gladiator's Armbands of Prowess
-									{"select", "itemID", 94393 },	-- Tyrannical Gladiator's Waistguard of Cruelty
-									{"select", "itemID", 94382 },	-- Tyrannical Gladiator's Waistguard of Meditation
-									{"select", "itemID", 94378 },	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-									{"select", "itemID", 94336 },	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-									{"select", "itemID", 100004 },	-- Tyrannical Gladiator's Armbands of Meditation
-									{"select", "itemID", 100049 },	-- Tyrannical Gladiator's Armbands of Prowess
-									{"select", "itemID", 100063 },	-- Tyrannical Gladiator's Waistguard of Cruelty
-									{"select", "itemID", 100052 },	-- Tyrannical Gladiator's Waistguard of Meditation
-									{"select", "itemID", 100048 },	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-									{"select", "itemID", 100001 },	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-									{"select", "itemID", 100145 },	-- Tyrannical Gladiator's Linked Armor
-									{"select", "itemID", 100128 },	-- Tyrannical Gladiator's Linked Gauntlets
-									{"select", "itemID", 100100 },	-- Tyrannical Gladiator's Linked Helm
-									{"select", "itemID", 100164 },	-- Tyrannical Gladiator's Linked Leggings
-									{"select", "itemID", 100012 },	-- Tyrannical Gladiator's Linked Spaulders
-									{"select", "itemID", 100129 },	-- Tyrannical Gladiator's Mail Armor
-									{"select", "itemID", 100078 },	-- Tyrannical Gladiator's Mail Gauntlets
-									{"select", "itemID", 100079 },	-- Tyrannical Gladiator's Mail Helm
-									{"select", "itemID", 100167 },	-- Tyrannical Gladiator's Mail Leggings
-									{"select", "itemID", 100020 },	-- Tyrannical Gladiator's Mail Spaulders
-									{"select", "itemID", 100103 },	-- Tyrannical Gladiator's Ringmail Armor
-									{"select", "itemID", 100160 },	-- Tyrannical Gladiator's Ringmail Gauntlets
-									{"select", "itemID", 100104 },	-- Tyrannical Gladiator's Ringmail Helm
-									{"select", "itemID", 100105 },	-- Tyrannical Gladiator's Ringmail Leggings
-									{"select", "itemID", 100039 },	-- Tyrannical Gladiator's Ringmail Spaulders
-								},
-								["groups"] = {
-									i(94475),	-- Tyrannical Gladiator's Linked Armor
-									i(94458),	-- Tyrannical Gladiator's Linked Gauntlets
-									i(94430),	-- Tyrannical Gladiator's Linked Helm
-									i(94494),	-- Tyrannical Gladiator's Linked Leggings
-									i(94342),	-- Tyrannical Gladiator's Linked Spaulders
-									i(94459),	-- Tyrannical Gladiator's Mail Armor
-									i(94408),	-- Tyrannical Gladiator's Mail Gauntlets
-									i(94409),	-- Tyrannical Gladiator's Mail Helm
-									i(94497),	-- Tyrannical Gladiator's Mail Leggings
-									i(94350),	-- Tyrannical Gladiator's Mail Spaulders
-									i(94433),	-- Tyrannical Gladiator's Ringmail Armor
-									i(94490),	-- Tyrannical Gladiator's Ringmail Gauntlets
-									i(94434),	-- Tyrannical Gladiator's Ringmail Helm
-									i(94435),	-- Tyrannical Gladiator's Ringmail Leggings
-									i(94369),	-- Tyrannical Gladiator's Ringmail Spaulders
-									-- S13 Tag
-									i(100145, {	-- Tyrannical Gladiator's Linked Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100128, {	-- Tyrannical Gladiator's Linked Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100100, {	-- Tyrannical Gladiator's Linked Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100164, {	-- Tyrannical Gladiator's Linked Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100012, {	-- Tyrannical Gladiator's Linked Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100129, {	-- Tyrannical Gladiator's Mail Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100078, {	-- Tyrannical Gladiator's Mail Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100079, {	-- Tyrannical Gladiator's Mail Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100167, {	-- Tyrannical Gladiator's Mail Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100020, {	-- Tyrannical Gladiator's Mail Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100103, {	-- Tyrannical Gladiator's Ringmail Armor
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100160, {	-- Tyrannical Gladiator's Ringmail Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100104, {	-- Tyrannical Gladiator's Ringmail Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100105, {	-- Tyrannical Gladiator's Ringmail Leggings
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100039, {	-- Tyrannical Gladiator's Ringmail Spaulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138688, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94475),	-- Tyrannical Gladiator's Linked Armor
+							i(94458),	-- Tyrannical Gladiator's Linked Gauntlets
+							i(94430),	-- Tyrannical Gladiator's Linked Helm
+							i(94494),	-- Tyrannical Gladiator's Linked Leggings
+							i(94342),	-- Tyrannical Gladiator's Linked Spaulders
+							i(94459),	-- Tyrannical Gladiator's Mail Armor
+							i(94408),	-- Tyrannical Gladiator's Mail Gauntlets
+							i(94409),	-- Tyrannical Gladiator's Mail Helm
+							i(94497),	-- Tyrannical Gladiator's Mail Leggings
+							i(94350),	-- Tyrannical Gladiator's Mail Spaulders
+							i(94433),	-- Tyrannical Gladiator's Ringmail Armor
+							i(94490),	-- Tyrannical Gladiator's Ringmail Gauntlets
+							i(94434),	-- Tyrannical Gladiator's Ringmail Helm
+							i(94435),	-- Tyrannical Gladiator's Ringmail Leggings
+							i(94369),	-- Tyrannical Gladiator's Ringmail Spaulders
+							-- S13 Tag
+							i(100145, {	-- Tyrannical Gladiator's Linked Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100128, {	-- Tyrannical Gladiator's Linked Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100100, {	-- Tyrannical Gladiator's Linked Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100164, {	-- Tyrannical Gladiator's Linked Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100012, {	-- Tyrannical Gladiator's Linked Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100129, {	-- Tyrannical Gladiator's Mail Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100078, {	-- Tyrannical Gladiator's Mail Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100079, {	-- Tyrannical Gladiator's Mail Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100167, {	-- Tyrannical Gladiator's Mail Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100020, {	-- Tyrannical Gladiator's Mail Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100103, {	-- Tyrannical Gladiator's Ringmail Armor
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100160, {	-- Tyrannical Gladiator's Ringmail Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100104, {	-- Tyrannical Gladiator's Ringmail Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100105, {	-- Tyrannical Gladiator's Ringmail Leggings
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100039, {	-- Tyrannical Gladiator's Ringmail Spaulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(WARLOCK, {
-							i(138702, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, WARLOCK },
-									{"select", "itemID", 94403 },	-- Tyrannical Gladiator's Cuffs of Accuracy
-									{"select", "itemID", 94376 },	-- Tyrannical Gladiator's Cord of Accuracy
-									{"select", "itemID", 94333 },	-- Tyrannical Gladiator's Treads of Alacrity
-									{"select", "itemID", 100073 },	-- Tyrannical Gladiator's Cuffs of Accuracy
-									{"select", "itemID", 100046 },	-- Tyrannical Gladiator's Cord of Accuracy
-									{"select", "itemID", 99994 },	-- Tyrannical Gladiator's Treads of Alacrity
-									{"select", "itemID", 100068 },	-- Tyrannical Gladiator's Felweave Amice
-									{"select", "itemID", 100112 },	-- Tyrannical Gladiator's Felweave Cowl
-									{"select", "itemID", 100111 },	-- Tyrannical Gladiator's Felweave Handguards
-									{"select", "itemID", 100045 },	-- Tyrannical Gladiator's Felweave Raiment
-									{"select", "itemID", 100141 },	-- Tyrannical Gladiator's Felweave Trousers
-								},
-								["groups"] = {
-									i(94398),	-- Tyrannical Gladiator's Felweave Amice
-									i(94442),	-- Tyrannical Gladiator's Felweave Cowl
-									i(94441),	-- Tyrannical Gladiator's Felweave Handguards
-									i(94375),	-- Tyrannical Gladiator's Felweave Raiment
-									i(94471),	-- Tyrannical Gladiator's Felweave Trousers
-									-- S13 Tag
-									i(100068, {	-- Tyrannical Gladiator's Felweave Amice
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100112, {	-- Tyrannical Gladiator's Felweave Cowl
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100111, {	-- Tyrannical Gladiator's Felweave Handguards
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(100045, {	-- Tyrannical Gladiator's Felweave Raiment
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100141, {	-- Tyrannical Gladiator's Felweave Trousers
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138702, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94398),	-- Tyrannical Gladiator's Felweave Amice
+							i(94442),	-- Tyrannical Gladiator's Felweave Cowl
+							i(94441),	-- Tyrannical Gladiator's Felweave Handguards
+							i(94375),	-- Tyrannical Gladiator's Felweave Raiment
+							i(94471),	-- Tyrannical Gladiator's Felweave Trousers
+							-- S13 Tag
+							i(100068, {	-- Tyrannical Gladiator's Felweave Amice
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100112, {	-- Tyrannical Gladiator's Felweave Cowl
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100111, {	-- Tyrannical Gladiator's Felweave Handguards
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(100045, {	-- Tyrannical Gladiator's Felweave Raiment
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100141, {	-- Tyrannical Gladiator's Felweave Trousers
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
 							}),
 						}),
 						cl(WARRIOR, {
-							i(138682, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR, WARRIOR },
-									{"select", "itemID", 94418 },	-- Tyrannical Gladiator's Armplates of Proficiency
-									{"select", "itemID", 94440 },	-- Tyrannical Gladiator's Girdle of Prowess
-									{"select", "itemID", 94414 },	-- Tyrannical Gladiator's Warboots of Cruelty
-									{"select", "itemID", 100088 },	-- Tyrannical Gladiator's Armplates of Proficiency
-									{"select", "itemID", 100110 },	-- Tyrannical Gladiator's Girdle of Prowess
-									{"select", "itemID", 100084 },	-- Tyrannical Gladiator's Warboots of Cruelty
-									{"select", "itemID", 100114 },	-- Tyrannical Gladiator's Plate Chestpiece
-									{"select", "itemID", 99992 },	-- Tyrannical Gladiator's Plate Gauntlets
-									{"select", "itemID", 99993 },	-- Tyrannical Gladiator's Plate Helm
-									{"select", "itemID", 100118 },	-- Tyrannical Gladiator's Plate Legguards
-									{"select", "itemID", 100071 },	-- Tyrannical Gladiator's Plate Shoulders
-								},
-								["groups"] = {
-									i(94444),	-- Tyrannical Gladiator's Plate Chestpiece
-									i(94331),	-- Tyrannical Gladiator's Plate Gauntlets
-									i(94332),	-- Tyrannical Gladiator's Plate Helm
-									i(94448),	-- Tyrannical Gladiator's Plate Legguards
-									i(94401),	-- Tyrannical Gladiator's Plate Shoulders
-									-- S13 Tag
-									i(100114, {	-- Tyrannical Gladiator's Plate Chestpiece
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(99992, {	-- Tyrannical Gladiator's Plate Gauntlets
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99993, {	-- Tyrannical Gladiator's Plate Helm
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100118, {	-- Tyrannical Gladiator's Plate Legguards
-										["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
-									}),
-									i(100071, {	-- Tyrannical Gladiator's Plate Shoulders
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(12, iensemble(138682, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(94444),	-- Tyrannical Gladiator's Plate Chestpiece
+							i(94331),	-- Tyrannical Gladiator's Plate Gauntlets
+							i(94332),	-- Tyrannical Gladiator's Plate Helm
+							i(94448),	-- Tyrannical Gladiator's Plate Legguards
+							i(94401),	-- Tyrannical Gladiator's Plate Shoulders
+							-- S13 Tag
+							i(100114, {	-- Tyrannical Gladiator's Plate Chestpiece
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(99992, {	-- Tyrannical Gladiator's Plate Gauntlets
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99993, {	-- Tyrannical Gladiator's Plate Helm
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100118, {	-- Tyrannical Gladiator's Plate Legguards
+								["cost"] = { { "i",  137642, 3 } },	-- 3x Mark of Honor
+							}),
+							i(100071, {	-- Tyrannical Gladiator's Plate Shoulders
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						n(BACK, {
