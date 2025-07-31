@@ -8833,100 +8833,95 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138636, {	-- Arsenal: Warmongering Gladiator's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(126342, {	-- Warmongering Gladiator's Barrier (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126322, {	-- Warmongering Gladiator's Baton of Light (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126324, {	-- Warmongering Gladiator's Battle Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126432, {	-- Warmongering Gladiator's Bonecracker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126435, {	-- Warmongering Gladiator's Bonegrinder (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126268, {	-- Warmongering Gladiator's Cleaver (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126434, {	-- Warmongering Gladiator's Decapitator (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126334, {	-- Warmongering Gladiator's Endgame (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126325, {	-- Warmongering Gladiator's Energy Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126320, {	-- Warmongering Gladiator's Gavel (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126436, {	-- Warmongering Gladiator's Greatsword (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126430, {	-- Warmongering Gladiator's Hacker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126274, {	-- Warmongering Gladiator's Heavy Crossbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126273, {	-- Warmongering Gladiator's Longbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126321, {	-- Warmongering Gladiator's Mageblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126276, {	-- Warmongering Gladiator's Pike (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126271, {	-- Warmongering Gladiator's Pummeler (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126272, {	-- Warmongering Gladiator's Quickblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126341, {	-- Warmongering Gladiator's Redoubt (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126431, {	-- Warmongering Gladiator's Render (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126335, {	-- Warmongering Gladiator's Reprieve (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126275, {	-- Warmongering Gladiator's Rifle (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126270, {	-- Warmongering Gladiator's Ripper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126269, {	-- Warmongering Gladiator's Shanker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126444, {	-- Warmongering Gladiator's Shield Wall (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126433, {	-- Warmongering Gladiator's Slicer (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126319, {	-- Warmongering Gladiator's Spellblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126277, {	-- Warmongering Gladiator's Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126323, {	-- Warmongering Gladiator's Touch of Defeat (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138636, {	-- Arsenal: Warmongering Gladiator's Weapons (H)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(126342, {	-- Warmongering Gladiator's Barrier (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126322, {	-- Warmongering Gladiator's Baton of Light (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126324, {	-- Warmongering Gladiator's Battle Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126432, {	-- Warmongering Gladiator's Bonecracker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126435, {	-- Warmongering Gladiator's Bonegrinder (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126268, {	-- Warmongering Gladiator's Cleaver (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126434, {	-- Warmongering Gladiator's Decapitator (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126334, {	-- Warmongering Gladiator's Endgame (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126325, {	-- Warmongering Gladiator's Energy Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126320, {	-- Warmongering Gladiator's Gavel (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126436, {	-- Warmongering Gladiator's Greatsword (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126430, {	-- Warmongering Gladiator's Hacker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126274, {	-- Warmongering Gladiator's Heavy Crossbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126273, {	-- Warmongering Gladiator's Longbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126321, {	-- Warmongering Gladiator's Mageblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126276, {	-- Warmongering Gladiator's Pike (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126271, {	-- Warmongering Gladiator's Pummeler (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126272, {	-- Warmongering Gladiator's Quickblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126341, {	-- Warmongering Gladiator's Redoubt (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126431, {	-- Warmongering Gladiator's Render (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126335, {	-- Warmongering Gladiator's Reprieve (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126275, {	-- Warmongering Gladiator's Rifle (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126270, {	-- Warmongering Gladiator's Ripper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126269, {	-- Warmongering Gladiator's Shanker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126444, {	-- Warmongering Gladiator's Shield Wall (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126433, {	-- Warmongering Gladiator's Slicer (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126319, {	-- Warmongering Gladiator's Spellblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126277, {	-- Warmongering Gladiator's Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126323, {	-- Warmongering Gladiator's Touch of Defeat (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {

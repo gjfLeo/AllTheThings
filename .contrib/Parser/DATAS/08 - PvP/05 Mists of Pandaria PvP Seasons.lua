@@ -1,9 +1,28 @@
 -----------------------------------------------
 --      P L A Y E R   V S   P L A Y E R      --
 -----------------------------------------------
+local function MarkOfWHOOOWHATNow(t)
+	-- #if BEFORE 7.0.3.22248
+	-- Programmatically remove all references to Mark of Honor.
+	if t.cost then
+		local totalCosts = #t.cost;
+		for i=totalCosts,1,-1 do
+			if t.cost[i][2] == 137642 then
+				-- Mark of Honor, remove it!
+				table.remove(t.cost, i);
+				totalCosts = totalCosts - 1;
+			end
+		end
+		if totalCosts == 0 then
+			t.cost = nil;
+		end
+	end
+	-- #endif
+	return t;
+end
 
 root(ROOTS.PVP, {
-	pvp(expansion(EXPANSION.MOP, {
+	run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.MOP, {
 		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, {
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 }, }, {
 				ach(8243, {	-- Hero of the Alliance: Malevolent
@@ -28,34 +47,39 @@ root(ROOTS.PVP, {
 				cl(DEATHKNIGHT, {
 					i(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, DEATHKNIGHT },
 							{"select", "itemID", 84438 },	-- Dreadful Gladiator's Armplates of Proficiency
 							{"select", "itemID", 84434 },	-- Dreadful Gladiator's Girdle of Accuracy
 							{"select", "itemID", 84436 },	-- Dreadful Gladiator's Warboots of Cruelty
+							{"select", "itemID", 84372 },	-- Dreadful Gladiator's Dreadplate Chestpiece
+							{"select", "itemID", 84373 },	-- Dreadful Gladiator's Dreadplate Gauntlets
+							{"select", "itemID", 84374 },	-- Dreadful Gladiator's Dreadplate Helm
+							{"select", "itemID", 84375 },	-- Dreadful Gladiator's Dreadplate Legguards
+							{"select", "itemID", 84376 },	-- Dreadful Gladiator's Dreadplate Shoulders
 						},
-						["groups"] = {
-							i(84372, {	-- Dreadful Gladiator's Dreadplate Chestpiece
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84373, {	-- Dreadful Gladiator's Dreadplate Gauntlets
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84374, {	-- Dreadful Gladiator's Dreadplate Helm
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84375, {	-- Dreadful Gladiator's Dreadplate Legguards
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84376, {	-- Dreadful Gladiator's Dreadplate Shoulders
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-						},
+					}),
+					i(84372, {	-- Dreadful Gladiator's Dreadplate Chestpiece
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84373, {	-- Dreadful Gladiator's Dreadplate Gauntlets
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84374, {	-- Dreadful Gladiator's Dreadplate Helm
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84375, {	-- Dreadful Gladiator's Dreadplate Legguards
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84376, {	-- Dreadful Gladiator's Dreadplate Shoulders
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 					}),
 				}),
 				cl(DRUID, {
 					i(138719, {	-- Ensemble: Dreadful Gladiator's Dragonhide Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, DRUID },
 							{"select", "itemID", 84384 },	-- Dreadful Gladiator's Bindings of Meditation
@@ -64,59 +88,73 @@ root(ROOTS.PVP, {
 							{"select", "itemID", 84382 },	-- Dreadful Gladiator's Belt of Meditation
 							{"select", "itemID", 84391 },	-- Dreadful Gladiator's Footguards of Alacrity (Leather)
 							{"select", "itemID", 84383 },	-- Dreadful Gladiator's Footguards of Meditation (Leather)
+							{"select", "itemID", 84377 },	-- Dreadful Gladiator's Dragonhide Gloves
+							{"select", "itemID", 84378 },	-- Dreadful Gladiator's Dragonhide Helm
+							{"select", "itemID", 84379 },	-- Dreadful Gladiator's Dragonhide Legguards
+							{"select", "itemID", 84380 },	-- Dreadful Gladiator's Dragonhide Robes
+							{"select", "itemID", 84381 },	-- Dreadful Gladiator's Dragonhide Spaulders
+							{"select", "itemID", 84385 },	-- Dreadful Gladiator's Kodohide Gloves
+							{"select", "itemID", 84386 },	-- Dreadful Gladiator's Kodohide Helm
+							{"select", "itemID", 84387 },	-- Dreadful Gladiator's Kodohide Legguards
+							{"select", "itemID", 84388 },	-- Dreadful Gladiator's Kodohide Robes
+							{"select", "itemID", 84389 },	-- Dreadful Gladiator's Kodohide Spaulders
+							{"select", "itemID", 84393 },	-- Dreadful Gladiator's Wyrmhide Gloves
+							{"select", "itemID", 84394 },	-- Dreadful Gladiator's Wyrmhide Helm
+							{"select", "itemID", 84395 },	-- Dreadful Gladiator's Wyrmhide Legguards
+							{"select", "itemID", 84396 },	-- Dreadful Gladiator's Wyrmhide Robes
+							{"select", "itemID", 84397 },	-- Dreadful Gladiator's Wyrmhide Spaulders
 						},
-						["groups"] = {
-							i(84377, {	-- Dreadful Gladiator's Dragonhide Gloves
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84378, {	-- Dreadful Gladiator's Dragonhide Helm
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84379, {	-- Dreadful Gladiator's Dragonhide Legguards
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84380, {	-- Dreadful Gladiator's Dragonhide Robes
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84381, {	-- Dreadful Gladiator's Dragonhide Spaulders
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84385, {	-- Dreadful Gladiator's Kodohide Gloves
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84386, {	-- Dreadful Gladiator's Kodohide Helm
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84387, {	-- Dreadful Gladiator's Kodohide Legguards
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84388, {	-- Dreadful Gladiator's Kodohide Robes
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84389, {	-- Dreadful Gladiator's Kodohide Spaulders
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84393, {	-- Dreadful Gladiator's Wyrmhide Gloves
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-							i(84394, {	-- Dreadful Gladiator's Wyrmhide Helm
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84395, {	-- Dreadful Gladiator's Wyrmhide Legguards
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84396, {	-- Dreadful Gladiator's Wyrmhide Robes
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
-							i(84397, {	-- Dreadful Gladiator's Wyrmhide Spaulders
-								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							}),
-						},
+					}),
+					i(84377, {	-- Dreadful Gladiator's Dragonhide Gloves
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84378, {	-- Dreadful Gladiator's Dragonhide Helm
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84379, {	-- Dreadful Gladiator's Dragonhide Legguards
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84380, {	-- Dreadful Gladiator's Dragonhide Robes
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84381, {	-- Dreadful Gladiator's Dragonhide Spaulders
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84385, {	-- Dreadful Gladiator's Kodohide Gloves
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84386, {	-- Dreadful Gladiator's Kodohide Helm
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84387, {	-- Dreadful Gladiator's Kodohide Legguards
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84388, {	-- Dreadful Gladiator's Kodohide Robes
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84389, {	-- Dreadful Gladiator's Kodohide Spaulders
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84393, {	-- Dreadful Gladiator's Wyrmhide Gloves
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+					}),
+					i(84394, {	-- Dreadful Gladiator's Wyrmhide Helm
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84395, {	-- Dreadful Gladiator's Wyrmhide Legguards
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84396, {	-- Dreadful Gladiator's Wyrmhide Robes
+						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
+					}),
+					i(84397, {	-- Dreadful Gladiator's Wyrmhide Spaulders
+						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 					}),
 				}),
 				cl(HUNTER, {
 					i(138718, {	-- Ensemble: Dreadful Gladiator's Chain Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, HUNTER },
 							{"select", "itemID", 84407 },	-- Dreadful Gladiator's Wristguards of Accuracy
@@ -148,6 +186,7 @@ root(ROOTS.PVP, {
 				cl(MAGE, {
 					i(138722, {	-- Ensemble: Dreadful Gladiator's Silk Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, MAGE },
 							{"select", "itemID", 84360 },	-- Dreadful Gladiator's Cuffs of Prowess
@@ -176,6 +215,7 @@ root(ROOTS.PVP, {
 				cl(MONK, {
 					i(138720, {	-- Ensemble: Dreadful Gladiator's Ironskin Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, MONK },
 							{"select", "itemID", 84461 },	-- Dreadful Gladiator's Armwraps of Accuracy
@@ -219,6 +259,7 @@ root(ROOTS.PVP, {
 				cl(PALADIN, {
 					i(138716, {	-- Ensemble: Dreadful Gladiator's Scaled Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, PALADIN },
 							{"select", "itemID", 84428 },	-- Dreadful Gladiator's Bracers of Meditation
@@ -265,6 +306,7 @@ root(ROOTS.PVP, {
 				cl(PRIEST, {
 					i(138723, {	-- Ensemble: Dreadful Gladiator's Satin Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, PRIEST },
 							{"select", "itemID", 84361 },	-- Dreadful Gladiator's Cuffs of Meditation
@@ -308,6 +350,7 @@ root(ROOTS.PVP, {
 				cl(ROGUE, {
 					i(138721, {	-- Ensemble: Dreadful Gladiator's Leather Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, ROGUE },
 							{"select", "itemID", 84460 },	-- Dreadful Gladiator's Armwraps of Alacrity
@@ -336,6 +379,7 @@ root(ROOTS.PVP, {
 				cl(SHAMAN, {
 					i(138717, {	-- Ensemble: Dreadful Gladiator's Ringmail Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, SHAMAN },
 							{"select", "itemID", 84471 },	-- Dreadful Gladiator's Armbands of Meditation
@@ -397,6 +441,7 @@ root(ROOTS.PVP, {
 				cl(WARLOCK, {
 					i(138724, {	-- Ensemble: Dreadful Gladiator's Felweave Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, WARLOCK },
 							{"select", "itemID", 84359 },	-- Dreadful Gladiator's Cuffs of Accuracy
@@ -425,6 +470,7 @@ root(ROOTS.PVP, {
 				cl(WARRIOR, {
 					i(138714, {	-- Ensemble: Dreadful Gladiator's Plate Armor
 						["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						["timeline"] = { ADDED_7_1_5 },
 						["sym"] = {
 							{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, WARRIOR },
 							{"select", "itemID", 84439 },	-- Dreadful Gladiator's Armplates of Alacrity
@@ -654,121 +700,87 @@ root(ROOTS.PVP, {
 			--	["description"] = "These items are available from Malevolent Gladiator: Season 12 class ensembles only",
 				["groups"] = {
 					n(WEAPONS, {
-						i(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR },
-								{"merge"},
-								{"exclude", "itemID",
-									84911,	-- Malevolent Gladiator's Barrier
-									84787,	-- Malevolent Gladiator's Battle Staff
-									84970,	-- Malevolent Gladiator's Bonecracker
-									84785,	-- Malevolent Gladiator's Bonegrinder
-									84965,	-- Malevolent Gladiator's Cleaver
-									84791,	-- Malevolent Gladiator's Decapitator
-									84866,	-- Malevolent Gladiator's Endgame
-									84788,	-- Malevolent Gladiator's Energy Staff
-									84971,	-- Malevolent Gladiator's Gavel
-									84790,	-- Malevolent Gladiator's Greatsword
-									84966,	-- Malevolent Gladiator's Hacker
-									84896,	-- Malevolent Gladiator's Longbow
-									84786,	-- Malevolent Gladiator's Pike
-									84964,	-- Malevolent Gladiator's Pummeler
-									84969,	-- Malevolent Gladiator's Quickblade
-									84912,	-- Malevolent Gladiator's Redoubt
-									84963,	-- Malevolent Gladiator's Render
-									84867,	-- Malevolent Gladiator's Reprieve
-									84900,	-- Malevolent Gladiator's Rifle
-									84962,	-- Malevolent Gladiator's Ripper
-									84967,	-- Malevolent Gladiator's Shanker
-									84910,	-- Malevolent Gladiator's Shield Wall
-									84968,	-- Malevolent Gladiator's Slicer
-									84961,	-- Malevolent Gladiator's Spellblade
-									84789,	-- Malevolent Gladiator's Staff
-									84894,	-- Malevolent Gladiator's Slasher
-								},
-							},
-							["groups"] = {
-								-- S13 Tag
-								i(91482, {	-- Malevolent Gladiator's Barrier
-									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-								}),
-								i(91486, {	-- Malevolent Gladiator's Battle Staff
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91759, {	-- Malevolent Gladiator's Bonecracker
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91442, {	-- Malevolent Gladiator's Bonegrinder
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91442, {	-- Malevolent Gladiator's Bonegrinder
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91446, {	-- Malevolent Gladiator's Cleaver
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91440, {	-- Malevolent Gladiator's Decapitator
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91480, {	-- Malevolent Gladiator's Endgame
-									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-								}),
-								i(91560, {	-- Malevolent Gladiator's Energy Staff
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91556, {	-- Malevolent Gladiator's Gavel
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91444, {	-- Malevolent Gladiator's Greatsword
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91757, {	-- Malevolent Gladiator's Hacker
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91460, {	-- Malevolent Gladiator's Longbow
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91660, {	-- Malevolent Gladiator's Pike
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91448, {	-- Malevolent Gladiator's Pummeler
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91450, {	-- Malevolent Gladiator's Quickblade
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91558, {	-- Malevolent Gladiator's Redoubt
-									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-								}),
-								i(91749, {	-- Malevolent Gladiator's Render
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91494, {	-- Malevolent Gladiator's Reprieve
-									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-								}),
-								i(91554, {	-- Malevolent Gladiator's Rifle
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91745, {	-- Malevolent Gladiator's Ripper
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91743, {	-- Malevolent Gladiator's Shanker
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91771, {	-- Malevolent Gladiator's Shield Wall
-									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-								}),
-								i(91761, {	-- Malevolent Gladiator's Slicer
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91484, {	-- Malevolent Gladiator's Spellblade
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-								i(91535, {	-- Malevolent Gladiator's Staff
-									["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-								}),
-							},
+						moh(80, iensemble(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
+							["timeline"] = { ADDED_7_1_5 },
+						})),
+						-- S13 Tag
+						i(91482, {	-- Malevolent Gladiator's Barrier
+							["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+						}),
+						i(91486, {	-- Malevolent Gladiator's Battle Staff
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91759, {	-- Malevolent Gladiator's Bonecracker
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91442, {	-- Malevolent Gladiator's Bonegrinder
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91442, {	-- Malevolent Gladiator's Bonegrinder
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91446, {	-- Malevolent Gladiator's Cleaver
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91440, {	-- Malevolent Gladiator's Decapitator
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91480, {	-- Malevolent Gladiator's Endgame
+							["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+						}),
+						i(91560, {	-- Malevolent Gladiator's Energy Staff
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91556, {	-- Malevolent Gladiator's Gavel
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91444, {	-- Malevolent Gladiator's Greatsword
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91757, {	-- Malevolent Gladiator's Hacker
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91460, {	-- Malevolent Gladiator's Longbow
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91660, {	-- Malevolent Gladiator's Pike
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91448, {	-- Malevolent Gladiator's Pummeler
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91450, {	-- Malevolent Gladiator's Quickblade
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91558, {	-- Malevolent Gladiator's Redoubt
+							["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+						}),
+						i(91749, {	-- Malevolent Gladiator's Render
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91494, {	-- Malevolent Gladiator's Reprieve
+							["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+						}),
+						i(91554, {	-- Malevolent Gladiator's Rifle
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91745, {	-- Malevolent Gladiator's Ripper
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91743, {	-- Malevolent Gladiator's Shanker
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91771, {	-- Malevolent Gladiator's Shield Wall
+							["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+						}),
+						i(91761, {	-- Malevolent Gladiator's Slicer
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91484, {	-- Malevolent Gladiator's Spellblade
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+						}),
+						i(91535, {	-- Malevolent Gladiator's Staff
+							["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
 						}),
 						-- S12 Tag
 						un(REMOVED_FROM_GAME, i(84911)),	-- Malevolent Gladiator's Barrier
@@ -2362,106 +2374,78 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-									{"select", "itemID", 99794 },	-- Tyrannical Gladiator's Barrier
-									{"select", "itemID", 99796 },	-- Tyrannical Gladiator's Battle Staff
-									{"select", "itemID", 99941 },	-- Tyrannical Gladiator's Bonecracker
-									{"select", "itemID", 99769 },	-- Tyrannical Gladiator's Cleaver
-									{"select", "itemID", 99766 },	-- Tyrannical Gladiator's Decapitator
-									{"select", "itemID", 99793 },	-- Tyrannical Gladiator's Endgame
-									{"select", "itemID", 99837 },	-- Tyrannical Gladiator's Energy Staff
-									{"select", "itemID", 99835 },	-- Tyrannical Gladiator's Gavel
-									{"select", "itemID", 99768 },	-- Tyrannical Gladiator's Greatsword
-									{"select", "itemID", 99940 },	-- Tyrannical Gladiator's Hacker
-									{"select", "itemID", 99805 },	-- Tyrannical Gladiator's Heavy Crossbow
-									{"select", "itemID", 99936 },	-- Tyrannical Gladiator's Mageblade
-									{"select", "itemID", 99770 },	-- Tyrannical Gladiator's Pummeler
-									{"select", "itemID", 99771 },	-- Tyrannical Gladiator's Quickblade
-									{"select", "itemID", 99836 },	-- Tyrannical Gladiator's Redoubt
-									{"select", "itemID", 99935 },	-- Tyrannical Gladiator's Render
-									{"select", "itemID", 99803 },	-- Tyrannical Gladiator's Reprieve
-									{"select", "itemID", 99933 },	-- Tyrannical Gladiator's Ripper
-									{"select", "itemID", 99932 },	-- Tyrannical Gladiator's Shanker
-									{"select", "itemID", 99951 },	-- Tyrannical Gladiator's Shield Wall
-									{"select", "itemID", 99942 },	-- Tyrannical Gladiator's Slicer
-									{"select", "itemID", 99795 },	-- Tyrannical Gladiator's Spellblade
-									{"select", "itemID", 99824 },	-- Tyrannical Gladiator's Staff
-								},
-								["groups"] = {
-									-- S13 Tag
-									i(99794, {	-- Tyrannical Gladiator's Barrier
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99796, {	-- Tyrannical Gladiator's Battle Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99941, {	-- Tyrannical Gladiator's Bonecracker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99769, {	-- Tyrannical Gladiator's Cleaver
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99766, {	-- Tyrannical Gladiator's Decapitator
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99793, {	-- Tyrannical Gladiator's Endgame
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99837, {	-- Tyrannical Gladiator's Energy Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99835, {	-- Tyrannical Gladiator's Gavel
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99768, {	-- Tyrannical Gladiator's Greatsword
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99940, {	-- Tyrannical Gladiator's Hacker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99805, {	-- Tyrannical Gladiator's Heavy Crossbow
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99936, {	-- Tyrannical Gladiator's Mageblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99770, {	-- Tyrannical Gladiator's Pummeler
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99771, {	-- Tyrannical Gladiator's Quickblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99836, {	-- Tyrannical Gladiator's Redoubt
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99935, {	-- Tyrannical Gladiator's Render
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99803, {	-- Tyrannical Gladiator's Reprieve
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99933, {	-- Tyrannical Gladiator's Ripper
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99932, {	-- Tyrannical Gladiator's Shanker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99951, {	-- Tyrannical Gladiator's Shield Wall
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99942, {	-- Tyrannical Gladiator's Slicer
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99795, {	-- Tyrannical Gladiator's Spellblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99824, {	-- Tyrannical Gladiator's Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							-- S13 Tag
+							i(99794, {	-- Tyrannical Gladiator's Barrier
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99796, {	-- Tyrannical Gladiator's Battle Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99941, {	-- Tyrannical Gladiator's Bonecracker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99769, {	-- Tyrannical Gladiator's Cleaver
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99766, {	-- Tyrannical Gladiator's Decapitator
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99793, {	-- Tyrannical Gladiator's Endgame
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99837, {	-- Tyrannical Gladiator's Energy Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99835, {	-- Tyrannical Gladiator's Gavel
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99768, {	-- Tyrannical Gladiator's Greatsword
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99940, {	-- Tyrannical Gladiator's Hacker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99805, {	-- Tyrannical Gladiator's Heavy Crossbow
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99936, {	-- Tyrannical Gladiator's Mageblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99770, {	-- Tyrannical Gladiator's Pummeler
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99771, {	-- Tyrannical Gladiator's Quickblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99836, {	-- Tyrannical Gladiator's Redoubt
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99935, {	-- Tyrannical Gladiator's Render
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99803, {	-- Tyrannical Gladiator's Reprieve
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99933, {	-- Tyrannical Gladiator's Ripper
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99932, {	-- Tyrannical Gladiator's Shanker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99951, {	-- Tyrannical Gladiator's Shield Wall
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99942, {	-- Tyrannical Gladiator's Slicer
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99795, {	-- Tyrannical Gladiator's Spellblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99824, {	-- Tyrannical Gladiator's Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
 							}),
 							un(REMOVED_FROM_GAME, i(91129)),	-- Tyrannical Gladiator's Barrier
 							un(REMOVED_FROM_GAME, i(91133)),	-- Tyrannical Gladiator's Battle Staff
@@ -3815,106 +3799,78 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144245, {	-- Arsenal: Tyrannical Gladiator's Weapons
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-									{"select", "itemID", 100171 },	-- Tyrannical Gladiator's Barrier
-									{"select", "itemID", 99974 },	-- Tyrannical Gladiator's Battle Staff
-									{"select", "itemID", 99983 },	-- Tyrannical Gladiator's Bonecracker
-									{"select", "itemID", 99973 },	-- Tyrannical Gladiator's Cleaver
-									{"select", "itemID", 99984 },	-- Tyrannical Gladiator's Decapitator
-									{"select", "itemID", 100172 },	-- Tyrannical Gladiator's Endgame
-									{"select", "itemID", 99981 },	-- Tyrannical Gladiator's Energy Staff
-									{"select", "itemID", 99963 },	-- Tyrannical Gladiator's Gavel
-									{"select", "itemID", 99972 },	-- Tyrannical Gladiator's Greatsword
-									{"select", "itemID", 99978 },	-- Tyrannical Gladiator's Hacker
-									{"select", "itemID", 99987 },	-- Tyrannical Gladiator's Heavy Crossbow
-									{"select", "itemID", 99971 },	-- Tyrannical Gladiator's Mageblade
-									{"select", "itemID", 99965 },	-- Tyrannical Gladiator's Pummeler
-									{"select", "itemID", 99986 },	-- Tyrannical Gladiator's Quickblade
-									{"select", "itemID", 100168 },	-- Tyrannical Gladiator's Redoubt
-									{"select", "itemID", 99982 },	-- Tyrannical Gladiator's Render
-									{"select", "itemID", 100169 },	-- Tyrannical Gladiator's Reprieve
-									{"select", "itemID", 99977 },	-- Tyrannical Gladiator's Ripper
-									{"select", "itemID", 99976 },	-- Tyrannical Gladiator's Shanker
-									{"select", "itemID", 100170 },	-- Tyrannical Gladiator's Shield Wall
-									{"select", "itemID", 99979 },	-- Tyrannical Gladiator's Slicer
-									{"select", "itemID", 99967 },	-- Tyrannical Gladiator's Spellblade
-									{"select", "itemID", 99968 },	-- Tyrannical Gladiator's Staff
-								},
-								["groups"] = {
-									-- S13 Tag
-									i(100171, {	-- Tyrannical Gladiator's Barrier
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99974, {	-- Tyrannical Gladiator's Battle Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99983, {	-- Tyrannical Gladiator's Bonecracker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99973, {	-- Tyrannical Gladiator's Cleaver
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99984, {	-- Tyrannical Gladiator's Decapitator
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(100172, {	-- Tyrannical Gladiator's Endgame
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99981, {	-- Tyrannical Gladiator's Energy Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99963, {	-- Tyrannical Gladiator's Gavel
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99972, {	-- Tyrannical Gladiator's Greatsword
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99978, {	-- Tyrannical Gladiator's Hacker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99987, {	-- Tyrannical Gladiator's Heavy Crossbow
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99971, {	-- Tyrannical Gladiator's Mageblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99965, {	-- Tyrannical Gladiator's Pummeler
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99986, {	-- Tyrannical Gladiator's Quickblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(100168, {	-- Tyrannical Gladiator's Redoubt
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99982, {	-- Tyrannical Gladiator's Render
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(100169, {	-- Tyrannical Gladiator's Reprieve
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99977, {	-- Tyrannical Gladiator's Ripper
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99976, {	-- Tyrannical Gladiator's Shanker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(100170, {	-- Tyrannical Gladiator's Shield Wall
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(99979, {	-- Tyrannical Gladiator's Slicer
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99967, {	-- Tyrannical Gladiator's Spellblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(99968, {	-- Tyrannical Gladiator's Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(144245, {	-- Arsenal: Tyrannical Gladiator's Weapons (H)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							-- S13 Tag
+							i(100171, {	-- Tyrannical Gladiator's Barrier
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99974, {	-- Tyrannical Gladiator's Battle Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99983, {	-- Tyrannical Gladiator's Bonecracker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99973, {	-- Tyrannical Gladiator's Cleaver
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99984, {	-- Tyrannical Gladiator's Decapitator
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(100172, {	-- Tyrannical Gladiator's Endgame
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99981, {	-- Tyrannical Gladiator's Energy Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99963, {	-- Tyrannical Gladiator's Gavel
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99972, {	-- Tyrannical Gladiator's Greatsword
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99978, {	-- Tyrannical Gladiator's Hacker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99987, {	-- Tyrannical Gladiator's Heavy Crossbow
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99971, {	-- Tyrannical Gladiator's Mageblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99965, {	-- Tyrannical Gladiator's Pummeler
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99986, {	-- Tyrannical Gladiator's Quickblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(100168, {	-- Tyrannical Gladiator's Redoubt
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99982, {	-- Tyrannical Gladiator's Render
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(100169, {	-- Tyrannical Gladiator's Reprieve
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99977, {	-- Tyrannical Gladiator's Ripper
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99976, {	-- Tyrannical Gladiator's Shanker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(100170, {	-- Tyrannical Gladiator's Shield Wall
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(99979, {	-- Tyrannical Gladiator's Slicer
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99967, {	-- Tyrannical Gladiator's Spellblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(99968, {	-- Tyrannical Gladiator's Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
 							}),
 							un(REMOVED_FROM_GAME, i(94501)),	-- Tyrannical Gladiator's Barrier
 							un(REMOVED_FROM_GAME, i(94313)),	-- Tyrannical Gladiator's Battle Staff
@@ -5502,12 +5458,9 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-							}),
+							moh(80, iensemble(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
 							i(103167, {	-- Grievous Gladiator's Barrier
 								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 							}),
@@ -6957,12 +6910,9 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-								},
-							}),
+							moh(80, iensemble(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
 							-- S15 Tag
 							i(102982, {	-- Grievous Gladiator's Barrier
 								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
@@ -8642,91 +8592,86 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_PRIDEFUL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(102785, {	-- Prideful Gladiator's Barrier
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102596, {	-- Prideful Gladiator's Baton of Light
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102601, {	-- Prideful Gladiator's Battle Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102609, {	-- Prideful Gladiator's Bonecracker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102600, {	-- Prideful Gladiator's Cleaver
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102610, {	-- Prideful Gladiator's Decapitator
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102786, {	-- Prideful Gladiator's Endgame
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102607, {	-- Prideful Gladiator's Energy Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102590, {	-- Prideful Gladiator's Gavel
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102599, {	-- Prideful Gladiator's Greatsword
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102604, {	-- Prideful Gladiator's Hacker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102591, {	-- Prideful Gladiator's Longbow
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102598, {	-- Prideful Gladiator's Mageblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102606, {	-- Prideful Gladiator's Pike
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102592, {	-- Prideful Gladiator's Pummeler
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102612, {	-- Prideful Gladiator's Quickblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102782, {	-- Prideful Gladiator's Redoubt
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102608, {	-- Prideful Gladiator's Render
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102783, {	-- Prideful Gladiator's Reprieve
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102597, {	-- Prideful Gladiator's Rifle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102603, {	-- Prideful Gladiator's Ripper
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102602, {	-- Prideful Gladiator's Shanker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102784, {	-- Prideful Gladiator's Shield Wall
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(102605, {	-- Prideful Gladiator's Slicer
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102594, {	-- Prideful Gladiator's Spellblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(102593, {	-- Prideful Gladiator's Touch of Defeat
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(102785, {	-- Prideful Gladiator's Barrier
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102596, {	-- Prideful Gladiator's Baton of Light
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102601, {	-- Prideful Gladiator's Battle Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102609, {	-- Prideful Gladiator's Bonecracker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102600, {	-- Prideful Gladiator's Cleaver
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102610, {	-- Prideful Gladiator's Decapitator
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102786, {	-- Prideful Gladiator's Endgame
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102607, {	-- Prideful Gladiator's Energy Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102590, {	-- Prideful Gladiator's Gavel
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102599, {	-- Prideful Gladiator's Greatsword
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102604, {	-- Prideful Gladiator's Hacker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102591, {	-- Prideful Gladiator's Longbow
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102598, {	-- Prideful Gladiator's Mageblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102606, {	-- Prideful Gladiator's Pike
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102592, {	-- Prideful Gladiator's Pummeler
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102612, {	-- Prideful Gladiator's Quickblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102782, {	-- Prideful Gladiator's Redoubt
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102608, {	-- Prideful Gladiator's Render
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102783, {	-- Prideful Gladiator's Reprieve
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102597, {	-- Prideful Gladiator's Rifle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102603, {	-- Prideful Gladiator's Ripper
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102602, {	-- Prideful Gladiator's Shanker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102784, {	-- Prideful Gladiator's Shield Wall
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(102605, {	-- Prideful Gladiator's Slicer
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102594, {	-- Prideful Gladiator's Spellblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(102593, {	-- Prideful Gladiator's Touch of Defeat
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -9367,91 +9312,86 @@ root(ROOTS.PVP, {
 				["groups"] = {
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(144250, {	-- Arsenal: Prideful Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_PRIDEFUL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(103364, {	-- Prideful Gladiator's Barrier
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103507, {	-- Prideful Gladiator's Baton of Light
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103366, {	-- Prideful Gladiator's Battle Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103509, {	-- Prideful Gladiator's Bonecracker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103339, {	-- Prideful Gladiator's Cleaver
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103336, {	-- Prideful Gladiator's Decapitator
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103363, {	-- Prideful Gladiator's Endgame
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103406, {	-- Prideful Gladiator's Energy Staff
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103404, {	-- Prideful Gladiator's Gavel
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103338, {	-- Prideful Gladiator's Greatsword
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103508, {	-- Prideful Gladiator's Hacker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103350, {	-- Prideful Gladiator's Longbow
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103504, {	-- Prideful Gladiator's Mageblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103461, {	-- Prideful Gladiator's Pike
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103340, {	-- Prideful Gladiator's Pummeler
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103341, {	-- Prideful Gladiator's Quickblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103405, {	-- Prideful Gladiator's Redoubt
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103503, {	-- Prideful Gladiator's Render
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103373, {	-- Prideful Gladiator's Reprieve
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103403, {	-- Prideful Gladiator's Rifle
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103502, {	-- Prideful Gladiator's Ripper
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103501, {	-- Prideful Gladiator's Shanker
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103519, {	-- Prideful Gladiator's Shield Wall
-										["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(103510, {	-- Prideful Gladiator's Slicer
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103365, {	-- Prideful Gladiator's Spellblade
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(103374, {	-- Prideful Gladiator's Touch of Defeat
-										["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(144250, {	-- Arsenal: Prideful Gladiator's Weapons (H)
+								["timeline"] = { ADDED_7_1_5 },
+							})),
+							i(103364, {	-- Prideful Gladiator's Barrier
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103507, {	-- Prideful Gladiator's Baton of Light
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103366, {	-- Prideful Gladiator's Battle Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103509, {	-- Prideful Gladiator's Bonecracker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103339, {	-- Prideful Gladiator's Cleaver
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103336, {	-- Prideful Gladiator's Decapitator
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103363, {	-- Prideful Gladiator's Endgame
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103406, {	-- Prideful Gladiator's Energy Staff
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103404, {	-- Prideful Gladiator's Gavel
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103338, {	-- Prideful Gladiator's Greatsword
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103508, {	-- Prideful Gladiator's Hacker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103350, {	-- Prideful Gladiator's Longbow
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103504, {	-- Prideful Gladiator's Mageblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103461, {	-- Prideful Gladiator's Pike
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103340, {	-- Prideful Gladiator's Pummeler
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103341, {	-- Prideful Gladiator's Quickblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103405, {	-- Prideful Gladiator's Redoubt
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103503, {	-- Prideful Gladiator's Render
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103373, {	-- Prideful Gladiator's Reprieve
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103403, {	-- Prideful Gladiator's Rifle
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103502, {	-- Prideful Gladiator's Ripper
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103501, {	-- Prideful Gladiator's Shanker
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103519, {	-- Prideful Gladiator's Shield Wall
+								["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(103510, {	-- Prideful Gladiator's Slicer
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103365, {	-- Prideful Gladiator's Spellblade
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(103374, {	-- Prideful Gladiator's Touch of Defeat
+								["cost"] = { { "i",  137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -10277,7 +10217,7 @@ root(ROOTS.PVP, {
 				}),
 			}),
 		})),
-	})),
+	}))),
 });
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {

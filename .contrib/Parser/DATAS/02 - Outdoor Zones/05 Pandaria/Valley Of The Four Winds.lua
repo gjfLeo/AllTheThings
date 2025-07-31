@@ -1420,37 +1420,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							n(WEAPONS, {
-								i(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
-									["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-										{"select", "itemID",
-											99794,	-- Tyrannical Gladiator's Barrier
-											99796,	-- Tyrannical Gladiator's Battle Staff
-											99941,	-- Tyrannical Gladiator's Bonecracker
-											99769,	-- Tyrannical Gladiator's Cleaver
-											99766,	-- Tyrannical Gladiator's Decapitator
-											99793,	-- Tyrannical Gladiator's Endgame
-											99837,	-- Tyrannical Gladiator's Energy Staff
-											99835,	-- Tyrannical Gladiator's Gavel
-											99768,	-- Tyrannical Gladiator's Greatsword
-											99940,	-- Tyrannical Gladiator's Hacker
-											99805,	-- Tyrannical Gladiator's Heavy Crossbow
-											99936,	-- Tyrannical Gladiator's Mageblade
-											99770,	-- Tyrannical Gladiator's Pummeler
-											99771,	-- Tyrannical Gladiator's Quickblade
-											99836,	-- Tyrannical Gladiator's Redoubt
-											99935,	-- Tyrannical Gladiator's Render
-											99803,	-- Tyrannical Gladiator's Reprieve
-											99933,	-- Tyrannical Gladiator's Ripper
-											99932,	-- Tyrannical Gladiator's Shanker
-											99951,	-- Tyrannical Gladiator's Shield Wall
-											99942,	-- Tyrannical Gladiator's Slicer
-											99795,	-- Tyrannical Gladiator's Spellblade
-											99824,	-- Tyrannical Gladiator's Staff
-										},
-									},
-								}),
+								moh(80, iensemble(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								i(99794, {	-- Tyrannical Gladiator's Barrier
 									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 								}),
@@ -2266,12 +2238,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							n(WEAPONS, {
-								i(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
-									["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-									},
-								}),
+								moh(80, iensemble(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								i(103167, {	-- Grievous Gladiator's Barrier
 									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 								}),
@@ -3691,41 +3660,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							n(WEAPONS, {
-								i(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
-									["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR },
-										{"merge"},
-										{"exclude", "itemID",
-											84911,	-- Malevolent Gladiator's Barrier
-											84787,	-- Malevolent Gladiator's Battle Staff
-											84970,	-- Malevolent Gladiator's Bonecracker
-											84785,	-- Malevolent Gladiator's Bonegrinder
-											84965,	-- Malevolent Gladiator's Cleaver
-											84791,	-- Malevolent Gladiator's Decapitator
-											84866,	-- Malevolent Gladiator's Endgame
-											84788,	-- Malevolent Gladiator's Energy Staff
-											84971,	-- Malevolent Gladiator's Gavel
-											84790,	-- Malevolent Gladiator's Greatsword
-											84966,	-- Malevolent Gladiator's Hacker
-											84896,	-- Malevolent Gladiator's Longbow
-											84786,	-- Malevolent Gladiator's Pike
-											84964,	-- Malevolent Gladiator's Pummeler
-											84969,	-- Malevolent Gladiator's Quickblade
-											84912,	-- Malevolent Gladiator's Redoubt
-											84963,	-- Malevolent Gladiator's Render
-											84867,	-- Malevolent Gladiator's Reprieve
-											84900,	-- Malevolent Gladiator's Rifle
-											84962,	-- Malevolent Gladiator's Ripper
-											84967,	-- Malevolent Gladiator's Shanker
-											84910,	-- Malevolent Gladiator's Shield Wall
-											84968,	-- Malevolent Gladiator's Slicer
-											84961,	-- Malevolent Gladiator's Spellblade
-											84789,	-- Malevolent Gladiator's Staff
-											84894,	-- Malevolent Gladiator's Slasher
-										},
-									},
-								}),
+								moh(80, iensemble(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								-- S12 Tag
 								un(REMOVED_FROM_GAME, i(84911)),	-- Malevolent Gladiator's Barrier
 								un(REMOVED_FROM_GAME, i(84787)),	-- Malevolent Gladiator's Battle Staff
@@ -4742,12 +4679,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							n(WEAPONS, {
-								i(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)
-									["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_weapons_ensemble", EXPANSION.MOP, SEASON_PRIDEFUL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-									},
-								}),
+								moh(80, iensemble(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								i(102785, {	-- Prideful Gladiator's Barrier
 									["cost"] = { { "i",  137642, 2 } },	-- 2x Mark of Honor
 								}),
