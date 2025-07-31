@@ -157,6 +157,23 @@ applyData = function(data, t)
 		end
 	end
 end
+-- Performs applyData logic to the top-level table
+-- This is sort of a workaround for replacing bubbleDownSelf a billion times with static field and groups
+applyDataSelf = function(data, t)
+	if not data then
+		print("ERROR: applyDataSelf: No Data")
+		return t
+	end
+	if not t then
+		print("ERROR: applyDataSelf: No Source 't'")
+		return t
+	end
+	-- if this is an array, convert to .g container first to prevent merge confusion
+	t = togroups(t);
+	-- then apply regular applyData on the group
+	applyData(data, t);
+	return t
+end
 -- Applies a function against the group and all sub-groups
 applyFunc = function(func, t)
 	if not func then return t end
