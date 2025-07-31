@@ -4418,6 +4418,7 @@ i(244915, 4834);	-- Jimmy
 i(245269, 4845);	-- Mr. Long-Legs
 i(245214, 4838);	-- Palek'ti, the Mouth of Nothingness
 i(244910, 4829);	-- Penumbral Terror
+i(246451, 4858);	-- Shadefur Brewthief
 i(245255, 4841);	-- Starlight
 i(245212, 4836);	-- Vitriolic Inchshifter
 --- NPC ---
@@ -4434,7 +4435,6 @@ i(246337, 4853);	-- Rustyroot Fel Snooter
 i(245256, 4843);	-- Sao'rhon
 i(244468, 4826);	-- Scrappy Thorntail
 i(246343, 4856);	-- Scruffyhorn Fel Snooter
-i(246451, 4858);	-- Shadefur Brewthief
 i(245215, 4839);	-- Shimmering Inchshifter
 i(246723, 4860);	-- Unfazed Diver
 i(244467, 4825);	-- Veridian Thorntail

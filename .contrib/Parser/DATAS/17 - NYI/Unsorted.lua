@@ -46,7 +46,6 @@ root(ROOTS.Unsorted, {
 				i(246339),	-- Duskytooth Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
 				i(246343),	-- Scruffyhorn Fel Snooter
-				i(246451),	-- Shadefur Brewthief
 				i(246694),	-- Zo'ya
 				i(246723),	-- Unfazed Diver
 			}),
