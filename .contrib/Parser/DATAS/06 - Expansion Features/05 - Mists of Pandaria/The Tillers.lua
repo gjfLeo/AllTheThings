@@ -2456,7 +2456,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				}),
 			}),
 			n(VENDORS, {
-				n(53.2, 51.6, {	-- Barnaby Fletcher <Washed-Up Mage>
+				n(67565, {	-- Barnaby Fletcher <Washed-Up Mage>
 					["sourceQuest"] = 32198,	-- One Magical, Flying Kingdom's Trash...
 					["coord"] = { 53.2, 51.6, VALLEY_OF_THE_FOUR_WINDS },
 					["groups"] = {
