@@ -7,48 +7,45 @@ namespace ATT
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            // Gather a list of files linked to the program
-            var allFiles = new List<string>();
-            if (args != null && args.Length > 0)
+            try
             {
-                foreach (var path in args)
+                // Gather a list of files linked to the program
+                var allFiles = new List<string>();
+                if (args != null && args.Length > 0)
                 {
-                    FileAttributes attr = File.GetAttributes(path);
-                    if (attr.HasFlag(FileAttributes.Directory))
+                    foreach (var path in args)
                     {
-                        allFiles.AddRange(Directory.GetFiles(path, "*.lua", SearchOption.AllDirectories));
+                        FileAttributes attr = File.GetAttributes(path);
+                        if (attr.HasFlag(FileAttributes.Directory))
+                        {
+                            allFiles.AddRange(Directory.GetFiles(path, "*.lua", SearchOption.AllDirectories));
+                        }
+                        else if (File.Exists(path)) allFiles.Add(path);
                     }
-                    else if (File.Exists(path)) allFiles.Add(path);
                 }
-            }
-            else
-            {
-                // We want to parse the whole Parser folder.
-                allFiles.AddRange(Directory.GetFiles("../Parser/", "*.lua", SearchOption.AllDirectories));
-            }
-
-            // Step 1: Clean the files before processing them.
-            foreach (var filename in allFiles) CleanFile(filename);
-
-            // Step 2: Process the Files
-            foreach (var filename in allFiles)
-            {
-                try
+                else
                 {
-                    ProcessFile(filename);
+                    // We want to parse the whole Parser folder.
+                    allFiles.AddRange(Directory.GetFiles("../Parser/", "*.lua", SearchOption.AllDirectories));
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                    Console.ReadLine();
-                }
+
+                // Step 1: Clean the files before processing them.
+                foreach (var filename in allFiles) CleanFile(filename);
+
+                // Step 2: Process the Files
+                foreach (var filename in allFiles) ProcessFile(filename);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return -1;
             }
 
             // Step 3: Report Success
             Console.WriteLine("JOBS DONE!");
-            System.Threading.Thread.Sleep(2000);
+            return 0;
         }
 
         class PriorityField
@@ -121,9 +118,10 @@ namespace ATT
             }
             else
             {
-                Console.WriteLine("UNHANDLED MULTILINE DATA:");
-                Console.WriteLine(lines[lineIndex]);
-                Console.ReadLine();
+                var errorBuilder = new StringBuilder();
+                errorBuilder.AppendLine("UNHANDLED MULTILINE DATA:");
+                errorBuilder.AppendLine(lines[lineIndex]);
+                throw new InvalidOperationException(errorBuilder.ToString());
             }
             return lineIndex;
         }
@@ -139,13 +137,13 @@ namespace ATT
                 if (endDepth == depth) break;
                 else if (endDepth > 0 && endDepth < depth && !string.IsNullOrWhiteSpace(line) && !line.TrimStart().StartsWith("--"))
                 {
-                    Console.WriteLine($"Malformed syntax, quest at line {startIndex} does not have an ender at the same depth {depth} vs {endDepth}");
+                    var errorBuilder = new StringBuilder();
+                    errorBuilder.AppendLine($"Malformed syntax, quest at line {startIndex} does not have an ender at the same depth {depth} vs {endDepth}");
                     for (int i = startIndex; i < endIndex; ++i)
                     {
-                        Console.WriteLine(lines[i]);
+                        errorBuilder.AppendLine(lines[i]);
                     }
-                    Console.ReadLine();
-                    break;
+                    throw new InvalidOperationException(errorBuilder.ToString());
                 }
                 ++endIndex;
             }
@@ -346,12 +344,13 @@ namespace ATT
             int endIndex = FindEndLineIndex(lines, startIndex, property.Depth);
             if (!lines[endIndex].Trim().StartsWith("}"))
             {
-                Console.WriteLine("MALFORMED BRACKETS");
+                var errorBuilder = new StringBuilder();
+                errorBuilder.AppendLine("MALFORMED BRACKETS");
                 for (int i = startIndex; i <= endIndex; ++i)
                 {
-                    Console.WriteLine(lines[i]);
+                    errorBuilder.AppendLine(lines[i]);
                 }
-                Console.ReadLine();
+                throw new InvalidOperationException(errorBuilder.ToString());
             }
 
             // Build a new lines container only containing the group content
@@ -377,12 +376,13 @@ namespace ATT
             int endIndex = FindEndLineIndex(lines, startIndex, property.Depth);
             if (!lines[endIndex].Trim().EndsWith("]],"))
             {
-                Console.WriteLine("MALFORMED FUNCTION");
+                var errorBuilder = new StringBuilder();
+                errorBuilder.AppendLine("MALFORMED FUNCTION");
                 for (int i = startIndex; i <= endIndex; ++i)
                 {
-                    Console.WriteLine(lines[i]);
+                    errorBuilder.AppendLine(lines[i]);
                 }
-                Console.ReadLine();
+                throw new InvalidOperationException(errorBuilder.ToString());
             }
 
             // Build a new lines container only containing the group content
