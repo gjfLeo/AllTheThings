@@ -276,9 +276,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 	})),
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
-			ach(18774, {	-- Synchronous Thread
-				["provider"] = { "i", 164733 },	-- Synchronous Thread
-			}),
+			ach(18774),	-- Synchronous Thread (automated)
 			ach(18896, {	-- United as Three
 				["providers"] = {
 					{ "i", 154706 },	-- Battle Flag: Phalanx Defense
