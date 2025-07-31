@@ -1155,6 +1155,7 @@ root(ROOTS.Zones, {
 					}),
 					q(31809, {	-- Remnants of Anger
 						["provider"] = { "i", 89317 },	-- Claw of Anger
+						["maps"] = { TOWNLONG_STEPPES },
 						["groups"] = {
 							i(90912),	-- Angerforged Stompers
 							i(90914),	-- Boots of Raging Haze
