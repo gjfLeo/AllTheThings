@@ -52,12 +52,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				-- TODO: Replace quest with actual ObjectID upon discovery
 				q(89378, {	-- Ethereal Voidforged Container
-					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
-					["coord"] = { 52.1, 68.3, KARESH },
 					--["questID"] = 89378,
 					-- TODO: Either this was moved somewhere else or it has multiple spawn points...
 					-- Achievement 'Jump, Jump, and Away!' states "Find and loot the Ethereal Voidforged Container in the Ruins of Yaathron in K'aresh." but it's nowhere to be found.
 					-- Vignette used to be present a couple of builds ago but I had no Rank 5 Wraps to see it.
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
+					["coord"] = { 52.1, 68.3, KARESH },
 				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },
