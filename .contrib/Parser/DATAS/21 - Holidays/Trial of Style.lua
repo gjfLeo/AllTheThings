@@ -426,8 +426,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			q(76361, {	-- Fashion Week
 				["description"] = "Blizzard messed up here, this should've been the first quest and breadcrumb.",
 				["sourceQuest"] = 76308,	-- The Trial of Style
-				["provider"] = { "n", 199261 },	-- Holiday Enthusiast
-				["coord"] = { 31.5, 63.1, VALDRAKKEN },
+				["providers"] = {
+					{ "n", 199261 },	-- Holiday Enthusiast
+					{ "n", 220307 },	-- Holiday Enthusiast
+				},
+				["coords"] = {
+					{ 31.5, 63.1, VALDRAKKEN },
+					{ 46.0, 55.0, DORNOGAL },
+				},
 			}),
 			q(76214, {	-- Work It
 				["provider"] = { "n", 205914 },	-- Cataloger Alexia
