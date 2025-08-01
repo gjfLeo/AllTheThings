@@ -3274,7 +3274,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(245, i(237854)),	-- Voidstorm Bardiche
 			}),
 		})),
-		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.1.7.99999" } }, {	-- TODO: Timeline /out correctly
+		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.1.7.61967" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				i(242522, {	-- Forsaken's Grotesque Cauldron
 					-- #if BEFORE 11.2.0
@@ -3329,7 +3329,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(200, i(242354)),	-- Wailing Banshee's Warglaives
 			}),
 		})),
-		n(AUGUST, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.2.0.99999" } }, {	-- TODO: Timeline in/out correctly
+		n(AUGUST, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61967", "removed 11.2.0.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(243572),	-- Grandmaster's Prophetic Board (MOUNT!)
 			}),
