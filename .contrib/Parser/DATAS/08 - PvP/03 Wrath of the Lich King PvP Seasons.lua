@@ -212,11 +212,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, DEATHKNIGHT },
 							},
 						}),
-						moh(3, i(40779)),    -- Savage Gladiator's Dreadplate Chestpiece
-						moh(2, i(40799)),    -- Savage Gladiator's Dreadplate Gauntlets
-						moh(3, i(40817)),    -- Savage Gladiator's Dreadplate Helm
-						moh(3, i(40837)),    -- Savage Gladiator's Dreadplate Legguards
-						moh(2, i(40857)),    -- Savage Gladiator's Dreadplate Shoulders
+						moh(3, i(40779)),	-- Savage Gladiator's Dreadplate Chestpiece
+						moh(2, i(40799)),	-- Savage Gladiator's Dreadplate Gauntlets
+						moh(3, i(40817)),	-- Savage Gladiator's Dreadplate Helm
+						moh(3, i(40837)),	-- Savage Gladiator's Dreadplate Legguards
+						moh(2, i(40857)),	-- Savage Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146579, {	-- Ensemble: Savage Gladiator's Dragonhide Armor
@@ -226,21 +226,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, DRUID },
 							},
 						}),
-						moh(2, i(41770)),    -- Savage Gladiator's Dragonhide Gloves
-						moh(3, i(41675)),    -- Savage Gladiator's Dragonhide Helm
-						moh(3, i(41664)),    -- Savage Gladiator's Dragonhide Legguards
-						moh(3, i(41658)),    -- Savage Gladiator's Dragonhide Robes
-						moh(2, i(41712)),    -- Savage Gladiator's Dragonhide Spaulders
-						moh(2, i(41268)),    -- Savage Gladiator's Kodohide Gloves
-						moh(3, i(41269)),    -- Savage Gladiator's Kodohide Helm
-						moh(3, i(41270)),    -- Savage Gladiator's Kodohide Legguards
-						moh(3, i(41272)),    -- Savage Gladiator's Kodohide Robes
-						moh(2, i(41271)),    -- Savage Gladiator's Kodohide Spaulders
-						moh(2, i(41290)),    -- Savage Gladiator's Wyrmhide Gloves
-						moh(3, i(41324)),    -- Savage Gladiator's Wyrmhide Helm
-						moh(3, i(41301)),    -- Savage Gladiator's Wyrmhide Legguards
-						moh(3, i(41313)),    -- Savage Gladiator's Wyrmhide Robes
-						moh(2, i(41278)),    -- Savage Gladiator's Wyrmhide Spaulders
+						moh(2, i(41770)),	-- Savage Gladiator's Dragonhide Gloves
+						moh(3, i(41675)),	-- Savage Gladiator's Dragonhide Helm
+						moh(3, i(41664)),	-- Savage Gladiator's Dragonhide Legguards
+						moh(3, i(41658)),	-- Savage Gladiator's Dragonhide Robes
+						moh(2, i(41712)),	-- Savage Gladiator's Dragonhide Spaulders
+						moh(2, i(41268)),	-- Savage Gladiator's Kodohide Gloves
+						moh(3, i(41269)),	-- Savage Gladiator's Kodohide Helm
+						moh(3, i(41270)),	-- Savage Gladiator's Kodohide Legguards
+						moh(3, i(41272)),	-- Savage Gladiator's Kodohide Robes
+						moh(2, i(41271)),	-- Savage Gladiator's Kodohide Spaulders
+						moh(2, i(41290)),	-- Savage Gladiator's Wyrmhide Gloves
+						moh(3, i(41324)),	-- Savage Gladiator's Wyrmhide Helm
+						moh(3, i(41301)),	-- Savage Gladiator's Wyrmhide Legguards
+						moh(3, i(41313)),	-- Savage Gladiator's Wyrmhide Robes
+						moh(2, i(41278)),	-- Savage Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146578, {	-- Ensemble: Savage Gladiator's Chain Armor
@@ -250,11 +250,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, HUNTER },
 							},
 						}),
-						moh(3, i(41084)),    -- Savage Gladiator's Chain Armor
-						moh(2, i(41140)),    -- Savage Gladiator's Chain Gauntlets
-						moh(3, i(41154)),    -- Savage Gladiator's Chain Helm
-						moh(3, i(41202)),    -- Savage Gladiator's Chain Leggings
-						moh(2, i(41214)),    -- Savage Gladiator's Chain Spaulders
+						moh(3, i(41084)),	-- Savage Gladiator's Chain Armor
+						moh(2, i(41140)),	-- Savage Gladiator's Chain Gauntlets
+						moh(3, i(41154)),	-- Savage Gladiator's Chain Helm
+						moh(3, i(41202)),	-- Savage Gladiator's Chain Leggings
+						moh(2, i(41214)),	-- Savage Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146587, {	-- Ensemble: Savage Gladiator's Silk Armor
@@ -264,11 +264,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, MAGE },
 							},
 						}),
-						moh(2, i(41962)),    -- Savage Gladiator's Silk Amice
-						moh(3, i(41943)),    -- Savage Gladiator's Silk Cowl
-						moh(2, i(41968)),    -- Savage Gladiator's Silk Handguards
-						moh(3, i(41949)),    -- Savage Gladiator's Silk Raiment
-						moh(3, i(41956)),    -- Savage Gladiator's Silk Trousers
+						moh(2, i(41962)),	-- Savage Gladiator's Silk Amice
+						moh(3, i(41943)),	-- Savage Gladiator's Silk Cowl
+						moh(2, i(41968)),	-- Savage Gladiator's Silk Handguards
+						moh(3, i(41949)),	-- Savage Gladiator's Silk Raiment
+						moh(3, i(41956)),	-- Savage Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146586, {	-- Ensemble: Savage Gladiator's Scaled Armor
@@ -278,16 +278,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, PALADIN },
 							},
 						}),
-						moh(3, i(40898)),    -- Savage Gladiator's Ornamented Chestguard
-						moh(2, i(40918)),    -- Savage Gladiator's Ornamented Gloves
-						moh(3, i(40930)),    -- Savage Gladiator's Ornamented Headcover
-						moh(3, i(40936)),    -- Savage Gladiator's Ornamented Legplates
-						moh(2, i(40960)),    -- Savage Gladiator's Ornamented Spaulders
-						moh(3, i(40780)),    -- Savage Gladiator's Scaled Chestpiece
-						moh(2, i(40798)),    -- Savage Gladiator's Scaled Gauntlets
-						moh(3, i(40818)),    -- Savage Gladiator's Scaled Helm
-						moh(3, i(40838)),    -- Savage Gladiator's Scaled Legguards
-						moh(2, i(40858)),    -- Savage Gladiator's Scaled Shoulders
+						moh(3, i(40898)),	-- Savage Gladiator's Ornamented Chestguard
+						moh(2, i(40918)),	-- Savage Gladiator's Ornamented Gloves
+						moh(3, i(40930)),	-- Savage Gladiator's Ornamented Headcover
+						moh(3, i(40936)),	-- Savage Gladiator's Ornamented Legplates
+						moh(2, i(40960)),	-- Savage Gladiator's Ornamented Spaulders
+						moh(3, i(40780)),	-- Savage Gladiator's Scaled Chestpiece
+						moh(2, i(40798)),	-- Savage Gladiator's Scaled Gauntlets
+						moh(3, i(40818)),	-- Savage Gladiator's Scaled Helm
+						moh(3, i(40838)),	-- Savage Gladiator's Scaled Legguards
+						moh(2, i(40858)),	-- Savage Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146585, {	-- Ensemble: Savage Gladiator's Satin Armor
@@ -297,16 +297,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, PRIEST },
 							},
 						}),
-						moh(2, i(41847)),    -- Savage Gladiator's Mooncloth Gloves
-						moh(3, i(41848)),    -- Savage Gladiator's Mooncloth Hood
-						moh(3, i(41849)),    -- Savage Gladiator's Mooncloth Leggings
-						moh(2, i(41850)),    -- Savage Gladiator's Mooncloth Mantle
-						moh(3, i(41851)),    -- Savage Gladiator's Mooncloth Robe
-						moh(2, i(41937)),    -- Savage Gladiator's Satin Gloves
-						moh(3, i(41912)),    -- Savage Gladiator's Satin Hood
-						moh(3, i(41924)),    -- Savage Gladiator's Satin Leggings
-						moh(2, i(41930)),    -- Savage Gladiator's Satin Mantle
-						moh(3, i(41918)),    -- Savage Gladiator's Satin Robe
+						moh(2, i(41847)),	-- Savage Gladiator's Mooncloth Gloves
+						moh(3, i(41848)),	-- Savage Gladiator's Mooncloth Hood
+						moh(3, i(41849)),	-- Savage Gladiator's Mooncloth Leggings
+						moh(2, i(41850)),	-- Savage Gladiator's Mooncloth Mantle
+						moh(3, i(41851)),	-- Savage Gladiator's Mooncloth Robe
+						moh(2, i(41937)),	-- Savage Gladiator's Satin Gloves
+						moh(3, i(41912)),	-- Savage Gladiator's Satin Hood
+						moh(3, i(41924)),	-- Savage Gladiator's Satin Leggings
+						moh(2, i(41930)),	-- Savage Gladiator's Satin Mantle
+						moh(3, i(41918)),	-- Savage Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146582, {	-- Ensemble: Savage Gladiator's Leather Armor
@@ -316,11 +316,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, ROGUE },
 							},
 						}),
-						moh(2, i(41643)),    -- Savage Gladiator's Leather Gloves
-						moh(3, i(41644)),    -- Savage Gladiator's Leather Helm
-						moh(3, i(41645)),    -- Savage Gladiator's Leather Legguards
-						moh(2, i(41646)),    -- Savage Gladiator's Leather Spaulders
-						moh(3, i(41647)),    -- Savage Gladiator's Leather Tunic
+						moh(2, i(41643)),	-- Savage Gladiator's Leather Gloves
+						moh(3, i(41644)),	-- Savage Gladiator's Leather Helm
+						moh(3, i(41645)),	-- Savage Gladiator's Leather Legguards
+						moh(2, i(41646)),	-- Savage Gladiator's Leather Spaulders
+						moh(3, i(41647)),	-- Savage Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146584, {	-- Ensemble: Savage Gladiator's Ringmail Armor
@@ -330,21 +330,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, SHAMAN },
 							},
 						}),
-						moh(3, i(41078)),    -- Savage Gladiator's Linked Armor
-						moh(2, i(41134)),    -- Savage Gladiator's Linked Gauntlets
-						moh(3, i(41148)),    -- Savage Gladiator's Linked Helm
-						moh(3, i(41160)),    -- Savage Gladiator's Linked Leggings
-						moh(2, i(41208)),    -- Savage Gladiator's Linked Spaulders
-						moh(3, i(40987)),    -- Savage Gladiator's Mail Armor
-						moh(2, i(41004)),    -- Savage Gladiator's Mail Gauntlets
-						moh(3, i(41016)),    -- Savage Gladiator's Mail Helm
-						moh(3, i(41030)),    -- Savage Gladiator's Mail Leggings
-						moh(2, i(41041)),    -- Savage Gladiator's Mail Spaulders
-						moh(3, i(40986)),    -- Savage Gladiator's Ringmail Armor
-						moh(2, i(40998)),    -- Savage Gladiator's Ringmail Gauntlets
-						moh(3, i(41010)),    -- Savage Gladiator's Ringmail Helm
-						moh(3, i(41023)),    -- Savage Gladiator's Ringmail Leggings
-						moh(2, i(41024)),    -- Savage Gladiator's Ringmail Spaulders
+						moh(3, i(41078)),	-- Savage Gladiator's Linked Armor
+						moh(2, i(41134)),	-- Savage Gladiator's Linked Gauntlets
+						moh(3, i(41148)),	-- Savage Gladiator's Linked Helm
+						moh(3, i(41160)),	-- Savage Gladiator's Linked Leggings
+						moh(2, i(41208)),	-- Savage Gladiator's Linked Spaulders
+						moh(3, i(40987)),	-- Savage Gladiator's Mail Armor
+						moh(2, i(41004)),	-- Savage Gladiator's Mail Gauntlets
+						moh(3, i(41016)),	-- Savage Gladiator's Mail Helm
+						moh(3, i(41030)),	-- Savage Gladiator's Mail Leggings
+						moh(2, i(41041)),	-- Savage Gladiator's Mail Spaulders
+						moh(3, i(40986)),	-- Savage Gladiator's Ringmail Armor
+						moh(2, i(40998)),	-- Savage Gladiator's Ringmail Gauntlets
+						moh(3, i(41010)),	-- Savage Gladiator's Ringmail Helm
+						moh(3, i(41023)),	-- Savage Gladiator's Ringmail Leggings
+						moh(2, i(41024)),	-- Savage Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146581, {	-- Ensemble: Savage Gladiator's Felweave Armor
@@ -354,11 +354,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, WARLOCK },
 							},
 						}),
-						moh(2, i(42008)),    -- Savage Gladiator's Felweave Amice
-						moh(3, i(41990)),    -- Savage Gladiator's Felweave Cowl
-						moh(2, i(42014)),    -- Savage Gladiator's Felweave Handguards
-						moh(3, i(41996)),    -- Savage Gladiator's Felweave Raiment
-						moh(3, i(42002)),    -- Savage Gladiator's Felweave Trousers
+						moh(2, i(42008)),	-- Savage Gladiator's Felweave Amice
+						moh(3, i(41990)),	-- Savage Gladiator's Felweave Cowl
+						moh(2, i(42014)),	-- Savage Gladiator's Felweave Handguards
+						moh(3, i(41996)),	-- Savage Gladiator's Felweave Raiment
+						moh(3, i(42002)),	-- Savage Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146583, {	-- Ensemble: Savage Gladiator's Plate Armor
@@ -368,11 +368,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, WARRIOR },
 							},
 						}),
-						moh(3, i(40778)),    -- Savage Gladiator's Plate Chestpiece
-						moh(2, i(40797)),    -- Savage Gladiator's Plate Gauntlets
-						moh(3, i(40816)),    -- Savage Gladiator's Plate Helm
-						moh(3, i(40836)),    -- Savage Gladiator's Plate Legguards
-						moh(2, i(40856)),    -- Savage Gladiator's Plate Shoulders
+						moh(3, i(40778)),	-- Savage Gladiator's Plate Chestpiece
+						moh(2, i(40797)),	-- Savage Gladiator's Plate Gauntlets
+						moh(3, i(40816)),	-- Savage Gladiator's Plate Helm
+						moh(3, i(40836)),	-- Savage Gladiator's Plate Legguards
+						moh(2, i(40856)),	-- Savage Gladiator's Plate Shoulders
 					}),
 					-- #if ANYCLASSIC
 					filter(RELICS_F, bubbleDownSelf({
@@ -409,50 +409,50 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["timeline"] = { ADDED_7_2_0 },
 						})),
 						-- #if AFTER 5.0.0
-						moh(2, i(42563)),    -- Hateful Gladiator's Barrier
+						moh(2, i(42563)),	-- Hateful Gladiator's Barrier
 						-- #endif
-						moh(5, i(42512)),    -- Hateful Gladiator's Baton of Light
+						moh(5, i(42512)),	-- Hateful Gladiator's Baton of Light
 						-- #if AFTER 5.0.0
-						moh(5, i(42359)),    -- Hateful Gladiator's Battle Staff
-						moh(5, i(42279)),    -- Hateful Gladiator's Bonecracker
-						moh(5, i(42321)),    -- Hateful Gladiator's Bonegrinder
-						moh(5, i(42231)),    -- Hateful Gladiator's Chopper
-						moh(5, i(42207)),    -- Hateful Gladiator's Cleaver
-						moh(5, i(42316)),    -- Hateful Gladiator's Decapitator
-						moh(2, i(42524)),    -- Hateful Gladiator's Endgame
-						moh(5, i(42383)),    -- Hateful Gladiator's Energy Staff
-						moh(5, i(42269)),    -- Hateful Gladiator's Fleshslicer
-						moh(5, i(44418)),    -- Hateful Gladiator's Focus Staff
-						moh(5, i(42351)),    -- Hateful Gladiator's Gavel
-						moh(5, i(42331)),    -- Hateful Gladiator's Greatsword
-						moh(2, i(42536)),    -- Hateful Gladiator's Grimoire
-						moh(5, i(42226)),    -- Hateful Gladiator's Hacker
-						moh(5, i(42494)),    -- Hateful Gladiator's Heavy Crossbow
-						moh(5, i(42489)),    -- Hateful Gladiator's Longbow
-						moh(5, i(42254)),    -- Hateful Gladiator's Mutilator
+						moh(5, i(42359)),	-- Hateful Gladiator's Battle Staff
+						moh(5, i(42279)),	-- Hateful Gladiator's Bonecracker
+						moh(5, i(42321)),	-- Hateful Gladiator's Bonegrinder
+						moh(5, i(42231)),	-- Hateful Gladiator's Chopper
+						moh(5, i(42207)),	-- Hateful Gladiator's Cleaver
+						moh(5, i(42316)),	-- Hateful Gladiator's Decapitator
+						moh(2, i(42524)),	-- Hateful Gladiator's Endgame
+						moh(5, i(42383)),	-- Hateful Gladiator's Energy Staff
+						moh(5, i(42269)),	-- Hateful Gladiator's Fleshslicer
+						moh(5, i(44418)),	-- Hateful Gladiator's Focus Staff
+						moh(5, i(42351)),	-- Hateful Gladiator's Gavel
+						moh(5, i(42331)),	-- Hateful Gladiator's Greatsword
+						moh(2, i(42536)),	-- Hateful Gladiator's Grimoire
+						moh(5, i(42226)),	-- Hateful Gladiator's Hacker
+						moh(5, i(42494)),	-- Hateful Gladiator's Heavy Crossbow
+						moh(5, i(42489)),	-- Hateful Gladiator's Longbow
+						moh(5, i(42254)),	-- Hateful Gladiator's Mutilator
 						-- #endif
-						moh(5, i(42518)),    -- Hateful Gladiator's Piercing Touch
+						moh(5, i(42518)),	-- Hateful Gladiator's Piercing Touch
 						-- #if AFTER 5.0.0
-						moh(5, i(42326)),    -- Hateful Gladiator's Pike
-						moh(5, i(42274)),    -- Hateful Gladiator's Pummeler
-						moh(5, i(42289)),    -- Hateful Gladiator's Quickblade
-						moh(2, i(42569)),    -- Hateful Gladiator's Redoubt
-						moh(2, i(42530)),    -- Hateful Gladiator's Reprieve
-						moh(5, i(42484)),    -- Hateful Gladiator's Rifle
-						moh(5, i(42259)),    -- Hateful Gladiator's Ripper
-						moh(5, i(42241)),    -- Hateful Gladiator's Shanker
-						moh(2, i(42558)),    -- Hateful Gladiator's Shield Wall
-						moh(5, i(42247)),    -- Hateful Gladiator's Shiv
-						moh(5, i(42264)),    -- Hateful Gladiator's Slasher
-						moh(5, i(42284)),    -- Hateful Gladiator's Slicer
-						moh(5, i(42345)),    -- Hateful Gladiator's Spellblade
-						moh(5, i(42389)),    -- Hateful Gladiator's Staff
+						moh(5, i(42326)),	-- Hateful Gladiator's Pike
+						moh(5, i(42274)),	-- Hateful Gladiator's Pummeler
+						moh(5, i(42289)),	-- Hateful Gladiator's Quickblade
+						moh(2, i(42569)),	-- Hateful Gladiator's Redoubt
+						moh(2, i(42530)),	-- Hateful Gladiator's Reprieve
+						moh(5, i(42484)),	-- Hateful Gladiator's Rifle
+						moh(5, i(42259)),	-- Hateful Gladiator's Ripper
+						moh(5, i(42241)),	-- Hateful Gladiator's Shanker
+						moh(2, i(42558)),	-- Hateful Gladiator's Shield Wall
+						moh(5, i(42247)),	-- Hateful Gladiator's Shiv
+						moh(5, i(42264)),	-- Hateful Gladiator's Slasher
+						moh(5, i(42284)),	-- Hateful Gladiator's Slicer
+						moh(5, i(42345)),	-- Hateful Gladiator's Spellblade
+						moh(5, i(42389)),	-- Hateful Gladiator's Staff
 						-- #endif
-						moh(5, i(42501)),    -- Hateful Gladiator's Touch of Defeat
+						moh(5, i(42501)),	-- Hateful Gladiator's Touch of Defeat
 						-- #if AFTER 5.0.0
-						moh(5, i(44417)),    -- Hateful Gladiator's War Staff
+						moh(5, i(44417)),	-- Hateful Gladiator's War Staff
 						-- #endif
-						moh(5, i(42236)),    -- Hateful Gladiator's Waraxe
+						moh(5, i(42236)),	-- Hateful Gladiator's Waraxe
 						-- #if AFTER 5.0.0
 						i(42449, {	-- Hateful Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
@@ -470,11 +470,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147585 },	-- Hateful Gladiator's Greaves of Victory
 							},
 						}),
-						moh(3, i(40781)),    -- Hateful Gladiator's Dreadplate Chestpiece
-						moh(2, i(40803)),    -- Hateful Gladiator's Dreadplate Gauntlets
-						moh(3, i(40820)),    -- Hateful Gladiator's Dreadplate Helm
-						moh(3, i(40841)),    -- Hateful Gladiator's Dreadplate Legguards
-						moh(2, i(40860)),    -- Hateful Gladiator's Dreadplate Shoulders
+						moh(3, i(40781)),	-- Hateful Gladiator's Dreadplate Chestpiece
+						moh(2, i(40803)),	-- Hateful Gladiator's Dreadplate Gauntlets
+						moh(3, i(40820)),	-- Hateful Gladiator's Dreadplate Helm
+						moh(3, i(40841)),	-- Hateful Gladiator's Dreadplate Legguards
+						moh(2, i(40860)),	-- Hateful Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146559, {	-- Ensemble: Hateful Gladiator's Dragonhide Armor
@@ -490,21 +490,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41331 },	-- Hateful Gladiator's Boots of Salvation
 							},
 						}),
-						moh(2, i(41771)),    -- Hateful Gladiator's Dragonhide Gloves
-						moh(3, i(41676)),    -- Hateful Gladiator's Dragonhide Helm
-						moh(3, i(41665)),    -- Hateful Gladiator's Dragonhide Legguards
-						moh(3, i(41659)),    -- Hateful Gladiator's Dragonhide Robes
-						moh(2, i(41713)),    -- Hateful Gladiator's Dragonhide Spaulders
-						moh(2, i(41284)),    -- Hateful Gladiator's Kodohide Gloves
-						moh(3, i(41319)),    -- Hateful Gladiator's Kodohide Helm
-						moh(3, i(41296)),    -- Hateful Gladiator's Kodohide Legguards
-						moh(3, i(41308)),    -- Hateful Gladiator's Kodohide Robes
-						moh(2, i(41273)),    -- Hateful Gladiator's Kodohide Spaulders
-						moh(2, i(41291)),    -- Hateful Gladiator's Wyrmhide Gloves
-						moh(3, i(41325)),    -- Hateful Gladiator's Wyrmhide Helm
-						moh(3, i(41302)),    -- Hateful Gladiator's Wyrmhide Legguards
-						moh(3, i(41314)),    -- Hateful Gladiator's Wyrmhide Robes
-						moh(2, i(41279)),    -- Hateful Gladiator's Wyrmhide Spaulders
+						moh(2, i(41771)),	-- Hateful Gladiator's Dragonhide Gloves
+						moh(3, i(41676)),	-- Hateful Gladiator's Dragonhide Helm
+						moh(3, i(41665)),	-- Hateful Gladiator's Dragonhide Legguards
+						moh(3, i(41659)),	-- Hateful Gladiator's Dragonhide Robes
+						moh(2, i(41713)),	-- Hateful Gladiator's Dragonhide Spaulders
+						moh(2, i(41284)),	-- Hateful Gladiator's Kodohide Gloves
+						moh(3, i(41319)),	-- Hateful Gladiator's Kodohide Helm
+						moh(3, i(41296)),	-- Hateful Gladiator's Kodohide Legguards
+						moh(3, i(41308)),	-- Hateful Gladiator's Kodohide Robes
+						moh(2, i(41273)),	-- Hateful Gladiator's Kodohide Spaulders
+						moh(2, i(41291)),	-- Hateful Gladiator's Wyrmhide Gloves
+						moh(3, i(41325)),	-- Hateful Gladiator's Wyrmhide Helm
+						moh(3, i(41302)),	-- Hateful Gladiator's Wyrmhide Legguards
+						moh(3, i(41314)),	-- Hateful Gladiator's Wyrmhide Robes
+						moh(2, i(41279)),	-- Hateful Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146558, {	-- Ensemble: Hateful Gladiator's Chain Armor
@@ -517,11 +517,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41228 },	-- Hateful Gladiator's Sabatons of Triumph
 							},
 						}),
-						moh(3, i(41085)),    -- Hateful Gladiator's Chain Armor
-						moh(2, i(41141)),    -- Hateful Gladiator's Chain Gauntlets
-						moh(3, i(41155)),    -- Hateful Gladiator's Chain Helm
-						moh(3, i(41203)),    -- Hateful Gladiator's Chain Leggings
-						moh(2, i(41215)),    -- Hateful Gladiator's Chain Spaulders
+						moh(3, i(41085)),	-- Hateful Gladiator's Chain Armor
+						moh(2, i(41141)),	-- Hateful Gladiator's Chain Gauntlets
+						moh(3, i(41155)),	-- Hateful Gladiator's Chain Helm
+						moh(3, i(41203)),	-- Hateful Gladiator's Chain Leggings
+						moh(2, i(41215)),	-- Hateful Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146567, {	-- Ensemble: Hateful Gladiator's Silk Armor
@@ -534,11 +534,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41901 },	-- Hateful Gladiator's Slippers of Dominance
 							},
 						}),
-						moh(2, i(41963)),    -- Hateful Gladiator's Silk Amice
-						moh(3, i(41944)),    -- Hateful Gladiator's Silk Cowl
-						moh(2, i(41969)),    -- Hateful Gladiator's Silk Handguards
-						moh(3, i(41950)),    -- Hateful Gladiator's Silk Raiment
-						moh(3, i(41957)),    -- Hateful Gladiator's Silk Trousers
+						moh(2, i(41963)),	-- Hateful Gladiator's Silk Amice
+						moh(3, i(41944)),	-- Hateful Gladiator's Silk Cowl
+						moh(2, i(41969)),	-- Hateful Gladiator's Silk Handguards
+						moh(3, i(41950)),	-- Hateful Gladiator's Silk Raiment
+						moh(3, i(41957)),	-- Hateful Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146566, {	-- Ensemble: Hateful Gladiator's Scaled Armor
@@ -551,16 +551,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40973 },	-- Hateful Gladiator's Greaves of Salvation
 							},
 						}),
-						moh(3, i(40904)),    -- Hateful Gladiator's Ornamented Chestguard
-						moh(2, i(40925)),    -- Hateful Gladiator's Ornamented Gloves
-						moh(3, i(40931)),    -- Hateful Gladiator's Ornamented Headcover
-						moh(3, i(40937)),    -- Hateful Gladiator's Ornamented Legplates
-						moh(2, i(40961)),    -- Hateful Gladiator's Ornamented Spaulders
-						moh(3, i(40782)),    -- Hateful Gladiator's Scaled Chestpiece
-						moh(2, i(40802)),    -- Hateful Gladiator's Scaled Gauntlets
-						moh(3, i(40821)),    -- Hateful Gladiator's Scaled Helm
-						moh(3, i(40842)),    -- Hateful Gladiator's Scaled Legguards
-						moh(2, i(40861)),    -- Hateful Gladiator's Scaled Shoulders
+						moh(3, i(40904)),	-- Hateful Gladiator's Ornamented Chestguard
+						moh(2, i(40925)),	-- Hateful Gladiator's Ornamented Gloves
+						moh(3, i(40931)),	-- Hateful Gladiator's Ornamented Headcover
+						moh(3, i(40937)),	-- Hateful Gladiator's Ornamented Legplates
+						moh(2, i(40961)),	-- Hateful Gladiator's Ornamented Spaulders
+						moh(3, i(40782)),	-- Hateful Gladiator's Scaled Chestpiece
+						moh(2, i(40802)),	-- Hateful Gladiator's Scaled Gauntlets
+						moh(3, i(40821)),	-- Hateful Gladiator's Scaled Helm
+						moh(3, i(40842)),	-- Hateful Gladiator's Scaled Legguards
+						moh(2, i(40861)),	-- Hateful Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146565, {	-- Ensemble: Hateful Gladiator's Satin Armor
@@ -573,16 +573,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41879 },	-- Hateful Gladiator's Slippers of Salvation
 							},
 						}),
-						moh(2, i(41872)),    -- Hateful Gladiator's Mooncloth Gloves
-						moh(3, i(41852)),    -- Hateful Gladiator's Mooncloth Hood
-						moh(3, i(41862)),    -- Hateful Gladiator's Mooncloth Leggings
-						moh(2, i(41867)),    -- Hateful Gladiator's Mooncloth Mantle
-						moh(3, i(41857)),    -- Hateful Gladiator's Mooncloth Robe
-						moh(2, i(41938)),    -- Hateful Gladiator's Satin Gloves
-						moh(3, i(41913)),    -- Hateful Gladiator's Satin Hood
-						moh(3, i(41925)),    -- Hateful Gladiator's Satin Leggings
-						moh(2, i(41931)),    -- Hateful Gladiator's Satin Mantle
-						moh(3, i(41919)),    -- Hateful Gladiator's Satin Robe
+						moh(2, i(41872)),	-- Hateful Gladiator's Mooncloth Gloves
+						moh(3, i(41852)),	-- Hateful Gladiator's Mooncloth Hood
+						moh(3, i(41862)),	-- Hateful Gladiator's Mooncloth Leggings
+						moh(2, i(41867)),	-- Hateful Gladiator's Mooncloth Mantle
+						moh(3, i(41857)),	-- Hateful Gladiator's Mooncloth Robe
+						moh(2, i(41938)),	-- Hateful Gladiator's Satin Gloves
+						moh(3, i(41913)),	-- Hateful Gladiator's Satin Hood
+						moh(3, i(41925)),	-- Hateful Gladiator's Satin Leggings
+						moh(2, i(41931)),	-- Hateful Gladiator's Satin Mantle
+						moh(3, i(41919)),	-- Hateful Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146562, {	-- Ensemble: Hateful Gladiator's Leather Armor
@@ -595,11 +595,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41828 },	-- Hateful Gladiator's Boots of Triumph
 							},
 						}),
-						moh(2, i(41765)),    -- Hateful Gladiator's Leather Gloves
-						moh(3, i(41670)),    -- Hateful Gladiator's Leather Helm
-						moh(3, i(41653)),    -- Hateful Gladiator's Leather Legguards
-						moh(2, i(41681)),    -- Hateful Gladiator's Leather Spaulders
-						moh(3, i(41648)),    -- Hateful Gladiator's Leather Tunic
+						moh(2, i(41765)),	-- Hateful Gladiator's Leather Gloves
+						moh(3, i(41670)),	-- Hateful Gladiator's Leather Helm
+						moh(3, i(41653)),	-- Hateful Gladiator's Leather Legguards
+						moh(2, i(41681)),	-- Hateful Gladiator's Leather Spaulders
+						moh(3, i(41648)),	-- Hateful Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146564, {	-- Ensemble: Hateful Gladiator's Ringmail Armor
@@ -615,21 +615,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41049 },	-- Hateful Gladiator's Sabatons of Salvation
 							},
 						}),
-						moh(3, i(41079)),    -- Hateful Gladiator's Linked Armor
-						moh(2, i(41135)),    -- Hateful Gladiator's Linked Gauntlets
-						moh(3, i(41149)),    -- Hateful Gladiator's Linked Helm
-						moh(3, i(41162)),    -- Hateful Gladiator's Linked Leggings
-						moh(2, i(41209)),    -- Hateful Gladiator's Linked Spaulders
-						moh(3, i(40989)),    -- Hateful Gladiator's Mail Armor
-						moh(2, i(41005)),    -- Hateful Gladiator's Mail Gauntlets
-						moh(3, i(41017)),    -- Hateful Gladiator's Mail Helm
-						moh(3, i(41031)),    -- Hateful Gladiator's Mail Leggings
-						moh(2, i(41042)),    -- Hateful Gladiator's Mail Spaulders
-						moh(3, i(40988)),    -- Hateful Gladiator's Ringmail Armor
-						moh(2, i(40999)),    -- Hateful Gladiator's Ringmail Gauntlets
-						moh(3, i(41011)),    -- Hateful Gladiator's Ringmail Helm
-						moh(3, i(41025)),    -- Hateful Gladiator's Ringmail Leggings
-						moh(2, i(41036)),    -- Hateful Gladiator's Ringmail Spaulders
+						moh(3, i(41079)),	-- Hateful Gladiator's Linked Armor
+						moh(2, i(41135)),	-- Hateful Gladiator's Linked Gauntlets
+						moh(3, i(41149)),	-- Hateful Gladiator's Linked Helm
+						moh(3, i(41162)),	-- Hateful Gladiator's Linked Leggings
+						moh(2, i(41209)),	-- Hateful Gladiator's Linked Spaulders
+						moh(3, i(40989)),	-- Hateful Gladiator's Mail Armor
+						moh(2, i(41005)),	-- Hateful Gladiator's Mail Gauntlets
+						moh(3, i(41017)),	-- Hateful Gladiator's Mail Helm
+						moh(3, i(41031)),	-- Hateful Gladiator's Mail Leggings
+						moh(2, i(41042)),	-- Hateful Gladiator's Mail Spaulders
+						moh(3, i(40988)),	-- Hateful Gladiator's Ringmail Armor
+						moh(2, i(40999)),	-- Hateful Gladiator's Ringmail Gauntlets
+						moh(3, i(41011)),	-- Hateful Gladiator's Ringmail Helm
+						moh(3, i(41025)),	-- Hateful Gladiator's Ringmail Leggings
+						moh(2, i(41036)),	-- Hateful Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146561, {	-- Ensemble: Hateful Gladiator's Felweave Armor
@@ -642,11 +642,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147588 },	-- Hateful Gladiator's Slippers of Ascendancy
 							},
 						}),
-						moh(2, i(42009)),    -- Hateful Gladiator's Felweave Amice
-						moh(3, i(41991)),    -- Hateful Gladiator's Felweave Cowl
-						moh(2, i(42015)),    -- Hateful Gladiator's Felweave Handguards
-						moh(3, i(42001)),    -- Hateful Gladiator's Felweave Raiment
-						moh(3, i(42003)),    -- Hateful Gladiator's Felweave Trousers
+						moh(2, i(42009)),	-- Hateful Gladiator's Felweave Amice
+						moh(3, i(41991)),	-- Hateful Gladiator's Felweave Cowl
+						moh(2, i(42015)),	-- Hateful Gladiator's Felweave Handguards
+						moh(3, i(42001)),	-- Hateful Gladiator's Felweave Raiment
+						moh(3, i(42003)),	-- Hateful Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146563, {	-- Ensemble: Hateful Gladiator's Plate Armor
@@ -659,35 +659,35 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40878 },	-- Hateful Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(40783)),    -- Hateful Gladiator's Plate Chestpiece
-						moh(2, i(40801)),    -- Hateful Gladiator's Plate Gauntlets
-						moh(3, i(40819)),    -- Hateful Gladiator's Plate Helm
-						moh(3, i(40840)),    -- Hateful Gladiator's Plate Legguards
-						moh(2, i(40859)),    -- Hateful Gladiator's Plate Shoulders
+						moh(3, i(40783)),	-- Hateful Gladiator's Plate Chestpiece
+						moh(2, i(40801)),	-- Hateful Gladiator's Plate Gauntlets
+						moh(3, i(40819)),	-- Hateful Gladiator's Plate Helm
+						moh(3, i(40840)),	-- Hateful Gladiator's Plate Legguards
+						moh(2, i(40859)),	-- Hateful Gladiator's Plate Shoulders
 					}),
 					n(BACK, bubbleDown({
 						-- #if ANYCLASSIC
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
-						moh(1, i(42057)),    -- Hateful Gladiator's Cloak of Ascendancy
-						moh(1, i(42059)),    -- Hateful Gladiator's Cloak of Deliverance
-						moh(1, i(42055)),    -- Hateful Gladiator's Cloak of Dominance
-						moh(1, i(42058)),    -- Hateful Gladiator's Cloak of Salvation
-						moh(1, i(42056)),    -- Hateful Gladiator's Cloak of Subjugation
-						moh(1, i(42060)),    -- Hateful Gladiator's Cloak of Triumph
-						moh(1, i(42061)),    -- Hateful Gladiator's Cloak of Victory
+						moh(1, i(42057)),	-- Hateful Gladiator's Cloak of Ascendancy
+						moh(1, i(42059)),	-- Hateful Gladiator's Cloak of Deliverance
+						moh(1, i(42055)),	-- Hateful Gladiator's Cloak of Dominance
+						moh(1, i(42058)),	-- Hateful Gladiator's Cloak of Salvation
+						moh(1, i(42056)),	-- Hateful Gladiator's Cloak of Subjugation
+						moh(1, i(42060)),	-- Hateful Gladiator's Cloak of Triumph
+						moh(1, i(42061)),	-- Hateful Gladiator's Cloak of Victory
 					})),
 					n(WRIST, bubbleDown({
 						-- #if ANYCLASSIC
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
-						moh(1, i(41638)),    -- Hateful Gladiator's Armwraps of Dominance
-						moh(1, i(41332)),    -- Hateful Gladiator's Armwraps of Salvation
-						moh(1, i(41830)),    -- Hateful Gladiator's Armwraps of Triumph
-						moh(1, i(40972)),    -- Hateful Gladiator's Bracers of Salvation
-						moh(1, i(40887)),    -- Hateful Gladiator's Bracers of Triumph
+						moh(1, i(41638)),	-- Hateful Gladiator's Armwraps of Dominance
+						moh(1, i(41332)),	-- Hateful Gladiator's Armwraps of Salvation
+						moh(1, i(41830)),	-- Hateful Gladiator's Armwraps of Triumph
+						moh(1, i(40972)),	-- Hateful Gladiator's Bracers of Salvation
+						moh(1, i(40887)),	-- Hateful Gladiator's Bracers of Triumph
 						i(147583, {	-- Hateful Gladiator's Bracers of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
@@ -696,59 +696,59 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41907)),    -- Hateful Gladiator's Cuffs of Dominance
-						moh(1, i(41878)),    -- Hateful Gladiator's Cuffs of Salvation
-						moh(1, i(41063)),    -- Hateful Gladiator's Wristguards of Dominance
-						moh(1, i(41047)),    -- Hateful Gladiator's Wristguards of Salvation
-						moh(1, i(41223)),    -- Hateful Gladiator's Wristguards of Triumph
+						moh(1, i(41907)),	-- Hateful Gladiator's Cuffs of Dominance
+						moh(1, i(41878)),	-- Hateful Gladiator's Cuffs of Salvation
+						moh(1, i(41063)),	-- Hateful Gladiator's Wristguards of Dominance
+						moh(1, i(41047)),	-- Hateful Gladiator's Wristguards of Salvation
+						moh(1, i(41223)),	-- Hateful Gladiator's Wristguards of Triumph
 					})),
 					n(WAIST, bubbleDown({
 						-- #if ANYCLASSIC
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
-						moh(1, i(41628)),    -- Hateful Gladiator's Belt of Dominance
-						moh(1, i(41330)),    -- Hateful Gladiator's Belt of Salvation
-						moh(1, i(41827)),    -- Hateful Gladiator's Belt of Triumph
+						moh(1, i(41628)),	-- Hateful Gladiator's Belt of Dominance
+						moh(1, i(41330)),	-- Hateful Gladiator's Belt of Salvation
+						moh(1, i(41827)),	-- Hateful Gladiator's Belt of Triumph
 						i(147587, {	-- Hateful Gladiator's Cord of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41896)),    -- Hateful Gladiator's Cord of Dominance
-						moh(1, i(41877)),    -- Hateful Gladiator's Cord of Salvation
-						moh(1, i(40966)),    -- Hateful Gladiator's Girdle of Salvation
-						moh(1, i(40877)),    -- Hateful Gladiator's Girdle of Triumph
+						moh(1, i(41896)),	-- Hateful Gladiator's Cord of Dominance
+						moh(1, i(41877)),	-- Hateful Gladiator's Cord of Salvation
+						moh(1, i(40966)),	-- Hateful Gladiator's Girdle of Salvation
+						moh(1, i(40877)),	-- Hateful Gladiator's Girdle of Triumph
 						i(147584, {	-- Hateful Gladiator's Girdle of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41068)),    -- Hateful Gladiator's Waistguard of Dominance
-						moh(1, i(41050)),    -- Hateful Gladiator's Waistguard of Salvation
-						moh(1, i(41233)),    -- Hateful Gladiator's Waistguard of Triumph
+						moh(1, i(41068)),	-- Hateful Gladiator's Waistguard of Dominance
+						moh(1, i(41050)),	-- Hateful Gladiator's Waistguard of Salvation
+						moh(1, i(41233)),	-- Hateful Gladiator's Waistguard of Triumph
 					})),
 					n(FEET, bubbleDown({
 						-- #if ANYCLASSIC
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
-						moh(2, i(41633)),    -- Hateful Gladiator's Boots of Dominance
-						moh(2, i(41331)),    -- Hateful Gladiator's Boots of Salvation
-						moh(2, i(41828)),    -- Hateful Gladiator's Boots of Triumph
-						moh(2, i(40973)),    -- Hateful Gladiator's Greaves of Salvation
-						moh(2, i(40878)),    -- Hateful Gladiator's Greaves of Triumph
+						moh(2, i(41633)),	-- Hateful Gladiator's Boots of Dominance
+						moh(2, i(41331)),	-- Hateful Gladiator's Boots of Salvation
+						moh(2, i(41828)),	-- Hateful Gladiator's Boots of Triumph
+						moh(2, i(40973)),	-- Hateful Gladiator's Greaves of Salvation
+						moh(2, i(40878)),	-- Hateful Gladiator's Greaves of Triumph
 						i(147585, {	-- Hateful Gladiator's Greaves of Victory
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41073)),    -- Hateful Gladiator's Sabatons of Dominance
-						moh(2, i(41049)),    -- Hateful Gladiator's Sabatons of Salvation
-						moh(2, i(41228)),    -- Hateful Gladiator's Sabatons of Triumph
+						moh(2, i(41073)),	-- Hateful Gladiator's Sabatons of Dominance
+						moh(2, i(41049)),	-- Hateful Gladiator's Sabatons of Salvation
+						moh(2, i(41228)),	-- Hateful Gladiator's Sabatons of Triumph
 						i(147588, {	-- Hateful Gladiator's Slippers of Ascendancy
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41901)),    -- Hateful Gladiator's Slippers of Dominance
-						moh(2, i(41879)),    -- Hateful Gladiator's Slippers of Salvation
+						moh(2, i(41901)),	-- Hateful Gladiator's Slippers of Dominance
+						moh(2, i(41879)),	-- Hateful Gladiator's Slippers of Salvation
 					})),
 					filter(NECK_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
@@ -805,43 +805,43 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(80, iensemble(146645, {	-- Arsenal: Deadly Gladiator's Weapon
 							["timeline"] = { ADDED_7_2_0 },
 						})),
-						moh(2, i(42564)),    -- Deadly Gladiator's Barrier
-						moh(5, i(42513)),    -- Deadly Gladiator's Baton of Light
-						moh(5, i(42362)),    -- Deadly Gladiator's Battle Staff
-						moh(5, i(42280)),    -- Deadly Gladiator's Bonecracker
-						moh(5, i(42322)),    -- Deadly Gladiator's Bonegrinder
-						moh(5, i(42232)),    -- Deadly Gladiator's Chopper
-						moh(5, i(42208)),    -- Deadly Gladiator's Cleaver
-						moh(5, i(42317)),    -- Deadly Gladiator's Decapitator
-						moh(2, i(42525)),    -- Deadly Gladiator's Endgame
-						moh(5, i(42384)),    -- Deadly Gladiator's Energy Staff
-						moh(5, i(42270)),    -- Deadly Gladiator's Fleshslicer
-						moh(5, i(44420)),    -- Deadly Gladiator's Focus Staff
-						moh(5, i(42352)),    -- Deadly Gladiator's Gavel
-						moh(5, i(42332)),    -- Deadly Gladiator's Greatsword
-						moh(2, i(42537)),    -- Deadly Gladiator's Grimoire
-						moh(5, i(42227)),    -- Deadly Gladiator's Hacker
-						moh(5, i(42495)),    -- Deadly Gladiator's Heavy Crossbow
-						moh(5, i(42490)),    -- Deadly Gladiator's Longbow
-						moh(5, i(42255)),    -- Deadly Gladiator's Mutilator
-						moh(5, i(42519)),    -- Deadly Gladiator's Piercing Touch
-						moh(5, i(42327)),    -- Deadly Gladiator's Pike
-						moh(5, i(42275)),    -- Deadly Gladiator's Pummeler
-						moh(5, i(42290)),    -- Deadly Gladiator's Quickblade
-						moh(2, i(42570)),    -- Deadly Gladiator's Redoubt
-						moh(2, i(42531)),    -- Deadly Gladiator's Reprieve
-						moh(5, i(42485)),    -- Deadly Gladiator's Rifle
-						moh(5, i(42260)),    -- Deadly Gladiator's Ripper
-						moh(5, i(42242)),    -- Deadly Gladiator's Shanker
-						moh(2, i(42559)),    -- Deadly Gladiator's Shield Wall
-						moh(5, i(42248)),    -- Deadly Gladiator's Shiv
-						moh(5, i(42265)),    -- Deadly Gladiator's Slasher
-						moh(5, i(42285)),    -- Deadly Gladiator's Slicer
-						moh(5, i(42346)),    -- Deadly Gladiator's Spellblade
-						moh(5, i(42390)),    -- Deadly Gladiator's Staff
-						moh(5, i(42502)),    -- Deadly Gladiator's Touch of Defeat
-						moh(5, i(44419)),    -- Deadly Gladiator's War Staff
-						moh(5, i(42237)),    -- Deadly Gladiator's Waraxe
+						moh(2, i(42564)),	-- Deadly Gladiator's Barrier
+						moh(5, i(42513)),	-- Deadly Gladiator's Baton of Light
+						moh(5, i(42362)),	-- Deadly Gladiator's Battle Staff
+						moh(5, i(42280)),	-- Deadly Gladiator's Bonecracker
+						moh(5, i(42322)),	-- Deadly Gladiator's Bonegrinder
+						moh(5, i(42232)),	-- Deadly Gladiator's Chopper
+						moh(5, i(42208)),	-- Deadly Gladiator's Cleaver
+						moh(5, i(42317)),	-- Deadly Gladiator's Decapitator
+						moh(2, i(42525)),	-- Deadly Gladiator's Endgame
+						moh(5, i(42384)),	-- Deadly Gladiator's Energy Staff
+						moh(5, i(42270)),	-- Deadly Gladiator's Fleshslicer
+						moh(5, i(44420)),	-- Deadly Gladiator's Focus Staff
+						moh(5, i(42352)),	-- Deadly Gladiator's Gavel
+						moh(5, i(42332)),	-- Deadly Gladiator's Greatsword
+						moh(2, i(42537)),	-- Deadly Gladiator's Grimoire
+						moh(5, i(42227)),	-- Deadly Gladiator's Hacker
+						moh(5, i(42495)),	-- Deadly Gladiator's Heavy Crossbow
+						moh(5, i(42490)),	-- Deadly Gladiator's Longbow
+						moh(5, i(42255)),	-- Deadly Gladiator's Mutilator
+						moh(5, i(42519)),	-- Deadly Gladiator's Piercing Touch
+						moh(5, i(42327)),	-- Deadly Gladiator's Pike
+						moh(5, i(42275)),	-- Deadly Gladiator's Pummeler
+						moh(5, i(42290)),	-- Deadly Gladiator's Quickblade
+						moh(2, i(42570)),	-- Deadly Gladiator's Redoubt
+						moh(2, i(42531)),	-- Deadly Gladiator's Reprieve
+						moh(5, i(42485)),	-- Deadly Gladiator's Rifle
+						moh(5, i(42260)),	-- Deadly Gladiator's Ripper
+						moh(5, i(42242)),	-- Deadly Gladiator's Shanker
+						moh(2, i(42559)),	-- Deadly Gladiator's Shield Wall
+						moh(5, i(42248)),	-- Deadly Gladiator's Shiv
+						moh(5, i(42265)),	-- Deadly Gladiator's Slasher
+						moh(5, i(42285)),	-- Deadly Gladiator's Slicer
+						moh(5, i(42346)),	-- Deadly Gladiator's Spellblade
+						moh(5, i(42390)),	-- Deadly Gladiator's Staff
+						moh(5, i(42502)),	-- Deadly Gladiator's Touch of Defeat
+						moh(5, i(44419)),	-- Deadly Gladiator's War Staff
+						moh(5, i(42237)),	-- Deadly Gladiator's Waraxe
 						i(42450, {	-- Deadly Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
@@ -857,11 +857,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147591 },	-- Deadly Gladiator's Greaves of Victory
 							},
 						}),
-						moh(3, i(40784)),    -- Deadly Gladiator's Dreadplate Chestpiece
-						moh(2, i(40806)),    -- Deadly Gladiator's Dreadplate Gauntlets
-						moh(3, i(40824)),    -- Deadly Gladiator's Dreadplate Helm
-						moh(3, i(40845)),    -- Deadly Gladiator's Dreadplate Legguards
-						moh(2, i(40863)),    -- Deadly Gladiator's Dreadplate Shoulders
+						moh(3, i(40784)),	-- Deadly Gladiator's Dreadplate Chestpiece
+						moh(2, i(40806)),	-- Deadly Gladiator's Dreadplate Gauntlets
+						moh(3, i(40824)),	-- Deadly Gladiator's Dreadplate Helm
+						moh(3, i(40845)),	-- Deadly Gladiator's Dreadplate Legguards
+						moh(2, i(40863)),	-- Deadly Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146539, {	-- Ensemble: Deadly Gladiator's Dragonhide Armor
@@ -877,21 +877,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41620 },	-- Deadly Gladiator's Boots of Salvation
 							},
 						}),
-						moh(2, i(41772)),    -- Deadly Gladiator's Dragonhide Gloves
-						moh(3, i(41677)),    -- Deadly Gladiator's Dragonhide Helm
-						moh(3, i(41666)),    -- Deadly Gladiator's Dragonhide Legguards
-						moh(3, i(41660)),    -- Deadly Gladiator's Dragonhide Robes
-						moh(2, i(41714)),    -- Deadly Gladiator's Dragonhide Spaulders
-						moh(2, i(41286)),    -- Deadly Gladiator's Kodohide Gloves
-						moh(3, i(41320)),    -- Deadly Gladiator's Kodohide Helm
-						moh(3, i(41297)),    -- Deadly Gladiator's Kodohide Legguards
-						moh(3, i(41309)),    -- Deadly Gladiator's Kodohide Robes
-						moh(2, i(41274)),    -- Deadly Gladiator's Kodohide Spaulders
-						moh(2, i(41292)),    -- Deadly Gladiator's Wyrmhide Gloves
-						moh(3, i(41326)),    -- Deadly Gladiator's Wyrmhide Helm
-						moh(3, i(41303)),    -- Deadly Gladiator's Wyrmhide Legguards
-						moh(3, i(41315)),    -- Deadly Gladiator's Wyrmhide Robes
-						moh(2, i(41280)),    -- Deadly Gladiator's Wyrmhide Spaulders
+						moh(2, i(41772)),	-- Deadly Gladiator's Dragonhide Gloves
+						moh(3, i(41677)),	-- Deadly Gladiator's Dragonhide Helm
+						moh(3, i(41666)),	-- Deadly Gladiator's Dragonhide Legguards
+						moh(3, i(41660)),	-- Deadly Gladiator's Dragonhide Robes
+						moh(2, i(41714)),	-- Deadly Gladiator's Dragonhide Spaulders
+						moh(2, i(41286)),	-- Deadly Gladiator's Kodohide Gloves
+						moh(3, i(41320)),	-- Deadly Gladiator's Kodohide Helm
+						moh(3, i(41297)),	-- Deadly Gladiator's Kodohide Legguards
+						moh(3, i(41309)),	-- Deadly Gladiator's Kodohide Robes
+						moh(2, i(41274)),	-- Deadly Gladiator's Kodohide Spaulders
+						moh(2, i(41292)),	-- Deadly Gladiator's Wyrmhide Gloves
+						moh(3, i(41326)),	-- Deadly Gladiator's Wyrmhide Helm
+						moh(3, i(41303)),	-- Deadly Gladiator's Wyrmhide Legguards
+						moh(3, i(41315)),	-- Deadly Gladiator's Wyrmhide Robes
+						moh(2, i(41280)),	-- Deadly Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146538, {	-- Ensemble: Deadly Gladiator's Chain Armor
@@ -904,11 +904,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41229 },	-- Deadly Gladiator's Sabatons of Triumph
 							},
 						}),
-						moh(3, i(41086)),    -- Deadly Gladiator's Chain Armor
-						moh(2, i(41142)),    -- Deadly Gladiator's Chain Gauntlets
-						moh(3, i(41156)),    -- Deadly Gladiator's Chain Helm
-						moh(3, i(41204)),    -- Deadly Gladiator's Chain Leggings
-						moh(2, i(41216)),    -- Deadly Gladiator's Chain Spaulders
+						moh(3, i(41086)),	-- Deadly Gladiator's Chain Armor
+						moh(2, i(41142)),	-- Deadly Gladiator's Chain Gauntlets
+						moh(3, i(41156)),	-- Deadly Gladiator's Chain Helm
+						moh(3, i(41204)),	-- Deadly Gladiator's Chain Leggings
+						moh(2, i(41216)),	-- Deadly Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146547, {	-- Ensemble: Deadly Gladiator's Silk Armor
@@ -921,11 +921,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41902 },	-- Deadly Gladiator's Treads of Dominance
 							},
 						}),
-						moh(2, i(41964)),    -- Deadly Gladiator's Silk Amice
-						moh(3, i(41945)),    -- Deadly Gladiator's Silk Cowl
-						moh(2, i(41970)),    -- Deadly Gladiator's Silk Handguards
-						moh(3, i(41951)),    -- Deadly Gladiator's Silk Raiment
-						moh(3, i(41958)),    -- Deadly Gladiator's Silk Trousers
+						moh(2, i(41964)),	-- Deadly Gladiator's Silk Amice
+						moh(3, i(41945)),	-- Deadly Gladiator's Silk Cowl
+						moh(2, i(41970)),	-- Deadly Gladiator's Silk Handguards
+						moh(3, i(41951)),	-- Deadly Gladiator's Silk Raiment
+						moh(3, i(41958)),	-- Deadly Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146546, {	-- Ensemble: Deadly Gladiator's Scaled Armor
@@ -938,16 +938,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40975 },	-- Deadly Gladiator's Greaves of Salvation
 							},
 						}),
-						moh(3, i(40905)),    -- Deadly Gladiator's Ornamented Chestguard
-						moh(2, i(40926)),    -- Deadly Gladiator's Ornamented Gloves
-						moh(3, i(40932)),    -- Deadly Gladiator's Ornamented Headcover
-						moh(3, i(40938)),    -- Deadly Gladiator's Ornamented Legplates
-						moh(2, i(40962)),    -- Deadly Gladiator's Ornamented Spaulders
-						moh(3, i(40785)),    -- Deadly Gladiator's Scaled Chestpiece
-						moh(2, i(40805)),    -- Deadly Gladiator's Scaled Gauntlets
-						moh(3, i(40825)),    -- Deadly Gladiator's Scaled Helm
-						moh(3, i(40846)),    -- Deadly Gladiator's Scaled Legguards
-						moh(2, i(40864)),    -- Deadly Gladiator's Scaled Shoulders
+						moh(3, i(40905)),	-- Deadly Gladiator's Ornamented Chestguard
+						moh(2, i(40926)),	-- Deadly Gladiator's Ornamented Gloves
+						moh(3, i(40932)),	-- Deadly Gladiator's Ornamented Headcover
+						moh(3, i(40938)),	-- Deadly Gladiator's Ornamented Legplates
+						moh(2, i(40962)),	-- Deadly Gladiator's Ornamented Spaulders
+						moh(3, i(40785)),	-- Deadly Gladiator's Scaled Chestpiece
+						moh(2, i(40805)),	-- Deadly Gladiator's Scaled Gauntlets
+						moh(3, i(40825)),	-- Deadly Gladiator's Scaled Helm
+						moh(3, i(40846)),	-- Deadly Gladiator's Scaled Legguards
+						moh(2, i(40864)),	-- Deadly Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146545, {	-- Ensemble: Deadly Gladiator's Satin Armor
@@ -960,16 +960,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41884 },	-- Deadly Gladiator's Treads of Salvation
 							},
 						}),
-						moh(2, i(41873)),    -- Deadly Gladiator's Mooncloth Gloves
-						moh(3, i(41853)),    -- Deadly Gladiator's Mooncloth Hood
-						moh(3, i(41863)),    -- Deadly Gladiator's Mooncloth Leggings
-						moh(2, i(41868)),    -- Deadly Gladiator's Mooncloth Mantle
-						moh(3, i(41858)),    -- Deadly Gladiator's Mooncloth Robe
-						moh(2, i(41939)),    -- Deadly Gladiator's Satin Gloves
-						moh(3, i(41914)),    -- Deadly Gladiator's Satin Hood
-						moh(3, i(41926)),    -- Deadly Gladiator's Satin Leggings
-						moh(2, i(41933)),    -- Deadly Gladiator's Satin Mantle
-						moh(3, i(41920)),    -- Deadly Gladiator's Satin Robe
+						moh(2, i(41873)),	-- Deadly Gladiator's Mooncloth Gloves
+						moh(3, i(41853)),	-- Deadly Gladiator's Mooncloth Hood
+						moh(3, i(41863)),	-- Deadly Gladiator's Mooncloth Leggings
+						moh(2, i(41868)),	-- Deadly Gladiator's Mooncloth Mantle
+						moh(3, i(41858)),	-- Deadly Gladiator's Mooncloth Robe
+						moh(2, i(41939)),	-- Deadly Gladiator's Satin Gloves
+						moh(3, i(41914)),	-- Deadly Gladiator's Satin Hood
+						moh(3, i(41926)),	-- Deadly Gladiator's Satin Leggings
+						moh(2, i(41933)),	-- Deadly Gladiator's Satin Mantle
+						moh(3, i(41920)),	-- Deadly Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146542, {	-- Ensemble: Deadly Gladiator's Leather Armor
@@ -982,11 +982,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41835 },	-- Deadly Gladiator's Boots of Triumph
 							},
 						}),
-						moh(2, i(41766)),    -- Deadly Gladiator's Leather Gloves
-						moh(3, i(41671)),    -- Deadly Gladiator's Leather Helm
-						moh(3, i(41654)),    -- Deadly Gladiator's Leather Legguards
-						moh(2, i(41682)),    -- Deadly Gladiator's Leather Spaulders
-						moh(3, i(41649)),    -- Deadly Gladiator's Leather Tunic
+						moh(2, i(41766)),	-- Deadly Gladiator's Leather Gloves
+						moh(3, i(41671)),	-- Deadly Gladiator's Leather Helm
+						moh(3, i(41654)),	-- Deadly Gladiator's Leather Legguards
+						moh(2, i(41682)),	-- Deadly Gladiator's Leather Spaulders
+						moh(3, i(41649)),	-- Deadly Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146544, {	-- Ensemble: Deadly Gladiator's Ringmail Armor
@@ -1002,21 +1002,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41054 },	-- Deadly Gladiator's Sabatons of Salvation
 							},
 						}),
-						moh(3, i(41080)),    -- Deadly Gladiator's Linked Armor
-						moh(2, i(41136)),    -- Deadly Gladiator's Linked Gauntlets
-						moh(3, i(41150)),    -- Deadly Gladiator's Linked Helm
-						moh(3, i(41198)),    -- Deadly Gladiator's Linked Leggings
-						moh(2, i(41210)),    -- Deadly Gladiator's Linked Spaulders
-						moh(3, i(40991)),    -- Deadly Gladiator's Mail Armor
-						moh(2, i(41006)),    -- Deadly Gladiator's Mail Gauntlets
-						moh(3, i(41018)),    -- Deadly Gladiator's Mail Helm
-						moh(3, i(41032)),    -- Deadly Gladiator's Mail Leggings
-						moh(2, i(41043)),    -- Deadly Gladiator's Mail Spaulders
-						moh(3, i(40990)),    -- Deadly Gladiator's Ringmail Armor
-						moh(2, i(41000)),    -- Deadly Gladiator's Ringmail Gauntlets
-						moh(3, i(41012)),    -- Deadly Gladiator's Ringmail Helm
-						moh(3, i(41026)),    -- Deadly Gladiator's Ringmail Leggings
-						moh(2, i(41037)),    -- Deadly Gladiator's Ringmail Spaulders
+						moh(3, i(41080)),	-- Deadly Gladiator's Linked Armor
+						moh(2, i(41136)),	-- Deadly Gladiator's Linked Gauntlets
+						moh(3, i(41150)),	-- Deadly Gladiator's Linked Helm
+						moh(3, i(41198)),	-- Deadly Gladiator's Linked Leggings
+						moh(2, i(41210)),	-- Deadly Gladiator's Linked Spaulders
+						moh(3, i(40991)),	-- Deadly Gladiator's Mail Armor
+						moh(2, i(41006)),	-- Deadly Gladiator's Mail Gauntlets
+						moh(3, i(41018)),	-- Deadly Gladiator's Mail Helm
+						moh(3, i(41032)),	-- Deadly Gladiator's Mail Leggings
+						moh(2, i(41043)),	-- Deadly Gladiator's Mail Spaulders
+						moh(3, i(40990)),	-- Deadly Gladiator's Ringmail Armor
+						moh(2, i(41000)),	-- Deadly Gladiator's Ringmail Gauntlets
+						moh(3, i(41012)),	-- Deadly Gladiator's Ringmail Helm
+						moh(3, i(41026)),	-- Deadly Gladiator's Ringmail Leggings
+						moh(2, i(41037)),	-- Deadly Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146541, {	-- Ensemble: Deadly Gladiator's Felweave Armor
@@ -1029,11 +1029,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147594 },	-- Deadly Gladiator's Treads of Ascendancy
 							},
 						}),
-						moh(2, i(42010)),    -- Deadly Gladiator's Felweave Amice
-						moh(3, i(41992)),    -- Deadly Gladiator's Felweave Cowl
-						moh(2, i(42016)),    -- Deadly Gladiator's Felweave Handguards
-						moh(3, i(41997)),    -- Deadly Gladiator's Felweave Raiment
-						moh(3, i(42004)),    -- Deadly Gladiator's Felweave Trousers
+						moh(2, i(42010)),	-- Deadly Gladiator's Felweave Amice
+						moh(3, i(41992)),	-- Deadly Gladiator's Felweave Cowl
+						moh(2, i(42016)),	-- Deadly Gladiator's Felweave Handguards
+						moh(3, i(41997)),	-- Deadly Gladiator's Felweave Raiment
+						moh(3, i(42004)),	-- Deadly Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146543, {	-- Ensemble: Deadly Gladiator's Plate Armor
@@ -1046,27 +1046,27 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40880 },	-- Deadly Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(40786)),    -- Deadly Gladiator's Plate Chestpiece
-						moh(2, i(40804)),    -- Deadly Gladiator's Plate Gauntlets
-						moh(3, i(40823)),    -- Deadly Gladiator's Plate Helm
-						moh(3, i(40844)),    -- Deadly Gladiator's Plate Legguards
-						moh(2, i(40862)),    -- Deadly Gladiator's Plate Shoulders
+						moh(3, i(40786)),	-- Deadly Gladiator's Plate Chestpiece
+						moh(2, i(40804)),	-- Deadly Gladiator's Plate Gauntlets
+						moh(3, i(40823)),	-- Deadly Gladiator's Plate Helm
+						moh(3, i(40844)),	-- Deadly Gladiator's Plate Legguards
+						moh(2, i(40862)),	-- Deadly Gladiator's Plate Shoulders
 					}),
 					n(BACK, {
-						moh(1, i(42064)),    -- Deadly Gladiator's Cloak of Ascendancy
-						moh(1, i(42066)),    -- Deadly Gladiator's Cloak of Deliverance
-						moh(1, i(42062)),    -- Deadly Gladiator's Cloak of Dominance
-						moh(1, i(42065)),    -- Deadly Gladiator's Cloak of Salvation
-						moh(1, i(42063)),    -- Deadly Gladiator's Cloak of Subjugation
-						moh(1, i(42067)),    -- Deadly Gladiator's Cloak of Triumph
-						moh(1, i(42068)),    -- Deadly Gladiator's Cloak of Victory
+						moh(1, i(42064)),	-- Deadly Gladiator's Cloak of Ascendancy
+						moh(1, i(42066)),	-- Deadly Gladiator's Cloak of Deliverance
+						moh(1, i(42062)),	-- Deadly Gladiator's Cloak of Dominance
+						moh(1, i(42065)),	-- Deadly Gladiator's Cloak of Salvation
+						moh(1, i(42063)),	-- Deadly Gladiator's Cloak of Subjugation
+						moh(1, i(42067)),	-- Deadly Gladiator's Cloak of Triumph
+						moh(1, i(42068)),	-- Deadly Gladiator's Cloak of Victory
 					}),
 					n(WRIST, {
-						moh(1, i(41639)),    -- Deadly Gladiator's Armwraps of Dominance
-						moh(1, i(41624)),    -- Deadly Gladiator's Armwraps of Salvation
-						moh(1, i(41839)),    -- Deadly Gladiator's Armwraps of Triumph
-						moh(1, i(40982)),    -- Deadly Gladiator's Bracers of Salvation
-						moh(1, i(40888)),    -- Deadly Gladiator's Bracers of Triumph
+						moh(1, i(41639)),	-- Deadly Gladiator's Armwraps of Dominance
+						moh(1, i(41624)),	-- Deadly Gladiator's Armwraps of Salvation
+						moh(1, i(41839)),	-- Deadly Gladiator's Armwraps of Triumph
+						moh(1, i(40982)),	-- Deadly Gladiator's Bracers of Salvation
+						moh(1, i(40888)),	-- Deadly Gladiator's Bracers of Triumph
 						i(147589, {	-- Deadly Gladiator's Bracers of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
@@ -1075,51 +1075,51 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41908)),    -- Deadly Gladiator's Cuffs of Dominance
-						moh(1, i(41892)),    -- Deadly Gladiator's Cuffs of Salvation
-						moh(1, i(41064)),    -- Deadly Gladiator's Wristguards of Dominance
-						moh(1, i(41059)),    -- Deadly Gladiator's Wristguards of Salvation
-						moh(1, i(41224)),    -- Deadly Gladiator's Wristguards of Triumph
+						moh(1, i(41908)),	-- Deadly Gladiator's Cuffs of Dominance
+						moh(1, i(41892)),	-- Deadly Gladiator's Cuffs of Salvation
+						moh(1, i(41064)),	-- Deadly Gladiator's Wristguards of Dominance
+						moh(1, i(41059)),	-- Deadly Gladiator's Wristguards of Salvation
+						moh(1, i(41224)),	-- Deadly Gladiator's Wristguards of Triumph
 					}),
 					n(WAIST, {
-						moh(1, i(41629)),    -- Deadly Gladiator's Belt of Dominance
-						moh(1, i(41616)),    -- Deadly Gladiator's Belt of Salvation
-						moh(1, i(41831)),    -- Deadly Gladiator's Belt of Triumph
+						moh(1, i(41629)),	-- Deadly Gladiator's Belt of Dominance
+						moh(1, i(41616)),	-- Deadly Gladiator's Belt of Salvation
+						moh(1, i(41831)),	-- Deadly Gladiator's Belt of Triumph
 						i(147593, {	-- Deadly Gladiator's Cord of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41897)),    -- Deadly Gladiator's Cord of Dominance
-						moh(1, i(41880)),    -- Deadly Gladiator's Cord of Salvation
-						moh(1, i(40974)),    -- Deadly Gladiator's Girdle of Salvation
-						moh(1, i(40879)),    -- Deadly Gladiator's Girdle of Triumph
+						moh(1, i(41897)),	-- Deadly Gladiator's Cord of Dominance
+						moh(1, i(41880)),	-- Deadly Gladiator's Cord of Salvation
+						moh(1, i(40974)),	-- Deadly Gladiator's Girdle of Salvation
+						moh(1, i(40879)),	-- Deadly Gladiator's Girdle of Triumph
 						i(147590, {	-- Deadly Gladiator's Girdle of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41069)),    -- Deadly Gladiator's Waistguard of Dominance
-						moh(1, i(41048)),    -- Deadly Gladiator's Waistguard of Salvation
-						moh(1, i(41234)),    -- Deadly Gladiator's Waistguard of Triumph
+						moh(1, i(41069)),	-- Deadly Gladiator's Waistguard of Dominance
+						moh(1, i(41048)),	-- Deadly Gladiator's Waistguard of Salvation
+						moh(1, i(41234)),	-- Deadly Gladiator's Waistguard of Triumph
 					}),
 					n(FEET, {
-						moh(2, i(41634)),    -- Deadly Gladiator's Boots of Dominance
-						moh(2, i(41620)),    -- Deadly Gladiator's Boots of Salvation
-						moh(2, i(41835)),    -- Deadly Gladiator's Boots of Triumph
-						moh(2, i(40975)),    -- Deadly Gladiator's Greaves of Salvation
-						moh(2, i(40880)),    -- Deadly Gladiator's Greaves of Triumph
+						moh(2, i(41634)),	-- Deadly Gladiator's Boots of Dominance
+						moh(2, i(41620)),	-- Deadly Gladiator's Boots of Salvation
+						moh(2, i(41835)),	-- Deadly Gladiator's Boots of Triumph
+						moh(2, i(40975)),	-- Deadly Gladiator's Greaves of Salvation
+						moh(2, i(40880)),	-- Deadly Gladiator's Greaves of Triumph
 						i(147591, {	-- Deadly Gladiator's Greaves of Victory
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41074)),    -- Deadly Gladiator's Sabatons of Dominance
-						moh(2, i(41054)),    -- Deadly Gladiator's Sabatons of Salvation
-						moh(2, i(41229)),    -- Deadly Gladiator's Sabatons of Triumph
+						moh(2, i(41074)),	-- Deadly Gladiator's Sabatons of Dominance
+						moh(2, i(41054)),	-- Deadly Gladiator's Sabatons of Salvation
+						moh(2, i(41229)),	-- Deadly Gladiator's Sabatons of Triumph
 						i(147594, {	-- Deadly Gladiator's Treads of Ascendancy
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41902)),    -- Deadly Gladiator's Treads of Dominance
-						moh(2, i(41884)),    -- Deadly Gladiator's Treads of Salvation
+						moh(2, i(41902)),	-- Deadly Gladiator's Treads of Dominance
+						moh(2, i(41884)),	-- Deadly Gladiator's Treads of Salvation
 					}),
 					filter(NECK_F, {
 						i(42030),	-- Deadly Gladiator's Pendant of Ascendancy
@@ -1216,42 +1216,42 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(80, iensemble(146644, {	-- Arsenal: Furious Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
 						})),
-						moh(2, i(42565)),    -- Furious Gladiator's Barrier
-						moh(5, i(42514)),    -- Furious Gladiator's Baton of Light
-						moh(5, i(42364)),    -- Furious Gladiator's Battle Staff
-						moh(5, i(42281)),    -- Furious Gladiator's Bonecracker
-						moh(5, i(42323)),    -- Furious Gladiator's Bonegrinder
-						moh(5, i(42233)),    -- Furious Gladiator's Chopper
-						moh(5, i(42209)),    -- Furious Gladiator's Cleaver
-						moh(5, i(42318)),    -- Furious Gladiator's Decapitator
-						moh(2, i(42526)),    -- Furious Gladiator's Endgame
-						moh(5, i(42385)),    -- Furious Gladiator's Energy Staff
-						moh(5, i(42271)),    -- Furious Gladiator's Fleshslicer
-						moh(5, i(44422)),    -- Furious Gladiator's Focus Staff
-						moh(5, i(42353)),    -- Furious Gladiator's Gavel
-						moh(5, i(42333)),    -- Furious Gladiator's Greatsword
-						moh(2, i(42538)),    -- Furious Gladiator's Grimoire
-						moh(5, i(42228)),    -- Furious Gladiator's Hacker
-						moh(5, i(42496)),    -- Furious Gladiator's Heavy Crossbow
-						moh(5, i(42491)),    -- Furious Gladiator's Longbow
-						moh(5, i(42256)),    -- Furious Gladiator's Mutilator
-						moh(5, i(42520)),    -- Furious Gladiator's Piercing Touch
-						moh(5, i(42328)),    -- Furious Gladiator's Pike
-						moh(5, i(42276)),    -- Furious Gladiator's Pummeler
-						moh(5, i(42291)),    -- Furious Gladiator's Quickblade
-						moh(2, i(42571)),    -- Furious Gladiator's Redoubt
-						moh(2, i(42532)),    -- Furious Gladiator's Reprieve
-						moh(5, i(42486)),    -- Furious Gladiator's Rifle
-						moh(5, i(42261)),    -- Furious Gladiator's Ripper
-						moh(5, i(42243)),    -- Furious Gladiator's Shanker
-						moh(2, i(42560)),    -- Furious Gladiator's Shield Wall
-						moh(5, i(42249)),    -- Furious Gladiator's Shiv
-						moh(5, i(42266)),    -- Furious Gladiator's Slasher
-						moh(5, i(42286)),    -- Furious Gladiator's Slicer
-						moh(5, i(42347)),    -- Furious Gladiator's Spellblade
-						moh(5, i(42391)),    -- Furious Gladiator's Staff
-						moh(5, i(42503)),    -- Furious Gladiator's Touch of Defeat
-						moh(5, i(44421)),    -- Furious Gladiator's War Staff
+						moh(2, i(42565)),	-- Furious Gladiator's Barrier
+						moh(5, i(42514)),	-- Furious Gladiator's Baton of Light
+						moh(5, i(42364)),	-- Furious Gladiator's Battle Staff
+						moh(5, i(42281)),	-- Furious Gladiator's Bonecracker
+						moh(5, i(42323)),	-- Furious Gladiator's Bonegrinder
+						moh(5, i(42233)),	-- Furious Gladiator's Chopper
+						moh(5, i(42209)),	-- Furious Gladiator's Cleaver
+						moh(5, i(42318)),	-- Furious Gladiator's Decapitator
+						moh(2, i(42526)),	-- Furious Gladiator's Endgame
+						moh(5, i(42385)),	-- Furious Gladiator's Energy Staff
+						moh(5, i(42271)),	-- Furious Gladiator's Fleshslicer
+						moh(5, i(44422)),	-- Furious Gladiator's Focus Staff
+						moh(5, i(42353)),	-- Furious Gladiator's Gavel
+						moh(5, i(42333)),	-- Furious Gladiator's Greatsword
+						moh(2, i(42538)),	-- Furious Gladiator's Grimoire
+						moh(5, i(42228)),	-- Furious Gladiator's Hacker
+						moh(5, i(42496)),	-- Furious Gladiator's Heavy Crossbow
+						moh(5, i(42491)),	-- Furious Gladiator's Longbow
+						moh(5, i(42256)),	-- Furious Gladiator's Mutilator
+						moh(5, i(42520)),	-- Furious Gladiator's Piercing Touch
+						moh(5, i(42328)),	-- Furious Gladiator's Pike
+						moh(5, i(42276)),	-- Furious Gladiator's Pummeler
+						moh(5, i(42291)),	-- Furious Gladiator's Quickblade
+						moh(2, i(42571)),	-- Furious Gladiator's Redoubt
+						moh(2, i(42532)),	-- Furious Gladiator's Reprieve
+						moh(5, i(42486)),	-- Furious Gladiator's Rifle
+						moh(5, i(42261)),	-- Furious Gladiator's Ripper
+						moh(5, i(42243)),	-- Furious Gladiator's Shanker
+						moh(2, i(42560)),	-- Furious Gladiator's Shield Wall
+						moh(5, i(42249)),	-- Furious Gladiator's Shiv
+						moh(5, i(42266)),	-- Furious Gladiator's Slasher
+						moh(5, i(42286)),	-- Furious Gladiator's Slicer
+						moh(5, i(42347)),	-- Furious Gladiator's Spellblade
+						moh(5, i(42391)),	-- Furious Gladiator's Staff
+						moh(5, i(42503)),	-- Furious Gladiator's Touch of Defeat
+						moh(5, i(44421)),	-- Furious Gladiator's War Staff
 						i(42238, {	-- Furious Gladiator's Waraxe
 							["timeline"] = { CREATED_3_1_1 },	-- This may have never been implemented, we'll find out!
 						}),
@@ -1270,11 +1270,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40882 },	-- Furious Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(40787)),    -- Furious Gladiator's Dreadplate Chestpiece
-						moh(2, i(40809)),    -- Furious Gladiator's Dreadplate Gauntlets
-						moh(3, i(40827)),    -- Furious Gladiator's Dreadplate Helm
-						moh(3, i(40848)),    -- Furious Gladiator's Dreadplate Legguards
-						moh(2, i(40868)),    -- Furious Gladiator's Dreadplate Shoulders
+						moh(3, i(40787)),	-- Furious Gladiator's Dreadplate Chestpiece
+						moh(2, i(40809)),	-- Furious Gladiator's Dreadplate Gauntlets
+						moh(3, i(40827)),	-- Furious Gladiator's Dreadplate Helm
+						moh(3, i(40848)),	-- Furious Gladiator's Dreadplate Legguards
+						moh(2, i(40868)),	-- Furious Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146549, {	-- Ensemble: Furious Gladiator's Dragonhide Armor
@@ -1290,21 +1290,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41621 },	-- Furious Gladiator's Boots of Salvation
 							},
 						}),
-						moh(2, i(41773)),    -- Furious Gladiator's Dragonhide Gloves
-						moh(3, i(41678)),    -- Furious Gladiator's Dragonhide Helm
-						moh(3, i(41667)),    -- Furious Gladiator's Dragonhide Legguards
-						moh(3, i(41661)),    -- Furious Gladiator's Dragonhide Robes
-						moh(2, i(41715)),    -- Furious Gladiator's Dragonhide Spaulders
-						moh(2, i(41287)),    -- Furious Gladiator's Kodohide Gloves
-						moh(3, i(41321)),    -- Furious Gladiator's Kodohide Helm
-						moh(3, i(41298)),    -- Furious Gladiator's Kodohide Legguards
-						moh(3, i(41310)),    -- Furious Gladiator's Kodohide Robes
-						moh(2, i(41275)),    -- Furious Gladiator's Kodohide Spaulders
-						moh(2, i(41293)),    -- Furious Gladiator's Wyrmhide Gloves
-						moh(3, i(41327)),    -- Furious Gladiator's Wyrmhide Helm
-						moh(3, i(41304)),    -- Furious Gladiator's Wyrmhide Legguards
-						moh(3, i(41316)),    -- Furious Gladiator's Wyrmhide Robes
-						moh(2, i(41281)),    -- Furious Gladiator's Wyrmhide Spaulders
+						moh(2, i(41773)),	-- Furious Gladiator's Dragonhide Gloves
+						moh(3, i(41678)),	-- Furious Gladiator's Dragonhide Helm
+						moh(3, i(41667)),	-- Furious Gladiator's Dragonhide Legguards
+						moh(3, i(41661)),	-- Furious Gladiator's Dragonhide Robes
+						moh(2, i(41715)),	-- Furious Gladiator's Dragonhide Spaulders
+						moh(2, i(41287)),	-- Furious Gladiator's Kodohide Gloves
+						moh(3, i(41321)),	-- Furious Gladiator's Kodohide Helm
+						moh(3, i(41298)),	-- Furious Gladiator's Kodohide Legguards
+						moh(3, i(41310)),	-- Furious Gladiator's Kodohide Robes
+						moh(2, i(41275)),	-- Furious Gladiator's Kodohide Spaulders
+						moh(2, i(41293)),	-- Furious Gladiator's Wyrmhide Gloves
+						moh(3, i(41327)),	-- Furious Gladiator's Wyrmhide Helm
+						moh(3, i(41304)),	-- Furious Gladiator's Wyrmhide Legguards
+						moh(3, i(41316)),	-- Furious Gladiator's Wyrmhide Robes
+						moh(2, i(41281)),	-- Furious Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146548, {	-- Ensemble: Furious Gladiator's Chain Armor
@@ -1317,11 +1317,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41230 },	-- Furious Gladiator's Sabatons of Triumph
 							},
 						}),
-						moh(3, i(41087)),    -- Furious Gladiator's Chain Armor
-						moh(2, i(41143)),    -- Furious Gladiator's Chain Gauntlets
-						moh(3, i(41157)),    -- Furious Gladiator's Chain Helm
-						moh(3, i(41205)),    -- Furious Gladiator's Chain Leggings
-						moh(2, i(41217)),    -- Furious Gladiator's Chain Spaulders
+						moh(3, i(41087)),	-- Furious Gladiator's Chain Armor
+						moh(2, i(41143)),	-- Furious Gladiator's Chain Gauntlets
+						moh(3, i(41157)),	-- Furious Gladiator's Chain Helm
+						moh(3, i(41205)),	-- Furious Gladiator's Chain Leggings
+						moh(2, i(41217)),	-- Furious Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146557, {	-- Ensemble: Furious Gladiator's Silk Armor
@@ -1334,11 +1334,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147597 },	-- Furious Gladiator's Slippers of Ascendancy
 							},
 						}),
-						moh(2, i(41965)),    -- Furious Gladiator's Silk Amice
-						moh(3, i(41946)),    -- Furious Gladiator's Silk Cowl
-						moh(2, i(41971)),    -- Furious Gladiator's Silk Handguards
-						moh(3, i(41953)),    -- Furious Gladiator's Silk Raiment
-						moh(3, i(41959)),    -- Furious Gladiator's Silk Trousers
+						moh(2, i(41965)),	-- Furious Gladiator's Silk Amice
+						moh(3, i(41946)),	-- Furious Gladiator's Silk Cowl
+						moh(2, i(41971)),	-- Furious Gladiator's Silk Handguards
+						moh(3, i(41953)),	-- Furious Gladiator's Silk Raiment
+						moh(3, i(41959)),	-- Furious Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146556, {	-- Ensemble: Furious Gladiator's Scaled Armor
@@ -1351,16 +1351,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40977 },	-- Furious Gladiator's Greaves of Salvation
 							},
 						}),
-						moh(3, i(40907)),    -- Furious Gladiator's Ornamented Chestguard
-						moh(2, i(40927)),    -- Furious Gladiator's Ornamented Gloves
-						moh(3, i(40933)),    -- Furious Gladiator's Ornamented Headcover
-						moh(3, i(40939)),    -- Furious Gladiator's Ornamented Legplates
-						moh(2, i(40963)),    -- Furious Gladiator's Ornamented Spaulders
-						moh(3, i(40788)),    -- Furious Gladiator's Scaled Chestpiece
-						moh(2, i(40808)),    -- Furious Gladiator's Scaled Gauntlets
-						moh(3, i(40828)),    -- Furious Gladiator's Scaled Helm
-						moh(3, i(40849)),    -- Furious Gladiator's Scaled Legguards
-						moh(2, i(40869)),    -- Furious Gladiator's Scaled Shoulders
+						moh(3, i(40907)),	-- Furious Gladiator's Ornamented Chestguard
+						moh(2, i(40927)),	-- Furious Gladiator's Ornamented Gloves
+						moh(3, i(40933)),	-- Furious Gladiator's Ornamented Headcover
+						moh(3, i(40939)),	-- Furious Gladiator's Ornamented Legplates
+						moh(2, i(40963)),	-- Furious Gladiator's Ornamented Spaulders
+						moh(3, i(40788)),	-- Furious Gladiator's Scaled Chestpiece
+						moh(2, i(40808)),	-- Furious Gladiator's Scaled Gauntlets
+						moh(3, i(40828)),	-- Furious Gladiator's Scaled Helm
+						moh(3, i(40849)),	-- Furious Gladiator's Scaled Legguards
+						moh(2, i(40869)),	-- Furious Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146555, {	-- Ensemble: Furious Gladiator's Satin Armor
@@ -1373,16 +1373,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41885 },	-- Furious Gladiator's Treads of Salvation
 							},
 						}),
-						moh(2, i(41874)),    -- Furious Gladiator's Mooncloth Gloves
-						moh(3, i(41854)),    -- Furious Gladiator's Mooncloth Hood
-						moh(3, i(41864)),    -- Furious Gladiator's Mooncloth Leggings
-						moh(2, i(41869)),    -- Furious Gladiator's Mooncloth Mantle
-						moh(3, i(41859)),    -- Furious Gladiator's Mooncloth Robe
-						moh(2, i(41940)),    -- Furious Gladiator's Satin Gloves
-						moh(3, i(41915)),    -- Furious Gladiator's Satin Hood
-						moh(3, i(41927)),    -- Furious Gladiator's Satin Leggings
-						moh(2, i(41934)),    -- Furious Gladiator's Satin Mantle
-						moh(3, i(41921)),    -- Furious Gladiator's Satin Robe
+						moh(2, i(41874)),	-- Furious Gladiator's Mooncloth Gloves
+						moh(3, i(41854)),	-- Furious Gladiator's Mooncloth Hood
+						moh(3, i(41864)),	-- Furious Gladiator's Mooncloth Leggings
+						moh(2, i(41869)),	-- Furious Gladiator's Mooncloth Mantle
+						moh(3, i(41859)),	-- Furious Gladiator's Mooncloth Robe
+						moh(2, i(41940)),	-- Furious Gladiator's Satin Gloves
+						moh(3, i(41915)),	-- Furious Gladiator's Satin Hood
+						moh(3, i(41927)),	-- Furious Gladiator's Satin Leggings
+						moh(2, i(41934)),	-- Furious Gladiator's Satin Mantle
+						moh(3, i(41921)),	-- Furious Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146552, {	-- Ensemble: Furious Gladiator's Leather Armor
@@ -1395,11 +1395,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41836 },	-- Furious Gladiator's Boots of Triumph
 							},
 						}),
-						moh(2, i(41767)),    -- Furious Gladiator's Leather Gloves
-						moh(3, i(41672)),    -- Furious Gladiator's Leather Helm
-						moh(3, i(41655)),    -- Furious Gladiator's Leather Legguards
-						moh(2, i(41683)),    -- Furious Gladiator's Leather Spaulders
-						moh(3, i(41650)),    -- Furious Gladiator's Leather Tunic
+						moh(2, i(41767)),	-- Furious Gladiator's Leather Gloves
+						moh(3, i(41672)),	-- Furious Gladiator's Leather Helm
+						moh(3, i(41655)),	-- Furious Gladiator's Leather Legguards
+						moh(2, i(41683)),	-- Furious Gladiator's Leather Spaulders
+						moh(3, i(41650)),	-- Furious Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146554, {	-- Ensemble: Furious Gladiator's Ringmail Armor
@@ -1415,21 +1415,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41055 },	-- Furious Gladiator's Sabatons of Salvation
 							},
 						}),
-						moh(3, i(41081)),    -- Furious Gladiator's Linked Armor
-						moh(2, i(41137)),    -- Furious Gladiator's Linked Gauntlets
-						moh(3, i(41151)),    -- Furious Gladiator's Linked Helm
-						moh(3, i(41199)),    -- Furious Gladiator's Linked Leggings
-						moh(2, i(41211)),    -- Furious Gladiator's Linked Spaulders
-						moh(3, i(40993)),    -- Furious Gladiator's Mail Armor
-						moh(2, i(41007)),    -- Furious Gladiator's Mail Gauntlets
-						moh(3, i(41019)),    -- Furious Gladiator's Mail Helm
-						moh(3, i(41033)),    -- Furious Gladiator's Mail Leggings
-						moh(2, i(41044)),    -- Furious Gladiator's Mail Spaulders
-						moh(3, i(40992)),    -- Furious Gladiator's Ringmail Armor
-						moh(2, i(41001)),    -- Furious Gladiator's Ringmail Gauntlets
-						moh(3, i(41013)),    -- Furious Gladiator's Ringmail Helm
-						moh(3, i(41027)),    -- Furious Gladiator's Ringmail Leggings
-						moh(2, i(41038)),    -- Furious Gladiator's Ringmail Spaulders
+						moh(3, i(41081)),	-- Furious Gladiator's Linked Armor
+						moh(2, i(41137)),	-- Furious Gladiator's Linked Gauntlets
+						moh(3, i(41151)),	-- Furious Gladiator's Linked Helm
+						moh(3, i(41199)),	-- Furious Gladiator's Linked Leggings
+						moh(2, i(41211)),	-- Furious Gladiator's Linked Spaulders
+						moh(3, i(40993)),	-- Furious Gladiator's Mail Armor
+						moh(2, i(41007)),	-- Furious Gladiator's Mail Gauntlets
+						moh(3, i(41019)),	-- Furious Gladiator's Mail Helm
+						moh(3, i(41033)),	-- Furious Gladiator's Mail Leggings
+						moh(2, i(41044)),	-- Furious Gladiator's Mail Spaulders
+						moh(3, i(40992)),	-- Furious Gladiator's Ringmail Armor
+						moh(2, i(41001)),	-- Furious Gladiator's Ringmail Gauntlets
+						moh(3, i(41013)),	-- Furious Gladiator's Ringmail Helm
+						moh(3, i(41027)),	-- Furious Gladiator's Ringmail Leggings
+						moh(2, i(41038)),	-- Furious Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146551, {	-- Ensemble: Furious Gladiator's Felweave Armor
@@ -1442,11 +1442,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41903 },	-- Furious Gladiator's Slippers of Dominance
 							},
 						}),
-						moh(2, i(42011)),    -- Furious Gladiator's Felweave Amice
-						moh(3, i(41993)),    -- Furious Gladiator's Felweave Cowl
-						moh(2, i(42017)),    -- Furious Gladiator's Felweave Handguards
-						moh(3, i(41998)),    -- Furious Gladiator's Felweave Raiment
-						moh(3, i(42005)),    -- Furious Gladiator's Felweave Trousers
+						moh(2, i(42011)),	-- Furious Gladiator's Felweave Amice
+						moh(3, i(41993)),	-- Furious Gladiator's Felweave Cowl
+						moh(2, i(42017)),	-- Furious Gladiator's Felweave Handguards
+						moh(3, i(41998)),	-- Furious Gladiator's Felweave Raiment
+						moh(3, i(42005)),	-- Furious Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146553, {	-- Ensemble: Furious Gladiator's Plate Armor
@@ -1459,27 +1459,27 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147600 },	-- Furious Gladiator's Greaves of Victory
 							},
 						}),
-						moh(3, i(40789)),    -- Furious Gladiator's Plate Chestpiece
-						moh(2, i(40807)),    -- Furious Gladiator's Plate Gauntlets
-						moh(3, i(40826)),    -- Furious Gladiator's Plate Helm
-						moh(3, i(40847)),    -- Furious Gladiator's Plate Legguards
-						moh(2, i(40866)),    -- Furious Gladiator's Plate Shoulders
+						moh(3, i(40789)),	-- Furious Gladiator's Plate Chestpiece
+						moh(2, i(40807)),	-- Furious Gladiator's Plate Gauntlets
+						moh(3, i(40826)),	-- Furious Gladiator's Plate Helm
+						moh(3, i(40847)),	-- Furious Gladiator's Plate Legguards
+						moh(2, i(40866)),	-- Furious Gladiator's Plate Shoulders
 					}),
 					n(BACK, {
-						moh(1, i(42071)),    -- Furious Gladiator's Cloak of Ascendancy
-						moh(1, i(42073)),    -- Furious Gladiator's Cloak of Deliverance
-						moh(1, i(42069)),    -- Furious Gladiator's Cloak of Dominance
-						moh(1, i(42072)),    -- Furious Gladiator's Cloak of Salvation
-						moh(1, i(42070)),    -- Furious Gladiator's Cloak of Subjugation
-						moh(1, i(42074)),    -- Furious Gladiator's Cloak of Triumph
-						moh(1, i(42075)),    -- Furious Gladiator's Cloak of Victory
+						moh(1, i(42071)),	-- Furious Gladiator's Cloak of Ascendancy
+						moh(1, i(42073)),	-- Furious Gladiator's Cloak of Deliverance
+						moh(1, i(42069)),	-- Furious Gladiator's Cloak of Dominance
+						moh(1, i(42072)),	-- Furious Gladiator's Cloak of Salvation
+						moh(1, i(42070)),	-- Furious Gladiator's Cloak of Subjugation
+						moh(1, i(42074)),	-- Furious Gladiator's Cloak of Triumph
+						moh(1, i(42075)),	-- Furious Gladiator's Cloak of Victory
 					}),
 					n(WRIST, {
-						moh(1, i(41640)),    -- Furious Gladiator's Armwraps of Dominance
-						moh(1, i(41625)),    -- Furious Gladiator's Armwraps of Salvation
-						moh(1, i(41840)),    -- Furious Gladiator's Armwraps of Triumph
-						moh(1, i(40983)),    -- Furious Gladiator's Bracers of Salvation
-						moh(1, i(40889)),    -- Furious Gladiator's Bracers of Triumph
+						moh(1, i(41640)),	-- Furious Gladiator's Armwraps of Dominance
+						moh(1, i(41625)),	-- Furious Gladiator's Armwraps of Salvation
+						moh(1, i(41840)),	-- Furious Gladiator's Armwraps of Triumph
+						moh(1, i(40983)),	-- Furious Gladiator's Bracers of Salvation
+						moh(1, i(40889)),	-- Furious Gladiator's Bracers of Triumph
 						i(147598, {	-- Furious Gladiator's Bracers of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
@@ -1488,51 +1488,51 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41909)),    -- Furious Gladiator's Cuffs of Dominance
-						moh(1, i(41893)),    -- Furious Gladiator's Cuffs of Salvation
-						moh(1, i(41065)),    -- Furious Gladiator's Wristguards of Dominance
-						moh(1, i(41060)),    -- Furious Gladiator's Wristguards of Salvation
-						moh(1, i(41225)),    -- Furious Gladiator's Wristguards of Triumph
+						moh(1, i(41909)),	-- Furious Gladiator's Cuffs of Dominance
+						moh(1, i(41893)),	-- Furious Gladiator's Cuffs of Salvation
+						moh(1, i(41065)),	-- Furious Gladiator's Wristguards of Dominance
+						moh(1, i(41060)),	-- Furious Gladiator's Wristguards of Salvation
+						moh(1, i(41225)),	-- Furious Gladiator's Wristguards of Triumph
 					}),
 					n(WAIST, {
-						moh(1, i(41630)),    -- Furious Gladiator's Belt of Dominance
-						moh(1, i(41617)),    -- Furious Gladiator's Belt of Salvation
-						moh(1, i(41832)),    -- Furious Gladiator's Belt of Triumph
+						moh(1, i(41630)),	-- Furious Gladiator's Belt of Dominance
+						moh(1, i(41617)),	-- Furious Gladiator's Belt of Salvation
+						moh(1, i(41832)),	-- Furious Gladiator's Belt of Triumph
 						i(147596, {	-- Furious Gladiator's Cord of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41898)),    -- Furious Gladiator's Cord of Dominance
-						moh(1, i(41881)),    -- Furious Gladiator's Cord of Salvation
-						moh(1, i(40976)),    -- Furious Gladiator's Girdle of Salvation
-						moh(1, i(40881)),    -- Furious Gladiator's Girdle of Triumph
+						moh(1, i(41898)),	-- Furious Gladiator's Cord of Dominance
+						moh(1, i(41881)),	-- Furious Gladiator's Cord of Salvation
+						moh(1, i(40976)),	-- Furious Gladiator's Girdle of Salvation
+						moh(1, i(40881)),	-- Furious Gladiator's Girdle of Triumph
 						i(147599, {	-- Furious Gladiator's Girdle of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41070)),    -- Furious Gladiator's Waistguard of Dominance
-						moh(1, i(41051)),    -- Furious Gladiator's Waistguard of Salvation
-						moh(1, i(41235)),    -- Furious Gladiator's Waistguard of Triumph
+						moh(1, i(41070)),	-- Furious Gladiator's Waistguard of Dominance
+						moh(1, i(41051)),	-- Furious Gladiator's Waistguard of Salvation
+						moh(1, i(41235)),	-- Furious Gladiator's Waistguard of Triumph
 					}),
 					n(FEET, {
-						moh(2, i(41635)),    -- Furious Gladiator's Boots of Dominance
-						moh(2, i(41621)),    -- Furious Gladiator's Boots of Salvation
-						moh(2, i(41836)),    -- Furious Gladiator's Boots of Triumph
-						moh(2, i(40977)),    -- Furious Gladiator's Greaves of Salvation
-						moh(2, i(40882)),    -- Furious Gladiator's Greaves of Triumph
+						moh(2, i(41635)),	-- Furious Gladiator's Boots of Dominance
+						moh(2, i(41621)),	-- Furious Gladiator's Boots of Salvation
+						moh(2, i(41836)),	-- Furious Gladiator's Boots of Triumph
+						moh(2, i(40977)),	-- Furious Gladiator's Greaves of Salvation
+						moh(2, i(40882)),	-- Furious Gladiator's Greaves of Triumph
 						i(147600, {	-- Furious Gladiator's Greaves of Victory
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41075)),    -- Furious Gladiator's Sabatons of Dominance
-						moh(2, i(41055)),    -- Furious Gladiator's Sabatons of Salvation
-						moh(2, i(41230)),    -- Furious Gladiator's Sabatons of Triumph
+						moh(2, i(41075)),	-- Furious Gladiator's Sabatons of Dominance
+						moh(2, i(41055)),	-- Furious Gladiator's Sabatons of Salvation
+						moh(2, i(41230)),	-- Furious Gladiator's Sabatons of Triumph
 						i(147597, {	-- Furious Gladiator's Slippers of Ascendancy
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41903)),    -- Furious Gladiator's Slippers of Dominance
-						moh(2, i(41885)),    -- Furious Gladiator's Slippers of Salvation
+						moh(2, i(41903)),	-- Furious Gladiator's Slippers of Dominance
+						moh(2, i(41885)),	-- Furious Gladiator's Slippers of Salvation
 					}),
 					filter(NECK_F, {
 						i(42037),	-- Furious Gladiator's Pendant of Ascendancy
@@ -1658,48 +1658,48 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(80, iensemble(146643, {	-- Arsenal: Relentless Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
 						})),
-						moh(2, i(42566)),    -- Relentless Gladiator's Barrier
-						moh(5, i(42515)),    -- Relentless Gladiator's Baton of Light
-						moh(5, i(42366)),    -- Relentless Gladiator's Battle Staff
-						moh(5, i(49189)),    -- Relentless Gladiator's Blade of Alacrity
-						moh(5, i(42282)),    -- Relentless Gladiator's Bonecracker
-						moh(5, i(42324)),    -- Relentless Gladiator's Bonegrinder
-						moh(5, i(42234)),    -- Relentless Gladiator's Chopper
+						moh(2, i(42566)),	-- Relentless Gladiator's Barrier
+						moh(5, i(42515)),	-- Relentless Gladiator's Baton of Light
+						moh(5, i(42366)),	-- Relentless Gladiator's Battle Staff
+						moh(5, i(49189)),	-- Relentless Gladiator's Blade of Alacrity
+						moh(5, i(42282)),	-- Relentless Gladiator's Bonecracker
+						moh(5, i(42324)),	-- Relentless Gladiator's Bonegrinder
+						moh(5, i(42234)),	-- Relentless Gladiator's Chopper
 						-- #if AFTER 7.2.0.23436
-						moh(5, i(48444)),    -- Relentless Gladiator's Claw. Originally Elite weapon, missing tag however and made available by accident.
+						moh(5, i(48444)),	-- Relentless Gladiator's Claw. Originally Elite weapon, missing tag however and made available by accident.
 						-- #endif
-						moh(5, i(42210)),    -- Relentless Gladiator's Cleaver
-						moh(2, i(49187)),    -- Relentless Gladiator's Compendium
-						moh(5, i(42319)),    -- Relentless Gladiator's Decapitator
-						moh(2, i(42527)),    -- Relentless Gladiator's Endgame
-						moh(5, i(42386)),    -- Relentless Gladiator's Energy Staff
-						moh(5, i(42272)),    -- Relentless Gladiator's Fleshslicer
-						moh(5, i(44424)),    -- Relentless Gladiator's Focus Staff
-						moh(5, i(42354)),    -- Relentless Gladiator's Gavel
-						moh(5, i(42334)),    -- Relentless Gladiator's Greatsword
-						moh(2, i(42539)),    -- Relentless Gladiator's Grimoire
-						moh(5, i(42229)),    -- Relentless Gladiator's Hacker
-						moh(5, i(42498)),    -- Relentless Gladiator's Heavy Crossbow
-						moh(5, i(42492)),    -- Relentless Gladiator's Longbow
-						moh(5, i(42257)),    -- Relentless Gladiator's Mutilator
-						moh(5, i(42521)),    -- Relentless Gladiator's Piercing Touch
-						moh(5, i(42329)),    -- Relentless Gladiator's Pike
-						moh(5, i(42277)),    -- Relentless Gladiator's Pummeler
-						moh(5, i(42292)),    -- Relentless Gladiator's Quickblade
-						moh(2, i(42572)),    -- Relentless Gladiator's Redoubt
-						moh(2, i(42533)),    -- Relentless Gladiator's Reprieve
-						moh(5, i(42487)),    -- Relentless Gladiator's Rifle
-						moh(5, i(42262)),    -- Relentless Gladiator's Ripper
-						moh(5, i(42244)),    -- Relentless Gladiator's Shanker
-						moh(2, i(42561)),    -- Relentless Gladiator's Shield Wall
-						moh(5, i(42250)),    -- Relentless Gladiator's Shiv
-						moh(5, i(42267)),    -- Relentless Gladiator's Slasher
-						moh(5, i(42287)),    -- Relentless Gladiator's Slicer
-						moh(5, i(42348)),    -- Relentless Gladiator's Spellblade
-						moh(5, i(42392)),    -- Relentless Gladiator's Staff
-						moh(5, i(42504)),    -- Relentless Gladiator's Touch of Defeat
-						moh(5, i(49185)),    -- Relentless Gladiator's Wand of Alacrity
-						moh(5, i(44423)),    -- Relentless Gladiator's War Staff
+						moh(5, i(42210)),	-- Relentless Gladiator's Cleaver
+						moh(2, i(49187)),	-- Relentless Gladiator's Compendium
+						moh(5, i(42319)),	-- Relentless Gladiator's Decapitator
+						moh(2, i(42527)),	-- Relentless Gladiator's Endgame
+						moh(5, i(42386)),	-- Relentless Gladiator's Energy Staff
+						moh(5, i(42272)),	-- Relentless Gladiator's Fleshslicer
+						moh(5, i(44424)),	-- Relentless Gladiator's Focus Staff
+						moh(5, i(42354)),	-- Relentless Gladiator's Gavel
+						moh(5, i(42334)),	-- Relentless Gladiator's Greatsword
+						moh(2, i(42539)),	-- Relentless Gladiator's Grimoire
+						moh(5, i(42229)),	-- Relentless Gladiator's Hacker
+						moh(5, i(42498)),	-- Relentless Gladiator's Heavy Crossbow
+						moh(5, i(42492)),	-- Relentless Gladiator's Longbow
+						moh(5, i(42257)),	-- Relentless Gladiator's Mutilator
+						moh(5, i(42521)),	-- Relentless Gladiator's Piercing Touch
+						moh(5, i(42329)),	-- Relentless Gladiator's Pike
+						moh(5, i(42277)),	-- Relentless Gladiator's Pummeler
+						moh(5, i(42292)),	-- Relentless Gladiator's Quickblade
+						moh(2, i(42572)),	-- Relentless Gladiator's Redoubt
+						moh(2, i(42533)),	-- Relentless Gladiator's Reprieve
+						moh(5, i(42487)),	-- Relentless Gladiator's Rifle
+						moh(5, i(42262)),	-- Relentless Gladiator's Ripper
+						moh(5, i(42244)),	-- Relentless Gladiator's Shanker
+						moh(2, i(42561)),	-- Relentless Gladiator's Shield Wall
+						moh(5, i(42250)),	-- Relentless Gladiator's Shiv
+						moh(5, i(42267)),	-- Relentless Gladiator's Slasher
+						moh(5, i(42287)),	-- Relentless Gladiator's Slicer
+						moh(5, i(42348)),	-- Relentless Gladiator's Spellblade
+						moh(5, i(42392)),	-- Relentless Gladiator's Staff
+						moh(5, i(42504)),	-- Relentless Gladiator's Touch of Defeat
+						moh(5, i(49185)),	-- Relentless Gladiator's Wand of Alacrity
+						moh(5, i(44423)),	-- Relentless Gladiator's War Staff
 						i(42483, {	-- Relentless Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
@@ -1715,11 +1715,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 147601 },	-- Relentless Gladiator's Greaves of Victory
 							},
 						}),
-						moh(3, i(40791)),    -- Relentless Gladiator's Dreadplate Chestpiece
-						moh(2, i(40811)),    -- Relentless Gladiator's Dreadplate Gauntlets
-						moh(3, i(40830)),    -- Relentless Gladiator's Dreadplate Helm
-						moh(3, i(40851)),    -- Relentless Gladiator's Dreadplate Legguards
-						moh(2, i(40871)),    -- Relentless Gladiator's Dreadplate Shoulders
+						moh(3, i(40791)),	-- Relentless Gladiator's Dreadplate Chestpiece
+						moh(2, i(40811)),	-- Relentless Gladiator's Dreadplate Gauntlets
+						moh(3, i(40830)),	-- Relentless Gladiator's Dreadplate Helm
+						moh(3, i(40851)),	-- Relentless Gladiator's Dreadplate Legguards
+						moh(2, i(40871)),	-- Relentless Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146569, {	-- Ensemble: Relentless Gladiator's Dragonhide Armor
@@ -1735,21 +1735,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41622 },	-- Relentless Gladiator's Boots of Salvation
 							},
 						}),
-						moh(2, i(41774)),    -- Relentless Gladiator's Dragonhide Gloves
-						moh(3, i(41679)),    -- Relentless Gladiator's Dragonhide Helm
-						moh(3, i(41668)),    -- Relentless Gladiator's Dragonhide Legguards
-						moh(3, i(41662)),    -- Relentless Gladiator's Dragonhide Robes
-						moh(2, i(41716)),    -- Relentless Gladiator's Dragonhide Spaulders
-						moh(2, i(41288)),    -- Relentless Gladiator's Kodohide Gloves
-						moh(3, i(41322)),    -- Relentless Gladiator's Kodohide Helm
-						moh(3, i(41299)),    -- Relentless Gladiator's Kodohide Legguards
-						moh(3, i(41311)),    -- Relentless Gladiator's Kodohide Robes
-						moh(2, i(41276)),    -- Relentless Gladiator's Kodohide Spaulders
-						moh(2, i(41294)),    -- Relentless Gladiator's Wyrmhide Gloves
-						moh(3, i(41328)),    -- Relentless Gladiator's Wyrmhide Helm
-						moh(3, i(41305)),    -- Relentless Gladiator's Wyrmhide Legguards
-						moh(3, i(41317)),    -- Relentless Gladiator's Wyrmhide Robes
-						moh(2, i(41282)),    -- Relentless Gladiator's Wyrmhide Spaulders
+						moh(2, i(41774)),	-- Relentless Gladiator's Dragonhide Gloves
+						moh(3, i(41679)),	-- Relentless Gladiator's Dragonhide Helm
+						moh(3, i(41668)),	-- Relentless Gladiator's Dragonhide Legguards
+						moh(3, i(41662)),	-- Relentless Gladiator's Dragonhide Robes
+						moh(2, i(41716)),	-- Relentless Gladiator's Dragonhide Spaulders
+						moh(2, i(41288)),	-- Relentless Gladiator's Kodohide Gloves
+						moh(3, i(41322)),	-- Relentless Gladiator's Kodohide Helm
+						moh(3, i(41299)),	-- Relentless Gladiator's Kodohide Legguards
+						moh(3, i(41311)),	-- Relentless Gladiator's Kodohide Robes
+						moh(2, i(41276)),	-- Relentless Gladiator's Kodohide Spaulders
+						moh(2, i(41294)),	-- Relentless Gladiator's Wyrmhide Gloves
+						moh(3, i(41328)),	-- Relentless Gladiator's Wyrmhide Helm
+						moh(3, i(41305)),	-- Relentless Gladiator's Wyrmhide Legguards
+						moh(3, i(41317)),	-- Relentless Gladiator's Wyrmhide Robes
+						moh(2, i(41282)),	-- Relentless Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146568, {	-- Ensemble: Relentless Gladiator's Chain Armor
@@ -1762,11 +1762,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41231 },	-- Relentless Gladiator's Sabatons of Triumph
 							},
 						}),
-						moh(3, i(41088)),    -- Relentless Gladiator's Chain Armor
-						moh(2, i(41144)),    -- Relentless Gladiator's Chain Gauntlets
-						moh(3, i(41158)),    -- Relentless Gladiator's Chain Helm
-						moh(3, i(41206)),    -- Relentless Gladiator's Chain Leggings
-						moh(2, i(41218)),    -- Relentless Gladiator's Chain Spaulders
+						moh(3, i(41088)),	-- Relentless Gladiator's Chain Armor
+						moh(2, i(41144)),	-- Relentless Gladiator's Chain Gauntlets
+						moh(3, i(41158)),	-- Relentless Gladiator's Chain Helm
+						moh(3, i(41206)),	-- Relentless Gladiator's Chain Leggings
+						moh(2, i(41218)),	-- Relentless Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146577, {	-- Ensemble: Relentless Gladiator's Silk Armor
@@ -1780,11 +1780,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 49181 },	-- Relentless Gladiator's Cuffs of Alacrity
 							},
 						}),
-						moh(2, i(41966)),    -- Relentless Gladiator's Silk Amice
-						moh(3, i(41947)),    -- Relentless Gladiator's Silk Cowl
-						moh(2, i(41972)),    -- Relentless Gladiator's Silk Handguards
-						moh(3, i(41954)),    -- Relentless Gladiator's Silk Raiment
-						moh(3, i(41960)),    -- Relentless Gladiator's Silk Trousers
+						moh(2, i(41966)),	-- Relentless Gladiator's Silk Amice
+						moh(3, i(41947)),	-- Relentless Gladiator's Silk Cowl
+						moh(2, i(41972)),	-- Relentless Gladiator's Silk Handguards
+						moh(3, i(41954)),	-- Relentless Gladiator's Silk Raiment
+						moh(3, i(41960)),	-- Relentless Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146576, {	-- Ensemble: Relentless Gladiator's Scaled Armor
@@ -1797,16 +1797,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40979 },	-- Relentless Gladiator's Greaves of Salvation
 							},
 						}),
-						moh(3, i(40910)),    -- Relentless Gladiator's Ornamented Chestguard
-						moh(2, i(40928)),    -- Relentless Gladiator's Ornamented Gloves
-						moh(3, i(40934)),    -- Relentless Gladiator's Ornamented Headcover
-						moh(3, i(40940)),    -- Relentless Gladiator's Ornamented Legplates
-						moh(2, i(40964)),    -- Relentless Gladiator's Ornamented Spaulders
-						moh(3, i(40792)),    -- Relentless Gladiator's Scaled Chestpiece
-						moh(2, i(40812)),    -- Relentless Gladiator's Scaled Gauntlets
-						moh(3, i(40831)),    -- Relentless Gladiator's Scaled Helm
-						moh(3, i(40852)),    -- Relentless Gladiator's Scaled Legguards
-						moh(2, i(40872)),    -- Relentless Gladiator's Scaled Shoulders
+						moh(3, i(40910)),	-- Relentless Gladiator's Ornamented Chestguard
+						moh(2, i(40928)),	-- Relentless Gladiator's Ornamented Gloves
+						moh(3, i(40934)),	-- Relentless Gladiator's Ornamented Headcover
+						moh(3, i(40940)),	-- Relentless Gladiator's Ornamented Legplates
+						moh(2, i(40964)),	-- Relentless Gladiator's Ornamented Spaulders
+						moh(3, i(40792)),	-- Relentless Gladiator's Scaled Chestpiece
+						moh(2, i(40812)),	-- Relentless Gladiator's Scaled Gauntlets
+						moh(3, i(40831)),	-- Relentless Gladiator's Scaled Helm
+						moh(3, i(40852)),	-- Relentless Gladiator's Scaled Legguards
+						moh(2, i(40872)),	-- Relentless Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146575, {	-- Ensemble: Relentless Gladiator's Satin Armor
@@ -1820,16 +1820,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 49179 },	-- Relentless Gladiator's Cord of Alacrity
 							},
 						}),
-						moh(2, i(41875)),    -- Relentless Gladiator's Mooncloth Gloves
-						moh(3, i(41855)),    -- Relentless Gladiator's Mooncloth Hood
-						moh(3, i(41865)),    -- Relentless Gladiator's Mooncloth Leggings
-						moh(2, i(41870)),    -- Relentless Gladiator's Mooncloth Mantle
-						moh(3, i(41860)),    -- Relentless Gladiator's Mooncloth Robe
-						moh(2, i(41941)),    -- Relentless Gladiator's Satin Gloves
-						moh(3, i(41916)),    -- Relentless Gladiator's Satin Hood
-						moh(3, i(41928)),    -- Relentless Gladiator's Satin Leggings
-						moh(2, i(41935)),    -- Relentless Gladiator's Satin Mantle
-						moh(3, i(41922)),    -- Relentless Gladiator's Satin Robe
+						moh(2, i(41875)),	-- Relentless Gladiator's Mooncloth Gloves
+						moh(3, i(41855)),	-- Relentless Gladiator's Mooncloth Hood
+						moh(3, i(41865)),	-- Relentless Gladiator's Mooncloth Leggings
+						moh(2, i(41870)),	-- Relentless Gladiator's Mooncloth Mantle
+						moh(3, i(41860)),	-- Relentless Gladiator's Mooncloth Robe
+						moh(2, i(41941)),	-- Relentless Gladiator's Satin Gloves
+						moh(3, i(41916)),	-- Relentless Gladiator's Satin Hood
+						moh(3, i(41928)),	-- Relentless Gladiator's Satin Leggings
+						moh(2, i(41935)),	-- Relentless Gladiator's Satin Mantle
+						moh(3, i(41922)),	-- Relentless Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146572, {	-- Ensemble: Relentless Gladiator's Leather Armor
@@ -1842,11 +1842,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41837 },	-- Relentless Gladiator's Boots of Triumph
 							},
 						}),
-						moh(2, i(41768)),    -- Relentless Gladiator's Leather Gloves
-						moh(3, i(41673)),    -- Relentless Gladiator's Leather Helm
-						moh(3, i(41656)),    -- Relentless Gladiator's Leather Legguards
-						moh(2, i(41684)),    -- Relentless Gladiator's Leather Spaulders
-						moh(3, i(41651)),    -- Relentless Gladiator's Leather Tunic
+						moh(2, i(41768)),	-- Relentless Gladiator's Leather Gloves
+						moh(3, i(41673)),	-- Relentless Gladiator's Leather Helm
+						moh(3, i(41656)),	-- Relentless Gladiator's Leather Legguards
+						moh(2, i(41684)),	-- Relentless Gladiator's Leather Spaulders
+						moh(3, i(41651)),	-- Relentless Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146574, {	-- Ensemble: Relentless Gladiator's Ringmail Armor
@@ -1862,21 +1862,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 41056 },	-- Relentless Gladiator's Sabatons of Salvation
 							},
 						}),
-						moh(3, i(41082)),    -- Relentless Gladiator's Linked Armor
-						moh(2, i(41138)),    -- Relentless Gladiator's Linked Gauntlets
-						moh(3, i(41152)),    -- Relentless Gladiator's Linked Helm
-						moh(3, i(41200)),    -- Relentless Gladiator's Linked Leggings
-						moh(2, i(41212)),    -- Relentless Gladiator's Linked Spaulders
-						moh(3, i(40995)),    -- Relentless Gladiator's Mail Armor
-						moh(2, i(41008)),    -- Relentless Gladiator's Mail Gauntlets
-						moh(3, i(41020)),    -- Relentless Gladiator's Mail Helm
-						moh(3, i(41034)),    -- Relentless Gladiator's Mail Leggings
-						moh(2, i(41045)),    -- Relentless Gladiator's Mail Spaulders
-						moh(3, i(40994)),    -- Relentless Gladiator's Ringmail Armor
-						moh(2, i(41002)),    -- Relentless Gladiator's Ringmail Gauntlets
-						moh(3, i(41014)),    -- Relentless Gladiator's Ringmail Helm
-						moh(3, i(41028)),    -- Relentless Gladiator's Ringmail Leggings
-						moh(2, i(41039)),    -- Relentless Gladiator's Ringmail Spaulders
+						moh(3, i(41082)),	-- Relentless Gladiator's Linked Armor
+						moh(2, i(41138)),	-- Relentless Gladiator's Linked Gauntlets
+						moh(3, i(41152)),	-- Relentless Gladiator's Linked Helm
+						moh(3, i(41200)),	-- Relentless Gladiator's Linked Leggings
+						moh(2, i(41212)),	-- Relentless Gladiator's Linked Spaulders
+						moh(3, i(40995)),	-- Relentless Gladiator's Mail Armor
+						moh(2, i(41008)),	-- Relentless Gladiator's Mail Gauntlets
+						moh(3, i(41020)),	-- Relentless Gladiator's Mail Helm
+						moh(3, i(41034)),	-- Relentless Gladiator's Mail Leggings
+						moh(2, i(41045)),	-- Relentless Gladiator's Mail Spaulders
+						moh(3, i(40994)),	-- Relentless Gladiator's Ringmail Armor
+						moh(2, i(41002)),	-- Relentless Gladiator's Ringmail Gauntlets
+						moh(3, i(41014)),	-- Relentless Gladiator's Ringmail Helm
+						moh(3, i(41028)),	-- Relentless Gladiator's Ringmail Leggings
+						moh(2, i(41039)),	-- Relentless Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146571, {	-- Ensemble: Relentless Gladiator's Felweave Armor
@@ -1888,11 +1888,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 49183 },	-- Relentless Gladiator's Treads of Alacrity
 							},
 						}),
-						moh(2, i(42012)),    -- Relentless Gladiator's Felweave Amice
-						moh(3, i(41994)),    -- Relentless Gladiator's Felweave Cowl
-						moh(2, i(42018)),    -- Relentless Gladiator's Felweave Handguards
-						moh(3, i(41999)),    -- Relentless Gladiator's Felweave Raiment
-						moh(3, i(42006)),    -- Relentless Gladiator's Felweave Trousers
+						moh(2, i(42012)),	-- Relentless Gladiator's Felweave Amice
+						moh(3, i(41994)),	-- Relentless Gladiator's Felweave Cowl
+						moh(2, i(42018)),	-- Relentless Gladiator's Felweave Handguards
+						moh(3, i(41999)),	-- Relentless Gladiator's Felweave Raiment
+						moh(3, i(42006)),	-- Relentless Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146573, {	-- Ensemble: Relentless Gladiator's Plate Armor
@@ -1905,75 +1905,75 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 40884 },	-- Relentless Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(40790)),    -- Relentless Gladiator's Plate Chestpiece
-						moh(2, i(40810)),    -- Relentless Gladiator's Plate Gauntlets
-						moh(3, i(40829)),    -- Relentless Gladiator's Plate Helm
-						moh(3, i(40850)),    -- Relentless Gladiator's Plate Legguards
-						moh(2, i(40870)),    -- Relentless Gladiator's Plate Shoulders
+						moh(3, i(40790)),	-- Relentless Gladiator's Plate Chestpiece
+						moh(2, i(40810)),	-- Relentless Gladiator's Plate Gauntlets
+						moh(3, i(40829)),	-- Relentless Gladiator's Plate Helm
+						moh(3, i(40850)),	-- Relentless Gladiator's Plate Legguards
+						moh(2, i(40870)),	-- Relentless Gladiator's Plate Shoulders
 					}),
 					n(BACK, {
-						moh(1, i(42078)),    -- Relentless Gladiator's Cloak of Ascendancy
-						moh(1, i(42080)),    -- Relentless Gladiator's Cloak of Deliverance
-						moh(1, i(42076)),    -- Relentless Gladiator's Cloak of Dominance
-						moh(1, i(42079)),    -- Relentless Gladiator's Cloak of Salvation
-						moh(1, i(42077)),    -- Relentless Gladiator's Cloak of Subjugation
-						moh(1, i(42081)),    -- Relentless Gladiator's Cloak of Triumph
-						moh(1, i(42082)),    -- Relentless Gladiator's Cloak of Victory
+						moh(1, i(42078)),	-- Relentless Gladiator's Cloak of Ascendancy
+						moh(1, i(42080)),	-- Relentless Gladiator's Cloak of Deliverance
+						moh(1, i(42076)),	-- Relentless Gladiator's Cloak of Dominance
+						moh(1, i(42079)),	-- Relentless Gladiator's Cloak of Salvation
+						moh(1, i(42077)),	-- Relentless Gladiator's Cloak of Subjugation
+						moh(1, i(42081)),	-- Relentless Gladiator's Cloak of Triumph
+						moh(1, i(42082)),	-- Relentless Gladiator's Cloak of Victory
 					}),
 					n(WRIST, {
-						moh(1, i(41641)),    -- Relentless Gladiator's Armwraps of Dominance
-						moh(1, i(41626)),    -- Relentless Gladiator's Armwraps of Salvation
-						moh(1, i(41841)),    -- Relentless Gladiator's Armwraps of Triumph
-						moh(1, i(40984)),    -- Relentless Gladiator's Bracers of Salvation
-						moh(1, i(40890)),    -- Relentless Gladiator's Bracers of Triumph
+						moh(1, i(41641)),	-- Relentless Gladiator's Armwraps of Dominance
+						moh(1, i(41626)),	-- Relentless Gladiator's Armwraps of Salvation
+						moh(1, i(41841)),	-- Relentless Gladiator's Armwraps of Triumph
+						moh(1, i(40984)),	-- Relentless Gladiator's Bracers of Salvation
+						moh(1, i(40890)),	-- Relentless Gladiator's Bracers of Triumph
 						i(147603, {	-- Relentless Gladiator's Bracers of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(49181)),    -- Relentless Gladiator's Cuffs of Alacrity
+						moh(1, i(49181)),	-- Relentless Gladiator's Cuffs of Alacrity
 						i(147602, {	-- Relentless Gladiator's Cuffs of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41910)),    -- Relentless Gladiator's Cuffs of Dominance
-						moh(1, i(41894)),    -- Relentless Gladiator's Cuffs of Salvation
-						moh(1, i(41066)),    -- Relentless Gladiator's Wristguards of Dominance
-						moh(1, i(41061)),    -- Relentless Gladiator's Wristguards of Salvation
-						moh(1, i(41226)),    -- Relentless Gladiator's Wristguards of Triumph
+						moh(1, i(41910)),	-- Relentless Gladiator's Cuffs of Dominance
+						moh(1, i(41894)),	-- Relentless Gladiator's Cuffs of Salvation
+						moh(1, i(41066)),	-- Relentless Gladiator's Wristguards of Dominance
+						moh(1, i(41061)),	-- Relentless Gladiator's Wristguards of Salvation
+						moh(1, i(41226)),	-- Relentless Gladiator's Wristguards of Triumph
 					}),
 					n(WAIST, {
-						moh(1, i(41631)),    -- Relentless Gladiator's Belt of Dominance
-						moh(1, i(41618)),    -- Relentless Gladiator's Belt of Salvation
-						moh(1, i(41833)),    -- Relentless Gladiator's Belt of Triumph
-						moh(1, i(49179)),    -- Relentless Gladiator's Cord of Alacrity
-						moh(1, i(41899)),    -- Relentless Gladiator's Cord of Dominance
-						moh(1, i(41882)),    -- Relentless Gladiator's Cord of Salvation
-						moh(1, i(40978)),    -- Relentless Gladiator's Girdle of Salvation
-						moh(1, i(40883)),    -- Relentless Gladiator's Girdle of Triumph
+						moh(1, i(41631)),	-- Relentless Gladiator's Belt of Dominance
+						moh(1, i(41618)),	-- Relentless Gladiator's Belt of Salvation
+						moh(1, i(41833)),	-- Relentless Gladiator's Belt of Triumph
+						moh(1, i(49179)),	-- Relentless Gladiator's Cord of Alacrity
+						moh(1, i(41899)),	-- Relentless Gladiator's Cord of Dominance
+						moh(1, i(41882)),	-- Relentless Gladiator's Cord of Salvation
+						moh(1, i(40978)),	-- Relentless Gladiator's Girdle of Salvation
+						moh(1, i(40883)),	-- Relentless Gladiator's Girdle of Triumph
 						i(147604, {	-- Relentless Gladiator's Girdle of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(41071)),    -- Relentless Gladiator's Waistguard of Dominance
-						moh(1, i(41052)),    -- Relentless Gladiator's Waistguard of Salvation
-						moh(1, i(41236)),    -- Relentless Gladiator's Waistguard of Triumph
+						moh(1, i(41071)),	-- Relentless Gladiator's Waistguard of Dominance
+						moh(1, i(41052)),	-- Relentless Gladiator's Waistguard of Salvation
+						moh(1, i(41236)),	-- Relentless Gladiator's Waistguard of Triumph
 					}),
 					n(FEET, {
-						moh(2, i(41636)),    -- Relentless Gladiator's Boots of Dominance
-						moh(2, i(41622)),    -- Relentless Gladiator's Boots of Salvation
-						moh(2, i(41837)),    -- Relentless Gladiator's Boots of Triumph
-						moh(2, i(40979)),    -- Relentless Gladiator's Greaves of Salvation
-						moh(2, i(40884)),    -- Relentless Gladiator's Greaves of Triumph
+						moh(2, i(41636)),	-- Relentless Gladiator's Boots of Dominance
+						moh(2, i(41622)),	-- Relentless Gladiator's Boots of Salvation
+						moh(2, i(41837)),	-- Relentless Gladiator's Boots of Triumph
+						moh(2, i(40979)),	-- Relentless Gladiator's Greaves of Salvation
+						moh(2, i(40884)),	-- Relentless Gladiator's Greaves of Triumph
 						i(147601, {	-- Relentless Gladiator's Greaves of Victory
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(2, i(41076)),    -- Relentless Gladiator's Sabatons of Dominance
-						moh(2, i(41056)),    -- Relentless Gladiator's Sabatons of Salvation
-						moh(2, i(41231)),    -- Relentless Gladiator's Sabatons of Triumph
-						moh(2, i(49183)),    -- Relentless Gladiator's Treads of Alacrity
-						moh(2, i(41904)),    -- Relentless Gladiator's Treads of Dominance
-						moh(2, i(41886)),    -- Relentless Gladiator's Treads of Salvation
+						moh(2, i(41076)),	-- Relentless Gladiator's Sabatons of Dominance
+						moh(2, i(41056)),	-- Relentless Gladiator's Sabatons of Salvation
+						moh(2, i(41231)),	-- Relentless Gladiator's Sabatons of Triumph
+						moh(2, i(49183)),	-- Relentless Gladiator's Treads of Alacrity
+						moh(2, i(41904)),	-- Relentless Gladiator's Treads of Dominance
+						moh(2, i(41886)),	-- Relentless Gladiator's Treads of Salvation
 					}),
 					filter(NECK_F, {
 						i(42044),	-- Relentless Gladiator's Pendant of Ascendancy
@@ -2105,45 +2105,45 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(80, iensemble(146642, {	-- Arsenal: Wrathful Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
 						})),
-						moh(2, i(51452)),    -- Wrathful Gladiator's Barrier
-						moh(5, i(51532)),    -- Wrathful Gladiator's Baton of Light
-						moh(5, i(51404)),    -- Wrathful Gladiator's Battle Staff
-						moh(5, i(51406)),    -- Wrathful Gladiator's Blade of Alacrity
-						moh(5, i(51445)),    -- Wrathful Gladiator's Bonecracker
-						moh(5, i(51390)),    -- Wrathful Gladiator's Bonegrinder
-						moh(5, i(51525)),    -- Wrathful Gladiator's Chopper
-						moh(5, i(51515)),    -- Wrathful Gladiator's Cleaver
-						moh(2, i(51407)),    -- Wrathful Gladiator's Compendium
-						moh(5, i(51388)),    -- Wrathful Gladiator's Decapitator
-						moh(2, i(51396)),    -- Wrathful Gladiator's Endgame
-						moh(5, i(51456)),    -- Wrathful Gladiator's Energy Staff
-						moh(5, i(51443)),    -- Wrathful Gladiator's Fleshslicer
-						moh(5, i(51402)),    -- Wrathful Gladiator's Focus Staff
-						moh(5, i(51453)),    -- Wrathful Gladiator's Gavel
-						moh(5, i(51392)),    -- Wrathful Gladiator's Greatsword
-						moh(2, i(51408)),    -- Wrathful Gladiator's Grimoire
-						moh(5, i(51439)),    -- Wrathful Gladiator's Hacker
-						moh(5, i(51411)),    -- Wrathful Gladiator's Heavy Crossbow
-						moh(5, i(51394)),    -- Wrathful Gladiator's Longbow
-						moh(5, i(51527)),    -- Wrathful Gladiator's Mutilator
-						moh(5, i(51531)),    -- Wrathful Gladiator's Piercing Touch
-						moh(5, i(51480)),    -- Wrathful Gladiator's Pike
-						moh(5, i(51519)),    -- Wrathful Gladiator's Pummeler
-						moh(5, i(51447)),    -- Wrathful Gladiator's Quickblade
-						moh(2, i(51455)),    -- Wrathful Gladiator's Redoubt
-						moh(2, i(51409)),    -- Wrathful Gladiator's Reprieve
-						moh(5, i(51449)),    -- Wrathful Gladiator's Rifle
-						moh(5, i(51523)),    -- Wrathful Gladiator's Ripper
-						moh(5, i(51517)),    -- Wrathful Gladiator's Shanker
-						moh(2, i(51533)),    -- Wrathful Gladiator's Shield Wall
-						moh(5, i(51441)),    -- Wrathful Gladiator's Shiv
-						moh(5, i(51530)),    -- Wrathful Gladiator's Slasher
-						moh(5, i(51521)),    -- Wrathful Gladiator's Slicer
-						moh(5, i(51397)),    -- Wrathful Gladiator's Spellblade
-						moh(5, i(51431)),    -- Wrathful Gladiator's Staff
-						moh(5, i(51410)),    -- Wrathful Gladiator's Touch of Defeat
-						moh(5, i(51451)),    -- Wrathful Gladiator's Wand of Alacrity
-						moh(5, i(51400)),    -- Wrathful Gladiator's War Staff
+						moh(2, i(51452)),	-- Wrathful Gladiator's Barrier
+						moh(5, i(51532)),	-- Wrathful Gladiator's Baton of Light
+						moh(5, i(51404)),	-- Wrathful Gladiator's Battle Staff
+						moh(5, i(51406)),	-- Wrathful Gladiator's Blade of Alacrity
+						moh(5, i(51445)),	-- Wrathful Gladiator's Bonecracker
+						moh(5, i(51390)),	-- Wrathful Gladiator's Bonegrinder
+						moh(5, i(51525)),	-- Wrathful Gladiator's Chopper
+						moh(5, i(51515)),	-- Wrathful Gladiator's Cleaver
+						moh(2, i(51407)),	-- Wrathful Gladiator's Compendium
+						moh(5, i(51388)),	-- Wrathful Gladiator's Decapitator
+						moh(2, i(51396)),	-- Wrathful Gladiator's Endgame
+						moh(5, i(51456)),	-- Wrathful Gladiator's Energy Staff
+						moh(5, i(51443)),	-- Wrathful Gladiator's Fleshslicer
+						moh(5, i(51402)),	-- Wrathful Gladiator's Focus Staff
+						moh(5, i(51453)),	-- Wrathful Gladiator's Gavel
+						moh(5, i(51392)),	-- Wrathful Gladiator's Greatsword
+						moh(2, i(51408)),	-- Wrathful Gladiator's Grimoire
+						moh(5, i(51439)),	-- Wrathful Gladiator's Hacker
+						moh(5, i(51411)),	-- Wrathful Gladiator's Heavy Crossbow
+						moh(5, i(51394)),	-- Wrathful Gladiator's Longbow
+						moh(5, i(51527)),	-- Wrathful Gladiator's Mutilator
+						moh(5, i(51531)),	-- Wrathful Gladiator's Piercing Touch
+						moh(5, i(51480)),	-- Wrathful Gladiator's Pike
+						moh(5, i(51519)),	-- Wrathful Gladiator's Pummeler
+						moh(5, i(51447)),	-- Wrathful Gladiator's Quickblade
+						moh(2, i(51455)),	-- Wrathful Gladiator's Redoubt
+						moh(2, i(51409)),	-- Wrathful Gladiator's Reprieve
+						moh(5, i(51449)),	-- Wrathful Gladiator's Rifle
+						moh(5, i(51523)),	-- Wrathful Gladiator's Ripper
+						moh(5, i(51517)),	-- Wrathful Gladiator's Shanker
+						moh(2, i(51533)),	-- Wrathful Gladiator's Shield Wall
+						moh(5, i(51441)),	-- Wrathful Gladiator's Shiv
+						moh(5, i(51530)),	-- Wrathful Gladiator's Slasher
+						moh(5, i(51521)),	-- Wrathful Gladiator's Slicer
+						moh(5, i(51397)),	-- Wrathful Gladiator's Spellblade
+						moh(5, i(51431)),	-- Wrathful Gladiator's Staff
+						moh(5, i(51410)),	-- Wrathful Gladiator's Touch of Defeat
+						moh(5, i(51451)),	-- Wrathful Gladiator's Wand of Alacrity
+						moh(5, i(51400)),	-- Wrathful Gladiator's War Staff
 						i(51535, {	-- Wrathful Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
@@ -2159,11 +2159,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51363 },	-- Wrathful Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(51413)),    -- Wrathful Gladiator's Dreadplate Chestpiece
-						moh(2, i(51414)),    -- Wrathful Gladiator's Dreadplate Gauntlets
-						moh(3, i(51415)),    -- Wrathful Gladiator's Dreadplate Helm
-						moh(3, i(51416)),    -- Wrathful Gladiator's Dreadplate Legguards
-						moh(2, i(51418)),    -- Wrathful Gladiator's Dreadplate Shoulders
+						moh(3, i(51413)),	-- Wrathful Gladiator's Dreadplate Chestpiece
+						moh(2, i(51414)),	-- Wrathful Gladiator's Dreadplate Gauntlets
+						moh(3, i(51415)),	-- Wrathful Gladiator's Dreadplate Helm
+						moh(3, i(51416)),	-- Wrathful Gladiator's Dreadplate Legguards
+						moh(2, i(51418)),	-- Wrathful Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
 						i(146589, {	-- Ensemble: Wrathful Gladiator's Dragonhide Armor
@@ -2179,21 +2179,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51341 },	-- Wrathful Gladiator's Boots of Salvation
 							},
 						}),
-						moh(2, i(51426)),    -- Wrathful Gladiator's Dragonhide Gloves
-						moh(3, i(51427)),    -- Wrathful Gladiator's Dragonhide Helm
-						moh(3, i(51428)),    -- Wrathful Gladiator's Dragonhide Legguards
-						moh(3, i(51425)),    -- Wrathful Gladiator's Dragonhide Robes
-						moh(2, i(51430)),    -- Wrathful Gladiator's Dragonhide Spaulders
-						moh(2, i(51420)),    -- Wrathful Gladiator's Kodohide Gloves
-						moh(3, i(51421)),    -- Wrathful Gladiator's Kodohide Helm
-						moh(3, i(51422)),    -- Wrathful Gladiator's Kodohide Legguards
-						moh(3, i(51419)),    -- Wrathful Gladiator's Kodohide Robes
-						moh(2, i(51424)),    -- Wrathful Gladiator's Kodohide Spaulders
-						moh(2, i(51434)),    -- Wrathful Gladiator's Wyrmhide Gloves
-						moh(3, i(51435)),    -- Wrathful Gladiator's Wyrmhide Helm
-						moh(3, i(51436)),    -- Wrathful Gladiator's Wyrmhide Legguards
-						moh(3, i(51433)),    -- Wrathful Gladiator's Wyrmhide Robes
-						moh(2, i(51438)),    -- Wrathful Gladiator's Wyrmhide Spaulders
+						moh(2, i(51426)),	-- Wrathful Gladiator's Dragonhide Gloves
+						moh(3, i(51427)),	-- Wrathful Gladiator's Dragonhide Helm
+						moh(3, i(51428)),	-- Wrathful Gladiator's Dragonhide Legguards
+						moh(3, i(51425)),	-- Wrathful Gladiator's Dragonhide Robes
+						moh(2, i(51430)),	-- Wrathful Gladiator's Dragonhide Spaulders
+						moh(2, i(51420)),	-- Wrathful Gladiator's Kodohide Gloves
+						moh(3, i(51421)),	-- Wrathful Gladiator's Kodohide Helm
+						moh(3, i(51422)),	-- Wrathful Gladiator's Kodohide Legguards
+						moh(3, i(51419)),	-- Wrathful Gladiator's Kodohide Robes
+						moh(2, i(51424)),	-- Wrathful Gladiator's Kodohide Spaulders
+						moh(2, i(51434)),	-- Wrathful Gladiator's Wyrmhide Gloves
+						moh(3, i(51435)),	-- Wrathful Gladiator's Wyrmhide Helm
+						moh(3, i(51436)),	-- Wrathful Gladiator's Wyrmhide Legguards
+						moh(3, i(51433)),	-- Wrathful Gladiator's Wyrmhide Robes
+						moh(2, i(51438)),	-- Wrathful Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
 						i(146588, {	-- Ensemble: Wrathful Gladiator's Chain Armor
@@ -2206,11 +2206,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51351 },	-- Wrathful Gladiator's Sabatons of Triumph
 							},
 						}),
-						moh(3, i(51458)),    -- Wrathful Gladiator's Chain Armor
-						moh(2, i(51459)),    -- Wrathful Gladiator's Chain Gauntlets
-						moh(3, i(51460)),    -- Wrathful Gladiator's Chain Helm
-						moh(3, i(51461)),    -- Wrathful Gladiator's Chain Leggings
-						moh(2, i(51462)),    -- Wrathful Gladiator's Chain Spaulders
+						moh(3, i(51458)),	-- Wrathful Gladiator's Chain Armor
+						moh(2, i(51459)),	-- Wrathful Gladiator's Chain Gauntlets
+						moh(3, i(51460)),	-- Wrathful Gladiator's Chain Helm
+						moh(3, i(51461)),	-- Wrathful Gladiator's Chain Leggings
+						moh(2, i(51462)),	-- Wrathful Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
 						i(146597, {	-- Ensemble: Wrathful Gladiator's Silk Armor
@@ -2224,11 +2224,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51339 },	-- Wrathful Gladiator's Cuffs of Alacrity
 							},
 						}),
-						moh(2, i(51467)),    -- Wrathful Gladiator's Silk Amice
-						moh(3, i(51465)),    -- Wrathful Gladiator's Silk Cowl
-						moh(2, i(51464)),    -- Wrathful Gladiator's Silk Handguards
-						moh(3, i(51463)),    -- Wrathful Gladiator's Silk Raiment
-						moh(3, i(51466)),    -- Wrathful Gladiator's Silk Trousers
+						moh(2, i(51467)),	-- Wrathful Gladiator's Silk Amice
+						moh(3, i(51465)),	-- Wrathful Gladiator's Silk Cowl
+						moh(2, i(51464)),	-- Wrathful Gladiator's Silk Handguards
+						moh(3, i(51463)),	-- Wrathful Gladiator's Silk Raiment
+						moh(3, i(51466)),	-- Wrathful Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
 						i(146596, {	-- Ensemble: Wrathful Gladiator's Scaled Armor
@@ -2241,16 +2241,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51360 },	-- Wrathful Gladiator's Greaves of Salvation
 							},
 						}),
-						moh(3, i(51468)),    -- Wrathful Gladiator's Ornamented Chestguard
-						moh(2, i(51469)),    -- Wrathful Gladiator's Ornamented Gloves
-						moh(3, i(51470)),    -- Wrathful Gladiator's Ornamented Headcover
-						moh(3, i(51471)),    -- Wrathful Gladiator's Ornamented Legplates
-						moh(2, i(51473)),    -- Wrathful Gladiator's Ornamented Spaulders
-						moh(3, i(51474)),    -- Wrathful Gladiator's Scaled Chestpiece
-						moh(2, i(51475)),    -- Wrathful Gladiator's Scaled Gauntlets
-						moh(3, i(51476)),    -- Wrathful Gladiator's Scaled Helm
-						moh(3, i(51477)),    -- Wrathful Gladiator's Scaled Legguards
-						moh(2, i(51479)),    -- Wrathful Gladiator's Scaled Shoulders
+						moh(3, i(51468)),	-- Wrathful Gladiator's Ornamented Chestguard
+						moh(2, i(51469)),	-- Wrathful Gladiator's Ornamented Gloves
+						moh(3, i(51470)),	-- Wrathful Gladiator's Ornamented Headcover
+						moh(3, i(51471)),	-- Wrathful Gladiator's Ornamented Legplates
+						moh(2, i(51473)),	-- Wrathful Gladiator's Ornamented Spaulders
+						moh(3, i(51474)),	-- Wrathful Gladiator's Scaled Chestpiece
+						moh(2, i(51475)),	-- Wrathful Gladiator's Scaled Gauntlets
+						moh(3, i(51476)),	-- Wrathful Gladiator's Scaled Helm
+						moh(3, i(51477)),	-- Wrathful Gladiator's Scaled Legguards
+						moh(2, i(51479)),	-- Wrathful Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
 						i(146595, {	-- Ensemble: Wrathful Gladiator's Satin Armor
@@ -2264,16 +2264,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51337 },	-- Wrathful Gladiator's Cord of Alacrity
 							},
 						}),
-						moh(2, i(51483)),    -- Wrathful Gladiator's Mooncloth Gloves
-						moh(3, i(51484)),    -- Wrathful Gladiator's Mooncloth Hood
-						moh(3, i(51485)),    -- Wrathful Gladiator's Mooncloth Leggings
-						moh(2, i(51486)),    -- Wrathful Gladiator's Mooncloth Mantle
-						moh(3, i(51482)),    -- Wrathful Gladiator's Mooncloth Robe
-						moh(2, i(51488)),    -- Wrathful Gladiator's Satin Gloves
-						moh(3, i(51489)),    -- Wrathful Gladiator's Satin Hood
-						moh(3, i(51490)),    -- Wrathful Gladiator's Satin Leggings
-						moh(2, i(51491)),    -- Wrathful Gladiator's Satin Mantle
-						moh(3, i(51487)),    -- Wrathful Gladiator's Satin Robe
+						moh(2, i(51483)),	-- Wrathful Gladiator's Mooncloth Gloves
+						moh(3, i(51484)),	-- Wrathful Gladiator's Mooncloth Hood
+						moh(3, i(51485)),	-- Wrathful Gladiator's Mooncloth Leggings
+						moh(2, i(51486)),	-- Wrathful Gladiator's Mooncloth Mantle
+						moh(3, i(51482)),	-- Wrathful Gladiator's Mooncloth Robe
+						moh(2, i(51488)),	-- Wrathful Gladiator's Satin Gloves
+						moh(3, i(51489)),	-- Wrathful Gladiator's Satin Hood
+						moh(3, i(51490)),	-- Wrathful Gladiator's Satin Leggings
+						moh(2, i(51491)),	-- Wrathful Gladiator's Satin Mantle
+						moh(3, i(51487)),	-- Wrathful Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
 						i(146592, {	-- Ensemble: Wrathful Gladiator's Leather Armor
@@ -2286,11 +2286,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51369 },	-- Wrathful Gladiator's Boots of Triumph
 							},
 						}),
-						moh(2, i(51493)),    -- Wrathful Gladiator's Leather Gloves
-						moh(3, i(51494)),    -- Wrathful Gladiator's Leather Helm
-						moh(3, i(51495)),    -- Wrathful Gladiator's Leather Legguards
-						moh(2, i(51496)),    -- Wrathful Gladiator's Leather Spaulders
-						moh(3, i(51492)),    -- Wrathful Gladiator's Leather Tunic
+						moh(2, i(51493)),	-- Wrathful Gladiator's Leather Gloves
+						moh(3, i(51494)),	-- Wrathful Gladiator's Leather Helm
+						moh(3, i(51495)),	-- Wrathful Gladiator's Leather Legguards
+						moh(2, i(51496)),	-- Wrathful Gladiator's Leather Spaulders
+						moh(3, i(51492)),	-- Wrathful Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
 						i(146594, {	-- Ensemble: Wrathful Gladiator's Ringmail Armor
@@ -2306,21 +2306,21 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51372 },	-- Wrathful Gladiator's Sabatons of Salvation
 							},
 						}),
-						moh(3, i(51503)),    -- Wrathful Gladiator's Linked Armor
-						moh(2, i(51504)),    -- Wrathful Gladiator's Linked Gauntlets
-						moh(3, i(51505)),    -- Wrathful Gladiator's Linked Helm
-						moh(3, i(51506)),    -- Wrathful Gladiator's Linked Leggings
-						moh(2, i(51508)),    -- Wrathful Gladiator's Linked Spaulders
-						moh(3, i(51509)),    -- Wrathful Gladiator's Mail Armor
-						moh(2, i(51510)),    -- Wrathful Gladiator's Mail Gauntlets
-						moh(3, i(51511)),    -- Wrathful Gladiator's Mail Helm
-						moh(3, i(51512)),    -- Wrathful Gladiator's Mail Leggings
-						moh(2, i(51514)),    -- Wrathful Gladiator's Mail Spaulders
-						moh(3, i(51497)),    -- Wrathful Gladiator's Ringmail Armor
-						moh(2, i(51498)),    -- Wrathful Gladiator's Ringmail Gauntlets
-						moh(3, i(51499)),    -- Wrathful Gladiator's Ringmail Helm
-						moh(3, i(51500)),    -- Wrathful Gladiator's Ringmail Leggings
-						moh(2, i(51502)),    -- Wrathful Gladiator's Ringmail Spaulders
+						moh(3, i(51503)),	-- Wrathful Gladiator's Linked Armor
+						moh(2, i(51504)),	-- Wrathful Gladiator's Linked Gauntlets
+						moh(3, i(51505)),	-- Wrathful Gladiator's Linked Helm
+						moh(3, i(51506)),	-- Wrathful Gladiator's Linked Leggings
+						moh(2, i(51508)),	-- Wrathful Gladiator's Linked Spaulders
+						moh(3, i(51509)),	-- Wrathful Gladiator's Mail Armor
+						moh(2, i(51510)),	-- Wrathful Gladiator's Mail Gauntlets
+						moh(3, i(51511)),	-- Wrathful Gladiator's Mail Helm
+						moh(3, i(51512)),	-- Wrathful Gladiator's Mail Leggings
+						moh(2, i(51514)),	-- Wrathful Gladiator's Mail Spaulders
+						moh(3, i(51497)),	-- Wrathful Gladiator's Ringmail Armor
+						moh(2, i(51498)),	-- Wrathful Gladiator's Ringmail Gauntlets
+						moh(3, i(51499)),	-- Wrathful Gladiator's Ringmail Helm
+						moh(3, i(51500)),	-- Wrathful Gladiator's Ringmail Leggings
+						moh(2, i(51502)),	-- Wrathful Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
 						i(146591, {	-- Ensemble: Wrathful Gladiator's Felweave Armor
@@ -2333,11 +2333,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51338 },	-- Wrathful Gladiator's Treads of Alacrity
 							},
 						}),
-						moh(2, i(51540)),    -- Wrathful Gladiator's Felweave Amice
-						moh(3, i(51538)),    -- Wrathful Gladiator's Felweave Cowl
-						moh(2, i(51537)),    -- Wrathful Gladiator's Felweave Handguards
-						moh(3, i(51536)),    -- Wrathful Gladiator's Felweave Raiment
-						moh(3, i(51539)),    -- Wrathful Gladiator's Felweave Trousers
+						moh(2, i(51540)),	-- Wrathful Gladiator's Felweave Amice
+						moh(3, i(51538)),	-- Wrathful Gladiator's Felweave Cowl
+						moh(2, i(51537)),	-- Wrathful Gladiator's Felweave Handguards
+						moh(3, i(51536)),	-- Wrathful Gladiator's Felweave Raiment
+						moh(3, i(51539)),	-- Wrathful Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
 						i(146593, {	-- Ensemble: Wrathful Gladiator's Plate Armor
@@ -2350,75 +2350,75 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"select", "itemID", 51363 },	-- Wrathful Gladiator's Greaves of Triumph
 							},
 						}),
-						moh(3, i(51541)),    -- Wrathful Gladiator's Plate Chestpiece
-						moh(2, i(51542)),    -- Wrathful Gladiator's Plate Gauntlets
-						moh(3, i(51543)),    -- Wrathful Gladiator's Plate Helm
-						moh(3, i(51544)),    -- Wrathful Gladiator's Plate Legguards
-						moh(2, i(51545)),    -- Wrathful Gladiator's Plate Shoulders
+						moh(3, i(51541)),	-- Wrathful Gladiator's Plate Chestpiece
+						moh(2, i(51542)),	-- Wrathful Gladiator's Plate Gauntlets
+						moh(3, i(51543)),	-- Wrathful Gladiator's Plate Helm
+						moh(3, i(51544)),	-- Wrathful Gladiator's Plate Legguards
+						moh(2, i(51545)),	-- Wrathful Gladiator's Plate Shoulders
 					}),
 					n(BACK, {
-						moh(1, i(51334)),    -- Wrathful Gladiator's Cloak of Ascendancy
-						moh(1, i(51348)),    -- Wrathful Gladiator's Cloak of Deliverance
-						moh(1, i(51330)),    -- Wrathful Gladiator's Cloak of Dominance
-						moh(1, i(51346)),    -- Wrathful Gladiator's Cloak of Salvation
-						moh(1, i(51332)),    -- Wrathful Gladiator's Cloak of Subjugation
-						moh(1, i(51354)),    -- Wrathful Gladiator's Cloak of Triumph
-						moh(1, i(51356)),    -- Wrathful Gladiator's Cloak of Victory
+						moh(1, i(51334)),	-- Wrathful Gladiator's Cloak of Ascendancy
+						moh(1, i(51348)),	-- Wrathful Gladiator's Cloak of Deliverance
+						moh(1, i(51330)),	-- Wrathful Gladiator's Cloak of Dominance
+						moh(1, i(51346)),	-- Wrathful Gladiator's Cloak of Salvation
+						moh(1, i(51332)),	-- Wrathful Gladiator's Cloak of Subjugation
+						moh(1, i(51354)),	-- Wrathful Gladiator's Cloak of Triumph
+						moh(1, i(51356)),	-- Wrathful Gladiator's Cloak of Victory
 					}),
 					n(WRIST, {
-						moh(1, i(51345)),    -- Wrathful Gladiator's Armwraps of Dominance
-						moh(1, i(51342)),    -- Wrathful Gladiator's Armwraps of Salvation
-						moh(1, i(51370)),    -- Wrathful Gladiator's Armwraps of Triumph
-						moh(1, i(51361)),    -- Wrathful Gladiator's Bracers of Salvation
-						moh(1, i(51364)),    -- Wrathful Gladiator's Bracers of Triumph
+						moh(1, i(51345)),	-- Wrathful Gladiator's Armwraps of Dominance
+						moh(1, i(51342)),	-- Wrathful Gladiator's Armwraps of Salvation
+						moh(1, i(51370)),	-- Wrathful Gladiator's Armwraps of Triumph
+						moh(1, i(51361)),	-- Wrathful Gladiator's Bracers of Salvation
+						moh(1, i(51364)),	-- Wrathful Gladiator's Bracers of Triumph
 						i(147607, {	-- Wrathful Gladiator's Bracers of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(51339)),    -- Wrathful Gladiator's Cuffs of Alacrity
+						moh(1, i(51339)),	-- Wrathful Gladiator's Cuffs of Alacrity
 						i(147605, {	-- Wrathful Gladiator's Cuffs of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(51329)),    -- Wrathful Gladiator's Cuffs of Dominance
-						moh(1, i(51367)),    -- Wrathful Gladiator's Cuffs of Salvation
-						moh(1, i(51376)),    -- Wrathful Gladiator's Wristguards of Dominance
-						moh(1, i(51373)),    -- Wrathful Gladiator's Wristguards of Salvation
-						moh(1, i(51352)),    -- Wrathful Gladiator's Wristguards of Triumph
+						moh(1, i(51329)),	-- Wrathful Gladiator's Cuffs of Dominance
+						moh(1, i(51367)),	-- Wrathful Gladiator's Cuffs of Salvation
+						moh(1, i(51376)),	-- Wrathful Gladiator's Wristguards of Dominance
+						moh(1, i(51373)),	-- Wrathful Gladiator's Wristguards of Salvation
+						moh(1, i(51352)),	-- Wrathful Gladiator's Wristguards of Triumph
 					}),
 					n(WAIST, {
-						moh(1, i(51343)),    -- Wrathful Gladiator's Belt of Dominance
-						moh(1, i(51340)),    -- Wrathful Gladiator's Belt of Salvation
-						moh(1, i(51368)),    -- Wrathful Gladiator's Belt of Triumph
-						moh(1, i(51337)),    -- Wrathful Gladiator's Cord of Alacrity
+						moh(1, i(51343)),	-- Wrathful Gladiator's Belt of Dominance
+						moh(1, i(51340)),	-- Wrathful Gladiator's Belt of Salvation
+						moh(1, i(51368)),	-- Wrathful Gladiator's Belt of Triumph
+						moh(1, i(51337)),	-- Wrathful Gladiator's Cord of Alacrity
 						i(147606, {	-- Wrathful Gladiator's Cord of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(51327)),    -- Wrathful Gladiator's Cord of Dominance
-						moh(1, i(51365)),    -- Wrathful Gladiator's Cord of Salvation
-						moh(1, i(51359)),    -- Wrathful Gladiator's Girdle of Salvation
-						moh(1, i(51362)),    -- Wrathful Gladiator's Girdle of Triumph
+						moh(1, i(51327)),	-- Wrathful Gladiator's Cord of Dominance
+						moh(1, i(51365)),	-- Wrathful Gladiator's Cord of Salvation
+						moh(1, i(51359)),	-- Wrathful Gladiator's Girdle of Salvation
+						moh(1, i(51362)),	-- Wrathful Gladiator's Girdle of Triumph
 						i(147608, {	-- Wrathful Gladiator's Girdle of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 							["timeline"] = { ADDED_7_2_0 },
 						}),
-						moh(1, i(51374)),    -- Wrathful Gladiator's Waistguard of Dominance
-						moh(1, i(51371)),    -- Wrathful Gladiator's Waistguard of Salvation
-						moh(1, i(51350)),    -- Wrathful Gladiator's Waistguard of Triumph
+						moh(1, i(51374)),	-- Wrathful Gladiator's Waistguard of Dominance
+						moh(1, i(51371)),	-- Wrathful Gladiator's Waistguard of Salvation
+						moh(1, i(51350)),	-- Wrathful Gladiator's Waistguard of Triumph
 					}),
 					n(FEET, {
-						moh(2, i(51344)),    -- Wrathful Gladiator's Boots of Dominance
-						moh(2, i(51341)),    -- Wrathful Gladiator's Boots of Salvation
-						moh(2, i(51369)),    -- Wrathful Gladiator's Boots of Triumph
-						moh(2, i(51360)),    -- Wrathful Gladiator's Greaves of Salvation
-						moh(2, i(51363)),    -- Wrathful Gladiator's Greaves of Triumph
-						moh(2, i(51375)),    -- Wrathful Gladiator's Sabatons of Dominance
-						moh(2, i(51372)),    -- Wrathful Gladiator's Sabatons of Salvation
-						moh(2, i(51351)),    -- Wrathful Gladiator's Sabatons of Triumph
-						moh(2, i(51338)),    -- Wrathful Gladiator's Treads of Alacrity
-						moh(2, i(51328)),    -- Wrathful Gladiator's Treads of Dominance
-						moh(2, i(51366)),    -- Wrathful Gladiator's Treads of Salvation
+						moh(2, i(51344)),	-- Wrathful Gladiator's Boots of Dominance
+						moh(2, i(51341)),	-- Wrathful Gladiator's Boots of Salvation
+						moh(2, i(51369)),	-- Wrathful Gladiator's Boots of Triumph
+						moh(2, i(51360)),	-- Wrathful Gladiator's Greaves of Salvation
+						moh(2, i(51363)),	-- Wrathful Gladiator's Greaves of Triumph
+						moh(2, i(51375)),	-- Wrathful Gladiator's Sabatons of Dominance
+						moh(2, i(51372)),	-- Wrathful Gladiator's Sabatons of Salvation
+						moh(2, i(51351)),	-- Wrathful Gladiator's Sabatons of Triumph
+						moh(2, i(51338)),	-- Wrathful Gladiator's Treads of Alacrity
+						moh(2, i(51328)),	-- Wrathful Gladiator's Treads of Dominance
+						moh(2, i(51366)),	-- Wrathful Gladiator's Treads of Salvation
 					}),
 					filter(NECK_F, {
 						i(51335),	-- Wrathful Gladiator's Pendant of Ascendancy

@@ -507,43 +507,43 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(64735)),    -- Bloodthirsty Gladiator's Dreadplate Chestpiece
-					moh(2, i(64736)),    -- Bloodthirsty Gladiator's Dreadplate Gauntlets
-					moh(3, i(64737)),    -- Bloodthirsty Gladiator's Dreadplate Helm
-					moh(3, i(64738)),    -- Bloodthirsty Gladiator's Dreadplate Legguards
-					moh(2, i(64739)),    -- Bloodthirsty Gladiator's Dreadplate Shoulders
+					moh(3, i(64735)),	-- Bloodthirsty Gladiator's Dreadplate Chestpiece
+					moh(2, i(64736)),	-- Bloodthirsty Gladiator's Dreadplate Gauntlets
+					moh(3, i(64737)),	-- Bloodthirsty Gladiator's Dreadplate Helm
+					moh(3, i(64738)),	-- Bloodthirsty Gladiator's Dreadplate Legguards
+					moh(2, i(64739)),	-- Bloodthirsty Gladiator's Dreadplate Shoulders
 				}),
 				cl(DRUID, {
 					moh(12, iensemble(146421, {	-- Ensemble: Bloodthirsty Gladiator's Dragonhide Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(64727)),    -- Bloodthirsty Gladiator's Dragonhide Gloves
-					moh(3, i(64728)),    -- Bloodthirsty Gladiator's Dragonhide Helm
-					moh(3, i(64729)),    -- Bloodthirsty Gladiator's Dragonhide Legguards
-					moh(3, i(64730)),    -- Bloodthirsty Gladiator's Dragonhide Robes
-					moh(2, i(64731)),    -- Bloodthirsty Gladiator's Dragonhide Spaulders
-					moh(2, i(64764)),    -- Bloodthirsty Gladiator's Kodohide Gloves
-					moh(3, i(64765)),    -- Bloodthirsty Gladiator's Kodohide Helm
-					moh(3, i(64766)),    -- Bloodthirsty Gladiator's Kodohide Legguards
-					moh(3, i(64767)),    -- Bloodthirsty Gladiator's Kodohide Robes
-					moh(2, i(64768)),    -- Bloodthirsty Gladiator's Kodohide Spaulders
-					moh(2, i(64874)),    -- Bloodthirsty Gladiator's Wyrmhide Gloves
-					moh(3, i(64875)),    -- Bloodthirsty Gladiator's Wyrmhide Helm
-					moh(3, i(64876)),    -- Bloodthirsty Gladiator's Wyrmhide Legguards
-					moh(3, i(64877)),    -- Bloodthirsty Gladiator's Wyrmhide Robes
-					moh(2, i(64878)),    -- Bloodthirsty Gladiator's Wyrmhide Spaulders
+					moh(2, i(64727)),	-- Bloodthirsty Gladiator's Dragonhide Gloves
+					moh(3, i(64728)),	-- Bloodthirsty Gladiator's Dragonhide Helm
+					moh(3, i(64729)),	-- Bloodthirsty Gladiator's Dragonhide Legguards
+					moh(3, i(64730)),	-- Bloodthirsty Gladiator's Dragonhide Robes
+					moh(2, i(64731)),	-- Bloodthirsty Gladiator's Dragonhide Spaulders
+					moh(2, i(64764)),	-- Bloodthirsty Gladiator's Kodohide Gloves
+					moh(3, i(64765)),	-- Bloodthirsty Gladiator's Kodohide Helm
+					moh(3, i(64766)),	-- Bloodthirsty Gladiator's Kodohide Legguards
+					moh(3, i(64767)),	-- Bloodthirsty Gladiator's Kodohide Robes
+					moh(2, i(64768)),	-- Bloodthirsty Gladiator's Kodohide Spaulders
+					moh(2, i(64874)),	-- Bloodthirsty Gladiator's Wyrmhide Gloves
+					moh(3, i(64875)),	-- Bloodthirsty Gladiator's Wyrmhide Helm
+					moh(3, i(64876)),	-- Bloodthirsty Gladiator's Wyrmhide Legguards
+					moh(3, i(64877)),	-- Bloodthirsty Gladiator's Wyrmhide Robes
+					moh(2, i(64878)),	-- Bloodthirsty Gladiator's Wyrmhide Spaulders
 				}),
 				cl(HUNTER, {
 					moh(12, iensemble(146419, {	-- Ensemble: Bloodthirsty Gladiator's Chain Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(64708)),    -- Bloodthirsty Gladiator's Chain Armor
-					moh(2, i(64709)),    -- Bloodthirsty Gladiator's Chain Gauntlets
-					moh(3, i(64710)),    -- Bloodthirsty Gladiator's Chain Helm
-					moh(3, i(64711)),    -- Bloodthirsty Gladiator's Chain Leggings
-					moh(2, i(64712)),    -- Bloodthirsty Gladiator's Chain Spaulders
+					moh(3, i(64708)),	-- Bloodthirsty Gladiator's Chain Armor
+					moh(2, i(64709)),	-- Bloodthirsty Gladiator's Chain Gauntlets
+					moh(3, i(64710)),	-- Bloodthirsty Gladiator's Chain Helm
+					moh(3, i(64711)),	-- Bloodthirsty Gladiator's Chain Leggings
+					moh(2, i(64712)),	-- Bloodthirsty Gladiator's Chain Spaulders
 				}),
 				cl(MAGE, {
 					moh(12, iensemble(146437, {	-- Ensemble: Bloodthirsty Gladiator's Silk Armor
@@ -564,11 +564,11 @@ root(ROOTS.PVP, {
 						},
 						-- #endif
 					})),
-					moh(2, i(64853)),    -- Bloodthirsty Gladiator's Silk Amice
-					moh(3, i(64854)),    -- Bloodthirsty Gladiator's Silk Cowl
-					moh(2, i(64855)),    -- Bloodthirsty Gladiator's Silk Handguards
-					moh(3, i(64856)),    -- Bloodthirsty Gladiator's Silk Robe
-					moh(3, i(64857)),    -- Bloodthirsty Gladiator's Silk Trousers
+					moh(2, i(64853)),	-- Bloodthirsty Gladiator's Silk Amice
+					moh(3, i(64854)),	-- Bloodthirsty Gladiator's Silk Cowl
+					moh(2, i(64855)),	-- Bloodthirsty Gladiator's Silk Handguards
+					moh(3, i(64856)),	-- Bloodthirsty Gladiator's Silk Robe
+					moh(3, i(64857)),	-- Bloodthirsty Gladiator's Silk Trousers
 					-- #if BEFORE 7.2.0.23436
 					-- CRIEVE NOTE: These were not available for purchase, but apparently got added to the Ensemble in 7.2.0.
 					i(64928, {	-- Gladiator's Silk Trousers - confirmed 14/10/21
@@ -608,146 +608,146 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(64802)),    -- Bloodthirsty Gladiator's Ornamented Chestguard
-					moh(2, i(64803)),    -- Bloodthirsty Gladiator's Ornamented Gloves
-					moh(3, i(64804)),    -- Bloodthirsty Gladiator's Ornamented Headcover
-					moh(3, i(64805)),    -- Bloodthirsty Gladiator's Ornamented Legplates
-					moh(2, i(64806)),    -- Bloodthirsty Gladiator's Ornamented Spaulders
-					moh(3, i(64843)),    -- Bloodthirsty Gladiator's Scaled Chestpiece
-					moh(2, i(64844)),    -- Bloodthirsty Gladiator's Scaled Gauntlets
-					moh(3, i(64845)),    -- Bloodthirsty Gladiator's Scaled Helm
-					moh(3, i(64846)),    -- Bloodthirsty Gladiator's Scaled Legguards
-					moh(2, i(64847)),    -- Bloodthirsty Gladiator's Scaled Shoulders
+					moh(3, i(64802)),	-- Bloodthirsty Gladiator's Ornamented Chestguard
+					moh(2, i(64803)),	-- Bloodthirsty Gladiator's Ornamented Gloves
+					moh(3, i(64804)),	-- Bloodthirsty Gladiator's Ornamented Headcover
+					moh(3, i(64805)),	-- Bloodthirsty Gladiator's Ornamented Legplates
+					moh(2, i(64806)),	-- Bloodthirsty Gladiator's Ornamented Spaulders
+					moh(3, i(64843)),	-- Bloodthirsty Gladiator's Scaled Chestpiece
+					moh(2, i(64844)),	-- Bloodthirsty Gladiator's Scaled Gauntlets
+					moh(3, i(64845)),	-- Bloodthirsty Gladiator's Scaled Helm
+					moh(3, i(64846)),	-- Bloodthirsty Gladiator's Scaled Legguards
+					moh(2, i(64847)),	-- Bloodthirsty Gladiator's Scaled Shoulders
 				}),
 				cl(PRIEST, {
 					moh(12, iensemble(146433, {	-- Ensemble: Bloodthirsty Gladiator's Satin Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(64795)),    -- Bloodthirsty Gladiator's Mooncloth Gloves
-					moh(3, i(64796)),    -- Bloodthirsty Gladiator's Mooncloth Helm
-					moh(3, i(64797)),    -- Bloodthirsty Gladiator's Mooncloth Leggings
-					moh(2, i(64798)),    -- Bloodthirsty Gladiator's Mooncloth Mantle
-					moh(3, i(64799)),    -- Bloodthirsty Gladiator's Mooncloth Robe
-					moh(2, i(64838)),    -- Bloodthirsty Gladiator's Satin Gloves
-					moh(3, i(64839)),    -- Bloodthirsty Gladiator's Satin Hood
-					moh(3, i(64840)),    -- Bloodthirsty Gladiator's Satin Leggings
-					moh(2, i(64841)),    -- Bloodthirsty Gladiator's Satin Mantle
-					moh(3, i(64842)),    -- Bloodthirsty Gladiator's Satin Robe
+					moh(2, i(64795)),	-- Bloodthirsty Gladiator's Mooncloth Gloves
+					moh(3, i(64796)),	-- Bloodthirsty Gladiator's Mooncloth Helm
+					moh(3, i(64797)),	-- Bloodthirsty Gladiator's Mooncloth Leggings
+					moh(2, i(64798)),	-- Bloodthirsty Gladiator's Mooncloth Mantle
+					moh(3, i(64799)),	-- Bloodthirsty Gladiator's Mooncloth Robe
+					moh(2, i(64838)),	-- Bloodthirsty Gladiator's Satin Gloves
+					moh(3, i(64839)),	-- Bloodthirsty Gladiator's Satin Hood
+					moh(3, i(64840)),	-- Bloodthirsty Gladiator's Satin Leggings
+					moh(2, i(64841)),	-- Bloodthirsty Gladiator's Satin Mantle
+					moh(3, i(64842)),	-- Bloodthirsty Gladiator's Satin Robe
 				}),
 				cl(ROGUE, {
 					moh(12, iensemble(146427, {	-- Ensemble: Bloodthirsty Gladiator's Leather Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(64769)),    -- Bloodthirsty Gladiator's Leather Gloves
-					moh(3, i(64770)),    -- Bloodthirsty Gladiator's Leather Helm
-					moh(3, i(64771)),    -- Bloodthirsty Gladiator's Leather Legguards
-					moh(2, i(64772)),    -- Bloodthirsty Gladiator's Leather Spaulders
-					moh(3, i(64773)),    -- Bloodthirsty Gladiator's Leather Tunic
+					moh(2, i(64769)),	-- Bloodthirsty Gladiator's Leather Gloves
+					moh(3, i(64770)),	-- Bloodthirsty Gladiator's Leather Helm
+					moh(3, i(64771)),	-- Bloodthirsty Gladiator's Leather Legguards
+					moh(2, i(64772)),	-- Bloodthirsty Gladiator's Leather Spaulders
+					moh(3, i(64773)),	-- Bloodthirsty Gladiator's Leather Tunic
 				}),
 				cl(SHAMAN, {
 					moh(12, iensemble(146431, {	-- Ensemble: Bloodthirsty Gladiator's Ringmail Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(64776)),    -- Bloodthirsty Gladiator's Linked Armor
-					moh(2, i(64777)),    -- Bloodthirsty Gladiator's Linked Gauntlets
-					moh(3, i(64778)),    -- Bloodthirsty Gladiator's Linked Helm
-					moh(3, i(64779)),    -- Bloodthirsty Gladiator's Linked Leggings
-					moh(2, i(64780)),    -- Bloodthirsty Gladiator's Linked Spaulders
-					moh(3, i(64784)),    -- Bloodthirsty Gladiator's Mail Armor
-					moh(2, i(64785)),    -- Bloodthirsty Gladiator's Mail Gauntlets
-					moh(3, i(64786)),    -- Bloodthirsty Gladiator's Mail Helm
-					moh(3, i(64787)),    -- Bloodthirsty Gladiator's Mail Leggings
-					moh(2, i(64788)),    -- Bloodthirsty Gladiator's Mail Spaulders
-					moh(3, i(64827)),    -- Bloodthirsty Gladiator's Ringmail Armor
-					moh(2, i(64828)),    -- Bloodthirsty Gladiator's Ringmail Gauntlets
-					moh(3, i(64829)),    -- Bloodthirsty Gladiator's Ringmail Helm
-					moh(3, i(64830)),    -- Bloodthirsty Gladiator's Ringmail Leggings
-					moh(2, i(64831)),    -- Bloodthirsty Gladiator's Ringmail Spaulders
+					moh(3, i(64776)),	-- Bloodthirsty Gladiator's Linked Armor
+					moh(2, i(64777)),	-- Bloodthirsty Gladiator's Linked Gauntlets
+					moh(3, i(64778)),	-- Bloodthirsty Gladiator's Linked Helm
+					moh(3, i(64779)),	-- Bloodthirsty Gladiator's Linked Leggings
+					moh(2, i(64780)),	-- Bloodthirsty Gladiator's Linked Spaulders
+					moh(3, i(64784)),	-- Bloodthirsty Gladiator's Mail Armor
+					moh(2, i(64785)),	-- Bloodthirsty Gladiator's Mail Gauntlets
+					moh(3, i(64786)),	-- Bloodthirsty Gladiator's Mail Helm
+					moh(3, i(64787)),	-- Bloodthirsty Gladiator's Mail Leggings
+					moh(2, i(64788)),	-- Bloodthirsty Gladiator's Mail Spaulders
+					moh(3, i(64827)),	-- Bloodthirsty Gladiator's Ringmail Armor
+					moh(2, i(64828)),	-- Bloodthirsty Gladiator's Ringmail Gauntlets
+					moh(3, i(64829)),	-- Bloodthirsty Gladiator's Ringmail Helm
+					moh(3, i(64830)),	-- Bloodthirsty Gladiator's Ringmail Leggings
+					moh(2, i(64831)),	-- Bloodthirsty Gladiator's Ringmail Spaulders
 				}),
 				cl(WARLOCK, {
 					moh(12, iensemble(146425, {	-- Ensemble: Bloodthirsty Gladiator's Felweave Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(64745)),    -- Bloodthirsty Gladiator's Felweave Amice
-					moh(3, i(64746)),    -- Bloodthirsty Gladiator's Felweave Cowl
-					moh(2, i(64747)),    -- Bloodthirsty Gladiator's Felweave Handguards
-					moh(3, i(64748)),    -- Bloodthirsty Gladiator's Felweave Raiment
-					moh(3, i(64749)),    -- Bloodthirsty Gladiator's Felweave Trousers
+					moh(2, i(64745)),	-- Bloodthirsty Gladiator's Felweave Amice
+					moh(3, i(64746)),	-- Bloodthirsty Gladiator's Felweave Cowl
+					moh(2, i(64747)),	-- Bloodthirsty Gladiator's Felweave Handguards
+					moh(3, i(64748)),	-- Bloodthirsty Gladiator's Felweave Raiment
+					moh(3, i(64749)),	-- Bloodthirsty Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
 					moh(12, iensemble(146429, {	-- Ensemble: Bloodthirsty Gladiator's Plate Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(64811)),    -- Bloodthirsty Gladiator's Plate Chestpiece
-					moh(2, i(64812)),    -- Bloodthirsty Gladiator's Plate Gauntlets
-					moh(3, i(64813)),    -- Bloodthirsty Gladiator's Plate Helm
-					moh(3, i(64814)),    -- Bloodthirsty Gladiator's Plate Legguards
-					moh(2, i(64815)),    -- Bloodthirsty Gladiator's Plate Shoulders
+					moh(3, i(64811)),	-- Bloodthirsty Gladiator's Plate Chestpiece
+					moh(2, i(64812)),	-- Bloodthirsty Gladiator's Plate Gauntlets
+					moh(3, i(64813)),	-- Bloodthirsty Gladiator's Plate Helm
+					moh(3, i(64814)),	-- Bloodthirsty Gladiator's Plate Legguards
+					moh(2, i(64815)),	-- Bloodthirsty Gladiator's Plate Shoulders
 				}),
 				n(BACK, {
-					moh(1, i(64706)),    -- Bloodthirsty Gladiator's Cape of Cruelty
-					moh(1, i(64707)),    -- Bloodthirsty Gladiator's Cape of Prowess
-					moh(1, i(64718)),    -- Bloodthirsty Gladiator's Cloak of Alacrity
-					moh(1, i(64719)),    -- Bloodthirsty Gladiator's Cloak of Prowess
-					moh(1, i(64732)),    -- Bloodthirsty Gladiator's Drape of Diffusion
-					moh(1, i(64733)),    -- Bloodthirsty Gladiator's Drape of Meditation
-					moh(1, i(64734)),    -- Bloodthirsty Gladiator's Drape of Prowess
+					moh(1, i(64706)),	-- Bloodthirsty Gladiator's Cape of Cruelty
+					moh(1, i(64707)),	-- Bloodthirsty Gladiator's Cape of Prowess
+					moh(1, i(64718)),	-- Bloodthirsty Gladiator's Cloak of Alacrity
+					moh(1, i(64719)),	-- Bloodthirsty Gladiator's Cloak of Prowess
+					moh(1, i(64732)),	-- Bloodthirsty Gladiator's Drape of Diffusion
+					moh(1, i(64733)),	-- Bloodthirsty Gladiator's Drape of Meditation
+					moh(1, i(64734)),	-- Bloodthirsty Gladiator's Drape of Prowess
 				}),
 				n(WRIST, {
-					moh(1, i(64681)),    -- Bloodthirsty Gladiator's Armbands of Meditation
-					moh(1, i(64682)),    -- Bloodthirsty Gladiator's Armbands of Prowess
-					moh(1, i(64683)),    -- Bloodthirsty Gladiator's Armplates of Alacrity
-					moh(1, i(64684)),    -- Bloodthirsty Gladiator's Armplates of Proficiency
-					moh(1, i(64685)),    -- Bloodthirsty Gladiator's Armwraps of Accuracy
-					moh(1, i(64686)),    -- Bloodthirsty Gladiator's Armwraps of Alacrity
-					moh(1, i(64698)),    -- Bloodthirsty Gladiator's Bindings of Meditation
-					moh(1, i(64699)),    -- Bloodthirsty Gladiator's Bindings of Prowess
-					moh(1, i(64704)),    -- Bloodthirsty Gladiator's Bracers of Meditation
-					moh(1, i(64705)),    -- Bloodthirsty Gladiator's Bracers of Prowess
-					moh(1, i(64723)),    -- Bloodthirsty Gladiator's Cuffs of Accuracy
-					moh(1, i(64724)),    -- Bloodthirsty Gladiator's Cuffs of Meditation
-					moh(1, i(64725)),    -- Bloodthirsty Gladiator's Cuffs of Prowess
-					moh(1, i(64872)),    -- Bloodthirsty Gladiator's Wristguards of Accuracy
-					moh(1, i(64873)),    -- Bloodthirsty Gladiator's Wristguards of Alacrity
+					moh(1, i(64681)),	-- Bloodthirsty Gladiator's Armbands of Meditation
+					moh(1, i(64682)),	-- Bloodthirsty Gladiator's Armbands of Prowess
+					moh(1, i(64683)),	-- Bloodthirsty Gladiator's Armplates of Alacrity
+					moh(1, i(64684)),	-- Bloodthirsty Gladiator's Armplates of Proficiency
+					moh(1, i(64685)),	-- Bloodthirsty Gladiator's Armwraps of Accuracy
+					moh(1, i(64686)),	-- Bloodthirsty Gladiator's Armwraps of Alacrity
+					moh(1, i(64698)),	-- Bloodthirsty Gladiator's Bindings of Meditation
+					moh(1, i(64699)),	-- Bloodthirsty Gladiator's Bindings of Prowess
+					moh(1, i(64704)),	-- Bloodthirsty Gladiator's Bracers of Meditation
+					moh(1, i(64705)),	-- Bloodthirsty Gladiator's Bracers of Prowess
+					moh(1, i(64723)),	-- Bloodthirsty Gladiator's Cuffs of Accuracy
+					moh(1, i(64724)),	-- Bloodthirsty Gladiator's Cuffs of Meditation
+					moh(1, i(64725)),	-- Bloodthirsty Gladiator's Cuffs of Prowess
+					moh(1, i(64872)),	-- Bloodthirsty Gladiator's Wristguards of Accuracy
+					moh(1, i(64873)),	-- Bloodthirsty Gladiator's Wristguards of Alacrity
 				}),
 				n(WAIST, {
-					moh(1, i(64696)),    -- Bloodthirsty Gladiator's Belt of Cruelty
-					moh(1, i(64697)),    -- Bloodthirsty Gladiator's Belt of Meditation
-					moh(1, i(64715)),    -- Bloodthirsty Gladiator's Clasp of Cruelty
-					moh(1, i(64716)),    -- Bloodthirsty Gladiator's Clasp of Meditation
-					moh(1, i(64720)),    -- Bloodthirsty Gladiator's Cord of Accuracy
-					moh(1, i(64721)),    -- Bloodthirsty Gladiator's Cord of Cruelty
-					moh(1, i(64722)),    -- Bloodthirsty Gladiator's Cord of Meditation
-					moh(1, i(64753)),    -- Bloodthirsty Gladiator's Girdle of Cruelty
-					moh(1, i(64754)),    -- Bloodthirsty Gladiator's Girdle of Prowess
-					moh(1, i(64781)),    -- Bloodthirsty Gladiator's Links of Accuracy
-					moh(1, i(64782)),    -- Bloodthirsty Gladiator's Links of Cruelty
-					moh(1, i(64865)),    -- Bloodthirsty Gladiator's Waistband of Accuracy
-					moh(1, i(64866)),    -- Bloodthirsty Gladiator's Waistband of Cruelty
-					moh(1, i(64867)),    -- Bloodthirsty Gladiator's Waistguard of Cruelty
-					moh(1, i(64868)),    -- Bloodthirsty Gladiator's Waistguard of Meditation
+					moh(1, i(64696)),	-- Bloodthirsty Gladiator's Belt of Cruelty
+					moh(1, i(64697)),	-- Bloodthirsty Gladiator's Belt of Meditation
+					moh(1, i(64715)),	-- Bloodthirsty Gladiator's Clasp of Cruelty
+					moh(1, i(64716)),	-- Bloodthirsty Gladiator's Clasp of Meditation
+					moh(1, i(64720)),	-- Bloodthirsty Gladiator's Cord of Accuracy
+					moh(1, i(64721)),	-- Bloodthirsty Gladiator's Cord of Cruelty
+					moh(1, i(64722)),	-- Bloodthirsty Gladiator's Cord of Meditation
+					moh(1, i(64753)),	-- Bloodthirsty Gladiator's Girdle of Cruelty
+					moh(1, i(64754)),	-- Bloodthirsty Gladiator's Girdle of Prowess
+					moh(1, i(64781)),	-- Bloodthirsty Gladiator's Links of Accuracy
+					moh(1, i(64782)),	-- Bloodthirsty Gladiator's Links of Cruelty
+					moh(1, i(64865)),	-- Bloodthirsty Gladiator's Waistband of Accuracy
+					moh(1, i(64866)),	-- Bloodthirsty Gladiator's Waistband of Cruelty
+					moh(1, i(64867)),	-- Bloodthirsty Gladiator's Waistguard of Cruelty
+					moh(1, i(64868)),	-- Bloodthirsty Gladiator's Waistguard of Meditation
 				}),
 				n(FEET, {
-					moh(2, i(64702)),    -- Bloodthirsty Gladiator's Boots of Alacrity
-					moh(2, i(64703)),    -- Bloodthirsty Gladiator's Boots of Cruelty
-					moh(2, i(64750)),    -- Bloodthirsty Gladiator's Footguards of Alacrity
-					moh(2, i(64751)),    -- Bloodthirsty Gladiator's Footguards of Meditation
-					moh(2, i(64756)),    -- Bloodthirsty Gladiator's Greaves of Alacrity
-					moh(2, i(64757)),    -- Bloodthirsty Gladiator's Greaves of Meditation
-					moh(2, i(64834)),    -- Bloodthirsty Gladiator's Sabatons of Alacrity
-					moh(2, i(64835)),    -- Bloodthirsty Gladiator's Sabatons of Alacrity
-					moh(2, i(64836)),    -- Bloodthirsty Gladiator's Sabatons of Cruelty
-					moh(2, i(64837)),    -- Bloodthirsty Gladiator's Sabatons of Meditation
-					moh(2, i(64862)),    -- Bloodthirsty Gladiator's Treads of Alacrity
-					moh(2, i(64863)),    -- Bloodthirsty Gladiator's Treads of Cruelty
-					moh(2, i(64864)),    -- Bloodthirsty Gladiator's Treads of Meditation
-					moh(2, i(64869)),    -- Bloodthirsty Gladiator's Warboots of Alacrity
-					moh(2, i(64870)),    -- Bloodthirsty Gladiator's Warboots of Cruelty
+					moh(2, i(64702)),	-- Bloodthirsty Gladiator's Boots of Alacrity
+					moh(2, i(64703)),	-- Bloodthirsty Gladiator's Boots of Cruelty
+					moh(2, i(64750)),	-- Bloodthirsty Gladiator's Footguards of Alacrity
+					moh(2, i(64751)),	-- Bloodthirsty Gladiator's Footguards of Meditation
+					moh(2, i(64756)),	-- Bloodthirsty Gladiator's Greaves of Alacrity
+					moh(2, i(64757)),	-- Bloodthirsty Gladiator's Greaves of Meditation
+					moh(2, i(64834)),	-- Bloodthirsty Gladiator's Sabatons of Alacrity
+					moh(2, i(64835)),	-- Bloodthirsty Gladiator's Sabatons of Alacrity
+					moh(2, i(64836)),	-- Bloodthirsty Gladiator's Sabatons of Cruelty
+					moh(2, i(64837)),	-- Bloodthirsty Gladiator's Sabatons of Meditation
+					moh(2, i(64862)),	-- Bloodthirsty Gladiator's Treads of Alacrity
+					moh(2, i(64863)),	-- Bloodthirsty Gladiator's Treads of Cruelty
+					moh(2, i(64864)),	-- Bloodthirsty Gladiator's Treads of Meditation
+					moh(2, i(64869)),	-- Bloodthirsty Gladiator's Warboots of Alacrity
+					moh(2, i(64870)),	-- Bloodthirsty Gladiator's Warboots of Cruelty
 				}),
 				filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_4_0_3, REMOVED_4_2_0 }, }, {
 					i(64713),	-- Bloodthirsty Gladiator's Choker of Accuracy
@@ -810,37 +810,37 @@ root(ROOTS.PVP, {
 					moh(80, iensemble(146641, {	-- Arsenal: Vicious Gladiator's Weapons
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(61360)),    -- Vicious Gladiator's Barrier
-					moh(5, i(61351)),    -- Vicious Gladiator's Baton of Light
-					moh(5, i(61341)),    -- Vicious Gladiator's Battle Staff
-					moh(5, i(61336)),    -- Vicious Gladiator's Bonecracker
-					moh(5, i(61339)),    -- Vicious Gladiator's Bonegrinder
-					moh(5, i(61324)),    -- Vicious Gladiator's Cleaver
-					moh(5, i(61326)),    -- Vicious Gladiator's Decapitator
-					moh(2, i(61357)),    -- Vicious Gladiator's Endgame
-					moh(5, i(61342)),    -- Vicious Gladiator's Energy Staff
-					moh(5, i(61331)),    -- Vicious Gladiator's Fleshslicer
-					moh(5, i(61338)),    -- Vicious Gladiator's Gavel
-					moh(5, i(61346)),    -- Vicious Gladiator's Greatsword
-					moh(5, i(61325)),    -- Vicious Gladiator's Hacker
-					moh(5, i(61355)),    -- Vicious Gladiator's Heavy Crossbow
-					moh(5, i(61353)),    -- Vicious Gladiator's Longbow
-					moh(5, i(61340)),    -- Vicious Gladiator's Pike
-					moh(5, i(61335)),    -- Vicious Gladiator's Pummeler
-					moh(5, i(61345)),    -- Vicious Gladiator's Quickblade
-					moh(2, i(61361)),    -- Vicious Gladiator's Redoubt
-					moh(2, i(61358)),    -- Vicious Gladiator's Reprieve
-					moh(5, i(61354)),    -- Vicious Gladiator's Rifle
-					moh(5, i(61333)),    -- Vicious Gladiator's Right Render
-					moh(5, i(61330)),    -- Vicious Gladiator's Ripper
-					moh(5, i(61327)),    -- Vicious Gladiator's Shanker
-					moh(2, i(61359)),    -- Vicious Gladiator's Shield Wall
-					moh(5, i(61328)),    -- Vicious Gladiator's Shiv
-					moh(5, i(61332)),    -- Vicious Gladiator's Slasher
-					moh(5, i(61344)),    -- Vicious Gladiator's Slicer
-					moh(5, i(61329)),    -- Vicious Gladiator's Spellblade
-					moh(5, i(61343)),    -- Vicious Gladiator's Staff
-					moh(5, i(61350)),    -- Vicious Gladiator's Touch of Defeat
+					moh(2, i(61360)),	-- Vicious Gladiator's Barrier
+					moh(5, i(61351)),	-- Vicious Gladiator's Baton of Light
+					moh(5, i(61341)),	-- Vicious Gladiator's Battle Staff
+					moh(5, i(61336)),	-- Vicious Gladiator's Bonecracker
+					moh(5, i(61339)),	-- Vicious Gladiator's Bonegrinder
+					moh(5, i(61324)),	-- Vicious Gladiator's Cleaver
+					moh(5, i(61326)),	-- Vicious Gladiator's Decapitator
+					moh(2, i(61357)),	-- Vicious Gladiator's Endgame
+					moh(5, i(61342)),	-- Vicious Gladiator's Energy Staff
+					moh(5, i(61331)),	-- Vicious Gladiator's Fleshslicer
+					moh(5, i(61338)),	-- Vicious Gladiator's Gavel
+					moh(5, i(61346)),	-- Vicious Gladiator's Greatsword
+					moh(5, i(61325)),	-- Vicious Gladiator's Hacker
+					moh(5, i(61355)),	-- Vicious Gladiator's Heavy Crossbow
+					moh(5, i(61353)),	-- Vicious Gladiator's Longbow
+					moh(5, i(61340)),	-- Vicious Gladiator's Pike
+					moh(5, i(61335)),	-- Vicious Gladiator's Pummeler
+					moh(5, i(61345)),	-- Vicious Gladiator's Quickblade
+					moh(2, i(61361)),	-- Vicious Gladiator's Redoubt
+					moh(2, i(61358)),	-- Vicious Gladiator's Reprieve
+					moh(5, i(61354)),	-- Vicious Gladiator's Rifle
+					moh(5, i(61333)),	-- Vicious Gladiator's Right Render
+					moh(5, i(61330)),	-- Vicious Gladiator's Ripper
+					moh(5, i(61327)),	-- Vicious Gladiator's Shanker
+					moh(2, i(61359)),	-- Vicious Gladiator's Shield Wall
+					moh(5, i(61328)),	-- Vicious Gladiator's Shiv
+					moh(5, i(61332)),	-- Vicious Gladiator's Slasher
+					moh(5, i(61344)),	-- Vicious Gladiator's Slicer
+					moh(5, i(61329)),	-- Vicious Gladiator's Spellblade
+					moh(5, i(61343)),	-- Vicious Gladiator's Staff
+					moh(5, i(61350)),	-- Vicious Gladiator's Touch of Defeat
 				})),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146523, {	-- Ensemble: Vicious Gladiator's Dreadplate Armor
@@ -853,7 +853,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60409)),    -- Vicious Gladiator's Dreadplate Gauntlets
+					moh(2, i(60409)),	-- Vicious Gladiator's Dreadplate Gauntlets
 					i(60410, {	-- Vicious Gladiator's Dreadplate Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -861,7 +861,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60411)),    -- Vicious Gladiator's Dreadplate Legguards
+					moh(3, i(60411)),	-- Vicious Gladiator's Dreadplate Legguards
 					i(60412, {	-- Vicious Gladiator's Dreadplate Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -874,7 +874,7 @@ root(ROOTS.PVP, {
 					moh(12, iensemble(146521, {	-- Ensemble: Vicious Gladiator's Dragonhide Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(60443)),    -- Vicious Gladiator's Dragonhide Gloves
+					moh(2, i(60443)),	-- Vicious Gladiator's Dragonhide Gloves
 					i(60444, {	-- Vicious Gladiator's Dragonhide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -882,7 +882,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60445)),    -- Vicious Gladiator's Dragonhide Legguards
+					moh(3, i(60445)),	-- Vicious Gladiator's Dragonhide Legguards
 					i(60446, {	-- Vicious Gladiator's Dragonhide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -897,7 +897,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60448)),    -- Vicious Gladiator's Kodohide Gloves
+					moh(2, i(60448)),	-- Vicious Gladiator's Kodohide Gloves
 					i(60449, {	-- Vicious Gladiator's Kodohide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -905,7 +905,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60450)),    -- Vicious Gladiator's Kodohide Legguards
+					moh(3, i(60450)),	-- Vicious Gladiator's Kodohide Legguards
 					i(60451, {	-- Vicious Gladiator's Kodohide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -920,7 +920,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60453)),    -- Vicious Gladiator's Wyrmhide Gloves
+					moh(2, i(60453)),	-- Vicious Gladiator's Wyrmhide Gloves
 					i(60454, {	-- Vicious Gladiator's Wyrmhide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -928,7 +928,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60455)),    -- Vicious Gladiator's Wyrmhide Legguards
+					moh(3, i(60455)),	-- Vicious Gladiator's Wyrmhide Legguards
 					i(60456, {	-- Vicious Gladiator's Wyrmhide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -955,7 +955,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60424)),    -- Vicious Gladiator's Chain Gauntlets
+					moh(2, i(60424)),	-- Vicious Gladiator's Chain Gauntlets
 					i(60425, {	-- Vicious Gladiator's Chain Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -963,7 +963,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60426)),    -- Vicious Gladiator's Chain Leggings
+					moh(3, i(60426)),	-- Vicious Gladiator's Chain Leggings
 					i(60427, {	-- Vicious Gladiator's Chain Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -990,7 +990,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60463)),    -- Vicious Gladiator's Silk Handguards
+					moh(2, i(60463)),	-- Vicious Gladiator's Silk Handguards
 					i(60466, {	-- Vicious Gladiator's Silk Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -998,7 +998,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60465)),    -- Vicious Gladiator's Silk Trousers
+					moh(3, i(60465)),	-- Vicious Gladiator's Silk Trousers
 				}),
 				cl(PALADIN, {
 					moh(12, iensemble(146535, {	-- Ensemble: Vicious Gladiator's Scaled Armor
@@ -1011,7 +1011,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60602)),    -- Vicious Gladiator's Ornamented Gloves
+					moh(2, i(60602)),	-- Vicious Gladiator's Ornamented Gloves
 					i(60603, {	-- Vicious Gladiator's Ornamented Headcover
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1019,7 +1019,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60604)),    -- Vicious Gladiator's Ornamented Legplates
+					moh(3, i(60604)),	-- Vicious Gladiator's Ornamented Legplates
 					i(60605, {	-- Vicious Gladiator's Ornamented Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1034,7 +1034,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60414)),    -- Vicious Gladiator's Scaled Gauntlets
+					moh(2, i(60414)),	-- Vicious Gladiator's Scaled Gauntlets
 					i(60415, {	-- Vicious Gladiator's Scaled Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1042,7 +1042,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60416)),    -- Vicious Gladiator's Scaled Legguards
+					moh(3, i(60416)),	-- Vicious Gladiator's Scaled Legguards
 					i(60417, {	-- Vicious Gladiator's Scaled Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 3x Mark of Honor
 
@@ -1055,7 +1055,7 @@ root(ROOTS.PVP, {
 					moh(12, iensemble(146533, {	-- Ensemble: Vicious Gladiator's Satin Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(60468)),    -- Vicious Gladiator's Mooncloth Gloves
+					moh(2, i(60468)),	-- Vicious Gladiator's Mooncloth Gloves
 					i(60469, {	-- Vicious Gladiator's Mooncloth Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1063,7 +1063,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60470)),    -- Vicious Gladiator's Mooncloth Leggings
+					moh(3, i(60470)),	-- Vicious Gladiator's Mooncloth Leggings
 					i(60472, {	-- Vicious Gladiator's Mooncloth Mantle
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1078,7 +1078,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60473)),    -- Vicious Gladiator's Satin Gloves
+					moh(2, i(60473)),	-- Vicious Gladiator's Satin Gloves
 					i(60474, {	-- Vicious Gladiator's Satin Hood
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1086,7 +1086,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60475)),    -- Vicious Gladiator's Satin Leggings
+					moh(3, i(60475)),	-- Vicious Gladiator's Satin Leggings
 					i(60477, {	-- Vicious Gladiator's Satin Mantle
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1106,7 +1106,7 @@ root(ROOTS.PVP, {
 					moh(12, iensemble(146527, {	-- Ensemble: Vicious Gladiator's Leather Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(60459)),    -- Vicious Gladiator's Leather Gloves
+					moh(2, i(60459)),	-- Vicious Gladiator's Leather Gloves
 					i(60460, {	-- Vicious Gladiator's Leather Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1114,7 +1114,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60461)),    -- Vicious Gladiator's Leather Legguards
+					moh(3, i(60461)),	-- Vicious Gladiator's Leather Legguards
 					i(60462, {	-- Vicious Gladiator's Leather Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1141,7 +1141,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60434)),    -- Vicious Gladiator's Linked Gauntlets
+					moh(2, i(60434)),	-- Vicious Gladiator's Linked Gauntlets
 					i(60435, {	-- Vicious Gladiator's Linked Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1149,7 +1149,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60436)),    -- Vicious Gladiator's Linked Leggings
+					moh(3, i(60436)),	-- Vicious Gladiator's Linked Leggings
 					i(60437, {	-- Vicious Gladiator's Linked Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1164,7 +1164,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60439)),    -- Vicious Gladiator's Mail Gauntlets
+					moh(2, i(60439)),	-- Vicious Gladiator's Mail Gauntlets
 					i(60440, {	-- Vicious Gladiator's Mail Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1172,7 +1172,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60441)),    -- Vicious Gladiator's Mail Leggings
+					moh(3, i(60441)),	-- Vicious Gladiator's Mail Leggings
 					i(60442, {	-- Vicious Gladiator's Mail Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1187,7 +1187,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60429)),    -- Vicious Gladiator's Ringmail Gauntlets
+					moh(2, i(60429)),	-- Vicious Gladiator's Ringmail Gauntlets
 					i(60430, {	-- Vicious Gladiator's Ringmail Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1195,7 +1195,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60431)),    -- Vicious Gladiator's Ringmail Leggings
+					moh(3, i(60431)),	-- Vicious Gladiator's Ringmail Leggings
 					i(60432, {	-- Vicious Gladiator's Ringmail Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1222,7 +1222,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60478)),    -- Vicious Gladiator's Felweave Handguards
+					moh(2, i(60478)),	-- Vicious Gladiator's Felweave Handguards
 					i(60481, {	-- Vicious Gladiator's Felweave Raiment
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1230,7 +1230,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60480)),    -- Vicious Gladiator's Felweave Trousers
+					moh(3, i(60480)),	-- Vicious Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
 					moh(12, iensemble(146529, {	-- Ensemble: Vicious Gladiator's Plate Armor
@@ -1243,7 +1243,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(60419)),    -- Vicious Gladiator's Plate Gauntlets
+					moh(2, i(60419)),	-- Vicious Gladiator's Plate Gauntlets
 					i(60420, {	-- Vicious Gladiator's Plate Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1251,7 +1251,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(60421)),    -- Vicious Gladiator's Plate Legguards
+					moh(3, i(60421)),	-- Vicious Gladiator's Plate Legguards
 					i(60422, {	-- Vicious Gladiator's Plate Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1261,64 +1261,64 @@ root(ROOTS.PVP, {
 					}),
 				}),
 				n(BACK, {
-					moh(1, i(60783)),    -- Vicious Gladiator's Cape of Cruelty
-					moh(1, i(60779)),    -- Vicious Gladiator's Cape of Prowess
-					moh(1, i(60776)),    -- Vicious Gladiator's Cloak of Alacrity
-					moh(1, i(60778)),    -- Vicious Gladiator's Cloak of Prowess
-					moh(1, i(60786)),    -- Vicious Gladiator's Drape of Diffusion
-					moh(1, i(60788)),    -- Vicious Gladiator's Drape of Meditation
-					moh(1, i(60787)),    -- Vicious Gladiator's Drape of Prowess
+					moh(1, i(60783)),	-- Vicious Gladiator's Cape of Cruelty
+					moh(1, i(60779)),	-- Vicious Gladiator's Cape of Prowess
+					moh(1, i(60776)),	-- Vicious Gladiator's Cloak of Alacrity
+					moh(1, i(60778)),	-- Vicious Gladiator's Cloak of Prowess
+					moh(1, i(60786)),	-- Vicious Gladiator's Drape of Diffusion
+					moh(1, i(60788)),	-- Vicious Gladiator's Drape of Meditation
+					moh(1, i(60787)),	-- Vicious Gladiator's Drape of Prowess
 				}),
 				n(WRIST, {
-					moh(1, i(60535)),    -- Vicious Gladiator's Armbands of Meditation
-					moh(1, i(60569)),    -- Vicious Gladiator's Armbands of Prowess
-					moh(1, i(60512)),    -- Vicious Gladiator's Armplates of Alacrity
-					moh(1, i(60523)),    -- Vicious Gladiator's Armplates of Proficiency
-					moh(1, i(60591)),    -- Vicious Gladiator's Armwraps of Accuracy
-					moh(1, i(60594)),    -- Vicious Gladiator's Armwraps of Alacrity
-					moh(1, i(60582)),    -- Vicious Gladiator's Bindings of Meditation
-					moh(1, i(60611)),    -- Vicious Gladiator's Bindings of Prowess
-					moh(1, i(60541)),    -- Vicious Gladiator's Bracers of Meditation
-					moh(1, i(60520)),    -- Vicious Gladiator's Bracers of Prowess
-					moh(1, i(60628)),    -- Vicious Gladiator's Cuffs of Accuracy
-					moh(1, i(60635)),    -- Vicious Gladiator's Cuffs of Meditation
-					moh(1, i(60634)),    -- Vicious Gladiator's Cuffs of Prowess
-					moh(1, i(60565)),    -- Vicious Gladiator's Wristguards of Accuracy
-					moh(1, i(60559)),    -- Vicious Gladiator's Wristguards of Alacrity
+					moh(1, i(60535)),	-- Vicious Gladiator's Armbands of Meditation
+					moh(1, i(60569)),	-- Vicious Gladiator's Armbands of Prowess
+					moh(1, i(60512)),	-- Vicious Gladiator's Armplates of Alacrity
+					moh(1, i(60523)),	-- Vicious Gladiator's Armplates of Proficiency
+					moh(1, i(60591)),	-- Vicious Gladiator's Armwraps of Accuracy
+					moh(1, i(60594)),	-- Vicious Gladiator's Armwraps of Alacrity
+					moh(1, i(60582)),	-- Vicious Gladiator's Bindings of Meditation
+					moh(1, i(60611)),	-- Vicious Gladiator's Bindings of Prowess
+					moh(1, i(60541)),	-- Vicious Gladiator's Bracers of Meditation
+					moh(1, i(60520)),	-- Vicious Gladiator's Bracers of Prowess
+					moh(1, i(60628)),	-- Vicious Gladiator's Cuffs of Accuracy
+					moh(1, i(60635)),	-- Vicious Gladiator's Cuffs of Meditation
+					moh(1, i(60634)),	-- Vicious Gladiator's Cuffs of Prowess
+					moh(1, i(60565)),	-- Vicious Gladiator's Wristguards of Accuracy
+					moh(1, i(60559)),	-- Vicious Gladiator's Wristguards of Alacrity
 				}),
 				n(WAIST, {
-					moh(1, i(60583)),    -- Vicious Gladiator's Belt of Cruelty
-					moh(1, i(60580)),    -- Vicious Gladiator's Belt of Meditation
-					moh(1, i(60505)),    -- Vicious Gladiator's Clasp of Cruelty
-					moh(1, i(60539)),    -- Vicious Gladiator's Clasp of Meditation
-					moh(1, i(60626)),    -- Vicious Gladiator's Cord of Accuracy
-					moh(1, i(60612)),    -- Vicious Gladiator's Cord of Cruelty
-					moh(1, i(60637)),    -- Vicious Gladiator's Cord of Meditation
-					moh(1, i(60508)),    -- Vicious Gladiator's Girdle of Cruelty
-					moh(1, i(60521)),    -- Vicious Gladiator's Girdle of Prowess
-					moh(1, i(60564)),    -- Vicious Gladiator's Links of Accuracy
-					moh(1, i(60555)),    -- Vicious Gladiator's Links of Cruelty
-					moh(1, i(60589)),    -- Vicious Gladiator's Waistband of Accuracy
-					moh(1, i(60586)),    -- Vicious Gladiator's Waistband of Cruelty
-					moh(1, i(60536)),    -- Vicious Gladiator's Waistguard of Cruelty
-					moh(1, i(60533)),    -- Vicious Gladiator's Waistguard of Meditation
+					moh(1, i(60583)),	-- Vicious Gladiator's Belt of Cruelty
+					moh(1, i(60580)),	-- Vicious Gladiator's Belt of Meditation
+					moh(1, i(60505)),	-- Vicious Gladiator's Clasp of Cruelty
+					moh(1, i(60539)),	-- Vicious Gladiator's Clasp of Meditation
+					moh(1, i(60626)),	-- Vicious Gladiator's Cord of Accuracy
+					moh(1, i(60612)),	-- Vicious Gladiator's Cord of Cruelty
+					moh(1, i(60637)),	-- Vicious Gladiator's Cord of Meditation
+					moh(1, i(60508)),	-- Vicious Gladiator's Girdle of Cruelty
+					moh(1, i(60521)),	-- Vicious Gladiator's Girdle of Prowess
+					moh(1, i(60564)),	-- Vicious Gladiator's Links of Accuracy
+					moh(1, i(60555)),	-- Vicious Gladiator's Links of Cruelty
+					moh(1, i(60589)),	-- Vicious Gladiator's Waistband of Accuracy
+					moh(1, i(60586)),	-- Vicious Gladiator's Waistband of Cruelty
+					moh(1, i(60536)),	-- Vicious Gladiator's Waistguard of Cruelty
+					moh(1, i(60533)),	-- Vicious Gladiator's Waistguard of Meditation
 				}),
 				n(FEET, {
-					moh(2, i(60593)),    -- Vicious Gladiator's Boots of Alacrity
-					moh(2, i(60587)),    -- Vicious Gladiator's Boots of Cruelty
-					moh(2, i(60607)),    -- Vicious Gladiator's Footguards of Alacrity
-					moh(2, i(60581)),    -- Vicious Gladiator's Footguards of Meditation
-					moh(2, i(60516)),    -- Vicious Gladiator's Greaves of Alacrity
-					moh(2, i(60540)),    -- Vicious Gladiator's Greaves of Meditation
-					moh(2, i(60557)),    -- Vicious Gladiator's Sabatons of Alacrity
-					moh(2, i(60567)),    -- Vicious Gladiator's Sabatons of Alacrity
-					moh(2, i(60554)),    -- Vicious Gladiator's Sabatons of Cruelty
-					moh(2, i(60534)),    -- Vicious Gladiator's Sabatons of Meditation
-					moh(2, i(60630)),    -- Vicious Gladiator's Treads of Alacrity
-					moh(2, i(60613)),    -- Vicious Gladiator's Treads of Cruelty
-					moh(2, i(60636)),    -- Vicious Gladiator's Treads of Meditation
-					moh(2, i(60513)),    -- Vicious Gladiator's Warboots of Alacrity
-					moh(2, i(60509)),    -- Vicious Gladiator's Warboots of Cruelty
+					moh(2, i(60593)),	-- Vicious Gladiator's Boots of Alacrity
+					moh(2, i(60587)),	-- Vicious Gladiator's Boots of Cruelty
+					moh(2, i(60607)),	-- Vicious Gladiator's Footguards of Alacrity
+					moh(2, i(60581)),	-- Vicious Gladiator's Footguards of Meditation
+					moh(2, i(60516)),	-- Vicious Gladiator's Greaves of Alacrity
+					moh(2, i(60540)),	-- Vicious Gladiator's Greaves of Meditation
+					moh(2, i(60557)),	-- Vicious Gladiator's Sabatons of Alacrity
+					moh(2, i(60567)),	-- Vicious Gladiator's Sabatons of Alacrity
+					moh(2, i(60554)),	-- Vicious Gladiator's Sabatons of Cruelty
+					moh(2, i(60534)),	-- Vicious Gladiator's Sabatons of Meditation
+					moh(2, i(60630)),	-- Vicious Gladiator's Treads of Alacrity
+					moh(2, i(60613)),	-- Vicious Gladiator's Treads of Cruelty
+					moh(2, i(60636)),	-- Vicious Gladiator's Treads of Meditation
+					moh(2, i(60513)),	-- Vicious Gladiator's Warboots of Alacrity
+					moh(2, i(60509)),	-- Vicious Gladiator's Warboots of Cruelty
 				}),
 				filter(NECK_F, {
 					i(60673),	-- Vicious Gladiator's Choker of Accuracy
@@ -1788,37 +1788,37 @@ root(ROOTS.PVP, {
 					moh(80, iensemble(146640, {	-- Arsenal: Ruthless Gladiator's Weapons
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(70242)),    -- Ruthless Gladiator's Barrier
-					moh(5, i(70235)),    -- Ruthless Gladiator's Baton of Light
-					moh(5, i(70226)),    -- Ruthless Gladiator's Battle Staff
-					moh(5, i(70222)),    -- Ruthless Gladiator's Bonecracker
-					moh(5, i(70224)),    -- Ruthless Gladiator's Bonegrinder
-					moh(5, i(70211)),    -- Ruthless Gladiator's Cleaver
-					moh(5, i(70213)),    -- Ruthless Gladiator's Decapitator
-					moh(2, i(70239)),    -- Ruthless Gladiator's Endgame
-					moh(5, i(70227)),    -- Ruthless Gladiator's Energy Staff
-					moh(5, i(70218)),    -- Ruthless Gladiator's Fleshslicer
-					moh(5, i(70223)),    -- Ruthless Gladiator's Gavel
-					moh(5, i(70231)),    -- Ruthless Gladiator's Greatsword
-					moh(5, i(70212)),    -- Ruthless Gladiator's Hacker
-					moh(5, i(70238)),    -- Ruthless Gladiator's Heavy Crossbow
-					moh(5, i(70236)),    -- Ruthless Gladiator's Longbow
-					moh(5, i(70225)),    -- Ruthless Gladiator's Pike
-					moh(5, i(70221)),    -- Ruthless Gladiator's Pummeler
-					moh(5, i(70230)),    -- Ruthless Gladiator's Quickblade
-					moh(2, i(70243)),    -- Ruthless Gladiator's Redoubt
-					moh(2, i(70240)),    -- Ruthless Gladiator's Reprieve
-					moh(5, i(70237)),    -- Ruthless Gladiator's Rifle
-					moh(5, i(70220)),    -- Ruthless Gladiator's Right Render
-					moh(5, i(70217)),    -- Ruthless Gladiator's Ripper
-					moh(5, i(70214)),    -- Ruthless Gladiator's Shanker
-					moh(2, i(70241)),    -- Ruthless Gladiator's Shield Wall
-					moh(5, i(70215)),    -- Ruthless Gladiator's Shiv
-					moh(5, i(70219)),    -- Ruthless Gladiator's Slasher
-					moh(5, i(70229)),    -- Ruthless Gladiator's Slicer
-					moh(5, i(70216)),    -- Ruthless Gladiator's Spellblade
-					moh(5, i(70228)),    -- Ruthless Gladiator's Staff
-					moh(5, i(70234)),    -- Ruthless Gladiator's Touch of Defeat
+					moh(2, i(70242)),	-- Ruthless Gladiator's Barrier
+					moh(5, i(70235)),	-- Ruthless Gladiator's Baton of Light
+					moh(5, i(70226)),	-- Ruthless Gladiator's Battle Staff
+					moh(5, i(70222)),	-- Ruthless Gladiator's Bonecracker
+					moh(5, i(70224)),	-- Ruthless Gladiator's Bonegrinder
+					moh(5, i(70211)),	-- Ruthless Gladiator's Cleaver
+					moh(5, i(70213)),	-- Ruthless Gladiator's Decapitator
+					moh(2, i(70239)),	-- Ruthless Gladiator's Endgame
+					moh(5, i(70227)),	-- Ruthless Gladiator's Energy Staff
+					moh(5, i(70218)),	-- Ruthless Gladiator's Fleshslicer
+					moh(5, i(70223)),	-- Ruthless Gladiator's Gavel
+					moh(5, i(70231)),	-- Ruthless Gladiator's Greatsword
+					moh(5, i(70212)),	-- Ruthless Gladiator's Hacker
+					moh(5, i(70238)),	-- Ruthless Gladiator's Heavy Crossbow
+					moh(5, i(70236)),	-- Ruthless Gladiator's Longbow
+					moh(5, i(70225)),	-- Ruthless Gladiator's Pike
+					moh(5, i(70221)),	-- Ruthless Gladiator's Pummeler
+					moh(5, i(70230)),	-- Ruthless Gladiator's Quickblade
+					moh(2, i(70243)),	-- Ruthless Gladiator's Redoubt
+					moh(2, i(70240)),	-- Ruthless Gladiator's Reprieve
+					moh(5, i(70237)),	-- Ruthless Gladiator's Rifle
+					moh(5, i(70220)),	-- Ruthless Gladiator's Right Render
+					moh(5, i(70217)),	-- Ruthless Gladiator's Ripper
+					moh(5, i(70214)),	-- Ruthless Gladiator's Shanker
+					moh(2, i(70241)),	-- Ruthless Gladiator's Shield Wall
+					moh(5, i(70215)),	-- Ruthless Gladiator's Shiv
+					moh(5, i(70219)),	-- Ruthless Gladiator's Slasher
+					moh(5, i(70229)),	-- Ruthless Gladiator's Slicer
+					moh(5, i(70216)),	-- Ruthless Gladiator's Spellblade
+					moh(5, i(70228)),	-- Ruthless Gladiator's Staff
+					moh(5, i(70234)),	-- Ruthless Gladiator's Touch of Defeat
 				})),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146503, {	-- Ensemble: Ruthless Gladiator's Dreadplate Armor
@@ -1832,7 +1832,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70245)),    -- Ruthless Gladiator's Dreadplate Gauntlets
+					moh(2, i(70245)),	-- Ruthless Gladiator's Dreadplate Gauntlets
 					i(70246, {	-- Ruthless Gladiator's Dreadplate Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1840,7 +1840,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70247)),    -- Ruthless Gladiator's Dreadplate Legguards
+					moh(3, i(70247)),	-- Ruthless Gladiator's Dreadplate Legguards
 					i(70248, {	-- Ruthless Gladiator's Dreadplate Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -1918,7 +1918,7 @@ root(ROOTS.PVP, {
 							-- #endif
 						},
 					})),
-					moh(2, i(70279)),    -- Ruthless Gladiator's Dragonhide Gloves
+					moh(2, i(70279)),	-- Ruthless Gladiator's Dragonhide Gloves
 					i(70280, {	-- Ruthless Gladiator's Dragonhide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1926,7 +1926,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70281)),    -- Ruthless Gladiator's Dragonhide Legguards
+					moh(3, i(70281)),	-- Ruthless Gladiator's Dragonhide Legguards
 					i(70282, {	-- Ruthless Gladiator's Dragonhide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1941,7 +1941,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70284)),    -- Ruthless Gladiator's Kodohide Gloves
+					moh(2, i(70284)),	-- Ruthless Gladiator's Kodohide Gloves
 					i(70285, {	-- Ruthless Gladiator's Kodohide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1949,7 +1949,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70286)),    -- Ruthless Gladiator's Kodohide Legguards
+					moh(3, i(70286)),	-- Ruthless Gladiator's Kodohide Legguards
 					i(70287, {	-- Ruthless Gladiator's Kodohide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1964,7 +1964,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70289)),    -- Ruthless Gladiator's Wyrmhide Gloves
+					moh(2, i(70289)),	-- Ruthless Gladiator's Wyrmhide Gloves
 					i(70290, {	-- Ruthless Gladiator's Wyrmhide Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -1972,7 +1972,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70291)),    -- Ruthless Gladiator's Wyrmhide Legguards
+					moh(3, i(70291)),	-- Ruthless Gladiator's Wyrmhide Legguards
 					i(70292, {	-- Ruthless Gladiator's Wyrmhide Robes
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2062,7 +2062,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70260)),    -- Ruthless Gladiator's Chain Gauntlets
+					moh(2, i(70260)),	-- Ruthless Gladiator's Chain Gauntlets
 					i(70261, {	-- Ruthless Gladiator's Chain Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2070,7 +2070,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70262)),    -- Ruthless Gladiator's Chain Leggings
+					moh(3, i(70262)),	-- Ruthless Gladiator's Chain Leggings
 					i(70263, {	-- Ruthless Gladiator's Chain Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2098,7 +2098,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70299)),    -- Ruthless Gladiator's Silk Handguards
+					moh(2, i(70299)),	-- Ruthless Gladiator's Silk Handguards
 					i(70302, {	-- Ruthless Gladiator's Silk Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2106,7 +2106,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70301)),    -- Ruthless Gladiator's Silk Trousers
+					moh(3, i(70301)),	-- Ruthless Gladiator's Silk Trousers
 				}),
 				cl(PALADIN, {
 					moh(12, iensemble(146515, {	-- Ensemble: Ruthless Gladiator's Scaled Armor
@@ -2120,7 +2120,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70354)),    -- Ruthless Gladiator's Ornamented Gloves
+					moh(2, i(70354)),	-- Ruthless Gladiator's Ornamented Gloves
 					i(70355, {	-- Ruthless Gladiator's Ornamented Headcover
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2128,7 +2128,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70356)),    -- Ruthless Gladiator's Ornamented Legplates
+					moh(3, i(70356)),	-- Ruthless Gladiator's Ornamented Legplates
 					i(70357, {	-- Ruthless Gladiator's Ornamented Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2143,7 +2143,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70250)),    -- Ruthless Gladiator's Scaled Gauntlets
+					moh(2, i(70250)),	-- Ruthless Gladiator's Scaled Gauntlets
 					i(70251, {	-- Ruthless Gladiator's Scaled Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2151,7 +2151,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70252)),    -- Ruthless Gladiator's Scaled Legguards
+					moh(3, i(70252)),	-- Ruthless Gladiator's Scaled Legguards
 					i(70253, {	-- Ruthless Gladiator's Scaled Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2165,7 +2165,7 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(70304)),    -- Ruthless Gladiator's Mooncloth Gloves
+					moh(2, i(70304)),	-- Ruthless Gladiator's Mooncloth Gloves
 					i(70305, {	-- Ruthless Gladiator's Mooncloth Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2173,7 +2173,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70306)),    -- Ruthless Gladiator's Mooncloth Leggings
+					moh(3, i(70306)),	-- Ruthless Gladiator's Mooncloth Leggings
 					i(70307, {	-- Ruthless Gladiator's Mooncloth Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2188,7 +2188,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70309)),    -- Ruthless Gladiator's Satin Gloves
+					moh(2, i(70309)),	-- Ruthless Gladiator's Satin Gloves
 					i(70310, {	-- Ruthless Gladiator's Satin Hood
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2196,7 +2196,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70311)),    -- Ruthless Gladiator's Satin Leggings
+					moh(3, i(70311)),	-- Ruthless Gladiator's Satin Leggings
 					i(70312, {	-- Ruthless Gladiator's Satin Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2217,7 +2217,7 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(70295)),    -- Ruthless Gladiator's Leather Gloves
+					moh(2, i(70295)),	-- Ruthless Gladiator's Leather Gloves
 					i(70296, {	-- Ruthless Gladiator's Leather Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2225,7 +2225,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70297)),    -- Ruthless Gladiator's Leather Legguards
+					moh(3, i(70297)),	-- Ruthless Gladiator's Leather Legguards
 					i(70298, {	-- Ruthless Gladiator's Leather Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2253,7 +2253,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70270)),    -- Ruthless Gladiator's Linked Gauntlets
+					moh(2, i(70270)),	-- Ruthless Gladiator's Linked Gauntlets
 					i(70271, {	-- Ruthless Gladiator's Linked Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2261,7 +2261,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70272)),    -- Ruthless Gladiator's Linked Leggings
+					moh(3, i(70272)),	-- Ruthless Gladiator's Linked Leggings
 					i(70273, {	-- Ruthless Gladiator's Linked Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2276,7 +2276,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70275)),    -- Ruthless Gladiator's Mail Gauntlets
+					moh(2, i(70275)),	-- Ruthless Gladiator's Mail Gauntlets
 					i(70276, {	-- Ruthless Gladiator's Mail Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2284,7 +2284,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70277)),    -- Ruthless Gladiator's Mail Leggings
+					moh(3, i(70277)),	-- Ruthless Gladiator's Mail Leggings
 					i(70278, {	-- Ruthless Gladiator's Mail Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2299,7 +2299,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70265)),    -- Ruthless Gladiator's Ringmail Gauntlets
+					moh(2, i(70265)),	-- Ruthless Gladiator's Ringmail Gauntlets
 					i(70266, {	-- Ruthless Gladiator's Ringmail Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2307,7 +2307,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70267)),    -- Ruthless Gladiator's Ringmail Leggings
+					moh(3, i(70267)),	-- Ruthless Gladiator's Ringmail Leggings
 					i(70268, {	-- Ruthless Gladiator's Ringmail Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2335,7 +2335,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70314)),    -- Ruthless Gladiator's Felweave Handguards
+					moh(2, i(70314)),	-- Ruthless Gladiator's Felweave Handguards
 					i(70317, {	-- Ruthless Gladiator's Felweave Raiment
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2343,7 +2343,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70316)),    -- Ruthless Gladiator's Felweave Trousers
+					moh(3, i(70316)),	-- Ruthless Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
 					moh(12, iensemble(146509, {	-- Ensemble: Ruthless Gladiator's Plate Armor
@@ -2357,7 +2357,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(2, i(70255)),    -- Ruthless Gladiator's Plate Gauntlets
+					moh(2, i(70255)),	-- Ruthless Gladiator's Plate Gauntlets
 					i(70256, {	-- Ruthless Gladiator's Plate Helm
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
@@ -2365,7 +2365,7 @@ root(ROOTS.PVP, {
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
-					moh(3, i(70257)),    -- Ruthless Gladiator's Plate Legguards
+					moh(3, i(70257)),	-- Ruthless Gladiator's Plate Legguards
 					i(70258, {	-- Ruthless Gladiator's Plate Shoulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
@@ -2375,64 +2375,64 @@ root(ROOTS.PVP, {
 					}),
 				}),
 				n(BACK, {
-					moh(1, i(70386)),    -- Ruthless Gladiator's Cape of Cruelty
-					moh(1, i(70385)),    -- Ruthless Gladiator's Cape of Prowess
-					moh(1, i(70383)),    -- Ruthless Gladiator's Cloak of Alacrity
-					moh(1, i(70384)),    -- Ruthless Gladiator's Cloak of Prowess
-					moh(1, i(70387)),    -- Ruthless Gladiator's Drape of Diffusion
-					moh(1, i(70388)),    -- Ruthless Gladiator's Drape of Prowess
-					moh(1, i(70389)),    -- Ruthless Gladiator's Drape of Meditation
+					moh(1, i(70386)),	-- Ruthless Gladiator's Cape of Cruelty
+					moh(1, i(70385)),	-- Ruthless Gladiator's Cape of Prowess
+					moh(1, i(70383)),	-- Ruthless Gladiator's Cloak of Alacrity
+					moh(1, i(70384)),	-- Ruthless Gladiator's Cloak of Prowess
+					moh(1, i(70387)),	-- Ruthless Gladiator's Drape of Diffusion
+					moh(1, i(70388)),	-- Ruthless Gladiator's Drape of Prowess
+					moh(1, i(70389)),	-- Ruthless Gladiator's Drape of Meditation
 				}),
 				n(WRIST, {
-					moh(1, i(70330)),    -- Ruthless Gladiator's Armbands of Meditation
-					moh(1, i(70342)),    -- Ruthless Gladiator's Armbands of Prowess
-					moh(1, i(70322)),    -- Ruthless Gladiator's Armplates of Alacrity
-					moh(1, i(70327)),    -- Ruthless Gladiator's Armplates of Proficiency
-					moh(1, i(70350)),    -- Ruthless Gladiator's Armwraps of Accuracy
-					moh(1, i(70352)),    -- Ruthless Gladiator's Armwraps of Alacrity
-					moh(1, i(70345)),    -- Ruthless Gladiator's Bindings of Meditation
-					moh(1, i(70359)),    -- Ruthless Gladiator's Bindings of Prowess
-					moh(1, i(70334)),    -- Ruthless Gladiator's Bracers of Meditation
-					moh(1, i(70325)),    -- Ruthless Gladiator's Bracers of Prowess
-					moh(1, i(70363)),    -- Ruthless Gladiator's Cuffs of Accuracy
-					moh(1, i(70366)),    -- Ruthless Gladiator's Cuffs of Meditation
-					moh(1, i(70365)),    -- Ruthless Gladiator's Cuffs of Prowess
-					moh(1, i(70340)),    -- Ruthless Gladiator's Wristguards of Accuracy
-					moh(1, i(70338)),    -- Ruthless Gladiator's Wristguards of Alacrity
+					moh(1, i(70330)),	-- Ruthless Gladiator's Armbands of Meditation
+					moh(1, i(70342)),	-- Ruthless Gladiator's Armbands of Prowess
+					moh(1, i(70322)),	-- Ruthless Gladiator's Armplates of Alacrity
+					moh(1, i(70327)),	-- Ruthless Gladiator's Armplates of Proficiency
+					moh(1, i(70350)),	-- Ruthless Gladiator's Armwraps of Accuracy
+					moh(1, i(70352)),	-- Ruthless Gladiator's Armwraps of Alacrity
+					moh(1, i(70345)),	-- Ruthless Gladiator's Bindings of Meditation
+					moh(1, i(70359)),	-- Ruthless Gladiator's Bindings of Prowess
+					moh(1, i(70334)),	-- Ruthless Gladiator's Bracers of Meditation
+					moh(1, i(70325)),	-- Ruthless Gladiator's Bracers of Prowess
+					moh(1, i(70363)),	-- Ruthless Gladiator's Cuffs of Accuracy
+					moh(1, i(70366)),	-- Ruthless Gladiator's Cuffs of Meditation
+					moh(1, i(70365)),	-- Ruthless Gladiator's Cuffs of Prowess
+					moh(1, i(70340)),	-- Ruthless Gladiator's Wristguards of Accuracy
+					moh(1, i(70338)),	-- Ruthless Gladiator's Wristguards of Alacrity
 				}),
 				n(WAIST, {
-					moh(1, i(70346)),    -- Ruthless Gladiator's Belt of Cruelty
-					moh(1, i(70343)),    -- Ruthless Gladiator's Belt of Meditation
-					moh(1, i(70319)),    -- Ruthless Gladiator's Clasp of Cruelty
-					moh(1, i(70332)),    -- Ruthless Gladiator's Clasp of Meditation
-					moh(1, i(70362)),    -- Ruthless Gladiator's Cord of Accuracy
-					moh(1, i(70360)),    -- Ruthless Gladiator's Cord of Cruelty
-					moh(1, i(70368)),    -- Ruthless Gladiator's Cord of Meditation
-					moh(1, i(70320)),    -- Ruthless Gladiator's Girdle of Cruelty
-					moh(1, i(70326)),    -- Ruthless Gladiator's Girdle of Prowess
-					moh(1, i(70339)),    -- Ruthless Gladiator's Links of Accuracy
-					moh(1, i(70336)),    -- Ruthless Gladiator's Links of Cruelty
-					moh(1, i(70349)),    -- Ruthless Gladiator's Waistband of Accuracy
-					moh(1, i(70347)),    -- Ruthless Gladiator's Waistband of Cruelty
-					moh(1, i(70331)),    -- Ruthless Gladiator's Waistguard of Cruelty
-					moh(1, i(70328)),    -- Ruthless Gladiator's Waistguard of Meditation
+					moh(1, i(70346)),	-- Ruthless Gladiator's Belt of Cruelty
+					moh(1, i(70343)),	-- Ruthless Gladiator's Belt of Meditation
+					moh(1, i(70319)),	-- Ruthless Gladiator's Clasp of Cruelty
+					moh(1, i(70332)),	-- Ruthless Gladiator's Clasp of Meditation
+					moh(1, i(70362)),	-- Ruthless Gladiator's Cord of Accuracy
+					moh(1, i(70360)),	-- Ruthless Gladiator's Cord of Cruelty
+					moh(1, i(70368)),	-- Ruthless Gladiator's Cord of Meditation
+					moh(1, i(70320)),	-- Ruthless Gladiator's Girdle of Cruelty
+					moh(1, i(70326)),	-- Ruthless Gladiator's Girdle of Prowess
+					moh(1, i(70339)),	-- Ruthless Gladiator's Links of Accuracy
+					moh(1, i(70336)),	-- Ruthless Gladiator's Links of Cruelty
+					moh(1, i(70349)),	-- Ruthless Gladiator's Waistband of Accuracy
+					moh(1, i(70347)),	-- Ruthless Gladiator's Waistband of Cruelty
+					moh(1, i(70331)),	-- Ruthless Gladiator's Waistguard of Cruelty
+					moh(1, i(70328)),	-- Ruthless Gladiator's Waistguard of Meditation
 				}),
 				n(FEET, {
-					moh(2, i(70351)),    -- Ruthless Gladiator's Boots of Alacrity
-					moh(2, i(70348)),    -- Ruthless Gladiator's Boots of Cruelty
-					moh(2, i(70358)),    -- Ruthless Gladiator's Footguards of Alacrity
-					moh(2, i(70344)),    -- Ruthless Gladiator's Footguards of Meditation
-					moh(2, i(70324)),    -- Ruthless Gladiator's Greaves of Alacrity
-					moh(2, i(70333)),    -- Ruthless Gladiator's Greaves of Meditation
-					moh(2, i(70337)),    -- Ruthless Gladiator's Sabatons of Alacrity
-					moh(2, i(70341)),    -- Ruthless Gladiator's Sabatons of Alacrity
-					moh(2, i(70335)),    -- Ruthless Gladiator's Sabatons of Cruelty
-					moh(2, i(70329)),    -- Ruthless Gladiator's Sabatons of Meditation
-					moh(2, i(70364)),    -- Ruthless Gladiator's Treads of Alacrity
-					moh(2, i(70361)),    -- Ruthless Gladiator's Treads of Cruelty
-					moh(2, i(70367)),    -- Ruthless Gladiator's Treads of Meditation
-					moh(2, i(70323)),    -- Ruthless Gladiator's Warboots of Alacrity
-					moh(2, i(70321)),    -- Ruthless Gladiator's Warboots of Cruelty
+					moh(2, i(70351)),	-- Ruthless Gladiator's Boots of Alacrity
+					moh(2, i(70348)),	-- Ruthless Gladiator's Boots of Cruelty
+					moh(2, i(70358)),	-- Ruthless Gladiator's Footguards of Alacrity
+					moh(2, i(70344)),	-- Ruthless Gladiator's Footguards of Meditation
+					moh(2, i(70324)),	-- Ruthless Gladiator's Greaves of Alacrity
+					moh(2, i(70333)),	-- Ruthless Gladiator's Greaves of Meditation
+					moh(2, i(70337)),	-- Ruthless Gladiator's Sabatons of Alacrity
+					moh(2, i(70341)),	-- Ruthless Gladiator's Sabatons of Alacrity
+					moh(2, i(70335)),	-- Ruthless Gladiator's Sabatons of Cruelty
+					moh(2, i(70329)),	-- Ruthless Gladiator's Sabatons of Meditation
+					moh(2, i(70364)),	-- Ruthless Gladiator's Treads of Alacrity
+					moh(2, i(70361)),	-- Ruthless Gladiator's Treads of Cruelty
+					moh(2, i(70367)),	-- Ruthless Gladiator's Treads of Meditation
+					moh(2, i(70323)),	-- Ruthless Gladiator's Warboots of Alacrity
+					moh(2, i(70321)),	-- Ruthless Gladiator's Warboots of Cruelty
 				}),
 				filter(NECK_F, {
 					i(70382),	-- Ruthless Gladiator's Choker of Accuracy
@@ -2885,228 +2885,228 @@ root(ROOTS.PVP, {
 					moh(80, iensemble(146639, {	-- Arsenal: Cataclysmic Gladiator's Weapons
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73468)),    -- Cataclysmic Gladiator's Barrier
-					moh(5, i(73450)),    -- Cataclysmic Gladiator's Baton of Light
-					moh(5, i(73466)),    -- Cataclysmic Gladiator's Battle Staff
-					moh(5, i(73448)),    -- Cataclysmic Gladiator's Bonecracker
-					moh(5, i(73476)),    -- Cataclysmic Gladiator's Bonegrinder
-					moh(5, i(73474)),    -- Cataclysmic Gladiator's Cleaver
-					moh(5, i(73477)),    -- Cataclysmic Gladiator's Decapitator
-					moh(2, i(73469)),    -- Cataclysmic Gladiator's Endgame
-					moh(5, i(73457)),    -- Cataclysmic Gladiator's Energy Staff
-					moh(5, i(73453)),    -- Cataclysmic Gladiator's Fleshslicer
-					moh(5, i(73459)),    -- Cataclysmic Gladiator's Gavel
-					moh(5, i(73475)),    -- Cataclysmic Gladiator's Greatsword
-					moh(5, i(73449)),    -- Cataclysmic Gladiator's Hacker
-					moh(5, i(73463)),    -- Cataclysmic Gladiator's Heavy Crossbow
-					moh(5, i(73470)),    -- Cataclysmic Gladiator's Longbow
-					moh(5, i(73456)),    -- Cataclysmic Gladiator's Pike
-					moh(5, i(73473)),    -- Cataclysmic Gladiator's Pummeler
-					moh(5, i(73472)),    -- Cataclysmic Gladiator's Quickblade
-					moh(2, i(73458)),    -- Cataclysmic Gladiator's Redoubt
-					moh(2, i(73465)),    -- Cataclysmic Gladiator's Reprieve
-					moh(5, i(73460)),    -- Cataclysmic Gladiator's Rifle
-					moh(5, i(73452)),    -- Cataclysmic Gladiator's Right Render
-					moh(5, i(73454)),    -- Cataclysmic Gladiator's Ripper
-					moh(5, i(73455)),    -- Cataclysmic Gladiator's Shanker
-					moh(2, i(73446)),    -- Cataclysmic Gladiator's Shield Wall
-					moh(5, i(73461)),    -- Cataclysmic Gladiator's Shiv
-					moh(5, i(73451)),    -- Cataclysmic Gladiator's Slasher
-					moh(5, i(73447)),    -- Cataclysmic Gladiator's Slicer
-					moh(5, i(73467)),    -- Cataclysmic Gladiator's Spellblade
-					moh(5, i(73462)),    -- Cataclysmic Gladiator's Staff
-					moh(5, i(73464)),    -- Cataclysmic Gladiator's Touch of Defeat
+					moh(2, i(73468)),	-- Cataclysmic Gladiator's Barrier
+					moh(5, i(73450)),	-- Cataclysmic Gladiator's Baton of Light
+					moh(5, i(73466)),	-- Cataclysmic Gladiator's Battle Staff
+					moh(5, i(73448)),	-- Cataclysmic Gladiator's Bonecracker
+					moh(5, i(73476)),	-- Cataclysmic Gladiator's Bonegrinder
+					moh(5, i(73474)),	-- Cataclysmic Gladiator's Cleaver
+					moh(5, i(73477)),	-- Cataclysmic Gladiator's Decapitator
+					moh(2, i(73469)),	-- Cataclysmic Gladiator's Endgame
+					moh(5, i(73457)),	-- Cataclysmic Gladiator's Energy Staff
+					moh(5, i(73453)),	-- Cataclysmic Gladiator's Fleshslicer
+					moh(5, i(73459)),	-- Cataclysmic Gladiator's Gavel
+					moh(5, i(73475)),	-- Cataclysmic Gladiator's Greatsword
+					moh(5, i(73449)),	-- Cataclysmic Gladiator's Hacker
+					moh(5, i(73463)),	-- Cataclysmic Gladiator's Heavy Crossbow
+					moh(5, i(73470)),	-- Cataclysmic Gladiator's Longbow
+					moh(5, i(73456)),	-- Cataclysmic Gladiator's Pike
+					moh(5, i(73473)),	-- Cataclysmic Gladiator's Pummeler
+					moh(5, i(73472)),	-- Cataclysmic Gladiator's Quickblade
+					moh(2, i(73458)),	-- Cataclysmic Gladiator's Redoubt
+					moh(2, i(73465)),	-- Cataclysmic Gladiator's Reprieve
+					moh(5, i(73460)),	-- Cataclysmic Gladiator's Rifle
+					moh(5, i(73452)),	-- Cataclysmic Gladiator's Right Render
+					moh(5, i(73454)),	-- Cataclysmic Gladiator's Ripper
+					moh(5, i(73455)),	-- Cataclysmic Gladiator's Shanker
+					moh(2, i(73446)),	-- Cataclysmic Gladiator's Shield Wall
+					moh(5, i(73461)),	-- Cataclysmic Gladiator's Shiv
+					moh(5, i(73451)),	-- Cataclysmic Gladiator's Slasher
+					moh(5, i(73447)),	-- Cataclysmic Gladiator's Slicer
+					moh(5, i(73467)),	-- Cataclysmic Gladiator's Spellblade
+					moh(5, i(73462)),	-- Cataclysmic Gladiator's Staff
+					moh(5, i(73464)),	-- Cataclysmic Gladiator's Touch of Defeat
 				}),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146443, {	-- Ensemble: Cataclysmic Gladiator's Dreadplate Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(73620)),    -- Cataclysmic Gladiator's Dreadplate Chestpiece
-					moh(2, i(73619)),    -- Cataclysmic Gladiator's Dreadplate Gauntlets
-					moh(3, i(73618)),    -- Cataclysmic Gladiator's Dreadplate Helm
-					moh(3, i(73617)),    -- Cataclysmic Gladiator's Dreadplate Legguards
-					moh(2, i(73616)),    -- Cataclysmic Gladiator's Dreadplate Shoulders
+					moh(3, i(73620)),	-- Cataclysmic Gladiator's Dreadplate Chestpiece
+					moh(2, i(73619)),	-- Cataclysmic Gladiator's Dreadplate Gauntlets
+					moh(3, i(73618)),	-- Cataclysmic Gladiator's Dreadplate Helm
+					moh(3, i(73617)),	-- Cataclysmic Gladiator's Dreadplate Legguards
+					moh(2, i(73616)),	-- Cataclysmic Gladiator's Dreadplate Shoulders
 				}),
 				cl(DRUID, {
 					moh(12, iensemble(146441, {	-- Ensemble: Cataclysmic Gladiator's Dragonhide Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73615)),    -- Cataclysmic Gladiator's Dragonhide Gloves
-					moh(3, i(73614)),    -- Cataclysmic Gladiator's Dragonhide Helm
-					moh(3, i(73613)),    -- Cataclysmic Gladiator's Dragonhide Legguards
-					moh(3, i(73612)),    -- Cataclysmic Gladiator's Dragonhide Robes
-					moh(2, i(73611)),    -- Cataclysmic Gladiator's Dragonhide Spaulders
-					moh(2, i(73607)),    -- Cataclysmic Gladiator's Kodohide Gloves
-					moh(3, i(73606)),    -- Cataclysmic Gladiator's Kodohide Helm
-					moh(3, i(73605)),    -- Cataclysmic Gladiator's Kodohide Legguards
-					moh(3, i(73604)),    -- Cataclysmic Gladiator's Kodohide Robes
-					moh(2, i(73603)),    -- Cataclysmic Gladiator's Kodohide Spaulders
-					moh(2, i(73599)),    -- Cataclysmic Gladiator's Wyrmhide Gloves
-					moh(3, i(73598)),    -- Cataclysmic Gladiator's Wyrmhide Helm
-					moh(3, i(73597)),    -- Cataclysmic Gladiator's Wyrmhide Legguards
-					moh(3, i(73596)),    -- Cataclysmic Gladiator's Wyrmhide Robes
-					moh(2, i(73595)),    -- Cataclysmic Gladiator's Wyrmhide Spaulders
+					moh(2, i(73615)),	-- Cataclysmic Gladiator's Dragonhide Gloves
+					moh(3, i(73614)),	-- Cataclysmic Gladiator's Dragonhide Helm
+					moh(3, i(73613)),	-- Cataclysmic Gladiator's Dragonhide Legguards
+					moh(3, i(73612)),	-- Cataclysmic Gladiator's Dragonhide Robes
+					moh(2, i(73611)),	-- Cataclysmic Gladiator's Dragonhide Spaulders
+					moh(2, i(73607)),	-- Cataclysmic Gladiator's Kodohide Gloves
+					moh(3, i(73606)),	-- Cataclysmic Gladiator's Kodohide Helm
+					moh(3, i(73605)),	-- Cataclysmic Gladiator's Kodohide Legguards
+					moh(3, i(73604)),	-- Cataclysmic Gladiator's Kodohide Robes
+					moh(2, i(73603)),	-- Cataclysmic Gladiator's Kodohide Spaulders
+					moh(2, i(73599)),	-- Cataclysmic Gladiator's Wyrmhide Gloves
+					moh(3, i(73598)),	-- Cataclysmic Gladiator's Wyrmhide Helm
+					moh(3, i(73597)),	-- Cataclysmic Gladiator's Wyrmhide Legguards
+					moh(3, i(73596)),	-- Cataclysmic Gladiator's Wyrmhide Robes
+					moh(2, i(73595)),	-- Cataclysmic Gladiator's Wyrmhide Spaulders
 				}),
 				cl(HUNTER, {
 					moh(12, iensemble(146439, {	-- Ensemble: Cataclysmic Gladiator's Chain Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(73584)),    -- Cataclysmic Gladiator's Chain Armor
-					moh(2, i(73583)),    -- Cataclysmic Gladiator's Chain Gauntlets
-					moh(3, i(73582)),    -- Cataclysmic Gladiator's Chain Helm
-					moh(3, i(73581)),    -- Cataclysmic Gladiator's Chain Leggings
-					moh(2, i(73580)),    -- Cataclysmic Gladiator's Chain Spaulders
+					moh(3, i(73584)),	-- Cataclysmic Gladiator's Chain Armor
+					moh(2, i(73583)),	-- Cataclysmic Gladiator's Chain Gauntlets
+					moh(3, i(73582)),	-- Cataclysmic Gladiator's Chain Helm
+					moh(3, i(73581)),	-- Cataclysmic Gladiator's Chain Leggings
+					moh(2, i(73580)),	-- Cataclysmic Gladiator's Chain Spaulders
 				}),
 				cl(MAGE, {
 					moh(12, iensemble(146457, {	-- Ensemble: Cataclysmic Gladiator's Silk Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73572)),    -- Cataclysmic Gladiator's Silk Amice
-					moh(3, i(73575)),    -- Cataclysmic Gladiator's Silk Cowl
-					moh(2, i(73576)),    -- Cataclysmic Gladiator's Silk Handguards
-					moh(3, i(73573)),    -- Cataclysmic Gladiator's Silk Robe
-					moh(3, i(73574)),    -- Cataclysmic Gladiator's Silk Trousers
+					moh(2, i(73572)),	-- Cataclysmic Gladiator's Silk Amice
+					moh(3, i(73575)),	-- Cataclysmic Gladiator's Silk Cowl
+					moh(2, i(73576)),	-- Cataclysmic Gladiator's Silk Handguards
+					moh(3, i(73573)),	-- Cataclysmic Gladiator's Silk Robe
+					moh(3, i(73574)),	-- Cataclysmic Gladiator's Silk Trousers
 				}),
 				cl(PALADIN, {
 					moh(12, iensemble(146455, {	-- Ensemble: Cataclysmic Gladiator's Scaled Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(88170)),    -- Cataclysmic Gladiator's Ornamented Battlerobe
-					moh(3, i(73560)),    -- Cataclysmic Gladiator's Ornamented Chestguard
-					moh(2, i(73559)),    -- Cataclysmic Gladiator's Ornamented Gloves
-					moh(3, i(73558)),    -- Cataclysmic Gladiator's Ornamented Headcover
-					moh(3, i(73557)),    -- Cataclysmic Gladiator's Ornamented Legplates
-					moh(2, i(73556)),    -- Cataclysmic Gladiator's Ornamented Spaulders
-					moh(3, i(73571)),    -- Cataclysmic Gladiator's Scaled Chestpiece
-					moh(2, i(73570)),    -- Cataclysmic Gladiator's Scaled Gauntlets
-					moh(3, i(73569)),    -- Cataclysmic Gladiator's Scaled Helm
-					moh(3, i(73568)),    -- Cataclysmic Gladiator's Scaled Legguards
-					moh(2, i(73567)),    -- Cataclysmic Gladiator's Scaled Shoulders
+					moh(3, i(88170)),	-- Cataclysmic Gladiator's Ornamented Battlerobe
+					moh(3, i(73560)),	-- Cataclysmic Gladiator's Ornamented Chestguard
+					moh(2, i(73559)),	-- Cataclysmic Gladiator's Ornamented Gloves
+					moh(3, i(73558)),	-- Cataclysmic Gladiator's Ornamented Headcover
+					moh(3, i(73557)),	-- Cataclysmic Gladiator's Ornamented Legplates
+					moh(2, i(73556)),	-- Cataclysmic Gladiator's Ornamented Spaulders
+					moh(3, i(73571)),	-- Cataclysmic Gladiator's Scaled Chestpiece
+					moh(2, i(73570)),	-- Cataclysmic Gladiator's Scaled Gauntlets
+					moh(3, i(73569)),	-- Cataclysmic Gladiator's Scaled Helm
+					moh(3, i(73568)),	-- Cataclysmic Gladiator's Scaled Legguards
+					moh(2, i(73567)),	-- Cataclysmic Gladiator's Scaled Shoulders
 				}),
 				cl(PRIEST, {
 					moh(12, iensemble(146453, {	-- Ensemble: Cataclysmic Gladiator's Satin Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73549)),    -- Cataclysmic Gladiator's Mooncloth Gloves
-					moh(3, i(73548)),    -- Cataclysmic Gladiator's Mooncloth Helm
-					moh(3, i(73547)),    -- Cataclysmic Gladiator's Mooncloth Leggings
-					moh(2, i(73545)),    -- Cataclysmic Gladiator's Mooncloth Mantle
-					moh(3, i(73546)),    -- Cataclysmic Gladiator's Mooncloth Robe
-					moh(2, i(73544)),    -- Cataclysmic Gladiator's Satin Gloves
-					moh(3, i(73543)),    -- Cataclysmic Gladiator's Satin Hood
-					moh(3, i(73542)),    -- Cataclysmic Gladiator's Satin Leggings
-					moh(2, i(73540)),    -- Cataclysmic Gladiator's Satin Mantle
-					moh(3, i(73541)),    -- Cataclysmic Gladiator's Satin Robe
+					moh(2, i(73549)),	-- Cataclysmic Gladiator's Mooncloth Gloves
+					moh(3, i(73548)),	-- Cataclysmic Gladiator's Mooncloth Helm
+					moh(3, i(73547)),	-- Cataclysmic Gladiator's Mooncloth Leggings
+					moh(2, i(73545)),	-- Cataclysmic Gladiator's Mooncloth Mantle
+					moh(3, i(73546)),	-- Cataclysmic Gladiator's Mooncloth Robe
+					moh(2, i(73544)),	-- Cataclysmic Gladiator's Satin Gloves
+					moh(3, i(73543)),	-- Cataclysmic Gladiator's Satin Hood
+					moh(3, i(73542)),	-- Cataclysmic Gladiator's Satin Leggings
+					moh(2, i(73540)),	-- Cataclysmic Gladiator's Satin Mantle
+					moh(3, i(73541)),	-- Cataclysmic Gladiator's Satin Robe
 				}),
 				cl(ROGUE, {
 					moh(12, iensemble(146447, {	-- Ensemble: Cataclysmic Gladiator's Leather Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73526)),    -- Cataclysmic Gladiator's Leather Gloves
-					moh(3, i(73525)),    -- Cataclysmic Gladiator's Leather Helm
-					moh(3, i(73524)),    -- Cataclysmic Gladiator's Leather Legguards
-					moh(2, i(73523)),    -- Cataclysmic Gladiator's Leather Spaulders
-					moh(3, i(73527)),    -- Cataclysmic Gladiator's Leather Tunic
+					moh(2, i(73526)),	-- Cataclysmic Gladiator's Leather Gloves
+					moh(3, i(73525)),	-- Cataclysmic Gladiator's Leather Helm
+					moh(3, i(73524)),	-- Cataclysmic Gladiator's Leather Legguards
+					moh(2, i(73523)),	-- Cataclysmic Gladiator's Leather Spaulders
+					moh(3, i(73527)),	-- Cataclysmic Gladiator's Leather Tunic
 				}),
 				cl(SHAMAN, {
 					moh(12, iensemble(146451, {	-- Ensemble: Cataclysmic Gladiator's Ringmail Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(73512)),    -- Cataclysmic Gladiator's Linked Armor
-					moh(2, i(73511)),    -- Cataclysmic Gladiator's Linked Gauntlets
-					moh(3, i(73510)),    -- Cataclysmic Gladiator's Linked Helm
-					moh(3, i(73509)),    -- Cataclysmic Gladiator's Linked Leggings
-					moh(2, i(73508)),    -- Cataclysmic Gladiator's Linked Spaulders
-					moh(3, i(73506)),    -- Cataclysmic Gladiator's Mail Armor
-					moh(2, i(73505)),    -- Cataclysmic Gladiator's Mail Gauntlets
-					moh(3, i(73504)),    -- Cataclysmic Gladiator's Mail Helm
-					moh(3, i(73503)),    -- Cataclysmic Gladiator's Mail Leggings
-					moh(2, i(73502)),    -- Cataclysmic Gladiator's Mail Spaulders
-					moh(3, i(73517)),    -- Cataclysmic Gladiator's Ringmail Armor
-					moh(2, i(73516)),    -- Cataclysmic Gladiator's Ringmail Gauntlets
-					moh(3, i(73515)),    -- Cataclysmic Gladiator's Ringmail Helm
-					moh(3, i(73514)),    -- Cataclysmic Gladiator's Ringmail Leggings
-					moh(2, i(73513)),    -- Cataclysmic Gladiator's Ringmail Spaulders
+					moh(3, i(73512)),	-- Cataclysmic Gladiator's Linked Armor
+					moh(2, i(73511)),	-- Cataclysmic Gladiator's Linked Gauntlets
+					moh(3, i(73510)),	-- Cataclysmic Gladiator's Linked Helm
+					moh(3, i(73509)),	-- Cataclysmic Gladiator's Linked Leggings
+					moh(2, i(73508)),	-- Cataclysmic Gladiator's Linked Spaulders
+					moh(3, i(73506)),	-- Cataclysmic Gladiator's Mail Armor
+					moh(2, i(73505)),	-- Cataclysmic Gladiator's Mail Gauntlets
+					moh(3, i(73504)),	-- Cataclysmic Gladiator's Mail Helm
+					moh(3, i(73503)),	-- Cataclysmic Gladiator's Mail Leggings
+					moh(2, i(73502)),	-- Cataclysmic Gladiator's Mail Spaulders
+					moh(3, i(73517)),	-- Cataclysmic Gladiator's Ringmail Armor
+					moh(2, i(73516)),	-- Cataclysmic Gladiator's Ringmail Gauntlets
+					moh(3, i(73515)),	-- Cataclysmic Gladiator's Ringmail Helm
+					moh(3, i(73514)),	-- Cataclysmic Gladiator's Ringmail Leggings
+					moh(2, i(73513)),	-- Cataclysmic Gladiator's Ringmail Spaulders
 				}),
 				cl(WARLOCK, {
 					moh(12, iensemble(146445, {	-- Ensemble: Cataclysmic Gladiator's Felweave Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(2, i(73483)),    -- Cataclysmic Gladiator's Felweave Amice
-					moh(3, i(73486)),    -- Cataclysmic Gladiator's Felweave Cowl
-					moh(2, i(73487)),    -- Cataclysmic Gladiator's Felweave Handguards
-					moh(3, i(73484)),    -- Cataclysmic Gladiator's Felweave Raiment
-					moh(3, i(73485)),    -- Cataclysmic Gladiator's Felweave Trousers
+					moh(2, i(73483)),	-- Cataclysmic Gladiator's Felweave Amice
+					moh(3, i(73486)),	-- Cataclysmic Gladiator's Felweave Cowl
+					moh(2, i(73487)),	-- Cataclysmic Gladiator's Felweave Handguards
+					moh(3, i(73484)),	-- Cataclysmic Gladiator's Felweave Raiment
+					moh(3, i(73485)),	-- Cataclysmic Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
 					moh(12, iensemble(146449, {	-- Ensemble: Cataclysmic Gladiator's Plate Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					moh(3, i(73482)),    -- Cataclysmic Gladiator's Plate Chestpiece
-					moh(2, i(73481)),    -- Cataclysmic Gladiator's Plate Gauntlets
-					moh(3, i(73480)),    -- Cataclysmic Gladiator's Plate Helm
-					moh(3, i(73479)),    -- Cataclysmic Gladiator's Plate Legguards
-					moh(2, i(73478)),    -- Cataclysmic Gladiator's Plate Shoulders
+					moh(3, i(73482)),	-- Cataclysmic Gladiator's Plate Chestpiece
+					moh(2, i(73481)),	-- Cataclysmic Gladiator's Plate Gauntlets
+					moh(3, i(73480)),	-- Cataclysmic Gladiator's Plate Helm
+					moh(3, i(73479)),	-- Cataclysmic Gladiator's Plate Legguards
+					moh(2, i(73478)),	-- Cataclysmic Gladiator's Plate Shoulders
 				}),
 				n(BACK, {
-					moh(1, i(73647)),    -- Cataclysmic Gladiator's Cape of Cruelty
-					moh(1, i(73646)),    -- Cataclysmic Gladiator's Cape of Prowess
-					moh(1, i(73495)),    -- Cataclysmic Gladiator's Cloak of Alacrity
-					moh(1, i(73494)),    -- Cataclysmic Gladiator's Cloak of Prowess
-					moh(1, i(73629)),    -- Cataclysmic Gladiator's Drape of Diffusion
-					moh(1, i(73628)),    -- Cataclysmic Gladiator's Drape of Meditation
-					moh(1, i(73630)),    -- Cataclysmic Gladiator's Drape of Prowess
+					moh(1, i(73647)),	-- Cataclysmic Gladiator's Cape of Cruelty
+					moh(1, i(73646)),	-- Cataclysmic Gladiator's Cape of Prowess
+					moh(1, i(73495)),	-- Cataclysmic Gladiator's Cloak of Alacrity
+					moh(1, i(73494)),	-- Cataclysmic Gladiator's Cloak of Prowess
+					moh(1, i(73629)),	-- Cataclysmic Gladiator's Drape of Diffusion
+					moh(1, i(73628)),	-- Cataclysmic Gladiator's Drape of Meditation
+					moh(1, i(73630)),	-- Cataclysmic Gladiator's Drape of Prowess
 				}),
 				n(WRIST, {
-					moh(1, i(73518)),    -- Cataclysmic Gladiator's Armbands of Meditation
-					moh(1, i(73519)),    -- Cataclysmic Gladiator's Armbands of Prowess
-					moh(1, i(73550)),    -- Cataclysmic Gladiator's Armplates of Alacrity
-					moh(1, i(73551)),    -- Cataclysmic Gladiator's Armplates of Proficiency
-					moh(1, i(73528)),    -- Cataclysmic Gladiator's Armwraps of Accuracy
-					moh(1, i(73529)),    -- Cataclysmic Gladiator's Armwraps of Alacrity
-					moh(1, i(73608)),    -- Cataclysmic Gladiator's Bindings of Meditation
-					moh(1, i(73600)),    -- Cataclysmic Gladiator's Bindings of Prowess
-					moh(1, i(73561)),    -- Cataclysmic Gladiator's Bracers of Meditation
-					moh(1, i(73562)),    -- Cataclysmic Gladiator's Bracers of Prowess
-					moh(1, i(73633)),    -- Cataclysmic Gladiator's Cuffs of Accuracy
-					moh(1, i(73631)),    -- Cataclysmic Gladiator's Cuffs of Meditation
-					moh(1, i(73632)),    -- Cataclysmic Gladiator's Cuffs of Prowess
-					moh(1, i(73585)),    -- Cataclysmic Gladiator's Wristguards of Accuracy
-					moh(1, i(73586)),    -- Cataclysmic Gladiator's Wristguards of Alacrity
+					moh(1, i(73518)),	-- Cataclysmic Gladiator's Armbands of Meditation
+					moh(1, i(73519)),	-- Cataclysmic Gladiator's Armbands of Prowess
+					moh(1, i(73550)),	-- Cataclysmic Gladiator's Armplates of Alacrity
+					moh(1, i(73551)),	-- Cataclysmic Gladiator's Armplates of Proficiency
+					moh(1, i(73528)),	-- Cataclysmic Gladiator's Armwraps of Accuracy
+					moh(1, i(73529)),	-- Cataclysmic Gladiator's Armwraps of Alacrity
+					moh(1, i(73608)),	-- Cataclysmic Gladiator's Bindings of Meditation
+					moh(1, i(73600)),	-- Cataclysmic Gladiator's Bindings of Prowess
+					moh(1, i(73561)),	-- Cataclysmic Gladiator's Bracers of Meditation
+					moh(1, i(73562)),	-- Cataclysmic Gladiator's Bracers of Prowess
+					moh(1, i(73633)),	-- Cataclysmic Gladiator's Cuffs of Accuracy
+					moh(1, i(73631)),	-- Cataclysmic Gladiator's Cuffs of Meditation
+					moh(1, i(73632)),	-- Cataclysmic Gladiator's Cuffs of Prowess
+					moh(1, i(73585)),	-- Cataclysmic Gladiator's Wristguards of Accuracy
+					moh(1, i(73586)),	-- Cataclysmic Gladiator's Wristguards of Alacrity
 				}),
 				n(WAIST, {
-					moh(1, i(73602)),    -- Cataclysmic Gladiator's Belt of Cruelty
-					moh(1, i(73610)),    -- Cataclysmic Gladiator's Belt of Meditation
-					moh(1, i(73566)),    -- Cataclysmic Gladiator's Clasp of Cruelty
-					moh(1, i(73565)),    -- Cataclysmic Gladiator's Clasp of Meditation
-					moh(1, i(73638)),    -- Cataclysmic Gladiator's Cord of Accuracy
-					moh(1, i(73639)),    -- Cataclysmic Gladiator's Cord of Cruelty
-					moh(1, i(73637)),    -- Cataclysmic Gladiator's Cord of Meditation
-					moh(1, i(73555)),    -- Cataclysmic Gladiator's Girdle of Cruelty
-					moh(1, i(73554)),    -- Cataclysmic Gladiator's Girdle of Prowess
-					moh(1, i(73589)),    -- Cataclysmic Gladiator's Links of Accuracy
-					moh(1, i(73590)),    -- Cataclysmic Gladiator's Links of Cruelty
-					moh(1, i(73532)),    -- Cataclysmic Gladiator's Waistband of Accuracy
-					moh(1, i(73533)),    -- Cataclysmic Gladiator's Waistband of Cruelty
-					moh(1, i(73507)),    -- Cataclysmic Gladiator's Waistguard of Cruelty
-					moh(1, i(73522)),    -- Cataclysmic Gladiator's Waistguard of Meditation
+					moh(1, i(73602)),	-- Cataclysmic Gladiator's Belt of Cruelty
+					moh(1, i(73610)),	-- Cataclysmic Gladiator's Belt of Meditation
+					moh(1, i(73566)),	-- Cataclysmic Gladiator's Clasp of Cruelty
+					moh(1, i(73565)),	-- Cataclysmic Gladiator's Clasp of Meditation
+					moh(1, i(73638)),	-- Cataclysmic Gladiator's Cord of Accuracy
+					moh(1, i(73639)),	-- Cataclysmic Gladiator's Cord of Cruelty
+					moh(1, i(73637)),	-- Cataclysmic Gladiator's Cord of Meditation
+					moh(1, i(73555)),	-- Cataclysmic Gladiator's Girdle of Cruelty
+					moh(1, i(73554)),	-- Cataclysmic Gladiator's Girdle of Prowess
+					moh(1, i(73589)),	-- Cataclysmic Gladiator's Links of Accuracy
+					moh(1, i(73590)),	-- Cataclysmic Gladiator's Links of Cruelty
+					moh(1, i(73532)),	-- Cataclysmic Gladiator's Waistband of Accuracy
+					moh(1, i(73533)),	-- Cataclysmic Gladiator's Waistband of Cruelty
+					moh(1, i(73507)),	-- Cataclysmic Gladiator's Waistguard of Cruelty
+					moh(1, i(73522)),	-- Cataclysmic Gladiator's Waistguard of Meditation
 				}),
 				n(FEET, {
-					moh(2, i(73530)),    -- Cataclysmic Gladiator's Boots of Alacrity
-					moh(2, i(73531)),    -- Cataclysmic Gladiator's Boots of Cruelty
-					moh(2, i(73601)),    -- Cataclysmic Gladiator's Footguards of Alacrity
-					moh(2, i(73609)),    -- Cataclysmic Gladiator's Footguards of Meditation
-					moh(2, i(73564)),    -- Cataclysmic Gladiator's Greaves of Alacrity
-					moh(2, i(73563)),    -- Cataclysmic Gladiator's Greaves of Meditation
-					moh(2, i(73521)),    -- Cataclysmic Gladiator's Sabatons of Alacrity
-					moh(2, i(73587)),    -- Cataclysmic Gladiator's Sabatons of Alacrity
-					moh(2, i(73588)),    -- Cataclysmic Gladiator's Sabatons of Cruelty
-					moh(2, i(73520)),    -- Cataclysmic Gladiator's Sabatons of Meditation
-					moh(2, i(73635)),    -- Cataclysmic Gladiator's Treads of Alacrity
-					moh(2, i(73636)),    -- Cataclysmic Gladiator's Treads of Cruelty
-					moh(2, i(73634)),    -- Cataclysmic Gladiator's Treads of Meditation
-					moh(2, i(73552)),    -- Cataclysmic Gladiator's Warboots of Alacrity
-					moh(2, i(73553)),    -- Cataclysmic Gladiator's Warboots of Cruelty
+					moh(2, i(73530)),	-- Cataclysmic Gladiator's Boots of Alacrity
+					moh(2, i(73531)),	-- Cataclysmic Gladiator's Boots of Cruelty
+					moh(2, i(73601)),	-- Cataclysmic Gladiator's Footguards of Alacrity
+					moh(2, i(73609)),	-- Cataclysmic Gladiator's Footguards of Meditation
+					moh(2, i(73564)),	-- Cataclysmic Gladiator's Greaves of Alacrity
+					moh(2, i(73563)),	-- Cataclysmic Gladiator's Greaves of Meditation
+					moh(2, i(73521)),	-- Cataclysmic Gladiator's Sabatons of Alacrity
+					moh(2, i(73587)),	-- Cataclysmic Gladiator's Sabatons of Alacrity
+					moh(2, i(73588)),	-- Cataclysmic Gladiator's Sabatons of Cruelty
+					moh(2, i(73520)),	-- Cataclysmic Gladiator's Sabatons of Meditation
+					moh(2, i(73635)),	-- Cataclysmic Gladiator's Treads of Alacrity
+					moh(2, i(73636)),	-- Cataclysmic Gladiator's Treads of Cruelty
+					moh(2, i(73634)),	-- Cataclysmic Gladiator's Treads of Meditation
+					moh(2, i(73552)),	-- Cataclysmic Gladiator's Warboots of Alacrity
+					moh(2, i(73553)),	-- Cataclysmic Gladiator's Warboots of Cruelty
 				}),
 				filter(NECK_F, {
 					i(73493),	-- Cataclysmic Gladiator's Choker of Proficiency

@@ -828,12 +828,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 								{ "g", 45000000 },		-- 4500g
 							},
 						}),
-						moh(10, i(115501)),    -- Kowalski's Music Box (TOY!)
-						moh(10, i(116396)),    -- LeBlanc's Recorder (A) (TOY!)
+						moh(10, i(115501)),	-- Kowalski's Music Box (TOY!)
+						moh(10, i(116396)),	-- LeBlanc's Recorder (A) (TOY!)
 						i(114126),	-- Disposable Pocket Flying Machine
-						moh(1, i(114125)),    -- Preserved Discombobulator Ray
-						moh(1, i(115511)),    -- Bizmo's Big Bang Boom Bomb
-						moh(10, i(115513)),    -- Wrynn's Vanguard Battle Standard
+						moh(1, i(114125)),	-- Preserved Discombobulator Ray
+						moh(1, i(115511)),	-- Bizmo's Big Bang Boom Bomb
+						moh(10, i(115513)),	-- Wrynn's Vanguard Battle Standard
 						i(115517),	-- Wrynn's Vanguard Tabard
 					},
 				}),
@@ -847,12 +847,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 								{ "g", 45000000 },		-- 4500g
 							},
 						}),
-						moh(10, i(115501)),    -- Kowalski's Music Box (TOY!)
-						moh(10, i(115505)),    -- LeBlanc's Recorder (H) (TOY!)
+						moh(10, i(115501)),	-- Kowalski's Music Box (TOY!)
+						moh(10, i(115505)),	-- LeBlanc's Recorder (H) (TOY!)
 						i(115500),	-- Disposable Pocket Flying Machine
-						moh(1, i(114125)),    -- Preserved Discombobulator Ray
-						moh(1, i(115512)),    -- Gazlowe's Gargantuan Grenade
-						moh(10, i(115514)),    -- Vol'jin's Spear Battle Standard
+						moh(1, i(114125)),	-- Preserved Discombobulator Ray
+						moh(1, i(115512)),	-- Gazlowe's Gargantuan Grenade
+						moh(10, i(115514)),	-- Vol'jin's Spear Battle Standard
 						i(115518),	-- Vol'jin's Spear Tabard
 					},
 				}),

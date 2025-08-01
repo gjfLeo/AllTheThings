@@ -2692,8 +2692,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 38.2, 72.6, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						moh(1, i(15199)),    -- Stone Guard's Herald
-						moh(1, i(15197)),    -- Scout's Tabard
+						moh(1, i(15199)),	-- Stone Guard's Herald
+						moh(1, i(15197)),	-- Scout's Tabard
 						un(REMOVED_FROM_GAME, i(18834)),	-- Insignia of the Horde (Warrior)
 						un(REMOVED_FROM_GAME, i(18845)),	-- Insignia of the Horde (Shaman)
 						un(REMOVED_FROM_GAME, i(18846)),	-- Insignia of the Horde (Hunter)
