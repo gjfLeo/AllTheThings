@@ -633,8 +633,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 		filter(BATTLE_PETS, {
 			i(87526),	-- Mechanical Pandaren Dragonling (PET!)
-			i(94903, {["timeline"] = {ADDED_5_4_0}}),	-- Pierre (PET!)
-			i(100905, {["timeline"] = {ADDED_5_4_0}}),	-- Rascal-Bot (PET!)
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(94903, {["timeline"] = {ADDED_5_4_0}})),	-- Pierre (PET!)
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(100905, {["timeline"] = {ADDED_5_4_0}})),	-- Rascal-Bot (PET!)
 		}),
 		filter(GEMS, {
 			i(77544),	-- Flashing Tinker's Gear
