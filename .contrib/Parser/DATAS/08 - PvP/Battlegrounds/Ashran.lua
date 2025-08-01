@@ -828,22 +828,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 								{ "g", 45000000 },		-- 4500g
 							},
 						}),
-						i(115501, {	-- Kowalski's Music Box (TOY!)
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
-						i(116396, {	-- LeBlanc's Recorder (A) (TOY!)
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
+						moh(10, i(115501)),    -- Kowalski's Music Box (TOY!)
+						moh(10, i(116396)),    -- LeBlanc's Recorder (A) (TOY!)
 						i(114126),	-- Disposable Pocket Flying Machine
-						i(114125, {	-- Preserved Discombobulator Ray
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
-						}),
-						i(115511, {	-- Bizmo's Big Bang Boom Bomb
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
-						}),
-						i(115513, {	-- Wrynn's Vanguard Battle Standard
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
+						moh(1, i(114125)),    -- Preserved Discombobulator Ray
+						moh(1, i(115511)),    -- Bizmo's Big Bang Boom Bomb
+						moh(10, i(115513)),    -- Wrynn's Vanguard Battle Standard
 						i(115517),	-- Wrynn's Vanguard Tabard
 					},
 				}),
@@ -857,22 +847,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 								{ "g", 45000000 },		-- 4500g
 							},
 						}),
-						i(115501, {	-- Kowalski's Music Box (TOY!)
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
-						i(115505, {	-- LeBlanc's Recorder (H) (TOY!)
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
+						moh(10, i(115501)),    -- Kowalski's Music Box (TOY!)
+						moh(10, i(115505)),    -- LeBlanc's Recorder (H) (TOY!)
 						i(115500),	-- Disposable Pocket Flying Machine
-						i(114125, {	-- Preserved Discombobulator Ray
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
-						}),
-						i(115512, {	-- Gazlowe's Gargantuan Grenade
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
-						}),
-						i(115514, {	-- Vol'jin's Spear Battle Standard
-							["cost"] = { { "i", 137642, 10 } },	-- 10x Mark of Honor
-						}),
+						moh(1, i(114125)),    -- Preserved Discombobulator Ray
+						moh(1, i(115512)),    -- Gazlowe's Gargantuan Grenade
+						moh(10, i(115514)),    -- Vol'jin's Spear Battle Standard
 						i(115518),	-- Vol'jin's Spear Tabard
 					},
 				}),
