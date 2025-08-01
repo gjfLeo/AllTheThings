@@ -1016,7 +1016,7 @@ root(ROOTS.Zones, {
 								i(118401, {	-- Arcana Shard Spire
 									["cost"] = 10000000,	-- 1,000g
 								}),
-								i(136854, {	-- Arsenal: Draenor Challenger's Armaments
+								iensemble(136854, {	-- Arsenal: Draenor Challenger's Armaments
 									["cost"] = 100000000,	-- 10,000g
 								}),
 								i(118396, {	-- Bloodmaw Gargoyle
