@@ -26,7 +26,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 		["description"] = "The Tillers are a group of pandaren farmers who harvest and produce crops to feed their people. They were seemingly founded by a man only referred to as \"the Tiller\".",
 		["maps"] = { VALLEY_OF_THE_FOUR_WINDS },
 		["icon"] = 645198,
-		["lvl"] = lvlsquish(90, 90, 10),
+		["lvl"] = lvlsquish(85, 85, 10),
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(6551, {	-- Friend on the Farm
