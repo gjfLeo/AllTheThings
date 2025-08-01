@@ -6797,44 +6797,44 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 			}),
 			header(HEADERS.Spell, 2656, {	-- Smelting
-				i(2841, {    -- Bronze Bar
+				i(2841, {	-- Bronze Bar
 					["cost"] = ClassicCost({
-						{ "i", 2840, 1 },    -- Copper Bar
-						{ "i", 3576, 1 },    -- Tin Bar
+						{ "i", 2840, 1 },	-- Copper Bar
+						{ "i", 3576, 1 },	-- Tin Bar
 					}),
 				}),
-				i(2840, {    -- Copper Bar
-					["cost"] = ClassicCost({ { "i", 2770, 1 } }),    -- Copper Ore
+				i(2840, {	-- Copper Bar
+					["cost"] = ClassicCost({ { "i", 2770, 1 } }),	-- Copper Ore
 				}),
-				i(11371, {    -- Dark Iron Bar
-					["cost"] = ClassicCost({ { "i", 11370, 8 } }),    -- Dark Iron Ore
+				i(11371, {	-- Dark Iron Bar
+					["cost"] = ClassicCost({ { "i", 11370, 8 } }),	-- Dark Iron Ore
 					["description"] = "Learning how to melt Dark Iron Ore from Gloom'rel costs 2 Star Ruby, 20 Gold Bars, and 10 Truesilver Bars.\n\nThe Black Forge can be found in Blackrock Depths, just past the Summoner's Tomb. Head right into The Molten Bridge, and the forge will be on the left side.\nThe Black Anvil can be found by Lord Incendius in the same dungeon.",
 				}),
-				applyclassicphase(PHASE_THREE, i(17771, {    -- Enchanted / Elementium Bar
+				applyclassicphase(PHASE_THREE, i(17771, {	-- Enchanted / Elementium Bar
 					["cost"] = ClassicCost({
-						{ "i", 18562, 1 },    -- Elementium Ore
-						{ "i", 12360, 10 },    -- Arcanite Bar
-						{ "i", 17010, 1 },    -- Fiery Core
-						{ "i", 18567, 3 },    -- Elemental Flux
+						{ "i", 18562, 1 },	-- Elementium Ore
+						{ "i", 12360, 10 },	-- Arcanite Bar
+						{ "i", 17010, 1 },	-- Fiery Core
+						{ "i", 18567, 3 },	-- Elemental Flux
 					}),
 				})),
 				-- #if AFTER 3.3.0
-				i(12655, {    -- Enchanted Thorium Bar
+				i(12655, {	-- Enchanted Thorium Bar
 					["timeline"] = { ADDED_3_3_3 },
 					["cost"] = ClassicCost({
-						{ "i", 12359, 1 },    -- Thorium Bar
-						{ "i", 11176, 3 },    -- Dream Dust
+						{ "i", 12359, 1 },	-- Thorium Bar
+						{ "i", 11176, 3 },	-- Dream Dust
 					}),
 				}),
 				-- #endif
-				i(3577, {    -- Gold Bar
-					["cost"] = ClassicCost({ { "i", 2776, 1 } }),    -- Gold Ore
+				i(3577, {	-- Gold Bar
+					["cost"] = ClassicCost({ { "i", 2776, 1 } }),	-- Gold Ore
 				}),
-				i(3575, {    -- Iron Bar
-					["cost"] = ClassicCost({ { "i", 2772, 1 } }),    -- Iron Ore
+				i(3575, {	-- Iron Bar
+					["cost"] = ClassicCost({ { "i", 2772, 1 } }),	-- Iron Ore
 				}),
-				i(3860, {    -- Mithril Bar
-					["cost"] = ClassicCost({ { "i", 3858, 1 } }),    -- Mithril Ore
+				i(3860, {	-- Mithril Bar
+					["cost"] = ClassicCost({ { "i", 3858, 1 } }),	-- Mithril Ore
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_SIX, i(234003, {	-- Obsidian-Infused Thorium Bar
@@ -6845,23 +6845,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					}),
 				})),
 				-- #endif
-				i(2842, {    -- Silver Bar
-					["cost"] = ClassicCost({ { "i", 2775, 1 } }),    -- Silver Ore
+				i(2842, {	-- Silver Bar
+					["cost"] = ClassicCost({ { "i", 2775, 1 } }),	-- Silver Ore
 				}),
-				i(3859, {    -- Steel Bar
+				i(3859, {	-- Steel Bar
 					["cost"] = ClassicCost({
-						{ "i", 3575, 1 },    -- Iron Bar
-						{ "i", 3857, 1 },    -- Coal
+						{ "i", 3575, 1 },	-- Iron Bar
+						{ "i", 3857, 1 },	-- Coal
 					}),
 				}),
-				i(12359, {    -- Thorium Bar
-					["cost"] = ClassicCost({ { "i", 10620, 1 } }),    -- Thorium Ore
+				i(12359, {	-- Thorium Bar
+					["cost"] = ClassicCost({ { "i", 10620, 1 } }),	-- Thorium Ore
 				}),
-				i(3576, {    -- Tin Bar
-					["cost"] = ClassicCost({ { "i", 2771, 1 } }),    -- Tin Ore
+				i(3576, {	-- Tin Bar
+					["cost"] = ClassicCost({ { "i", 2771, 1 } }),	-- Tin Ore
 				}),
-				i(6037, {    -- Truesilver Bar
-					["cost"] = ClassicCost({ { "i", 7911, 1 } }),    -- Truesilver Ore
+				i(6037, {	-- Truesilver Bar
+					["cost"] = ClassicCost({ { "i", 7911, 1 } }),	-- Truesilver Ore
 				}),
 			}),
 		},

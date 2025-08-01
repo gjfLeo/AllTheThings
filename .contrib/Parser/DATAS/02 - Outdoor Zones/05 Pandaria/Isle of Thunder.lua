@@ -183,9 +183,9 @@ root(ROOTS.Zones, {
 									},
 									["coord"] = { 34.7, 89.5, ISLE_OF_THUNDER },
 								}),
-								q(32599, {    -- Securing A Future
+								q(32599, {	-- Securing A Future
 									["qg"] = 67992,	-- Lady Jaina Proudmoore
-									["minReputation"] = { FACTION_KIRIN_TOR_OFFENSIVE, EXALTED },    -- Kirin Tor Offensive
+									["minReputation"] = { FACTION_KIRIN_TOR_OFFENSIVE, EXALTED },	-- Kirin Tor Offensive
 									["groups"] = {
 										i(95589),	-- Glorious Standard of the Kirin Tor Offensive (TOY!)
 									},

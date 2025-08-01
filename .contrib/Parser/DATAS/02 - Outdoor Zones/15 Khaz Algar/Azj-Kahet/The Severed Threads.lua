@@ -896,8 +896,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["provider"] = { "n", 224890 },	-- Thimble // Weave-Rat Cache (vignette)
 						["questID"] = 82857,
 						["coords"] = {
-							{ 65.9, 88.1, AZJ_KAHET_LOWER },    -- Thimble
-							{ 67.5, 83.4, AZJ_KAHET_LOWER },    -- Thimble's Cache
+							{ 65.9, 88.1, AZJ_KAHET_LOWER },	-- Thimble
+							{ 67.5, 83.4, AZJ_KAHET_LOWER },	-- Thimble's Cache
 						},
 					}),
 					o(454337, {	-- Thimble's Cache

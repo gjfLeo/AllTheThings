@@ -662,11 +662,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(95416, {["timeline"] = {ADDED_5_4_0}}),	-- Sky Golem (MOUNT!)
 		}),
 		i(89991, {  -- Pandaria Fireworks
-			i(89996),    -- Schematic: Autumn Flower Firework (RECIPE!)
-			i(89994),    -- Schematic: Celestial Firework (RECIPE!)
-			i(89993),    -- Schematic: Grand Celebration Firework (RECIPE!)
-			i(89997),    -- Schematic: Jade Blossom Firework (RECIPE!)
-			i(89992),    -- Schematic: Serpent's Heart Firework (RECIPE!)
+			i(89996),	-- Schematic: Autumn Flower Firework (RECIPE!)
+			i(89994),	-- Schematic: Celestial Firework (RECIPE!)
+			i(89993),	-- Schematic: Grand Celebration Firework (RECIPE!)
+			i(89997),	-- Schematic: Jade Blossom Firework (RECIPE!)
+			i(89992),	-- Schematic: Serpent's Heart Firework (RECIPE!)
 		}),
 		filter(REAGENTS, {
 			i(77467),	-- Ghost Iron Bolts
@@ -791,41 +791,41 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		}),
 		category(106, {	-- Tarot Cards
 			sp(111830, {	-- Darkmoon Card of Mists
-				i(79299),    -- Ace of Crane
-				i(79300),    -- Two of Cranes
-				i(79301),    -- Three of Cranes
-				i(79302),    -- Four of Cranes
-				i(79303),    -- Five of Cranes
-				i(79304),    -- Six of Cranes
-				i(79305),    -- Seven of Cranes
-				i(79306),    -- Eight of Cranes
+				i(79299),	-- Ace of Crane
+				i(79300),	-- Two of Cranes
+				i(79301),	-- Three of Cranes
+				i(79302),	-- Four of Cranes
+				i(79303),	-- Five of Cranes
+				i(79304),	-- Six of Cranes
+				i(79305),	-- Seven of Cranes
+				i(79306),	-- Eight of Cranes
 
-				i(79291),    -- Ace of Oxen
-				i(79292),    -- Two of Oxen
-				i(79293),    -- Three of Oxen
-				i(79294),    -- Four of Oxen
-				i(79295),    -- Five of Oxen
-				i(79296),    -- Six of Oxen
-				i(79297),    -- Seven of Oxen
-				i(79298),    -- Eight of Oxen
+				i(79291),	-- Ace of Oxen
+				i(79292),	-- Two of Oxen
+				i(79293),	-- Three of Oxen
+				i(79294),	-- Four of Oxen
+				i(79295),	-- Five of Oxen
+				i(79296),	-- Six of Oxen
+				i(79297),	-- Seven of Oxen
+				i(79298),	-- Eight of Oxen
 
-				i(79307),    -- Ace of Serpents
-				i(79308),    -- Two of Serpents
-				i(79309),    -- Three of Serpents
-				i(79310),    -- Four of Serpents
-				i(79311),    -- Five of Serpents
-				i(79312),    -- Six of Serpents
-				i(79313),    -- Seven of Serpents
-				i(79314),    -- Eight of Serpents
+				i(79307),	-- Ace of Serpents
+				i(79308),	-- Two of Serpents
+				i(79309),	-- Three of Serpents
+				i(79310),	-- Four of Serpents
+				i(79311),	-- Five of Serpents
+				i(79312),	-- Six of Serpents
+				i(79313),	-- Seven of Serpents
+				i(79314),	-- Eight of Serpents
 
-				i(79283),    -- Ace of Tigers
-				i(79284),    -- Two of Tigers
-				i(79285),    -- Three of Tigers
-				i(79286),    -- Four of Tigers
-				i(79287),    -- Five of Tigers
-				i(79288),    -- Six of Tigers
-				i(79289),    -- Seven of Tigers
-				i(79290),    -- Eight of Tigers
+				i(79283),	-- Ace of Tigers
+				i(79284),	-- Two of Tigers
+				i(79285),	-- Three of Tigers
+				i(79286),	-- Four of Tigers
+				i(79287),	-- Five of Tigers
+				i(79288),	-- Six of Tigers
+				i(79289),	-- Seven of Tigers
+				i(79290),	-- Eight of Tigers
 			}),
 		}),
 		filter(BATTLE_PETS, {

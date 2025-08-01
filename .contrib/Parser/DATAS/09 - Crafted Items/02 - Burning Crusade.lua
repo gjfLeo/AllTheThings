@@ -1754,33 +1754,33 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			--]]
 		}),
 		spell(2656, {	-- Smelting
-			i(23446, {    -- Adamantite Bar
-				["cost"] = ClassicCost({ { "i", 23425, 2 } }),    -- Adamantite Ore
+			i(23446, {	-- Adamantite Bar
+				["cost"] = ClassicCost({ { "i", 23425, 2 } }),	-- Adamantite Ore
 			}),
-			i(23447, {    -- Eternium Bar
-				["cost"] = ClassicCost({ { "i", 23427, 2 } }),    -- Eternium Ore
+			i(23447, {	-- Eternium Bar
+				["cost"] = ClassicCost({ { "i", 23427, 2 } }),	-- Eternium Ore
 			}),
-			i(23445, {    -- Fel Iron Bar
-				["cost"] = ClassicCost({ { "i", 23424, 2 } }),    -- Fel Iron Ore
+			i(23445, {	-- Fel Iron Bar
+				["cost"] = ClassicCost({ { "i", 23424, 2 } }),	-- Fel Iron Ore
 			}),
-			i(23448, {    -- Felsteel Bar
+			i(23448, {	-- Felsteel Bar
 				["cost"] = ClassicCost({
 					{ "i", 23445, 3 },	-- Fel Iron Bar
 					{ "i", 23447, 2 },	-- Eternium Bar
 				}),
 			}),
-			i(23573, {    -- Hardened Adamantite Bar
-				["cost"] = ClassicCost({ { "i", 23446, 10 } }),    -- Adamantite Bar
+			i(23573, {	-- Hardened Adamantite Bar
+				["cost"] = ClassicCost({ { "i", 23446, 10 } }),	-- Adamantite Bar
 			}),
-			applyclassicphase(TBC_PHASE_FIVE, i(35128, {    -- Hardened Khorium Bar
+			applyclassicphase(TBC_PHASE_FIVE, i(35128, {	-- Hardened Khorium Bar
 				["timeline"] = {ADDED_2_4_0},
 				["cost"] = ClassicCost({
-					{ "i", 23449, 3 },    -- Khorium Bar
-					{ "i", 23573, 1 },    -- Hardened Adamantite Bar
+					{ "i", 23449, 3 },	-- Khorium Bar
+					{ "i", 23573, 1 },	-- Hardened Adamantite Bar
 				}),
 			})),
-			i(23449, {    -- Khorium Bar
-				["cost"] = ClassicCost({ { "i", 23426, 2 } }),    -- Khorium Ore
+			i(23449, {	-- Khorium Bar
+				["cost"] = ClassicCost({ { "i", 23426, 2 } }),	-- Khorium Ore
 			}),
 		}),
 	}),
@@ -1794,7 +1794,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	prof(SKINNING, {
 		["description"] = "The following items can be gathered by skinning creatures on Outland. Note that Knothide Leather is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.\n\nThis header will often not show everything uncollected it contains, even when enabling 'Debug Mode'. The best way to track specific reagents is to do /att item:[itemID] or pop out this header.",
 		["groups"] = {
-			i(29539, {    -- Cobra Scales
+			i(29539, {	-- Cobra Scales
 				["crs"] = {
 					19784,	-- Coilskar Cobra
 					23020,	-- Shadow Serpent
@@ -1811,7 +1811,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 45.8, 28.6, SHADOWMOON_VALLEY },	-- Coilskar Point
 				},
 			}),
-			i(25699, {    -- Crystal-Infused Leather
+			i(25699, {	-- Crystal-Infused Leather
 				["crs"] = {
 					18461,	-- Dampscale Basilisk
 					18463,	-- Dampscale Devourer
@@ -1868,7 +1868,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 				["description"] = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning most mobs can also give Fel Scales",
 			}),
-			i(25707, {    -- Fel Hide
+			i(25707, {	-- Fel Hide
 				["crs"] = {
 					19852,	-- Artifact Seeker
 					23219,	-- Blackwind Warp Chaser
@@ -1958,7 +1958,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					i(21887),	-- Knothide Leather
 				},
 			}),
-			i(29548, {    -- Nether Dragonscales
+			i(29548, {	-- Nether Dragonscales
 				["description"] = "Is skinned from Netherwing drakes in Outland. Characters who have started the Netherwing questline can only kill Netherwing drakes in Blade's Edge Nountains and Netherstorm, and then it requires the player to toggle 'At War' with the Netherwing in the reputation panel. Killing Netherwing drakes does not lower the reputation with the faction.",
 				["crs"] = {
 					21722,	-- Enslaved Netherwing Drake
@@ -1973,7 +1973,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(35229),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
-			i(25708, {    -- Thick Clefthoof Leather
+			i(25708, {	-- Thick Clefthoof Leather
 				["description"] = "Clefthoofs can be found all over Nagrand.",
 				["crs"] = {
 					17133,	-- Aged Clefthoof
@@ -1983,7 +1983,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 				["maps"] = { NAGRAND },
 			}),
-			i(29547, {    -- Wind Scales
+			i(29547, {	-- Wind Scales
 				["crs"] = {
 					20502,	-- Eclipsion Dragonhawk
 					21123,	-- Felsworn Scalewing

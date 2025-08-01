@@ -2554,7 +2554,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 75.35, 45.8, ORGRIMMAR },
 					["timeline"] = { ADDED_9_0_1 },
 					["races"] = HORDE_ONLY,
-					["sym"] = {{"select","npcID",99863},{"pop"}},    -- Jenri <Spymaster>
+					["sym"] = {{"select","npcID",99863},{"pop"}},	-- Jenri <Spymaster>
 				}),
 				n(149806, {	-- A. Shady
 					["coord"] = { 76.7, 35.6, ORGRIMMAR },

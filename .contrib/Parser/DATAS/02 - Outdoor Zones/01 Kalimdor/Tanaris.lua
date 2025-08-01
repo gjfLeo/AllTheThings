@@ -1332,7 +1332,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "n", 5594 },	-- Alchemist Pestlezugg <Alchemy Supplies>
 						{ "i", 11844 },	-- Pestlezugg's Un'Goro Report
 					},
-                    ["sourceQuest"] = 4507,    -- Pawn Captures Queen
+                    ["sourceQuest"] = 4507,	-- Pawn Captures Queen
                     ["coord"] = { 50.8, 27.0, TANARIS },
 					["timeline"] = { REMOVED_4_0_3 },
                     ["lvl"] = 50,

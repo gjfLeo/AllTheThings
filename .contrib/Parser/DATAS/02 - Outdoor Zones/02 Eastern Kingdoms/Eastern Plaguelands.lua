@@ -763,11 +763,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
-						27373,    -- Onward, to Light's Hope Chapel
-						27391,    -- Hidden Treasures
-						27620,    -- Like Rats
-						27489,    -- Nobody to Blame but Myself
-						27527,    -- Journey's End
+						27373,	-- Onward, to Light's Hope Chapel
+						27391,	-- Hidden Treasures
+						27620,	-- Like Rats
+						27489,	-- Nobody to Blame but Myself
+						27527,	-- Journey's End
 					},
 					-- #endif
 				}),

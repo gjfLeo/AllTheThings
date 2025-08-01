@@ -4278,7 +4278,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						7670,	-- Lord Grayson Shadowbreaker [Ironforge]
 						7638,	-- Lord Grayson Shadowbreaker [Stormwind City]
 						-- #else
-						7640,    -- Exorcising Terrordale
+						7640,	-- Exorcising Terrordale
 						-- #endif
 					},
 					["qg"] = 928,	-- Lord Grayson Shadowbreaker <Paladin Trainer>
@@ -5913,7 +5913,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 78.8, 70.6, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{ "select", "npcID", 99863 }, { "pop" }},    -- Jenri <Spymaster>
+					["sym"] = {{ "select", "npcID", 99863 }, { "pop" }},	-- Jenri <Spymaster>
 				}),
 				n(1333, {	-- Gerik Koen <Two Handed Weapon Merchant>
 					["coords"] = {

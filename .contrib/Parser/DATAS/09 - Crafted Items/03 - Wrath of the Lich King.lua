@@ -1209,41 +1209,41 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		category(106, {	-- Tarot Cards
 			sp(59504, {	-- Darkmoon Card of the North
-				i(44277),    -- Ace of Chaos
-				i(44278),    -- 2 of Chaos
-				i(44279),    -- 3 of Chaos
-				i(44280),    -- 4 of Chaos
-				i(44281),    -- 5 of Chaos
-				i(44282),    -- 6 of Chaos
-				i(44284),    -- 7 of Chaos
-				i(44285),    -- 8 of Chaos
+				i(44277),	-- Ace of Chaos
+				i(44278),	-- 2 of Chaos
+				i(44279),	-- 3 of Chaos
+				i(44280),	-- 4 of Chaos
+				i(44281),	-- 5 of Chaos
+				i(44282),	-- 6 of Chaos
+				i(44284),	-- 7 of Chaos
+				i(44285),	-- 8 of Chaos
 
-				i(44268),    -- Ace of Nobles
-				i(44269),    -- 2 of Nobles
-				i(44270),    -- 3 of Nobles
-				i(44271),    -- 4 of Nobles
-				i(44272),    -- 5 of Nobles
-				i(44273),    -- 6 of Nobles
-				i(44274),    -- 7 of Nobles
-				i(44275),    -- 8 of Nobles
+				i(44268),	-- Ace of Nobles
+				i(44269),	-- 2 of Nobles
+				i(44270),	-- 3 of Nobles
+				i(44271),	-- 4 of Nobles
+				i(44272),	-- 5 of Nobles
+				i(44273),	-- 6 of Nobles
+				i(44274),	-- 7 of Nobles
+				i(44275),	-- 8 of Nobles
 
-				i(44260),    -- Ace of Prisms
-				i(44261),    -- 2 of Prisms
-				i(44262),    -- 3 of Prisms
-				i(44263),    -- 4 of Prisms
-				i(44264),    -- 5 of Prisms
-				i(44265),    -- 6 of Prisms
-				i(44266),    -- 7 of Prisms
-				i(44267),    -- 8 of Prisms
+				i(44260),	-- Ace of Prisms
+				i(44261),	-- 2 of Prisms
+				i(44262),	-- 3 of Prisms
+				i(44263),	-- 4 of Prisms
+				i(44264),	-- 5 of Prisms
+				i(44265),	-- 6 of Prisms
+				i(44266),	-- 7 of Prisms
+				i(44267),	-- 8 of Prisms
 
-				i(44286),    -- Ace of Undeath
-				i(44287),    -- 2 of Undeath
-				i(44288),    -- 3 of Undeath
-				i(44289),    -- 4 of Undeath
-				i(44290),    -- 5 of Undeath
-				i(44291),    -- 6 of Undeath
-				i(44292),    -- 7 of Undeath
-				i(44293),    -- 8 of Undeath
+				i(44286),	-- Ace of Undeath
+				i(44287),	-- 2 of Undeath
+				i(44288),	-- 3 of Undeath
+				i(44289),	-- 4 of Undeath
+				i(44290),	-- 5 of Undeath
+				i(44291),	-- 6 of Undeath
+				i(44292),	-- 7 of Undeath
+				i(44293),	-- 8 of Undeath
 			}),
 		}),
 		filter(HELD_IN_OFF_HAND, {

@@ -334,9 +334,9 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["coord"] = { 27.1, 55.9, 1471 },	-- Emerald Dreamway
 						}),
 						q(59000, {	-- Elements of Corruption
-							["sourceQuests"] = { 56377 },    -- Forging Onward
+							["sourceQuests"] = { 56377 },	-- Forging Onward
 							["altQuests"] = { 58991 },	-- Curious Corruption
-							["provider"] = { "n", 155496 },    -- Wrathion
+							["provider"] = { "n", 155496 },	-- Wrathion
 							["coord"] = { 46.6, 64.6, REPAIRED_CHAMBER_OF_HEART },
 						}),
 						q(55392, {	-- Enter the Dreamway
@@ -1410,21 +1410,21 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 				n(131837, {	-- Zannok Hidepiercer <Leatherworking Supplies>
 					["coord"] = { 81.2, 18.4, SILITHUS },
 					["sym"] = {
-						{"select", "itemID", 137884 },    -- Pattern Dreadleather Bindings
-						{"select", "itemID", 137890 },    -- Pattern Dreadleather Footpads
-						{"select", "itemID", 137889 },    -- Pattern Dreadleather Gloves
-						{"select", "itemID", 137891 },    -- Pattern Dreadleather Jerkin
-						{"select", "itemID", 137888 },    -- Pattern Dreadleather Mask
-						{"select", "itemID", 137887 },    -- Pattern Dreadleather Pants
-						{"select", "itemID", 137886 },    -- Pattern Dreadleather Shoulderguard
-						{"select", "itemID", 142407 },    -- Pattern Drums Of The Mountain
-						{"select", "itemID", 137916 },    -- Pattern Gravenscale Armbands
-						{"select", "itemID", 137921 },    -- Pattern Gravenscale Grips
-						{"select", "itemID", 137923 },    -- Pattern Gravenscale Hauberk
-						{"select", "itemID", 137919 },    -- Pattern Gravenscale Leggings
-						{"select", "itemID", 137918 },    -- Pattern Gravenscale Spaulders
-						{"select", "itemID", 137922 },    -- Pattern Gravenscale Treads
-						{"select", "itemID", 137920 },    -- Pattern Gravenscale Warhelm
+						{"select", "itemID", 137884 },	-- Pattern Dreadleather Bindings
+						{"select", "itemID", 137890 },	-- Pattern Dreadleather Footpads
+						{"select", "itemID", 137889 },	-- Pattern Dreadleather Gloves
+						{"select", "itemID", 137891 },	-- Pattern Dreadleather Jerkin
+						{"select", "itemID", 137888 },	-- Pattern Dreadleather Mask
+						{"select", "itemID", 137887 },	-- Pattern Dreadleather Pants
+						{"select", "itemID", 137886 },	-- Pattern Dreadleather Shoulderguard
+						{"select", "itemID", 142407 },	-- Pattern Drums Of The Mountain
+						{"select", "itemID", 137916 },	-- Pattern Gravenscale Armbands
+						{"select", "itemID", 137921 },	-- Pattern Gravenscale Grips
+						{"select", "itemID", 137923 },	-- Pattern Gravenscale Hauberk
+						{"select", "itemID", 137919 },	-- Pattern Gravenscale Leggings
+						{"select", "itemID", 137918 },	-- Pattern Gravenscale Spaulders
+						{"select", "itemID", 137922 },	-- Pattern Gravenscale Treads
+						{"select", "itemID", 137920 },	-- Pattern Gravenscale Warhelm
 					},
 				}),
 			}),

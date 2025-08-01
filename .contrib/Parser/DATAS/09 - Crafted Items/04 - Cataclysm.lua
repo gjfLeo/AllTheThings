@@ -921,41 +921,41 @@ Fire and Water - Damage against Elementals increased by 15%.
 		}),
 		category(106, {	-- Tarot Cards
 			sp(86615, {	-- Darkmoon Card of Destruction
-				i(61988),    -- Ace of Embers
-				i(61989),    -- Two of Embers
-				i(61990),    -- Three of Embers
-				i(61991),    -- Four of Embers
-				i(61992),    -- Five of Embers
-				i(61993),    -- Six of Embers
-				i(61994),    -- Seven of Embers
-				i(61995),    -- Eight of Embers
+				i(61988),	-- Ace of Embers
+				i(61989),	-- Two of Embers
+				i(61990),	-- Three of Embers
+				i(61991),	-- Four of Embers
+				i(61992),	-- Five of Embers
+				i(61993),	-- Six of Embers
+				i(61994),	-- Seven of Embers
+				i(61995),	-- Eight of Embers
 
-				i(61996),    -- Ace of Stones
-				i(61997),    -- Two of Stones
-				i(61998),    -- Three of Stones
-				i(61999),    -- Four of Stones
-				i(62000),    -- Five of Stones
-				i(62001),    -- Six of Stones
-				i(62002),    -- Seven of Stones
-				i(62003),    -- Eight of Stones
+				i(61996),	-- Ace of Stones
+				i(61997),	-- Two of Stones
+				i(61998),	-- Three of Stones
+				i(61999),	-- Four of Stones
+				i(62000),	-- Five of Stones
+				i(62001),	-- Six of Stones
+				i(62002),	-- Seven of Stones
+				i(62003),	-- Eight of Stones
 
-				i(62004),    -- Ace of the Winds
-				i(62005),    -- Two of the Winds
-				i(62006),    -- Three of the Winds
-				i(62007),    -- Four of the Winds
-				i(62008),    -- Five of the Winds
-				i(62009),    -- Six of the Winds
-				i(62010),    -- Seven of the Winds
-				i(62011),    -- Eight of the Winds
+				i(62004),	-- Ace of the Winds
+				i(62005),	-- Two of the Winds
+				i(62006),	-- Three of the Winds
+				i(62007),	-- Four of the Winds
+				i(62008),	-- Five of the Winds
+				i(62009),	-- Six of the Winds
+				i(62010),	-- Seven of the Winds
+				i(62011),	-- Eight of the Winds
 
-				i(62012),    -- Ace of Waves
-				i(62013),    -- Two of Waves
-				i(62014),    -- Three of Waves
-				i(62015),    -- Four of Waves
-				i(62016),    -- Five of Waves
-				i(62017),    -- Six of Waves
-				i(62018),    -- Seven of Waves
-				i(62019),    -- Eight of Waves
+				i(62012),	-- Ace of Waves
+				i(62013),	-- Two of Waves
+				i(62014),	-- Three of Waves
+				i(62015),	-- Four of Waves
+				i(62016),	-- Five of Waves
+				i(62017),	-- Six of Waves
+				i(62018),	-- Seven of Waves
+				i(62019),	-- Eight of Waves
 			}),
 			i(60838, {	-- Mysterious Fortune Card
 				["timeline"] = { ADDED_4_0_3 },

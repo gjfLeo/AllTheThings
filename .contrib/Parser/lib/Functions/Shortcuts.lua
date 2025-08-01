@@ -762,7 +762,7 @@ tolbaradcommendation = function(cost, item)				-- Assign a Tol Barad Commendatio
 	applycost(item, { "c", 391, cost });	-- Tol Barad Commendation
 	return item;
 end
-traderstender = function(cost, item)                    -- Assign a Traders Tender cost to an item.
+traderstender = function(cost, item)                	-- Assign a Traders Tender cost to an item.
     if cost > 0 then applycost(item, { "c", TRADERS_TENDER, cost }); end
     return item;
 end

@@ -1637,7 +1637,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 38.6, 71.8, SHATTRATH_CITY },
 						-- #if AFTER MOP
 						["sym"] = {{"select","itemID",
-							4565,    -- Simple Dagger
+							4565,	-- Simple Dagger
 						}},
 						-- #endif
 					}),
@@ -1658,7 +1658,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 38.6, 30.0, SHATTRATH_CITY },
 						-- #if AFTER MOP
 						["sym"] = {{"select","itemID",
-							4565,    -- Simple Dagger
+							4565,	-- Simple Dagger
 						}},
 						-- #endif
 					}),
@@ -2183,7 +2183,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 45.6, 19.8, SHATTRATH_CITY },
 						-- #if AFTER MOP
 						["sym"] = {{"select","itemID",
-							4565,    -- Simple Dagger
+							4565,	-- Simple Dagger
 						}},
 						-- #endif
 					}),
