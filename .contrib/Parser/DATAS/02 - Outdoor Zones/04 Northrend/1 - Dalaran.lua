@@ -1627,6 +1627,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 36.1, 33.5, NORTHREND_DALARAN },
 						["requireSkill"] = TAILORING,
 						["lockCriteria"] = { 1,
+							-- "questID", 13272,	-- Cloth Scavenging (N, Dalaran)
 							"questID", 13268,	-- Cloth Scavenging (A, Howling Fjord)
 							"questID", 13269,	-- Cloth Scavenging (H, Howling Fjord)
 							"questID", 13265,	-- Cloth Scavenging (A, Borean Tundra)

@@ -594,26 +594,36 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(13265, {	-- Cloth Scavenging (A)
-						["altQuests"] = {
-							13268,	-- Cloth Scavenging (A, Howling Fjord)
-							13272,	-- Cloth Scavenging (Neutral)
-						},
 						["qg"] = 27001,	-- Darin Goodstitch
 						["coord"] = { 57.4, 72.2, BOREAN_TUNDRA },
 						["requireSkill"] = TAILORING,
 						["races"] = ALLIANCE_ONLY,
-						["isBreadcrumb"] = true,	-- if you learn the recipe from the book (which will drop from the first handful of mobs you kill upon entering Northrend) the Cloth Scavenging quests become unobtainable
+						["lockCriteria"] = { 1,
+							"questID", 13272,	-- Cloth Scavenging (N, Dalaran)
+							"questID", 13268,	-- Cloth Scavenging (A, Howling Fjord)
+							"questID", 13269,	-- Cloth Scavenging (H, Howling Fjord)
+							-- "questID", 13265,	-- Cloth Scavenging (A, Borean Tundra)
+							"questID", 13270,	-- Cloth Scavenging (H, Borean Tundra)
+							"spellID", 59390,	-- Cloth Scavenging
+							"spellID", 343634,	-- Shadowlands Cloth Scavenging
+							"spellID", 392396,	-- Dragon Isles Cloth Scavenging
+						},
 					}),
 					q(13270, {	-- Cloth Scavenging (H)
-						["altQuests"] = {
-							13269,	-- Cloth Scavenging (H, Howling Fjord)
-							13272,	-- Cloth Scavenging (Neutral)
-						},
 						["qg"] = 26969,	-- Raenah
 						["coord"] = { 41.6, 53.4, BOREAN_TUNDRA },
 						["requireSkill"] = TAILORING,
 						["races"] = HORDE_ONLY,
-						["isBreadcrumb"] = true,	-- if you learn the recipe from the book (which will drop from the first handful of mobs you kill upon entering Northrend) the Cloth Scavenging quests become unobtainable
+						["lockCriteria"] = { 1,
+							"questID", 13272,	-- Cloth Scavenging (N, Dalaran)
+							"questID", 13268,	-- Cloth Scavenging (A, Howling Fjord)
+							"questID", 13269,	-- Cloth Scavenging (H, Howling Fjord)
+							"questID", 13265,	-- Cloth Scavenging (A, Borean Tundra)
+							-- "questID", 13270,	-- Cloth Scavenging (H, Borean Tundra)
+							"spellID", 59390,	-- Cloth Scavenging
+							"spellID", 343634,	-- Shadowlands Cloth Scavenging
+							"spellID", 392396,	-- Dragon Isles Cloth Scavenging
+						},
 					}),
 					q(13412, {	-- Corastrasza
 						["qg"] = 26110,	-- Librarian Serrah
