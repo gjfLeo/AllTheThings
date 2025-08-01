@@ -1115,7 +1115,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					currency(341),	-- Emblem of Frost
 					-- #endif
 					i(49908, {	-- Primordial Saronite
-						["description"] = "Can drop from all bosses all bosses in Icecrown Citadel except in 10 player raid size on Normal difficulty.",
+						["description"] = "Can drop from all bosses in Icecrown Citadel except in 10 player raid size on Normal difficulty.",
 					}),
 				},
 			}),
