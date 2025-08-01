@@ -2856,6 +2856,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 79.5, 30.47, HOWLING_FJORD },
 						["sym"] = {
 							{ "select","itemID",
+								38426,	-- Eternium Thread
 								-- #if AFTER CATA
 								3371,	-- Crystal Vial
 								-- #else
@@ -2878,6 +2879,22 @@ root(ROOTS.Zones, {
 							-- These 6 items could be symlinked to 6 more vendors
 						},
 					}),
+					n(26959, {	-- Booker Kells <Inscription Trainer>
+						["coord"] = { 79.36, 29.25, HOWLING_FJORD },
+						["races"] = HORDE_ONLY, 
+						["sym"] = {
+							{ "select","itemID",
+								39354,	-- Light Parchment
+								-- #if BEFORE MOP
+								10648,	-- Common Parchment
+								39501,	-- Heavy Parchment
+								39502,	-- Resilient Parchment
+								-- #endif
+								39489,	-- Scribe's Satchel
+								39505,	-- Virtuoso Inking Set
+							},
+						},
+					}),
 					n(27151, {	-- Deniigi <Spearcrafter>
 						["coord"] = { 25.6, 57.6, HOWLING_FJORD },
 						["groups"] = {
@@ -2891,6 +2908,22 @@ root(ROOTS.Zones, {
 						["coord"] = { 59.6, 63.8, HOWLING_FJORD },
 						["sym"] = {{"sub","common_vendor",32564}},	-- Logistics Officer Silverstone <Alliance Vanguard Quartermaster>
 					})),
+					n(26916, {	-- Mindri Dinkles <Inscription Trainer>
+						["coord"] = { 58.27, 62.48, HOWLING_FJORD },
+						["races"] = ALLIANCE_ONLY, 
+						["sym"] = {
+							{ "select","itemID",
+								39354,	-- Light Parchment
+								-- #if BEFORE MOP
+								10648,	-- Common Parchment
+								39501,	-- Heavy Parchment
+								39502,	-- Resilient Parchment
+								-- #endif
+								39489,	-- Scribe's Satchel
+								39505,	-- Virtuoso Inking Set
+							},
+						},
+					}),
 					n(24330, {	-- Orson Locke <Sharp Blades>
 						["coord"] = { 53.8, 66.8, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
@@ -2928,6 +2961,7 @@ root(ROOTS.Zones, {
 						["description"] = "Walks in a circle inside Valgarde Inn.",
 						["sym"] = {
 							{ "select","itemID",
+								38426,	-- Eternium Thread
 								-- #if AFTER CATA
 								3371,	-- Crystal Vial
 								-- #else

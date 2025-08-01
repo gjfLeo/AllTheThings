@@ -249,6 +249,9 @@ VANILLA_COMMON_LEATHERWORKING_TAILORING_SUPPLIES = sharedData({
 		{ "n", 16767},	-- Neii <Tailoring Supplies>
 		{ "n", 16689},	-- Zaralda <Leatherworking Supplies>
 		-- #endif
+		-- #if AFTER WRATH
+		{ "n", 28726},	-- Dominique Stefano <Tailoring Supplies>
+		-- #endif
 		-- #if AFTER CATA
 		{ "n", 3008},	-- Mak <Leatherworking Supplies> [CATA+] / <Journeyman Leatherworker>
 		-- #endif

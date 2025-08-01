@@ -590,7 +590,11 @@ local MADAME_RUBY_GROUPS = {
 		["isLimited"] = true,
 	}),
 };
+-- #if AFTER BFA
+local ZURII_YURIAL_GROUPS = appendGroups(ENCHANTING_SUPPLIES, RUNED_COPPER_ROD_REAGENTS, {});
+-- #else
 local ZURII_YURIAL_GROUPS = ENCHANTING_SUPPLIES;
+-- #endif
 -- #if AFTER CATA
 local EPIC_GEM_COSTS = { { "c", 395, 78 } };	-- 78x Justice Points
 -- #elseif AFTER WRATH

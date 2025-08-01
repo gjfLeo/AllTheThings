@@ -470,11 +470,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(38928),	-- Enchant Chest - Major Versatility / TBC: Major Spirit
 			i(38929),	-- Enchant Chest - Versatility Prime / TBC: Restore Mana Prime
 			i(38940),	-- Enchant Cloak - Greater Agility
-			i(38941, {["timeline"] = {ADDED_3_0_2, REMOVED_5_0_4}}),	-- Enchant Cloak - Greater Arcane Resistance
+			i(38941, {["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Enchant Cloak - Greater Arcane Resistance
 			i(39000),	-- Enchant Cloak - Greater Dodge / TBC: Steelweave
-			i(38942, {["timeline"] = {ADDED_3_0_2, REMOVED_5_0_4}}),	-- Enchant Cloak - Greater Shadow Resistance
+			i(38942, {["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Enchant Cloak - Greater Shadow Resistance
 			i(38914),	-- Enchant Cloak - Major Armor
-			i(38915, {["timeline"] = {ADDED_3_0_2, REMOVED_5_0_4}}),	-- Enchant Cloak - Major Resistance
+			i(38915, {["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Enchant Cloak - Major Resistance
 			i(38939),	-- Enchant Cloak - Empowerment
 			-- #if AFTER BFA
 			i(38895),	-- Enchant Cloak - Dodge
@@ -501,20 +501,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		})),
 		filter(MISC, {
 			i(22460),	-- Prismatic Sphere
-			i(22462, {["timeline"] = {ADDED_2_0_5, REMOVED_5_0_4}}),	-- Runed Adamantite Rod
-			i(22463, {["timeline"] = {ADDED_2_0_5, REMOVED_5_0_4}}),	-- Runed Eternium Rod
-			i(22461, {["timeline"] = {ADDED_2_0_5, REMOVED_5_0_4}}),	-- Runed Fel Iron Rod
 			i(22521),	-- Superior Mana Oil
 			i(22522),	-- Superior Wizard Oil
 			i(22459),	-- Void Sphere
 		}),
+		filter(PROFESSION_EQUIPMENT, sharedDataSelf({ ["timeline"] = { REMOVED_5_0_4 }}, {
+			i(22462),	-- Runed Adamantite Rod
+			i(22463),	-- Runed Eternium Rod
+			i(22461),	-- Runed Fel Iron Rod
+		})),
 		applyclassicphase(WRATH_PHASE_ONE, n(WEAPON_ENCHANTMENTS, sharedDataSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 			i(38949),	-- Enchant Shield - Armor / TBC: Resilience
 			i(38905),	-- Enchant Shield - Intellect
 			i(38904),	-- Enchant Shield - Lesser Dodge / TBC: Tough Shield
 			i(38945),	-- Enchant Shield - Major Stamina
 			i(38906),	-- Enchant Shield - Parry / TBC: Shield Block
-			i(38907, {["timeline"] = {ADDED_3_0_2, REMOVED_5_0_4}}),	-- Enchant Shield - Resistance
+			i(38907, {["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 }}),	-- Enchant Shield - Resistance
 			i(38927),	-- Enchant Weapon - Battlemaster
 			i(38948),	-- Enchant Weapon - Executioner
 			i(38998),	-- Enchant Weapon - Deathfrost
@@ -1790,7 +1792,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		i(22055),	-- Wound Poison V
 	})),
 	prof(SKINNING, {
-		["description"] = "The following items can be gathered by skinning creatures on Outland. Note that Knothide Leader is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.\n\nThis header will often not show everything uncollected it contains, even when enabling 'Debug Mode'. The best way to track specific reagents is to do /att item:[itemID] or pop out this header.",
+		["description"] = "The following items can be gathered by skinning creatures on Outland. Note that Knothide Leather is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.\n\nThis header will often not show everything uncollected it contains, even when enabling 'Debug Mode'. The best way to track specific reagents is to do /att item:[itemID] or pop out this header.",
 		["groups"] = {
 			i(29539, {    -- Cobra Scales
 				["crs"] = {

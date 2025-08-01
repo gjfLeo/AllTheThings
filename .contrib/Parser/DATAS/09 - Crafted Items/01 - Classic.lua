@@ -1523,11 +1523,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(PHASE_FIVE, i(20750)),	-- Wizard Oil
 		}),
 		filter(PROFESSION_EQUIPMENT, {
-			i(16207, {["timeline"] = {REMOVED_5_0_4}}),	-- Runed Arcanite Rod
+			i(16207, {["timeline"] = { REMOVED_5_0_4 }}),	-- Runed Arcanite Rod
 			i(6218),	-- Runed Copper Rod
-			i(11130, {["timeline"] = {REMOVED_5_0_4}}),	-- Runed Gold Rod
-			i(6339, {["timeline"] = {REMOVED_5_0_4}}),	-- Runed Silver Rod
-			i(11145, {["timeline"] = {REMOVED_5_0_4}}),	-- Runed Truesilver Rod
+			i(11130, {["timeline"] = { REMOVED_5_0_4 }}),	-- Runed Gold Rod
+			i(6339, {["timeline"] = { REMOVED_5_0_4 }}),	-- Runed Silver Rod
+			i(11145, {["timeline"] = { REMOVED_5_0_4 }}),	-- Runed Truesilver Rod
 		}),
 		filter(TRINKET_F, {
 			-- #if SEASON_OF_DISCOVERY
