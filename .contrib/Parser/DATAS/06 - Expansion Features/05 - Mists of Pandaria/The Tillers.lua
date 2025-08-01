@@ -485,11 +485,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						}),
 					},
 				}),
-				q(32189, {	-- A Shabby New Face
+				applyclassicphase(MOP_PHASE_LANDFALL, q(32189, {	-- A Shabby New Face
 					["description"] = "Only available on days that Barnaby Fletcher is visiting the Market.",
 					["qg"] = 58718,	-- Merchant Greenfield
 					["coord"] = { 52.8, 52.0, VALLEY_OF_THE_FOUR_WINDS },
-				}),
+					["timeline"] = { ADDED_5_1_0 },
+				})),
 				q(31341, {	-- A Wolf In Sheep's Clothing
 					["sourceQuest"] = 31340,	-- Oh Sheepie....
 					["qg"] = 58709,	-- Chee Chee
@@ -1133,15 +1134,16 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						}),
 					},
 				}),
-				q(32198, {	-- One Magical, Flying Kingdom's Trash...
+				applyclassicphase(MOP_PHASE_LANDFALL, q(32198, {	-- One Magical, Flying Kingdom's Trash...
 					["description"] = "Available only on days where Barnaby Fletcher is in Halfhill.",
 					["sourceQuest"] = 32189,	-- A Shabby New Face
 					["qg"] = 67565,	-- Barnaby Fletcher
 					["coord"] = { 53.2, 51.4, VALLEY_OF_THE_FOUR_WINDS },
+					["timeline"] = { ADDED_5_1_0 },
 					["groups"] = {
 						i(91806),	-- Unstable Portal Shard
 					},
-				}),
+				})),
 				q(31938, {	-- The "Earth-Slasher" Master Plow
 					["sourceQuest"] = 30529,	-- Growing the Farm III: The Mossy Boulder
 					["provider"] = { "i", 89814 },	-- "Earth-Slasher" Master Plow
@@ -2456,13 +2458,14 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				}),
 			}),
 			n(VENDORS, {
-				n(67565, {	-- Barnaby Fletcher <Washed-Up Mage>
+				applyclassicphase(MOP_PHASE_LANDFALL, n(67565, {	-- Barnaby Fletcher <Washed-Up Mage>
 					["sourceQuest"] = 32198,	-- One Magical, Flying Kingdom's Trash...
 					["coord"] = { 53.2, 51.6, VALLEY_OF_THE_FOUR_WINDS },
+					["timeline"] = { ADDED_5_1_0 },
 					["groups"] = {
 						i(91806),	-- Unstable Portal Shard
 					},
-				}),
+				})),
 				n(58706, {	-- Gina Mudclaw <Tillers Quartermaster>
 					["coord"] = { 53.2, 51.6, VALLEY_OF_THE_FOUR_WINDS },
 					["groups"] = bubbleDownClassicRep(FACTION_THE_TILLERS, {
