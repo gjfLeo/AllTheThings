@@ -397,15 +397,12 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146651, {	-- Arsenal: Gladiator's Weapons
+						moh(80, iensemble(146651, {	-- Arsenal: Gladiator's Weapons
 							["timeline"] = { -- combined with Season 2
 								ADDED_7_2_0,
 								REMOVED_7_2_5,
 							},
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(28302, {	-- Gladiator's Bonecracker
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
@@ -1459,14 +1456,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146650, {	-- Arsenal: Merciless Gladiator's Weapons [Horde / Alliance / Tested ] { Note: Contains Gladiator/Merciless Sets }
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146650, {	-- Arsenal: Merciless Gladiator's Weapons [Horde / Alliance / Tested ] { Note: Contains Gladiator/Merciless Sets }
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR },
-								{"sub", "pvp_weapons_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(33313, {	-- Merciless Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -2190,13 +2182,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146649, {	-- Arsenal: Vengeful Gladiator's Weapons [ Horde / Alliance / Tested ]
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146649, {	-- Arsenal: Vengeful Gladiator's Weapons [ Horde / Alliance / Tested ]
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(33661, {	-- Vengeful Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -2964,13 +2952,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146648, {	-- Arsenal: Brutal Gladiator's Weapons [ Horde / Alliance / Tested ]
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146648, {	-- Arsenal: Brutal Gladiator's Weapons [ Horde / Alliance / Tested ]
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(34986, {	-- Brutal Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),

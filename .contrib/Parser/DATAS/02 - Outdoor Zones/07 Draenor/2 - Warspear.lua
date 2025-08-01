@@ -360,12 +360,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 48.5, 57.6, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138632, {	-- Arsenal: Primal Gladiator's Weapons
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-										},
-									}),
+									moh(80, iensemble(138632, {	-- Arsenal: Primal Gladiator's Weapons
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(111067, {	-- Primal Gladiator's Cleaver
 										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 									}),
@@ -1230,12 +1227,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 49.3, 56.7, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138634, {	-- Arsenal: Wild Gladiator's Weapons (H)
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-										},
-									}),
+									moh(80, iensemble(138634, {	-- Arsenal: Wild Gladiator's Weapons (H)
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(125228, {	-- Wild Gladiator's Barrier (H)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
@@ -2283,12 +2277,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 49.1, 56.4, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138629, {	-- Arsenal: Wild Combatant's Weapons (H)
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_HORDE, PVP_COMBATANT },
-										},
-									}),
+									moh(80, iensemble(138629, {	-- Arsenal: Wild Combatant's Weapons (H)
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(125428, {	-- Wild Combatant's Barrier (H)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
@@ -2784,12 +2775,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 48.9, 57.3, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138636, {	-- Arsenal: Warmongering Gladiator's Weapons (H)
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-										},
-									}),
+									moh(80, iensemble(138636, {	-- Arsenal: Warmongering Gladiator's Weapons (H)
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(126342, {	-- Warmongering Gladiator's Barrier (H)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
@@ -3579,12 +3567,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 48.3, 57.5, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138626, {	-- Arsenal: Primal Combatant's Weapons (H)
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_HORDE, PVP_COMBATANT },
-										},
-									}),
+									moh(80, iensemble(138626, {	-- Arsenal: Primal Combatant's Weapons (H)
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(119866, {	-- Primal Combatant's Barrier (H)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
@@ -4067,12 +4052,9 @@ root(ROOTS.Zones, {
 							["coord"] = { 49.2, 57.1, WARSPEAR },
 							["groups"] = {
 								n(WEAPONS, {
-									i(138627, {	-- Arsenal: Warmongering Combatant's Weapons (H)
-										["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-										["sym"] = {
-											{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_HORDE, PVP_COMBATANT },
-										},
-									}),
+									moh(80, iensemble(138627, {	-- Arsenal: Warmongering Combatant's Weapons (H)
+										["timeline"] = { ADDED_7_0_3 },
+									})),
 									i(126542, {	-- Warmongering Combatant's Barrier (H)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),

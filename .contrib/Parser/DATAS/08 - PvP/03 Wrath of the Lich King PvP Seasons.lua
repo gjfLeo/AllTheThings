@@ -94,13 +94,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PVP_HONOR, {
 					n(WEAPONS, {
-						i(146647, {	-- Arsenal: Savage Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146647, {	-- Arsenal: Savage Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR },
-							},
-						}),
+						})),
 						i(42444, {	-- Savage Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
@@ -569,13 +565,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PRE_SEASON_HATEFUL, {
 					n(WEAPONS, {
-						i(146646, {	-- Arsenal: Hateful Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146646, {	-- Arsenal: Hateful Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL },
-							},
-						}),
+						})),
 						-- #if AFTER 5.0.0
 						i(42563, {	-- Hateful Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
@@ -1278,13 +1270,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146645, {	-- Arsenal: Deadly Gladiator's Weapon
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146645, {	-- Arsenal: Deadly Gladiator's Weapon
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(42564, {	-- Deadly Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -2001,13 +1989,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146644, {	-- Arsenal: Furious Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146644, {	-- Arsenal: Furious Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(42565, {	-- Furious Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -2753,13 +2737,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146643, {	-- Arsenal: Relentless Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146643, {	-- Arsenal: Relentless Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(42566, {	-- Relentless Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -3524,13 +3504,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
-						i(146642, {	-- Arsenal: Wrathful Gladiator's Weapons
-							["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
+						moh(80, iensemble(146642, {	-- Arsenal: Wrathful Gladiator's Weapons
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR },
-							},
-						}),
+						})),
 						i(51452, {	-- Wrathful Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),

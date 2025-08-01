@@ -244,94 +244,89 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138625, {	-- Arsenal: Primal Combatant's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_ALLIANCE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(115083, {	-- Primal Combatant's Barrier (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(120066, {	-- Primal Combatant's Baton of Light (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120068, {	-- Primal Combatant's Battle Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120072, {	-- Primal Combatant's Bonecracker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120075, {	-- Primal Combatant's Bonegrinder (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120053, {	-- Primal Combatant's Cleaver (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120074, {	-- Primal Combatant's Decapitator (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115075, {	-- Primal Combatant's Endgame (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(120069, {	-- Primal Combatant's Energy Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120064, {	-- Primal Combatant's Gavel (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120076, {	-- Primal Combatant's Greatsword (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120070, {	-- Primal Combatant's Hacker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120058, {	-- Primal Combatant's Longbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120061, {	-- Primal Combatant's Pike (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120056, {	-- Primal Combatant's Pummeler (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120057, {	-- Primal Combatant's Quickblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115082, {	-- Primal Combatant's Redoubt (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(120071, {	-- Primal Combatant's Render (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115076, {	-- Primal Combatant's Reprieve (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(120060, {	-- Primal Combatant's Rifle (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120055, {	-- Primal Combatant's Ripper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120054, {	-- Primal Combatant's Shanker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115148, {	-- Primal Combatant's Shield Wall (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(120073, {	-- Primal Combatant's Slicer (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120063, {	-- Primal Combatant's Spellblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120062, {	-- Primal Combatant's Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(120067, {	-- Primal Combatant's Touch of Defeat (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138625, {	-- Arsenal: Primal Combatant's Weapons (A)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(115083, {	-- Primal Combatant's Barrier (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(120066, {	-- Primal Combatant's Baton of Light (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120068, {	-- Primal Combatant's Battle Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120072, {	-- Primal Combatant's Bonecracker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120075, {	-- Primal Combatant's Bonegrinder (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120053, {	-- Primal Combatant's Cleaver (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120074, {	-- Primal Combatant's Decapitator (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115075, {	-- Primal Combatant's Endgame (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(120069, {	-- Primal Combatant's Energy Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120064, {	-- Primal Combatant's Gavel (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120076, {	-- Primal Combatant's Greatsword (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120070, {	-- Primal Combatant's Hacker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120058, {	-- Primal Combatant's Longbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120061, {	-- Primal Combatant's Pike (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120056, {	-- Primal Combatant's Pummeler (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120057, {	-- Primal Combatant's Quickblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115082, {	-- Primal Combatant's Redoubt (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(120071, {	-- Primal Combatant's Render (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115076, {	-- Primal Combatant's Reprieve (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(120060, {	-- Primal Combatant's Rifle (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120055, {	-- Primal Combatant's Ripper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120054, {	-- Primal Combatant's Shanker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115148, {	-- Primal Combatant's Shield Wall (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(120073, {	-- Primal Combatant's Slicer (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120063, {	-- Primal Combatant's Spellblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120062, {	-- Primal Combatant's Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(120067, {	-- Primal Combatant's Touch of Defeat (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -858,94 +853,89 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138631, {	-- Arsenal: Primal Gladiator's Weapons
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(115594, {	-- Primal Gladiator's Cleaver
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115595, {	-- Primal Gladiator's Shanker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115596, {	-- Primal Gladiator's Ripper
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115597, {	-- Primal Gladiator's Pummeler
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115598, {	-- Primal Gladiator's Quickblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115599, {	-- Primal Gladiator's Longbow
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115601, {	-- Primal Gladiator's Rifle
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115602, {	-- Primal Gladiator's Pike
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115644, {	-- Primal Gladiator's Spellblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115645, {	-- Primal Gladiator's Gavel
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115646, {	-- Primal Gladiator's Mageblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115647, {	-- Primal Gladiator's Baton of Light
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115648, {	-- Primal Gladiator's Touch of Defeat
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115649, {	-- Primal Gladiator's Battle Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115650, {	-- Primal Gladiator's Energy Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115659, {	-- Primal Gladiator's Endgame
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115660, {	-- Primal Gladiator's Reprieve
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115666, {	-- Primal Gladiator's Redoubt
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115667, {	-- Primal Gladiator's Barrier
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115725, {	-- Primal Gladiator's Hacker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115726, {	-- Primal Gladiator's Render
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115727, {	-- Primal Gladiator's Bonecracker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115728, {	-- Primal Gladiator's Slicer
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115729, {	-- Primal Gladiator's Decapitator
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115730, {	-- Primal Gladiator's Bonegrinder
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115731, {	-- Primal Gladiator's Greatsword
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115748, {	-- Primal Gladiator's Shield Wall
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138631, {	-- Arsenal: Primal Gladiator's Weapons
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(115594, {	-- Primal Gladiator's Cleaver
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115595, {	-- Primal Gladiator's Shanker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115596, {	-- Primal Gladiator's Ripper
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115597, {	-- Primal Gladiator's Pummeler
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115598, {	-- Primal Gladiator's Quickblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115599, {	-- Primal Gladiator's Longbow
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115601, {	-- Primal Gladiator's Rifle
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115602, {	-- Primal Gladiator's Pike
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115644, {	-- Primal Gladiator's Spellblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115645, {	-- Primal Gladiator's Gavel
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115646, {	-- Primal Gladiator's Mageblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115647, {	-- Primal Gladiator's Baton of Light
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115648, {	-- Primal Gladiator's Touch of Defeat
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115649, {	-- Primal Gladiator's Battle Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115650, {	-- Primal Gladiator's Energy Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115659, {	-- Primal Gladiator's Endgame
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115660, {	-- Primal Gladiator's Reprieve
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115666, {	-- Primal Gladiator's Redoubt
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115667, {	-- Primal Gladiator's Barrier
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115725, {	-- Primal Gladiator's Hacker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115726, {	-- Primal Gladiator's Render
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115727, {	-- Primal Gladiator's Bonecracker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115728, {	-- Primal Gladiator's Slicer
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115729, {	-- Primal Gladiator's Decapitator
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115730, {	-- Primal Gladiator's Bonegrinder
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115731, {	-- Primal Gladiator's Greatsword
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115748, {	-- Primal Gladiator's Shield Wall
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -1699,94 +1689,89 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138626, {	-- Arsenal: Primal Combatant's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_HORDE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(119866, {	-- Primal Combatant's Barrier (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115067, {	-- Primal Combatant's Baton of Light (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115069, {	-- Primal Combatant's Battle Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115134, {	-- Primal Combatant's Bonecracker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115137, {	-- Primal Combatant's Bonegrinder (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115024, {	-- Primal Combatant's Cleaver (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115136, {	-- Primal Combatant's Decapitator (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(119858, {	-- Primal Combatant's Endgame (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115070, {	-- Primal Combatant's Energy Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115065, {	-- Primal Combatant's Gavel (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115138, {	-- Primal Combatant's Greatsword (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115132, {	-- Primal Combatant's Hacker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115029, {	-- Primal Combatant's Longbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115032, {	-- Primal Combatant's Pike (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115027, {	-- Primal Combatant's Pummeler (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115028, {	-- Primal Combatant's Quickblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(119865, {	-- Primal Combatant's Redoubt (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(115133, {	-- Primal Combatant's Render (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(119859, {	-- Primal Combatant's Reprieve (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115031, {	-- Primal Combatant's Rifle (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115026, {	-- Primal Combatant's Ripper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115025, {	-- Primal Combatant's Shanker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(119925, {	-- Primal Combatant's Shield Wall (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(115135, {	-- Primal Combatant's Slicer (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115064, {	-- Primal Combatant's Spellblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115033, {	-- Primal Combatant's Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(115068, {	-- Primal Combatant's Touch of Defeat (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138626, {	-- Arsenal: Primal Combatant's Weapons (H)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(119866, {	-- Primal Combatant's Barrier (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115067, {	-- Primal Combatant's Baton of Light (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115069, {	-- Primal Combatant's Battle Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115134, {	-- Primal Combatant's Bonecracker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115137, {	-- Primal Combatant's Bonegrinder (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115024, {	-- Primal Combatant's Cleaver (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115136, {	-- Primal Combatant's Decapitator (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(119858, {	-- Primal Combatant's Endgame (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115070, {	-- Primal Combatant's Energy Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115065, {	-- Primal Combatant's Gavel (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115138, {	-- Primal Combatant's Greatsword (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115132, {	-- Primal Combatant's Hacker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115029, {	-- Primal Combatant's Longbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115032, {	-- Primal Combatant's Pike (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115027, {	-- Primal Combatant's Pummeler (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115028, {	-- Primal Combatant's Quickblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(119865, {	-- Primal Combatant's Redoubt (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(115133, {	-- Primal Combatant's Render (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(119859, {	-- Primal Combatant's Reprieve (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115031, {	-- Primal Combatant's Rifle (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115026, {	-- Primal Combatant's Ripper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115025, {	-- Primal Combatant's Shanker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(119925, {	-- Primal Combatant's Shield Wall (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(115135, {	-- Primal Combatant's Slicer (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115064, {	-- Primal Combatant's Spellblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115033, {	-- Primal Combatant's Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(115068, {	-- Primal Combatant's Touch of Defeat (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -2313,94 +2298,89 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138632, {	-- Arsenal: Primal Gladiator's Weapons
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_PRIMAL, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(111067, {	-- Primal Gladiator's Cleaver
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111068, {	-- Primal Gladiator's Shanker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111069, {	-- Primal Gladiator's Ripper
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111070, {	-- Primal Gladiator's Pummeler
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111071, {	-- Primal Gladiator's Quickblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111072, {	-- Primal Gladiator's Longbow
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111074, {	-- Primal Gladiator's Rifle
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111075, {	-- Primal Gladiator's Pike
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111117, {	-- Primal Gladiator's Spellblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111118, {	-- Primal Gladiator's Gavel
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111119, {	-- Primal Gladiator's Mageblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111120, {	-- Primal Gladiator's Baton of Light
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111121, {	-- Primal Gladiator's Touch of Defeat
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111122, {	-- Primal Gladiator's Battle Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111123, {	-- Primal Gladiator's Energy Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111132, {	-- Primal Gladiator's Endgame
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(111133, {	-- Primal Gladiator's Reprieve
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(111139, {	-- Primal Gladiator's Redoubt
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(111140, {	-- Primal Gladiator's Barrier
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(111198, {	-- Primal Gladiator's Hacker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111199, {	-- Primal Gladiator's Render
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111200, {	-- Primal Gladiator's Bonecracker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111201, {	-- Primal Gladiator's Slicer
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111202, {	-- Primal Gladiator's Decapitator
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111203, {	-- Primal Gladiator's Bonegrinder
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111204, {	-- Primal Gladiator's Greatsword
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(111221, {	-- Primal Gladiator's Shield Wall
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138632, {	-- Arsenal: Primal Gladiator's Weapons
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(111067, {	-- Primal Gladiator's Cleaver
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111068, {	-- Primal Gladiator's Shanker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111069, {	-- Primal Gladiator's Ripper
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111070, {	-- Primal Gladiator's Pummeler
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111071, {	-- Primal Gladiator's Quickblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111072, {	-- Primal Gladiator's Longbow
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111074, {	-- Primal Gladiator's Rifle
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111075, {	-- Primal Gladiator's Pike
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111117, {	-- Primal Gladiator's Spellblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111118, {	-- Primal Gladiator's Gavel
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111119, {	-- Primal Gladiator's Mageblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111120, {	-- Primal Gladiator's Baton of Light
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111121, {	-- Primal Gladiator's Touch of Defeat
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111122, {	-- Primal Gladiator's Battle Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111123, {	-- Primal Gladiator's Energy Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111132, {	-- Primal Gladiator's Endgame
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(111133, {	-- Primal Gladiator's Reprieve
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(111139, {	-- Primal Gladiator's Redoubt
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(111140, {	-- Primal Gladiator's Barrier
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(111198, {	-- Primal Gladiator's Hacker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111199, {	-- Primal Gladiator's Render
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111200, {	-- Primal Gladiator's Bonecracker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111201, {	-- Primal Gladiator's Slicer
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111202, {	-- Primal Gladiator's Decapitator
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111203, {	-- Primal Gladiator's Bonegrinder
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111204, {	-- Primal Gladiator's Greatsword
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(111221, {	-- Primal Gladiator's Shield Wall
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -3461,103 +3441,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138630, {	-- Arsenal: Wild Combatant's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_ALLIANCE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(124951, {	-- Wild Combatant's Barrier (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(124931, {	-- Wild Combatant's Baton of Light (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124933, {	-- Wild Combatant's Battle Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125017, {	-- Wild Combatant's Bonecracker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125020, {	-- Wild Combatant's Bonegrinder (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(127381, {	-- Wild Combatant's Chopper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124885, {	-- Wild Combatant's Cleaver (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125019, {	-- Wild Combatant's Decapitator (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124943, {	-- Wild Combatant's Endgame (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(124934, {	-- Wild Combatant's Energy Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124929, {	-- Wild Combatant's Gavel (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125021, {	-- Wild Combatant's Greatsword (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125015, {	-- Wild Combatant's Hacker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124891, {	-- Wild Combatant's Heavy Crossbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124890, {	-- Wild Combatant's Longbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124930, {	-- Wild Combatant's Mageblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124893, {	-- Wild Combatant's Pike (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124888, {	-- Wild Combatant's Pummeler (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124889, {	-- Wild Combatant's Quickblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124950, {	-- Wild Combatant's Redoubt (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(125016, {	-- Wild Combatant's Render (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124944, {	-- Wild Combatant's Reprieve (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(124892, {	-- Wild Combatant's Rifle (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124887, {	-- Wild Combatant's Ripper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124886, {	-- Wild Combatant's Shanker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125029, {	-- Wild Combatant's Shield Wall (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125018, {	-- Wild Combatant's Slicer (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124928, {	-- Wild Combatant's Spellblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124894, {	-- Wild Combatant's Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124932, {	-- Wild Combatant's Touch of Defeat (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138630, {	-- Arsenal: Wild Combatant's Weapons (A)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(124951, {	-- Wild Combatant's Barrier (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(124931, {	-- Wild Combatant's Baton of Light (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124933, {	-- Wild Combatant's Battle Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125017, {	-- Wild Combatant's Bonecracker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125020, {	-- Wild Combatant's Bonegrinder (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(127381, {	-- Wild Combatant's Chopper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124885, {	-- Wild Combatant's Cleaver (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125019, {	-- Wild Combatant's Decapitator (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124943, {	-- Wild Combatant's Endgame (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(124934, {	-- Wild Combatant's Energy Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124929, {	-- Wild Combatant's Gavel (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125021, {	-- Wild Combatant's Greatsword (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125015, {	-- Wild Combatant's Hacker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124891, {	-- Wild Combatant's Heavy Crossbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124890, {	-- Wild Combatant's Longbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124930, {	-- Wild Combatant's Mageblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124893, {	-- Wild Combatant's Pike (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124888, {	-- Wild Combatant's Pummeler (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124889, {	-- Wild Combatant's Quickblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124950, {	-- Wild Combatant's Redoubt (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(125016, {	-- Wild Combatant's Render (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124944, {	-- Wild Combatant's Reprieve (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(124892, {	-- Wild Combatant's Rifle (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124887, {	-- Wild Combatant's Ripper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124886, {	-- Wild Combatant's Shanker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125029, {	-- Wild Combatant's Shield Wall (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125018, {	-- Wild Combatant's Slicer (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124928, {	-- Wild Combatant's Spellblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124894, {	-- Wild Combatant's Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124932, {	-- Wild Combatant's Touch of Defeat (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -4075,103 +4050,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138633, {	-- Arsenal: Wild Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(124675, {	-- Wild Gladiator's Cleaver
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124676, {	-- Wild Gladiator's Shanker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124677, {	-- Wild Gladiator's Ripper
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124678, {	-- Wild Gladiator's Pummeler
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124679, {	-- Wild Gladiator's Quickblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124680, {	-- Wild Gladiator's Longbow
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124681, {	-- Wild Gladiator's Heavy Crossbow
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124682, {	-- Wild Gladiator's Rifle
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124683, {	-- Wild Gladiator's Pike
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124684, {	-- Wild Gladiator's Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124726, {	-- Wild Gladiator's Spellblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124727, {	-- Wild Gladiator's Gavel
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124728, {	-- Wild Gladiator's Mageblade
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124729, {	-- Wild Gladiator's Baton of Light
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124730, {	-- Wild Gladiator's Touch of Defeat
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(124731, {	-- Wild Gladiator's Battle Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124732, {	-- Wild Gladiator's Energy Staff
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124741, {	-- Wild Gladiator's Endgame
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(124742, {	-- Wild Gladiator's Reprieve
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(124748, {	-- Wild Gladiator's Redoubt
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(124749, {	-- Wild Gladiator's Barrier
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(124837, {	-- Wild Gladiator's Hacker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124838, {	-- Wild Gladiator's Render
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124839, {	-- Wild Gladiator's Bonecracker
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124840, {	-- Wild Gladiator's Slicer
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124841, {	-- Wild Gladiator's Decapitator
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124842, {	-- Wild Gladiator's Bonegrinder
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124843, {	-- Wild Gladiator's Greatsword
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(124851, {	-- Wild Gladiator's Shield Wall
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(129934, {	-- Wild Gladiator's Runeaxe
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138633, {	-- Arsenal: Wild Gladiator's Weapons (A)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(124675, {	-- Wild Gladiator's Cleaver
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124676, {	-- Wild Gladiator's Shanker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124677, {	-- Wild Gladiator's Ripper
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124678, {	-- Wild Gladiator's Pummeler
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124679, {	-- Wild Gladiator's Quickblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124680, {	-- Wild Gladiator's Longbow
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124681, {	-- Wild Gladiator's Heavy Crossbow
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124682, {	-- Wild Gladiator's Rifle
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124683, {	-- Wild Gladiator's Pike
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124684, {	-- Wild Gladiator's Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124726, {	-- Wild Gladiator's Spellblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124727, {	-- Wild Gladiator's Gavel
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124728, {	-- Wild Gladiator's Mageblade
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124729, {	-- Wild Gladiator's Baton of Light
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124730, {	-- Wild Gladiator's Touch of Defeat
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(124731, {	-- Wild Gladiator's Battle Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124732, {	-- Wild Gladiator's Energy Staff
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124741, {	-- Wild Gladiator's Endgame
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(124742, {	-- Wild Gladiator's Reprieve
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(124748, {	-- Wild Gladiator's Redoubt
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(124749, {	-- Wild Gladiator's Barrier
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(124837, {	-- Wild Gladiator's Hacker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124838, {	-- Wild Gladiator's Render
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124839, {	-- Wild Gladiator's Bonecracker
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124840, {	-- Wild Gladiator's Slicer
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124841, {	-- Wild Gladiator's Decapitator
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124842, {	-- Wild Gladiator's Bonegrinder
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124843, {	-- Wild Gladiator's Greatsword
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(124851, {	-- Wild Gladiator's Shield Wall
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(129934, {	-- Wild Gladiator's Runeaxe
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -4942,103 +4912,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138629, {	-- Arsenal: Wild Combatant's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_HORDE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(125428, {	-- Wild Combatant's Barrier (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125408, {	-- Wild Combatant's Baton of Light (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125410, {	-- Wild Combatant's Battle Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125494, {	-- Wild Combatant's Bonecracker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125497, {	-- Wild Combatant's Bonegrinder (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(127380, {	-- Wild Combatant's Chopper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125362, {	-- Wild Combatant's Cleaver (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125496, {	-- Wild Combatant's Decapitator (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125420, {	-- Wild Combatant's Endgame (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125411, {	-- Wild Combatant's Energy Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125406, {	-- Wild Combatant's Gavel (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125498, {	-- Wild Combatant's Greatsword (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125492, {	-- Wild Combatant's Hacker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125368, {	-- Wild Combatant's Heavy Crossbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125367, {	-- Wild Combatant's Longbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125407, {	-- Wild Combatant's Mageblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125370, {	-- Wild Combatant's Pike (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125365, {	-- Wild Combatant's Pummeler (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125366, {	-- Wild Combatant's Quickblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125427, {	-- Wild Combatant's Redoubt (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(125493, {	-- Wild Combatant's Render (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125421, {	-- Wild Combatant's Reprieve (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125369, {	-- Wild Combatant's Rifle (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125364, {	-- Wild Combatant's Ripper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125363, {	-- Wild Combatant's Shanker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125506, {	-- Wild Combatant's Shield Wall (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125495, {	-- Wild Combatant's Slicer (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125405, {	-- Wild Combatant's Spellblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125371, {	-- Wild Combatant's Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125409, {	-- Wild Combatant's Touch of Defeat (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138629, {	-- Arsenal: Wild Combatant's Weapons (H)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(125428, {	-- Wild Combatant's Barrier (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125408, {	-- Wild Combatant's Baton of Light (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125410, {	-- Wild Combatant's Battle Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125494, {	-- Wild Combatant's Bonecracker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125497, {	-- Wild Combatant's Bonegrinder (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(127380, {	-- Wild Combatant's Chopper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125362, {	-- Wild Combatant's Cleaver (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125496, {	-- Wild Combatant's Decapitator (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125420, {	-- Wild Combatant's Endgame (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125411, {	-- Wild Combatant's Energy Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125406, {	-- Wild Combatant's Gavel (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125498, {	-- Wild Combatant's Greatsword (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125492, {	-- Wild Combatant's Hacker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125368, {	-- Wild Combatant's Heavy Crossbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125367, {	-- Wild Combatant's Longbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125407, {	-- Wild Combatant's Mageblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125370, {	-- Wild Combatant's Pike (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125365, {	-- Wild Combatant's Pummeler (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125366, {	-- Wild Combatant's Quickblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125427, {	-- Wild Combatant's Redoubt (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(125493, {	-- Wild Combatant's Render (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125421, {	-- Wild Combatant's Reprieve (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125369, {	-- Wild Combatant's Rifle (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125364, {	-- Wild Combatant's Ripper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125363, {	-- Wild Combatant's Shanker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125506, {	-- Wild Combatant's Shield Wall (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125495, {	-- Wild Combatant's Slicer (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125405, {	-- Wild Combatant's Spellblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125371, {	-- Wild Combatant's Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125409, {	-- Wild Combatant's Touch of Defeat (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -5556,103 +5521,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138634, {	-- Arsenal: Wild Gladiator's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_HORDE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(125228, {	-- Wild Gladiator's Barrier (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125208, {	-- Wild Gladiator's Baton of Light (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125210, {	-- Wild Gladiator's Battle Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125318, {	-- Wild Gladiator's Bonecracker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125321, {	-- Wild Gladiator's Bonegrinder (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125154, {	-- Wild Gladiator's Cleaver (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125320, {	-- Wild Gladiator's Decapitator (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125220, {	-- Wild Gladiator's Endgame (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125211, {	-- Wild Gladiator's Energy Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125206, {	-- Wild Gladiator's Gavel (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125322, {	-- Wild Gladiator's Greatsword (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125316, {	-- Wild Gladiator's Hacker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125160, {	-- Wild Gladiator's Heavy Crossbow(H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125159, {	-- Wild Gladiator's Longbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125207, {	-- Wild Gladiator's Mageblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125162, {	-- Wild Gladiator's Pike (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125157, {	-- Wild Gladiator's Pummeler (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125158, {	-- Wild Gladiator's Quickblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125227, {	-- Wild Gladiator's Redoubt (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
-									}),
-									i(125317, {	-- Wild Gladiator's Render (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125221, {	-- Wild Gladiator's Reprieve (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125161, {	-- Wild Gladiator's Rifle (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125156, {	-- Wild Gladiator's Ripper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(129935, {	-- Wild Gladiator's Runeaxe (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125155, {	-- Wild Gladiator's Shanker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125330, {	-- Wild Gladiator's Shield Wall (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125319, {	-- Wild Gladiator's Slicer (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125205, {	-- Wild Gladiator's Spellblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125163, {	-- Wild Gladiator's Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125209, {	-- Wild Gladiator's Touch of Defeat (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138634, {	-- Arsenal: Wild Gladiator's Weapons (H)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(125228, {	-- Wild Gladiator's Barrier (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125208, {	-- Wild Gladiator's Baton of Light (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125210, {	-- Wild Gladiator's Battle Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125318, {	-- Wild Gladiator's Bonecracker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125321, {	-- Wild Gladiator's Bonegrinder (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125154, {	-- Wild Gladiator's Cleaver (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125320, {	-- Wild Gladiator's Decapitator (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125220, {	-- Wild Gladiator's Endgame (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125211, {	-- Wild Gladiator's Energy Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125206, {	-- Wild Gladiator's Gavel (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125322, {	-- Wild Gladiator's Greatsword (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125316, {	-- Wild Gladiator's Hacker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125160, {	-- Wild Gladiator's Heavy Crossbow(H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125159, {	-- Wild Gladiator's Longbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125207, {	-- Wild Gladiator's Mageblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125162, {	-- Wild Gladiator's Pike (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125157, {	-- Wild Gladiator's Pummeler (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125158, {	-- Wild Gladiator's Quickblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125227, {	-- Wild Gladiator's Redoubt (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 5x Mark of Honor
+							}),
+							i(125317, {	-- Wild Gladiator's Render (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125221, {	-- Wild Gladiator's Reprieve (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125161, {	-- Wild Gladiator's Rifle (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125156, {	-- Wild Gladiator's Ripper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(129935, {	-- Wild Gladiator's Runeaxe (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125155, {	-- Wild Gladiator's Shanker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125330, {	-- Wild Gladiator's Shield Wall (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125319, {	-- Wild Gladiator's Slicer (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125205, {	-- Wild Gladiator's Spellblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125163, {	-- Wild Gladiator's Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125209, {	-- Wild Gladiator's Touch of Defeat (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -6722,103 +6682,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138628, {	-- Arsenal: Warmongering Combatant's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_ALLIANCE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(126065, {	-- Warmongering Combatant's Barrier (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126045, {	-- Warmongering Combatant's Baton of Light (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126047, {	-- Warmongering Combatant's Battle Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126131, {	-- Warmongering Combatant's Bonecracker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126134, {	-- Warmongering Combatant's Bonegrinder (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(127379, {	-- Warmongering Combatant's Chopper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125999, {	-- Warmongering Combatant's Cleaver (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126133, {	-- Warmongering Combatant's Decapitator (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126057, {	-- Warmongering Combatant's Endgame (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126048, {	-- Warmongering Combatant's Energy Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126043, {	-- Warmongering Combatant's Gavel (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126135, {	-- Warmongering Combatant's Greatsword (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126129, {	-- Warmongering Combatant's Hacker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126005, {	-- Warmongering Combatant's Heavy Crossbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126004, {	-- Warmongering Combatant's Longbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126044, {	-- Warmongering Combatant's Mageblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126007, {	-- Warmongering Combatant's Pike (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126002, {	-- Warmongering Combatant's Pummeler (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126003, {	-- Warmongering Combatant's Quickblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126064, {	-- Warmongering Combatant's Redoubt (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126130, {	-- Warmongering Combatant's Render (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126058, {	-- Warmongering Combatant's Reprieve (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126006, {	-- Warmongering Combatant's Rifle (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126001, {	-- Warmongering Combatant's Ripper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126000, {	-- Warmongering Combatant's Shanker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126143, {	-- Warmongering Combatant's Shield Wall (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126132, {	-- Warmongering Combatant's Slicer (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126042, {	-- Warmongering Combatant's Spellblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126008, {	-- Warmongering Combatant's Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126046, {	-- Warmongering Combatant's Touch of Defeat (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138628, {	-- Arsenal: Warmongering Combatant's Weapons (A)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(126065, {	-- Warmongering Combatant's Barrier (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126045, {	-- Warmongering Combatant's Baton of Light (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126047, {	-- Warmongering Combatant's Battle Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126131, {	-- Warmongering Combatant's Bonecracker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126134, {	-- Warmongering Combatant's Bonegrinder (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(127379, {	-- Warmongering Combatant's Chopper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125999, {	-- Warmongering Combatant's Cleaver (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126133, {	-- Warmongering Combatant's Decapitator (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126057, {	-- Warmongering Combatant's Endgame (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126048, {	-- Warmongering Combatant's Energy Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126043, {	-- Warmongering Combatant's Gavel (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126135, {	-- Warmongering Combatant's Greatsword (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126129, {	-- Warmongering Combatant's Hacker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126005, {	-- Warmongering Combatant's Heavy Crossbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126004, {	-- Warmongering Combatant's Longbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126044, {	-- Warmongering Combatant's Mageblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126007, {	-- Warmongering Combatant's Pike (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126002, {	-- Warmongering Combatant's Pummeler (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126003, {	-- Warmongering Combatant's Quickblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126064, {	-- Warmongering Combatant's Redoubt (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126130, {	-- Warmongering Combatant's Render (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126058, {	-- Warmongering Combatant's Reprieve (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126006, {	-- Warmongering Combatant's Rifle (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126001, {	-- Warmongering Combatant's Ripper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126000, {	-- Warmongering Combatant's Shanker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126143, {	-- Warmongering Combatant's Shield Wall (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126132, {	-- Warmongering Combatant's Slicer (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126042, {	-- Warmongering Combatant's Spellblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126008, {	-- Warmongering Combatant's Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126046, {	-- Warmongering Combatant's Touch of Defeat (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -7341,100 +7296,95 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
-							i(138635, {	-- Arsenal: Warmongering Gladiator's Weapons (A)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR },
-								},
-								["groups"] = {
-									i(125863, {	-- Warmongering Gladiator's Barrier (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125843, {	-- Warmongering Gladiator's Baton of Light (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125845, {	-- Warmongering Combatant's Battle Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125953, {	-- Warmongering Gladiator's Bonecracker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125956, {	-- Warmongering Gladiator's Bonegrinder (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125789, {	-- Warmongering Gladiator's Cleaver (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125955, {	-- Warmongering Gladiator's Decapitator (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125855, {	-- Warmongering Gladiator's Endgame (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125846, {	-- Warmongering Gladiator's Energy Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125841, {	-- Warmongering Gladiator's Gavel (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125957, {	-- Warmongering Gladiator's Greatsword (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125951, {	-- Warmongering Gladiator's Hacker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125795, {	-- Warmongering Gladiator's Heavy Crossbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125794, {	-- Warmongering Gladiator's Longbow (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125842, {	-- Warmongering Gladiator's Mageblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125797, {	-- Warmongering Gladiator's Pike (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125792, {	-- Warmongering Gladiator's Pummeler (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125793, {	-- Warmongering Gladiator's Quickblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125862, {	-- Warmongering Gladiator's Redoubt (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125952, {	-- Warmongering Gladiator's Render (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125856, {	-- Warmongering Gladiator's Reprieve (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125796, {	-- Warmongering Gladiator's Rifle (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125791, {	-- Warmongering Gladiator's Ripper (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125790, {	-- Warmongering Gladiator's Shanker (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125965, {	-- Warmongering Gladiator's Shield Wall (A)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(125954, {	-- Warmongering Gladiator's Slicer (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125840, {	-- Warmongering Gladiator's Spellblade (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125798, {	-- Warmongering Gladiator's Staff (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(125844, {	-- Warmongering Gladiator's Touch of Defeat (A)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138635, {	-- Arsenal: Warmongering Gladiator's Weapons (A)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(125863, {	-- Warmongering Gladiator's Barrier (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125843, {	-- Warmongering Gladiator's Baton of Light (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125845, {	-- Warmongering Combatant's Battle Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125953, {	-- Warmongering Gladiator's Bonecracker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125956, {	-- Warmongering Gladiator's Bonegrinder (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125789, {	-- Warmongering Gladiator's Cleaver (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125955, {	-- Warmongering Gladiator's Decapitator (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125855, {	-- Warmongering Gladiator's Endgame (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125846, {	-- Warmongering Gladiator's Energy Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125841, {	-- Warmongering Gladiator's Gavel (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125957, {	-- Warmongering Gladiator's Greatsword (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125951, {	-- Warmongering Gladiator's Hacker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125795, {	-- Warmongering Gladiator's Heavy Crossbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125794, {	-- Warmongering Gladiator's Longbow (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125842, {	-- Warmongering Gladiator's Mageblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125797, {	-- Warmongering Gladiator's Pike (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125792, {	-- Warmongering Gladiator's Pummeler (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125793, {	-- Warmongering Gladiator's Quickblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125862, {	-- Warmongering Gladiator's Redoubt (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125952, {	-- Warmongering Gladiator's Render (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125856, {	-- Warmongering Gladiator's Reprieve (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125796, {	-- Warmongering Gladiator's Rifle (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125791, {	-- Warmongering Gladiator's Ripper (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125790, {	-- Warmongering Gladiator's Shanker (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125965, {	-- Warmongering Gladiator's Shield Wall (A)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(125954, {	-- Warmongering Gladiator's Slicer (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125840, {	-- Warmongering Gladiator's Spellblade (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125798, {	-- Warmongering Gladiator's Staff (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(125844, {	-- Warmongering Gladiator's Touch of Defeat (A)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
@@ -8210,103 +8160,98 @@ root(ROOTS.PVP, {
 					}),
 					n(PVP_COMBATANT, {
 						n(WEAPONS, {
-							i(138627, {	-- Arsenal: Warmongering Combatant's Weapons (H)
-								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_weapons_faction_ensemble", EXPANSION.WOD, SEASON_WARMONGERING, FACTION_HEADER_HORDE, PVP_COMBATANT },
-								},
-								["groups"] = {
-									i(126542, {	-- Warmongering Combatant's Barrier (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126522, {	-- Warmongering Combatant's Baton of Light (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126524, {	-- Warmongering Combatant's Battle Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126608, {	-- Warmongering Combatant's Bonecracker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126611, {	-- Warmongering Combatant's Bonegrinder (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(127378, {	-- Warmongering Combatant's Chopper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126476, {	-- Warmongering Combatant's Cleaver (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126610, {	-- Warmongering Combatant's Decapitator (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126534, {	-- Warmongering Combatant's Endgame (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126525, {	-- Warmongering Combatant's Energy Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126520, {	-- Warmongering Combatant's Gavel (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126612, {	-- Warmongering Combatant's Greatsword (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126606, {	-- Warmongering Combatant's Hacker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126482, {	-- Warmongering Combatant's Heavy Crossbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126481, {	-- Warmongering Combatant's Longbow (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126521, {	-- Warmongering Combatant's Mageblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126484, {	-- Warmongering Combatant's Pike (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126479, {	-- Warmongering Combatant's Pummeler (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126480, {	-- Warmongering Combatant's Quickblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126541, {	-- Warmongering Combatant's Redoubt (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126607, {	-- Warmongering Combatant's Render (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126535, {	-- Warmongering Combatant's Reprieve (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126483, {	-- Warmongering Combatant's Rifle (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126478, {	-- Warmongering Combatant's Ripper (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126477, {	-- Warmongering Combatant's Shanker (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126620, {	-- Warmongering Combatant's Shield Wall (H)
-										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-									}),
-									i(126609, {	-- Warmongering Combatant's Slicer (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126519, {	-- Warmongering Combatant's Spellblade (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126485, {	-- Warmongering Combatant's Staff (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-									i(126523, {	-- Warmongering Combatant's Touch of Defeat (H)
-										["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-									}),
-								},
+							moh(80, iensemble(138627, {	-- Arsenal: Warmongering Combatant's Weapons (H)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							i(126542, {	-- Warmongering Combatant's Barrier (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126522, {	-- Warmongering Combatant's Baton of Light (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126524, {	-- Warmongering Combatant's Battle Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126608, {	-- Warmongering Combatant's Bonecracker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126611, {	-- Warmongering Combatant's Bonegrinder (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(127378, {	-- Warmongering Combatant's Chopper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126476, {	-- Warmongering Combatant's Cleaver (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126610, {	-- Warmongering Combatant's Decapitator (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126534, {	-- Warmongering Combatant's Endgame (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126525, {	-- Warmongering Combatant's Energy Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126520, {	-- Warmongering Combatant's Gavel (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126612, {	-- Warmongering Combatant's Greatsword (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126606, {	-- Warmongering Combatant's Hacker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126482, {	-- Warmongering Combatant's Heavy Crossbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126481, {	-- Warmongering Combatant's Longbow (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126521, {	-- Warmongering Combatant's Mageblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126484, {	-- Warmongering Combatant's Pike (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126479, {	-- Warmongering Combatant's Pummeler (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126480, {	-- Warmongering Combatant's Quickblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126541, {	-- Warmongering Combatant's Redoubt (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126607, {	-- Warmongering Combatant's Render (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126535, {	-- Warmongering Combatant's Reprieve (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126483, {	-- Warmongering Combatant's Rifle (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126478, {	-- Warmongering Combatant's Ripper (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126477, {	-- Warmongering Combatant's Shanker (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126620, {	-- Warmongering Combatant's Shield Wall (H)
+								["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+							}),
+							i(126609, {	-- Warmongering Combatant's Slicer (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126519, {	-- Warmongering Combatant's Spellblade (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126485, {	-- Warmongering Combatant's Staff (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+							}),
+							i(126523, {	-- Warmongering Combatant's Touch of Defeat (H)
+								["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 							}),
 						}),
 						cl(DEATHKNIGHT, {
