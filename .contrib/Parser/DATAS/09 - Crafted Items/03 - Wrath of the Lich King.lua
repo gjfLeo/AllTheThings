@@ -1265,7 +1265,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	}),
 	prof(JEWELCRAFTING, {
 		header(HEADERS.Spell, 31212, {	-- Prospecting
-			-- Note: Epiq quality (purple) gems CANNOT be obtained from prospecting, see Mining.
 			["groups"] = appendAllGroups(
 				sharedData({	-- Uncommon quality (green) gems:
 					["description"] = "This gem is most reliably obtained from prospecting ore with Jewelcrafting.",

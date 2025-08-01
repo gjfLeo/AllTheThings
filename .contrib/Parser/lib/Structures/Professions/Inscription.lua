@@ -220,6 +220,7 @@ INSCRIPTION_SUPPLIES = sharedData({
 		{ "n", 28723},	-- Larana Drome <Inscription Supplies>
 		{ "n", 26916},	-- Mindri Dinkles <Inscription Trainer>
 		{ "n", 26995},	-- Tink Brightbolt <Inscription Trainer>
+		-- #endif
 		-- #if AFTER 3.1.0
 		{ "n", 33679},	-- Recorder Lidio <Inscription Trainer>
 		{ "n", 33638},	-- Scribe Lanloer <Inscription Trainer>
