@@ -426,9 +426,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			q(76361, {	-- Fashion Week
 				["description"] = "Blizzard messed up here, this should've been the first quest and breadcrumb.",
 				["sourceQuest"] = 76308,	-- The Trial of Style
-				["providers"] = {
-					{ "n", 199261 },	-- Holiday Enthusiast
-					{ "n", 220307 },	-- Holiday Enthusiast
+				["qgs"] = {
+					199261,	-- Holiday Enthusiast
+					220307,	-- Holiday Enthusiast
 				},
 				["coords"] = {
 					{ 31.5, 63.1, VALDRAKKEN },
