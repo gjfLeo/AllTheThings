@@ -222,11 +222,11 @@ root(ROOTS.Promotions, {
 			}),
 			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
 				["description"] = "Rewarded from the Treasure Workshop.",
-				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58911" },	-- Assuming the promo ended after 6~ months
 			})),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
 				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop for a limited time.",
-				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["timeline"] = { ADDED_11_0_7,  "removed 11.0.7.58911" },	-- Assuming the promo ended after 6~ months
 				["groups"] = {
 					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
 					cnONLY(i(49284)),	-- Reins of the Swift Spectral Tiger
@@ -283,7 +283,8 @@ root(ROOTS.Promotions, {
 			}),
 		--	i(500001, {	-- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
-		--		["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
+		--	PVE	["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",
+		--	PVP	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",		
 		--		["timeline"] = { ADDED_11_0_2 },
 		--		["icon"] = 4731630,
 		--		["name"] = "Tempered Banner of the Algari (TOY!)(PVE)"
