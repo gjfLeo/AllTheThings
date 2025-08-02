@@ -8,8 +8,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(499082, {	-- Abandoned Lockbox
 					["coords"] = {	-- Multiple possible spawn points
 						{ 54.0, 55.0, KARESH },
-						{ 60.1, 60.9, KARESH },
+						{ 54.0, 59.2, KARESH },
 						{ 59.8, 53.7, KARESH },
+						{ 60.1, 60.9, KARESH },
 					},
 					["questID"] = 92348,
 					["groups"] = { i(246299), },	-- Blade of Lost Hope (COSMETIC!)

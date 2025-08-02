@@ -1274,7 +1274,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 75.8, 34.0, KARESH },
 					}),
 				}),
-				header(HEADERS.AchCriteria, 41808.06, {	-- Hard K'arroc
+				header(HEADERS.AchCriteria, 41808.07, {	-- Hard K'arroc
 					q(87408, {	-- Being Spiritual
 						["sourceQuests"] = { 86607 },	-- The Freedom of Ray-cing
 						["provider"] = { "n", 231820 },	-- Ve'nari
@@ -1327,6 +1327,136 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 75.8, 34.2, KARESH },
 					}),
 				}),
+				header(HEADERS.AchCriteria, 41808.08, {	-- A Slither of Snakes
+					q(88655, {	-- Outbound for Outland
+						["sourceQuests"] = { 87415 },	-- The Skies of K'aresh
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+					q(88656, {	-- Comfort Stones
+						["sourceQuests"] = { 88655 },	-- Outbound for Outland
+						["provider"] = { "n", 18180 },	-- Hemet Nesingwary
+						["coord"] = { 71.5, 40.8, NAGRAND },
+						["groups"] = { i(237572), },	-- Smooth Stone (QI!)
+					}),
+					q(88658, {	-- Sneks and Things
+						["sourceQuests"] = { 88655 },	-- Outbound for Outland
+						["provider"] = { "n", 18180 },	-- Hemet Nesingwary
+						["coord"] = { 71.5, 40.8, NAGRAND },
+						["groups"] = {
+							o(523415, {	-- Fragrant Dreaming Glory
+								i(237604),	-- Fragrant Dreaming Glory (QI!)
+							}),
+							o(523414, {	-- Snake Nest
+								i(237601),	-- Nagrand Snake (QI!)
+							}),
+						},
+					}),
+					q(88657, {	-- Zangarmoss
+						["sourceQuests"] = {
+							88656,	-- Comfort Stones
+							88658,	-- Sneks and Things
+						},
+						["provider"] = { "n", 18180 },	-- Hemet Nesingwary
+						["coord"] = { 71.5, 40.8, NAGRAND },
+						["groups"] = {
+							o(523494, {	-- Marsh Moss
+								i(237757),	-- Marsh Moss (QI!)
+							}),
+						},
+					}),
+					q(88660, {	-- Snakes on a Plane
+						["sourceQuests"] = { 88657 },	-- Zangarmoss
+						["provider"] = { "n", 18180 },	-- Hemet Nesingwary
+						["coord"] = { 71.5, 40.8, NAGRAND },
+					}),
+					q(88661, {	-- To the Atrium
+						["sourceQuests"] = { 88660 },	-- Snakes on a Plane
+						["provider"] = { "n", 18180 },	-- Hemet Nesingwary
+						["coord"] = { 71.5, 40.8, NAGRAND },
+					}),
+					q(88662, {	-- What's in a Name?
+						["sourceQuests"] = { 88661 },	-- To the Atrium
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+					}),
+					q(88663, {	-- Scales and Measures
+						["sourceQuests"] = { 88662 },	-- What's in a Name?
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+					}),
+					q(88664, {	-- Nagrandification
+						["sourceQuests"] = { 88662 },	-- What's in a Name?
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+					}),
+					q(88665, {	-- Follow Your Tongue
+						["sourceQuests"] = {
+							88663,	-- Scales and Measures
+							88664,	-- Nagrandification
+						},
+						["provider"] = { "n", 236846 },	-- Hemet Nesingwary
+						["coord"] = { 48.5, 61.1, KARESH },
+					}),
+					q(88666, {	-- Mossy Beds
+						["sourceQuests"] = { 88665 },	-- Follow Your Tongue
+						["provider"] = { "n", 236890 },	-- Hemet Nesingwary
+						["coord"] = { 49.0, 57.0, KARESH },
+						["groups"] = { o(523689), },	-- Mossy Snake Bed
+					}),
+					q(88667, {	-- Water Snakes
+						["sourceQuests"] = { 88665 },	-- Follow Your Tongue
+						["provider"] = { "n", 236890 },	-- Hemet Nesingwary
+						["coord"] = { 49.0, 57.0, KARESH },
+						["groups"] = { i(237898), },	-- Hemet's Waterin' Can (PQI!)
+					}),
+					q(88668, {	-- Ophidian Portation
+						["sourceQuests"] = {
+							88666,	-- Mossy Beds
+							88667,	-- Water Snakes
+						},
+						["provider"] = { "n", 236890 },	-- Hemet Nesingwary
+						["coord"] = { 49.0, 57.0, KARESH },
+					}),
+					q(88669, {	-- Nesting Time
+						["sourceQuests"] = { 88668 },	-- Ophidian Portation
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+						["groups"] = {
+							o(523827, {	-- Comfy Snake Bed
+								["coord"] = { 74.5, 31.2, KARESH },
+							}),
+						},
+					}),
+					q(88670, {	-- Soothing Serpents
+						["sourceQuests"] = { 88668 },	-- Ophidian Portation
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+						["groups"] = { i(238216), },	-- Hemet's Soothin' Flute (PQI!)
+					}),
+					q(88671, {	-- Eggstra Eggs
+						["sourceQuests"] = {
+							88669,	-- Nesting Time
+							88670,	-- Soothing Serpents
+						},
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+						["groups"] = {
+							o(524223, {	-- K'arroc Egg
+								i(238242),	-- K'arroc Egg (QI!)
+							}),
+						},
+					}),
+					q(88672, {	-- Snakelets!
+						["sourceQuests"] = { 88671 },	-- Eggstra Eggs
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+					}),
+				}),
+				q(88974, {	-- Eco-Stability
+					["provider"] = { "n", 231820 },	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+				}),
 			}),
 			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
 				-- Exo Note: These are Achievement criteria. They don't appear as quests when you do /att q: in-game
@@ -1339,7 +1469,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(89306),	-- Rays of Sunshine
 				q(84992),	-- Slatebacks
 			}),
-			header(HEADERS.Achievement, 41809, {	-- Ecological Variety (Daily Quests)
+			header(HEADERS.Achievement, 41809, {	-- Ecological Variety (Daily Quests) Exo note: These are probably weekly quests, not daily.
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
 					q(90545, {	-- A Reel Problem
 						["description"] = "Requires Fishing profession.",
@@ -1379,11 +1509,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(89210),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
-					q(88980, {	-- Who You Gonna Call?
-						["provider"] = { "n", 231820 },	-- Ve'nari
-						["coord"] = { 75.9, 34.2, KARESH },
+					q(85462, {	-- A Challenge for Dominance
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
-						["groups"] = { i(229395), },	-- Slateback Essence (QI!)
+					}),
+					q(85481, {	-- Ridge Racer
 					}),
 					q(85710, {	-- Sizing Them Up
 						["provider"] = { "n", 230736 },	-- Om'talad
@@ -1391,8 +1522,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 						["groups"] = { i(238905), },	-- Condenser Disc (PQI!)
 					}),
-					q(85462),	--
-					q(85481),	--
+					q(88980, {	-- Who You Gonna Call?
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(229395), },	-- Slateback Essence (QI!)
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.03, {	-- Fox-strut
 					q(89240, {	--  Dream-Dream-Dream-Dream-Dreameringeding!
@@ -1407,9 +1542,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 						["groups"] = { i(238911), },	-- Pheromone Disperser (PQI!)
 					}),
-					q(89212),	--
 					q(85465),	--
 					q(85721),	--
+					q(89212),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.04, {	-- Lil' Lapbugs
 					q(89221, {	--  Leafing Things on the Ground
@@ -1427,42 +1562,59 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							-- Plant Platter ObjectID: 516306, 523779, 523780. Coords: 73.0, 31.5 / 72.0, 33.5 / 72.9, 34.4
 						},
 					}),
+					q(89297, {	-- Not as Cute When They Are Bigger and Angrier
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(229393), },	-- Lapbug Essence (QI!)
+					}),
+					q(85470, {	-- Root Redux
+					}),
 					q(89254),	--
-					q(89297),	--
-					q(85470),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.05, {	-- Rays of Sunshine
-					q(89056, {	--  Ray-ket Ball, Redux
-						["provider"] = { "n", 230736 },	-- Om'talad
-						["coord"] = { 75.8, 34.2, KARESH },
-						["isDaily"] = true,
-						["groups"] = { i(238915), },	-- Anima Orb (PQI!)
-					}),
 					q(89242, {	--  I Want a Golden Ooze!
 						["provider"] = { "n", 231820 },	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
 						["isDaily"] = true,
 						["groups"] = { i(238916), },	-- Anima Vacuum (PQI!)
 					}),
+					q(89065, {	--  Ray-cing for the Future
+						["provider"] = { "n", 235353 },	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+						["isDaily"] = true,
+					}),
+					q(89056, {	--  Ray-ket Ball, Redux
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(238915), },	-- Anima Orb (PQI!)
+					}),
 					q(89197),	--
-					q(89065),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.06, {	-- Hard K'arroc
-					q(89238),	--
-					q(89192),	--
-					q(89213),	--
-					q(86342),	--
 					q(89198, {	-- Dry Cleaning
 						["provider"] = { "n", 234316 },	-- Rhubarn
 						["coord"] = { 75.9, 34.6, KARESH },
 						["isDaily"] = true,
 						["groups"] = { i(238909), },	-- Anima Vacuum (PQI!)
 					}),
+					q(89213, {	--  Flights of Fancy
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(238908), },	-- Appropriated Azerothian Camera (PQI!)
+					}),
+					q(89238, {	-- Follow-up Appointment
+					}),
+					q(86342),	--
+					q(89192),	--
 				}),
 				header(HEADERS.AchCriteria, 41809.07, {	-- A Slither of Snakes
-					q(88659),	--
-					q(88981),	--
+					q(88659, {	-- More Cozy Beds
+					}),
 					q(88975),	--
+					q(88981),	--
 				}),
 			}),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
@@ -2224,7 +2376,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			-- Unsorted
 			--q(86492),	-- TODO: Alex - ach(42736),	-- Ixthar's Legacy
-			q(88672),	--
 			--q(90954),	--	TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
 		}),
 	}),

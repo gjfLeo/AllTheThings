@@ -46,6 +46,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				},
 			}),
+			q(86367, {	-- Grub Stompin'
+				["coord"] = { 70.1, 54.3, KARESH },
+			}),
 			q(85822, {	-- Making a Market
 				["coord"] = { 58.8, 58.9, KARESH },
 				["groups"] = {
@@ -108,6 +111,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(86429, {	-- Phase Diving: The Bound Unbound
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 80.2, 49.8, KARESH },
+			}),
+			q(86821, {	-- Phase Diving: Unmoored and Unwell
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 78.8, 32.4, KARESH },
 			}),
 			q(85812, {	-- Raid the Raiders
 				["coord"] = { 74.7, 51.1, KARESH },

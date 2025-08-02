@@ -644,18 +644,10 @@ root(ROOTS.Unsorted, {
 				i(237353),	-- Om'sto's Veilshards
 				i(237354),	-- A Bag of Veilshards
 				i(237356),	-- Vermin Attuned Optic-Visualizer
-				i(237572),	-- Smooth Stone
-				i(237601),	-- Nagrand Snake
-				i(237604),	-- Fragrant Dreaming Glory
-				i(237757),	-- Marsh Moss
-				i(237898),	-- Hemet's Waterin' Can
-				i(238216),	-- Hemet's Soothin' Flute
-				i(238242),	-- K'arroc Egg
 				i(238296),	-- Phase Disruptor
 				i(238903),	-- Appropriated Azerothian Camera
 				i(238906),	-- Appropriated Azerothian Camera
 				i(238907),	-- Anima Orb
-				i(238908),	-- Appropriated Azerothian Camera
 				i(238910),	-- Lasso
 				i(238913),	-- Condenser Disc
 				i(238914),	-- Hemet's Soothin' Flute
