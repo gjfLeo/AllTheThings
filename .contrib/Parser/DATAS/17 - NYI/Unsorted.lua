@@ -2054,7 +2054,6 @@ root(ROOTS.Unsorted, {
 				i(158847),	-- PH Flavor - Unused \\ PH Flavor - Bog Plant
 				i(158850),	-- Vibrant Plumage \\ PH Flavor - Pig
 				i(158852),	-- PH Flavor - Unused \\ PH Flavor - Fox
-				i(158853),	-- Bony Skullplate \\ PH Flavor - Naga Brute
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158873),	-- Crystalline Honeymead \\ PH Flavor - Dire Troll Female - Blood Troll
@@ -2566,7 +2565,6 @@ root(ROOTS.Unsorted, {
 		})),
 		-- 8.1.0
 		expansion(EXPANSION.BFA, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_8_1_0 } }, {
-			i(164380),	-- Binding Stone
 			i(164641),	-- Pile of Weapons
 			i(164735),	-- Fallen Defender's Blade
 			i(164745),	-- Pile of Weapons

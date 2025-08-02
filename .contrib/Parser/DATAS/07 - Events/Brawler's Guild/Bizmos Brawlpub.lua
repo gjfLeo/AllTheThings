@@ -382,6 +382,16 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 				}),
 			}),
 			n(151941, {	-- Dershway the Triggered <Bizmo's Brawlpub Quartermaster>
+				["sourceQuest"] = 55002,	-- Murder at the Brawlpub
+				["timeline"] = { ADDED_8_1_5 },
+				["sym"] = { {"sub", "common_vendor", 68363} },	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
+			}),
+			n(70719, {	-- Mozzle Gearbeer
+				i(98117, {	-- Moneybrau
+					["description"] = "Drink this while on the 'Flaunt It If You Got It' quest.",
+				}),
+			}),
+			n(68363, {	-- Quackenbush <Bizmo's Brawlpub Quartermaster>
 				["description"] = "Brawler's Burly Mushan Beast is only available to those who had reached Rank 8 in Season 1 or Season 2.|nShirts are only available to those who have already earned them.|r",
 				["groups"] = {
 					i(142403, {	-- Brawler's Burly Basilisk (MOUNT!) unobtainable as of BFA prepatch
@@ -405,7 +415,12 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 					i(98091),	-- Last Season's Shirt
 					i(98084),	-- Ooze-Soaked Shirt
 					i(98087),	-- Paper Shirt
+					i(118907, {	-- Pit Fighter's Punching Ring
+						["timeline"] = { ADDED_6_0_2 },
+						["races"] = ALLIANCE_ONLY,
+					}),
 					i(144391, {	-- Pugilist's Powerful Punching Ring
+						["timeline"] = { ADDED_7_1_5 },
 						["races"] = ALLIANCE_ONLY,
 					}),
 					i(98083),	-- Sharkskin Tunic
@@ -418,11 +433,6 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 					i(98082),	-- Undisputed Champion's Shirt
 					i(98543),	-- Wraps of the Blood-Soaked Brawler
 				},
-			}),
-			n(70719, {	-- Mozzle Gearbeer
-				i(98117, {	-- Moneybrau
-					["description"] = "Drink this while on the 'Flaunt It If You Got It' quest.",
-				}),
 			}),
 			n(118898, {	-- Ulaani
 				["timeline"] = { ADDED_7_1_5 },

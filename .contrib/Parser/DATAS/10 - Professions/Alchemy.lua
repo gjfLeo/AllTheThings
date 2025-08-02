@@ -507,11 +507,12 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["provider"] = { "n", 125346 },	-- Alchemist Funen
 			["coord"] = { 56.2, 66.8, KROKUUN },
 			["cost"] = {
-				{ "i", 151565, 75 },	-- 75xAstral Glory
-				{ "i", 151568, 5 },	-- 5xPrimal Sargerite
-				{ "i", 127842, 1 },	-- 1xInfernal Alchemist Stone
+				{ "i", 151565, 75 },	-- 75x Astral Glory
+				{ "i", 151568, 5 },	-- 5x Primal Sargerite
+				{ "i", 127842, 1 },	-- 1x Infernal Alchemist Stone
 			},
 			["groups"] = {
+				i(164380),	-- Binding Stone (QI!)
 				i(164379),	-- Bound Infernal Alchemist Stone (QI!)
 				i(151706),	-- Recipe: Astral Alchemist Stone [Rank 1] (RECIPE!)
 			},

@@ -319,6 +319,7 @@ i(158820);	-- Blind-Worm Sting
 i(162978);	-- Blood Magic Ritual Dish
 i(158759);	-- Bloodgorged Sac
 i(158750);	-- Bonebreaker Beak
+i(158853);	-- Bony Skullplate
 i(158851);	-- Bottled Squall
 i(155843);	-- Brittle Ceremonial Necklace
 i(155649);	-- Broken Zandalari Spear
