@@ -415,38 +415,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					["provider"] = { "n", 72695 },	-- Wrathion <The Black Prince>
 					["coord"] = { 34.6, 53.8, TIMELESS_ISLE },
 					["groups"] = {
-						i(102457, {	-- Timeless Essence of the Black Dragonflight
-							i(102248, {		-- Fen-Yu, Fury of Xuen
-								["cost"] = {
-									{ "i", 98148, 1 },	-- Tigerfang Wrap
-								},
-							}),
-							i(102249, {		-- Gon-Lu, Strength of Xuen
-								["cost"] = {
-									{ "i", 98147, 1 },	-- Tigerclaw Cape
-								},
-							}),
-							i(102247, {		-- Jina-Kang, Kindness of Chi-Ji
-								["cost"] = {
-									{ "i", 98149, 1 },	-- Cranewing Cloak
-								},
-							}),
-							i(102245, {		-- Qian-Le, Courage of Niuzao
-								["cost"] = {
-									{ "i", 98335, 1 },	-- Oxhoof Greatcloak
-								},
-							}),
-							i(102250, {		-- Qian-Ying, Fortitude of Niuzao
-								["cost"] = {
-									{ "i", 98146, 1 },	-- Oxhorn Bladebreaker
-								},
-							}),
-							i(102246, {		-- Xing-Ho, Breath of Yu'lon
-								["cost"] = {
-									{ "i", 98150, 1 },	-- Jadefire Drape
-								},
-							}),
-						}),
+						i(102457),	-- Timeless Essence of the Black Dragonflight
 					},
 				})),
 				q(33105, bubbleDownSelf({["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Judgment of the Black Prince
@@ -459,7 +428,45 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						title(306),	-- <Name>, Legend of Pandaria
 					},
 				})),
-			})
-		),
+			}),
+			{
+				i(102248, {		-- Fen-Yu, Fury of Xuen
+					["cost"] = {
+						{ "i", 98148, 1 },	-- Tigerfang Wrap
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+				i(102249, {		-- Gon-Lu, Strength of Xuen
+					["cost"] = {
+						{ "i", 98147, 1 },	-- Tigerclaw Cape
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+				i(102247, {		-- Jina-Kang, Kindness of Chi-Ji
+					["cost"] = {
+						{ "i", 98149, 1 },	-- Cranewing Cloak
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+				i(102245, {		-- Qian-Le, Courage of Niuzao
+					["cost"] = {
+						{ "i", 98335, 1 },	-- Oxhoof Greatcloak
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+				i(102250, {		-- Qian-Ying, Fortitude of Niuzao
+					["cost"] = {
+						{ "i", 98146, 1 },	-- Oxhorn Bladebreaker
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+				i(102246, {		-- Xing-Ho, Breath of Yu'lon
+					["cost"] = {
+						{ "i", 98150, 1 },	-- Jadefire Drape
+						{ "i", 102457, 1 },	-- Timeless Essence of the Black Dragonflight
+					},
+				}),
+			},
+		{}),
 	}),
 })));

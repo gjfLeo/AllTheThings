@@ -145,6 +145,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["races"] = HORDE_ONLY,
 					}),
 				}),
+				n(QUESTS, {
+					q(31611, {	-- The Kun-Lai Kicker
+						["description"] = "If you don't see questgiver in The Veiled Stair, look in the Binan Village to the north.",
+						["qg"] = 63367,	-- Brewmaster Boof
+						["coords"] = {
+							{ 72.6, 93.0, KUN_LAI_SUMMIT },
+							{ 51.0, 43.73, THE_VEILED_STAIR },
+						},
+						["lvl"] = lvlsquish(90, 90, 20),
+					}),
+				}),
 			}),
 			m(523, {	-- Blood in the Snow
 				["crs"] = {
