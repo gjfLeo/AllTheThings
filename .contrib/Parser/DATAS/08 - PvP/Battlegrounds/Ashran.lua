@@ -822,12 +822,9 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["coord"] = { 44.2, 74.0, 1478 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(116776, {	-- Pale Thorngrazer (MOUNT!)
-							["cost"] = {
-								{ "i", 137642, 100 },	-- 100x Mark of Honor
-								{ "g", 45000000 },		-- 4500g
-							},
-						}),
+						moh(100, i(116776, {	-- Pale Thorngrazer (MOUNT!)
+							["cost"] = {{ "g", 45000000 }},		-- 4500g
+						})),
 						moh(10, i(115501)),	-- Kowalski's Music Box (TOY!)
 						moh(10, i(116396)),	-- LeBlanc's Recorder (A) (TOY!)
 						i(114126),	-- Disposable Pocket Flying Machine
@@ -841,12 +838,9 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["coord"] = { 48.4, 23.8, 1478 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(116775, {	-- Breezestrider Stallion (MOUNT!)
-							["cost"] = {
-								{ "i", 137642, 100 },	-- 100x Mark of Honor
-								{ "g", 45000000 },		-- 4500g
-							},
-						}),
+						moh(100, i(116775, {	-- Breezestrider Stallion (MOUNT!)
+							["cost"] = {{ "g", 45000000 }},		-- 4500g
+						})),
 						moh(10, i(115501)),	-- Kowalski's Music Box (TOY!)
 						moh(10, i(115505)),	-- LeBlanc's Recorder (H) (TOY!)
 						i(115500),	-- Disposable Pocket Flying Machine

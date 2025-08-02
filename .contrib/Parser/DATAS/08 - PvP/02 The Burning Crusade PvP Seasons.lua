@@ -432,25 +432,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 					}),
 					cl(DRUID, {
-						i(146609, {	-- Ensemble: Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146609, {	-- Ensemble: Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 28443 },	-- General's Dragonhide Belt
-								{"select", "itemID", 28444 },	-- General's Dragonhide Boots
-								{"select", "itemID", 31594 },	-- General's Kodohide Belt
-								{"select", "itemID", 31595 },	-- General's Kodohide Boots
-								{"select", "itemID", 28446 },	-- General's Wyrmhide Belt
-								{"select", "itemID", 28447 },	-- General's Wyrmhide Boots
-								{"select", "itemID", 28976 },	-- Marshal's Dragonhide Belt
-								{"select", "itemID", 28977 },	-- Marshal's Dragonhide Boots
-								{"select", "itemID", 31596 },	-- Marshal's Kodohide Belt
-								{"select", "itemID", 31597 },	-- Marshal's Kodohide Boots
-								{"select", "itemID", 29004 },	-- Marshal's Wyrmhide Belt
-								{"select", "itemID", 29005 },	-- Marshal's Wyrmhide Boots
-							},
-						}),
+						})),
 						moh(3, i(28127)),	-- Gladiator's Dragonhide Helm
 						moh(2, i(28129)),	-- Gladiator's Dragonhide Spaulders
 						moh(3, i(28130)),	-- Gladiator's Dragonhide Tunic
@@ -470,17 +454,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(28138)),	-- Gladiator's Wyrmhide Legguards
 					}),
 					cl(HUNTER, {
-						i(146608, {	-- Ensemble: Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146608, {	-- Ensemble: Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 28450 },	-- General's Chain Girdle
-								{"select", "itemID", 28449 },	-- General's Chain Sabatons
-								{"select", "itemID", 28974 },	-- Marshal's Chain Girdle
-								{"select", "itemID", 28975 },	-- Marshal's Chain Sabatons
-							},
-						}),
+						})),
 						moh(3, i(28331)),	-- Gladiator's Chain Helm
 						moh(2, i(28333)),	-- Gladiator's Chain Spaulders
 						moh(3, i(28334)),	-- Gladiator's Chain Armor
@@ -488,17 +464,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(28332)),	-- Gladiator's Chain Leggings
 					}),
 					cl(MAGE, {
-						i(146617, {	-- Ensemble: Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146617, {	-- Ensemble: Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 28409 },	-- General's Silk Belt
-								{"select", "itemID", 29001 },	-- Marshal's Silk Belt
-								{"select", "itemID", 28410 },	-- General's Silk Footguards
-								{"select", "itemID", 29003 },	-- Marshal's Silk Footguards
-							},
-						}),
+						})),
 						moh(3, i(25855)),	-- Gladiator's Silk Cowl
 						moh(2, i(25854)),	-- Gladiator's Silk Amice
 						moh(3, i(25856)),	-- Gladiator's Silk Raiment
@@ -506,25 +474,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(25858)),	-- Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146616, {	-- Ensemble: Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146616, {	-- Ensemble: Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 28641 },	-- General's Lamellar Belt
-								{"select", "itemID", 28642 },	-- General's Lamellar Greaves
-								{"select", "itemID", 32982 },	-- General's Ornamented Belt
-								{"select", "itemID", 32984 },	-- General's Ornamented Greaves
-								{"select", "itemID", 28644 },	-- General's Scaled Belt
-								{"select", "itemID", 28645 },	-- General's Scaled Greaves
-								{"select", "itemID", 28983 },	-- Marshal's Lamellar Belt
-								{"select", "itemID", 28985 },	-- Marshal's Lamellar Greaves
-								{"select", "itemID", 32985 },	-- Marshal's Ornamented Belt
-								{"select", "itemID", 32987 },	-- Marshal's Ornamented Greaves
-								{"select", "itemID", 28998 },	-- Marshal's Scaled Belt
-								{"select", "itemID", 29000 },	-- Marshal's Scaled Greaves
-							},
-						}),
+						})),
 						moh(3, i(27704)),	-- Gladiator's Lamellar Helm
 						moh(2, i(27706)),	-- Gladiator's Lamellar Shoulders
 						moh(3, i(27702)),	-- Gladiator's Lamellar Chestpiece
@@ -544,16 +496,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(27882)),	-- Gladiator's Scaled Legguards
 					}),
 					cl(PRIEST, {
-						i(146615, {	-- Ensemble: Gladiator's Satin Armor -- Confirmed August 2021 here+Outdoor BC
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146615, {	-- Ensemble: Gladiator's Satin Armor -- Confirmed August 2021 here+Outdoor BC
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 147613 },	-- General's Satin Cord
-								{"select", "itemID", 147614 },	-- General's Satin Slippers
-								{"select", "itemID", 147771 },	-- General's Satin Cuffs
-							},
-						}),
+						})),
 						moh(3, i(31410)),	-- Gladiator's Mooncloth Hood
 						moh(2, i(31412)),	-- Gladiator's Mooncloth Mantle
 						moh(3, i(31413)),	-- Gladiator's Mooncloth Robe
@@ -567,17 +512,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(27709)),	-- Gladiator's Satin Leggings
 					}),
 					cl(ROGUE, {
-						i(146612, {	-- Ensemble: Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146612, {	-- Ensemble: Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 28423 },	-- General's Leather Belt
-								{"select", "itemID", 28422 },	-- General's Leather Boots
-								{"select", "itemID", 28986 },	-- Marshal's Leather Belt
-								{"select", "itemID", 28987 },	-- Marshal's Leather Boots
-							},
-						}),
+						})),
 						moh(3, i(25830)),	-- Gladiator's Leather Helm
 						moh(2, i(25832)),	-- Gladiator's Leather Spaulders
 						moh(3, i(25831)),	-- Gladiator's Leather Tunic
@@ -585,25 +522,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(25833)),	-- Gladiator's Leather Legguards
 					}),
 					cl(SHAMAN, {
-						i(146614, {	-- Ensemble: Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146614, {	-- Ensemble: Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 28629 },	-- General's Linked Girdle
-								{"select", "itemID", 28630 },	-- General's Linked Sabatons
-								{"select", "itemID", 28639 },	-- General's Mail Girdle
-								{"select", "itemID", 28640 },	-- General's Mail Sabatons
-								{"select", "itemID", 32992 },	-- General's Ringmail Girdle
-								{"select", "itemID", 32993 },	-- General's Ringmail Sabatons
-								{"select", "itemID", 28990 },	-- Marshal's Linked Girdle
-								{"select", "itemID", 28991 },	-- Marshal's Linked Sabatons
-								{"select", "itemID", 28993 },	-- Marshal's Mail Girdle
-								{"select", "itemID", 28994 },	-- Marshal's Mail Sabatons
-								{"select", "itemID", 32995 },	-- Marshal's Ringmail Girdle
-								{"select", "itemID", 32996 },	-- Marshal's Ringmail Sabatons
-							},
-						}),
+						})),
 						moh(3, i(25998)),	-- Gladiator's Linked Helm
 						moh(2, i(25999)),	-- Gladiator's Linked Spaulders
 						moh(3, i(25997)),	-- Gladiator's Linked Armor
@@ -623,24 +544,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(31406)),	-- Gladiator's Ringmail Leggings
 					}),
 					cl(WARLOCK, {
-						i(146611, {	-- Ensemble: Gladiator's Felweave Armor -- Confirmed August 2021 here+Outdoor BC
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146611, {	-- Ensemble: Gladiator's Felweave Armor -- Confirmed August 2021 here+Outdoor BC
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, WARLOCK },
-								{"merge"},	-- Merge all sub results for processing
-								{"exclude", "itemID",
-									24553,	-- General's Dreadweave Hood
-									24554,	-- General's Dreadweave Mantle
-								},
-								-- Crieve NOTE: This list did not originally have the Dreadweave Hood/Mantle. Not sure if that was a bug or intentional.
-								{"select", "itemID",
-									147615,	-- General's Felweave Belt
-									147616,	-- General's Felweave Boots
-									147772,	-- General's Felweave Cuffs
-								},
-							},
-						}),
+						})),
 						moh(3, i(24553)),	-- Gladiator's Dreadweave Hood
 						moh(2, i(24554)),	-- Gladiator's Dreadweave Mantle
 						moh(3, i(24552)),	-- Gladiator's Dreadweave Robe
@@ -654,17 +560,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(30201)),	-- Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146613, {	-- Ensemble: Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146613, {	-- Ensemble: Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 28385 },	-- General's Plate Belt
-								{"select", "itemID", 28383 },	-- General's Plate Greaves
-								{"select", "itemID", 28995 },	-- Marshal's Plate Belt
-								{"select", "itemID", 28997 },	-- Marshal's Plate Greaves
-							},
-						}),
+						})),
 						moh(3, i(24545)),	-- Gladiator's Plate Helm
 						moh(2, i(24546)),	-- Gladiator's Plate Shoulders
 						moh(3, i(24544)),	-- Gladiator's Plate Chestpiece
@@ -672,321 +570,244 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(24547)),	-- Gladiator's Plate Legguards
 					}),
 					n(WRIST, {
-						i(28451, {	-- General's Chain Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(28451, {	-- General's Chain Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28445, {	-- General's Dragonhide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28445, {	-- General's Dragonhide Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28405, {	-- General's Dreadweave Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28405, {	-- General's Dreadweave Cuffs
 							["races"] = HORDE_ONLY,
-						}),
-						i(147772, {	-- General's Felweave Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147772, {	-- General's Felweave Cuffs
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(31598, {	-- General's Kodohide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(31598, {	-- General's Kodohide Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28643, {	-- General's Lamellar Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28643, {	-- General's Lamellar Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28424, {	-- General's Leather Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28424, {	-- General's Leather Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28605, {	-- General's Linked Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28605, {	-- General's Linked Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28638, {	-- General's Mail Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28638, {	-- General's Mail Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(32973, {	-- General's Mooncloth Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32973, {	-- General's Mooncloth Cuffs
 							["races"] = HORDE_ONLY,
-						}),
-						i(32983, {	-- General's Ornamented Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32983, {	-- General's Ornamented Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28381, {	-- General's Plate Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28381, {	-- General's Plate Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(32991, {	-- General's Ringmail Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32991, {	-- General's Ringmail Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(147771, {	-- General's Satin Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147771, {	-- General's Satin Cuffs
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(28646, {	-- General's Scaled Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28646, {	-- General's Scaled Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28411, {	-- General's Silk Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28411, {	-- General's Silk Cuffs
 							["races"] = HORDE_ONLY,
-						}),
-						i(28448, {	-- General's Wyrmhide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28448, {	-- General's Wyrmhide Bracers
 							["races"] = HORDE_ONLY,
-						}),
-						i(28973, {	-- Marshal's Chain Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28973, {	-- Marshal's Chain Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28978, {	-- Marshal's Dragonhide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28978, {	-- Marshal's Dragonhide Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28981, {	-- Marshal's Dreadweave Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28981, {	-- Marshal's Dreadweave Cuffs
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(31599, {	-- Marshal's Kodohide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(31599, {	-- Marshal's Kodohide Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28984, {	-- Marshal's Lamellar Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28984, {	-- Marshal's Lamellar Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28988, {	-- Marshal's Leather Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28988, {	-- Marshal's Leather Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28989, {	-- Marshal's Linked Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28989, {	-- Marshal's Linked Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28992, {	-- Marshal's Mail Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28992, {	-- Marshal's Mail Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32977, {	-- Marshal's Mooncloth Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32977, {	-- Marshal's Mooncloth Cuffs
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32986, {	-- Marshal's Ornamented Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32986, {	-- Marshal's Ornamented Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28996, {	-- Marshal's Plate Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28996, {	-- Marshal's Plate Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32994, {	-- Marshal's Ringmail Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32994, {	-- Marshal's Ringmail Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28999, {	-- Marshal's Scaled Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28999, {	-- Marshal's Scaled Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29002, {	-- Marshal's Silk Cuffs
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(29002, {	-- Marshal's Silk Cuffs
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29006, {	-- Marshal's Wyrmhide Bracers
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(29006, {	-- Marshal's Wyrmhide Bracers
 							["races"] = ALLIANCE_ONLY,
-						}),
+						})),
 					}),
 					n(WAIST, {
-						i(28450, {	-- General's Chain Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(28450, {	-- General's Chain Girdle
 							["races"] = HORDE_ONLY,
-						}),
-						i(28443, {	-- General's Dragonhide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28443, {	-- General's Dragonhide Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28404, {	-- General's Dreadweave Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28404, {	-- General's Dreadweave Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(147615, {	-- General's Felweave Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147615, {	-- General's Felweave Belt
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(31594, {	-- General's Kodohide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(31594, {	-- General's Kodohide Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28641, {	-- General's Lamellar Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28641, {	-- General's Lamellar Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28423, {	-- General's Leather Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28423, {	-- General's Leather Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28629, {	-- General's Linked Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28629, {	-- General's Linked Girdle
 							["races"] = HORDE_ONLY,
-						}),
-						i(28639, {	-- General's Mail Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28639, {	-- General's Mail Girdle
 							["races"] = HORDE_ONLY,
-						}),
-						i(32974, {	-- General's Mooncloth Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32974, {	-- General's Mooncloth Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(32982, {	-- General's Ornamented Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32982, {	-- General's Ornamented Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28385, {	-- General's Plate Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28385, {	-- General's Plate Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(32992, {	-- General's Ringmail Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32992, {	-- General's Ringmail Girdle
 							["races"] = HORDE_ONLY,
-						}),
-						i(147613, {	-- General's Satin Cord
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147613, {	-- General's Satin Cord
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(28644, {	-- General's Scaled Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28644, {	-- General's Scaled Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28409, {	-- General's Silk Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28409, {	-- General's Silk Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28446, {	-- General's Wyrmhide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28446, {	-- General's Wyrmhide Belt
 							["races"] = HORDE_ONLY,
-						}),
-						i(28974, {	-- Marshal's Chain Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28974, {	-- Marshal's Chain Girdle
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28976, {	-- Marshal's Dragonhide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28976, {	-- Marshal's Dragonhide Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28980, {	-- Marshal's Dreadweave Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28980, {	-- Marshal's Dreadweave Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(31596, {	-- Marshal's Kodohide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(31596, {	-- Marshal's Kodohide Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28983, {	-- Marshal's Lamellar Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28983, {	-- Marshal's Lamellar Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28986, {	-- Marshal's Leather Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28986, {	-- Marshal's Leather Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28990, {	-- Marshal's Linked Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28990, {	-- Marshal's Linked Girdle
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28993, {	-- Marshal's Mail Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28993, {	-- Marshal's Mail Girdle
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32976, {	-- Marshal's Mooncloth Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32976, {	-- Marshal's Mooncloth Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32985, {	-- Marshal's Ornamented Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32985, {	-- Marshal's Ornamented Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28995, {	-- Marshal's Plate Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28995, {	-- Marshal's Plate Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32995, {	-- Marshal's Ringmail Girdle
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(32995, {	-- Marshal's Ringmail Girdle
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28998, {	-- Marshal's Scaled Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(28998, {	-- Marshal's Scaled Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29001, {	-- Marshal's Silk Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(29001, {	-- Marshal's Silk Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29004, {	-- Marshal's Wyrmhide Belt
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(29004, {	-- Marshal's Wyrmhide Belt
 							["races"] = ALLIANCE_ONLY,
-						}),
+						})),
 					}),
 					n(FEET, {
-						i(28449, {	-- General's Chain Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(28449, {	-- General's Chain Sabatons
 							["races"] = HORDE_ONLY,
-						}),
-						i(28444, {	-- General's Dragonhide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28444, {	-- General's Dragonhide Boots
 							["races"] = HORDE_ONLY,
-						}),
-						i(28402, {	-- General's Dreadweave Stalkers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28402, {	-- General's Dreadweave Stalkers
 							["races"] = HORDE_ONLY,
-						}),
-						i(147616, {	-- General's Felweave Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(147616, {	-- General's Felweave Boots
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(31595, {	-- General's Kodohide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(31595, {	-- General's Kodohide Boots
 							["races"] = HORDE_ONLY,
-						}),
-						i(28642, {	-- General's Lamellar Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28642, {	-- General's Lamellar Greaves
 							["races"] = HORDE_ONLY,
-						}),
-						i(28422, {	-- General's Leather Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28422, {	-- General's Leather Boots
 							["races"] = HORDE_ONLY,
-						}),
-						i(28630, {	-- General's Linked Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28630, {	-- General's Linked Sabatons
 							["races"] = HORDE_ONLY,
-						}),
-						i(28640, {	-- General's Mail Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28640, {	-- General's Mail Sabatons
 							["races"] = HORDE_ONLY,
-						}),
-						i(32975, {	-- General's Mooncloth Slippers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32975, {	-- General's Mooncloth Slippers
 							["races"] = HORDE_ONLY,
-						}),
-						i(32984, {	-- General's Ornamented Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32984, {	-- General's Ornamented Greaves
 							["races"] = HORDE_ONLY,
-						}),
-						i(28383, {	-- General's Plate Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28383, {	-- General's Plate Greaves
 							["races"] = HORDE_ONLY,
-						}),
-						i(30491, {	-- General's Plate Sabatons / General's Plate Greaves Tier 2 [TBC]
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(30491, {	-- General's Plate Sabatons / General's Plate Greaves Tier 2 [TBC]
 							["timeline"] = {
 								-- Wouter NOTE: These aren't in Cata Classic, marking these as CREATED with the Classic patch according to Wowhead - gotta revisit this in WoD Classic :^)
 								-- #if ANYCLASSIC
@@ -996,88 +817,68 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 								-- #endif
 							},
 							["races"] = HORDE_ONLY,
-						}),
-						i(32993, {	-- General's Ringmail Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32993, {	-- General's Ringmail Sabatons
 							["races"] = HORDE_ONLY,
-						}),
-						i(147614, {	-- General's Satin Slippers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(147614, {	-- General's Satin Slippers
 							["timeline"] = { ADDED_7_2_0 },
 							["races"] = HORDE_ONLY,
-						}),
-						i(28645, {	-- General's Scaled Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28645, {	-- General's Scaled Greaves
 							["races"] = HORDE_ONLY,
-						}),
-						i(28410, {	-- General's Silk Footguards
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28410, {	-- General's Silk Footguards
 							["races"] = HORDE_ONLY,
-						}),
-						i(28447, {	-- General's Wyrmhide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28447, {	-- General's Wyrmhide Boots
 							["races"] = HORDE_ONLY,
-						}),
-						i(28975, {	-- Marshal's Chain Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28975, {	-- Marshal's Chain Sabatons
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28977, {	-- Marshal's Dragonhide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28977, {	-- Marshal's Dragonhide Boots
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28982, {	-- Marshal's Dreadweave Stalkers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28982, {	-- Marshal's Dreadweave Stalkers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(31597, {	-- Marshal's Kodohide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(31597, {	-- Marshal's Kodohide Boots
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28985, {	-- Marshal's Lamellar Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28985, {	-- Marshal's Lamellar Greaves
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28987, {	-- Marshal's Leather Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28987, {	-- Marshal's Leather Boots
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28991, {	-- Marshal's Linked Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28991, {	-- Marshal's Linked Sabatons
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28994, {	-- Marshal's Mail Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28994, {	-- Marshal's Mail Sabatons
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32978, {	-- Marshal's Mooncloth Slippers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32978, {	-- Marshal's Mooncloth Slippers
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32987, {	-- Marshal's Ornamented Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32987, {	-- Marshal's Ornamented Greaves
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(28997, {	-- Marshal's Plate Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(28997, {	-- Marshal's Plate Greaves
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(32996, {	-- Marshal's Ringmail Sabatons
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(32996, {	-- Marshal's Ringmail Sabatons
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29000, {	-- Marshal's Scaled Greaves
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(29000, {	-- Marshal's Scaled Greaves
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29003, {	-- Marshal's Silk Footguards
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(29003, {	-- Marshal's Silk Footguards
 							["races"] = ALLIANCE_ONLY,
-						}),
-						i(29005, {	-- Marshal's Wyrmhide Boots
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						})),
+						moh(2, i(29005, {	-- Marshal's Wyrmhide Boots
 							["races"] = ALLIANCE_ONLY,
-						}),
+						})),
 					}),
 					n(BACK, {
 						moh(1, i(28379)),	-- Sergeant's Heavy Cape (A)
@@ -1264,22 +1065,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(5, i(32055)),	-- Merciless Gladiator's War Staff
 					}),
 					cl(DRUID, {
-						i(146619, {	-- Ensemble: Merciless Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146619, {	-- Ensemble: Merciless Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 32810 },	-- Veteran's Dragonhide Bracers
-								{"select", "itemID", 32798 },	-- Veteran's Dragonhide Belt
-								{"select", "itemID", 32786 },	-- Veteran's Dragonhide Boots
-								{"select", "itemID", 32812 },	-- Veteran's Kodohide Bracers
-								{"select", "itemID", 32800 },	-- Veteran's Kodohide Belt
-								{"select", "itemID", 32788 },	-- Veteran's Kodohide Boots
-								{"select", "itemID", 32821 },	-- Veteran's Wyrmhide Bracers
-								{"select", "itemID", 32808 },	-- Veteran's Wyrmhide Belt
-								{"select", "itemID", 32796 },	-- Veteran's Wyrmhide Boots
-							},
-						}),
+						})),
 						moh(3, i(31968)),	-- Merciless Gladiator's Dragonhide Helm
 						moh(2, i(31971)),	-- Merciless Gladiator's Dragonhide Spaulders
 						moh(3, i(31972)),	-- Merciless Gladiator's Dragonhide Tunic
@@ -1299,16 +1087,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32058)),	-- Merciless Gladiator's Wyrmhide Legguards
 					}),
 					cl(HUNTER, {
-						i(146618, {	-- Ensemble: Merciless Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146618, {	-- Ensemble: Merciless Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 32809 },	-- Veteran's Chain Bracers
-								{"select", "itemID", 32797 },	-- Veteran's Chain Girdle
-								{"select", "itemID", 32785 },	-- Veteran's Chain Sabatons
-							},
-						}),
+						})),
 						moh(3, i(31962)),	-- Merciless Gladiator's Chain Helm
 						moh(2, i(31964)),	-- Merciless Gladiator's Chain Spaulders
 						moh(3, i(31960)),	-- Merciless Gladiator's Chain Armor
@@ -1316,16 +1097,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(31963)),	-- Merciless Gladiator's Chain Leggings
 					}),
 					cl(MAGE, {
-						i(146627, {	-- Ensemble: Merciless Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146627, {	-- Ensemble: Merciless Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 32820 },	-- Veteran's Silk Cuffs
-								{"select", "itemID", 32807 },	-- Veteran's Silk Belt
-								{"select", "itemID", 32795 },	-- Veteran's Silk Footguards
-							},
-						}),
+						})),
 						moh(3, i(32048)),	-- Merciless Gladiator's Silk Cowl
 						moh(2, i(32047)),	-- Merciless Gladiator's Silk Amice
 						moh(3, i(32050)),	-- Merciless Gladiator's Silk Raiment
@@ -1333,22 +1107,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32051)),	-- Merciless Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146626, {	-- Ensemble: Merciless Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146626, {	-- Ensemble: Merciless Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 32813 },	-- Veteran's Lamellar Bracers
-								{"select", "itemID", 32801 },	-- Veteran's Lamellar Belt
-								{"select", "itemID", 32789 },	-- Veteran's Lamellar Greaves
-								{"select", "itemID", 32989 },	-- Veteran's Ornamented Bracers
-								{"select", "itemID", 32988 },	-- Veteran's Ornamented Belt
-								{"select", "itemID", 32990 },	-- Veteran's Ornamented Greaves
-								{"select", "itemID", 32819 },	-- Veteran's Scaled Bracers
-								{"select", "itemID", 32806 },	-- Veteran's Scaled Belt
-								{"select", "itemID", 32794 },	-- Veteran's Scaled Greaves
-							},
-						}),
+						})),
 						moh(3, i(31997)),	-- Merciless Gladiator's Lamellar Helm
 						moh(2, i(31996)),	-- Merciless Gladiator's Lamellar Shoulders
 						moh(3, i(31992)),	-- Merciless Gladiator's Lamellar Chestpiece
@@ -1368,16 +1129,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32042)),	-- Merciless Gladiator's Scaled Legguards
 					}),
 					cl(PRIEST, {
-						i(146625, {	-- Ensemble: Merciless Gladiator's Satin Armor -- Confirmed August 2021 here+Outdoor BC
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146625, {	-- Ensemble: Merciless Gladiator's Satin Armor -- Confirmed August 2021 here+Outdoor BC
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 32980 },	-- Veteran's Mooncloth Cuffs
-								{"select", "itemID", 32979 },	-- Veteran's Mooncloth Belt
-								{"select", "itemID", 147609 },	-- Veteran's Satin Slippers
-							},
-						}),
+						})),
 						moh(3, i(32016)),	-- Merciless Gladiator's Mooncloth Hood
 						moh(2, i(32018)),	-- Merciless Gladiator's Mooncloth Mantle
 						moh(3, i(32019)),	-- Merciless Gladiator's Mooncloth Robe
@@ -1391,16 +1145,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32036)),	-- Merciless Gladiator's Satin Leggings
 					}),
 					cl(ROGUE, {
-						i(146622, {	-- Ensemble: Merciless Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146622, {	-- Ensemble: Merciless Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 147612 },	-- Veteran's Leather Wristguards
-								{"select", "itemID", 147610 },	-- Veteran's Leather Waistband
-								{"select", "itemID", 147611 },	-- Veteran's Leather Footguards
-							},
-						}),
+						})),
 						moh(3, i(31999)),	-- Merciless Gladiator's Leather Helm
 						moh(2, i(32001)),	-- Merciless Gladiator's Leather Spaulders
 						moh(3, i(32002)),	-- Merciless Gladiator's Leather Tunic
@@ -1408,22 +1155,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32000)),	-- Merciless Gladiator's Leather Legguards
 					}),
 					cl(SHAMAN, {
-						i(146624, {	-- Ensemble: Merciless Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146624, {	-- Ensemble: Merciless Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 32816 },	-- Veteran's Linked Bracers
-								{"select", "itemID", 32803 },	-- Veteran's Linked Girdle
-								{"select", "itemID", 32791 },	-- Veteran's Linked Sabatons
-								{"select", "itemID", 32817 },	-- Veteran's Mail Bracers
-								{"select", "itemID", 32804 },	-- Veteran's Mail Girdle
-								{"select", "itemID", 32792 },	-- Veteran's Mail Sabatons
-								{"select", "itemID", 32997 },	-- Veteran's Ringmail Bracers
-								{"select", "itemID", 32998 },	-- Veteran's Ringmail Girdle
-								{"select", "itemID", 32999 },	-- Veteran's Ringmail Sabatons
-							},
-						}),
+						})),
 						moh(3, i(32004)),	-- Merciless Gladiator's Linked Armor
 						moh(2, i(32005)),	-- Merciless Gladiator's Linked Gauntlets
 						moh(3, i(32006)),	-- Merciless Gladiator's Linked Helm
@@ -1443,16 +1177,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(32032)),	-- Merciless Gladiator's Ringmail Leggings
 					}),
 					cl(WARLOCK, {
-						i(146621, {	-- Ensemble: Merciless Gladiator's Felweave Armor -- Confirmed August 2021 here+Outdoor BC
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146621, {	-- Ensemble: Merciless Gladiator's Felweave Armor -- Confirmed August 2021 here+Outdoor BC
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 32811 },	-- Veteran's Dreadweave Cuffs
-								{"select", "itemID", 32799 },	-- Veteran's Dreadweave Belt
-								{"select", "itemID", 32787 },	-- Veteran's Dreadweave Stalkers
-							},
-						}),
+						})),
 						moh(3, i(31974)),	-- Merciless Gladiator's Dreadweave Hood
 						moh(2, i(31976)),	-- Merciless Gladiator's Dreadweave Mantle
 						moh(3, i(31977)),	-- Merciless Gladiator's Dreadweave Robe
@@ -1466,16 +1193,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(31983)),	-- Merciless Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146623, {	-- Ensemble: Merciless Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146623, {	-- Ensemble: Merciless Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 32818 },	-- Veteran's Plate Bracers
-								{"select", "itemID", 32805 },	-- Veteran's Plate Bel
-								{"select", "itemID", 32793 },	-- Veteran's Plate Greaves
-							},
-						}),
+						})),
 						moh(3, i(30488)),	-- Merciless Gladiator's Plate Helm
 						moh(2, i(30490)),	-- Merciless Gladiator's Plate Shoulders
 						moh(3, i(30486)),	-- Merciless Gladiator's Plate Chestpiece
@@ -1489,10 +1209,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(1, i(32812)),	-- Veteran's Kodohide Bracers
 						moh(1, i(32813)),	-- Veteran's Lamellar Bracers
 						moh(1, i(32814)),	-- Veteran's Leather Bracers
-						i(147612, {	-- Veteran's Leather Wristguards
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147612, {	-- Veteran's Leather Wristguards
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(32816)),	-- Veteran's Linked Bracers
 						moh(1, i(32817)),	-- Veteran's Mail Bracers
 						moh(1, i(32980)),	-- Veteran's Mooncloth Cuffs
@@ -1510,10 +1229,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(1, i(32800)),	-- Veteran's Kodohide Belt
 						moh(1, i(32801)),	-- Veteran's Lamellar Belt
 						moh(1, i(32802)),	-- Veteran's Leather Belt
-						i(147610, {	-- Veteran's Leather Waistband
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147610, {	-- Veteran's Leather Waistband
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(32803)),	-- Veteran's Linked Girdle
 						moh(1, i(32804)),	-- Veteran's Mail Girdle
 						moh(1, i(32979)),	-- Veteran's Mooncloth Belt
@@ -1531,20 +1249,18 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(2, i(32788)),	-- Veteran's Kodohide Boots
 						moh(2, i(32789)),	-- Veteran's Lamellar Greaves
 						moh(2, i(32790)),	-- Veteran's Leather Boots
-						i(147611, {	-- Veteran's Leather Footguards
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147611, {	-- Veteran's Leather Footguards
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(32791)),	-- Veteran's Linked Sabatons
 						moh(2, i(32792)),	-- Veteran's Mail Sabatons
 						moh(2, i(32981)),	-- Veteran's Mooncloth Slippers
 						moh(2, i(32990)),	-- Veteran's Ornamented Greaves
 						moh(2, i(32793)),	-- Veteran's Plate Greaves
 						moh(2, i(32999)),	-- Veteran's Ringmail Sabatons
-						i(147609, {	-- Veteran's Satin Slippers
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147609, {	-- Veteran's Satin Slippers
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(32794)),	-- Veteran's Scaled Greaves
 						moh(2, i(32795)),	-- Veteran's Silk Footguards
 						moh(2, i(32796)),	-- Veteran's Wyrmhide Boots
@@ -1688,22 +1404,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(5, i(34014)),	-- Vengeful Gladiator's Waraxe
 					}),
 					cl(DRUID, {
-						i(146629, {	-- Ensemble: Vengeful Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146629, {	-- Ensemble: Vengeful Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 33881 },	-- Vindicator's Dragonhide Bracers
-								{"select", "itemID", 33879 },	-- Vindicator's Dragonhide Belt
-								{"select", "itemID", 33880 },	-- Vindicator's Dragonhide Boots
-								{"select", "itemID", 33887 },	-- Vindicator's Kodohide Bracers
-								{"select", "itemID", 33885 },	-- Vindicator's Kodohide Belt
-								{"select", "itemID", 33886 },	-- Vindicator's Kodohide Boots
-								{"select", "itemID", 33917 },	-- Vindicator's Wyrmhide Bracers
-								{"select", "itemID", 33915 },	-- Vindicator's Wyrmhide Belt
-								{"select", "itemID", 33916 },	-- Vindicator's Wyrmhide Boots
-							},
-						}),
+						})),
 						moh(3, i(33672)),	-- Vengeful Gladiator's Dragonhide Helm
 						moh(2, i(33674)),	-- Vengeful Gladiator's Dragonhide Spaulders
 						moh(3, i(33675)),	-- Vengeful Gladiator's Dragonhide Tunic
@@ -1723,16 +1426,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33769)),	-- Vengeful Gladiator's Wyrmhide Legguards
 					}),
 					cl(HUNTER, {
-						i(146628, {	-- Ensemble: Vengeful Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146628, {	-- Ensemble: Vengeful Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 33876 },	-- Vindicator's Chain Bracers
-								{"select", "itemID", 33877 },	-- Vindicator's Chain Girdle
-								{"select", "itemID", 33878 },	-- Vindicator's Chain Sabatons
-							},
-						}),
+						})),
 						moh(3, i(33666)),	-- Vengeful Gladiator's Chain Helm
 						moh(2, i(33668)),	-- Vengeful Gladiator's Chain Spaulders
 						moh(3, i(33664)),	-- Vengeful Gladiator's Chain Armor
@@ -1740,16 +1436,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33667)),	-- Vengeful Gladiator's Chain Leggings
 					}),
 					cl(MAGE, {
-						i(146637, {	-- Ensemble: Vengeful Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146637, {	-- Ensemble: Vengeful Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 33913 },	-- Vindicator's Silk Cuffs
-								{"select", "itemID", 33912 },	-- Vindicator's Silk Belt
-								{"select", "itemID", 33914 },	-- Vindicator's Silk Footguards
-							},
-						}),
+						})),
 						moh(3, i(33758)),	-- Vengeful Gladiator's Silk Cowl
 						moh(2, i(33757)),	-- Vengeful Gladiator's Silk Amice
 						moh(3, i(33760)),	-- Vengeful Gladiator's Silk Raiment
@@ -1757,22 +1446,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33761)),	-- Vengeful Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146636, {	-- Ensemble: Vengeful Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146636, {	-- Ensemble: Vengeful Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 33889 },	-- Vindicator's Lamellar Bracers
-								{"select", "itemID", 33888 },	-- Vindicator's Lamellar Belt
-								{"select", "itemID", 33890 },	-- Vindicator's Lamellar Greaves
-								{"select", "itemID", 33904 },	-- Vindicator's Ornamented Bracers
-								{"select", "itemID", 33903 },	-- Vindicator's Ornamented Belt
-								{"select", "itemID", 33905 },	-- Vindicator's Ornamented Greaves
-								{"select", "itemID", 33910 },	-- Vindicator's Scaled Bracers
-								{"select", "itemID", 33909 },	-- Vindicator's Scaled Belt
-								{"select", "itemID", 33911 },	-- Vindicator's Scaled Greaves
-							},
-						}),
+						})),
 						moh(3, i(33697)),	-- Vengeful Gladiator's Lamellar Helm
 						moh(2, i(33699)),	-- Vengeful Gladiator's Lamellar Shoulders
 						moh(3, i(33695)),	-- Vengeful Gladiator's Lamellar Chestpiece
@@ -1792,16 +1468,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33752)),	-- Vengeful Gladiator's Scaled Legguards
 					}),
 					cl(PRIEST, {
-						i(146635, {	-- Ensemble: Vengeful Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146635, {	-- Ensemble: Vengeful Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 33901 },	-- Vindicator's Mooncloth Cuffs
-								{"select", "itemID", 33900 },	-- Vindicator's Mooncloth Belt
-								{"select", "itemID", 33902 },	-- Vindicator's Mooncloth Slippers
-							},
-						}),
+						})),
 						moh(3, i(33718)),	-- Vengeful Gladiator's Mooncloth Hood
 						moh(2, i(33720)),	-- Vengeful Gladiator's Mooncloth Mantle
 						moh(3, i(33721)),	-- Vengeful Gladiator's Mooncloth Robe
@@ -1815,16 +1484,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33746)),	-- Vengeful Gladiator's Satin Leggings
 					}),
 					cl(ROGUE, {
-						i(146632, {	-- Ensemble: Vengeful Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146632, {	-- Ensemble: Vengeful Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 33891 },	-- Vindicator's Leather Belt
-								{"select", "itemID", 33892 },	-- Vindicator's Leather Boots
-								{"select", "itemID", 147670 },	-- Vindicator's Leather Wristguards
-							},
-						}),
+						})),
 						moh(3, i(33701)),	-- Vengeful Gladiator's Leather Helm
 						moh(2, i(33703)),	-- Vengeful Gladiator's Leather Spaulders
 						moh(3, i(33704)),	-- Vengeful Gladiator's Leather Tunic
@@ -1832,22 +1494,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33702)),	-- Vengeful Gladiator's Leather Legguards
 					}),
 					cl(SHAMAN, {
-						i(146634, {	-- Ensemble: Vengeful Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146634, {	-- Ensemble: Vengeful Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 33894 },	-- Vindicator's Linked Bracers
-								{"select", "itemID", 33895 },	-- Vindicator's Linked Girdle
-								{"select", "itemID", 33896 },	-- Vindicator's Linked Sabatons
-								{"select", "itemID", 33897 },	-- Vindicator's Mail Bracers
-								{"select", "itemID", 33898 },	-- Vindicator's Mail Girdle
-								{"select", "itemID", 33899 },	-- Vindicator's Mail Sabatons
-								{"select", "itemID", 33906 },	-- Vindicator's Ringmail Bracers
-								{"select", "itemID", 33907 },	-- Vindicator's Ringmail Girdle
-								{"select", "itemID", 33908 },	-- Vindicator's Ringmail Sabatons
-							},
-						}),
+						})),
 						moh(3, i(33708)),	-- Vengeful Gladiator's Linked Helm
 						moh(2, i(33710)),	-- Vengeful Gladiator's Linked Spaulders
 						moh(3, i(33706)),	-- Vengeful Gladiator's Linked Armor
@@ -1867,16 +1516,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33741)),	-- Vengeful Gladiator's Ringmail Leggings
 					}),
 					cl(WARLOCK, {
-						i(146631, {	-- Ensemble: Vengeful Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146631, {	-- Ensemble: Vengeful Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 33883 },	-- Vindicator's Dreadweave Cuffs
-								{"select", "itemID", 33882 },	-- Vindicator's Dreadweave Belt
-								{"select", "itemID", 33884 },	-- Vindicator's Dreadweave Stalkers
-							},
-						}),
+						})),
 						moh(3, i(33677)),	-- Vengeful Gladiator's Dreadweave Hood
 						moh(2, i(33679)),	-- Vengeful Gladiator's Dreadweave Mantle
 						moh(3, i(33680)),	-- Vengeful Gladiator's Dreadweave Robe
@@ -1890,16 +1532,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(33686)),	-- Vengeful Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146633, {	-- Ensemble: Vengeful Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146633, {	-- Ensemble: Vengeful Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 33813 },	-- Vindicator's Plate Bracers
-								{"select", "itemID", 33811 },	-- Vindicator's Plate Belt
-								{"select", "itemID", 33812 },	-- Vindicator's Plate Greaves
-							},
-						}),
+						})),
 						moh(3, i(33730)),	-- Vengeful Gladiator's Plate Helm
 						moh(2, i(33732)),	-- Vengeful Gladiator's Plate Shoulders
 						moh(3, i(33728)),	-- Vengeful Gladiator's Plate Chestpiece
@@ -1913,10 +1548,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(1, i(33887)),	-- Vindicator's Kodohide Bracers
 						moh(1, i(33889)),	-- Vindicator's Lamellar Bracers
 						moh(1, i(33893)),	-- Vindicator's Leather Bracers
-						i(147670, {	-- Vindicator's Leather Wristguards
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147670, {	-- Vindicator's Leather Wristguards
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(33894)),	-- Vindicator's Linked Bracers
 						moh(1, i(33897)),	-- Vindicator's Mail Bracers
 						moh(1, i(33901)),	-- Vindicator's Mooncloth Cuffs
@@ -2088,12 +1722,11 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(2, i(34986)),	-- Brutal Gladiator's Barrier
 						moh(5, i(34985)),	-- Brutal Gladiator's Baton of Light
 						moh(5, i(34987)),	-- Brutal Gladiator's Battle Staff
-						i(37739, {	-- Brutal Gladiator's Blade of Alacrity
+						moh(5, i(37739, {	-- Brutal Gladiator's Blade of Alacrity
 							-- #if ANYCLASSIC
 							["timeline"] = { CREATED_4_3_0 },	-- This was never made available to players in Classic.
 							-- #endif
-							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
-						}),
+						})),
 						moh(5, i(34988)),	-- Brutal Gladiator's Bonecracker
 						moh(5, i(34989)),	-- Brutal Gladiator's Bonegrinder
 						moh(5, i(34995)),	-- Brutal Gladiator's Chopper
@@ -2125,10 +1758,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(5, i(35101)),	-- Brutal Gladiator's Slicer
 						moh(5, i(35102)),	-- Brutal Gladiator's Spellblade
 						moh(5, i(35103)),	-- Brutal Gladiator's Staff
-						i(37740, {	-- Brutal Gladiator's Swift Judgement
-							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
+						moh(5, i(37740, {	-- Brutal Gladiator's Swift Judgement
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(5, i(35107)),	-- Brutal Gladiator's Touch of Defeat
 						i(35108, {	-- Brutal Gladiator's War Edge
 							["timeline"] = { ADDED_2_0_3, REMOVED_5_0_4 },
@@ -2137,16 +1769,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(5, i(35110)),	-- Brutal Gladiator's Waraxe
 					}),
 					bubbleDown({ ["timeline"] = { ADDED_3_3_2 } }, cl(DEATHKNIGHT, {
-						i(146600, {	-- Ensemble: Brutal Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146600, {	-- Ensemble: Brutal Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, DEATHKNIGHT },
-								{"select", "itemID", 35176 },	-- Guardian's Plate Bracers
-								{"select", "itemID", 35161 },	-- Guardian's Plate Belt
-								{"select", "itemID", 35146 },	-- Guardian's Plate Greaves
-							},
-						}),
+						})),
 						moh(3, i(40440)),	-- Brutal Gladiator's Dreadplate Chestpiece
 						moh(2, i(40441)),	-- Brutal Gladiator's Dreadplate Gauntlets
 						moh(3, i(40442)),	-- Brutal Gladiator's Dreadplate Helm
@@ -2154,22 +1779,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(2, i(40444)),	-- Brutal Gladiator's Dreadplate Shoulders
 					})),
 					cl(DRUID, {
-						i(146599, {	-- Ensemble: Brutal Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146599, {	-- Ensemble: Brutal Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 35167 },	-- Guardian's Dragonhide Bracers
-								{"select", "itemID", 35152 },	-- Guardian's Dragonhide Belt
-								{"select", "itemID", 35137 },	-- Guardian's Dragonhide Boots
-								{"select", "itemID", 35169 },	-- Guardian's Kodohide Bracers
-								{"select", "itemID", 35154 },	-- Guardian's Kodohide Belt
-								{"select", "itemID", 35139 },	-- Guardian's Kodohide Boots
-								{"select", "itemID", 35180 },	-- Guardian's Wyrmhide Bracers
-								{"select", "itemID", 35165 },	-- Guardian's Wyrmhide Belt
-								{"select", "itemID", 35150 },	-- Guardian's Wyrmhide Boots
-							},
-						}),
+						})),
 						moh(3, i(34999)),	-- Brutal Gladiator's Dragonhide Helm
 						moh(2, i(35001)),	-- Brutal Gladiator's Dragonhide Spaulders
 						moh(3, i(35002)),	-- Brutal Gladiator's Dragonhide Tunic
@@ -2189,16 +1801,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35113)),	-- Brutal Gladiator's Wyrmhide Legguards
 					}),
 					cl(HUNTER, {
-						i(146598, {	-- Ensemble: Brutal Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146598, {	-- Ensemble: Brutal Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 35166 },	-- Guardian's Chain Bracers
-								{"select", "itemID", 35151 },	-- Guardian's Chain Girdle
-								{"select", "itemID", 35136 },	-- Guardian's Chain Sabatons
-							},
-						}),
+						})),
 						moh(3, i(34992)),	-- Brutal Gladiator's Chain Helm
 						moh(2, i(34994)),	-- Brutal Gladiator's Chain Spaulders
 						moh(3, i(34990)),	-- Brutal Gladiator's Chain Armor
@@ -2206,16 +1811,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(34993)),	-- Brutal Gladiator's Chain Leggings
 					}),
 					cl(MAGE, {
-						i(146607, {	-- Ensemble: Brutal Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146607, {	-- Ensemble: Brutal Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 35179 },	-- Guardian's Silk Cuffs
-								{"select", "itemID", 35164 },	-- Guardian's Silk Belt
-								{"select", "itemID", 35149 },	-- Guardian's Silk Footguards
-							},
-						}),
+						})),
 						moh(3, i(35097)),	-- Brutal Gladiator's Silk Cowl
 						moh(2, i(35096)),	-- Brutal Gladiator's Silk Amice
 						moh(3, i(35099)),	-- Brutal Gladiator's Silk Raiment
@@ -2223,22 +1821,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35100)),	-- Brutal Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146606, {	-- Ensemble: Brutal Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146606, {	-- Ensemble: Brutal Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 35170 },	-- Guardian's Lamellar Bracers
-								{"select", "itemID", 35155 },	-- Guardian's Lamellar Belt
-								{"select", "itemID", 35140 },	-- Guardian's Lamellar Greaves
-								{"select", "itemID", 35175 },	-- Guardian's Ornamented Bracers
-								{"select", "itemID", 35160 },	-- Guardian's Ornamented Belt
-								{"select", "itemID", 35145 },	-- Guardian's Ornamented Greaves
-								{"select", "itemID", 35178 },	-- Guardian's Scaled Bracers
-								{"select", "itemID", 35163 },	-- Guardian's Scaled Belt
-								{"select", "itemID", 35148 },	-- Guardian's Scaled Greaves
-							},
-						}),
+						})),
 						moh(3, i(35029)),	-- Brutal Gladiator's Lamellar Helm
 						moh(2, i(35031)),	-- Brutal Gladiator's Lamellar Shoulders
 						moh(3, i(35027)),	-- Brutal Gladiator's Lamellar Chestpiece
@@ -2258,16 +1843,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35091)),	-- Brutal Gladiator's Scaled Legguards
 					}),
 					cl(PRIEST, {
-						i(146605, {	-- Ensemble: Brutal Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146605, {	-- Ensemble: Brutal Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 35174 },	-- Guardian's Mooncloth Cuffs
-								{"select", "itemID", 35159 },	-- Guardian's Mooncloth Belt
-								{"select", "itemID", 35144 },	-- Guardian's Mooncloth Slippers
-							},
-						}),
+						})),
 						moh(3, i(35054)),	-- Brutal Gladiator's Mooncloth Hood
 						moh(2, i(35056)),	-- Brutal Gladiator's Mooncloth Mantle
 						moh(3, i(35057)),	-- Brutal Gladiator's Mooncloth Robe
@@ -2281,16 +1859,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35085)),	-- Brutal Gladiator's Satin Leggings
 					}),
 					cl(ROGUE, {
-						i(146602, {	-- Ensemble: Brutal Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146602, {	-- Ensemble: Brutal Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 35171 },	-- Guardian's Leather Bracers
-								{"select", "itemID", 35156 },	-- Guardian's Leather Belt
-								{"select", "itemID", 35141 },	-- Guardian's Leather Boots
-							},
-						}),
+						})),
 						moh(3, i(35033)),	-- Brutal Gladiator's Leather Helm
 						moh(2, i(35035)),	-- Brutal Gladiator's Leather Spaulders
 						moh(3, i(35036)),	-- Brutal Gladiator's Leather Tunic
@@ -2298,22 +1869,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35034)),	-- Brutal Gladiator's Leather Legguards
 					}),
 					cl(SHAMAN, {
-						i(146604, {	-- Ensemble: Brutal Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146604, {	-- Ensemble: Brutal Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 35172 },	-- Guardian's Linked Bracers
-								{"select", "itemID", 35157 },	-- Guardian's Linked Girdle
-								{"select", "itemID", 35142 },	-- Guardian's Linked Sabatons
-								{"select", "itemID", 35173 },	-- Guardian's Mail Bracers
-								{"select", "itemID", 35158 },	-- Guardian's Mail Girdle
-								{"select", "itemID", 35143 },	-- Guardian's Mail Sabatons
-								{"select", "itemID", 35177 },	-- Guardian's Ringmail Bracers
-								{"select", "itemID", 35162 },	-- Guardian's Ringmail Girdle
-								{"select", "itemID", 35147 },	-- Guardian's Ringmail Sabatons
-							},
-						}),
+						})),
 						moh(3, i(35044)),	-- Brutal Gladiator's Linked Helm
 						moh(2, i(35046)),	-- Brutal Gladiator's Linked Spaulders
 						moh(3, i(35042)),	-- Brutal Gladiator's Linked Armor
@@ -2333,16 +1891,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35080)),	-- Brutal Gladiator's Ringmail Leggings
 					}),
 					cl(WARLOCK, {
-						i(146601, {	-- Ensemble: Brutal Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146601, {	-- Ensemble: Brutal Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 35168 },	-- Guardian's Dreadweave Cuffs
-								{"select", "itemID", 35153 },	-- Guardian's Dreadweave Belt
-								{"select", "itemID", 35138 },	-- Guardian's Dreadweave Stalkers
-							},
-						}),
+						})),
 						moh(3, i(35004)),	-- Brutal Gladiator's Dreadweave Hood
 						moh(2, i(35006)),	-- Brutal Gladiator's Dreadweave Mantle
 						moh(3, i(35007)),	-- Brutal Gladiator's Dreadweave Robe
@@ -2356,16 +1907,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						moh(3, i(35013)),	-- Brutal Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146603, {	-- Ensemble: Brutal Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146603, {	-- Ensemble: Brutal Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.TBC, SEASON_BRUTAL, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 35176 },	-- Guardian's Plate Bracers
-								{"select", "itemID", 35161 },	-- Guardian's Plate Belt
-								{"select", "itemID", 35146 },	-- Guardian's Plate Greaves
-							},
-						}),
+						})),
 						moh(3, i(35068)),	-- Brutal Gladiator's Plate Helm
 						moh(2, i(35070)),	-- Brutal Gladiator's Plate Shoulders
 						moh(3, i(35066)),	-- Brutal Gladiator's Plate Chestpiece

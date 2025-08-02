@@ -856,10 +856,9 @@ root(ROOTS.Zones, {
 						filter(RECIPES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }, {
 							moh(3, i(137894)),	-- Pattern: Dreadleather Shoulderguard [Rank 3] (RECIPE!)
 							moh(3, i(137926)),	-- Pattern: Gravenscale Spaulders [Rank 3] (RECIPE!)
-							i(137975, {	-- Pattern: Imbued Silkweave Epaulets [Rank 3] (RECIPE!)
+							moh(3, i(137975, {	-- Pattern: Imbued Silkweave Epaulets [Rank 3] (RECIPE!)
 								["requireSkill"] = TAILORING,
-								["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-							}),
+							})),
 							moh(3, i(123950)),	-- Plans: Demonsteel Pauldrons [Rank 3] (RECIPE!)
 						})),
 					},

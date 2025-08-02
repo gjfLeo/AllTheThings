@@ -3012,22 +3012,14 @@ root(ROOTS.PVP, {
 							moh(3, i(125354)),	-- Wild Gladiator's Felweave Trousers (H)
 						}),
 						cl(WARRIOR, {
-							iensemble(138514, {	-- Ensemble: Wild Gladiator's Plate Armor (H)
-								["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-								["sym"] = {
-									{"sub", "pvp_set_faction_ensemble", EXPANSION.WOD, SEASON_WILD, FACTION_HEADER_HORDE, PVP_GLADIATOR, WARRIOR },
-									{"select", "itemID", 125289 },	-- Wild Gladiator's Armplates of Prowess (H)
-									{"select", "itemID", 125283 },	-- Wild Gladiator's Girdle of Prowess (H)
-									{"select", "itemID", 125285 },	-- Wild Gladiator's Warboots of Cruelty (H)
-								},
-								["groups"] = {
-									moh(3, i(125357)),	-- Wild Gladiator's Plate Chestpiece (H)
-									moh(2, i(125358)),	-- Wild Gladiator's Plate Gauntlets (H)
-									moh(3, i(125359)),	-- Wild Gladiator's Plate Helm (H)
-									moh(3, i(125360)),	-- Wild Gladiator's Plate Legguards (H)
-									moh(2, i(125361)),	-- Wild Gladiator's Plate Shoulders (H)
-								},
-							}),
+							moh(12, iensemble(138514, {	-- Ensemble: Wild Gladiator's Plate Armor (H)
+								["timeline"] = { ADDED_7_0_3 },
+							})),
+							moh(3, i(125357)),	-- Wild Gladiator's Plate Chestpiece (H)
+							moh(2, i(125358)),	-- Wild Gladiator's Plate Gauntlets (H)
+							moh(3, i(125359)),	-- Wild Gladiator's Plate Helm (H)
+							moh(3, i(125360)),	-- Wild Gladiator's Plate Legguards (H)
+							moh(2, i(125361)),	-- Wild Gladiator's Plate Shoulders (H)
 						}),
 						n(HEAD, {
 							moh(3, i(125181)),	-- Wild Gladiator's Hood of Prowess (H)

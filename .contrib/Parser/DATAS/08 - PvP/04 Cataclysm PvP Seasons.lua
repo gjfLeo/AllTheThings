@@ -549,59 +549,43 @@ root(ROOTS.PVP, {
 					moh(12, iensemble(146437, {	-- Ensemble: Bloodthirsty Gladiator's Silk Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 						["timeline"] = { ADDED_7_2_0 },
-						-- #if AFTER 7.2.0.23436
-						["groups"] = {
-							i(64928),	-- Gladiator's Silk Trousers - confirmed 14/10/21
-							i(64929),	-- Gladiator's Silk Robe - confirmed 14/10/21
-							i(64930),	-- Gladiator's Silk Handguards - confirmed 14/10/21
-							i(64931),	-- Gladiator's Silk Cowl - confirmed 14/10/21
-							i(64932),	-- Gladiator's Silk Amice - confirmed 14/10/21
-							i(88251),	-- Gladiator's Silk Amice - confirmed 14/10/21
-							i(88252),	-- Gladiator's Silk Cowl - confirmed 14/10/21
-							i(88253),	-- Gladiator's Silk Handguards - confirmed 14/10/21
-							i(88254),	-- Gladiator's Silk Robe - confirmed 14/10/21
-							i(88255),	-- Gladiator's Silk Trousers - confirmed 14/10/21
-						},
-						-- #endif
 					})),
 					moh(2, i(64853)),	-- Bloodthirsty Gladiator's Silk Amice
 					moh(3, i(64854)),	-- Bloodthirsty Gladiator's Silk Cowl
 					moh(2, i(64855)),	-- Bloodthirsty Gladiator's Silk Handguards
 					moh(3, i(64856)),	-- Bloodthirsty Gladiator's Silk Robe
 					moh(3, i(64857)),	-- Bloodthirsty Gladiator's Silk Trousers
-					-- #if BEFORE 7.2.0.23436
 					-- CRIEVE NOTE: These were not available for purchase, but apparently got added to the Ensemble in 7.2.0.
 					i(64928, {	-- Gladiator's Silk Trousers - confirmed 14/10/21
-						["timeline"] = { CREATED_4_0_3 },
+						["timeline"] = { CREATED_4_0_3, ADDED_7_2_0 },
 					}),
 					i(64929, {	-- Gladiator's Silk Robe - confirmed 14/10/21
-						["timeline"] = { CREATED_4_0_3 },
+						["timeline"] = { CREATED_4_0_3, ADDED_7_2_0 },
 					}),
 					i(64930, {	-- Gladiator's Silk Handguards - confirmed 14/10/21
-						["timeline"] = { CREATED_4_0_3 },
+						["timeline"] = { CREATED_4_0_3, ADDED_7_2_0 },
 					}),
 					i(64931, {	-- Gladiator's Silk Cowl - confirmed 14/10/21
-						["timeline"] = { CREATED_4_0_3 },
+						["timeline"] = { CREATED_4_0_3, ADDED_7_2_0 },
 					}),
 					i(64932, {	-- Gladiator's Silk Amice - confirmed 14/10/21
-						["timeline"] = { CREATED_4_0_3 },
+						["timeline"] = { CREATED_4_0_3, ADDED_7_2_0 },
 					}),
 					i(88251, {	-- Gladiator's Silk Amice - confirmed 14/10/21
-						["timeline"] = { CREATED_5_0_4 },
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
 					}),
 					i(88252, {	-- Gladiator's Silk Cowl - confirmed 14/10/21
-						["timeline"] = { CREATED_5_0_4 },
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
 					}),
 					i(88253, {	-- Gladiator's Silk Handguards - confirmed 14/10/21
-						["timeline"] = { CREATED_5_0_4 },
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
 					}),
 					i(88254, {	-- Gladiator's Silk Robe - confirmed 14/10/21
-						["timeline"] = { CREATED_5_0_4 },
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
 					}),
 					i(88255, {	-- Gladiator's Silk Trousers - confirmed 14/10/21
-						["timeline"] = { CREATED_5_0_4 },
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
 					}),
-					-- #endif
 				}),
 				cl(PALADIN, {
 					moh(12, iensemble(146435, {	-- Ensemble: Bloodthirsty Gladiator's Scaled Armor
@@ -846,419 +830,323 @@ root(ROOTS.PVP, {
 					moh(12, iensemble(146523, {	-- Ensemble: Vicious Gladiator's Dreadplate Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60408, {	-- Vicious Gladiator's Dreadplate Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60408, {	-- Vicious Gladiator's Dreadplate Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60409)),	-- Vicious Gladiator's Dreadplate Gauntlets
-					i(60410, {	-- Vicious Gladiator's Dreadplate Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60410, {	-- Vicious Gladiator's Dreadplate Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60411)),	-- Vicious Gladiator's Dreadplate Legguards
-					i(60412, {	-- Vicious Gladiator's Dreadplate Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60412, {	-- Vicious Gladiator's Dreadplate Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(DRUID, {
 					moh(12, iensemble(146521, {	-- Ensemble: Vicious Gladiator's Dragonhide Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
 					moh(2, i(60443)),	-- Vicious Gladiator's Dragonhide Gloves
-					i(60444, {	-- Vicious Gladiator's Dragonhide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60444, {	-- Vicious Gladiator's Dragonhide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60445)),	-- Vicious Gladiator's Dragonhide Legguards
-					i(60446, {	-- Vicious Gladiator's Dragonhide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60446, {	-- Vicious Gladiator's Dragonhide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60447, {	-- Vicious Gladiator's Dragonhide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(60447, {	-- Vicious Gladiator's Dragonhide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60448)),	-- Vicious Gladiator's Kodohide Gloves
-					i(60449, {	-- Vicious Gladiator's Kodohide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60449, {	-- Vicious Gladiator's Kodohide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60450)),	-- Vicious Gladiator's Kodohide Legguards
-					i(60451, {	-- Vicious Gladiator's Kodohide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60451, {	-- Vicious Gladiator's Kodohide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60452, {	-- Vicious Gladiator's Kodohide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(60452, {	-- Vicious Gladiator's Kodohide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60453)),	-- Vicious Gladiator's Wyrmhide Gloves
-					i(60454, {	-- Vicious Gladiator's Wyrmhide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60454, {	-- Vicious Gladiator's Wyrmhide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60455)),	-- Vicious Gladiator's Wyrmhide Legguards
-					i(60456, {	-- Vicious Gladiator's Wyrmhide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60456, {	-- Vicious Gladiator's Wyrmhide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60457, {	-- Vicious Gladiator's Wyrmhide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(60457, {	-- Vicious Gladiator's Wyrmhide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(HUNTER, {
 					moh(12, iensemble(146519, {	-- Ensemble: Vicious Gladiator's Chain Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60423, {	-- Vicious Gladiator's Chain Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60423, {	-- Vicious Gladiator's Chain Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60424)),	-- Vicious Gladiator's Chain Gauntlets
-					i(60425, {	-- Vicious Gladiator's Chain Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60425, {	-- Vicious Gladiator's Chain Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60426)),	-- Vicious Gladiator's Chain Leggings
-					i(60427, {	-- Vicious Gladiator's Chain Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60427, {	-- Vicious Gladiator's Chain Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(MAGE, {
 					moh(12, iensemble(146537, {	-- Ensemble: Vicious Gladiator's Silk Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60467, {	-- Vicious Gladiator's Silk Amice
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60467, {	-- Vicious Gladiator's Silk Amice
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60464, {	-- Vicious Gladiator's Silk Cowl
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60464, {	-- Vicious Gladiator's Silk Cowl
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60463)),	-- Vicious Gladiator's Silk Handguards
-					i(60466, {	-- Vicious Gladiator's Silk Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60466, {	-- Vicious Gladiator's Silk Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60465)),	-- Vicious Gladiator's Silk Trousers
 				}),
 				cl(PALADIN, {
 					moh(12, iensemble(146535, {	-- Ensemble: Vicious Gladiator's Scaled Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60601, {	-- Vicious Gladiator's Ornamented Chestguard
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60601, {	-- Vicious Gladiator's Ornamented Chestguard
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60602)),	-- Vicious Gladiator's Ornamented Gloves
-					i(60603, {	-- Vicious Gladiator's Ornamented Headcover
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60603, {	-- Vicious Gladiator's Ornamented Headcover
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60604)),	-- Vicious Gladiator's Ornamented Legplates
-					i(60605, {	-- Vicious Gladiator's Ornamented Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60605, {	-- Vicious Gladiator's Ornamented Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60413, {	-- Vicious Gladiator's Scaled Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60413, {	-- Vicious Gladiator's Scaled Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60414)),	-- Vicious Gladiator's Scaled Gauntlets
-					i(60415, {	-- Vicious Gladiator's Scaled Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60415, {	-- Vicious Gladiator's Scaled Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60416)),	-- Vicious Gladiator's Scaled Legguards
-					i(60417, {	-- Vicious Gladiator's Scaled Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 3x Mark of Honor
-
+					moh(2, i(60417, {	-- Vicious Gladiator's Scaled Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(PRIEST, {
 					moh(12, iensemble(146533, {	-- Ensemble: Vicious Gladiator's Satin Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
 					moh(2, i(60468)),	-- Vicious Gladiator's Mooncloth Gloves
-					i(60469, {	-- Vicious Gladiator's Mooncloth Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60469, {	-- Vicious Gladiator's Mooncloth Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60470)),	-- Vicious Gladiator's Mooncloth Leggings
-					i(60472, {	-- Vicious Gladiator's Mooncloth Mantle
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60472, {	-- Vicious Gladiator's Mooncloth Mantle
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60471, {	-- Vicious Gladiator's Mooncloth Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60471, {	-- Vicious Gladiator's Mooncloth Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60473)),	-- Vicious Gladiator's Satin Gloves
-					i(60474, {	-- Vicious Gladiator's Satin Hood
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60474, {	-- Vicious Gladiator's Satin Hood
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60475)),	-- Vicious Gladiator's Satin Leggings
-					i(60477, {	-- Vicious Gladiator's Satin Mantle
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60477, {	-- Vicious Gladiator's Satin Mantle
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60476, {	-- Vicious Gladiator's Satin Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60476, {	-- Vicious Gladiator's Satin Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(ROGUE, {
 					moh(12, iensemble(146527, {	-- Ensemble: Vicious Gladiator's Leather Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
 					moh(2, i(60459)),	-- Vicious Gladiator's Leather Gloves
-					i(60460, {	-- Vicious Gladiator's Leather Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60460, {	-- Vicious Gladiator's Leather Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60461)),	-- Vicious Gladiator's Leather Legguards
-					i(60462, {	-- Vicious Gladiator's Leather Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60462, {	-- Vicious Gladiator's Leather Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60458, {	-- Vicious Gladiator's Leather Tunic
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60458, {	-- Vicious Gladiator's Leather Tunic
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(SHAMAN, {
 					moh(12, iensemble(146531, {	-- Ensemble: Vicious Gladiator's Ringmail Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60433, {	-- Vicious Gladiator's Linked Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60433, {	-- Vicious Gladiator's Linked Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60434)),	-- Vicious Gladiator's Linked Gauntlets
-					i(60435, {	-- Vicious Gladiator's Linked Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60435, {	-- Vicious Gladiator's Linked Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60436)),	-- Vicious Gladiator's Linked Leggings
-					i(60437, {	-- Vicious Gladiator's Linked Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60437, {	-- Vicious Gladiator's Linked Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60438, {	-- Vicious Gladiator's Mail Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60438, {	-- Vicious Gladiator's Mail Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60439)),	-- Vicious Gladiator's Mail Gauntlets
-					i(60440, {	-- Vicious Gladiator's Mail Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60440, {	-- Vicious Gladiator's Mail Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60441)),	-- Vicious Gladiator's Mail Leggings
-					i(60442, {	-- Vicious Gladiator's Mail Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60442, {	-- Vicious Gladiator's Mail Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60428, {	-- Vicious Gladiator's Ringmail Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60428, {	-- Vicious Gladiator's Ringmail Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60429)),	-- Vicious Gladiator's Ringmail Gauntlets
-					i(60430, {	-- Vicious Gladiator's Ringmail Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60430, {	-- Vicious Gladiator's Ringmail Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60431)),	-- Vicious Gladiator's Ringmail Leggings
-					i(60432, {	-- Vicious Gladiator's Ringmail Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60432, {	-- Vicious Gladiator's Ringmail Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(WARLOCK, {
 					moh(12, iensemble(146525, {	-- Ensemble: Vicious Gladiator's Felweave Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60482, {	-- Vicious Gladiator's Felweave Amice
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60482, {	-- Vicious Gladiator's Felweave Amice
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(60479, {	-- Vicious Gladiator's Felweave Cowl
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(60479, {	-- Vicious Gladiator's Felweave Cowl
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60478)),	-- Vicious Gladiator's Felweave Handguards
-					i(60481, {	-- Vicious Gladiator's Felweave Raiment
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60481, {	-- Vicious Gladiator's Felweave Raiment
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60480)),	-- Vicious Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
 					moh(12, iensemble(146529, {	-- Ensemble: Vicious Gladiator's Plate Armor
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(60418, {	-- Vicious Gladiator's Plate Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60418, {	-- Vicious Gladiator's Plate Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(60419)),	-- Vicious Gladiator's Plate Gauntlets
-					i(60420, {	-- Vicious Gladiator's Plate Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(60420, {	-- Vicious Gladiator's Plate Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(60421)),	-- Vicious Gladiator's Plate Legguards
-					i(60422, {	-- Vicious Gladiator's Plate Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(60422, {	-- Vicious Gladiator's Plate Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				n(BACK, {
 					moh(1, i(60783)),	-- Vicious Gladiator's Cape of Cruelty
@@ -1825,168 +1713,142 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70244, {	-- Ruthless Gladiator's Dreadplate Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70244, {	-- Ruthless Gladiator's Dreadplate Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70245)),	-- Ruthless Gladiator's Dreadplate Gauntlets
-					i(70246, {	-- Ruthless Gladiator's Dreadplate Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70246, {	-- Ruthless Gladiator's Dreadplate Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70247)),	-- Ruthless Gladiator's Dreadplate Legguards
-					i(70248, {	-- Ruthless Gladiator's Dreadplate Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70248, {	-- Ruthless Gladiator's Dreadplate Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(DRUID, {
 					moh(12, iensemble(146501, {	-- Ensemble: Ruthless Gladiator's Dragonhide Armor
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
-						["groups"] = {
-							-- #if AFTER 7.2.0.23436
-							i(88171, {	-- Gladiator's Ironskin Gloves - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88172, {	-- Gladiator's Ironskin Helm - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88173, {	-- Gladiator's Ironskin Legguards - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88174, {	-- Gladiator's Ironskin Tunic - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88175, {	-- Gladiator's Ironskin Spaulders - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88176, {	-- Gladiator's Copperskin Gloves - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88177, {	-- Gladiator's Copperskin Helm - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88178, {	-- Gladiator's Copperskin Legguards - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88179, {	-- Gladiator's Copperskin Tunic - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(88180, {	-- Gladiator's Copperskin Spaulders - confirmed 14/10/21
-								["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
-							}),
-							i(93508, {	-- Crafted Gladiator's Ironskin Gloves - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93510, {	-- Crafted Gladiator's Ironskin Helm - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93512, {	-- Crafted Gladiator's Ironskin Legguards - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93514, {	-- Crafted Gladiator's Ironskin Spaulders - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93516, {	-- Crafted Gladiator's Ironskin Tunic - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93518, {	-- Crafted Gladiator's Copperskin Gloves - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93520, {	-- Crafted Gladiator's Copperskin Helm - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93522, {	-- Crafted Gladiator's Copperskin Legguards - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93524, {	-- Crafted Gladiator's Copperskin Spaulders - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							i(93526, {	-- Crafted Gladiator's Copperskin Tunic - confirmed 14/10/21
-								["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
-							}),
-							-- #endif
-						},
 					})),
+					-- #if AFTER 7.2.0.23436
+					i(88171, {	-- Gladiator's Ironskin Gloves - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88172, {	-- Gladiator's Ironskin Helm - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88173, {	-- Gladiator's Ironskin Legguards - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88174, {	-- Gladiator's Ironskin Tunic - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88175, {	-- Gladiator's Ironskin Spaulders - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88176, {	-- Gladiator's Copperskin Gloves - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88177, {	-- Gladiator's Copperskin Helm - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88178, {	-- Gladiator's Copperskin Legguards - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88179, {	-- Gladiator's Copperskin Tunic - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(88180, {	-- Gladiator's Copperskin Spaulders - confirmed 14/10/21
+						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
+					}),
+					i(93508, {	-- Crafted Gladiator's Ironskin Gloves - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93510, {	-- Crafted Gladiator's Ironskin Helm - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93512, {	-- Crafted Gladiator's Ironskin Legguards - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93514, {	-- Crafted Gladiator's Ironskin Spaulders - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93516, {	-- Crafted Gladiator's Ironskin Tunic - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93518, {	-- Crafted Gladiator's Copperskin Gloves - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93520, {	-- Crafted Gladiator's Copperskin Helm - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93522, {	-- Crafted Gladiator's Copperskin Legguards - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93524, {	-- Crafted Gladiator's Copperskin Spaulders - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					i(93526, {	-- Crafted Gladiator's Copperskin Tunic - confirmed 14/10/21
+						["timeline"] = { CREATED_5_2_0, ADDED_7_2_0 },
+					}),
+					-- #endif
 					moh(2, i(70279)),	-- Ruthless Gladiator's Dragonhide Gloves
-					i(70280, {	-- Ruthless Gladiator's Dragonhide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70280, {	-- Ruthless Gladiator's Dragonhide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70281)),	-- Ruthless Gladiator's Dragonhide Legguards
-					i(70282, {	-- Ruthless Gladiator's Dragonhide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70282, {	-- Ruthless Gladiator's Dragonhide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70283, {	-- Ruthless Gladiator's Dragonhide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(70283, {	-- Ruthless Gladiator's Dragonhide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70284)),	-- Ruthless Gladiator's Kodohide Gloves
-					i(70285, {	-- Ruthless Gladiator's Kodohide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70285, {	-- Ruthless Gladiator's Kodohide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70286)),	-- Ruthless Gladiator's Kodohide Legguards
-					i(70287, {	-- Ruthless Gladiator's Kodohide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70287, {	-- Ruthless Gladiator's Kodohide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70288, {	-- Ruthless Gladiator's Kodohide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(70288, {	-- Ruthless Gladiator's Kodohide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70289)),	-- Ruthless Gladiator's Wyrmhide Gloves
-					i(70290, {	-- Ruthless Gladiator's Wyrmhide Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70290, {	-- Ruthless Gladiator's Wyrmhide Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70291)),	-- Ruthless Gladiator's Wyrmhide Legguards
-					i(70292, {	-- Ruthless Gladiator's Wyrmhide Robes
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70292, {	-- Ruthless Gladiator's Wyrmhide Robes
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70293, {	-- Ruthless Gladiator's Wyrmhide Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(70293, {	-- Ruthless Gladiator's Wyrmhide Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					-- #if BEFORE 7.2.0.23436
 					i(88171, {	-- Gladiator's Ironskin Gloves - confirmed 14/10/21
 						["timeline"] = { CREATED_5_0_4, ADDED_7_2_0 },
@@ -2055,57 +1917,45 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70259, {	-- Ruthless Gladiator's Chain Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70259, {	-- Ruthless Gladiator's Chain Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70260)),	-- Ruthless Gladiator's Chain Gauntlets
-					i(70261, {	-- Ruthless Gladiator's Chain Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70261, {	-- Ruthless Gladiator's Chain Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70262)),	-- Ruthless Gladiator's Chain Leggings
-					i(70263, {	-- Ruthless Gladiator's Chain Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70263, {	-- Ruthless Gladiator's Chain Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(MAGE, {
 					moh(12, iensemble(146517, {	-- Ensemble: Ruthless Gladiator's Silk Armor
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70303, {	-- Ruthless Gladiator's Silk Amice
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70303, {	-- Ruthless Gladiator's Silk Amice
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70300, {	-- Ruthless Gladiator's Silk Cowl
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70300, {	-- Ruthless Gladiator's Silk Cowl
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70299)),	-- Ruthless Gladiator's Silk Handguards
-					i(70302, {	-- Ruthless Gladiator's Silk Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70302, {	-- Ruthless Gladiator's Silk Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70301)),	-- Ruthless Gladiator's Silk Trousers
 				}),
 				cl(PALADIN, {
@@ -2113,52 +1963,40 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70353, {	-- Ruthless Gladiator's Ornamented Chestguard
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70353, {	-- Ruthless Gladiator's Ornamented Chestguard
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70354)),	-- Ruthless Gladiator's Ornamented Gloves
-					i(70355, {	-- Ruthless Gladiator's Ornamented Headcover
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70355, {	-- Ruthless Gladiator's Ornamented Headcover
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70356)),	-- Ruthless Gladiator's Ornamented Legplates
-					i(70357, {	-- Ruthless Gladiator's Ornamented Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70357, {	-- Ruthless Gladiator's Ornamented Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70249, {	-- Ruthless Gladiator's Scaled Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70249, {	-- Ruthless Gladiator's Scaled Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70250)),	-- Ruthless Gladiator's Scaled Gauntlets
-					i(70251, {	-- Ruthless Gladiator's Scaled Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70251, {	-- Ruthless Gladiator's Scaled Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70252)),	-- Ruthless Gladiator's Scaled Legguards
-					i(70253, {	-- Ruthless Gladiator's Scaled Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70253, {	-- Ruthless Gladiator's Scaled Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(PRIEST, {
 					moh(12, iensemble(146513, {	-- Ensemble: Ruthless Gladiator's Satin Armor
@@ -2166,51 +2004,39 @@ root(ROOTS.PVP, {
 						["timeline"] = { ADDED_7_2_0 },
 					})),
 					moh(2, i(70304)),	-- Ruthless Gladiator's Mooncloth Gloves
-					i(70305, {	-- Ruthless Gladiator's Mooncloth Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70305, {	-- Ruthless Gladiator's Mooncloth Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70306)),	-- Ruthless Gladiator's Mooncloth Leggings
-					i(70307, {	-- Ruthless Gladiator's Mooncloth Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70307, {	-- Ruthless Gladiator's Mooncloth Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70308, {	-- Ruthless Gladiator's Mooncloth Mantle
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(70308, {	-- Ruthless Gladiator's Mooncloth Mantle
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70309)),	-- Ruthless Gladiator's Satin Gloves
-					i(70310, {	-- Ruthless Gladiator's Satin Hood
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70310, {	-- Ruthless Gladiator's Satin Hood
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70311)),	-- Ruthless Gladiator's Satin Leggings
-					i(70312, {	-- Ruthless Gladiator's Satin Robe
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70312, {	-- Ruthless Gladiator's Satin Robe
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70313, {	-- Ruthless Gladiator's Satin Mantle
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					})),
+					moh(2, i(70313, {	-- Ruthless Gladiator's Satin Mantle
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(ROGUE, {
 					moh(12, iensemble(146507, {	-- Ensemble: Ruthless Gladiator's Leather Armor
@@ -2218,131 +2044,101 @@ root(ROOTS.PVP, {
 						["timeline"] = { ADDED_7_2_0 },
 					})),
 					moh(2, i(70295)),	-- Ruthless Gladiator's Leather Gloves
-					i(70296, {	-- Ruthless Gladiator's Leather Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70296, {	-- Ruthless Gladiator's Leather Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70297)),	-- Ruthless Gladiator's Leather Legguards
-					i(70298, {	-- Ruthless Gladiator's Leather Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70298, {	-- Ruthless Gladiator's Leather Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70294, {	-- Ruthless Gladiator's Leather Tunic
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70294, {	-- Ruthless Gladiator's Leather Tunic
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(SHAMAN, {
 					moh(12, iensemble(146511, {	-- Ensemble: Ruthless Gladiator's Ringmail Armor
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70269, {	-- Ruthless Gladiator's Linked Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70269, {	-- Ruthless Gladiator's Linked Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70270)),	-- Ruthless Gladiator's Linked Gauntlets
-					i(70271, {	-- Ruthless Gladiator's Linked Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70271, {	-- Ruthless Gladiator's Linked Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70272)),	-- Ruthless Gladiator's Linked Leggings
-					i(70273, {	-- Ruthless Gladiator's Linked Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70273, {	-- Ruthless Gladiator's Linked Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70274, {	-- Ruthless Gladiator's Mail Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70274, {	-- Ruthless Gladiator's Mail Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70275)),	-- Ruthless Gladiator's Mail Gauntlets
-					i(70276, {	-- Ruthless Gladiator's Mail Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70276, {	-- Ruthless Gladiator's Mail Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70277)),	-- Ruthless Gladiator's Mail Leggings
-					i(70278, {	-- Ruthless Gladiator's Mail Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70278, {	-- Ruthless Gladiator's Mail Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70264, {	-- Ruthless Gladiator's Ringmail Armor
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70264, {	-- Ruthless Gladiator's Ringmail Armor
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70265)),	-- Ruthless Gladiator's Ringmail Gauntlets
-					i(70266, {	-- Ruthless Gladiator's Ringmail Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70266, {	-- Ruthless Gladiator's Ringmail Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70267)),	-- Ruthless Gladiator's Ringmail Leggings
-					i(70268, {	-- Ruthless Gladiator's Ringmail Spaulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70268, {	-- Ruthless Gladiator's Ringmail Spaulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				cl(WARLOCK, {
 					moh(12, iensemble(146505, {	-- Ensemble: Ruthless Gladiator's Felweave Armor
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70318, {	-- Ruthless Gladiator's Felweave Amice
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70318, {	-- Ruthless Gladiator's Felweave Amice
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
-					i(70315, {	-- Ruthless Gladiator's Felweave Cowl
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					})),
+					moh(3, i(70315, {	-- Ruthless Gladiator's Felweave Cowl
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70314)),	-- Ruthless Gladiator's Felweave Handguards
-					i(70317, {	-- Ruthless Gladiator's Felweave Raiment
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70317, {	-- Ruthless Gladiator's Felweave Raiment
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70316)),	-- Ruthless Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
@@ -2350,29 +2146,23 @@ root(ROOTS.PVP, {
 						["description"] = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 						["timeline"] = { ADDED_7_2_0 },
 					})),
-					i(70254, {	-- Ruthless Gladiator's Plate Chestpiece
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70254, {	-- Ruthless Gladiator's Plate Chestpiece
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(2, i(70255)),	-- Ruthless Gladiator's Plate Gauntlets
-					i(70256, {	-- Ruthless Gladiator's Plate Helm
-						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
-
+					moh(3, i(70256, {	-- Ruthless Gladiator's Plate Helm
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 					moh(3, i(70257)),	-- Ruthless Gladiator's Plate Legguards
-					i(70258, {	-- Ruthless Gladiator's Plate Shoulders
-						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-
+					moh(2, i(70258, {	-- Ruthless Gladiator's Plate Shoulders
 						-- #if ANYCLASSIC
 						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
-					}),
+					})),
 				}),
 				n(BACK, {
 					moh(1, i(70386)),	-- Ruthless Gladiator's Cape of Cruelty

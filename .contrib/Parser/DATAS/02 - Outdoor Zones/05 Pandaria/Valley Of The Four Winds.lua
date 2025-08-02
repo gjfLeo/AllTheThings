@@ -1448,25 +1448,9 @@ root(ROOTS.Zones, {
 								moh(5, i(99824)),	-- Tyrannical Gladiator's Staff
 							}),
 							cl(DEATHKNIGHT, {
-								i(138683, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DEATHKNIGHT },
-										{"select", "itemID",
-											91306,	-- Tyrannical Gladiator's Armplates of Alacrity
-											91297,	-- Tyrannical Gladiator's Girdle of Accuracy
-											91303,	-- Tyrannical Gladiator's Warboots of Alacrity
-											99891,	-- Tyrannical Gladiator's Armplates of Alacrity
-											99886,	-- Tyrannical Gladiator's Girdle of Accuracy
-											99889,	-- Tyrannical Gladiator's Warboots of Alacrity
-											99806,	-- Tyrannical Gladiator's Dreadplate Chestpiece
-											99807,	-- Tyrannical Gladiator's Dreadplate Gauntlets
-											99808,	-- Tyrannical Gladiator's Dreadplate Helm
-											99809,	-- Tyrannical Gladiator's Dreadplate Legguards
-											99810,	-- Tyrannical Gladiator's Dreadplate Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138683, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(99806)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
 								moh(2, i(99807)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
 								moh(3, i(99808)),	-- Tyrannical Gladiator's Dreadplate Helm
@@ -1474,41 +1458,9 @@ root(ROOTS.Zones, {
 								moh(2, i(99810)),	-- Tyrannical Gladiator's Dreadplate Shoulders
 							}),
 							cl(DRUID, {
-								i(138691, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DRUID },
-										{"select", "itemID",
-											91171,	-- Tyrannical Gladiator's Bindings of Meditation
-											91188,	-- Tyrannical Gladiator's Bindings of Prowess
-											91184,	-- Tyrannical Gladiator's Belt of Cruelty
-											91167,	-- Tyrannical Gladiator's Belt of Meditation
-											91186,	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-											91169,	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-											99818,	-- Tyrannical Gladiator's Bindings of Meditation
-											99827,	-- Tyrannical Gladiator's Bindings of Prowess
-											99825,	-- Tyrannical Gladiator's Belt of Cruelty
-											99816,	-- Tyrannical Gladiator's Belt of Meditation
-											99826,	-- Tyrannical Gladiator's Footguards of Alacrity (Leather)
-											99817,	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-											99811,	-- Tyrannical Gladiator's Dragonhide Gloves
-											99812,	-- Tyrannical Gladiator's Dragonhide Helm
-											99813,	-- Tyrannical Gladiator's Dragonhide Legguards
-											99814,	-- Tyrannical Gladiator's Dragonhide Robes
-											99815,	-- Tyrannical Gladiator's Dragonhide Spaulders
-											99819,	-- Tyrannical Gladiator's Kodohide Gloves
-											99820,	-- Tyrannical Gladiator's Kodohide Helm
-											99821,	-- Tyrannical Gladiator's Kodohide Legguards
-											99822,	-- Tyrannical Gladiator's Kodohide Robes
-											99823,	-- Tyrannical Gladiator's Kodohide Spaulders
-											99828,	-- Tyrannical Gladiator's Wyrmhide Gloves
-											99829,	-- Tyrannical Gladiator's Wyrmhide Helm
-											99830,	-- Tyrannical Gladiator's Wyrmhide Legguards
-											99831,	-- Tyrannical Gladiator's Wyrmhide Robes
-											99832,	-- Tyrannical Gladiator's Wyrmhide Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138691, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99811)),	-- Tyrannical Gladiator's Dragonhide Gloves
 								moh(3, i(99812)),	-- Tyrannical Gladiator's Dragonhide Helm
 								moh(3, i(99813)),	-- Tyrannical Gladiator's Dragonhide Legguards
@@ -1526,31 +1478,9 @@ root(ROOTS.Zones, {
 								moh(2, i(99832)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
 							}),
 							cl(HUNTER, {
-								i(138689, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, HUNTER },
-										{"select", "itemID",
-											91221,	-- Tyrannical Gladiator's Wristguards of Accuracy
-											91220,	-- Tyrannical Gladiator's Wristguards of Alacrity
-											91214,	-- Tyrannical Gladiator's Links of Accuracy
-											91212,	-- Tyrannical Gladiator's Links of Cruelty
-											91218,	-- Tyrannical Gladiator's Sabatons of Alacrity
-											91216,	-- Tyrannical Gladiator's Sabatons of Cruelty
-											99846,	-- Tyrannical Gladiator's Wristguards of Accuracy
-											99845,	-- Tyrannical Gladiator's Wristguards of Alacrity
-											99842,	-- Tyrannical Gladiator's Links of Accuracy
-											99841,	-- Tyrannical Gladiator's Links of Cruelty
-											99844,	-- Tyrannical Gladiator's Sabatons of Alacrity
-											99843,	-- Tyrannical Gladiator's Sabatons of Cruelty
-											99847,	-- Tyrannical Gladiator's Chain Armor
-											99848,	-- Tyrannical Gladiator's Chain Gauntlets
-											99849,	-- Tyrannical Gladiator's Chain Helm
-											99850,	-- Tyrannical Gladiator's Chain Leggings
-											99851,	-- Tyrannical Gladiator's Chain Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138689, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(99847)),	-- Tyrannical Gladiator's Chain Armor
 								moh(2, i(99848)),	-- Tyrannical Gladiator's Chain Gauntlets
 								moh(3, i(99849)),	-- Tyrannical Gladiator's Chain Helm
@@ -1558,25 +1488,9 @@ root(ROOTS.Zones, {
 								moh(2, i(99851)),	-- Tyrannical Gladiator's Chain Spaulders
 							}),
 							cl(MAGE, {
-								i(138697, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MAGE },
-										{"select", "itemID",
-											91122,	-- Tyrannical Gladiator's Cuffs of Prowess
-											91109,	-- Tyrannical Gladiator's Cord of Cruelty
-											91115,	-- Tyrannical Gladiator's Treads of Cruelty
-											99788,	-- Tyrannical Gladiator's Cuffs of Prowess
-											99781,	-- Tyrannical Gladiator's Cord of Cruelty
-											99784,	-- Tyrannical Gladiator's Treads of Cruelty
-											99856,	-- Tyrannical Gladiator's Silk Amice
-											99853,	-- Tyrannical Gladiator's Silk Cowl
-											99852,	-- Tyrannical Gladiator's Silk Handguards
-											99855,	-- Tyrannical Gladiator's Silk Robe
-											99854,	-- Tyrannical Gladiator's Silk Trousers
-										},
-									},
-								}),
+								moh(12, iensemble(138697, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99856)),	-- Tyrannical Gladiator's Silk Amice
 								moh(3, i(99853)),	-- Tyrannical Gladiator's Silk Cowl
 								moh(2, i(99852)),	-- Tyrannical Gladiator's Silk Handguards
@@ -1584,30 +1498,9 @@ root(ROOTS.Zones, {
 								moh(3, i(99854)),	-- Tyrannical Gladiator's Silk Trousers
 							}),
 							cl(MONK, {
-								i(138693, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MONK },
-										{"select", "itemID",
-											91246,	-- Tyrannical Gladiator's Armwraps of Accuracy
-											91242,	-- Tyrannical Gladiator's Waistband of Cruelty
-											91337,	-- Tyrannical Gladiator's Boots of Alacrity
-											99859,	-- Tyrannical Gladiator's Armwraps of Accuracy
-											99857,	-- Tyrannical Gladiator's Waistband of Cruelty
-											99858,	-- Tyrannical Gladiator's Boots of Alacrity
-											99865,	-- Tyrannical Gladiator's Copperskin Gloves
-											99866,	-- Tyrannical Gladiator's Copperskin Helm
-											99867,	-- Tyrannical Gladiator's Copperskin Legguards
-											99868,	-- Tyrannical Gladiator's Copperskin Spaulders
-											99869,	-- Tyrannical Gladiator's Copperskin Tunic
-											99860,	-- Tyrannical Gladiator's Ironskin Gloves
-											99861,	-- Tyrannical Gladiator's Ironskin Helm
-											99862,	-- Tyrannical Gladiator's Ironskin Legguards
-											99863,	-- Tyrannical Gladiator's Ironskin Spaulders
-											99864,	-- Tyrannical Gladiator's Ironskin Tunic
-										},
-									},
-								}),
+								moh(12, iensemble(138693, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99865)),	-- Tyrannical Gladiator's Copperskin Gloves
 								moh(3, i(99866)),	-- Tyrannical Gladiator's Copperskin Helm
 								moh(3, i(99867)),	-- Tyrannical Gladiator's Copperskin Legguards
@@ -1620,36 +1513,9 @@ root(ROOTS.Zones, {
 								moh(3, i(99864)),	-- Tyrannical Gladiator's Ironskin Tunic
 							}),
 							cl(PALADIN, {
-								i(138685, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PALADIN },
-										{"select", "itemID",
-											91286,	-- Tyrannical Gladiator's Bracers of Meditation
-											91285,	-- Tyrannical Gladiator's Bracers of Prowess
-											91277,	-- Tyrannical Gladiator's Clasp of Cruelty
-											91279,	-- Tyrannical Gladiator's Clasp of Meditation
-											91281,	-- Tyrannical Gladiator's Greaves of Alacrity
-											91283,	-- Tyrannical Gladiator's Greaves of Meditation
-											99880,	-- Tyrannical Gladiator's Bracers of Meditation
-											99879,	-- Tyrannical Gladiator's Bracers of Prowess
-											99875,	-- Tyrannical Gladiator's Clasp of Cruelty
-											99876,	-- Tyrannical Gladiator's Clasp of Meditation
-											99877,	-- Tyrannical Gladiator's Greaves of Alacrity
-											99878,	-- Tyrannical Gladiator's Greaves of Meditation
-											99881,	-- Tyrannical Gladiator's Ornamented Chestguard
-											99882,	-- Tyrannical Gladiator's Ornamented Gloves
-											99883,	-- Tyrannical Gladiator's Ornamented Headcover
-											99884,	-- Tyrannical Gladiator's Ornamented Legplates
-											99885,	-- Tyrannical Gladiator's Ornamented Spaulders
-											99870,	-- Tyrannical Gladiator's Scaled Chestpiece
-											99871,	-- Tyrannical Gladiator's Scaled Gauntlets
-											99872,	-- Tyrannical Gladiator's Scaled Helm
-											99873,	-- Tyrannical Gladiator's Scaled Legguards
-											99874,	-- Tyrannical Gladiator's Scaled Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138685, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(99881)),	-- Tyrannical Gladiator's Ornamented Chestguard
 								moh(2, i(99882)),	-- Tyrannical Gladiator's Ornamented Gloves
 								moh(3, i(99883)),	-- Tyrannical Gladiator's Ornamented Headcover
@@ -1662,30 +1528,9 @@ root(ROOTS.Zones, {
 								moh(2, i(99874)),	-- Tyrannical Gladiator's Scaled Shoulders
 							}),
 							cl(PRIEST, {
-								i(138699, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PRIEST },
-										{"select", "itemID",
-											91123,	-- Tyrannical Gladiator's Cuffs of Meditation
-											91113,	-- Tyrannical Gladiator's Cord of Meditation
-											91119,	-- Tyrannical Gladiator's Treads of Meditation
-											99789,	-- Tyrannical Gladiator's Cuffs of Meditation
-											99783,	-- Tyrannical Gladiator's Cord of Meditation
-											99786,	-- Tyrannical Gladiator's Treads of Meditation
-											99893,	-- Tyrannical Gladiator's Mooncloth Gloves
-											99894,	-- Tyrannical Gladiator's Mooncloth Helm
-											99895,	-- Tyrannical Gladiator's Mooncloth Leggings
-											99897,	-- Tyrannical Gladiator's Mooncloth Mantle
-											99896,	-- Tyrannical Gladiator's Mooncloth Robe
-											99898,	-- Tyrannical Gladiator's Satin Gloves
-											99899,	-- Tyrannical Gladiator's Satin Hood
-											99900,	-- Tyrannical Gladiator's Satin Leggings
-											99902,	-- Tyrannical Gladiator's Satin Mantle
-											99901,	-- Tyrannical Gladiator's Satin Robe
-										},
-									},
-								}),
+								moh(12, iensemble(138699, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99893)),	-- Tyrannical Gladiator's Mooncloth Gloves
 								moh(3, i(99894)),	-- Tyrannical Gladiator's Mooncloth Helm
 								moh(3, i(99895)),	-- Tyrannical Gladiator's Mooncloth Leggings
@@ -1698,25 +1543,9 @@ root(ROOTS.Zones, {
 								moh(3, i(99901)),	-- Tyrannical Gladiator's Satin Robe
 							}),
 							cl(ROGUE, {
-								i(138695, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, ROGUE },
-										{"select", "itemID",
-											91339,	-- Tyrannical Gladiator's Armwraps of Alacrity
-											91335,	-- Tyrannical Gladiator's Waistband of Accuracy
-											91337,	-- Tyrannical Gladiator's Boots of Cruelty
-											99905,	-- Tyrannical Gladiator's Armwraps of Alacrity
-											99903,	-- Tyrannical Gladiator's Waistband of Accuracy
-											99904,	-- Tyrannical Gladiator's Boots of Cruelty
-											99907,	-- Tyrannical Gladiator's Leather Gloves
-											99908,	-- Tyrannical Gladiator's Leather Helm
-											99909,	-- Tyrannical Gladiator's Leather Legguards
-											99910,	-- Tyrannical Gladiator's Leather Spaulders
-											99906,	-- Tyrannical Gladiator's Leather Tunic
-										},
-									},
-								}),
+								moh(12, iensemble(138695, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99907)),	-- Tyrannical Gladiator's Leather Gloves
 								moh(3, i(99908)),	-- Tyrannical Gladiator's Leather Helm
 								moh(3, i(99909)),	-- Tyrannical Gladiator's Leather Legguards
@@ -1724,41 +1553,9 @@ root(ROOTS.Zones, {
 								moh(3, i(99906)),	-- Tyrannical Gladiator's Leather Tunic
 							}),
 							cl(SHAMAN, {
-								i(138687, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, SHAMAN },
-										{"select", "itemID",
-											91357,	-- Tyrannical Gladiator's Armbands of Meditation
-											91356,	-- Tyrannical Gladiator's Armbands of Prowess
-											91378,	-- Tyrannical Gladiator's Waistguard of Cruelty
-											91350,	-- Tyrannical Gladiator's Waistguard of Meditation
-											91352,	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-											91354,	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-											99915,	-- Tyrannical Gladiator's Armbands of Meditation
-											99914,	-- Tyrannical Gladiator's Armbands of Prowess
-											99926,	-- Tyrannical Gladiator's Waistguard of Cruelty
-											99911,	-- Tyrannical Gladiator's Waistguard of Meditation
-											99912,	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-											99913,	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-											99921,	-- Tyrannical Gladiator's Linked Armor
-											99922,	-- Tyrannical Gladiator's Linked Gauntlets
-											99923,	-- Tyrannical Gladiator's Linked Helm
-											99924,	-- Tyrannical Gladiator's Linked Leggings
-											99925,	-- Tyrannical Gladiator's Linked Spaulders
-											99927,	-- Tyrannical Gladiator's Mail Armor
-											99928,	-- Tyrannical Gladiator's Mail Gauntlets
-											99929,	-- Tyrannical Gladiator's Mail Helm
-											99930,	-- Tyrannical Gladiator's Mail Leggings
-											99931,	-- Tyrannical Gladiator's Mail Spaulders
-											99916,	-- Tyrannical Gladiator's Ringmail Armor
-											99917,	-- Tyrannical Gladiator's Ringmail Gauntlets
-											99918,	-- Tyrannical Gladiator's Ringmail Helm
-											99919,	-- Tyrannical Gladiator's Ringmail Leggings
-											99920,	-- Tyrannical Gladiator's Ringmail Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138687, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(99921)),	-- Tyrannical Gladiator's Linked Armor
 								moh(2, i(99922)),	-- Tyrannical Gladiator's Linked Gauntlets
 								moh(3, i(99923)),	-- Tyrannical Gladiator's Linked Helm
@@ -1776,25 +1573,9 @@ root(ROOTS.Zones, {
 								moh(2, i(99920)),	-- Tyrannical Gladiator's Ringmail Spaulders
 							}),
 							cl(WARLOCK, {
-								i(138701, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARLOCK },
-										{"select", "itemID",
-											91121,	-- Tyrannical Gladiator's Cuffs of Accuracy
-											91111,	-- Tyrannical Gladiator's Cord of Accuracy
-											91117,	-- Tyrannical Gladiator's Treads of Alacrity
-											99787,	-- Tyrannical Gladiator's Cuffs of Accuracy
-											99782,	-- Tyrannical Gladiator's Cord of Accuracy
-											99785,	-- Tyrannical Gladiator's Treads of Alacrity
-											99956,	-- Tyrannical Gladiator's Felweave Amice
-											99953,	-- Tyrannical Gladiator's Felweave Cowl
-											99952,	-- Tyrannical Gladiator's Felweave Handguards
-											99955,	-- Tyrannical Gladiator's Felweave Raiment
-											99954,	-- Tyrannical Gladiator's Felweave Trousers
-										},
-									},
-								}),
+								moh(12, iensemble(138701, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(99956)),	-- Tyrannical Gladiator's Felweave Amice
 								moh(3, i(99953)),	-- Tyrannical Gladiator's Felweave Cowl
 								moh(2, i(99952)),	-- Tyrannical Gladiator's Felweave Handguards
@@ -1802,25 +1583,9 @@ root(ROOTS.Zones, {
 								moh(3, i(99954)),	-- Tyrannical Gladiator's Felweave Trousers
 							}),
 							cl(WARRIOR, {
-								i(138681, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_TYRANNICAL, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARRIOR },
-										{"select", "itemID",
-											91305,	-- Tyrannical Gladiator's Armplates of Proficiency
-											91299,	-- Tyrannical Gladiator's Girdle of Prowess
-											91301,	-- Tyrannical Gladiator's Warboots of Cruelty
-											99890,	-- Tyrannical Gladiator's Armplates of Proficiency
-											99887,	-- Tyrannical Gladiator's Girdle of Prowess
-											99888,	-- Tyrannical Gladiator's Warboots of Cruelty
-											99957,	-- Tyrannical Gladiator's Plate Chestpiece
-											99958,	-- Tyrannical Gladiator's Plate Gauntlets
-											99959,	-- Tyrannical Gladiator's Plate Helm
-											99960,	-- Tyrannical Gladiator's Plate Legguards
-											99961,	-- Tyrannical Gladiator's Plate Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138681, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(99957)),	-- Tyrannical Gladiator's Plate Chestpiece
 								moh(2, i(99958)),	-- Tyrannical Gladiator's Plate Gauntlets
 								moh(3, i(99959)),	-- Tyrannical Gladiator's Plate Helm
@@ -1939,25 +1704,9 @@ root(ROOTS.Zones, {
 								moh(5, i(103177)),	-- Grievous Gladiator's Touch of Defeat
 							}),
 							cl(DEATHKNIGHT, {
-								i(138661, {	-- Ensemble: Grievous Gladiator's Dreadplate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DEATHKNIGHT },
-										{"select", "itemID",
-											100402,	-- Grievous Gladiator's Armplates of Alacrity
-											100393,	-- Grievous Gladiator's Girdle of Accuracy
-											100399,	-- Grievous Gladiator's Warboots of Alacrity
-											103263,	-- Grievous Gladiator's Armplates of Alacrity
-											103258,	-- Grievous Gladiator's Girdle of Accuracy
-											103261,	-- Grievous Gladiator's Warboots of Alacrity
-											103179,	-- Grievous Gladiator's Dreadplate Chestpiece
-											103180,	-- Grievous Gladiator's Dreadplate Gauntlets
-											103181,	-- Grievous Gladiator's Dreadplate Helm
-											103182,	-- Grievous Gladiator's Dreadplate Legguards
-											103183,	-- Grievous Gladiator's Dreadplate Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138661, {	-- Ensemble: Grievous Gladiator's Dreadplate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(103179)),	-- Grievous Gladiator's Dreadplate Chestpiece
 								moh(2, i(103180)),	-- Grievous Gladiator's Dreadplate Gauntlets
 								moh(3, i(103181)),	-- Grievous Gladiator's Dreadplate Helm
@@ -1965,41 +1714,9 @@ root(ROOTS.Zones, {
 								moh(2, i(103183)),	-- Grievous Gladiator's Dreadplate Shoulders
 							}),
 							cl(DRUID, {
-								i(138669, {	-- Ensemble: Grievous Gladiator's Dragonhide Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, DRUID },
-										{"select", "itemID",
-											100267,	-- Grievous Gladiator's Bindings of Meditation
-											100284,	-- Grievous Gladiator's Bindings of Prowess
-											100280,	-- Grievous Gladiator's Belt of Cruelty
-											100263,	-- Grievous Gladiator's Belt of Meditation
-											100282,	-- Grievous Gladiator's Footguards of Alacrity (Leather)
-											100265,	-- Grievous Gladiator's Footguards of Meditation (Leather)
-											103191,	-- Grievous Gladiator's Bindings of Meditation
-											103200,	-- Grievous Gladiator's Bindings of Prowess
-											103198,	-- Grievous Gladiator's Belt of Cruelty
-											103189,	-- Grievous Gladiator's Belt of Meditation
-											103199,	-- Grievous Gladiator's Footguards of Alacrity (Leather)
-											103190,	-- Grievous Gladiator's Footguards of Meditation (Leather)
-											103184,	-- Grievous Gladiator's Dragonhide Gloves
-											103185,	-- Grievous Gladiator's Dragonhide Helm
-											103186,	-- Grievous Gladiator's Dragonhide Legguards
-											103187,	-- Grievous Gladiator's Dragonhide Robes
-											103188,	-- Grievous Gladiator's Dragonhide Spaulders
-											103192,	-- Grievous Gladiator's Kodohide Gloves
-											103193,	-- Grievous Gladiator's Kodohide Helm
-											103194,	-- Grievous Gladiator's Kodohide Legguards
-											103195,	-- Grievous Gladiator's Kodohide Robes
-											103196,	-- Grievous Gladiator's Kodohide Spaulders
-											103201,	-- Grievous Gladiator's Wyrmhide Gloves
-											103202,	-- Grievous Gladiator's Wyrmhide Helm
-											103203,	-- Grievous Gladiator's Wyrmhide Legguards
-											103204,	-- Grievous Gladiator's Wyrmhide Robes
-											103205,	-- Grievous Gladiator's Wyrmhide Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138669, {	-- Ensemble: Grievous Gladiator's Dragonhide Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103184)),	-- Grievous Gladiator's Dragonhide Gloves
 								moh(3, i(103185)),	-- Grievous Gladiator's Dragonhide Helm
 								moh(3, i(103186)),	-- Grievous Gladiator's Dragonhide Legguards
@@ -2017,31 +1734,9 @@ root(ROOTS.Zones, {
 								moh(2, i(103205)),	-- Grievous Gladiator's Wyrmhide Spaulders
 							}),
 							cl(HUNTER, {
-								i(138667, {	-- Ensemble: Grievous Gladiator's Chain Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, HUNTER },
-										{"select", "itemID",
-											100317,	-- Grievous Gladiator's Wristguards of Accuracy
-											100316,	-- Grievous Gladiator's Wristguards of Alacrity
-											100310,	-- Grievous Gladiator's Links of Accuracy
-											100308,	-- Grievous Gladiator's Links of Cruelty
-											100314,	-- Grievous Gladiator's Sabatons of Alacrity
-											100312,	-- Grievous Gladiator's Sabatons of Cruelty
-											100316,	-- Grievous Gladiator's Wristguards of Accuracy
-											103218,	-- Grievous Gladiator's Wristguards of Alacrity
-											103214,	-- Grievous Gladiator's Links of Accuracy
-											103213,	-- Grievous Gladiator's Links of Cruelty
-											103216,	-- Grievous Gladiator's Sabatons of Alacrity
-											103215,	-- Grievous Gladiator's Sabatons of Cruelty
-											103219,	-- Grievous Gladiator's Chain Armor
-											103220,	-- Grievous Gladiator's Chain Gauntlets
-											103221,	-- Grievous Gladiator's Chain Helm
-											103222,	-- Grievous Gladiator's Chain Leggings
-											103223,	-- Grievous Gladiator's Chain Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138667, {	-- Ensemble: Grievous Gladiator's Chain Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(103219)),	-- Grievous Gladiator's Chain Armor
 								moh(2, i(103220)),	-- Grievous Gladiator's Chain Gauntlets
 								moh(3, i(103221)),	-- Grievous Gladiator's Chain Helm
@@ -2049,25 +1744,9 @@ root(ROOTS.Zones, {
 								moh(2, i(103223)),	-- Grievous Gladiator's Chain Spaulders
 							}),
 							cl(MAGE, {
-								i(138675, {	-- Ensemble: Grievous Gladiator's Silk Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MAGE },
-										{"select", "itemID",
-											100218,	-- Grievous Gladiator's Cuffs of Prowess
-											100205,	-- Grievous Gladiator's Cord of Cruelty
-											100211,	-- Grievous Gladiator's Treads of Cruelty
-											103161,	-- Grievous Gladiator's Cuffs of Prowess
-											103154,	-- Grievous Gladiator's Cord of Cruelty
-											103157,	-- Grievous Gladiator's Treads of Cruelty
-											103228,	-- Grievous Gladiator's Silk Amice
-											103225,	-- Grievous Gladiator's Silk Cowl
-											103224,	-- Grievous Gladiator's Silk Handguards
-											103227,	-- Grievous Gladiator's Silk Robe
-											103226,	-- Grievous Gladiator's Silk Trousers
-										},
-									},
-								}),
+								moh(12, iensemble(138675, {	-- Ensemble: Grievous Gladiator's Silk Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103228)),	-- Grievous Gladiator's Silk Amice
 								moh(3, i(103225)),	-- Grievous Gladiator's Silk Cowl
 								moh(2, i(103224)),	-- Grievous Gladiator's Silk Handguards
@@ -2075,30 +1754,9 @@ root(ROOTS.Zones, {
 								moh(3, i(103226)),	-- Grievous Gladiator's Silk Trousers
 							}),
 							cl(MONK, {
-								i(138671, {	-- Ensemble: Grievous Gladiator's Ironskin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, MONK },
-										{"select", "itemID",
-											100342,	-- Grievous Gladiator's Armwraps of Accuracy
-											100338,	-- Grievous Gladiator's Waistband of Cruelty
-											100340,	-- Grievous Gladiator's Boots of Alacrity
-											103231,	-- Grievous Gladiator's Armwraps of Accuracy
-											103298,	-- Grievous Gladiator's Waistband of Cruelty
-											103230,	-- Grievous Gladiator's Boots of Alacrity
-											103237,	-- Grievous Gladiator's Copperskin Gloves
-											103238,	-- Grievous Gladiator's Copperskin Helm
-											103239,	-- Grievous Gladiator's Copperskin Legguards
-											103240,	-- Grievous Gladiator's Copperskin Spaulders
-											103241,	-- Grievous Gladiator's Copperskin Tunic
-											103232,	-- Grievous Gladiator's Ironskin Gloves
-											103233,	-- Grievous Gladiator's Ironskin Helm
-											103234,	-- Grievous Gladiator's Ironskin Legguards
-											103235,	-- Grievous Gladiator's Ironskin Spaulders
-											103236,	-- Grievous Gladiator's Ironskin Tunic
-										},
-									},
-								}),
+								moh(12, iensemble(138671, {	-- Ensemble: Grievous Gladiator's Ironskin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103237)),	-- Grievous Gladiator's Copperskin Gloves
 								moh(3, i(103238)),	-- Grievous Gladiator's Copperskin Helm
 								moh(3, i(103239)),	-- Grievous Gladiator's Copperskin Legguards
@@ -2111,36 +1769,9 @@ root(ROOTS.Zones, {
 								moh(3, i(103236)),	-- Grievous Gladiator's Ironskin Tunic
 							}),
 							cl(PALADIN, {
-								i(138663, {	-- Ensemble: Grievous Gladiator's Scaled Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PALADIN },
-										{"select", "itemID",
-											100382,	-- Grievous Gladiator's Bracers of Meditation
-											100381,	-- Grievous Gladiator's Bracers of Prowess
-											100373,	-- Grievous Gladiator's Clasp of Cruelty
-											100375,	-- Grievous Gladiator's Clasp of Meditation
-											100377,	-- Grievous Gladiator's Greaves of Alacrity
-											100379,	-- Grievous Gladiator's Greaves of Meditation
-											103252,	-- Grievous Gladiator's Bracers of Meditation
-											103251,	-- Grievous Gladiator's Bracers of Prowess
-											103247,	-- Grievous Gladiator's Clasp of Cruelty
-											103248,	-- Grievous Gladiator's Clasp of Meditation
-											103249,	-- Grievous Gladiator's Greaves of Alacrity
-											103250,	-- Grievous Gladiator's Greaves of Meditation
-											103253,	-- Grievous Gladiator's Ornamented Chestguard
-											103254,	-- Grievous Gladiator's Ornamented Gloves
-											103255,	-- Grievous Gladiator's Ornamented Headcover
-											103256,	-- Grievous Gladiator's Ornamented Legplates
-											103257,	-- Grievous Gladiator's Ornamented Spaulders
-											103242,	-- Grievous Gladiator's Scaled Chestpiece
-											103243,	-- Grievous Gladiator's Scaled Gauntlets
-											103244,	-- Grievous Gladiator's Scaled Helm
-											103245,	-- Grievous Gladiator's Scaled Legguards
-											103246,	-- Grievous Gladiator's Scaled Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138663, {	-- Ensemble: Grievous Gladiator's Scaled Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(103253)),	-- Grievous Gladiator's Ornamented Chestguard
 								moh(2, i(103254)),	-- Grievous Gladiator's Ornamented Gloves
 								moh(3, i(103255)),	-- Grievous Gladiator's Ornamented Headcover
@@ -2153,30 +1784,9 @@ root(ROOTS.Zones, {
 								moh(2, i(103246)),	-- Grievous Gladiator's Scaled Shoulders
 							}),
 							cl(PRIEST, {
-								i(138677, {	-- Ensemble: Grievous Gladiator's Satin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, PRIEST },
-										{"select", "itemID",
-											100219,	-- Grievous Gladiator's Cuffs of Meditation
-											100209,	-- Grievous Gladiator's Cord of Meditation
-											100215,	-- Grievous Gladiator's Treads of Meditation
-											103162,	-- Grievous Gladiator's Cuffs of Meditation
-											103156,	-- Grievous Gladiator's Cord of Meditation
-											103159,	-- Grievous Gladiator's Treads of Meditation
-											103265,	-- Grievous Gladiator's Mooncloth Gloves
-											103266,	-- Grievous Gladiator's Mooncloth Helm
-											103267,	-- Grievous Gladiator's Mooncloth Leggings
-											103269,	-- Grievous Gladiator's Mooncloth Mantle
-											103268,	-- Grievous Gladiator's Mooncloth Robe
-											103270,	-- Grievous Gladiator's Satin Gloves
-											103271,	-- Grievous Gladiator's Satin Hood
-											103272,	-- Grievous Gladiator's Satin Leggings
-											103274,	-- Grievous Gladiator's Satin Mantle
-											103273,	-- Grievous Gladiator's Satin Robe
-										},
-									},
-								}),
+								moh(12, iensemble(138677, {	-- Ensemble: Grievous Gladiator's Satin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103265)),	-- Grievous Gladiator's Mooncloth Gloves
 								moh(3, i(103266)),	-- Grievous Gladiator's Mooncloth Helm
 								moh(3, i(103267)),	-- Grievous Gladiator's Mooncloth Leggings
@@ -2189,25 +1799,9 @@ root(ROOTS.Zones, {
 								moh(3, i(103273)),	-- Grievous Gladiator's Satin Robe
 							}),
 							cl(ROGUE, {
-								i(138673, {	-- Ensemble: Grievous Gladiator's Leather Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, ROGUE },
-										{"select", "itemID",
-											100342,	-- Grievous Gladiator's Armwraps of Alacrity
-											100425,	-- Grievous Gladiator's Waistband of Accuracy
-											100427,	-- Grievous Gladiator's Boots of Cruelty
-											103277,	-- Grievous Gladiator's Armwraps of Alacrity
-											103275,	-- Grievous Gladiator's Waistband of Accuracy
-											103276,	-- Grievous Gladiator's Boots of Cruelty
-											103279,	-- Grievous Gladiator's Leather Gloves
-											103280,	-- Grievous Gladiator's Leather Helm
-											103281,	-- Grievous Gladiator's Leather Legguards
-											103282,	-- Grievous Gladiator's Leather Spaulders
-											103278,	-- Grievous Gladiator's Leather Tunic
-										},
-									},
-								}),
+								moh(12, iensemble(138673, {	-- Ensemble: Grievous Gladiator's Leather Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103279)),	-- Grievous Gladiator's Leather Gloves
 								moh(3, i(103280)),	-- Grievous Gladiator's Leather Helm
 								moh(3, i(103281)),	-- Grievous Gladiator's Leather Legguards
@@ -2215,41 +1809,9 @@ root(ROOTS.Zones, {
 								moh(3, i(103278)),	-- Grievous Gladiator's Leather Tunic
 							}),
 							cl(SHAMAN, {
-								i(138665, {	-- Ensemble: Grievous Gladiator's Ringmail Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, SHAMAN },
-										{"select", "itemID",
-											100447,	-- Grievous Gladiator's Armbands of Meditation
-											100446,	-- Grievous Gladiator's Armbands of Prowess
-											100468,	-- Grievous Gladiator's Waistguard of Cruelty
-											100440,	-- Grievous Gladiator's Waistguard of Meditation
-											100442,	-- Grievous Gladiator's Footguards of Alacrity (Mail)
-											100444,	-- Grievous Gladiator's Footguards of Meditation (Mail)
-											103287,	-- Grievous Gladiator's Armbands of Meditation
-											103286,	-- Grievous Gladiator's Armbands of Prowess
-											103298,	-- Grievous Gladiator's Waistguard of Cruelty
-											103283,	-- Grievous Gladiator's Waistguard of Meditation
-											103284,	-- Grievous Gladiator's Footguards of Alacrity (Mail)
-											103285,	-- Grievous Gladiator's Footguards of Meditation (Mail)
-											103293,	-- Grievous Gladiator's Linked Armor
-											103294,	-- Grievous Gladiator's Linked Gauntlets
-											103295,	-- Grievous Gladiator's Linked Helm
-											103296,	-- Grievous Gladiator's Linked Leggings
-											103297,	-- Grievous Gladiator's Linked Spaulders
-											103299,	-- Grievous Gladiator's Mail Armor
-											103300,	-- Grievous Gladiator's Mail Gauntlets
-											103301,	-- Grievous Gladiator's Mail Helm
-											103302,	-- Grievous Gladiator's Mail Leggings
-											103303,	-- Grievous Gladiator's Mail Spaulders
-											103288,	-- Grievous Gladiator's Ringmail Armor
-											103289,	-- Grievous Gladiator's Ringmail Gauntlets
-											103290,	-- Grievous Gladiator's Ringmail Helm
-											103291,	-- Grievous Gladiator's Ringmail Leggings
-											103292,	-- Grievous Gladiator's Ringmail Spaulders
-										},
-									},
-								}),
+								moh(12, iensemble(138665, {	-- Ensemble: Grievous Gladiator's Ringmail Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(103293)),	-- Grievous Gladiator's Linked Armor
 								moh(2, i(103294)),	-- Grievous Gladiator's Linked Gauntlets
 								moh(3, i(103295)),	-- Grievous Gladiator's Linked Helm
@@ -2267,25 +1829,9 @@ root(ROOTS.Zones, {
 								moh(2, i(103292)),	-- Grievous Gladiator's Ringmail Spaulders
 							}),
 							cl(WARLOCK, {
-								i(138679, {	-- Ensemble: Grievous Gladiator's Felweave Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARLOCK },
-										{"select", "itemID",
-											100217,	-- Grievous Gladiator's Cuffs of Accuracy
-											100207,	-- Grievous Gladiator's Cord of Accuracy
-											100213,	-- Grievous Gladiator's Treads of Alacrity
-											103160,	-- Grievous Gladiator's Cuffs of Accuracy
-											103155,	-- Grievous Gladiator's Cord of Accuracy
-											103158,	-- Grievous Gladiator's Treads of Alacrity
-											103327,	-- Grievous Gladiator's Felweave Amice
-											103324,	-- Grievous Gladiator's Felweave Cowl
-											103323,	-- Grievous Gladiator's Felweave Handguards
-											103326,	-- Grievous Gladiator's Felweave Raiment
-											103325,	-- Grievous Gladiator's Felweave Trousers
-										},
-									},
-								}),
+								moh(12, iensemble(138679, {	-- Ensemble: Grievous Gladiator's Felweave Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(103327)),	-- Grievous Gladiator's Felweave Amice
 								moh(3, i(103324)),	-- Grievous Gladiator's Felweave Cowl
 								moh(2, i(103323)),	-- Grievous Gladiator's Felweave Handguards
@@ -2293,25 +1839,9 @@ root(ROOTS.Zones, {
 								moh(3, i(103325)),	-- Grievous Gladiator's Felweave Trousers
 							}),
 							cl(WARRIOR, {
-								i(138659, {	-- Ensemble: Grievous Gladiator's Plate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_GRIEVOUS, FACTION_HEADER_ALLIANCE, PVP_GLADIATOR, WARRIOR },
-										{"select", "itemID",
-											100401,	-- Grievous Gladiator's Armplates of Proficiency
-											100395,	-- Grievous Gladiator's Girdle of Prowess
-											100397,	-- Grievous Gladiator's Warboots of Cruelty
-											103262,	-- Grievous Gladiator's Armplates of Proficiency
-											103259,	-- Grievous Gladiator's Girdle of Prowess
-											103260,	-- Grievous Gladiator's Warboots of Cruelty
-											103328,	-- Grievous Gladiator's Plate Chestpiece
-											103329,	-- Grievous Gladiator's Plate Gauntlets
-											103330,	-- Grievous Gladiator's Plate Helm
-											103331,	-- Grievous Gladiator's Plate Legguards
-											103332,	-- Grievous Gladiator's Plate Shoulders
-										},
-									},
-								}),
+								moh(12, iensemble(138659, {	-- Ensemble: Grievous Gladiator's Plate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(103328)),	-- Grievous Gladiator's Plate Chestpiece
 								moh(2, i(103329)),	-- Grievous Gladiator's Plate Gauntlets
 								moh(3, i(103330)),	-- Grievous Gladiator's Plate Helm
@@ -2395,17 +1925,9 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							cl(DEATHKNIGHT, {
-								i(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, DEATHKNIGHT },
-										{"select", "itemID",
-											84438,	-- Dreadful Gladiator's Armplates of Proficiency
-											84434,	-- Dreadful Gladiator's Girdle of Accuracy
-											84436,	-- Dreadful Gladiator's Warboots of Cruelty
-										},
-									},
-								}),
+								moh(12, iensemble(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(84372)),	-- Dreadful Gladiator's Dreadplate Chestpiece
 								moh(2, i(84373)),	-- Dreadful Gladiator's Dreadplate Gauntlets
 								moh(3, i(84374)),	-- Dreadful Gladiator's Dreadplate Helm
@@ -2413,20 +1935,9 @@ root(ROOTS.Zones, {
 								moh(2, i(84376)),	-- Dreadful Gladiator's Dreadplate Shoulders
 							}),
 							cl(DRUID, {
-								i(138719, {	-- Ensemble: Dreadful Gladiator's Dragonhide Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, DRUID },
-										{"select", "itemID",
-											84384,	-- Dreadful Gladiator's Bindings of Meditation
-											84392,	-- Dreadful Gladiator's Bindings of Prowess
-											84390,	-- Dreadful Gladiator's Belt of Cruelty
-											84382,	-- Dreadful Gladiator's Belt of Meditation
-											84391,	-- Dreadful Gladiator's Footguards of Alacrity (Leather)
-											84383,	-- Dreadful Gladiator's Footguards of Meditation (Leather)
-										},
-									},
-								}),
+								moh(12, iensemble(138719, {	-- Ensemble: Dreadful Gladiator's Dragonhide Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84377)),	-- Dreadful Gladiator's Dragonhide Gloves
 								moh(3, i(84378)),	-- Dreadful Gladiator's Dragonhide Helm
 								moh(3, i(84379)),	-- Dreadful Gladiator's Dragonhide Legguards
@@ -2444,20 +1955,9 @@ root(ROOTS.Zones, {
 								moh(2, i(84397)),	-- Dreadful Gladiator's Wyrmhide Spaulders
 							}),
 							cl(HUNTER, {
-								i(138718, {	-- Ensemble: Dreadful Gladiator's Chain Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, HUNTER },
-										{"select", "itemID",
-											84407,	-- Dreadful Gladiator's Wristguards of Accuracy
-											84406,	-- Dreadful Gladiator's Wristguards of Alacrity
-											84403,	-- Dreadful Gladiator's Links of Accuracy
-											84402,	-- Dreadful Gladiator's Links of Cruelty
-											84405,	-- Dreadful Gladiator's Sabatons of Alacrity
-											84404,	-- Dreadful Gladiator's Sabatons of Cruelty
-										},
-									},
-								}),
+								moh(12, iensemble(138718, {	-- Ensemble: Dreadful Gladiator's Chain Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(84408)),	-- Dreadful Gladiator's Chain Armor
 								moh(2, i(84409)),	-- Dreadful Gladiator's Chain Gauntlets
 								moh(3, i(84410)),	-- Dreadful Gladiator's Chain Helm
@@ -2465,17 +1965,9 @@ root(ROOTS.Zones, {
 								moh(2, i(84412)),	-- Dreadful Gladiator's Chain Spaulders
 							}),
 							cl(MAGE, {
-								i(138722, {	-- Ensemble: Dreadful Gladiator's Silk Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, MAGE },
-										{"select", "itemID",
-											84360,	-- Dreadful Gladiator's Cuffs of Prowess
-											84353,	-- Dreadful Gladiator's Cord of Cruelty
-											84356,	-- Dreadful Gladiator's Treads of Cruelty
-										},
-									},
-								}),
+								moh(12, iensemble(138722, {	-- Ensemble: Dreadful Gladiator's Silk Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84417)),	-- Dreadful Gladiator's Silk Amice
 								moh(3, i(84414)),	-- Dreadful Gladiator's Silk Cowl
 								moh(2, i(84413)),	-- Dreadful Gladiator's Silk Handguards
@@ -2483,17 +1975,9 @@ root(ROOTS.Zones, {
 								moh(3, i(84415)),	-- Dreadful Gladiator's Silk Trousers
 							}),
 							cl(MONK, {
-								i(138720, {	-- Ensemble: Dreadful Gladiator's Ironskin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, MONK },
-										{"select", "itemID",
-											84461,	-- Dreadful Gladiator's Armwraps of Accuracy
-											84456,	-- Dreadful Gladiator's Waistband of Cruelty
-											84459,	-- Dreadful Gladiator's Boots of Alacrity
-										},
-									},
-								}),
+								moh(12, iensemble(138720, {	-- Ensemble: Dreadful Gladiator's Ironskin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84548)),	-- Dreadful Gladiator's Copperskin Gloves
 								moh(3, i(84549)),	-- Dreadful Gladiator's Copperskin Helm
 								moh(3, i(84550)),	-- Dreadful Gladiator's Copperskin Legguards
@@ -2506,20 +1990,9 @@ root(ROOTS.Zones, {
 								moh(3, i(84546)),	-- Dreadful Gladiator's Ironskin Tunic
 							}),
 							cl(PALADIN, {
-								i(138716, {	-- Ensemble: Dreadful Gladiator's Scaled Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, PALADIN },
-										{"select", "itemID",
-											84428,	-- Dreadful Gladiator's Bracers of Meditation
-											84427,	-- Dreadful Gladiator's Bracers of Prowess
-											84423,	-- Dreadful Gladiator's Clasp of Cruelty
-											84424,	-- Dreadful Gladiator's Clasp of Meditation
-											84425,	-- Dreadful Gladiator's Greaves of Alacrity
-											84426,	-- Dreadful Gladiator's Greaves of Meditation
-										},
-									},
-								}),
+								moh(12, iensemble(138716, {	-- Ensemble: Dreadful Gladiator's Scaled Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(84429)),	-- Dreadful Gladiator's Ornamented Chestguard
 								moh(2, i(84430)),	-- Dreadful Gladiator's Ornamented Gloves
 								moh(3, i(84431)),	-- Dreadful Gladiator's Ornamented Headcover
@@ -2532,17 +2005,9 @@ root(ROOTS.Zones, {
 								moh(2, i(84422)),	-- Dreadful Gladiator's Scaled Shoulders
 							}),
 							cl(PRIEST, {
-								i(138723, {	-- Ensemble: Dreadful Gladiator's Satin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, PRIEST },
-										{"select", "itemID",
-											84361,	-- Dreadful Gladiator's Cuffs of Meditation
-											84355,	-- Dreadful Gladiator's Cord of Meditation
-											84358,	-- Dreadful Gladiator's Treads of Meditation
-										},
-									},
-								}),
+								moh(12, iensemble(138723, {	-- Ensemble: Dreadful Gladiator's Satin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84440)),	-- Dreadful Gladiator's Mooncloth Gloves
 								moh(3, i(84441)),	-- Dreadful Gladiator's Mooncloth Helm
 								moh(3, i(84442)),	-- Dreadful Gladiator's Mooncloth Leggings
@@ -2555,17 +2020,9 @@ root(ROOTS.Zones, {
 								moh(3, i(84448)),	-- Dreadful Gladiator's Satin Robe
 							}),
 							cl(ROGUE, {
-								i(138721, {	-- Ensemble: Dreadful Gladiator's Leather Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, ROGUE },
-										{"select", "itemID",
-											84460,	-- Dreadful Gladiator's Armwraps of Alacrity
-											84457,	-- Dreadful Gladiator's Waistband of Accuracy
-											84458,	-- Dreadful Gladiator's Boots of Cruelty
-										},
-									},
-								}),
+								moh(12, iensemble(138721, {	-- Ensemble: Dreadful Gladiator's Leather Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84463)),	-- Dreadful Gladiator's Leather Gloves
 								moh(3, i(84464)),	-- Dreadful Gladiator's Leather Helm
 								moh(3, i(84465)),	-- Dreadful Gladiator's Leather Legguards
@@ -2573,20 +2030,9 @@ root(ROOTS.Zones, {
 								moh(3, i(84462)),	-- Dreadful Gladiator's Leather Tunic
 							}),
 							cl(SHAMAN, {
-								i(138717, {	-- Ensemble: Dreadful Gladiator's Ringmail Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, SHAMAN },
-										{"select", "itemID",
-											84471,	-- Dreadful Gladiator's Armbands of Meditation
-											84470,	-- Dreadful Gladiator's Armbands of Prowess
-											84482,	-- Dreadful Gladiator's Waistguard of Cruelty
-											84467,	-- Dreadful Gladiator's Waistguard of Meditation
-											84468,	-- Dreadful Gladiator's Footguards of Alacrity (Mail)
-											84469,	-- Dreadful Gladiator's Footguards of Meditation (Mail)
-										},
-									},
-								}),
+								moh(12, iensemble(138717, {	-- Ensemble: Dreadful Gladiator's Ringmail Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(84477)),	-- Dreadful Gladiator's Linked Armor
 								moh(2, i(84478)),	-- Dreadful Gladiator's Linked Gauntlets
 								moh(3, i(84479)),	-- Dreadful Gladiator's Linked Helm
@@ -2604,17 +2050,9 @@ root(ROOTS.Zones, {
 								moh(2, i(84476)),	-- Dreadful Gladiator's Ringmail Spaulders
 							}),
 							cl(WARLOCK, {
-								i(138724, {	-- Ensemble: Dreadful Gladiator's Felweave Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, WARLOCK },
-										{"select", "itemID",
-											84359,	-- Dreadful Gladiator's Cuffs of Accuracy
-											84354,	-- Dreadful Gladiator's Cord of Accuracy
-											84357,	-- Dreadful Gladiator's Treads of Alacrity
-										},
-									},
-								}),
+								moh(12, iensemble(138724, {	-- Ensemble: Dreadful Gladiator's Felweave Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(2, i(84503)),	-- Dreadful Gladiator's Felweave Amice
 								moh(3, i(84500)),	-- Dreadful Gladiator's Felweave Cowl
 								moh(2, i(84499)),	-- Dreadful Gladiator's Felweave Handguards
@@ -2622,17 +2060,9 @@ root(ROOTS.Zones, {
 								moh(3, i(84501)),	-- Dreadful Gladiator's Felweave Trousers
 							}),
 							cl(WARRIOR, {
-								i(138714, {	-- Ensemble: Dreadful Gladiator's Plate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR, WARRIOR },
-										{"select", "itemID",
-											84439,	-- Dreadful Gladiator's Armplates of Alacrity
-											84435,	-- Dreadful Gladiator's Girdle of Prowess
-											84437,	-- Dreadful Gladiator's Warboots of Alacrity
-										},
-									},
-								}),
+								moh(12, iensemble(138714, {	-- Ensemble: Dreadful Gladiator's Plate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
 								moh(3, i(84504)),	-- Dreadful Gladiator's Plate Chestpiece
 								moh(2, i(84505)),	-- Dreadful Gladiator's Plate Gauntlets
 								moh(3, i(84506)),	-- Dreadful Gladiator's Plate Helm
@@ -2769,32 +2199,14 @@ root(ROOTS.Zones, {
 								moh(5, i(91535)),	-- Malevolent Gladiator's Staff
 							}),
 							cl(DEATHKNIGHT, {
-								i(138704, {	-- Ensemble: Malevolent Gladiator's Dreadplate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, DEATHKNIGHT },
-										{"select", "itemID",
-											84985,	-- Malevolent Gladiator's Armplates of Proficiency
-											84949,	-- Malevolent Gladiator's Girdle of Accuracy
-											84810,	-- Malevolent Gladiator's Warboots of Cruelty
-											91658,	-- Malevolent Gladiator's Armplates of Proficiency
-											91650,	-- Malevolent Gladiator's Girdle of Accuracy
-											91654,	-- Malevolent Gladiator's Warboots of Cruelty
-											91500,	-- Malevolent Gladiator's Dreadplate Chestpiece
-											91502,	-- Malevolent Gladiator's Dreadplate Gauntlets
-											91504,	-- Malevolent Gladiator's Dreadplate Helm
-											91506,	-- Malevolent Gladiator's Dreadplate Legguards
-											91508,	-- Malevolent Gladiator's Dreadplate Shoulders
-										},
-									},
-									["groups"] = {
-										i(84795),	-- Malevolent Gladiator's Dreadplate Chestpiece
-										i(84835),	-- Malevolent Gladiator's Dreadplate Gauntlets
-										i(84853),	-- Malevolent Gladiator's Dreadplate Helm
-										i(84872),	-- Malevolent Gladiator's Dreadplate Legguards
-										i(84918),	-- Malevolent Gladiator's Dreadplate Shoulders
-									},
-								}),
+								moh(12, iensemble(138704, {	-- Ensemble: Malevolent Gladiator's Dreadplate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84795),	-- Malevolent Gladiator's Dreadplate Chestpiece
+								i(84835),	-- Malevolent Gladiator's Dreadplate Gauntlets
+								i(84853),	-- Malevolent Gladiator's Dreadplate Helm
+								i(84872),	-- Malevolent Gladiator's Dreadplate Legguards
+								i(84918),	-- Malevolent Gladiator's Dreadplate Shoulders
 								moh(3, i(91500)),	-- Malevolent Gladiator's Dreadplate Chestpiece
 								moh(2, i(91502)),	-- Malevolent Gladiator's Dreadplate Gauntlets
 								moh(3, i(91504)),	-- Malevolent Gladiator's Dreadplate Helm
@@ -2802,58 +2214,24 @@ root(ROOTS.Zones, {
 								moh(2, i(91508)),	-- Malevolent Gladiator's Dreadplate Shoulders
 							}),
 							cl(DRUID, {
-								i(138708, {	-- Ensemble: Malevolent Gladiator's Dragonhide Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, DRUID },
-										{"select", "itemID",
-											84976,	-- Malevolent Gladiator's Bindings of Meditation
-											84982,	-- Malevolent Gladiator's Bindings of Prowess
-											84960,	-- Malevolent Gladiator's Belt of Cruelty
-											84953,	-- Malevolent Gladiator's Belt of Meditation
-											84819,	-- Malevolent Gladiator's Footguards of Alacrity (Leather)
-											84813,	-- Malevolent Gladiator's Footguards of Meditation (Leather)
-											91524,	-- Malevolent Gladiator's Bindings of Meditation
-											91541,	-- Malevolent Gladiator's Bindings of Prowess
-											91537,	-- Malevolent Gladiator's Belt of Cruelty
-											91520,	-- Malevolent Gladiator's Belt of Meditation
-											91539,	-- Malevolent Gladiator's Footguards of Alacrity (Leather)
-											91522,	-- Malevolent Gladiator's Footguards of Meditation (Leather)
-											91510,	-- Malevolent Gladiator's Dragonhide Gloves
-											91512,	-- Malevolent Gladiator's Dragonhide Helm
-											91514,	-- Malevolent Gladiator's Dragonhide Legguards
-											91516,	-- Malevolent Gladiator's Dragonhide Robes
-											91518,	-- Malevolent Gladiator's Dragonhide Spaulders
-											91525,	-- Malevolent Gladiator's Kodohide Gloves
-											91527,	-- Malevolent Gladiator's Kodohide Helm
-											91529,	-- Malevolent Gladiator's Kodohide Legguards
-											91531,	-- Malevolent Gladiator's Kodohide Robes
-											91533,	-- Malevolent Gladiator's Kodohide Spaulders
-											91542,	-- Malevolent Gladiator's Wyrmhide Gloves
-											91544,	-- Malevolent Gladiator's Wyrmhide Helm
-											91546,	-- Malevolent Gladiator's Wyrmhide Legguards
-											91548,	-- Malevolent Gladiator's Wyrmhide Robes
-											91550,	-- Malevolent Gladiator's Wyrmhide Spaulders
-										},
-									},
-									["groups"] = {
-										i(84832),	-- Malevolent Gladiator's Dragonhide Gloves
-										i(84852),	-- Malevolent Gladiator's Dragonhide Helm
-										i(84871),	-- Malevolent Gladiator's Dragonhide Legguards
-										i(84901),	-- Malevolent Gladiator's Dragonhide Robes
-										i(84916),	-- Malevolent Gladiator's Dragonhide Spaulders
-										i(84833),	-- Malevolent Gladiator's Kodohide Gloves
-										i(84850),	-- Malevolent Gladiator's Kodohide Helm
-										i(84882),	-- Malevolent Gladiator's Kodohide Legguards
-										i(84907),	-- Malevolent Gladiator's Kodohide Robes
-										i(84927),	-- Malevolent Gladiator's Kodohide Spaulders
-										i(84843),	-- Malevolent Gladiator's Wyrmhide Gloves
-										i(84861),	-- Malevolent Gladiator's Wyrmhide Helm
-										i(84880),	-- Malevolent Gladiator's Wyrmhide Legguards
-										i(84906),	-- Malevolent Gladiator's Wyrmhide Robes
-										i(84925),	-- Malevolent Gladiator's Wyrmhide Spaulders
-									},
-								}),
+								moh(12, iensemble(138708, {	-- Ensemble: Malevolent Gladiator's Dragonhide Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84832),	-- Malevolent Gladiator's Dragonhide Gloves
+								i(84852),	-- Malevolent Gladiator's Dragonhide Helm
+								i(84871),	-- Malevolent Gladiator's Dragonhide Legguards
+								i(84901),	-- Malevolent Gladiator's Dragonhide Robes
+								i(84916),	-- Malevolent Gladiator's Dragonhide Spaulders
+								i(84833),	-- Malevolent Gladiator's Kodohide Gloves
+								i(84850),	-- Malevolent Gladiator's Kodohide Helm
+								i(84882),	-- Malevolent Gladiator's Kodohide Legguards
+								i(84907),	-- Malevolent Gladiator's Kodohide Robes
+								i(84927),	-- Malevolent Gladiator's Kodohide Spaulders
+								i(84843),	-- Malevolent Gladiator's Wyrmhide Gloves
+								i(84861),	-- Malevolent Gladiator's Wyrmhide Helm
+								i(84880),	-- Malevolent Gladiator's Wyrmhide Legguards
+								i(84906),	-- Malevolent Gladiator's Wyrmhide Robes
+								i(84925),	-- Malevolent Gladiator's Wyrmhide Spaulders
 								moh(2, i(91510)),	-- Malevolent Gladiator's Dragonhide Gloves
 								moh(3, i(91512)),	-- Malevolent Gladiator's Dragonhide Helm
 								moh(3, i(91514)),	-- Malevolent Gladiator's Dragonhide Legguards
@@ -2871,38 +2249,14 @@ root(ROOTS.Zones, {
 								moh(2, i(91550)),	-- Malevolent Gladiator's Wyrmhide Spaulders
 							}),
 							cl(HUNTER, {
-								i(138707, {	-- Ensemble: Malevolent Gladiator's Chain Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, HUNTER },
-										{"select", "itemID",
-											84981,	-- Malevolent Gladiator's Wristguards of Accuracy
-											84980,	-- Malevolent Gladiator's Wristguards of Alacrity
-											84957,	-- Malevolent Gladiator's Links of Accuracy
-											84958,	-- Malevolent Gladiator's Links of Cruelty
-											84818,	-- Malevolent Gladiator's Sabatons of Alacrity
-											84817,	-- Malevolent Gladiator's Sabatons of Cruelty
-											91574,	-- Malevolent Gladiator's Wristguards of Accuracy
-											91573,	-- Malevolent Gladiator's Wristguards of Alacrity
-											91567,	-- Malevolent Gladiator's Links of Accuracy
-											91565,	-- Malevolent Gladiator's Links of Cruelty
-											91571,	-- Malevolent Gladiator's Sabatons of Alacrity
-											91569,	-- Malevolent Gladiator's Sabatons of Cruelty
-											91575,	-- Malevolent Gladiator's Chain Armor
-											91577,	-- Malevolent Gladiator's Chain Gauntlets
-											91579,	-- Malevolent Gladiator's Chain Helm
-											91581,	-- Malevolent Gladiator's Chain Leggings
-											91583,	-- Malevolent Gladiator's Chain Spaulders
-										},
-									},
-									["groups"] = {
-										i(84796),	-- Malevolent Gladiator's Chain Armor
-										i(84841),	-- Malevolent Gladiator's Chain Gauntlets
-										i(84858),	-- Malevolent Gladiator's Chain Helm
-										i(84874),	-- Malevolent Gladiator's Chain Leggings
-										i(84921),	-- Malevolent Gladiator's Chain Spaulders
-									},
-								}),
+								moh(12, iensemble(138707, {	-- Ensemble: Malevolent Gladiator's Chain Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84796),	-- Malevolent Gladiator's Chain Armor
+								i(84841),	-- Malevolent Gladiator's Chain Gauntlets
+								i(84858),	-- Malevolent Gladiator's Chain Helm
+								i(84874),	-- Malevolent Gladiator's Chain Leggings
+								i(84921),	-- Malevolent Gladiator's Chain Spaulders
 								moh(3, i(91575)),	-- Malevolent Gladiator's Chain Armor
 								moh(2, i(91577)),	-- Malevolent Gladiator's Chain Gauntlets
 								moh(3, i(91579)),	-- Malevolent Gladiator's Chain Helm
@@ -2910,44 +2264,14 @@ root(ROOTS.Zones, {
 								moh(2, i(91583)),	-- Malevolent Gladiator's Chain Spaulders
 							}),
 							cl(MAGE, {
-								i(138711, {	-- Ensemble: Malevolent Gladiator's Silk Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, MAGE },
-										{"select", "itemID",
-											84978,	-- Malevolent Gladiator's Cuffs of Prowess
-											84954,	-- Malevolent Gladiator's Cord of Cruelty
-											84814,	-- Malevolent Gladiator's Treads of Cruelty
-											91475,	-- Malevolent Gladiator's Cuffs of Prowess
-											91462,	-- Malevolent Gladiator's Cord of Cruelty
-											91468,	-- Malevolent Gladiator's Treads of Cruelty
-											91593,	-- Malevolent Gladiator's Silk Amice
-											91587,	-- Malevolent Gladiator's Silk Cowl
-											91585,	-- Malevolent Gladiator's Silk Handguards
-											91591,	-- Malevolent Gladiator's Silk Robe
-											91589,	-- Malevolent Gladiator's Silk Trousers
-										},
-										{"exclude", "itemID",
-											97925,	-- Malevolent Gladiator's Silk Amice
-											97835,	-- Malevolent Gladiator's Silk Amice
-											97923,	-- Malevolent Gladiator's Silk Cowl
-											97833,	-- Malevolent Gladiator's Silk Cowl
-											97929,	-- Malevolent Gladiator's Silk Handguards
-											97839,	-- Malevolent Gladiator's Silk Handguards
-											97927,	-- Malevolent Gladiator's Silk Robe
-											97837,	-- Malevolent Gladiator's Silk Robe
-											97931,	-- Malevolent Gladiator's Silk Trousers
-											97841,	-- Malevolent Gladiator's Silk Trousers
-										},
-									},
-									["groups"] = {
-										i(84917),	-- Malevolent Gladiator's Silk Amice
-										i(84855),	-- Malevolent Gladiator's Silk Cowl
-										i(84837),	-- Malevolent Gladiator's Silk Handguards
-										i(84904),	-- Malevolent Gladiator's Silk Robe
-										i(84875),	-- Malevolent Gladiator's Silk Trousers
-									},
-								}),
+								moh(12, iensemble(138711, {	-- Ensemble: Malevolent Gladiator's Silk Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84917),	-- Malevolent Gladiator's Silk Amice
+								i(84855),	-- Malevolent Gladiator's Silk Cowl
+								i(84837),	-- Malevolent Gladiator's Silk Handguards
+								i(84904),	-- Malevolent Gladiator's Silk Robe
+								i(84875),	-- Malevolent Gladiator's Silk Trousers
 								moh(2, i(91593)),	-- Malevolent Gladiator's Silk Amice
 								moh(3, i(91587)),	-- Malevolent Gladiator's Silk Cowl
 								moh(2, i(91585)),	-- Malevolent Gladiator's Silk Handguards
@@ -2955,42 +2279,19 @@ root(ROOTS.Zones, {
 								moh(3, i(91589)),	-- Malevolent Gladiator's Silk Trousers
 							}),
 							cl(MONK, {
-								i(138709, {	-- Ensemble: Malevolent Gladiator's Ironskin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, MONK },
-										{"select", "itemID",
-											84973,	-- Malevolent Gladiator's Armwraps of Accuracy
-											84947,	-- Malevolent Gladiator's Waistband of Cruelty
-											84809,	-- Malevolent Gladiator's Boots of Alacrity
-											91692,	-- Malevolent Gladiator's Armwraps of Accuracy
-											91595,	-- Malevolent Gladiator's Waistband of Cruelty
-											91597,	-- Malevolent Gladiator's Boots of Alacrity
-											91610,	-- Malevolent Gladiator's Copperskin Gloves
-											91612,	-- Malevolent Gladiator's Copperskin Helm
-											91614,	-- Malevolent Gladiator's Copperskin Legguards
-											91616,	-- Malevolent Gladiator's Copperskin Spaulders
-											91618,	-- Malevolent Gladiator's Copperskin Tunic
-											91600,	-- Malevolent Gladiator's Ironskin Gloves
-											91602,	-- Malevolent Gladiator's Ironskin Helm
-											91604,	-- Malevolent Gladiator's Ironskin Legguards
-											91606,	-- Malevolent Gladiator's Ironskin Spaulders
-											91608,	-- Malevolent Gladiator's Ironskin Tunic
-										},
-									},
-									["groups"] = {
-										i(84836),	-- Malevolent Gladiator's Copperskin Gloves
-										i(84854),	-- Malevolent Gladiator's Copperskin Helm
-										i(84873),	-- Malevolent Gladiator's Copperskin Legguards
-										i(84920),	-- Malevolent Gladiator's Copperskin Spaulders
-										i(84903),	-- Malevolent Gladiator's Copperskin Tunic
-										i(84839),	-- Malevolent Gladiator's Ironskin Gloves
-										i(84857),	-- Malevolent Gladiator's Ironskin Helm
-										i(84877),	-- Malevolent Gladiator's Ironskin Legguards
-										i(84919),	-- Malevolent Gladiator's Ironskin Spaulders
-										i(84902),	-- Malevolent Gladiator's Ironskin Tunic
-									},
-								}),
+								moh(12, iensemble(138709, {	-- Ensemble: Malevolent Gladiator's Ironskin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84836),	-- Malevolent Gladiator's Copperskin Gloves
+								i(84854),	-- Malevolent Gladiator's Copperskin Helm
+								i(84873),	-- Malevolent Gladiator's Copperskin Legguards
+								i(84920),	-- Malevolent Gladiator's Copperskin Spaulders
+								i(84903),	-- Malevolent Gladiator's Copperskin Tunic
+								i(84839),	-- Malevolent Gladiator's Ironskin Gloves
+								i(84857),	-- Malevolent Gladiator's Ironskin Helm
+								i(84877),	-- Malevolent Gladiator's Ironskin Legguards
+								i(84919),	-- Malevolent Gladiator's Ironskin Spaulders
+								i(84902),	-- Malevolent Gladiator's Ironskin Tunic
 								moh(2, i(91610)),	-- Malevolent Gladiator's Copperskin Gloves
 								moh(3, i(91612)),	-- Malevolent Gladiator's Copperskin Helm
 								moh(3, i(91614)),	-- Malevolent Gladiator's Copperskin Legguards
@@ -3003,48 +2304,19 @@ root(ROOTS.Zones, {
 								moh(3, i(91608)),	-- Malevolent Gladiator's Ironskin Tunic
 							}),
 							cl(PALADIN, {
-								i(138705, {	-- Ensemble: Malevolent Gladiator's Scaled Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, PALADIN },
-										{"select", "itemID",
-											84975,	-- Malevolent Gladiator's Bracers of Meditation
-											84974,	-- Malevolent Gladiator's Bracers of Prowess
-											84952,	-- Malevolent Gladiator's Clasp of Cruelty
-											84955,	-- Malevolent Gladiator's Clasp of Meditation
-											84811,	-- Malevolent Gladiator's Greaves of Alacrity
-											84812,	-- Malevolent Gladiator's Greaves of Meditation
-											91639,	-- Malevolent Gladiator's Bracers of Meditation
-											91638,	-- Malevolent Gladiator's Bracers of Prowess
-											91630,	-- Malevolent Gladiator's Clasp of Cruelty
-											91632,	-- Malevolent Gladiator's Clasp of Meditation
-											91634,	-- Malevolent Gladiator's Greaves of Alacrity
-											91636,	-- Malevolent Gladiator's Greaves of Meditation
-											91640,	-- Malevolent Gladiator's Ornamented Chestguard
-											91642,	-- Malevolent Gladiator's Ornamented Gloves
-											91644,	-- Malevolent Gladiator's Ornamented Headcover
-											91646,	-- Malevolent Gladiator's Ornamented Legplates
-											91648,	-- Malevolent Gladiator's Ornamented Spaulders
-											91620,	-- Malevolent Gladiator's Scaled Chestpiece
-											91622,	-- Malevolent Gladiator's Scaled Gauntlets
-											91624,	-- Malevolent Gladiator's Scaled Helm
-											91626,	-- Malevolent Gladiator's Scaled Legguards
-											91628,	-- Malevolent Gladiator's Scaled Shoulders
-										},
-									},
-									["groups"] = {
-										i(84793),	-- Malevolent Gladiator's Ornamented Chestguard
-										i(84831),	-- Malevolent Gladiator's Ornamented Gloves
-										i(84849),	-- Malevolent Gladiator's Ornamented Headcover
-										i(84869),	-- Malevolent Gladiator's Ornamented Legplates
-										i(84914),	-- Malevolent Gladiator's Ornamented Spaulders
-										i(84794),	-- Malevolent Gladiator's Scaled Chestpiece
-										i(84834),	-- Malevolent Gladiator's Scaled Gauntlets
-										i(84851),	-- Malevolent Gladiator's Scaled Helm
-										i(84870),	-- Malevolent Gladiator's Scaled Legguards
-										i(84915),	-- Malevolent Gladiator's Scaled Shoulders
-									},
-								}),
+								moh(12, iensemble(138705, {	-- Ensemble: Malevolent Gladiator's Scaled Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84793),	-- Malevolent Gladiator's Ornamented Chestguard
+								i(84831),	-- Malevolent Gladiator's Ornamented Gloves
+								i(84849),	-- Malevolent Gladiator's Ornamented Headcover
+								i(84869),	-- Malevolent Gladiator's Ornamented Legplates
+								i(84914),	-- Malevolent Gladiator's Ornamented Spaulders
+								i(84794),	-- Malevolent Gladiator's Scaled Chestpiece
+								i(84834),	-- Malevolent Gladiator's Scaled Gauntlets
+								i(84851),	-- Malevolent Gladiator's Scaled Helm
+								i(84870),	-- Malevolent Gladiator's Scaled Legguards
+								i(84915),	-- Malevolent Gladiator's Scaled Shoulders
 								moh(3, i(91640)),	-- Malevolent Gladiator's Ornamented Chestguard
 								moh(2, i(91642)),	-- Malevolent Gladiator's Ornamented Gloves
 								moh(3, i(91644)),	-- Malevolent Gladiator's Ornamented Headcover
@@ -3057,49 +2329,19 @@ root(ROOTS.Zones, {
 								moh(2, i(91628)),	-- Malevolent Gladiator's Scaled Shoulders
 							}),
 							cl(PRIEST, {
-								i(138712, {	-- Ensemble: Malevolent Gladiator's Satin Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, PRIEST },
-										{"select", "itemID",
-											84979,	-- Malevolent Gladiator's Cuffs of Meditation
-											84956,	-- Malevolent Gladiator's Cord of Meditation
-											84816,	-- Malevolent Gladiator's Treads of Meditation
-											91476,	-- Malevolent Gladiator's Cuffs of Meditation
-											91466,	-- Malevolent Gladiator's Cord of Meditation
-											91472,	-- Malevolent Gladiator's Treads of Meditation
-											91662,	-- Malevolent Gladiator's Mooncloth Gloves
-											91664,	-- Malevolent Gladiator's Mooncloth Helm
-											91666,	-- Malevolent Gladiator's Mooncloth Leggings
-											91670,	-- Malevolent Gladiator's Mooncloth Mantle
-											91668,	-- Malevolent Gladiator's Mooncloth Robe
-											91672,	-- Malevolent Gladiator's Satin Gloves
-											91674,	-- Malevolent Gladiator's Satin Hood
-											91676,	-- Malevolent Gladiator's Satin Leggings
-											91680,	-- Malevolent Gladiator's Satin Mantle
-											91678,	-- Malevolent Gladiator's Satin Robe
-										},
-										{"exclude", "itemID",
-											97515,	-- Malevolent Gladiator's Mooncloth Helm
-											97522,	-- Malevolent Gladiator's Satin Gloves
-											97525,	-- Malevolent Gladiator's Satin Leggings
-											97517,	-- Malevolent Gladiator's Satin Mantle
-											97520,	-- Malevolent Gladiator's Satin Robe
-										},
-									},
-									["groups"] = {
-										i(84846),	-- Malevolent Gladiator's Mooncloth Gloves
-										i(84863),	-- Malevolent Gladiator's Mooncloth Helm
-										i(84883),	-- Malevolent Gladiator's Mooncloth Leggings
-										i(84928),	-- Malevolent Gladiator's Mooncloth Mantle
-										i(84908),	-- Malevolent Gladiator's Mooncloth Robe
-										i(84838),	-- Malevolent Gladiator's Satin Gloves
-										i(84864),	-- Malevolent Gladiator's Satin Hood
-										i(84884),	-- Malevolent Gladiator's Satin Leggings
-										i(84929),	-- Malevolent Gladiator's Satin Mantle
-										i(84909),	-- Malevolent Gladiator's Satin Robe
-									},
-								}),
+								moh(12, iensemble(138712, {	-- Ensemble: Malevolent Gladiator's Satin Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84846),	-- Malevolent Gladiator's Mooncloth Gloves
+								i(84863),	-- Malevolent Gladiator's Mooncloth Helm
+								i(84883),	-- Malevolent Gladiator's Mooncloth Leggings
+								i(84928),	-- Malevolent Gladiator's Mooncloth Mantle
+								i(84908),	-- Malevolent Gladiator's Mooncloth Robe
+								i(84838),	-- Malevolent Gladiator's Satin Gloves
+								i(84864),	-- Malevolent Gladiator's Satin Hood
+								i(84884),	-- Malevolent Gladiator's Satin Leggings
+								i(84929),	-- Malevolent Gladiator's Satin Mantle
+								i(84909),	-- Malevolent Gladiator's Satin Robe
 								moh(2, i(91662)),	-- Malevolent Gladiator's Mooncloth Gloves
 								moh(3, i(91664)),	-- Malevolent Gladiator's Mooncloth Helm
 								moh(3, i(91666)),	-- Malevolent Gladiator's Mooncloth Leggings
@@ -3112,32 +2354,14 @@ root(ROOTS.Zones, {
 								moh(3, i(91678)),	-- Malevolent Gladiator's Satin Robe
 							}),
 							cl(ROGUE, {
-								i(138710, {	-- Ensemble: Malevolent Gladiator's Leather Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, ROGUE },
-										{"select", "itemID",
-											84972,	-- Malevolent Gladiator's Armwraps of Alacrity
-											84948,	-- Malevolent Gladiator's Waistband of Accuracy
-											84808,	-- Malevolent Gladiator's Boots of Cruelty
-											91692,	-- Malevolent Gladiator's Armwraps of Alacrity
-											91688,	-- Malevolent Gladiator's Waistband of Accuracy
-											91690,	-- Malevolent Gladiator's Boots of Cruelty
-											91695,	-- Malevolent Gladiator's Leather Gloves
-											91697,	-- Malevolent Gladiator's Leather Helm
-											91699,	-- Malevolent Gladiator's Leather Legguards
-											91701,	-- Malevolent Gladiator's Leather Spaulders
-											91693,	-- Malevolent Gladiator's Leather Tunic
-										},
-									},
-									["groups"] = {
-										i(84830),	-- Malevolent Gladiator's Leather Gloves
-										i(84848),	-- Malevolent Gladiator's Leather Helm
-										i(84868),	-- Malevolent Gladiator's Leather Legguards
-										i(84913),	-- Malevolent Gladiator's Leather Spaulders
-										i(84792),	-- Malevolent Gladiator's Leather Tunic
-									},
-								}),
+								moh(12, iensemble(138710, {	-- Ensemble: Malevolent Gladiator's Leather Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84830),	-- Malevolent Gladiator's Leather Gloves
+								i(84848),	-- Malevolent Gladiator's Leather Helm
+								i(84868),	-- Malevolent Gladiator's Leather Legguards
+								i(84913),	-- Malevolent Gladiator's Leather Spaulders
+								i(84792),	-- Malevolent Gladiator's Leather Tunic
 								moh(2, i(91695)),	-- Malevolent Gladiator's Leather Gloves
 								moh(3, i(91697)),	-- Malevolent Gladiator's Leather Helm
 								moh(3, i(91699)),	-- Malevolent Gladiator's Leather Legguards
@@ -3145,58 +2369,24 @@ root(ROOTS.Zones, {
 								moh(3, i(91693)),	-- Malevolent Gladiator's Leather Tunic
 							}),
 							cl(SHAMAN, {
-								i(138706, {	-- Ensemble: Malevolent Gladiator's Ringmail Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, SHAMAN },
-										{"select", "itemID",
-											84984,	-- Malevolent Gladiator's Armbands of Meditation
-											84983,	-- Malevolent Gladiator's Armbands of Prowess
-											84959,	-- Malevolent Gladiator's Waistguard of Cruelty
-											84946,	-- Malevolent Gladiator's Waistguard of Meditation
-											84820,	-- Malevolent Gladiator's Footguards of Alacrity (Mail)
-											84821,	-- Malevolent Gladiator's Footguards of Meditation (Mail)
-											91710,	-- Malevolent Gladiator's Armbands of Meditation
-											91709,	-- Malevolent Gladiator's Armbands of Prowess
-											91731,	-- Malevolent Gladiator's Waistguard of Cruelty
-											91703,	-- Malevolent Gladiator's Waistguard of Meditation
-											91705,	-- Malevolent Gladiator's Footguards of Alacrity (Mail)
-											91707,	-- Malevolent Gladiator's Footguards of Meditation (Mail)
-											91721,	-- Malevolent Gladiator's Linked Armor
-											91723,	-- Malevolent Gladiator's Linked Gauntlets
-											91725,	-- Malevolent Gladiator's Linked Helm
-											91727,	-- Malevolent Gladiator's Linked Leggings
-											91729,	-- Malevolent Gladiator's Linked Spaulders
-											91733,	-- Malevolent Gladiator's Mail Armor
-											91735,	-- Malevolent Gladiator's Mail Gauntlets
-											91737,	-- Malevolent Gladiator's Mail Helm
-											91739,	-- Malevolent Gladiator's Mail Leggings
-											91741,	-- Malevolent Gladiator's Mail Spaulders
-											91711,	-- Malevolent Gladiator's Ringmail Armor
-											91713,	-- Malevolent Gladiator's Ringmail Gauntlets
-											91715,	-- Malevolent Gladiator's Ringmail Helm
-											91717,	-- Malevolent Gladiator's Ringmail Leggings
-											91719,	-- Malevolent Gladiator's Ringmail Spaulders
-										},
-									},
-									["groups"] = {
-										i(84799),	-- Malevolent Gladiator's Linked Armor
-										i(84844),	-- Malevolent Gladiator's Linked Gauntlets
-										i(84862),	-- Malevolent Gladiator's Linked Helm
-										i(84881),	-- Malevolent Gladiator's Linked Leggings
-										i(84926),	-- Malevolent Gladiator's Linked Spaulders
-										i(84798),	-- Malevolent Gladiator's Mail Armor
-										i(84845),	-- Malevolent Gladiator's Mail Gauntlets
-										i(84860),	-- Malevolent Gladiator's Mail Helm
-										i(84879),	-- Malevolent Gladiator's Mail Leggings
-										i(84924),	-- Malevolent Gladiator's Mail Spaulders
-										i(84800),	-- Malevolent Gladiator's Ringmail Armor
-										i(84847),	-- Malevolent Gladiator's Ringmail Gauntlets
-										i(84865),	-- Malevolent Gladiator's Ringmail Helm
-										i(84885),	-- Malevolent Gladiator's Ringmail Leggings
-										i(84930),	-- Malevolent Gladiator's Ringmail Spaulders
-									},
-								}),
+								moh(12, iensemble(138706, {	-- Ensemble: Malevolent Gladiator's Ringmail Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84799),	-- Malevolent Gladiator's Linked Armor
+								i(84844),	-- Malevolent Gladiator's Linked Gauntlets
+								i(84862),	-- Malevolent Gladiator's Linked Helm
+								i(84881),	-- Malevolent Gladiator's Linked Leggings
+								i(84926),	-- Malevolent Gladiator's Linked Spaulders
+								i(84798),	-- Malevolent Gladiator's Mail Armor
+								i(84845),	-- Malevolent Gladiator's Mail Gauntlets
+								i(84860),	-- Malevolent Gladiator's Mail Helm
+								i(84879),	-- Malevolent Gladiator's Mail Leggings
+								i(84924),	-- Malevolent Gladiator's Mail Spaulders
+								i(84800),	-- Malevolent Gladiator's Ringmail Armor
+								i(84847),	-- Malevolent Gladiator's Ringmail Gauntlets
+								i(84865),	-- Malevolent Gladiator's Ringmail Helm
+								i(84885),	-- Malevolent Gladiator's Ringmail Leggings
+								i(84930),	-- Malevolent Gladiator's Ringmail Spaulders
 								moh(3, i(91721)),	-- Malevolent Gladiator's Linked Armor
 								moh(2, i(91723)),	-- Malevolent Gladiator's Linked Gauntlets
 								moh(3, i(91725)),	-- Malevolent Gladiator's Linked Helm
@@ -3214,32 +2404,14 @@ root(ROOTS.Zones, {
 								moh(2, i(91719)),	-- Malevolent Gladiator's Ringmail Spaulders
 							}),
 							cl(WARLOCK, {
-								i(138713, {	-- Ensemble: Malevolent Gladiator's Felweave Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, WARLOCK },
-										{"select", "itemID",
-											84977,	-- Malevolent Gladiator's Cuffs of Accuracy
-											84955,	-- Malevolent Gladiator's Cord of Accuracy
-											84815,	-- Malevolent Gladiator's Treads of Alacrity
-											91474,	-- Malevolent Gladiator's Cuffs of Accuracy
-											91464,	-- Malevolent Gladiator's Cord of Accuracy
-											91470,	-- Malevolent Gladiator's Treads of Alacrity
-											91781,	-- Malevolent Gladiator's Felweave Amice
-											91775,	-- Malevolent Gladiator's Felweave Cowl
-											91773,	-- Malevolent Gladiator's Felweave Handguards
-											91779,	-- Malevolent Gladiator's Felweave Raiment
-											91777,	-- Malevolent Gladiator's Felweave Trousers
-										},
-									},
-									["groups"] = {
-										i(84923),	-- Malevolent Gladiator's Felweave Amice
-										i(84859),	-- Malevolent Gladiator's Felweave Cowl
-										i(84842),	-- Malevolent Gladiator's Felweave Handguards
-										i(84905),	-- Malevolent Gladiator's Felweave Raiment
-										i(84878),	-- Malevolent Gladiator's Felweave Trousers
-									},
-								}),
+								moh(12, iensemble(138713, {	-- Ensemble: Malevolent Gladiator's Felweave Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84923),	-- Malevolent Gladiator's Felweave Amice
+								i(84859),	-- Malevolent Gladiator's Felweave Cowl
+								i(84842),	-- Malevolent Gladiator's Felweave Handguards
+								i(84905),	-- Malevolent Gladiator's Felweave Raiment
+								i(84878),	-- Malevolent Gladiator's Felweave Trousers
 								moh(2, i(91781)),	-- Malevolent Gladiator's Felweave Amice
 								moh(3, i(91775)),	-- Malevolent Gladiator's Felweave Cowl
 								moh(2, i(91773)),	-- Malevolent Gladiator's Felweave Handguards
@@ -3247,32 +2419,14 @@ root(ROOTS.Zones, {
 								moh(3, i(91777)),	-- Malevolent Gladiator's Felweave Trousers
 							}),
 							cl(WARRIOR, {
-								i(138703, {	-- Ensemble: Malevolent Gladiator's Plate Armor
-									["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
-									["sym"] = {
-										{"sub", "pvp_set_ensemble", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR, WARRIOR },
-										{"select", "itemID",
-											-- 84985,	-- Malevolent Gladiator's Armplates of Alacrity -- 25/10.2021 Sha/DK Only
-											84950,	-- Malevolent Gladiator's Girdle of Prowess
-											84822,	-- Malevolent Gladiator's Warboots of Alacrity
-											91659,	-- Malevolent Gladiator's Armplates of Alacrity
-											91652,	-- Malevolent Gladiator's Girdle of Prowess
-											91656,	-- Malevolent Gladiator's Warboots of Alacrity
-											91783,	-- Malevolent Gladiator's Plate Chestpiece
-											91785,	-- Malevolent Gladiator's Plate Gauntlets
-											91787,	-- Malevolent Gladiator's Plate Helm
-											91789,	-- Malevolent Gladiator's Plate Legguards
-											91791,	-- Malevolent Gladiator's Plate Shoulders
-										},
-									},
-									["groups"] = {
-										i(84797),	-- Malevolent Gladiator's Plate Chestpiece
-										i(84840),	-- Malevolent Gladiator's Plate Gauntlets
-										i(84856),	-- Malevolent Gladiator's Plate Helm
-										i(84876),	-- Malevolent Gladiator's Plate Legguards
-										i(84922),	-- Malevolent Gladiator's Plate Shoulders
-									},
-								}),
+								moh(12, iensemble(138703, {	-- Ensemble: Malevolent Gladiator's Plate Armor
+									["timeline"] = { ADDED_7_1_5 },
+								})),
+								i(84797),	-- Malevolent Gladiator's Plate Chestpiece
+								i(84840),	-- Malevolent Gladiator's Plate Gauntlets
+								i(84856),	-- Malevolent Gladiator's Plate Helm
+								i(84876),	-- Malevolent Gladiator's Plate Legguards
+								i(84922),	-- Malevolent Gladiator's Plate Shoulders
 								moh(3, i(91783)),	-- Malevolent Gladiator's Plate Chestpiece
 								moh(2, i(91785)),	-- Malevolent Gladiator's Plate Gauntlets
 								moh(3, i(91787)),	-- Malevolent Gladiator's Plate Helm

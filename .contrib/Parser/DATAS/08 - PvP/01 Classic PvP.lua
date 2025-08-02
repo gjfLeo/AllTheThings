@@ -232,46 +232,36 @@ root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
 				moh(1, i(18440)),	-- Sergeant's Cape (30)
 
 				-- Wrist
-				i(18448, {	-- Sergeant Major's Chain Armguards (58)
+				moh(1, i(18448, {	-- Sergeant Major's Chain Armguards (58)
 					["classes"] = { HUNTER, SHAMAN },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18449, {	-- Sergeant Major's Chain Armguards (45)
+				})),
+				moh(1, i(18449, {	-- Sergeant Major's Chain Armguards (45)
 					["classes"] = { HUNTER, SHAMAN },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18454, {	-- Sergeant Major's Dragonhide Armsplints (58)
+				})),
+				moh(1, i(18454, {	-- Sergeant Major's Dragonhide Armsplints (58)
 					["classes"] = { DRUID },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18455, {	-- Sergeant Major's Dragonhide Armsplints (45)
+				})),
+				moh(1, i(18455, {	-- Sergeant Major's Dragonhide Armsplints (45)
 					["classes"] = { DRUID },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18452, {	-- Sergeant Major's Leather  (58)
+				})),
+				moh(1, i(18452, {	-- Sergeant Major's Leather  (58)
 					["classes"] = { ROGUE },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18453, {	-- Sergeant Major's Leather Armsplints (45)
+				})),
+				moh(1, i(18453, {	-- Sergeant Major's Leather Armsplints (45)
 					["classes"] = { ROGUE },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18445, {	-- Sergeant Major's Plate Wristguards (58)
+				})),
+				moh(1, i(18445, {	-- Sergeant Major's Plate Wristguards (58)
 					["classes"] = { PALADIN, WARRIOR },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18447, {	-- Sergeant Major's Plate Wristguards (45)
+				})),
+				moh(1, i(18447, {	-- Sergeant Major's Plate Wristguards (45)
 					["classes"] = { PALADIN, WARRIOR },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18456, {	-- Sergeant Major's Silk Cuffs (58)
+				})),
+				moh(1, i(18456, {	-- Sergeant Major's Silk Cuffs (58)
 					["classes"] = { MAGE, PRIEST, WARLOCK },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
-				i(18457, {	-- Sergeant Major's Silk Cuffs (45)
+				})),
+				moh(1, i(18457, {	-- Sergeant Major's Silk Cuffs (45)
 					["classes"] = { MAGE, PRIEST, WARLOCK },
-					["cost"] = {{ "i", 137642, 1 }},	-- 1x Mark of Honor
-				}),
+				})),
 
 				-- Necks
 				i(18443),	-- Master Sergeant's Insignia (58)

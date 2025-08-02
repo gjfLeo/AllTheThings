@@ -437,12 +437,9 @@ local CATACLYSMIC_GROUPS = {
 };
 local VICIOUS_GROUPS = {
 	n(WEAPONS, {
-		i(146641, {	--  Arsenal: Vicious Gladiator's Weapons
-			["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
-			["sym"] = {
-				{"sub", "pvp_weapons_ensemble", EXPANSION.CATA, SEASON_VICIOUS, PVP_GLADIATOR },
-			},
-		}),
+		moh(80, iensemble(146641, {	-- Arsenal: Vicious Gladiator's Weapons
+			["timeline"] = { ADDED_7_2_0 },
+		})),
 		moh(2, i(61360)),	-- Vicious Gladiator's Barrier
 		moh(5, i(61351)),	-- Vicious Gladiator's Baton of Light
 		moh(5, i(61341)),	-- Vicious Gladiator's Battle Staff

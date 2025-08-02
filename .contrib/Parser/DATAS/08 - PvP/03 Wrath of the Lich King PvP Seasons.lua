@@ -205,13 +205,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					cl(DEATHKNIGHT, {
-						i(146580, {	-- Ensemble: Savage Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146580, {	-- Ensemble: Savage Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, DEATHKNIGHT },
-							},
-						}),
+						})),
 						moh(3, i(40779)),	-- Savage Gladiator's Dreadplate Chestpiece
 						moh(2, i(40799)),	-- Savage Gladiator's Dreadplate Gauntlets
 						moh(3, i(40817)),	-- Savage Gladiator's Dreadplate Helm
@@ -219,13 +215,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40857)),	-- Savage Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146579, {	-- Ensemble: Savage Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146579, {	-- Ensemble: Savage Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, DRUID },
-							},
-						}),
+						})),
 						moh(2, i(41770)),	-- Savage Gladiator's Dragonhide Gloves
 						moh(3, i(41675)),	-- Savage Gladiator's Dragonhide Helm
 						moh(3, i(41664)),	-- Savage Gladiator's Dragonhide Legguards
@@ -243,13 +235,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41278)),	-- Savage Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146578, {	-- Ensemble: Savage Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146578, {	-- Ensemble: Savage Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, HUNTER },
-							},
-						}),
+						})),
 						moh(3, i(41084)),	-- Savage Gladiator's Chain Armor
 						moh(2, i(41140)),	-- Savage Gladiator's Chain Gauntlets
 						moh(3, i(41154)),	-- Savage Gladiator's Chain Helm
@@ -257,13 +245,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41214)),	-- Savage Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146587, {	-- Ensemble: Savage Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146587, {	-- Ensemble: Savage Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, MAGE },
-							},
-						}),
+						})),
 						moh(2, i(41962)),	-- Savage Gladiator's Silk Amice
 						moh(3, i(41943)),	-- Savage Gladiator's Silk Cowl
 						moh(2, i(41968)),	-- Savage Gladiator's Silk Handguards
@@ -271,13 +255,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41956)),	-- Savage Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146586, {	-- Ensemble: Savage Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146586, {	-- Ensemble: Savage Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, PALADIN },
-							},
-						}),
+						})),
 						moh(3, i(40898)),	-- Savage Gladiator's Ornamented Chestguard
 						moh(2, i(40918)),	-- Savage Gladiator's Ornamented Gloves
 						moh(3, i(40930)),	-- Savage Gladiator's Ornamented Headcover
@@ -290,13 +270,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40858)),	-- Savage Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146585, {	-- Ensemble: Savage Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146585, {	-- Ensemble: Savage Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, PRIEST },
-							},
-						}),
+						})),
 						moh(2, i(41847)),	-- Savage Gladiator's Mooncloth Gloves
 						moh(3, i(41848)),	-- Savage Gladiator's Mooncloth Hood
 						moh(3, i(41849)),	-- Savage Gladiator's Mooncloth Leggings
@@ -309,13 +285,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41918)),	-- Savage Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146582, {	-- Ensemble: Savage Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146582, {	-- Ensemble: Savage Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, ROGUE },
-							},
-						}),
+						})),
 						moh(2, i(41643)),	-- Savage Gladiator's Leather Gloves
 						moh(3, i(41644)),	-- Savage Gladiator's Leather Helm
 						moh(3, i(41645)),	-- Savage Gladiator's Leather Legguards
@@ -323,13 +295,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41647)),	-- Savage Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146584, {	-- Ensemble: Savage Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146584, {	-- Ensemble: Savage Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, SHAMAN },
-							},
-						}),
+						})),
 						moh(3, i(41078)),	-- Savage Gladiator's Linked Armor
 						moh(2, i(41134)),	-- Savage Gladiator's Linked Gauntlets
 						moh(3, i(41148)),	-- Savage Gladiator's Linked Helm
@@ -347,13 +315,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41024)),	-- Savage Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146581, {	-- Ensemble: Savage Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146581, {	-- Ensemble: Savage Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, WARLOCK },
-							},
-						}),
+						})),
 						moh(2, i(42008)),	-- Savage Gladiator's Felweave Amice
 						moh(3, i(41990)),	-- Savage Gladiator's Felweave Cowl
 						moh(2, i(42014)),	-- Savage Gladiator's Felweave Handguards
@@ -361,13 +325,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(42002)),	-- Savage Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146583, {	-- Ensemble: Savage Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146583, {	-- Ensemble: Savage Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_HONOR, WARRIOR },
-							},
-						}),
+						})),
 						moh(3, i(40778)),	-- Savage Gladiator's Plate Chestpiece
 						moh(2, i(40797)),	-- Savage Gladiator's Plate Gauntlets
 						moh(3, i(40816)),	-- Savage Gladiator's Plate Helm
@@ -460,16 +420,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						-- #endif
 					}),
 					cl(DEATHKNIGHT, {
-						i(146560, {	-- Ensemble: Hateful Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146560, {	-- Ensemble: Hateful Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, DEATHKNIGHT },
-								{"select", "itemID", 147583 },	-- Hateful Gladiator's Bracers of Victory
-								{"select", "itemID", 147584 },	-- Hateful Gladiator's Girdle of Victory
-								{"select", "itemID", 147585 },	-- Hateful Gladiator's Greaves of Victory
-							},
-						}),
+						})),
 						moh(3, i(40781)),	-- Hateful Gladiator's Dreadplate Chestpiece
 						moh(2, i(40803)),	-- Hateful Gladiator's Dreadplate Gauntlets
 						moh(3, i(40820)),	-- Hateful Gladiator's Dreadplate Helm
@@ -477,19 +430,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40860)),	-- Hateful Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146559, {	-- Ensemble: Hateful Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146559, {	-- Ensemble: Hateful Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, DRUID },
-								{"select", "itemID", 41638 },	-- Hateful Gladiator's Armwraps of Dominance
-								{"select", "itemID", 41628 },	-- Hateful Gladiator's Belt of Dominance
-								{"select", "itemID", 41633 },	-- Hateful Gladiator's Boots of Dominance
-								{"select", "itemID", 41332 },	-- Hateful Gladiator's Armwraps of Salvation
-								{"select", "itemID", 41330 },	-- Hateful Gladiator's Belt of Salvation
-								{"select", "itemID", 41331 },	-- Hateful Gladiator's Boots of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41771)),	-- Hateful Gladiator's Dragonhide Gloves
 						moh(3, i(41676)),	-- Hateful Gladiator's Dragonhide Helm
 						moh(3, i(41665)),	-- Hateful Gladiator's Dragonhide Legguards
@@ -507,16 +450,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41279)),	-- Hateful Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146558, {	-- Ensemble: Hateful Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146558, {	-- Ensemble: Hateful Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, HUNTER },
-								{"select", "itemID", 41223 },	-- Hateful Gladiator's Wristguards of Triumph
-								{"select", "itemID", 41233 },	-- Hateful Gladiator's Waistguard of Triumph
-								{"select", "itemID", 41228 },	-- Hateful Gladiator's Sabatons of Triumph
-							},
-						}),
+						})),
 						moh(3, i(41085)),	-- Hateful Gladiator's Chain Armor
 						moh(2, i(41141)),	-- Hateful Gladiator's Chain Gauntlets
 						moh(3, i(41155)),	-- Hateful Gladiator's Chain Helm
@@ -524,16 +460,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41215)),	-- Hateful Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146567, {	-- Ensemble: Hateful Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146567, {	-- Ensemble: Hateful Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, MAGE },
-								{"select", "itemID", 41907 },	-- Hateful Gladiator's Cuffs of Dominance
-								{"select", "itemID", 41896 },	-- Hateful Gladiator's Cord of Dominance
-								{"select", "itemID", 41901 },	-- Hateful Gladiator's Slippers of Dominance
-							},
-						}),
+						})),
 						moh(2, i(41963)),	-- Hateful Gladiator's Silk Amice
 						moh(3, i(41944)),	-- Hateful Gladiator's Silk Cowl
 						moh(2, i(41969)),	-- Hateful Gladiator's Silk Handguards
@@ -541,16 +470,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41957)),	-- Hateful Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146566, {	-- Ensemble: Hateful Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146566, {	-- Ensemble: Hateful Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, PALADIN },
-								{"select", "itemID", 40972 },	-- Hateful Gladiator's Bracers of Salvation
-								{"select", "itemID", 40966 },	-- Hateful Gladiator's Girdle of Salvation
-								{"select", "itemID", 40973 },	-- Hateful Gladiator's Greaves of Salvation
-							},
-						}),
+						})),
 						moh(3, i(40904)),	-- Hateful Gladiator's Ornamented Chestguard
 						moh(2, i(40925)),	-- Hateful Gladiator's Ornamented Gloves
 						moh(3, i(40931)),	-- Hateful Gladiator's Ornamented Headcover
@@ -563,16 +485,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40861)),	-- Hateful Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146565, {	-- Ensemble: Hateful Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146565, {	-- Ensemble: Hateful Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, PRIEST },
-								{"select", "itemID", 41878 },	-- Hateful Gladiator's Cuffs of Salvation
-								{"select", "itemID", 41877 },	-- Hateful Gladiator's Cord of Salvation
-								{"select", "itemID", 41879 },	-- Hateful Gladiator's Slippers of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41872)),	-- Hateful Gladiator's Mooncloth Gloves
 						moh(3, i(41852)),	-- Hateful Gladiator's Mooncloth Hood
 						moh(3, i(41862)),	-- Hateful Gladiator's Mooncloth Leggings
@@ -585,16 +500,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41919)),	-- Hateful Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146562, {	-- Ensemble: Hateful Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146562, {	-- Ensemble: Hateful Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, ROGUE },
-								{"select", "itemID", 41830 },	-- Hateful Gladiator's Armwraps of Triumph
-								{"select", "itemID", 41827 },	-- Hateful Gladiator's Belt of Triumph
-								{"select", "itemID", 41828 },	-- Hateful Gladiator's Boots of Triumph
-							},
-						}),
+						})),
 						moh(2, i(41765)),	-- Hateful Gladiator's Leather Gloves
 						moh(3, i(41670)),	-- Hateful Gladiator's Leather Helm
 						moh(3, i(41653)),	-- Hateful Gladiator's Leather Legguards
@@ -602,19 +510,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41648)),	-- Hateful Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146564, {	-- Ensemble: Hateful Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146564, {	-- Ensemble: Hateful Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, SHAMAN },
-								{"select", "itemID", 41063 },	-- Hateful Gladiator's Wristguards of Dominance
-								{"select", "itemID", 41068 },	-- Hateful Gladiator's Waistguard of Dominance
-								{"select", "itemID", 41073 },	-- Hateful Gladiator's Sabatons of Dominance
-								{"select", "itemID", 41047 },	-- Hateful Gladiator's Wristguards of Salvation
-								{"select", "itemID", 41050 },	-- Hateful Gladiator's Waistguard of Salvation
-								{"select", "itemID", 41049 },	-- Hateful Gladiator's Sabatons of Salvation
-							},
-						}),
+						})),
 						moh(3, i(41079)),	-- Hateful Gladiator's Linked Armor
 						moh(2, i(41135)),	-- Hateful Gladiator's Linked Gauntlets
 						moh(3, i(41149)),	-- Hateful Gladiator's Linked Helm
@@ -632,16 +530,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41036)),	-- Hateful Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146561, {	-- Ensemble: Hateful Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146561, {	-- Ensemble: Hateful Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, WARLOCK },
-								{"select", "itemID", 147586 },	-- Hateful Gladiator's Cuffs of Ascendancy
-								{"select", "itemID", 147587 },	-- Hateful Gladiator's Cord of Ascendancy
-								{"select", "itemID", 147588 },	-- Hateful Gladiator's Slippers of Ascendancy
-							},
-						}),
+						})),
 						moh(2, i(42009)),	-- Hateful Gladiator's Felweave Amice
 						moh(3, i(41991)),	-- Hateful Gladiator's Felweave Cowl
 						moh(2, i(42015)),	-- Hateful Gladiator's Felweave Handguards
@@ -649,16 +540,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(42003)),	-- Hateful Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146563, {	-- Ensemble: Hateful Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146563, {	-- Ensemble: Hateful Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL, WARRIOR },
-								{"select", "itemID", 40887 },	-- Hateful Gladiator's Bracers of Triumph
-								{"select", "itemID", 40877 },	-- Hateful Gladiator's Girdle of Triumph
-								{"select", "itemID", 40878 },	-- Hateful Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(40783)),	-- Hateful Gladiator's Plate Chestpiece
 						moh(2, i(40801)),	-- Hateful Gladiator's Plate Gauntlets
 						moh(3, i(40819)),	-- Hateful Gladiator's Plate Helm
@@ -688,14 +572,12 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41830)),	-- Hateful Gladiator's Armwraps of Triumph
 						moh(1, i(40972)),	-- Hateful Gladiator's Bracers of Salvation
 						moh(1, i(40887)),	-- Hateful Gladiator's Bracers of Triumph
-						i(147583, {	-- Hateful Gladiator's Bracers of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147583, {	-- Hateful Gladiator's Bracers of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
-						i(147586, {	-- Hateful Gladiator's Cuffs of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147586, {	-- Hateful Gladiator's Cuffs of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41907)),	-- Hateful Gladiator's Cuffs of Dominance
 						moh(1, i(41878)),	-- Hateful Gladiator's Cuffs of Salvation
 						moh(1, i(41063)),	-- Hateful Gladiator's Wristguards of Dominance
@@ -710,18 +592,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41628)),	-- Hateful Gladiator's Belt of Dominance
 						moh(1, i(41330)),	-- Hateful Gladiator's Belt of Salvation
 						moh(1, i(41827)),	-- Hateful Gladiator's Belt of Triumph
-						i(147587, {	-- Hateful Gladiator's Cord of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147587, {	-- Hateful Gladiator's Cord of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41896)),	-- Hateful Gladiator's Cord of Dominance
 						moh(1, i(41877)),	-- Hateful Gladiator's Cord of Salvation
 						moh(1, i(40966)),	-- Hateful Gladiator's Girdle of Salvation
 						moh(1, i(40877)),	-- Hateful Gladiator's Girdle of Triumph
-						i(147584, {	-- Hateful Gladiator's Girdle of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147584, {	-- Hateful Gladiator's Girdle of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41068)),	-- Hateful Gladiator's Waistguard of Dominance
 						moh(1, i(41050)),	-- Hateful Gladiator's Waistguard of Salvation
 						moh(1, i(41233)),	-- Hateful Gladiator's Waistguard of Triumph
@@ -736,17 +616,15 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41828)),	-- Hateful Gladiator's Boots of Triumph
 						moh(2, i(40973)),	-- Hateful Gladiator's Greaves of Salvation
 						moh(2, i(40878)),	-- Hateful Gladiator's Greaves of Triumph
-						i(147585, {	-- Hateful Gladiator's Greaves of Victory
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147585, {	-- Hateful Gladiator's Greaves of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41073)),	-- Hateful Gladiator's Sabatons of Dominance
 						moh(2, i(41049)),	-- Hateful Gladiator's Sabatons of Salvation
 						moh(2, i(41228)),	-- Hateful Gladiator's Sabatons of Triumph
-						i(147588, {	-- Hateful Gladiator's Slippers of Ascendancy
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147588, {	-- Hateful Gladiator's Slippers of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41901)),	-- Hateful Gladiator's Slippers of Dominance
 						moh(2, i(41879)),	-- Hateful Gladiator's Slippers of Salvation
 					})),
@@ -847,16 +725,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					cl(DEATHKNIGHT, {
-						i(146540, {	-- Ensemble: Deadly Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146540, {	-- Ensemble: Deadly Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, DEATHKNIGHT },
-								{"select", "itemID", 147589 },	-- Deadly Gladiator's Bracers of Victory
-								{"select", "itemID", 147590 },	-- Deadly Gladiator's Girdle of Victory
-								{"select", "itemID", 147591 },	-- Deadly Gladiator's Greaves of Victory
-							},
-						}),
+						})),
 						moh(3, i(40784)),	-- Deadly Gladiator's Dreadplate Chestpiece
 						moh(2, i(40806)),	-- Deadly Gladiator's Dreadplate Gauntlets
 						moh(3, i(40824)),	-- Deadly Gladiator's Dreadplate Helm
@@ -864,19 +735,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40863)),	-- Deadly Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146539, {	-- Ensemble: Deadly Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146539, {	-- Ensemble: Deadly Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 41639 },	-- Deadly Gladiator's Armwraps of Dominance
-								{"select", "itemID", 41629 },	-- Deadly Gladiator's Belt of Dominance
-								{"select", "itemID", 41634 },	-- Deadly Gladiator's Boots of Dominance
-								{"select", "itemID", 41624 },	-- Deadly Gladiator's Armwraps of Salvation
-								{"select", "itemID", 41616 },	-- Deadly Gladiator's Belt of Salvation
-								{"select", "itemID", 41620 },	-- Deadly Gladiator's Boots of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41772)),	-- Deadly Gladiator's Dragonhide Gloves
 						moh(3, i(41677)),	-- Deadly Gladiator's Dragonhide Helm
 						moh(3, i(41666)),	-- Deadly Gladiator's Dragonhide Legguards
@@ -894,16 +755,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41280)),	-- Deadly Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146538, {	-- Ensemble: Deadly Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146538, {	-- Ensemble: Deadly Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 41224 },	-- Deadly Gladiator's Wristguards of Triumph
-								{"select", "itemID", 41234 },	-- Deadly Gladiator's Waistguard of Triumph
-								{"select", "itemID", 41229 },	-- Deadly Gladiator's Sabatons of Triumph
-							},
-						}),
+						})),
 						moh(3, i(41086)),	-- Deadly Gladiator's Chain Armor
 						moh(2, i(41142)),	-- Deadly Gladiator's Chain Gauntlets
 						moh(3, i(41156)),	-- Deadly Gladiator's Chain Helm
@@ -911,16 +765,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41216)),	-- Deadly Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146547, {	-- Ensemble: Deadly Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146547, {	-- Ensemble: Deadly Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 41908 },	-- Deadly Gladiator's Cuffs of Dominance
-								{"select", "itemID", 41897 },	-- Deadly Gladiator's Cord of Dominance
-								{"select", "itemID", 41902 },	-- Deadly Gladiator's Treads of Dominance
-							},
-						}),
+						})),
 						moh(2, i(41964)),	-- Deadly Gladiator's Silk Amice
 						moh(3, i(41945)),	-- Deadly Gladiator's Silk Cowl
 						moh(2, i(41970)),	-- Deadly Gladiator's Silk Handguards
@@ -928,16 +775,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41958)),	-- Deadly Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146546, {	-- Ensemble: Deadly Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146546, {	-- Ensemble: Deadly Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 40982 },	-- Deadly Gladiator's Bracers of Salvation
-								{"select", "itemID", 40974 },	-- Deadly Gladiator's Girdle of Salvation
-								{"select", "itemID", 40975 },	-- Deadly Gladiator's Greaves of Salvation
-							},
-						}),
+						})),
 						moh(3, i(40905)),	-- Deadly Gladiator's Ornamented Chestguard
 						moh(2, i(40926)),	-- Deadly Gladiator's Ornamented Gloves
 						moh(3, i(40932)),	-- Deadly Gladiator's Ornamented Headcover
@@ -950,16 +790,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40864)),	-- Deadly Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146545, {	-- Ensemble: Deadly Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146545, {	-- Ensemble: Deadly Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 41892 },	-- Deadly Gladiator's Cuffs of Salvation
-								{"select", "itemID", 41880 },	-- Deadly Gladiator's Cord of Salvation
-								{"select", "itemID", 41884 },	-- Deadly Gladiator's Treads of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41873)),	-- Deadly Gladiator's Mooncloth Gloves
 						moh(3, i(41853)),	-- Deadly Gladiator's Mooncloth Hood
 						moh(3, i(41863)),	-- Deadly Gladiator's Mooncloth Leggings
@@ -972,16 +805,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41920)),	-- Deadly Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146542, {	-- Ensemble: Deadly Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146542, {	-- Ensemble: Deadly Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 41839 },	-- Deadly Gladiator's Armwraps of Triumph
-								{"select", "itemID", 41831 },	-- Deadly Gladiator's Belt of Triumph
-								{"select", "itemID", 41835 },	-- Deadly Gladiator's Boots of Triumph
-							},
-						}),
+						})),
 						moh(2, i(41766)),	-- Deadly Gladiator's Leather Gloves
 						moh(3, i(41671)),	-- Deadly Gladiator's Leather Helm
 						moh(3, i(41654)),	-- Deadly Gladiator's Leather Legguards
@@ -989,19 +815,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41649)),	-- Deadly Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146544, {	-- Ensemble: Deadly Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146544, {	-- Ensemble: Deadly Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 41064 },	-- Deadly Gladiator's Wristguards of Dominance
-								{"select", "itemID", 41069 },	-- Deadly Gladiator's Waistguard of Dominance
-								{"select", "itemID", 41074 },	-- Deadly Gladiator's Sabatons of Dominance
-								{"select", "itemID", 41059 },	-- Deadly Gladiator's Wristguards of Salvation
-								{"select", "itemID", 41048 },	-- Deadly Gladiator's Waistguard of Salvation
-								{"select", "itemID", 41054 },	-- Deadly Gladiator's Sabatons of Salvation
-							},
-						}),
+						})),
 						moh(3, i(41080)),	-- Deadly Gladiator's Linked Armor
 						moh(2, i(41136)),	-- Deadly Gladiator's Linked Gauntlets
 						moh(3, i(41150)),	-- Deadly Gladiator's Linked Helm
@@ -1019,16 +835,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41037)),	-- Deadly Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146541, {	-- Ensemble: Deadly Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146541, {	-- Ensemble: Deadly Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 147592 },	-- Deadly Gladiator's Cuffs of Ascendancy
-								{"select", "itemID", 147593 },	-- Deadly Gladiator's Cord of Ascendancy
-								{"select", "itemID", 147594 },	-- Deadly Gladiator's Treads of Ascendancy
-							},
-						}),
+						})),
 						moh(2, i(42010)),	-- Deadly Gladiator's Felweave Amice
 						moh(3, i(41992)),	-- Deadly Gladiator's Felweave Cowl
 						moh(2, i(42016)),	-- Deadly Gladiator's Felweave Handguards
@@ -1036,16 +845,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(42004)),	-- Deadly Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146543, {	-- Ensemble: Deadly Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146543, {	-- Ensemble: Deadly Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 40888 },	-- Deadly Gladiator's Bracers of Triumph
-								{"select", "itemID", 40879 },	-- Deadly Gladiator's Girdle of Triumph
-								{"select", "itemID", 40880 },	-- Deadly Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(40786)),	-- Deadly Gladiator's Plate Chestpiece
 						moh(2, i(40804)),	-- Deadly Gladiator's Plate Gauntlets
 						moh(3, i(40823)),	-- Deadly Gladiator's Plate Helm
@@ -1067,14 +869,12 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41839)),	-- Deadly Gladiator's Armwraps of Triumph
 						moh(1, i(40982)),	-- Deadly Gladiator's Bracers of Salvation
 						moh(1, i(40888)),	-- Deadly Gladiator's Bracers of Triumph
-						i(147589, {	-- Deadly Gladiator's Bracers of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147589, {	-- Deadly Gladiator's Bracers of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
-						i(147592, {	-- Deadly Gladiator's Cuffs of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147592, {	-- Deadly Gladiator's Cuffs of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41908)),	-- Deadly Gladiator's Cuffs of Dominance
 						moh(1, i(41892)),	-- Deadly Gladiator's Cuffs of Salvation
 						moh(1, i(41064)),	-- Deadly Gladiator's Wristguards of Dominance
@@ -1085,18 +885,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41629)),	-- Deadly Gladiator's Belt of Dominance
 						moh(1, i(41616)),	-- Deadly Gladiator's Belt of Salvation
 						moh(1, i(41831)),	-- Deadly Gladiator's Belt of Triumph
-						i(147593, {	-- Deadly Gladiator's Cord of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147593, {	-- Deadly Gladiator's Cord of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41897)),	-- Deadly Gladiator's Cord of Dominance
 						moh(1, i(41880)),	-- Deadly Gladiator's Cord of Salvation
 						moh(1, i(40974)),	-- Deadly Gladiator's Girdle of Salvation
 						moh(1, i(40879)),	-- Deadly Gladiator's Girdle of Triumph
-						i(147590, {	-- Deadly Gladiator's Girdle of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147590, {	-- Deadly Gladiator's Girdle of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41069)),	-- Deadly Gladiator's Waistguard of Dominance
 						moh(1, i(41048)),	-- Deadly Gladiator's Waistguard of Salvation
 						moh(1, i(41234)),	-- Deadly Gladiator's Waistguard of Triumph
@@ -1107,17 +905,15 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41835)),	-- Deadly Gladiator's Boots of Triumph
 						moh(2, i(40975)),	-- Deadly Gladiator's Greaves of Salvation
 						moh(2, i(40880)),	-- Deadly Gladiator's Greaves of Triumph
-						i(147591, {	-- Deadly Gladiator's Greaves of Victory
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147591, {	-- Deadly Gladiator's Greaves of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41074)),	-- Deadly Gladiator's Sabatons of Dominance
 						moh(2, i(41054)),	-- Deadly Gladiator's Sabatons of Salvation
 						moh(2, i(41229)),	-- Deadly Gladiator's Sabatons of Triumph
-						i(147594, {	-- Deadly Gladiator's Treads of Ascendancy
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147594, {	-- Deadly Gladiator's Treads of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41902)),	-- Deadly Gladiator's Treads of Dominance
 						moh(2, i(41884)),	-- Deadly Gladiator's Treads of Salvation
 					}),
@@ -1260,16 +1056,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					cl(DEATHKNIGHT, {
-						i(146550, {	-- Ensemble: Furious Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146550, {	-- Ensemble: Furious Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, DEATHKNIGHT },
-								{"select", "itemID", 40889 },	-- Furious Gladiator's Bracers of Triumph
-								{"select", "itemID", 40881 },	-- Furious Gladiator's Girdle of Triumph
-								{"select", "itemID", 40882 },	-- Furious Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(40787)),	-- Furious Gladiator's Dreadplate Chestpiece
 						moh(2, i(40809)),	-- Furious Gladiator's Dreadplate Gauntlets
 						moh(3, i(40827)),	-- Furious Gladiator's Dreadplate Helm
@@ -1277,19 +1066,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40868)),	-- Furious Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146549, {	-- Ensemble: Furious Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146549, {	-- Ensemble: Furious Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 41640 },	-- Furious Gladiator's Armwraps of Dominance
-								{"select", "itemID", 41630 },	-- Furious Gladiator's Belt of Dominance
-								{"select", "itemID", 41635 },	-- Furious Gladiator's Boots of Dominance
-								{"select", "itemID", 41625 },	-- Furious Gladiator's Armwraps of Salvation
-								{"select", "itemID", 41617 },	-- Furious Gladiator's Belt of Salvation
-								{"select", "itemID", 41621 },	-- Furious Gladiator's Boots of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41773)),	-- Furious Gladiator's Dragonhide Gloves
 						moh(3, i(41678)),	-- Furious Gladiator's Dragonhide Helm
 						moh(3, i(41667)),	-- Furious Gladiator's Dragonhide Legguards
@@ -1307,16 +1086,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41281)),	-- Furious Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146548, {	-- Ensemble: Furious Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146548, {	-- Ensemble: Furious Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 41225 },	-- Furious Gladiator's Wristguards of Triumph
-								{"select", "itemID", 41235 },	-- Furious Gladiator's Waistguard of Triumph
-								{"select", "itemID", 41230 },	-- Furious Gladiator's Sabatons of Triumph
-							},
-						}),
+						})),
 						moh(3, i(41087)),	-- Furious Gladiator's Chain Armor
 						moh(2, i(41143)),	-- Furious Gladiator's Chain Gauntlets
 						moh(3, i(41157)),	-- Furious Gladiator's Chain Helm
@@ -1324,16 +1096,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41217)),	-- Furious Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146557, {	-- Ensemble: Furious Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146557, {	-- Ensemble: Furious Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 147595 },	-- Furious Gladiator's Cuffs of Ascendancy
-								{"select", "itemID", 147596 },	-- Furious Gladiator's Cord of Ascendancy
-								{"select", "itemID", 147597 },	-- Furious Gladiator's Slippers of Ascendancy
-							},
-						}),
+						})),
 						moh(2, i(41965)),	-- Furious Gladiator's Silk Amice
 						moh(3, i(41946)),	-- Furious Gladiator's Silk Cowl
 						moh(2, i(41971)),	-- Furious Gladiator's Silk Handguards
@@ -1341,16 +1106,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41959)),	-- Furious Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146556, {	-- Ensemble: Furious Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146556, {	-- Ensemble: Furious Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 40983 },	-- Furious Gladiator's Bracers of Salvation
-								{"select", "itemID", 40976 },	-- Furious Gladiator's Girdle of Salvation
-								{"select", "itemID", 40977 },	-- Furious Gladiator's Greaves of Salvation
-							},
-						}),
+						})),
 						moh(3, i(40907)),	-- Furious Gladiator's Ornamented Chestguard
 						moh(2, i(40927)),	-- Furious Gladiator's Ornamented Gloves
 						moh(3, i(40933)),	-- Furious Gladiator's Ornamented Headcover
@@ -1363,16 +1121,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40869)),	-- Furious Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146555, {	-- Ensemble: Furious Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146555, {	-- Ensemble: Furious Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 41893 },	-- Furious Gladiator's Cuffs of Salvation
-								{"select", "itemID", 41881 },	-- Furious Gladiator's Cord of Salvation
-								{"select", "itemID", 41885 },	-- Furious Gladiator's Treads of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41874)),	-- Furious Gladiator's Mooncloth Gloves
 						moh(3, i(41854)),	-- Furious Gladiator's Mooncloth Hood
 						moh(3, i(41864)),	-- Furious Gladiator's Mooncloth Leggings
@@ -1385,16 +1136,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41921)),	-- Furious Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146552, {	-- Ensemble: Furious Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146552, {	-- Ensemble: Furious Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 41840 },	-- Furious Gladiator's Armwraps of Triumph
-								{"select", "itemID", 41832 },	-- Furious Gladiator's Belt of Triumph
-								{"select", "itemID", 41836 },	-- Furious Gladiator's Boots of Triumph
-							},
-						}),
+						})),
 						moh(2, i(41767)),	-- Furious Gladiator's Leather Gloves
 						moh(3, i(41672)),	-- Furious Gladiator's Leather Helm
 						moh(3, i(41655)),	-- Furious Gladiator's Leather Legguards
@@ -1402,19 +1146,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41650)),	-- Furious Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146554, {	-- Ensemble: Furious Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146554, {	-- Ensemble: Furious Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 41065 },	-- Furious Gladiator's Wristguards of Dominance
-								{"select", "itemID", 41070 },	-- Furious Gladiator's Waistguard of Dominance
-								{"select", "itemID", 41075 },	-- Furious Gladiator's Sabatons of Dominance
-								{"select", "itemID", 41060 },	-- Furious Gladiator's Wristguards of Salvation
-								{"select", "itemID", 41051 },	-- Furious Gladiator's Waistguard of Salvation
-								{"select", "itemID", 41055 },	-- Furious Gladiator's Sabatons of Salvation
-							},
-						}),
+						})),
 						moh(3, i(41081)),	-- Furious Gladiator's Linked Armor
 						moh(2, i(41137)),	-- Furious Gladiator's Linked Gauntlets
 						moh(3, i(41151)),	-- Furious Gladiator's Linked Helm
@@ -1432,16 +1166,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41038)),	-- Furious Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146551, {	-- Ensemble: Furious Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146551, {	-- Ensemble: Furious Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 41909 },	-- Furious Gladiator's Cuffs of Dominance
-								{"select", "itemID", 41898 },	-- Furious Gladiator's Cord of Dominance
-								{"select", "itemID", 41903 },	-- Furious Gladiator's Slippers of Dominance
-							},
-						}),
+						})),
 						moh(2, i(42011)),	-- Furious Gladiator's Felweave Amice
 						moh(3, i(41993)),	-- Furious Gladiator's Felweave Cowl
 						moh(2, i(42017)),	-- Furious Gladiator's Felweave Handguards
@@ -1449,16 +1176,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(42005)),	-- Furious Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146553, {	-- Ensemble: Furious Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honors
+						moh(12, iensemble(146553, {	-- Ensemble: Furious Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 147598 },	-- Furious Gladiator's Bracers of Victory
-								{"select", "itemID", 147599 },	-- Furious Gladiator's Girdle of Victory
-								{"select", "itemID", 147600 },	-- Furious Gladiator's Greaves of Victory
-							},
-						}),
+						})),
 						moh(3, i(40789)),	-- Furious Gladiator's Plate Chestpiece
 						moh(2, i(40807)),	-- Furious Gladiator's Plate Gauntlets
 						moh(3, i(40826)),	-- Furious Gladiator's Plate Helm
@@ -1480,14 +1200,12 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41840)),	-- Furious Gladiator's Armwraps of Triumph
 						moh(1, i(40983)),	-- Furious Gladiator's Bracers of Salvation
 						moh(1, i(40889)),	-- Furious Gladiator's Bracers of Triumph
-						i(147598, {	-- Furious Gladiator's Bracers of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147598, {	-- Furious Gladiator's Bracers of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
-						i(147595, {	-- Furious Gladiator's Cuffs of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						})),
+						moh(1, i(147595, {	-- Furious Gladiator's Cuffs of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41909)),	-- Furious Gladiator's Cuffs of Dominance
 						moh(1, i(41893)),	-- Furious Gladiator's Cuffs of Salvation
 						moh(1, i(41065)),	-- Furious Gladiator's Wristguards of Dominance
@@ -1498,18 +1216,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41630)),	-- Furious Gladiator's Belt of Dominance
 						moh(1, i(41617)),	-- Furious Gladiator's Belt of Salvation
 						moh(1, i(41832)),	-- Furious Gladiator's Belt of Triumph
-						i(147596, {	-- Furious Gladiator's Cord of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147596, {	-- Furious Gladiator's Cord of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41898)),	-- Furious Gladiator's Cord of Dominance
 						moh(1, i(41881)),	-- Furious Gladiator's Cord of Salvation
 						moh(1, i(40976)),	-- Furious Gladiator's Girdle of Salvation
 						moh(1, i(40881)),	-- Furious Gladiator's Girdle of Triumph
-						i(147599, {	-- Furious Gladiator's Girdle of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147599, {	-- Furious Gladiator's Girdle of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41070)),	-- Furious Gladiator's Waistguard of Dominance
 						moh(1, i(41051)),	-- Furious Gladiator's Waistguard of Salvation
 						moh(1, i(41235)),	-- Furious Gladiator's Waistguard of Triumph
@@ -1520,17 +1236,15 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41836)),	-- Furious Gladiator's Boots of Triumph
 						moh(2, i(40977)),	-- Furious Gladiator's Greaves of Salvation
 						moh(2, i(40882)),	-- Furious Gladiator's Greaves of Triumph
-						i(147600, {	-- Furious Gladiator's Greaves of Victory
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147600, {	-- Furious Gladiator's Greaves of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41075)),	-- Furious Gladiator's Sabatons of Dominance
 						moh(2, i(41055)),	-- Furious Gladiator's Sabatons of Salvation
 						moh(2, i(41230)),	-- Furious Gladiator's Sabatons of Triumph
-						i(147597, {	-- Furious Gladiator's Slippers of Ascendancy
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147597, {	-- Furious Gladiator's Slippers of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41903)),	-- Furious Gladiator's Slippers of Dominance
 						moh(2, i(41885)),	-- Furious Gladiator's Slippers of Salvation
 					}),
@@ -1705,16 +1419,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					cl(DEATHKNIGHT, {
-						i(146570, {	-- Ensemble: Relentless Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146570, {	-- Ensemble: Relentless Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, DEATHKNIGHT },
-								{"select", "itemID", 40890 },	-- Relentless Gladiator's Bracers of Triumph
-								{"select", "itemID", 40883 },	-- Relentless Gladiator's Girdle of Triumph
-								{"select", "itemID", 147601 },	-- Relentless Gladiator's Greaves of Victory
-							},
-						}),
+						})),
 						moh(3, i(40791)),	-- Relentless Gladiator's Dreadplate Chestpiece
 						moh(2, i(40811)),	-- Relentless Gladiator's Dreadplate Gauntlets
 						moh(3, i(40830)),	-- Relentless Gladiator's Dreadplate Helm
@@ -1722,19 +1429,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40871)),	-- Relentless Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146569, {	-- Ensemble: Relentless Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146569, {	-- Ensemble: Relentless Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 41641 },	-- Relentless Gladiator's Armwraps of Dominance
-								{"select", "itemID", 41631 },	-- Relentless Gladiator's Belt of Dominance
-								{"select", "itemID", 41636 },	-- Relentless Gladiator's Boots of Dominance
-								{"select", "itemID", 41626 },	-- Relentless Gladiator's Armwraps of Salvation
-								{"select", "itemID", 41618 },	-- Relentless Gladiator's Belt of Salvation
-								{"select", "itemID", 41622 },	-- Relentless Gladiator's Boots of Salvation
-							},
-						}),
+						})),
 						moh(2, i(41774)),	-- Relentless Gladiator's Dragonhide Gloves
 						moh(3, i(41679)),	-- Relentless Gladiator's Dragonhide Helm
 						moh(3, i(41668)),	-- Relentless Gladiator's Dragonhide Legguards
@@ -1752,16 +1449,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41282)),	-- Relentless Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146568, {	-- Ensemble: Relentless Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146568, {	-- Ensemble: Relentless Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 41226 },	-- Relentless Gladiator's Wristguards of Triumph
-								{"select", "itemID", 41236 },	-- Relentless Gladiator's Waistguard of Triumph
-								{"select", "itemID", 41231 },	-- Relentless Gladiator's Sabatons of Triumph
-							},
-						}),
+						})),
 						moh(3, i(41088)),	-- Relentless Gladiator's Chain Armor
 						moh(2, i(41144)),	-- Relentless Gladiator's Chain Gauntlets
 						moh(3, i(41158)),	-- Relentless Gladiator's Chain Helm
@@ -1769,17 +1459,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41218)),	-- Relentless Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146577, {	-- Ensemble: Relentless Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146577, {	-- Ensemble: Relentless Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 41910 },	-- Relentless Gladiator's Cuffs of Dominance
-								{"select", "itemID", 41899 },	-- Relentless Gladiator's Cord of Dominance
-								{"select", "itemID", 41904 },	-- Relentless Gladiator's Treads of Dominance
-								{"select", "itemID", 49181 },	-- Relentless Gladiator's Cuffs of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(41966)),	-- Relentless Gladiator's Silk Amice
 						moh(3, i(41947)),	-- Relentless Gladiator's Silk Cowl
 						moh(2, i(41972)),	-- Relentless Gladiator's Silk Handguards
@@ -1787,16 +1469,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41960)),	-- Relentless Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146576, {	-- Ensemble: Relentless Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146576, {	-- Ensemble: Relentless Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 40984 },	-- Relentless Gladiator's Bracers of Salvation
-								{"select", "itemID", 40978 },	-- Relentless Gladiator's Girdle of Salvation
-								{"select", "itemID", 40979 },	-- Relentless Gladiator's Greaves of Salvation
-							},
-						}),
+						})),
 						moh(3, i(40910)),	-- Relentless Gladiator's Ornamented Chestguard
 						moh(2, i(40928)),	-- Relentless Gladiator's Ornamented Gloves
 						moh(3, i(40934)),	-- Relentless Gladiator's Ornamented Headcover
@@ -1809,17 +1484,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(40872)),	-- Relentless Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146575, {	-- Ensemble: Relentless Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146575, {	-- Ensemble: Relentless Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 41894 },	-- Relentless Gladiator's Cuffs of Salvation
-								{"select", "itemID", 41882 },	-- Relentless Gladiator's Cord of Salvation
-								{"select", "itemID", 41886 },	-- Relentless Gladiator's Treads of Salvation
-								{"select", "itemID", 49179 },	-- Relentless Gladiator's Cord of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(41875)),	-- Relentless Gladiator's Mooncloth Gloves
 						moh(3, i(41855)),	-- Relentless Gladiator's Mooncloth Hood
 						moh(3, i(41865)),	-- Relentless Gladiator's Mooncloth Leggings
@@ -1832,16 +1499,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41922)),	-- Relentless Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146572, {	-- Ensemble: Relentless Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146572, {	-- Ensemble: Relentless Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 41841 },	-- Relentless Gladiator's Armwraps of Triumph
-								{"select", "itemID", 41833 },	-- Relentless Gladiator's Belt of Triumph
-								{"select", "itemID", 41837 },	-- Relentless Gladiator's Boots of Triumph
-							},
-						}),
+						})),
 						moh(2, i(41768)),	-- Relentless Gladiator's Leather Gloves
 						moh(3, i(41673)),	-- Relentless Gladiator's Leather Helm
 						moh(3, i(41656)),	-- Relentless Gladiator's Leather Legguards
@@ -1849,19 +1509,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(41651)),	-- Relentless Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146574, {	-- Ensemble: Relentless Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146574, {	-- Ensemble: Relentless Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 41066 },	-- Relentless Gladiator's Wristguards of Dominance
-								{"select", "itemID", 41071 },	-- Relentless Gladiator's Waistguard of Dominance
-								{"select", "itemID", 41076 },	-- Relentless Gladiator's Sabatons of Dominance
-								{"select", "itemID", 41061 },	-- Relentless Gladiator's Wristguards of Salvation
-								{"select", "itemID", 41052 },	-- Relentless Gladiator's Waistguard of Salvation
-								{"select", "itemID", 41056 },	-- Relentless Gladiator's Sabatons of Salvation
-							},
-						}),
+						})),
 						moh(3, i(41082)),	-- Relentless Gladiator's Linked Armor
 						moh(2, i(41138)),	-- Relentless Gladiator's Linked Gauntlets
 						moh(3, i(41152)),	-- Relentless Gladiator's Linked Helm
@@ -1879,15 +1529,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41039)),	-- Relentless Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146571, {	-- Ensemble: Relentless Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146571, {	-- Ensemble: Relentless Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 147602 },	-- Relentless Gladiator's Cuffs of Ascendancy
-								{"select", "itemID", 49183 },	-- Relentless Gladiator's Treads of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(42012)),	-- Relentless Gladiator's Felweave Amice
 						moh(3, i(41994)),	-- Relentless Gladiator's Felweave Cowl
 						moh(2, i(42018)),	-- Relentless Gladiator's Felweave Handguards
@@ -1895,16 +1539,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(42006)),	-- Relentless Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146573, {	-- Ensemble: Relentless Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146573, {	-- Ensemble: Relentless Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_RELENTLESS, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 147603 },	-- Relentless Gladiator's Bracers of Victory
-								{"select", "itemID", 147604 },	-- Relentless Gladiator's Girdle of Victory
-								{"select", "itemID", 40884 },	-- Relentless Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(40790)),	-- Relentless Gladiator's Plate Chestpiece
 						moh(2, i(40810)),	-- Relentless Gladiator's Plate Gauntlets
 						moh(3, i(40829)),	-- Relentless Gladiator's Plate Helm
@@ -1926,15 +1563,13 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41841)),	-- Relentless Gladiator's Armwraps of Triumph
 						moh(1, i(40984)),	-- Relentless Gladiator's Bracers of Salvation
 						moh(1, i(40890)),	-- Relentless Gladiator's Bracers of Triumph
-						i(147603, {	-- Relentless Gladiator's Bracers of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147603, {	-- Relentless Gladiator's Bracers of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(49181)),	-- Relentless Gladiator's Cuffs of Alacrity
-						i(147602, {	-- Relentless Gladiator's Cuffs of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147602, {	-- Relentless Gladiator's Cuffs of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41910)),	-- Relentless Gladiator's Cuffs of Dominance
 						moh(1, i(41894)),	-- Relentless Gladiator's Cuffs of Salvation
 						moh(1, i(41066)),	-- Relentless Gladiator's Wristguards of Dominance
@@ -1950,10 +1585,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(41882)),	-- Relentless Gladiator's Cord of Salvation
 						moh(1, i(40978)),	-- Relentless Gladiator's Girdle of Salvation
 						moh(1, i(40883)),	-- Relentless Gladiator's Girdle of Triumph
-						i(147604, {	-- Relentless Gladiator's Girdle of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147604, {	-- Relentless Gladiator's Girdle of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(41071)),	-- Relentless Gladiator's Waistguard of Dominance
 						moh(1, i(41052)),	-- Relentless Gladiator's Waistguard of Salvation
 						moh(1, i(41236)),	-- Relentless Gladiator's Waistguard of Triumph
@@ -1964,10 +1598,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(41837)),	-- Relentless Gladiator's Boots of Triumph
 						moh(2, i(40979)),	-- Relentless Gladiator's Greaves of Salvation
 						moh(2, i(40884)),	-- Relentless Gladiator's Greaves of Triumph
-						i(147601, {	-- Relentless Gladiator's Greaves of Victory
-							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
+						moh(2, i(147601, {	-- Relentless Gladiator's Greaves of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(2, i(41076)),	-- Relentless Gladiator's Sabatons of Dominance
 						moh(2, i(41056)),	-- Relentless Gladiator's Sabatons of Salvation
 						moh(2, i(41231)),	-- Relentless Gladiator's Sabatons of Triumph
@@ -2149,16 +1782,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					cl(DEATHKNIGHT, {
-						i(146590, {	-- Ensemble: Wrathful Gladiator's Dreadplate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146590, {	-- Ensemble: Wrathful Gladiator's Dreadplate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, DEATHKNIGHT },
-								{"select", "itemID", 51364 },	-- Wrathful Gladiator's Bracers of Triumph
-								{"select", "itemID", 51362 },	-- Wrathful Gladiator's Girdle of Triumph
-								{"select", "itemID", 51363 },	-- Wrathful Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(51413)),	-- Wrathful Gladiator's Dreadplate Chestpiece
 						moh(2, i(51414)),	-- Wrathful Gladiator's Dreadplate Gauntlets
 						moh(3, i(51415)),	-- Wrathful Gladiator's Dreadplate Helm
@@ -2166,19 +1792,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(51418)),	-- Wrathful Gladiator's Dreadplate Shoulders
 					}),
 					cl(DRUID, {
-						i(146589, {	-- Ensemble: Wrathful Gladiator's Dragonhide Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146589, {	-- Ensemble: Wrathful Gladiator's Dragonhide Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, DRUID },
-								{"select", "itemID", 51345 },	-- Wrathful Gladiator's Armwraps of Dominance
-								{"select", "itemID", 51343 },	-- Wrathful Gladiator's Belt of Dominance
-								{"select", "itemID", 51344 },	-- Wrathful Gladiator's Boots of Dominance
-								{"select", "itemID", 51342 },	-- Wrathful Gladiator's Armwraps of Salvation
-								{"select", "itemID", 51340 },	-- Wrathful Gladiator's Belt of Salvation
-								{"select", "itemID", 51341 },	-- Wrathful Gladiator's Boots of Salvation
-							},
-						}),
+						})),
 						moh(2, i(51426)),	-- Wrathful Gladiator's Dragonhide Gloves
 						moh(3, i(51427)),	-- Wrathful Gladiator's Dragonhide Helm
 						moh(3, i(51428)),	-- Wrathful Gladiator's Dragonhide Legguards
@@ -2196,16 +1812,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(51438)),	-- Wrathful Gladiator's Wyrmhide Spaulders
 					}),
 					cl(HUNTER, {
-						i(146588, {	-- Ensemble: Wrathful Gladiator's Chain Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146588, {	-- Ensemble: Wrathful Gladiator's Chain Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, HUNTER },
-								{"select", "itemID", 51352 },	-- Wrathful Gladiator's Wristguards of Triumph
-								{"select", "itemID", 51350 },	-- Wrathful Gladiator's Waistguard of Triumph
-								{"select", "itemID", 51351 },	-- Wrathful Gladiator's Sabatons of Triumph
-							},
-						}),
+						})),
 						moh(3, i(51458)),	-- Wrathful Gladiator's Chain Armor
 						moh(2, i(51459)),	-- Wrathful Gladiator's Chain Gauntlets
 						moh(3, i(51460)),	-- Wrathful Gladiator's Chain Helm
@@ -2213,17 +1822,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(51462)),	-- Wrathful Gladiator's Chain Spaulders
 					}),
 					cl(MAGE, {
-						i(146597, {	-- Ensemble: Wrathful Gladiator's Silk Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146597, {	-- Ensemble: Wrathful Gladiator's Silk Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, MAGE },
-								{"select", "itemID", 51329 },	-- Wrathful Gladiator's Cuffs of Dominance
-								{"select", "itemID", 51327 },	-- Wrathful Gladiator's Cord of Dominance
-								{"select", "itemID", 51328 },	-- Wrathful Gladiator's Treads of Dominance
-								{"select", "itemID", 51339 },	-- Wrathful Gladiator's Cuffs of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(51467)),	-- Wrathful Gladiator's Silk Amice
 						moh(3, i(51465)),	-- Wrathful Gladiator's Silk Cowl
 						moh(2, i(51464)),	-- Wrathful Gladiator's Silk Handguards
@@ -2231,16 +1832,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(51466)),	-- Wrathful Gladiator's Silk Trousers
 					}),
 					cl(PALADIN, {
-						i(146596, {	-- Ensemble: Wrathful Gladiator's Scaled Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146596, {	-- Ensemble: Wrathful Gladiator's Scaled Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, PALADIN },
-								{"select", "itemID", 51361 },	-- Wrathful Gladiator's Bracers of Salvation
-								{"select", "itemID", 51359 },	-- Wrathful Gladiator's Girdle of Salvation
-								{"select", "itemID", 51360 },	-- Wrathful Gladiator's Greaves of Salvation
-							},
-						}),
+						})),
 						moh(3, i(51468)),	-- Wrathful Gladiator's Ornamented Chestguard
 						moh(2, i(51469)),	-- Wrathful Gladiator's Ornamented Gloves
 						moh(3, i(51470)),	-- Wrathful Gladiator's Ornamented Headcover
@@ -2253,17 +1847,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(51479)),	-- Wrathful Gladiator's Scaled Shoulders
 					}),
 					cl(PRIEST, {
-						i(146595, {	-- Ensemble: Wrathful Gladiator's Satin Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146595, {	-- Ensemble: Wrathful Gladiator's Satin Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, PRIEST },
-								{"select", "itemID", 51367 },	-- Wrathful Gladiator's Cuffs of Salvation
-								{"select", "itemID", 51365 },	-- Wrathful Gladiator's Cord of Salvation
-								{"select", "itemID", 51366 },	-- Wrathful Gladiator's Treads of Salvation
-								{"select", "itemID", 51337 },	-- Wrathful Gladiator's Cord of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(51483)),	-- Wrathful Gladiator's Mooncloth Gloves
 						moh(3, i(51484)),	-- Wrathful Gladiator's Mooncloth Hood
 						moh(3, i(51485)),	-- Wrathful Gladiator's Mooncloth Leggings
@@ -2276,16 +1862,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(51487)),	-- Wrathful Gladiator's Satin Robe
 					}),
 					cl(ROGUE, {
-						i(146592, {	-- Ensemble: Wrathful Gladiator's Leather Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146592, {	-- Ensemble: Wrathful Gladiator's Leather Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, ROGUE },
-								{"select", "itemID", 51370 },	-- Wrathful Gladiator's Armwraps of Triumph
-								{"select", "itemID", 51368 },	-- Wrathful Gladiator's Belt of Triumph
-								{"select", "itemID", 51369 },	-- Wrathful Gladiator's Boots of Triumph
-							},
-						}),
+						})),
 						moh(2, i(51493)),	-- Wrathful Gladiator's Leather Gloves
 						moh(3, i(51494)),	-- Wrathful Gladiator's Leather Helm
 						moh(3, i(51495)),	-- Wrathful Gladiator's Leather Legguards
@@ -2293,19 +1872,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(51492)),	-- Wrathful Gladiator's Leather Tunic
 					}),
 					cl(SHAMAN, {
-						i(146594, {	-- Ensemble: Wrathful Gladiator's Ringmail Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146594, {	-- Ensemble: Wrathful Gladiator's Ringmail Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, SHAMAN },
-								{"select", "itemID", 51376 },	-- Wrathful Gladiator's Wristguards of Dominance
-								{"select", "itemID", 51374 },	-- Wrathful Gladiator's Waistguard of Dominance
-								{"select", "itemID", 51375 },	-- Wrathful Gladiator's Sabatons of Dominance
-								{"select", "itemID", 51373 },	-- Wrathful Gladiator's Wristguards of Salvation
-								{"select", "itemID", 51371 },	-- Wrathful Gladiator's Waistguard of Salvation
-								{"select", "itemID", 51372 },	-- Wrathful Gladiator's Sabatons of Salvation
-							},
-						}),
+						})),
 						moh(3, i(51503)),	-- Wrathful Gladiator's Linked Armor
 						moh(2, i(51504)),	-- Wrathful Gladiator's Linked Gauntlets
 						moh(3, i(51505)),	-- Wrathful Gladiator's Linked Helm
@@ -2323,16 +1892,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(2, i(51502)),	-- Wrathful Gladiator's Ringmail Spaulders
 					}),
 					cl(WARLOCK, {
-						i(146591, {	-- Ensemble: Wrathful Gladiator's Felweave Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146591, {	-- Ensemble: Wrathful Gladiator's Felweave Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, WARLOCK },
-								{"select", "itemID", 147605 },	-- Wrathful Gladiator's Cuffs of Ascendancy
-								{"select", "itemID", 147606 },	-- Wrathful Gladiator's Cord of Ascendancy
-								{"select", "itemID", 51338 },	-- Wrathful Gladiator's Treads of Alacrity
-							},
-						}),
+						})),
 						moh(2, i(51540)),	-- Wrathful Gladiator's Felweave Amice
 						moh(3, i(51538)),	-- Wrathful Gladiator's Felweave Cowl
 						moh(2, i(51537)),	-- Wrathful Gladiator's Felweave Handguards
@@ -2340,16 +1902,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(3, i(51539)),	-- Wrathful Gladiator's Felweave Trousers
 					}),
 					cl(WARRIOR, {
-						i(146593, {	-- Ensemble: Wrathful Gladiator's Plate Armor
-							["cost"] = { { "i", 137642, 12 } },	-- 12x Mark of Honor
+						moh(12, iensemble(146593, {	-- Ensemble: Wrathful Gladiator's Plate Armor
 							["timeline"] = { ADDED_7_2_0 },
-							["sym"] = {
-								{"sub", "pvp_set_ensemble", EXPANSION.WRATH, SEASON_WRATHFUL, PVP_GLADIATOR, WARRIOR },
-								{"select", "itemID", 147607 },	-- Wrathful Gladiator's Bracers of Victory
-								{"select", "itemID", 147608 },	-- Wrathful Gladiator's Girdle of Victory
-								{"select", "itemID", 51363 },	-- Wrathful Gladiator's Greaves of Triumph
-							},
-						}),
+						})),
 						moh(3, i(51541)),	-- Wrathful Gladiator's Plate Chestpiece
 						moh(2, i(51542)),	-- Wrathful Gladiator's Plate Gauntlets
 						moh(3, i(51543)),	-- Wrathful Gladiator's Plate Helm
@@ -2371,15 +1926,13 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(51370)),	-- Wrathful Gladiator's Armwraps of Triumph
 						moh(1, i(51361)),	-- Wrathful Gladiator's Bracers of Salvation
 						moh(1, i(51364)),	-- Wrathful Gladiator's Bracers of Triumph
-						i(147607, {	-- Wrathful Gladiator's Bracers of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147607, {	-- Wrathful Gladiator's Bracers of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(51339)),	-- Wrathful Gladiator's Cuffs of Alacrity
-						i(147605, {	-- Wrathful Gladiator's Cuffs of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147605, {	-- Wrathful Gladiator's Cuffs of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(51329)),	-- Wrathful Gladiator's Cuffs of Dominance
 						moh(1, i(51367)),	-- Wrathful Gladiator's Cuffs of Salvation
 						moh(1, i(51376)),	-- Wrathful Gladiator's Wristguards of Dominance
@@ -2391,18 +1944,16 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						moh(1, i(51340)),	-- Wrathful Gladiator's Belt of Salvation
 						moh(1, i(51368)),	-- Wrathful Gladiator's Belt of Triumph
 						moh(1, i(51337)),	-- Wrathful Gladiator's Cord of Alacrity
-						i(147606, {	-- Wrathful Gladiator's Cord of Ascendancy
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147606, {	-- Wrathful Gladiator's Cord of Ascendancy
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(51327)),	-- Wrathful Gladiator's Cord of Dominance
 						moh(1, i(51365)),	-- Wrathful Gladiator's Cord of Salvation
 						moh(1, i(51359)),	-- Wrathful Gladiator's Girdle of Salvation
 						moh(1, i(51362)),	-- Wrathful Gladiator's Girdle of Triumph
-						i(147608, {	-- Wrathful Gladiator's Girdle of Victory
-							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
+						moh(1, i(147608, {	-- Wrathful Gladiator's Girdle of Victory
 							["timeline"] = { ADDED_7_2_0 },
-						}),
+						})),
 						moh(1, i(51374)),	-- Wrathful Gladiator's Waistguard of Dominance
 						moh(1, i(51371)),	-- Wrathful Gladiator's Waistguard of Salvation
 						moh(1, i(51350)),	-- Wrathful Gladiator's Waistguard of Triumph
