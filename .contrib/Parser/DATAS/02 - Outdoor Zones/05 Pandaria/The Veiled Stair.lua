@@ -130,7 +130,6 @@ root(ROOTS.Zones, {
 							})),
 							applyclassicphase(MOP_PHASE_ESCALATION, bubbleDown({
 								["sourceAchievement"] = 7536,	-- Chapter IV: Celestial Blessings
-								["description"] = "To purchase this you must have completed the achievement |cFFFFD700'Chapter IV: Celestial Blessings'|r during Mists of Pandaria. ",
 								["timeline"] = { ADDED_5_3_0 },
 								["cost"] = 100000000,	-- 10,000g
 							}, {
@@ -144,7 +143,6 @@ root(ROOTS.Zones, {
 							applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {
 								i(102457, {	-- Timeless Essence of the Black Dragonflight
 									["sourceAchievement"] = 8325,	-- Chapter V: Judgment of the Black Prince
-									["description"] = "To purchase this you must have obtained the achievement |cFFFFD700'Chapter V: Judgment of the Black Prince'|r during Mists of Pandaria.",
 									["timeline"] = { ADDED_5_4_0 },
 								}),
 							}),
