@@ -23,6 +23,7 @@ jobs:
         shell: cmd
 
       - name: Commit Changes
+        shell: bash -l {0}
         run: |
             if [[ `git status --porcelain` ]]; then
               echo "Staging changes..."
