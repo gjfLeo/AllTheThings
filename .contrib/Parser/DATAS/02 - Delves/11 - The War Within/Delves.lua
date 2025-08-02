@@ -100,7 +100,7 @@ local mapped = function(t)
 	end
 	return t
 end
-root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES_TWW_S1, {	-- Includes Zekvir's Lair
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
 			ach(40446, {	-- I TAKE Candle!
@@ -178,7 +178,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 	}),
-	n(DELVES_TWW_S2, {	-- Includes Demolition Dome
+	n(DELVES_TWW_S2, applyDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {	-- Includes Demolition Dome
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41709),	-- Journey's End (Season 2)
 			ach(41531, {	-- The Hataclysm
@@ -231,8 +231,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				})),
 			},
 		})),
-	}),
-	n(DELVES_TWW_S3, {	-- Includes Voidrazor Sanctuary
+	})),
+	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 			ach(42801),	-- Journey's End (Season 3)
 			ach(42799),	-- Let Her Solo Me
@@ -264,7 +264,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			},
 		})),
-	}),
+	})),
 	n(ACHIEVEMENTS, {
 		ach(40817, {	-- A Delver's Bounty
 			["maps"] = ALL_REGULAR_DELVES,
@@ -3909,8 +3909,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	n(DELVES, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
+	n(DELVES, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 		n(BOUNTIFUL, {	-- Bountiful Delve runs
 			q(82944),	-- Earthcrawl Mines
 			q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
@@ -3954,7 +3954,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(84818),	-- Zekvir pop in The Spiral Weave (2nd time in week, Tier 8)
 			q(84819),	-- Zekvir pop in Skittering Breach (2nd time in week, Tier 8), also in Nightfall Sanctum (unsure, Tier 3)
 		}),
-		n(DELVES_TWW_S2, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+		n(DELVES_TWW_S2, applyDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			n(QUESTS, {
 				-- q(86329),	-- Delver's Cosmetic Surprise Bag (itemID 233281) [linked to Item]
 				-- q(86328),	-- Delver's Starter Kit (itemID 233276) [linked to Item]
@@ -3981,7 +3981,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(90946, {["timeline"]={ADDED_11_1_7}}),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
 			q(90952, {["timeline"]={ADDED_11_1_7}}),	-- Energy Shield ability (spellID 1238258); after learning Titan Force Shield (spellID 1225004) in delve console
 		})),
-		n(DELVES_TWW_S3, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+		n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
 			-- Delver's Journey Rewards
 			q(88823),	-- Delver's Mana-Skimmer Schematic: Canister (spellID 1224293)
 			q(88825),	-- Delver's Mana-Skimmer Schematic: Emitter (spellID 1224295)
@@ -4024,5 +4024,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
 
 		-- Ky'veza Delve
-	}),
-})));
+	})),
+}));
