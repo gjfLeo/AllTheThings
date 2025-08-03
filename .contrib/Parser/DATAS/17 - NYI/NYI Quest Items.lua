@@ -29,7 +29,7 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 	}),
 	expansion(EXPANSION.MOP, {
 		-- 5.0.4
-		expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { CREATED_5_0_4 } }, {
+		expansion(EXPANSION.MOP, patch(0,4), bubbleDownSelf({ ["timeline"] = { CREATED_5_0_4 } }, {
 			i(83769),	-- Between a Saurok and a Hard Place
 		})),
 		-- 5.2.0
