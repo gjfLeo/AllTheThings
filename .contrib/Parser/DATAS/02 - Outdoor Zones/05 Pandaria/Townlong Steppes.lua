@@ -1686,6 +1686,14 @@ root(ROOTS.Zones, {
 							89657,	-- Wall Breaker Gauntlets
 							89652,	-- Wandering Friar's Gloves
 						}},
+						["groups"] = {
+							-- #if AFTER 6.0.1
+							currency(697, {	-- Elder Charm of Good Fortune
+								["cost"] = { { "c", 738, 20 } },	-- 20x Lesser Charm of Good Fortune
+								["timeline"] = { ADDED_6_0_2 },
+							}),
+							-- #endif
+						},
 					}),
 					n(64606, {	-- Commander Oxheart <Valor Quartermaster>
 						["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },

@@ -1973,6 +1973,9 @@ root(ROOTS.Zones, {
 							i(105924, {	-- Hozen Can Opener
 								["cost"] = { { "c", 777, 10000 } },	-- 10,000x Timeless Coin
 							}),
+							currency(752, {	-- Mogu Rune of Fate
+								["cost"] = { { "c", 777, 1000 } },	-- 1,000x Timeless Coin
+							}),
 							i(105926, {	-- Ordon Sacrificial Dagger
 								["cost"] = { { "c", 777, 10000 } },	-- 10,000x Timeless Coin
 							}),

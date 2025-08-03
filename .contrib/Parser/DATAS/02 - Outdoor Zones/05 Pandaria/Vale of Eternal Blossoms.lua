@@ -480,6 +480,13 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_TOT_ONUPDATE;
 						-- #endif
+						["groups"] = {
+							currency(697, {	-- Elder Charm of Good Fortune
+								-- #if MOP
+								["OnUpdate"] = VALE_TOT_ONUPDATE;
+								-- #endif
+							}),
+						},
 					}),
 					q(32017, {	-- Elder Charms of Good Fortune
 						["qg"] = 63996,	-- Elder Lin
@@ -490,6 +497,13 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_TOT_ONUPDATE;
 						-- #endif
+						["groups"] = {
+							currency(697, {	-- Elder Charm of Good Fortune
+								-- #if MOP
+								["OnUpdate"] = VALE_TOT_ONUPDATE;
+								-- #endif
+							}),
+						},
 					}),
 					-- Wouter TODO: are these in the game?
 					q(30630, {	-- Into the Vale (A)
@@ -531,21 +545,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					-- Wouter TODO: these two get removed with SoO again?
-					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32719, {	-- Mogu Runes of Fate (A)
-						["qg"] = 64029,	-- Elder Lin
-						["coord"] = { 85.2, 62.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 },
-						["races"] = ALLIANCE_ONLY,
-						["isWeekly"] = true,
-					})),
-					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32718, {	-- Mogu Runes of Fate (H)
-						["qg"] = 63996,	-- Elder Liao
-						["coord"] = { 62.0, 20.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 },
-						["races"] = HORDE_ONLY,
-						["isWeekly"] = true,
-					})),
 					q(30633, {	-- Out with the Scouts
 						["sourceQuests"] = { 30632 },	-- The Ruins of Guo-Lai
 						["qg"] = 58465,	-- Anji Autumnlight
@@ -699,20 +698,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, q(33134, {	-- Warforged Seals (A)
-						["qg"] = 64029,	-- Elder Lin
-						["coord"] = { 85.2, 62.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_4_0 },
-						["races"] = ALLIANCE_ONLY,
-						["repeatable"] = true,
-					})),
-					applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, q(33133, {	-- Warforged Seals (H)
-						["qg"] = 63996,	-- Elder Liao
-						["coord"] = { 62.0, 20.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_4_0 },
-						["races"] = HORDE_ONLY,
-						["repeatable"] = true,
-					})),
 					q(30644, {	-- What Comes to Pass
 						["sourceQuests"] = { 30643 },	-- The Mogu's Message
 						["qg"] = 59905,	-- Zhi the Harmonious
