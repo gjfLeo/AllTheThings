@@ -1782,20 +1782,6 @@ root(ROOTS.Zones, {
 							i(86590),	-- Essence of the Breeze (TOY!)
 						},
 					}),
-					n(64403, {	-- Alani
-						["description"] = "Only the person who uses the Sky Crystal on Alani will get the mount, and they can sell or trade it.",
-						["coords"] = {
-							{ 56.2, 42.6, VALE_OF_ETERNAL_BLOSSOMS },
-							{ 35.6, 26.0, VALE_OF_ETERNAL_BLOSSOMS },
-							{ 38.6, 64.6, VALE_OF_ETERNAL_BLOSSOMS },
-						},
-						["cost"] = {
-							{ "i", 86546, 1 },	-- Sky Crystal
-						},
-						["groups"] = {
-							i(90655),	-- Thundering Ruby Cloud Serpent (MOUNT!)
-						},
-					}),
 					n(58949, {	-- Bai-Jin the Butcher
 						["coord"] = { 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
 						["groups"] = {
@@ -2004,6 +1990,22 @@ root(ROOTS.Zones, {
 						i(92680),	-- Flawless Mechanical Battle-Stone
 						i(92681),	-- Flawless Undead Battle-Stone
 					}))),
+				}),
+				n(SPECIAL, {
+					n(64403, {	-- Alani
+						["description"] = "Only the person who uses the Sky Crystal on Alani will get the mount, and they can sell or trade it.",
+						["coords"] = {
+							{ 56.2, 42.6, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 35.6, 26.0, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 38.6, 64.6, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						["cost"] = {
+							{ "i", 86546, 1 },	-- Sky Crystal
+						},
+						["groups"] = {
+							i(90655),	-- Thundering Ruby Cloud Serpent (MOUNT!)
+						},
+					}),
 				}),
 				n(TREASURES, {
 					o(213414, {	-- Always Remember
