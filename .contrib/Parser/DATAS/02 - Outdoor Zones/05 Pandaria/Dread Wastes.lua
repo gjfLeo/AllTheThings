@@ -11,7 +11,6 @@ root(ROOTS.Zones, {
 					ach(7312),	-- Amber is the Color of My Energy
 					ach(6540),	-- Dread Haste Makes Dread Waste
 					ach(6978),	-- Explore Dread Wastes
-					ach(6857),	-- Heart of the Mantid Swarm (automated)
 					ach(7316, {	-- Over Their Heads
 						crit(20511, {		-- Garalon
 							["crs"] = { 63667 },

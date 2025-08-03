@@ -33,26 +33,17 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(7318),	-- A Taste of History
-					ach(6856),	-- Ballad of Liu Lang (automated)
-					ach(6716),	-- Between a Saurok and a Hard Place (automated)
 					ach(7323),	-- Collateral Damage
 					ach(7320),	-- Dog Pile
 					ach(7315, {	-- Eternally in the Vale
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 					}),
 					ach(6979),	-- Explore Vale of Eternal Blossoms
-					ach(6846),	-- Fish Tales (automated)
-					ach(6850),	-- Hozen in the Mist (automated)
-					ach(7230),	-- Legend of the Brewfathers (automated)
 					ach(7317),	-- One Many Army
 					ach(7324),	-- One Step at a Time
 					ach(7319),	-- Ready for Raiding III
 					ach(7322),	-- Roll Club
-					ach(6754),	-- The Dark Heart of the Mogu (automated)
 					ach(6546),	-- The Golden Lotus
-					ach(6548),	-- The Lorewalkers
-					ach(6855),	-- The Seven Burdens of Shaohao (automated)
-					ach(6847),	-- The Song of the Yaungol (automated)
 				}),
 				battlepets({
 					pet(751, {	-- Dancing Water Skimmer (PET!)
@@ -126,7 +117,6 @@ root(ROOTS.Zones, {
 				}),
 				n(FACTIONS, {
 					faction(FACTION_GOLDEN_LOTUS),	-- Golden Lotus
-					faction(FACTION_THE_LOREWALKERS),	-- The Lorewalkers
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1073, {	-- Serpent's Spine, Vale of Eternal Blossoms
@@ -149,62 +139,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 38.9, 72.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_8_3_0 },
 					}),
-				}),
-				n(MAILBOX, {
-					["description"] = "The following will be mailed to you upon completion of respective achievements.",
-					["groups"] = {
-						q(31055, {	-- Between a Saurok and a Hard Place
-							["sourceAchievement"] = 6716,	-- Between a Saurok and a Hard Place
-							["providers"] = {
-								{ "i", 83769 },	-- Between a Saurok and a Hard Place
-								{ "i", 83076 },	-- Between a Saurok and a Hard Place
-							},
-						}),
-						q(31094, {	-- Fish Tales
-							["sourceAchievement"] = 6846,	-- Fish Tales
-							["provider"] = { "i", 83771 },	-- Fish Tales
-						}),
-						q(32602, {	-- Gods and Monsters
-							["sourceAchievement"] = 8051,	-- Gods and Monsters
-							["provider"] = { "i", 94199 },	-- Gods and Monsters
-						}),
-						q(31097, {	-- Heart of the Mantid Swarm
-							["sourceAchievement"] = 6857,	-- Heart of the Mantid Swarm
-							["provider"] = { "i", 83773 },	-- Heart of the Mantid Swarm
-						}),
-						q(31093, {	-- Hozen in the Mist
-							["sourceAchievement"] = 6850,	-- Hozen in the Mist
-							["provider"] = { "i", 83770 },	-- Hozen in the Mist
-						}),
-						q(32601, {	-- Rumbles of Thunder
-							["sourceAchievement"] = 8050,	-- Rumbles of Thunder
-							["provider"] = { "i", 94198 },	-- Rumbles of Thunder
-						}),
-						q(31103, {	-- The Ballad of Liu Lang
-							["sourceAchievement"] = 6856,	-- Ballad of Liu Lang
-							["provider"] = { "i", 83780 },	-- The Ballad of Liu Lang
-						}),
-						q(31095, {	-- The Dark Heart of the Mogu
-							["sourceAchievement"] = 6754,	-- The Dark Heart of the Mogu
-							["provider"] = { "i", 83772 },	-- The Dark Heart of the Mogu
-						}),
-						q(31102, {	-- The Seven Burdens of Shaohao
-							["sourceAchievement"] = 6855,	-- The Seven Burdens of Shaohao
-							["provider"] = { "i", 83779 },	-- The Seven Burdens of Shaohao
-						}),
-						q(31100, {	-- The Song of the Yaungol
-							["sourceAchievement"] = 6847,	-- The Song of the Yaungol
-							["provider"] = { "i", 83777 },	-- The Song of the Yaungol
-						}),
-						q(32600, {	-- The Zandalari Prophecy
-							["sourceAchievement"] = 8049,	-- The Zandalari Prophecy
-							["provider"] = { "i", 94197 },	-- The Zandalari Prophecy
-						}),
-						q(31096, {	-- What is Worth Fighting For
-							["sourceAchievement"] = 6858,	-- What Is Worth Fighting For
-							["provider"] = { "i", 83774 },	-- What is Worth Fighting For
-						}),
-					},
 				}),
 				petbattles({
 					n(66741, {	-- Aki the Chosen <Grand Master Pet Tamer>
@@ -1174,21 +1108,6 @@ root(ROOTS.Zones, {
 						-- #endif
 						["groups"] = { i(87807) },	-- Stone of the Water Strider (QI!)
 					}),
-					q(31288, {	-- Research Project: The Mogu Dynasties
-						["qg"] = 63984,	-- Master Liu
-						["coord"] = { 83.6, 31.0, VALE_OF_ETERNAL_BLOSSOMS },
-						["isDaily"] = true,
-					}),
-					q(31289, {	-- Research Project: The Pandaren Empire
-						["qg"] = 63984,	-- Master Liu
-						["coords"] = {
-							{ 83.6, 31.0, VALE_OF_ETERNAL_BLOSSOMS },
-							-- #if AFTER 8.3.0
-							{ 84.1, 28.5, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							-- #endif
-						},
-						["isDaily"] = true,
-					}),
 					q(30238, {	-- Return to Rest
 						["qg"] = 59338,	-- Che Wildwalker
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -1524,20 +1443,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
-					q(31367, {	-- The Lorewalkers [A]
-						["qg"] = 64508,	-- Scrollmaker Resshi
-						["coord"] = { 85.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { REMOVED_5_1_0, ADDED_10_2_7 },
-						["races"] = ALLIANCE_ONLY,
-						["isBreadcrumb"] = true,
-					}),
-					q(31368, {	-- The Lorewalkers [H]
-						["qg"] = 64531,	-- Lena Stonebrush
-						["coord"] = { 62.4, 21.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { REMOVED_5_1_0, ADDED_10_2_7 },
-						["races"] = HORDE_ONLY,
-						["isBreadcrumb"] = true,
-					}),
 					q(30645, {	-- The Might of Three
 						["sourceQuests"] = { 30644 },	-- What Comes to Pass
 						["qg"] = 58468,	-- Sun Tenderheart
@@ -1723,11 +1628,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(31291, {	-- Uncovering the Past
-						["qg"] = 63983,	-- Ms. Thai
-						["coord"] = { 83.6, 31.0, VALE_OF_ETERNAL_BLOSSOMS },
-						["isDaily"] = true,
-					}),
 					q(30249, {	-- Under the Setting Sun
 						["qg"] = 58920,	-- Kun Autumnlight
 						["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
@@ -1846,17 +1746,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE;
 						-- #endif
 					}),
-					q(31015, {	-- Your Private Collection
-						["sourceQuests"] = {
-							31367,	-- The Lorewalkers (A)
-							31368,	-- The Lorewalkers (H)
-						},
-						["qgs"] = {
-							61962,	-- Lorewalker Cho
-							63577,	-- Lorewalker Cho
-						},
-						["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
-					}),
 				}),
 				n(RARES, {
 					n(COMMON_BOSS_DROPS, {
@@ -1885,7 +1774,6 @@ root(ROOTS.Zones, {
 							crit(20521, {	-- Aetha
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50822, {	-- Ai-Ran the Shifting Cloud
@@ -1914,7 +1802,6 @@ root(ROOTS.Zones, {
 							crit(20530, {	-- Bai-Jin the Butcher
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(63695, {	-- Baolai the Immolator
@@ -1923,7 +1810,6 @@ root(ROOTS.Zones, {
 							crit(20524, {	-- Baolai the Immolator
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(58474, {	-- Bloodtip
@@ -1935,7 +1821,6 @@ root(ROOTS.Zones, {
 							crit(20526, {	-- Bloodtip
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(58768, {	-- Cracklefang
@@ -1944,7 +1829,6 @@ root(ROOTS.Zones, {
 							crit(20517, {	-- Cracklefang
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(62881, {	-- Gaohun the Soul-Severer
@@ -1956,7 +1840,6 @@ root(ROOTS.Zones, {
 							crit(20525, {	-- Gaohun the Soul-Severer
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(63101, {	-- General Temuja
@@ -1968,7 +1851,6 @@ root(ROOTS.Zones, {
 							crit(20519, {	-- General Temuja
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(62880, {	-- Gochao the Ironfist
@@ -1977,7 +1859,6 @@ root(ROOTS.Zones, {
 							crit(20528, {	-- Gochao the Ironfist
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(63691, {	-- Huo-Shuang
@@ -1990,7 +1871,6 @@ root(ROOTS.Zones, {
 							crit(20529, {	-- Huo-Shuang
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50749, {	-- Kal'tik the Blight
@@ -2016,7 +1896,6 @@ root(ROOTS.Zones, {
 							crit(20531, {	-- Kri'chon
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50840, {	-- Major Nanners
@@ -2034,13 +1913,15 @@ root(ROOTS.Zones, {
 							i(86586),	-- Panflute of Pandaria (TOY!)
 						},
 					}),
+					n(50843, {	-- Portent
+						["description"] = "This is a rare Tameable Hunter Pet of 4 varying colors.",
+					}),
 					n(58771, {	-- Quid
 						["coord"] = { 66.4, 39.3, VALE_OF_ETERNAL_BLOSSOMS },
 						["groups"] = {
 							crit(20522, {	-- Quid
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50780, {	-- Sahn Tidehunter
@@ -2055,7 +1936,6 @@ root(ROOTS.Zones, {
 							crit(20520, {	-- Shadowmaster Sydow
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(58817, {	-- Spirit of Lao-Fe
@@ -2064,7 +1944,6 @@ root(ROOTS.Zones, {
 							crit(20523, {	-- Spirit of Lao-Fe
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50359, {	-- Urgolax
@@ -2079,7 +1958,6 @@ root(ROOTS.Zones, {
 							crit(20518, {	-- Vicejaw
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(63977, {	-- Vyraxxis
@@ -2088,7 +1966,6 @@ root(ROOTS.Zones, {
 							crit(20532, {	-- Vyraxxis
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(63509, {	-- Wulon
@@ -2100,7 +1977,6 @@ root(ROOTS.Zones, {
 							crit(20527, {	-- Wulon
 								["achievementID"] = 7317,	-- One Many Army
 							}),
-							i(103624),	-- Treasures of the Vale
 						},
 					}),
 					n(50336, {	-- Yorik Sharpeye
@@ -2109,7 +1985,6 @@ root(ROOTS.Zones, {
 							i(86568),	-- Mr. Smite's Brass Compass (TOY!)
 						},
 					}),
-					--n(50843, {	-- Portent	}),
 				}),
 				n(REWARDS, {
 					petbattle(container(94207, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Fabled Pandaren Pet Supplies
@@ -2138,6 +2013,32 @@ root(ROOTS.Zones, {
 							{ 53.0, 68.3, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },	-- BFA alternate zone
 							-- #endif
 						},
+					}),
+					o(214388, {	-- Ancient Guo-Lai Cache
+						["cost"] = {{ "i", 87779, 1 }},	-- Ancient Guo-Lai Cache Key
+						["groups"] = appendGroups({
+							i(90470),	-- Design: Jade Owl
+							i(90471),	-- Design: Sapphire Cub
+							i(90815),	-- Relic of Guo-Lai
+							i(90816),	-- Relic of the Thunder King
+							i(79731),	-- Scroll of Wisdom
+						},
+						applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, sharedData({ ["timeline"] = { ADDED_5_4_0 } }, {
+							i(102541),	-- Aged Balsamic Vinegar
+							i(102543),	-- Aged Mogu'shan Cheese
+							i(102542),	-- Ancient Pandaren Spices
+							i(101768),	-- Recipe: Farmer's Delight (RECIPE!)
+							i(101770), 	-- Recipe: Fluffy Silkfeather Omelet (RECIPE!)
+							i(101767), 	-- Recipe: Mango Ice (RECIPE!)
+							i(101765), 	-- Recipe: Seasoned Pomfruit Slices (RECIPE!)
+							i(101766), 	-- Recipe: Spiced Blossom Soup (RECIPE!)
+							i(101769), 	-- Recipe: Stuffed Lushrooms (RECIPE!)
+							i(103624),	-- Treasures of the Vale
+							i(76061, {	-- Spirit of Harmony
+								["cost"] = { { "i", 89112, 10 } },	-- 10x Mote of Harmony (adding as this is the only Sourced entry for the Spirit of Harmony currently)
+							}),
+						})),
+						{}),
 					}),
 					o(213456, {	-- The Emperor's Burden - Part 8
 						-- #if AFTER BFA
@@ -2180,14 +2081,6 @@ root(ROOTS.Zones, {
 							}),
 							i(65893, {	-- Sands of Time
 								["cost"] = 30000000,	-- 3000g
-							}),
-						},
-					}),
-					n(64922, {	-- Brann Bronzebeard <Archaeology Trainer>
-						["coord"] = { 83.4, 30.9, VALE_OF_ETERNAL_BLOSSOMS },
-						["groups"] = {
-							i(104198, {	-- Mantid Artifact Hunter's Kit
-								["cost"] = { { "i", 87399, 2 }, },	-- 2x Restored Artifact
 							}),
 						},
 					}),
@@ -2589,65 +2482,10 @@ root(ROOTS.Zones, {
 							i(83269),	-- Wasteland Smasher
 						},
 					}),
-					n(64691, {	-- Lorewalker Huynh <Inscription Trainer>
-						["coord"] = { 82.0, 29.3, VALE_OF_ETERNAL_BLOSSOMS },
-						["groups"] = {
-							i(137788, {	-- Technique: Songs of Peace (RECIPE!)
-								["timeline"] = { ADDED_7_0_3 },
-							}),
-						},
-					}),
-					n(64605, {	-- Tan Shin Tiao <Lorewalkers Quartermaster>
-						["coord"] = { 82.2, 29.4, VALE_OF_ETERNAL_BLOSSOMS },
-						["groups"] = bubbleDownClassicRep(FACTION_THE_LOREWALKERS, {
-							{		-- Neutral
-							}, {	-- Friendly
-							}, {	-- Honored
-							}, {	-- Revered
-								i(93230),	-- Grand Commendation of the Lorewalkers
-								i(122221, {	-- Music Roll: Song of Liu Lang
-									["timeline"] = { ADDED_6_1_0 },
-								}),
-							}, {	-- Exalted
-								i(89363, {	-- Red Flying Cloud (MOUNT!)
-									["cost"] = 6000000,	-- 600g
-								}),
-								i(87548),	-- Lorewalker's Lodestone
-								i(87549),	-- Lorewalkers Map
-								i(89795),	-- Lorewalkers Tabard
-								i(104198, {	-- Mantid Artifact Hunter's Kit
-									["cost"] = { { "i", 87399, 2 }, },	-- 2x Restored Artifact
-								}),
-							},
-						}),
-					}),
 				}),
 				n(ZONE_DROPS, {
 					i(87779, {	-- Ancient Guo-Lai Cache Key
-						["description"] = "Use these keys to unlock Ancient Guo Lai Cache chests in the Vault.",
-						["groups"] = appendGroups({
-								i(90470),	-- Design: Jade Owl
-								i(90471),	-- Design: Sapphire Cub
-								i(90815),	-- Relic of Guo-Lai
-								i(90816),	-- Relic of the Thunder King
-								i(79731),	-- Scroll of Wisdom
-							},
-							applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, sharedData({ ["timeline"] = { ADDED_5_4_0 } }, {
-								i(102541),	-- Aged Balsamic Vinegar
-								i(102543),	-- Aged Mogu'shan Cheese
-								i(102542),	-- Ancient Pandaren Spices
-								i(101768),	-- Recipe: Farmer's Delight (RECIPE!)
-								i(101770), 	-- Recipe: Fluffy Silkfeather Omelet (RECIPE!)
-								i(101767), 	-- Recipe: Mango Ice (RECIPE!)
-								i(101765), 	-- Recipe: Seasoned Pomfruit Slices (RECIPE!)
-								i(101766), 	-- Recipe: Spiced Blossom Soup (RECIPE!)
-								i(101769), 	-- Recipe: Stuffed Lushrooms (RECIPE!)
-								i(103624),	-- Treasures of the Vale
-								i(76061, {	-- Spirit of Harmony
-									["cost"] = { { "i", 89112, 10 } },	-- 10x Mote of Harmony (adding as this is the only Sourced entry for the Spirit of Harmony currently)
-								}),
-							}))
-						),
+						["description"] = "Can randomly drop from any Mogu related mob in the zone.",
 					}),
 					i(85582, {	-- Shao-Tien Cage Key
 						["crs"] = {
@@ -2660,6 +2498,28 @@ root(ROOTS.Zones, {
 					i(86546, {	-- Sky Crystal
 						["cost"] = { { "i", 86547, 10 } },	-- Skyshard
 					}),
+					applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(103624, {	-- Treasures of the Vale
+						["description"] = "Contains a number of Pandarian crafting reagents, herbs, and ore.",
+						["timeline"] = { ADDED_5_4_0 },
+						["crs"] = {
+							58778,	-- Aetha
+							58949,	-- Bai-Jin the Butcher
+							63695,	-- Baolai the Immolator
+							58474,	-- Bloodtip
+							58768,	-- Cracklefang
+							62881,	-- Gaohun the Soul-Severer
+							63101,	-- General Temuja
+							62880,	-- Gochao the Ironfist
+							63691,	-- Huo-Shuang
+							63978,	-- Kri'chon
+							58771,	-- Quid
+							63240,	-- Shadowmaster Sydow
+							58817,	-- Spirit of Lao-Fe
+							58769,	-- Vicejaw
+							63977,	-- Vyraxxis
+							63509,	-- Wulon
+						},
+					})),
 				}),
 			},
 		}),
