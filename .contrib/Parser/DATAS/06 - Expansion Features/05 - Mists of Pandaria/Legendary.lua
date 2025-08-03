@@ -21,6 +21,7 @@ LEGENDARY_THE_BLACK_PRINCE = createHeader({
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 } }, {
 	n(LEGENDARY_THE_BLACK_PRINCE, {
 		["isRaid"] = true,
+		["maps"] = { THE_VEILED_STAIR },
 		["groups"] = appendGroups(
 			applyclassicphase(MOP_PHASE_ONE, {
 				------ Chapter 1 ------
