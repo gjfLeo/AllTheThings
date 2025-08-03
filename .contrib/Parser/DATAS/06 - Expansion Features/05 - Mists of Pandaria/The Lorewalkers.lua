@@ -88,11 +88,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					}),
 				},
 			}),
-			--[[
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_THE_LOREWALKERS, EXALTED }, }, {	-- Daily Quests
-				
-			})),
-			]]--
 			n(QUESTS, {
 				q(31055, {	-- Between a Saurok and a Hard Place
 					["providers"] = {
@@ -180,14 +175,14 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31367, {	-- The Lorewalkers [A]
 					["qg"] = 64508,	-- Scrollmaker Resshi
 					["coord"] = { 85.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_3, REMOVED_5_1_0, ADDED_10_2_7 },
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0, ADDED_10_2_7 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
 				}),
 				q(31368, {	-- The Lorewalkers [H]
 					["qg"] = 64531,	-- Lena Stonebrush
 					["coord"] = { 62.4, 21.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_3, REMOVED_5_1_0, ADDED_10_2_7 },
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0, ADDED_10_2_7 },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
 				}),

@@ -4465,7 +4465,6 @@ namespace ATT
                     switch (filter)
                     {
                         case Objects.Filters.Ignored:
-                        case Objects.Filters.Consumable:
                         case Objects.Filters.Faction:
                         case Objects.Filters.Toy:
                         case Objects.Filters.Quest:
