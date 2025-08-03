@@ -32,11 +32,22 @@ root(ROOTS.Zones, {
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(7318),	-- A Taste of History
-					ach(7323),	-- Collateral Damage
-					ach(7320),	-- Dog Pile
+					ach(7323, {	-- Collateral Damage
+						["providers"] = {
+							{ "n", 63447 },	-- Mogu Statue
+							{ "n", 65170 },	-- Jade Warrior
+						},
+						["coord"] = { 24.4, 28.0, VALE_OF_ETERNAL_BLOSSOMS },
+					}),
+					ach(7320, {	-- Dog Pile
+						["provider"] = { "n", 58992 },	-- Shado-Pan Trainee
+						["coord"] = { 19.6, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
+					}),
 					ach(7315, {	-- Eternally in the Vale
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+						-- #if MOP
+						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						-- #endif
 					}),
 					ach(6979),	-- Explore Vale of Eternal Blossoms
 					ach(7317),	-- One Many Army
@@ -116,7 +127,9 @@ root(ROOTS.Zones, {
 					visit_exploration(6054,{coord={24.0,47.8,VALE_OF_ETERNAL_BLOSSOMS}}),	-- Winterbough Glade
 				}),
 				n(FACTIONS, {
-					faction(FACTION_GOLDEN_LOTUS),	-- Golden Lotus
+					faction(FACTION_GOLDEN_LOTUS, {	-- Golden Lotus
+						["icon"] = 643910,
+					}),
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1073, {	-- Serpent's Spine, Vale of Eternal Blossoms
@@ -2019,6 +2032,9 @@ root(ROOTS.Zones, {
 					o(214388, {	-- Ancient Guo-Lai Cache
 						["cost"] = {{ "i", 87779, 1 }},	-- Ancient Guo-Lai Cache Key
 						["groups"] = appendGroups({
+							ach(7318, {	-- A Taste of History
+								["_drop"] = { "providers" },	-- Drop the "reputation spell"?
+							}),
 							i(90470),	-- Design: Jade Owl
 							i(90471),	-- Design: Sapphire Cub
 							i(90815),	-- Relic of Guo-Lai
