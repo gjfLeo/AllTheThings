@@ -1211,6 +1211,21 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["minReputation"] = { FACTION_THE_TILLERS, EXALTED },	-- The Tillers
 					["crs"] = { 59639 },	-- Enormous Cattail Grouper
 				}),
+				-- Wouter TODO: check these quests
+				q(31372, {	-- The Tillers (A)
+					["qg"] = 64036,	-- Tang Ironhoe
+					["coord"] = { 87.0, 60.8, VALE_OF_ETERNAL_BLOSSOMS },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["u"] = REMOVED_FROM_GAME,
+				}),
+				q(31374, {	-- The Tillers (H)
+					["qg"] = 64011,	-- Farmhand Dooka
+					["coord"] = { 60.4, 22.8, VALE_OF_ETERNAL_BLOSSOMS },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["u"] = REMOVED_FROM_GAME,
+				}),
 				q(31326, {	-- Tina's Tasteful Tiara
 					["provider"] = { "i", 86434 },	-- Tasteful Tiara
 					["minReputation"] = { FACTION_TINA_MUDCLAW, 3 },	-- Buddy

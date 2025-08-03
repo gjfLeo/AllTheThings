@@ -1378,6 +1378,18 @@ root(ROOTS.Zones, {
 							i(90077),	-- Oracle's Blade
 						},
 					}),
+					q(31390, {	-- The Klaxxi [A]
+						["qg"] = 64488,	-- Riki the Shifting Shadow
+						["coord"] = { 84.4, 61.6, VALE_OF_ETERNAL_BLOSSOMS },
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
+					q(31391, {	-- The Klaxxi [H]
+						["qg"] = 64534,	-- Bowmaster Ku
+						["coord"] = { 63.2, 20.8, VALE_OF_ETERNAL_BLOSSOMS },
+						["races"] = HORDE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
 					q(31006, {	-- The Klaxxi Council
 						["sourceQuests"] = {
 							31676,	-- Ancient Vengeance

@@ -958,6 +958,20 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(QUESTS, {
+					q(33229, {	-- A Flash of Bronze... (A)
+						["qg"] = 73691,	-- Chromie <The Timewalkers>
+						["coord"] = { 80.6, 33, VALE_OF_ETERNAL_BLOSSOMS },
+						["timeline"] = { ADDED_5_4_0, REMOVED_11_0_0 },	-- Supposedly accidentally removed since 11.0.0?
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
+					q(33230, {	-- A Flash of Bronze... (H)
+						["qg"] = 73691,	-- Chromie <The Timewalkers>
+						["coord"] = { 80.6, 33, VALE_OF_ETERNAL_BLOSSOMS },
+						["timeline"] = { ADDED_5_4_0, REMOVED_11_0_0 },	-- Supposedly accidentally removed since 11.0.0?
+						["races"] = HORDE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
 					q(33211, {	-- A Timeless Question
 						["qg"] = 73570,	-- Senior Historian Evelyna <The Timewalkers>
 						["isDaily"] = true,
@@ -1005,6 +1019,29 @@ root(ROOTS.Zones, {
 					q(33332, {	-- Hints From The Past
 						["sourceQuests"] = { 33228 },	-- Time In Your Hands
 						["qg"] = 72870,	-- Kairoz
+					}),
+					q(33231, {	-- Journey to the Timeless Isle (A)
+						["sourceQuests"] = {
+							33229,	-- A Flash of Bronze...	(Alliance)
+							33230,	-- A Flash of Bronze...	(Horde)
+						},
+						["qg"] = 73691,	-- Chromie <The Timewalkers>
+						["coord"] = { 80.6, 33, VALE_OF_ETERNAL_BLOSSOMS },
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,	-- Possible to skip if you just fly to the Isle after picking up Flash of Bronze
+					}),
+					q(33232, {	-- Journey to the Timeless Isle (H)
+						["sourceQuests"] = {
+							33229,	-- A Flash of Bronze...	(Alliance)
+							33230,	-- A Flash of Bronze...	(Horde)
+						},
+						["qg"] = 73691,	-- Chromie <The Timewalkers>
+						["coord"] = { 80.6, 33, VALE_OF_ETERNAL_BLOSSOMS },
+						["races"] = HORDE_ONLY,
+						["isBreadcrumb"] = true,	-- Possible to skip if you just fly to the Isle after picking up Flash of Bronze
+						["groups"] = {
+							i(104110),	-- Curious Bronze Timepiece (QI!)
+						},
 					}),
 					q(33222, {	-- Little Tommy Newcomer
 						["qg"] = 73626,	-- Little Tommy Newcomer

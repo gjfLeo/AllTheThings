@@ -2183,6 +2183,20 @@ root(ROOTS.Zones, {
 							i(78880),	-- Salty Core (QI!)
 						},
 					}),
+					applyclassicphase(MOP_PHASE_LANDFALL, q(32246, {	-- Meet the Scout (A)
+						["sourceQuests"] = { 31483 },	-- Incoming...
+						["qg"] = 64610,	-- Lyalia
+						["coord"] = { 84.0, 58.7, VALE_OF_ETERNAL_BLOSSOMS },
+						["timeline"] = { ADDED_5_1_0 },
+						["races"] = ALLIANCE_ONLY,
+					})),
+					applyclassicphase(MOP_PHASE_LANDFALL, q(32249, {	-- Meet the Scout (H)
+						["sourceQuests"] = { 31483 },	-- Incoming...
+						["qg"] = 64566,	-- Sunwalker Dezco
+						["coord"] = { 62.8, 27.9, VALE_OF_ETERNAL_BLOSSOMS },
+						["timeline"] = { ADDED_5_1_0 },
+						["races"] = HORDE_ONLY,
+					})),
 					q(30691, {	-- Misery
 						["sourceQuests"] = { 30669 },	-- The Lorewalker on the Lake
 						["qg"] = 60139,	-- Wise Ana Wu
