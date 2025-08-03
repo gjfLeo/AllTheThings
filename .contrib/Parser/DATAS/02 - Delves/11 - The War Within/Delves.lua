@@ -1354,6 +1354,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235485),	-- Oil Gouger
 						i(235492),	-- Oscillating Scrapcleaver
 						i(235484),	-- Razor-sharp Desk Fan
+						i(218125),	-- Reactive Webbed Escutcheon
 						i(235488),	-- Rocket Taped to a Screwdriver
 						i(235486),	-- Springloaded Kneecap Breaker
 						i(235422),	-- Venture Co Seal

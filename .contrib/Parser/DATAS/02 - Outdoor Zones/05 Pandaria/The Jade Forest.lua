@@ -1767,9 +1767,9 @@ root(ROOTS.Zones, {
 								["coord"] = { 48.8, 61.8, THE_JADE_FOREST },
 								["cost"] = {{ "i", 80074, 6 }},	-- Celestial Jade (QI!)
 							}),
-							i(80074, {	-- Celestial Jade (QI!)
-								["provider"] = { "o", 210921 },	-- Celestial Jade
+							o(210921, {	-- Celestial Jade
 								["coord"] = { 48.4, 60.6, THE_JADE_FOREST },
+								["groups"] = { i(80074) }	-- Celestial Jade (QI!)
 							}),
 						},
 					}),
