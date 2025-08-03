@@ -4330,6 +4330,9 @@ customWindowUpdates.RaidAssistant = function(self)
 			local raidassistant, lootspecialization, dungeondifficulty, raiddifficulty, legacyraiddifficulty;
 			local GetDifficultyInfo, GetInstanceInfo = GetDifficultyInfo, GetInstanceInfo;
 
+			local GetSpecialization = app.WOWAPI.GetSpecialization
+			local GetSpecializationInfo = app.WOWAPI.GetSpecializationInfo
+
 			-- Raid Assistant
 			local switchDungeonDifficulty = function(row, button)
 				self:SetData(raidassistant);
