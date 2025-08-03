@@ -880,7 +880,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						-- #endif
 					}),
 					n(58949, {	-- Bai-Jin the Butcher <Shao-Tien Imperion>
-						["coord"] = { 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							{ 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if ANYCLASSIC
+							{ 15.36, 25.10, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 246386 },	-- Bai-Jin the Butcher <Shao-Tien Imperion>
 						-- #endif
