@@ -2928,24 +2928,24 @@ root(ROOTS.PVP, {
 							i(100399),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100397),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
-							un(BLACK_MARKET, i(100504)),	-- Grievous Gladiator's Choker of Accuracy
-							un(BLACK_MARKET, i(100503)),	-- Grievous Gladiator's Choker of Proficiency
-							un(BLACK_MARKET, i(100198)),	-- Grievous Gladiator's Necklace of Proficiency
-							un(BLACK_MARKET, i(100199)),	-- Grievous Gladiator's Necklace of Prowess
-							un(BLACK_MARKET, i(100232)),	-- Grievous Gladiator's Pendant of Alacrity
-							un(BLACK_MARKET, i(100231)),	-- Grievous Gladiator's Pendant of Cruelty
-							un(BLACK_MARKET, i(100233)),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							un(BLACK_MARKET, i(100235)),	-- Grievous Gladiator's Band of Accuracy
-							un(BLACK_MARKET, i(100234)),	-- Grievous Gladiator's Band of Cruelty
-							un(BLACK_MARKET, i(100236)),	-- Grievous Gladiator's Band of Meditation
-							un(BLACK_MARKET, i(100202)),	-- Grievous Gladiator's Ring of Accuracy
-							un(BLACK_MARKET, i(100201)),	-- Grievous Gladiator's Ring of Cruelty
-							un(BLACK_MARKET, i(100507)),	-- Grievous Gladiator's Signet of Accuracy
-							un(BLACK_MARKET, i(100506)),	-- Grievous Gladiator's Signet of Cruelty
-						}),
+						filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+							i(100504),	-- Grievous Gladiator's Choker of Accuracy
+							i(100503),	-- Grievous Gladiator's Choker of Proficiency
+							i(100198),	-- Grievous Gladiator's Necklace of Proficiency
+							i(100199),	-- Grievous Gladiator's Necklace of Prowess
+							i(100232),	-- Grievous Gladiator's Pendant of Alacrity
+							i(100231),	-- Grievous Gladiator's Pendant of Cruelty
+							i(100233),	-- Grievous Gladiator's Pendant of Meditation
+						})),
+						filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+							i(100235),	-- Grievous Gladiator's Band of Accuracy
+							i(100234),	-- Grievous Gladiator's Band of Cruelty
+							i(100236),	-- Grievous Gladiator's Band of Meditation
+							i(100202),	-- Grievous Gladiator's Ring of Accuracy
+							i(100201),	-- Grievous Gladiator's Ring of Cruelty
+							i(100507),	-- Grievous Gladiator's Signet of Accuracy
+							i(100506),	-- Grievous Gladiator's Signet of Cruelty
+						})),
 						filter(TRINKET_F, {
 							i(100195),	-- Grievous Gladiator's Badge of Conquest
 							i(100490),	-- Grievous Gladiator's Badge of Dominance
@@ -3575,24 +3575,24 @@ root(ROOTS.PVP, {
 							i(100691),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100644),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
-							un(BLACK_MARKET, i(100584)),	-- Grievous Gladiator's Choker of Accuracy
-							un(BLACK_MARKET, i(100695)),	-- Grievous Gladiator's Choker of Proficiency
-							un(BLACK_MARKET, i(100624)),	-- Grievous Gladiator's Necklace of Proficiency
-							un(BLACK_MARKET, i(100625)),	-- Grievous Gladiator's Necklace of Prowess
-							un(BLACK_MARKET, i(100703)),	-- Grievous Gladiator's Pendant of Alacrity
-							un(BLACK_MARKET, i(100719)),	-- Grievous Gladiator's Pendant of Cruelty
-							un(BLACK_MARKET, i(100682)),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							un(BLACK_MARKET, i(100593)),	-- Grievous Gladiator's Band of Accuracy
-							un(BLACK_MARKET, i(100620)),	-- Grievous Gladiator's Band of Cruelty
-							un(BLACK_MARKET, i(100704)),	-- Grievous Gladiator's Band of Meditation
-							un(BLACK_MARKET, i(100629)),	-- Grievous Gladiator's Ring of Accuracy
-							un(BLACK_MARKET, i(100587)),	-- Grievous Gladiator's Ring of Cruelty
-							un(BLACK_MARKET, i(100692)),	-- Grievous Gladiator's Signet of Accuracy
-							un(BLACK_MARKET, i(100647)),	-- Grievous Gladiator's Signet of Cruelty
-						}),
+						filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+							i(100584),	-- Grievous Gladiator's Choker of Accuracy
+							i(100695),	-- Grievous Gladiator's Choker of Proficiency
+							i(100624),	-- Grievous Gladiator's Necklace of Proficiency
+							i(100625),	-- Grievous Gladiator's Necklace of Prowess
+							i(100703),	-- Grievous Gladiator's Pendant of Alacrity
+							i(100719),	-- Grievous Gladiator's Pendant of Cruelty
+							i(100682),	-- Grievous Gladiator's Pendant of Meditation
+						})),
+						filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+							i(100593),	-- Grievous Gladiator's Band of Accuracy
+							i(100620),	-- Grievous Gladiator's Band of Cruelty
+							i(100704),	-- Grievous Gladiator's Band of Meditation
+							i(100629),	-- Grievous Gladiator's Ring of Accuracy
+							i(100587),	-- Grievous Gladiator's Ring of Cruelty
+							i(100692),	-- Grievous Gladiator's Signet of Accuracy
+							i(100647),	-- Grievous Gladiator's Signet of Cruelty
+						})),
 						filter(TRINKET_F, {
 							i(100603),	-- Grievous Gladiator's Badge of Conquest
 							i(100576),	-- Grievous Gladiator's Badge of Dominance
