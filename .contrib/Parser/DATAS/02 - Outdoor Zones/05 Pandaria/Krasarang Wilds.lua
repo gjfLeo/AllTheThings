@@ -1770,11 +1770,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 9.60, 52.6, KRASARANG_WILDS },
 						["races"] = HORDE_ONLY,
 					}),
-					fp(1190, {	-- Lion's Landing, Krasarang Wilds
+					applyclassicphase(MOP_PHASE_LANDFALL, fp(1190, {	-- Lion's Landing, Krasarang Wilds
 						["cr"] = 68226,	-- Daggin Windbeard <Flight Master>
 						["coord"] = { 88.4, 34.6, KRASARANG_WILDS },
 						["races"] = ALLIANCE_ONLY,
-					}),
+					})),
 					fp(993, {	-- Marista, Krasarang Wilds
 						["cr"] = 60441,	-- Nan-Po <Flight Master>
 						["coord"] = { 52.4, 76.6, KRASARANG_WILDS },
