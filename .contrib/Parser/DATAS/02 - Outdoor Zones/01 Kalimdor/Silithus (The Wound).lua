@@ -906,8 +906,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 57397,	-- Reconstructing "Fear and Flesh"
 							["qg"] = 155496,	-- Wrathion
 							["coord"] = { 46.1, 64.0, REPAIRED_CHAMBER_OF_HEART },
-							["cost"] = { { "i", 174784, 1 } },	-- The Final Truth
 							["timeline"] = { ADDED_8_3_0 },
+							["cost"] = { { "i", 174784, 1 } },	-- The Final Truth
 							["groups"] = {
 								i(169223, {	-- Ashjra'kamas, Shroud of Resolve
 									["bonusID"] = 6283,	-- (Rank 12 Appearance)
