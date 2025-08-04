@@ -21,10 +21,34 @@ local function MarkOfWHOOOWHATNow(t)
 	return t;
 end
 
+-- #if BEFORE WOD
+local SEASON_MALEVOLENT_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
+	end
+	if not t.rwp then t.rwp = 50200; end
+end]];
+local SEASON_TYRANNICAL_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_SIEGE_OF_ORGRIMMAR .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[;
+	end
+	if not t.rwp then t.rwp = 50400; end
+end]];
+-- #endif
+
 root(ROOTS.PVP, {
 	run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.MOP, {
 		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, {
-			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 }, }, {
+			n(ACHIEVEMENTS, bubbleDown({
+				["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+				-- #if BEFORE WOD
+				["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+				-- #endif
+			}, {
 				ach(8243, {	-- Hero of the Alliance: Malevolent
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -568,7 +592,12 @@ root(ROOTS.PVP, {
 					})),
 				},
 			}),
-			n(PVP_ELITE, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+			n(PVP_ELITE, bubbleDown({
+				["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+				-- #if BEFORE WOD
+				["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+				-- #endif
+			}, {
 				-- Original Sources are:
 				-- n65514 Ethan Natice in Valley of the Four Winds (Alliance)
 				-- n65515 Acon Deathwielder in Area Kun-Lai Summit (Horde)
@@ -753,7 +782,12 @@ root(ROOTS.PVP, {
 			})),
 		})),
 		n(SEASON_TYRANNICAL, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 }, }, {
+			n(ACHIEVEMENTS, bubbleDown({
+				["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 },
+				-- #if BEFORE WOD
+				["OnUpdate"] = SEASON_TYRANNICAL_ONUPDATE,
+				-- #endif
+			}, {
 				ach(8652, {	-- Hero of the Alliance: Tyrannical
 					["races"] = ALLIANCE_ONLY,
 				}),
