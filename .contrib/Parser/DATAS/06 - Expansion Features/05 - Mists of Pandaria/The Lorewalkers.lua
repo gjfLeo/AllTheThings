@@ -43,8 +43,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			n(MAILBOX, {
 				["description"] = "The following will be mailed to you upon completion of respective achievements.",
 				["groups"] = {
-					i(83076, {	-- Between a Saurok and a Hard Place
+					i(83076, {	-- Between a Saurok and a Hard Place (A)
 						["sourceAchievement"] = 6716,	-- Between a Saurok and a Hard Place
+						["races"] = ALLIANCE_ONLY,
+					}),
+					i(83769, {	-- Between a Saurok and a Hard Place (H)
+						["sourceAchievement"] = 6716,	-- Between a Saurok and a Hard Place
+						["races"] = HORDE_ONLY,
 					}),
 					i(83771, {	-- Fish Tales
 						["sourceAchievement"] = 6846,	-- Fish Tales
@@ -91,7 +96,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			n(QUESTS, {
 				q(31055, {	-- Between a Saurok and a Hard Place
 					["providers"] = {
-						{ "i", 83076 },	-- Between a Saurok and a Hard Place
+						{ "i", 83076 },	-- Between a Saurok and a Hard Place (A)
+						{ "i", 83769 },	-- Between a Saurok and a Hard Place (H)
 						{ "n", 61962 },	-- Lorewalker Cho
 					},
 					["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
