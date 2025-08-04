@@ -333,7 +333,7 @@ local function GetUpgradeIconForRow(data, iconOnly)
 end
 local function GetUpgradeIconForTooltip(data, iconOnly)
 	-- upgrade only if itself has an upgrade
-	if data.isUpgrade then
+	if data.collectibleAsUpgrade then
 		return L[iconOnly and "UPGRADE_ICON" or "UPGRADE_TEXT"];
 	end
 end
