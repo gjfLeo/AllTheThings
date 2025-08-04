@@ -1054,30 +1054,6 @@ root(ROOTS.PVP, {
 							moh(80, iensemble(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
-							-- S13 Tag
-							moh(2, i(99794)),	-- Tyrannical Gladiator's Barrier
-							moh(5, i(99796)),	-- Tyrannical Gladiator's Battle Staff
-							moh(5, i(99941)),	-- Tyrannical Gladiator's Bonecracker
-							moh(5, i(99769)),	-- Tyrannical Gladiator's Cleaver
-							moh(5, i(99766)),	-- Tyrannical Gladiator's Decapitator
-							moh(2, i(99793)),	-- Tyrannical Gladiator's Endgame
-							moh(5, i(99837)),	-- Tyrannical Gladiator's Energy Staff
-							moh(5, i(99835)),	-- Tyrannical Gladiator's Gavel
-							moh(5, i(99768)),	-- Tyrannical Gladiator's Greatsword
-							moh(5, i(99940)),	-- Tyrannical Gladiator's Hacker
-							moh(5, i(99805)),	-- Tyrannical Gladiator's Heavy Crossbow
-							moh(5, i(99936)),	-- Tyrannical Gladiator's Mageblade
-							moh(5, i(99770)),	-- Tyrannical Gladiator's Pummeler
-							moh(5, i(99771)),	-- Tyrannical Gladiator's Quickblade
-							moh(2, i(99836)),	-- Tyrannical Gladiator's Redoubt
-							moh(5, i(99935)),	-- Tyrannical Gladiator's Render
-							moh(2, i(99803)),	-- Tyrannical Gladiator's Reprieve
-							moh(5, i(99933)),	-- Tyrannical Gladiator's Ripper
-							moh(5, i(99932)),	-- Tyrannical Gladiator's Shanker
-							moh(2, i(99951)),	-- Tyrannical Gladiator's Shield Wall
-							moh(5, i(99942)),	-- Tyrannical Gladiator's Slicer
-							moh(5, i(99795)),	-- Tyrannical Gladiator's Spellblade
-							moh(5, i(99824)),	-- Tyrannical Gladiator's Staff
 							i(91129),	-- Tyrannical Gladiator's Barrier
 							i(91133),	-- Tyrannical Gladiator's Battle Staff
 							i(91406),	-- Tyrannical Gladiator's Bonecracker
@@ -1111,12 +1087,6 @@ root(ROOTS.PVP, {
 							i(91151),	-- Tyrannical Gladiator's Dreadplate Helm
 							i(91153),	-- Tyrannical Gladiator's Dreadplate Legguards
 							i(91155),	-- Tyrannical Gladiator's Dreadplate Shoulders
-							-- S13 Tag
-							moh(3, i(99806)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-							moh(2, i(99807)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-							moh(3, i(99808)),	-- Tyrannical Gladiator's Dreadplate Helm
-							moh(3, i(99809)),	-- Tyrannical Gladiator's Dreadplate Legguards
-							moh(2, i(99810)),	-- Tyrannical Gladiator's Dreadplate Shoulders
 						}),
 						cl(DRUID, {
 							moh(12, iensemble(138691, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
@@ -1137,22 +1107,6 @@ root(ROOTS.PVP, {
 							i(91193),	-- Tyrannical Gladiator's Wyrmhide Legguards
 							i(91195),	-- Tyrannical Gladiator's Wyrmhide Robes
 							i(91197),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-							-- S13 Tag
-							moh(2, i(99811)),	-- Tyrannical Gladiator's Dragonhide Gloves
-							moh(3, i(99812)),	-- Tyrannical Gladiator's Dragonhide Helm
-							moh(3, i(99813)),	-- Tyrannical Gladiator's Dragonhide Legguards
-							moh(3, i(99814)),	-- Tyrannical Gladiator's Dragonhide Robes
-							moh(2, i(99815)),	-- Tyrannical Gladiator's Dragonhide Spaulders
-							moh(2, i(99819)),	-- Tyrannical Gladiator's Kodohide Gloves
-							moh(3, i(99820)),	-- Tyrannical Gladiator's Kodohide Helm
-							moh(3, i(99821)),	-- Tyrannical Gladiator's Kodohide Legguards
-							moh(3, i(99822)),	-- Tyrannical Gladiator's Kodohide Robes
-							moh(2, i(99823)),	-- Tyrannical Gladiator's Kodohide Spaulders
-							moh(2, i(99828)),	-- Tyrannical Gladiator's Wyrmhide Gloves
-							moh(3, i(99829)),	-- Tyrannical Gladiator's Wyrmhide Helm
-							moh(3, i(99830)),	-- Tyrannical Gladiator's Wyrmhide Legguards
-							moh(3, i(99831)),	-- Tyrannical Gladiator's Wyrmhide Robes
-							moh(2, i(99832)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
 						}),
 						cl(HUNTER, {
 							moh(12, iensemble(138689, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
@@ -1163,12 +1117,6 @@ root(ROOTS.PVP, {
 							i(91226),	-- Tyrannical Gladiator's Chain Helm
 							i(91228),	-- Tyrannical Gladiator's Chain Leggings
 							i(91230),	-- Tyrannical Gladiator's Chain Spaulders
-							-- S13 Tag
-							moh(3, i(99847)),	-- Tyrannical Gladiator's Chain Armor
-							moh(2, i(99848)),	-- Tyrannical Gladiator's Chain Gauntlets
-							moh(3, i(99849)),	-- Tyrannical Gladiator's Chain Helm
-							moh(3, i(99850)),	-- Tyrannical Gladiator's Chain Leggings
-							moh(2, i(99851)),	-- Tyrannical Gladiator's Chain Spaulders
 						}),
 						cl(MAGE, {
 							moh(12, iensemble(138697, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
@@ -1179,12 +1127,6 @@ root(ROOTS.PVP, {
 							i(91232),	-- Tyrannical Gladiator's Silk Handguards
 							i(91238),	-- Tyrannical Gladiator's Silk Robe
 							i(91236),	-- Tyrannical Gladiator's Silk Trousers
-							-- S13 Tag
-							moh(2, i(99856)),	-- Tyrannical Gladiator's Silk Amice
-							moh(3, i(99853)),	-- Tyrannical Gladiator's Silk Cowl
-							moh(2, i(99852)),	-- Tyrannical Gladiator's Silk Handguards
-							moh(3, i(99855)),	-- Tyrannical Gladiator's Silk Robe
-							moh(3, i(99854)),	-- Tyrannical Gladiator's Silk Trousers
 						}),
 						cl(MONK, {
 							moh(12, iensemble(138693, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
@@ -1200,17 +1142,6 @@ root(ROOTS.PVP, {
 							i(91251),	-- Tyrannical Gladiator's Ironskin Legguards
 							i(91253),	-- Tyrannical Gladiator's Ironskin Spaulders
 							i(91255),	-- Tyrannical Gladiator's Ironskin Tunic
-							-- S13 Tag
-							moh(2, i(99865)),	-- Tyrannical Gladiator's Copperskin Gloves
-							moh(3, i(99866)),	-- Tyrannical Gladiator's Copperskin Helm
-							moh(3, i(99867)),	-- Tyrannical Gladiator's Copperskin Legguards
-							moh(2, i(99868)),	-- Tyrannical Gladiator's Copperskin Spaulders
-							moh(3, i(99869)),	-- Tyrannical Gladiator's Copperskin Tunic
-							moh(2, i(99860)),	-- Tyrannical Gladiator's Ironskin Gloves
-							moh(3, i(99861)),	-- Tyrannical Gladiator's Ironskin Helm
-							moh(3, i(99862)),	-- Tyrannical Gladiator's Ironskin Legguards
-							moh(2, i(99863)),	-- Tyrannical Gladiator's Ironskin Spaulders
-							moh(3, i(99864)),	-- Tyrannical Gladiator's Ironskin Tunic
 						}),
 						cl(PALADIN, {
 							moh(12, iensemble(138685, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
@@ -1226,17 +1157,6 @@ root(ROOTS.PVP, {
 							i(91271),	-- Tyrannical Gladiator's Scaled Helm
 							i(91273),	-- Tyrannical Gladiator's Scaled Legguards
 							i(91275),	-- Tyrannical Gladiator's Scaled Shoulders
-							-- S13 Tag
-							moh(3, i(99881)),	-- Tyrannical Gladiator's Ornamented Chestguard
-							moh(2, i(99882)),	-- Tyrannical Gladiator's Ornamented Gloves
-							moh(3, i(99883)),	-- Tyrannical Gladiator's Ornamented Headcover
-							moh(3, i(99884)),	-- Tyrannical Gladiator's Ornamented Legplates
-							moh(2, i(99885)),	-- Tyrannical Gladiator's Ornamented Spaulders
-							moh(3, i(99870)),	-- Tyrannical Gladiator's Scaled Chestpiece
-							moh(2, i(99871)),	-- Tyrannical Gladiator's Scaled Gauntlets
-							moh(3, i(99872)),	-- Tyrannical Gladiator's Scaled Helm
-							moh(3, i(99873)),	-- Tyrannical Gladiator's Scaled Legguards
-							moh(2, i(99874)),	-- Tyrannical Gladiator's Scaled Shoulders
 						}),
 						cl(PRIEST, {
 							moh(12, iensemble(138699, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
@@ -1252,17 +1172,6 @@ root(ROOTS.PVP, {
 							i(91323),	-- Tyrannical Gladiator's Satin Leggings
 							i(91327),	-- Tyrannical Gladiator's Satin Mantle
 							i(91325),	-- Tyrannical Gladiator's Satin Robe
-							-- S13 Tag
-							moh(2, i(99893)),	-- Tyrannical Gladiator's Mooncloth Gloves
-							moh(3, i(99894)),	-- Tyrannical Gladiator's Mooncloth Helm
-							moh(3, i(99895)),	-- Tyrannical Gladiator's Mooncloth Leggings
-							moh(2, i(99897)),	-- Tyrannical Gladiator's Mooncloth Mantle
-							moh(3, i(99896)),	-- Tyrannical Gladiator's Mooncloth Robe
-							moh(2, i(99898)),	-- Tyrannical Gladiator's Satin Gloves
-							moh(3, i(99899)),	-- Tyrannical Gladiator's Satin Hood
-							moh(3, i(99900)),	-- Tyrannical Gladiator's Satin Leggings
-							moh(2, i(99902)),	-- Tyrannical Gladiator's Satin Mantle
-							moh(3, i(99901)),	-- Tyrannical Gladiator's Satin Robe
 						}),
 						cl(ROGUE, {
 							moh(12, iensemble(138695, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
@@ -1273,12 +1182,6 @@ root(ROOTS.PVP, {
 							i(91346),	-- Tyrannical Gladiator's Leather Legguards
 							i(91348),	-- Tyrannical Gladiator's Leather Spaulders
 							i(91340),	-- Tyrannical Gladiator's Leather Tunic
-							-- S13 Tag
-							moh(2, i(99907)),	-- Tyrannical Gladiator's Leather Gloves
-							moh(3, i(99908)),	-- Tyrannical Gladiator's Leather Helm
-							moh(3, i(99909)),	-- Tyrannical Gladiator's Leather Legguards
-							moh(2, i(99910)),	-- Tyrannical Gladiator's Leather Spaulders
-							moh(3, i(99906)),	-- Tyrannical Gladiator's Leather Tunic
 						}),
 						cl(SHAMAN, {
 							moh(12, iensemble(138687, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
@@ -1299,22 +1202,6 @@ root(ROOTS.PVP, {
 							i(91362),	-- Tyrannical Gladiator's Ringmail Helm
 							i(91364),	-- Tyrannical Gladiator's Ringmail Leggings
 							i(91366),	-- Tyrannical Gladiator's Ringmail Spaulders
-							-- S13 Tag
-							moh(3, i(99921)),	-- Tyrannical Gladiator's Linked Armor
-							moh(2, i(99922)),	-- Tyrannical Gladiator's Linked Gauntlets
-							moh(3, i(99923)),	-- Tyrannical Gladiator's Linked Helm
-							moh(3, i(99924)),	-- Tyrannical Gladiator's Linked Leggings
-							moh(2, i(99925)),	-- Tyrannical Gladiator's Linked Spaulders
-							moh(3, i(99927)),	-- Tyrannical Gladiator's Mail Armor
-							moh(2, i(99928)),	-- Tyrannical Gladiator's Mail Gauntlets
-							moh(3, i(99929)),	-- Tyrannical Gladiator's Mail Helm
-							moh(3, i(99930)),	-- Tyrannical Gladiator's Mail Leggings
-							moh(2, i(99931)),	-- Tyrannical Gladiator's Mail Spaulders
-							moh(3, i(99916)),	-- Tyrannical Gladiator's Ringmail Armor
-							moh(2, i(99917)),	-- Tyrannical Gladiator's Ringmail Gauntlets
-							moh(3, i(99918)),	-- Tyrannical Gladiator's Ringmail Helm
-							moh(3, i(99919)),	-- Tyrannical Gladiator's Ringmail Leggings
-							moh(2, i(99920)),	-- Tyrannical Gladiator's Ringmail Spaulders
 						}),
 						cl(WARLOCK, {
 							moh(12, iensemble(138701, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
@@ -1325,12 +1212,6 @@ root(ROOTS.PVP, {
 							i(91420),	-- Tyrannical Gladiator's Felweave Handguards
 							i(91426),	-- Tyrannical Gladiator's Felweave Raiment
 							i(91424),	-- Tyrannical Gladiator's Felweave Trousers
-							-- S13 Tag
-							moh(2, i(99956)),	-- Tyrannical Gladiator's Felweave Amice
-							moh(3, i(99953)),	-- Tyrannical Gladiator's Felweave Cowl
-							moh(2, i(99952)),	-- Tyrannical Gladiator's Felweave Handguards
-							moh(3, i(99955)),	-- Tyrannical Gladiator's Felweave Raiment
-							moh(3, i(99954)),	-- Tyrannical Gladiator's Felweave Trousers
 						}),
 						cl(WARRIOR, {
 							moh(12, iensemble(138681, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
@@ -1341,12 +1222,6 @@ root(ROOTS.PVP, {
 							i(91434),	-- Tyrannical Gladiator's Plate Helm
 							i(91436),	-- Tyrannical Gladiator's Plate Legguards
 							i(91438),	-- Tyrannical Gladiator's Plate Shoulders
-							-- S13 Tag
-							moh(3, i(99957)),	-- Tyrannical Gladiator's Plate Chestpiece
-							moh(2, i(99958)),	-- Tyrannical Gladiator's Plate Gauntlets
-							moh(3, i(99959)),	-- Tyrannical Gladiator's Plate Helm
-							moh(3, i(99960)),	-- Tyrannical Gladiator's Plate Legguards
-							moh(2, i(99961)),	-- Tyrannical Gladiator's Plate Shoulders
 						}),
 						n(BACK, {
 							-- From Nalak
@@ -1447,237 +1322,6 @@ root(ROOTS.PVP, {
 							i(94361),	-- Tyrannical Gladiator's Medallion of Tenacity (A)
 						}),
 					}),
-					n(HONOR_GRIEVOUS, {
-						n(WEAPONS, {
-							moh(2, i(99794)),	-- Tyrannical Gladiator's Barrier
-							moh(5, i(99796)),	-- Tyrannical Gladiator's Battle Staff
-							moh(5, i(99941)),	-- Tyrannical Gladiator's Bonecracker
-							moh(5, i(99769)),	-- Tyrannical Gladiator's Cleaver
-							moh(5, i(99766)),	-- Tyrannical Gladiator's Decapitator
-							moh(2, i(99793)),	-- Tyrannical Gladiator's Endgame
-							moh(5, i(99837)),	-- Tyrannical Gladiator's Energy Staff
-							moh(5, i(99835)),	-- Tyrannical Gladiator's Gavel
-							moh(5, i(99768)),	-- Tyrannical Gladiator's Greatsword
-							moh(5, i(99940)),	-- Tyrannical Gladiator's Hacker
-							moh(5, i(99805)),	-- Tyrannical Gladiator's Heavy Crossbow
-							moh(5, i(99936)),	-- Tyrannical Gladiator's Mageblade
-							moh(5, i(99770)),	-- Tyrannical Gladiator's Pummeler
-							moh(5, i(99771)),	-- Tyrannical Gladiator's Quickblade
-							moh(2, i(99836)),	-- Tyrannical Gladiator's Redoubt
-							moh(5, i(99935)),	-- Tyrannical Gladiator's Render
-							moh(2, i(99803)),	-- Tyrannical Gladiator's Reprieve
-							moh(5, i(99933)),	-- Tyrannical Gladiator's Ripper
-							moh(5, i(99932)),	-- Tyrannical Gladiator's Shanker
-							moh(2, i(99951)),	-- Tyrannical Gladiator's Shield Wall
-							moh(5, i(99942)),	-- Tyrannical Gladiator's Slicer
-							moh(5, i(99795)),	-- Tyrannical Gladiator's Spellblade
-							moh(5, i(99824)),	-- Tyrannical Gladiator's Staff
-						}),
-						cl(DEATHKNIGHT, {
-							moh(3, i(99806)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-							moh(2, i(99807)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-							moh(3, i(99808)),	-- Tyrannical Gladiator's Dreadplate Helm
-							moh(3, i(99809)),	-- Tyrannical Gladiator's Dreadplate Legguards
-							moh(2, i(99810)),	-- Tyrannical Gladiator's Dreadplate Shoulders
-						}),
-						cl(DRUID, {
-							moh(2, i(99811)),	-- Tyrannical Gladiator's Dragonhide Gloves
-							moh(3, i(99812)),	-- Tyrannical Gladiator's Dragonhide Helm
-							moh(3, i(99813)),	-- Tyrannical Gladiator's Dragonhide Legguards
-							moh(3, i(99814)),	-- Tyrannical Gladiator's Dragonhide Robes
-							moh(2, i(99815)),	-- Tyrannical Gladiator's Dragonhide Spaulders
-							moh(2, i(99819)),	-- Tyrannical Gladiator's Kodohide Gloves
-							moh(3, i(99820)),	-- Tyrannical Gladiator's Kodohide Helm
-							moh(3, i(99821)),	-- Tyrannical Gladiator's Kodohide Legguards
-							moh(3, i(99822)),	-- Tyrannical Gladiator's Kodohide Robes
-							moh(2, i(99823)),	-- Tyrannical Gladiator's Kodohide Spaulders
-							moh(2, i(99828)),	-- Tyrannical Gladiator's Wyrmhide Gloves
-							moh(3, i(99829)),	-- Tyrannical Gladiator's Wyrmhide Helm
-							moh(3, i(99830)),	-- Tyrannical Gladiator's Wyrmhide Legguards
-							moh(3, i(99831)),	-- Tyrannical Gladiator's Wyrmhide Robes
-							moh(2, i(99832)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-						}),
-						cl(HUNTER, {
-							moh(3, i(99847)),	-- Tyrannical Gladiator's Chain Armor
-							moh(2, i(99848)),	-- Tyrannical Gladiator's Chain Gauntlets
-							moh(3, i(99849)),	-- Tyrannical Gladiator's Chain Helm
-							moh(3, i(99850)),	-- Tyrannical Gladiator's Chain Leggings
-							moh(2, i(99851)),	-- Tyrannical Gladiator's Chain Spaulders
-						}),
-						cl(MAGE, {
-							moh(2, i(99856)),	-- Tyrannical Gladiator's Silk Amice
-							moh(3, i(99853)),	-- Tyrannical Gladiator's Silk Cowl
-							moh(2, i(99852)),	-- Tyrannical Gladiator's Silk Handguards
-							moh(3, i(99855)),	-- Tyrannical Gladiator's Silk Robe
-							moh(3, i(99854)),	-- Tyrannical Gladiator's Silk Trousers
-						}),
-						cl(MONK, {
-							moh(2, i(99865)),	-- Tyrannical Gladiator's Copperskin Gloves
-							moh(3, i(99866)),	-- Tyrannical Gladiator's Copperskin Helm
-							moh(3, i(99867)),	-- Tyrannical Gladiator's Copperskin Legguards
-							moh(2, i(99868)),	-- Tyrannical Gladiator's Copperskin Spaulders
-							moh(3, i(99869)),	-- Tyrannical Gladiator's Copperskin Tunic
-							moh(2, i(99860)),	-- Tyrannical Gladiator's Ironskin Gloves
-							moh(3, i(99861)),	-- Tyrannical Gladiator's Ironskin Helm
-							moh(3, i(99862)),	-- Tyrannical Gladiator's Ironskin Legguards
-							moh(2, i(99863)),	-- Tyrannical Gladiator's Ironskin Spaulders
-							moh(3, i(99864)),	-- Tyrannical Gladiator's Ironskin Tunic
-						}),
-						cl(PALADIN, {
-							moh(3, i(99881)),	-- Tyrannical Gladiator's Ornamented Chestguard
-							moh(2, i(99882)),	-- Tyrannical Gladiator's Ornamented Gloves
-							moh(3, i(99883)),	-- Tyrannical Gladiator's Ornamented Headcover
-							moh(3, i(99884)),	-- Tyrannical Gladiator's Ornamented Legplates
-							moh(2, i(99885)),	-- Tyrannical Gladiator's Ornamented Spaulders
-							moh(3, i(99870)),	-- Tyrannical Gladiator's Scaled Chestpiece
-							moh(2, i(99871)),	-- Tyrannical Gladiator's Scaled Gauntlets
-							moh(3, i(99872)),	-- Tyrannical Gladiator's Scaled Helm
-							moh(3, i(99873)),	-- Tyrannical Gladiator's Scaled Legguards
-							moh(2, i(99874)),	-- Tyrannical Gladiator's Scaled Shoulders
-						}),
-						cl(PRIEST, {
-							moh(2, i(99893)),	-- Tyrannical Gladiator's Mooncloth Gloves
-							moh(3, i(99894)),	-- Tyrannical Gladiator's Mooncloth Helm
-							moh(3, i(99895)),	-- Tyrannical Gladiator's Mooncloth Leggings
-							moh(2, i(99897)),	-- Tyrannical Gladiator's Mooncloth Mantle
-							moh(3, i(99896)),	-- Tyrannical Gladiator's Mooncloth Robe
-							moh(2, i(99898)),	-- Tyrannical Gladiator's Satin Gloves
-							moh(3, i(99899)),	-- Tyrannical Gladiator's Satin Hood
-							moh(3, i(99900)),	-- Tyrannical Gladiator's Satin Leggings
-							moh(2, i(99902)),	-- Tyrannical Gladiator's Satin Mantle
-							moh(3, i(99901)),	-- Tyrannical Gladiator's Satin Robe
-						}),
-						cl(ROGUE, {
-							moh(2, i(99907)),	-- Tyrannical Gladiator's Leather Gloves
-							moh(3, i(99908)),	-- Tyrannical Gladiator's Leather Helm
-							moh(3, i(99909)),	-- Tyrannical Gladiator's Leather Legguards
-							moh(2, i(99910)),	-- Tyrannical Gladiator's Leather Spaulders
-							moh(3, i(99906)),	-- Tyrannical Gladiator's Leather Tunic
-						}),
-						cl(SHAMAN, {
-							moh(3, i(99921)),	-- Tyrannical Gladiator's Linked Armor
-							moh(2, i(99922)),	-- Tyrannical Gladiator's Linked Gauntlets
-							moh(3, i(99923)),	-- Tyrannical Gladiator's Linked Helm
-							moh(3, i(99924)),	-- Tyrannical Gladiator's Linked Leggings
-							moh(2, i(99925)),	-- Tyrannical Gladiator's Linked Spaulders
-							moh(3, i(99927)),	-- Tyrannical Gladiator's Mail Armor
-							moh(2, i(99928)),	-- Tyrannical Gladiator's Mail Gauntlets
-							moh(3, i(99929)),	-- Tyrannical Gladiator's Mail Helm
-							moh(3, i(99930)),	-- Tyrannical Gladiator's Mail Leggings
-							moh(2, i(99931)),	-- Tyrannical Gladiator's Mail Spaulders
-							moh(3, i(99916)),	-- Tyrannical Gladiator's Ringmail Armor
-							moh(2, i(99917)),	-- Tyrannical Gladiator's Ringmail Gauntlets
-							moh(3, i(99918)),	-- Tyrannical Gladiator's Ringmail Helm
-							moh(3, i(99919)),	-- Tyrannical Gladiator's Ringmail Leggings
-							moh(2, i(99920)),	-- Tyrannical Gladiator's Ringmail Spaulders
-						}),
-						cl(WARLOCK, {
-							moh(2, i(99956)),	-- Tyrannical Gladiator's Felweave Amice
-							moh(3, i(99953)),	-- Tyrannical Gladiator's Felweave Cowl
-							moh(2, i(99952)),	-- Tyrannical Gladiator's Felweave Handguards
-							moh(3, i(99955)),	-- Tyrannical Gladiator's Felweave Raiment
-							moh(3, i(99954)),	-- Tyrannical Gladiator's Felweave Trousers
-						}),
-						cl(WARRIOR, {
-							moh(3, i(99957)),	-- Tyrannical Gladiator's Plate Chestpiece
-							moh(2, i(99958)),	-- Tyrannical Gladiator's Plate Gauntlets
-							moh(3, i(99959)),	-- Tyrannical Gladiator's Plate Helm
-							moh(3, i(99960)),	-- Tyrannical Gladiator's Plate Legguards
-							moh(2, i(99961)),	-- Tyrannical Gladiator's Plate Shoulders
-						}),
-						n(BACK, {
-							moh(1, i(99773)),	-- Tyrannical Gladiator's Cape of Cruelty
-							moh(1, i(99774)),	-- Tyrannical Gladiator's Cape of Prowess
-							moh(1, i(99944)),	-- Tyrannical Gladiator's Cloak of Alacrity
-							moh(1, i(99945)),	-- Tyrannical Gladiator's Cloak of Prowess
-							moh(1, i(99790)),	-- Tyrannical Gladiator's Drape of Cruelty
-							moh(1, i(99792)),	-- Tyrannical Gladiator's Drape of Meditation
-							moh(1, i(99791)),	-- Tyrannical Gladiator's Drape of Prowess
-						}),
-						n(WRIST, {
-							moh(1, i(99915)),	-- Tyrannical Gladiator's Armbands of Meditation
-							moh(1, i(99914)),	-- Tyrannical Gladiator's Armbands of Prowess
-							moh(1, i(99891)),	-- Tyrannical Gladiator's Armplates of Alacrity
-							moh(1, i(99890)),	-- Tyrannical Gladiator's Armplates of Proficiency
-							moh(1, i(99859)),	-- Tyrannical Gladiator's Armwraps of Accuracy
-							moh(1, i(99905)),	-- Tyrannical Gladiator's Armwraps of Alacrity
-							moh(1, i(99818)),	-- Tyrannical Gladiator's Bindings of Meditation
-							moh(1, i(99827)),	-- Tyrannical Gladiator's Bindings of Prowess
-							moh(1, i(99880)),	-- Tyrannical Gladiator's Bracers of Meditation
-							moh(1, i(99879)),	-- Tyrannical Gladiator's Bracers of Prowess
-							moh(1, i(99787)),	-- Tyrannical Gladiator's Cuffs of Accuracy
-							moh(1, i(99789)),	-- Tyrannical Gladiator's Cuffs of Meditation
-							moh(1, i(99788)),	-- Tyrannical Gladiator's Cuffs of Prowess
-							moh(1, i(99846)),	-- Tyrannical Gladiator's Wristguards of Accuracy
-							moh(1, i(99845)),	-- Tyrannical Gladiator's Wristguards of Alacrity
-						}),
-						n(WAIST, {
-							moh(1, i(99825)),	-- Tyrannical Gladiator's Belt of Cruelty
-							moh(1, i(99816)),	-- Tyrannical Gladiator's Belt of Meditation
-							moh(1, i(99875)),	-- Tyrannical Gladiator's Clasp of Cruelty
-							moh(1, i(99876)),	-- Tyrannical Gladiator's Clasp of Meditation
-							moh(1, i(99782)),	-- Tyrannical Gladiator's Cord of Accuracy
-							moh(1, i(99781)),	-- Tyrannical Gladiator's Cord of Cruelty
-							moh(1, i(99783)),	-- Tyrannical Gladiator's Cord of Meditation
-							moh(1, i(99886)),	-- Tyrannical Gladiator's Girdle of Accuracy
-							moh(1, i(99887)),	-- Tyrannical Gladiator's Girdle of Prowess
-							moh(1, i(99842)),	-- Tyrannical Gladiator's Links of Accuracy
-							moh(1, i(99841)),	-- Tyrannical Gladiator's Links of Cruelty
-							moh(1, i(99903)),	-- Tyrannical Gladiator's Waistband of Accuracy
-							moh(1, i(99857)),	-- Tyrannical Gladiator's Waistband of Cruelty
-							moh(1, i(99926)),	-- Tyrannical Gladiator's Waistguard of Cruelty
-							moh(1, i(99911)),	-- Tyrannical Gladiator's Waistguard of Meditation
-						}),
-						n(FEET, {
-							moh(2, i(99858)),	-- Tyrannical Gladiator's Boots of Alacrity
-							moh(2, i(99904)),	-- Tyrannical Gladiator's Boots of Cruelty
-							moh(2, i(99826)),	-- Tyrannical Gladiator's Footguards of Alacrity (Leahter)
-							moh(2, i(99912)),	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-							moh(2, i(99817)),	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-							moh(2, i(99913)),	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-							moh(2, i(99877)),	-- Tyrannical Gladiator's Greaves of Alacrity
-							moh(2, i(99878)),	-- Tyrannical Gladiator's Greaves of Meditation
-							moh(2, i(99844)),	-- Tyrannical Gladiator's Sabatons of Alacrity
-							moh(2, i(99843)),	-- Tyrannical Gladiator's Sabatons of Cruelty
-							moh(2, i(99785)),	-- Tyrannical Gladiator's Treads of Alacrity
-							moh(2, i(99784)),	-- Tyrannical Gladiator's Treads of Cruelty
-							moh(2, i(99786)),	-- Tyrannical Gladiator's Treads of Meditation
-							moh(2, i(99889)),	-- Tyrannical Gladiator's Warboots of Alacrity
-							moh(2, i(99888)),	-- Tyrannical Gladiator's Warboots of Cruelty
-						}),
-						filter(NECK_F, {
-							i(99947),	-- Tyrannical Gladiator's Choker of Accuracy
-							i(99946),	-- Tyrannical Gladiator's Choker of Proficiency
-							i(99775),	-- Tyrannical Gladiator's Necklace of Proficiency
-							i(99776),	-- Tyrannical Gladiator's Necklace of Prowess
-							i(99798),	-- Tyrannical Gladiator's Pendant of Alacrity
-							i(99797),	-- Tyrannical Gladiator's Pendant of Cruelty
-							i(99799),	-- Tyrannical Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							i(99801),	-- Tyrannical Gladiator's Band of Accuracy
-							i(99800),	-- Tyrannical Gladiator's Band of Cruelty
-							i(99802),	-- Tyrannical Gladiator's Band of Meditation
-							i(99779),	-- Tyrannical Gladiator's Ring of Accuracy
-							i(99778),	-- Tyrannical Gladiator's Ring of Cruelty
-							i(99950),	-- Tyrannical Gladiator's Signet of Accuracy
-							i(99949),	-- Tyrannical Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
-							i(99772),	-- Tyrannical Gladiator's Badge of Conquest
-							i(99937),	-- Tyrannical Gladiator's Badge of Dominance
-							i(99943),	-- Tyrannical Gladiator's Badge of Victory
-							i(99838),	-- Tyrannical Gladiator's Emblem of Cruelty
-							i(99840),	-- Tyrannical Gladiator's Emblem of Meditation
-							i(99839),	-- Tyrannical Gladiator's Emblem of Tenacity
-							i(99777),	-- Tyrannical Gladiator's Insignia of Conquest
-							i(99938),	-- Tyrannical Gladiator's Insignia of Dominance
-							i(99948),	-- Tyrannical Gladiator's Insignia of Victory
-							i(100056),	-- Tyrannical Gladiator's Medallion of Cruelty (A)
-							i(100058),	-- Tyrannical Gladiator's Medallion of Meditation (A)
-							i(100031),	-- Tyrannical Gladiator's Medallion of Tenacity (A)
-						}),
-					}),
 				},
 			}),
 			n(FACTION_HEADER_HORDE, {
@@ -1688,30 +1332,6 @@ root(ROOTS.PVP, {
 							moh(80, iensemble(144245, {	-- Arsenal: Tyrannical Gladiator's Weapons (H)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
-							-- S13 Tag
-							moh(2, i(100171)),	-- Tyrannical Gladiator's Barrier
-							moh(5, i(99974)),	-- Tyrannical Gladiator's Battle Staff
-							moh(5, i(99983)),	-- Tyrannical Gladiator's Bonecracker
-							moh(5, i(99973)),	-- Tyrannical Gladiator's Cleaver
-							moh(5, i(99984)),	-- Tyrannical Gladiator's Decapitator
-							moh(2, i(100172)),	-- Tyrannical Gladiator's Endgame
-							moh(5, i(99981)),	-- Tyrannical Gladiator's Energy Staff
-							moh(5, i(99963)),	-- Tyrannical Gladiator's Gavel
-							moh(5, i(99972)),	-- Tyrannical Gladiator's Greatsword
-							moh(5, i(99978)),	-- Tyrannical Gladiator's Hacker
-							moh(5, i(99987)),	-- Tyrannical Gladiator's Heavy Crossbow
-							moh(5, i(99971)),	-- Tyrannical Gladiator's Mageblade
-							moh(5, i(99965)),	-- Tyrannical Gladiator's Pummeler
-							moh(5, i(99986)),	-- Tyrannical Gladiator's Quickblade
-							moh(2, i(100168)),	-- Tyrannical Gladiator's Redoubt
-							moh(5, i(99982)),	-- Tyrannical Gladiator's Render
-							moh(2, i(100169)),	-- Tyrannical Gladiator's Reprieve
-							moh(5, i(99977)),	-- Tyrannical Gladiator's Ripper
-							moh(5, i(99976)),	-- Tyrannical Gladiator's Shanker
-							moh(2, i(100170)),	-- Tyrannical Gladiator's Shield Wall
-							moh(5, i(99979)),	-- Tyrannical Gladiator's Slicer
-							moh(5, i(99967)),	-- Tyrannical Gladiator's Spellblade
-							moh(5, i(99968)),	-- Tyrannical Gladiator's Staff
 							i(94501),	-- Tyrannical Gladiator's Barrier
 							i(94313),	-- Tyrannical Gladiator's Battle Staff
 							i(94322),	-- Tyrannical Gladiator's Bonecracker
@@ -1745,12 +1365,6 @@ root(ROOTS.PVP, {
 							i(94429),	-- Tyrannical Gladiator's Dreadplate Helm
 							i(94365),	-- Tyrannical Gladiator's Dreadplate Legguards
 							i(94366),	-- Tyrannical Gladiator's Dreadplate Shoulders
-							-- S13 Tag
-							moh(3, i(100062)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-							moh(2, i(100034)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-							moh(3, i(100099)),	-- Tyrannical Gladiator's Dreadplate Helm
-							moh(3, i(100035)),	-- Tyrannical Gladiator's Dreadplate Legguards
-							moh(2, i(100036)),	-- Tyrannical Gladiator's Dreadplate Shoulders
 						}),
 						cl(DRUID, {
 							moh(12, iensemble(138692, {	-- Ensemble: Tyrannical Gladiator's Dragonhide Armor
@@ -1771,22 +1385,6 @@ root(ROOTS.PVP, {
 							i(94483),	-- Tyrannical Gladiator's Wyrmhide Legguards
 							i(94327),	-- Tyrannical Gladiator's Wyrmhide Robes
 							i(94416),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-							-- S13 Tag
-							moh(2, i(100125)),	-- Tyrannical Gladiator's Dragonhide Gloves
-							moh(3, i(100037)),	-- Tyrannical Gladiator's Dragonhide Helm
-							moh(3, i(100038)),	-- Tyrannical Gladiator's Dragonhide Legguards
-							moh(3, i(100126)),	-- Tyrannical Gladiator's Dragonhide Robes
-							moh(2, i(100127)),	-- Tyrannical Gladiator's Dragonhide Spaulders
-							moh(2, i(100041)),	-- Tyrannical Gladiator's Kodohide Gloves
-							moh(3, i(100162)),	-- Tyrannical Gladiator's Kodohide Helm
-							moh(3, i(100147)),	-- Tyrannical Gladiator's Kodohide Legguards
-							moh(3, i(100107)),	-- Tyrannical Gladiator's Kodohide Robes
-							moh(2, i(100042)),	-- Tyrannical Gladiator's Kodohide Spaulders
-							moh(2, i(100082)),	-- Tyrannical Gladiator's Wyrmhide Gloves
-							moh(3, i(100017)),	-- Tyrannical Gladiator's Wyrmhide Helm
-							moh(3, i(100153)),	-- Tyrannical Gladiator's Wyrmhide Legguards
-							moh(3, i(99988)),	-- Tyrannical Gladiator's Wyrmhide Robes
-							moh(2, i(100086)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
 						}),
 						cl(HUNTER, {
 							moh(12, iensemble(138690, {	-- Ensemble: Tyrannical Gladiator's Chain Armor
@@ -1797,12 +1395,6 @@ root(ROOTS.PVP, {
 							i(94406),	-- Tyrannical Gladiator's Chain Helm
 							i(94384),	-- Tyrannical Gladiator's Chain Leggings
 							i(94450),	-- Tyrannical Gladiator's Chain Spaulders
-							-- S13 Tag
-							moh(3, i(100075)),	-- Tyrannical Gladiator's Chain Armor
-							moh(2, i(100123)),	-- Tyrannical Gladiator's Chain Gauntlets
-							moh(3, i(100076)),	-- Tyrannical Gladiator's Chain Helm
-							moh(3, i(100054)),	-- Tyrannical Gladiator's Chain Leggings
-							moh(2, i(100120)),	-- Tyrannical Gladiator's Chain Spaulders
 						}),
 						cl(MAGE, {
 							moh(12, iensemble(138698, {	-- Ensemble: Tyrannical Gladiator's Silk Armor
@@ -1813,12 +1405,6 @@ root(ROOTS.PVP, {
 							i(94451),	-- Tyrannical Gladiator's Silk Handguards
 							i(94431),	-- Tyrannical Gladiator's Silk Robe
 							i(94362),	-- Tyrannical Gladiator's Silk Trousers
-							-- S13 Tag
-							moh(2, i(100059)),	-- Tyrannical Gladiator's Silk Amice
-							moh(3, i(100051)),	-- Tyrannical Gladiator's Silk Cowl
-							moh(2, i(100121)),	-- Tyrannical Gladiator's Silk Handguards
-							moh(3, i(100101)),	-- Tyrannical Gladiator's Silk Robe
-							moh(3, i(100032)),	-- Tyrannical Gladiator's Silk Trousers
 						}),
 						cl(MONK, {
 							moh(12, iensemble(138694, {	-- Ensemble: Tyrannical Gladiator's Ironskin Armor
@@ -1834,17 +1420,6 @@ root(ROOTS.PVP, {
 							i(94370),	-- Tyrannical Gladiator's Ironskin Legguards
 							i(94339),	-- Tyrannical Gladiator's Ironskin Spaulders
 							i(94436),	-- Tyrannical Gladiator's Ironskin Tunic
-							-- S13 Tag
-							moh(2, i(100010)),	-- Tyrannical Gladiator's Copperskin Gloves
-							moh(3, i(100011)),	-- Tyrannical Gladiator's Copperskin Helm
-							moh(3, i(100148)),	-- Tyrannical Gladiator's Copperskin Legguards
-							moh(2, i(100163)),	-- Tyrannical Gladiator's Copperskin Spaulders
-							moh(3, i(100149)),	-- Tyrannical Gladiator's Copperskin Tunic
-							moh(2, i(100061)),	-- Tyrannical Gladiator's Ironskin Gloves
-							moh(3, i(100098)),	-- Tyrannical Gladiator's Ironskin Helm
-							moh(3, i(100040)),	-- Tyrannical Gladiator's Ironskin Legguards
-							moh(2, i(100009)),	-- Tyrannical Gladiator's Ironskin Spaulders
-							moh(3, i(100106)),	-- Tyrannical Gladiator's Ironskin Tunic
 						}),
 						cl(PALADIN, {
 							moh(12, iensemble(138686, {	-- Ensemble: Tyrannical Gladiator's Scaled Armor
@@ -1860,17 +1435,6 @@ root(ROOTS.PVP, {
 							i(94495),	-- Tyrannical Gladiator's Scaled Helm
 							i(94496),	-- Tyrannical Gladiator's Scaled Legguards
 							i(94460),	-- Tyrannical Gladiator's Scaled Shoulders
-							-- S13 Tag
-							moh(3, i(100015)),	-- Tyrannical Gladiator's Ornamented Chestguard
-							moh(2, i(100108)),	-- Tyrannical Gladiator's Ornamented Gloves
-							moh(3, i(100018)),	-- Tyrannical Gladiator's Ornamented Headcover
-							moh(3, i(100154)),	-- Tyrannical Gladiator's Ornamented Legplates
-							moh(2, i(100083)),	-- Tyrannical Gladiator's Ornamented Spaulders
-							moh(3, i(100133)),	-- Tyrannical Gladiator's Scaled Chestpiece
-							moh(2, i(100013)),	-- Tyrannical Gladiator's Scaled Gauntlets
-							moh(3, i(100165)),	-- Tyrannical Gladiator's Scaled Helm
-							moh(3, i(100166)),	-- Tyrannical Gladiator's Scaled Legguards
-							moh(2, i(100130)),	-- Tyrannical Gladiator's Scaled Shoulders
 						}),
 						cl(PRIEST, {
 							moh(12, iensemble(138700, {	-- Ensemble: Tyrannical Gladiator's Satin Armor
@@ -1886,17 +1450,6 @@ root(ROOTS.PVP, {
 							i(94334),	-- Tyrannical Gladiator's Satin Leggings
 							i(94385),	-- Tyrannical Gladiator's Satin Mantle
 							i(94335),	-- Tyrannical Gladiator's Satin Robe
-							-- S13 Tag
-							moh(2, i(99989)),	-- Tyrannical Gladiator's Mooncloth Gloves
-							moh(3, i(100089)),	-- Tyrannical Gladiator's Mooncloth Helm
-							moh(3, i(100090)),	-- Tyrannical Gladiator's Mooncloth Leggings
-							moh(2, i(100136)),	-- Tyrannical Gladiator's Mooncloth Mantle
-							moh(3, i(100067)),	-- Tyrannical Gladiator's Mooncloth Robe
-							moh(2, i(100093)),	-- Tyrannical Gladiator's Satin Gloves
-							moh(3, i(100137)),	-- Tyrannical Gladiator's Satin Hood
-							moh(3, i(99996)),	-- Tyrannical Gladiator's Satin Leggings
-							moh(2, i(100055)),	-- Tyrannical Gladiator's Satin Mantle
-							moh(3, i(99998)),	-- Tyrannical Gladiator's Satin Robe
 						}),
 						cl(ROGUE, {
 							moh(12, iensemble(138696, {	-- Ensemble: Tyrannical Gladiator's Leather Armor
@@ -1907,12 +1460,6 @@ root(ROOTS.PVP, {
 							i(94446),	-- Tyrannical Gladiator's Leather Legguards
 							i(94447),	-- Tyrannical Gladiator's Leather Spaulders
 							i(94443),	-- Tyrannical Gladiator's Leather Tunic
-							-- S13 Tag
-							moh(2, i(100047)),	-- Tyrannical Gladiator's Leather Gloves
-							moh(3, i(100096)),	-- Tyrannical Gladiator's Leather Helm
-							moh(3, i(100116)),	-- Tyrannical Gladiator's Leather Legguards
-							moh(2, i(100117)),	-- Tyrannical Gladiator's Leather Spaulders
-							moh(3, i(100113)),	-- Tyrannical Gladiator's Leather Tunic
 						}),
 						cl(SHAMAN, {
 							moh(12, iensemble(138688, {	-- Ensemble: Tyrannical Gladiator's Ringmail Armor
@@ -1933,22 +1480,6 @@ root(ROOTS.PVP, {
 							i(94434),	-- Tyrannical Gladiator's Ringmail Helm
 							i(94435),	-- Tyrannical Gladiator's Ringmail Leggings
 							i(94369),	-- Tyrannical Gladiator's Ringmail Spaulders
-							-- S13 Tag
-							moh(3, i(100145)),	-- Tyrannical Gladiator's Linked Armor
-							moh(2, i(100128)),	-- Tyrannical Gladiator's Linked Gauntlets
-							moh(3, i(100100)),	-- Tyrannical Gladiator's Linked Helm
-							moh(3, i(100164)),	-- Tyrannical Gladiator's Linked Leggings
-							moh(2, i(100012)),	-- Tyrannical Gladiator's Linked Spaulders
-							moh(3, i(100129)),	-- Tyrannical Gladiator's Mail Armor
-							moh(2, i(100078)),	-- Tyrannical Gladiator's Mail Gauntlets
-							moh(3, i(100079)),	-- Tyrannical Gladiator's Mail Helm
-							moh(3, i(100167)),	-- Tyrannical Gladiator's Mail Leggings
-							moh(2, i(100020)),	-- Tyrannical Gladiator's Mail Spaulders
-							moh(3, i(100103)),	-- Tyrannical Gladiator's Ringmail Armor
-							moh(2, i(100160)),	-- Tyrannical Gladiator's Ringmail Gauntlets
-							moh(3, i(100104)),	-- Tyrannical Gladiator's Ringmail Helm
-							moh(3, i(100105)),	-- Tyrannical Gladiator's Ringmail Leggings
-							moh(2, i(100039)),	-- Tyrannical Gladiator's Ringmail Spaulders
 						}),
 						cl(WARLOCK, {
 							moh(12, iensemble(138702, {	-- Ensemble: Tyrannical Gladiator's Felweave Armor
@@ -1959,12 +1490,6 @@ root(ROOTS.PVP, {
 							i(94441),	-- Tyrannical Gladiator's Felweave Handguards
 							i(94375),	-- Tyrannical Gladiator's Felweave Raiment
 							i(94471),	-- Tyrannical Gladiator's Felweave Trousers
-							-- S13 Tag
-							moh(2, i(100068)),	-- Tyrannical Gladiator's Felweave Amice
-							moh(3, i(100112)),	-- Tyrannical Gladiator's Felweave Cowl
-							moh(2, i(100111)),	-- Tyrannical Gladiator's Felweave Handguards
-							moh(3, i(100045)),	-- Tyrannical Gladiator's Felweave Raiment
-							moh(3, i(100141)),	-- Tyrannical Gladiator's Felweave Trousers
 						}),
 						cl(WARRIOR, {
 							moh(12, iensemble(138682, {	-- Ensemble: Tyrannical Gladiator's Plate Armor
@@ -1975,12 +1500,6 @@ root(ROOTS.PVP, {
 							i(94332),	-- Tyrannical Gladiator's Plate Helm
 							i(94448),	-- Tyrannical Gladiator's Plate Legguards
 							i(94401),	-- Tyrannical Gladiator's Plate Shoulders
-							-- S13 Tag
-							moh(3, i(100114)),	-- Tyrannical Gladiator's Plate Chestpiece
-							moh(2, i(99992)),	-- Tyrannical Gladiator's Plate Gauntlets
-							moh(3, i(99993)),	-- Tyrannical Gladiator's Plate Helm
-							moh(3, i(100118)),	-- Tyrannical Gladiator's Plate Legguards
-							moh(2, i(100071)),	-- Tyrannical Gladiator's Plate Shoulders
 						}),
 						n(BACK, {
 							-- From Nalak
@@ -2079,237 +1598,6 @@ root(ROOTS.PVP, {
 							i(94454),	-- Tyrannical Gladiator's Medallion of Cruelty (H)
 							i(94338),	-- Tyrannical Gladiator's Medallion of Meditation (H)
 							i(94387),	-- Tyrannical Gladiator's Medallion of Tenacity (H)
-						}),
-					}),
-					n(HONOR_GRIEVOUS, {
-						n(WEAPONS, {
-							moh(2, i(100171)),	-- Tyrannical Gladiator's Barrier
-							moh(5, i(99974)),	-- Tyrannical Gladiator's Battle Staff
-							moh(5, i(99983)),	-- Tyrannical Gladiator's Bonecracker
-							moh(5, i(99973)),	-- Tyrannical Gladiator's Cleaver
-							moh(5, i(99984)),	-- Tyrannical Gladiator's Decapitator
-							moh(2, i(100172)),	-- Tyrannical Gladiator's Endgame
-							moh(5, i(99981)),	-- Tyrannical Gladiator's Energy Staff
-							moh(5, i(99963)),	-- Tyrannical Gladiator's Gavel
-							moh(5, i(99972)),	-- Tyrannical Gladiator's Greatsword
-							moh(5, i(99978)),	-- Tyrannical Gladiator's Hacker
-							moh(5, i(99987)),	-- Tyrannical Gladiator's Heavy Crossbow
-							moh(5, i(99971)),	-- Tyrannical Gladiator's Mageblade
-							moh(5, i(99965)),	-- Tyrannical Gladiator's Pummeler
-							moh(5, i(99986)),	-- Tyrannical Gladiator's Quickblade
-							moh(2, i(100168)),	-- Tyrannical Gladiator's Redoubt
-							moh(5, i(99982)),	-- Tyrannical Gladiator's Render
-							moh(2, i(100169)),	-- Tyrannical Gladiator's Reprieve
-							moh(5, i(99977)),	-- Tyrannical Gladiator's Ripper
-							moh(5, i(99976)),	-- Tyrannical Gladiator's Shanker
-							moh(2, i(100170)),	-- Tyrannical Gladiator's Shield Wall
-							moh(5, i(99979)),	-- Tyrannical Gladiator's Slicer
-							moh(5, i(99967)),	-- Tyrannical Gladiator's Spellblade
-							moh(5, i(99968)),	-- Tyrannical Gladiator's Staff
-						}),
-						cl(DEATHKNIGHT, {
-							moh(3, i(100062)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
-							moh(2, i(100034)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
-							moh(3, i(100099)),	-- Tyrannical Gladiator's Dreadplate Helm
-							moh(3, i(100035)),	-- Tyrannical Gladiator's Dreadplate Legguards
-							moh(2, i(100036)),	-- Tyrannical Gladiator's Dreadplate Shoulders
-						}),
-						cl(DRUID, {
-							moh(2, i(100125)),	-- Tyrannical Gladiator's Dragonhide Gloves
-							moh(3, i(100037)),	-- Tyrannical Gladiator's Dragonhide Helm
-							moh(3, i(100038)),	-- Tyrannical Gladiator's Dragonhide Legguards
-							moh(3, i(100126)),	-- Tyrannical Gladiator's Dragonhide Robes
-							moh(2, i(100127)),	-- Tyrannical Gladiator's Dragonhide Spaulders
-							moh(2, i(100041)),	-- Tyrannical Gladiator's Kodohide Gloves
-							moh(3, i(100162)),	-- Tyrannical Gladiator's Kodohide Helm
-							moh(3, i(100147)),	-- Tyrannical Gladiator's Kodohide Legguards
-							moh(3, i(100107)),	-- Tyrannical Gladiator's Kodohide Robes
-							moh(2, i(100042)),	-- Tyrannical Gladiator's Kodohide Spaulders
-							moh(2, i(100082)),	-- Tyrannical Gladiator's Wyrmhide Gloves
-							moh(3, i(100017)),	-- Tyrannical Gladiator's Wyrmhide Helm
-							moh(3, i(100153)),	-- Tyrannical Gladiator's Wyrmhide Legguards
-							moh(3, i(99988)),	-- Tyrannical Gladiator's Wyrmhide Robes
-							moh(2, i(100086)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
-						}),
-						cl(HUNTER, {
-							moh(3, i(100075)),	-- Tyrannical Gladiator's Chain Armor
-							moh(2, i(100123)),	-- Tyrannical Gladiator's Chain Gauntlets
-							moh(3, i(100076)),	-- Tyrannical Gladiator's Chain Helm
-							moh(3, i(100054)),	-- Tyrannical Gladiator's Chain Leggings
-							moh(2, i(100120)),	-- Tyrannical Gladiator's Chain Spaulders
-						}),
-						cl(MAGE, {
-							moh(2, i(100059)),	-- Tyrannical Gladiator's Silk Amice
-							moh(3, i(100051)),	-- Tyrannical Gladiator's Silk Cowl
-							moh(2, i(100121)),	-- Tyrannical Gladiator's Silk Handguards
-							moh(3, i(100101)),	-- Tyrannical Gladiator's Silk Robe
-							moh(3, i(100032)),	-- Tyrannical Gladiator's Silk Trousers
-						}),
-						cl(MONK, {
-							moh(2, i(100010)),	-- Tyrannical Gladiator's Copperskin Gloves
-							moh(3, i(100011)),	-- Tyrannical Gladiator's Copperskin Helm
-							moh(3, i(100148)),	-- Tyrannical Gladiator's Copperskin Legguards
-							moh(2, i(100163)),	-- Tyrannical Gladiator's Copperskin Spaulders
-							moh(3, i(100149)),	-- Tyrannical Gladiator's Copperskin Tunic
-							moh(2, i(100061)),	-- Tyrannical Gladiator's Ironskin Gloves
-							moh(3, i(100098)),	-- Tyrannical Gladiator's Ironskin Helm
-							moh(3, i(100040)),	-- Tyrannical Gladiator's Ironskin Legguards
-							moh(2, i(100009)),	-- Tyrannical Gladiator's Ironskin Spaulders
-							moh(3, i(100106)),	-- Tyrannical Gladiator's Ironskin Tunic
-						}),
-						cl(PALADIN, {
-							moh(3, i(100015)),	-- Tyrannical Gladiator's Ornamented Chestguard
-							moh(2, i(100108)),	-- Tyrannical Gladiator's Ornamented Gloves
-							moh(3, i(100018)),	-- Tyrannical Gladiator's Ornamented Headcover
-							moh(3, i(100154)),	-- Tyrannical Gladiator's Ornamented Legplates
-							moh(2, i(100083)),	-- Tyrannical Gladiator's Ornamented Spaulders
-							moh(3, i(100133)),	-- Tyrannical Gladiator's Scaled Chestpiece
-							moh(2, i(100013)),	-- Tyrannical Gladiator's Scaled Gauntlets
-							moh(3, i(100165)),	-- Tyrannical Gladiator's Scaled Helm
-							moh(3, i(100166)),	-- Tyrannical Gladiator's Scaled Legguards
-							moh(2, i(100130)),	-- Tyrannical Gladiator's Scaled Shoulders
-						}),
-						cl(PRIEST, {
-							moh(2, i(99989)),	-- Tyrannical Gladiator's Mooncloth Gloves
-							moh(3, i(100089)),	-- Tyrannical Gladiator's Mooncloth Helm
-							moh(3, i(100090)),	-- Tyrannical Gladiator's Mooncloth Leggings
-							moh(2, i(100136)),	-- Tyrannical Gladiator's Mooncloth Mantle
-							moh(3, i(100067)),	-- Tyrannical Gladiator's Mooncloth Robe
-							moh(2, i(100093)),	-- Tyrannical Gladiator's Satin Gloves
-							moh(3, i(100137)),	-- Tyrannical Gladiator's Satin Hood
-							moh(3, i(99996)),	-- Tyrannical Gladiator's Satin Leggings
-							moh(2, i(100055)),	-- Tyrannical Gladiator's Satin Mantle
-							moh(3, i(99998)),	-- Tyrannical Gladiator's Satin Robe
-						}),
-						cl(ROGUE, {
-							moh(2, i(100047)),	-- Tyrannical Gladiator's Leather Gloves
-							moh(3, i(100096)),	-- Tyrannical Gladiator's Leather Helm
-							moh(3, i(100116)),	-- Tyrannical Gladiator's Leather Legguards
-							moh(2, i(100117)),	-- Tyrannical Gladiator's Leather Spaulders
-							moh(3, i(100113)),	-- Tyrannical Gladiator's Leather Tunic
-						}),
-						cl(SHAMAN, {
-							moh(3, i(100145)),	-- Tyrannical Gladiator's Linked Armor
-							moh(2, i(100128)),	-- Tyrannical Gladiator's Linked Gauntlets
-							moh(3, i(100100)),	-- Tyrannical Gladiator's Linked Helm
-							moh(3, i(100164)),	-- Tyrannical Gladiator's Linked Leggings
-							moh(2, i(100012)),	-- Tyrannical Gladiator's Linked Spaulders
-							moh(3, i(100129)),	-- Tyrannical Gladiator's Mail Armor
-							moh(2, i(100078)),	-- Tyrannical Gladiator's Mail Gauntlets
-							moh(3, i(100079)),	-- Tyrannical Gladiator's Mail Helm
-							moh(3, i(100167)),	-- Tyrannical Gladiator's Mail Leggings
-							moh(2, i(100020)),	-- Tyrannical Gladiator's Mail Spaulders
-							moh(3, i(100103)),	-- Tyrannical Gladiator's Ringmail Armor
-							moh(2, i(100160)),	-- Tyrannical Gladiator's Ringmail Gauntlets
-							moh(3, i(100104)),	-- Tyrannical Gladiator's Ringmail Helm
-							moh(3, i(100105)),	-- Tyrannical Gladiator's Ringmail Leggings
-							moh(2, i(100039)),	-- Tyrannical Gladiator's Ringmail Spaulders
-						}),
-						cl(WARLOCK, {
-							moh(2, i(100068)),	-- Tyrannical Gladiator's Felweave Amice
-							moh(3, i(100112)),	-- Tyrannical Gladiator's Felweave Cowl
-							moh(2, i(100111)),	-- Tyrannical Gladiator's Felweave Handguards
-							moh(3, i(100045)),	-- Tyrannical Gladiator's Felweave Raiment
-							moh(3, i(100141)),	-- Tyrannical Gladiator's Felweave Trousers
-						}),
-						cl(WARRIOR, {
-							moh(3, i(100114)),	-- Tyrannical Gladiator's Plate Chestpiece
-							moh(2, i(99992)),	-- Tyrannical Gladiator's Plate Gauntlets
-							moh(3, i(99993)),	-- Tyrannical Gladiator's Plate Helm
-							moh(3, i(100118)),	-- Tyrannical Gladiator's Plate Legguards
-							moh(2, i(100071)),	-- Tyrannical Gladiator's Plate Shoulders
-						}),
-						n(BACK, {
-							moh(1, i(100091)),	-- Tyrannical Gladiator's Cape of Cruelty
-							moh(1, i(100025)),	-- Tyrannical Gladiator's Cape of Prowess
-							moh(1, i(100155)),	-- Tyrannical Gladiator's Cloak of Alacrity
-							moh(1, i(100156)),	-- Tyrannical Gladiator's Cloak of Prowess
-							moh(1, i(100053)),	-- Tyrannical Gladiator's Drape of Cruelty
-							moh(1, i(100142)),	-- Tyrannical Gladiator's Drape of Meditation
-							moh(1, i(100158)),	-- Tyrannical Gladiator's Drape of Prowess
-						}),
-						n(WRIST, {
-							moh(1, i(100004)),	-- Tyrannical Gladiator's Armbands of Meditation
-							moh(1, i(100049)),	-- Tyrannical Gladiator's Armbands of Prowess
-							moh(1, i(100157)),	-- Tyrannical Gladiator's Armplates of Alacrity
-							moh(1, i(100088)),	-- Tyrannical Gladiator's Armplates of Proficiency
-							moh(1, i(100097)),	-- Tyrannical Gladiator's Armwraps of Accuracy
-							moh(1, i(100140)),	-- Tyrannical Gladiator's Armwraps of Alacrity
-							moh(1, i(100077)),	-- Tyrannical Gladiator's Bindings of Meditation
-							moh(1, i(100109)),	-- Tyrannical Gladiator's Bindings of Prowess
-							moh(1, i(100151)),	-- Tyrannical Gladiator's Bracers of Meditation
-							moh(1, i(100081)),	-- Tyrannical Gladiator's Bracers of Prowess
-							moh(1, i(100073)),	-- Tyrannical Gladiator's Cuffs of Accuracy
-							moh(1, i(100050)),	-- Tyrannical Gladiator's Cuffs of Meditation
-							moh(1, i(100119)),	-- Tyrannical Gladiator's Cuffs of Prowess
-							moh(1, i(100139)),	-- Tyrannical Gladiator's Wristguards of Accuracy
-							moh(1, i(100074)),	-- Tyrannical Gladiator's Wristguards of Alacrity
-						}),
-						n(WAIST, {
-							moh(1, i(100080)),	-- Tyrannical Gladiator's Belt of Cruelty
-							moh(1, i(100161)),	-- Tyrannical Gladiator's Belt of Meditation
-							moh(1, i(100150)),	-- Tyrannical Gladiator's Clasp of Cruelty
-							moh(1, i(100134)),	-- Tyrannical Gladiator's Clasp of Meditation
-							moh(1, i(100046)),	-- Tyrannical Gladiator's Cord of Accuracy
-							moh(1, i(100070)),	-- Tyrannical Gladiator's Cord of Cruelty
-							moh(1, i(100095)),	-- Tyrannical Gladiator's Cord of Meditation
-							moh(1, i(100023)),	-- Tyrannical Gladiator's Girdle of Accuracy
-							moh(1, i(100110)),	-- Tyrannical Gladiator's Girdle of Prowess
-							moh(1, i(100028)),	-- Tyrannical Gladiator's Links of Accuracy
-							moh(1, i(99991)),	-- Tyrannical Gladiator's Links of Cruelty
-							moh(1, i(100094)),	-- Tyrannical Gladiator's Waistband of Accuracy
-							moh(1, i(100030)),	-- Tyrannical Gladiator's Waistband of Cruelty
-							moh(1, i(100063)),	-- Tyrannical Gladiator's Waistguard of Cruelty
-							moh(1, i(100052)),	-- Tyrannical Gladiator's Waistguard of Meditation
-						}),
-						n(FEET, {
-							moh(2, i(100102)),	-- Tyrannical Gladiator's Boots of Alacrity
-							moh(2, i(100044)),	-- Tyrannical Gladiator's Boots of Cruelty
-							moh(2, i(100014)),	-- Tyrannical Gladiator's Footguards of Alacrity (Leahter)
-							moh(2, i(100048)),	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
-							moh(2, i(100146)),	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
-							moh(2, i(100001)),	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
-							moh(2, i(100021)),	-- Tyrannical Gladiator's Greaves of Alacrity
-							moh(2, i(100022)),	-- Tyrannical Gladiator's Greaves of Meditation
-							moh(2, i(100029)),	-- Tyrannical Gladiator's Sabatons of Alacrity
-							moh(2, i(100115)),	-- Tyrannical Gladiator's Sabatons of Cruelty
-							moh(2, i(99994)),	-- Tyrannical Gladiator's Treads of Alacrity
-							moh(2, i(100072)),	-- Tyrannical Gladiator's Treads of Cruelty
-							moh(2, i(100138)),	-- Tyrannical Gladiator's Treads of Meditation
-							moh(2, i(100131)),	-- Tyrannical Gladiator's Warboots of Alacrity
-							moh(2, i(100084)),	-- Tyrannical Gladiator's Warboots of Cruelty
-						}),
-						filter(NECK_F, {
-							i(100024),	-- Tyrannical Gladiator's Choker of Accuracy
-							i(100135),	-- Tyrannical Gladiator's Choker of Proficiency
-							i(100064),	-- Tyrannical Gladiator's Necklace of Proficiency
-							i(100065),	-- Tyrannical Gladiator's Necklace of Prowess
-							i(100143),	-- Tyrannical Gladiator's Pendant of Alacrity
-							i(100159),	-- Tyrannical Gladiator's Pendant of Cruelty
-							i(100122),	-- Tyrannical Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							i(100033),	-- Tyrannical Gladiator's Band of Accuracy
-							i(100060),	-- Tyrannical Gladiator's Band of Cruelty
-							i(100144),	-- Tyrannical Gladiator's Band of Meditation
-							i(100069),	-- Tyrannical Gladiator's Ring of Accuracy
-							i(100027),	-- Tyrannical Gladiator's Ring of Cruelty
-							i(100132),	-- Tyrannical Gladiator's Signet of Accuracy
-							i(100087),	-- Tyrannical Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
-							i(100043),	-- Tyrannical Gladiator's Badge of Conquest
-							i(100016),	-- Tyrannical Gladiator's Badge of Dominance
-							i(100019),	-- Tyrannical Gladiator's Badge of Victory
-							i(100066),	-- Tyrannical Gladiator's Emblem of Cruelty
-							i(99990),	-- Tyrannical Gladiator's Emblem of Meditation
-							i(100092),	-- Tyrannical Gladiator's Emblem of Tenacity
-							i(100026),	-- Tyrannical Gladiator's Insignia of Conquest
-							i(100152),	-- Tyrannical Gladiator's Insignia of Dominance
-							i(100085),	-- Tyrannical Gladiator's Insignia of Victory
-							i(100124),	-- Tyrannical Gladiator's Medallion of Cruelty (H)
-							i(100006),	-- Tyrannical Gladiator's Medallion of Meditation (H)
-							i(100057),	-- Tyrannical Gladiator's Medallion of Tenacity (H)
 						}),
 					}),
 				},
@@ -2551,37 +1839,242 @@ root(ROOTS.PVP, {
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
+					n(PVP_HONOR, {
+						n(WEAPONS, {
+							moh(2, i(99794)),	-- Tyrannical Gladiator's Barrier
+							moh(5, i(99796)),	-- Tyrannical Gladiator's Battle Staff
+							moh(5, i(99941)),	-- Tyrannical Gladiator's Bonecracker
+							moh(5, i(99769)),	-- Tyrannical Gladiator's Cleaver
+							moh(5, i(99766)),	-- Tyrannical Gladiator's Decapitator
+							moh(2, i(99793)),	-- Tyrannical Gladiator's Endgame
+							moh(5, i(99837)),	-- Tyrannical Gladiator's Energy Staff
+							moh(5, i(99835)),	-- Tyrannical Gladiator's Gavel
+							moh(5, i(99768)),	-- Tyrannical Gladiator's Greatsword
+							moh(5, i(99940)),	-- Tyrannical Gladiator's Hacker
+							moh(5, i(99805)),	-- Tyrannical Gladiator's Heavy Crossbow
+							moh(5, i(99936)),	-- Tyrannical Gladiator's Mageblade
+							moh(5, i(99770)),	-- Tyrannical Gladiator's Pummeler
+							moh(5, i(99771)),	-- Tyrannical Gladiator's Quickblade
+							moh(2, i(99836)),	-- Tyrannical Gladiator's Redoubt
+							moh(5, i(99935)),	-- Tyrannical Gladiator's Render
+							moh(2, i(99803)),	-- Tyrannical Gladiator's Reprieve
+							moh(5, i(99933)),	-- Tyrannical Gladiator's Ripper
+							moh(5, i(99932)),	-- Tyrannical Gladiator's Shanker
+							moh(2, i(99951)),	-- Tyrannical Gladiator's Shield Wall
+							moh(5, i(99942)),	-- Tyrannical Gladiator's Slicer
+							moh(5, i(99795)),	-- Tyrannical Gladiator's Spellblade
+							moh(5, i(99824)),	-- Tyrannical Gladiator's Staff
+						}),
+						cl(DEATHKNIGHT, {
+							moh(3, i(99806)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
+							moh(2, i(99807)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
+							moh(3, i(99808)),	-- Tyrannical Gladiator's Dreadplate Helm
+							moh(3, i(99809)),	-- Tyrannical Gladiator's Dreadplate Legguards
+							moh(2, i(99810)),	-- Tyrannical Gladiator's Dreadplate Shoulders
+						}),
+						cl(DRUID, {
+							moh(2, i(99811)),	-- Tyrannical Gladiator's Dragonhide Gloves
+							moh(3, i(99812)),	-- Tyrannical Gladiator's Dragonhide Helm
+							moh(3, i(99813)),	-- Tyrannical Gladiator's Dragonhide Legguards
+							moh(3, i(99814)),	-- Tyrannical Gladiator's Dragonhide Robes
+							moh(2, i(99815)),	-- Tyrannical Gladiator's Dragonhide Spaulders
+							moh(2, i(99819)),	-- Tyrannical Gladiator's Kodohide Gloves
+							moh(3, i(99820)),	-- Tyrannical Gladiator's Kodohide Helm
+							moh(3, i(99821)),	-- Tyrannical Gladiator's Kodohide Legguards
+							moh(3, i(99822)),	-- Tyrannical Gladiator's Kodohide Robes
+							moh(2, i(99823)),	-- Tyrannical Gladiator's Kodohide Spaulders
+							moh(2, i(99828)),	-- Tyrannical Gladiator's Wyrmhide Gloves
+							moh(3, i(99829)),	-- Tyrannical Gladiator's Wyrmhide Helm
+							moh(3, i(99830)),	-- Tyrannical Gladiator's Wyrmhide Legguards
+							moh(3, i(99831)),	-- Tyrannical Gladiator's Wyrmhide Robes
+							moh(2, i(99832)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
+						}),
+						cl(HUNTER, {
+							moh(3, i(99847)),	-- Tyrannical Gladiator's Chain Armor
+							moh(2, i(99848)),	-- Tyrannical Gladiator's Chain Gauntlets
+							moh(3, i(99849)),	-- Tyrannical Gladiator's Chain Helm
+							moh(3, i(99850)),	-- Tyrannical Gladiator's Chain Leggings
+							moh(2, i(99851)),	-- Tyrannical Gladiator's Chain Spaulders
+						}),
+						cl(MAGE, {
+							moh(2, i(99856)),	-- Tyrannical Gladiator's Silk Amice
+							moh(3, i(99853)),	-- Tyrannical Gladiator's Silk Cowl
+							moh(2, i(99852)),	-- Tyrannical Gladiator's Silk Handguards
+							moh(3, i(99855)),	-- Tyrannical Gladiator's Silk Robe
+							moh(3, i(99854)),	-- Tyrannical Gladiator's Silk Trousers
+						}),
+						cl(MONK, {
+							moh(2, i(99865)),	-- Tyrannical Gladiator's Copperskin Gloves
+							moh(3, i(99866)),	-- Tyrannical Gladiator's Copperskin Helm
+							moh(3, i(99867)),	-- Tyrannical Gladiator's Copperskin Legguards
+							moh(2, i(99868)),	-- Tyrannical Gladiator's Copperskin Spaulders
+							moh(3, i(99869)),	-- Tyrannical Gladiator's Copperskin Tunic
+							moh(2, i(99860)),	-- Tyrannical Gladiator's Ironskin Gloves
+							moh(3, i(99861)),	-- Tyrannical Gladiator's Ironskin Helm
+							moh(3, i(99862)),	-- Tyrannical Gladiator's Ironskin Legguards
+							moh(2, i(99863)),	-- Tyrannical Gladiator's Ironskin Spaulders
+							moh(3, i(99864)),	-- Tyrannical Gladiator's Ironskin Tunic
+						}),
+						cl(PALADIN, {
+							moh(3, i(99881)),	-- Tyrannical Gladiator's Ornamented Chestguard
+							moh(2, i(99882)),	-- Tyrannical Gladiator's Ornamented Gloves
+							moh(3, i(99883)),	-- Tyrannical Gladiator's Ornamented Headcover
+							moh(3, i(99884)),	-- Tyrannical Gladiator's Ornamented Legplates
+							moh(2, i(99885)),	-- Tyrannical Gladiator's Ornamented Spaulders
+							moh(3, i(99870)),	-- Tyrannical Gladiator's Scaled Chestpiece
+							moh(2, i(99871)),	-- Tyrannical Gladiator's Scaled Gauntlets
+							moh(3, i(99872)),	-- Tyrannical Gladiator's Scaled Helm
+							moh(3, i(99873)),	-- Tyrannical Gladiator's Scaled Legguards
+							moh(2, i(99874)),	-- Tyrannical Gladiator's Scaled Shoulders
+						}),
+						cl(PRIEST, {
+							moh(2, i(99893)),	-- Tyrannical Gladiator's Mooncloth Gloves
+							moh(3, i(99894)),	-- Tyrannical Gladiator's Mooncloth Helm
+							moh(3, i(99895)),	-- Tyrannical Gladiator's Mooncloth Leggings
+							moh(2, i(99897)),	-- Tyrannical Gladiator's Mooncloth Mantle
+							moh(3, i(99896)),	-- Tyrannical Gladiator's Mooncloth Robe
+							moh(2, i(99898)),	-- Tyrannical Gladiator's Satin Gloves
+							moh(3, i(99899)),	-- Tyrannical Gladiator's Satin Hood
+							moh(3, i(99900)),	-- Tyrannical Gladiator's Satin Leggings
+							moh(2, i(99902)),	-- Tyrannical Gladiator's Satin Mantle
+							moh(3, i(99901)),	-- Tyrannical Gladiator's Satin Robe
+						}),
+						cl(ROGUE, {
+							moh(2, i(99907)),	-- Tyrannical Gladiator's Leather Gloves
+							moh(3, i(99908)),	-- Tyrannical Gladiator's Leather Helm
+							moh(3, i(99909)),	-- Tyrannical Gladiator's Leather Legguards
+							moh(2, i(99910)),	-- Tyrannical Gladiator's Leather Spaulders
+							moh(3, i(99906)),	-- Tyrannical Gladiator's Leather Tunic
+						}),
+						cl(SHAMAN, {
+							moh(3, i(99921)),	-- Tyrannical Gladiator's Linked Armor
+							moh(2, i(99922)),	-- Tyrannical Gladiator's Linked Gauntlets
+							moh(3, i(99923)),	-- Tyrannical Gladiator's Linked Helm
+							moh(3, i(99924)),	-- Tyrannical Gladiator's Linked Leggings
+							moh(2, i(99925)),	-- Tyrannical Gladiator's Linked Spaulders
+							moh(3, i(99927)),	-- Tyrannical Gladiator's Mail Armor
+							moh(2, i(99928)),	-- Tyrannical Gladiator's Mail Gauntlets
+							moh(3, i(99929)),	-- Tyrannical Gladiator's Mail Helm
+							moh(3, i(99930)),	-- Tyrannical Gladiator's Mail Leggings
+							moh(2, i(99931)),	-- Tyrannical Gladiator's Mail Spaulders
+							moh(3, i(99916)),	-- Tyrannical Gladiator's Ringmail Armor
+							moh(2, i(99917)),	-- Tyrannical Gladiator's Ringmail Gauntlets
+							moh(3, i(99918)),	-- Tyrannical Gladiator's Ringmail Helm
+							moh(3, i(99919)),	-- Tyrannical Gladiator's Ringmail Leggings
+							moh(2, i(99920)),	-- Tyrannical Gladiator's Ringmail Spaulders
+						}),
+						cl(WARLOCK, {
+							moh(2, i(99956)),	-- Tyrannical Gladiator's Felweave Amice
+							moh(3, i(99953)),	-- Tyrannical Gladiator's Felweave Cowl
+							moh(2, i(99952)),	-- Tyrannical Gladiator's Felweave Handguards
+							moh(3, i(99955)),	-- Tyrannical Gladiator's Felweave Raiment
+							moh(3, i(99954)),	-- Tyrannical Gladiator's Felweave Trousers
+						}),
+						cl(WARRIOR, {
+							moh(3, i(99957)),	-- Tyrannical Gladiator's Plate Chestpiece
+							moh(2, i(99958)),	-- Tyrannical Gladiator's Plate Gauntlets
+							moh(3, i(99959)),	-- Tyrannical Gladiator's Plate Helm
+							moh(3, i(99960)),	-- Tyrannical Gladiator's Plate Legguards
+							moh(2, i(99961)),	-- Tyrannical Gladiator's Plate Shoulders
+						}),
+						n(BACK, {
+							moh(1, i(99773)),	-- Tyrannical Gladiator's Cape of Cruelty
+							moh(1, i(99774)),	-- Tyrannical Gladiator's Cape of Prowess
+							moh(1, i(99944)),	-- Tyrannical Gladiator's Cloak of Alacrity
+							moh(1, i(99945)),	-- Tyrannical Gladiator's Cloak of Prowess
+							moh(1, i(99790)),	-- Tyrannical Gladiator's Drape of Cruelty
+							moh(1, i(99792)),	-- Tyrannical Gladiator's Drape of Meditation
+							moh(1, i(99791)),	-- Tyrannical Gladiator's Drape of Prowess
+						}),
+						n(WRIST, {
+							moh(1, i(99915)),	-- Tyrannical Gladiator's Armbands of Meditation
+							moh(1, i(99914)),	-- Tyrannical Gladiator's Armbands of Prowess
+							moh(1, i(99891)),	-- Tyrannical Gladiator's Armplates of Alacrity
+							moh(1, i(99890)),	-- Tyrannical Gladiator's Armplates of Proficiency
+							moh(1, i(99859)),	-- Tyrannical Gladiator's Armwraps of Accuracy
+							moh(1, i(99905)),	-- Tyrannical Gladiator's Armwraps of Alacrity
+							moh(1, i(99818)),	-- Tyrannical Gladiator's Bindings of Meditation
+							moh(1, i(99827)),	-- Tyrannical Gladiator's Bindings of Prowess
+							moh(1, i(99880)),	-- Tyrannical Gladiator's Bracers of Meditation
+							moh(1, i(99879)),	-- Tyrannical Gladiator's Bracers of Prowess
+							moh(1, i(99787)),	-- Tyrannical Gladiator's Cuffs of Accuracy
+							moh(1, i(99789)),	-- Tyrannical Gladiator's Cuffs of Meditation
+							moh(1, i(99788)),	-- Tyrannical Gladiator's Cuffs of Prowess
+							moh(1, i(99846)),	-- Tyrannical Gladiator's Wristguards of Accuracy
+							moh(1, i(99845)),	-- Tyrannical Gladiator's Wristguards of Alacrity
+						}),
+						n(WAIST, {
+							moh(1, i(99825)),	-- Tyrannical Gladiator's Belt of Cruelty
+							moh(1, i(99816)),	-- Tyrannical Gladiator's Belt of Meditation
+							moh(1, i(99875)),	-- Tyrannical Gladiator's Clasp of Cruelty
+							moh(1, i(99876)),	-- Tyrannical Gladiator's Clasp of Meditation
+							moh(1, i(99782)),	-- Tyrannical Gladiator's Cord of Accuracy
+							moh(1, i(99781)),	-- Tyrannical Gladiator's Cord of Cruelty
+							moh(1, i(99783)),	-- Tyrannical Gladiator's Cord of Meditation
+							moh(1, i(99886)),	-- Tyrannical Gladiator's Girdle of Accuracy
+							moh(1, i(99887)),	-- Tyrannical Gladiator's Girdle of Prowess
+							moh(1, i(99842)),	-- Tyrannical Gladiator's Links of Accuracy
+							moh(1, i(99841)),	-- Tyrannical Gladiator's Links of Cruelty
+							moh(1, i(99903)),	-- Tyrannical Gladiator's Waistband of Accuracy
+							moh(1, i(99857)),	-- Tyrannical Gladiator's Waistband of Cruelty
+							moh(1, i(99926)),	-- Tyrannical Gladiator's Waistguard of Cruelty
+							moh(1, i(99911)),	-- Tyrannical Gladiator's Waistguard of Meditation
+						}),
+						n(FEET, {
+							moh(2, i(99858)),	-- Tyrannical Gladiator's Boots of Alacrity
+							moh(2, i(99904)),	-- Tyrannical Gladiator's Boots of Cruelty
+							moh(2, i(99826)),	-- Tyrannical Gladiator's Footguards of Alacrity (Leahter)
+							moh(2, i(99912)),	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
+							moh(2, i(99817)),	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
+							moh(2, i(99913)),	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
+							moh(2, i(99877)),	-- Tyrannical Gladiator's Greaves of Alacrity
+							moh(2, i(99878)),	-- Tyrannical Gladiator's Greaves of Meditation
+							moh(2, i(99844)),	-- Tyrannical Gladiator's Sabatons of Alacrity
+							moh(2, i(99843)),	-- Tyrannical Gladiator's Sabatons of Cruelty
+							moh(2, i(99785)),	-- Tyrannical Gladiator's Treads of Alacrity
+							moh(2, i(99784)),	-- Tyrannical Gladiator's Treads of Cruelty
+							moh(2, i(99786)),	-- Tyrannical Gladiator's Treads of Meditation
+							moh(2, i(99889)),	-- Tyrannical Gladiator's Warboots of Alacrity
+							moh(2, i(99888)),	-- Tyrannical Gladiator's Warboots of Cruelty
+						}),
+						filter(NECK_F, {
+							i(99947),	-- Tyrannical Gladiator's Choker of Accuracy
+							i(99946),	-- Tyrannical Gladiator's Choker of Proficiency
+							i(99775),	-- Tyrannical Gladiator's Necklace of Proficiency
+							i(99776),	-- Tyrannical Gladiator's Necklace of Prowess
+							i(99798),	-- Tyrannical Gladiator's Pendant of Alacrity
+							i(99797),	-- Tyrannical Gladiator's Pendant of Cruelty
+							i(99799),	-- Tyrannical Gladiator's Pendant of Meditation
+						}),
+						filter(FINGER_F, {
+							i(99801),	-- Tyrannical Gladiator's Band of Accuracy
+							i(99800),	-- Tyrannical Gladiator's Band of Cruelty
+							i(99802),	-- Tyrannical Gladiator's Band of Meditation
+							i(99779),	-- Tyrannical Gladiator's Ring of Accuracy
+							i(99778),	-- Tyrannical Gladiator's Ring of Cruelty
+							i(99950),	-- Tyrannical Gladiator's Signet of Accuracy
+							i(99949),	-- Tyrannical Gladiator's Signet of Cruelty
+						}),
+						filter(TRINKET_F, {
+							i(99772),	-- Tyrannical Gladiator's Badge of Conquest
+							i(99937),	-- Tyrannical Gladiator's Badge of Dominance
+							i(99943),	-- Tyrannical Gladiator's Badge of Victory
+							i(99838),	-- Tyrannical Gladiator's Emblem of Cruelty
+							i(99840),	-- Tyrannical Gladiator's Emblem of Meditation
+							i(99839),	-- Tyrannical Gladiator's Emblem of Tenacity
+							i(99777),	-- Tyrannical Gladiator's Insignia of Conquest
+							i(99938),	-- Tyrannical Gladiator's Insignia of Dominance
+							i(99948),	-- Tyrannical Gladiator's Insignia of Victory
+							i(100056),	-- Tyrannical Gladiator's Medallion of Cruelty (A)
+							i(100058),	-- Tyrannical Gladiator's Medallion of Meditation (A)
+							i(100031),	-- Tyrannical Gladiator's Medallion of Tenacity (A)
+						}),
+					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
 							moh(80, iensemble(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
-							moh(2, i(103167)),	-- Grievous Gladiator's Barrier
-							moh(5, i(103310)),	-- Grievous Gladiator's Baton of Light
-							moh(5, i(103169)),	-- Grievous Gladiator's Battle Staff
-							moh(5, i(103312)),	-- Grievous Gladiator's Bonecracker
-							moh(5, i(103142)),	-- Grievous Gladiator's Cleaver
-							moh(5, i(103139)),	-- Grievous Gladiator's Decapitator
-							moh(2, i(103166)),	-- Grievous Gladiator's Endgame
-							moh(5, i(103209)),	-- Grievous Gladiator's Energy Staff
-							moh(5, i(103207)),	-- Grievous Gladiator's Gavel
-							moh(5, i(103141)),	-- Grievous Gladiator's Greatsword
-							moh(5, i(103311)),	-- Grievous Gladiator's Hacker
-							moh(5, i(103153)),	-- Grievous Gladiator's Longbow
-							moh(5, i(103307)),	-- Grievous Gladiator's Mageblade
-							moh(5, i(103264)),	-- Grievous Gladiator's Pike
-							moh(5, i(103143)),	-- Grievous Gladiator's Pummeler
-							moh(5, i(103144)),	-- Grievous Gladiator's Quickblade
-							moh(2, i(103208)),	-- Grievous Gladiator's Redoubt
-							moh(5, i(103306)),	-- Grievous Gladiator's Render
-							moh(2, i(103176)),	-- Grievous Gladiator's Reprieve
-							moh(2, i(103206)),	-- Grievous Gladiator's Rifle
-							moh(5, i(103305)),	-- Grievous Gladiator's Ripper
-							moh(5, i(103304)),	-- Grievous Gladiator's Shanker
-							moh(2, i(103322)),	-- Grievous Gladiator's Shield Wall
-							moh(5, i(103313)),	-- Grievous Gladiator's Slicer
-							moh(5, i(103168)),	-- Grievous Gladiator's Spellblade
-							moh(5, i(103177)),	-- Grievous Gladiator's Touch of Defeat
 							i(100225),	-- Grievous Gladiator's Barrier
 							i(100492),	-- Grievous Gladiator's Baton of Light
 							i(100229),	-- Grievous Gladiator's Battle Staff
@@ -2618,12 +2111,6 @@ root(ROOTS.PVP, {
 							i(100247),	-- Grievous Gladiator's Dreadplate Helm
 							i(100249),	-- Grievous Gladiator's Dreadplate Legguards
 							i(100251),	-- Grievous Gladiator's Dreadplate Shoulders
-							--
-							moh(3, i(103179)),	-- Grievous Gladiator's Dreadplate Chestpiece
-							moh(2, i(103180)),	-- Grievous Gladiator's Dreadplate Gauntlets
-							moh(3, i(103181)),	-- Grievous Gladiator's Dreadplate Helm
-							moh(3, i(103182)),	-- Grievous Gladiator's Dreadplate Legguards
-							moh(2, i(103183)),	-- Grievous Gladiator's Dreadplate Shoulders
 						}),
 						cl(DRUID, {
 							moh(12, iensemble(138669, {	-- Ensemble: Grievous Gladiator's Dragonhide Armor
@@ -2644,22 +2131,6 @@ root(ROOTS.PVP, {
 							i(100289),	-- Grievous Gladiator's Wyrmhide Legguards
 							i(100291),	-- Grievous Gladiator's Wyrmhide Robes
 							i(100293),	-- Grievous Gladiator's Wyrmhide Spaulders
-							--
-							moh(2, i(103184)),	-- Grievous Gladiator's Dragonhide Gloves
-							moh(3, i(103185)),	-- Grievous Gladiator's Dragonhide Helm
-							moh(3, i(103186)),	-- Grievous Gladiator's Dragonhide Legguards
-							moh(3, i(103187)),	-- Grievous Gladiator's Dragonhide Robes
-							moh(2, i(103188)),	-- Grievous Gladiator's Dragonhide Spaulders
-							moh(2, i(103192)),	-- Grievous Gladiator's Kodohide Gloves
-							moh(3, i(103193)),	-- Grievous Gladiator's Kodohide Helm
-							moh(3, i(103194)),	-- Grievous Gladiator's Kodohide Legguards
-							moh(3, i(103195)),	-- Grievous Gladiator's Kodohide Robes
-							moh(2, i(103196)),	-- Grievous Gladiator's Kodohide Spaulders
-							moh(2, i(103201)),	-- Grievous Gladiator's Wyrmhide Gloves
-							moh(3, i(103202)),	-- Grievous Gladiator's Wyrmhide Helm
-							moh(3, i(103203)),	-- Grievous Gladiator's Wyrmhide Legguards
-							moh(3, i(103204)),	-- Grievous Gladiator's Wyrmhide Robes
-							moh(2, i(103205)),	-- Grievous Gladiator's Wyrmhide Spaulders
 						}),
 						cl(HUNTER, {
 							moh(12, iensemble(138667, {	-- Ensemble: Grievous Gladiator's Chain Armor
@@ -2670,12 +2141,6 @@ root(ROOTS.PVP, {
 							i(100322),	-- Grievous Gladiator's Chain Helm
 							i(100324),	-- Grievous Gladiator's Chain Leggings
 							i(100326),	-- Grievous Gladiator's Chain Spaulders
-							--
-							moh(3, i(103219)),	-- Grievous Gladiator's Chain Armor
-							moh(2, i(103220)),	-- Grievous Gladiator's Chain Gauntlets
-							moh(3, i(103221)),	-- Grievous Gladiator's Chain Helm
-							moh(3, i(103222)),	-- Grievous Gladiator's Chain Leggings
-							moh(2, i(103223)),	-- Grievous Gladiator's Chain Spaulders
 						}),
 						cl(MAGE, {
 							moh(12, iensemble(138675, {	-- Ensemble: Grievous Gladiator's Silk Armor
@@ -2686,12 +2151,6 @@ root(ROOTS.PVP, {
 							i(100328),	-- Grievous Gladiator's Silk Handguards
 							i(100334),	-- Grievous Gladiator's Silk Robe
 							i(100332),	-- Grievous Gladiator's Silk Trousers
-							--
-							moh(2, i(103228)),	-- Grievous Gladiator's Silk Amice
-							moh(3, i(103225)),	-- Grievous Gladiator's Silk Cowl
-							moh(2, i(103224)),	-- Grievous Gladiator's Silk Handguards
-							moh(3, i(103227)),	-- Grievous Gladiator's Silk Robe
-							moh(3, i(103226)),	-- Grievous Gladiator's Silk Trousers
 						}),
 						cl(MONK, {
 							moh(12, iensemble(138671, {	-- Ensemble: Grievous Gladiator's Ironskin Armor
@@ -2707,17 +2166,6 @@ root(ROOTS.PVP, {
 							i(100347),	-- Grievous Gladiator's Ironskin Legguards
 							i(100349),	-- Grievous Gladiator's Ironskin Spaulders
 							i(100351),	-- Grievous Gladiator's Ironskin Tunic
-							--
-							moh(2, i(103237)),	-- Grievous Gladiator's Copperskin Gloves
-							moh(3, i(103238)),	-- Grievous Gladiator's Copperskin Helm
-							moh(3, i(103239)),	-- Grievous Gladiator's Copperskin Legguards
-							moh(2, i(103240)),	-- Grievous Gladiator's Copperskin Spaulders
-							moh(3, i(103241)),	-- Grievous Gladiator's Copperskin Tunic
-							moh(2, i(103232)),	-- Grievous Gladiator's Ironskin Gloves
-							moh(3, i(103233)),	-- Grievous Gladiator's Ironskin Helm
-							moh(3, i(103234)),	-- Grievous Gladiator's Ironskin Legguards
-							moh(2, i(103235)),	-- Grievous Gladiator's Ironskin Spaulders
-							moh(3, i(103236)),	-- Grievous Gladiator's Ironskin Tunic
 						}),
 						cl(PALADIN, {
 							moh(12, iensemble(138663, {	-- Ensemble: Grievous Gladiator's Scaled Armor
@@ -2733,17 +2181,6 @@ root(ROOTS.PVP, {
 							i(100367),	-- Grievous Gladiator's Scaled Helm
 							i(100369),	-- Grievous Gladiator's Scaled Legguards
 							i(100371),	-- Grievous Gladiator's Scaled Shoulders
-							--
-							moh(3, i(103253)),	-- Grievous Gladiator's Ornamented Chestguard
-							moh(2, i(103254)),	-- Grievous Gladiator's Ornamented Gloves
-							moh(3, i(103255)),	-- Grievous Gladiator's Ornamented Headcover
-							moh(3, i(103256)),	-- Grievous Gladiator's Ornamented Legplates
-							moh(2, i(103257)),	-- Grievous Gladiator's Ornamented Spaulders
-							moh(3, i(103242)),	-- Grievous Gladiator's Scaled Chestpiece
-							moh(2, i(103243)),	-- Grievous Gladiator's Scaled Gauntlets
-							moh(3, i(103244)),	-- Grievous Gladiator's Scaled Helm
-							moh(3, i(103245)),	-- Grievous Gladiator's Scaled Legguards
-							moh(2, i(103246)),	-- Grievous Gladiator's Scaled Shoulders
 						}),
 						cl(PRIEST, {
 							moh(12, iensemble(138677, {	-- Ensemble: Grievous Gladiator's Satin Armor
@@ -2760,17 +2197,6 @@ root(ROOTS.PVP, {
 							i(100419),	-- Grievous Gladiator's Satin Leggings	-- Did not get via ally ensemble
 							i(100423),	-- Grievous Gladiator's Satin Mantle	-- Did not get via ally ensemble
 							i(100421),	-- Grievous Gladiator's Satin Robe		-- Did not get via ally ensemble
-							-- S15
-							moh(2, i(103265)),	-- Grievous Gladiator's Mooncloth Gloves
-							moh(3, i(103266)),	-- Grievous Gladiator's Mooncloth Helm
-							moh(3, i(103267)),	-- Grievous Gladiator's Mooncloth Leggings
-							moh(2, i(103269)),	-- Grievous Gladiator's Mooncloth Mantle
-							moh(3, i(103268)),	-- Grievous Gladiator's Mooncloth Robe
-							moh(2, i(103270)),	-- Grievous Gladiator's Satin Gloves
-							moh(3, i(103271)),	-- Grievous Gladiator's Satin Hood
-							moh(3, i(103272)),	-- Grievous Gladiator's Satin Leggings
-							moh(2, i(103274)),	-- Grievous Gladiator's Satin Mantle
-							moh(3, i(103273)),	-- Grievous Gladiator's Satin Robe
 						}),
 						cl(ROGUE, {
 							moh(12, iensemble(138673, {	-- Ensemble: Grievous Gladiator's Leather Armor
@@ -2781,12 +2207,6 @@ root(ROOTS.PVP, {
 							i(100436),	-- Grievous Gladiator's Leather Legguards
 							i(100438),	-- Grievous Gladiator's Leather Spaulders
 							i(100430),	-- Grievous Gladiator's Leather Tunic
-							--
-							moh(2, i(103279)),	-- Grievous Gladiator's Leather Gloves
-							moh(3, i(103280)),	-- Grievous Gladiator's Leather Helm
-							moh(3, i(103281)),	-- Grievous Gladiator's Leather Legguards
-							moh(2, i(103282)),	-- Grievous Gladiator's Leather Spaulders
-							moh(3, i(103278)),	-- Grievous Gladiator's Leather Tunic
 						}),
 						cl(SHAMAN, {
 							moh(12, iensemble(138665, {	-- Ensemble: Grievous Gladiator's Ringmail Armor
@@ -2807,22 +2227,6 @@ root(ROOTS.PVP, {
 							i(100452),	-- Grievous Gladiator's Ringmail Helm
 							i(100454),	-- Grievous Gladiator's Ringmail Leggings
 							i(100456),	-- Grievous Gladiator's Ringmail Spaulders
-							--
-							moh(3, i(103293)),	-- Grievous Gladiator's Linked Armor
-							moh(2, i(103294)),	-- Grievous Gladiator's Linked Gauntlets
-							moh(3, i(103295)),	-- Grievous Gladiator's Linked Helm
-							moh(3, i(103296)),	-- Grievous Gladiator's Linked Leggings
-							moh(2, i(103297)),	-- Grievous Gladiator's Linked Spaulders
-							moh(3, i(103299)),	-- Grievous Gladiator's Mail Armor
-							moh(2, i(103300)),	-- Grievous Gladiator's Mail Gauntlets
-							moh(3, i(103301)),	-- Grievous Gladiator's Mail Helm
-							moh(3, i(103302)),	-- Grievous Gladiator's Mail Leggings
-							moh(2, i(103303)),	-- Grievous Gladiator's Mail Spaulders
-							moh(3, i(103288)),	-- Grievous Gladiator's Ringmail Armor
-							moh(2, i(103289)),	-- Grievous Gladiator's Ringmail Gauntlets
-							moh(3, i(103290)),	-- Grievous Gladiator's Ringmail Helm
-							moh(3, i(103291)),	-- Grievous Gladiator's Ringmail Leggings
-							moh(2, i(103292)),	-- Grievous Gladiator's Ringmail Spaulders
 						}),
 						cl(WARLOCK, {
 							moh(12, iensemble(138679, {	-- Ensemble: Grievous Gladiator's Felweave Armor
@@ -2833,12 +2237,6 @@ root(ROOTS.PVP, {
 							i(100510),	-- Grievous Gladiator's Felweave Handguards
 							i(100516),	-- Grievous Gladiator's Felweave Raiment
 							i(100514),	-- Grievous Gladiator's Felweave Trousers
-							--
-							moh(2, i(103327)),	-- Grievous Gladiator's Felweave Amice
-							moh(3, i(103324)),	-- Grievous Gladiator's Felweave Cowl
-							moh(2, i(103323)),	-- Grievous Gladiator's Felweave Handguards
-							moh(3, i(103326)),	-- Grievous Gladiator's Felweave Raiment
-							moh(3, i(103325)),	-- Grievous Gladiator's Felweave Trousers
 						}),
 						cl(WARRIOR, {
 							moh(12, iensemble(138659, {	-- Ensemble: Grievous Gladiator's Plate Armor
@@ -2849,12 +2247,6 @@ root(ROOTS.PVP, {
 							i(100524),	-- Grievous Gladiator's Plate Helm
 							i(100526),	-- Grievous Gladiator's Plate Legguards
 							i(100528),	-- Grievous Gladiator's Plate Shoulders
-							--
-							moh(3, i(103328)),	-- Grievous Gladiator's Plate Chestpiece
-							moh(2, i(103329)),	-- Grievous Gladiator's Plate Gauntlets
-							moh(3, i(103330)),	-- Grievous Gladiator's Plate Helm
-							moh(3, i(103331)),	-- Grievous Gladiator's Plate Legguards
-							moh(2, i(103332)),	-- Grievous Gladiator's Plate Shoulders
 						}),
 						n(BACK, {
 							i(100196),	-- Grievous Gladiator's Cape of Cruelty
@@ -2888,13 +2280,19 @@ root(ROOTS.PVP, {
 							i(100373),	-- Grievous Gladiator's Clasp of Cruelty
 							i(100375),	-- Grievous Gladiator's Clasp of Meditation
 							i(100207, {	-- Grievous Gladiator's Cord of Accuracy
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Warlock Ensemble.",
+								-- #endif
 							}),
 							i(100205, {	-- Grievous Gladiator's Cord of Cruelty
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Mage Ensemble.",
+								-- #endif
 							}),
 							i(100209, {	-- Grievous Gladiator's Cord of Meditation
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Priest Ensemble.",
+								-- #endif
 							}),
 							i(100393),	-- Grievous Gladiator's Girdle of Accuracy
 							i(100395),	-- Grievous Gladiator's Girdle of Prowess
@@ -2917,13 +2315,19 @@ root(ROOTS.PVP, {
 							i(100314),	-- Grievous Gladiator's Sabatons of Alacrity
 							i(100312),	-- Grievous Gladiator's Sabatons of Cruelty
 							i(100213, {	-- Grievous Gladiator's Treads of Alacrity
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Warlock Ensemble.",
+								-- #endif
 							}),
 							i(100211, {	-- Grievous Gladiator's Treads of Cruelty
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Mage Ensemble.",
+								-- #endif
 							}),
 							i(100215, {	-- Grievous Gladiator's Treads of Meditation
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Priest Ensemble.",
+								-- #endif
 							}),
 							i(100399),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100397),	-- Grievous Gladiator's Warboots of Cruelty
@@ -2961,277 +2365,247 @@ root(ROOTS.PVP, {
 							i(100591),	-- Grievous Gladiator's Medallion of Tenacity (A)
 						}),
 					}),
-					n(HONOR_PRIDEFUL, {
-						n(WEAPONS, {
-							moh(2, i(103167)),	-- Grievous Gladiator's Barrier
-							moh(5, i(103310)),	-- Grievous Gladiator's Baton of Light
-							moh(5, i(103169)),	-- Grievous Gladiator's Battle Staff
-							moh(5, i(103312)),	-- Grievous Gladiator's Bonecracker
-							moh(5, i(103142)),	-- Grievous Gladiator's Cleaver
-							moh(5, i(103139)),	-- Grievous Gladiator's Decapitator
-							moh(2, i(103166)),	-- Grievous Gladiator's Endgame
-							moh(5, i(103209)),	-- Grievous Gladiator's Energy Staff
-							moh(5, i(103207)),	-- Grievous Gladiator's Gavel
-							moh(5, i(103141)),	-- Grievous Gladiator's Greatsword
-							moh(5, i(103311)),	-- Grievous Gladiator's Hacker
-							moh(5, i(103153)),	-- Grievous Gladiator's Longbow
-							moh(5, i(103307)),	-- Grievous Gladiator's Mageblade
-							moh(5, i(103264)),	-- Grievous Gladiator's Pike
-							moh(5, i(103143)),	-- Grievous Gladiator's Pummeler
-							moh(5, i(103144)),	-- Grievous Gladiator's Quickblade
-							moh(2, i(103208)),	-- Grievous Gladiator's Redoubt
-							moh(5, i(103306)),	-- Grievous Gladiator's Render
-							moh(2, i(103176)),	-- Grievous Gladiator's Reprieve
-							moh(2, i(103206)),	-- Grievous Gladiator's Rifle
-							moh(5, i(103305)),	-- Grievous Gladiator's Ripper
-							moh(5, i(103304)),	-- Grievous Gladiator's Shanker
-							moh(2, i(103322)),	-- Grievous Gladiator's Shield Wall
-							moh(5, i(103313)),	-- Grievous Gladiator's Slicer
-							moh(5, i(103168)),	-- Grievous Gladiator's Spellblade
-							moh(5, i(103177)),	-- Grievous Gladiator's Touch of Defeat
-						}),
-						cl(DEATHKNIGHT, {
-							moh(3, i(103179)),	-- Grievous Gladiator's Dreadplate Chestpiece
-							moh(2, i(103180)),	-- Grievous Gladiator's Dreadplate Gauntlets
-							moh(3, i(103181)),	-- Grievous Gladiator's Dreadplate Helm
-							moh(3, i(103182)),	-- Grievous Gladiator's Dreadplate Legguards
-							moh(2, i(103183)),	-- Grievous Gladiator's Dreadplate Shoulders
-						}),
-						cl(DRUID, {
-							moh(2, i(103184)),	-- Grievous Gladiator's Dragonhide Gloves
-							moh(3, i(103185)),	-- Grievous Gladiator's Dragonhide Helm
-							moh(3, i(103186)),	-- Grievous Gladiator's Dragonhide Legguards
-							moh(3, i(103187)),	-- Grievous Gladiator's Dragonhide Robes
-							moh(2, i(103188)),	-- Grievous Gladiator's Dragonhide Spaulders
-							moh(2, i(103192)),	-- Grievous Gladiator's Kodohide Gloves
-							moh(3, i(103193)),	-- Grievous Gladiator's Kodohide Helm
-							moh(3, i(103194)),	-- Grievous Gladiator's Kodohide Legguards
-							moh(3, i(103195)),	-- Grievous Gladiator's Kodohide Robes
-							moh(2, i(103196)),	-- Grievous Gladiator's Kodohide Spaulders
-							moh(2, i(103201)),	-- Grievous Gladiator's Wyrmhide Gloves
-							moh(3, i(103202)),	-- Grievous Gladiator's Wyrmhide Helm
-							moh(3, i(103203)),	-- Grievous Gladiator's Wyrmhide Legguards
-							moh(3, i(103204)),	-- Grievous Gladiator's Wyrmhide Robes
-							moh(2, i(103205)),	-- Grievous Gladiator's Wyrmhide Spaulders
-						}),
-						cl(HUNTER, {
-							moh(3, i(103219)),	-- Grievous Gladiator's Chain Armor
-							moh(2, i(103220)),	-- Grievous Gladiator's Chain Gauntlets
-							moh(3, i(103221)),	-- Grievous Gladiator's Chain Helm
-							moh(3, i(103222)),	-- Grievous Gladiator's Chain Leggings
-							moh(2, i(103223)),	-- Grievous Gladiator's Chain Spaulders
-						}),
-						cl(MAGE, {
-							moh(2, i(103228)),	-- Grievous Gladiator's Silk Amice
-							moh(3, i(103225)),	-- Grievous Gladiator's Silk Cowl
-							moh(2, i(103224)),	-- Grievous Gladiator's Silk Handguards
-							moh(3, i(103227)),	-- Grievous Gladiator's Silk Robe
-							moh(3, i(103226)),	-- Grievous Gladiator's Silk Trousers
-						}),
-						cl(MONK, {
-							moh(2, i(103237)),	-- Grievous Gladiator's Copperskin Gloves
-							moh(3, i(103238)),	-- Grievous Gladiator's Copperskin Helm
-							moh(3, i(103239)),	-- Grievous Gladiator's Copperskin Legguards
-							moh(2, i(103240)),	-- Grievous Gladiator's Copperskin Spaulders
-							moh(3, i(103241)),	-- Grievous Gladiator's Copperskin Tunic
-							moh(2, i(103232)),	-- Grievous Gladiator's Ironskin Gloves
-							moh(3, i(103233)),	-- Grievous Gladiator's Ironskin Helm
-							moh(3, i(103234)),	-- Grievous Gladiator's Ironskin Legguards
-							moh(2, i(103235)),	-- Grievous Gladiator's Ironskin Spaulders
-							moh(3, i(103236)),	-- Grievous Gladiator's Ironskin Tunic
-						}),
-						cl(PALADIN, {
-							moh(3, i(103253)),	-- Grievous Gladiator's Ornamented Chestguard
-							moh(2, i(103254)),	-- Grievous Gladiator's Ornamented Gloves
-							moh(3, i(103255)),	-- Grievous Gladiator's Ornamented Headcover
-							moh(3, i(103256)),	-- Grievous Gladiator's Ornamented Legplates
-							moh(2, i(103257)),	-- Grievous Gladiator's Ornamented Spaulders
-							moh(3, i(103242)),	-- Grievous Gladiator's Scaled Chestpiece
-							moh(2, i(103243)),	-- Grievous Gladiator's Scaled Gauntlets
-							moh(3, i(103244)),	-- Grievous Gladiator's Scaled Helm
-							moh(3, i(103245)),	-- Grievous Gladiator's Scaled Legguards
-							moh(2, i(103246)),	-- Grievous Gladiator's Scaled Shoulders
-						}),
-						cl(PRIEST, {
-							moh(2, i(103265)),	-- Grievous Gladiator's Mooncloth Gloves
-							moh(3, i(103266)),	-- Grievous Gladiator's Mooncloth Helm
-							moh(3, i(103267)),	-- Grievous Gladiator's Mooncloth Leggings
-							moh(2, i(103269)),	-- Grievous Gladiator's Mooncloth Mantle
-							moh(3, i(103268)),	-- Grievous Gladiator's Mooncloth Robe
-							moh(2, i(103270)),	-- Grievous Gladiator's Satin Gloves
-							moh(3, i(103271)),	-- Grievous Gladiator's Satin Hood
-							moh(3, i(103272)),	-- Grievous Gladiator's Satin Leggings
-							moh(2, i(103274)),	-- Grievous Gladiator's Satin Mantle
-							moh(3, i(103273)),	-- Grievous Gladiator's Satin Robe
-						}),
-						cl(ROGUE, {
-							moh(2, i(103279)),	-- Grievous Gladiator's Leather Gloves
-							moh(3, i(103280)),	-- Grievous Gladiator's Leather Helm
-							moh(3, i(103281)),	-- Grievous Gladiator's Leather Legguards
-							moh(2, i(103282)),	-- Grievous Gladiator's Leather Spaulders
-							moh(3, i(103278)),	-- Grievous Gladiator's Leather Tunic
-						}),
-						cl(SHAMAN, {
-							moh(3, i(103293)),	-- Grievous Gladiator's Linked Armor
-							moh(2, i(103294)),	-- Grievous Gladiator's Linked Gauntlets
-							moh(3, i(103295)),	-- Grievous Gladiator's Linked Helm
-							moh(3, i(103296)),	-- Grievous Gladiator's Linked Leggings
-							moh(2, i(103297)),	-- Grievous Gladiator's Linked Spaulders
-							moh(3, i(103299)),	-- Grievous Gladiator's Mail Armor
-							moh(2, i(103300)),	-- Grievous Gladiator's Mail Gauntlets
-							moh(3, i(103301)),	-- Grievous Gladiator's Mail Helm
-							moh(3, i(103302)),	-- Grievous Gladiator's Mail Leggings
-							moh(2, i(103303)),	-- Grievous Gladiator's Mail Spaulders
-							moh(3, i(103288)),	-- Grievous Gladiator's Ringmail Armor
-							moh(2, i(103289)),	-- Grievous Gladiator's Ringmail Gauntlets
-							moh(3, i(103290)),	-- Grievous Gladiator's Ringmail Helm
-							moh(3, i(103291)),	-- Grievous Gladiator's Ringmail Leggings
-							moh(2, i(103292)),	-- Grievous Gladiator's Ringmail Spaulders
-						}),
-						cl(WARLOCK, {
-							moh(2, i(103327)),	-- Grievous Gladiator's Felweave Amice
-							moh(3, i(103324)),	-- Grievous Gladiator's Felweave Cowl
-							moh(2, i(103323)),	-- Grievous Gladiator's Felweave Handguards
-							moh(3, i(103326)),	-- Grievous Gladiator's Felweave Raiment
-							moh(3, i(103325)),	-- Grievous Gladiator's Felweave Trousers
-						}),
-						cl(WARRIOR, {
-							moh(3, i(103328)),	-- Grievous Gladiator's Plate Chestpiece
-							moh(2, i(103329)),	-- Grievous Gladiator's Plate Gauntlets
-							moh(3, i(103330)),	-- Grievous Gladiator's Plate Helm
-							moh(3, i(103331)),	-- Grievous Gladiator's Plate Legguards
-							moh(2, i(103332)),	-- Grievous Gladiator's Plate Shoulders
-						}),
-						n(BACK, {
-							moh(1, i(103146)),	-- Grievous Gladiator's Cape of Cruelty
-							moh(1, i(103147)),	-- Grievous Gladiator's Cape of Prowess
-							moh(1, i(103315)),	-- Grievous Gladiator's Cloak of Alacrity
-							moh(1, i(103316)),	-- Grievous Gladiator's Cloak of Prowess
-							moh(1, i(103163)),	-- Grievous Gladiator's Drape of Cruelty
-							moh(1, i(103165)),	-- Grievous Gladiator's Drape of Meditation
-							moh(1, i(103164)),	-- Grievous Gladiator's Drape of Prowess
-						}),
-						n(WRIST, {
-							moh(1, i(103287)),	-- Grievous Gladiator's Armbands of Meditation
-							moh(1, i(103286)),	-- Grievous Gladiator's Armbands of Prowess
-							moh(1, i(103263)),	-- Grievous Gladiator's Armplates of Alacrity
-							moh(1, i(103262)),	-- Grievous Gladiator's Armplates of Proficiency
-							moh(1, i(103231)),	-- Grievous Gladiator's Armwraps of Accuracy
-							moh(1, i(103277)),	-- Grievous Gladiator's Armwraps of Alacrity
-							moh(1, i(103191)),	-- Grievous Gladiator's Bindings of Meditation
-							moh(1, i(103200)),	-- Grievous Gladiator's Bindings of Prowess
-							moh(1, i(103252)),	-- Grievous Gladiator's Bracers of Meditation
-							moh(1, i(103251)),	-- Grievous Gladiator's Bracers of Prowess
-							moh(1, i(103160)),	-- Grievous Gladiator's Cuffs of Accuracy
-							moh(1, i(103162)),	-- Grievous Gladiator's Cuffs of Meditation
-							moh(1, i(103161)),	-- Grievous Gladiator's Cuffs of Prowess
-							moh(1, i(100316)),	-- Grievous Gladiator's Wristguards of Accuracy
-							moh(1, i(103218)),	-- Grievous Gladiator's Wristguards of Alacrity
-						}),
-						n(WAIST, {
-							moh(1, i(103198)),	-- Grievous Gladiator's Belt of Cruelty
-							moh(1, i(103189)),	-- Grievous Gladiator's Belt of Meditation
-							moh(1, i(103247)),	-- Grievous Gladiator's Clasp of Cruelty
-							moh(1, i(103248)),	-- Grievous Gladiator's Clasp of Meditation
-							moh(1, i(103155)),	-- Grievous Gladiator's Cord of Accuracy
-							moh(1, i(103154)),	-- Grievous Gladiator's Cord of Cruelty
-							moh(1, i(103156)),	-- Grievous Gladiator's Cord of Meditation
-							moh(1, i(103258)),	-- Grievous Gladiator's Girdle of Accuracy
-							moh(1, i(103259)),	-- Grievous Gladiator's Girdle of Prowess
-							moh(1, i(103214)),	-- Grievous Gladiator's Links of Accuracy
-							moh(1, i(103213)),	-- Grievous Gladiator's Links of Cruelty
-							moh(1, i(103275)),	-- Grievous Gladiator's Waistband of Accuracy
-							moh(1, i(103229)),	-- Grievous Gladiator's Waistband of Cruelty
-							moh(1, i(103298)),	-- Grievous Gladiator's Waistguard of Cruelty
-							moh(1, i(103283)),	-- Grievous Gladiator's Waistguard of Meditation
-						}),
-						n(FEET, {
-							moh(2, i(103230)),	-- Grievous Gladiator's Boots of Alacrity
-							moh(2, i(103276)),	-- Grievous Gladiator's Boots of Cruelty
-							moh(2, i(103199)),	-- Grievous Gladiator's Footguards of Alacrity (Leahter)
-							moh(2, i(103284)),	-- Grievous Gladiator's Footguards of Alacrity (Mail)
-							moh(2, i(103190)),	-- Grievous Gladiator's Footguards of Meditation (Leather)
-							moh(2, i(103285)),	-- Grievous Gladiator's Footguards of Meditation (Mail)
-							moh(2, i(103249)),	-- Grievous Gladiator's Greaves of Alacrity
-							moh(2, i(103250)),	-- Grievous Gladiator's Greaves of Meditation
-							moh(2, i(103216)),	-- Grievous Gladiator's Sabatons of Alacrity
-							moh(2, i(103215)),	-- Grievous Gladiator's Sabatons of Cruelty
-							moh(2, i(103158)),	-- Grievous Gladiator's Treads of Alacrity
-							moh(2, i(103157)),	-- Grievous Gladiator's Treads of Cruelty
-							moh(2, i(103159)),	-- Grievous Gladiator's Treads of Meditation
-							moh(2, i(103261)),	-- Grievous Gladiator's Warboots of Alacrity
-							moh(2, i(103260)),	-- Grievous Gladiator's Warboots of Cruelty
-						}),
-						filter(NECK_F, {
-							i(103318),	-- Grievous Gladiator's Choker of Accuracy
-							i(103317),	-- Grievous Gladiator's Choker of Proficiency
-							i(103148),	-- Grievous Gladiator's Necklace of Proficiency
-							i(103149),	-- Grievous Gladiator's Necklace of Prowess
-							i(103171),	-- Grievous Gladiator's Pendant of Alacrity
-							i(103170),	-- Grievous Gladiator's Pendant of Cruelty
-							i(103172),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							i(103174),	-- Grievous Gladiator's Band of Accuracy
-							i(103173),	-- Grievous Gladiator's Band of Cruelty
-							i(103175),	-- Grievous Gladiator's Band of Meditation
-							i(103152),	-- Grievous Gladiator's Ring of Accuracy
-							i(103151),	-- Grievous Gladiator's Ring of Cruelty
-							i(103321),	-- Grievous Gladiator's Signet of Accuracy
-							i(103320),	-- Grievous Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
-							i(103145),	-- Grievous Gladiator's Badge of Conquest
-							i(103308),	-- Grievous Gladiator's Badge of Dominance
-							i(103314),	-- Grievous Gladiator's Badge of Victory
-							i(103210),	-- Grievous Gladiator's Emblem of Cruelty
-							i(103212),	-- Grievous Gladiator's Emblem of Meditation
-							i(103211),	-- Grievous Gladiator's Emblem of Tenacity
-							i(103150),	-- Grievous Gladiator's Insignia of Conquest
-							i(103309),	-- Grievous Gladiator's Insignia of Dominance
-							i(103319),	-- Grievous Gladiator's Insignia of Victory
-							i(103334),	-- Grievous Gladiator's Medallion of Cruelty (A)
-							i(103335),	-- Grievous Gladiator's Medallion of Meditation (A)
-							i(103333),	-- Grievous Gladiator's Medallion of Tenacity (A)
-						}),
-					}),
 				},
 			}),
 			n(FACTION_HEADER_HORDE, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
+					n(PVP_HONOR, {
+						n(WEAPONS, {
+							moh(2, i(100171)),	-- Tyrannical Gladiator's Barrier
+							moh(5, i(99974)),	-- Tyrannical Gladiator's Battle Staff
+							moh(5, i(99983)),	-- Tyrannical Gladiator's Bonecracker
+							moh(5, i(99973)),	-- Tyrannical Gladiator's Cleaver
+							moh(5, i(99984)),	-- Tyrannical Gladiator's Decapitator
+							moh(2, i(100172)),	-- Tyrannical Gladiator's Endgame
+							moh(5, i(99981)),	-- Tyrannical Gladiator's Energy Staff
+							moh(5, i(99963)),	-- Tyrannical Gladiator's Gavel
+							moh(5, i(99972)),	-- Tyrannical Gladiator's Greatsword
+							moh(5, i(99978)),	-- Tyrannical Gladiator's Hacker
+							moh(5, i(99987)),	-- Tyrannical Gladiator's Heavy Crossbow
+							moh(5, i(99971)),	-- Tyrannical Gladiator's Mageblade
+							moh(5, i(99965)),	-- Tyrannical Gladiator's Pummeler
+							moh(5, i(99986)),	-- Tyrannical Gladiator's Quickblade
+							moh(2, i(100168)),	-- Tyrannical Gladiator's Redoubt
+							moh(5, i(99982)),	-- Tyrannical Gladiator's Render
+							moh(2, i(100169)),	-- Tyrannical Gladiator's Reprieve
+							moh(5, i(99977)),	-- Tyrannical Gladiator's Ripper
+							moh(5, i(99976)),	-- Tyrannical Gladiator's Shanker
+							moh(2, i(100170)),	-- Tyrannical Gladiator's Shield Wall
+							moh(5, i(99979)),	-- Tyrannical Gladiator's Slicer
+							moh(5, i(99967)),	-- Tyrannical Gladiator's Spellblade
+							moh(5, i(99968)),	-- Tyrannical Gladiator's Staff
+						}),
+						cl(DEATHKNIGHT, {
+							moh(3, i(100062)),	-- Tyrannical Gladiator's Dreadplate Chestpiece
+							moh(2, i(100034)),	-- Tyrannical Gladiator's Dreadplate Gauntlets
+							moh(3, i(100099)),	-- Tyrannical Gladiator's Dreadplate Helm
+							moh(3, i(100035)),	-- Tyrannical Gladiator's Dreadplate Legguards
+							moh(2, i(100036)),	-- Tyrannical Gladiator's Dreadplate Shoulders
+						}),
+						cl(DRUID, {
+							moh(2, i(100125)),	-- Tyrannical Gladiator's Dragonhide Gloves
+							moh(3, i(100037)),	-- Tyrannical Gladiator's Dragonhide Helm
+							moh(3, i(100038)),	-- Tyrannical Gladiator's Dragonhide Legguards
+							moh(3, i(100126)),	-- Tyrannical Gladiator's Dragonhide Robes
+							moh(2, i(100127)),	-- Tyrannical Gladiator's Dragonhide Spaulders
+							moh(2, i(100041)),	-- Tyrannical Gladiator's Kodohide Gloves
+							moh(3, i(100162)),	-- Tyrannical Gladiator's Kodohide Helm
+							moh(3, i(100147)),	-- Tyrannical Gladiator's Kodohide Legguards
+							moh(3, i(100107)),	-- Tyrannical Gladiator's Kodohide Robes
+							moh(2, i(100042)),	-- Tyrannical Gladiator's Kodohide Spaulders
+							moh(2, i(100082)),	-- Tyrannical Gladiator's Wyrmhide Gloves
+							moh(3, i(100017)),	-- Tyrannical Gladiator's Wyrmhide Helm
+							moh(3, i(100153)),	-- Tyrannical Gladiator's Wyrmhide Legguards
+							moh(3, i(99988)),	-- Tyrannical Gladiator's Wyrmhide Robes
+							moh(2, i(100086)),	-- Tyrannical Gladiator's Wyrmhide Spaulders
+						}),
+						cl(HUNTER, {
+							moh(3, i(100075)),	-- Tyrannical Gladiator's Chain Armor
+							moh(2, i(100123)),	-- Tyrannical Gladiator's Chain Gauntlets
+							moh(3, i(100076)),	-- Tyrannical Gladiator's Chain Helm
+							moh(3, i(100054)),	-- Tyrannical Gladiator's Chain Leggings
+							moh(2, i(100120)),	-- Tyrannical Gladiator's Chain Spaulders
+						}),
+						cl(MAGE, {
+							moh(2, i(100059)),	-- Tyrannical Gladiator's Silk Amice
+							moh(3, i(100051)),	-- Tyrannical Gladiator's Silk Cowl
+							moh(2, i(100121)),	-- Tyrannical Gladiator's Silk Handguards
+							moh(3, i(100101)),	-- Tyrannical Gladiator's Silk Robe
+							moh(3, i(100032)),	-- Tyrannical Gladiator's Silk Trousers
+						}),
+						cl(MONK, {
+							moh(2, i(100010)),	-- Tyrannical Gladiator's Copperskin Gloves
+							moh(3, i(100011)),	-- Tyrannical Gladiator's Copperskin Helm
+							moh(3, i(100148)),	-- Tyrannical Gladiator's Copperskin Legguards
+							moh(2, i(100163)),	-- Tyrannical Gladiator's Copperskin Spaulders
+							moh(3, i(100149)),	-- Tyrannical Gladiator's Copperskin Tunic
+							moh(2, i(100061)),	-- Tyrannical Gladiator's Ironskin Gloves
+							moh(3, i(100098)),	-- Tyrannical Gladiator's Ironskin Helm
+							moh(3, i(100040)),	-- Tyrannical Gladiator's Ironskin Legguards
+							moh(2, i(100009)),	-- Tyrannical Gladiator's Ironskin Spaulders
+							moh(3, i(100106)),	-- Tyrannical Gladiator's Ironskin Tunic
+						}),
+						cl(PALADIN, {
+							moh(3, i(100015)),	-- Tyrannical Gladiator's Ornamented Chestguard
+							moh(2, i(100108)),	-- Tyrannical Gladiator's Ornamented Gloves
+							moh(3, i(100018)),	-- Tyrannical Gladiator's Ornamented Headcover
+							moh(3, i(100154)),	-- Tyrannical Gladiator's Ornamented Legplates
+							moh(2, i(100083)),	-- Tyrannical Gladiator's Ornamented Spaulders
+							moh(3, i(100133)),	-- Tyrannical Gladiator's Scaled Chestpiece
+							moh(2, i(100013)),	-- Tyrannical Gladiator's Scaled Gauntlets
+							moh(3, i(100165)),	-- Tyrannical Gladiator's Scaled Helm
+							moh(3, i(100166)),	-- Tyrannical Gladiator's Scaled Legguards
+							moh(2, i(100130)),	-- Tyrannical Gladiator's Scaled Shoulders
+						}),
+						cl(PRIEST, {
+							moh(2, i(99989)),	-- Tyrannical Gladiator's Mooncloth Gloves
+							moh(3, i(100089)),	-- Tyrannical Gladiator's Mooncloth Helm
+							moh(3, i(100090)),	-- Tyrannical Gladiator's Mooncloth Leggings
+							moh(2, i(100136)),	-- Tyrannical Gladiator's Mooncloth Mantle
+							moh(3, i(100067)),	-- Tyrannical Gladiator's Mooncloth Robe
+							moh(2, i(100093)),	-- Tyrannical Gladiator's Satin Gloves
+							moh(3, i(100137)),	-- Tyrannical Gladiator's Satin Hood
+							moh(3, i(99996)),	-- Tyrannical Gladiator's Satin Leggings
+							moh(2, i(100055)),	-- Tyrannical Gladiator's Satin Mantle
+							moh(3, i(99998)),	-- Tyrannical Gladiator's Satin Robe
+						}),
+						cl(ROGUE, {
+							moh(2, i(100047)),	-- Tyrannical Gladiator's Leather Gloves
+							moh(3, i(100096)),	-- Tyrannical Gladiator's Leather Helm
+							moh(3, i(100116)),	-- Tyrannical Gladiator's Leather Legguards
+							moh(2, i(100117)),	-- Tyrannical Gladiator's Leather Spaulders
+							moh(3, i(100113)),	-- Tyrannical Gladiator's Leather Tunic
+						}),
+						cl(SHAMAN, {
+							moh(3, i(100145)),	-- Tyrannical Gladiator's Linked Armor
+							moh(2, i(100128)),	-- Tyrannical Gladiator's Linked Gauntlets
+							moh(3, i(100100)),	-- Tyrannical Gladiator's Linked Helm
+							moh(3, i(100164)),	-- Tyrannical Gladiator's Linked Leggings
+							moh(2, i(100012)),	-- Tyrannical Gladiator's Linked Spaulders
+							moh(3, i(100129)),	-- Tyrannical Gladiator's Mail Armor
+							moh(2, i(100078)),	-- Tyrannical Gladiator's Mail Gauntlets
+							moh(3, i(100079)),	-- Tyrannical Gladiator's Mail Helm
+							moh(3, i(100167)),	-- Tyrannical Gladiator's Mail Leggings
+							moh(2, i(100020)),	-- Tyrannical Gladiator's Mail Spaulders
+							moh(3, i(100103)),	-- Tyrannical Gladiator's Ringmail Armor
+							moh(2, i(100160)),	-- Tyrannical Gladiator's Ringmail Gauntlets
+							moh(3, i(100104)),	-- Tyrannical Gladiator's Ringmail Helm
+							moh(3, i(100105)),	-- Tyrannical Gladiator's Ringmail Leggings
+							moh(2, i(100039)),	-- Tyrannical Gladiator's Ringmail Spaulders
+						}),
+						cl(WARLOCK, {
+							moh(2, i(100068)),	-- Tyrannical Gladiator's Felweave Amice
+							moh(3, i(100112)),	-- Tyrannical Gladiator's Felweave Cowl
+							moh(2, i(100111)),	-- Tyrannical Gladiator's Felweave Handguards
+							moh(3, i(100045)),	-- Tyrannical Gladiator's Felweave Raiment
+							moh(3, i(100141)),	-- Tyrannical Gladiator's Felweave Trousers
+						}),
+						cl(WARRIOR, {
+							moh(3, i(100114)),	-- Tyrannical Gladiator's Plate Chestpiece
+							moh(2, i(99992)),	-- Tyrannical Gladiator's Plate Gauntlets
+							moh(3, i(99993)),	-- Tyrannical Gladiator's Plate Helm
+							moh(3, i(100118)),	-- Tyrannical Gladiator's Plate Legguards
+							moh(2, i(100071)),	-- Tyrannical Gladiator's Plate Shoulders
+						}),
+						n(BACK, {
+							moh(1, i(100091)),	-- Tyrannical Gladiator's Cape of Cruelty
+							moh(1, i(100025)),	-- Tyrannical Gladiator's Cape of Prowess
+							moh(1, i(100155)),	-- Tyrannical Gladiator's Cloak of Alacrity
+							moh(1, i(100156)),	-- Tyrannical Gladiator's Cloak of Prowess
+							moh(1, i(100053)),	-- Tyrannical Gladiator's Drape of Cruelty
+							moh(1, i(100142)),	-- Tyrannical Gladiator's Drape of Meditation
+							moh(1, i(100158)),	-- Tyrannical Gladiator's Drape of Prowess
+						}),
+						n(WRIST, {
+							moh(1, i(100004)),	-- Tyrannical Gladiator's Armbands of Meditation
+							moh(1, i(100049)),	-- Tyrannical Gladiator's Armbands of Prowess
+							moh(1, i(100157)),	-- Tyrannical Gladiator's Armplates of Alacrity
+							moh(1, i(100088)),	-- Tyrannical Gladiator's Armplates of Proficiency
+							moh(1, i(100097)),	-- Tyrannical Gladiator's Armwraps of Accuracy
+							moh(1, i(100140)),	-- Tyrannical Gladiator's Armwraps of Alacrity
+							moh(1, i(100077)),	-- Tyrannical Gladiator's Bindings of Meditation
+							moh(1, i(100109)),	-- Tyrannical Gladiator's Bindings of Prowess
+							moh(1, i(100151)),	-- Tyrannical Gladiator's Bracers of Meditation
+							moh(1, i(100081)),	-- Tyrannical Gladiator's Bracers of Prowess
+							moh(1, i(100073)),	-- Tyrannical Gladiator's Cuffs of Accuracy
+							moh(1, i(100050)),	-- Tyrannical Gladiator's Cuffs of Meditation
+							moh(1, i(100119)),	-- Tyrannical Gladiator's Cuffs of Prowess
+							moh(1, i(100139)),	-- Tyrannical Gladiator's Wristguards of Accuracy
+							moh(1, i(100074)),	-- Tyrannical Gladiator's Wristguards of Alacrity
+						}),
+						n(WAIST, {
+							moh(1, i(100080)),	-- Tyrannical Gladiator's Belt of Cruelty
+							moh(1, i(100161)),	-- Tyrannical Gladiator's Belt of Meditation
+							moh(1, i(100150)),	-- Tyrannical Gladiator's Clasp of Cruelty
+							moh(1, i(100134)),	-- Tyrannical Gladiator's Clasp of Meditation
+							moh(1, i(100046)),	-- Tyrannical Gladiator's Cord of Accuracy
+							moh(1, i(100070)),	-- Tyrannical Gladiator's Cord of Cruelty
+							moh(1, i(100095)),	-- Tyrannical Gladiator's Cord of Meditation
+							moh(1, i(100023)),	-- Tyrannical Gladiator's Girdle of Accuracy
+							moh(1, i(100110)),	-- Tyrannical Gladiator's Girdle of Prowess
+							moh(1, i(100028)),	-- Tyrannical Gladiator's Links of Accuracy
+							moh(1, i(99991)),	-- Tyrannical Gladiator's Links of Cruelty
+							moh(1, i(100094)),	-- Tyrannical Gladiator's Waistband of Accuracy
+							moh(1, i(100030)),	-- Tyrannical Gladiator's Waistband of Cruelty
+							moh(1, i(100063)),	-- Tyrannical Gladiator's Waistguard of Cruelty
+							moh(1, i(100052)),	-- Tyrannical Gladiator's Waistguard of Meditation
+						}),
+						n(FEET, {
+							moh(2, i(100102)),	-- Tyrannical Gladiator's Boots of Alacrity
+							moh(2, i(100044)),	-- Tyrannical Gladiator's Boots of Cruelty
+							moh(2, i(100014)),	-- Tyrannical Gladiator's Footguards of Alacrity (Leahter)
+							moh(2, i(100048)),	-- Tyrannical Gladiator's Footguards of Alacrity (Mail)
+							moh(2, i(100146)),	-- Tyrannical Gladiator's Footguards of Meditation (Leather)
+							moh(2, i(100001)),	-- Tyrannical Gladiator's Footguards of Meditation (Mail)
+							moh(2, i(100021)),	-- Tyrannical Gladiator's Greaves of Alacrity
+							moh(2, i(100022)),	-- Tyrannical Gladiator's Greaves of Meditation
+							moh(2, i(100029)),	-- Tyrannical Gladiator's Sabatons of Alacrity
+							moh(2, i(100115)),	-- Tyrannical Gladiator's Sabatons of Cruelty
+							moh(2, i(99994)),	-- Tyrannical Gladiator's Treads of Alacrity
+							moh(2, i(100072)),	-- Tyrannical Gladiator's Treads of Cruelty
+							moh(2, i(100138)),	-- Tyrannical Gladiator's Treads of Meditation
+							moh(2, i(100131)),	-- Tyrannical Gladiator's Warboots of Alacrity
+							moh(2, i(100084)),	-- Tyrannical Gladiator's Warboots of Cruelty
+						}),
+						filter(NECK_F, {
+							i(100024),	-- Tyrannical Gladiator's Choker of Accuracy
+							i(100135),	-- Tyrannical Gladiator's Choker of Proficiency
+							i(100064),	-- Tyrannical Gladiator's Necklace of Proficiency
+							i(100065),	-- Tyrannical Gladiator's Necklace of Prowess
+							i(100143),	-- Tyrannical Gladiator's Pendant of Alacrity
+							i(100159),	-- Tyrannical Gladiator's Pendant of Cruelty
+							i(100122),	-- Tyrannical Gladiator's Pendant of Meditation
+						}),
+						filter(FINGER_F, {
+							i(100033),	-- Tyrannical Gladiator's Band of Accuracy
+							i(100060),	-- Tyrannical Gladiator's Band of Cruelty
+							i(100144),	-- Tyrannical Gladiator's Band of Meditation
+							i(100069),	-- Tyrannical Gladiator's Ring of Accuracy
+							i(100027),	-- Tyrannical Gladiator's Ring of Cruelty
+							i(100132),	-- Tyrannical Gladiator's Signet of Accuracy
+							i(100087),	-- Tyrannical Gladiator's Signet of Cruelty
+						}),
+						filter(TRINKET_F, {
+							i(100043),	-- Tyrannical Gladiator's Badge of Conquest
+							i(100016),	-- Tyrannical Gladiator's Badge of Dominance
+							i(100019),	-- Tyrannical Gladiator's Badge of Victory
+							i(100066),	-- Tyrannical Gladiator's Emblem of Cruelty
+							i(99990),	-- Tyrannical Gladiator's Emblem of Meditation
+							i(100092),	-- Tyrannical Gladiator's Emblem of Tenacity
+							i(100026),	-- Tyrannical Gladiator's Insignia of Conquest
+							i(100152),	-- Tyrannical Gladiator's Insignia of Dominance
+							i(100085),	-- Tyrannical Gladiator's Insignia of Victory
+							i(100124),	-- Tyrannical Gladiator's Medallion of Cruelty (H)
+							i(100006),	-- Tyrannical Gladiator's Medallion of Meditation (H)
+							i(100057),	-- Tyrannical Gladiator's Medallion of Tenacity (H)
+						}),
+					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
 							moh(80, iensemble(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
-							-- S15 Tag
-							moh(2, i(102982)),	-- Grievous Gladiator's Barrier
-							moh(5, i(102793)),	-- Grievous Gladiator's Baton of Light
-							moh(5, i(102798)),	-- Grievous Gladiator's Battle Staff
-							moh(5, i(102806)),	-- Grievous Gladiator's Bonecracker
-							moh(5, i(102797)),	-- Grievous Gladiator's Cleaver
-							moh(5, i(102807)),	-- Grievous Gladiator's Decapitator
-							moh(2, i(102983)),	-- Grievous Gladiator's Endgame
-							moh(5, i(102804)),	-- Grievous Gladiator's Energy Staff
-							moh(5, i(102787)),	-- Grievous Gladiator's Gavel
-							moh(5, i(102796)),	-- Grievous Gladiator's Greatsword
-							moh(5, i(102801)),	-- Grievous Gladiator's Hacker
-							moh(5, i(102788)),	-- Grievous Gladiator's Longbow
-							moh(5, i(102795)),	-- Grievous Gladiator's Mageblade
-							moh(5, i(102803)),	-- Grievous Gladiator's Pike
-							moh(5, i(102789)),	-- Grievous Gladiator's Pummeler
-							moh(5, i(102809)),	-- Grievous Gladiator's Quickblade
-							moh(2, i(102979)),	-- Grievous Gladiator's Redoubt
-							moh(5, i(102805)),	-- Grievous Gladiator's Render
-							moh(2, i(102980)),	-- Grievous Gladiator's Reprieve
-							moh(2, i(102794)),	-- Grievous Gladiator's Rifle
-							moh(5, i(102800)),	-- Grievous Gladiator's Ripper
-							moh(5, i(102799)),	-- Grievous Gladiator's Shanker
-							moh(2, i(102981)),	-- Grievous Gladiator's Shield Wall
-							moh(5, i(102802)),	-- Grievous Gladiator's Slicer
-							moh(5, i(102791)),	-- Grievous Gladiator's Spellblade
-							moh(5, i(102790)),	-- Grievous Gladiator's Touch of Defeat
 							i(100731),	-- Grievous Gladiator's Barrier
 							i(100538),	-- Grievous Gladiator's Baton of Light
 							i(100543),	-- Grievous Gladiator's Battle Staff
@@ -3266,12 +2640,6 @@ root(ROOTS.PVP, {
 							i(100659),	-- Grievous Gladiator's Dreadplate Helm
 							i(100595),	-- Grievous Gladiator's Dreadplate Legguards
 							i(100596),	-- Grievous Gladiator's Dreadplate Shoulders
-							-- S15 Tag
-							moh(3, i(102873)),	-- Grievous Gladiator's Dreadplate Chestpiece
-							moh(2, i(102847)),	-- Grievous Gladiator's Dreadplate Gauntlets
-							moh(3, i(102910)),	-- Grievous Gladiator's Dreadplate Helm
-							moh(3, i(102848)),	-- Grievous Gladiator's Dreadplate Legguards
-							moh(2, i(102849)),	-- Grievous Gladiator's Dreadplate Shoulders
 						}),
 						cl(DRUID, {
 							moh(12, iensemble(138670, {	-- Ensemble: Grievous Gladiator's Dragonhide Armor
@@ -3292,22 +2660,6 @@ root(ROOTS.PVP, {
 							i(100713),	-- Grievous Gladiator's Wyrmhide Legguards
 							i(100557),	-- Grievous Gladiator's Wyrmhide Robes
 							i(100646),	-- Grievous Gladiator's Wyrmhide Spaulders
-							-- S15 Tag
-							moh(2, i(102936)),	-- Grievous Gladiator's Dragonhide Gloves
-							moh(3, i(102850)),	-- Grievous Gladiator's Dragonhide Helm
-							moh(3, i(102851)),	-- Grievous Gladiator's Dragonhide Legguards
-							moh(3, i(102937)),	-- Grievous Gladiator's Dragonhide Robes
-							moh(2, i(102938)),	-- Grievous Gladiator's Dragonhide Spaulders
-							moh(2, i(102854)),	-- Grievous Gladiator's Kodohide Gloves
-							moh(3, i(102973)),	-- Grievous Gladiator's Kodohide Helm
-							moh(3, i(102958)),	-- Grievous Gladiator's Kodohide Legguards
-							moh(3, i(102918)),	-- Grievous Gladiator's Kodohide Robes
-							moh(2, i(102855)),	-- Grievous Gladiator's Kodohide Spaulders
-							moh(2, i(102893)),	-- Grievous Gladiator's Wyrmhide Gloves
-							moh(3, i(102831)),	-- Grievous Gladiator's Wyrmhide Helm
-							moh(3, i(102964)),	-- Grievous Gladiator's Wyrmhide Legguards
-							moh(3, i(102811)),	-- Grievous Gladiator's Wyrmhide Robes
-							moh(2, i(102897)),	-- Grievous Gladiator's Wyrmhide Spaulders
 						}),
 						cl(HUNTER, {
 							moh(12, iensemble(138668, {	-- Ensemble: Grievous Gladiator's Chain Armor
@@ -3318,12 +2670,6 @@ root(ROOTS.PVP, {
 							i(100636),	-- Grievous Gladiator's Chain Helm
 							i(100614),	-- Grievous Gladiator's Chain Leggings
 							i(100680),	-- Grievous Gladiator's Chain Spaulders
-							-- S15 Tag
-							moh(3, i(102886)),	-- Grievous Gladiator's Chain Armor
-							moh(2, i(102934)),	-- Grievous Gladiator's Chain Gauntlets
-							moh(3, i(102887)),	-- Grievous Gladiator's Chain Helm
-							moh(3, i(102867)),	-- Grievous Gladiator's Chain Leggings
-							moh(2, i(102931)),	-- Grievous Gladiator's Chain Spaulders
 						}),
 						cl(MAGE, {
 							moh(12, iensemble(138676, {	-- Ensemble: Grievous Gladiator's Silk Armor
@@ -3334,12 +2680,6 @@ root(ROOTS.PVP, {
 							i(100681),	-- Grievous Gladiator's Silk Handguards
 							i(100661),	-- Grievous Gladiator's Silk Robe
 							i(100592),	-- Grievous Gladiator's Silk Trousers
-							-- S15 Tag
-							moh(2, i(102870)),	-- Grievous Gladiator's Silk Amice
-							moh(3, i(102864)),	-- Grievous Gladiator's Silk Cowl
-							moh(2, i(102932)),	-- Grievous Gladiator's Silk Handguards
-							moh(3, i(102912)),	-- Grievous Gladiator's Silk Robe
-							moh(3, i(102845)),	-- Grievous Gladiator's Silk Trousers
 						}),
 						cl(MONK, {
 							moh(12, iensemble(138672, {	-- Ensemble: Grievous Gladiator's Ironskin Armor
@@ -3355,17 +2695,6 @@ root(ROOTS.PVP, {
 							i(100600),	-- Grievous Gladiator's Ironskin Legguards
 							i(100569),	-- Grievous Gladiator's Ironskin Spaulders
 							i(100666),	-- Grievous Gladiator's Ironskin Tunic
-							-- S15 Tag
-							moh(2, i(102824)),	-- Grievous Gladiator's Copperskin Gloves
-							moh(3, i(102825)),	-- Grievous Gladiator's Copperskin Helm
-							moh(3, i(102959)),	-- Grievous Gladiator's Copperskin Legguards
-							moh(2, i(102974)),	-- Grievous Gladiator's Copperskin Spaulders
-							moh(3, i(102960)),	-- Grievous Gladiator's Copperskin Tunic
-							moh(2, i(102872)),	-- Grievous Gladiator's Ironskin Gloves
-							moh(3, i(102909)),	-- Grievous Gladiator's Ironskin Helm
-							moh(3, i(102853)),	-- Grievous Gladiator's Ironskin Legguards
-							moh(2, i(102823)),	-- Grievous Gladiator's Ironskin Spaulders
-							moh(3, i(102917)),	-- Grievous Gladiator's Ironskin Tunic
 						}),
 						cl(PALADIN, {
 							moh(12, iensemble(138664, {	-- Ensemble: Grievous Gladiator's Scaled Armor
@@ -3381,17 +2710,6 @@ root(ROOTS.PVP, {
 							i(100725),	-- Grievous Gladiator's Scaled Helm
 							i(100726),	-- Grievous Gladiator's Scaled Legguards
 							i(100690),	-- Grievous Gladiator's Scaled Shoulders
-							-- S15 Tag
-							moh(3, i(102829)),	-- Grievous Gladiator's Ornamented Chestguard
-							moh(2, i(102919)),	-- Grievous Gladiator's Ornamented Gloves
-							moh(3, i(102832)),	-- Grievous Gladiator's Ornamented Headcover
-							moh(3, i(102965)),	-- Grievous Gladiator's Ornamented Legplates
-							moh(2, i(102894)),	-- Grievous Gladiator's Ornamented Spaulders
-							moh(3, i(102944)),	-- Grievous Gladiator's Scaled Chestpiece
-							moh(2, i(102827)),	-- Grievous Gladiator's Scaled Gauntlets
-							moh(3, i(102976)),	-- Grievous Gladiator's Scaled Helm
-							moh(3, i(102977)),	-- Grievous Gladiator's Scaled Legguards
-							moh(2, i(102941)),	-- Grievous Gladiator's Scaled Shoulders
 						}),
 						cl(PRIEST, {
 							moh(12, iensemble(138678, {	-- Ensemble: Grievous Gladiator's Satin Armor
@@ -3407,17 +2725,6 @@ root(ROOTS.PVP, {
 							i(100564),	-- Grievous Gladiator's Satin Leggings
 							i(100615),	-- Grievous Gladiator's Satin Mantle
 							i(100565),	-- Grievous Gladiator's Satin Robe
-							-- S15 Tag
-							moh(2, i(102812)),	-- Grievous Gladiator's Mooncloth Gloves
-							moh(3, i(102900)),	-- Grievous Gladiator's Mooncloth Helm
-							moh(3, i(102901)),	-- Grievous Gladiator's Mooncloth Leggings
-							moh(2, i(102947)),	-- Grievous Gladiator's Mooncloth Mantle
-							moh(3, i(102878)),	-- Grievous Gladiator's Mooncloth Robe
-							moh(2, i(102904)),	-- Grievous Gladiator's Satin Gloves
-							moh(3, i(102948)),	-- Grievous Gladiator's Satin Hood
-							moh(3, i(102818)),	-- Grievous Gladiator's Satin Leggings
-							moh(2, i(102868)),	-- Grievous Gladiator's Satin Mantle
-							moh(3, i(102819)),	-- Grievous Gladiator's Satin Robe
 						}),
 						cl(ROGUE, {
 							moh(12, iensemble(138674, {	-- Ensemble: Grievous Gladiator's Leather Armor
@@ -3428,12 +2735,6 @@ root(ROOTS.PVP, {
 							i(100676),	-- Grievous Gladiator's Leather Legguards
 							i(100677),	-- Grievous Gladiator's Leather Spaulders
 							i(100673),	-- Grievous Gladiator's Leather Tunic
-							-- S15 Tag
-							moh(2, i(102860)),	-- Grievous Gladiator's Leather Gloves
-							moh(3, i(102907)),	-- Grievous Gladiator's Leather Helm
-							moh(3, i(102927)),	-- Grievous Gladiator's Leather Legguards
-							moh(2, i(102928)),	-- Grievous Gladiator's Leather Spaulders
-							moh(3, i(102924)),	-- Grievous Gladiator's Leather Tunic
 						}),
 						cl(SHAMAN, {
 							moh(12, iensemble(138666, {	-- Ensemble: Grievous Gladiator's Ringmail Armor
@@ -3454,22 +2755,6 @@ root(ROOTS.PVP, {
 							i(100664),	-- Grievous Gladiator's Ringmail Helm
 							i(100665),	-- Grievous Gladiator's Ringmail Leggings
 							i(100599),	-- Grievous Gladiator's Ringmail Spaulders
-							-- S15 Tag
-							moh(3, i(102956)),	-- Grievous Gladiator's Linked Armor
-							moh(2, i(102939)),	-- Grievous Gladiator's Linked Gauntlets
-							moh(3, i(102911)),	-- Grievous Gladiator's Linked Helm
-							moh(3, i(102975)),	-- Grievous Gladiator's Linked Leggings
-							moh(2, i(102826)),	-- Grievous Gladiator's Linked Spaulders
-							moh(3, i(102940)),	-- Grievous Gladiator's Mail Armor
-							moh(2, i(102889)),	-- Grievous Gladiator's Mail Gauntlets
-							moh(3, i(102890)),	-- Grievous Gladiator's Mail Helm
-							moh(3, i(102978)),	-- Grievous Gladiator's Mail Leggings
-							moh(2, i(102834)),	-- Grievous Gladiator's Mail Spaulders
-							moh(3, i(102914)),	-- Grievous Gladiator's Ringmail Armor
-							moh(2, i(102971)),	-- Grievous Gladiator's Ringmail Gauntlets
-							moh(3, i(102915)),	-- Grievous Gladiator's Ringmail Helm
-							moh(3, i(102916)),	-- Grievous Gladiator's Ringmail Leggings
-							moh(2, i(102852)),	-- Grievous Gladiator's Ringmail Spaulders
 						}),
 						cl(WARLOCK, {
 							moh(12, iensemble(143826, {	-- Ensemble: Grievous Gladiator's Felweave Armor
@@ -3480,12 +2765,6 @@ root(ROOTS.PVP, {
 							i(100671),	-- Grievous Gladiator's Felweave Handguards
 							i(100605),	-- Grievous Gladiator's Felweave Raiment
 							i(100701),	-- Grievous Gladiator's Felweave Trousers
-							-- S15 Tag
-							moh(2, i(102879)),	-- Grievous Gladiator's Felweave Amice
-							moh(3, i(102923)),	-- Grievous Gladiator's Felweave Cowl
-							moh(2, i(102922)),	-- Grievous Gladiator's Felweave Handguards
-							moh(3, i(102858)),	-- Grievous Gladiator's Felweave Raiment
-							moh(3, i(102952)),	-- Grievous Gladiator's Felweave Trousers
 						}),
 						cl(WARRIOR, {
 							moh(12, iensemble(138660, {	-- Ensemble: Grievous Gladiator's Plate Armor
@@ -3496,12 +2775,6 @@ root(ROOTS.PVP, {
 							i(100562),	-- Grievous Gladiator's Plate Helm
 							i(100678),	-- Grievous Gladiator's Plate Legguards
 							i(100631),	-- Grievous Gladiator's Plate Shoulders
-							-- S15 Tag
-							moh(3, i(102925)),	-- Grievous Gladiator's Plate Chestpiece
-							moh(2, i(102815)),	-- Grievous Gladiator's Plate Gauntlets
-							moh(3, i(102816)),	-- Grievous Gladiator's Plate Helm
-							moh(3, i(102929)),	-- Grievous Gladiator's Plate Legguards
-							moh(2, i(102882)),	-- Grievous Gladiator's Plate Shoulders
 						}),
 						n(BACK, {
 							i(100651),	-- Grievous Gladiator's Cape of Cruelty
@@ -3535,13 +2808,19 @@ root(ROOTS.PVP, {
 							i(100710),	-- Grievous Gladiator's Clasp of Cruelty
 							i(100694),	-- Grievous Gladiator's Clasp of Meditation
 							i(100606, {	-- Grievous Gladiator's Cord of Accuracy
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Warlock Ensemble.",
+								-- #endif
 							}),
 							i(100630, {	-- Grievous Gladiator's Cord of Cruelty
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Mage Ensemble.",
+								-- #endif
 							}),
 							i(100655, {	-- Grievous Gladiator's Cord of Meditation
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Priest Ensemble.",
+								-- #endif
 							}),
 							i(100583),	-- Grievous Gladiator's Girdle of Accuracy
 							i(100670),	-- Grievous Gladiator's Girdle of Prowess
@@ -3564,13 +2843,19 @@ root(ROOTS.PVP, {
 							i(100589),	-- Grievous Gladiator's Sabatons of Alacrity
 							i(100675),	-- Grievous Gladiator's Sabatons of Cruelty
 							i(100563, {	-- Grievous Gladiator's Treads of Alacrity
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Warlock Ensemble.",
+								-- #endif
 							}),
 							i(100632, {	-- Grievous Gladiator's Treads of Cruelty
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Mage Ensemble.",
+								-- #endif
 							}),
 							i(100698, {	-- Grievous Gladiator's Treads of Meditation
+								-- #if AFTER 7.1.5
 								["description"] = "This item is only obtainable via the Grievous Gladiator Priest Ensemble.",
+								-- #endif
 							}),
 							i(100691),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100644),	-- Grievous Gladiator's Warboots of Cruelty
@@ -3606,240 +2891,6 @@ root(ROOTS.PVP, {
 							i(100684),	-- Grievous Gladiator's Medallion of Cruelty (H)
 							i(100568),	-- Grievous Gladiator's Medallion of Meditation (H)
 							i(100617),	-- Grievous Gladiator's Medallion of Tenacity (H)
-						}),
-					}),
-					n(HONOR_PRIDEFUL, {
-						n(WEAPONS, {
-							moh(2, i(102982)),	-- Grievous Gladiator's Barrier
-							moh(5, i(102793)),	-- Grievous Gladiator's Baton of Light
-							moh(5, i(102798)),	-- Grievous Gladiator's Battle Staff
-							moh(5, i(102806)),	-- Grievous Gladiator's Bonecracker
-							moh(5, i(102797)),	-- Grievous Gladiator's Cleaver
-							moh(5, i(102807)),	-- Grievous Gladiator's Decapitator
-							moh(2, i(102983)),	-- Grievous Gladiator's Endgame
-							moh(5, i(102804)),	-- Grievous Gladiator's Energy Staff
-							moh(5, i(102787)),	-- Grievous Gladiator's Gavel
-							moh(5, i(102796)),	-- Grievous Gladiator's Greatsword
-							moh(5, i(102801)),	-- Grievous Gladiator's Hacker
-							moh(5, i(102788)),	-- Grievous Gladiator's Longbow
-							moh(5, i(102795)),	-- Grievous Gladiator's Mageblade
-							moh(5, i(102803)),	-- Grievous Gladiator's Pike
-							moh(5, i(102789)),	-- Grievous Gladiator's Pummeler
-							moh(5, i(102809)),	-- Grievous Gladiator's Quickblade
-							moh(2, i(102979)),	-- Grievous Gladiator's Redoubt
-							moh(5, i(102805)),	-- Grievous Gladiator's Render
-							moh(2, i(102980)),	-- Grievous Gladiator's Reprieve
-							moh(2, i(102794)),	-- Grievous Gladiator's Rifle
-							moh(5, i(102800)),	-- Grievous Gladiator's Ripper
-							moh(5, i(102799)),	-- Grievous Gladiator's Shanker
-							moh(2, i(102981)),	-- Grievous Gladiator's Shield Wall
-							moh(5, i(102802)),	-- Grievous Gladiator's Slicer
-							moh(5, i(102791)),	-- Grievous Gladiator's Spellblade
-							moh(5, i(102790)),	-- Grievous Gladiator's Touch of Defeat
-						}),
-						cl(DEATHKNIGHT, {
-							moh(3, i(102873)),	-- Grievous Gladiator's Dreadplate Chestpiece
-							moh(2, i(102847)),	-- Grievous Gladiator's Dreadplate Gauntlets
-							moh(3, i(102910)),	-- Grievous Gladiator's Dreadplate Helm
-							moh(3, i(102848)),	-- Grievous Gladiator's Dreadplate Legguards
-							moh(2, i(102849)),	-- Grievous Gladiator's Dreadplate Shoulders
-						}),
-						cl(DRUID, {
-							moh(2, i(102936)),	-- Grievous Gladiator's Dragonhide Gloves
-							moh(3, i(102850)),	-- Grievous Gladiator's Dragonhide Helm
-							moh(3, i(102851)),	-- Grievous Gladiator's Dragonhide Legguards
-							moh(3, i(102937)),	-- Grievous Gladiator's Dragonhide Robes
-							moh(2, i(102938)),	-- Grievous Gladiator's Dragonhide Spaulders
-							moh(2, i(102854)),	-- Grievous Gladiator's Kodohide Gloves
-							moh(3, i(102973)),	-- Grievous Gladiator's Kodohide Helm
-							moh(3, i(102958)),	-- Grievous Gladiator's Kodohide Legguards
-							moh(3, i(102918)),	-- Grievous Gladiator's Kodohide Robes
-							moh(2, i(102855)),	-- Grievous Gladiator's Kodohide Spaulders
-							moh(2, i(102893)),	-- Grievous Gladiator's Wyrmhide Gloves
-							moh(3, i(102831)),	-- Grievous Gladiator's Wyrmhide Helm
-							moh(3, i(102964)),	-- Grievous Gladiator's Wyrmhide Legguards
-							moh(3, i(102811)),	-- Grievous Gladiator's Wyrmhide Robes
-							moh(2, i(102897)),	-- Grievous Gladiator's Wyrmhide Spaulders
-						}),
-						cl(HUNTER, {
-							moh(3, i(102886)),	-- Grievous Gladiator's Chain Armor
-							moh(2, i(102934)),	-- Grievous Gladiator's Chain Gauntlets
-							moh(3, i(102887)),	-- Grievous Gladiator's Chain Helm
-							moh(3, i(102867)),	-- Grievous Gladiator's Chain Leggings
-							moh(2, i(102931)),	-- Grievous Gladiator's Chain Spaulders
-						}),
-						cl(MAGE, {
-							moh(2, i(102870)),	-- Grievous Gladiator's Silk Amice
-							moh(3, i(102864)),	-- Grievous Gladiator's Silk Cowl
-							moh(2, i(102932)),	-- Grievous Gladiator's Silk Handguards
-							moh(3, i(102912)),	-- Grievous Gladiator's Silk Robe
-							moh(3, i(102845)),	-- Grievous Gladiator's Silk Trousers
-						}),
-						cl(MONK, {
-							moh(2, i(102824)),	-- Grievous Gladiator's Copperskin Gloves
-							moh(3, i(102825)),	-- Grievous Gladiator's Copperskin Helm
-							moh(3, i(102959)),	-- Grievous Gladiator's Copperskin Legguards
-							moh(2, i(102974)),	-- Grievous Gladiator's Copperskin Spaulders
-							moh(3, i(102960)),	-- Grievous Gladiator's Copperskin Tunic
-							moh(2, i(102872)),	-- Grievous Gladiator's Ironskin Gloves
-							moh(3, i(102909)),	-- Grievous Gladiator's Ironskin Helm
-							moh(3, i(102853)),	-- Grievous Gladiator's Ironskin Legguards
-							moh(2, i(102823)),	-- Grievous Gladiator's Ironskin Spaulders
-							moh(3, i(102917)),	-- Grievous Gladiator's Ironskin Tunic
-						}),
-						cl(PALADIN, {
-							moh(3, i(102829)),	-- Grievous Gladiator's Ornamented Chestguard
-							moh(2, i(102919)),	-- Grievous Gladiator's Ornamented Gloves
-							moh(3, i(102832)),	-- Grievous Gladiator's Ornamented Headcover
-							moh(3, i(102965)),	-- Grievous Gladiator's Ornamented Legplates
-							moh(2, i(102894)),	-- Grievous Gladiator's Ornamented Spaulders
-							moh(3, i(102944)),	-- Grievous Gladiator's Scaled Chestpiece
-							moh(2, i(102827)),	-- Grievous Gladiator's Scaled Gauntlets
-							moh(3, i(102976)),	-- Grievous Gladiator's Scaled Helm
-							moh(3, i(102977)),	-- Grievous Gladiator's Scaled Legguards
-							moh(2, i(102941)),	-- Grievous Gladiator's Scaled Shoulders
-						}),
-						cl(PRIEST, {
-							moh(2, i(102812)),	-- Grievous Gladiator's Mooncloth Gloves
-							moh(3, i(102900)),	-- Grievous Gladiator's Mooncloth Helm
-							moh(3, i(102901)),	-- Grievous Gladiator's Mooncloth Leggings
-							moh(2, i(102947)),	-- Grievous Gladiator's Mooncloth Mantle
-							moh(3, i(102878)),	-- Grievous Gladiator's Mooncloth Robe
-							moh(2, i(102904)),	-- Grievous Gladiator's Satin Gloves
-							moh(3, i(102948)),	-- Grievous Gladiator's Satin Hood
-							moh(3, i(102818)),	-- Grievous Gladiator's Satin Leggings
-							moh(2, i(102868)),	-- Grievous Gladiator's Satin Mantle
-							moh(3, i(102819)),	-- Grievous Gladiator's Satin Robe
-						}),
-						cl(ROGUE, {
-							moh(2, i(102860)),	-- Grievous Gladiator's Leather Gloves
-							moh(3, i(102907)),	-- Grievous Gladiator's Leather Helm
-							moh(3, i(102927)),	-- Grievous Gladiator's Leather Legguards
-							moh(2, i(102928)),	-- Grievous Gladiator's Leather Spaulders
-							moh(3, i(102924)),	-- Grievous Gladiator's Leather Tunic
-						}),
-						cl(SHAMAN, {
-							moh(3, i(102956)),	-- Grievous Gladiator's Linked Armor
-							moh(2, i(102939)),	-- Grievous Gladiator's Linked Gauntlets
-							moh(3, i(102911)),	-- Grievous Gladiator's Linked Helm
-							moh(3, i(102975)),	-- Grievous Gladiator's Linked Leggings
-							moh(2, i(102826)),	-- Grievous Gladiator's Linked Spaulders
-							moh(3, i(102940)),	-- Grievous Gladiator's Mail Armor
-							moh(2, i(102889)),	-- Grievous Gladiator's Mail Gauntlets
-							moh(3, i(102890)),	-- Grievous Gladiator's Mail Helm
-							moh(3, i(102978)),	-- Grievous Gladiator's Mail Leggings
-							moh(2, i(102834)),	-- Grievous Gladiator's Mail Spaulders
-							moh(3, i(102914)),	-- Grievous Gladiator's Ringmail Armor
-							moh(2, i(102971)),	-- Grievous Gladiator's Ringmail Gauntlets
-							moh(3, i(102915)),	-- Grievous Gladiator's Ringmail Helm
-							moh(3, i(102916)),	-- Grievous Gladiator's Ringmail Leggings
-							moh(2, i(102852)),	-- Grievous Gladiator's Ringmail Spaulders
-						}),
-						cl(WARLOCK, {
-							moh(2, i(102879)),	-- Grievous Gladiator's Felweave Amice
-							moh(3, i(102923)),	-- Grievous Gladiator's Felweave Cowl
-							moh(2, i(102922)),	-- Grievous Gladiator's Felweave Handguards
-							moh(3, i(102858)),	-- Grievous Gladiator's Felweave Raiment
-							moh(3, i(102952)),	-- Grievous Gladiator's Felweave Trousers
-						}),
-						cl(WARRIOR, {
-							moh(3, i(102925)),	-- Grievous Gladiator's Plate Chestpiece
-							moh(2, i(102815)),	-- Grievous Gladiator's Plate Gauntlets
-							moh(3, i(102816)),	-- Grievous Gladiator's Plate Helm
-							moh(3, i(102929)),	-- Grievous Gladiator's Plate Legguards
-							moh(2, i(102882)),	-- Grievous Gladiator's Plate Shoulders
-						}),
-						n(BACK, {
-							moh(1, i(102902)),	-- Grievous Gladiator's Cape of Cruelty
-							moh(1, i(102839)),	-- Grievous Gladiator's Cape of Prowess
-							moh(1, i(102966)),	-- Grievous Gladiator's Cloak of Alacrity
-							moh(1, i(102967)),	-- Grievous Gladiator's Cloak of Prowess
-							moh(1, i(102866)),	-- Grievous Gladiator's Drape of Cruelty
-							moh(1, i(102953)),	-- Grievous Gladiator's Drape of Meditation
-							moh(1, i(102969)),	-- Grievous Gladiator's Drape of Prowess
-						}),
-						n(WRIST, {
-							moh(1, i(102821)),	-- Grievous Gladiator's Armbands of Meditation
-							moh(1, i(102862)),	-- Grievous Gladiator's Armbands of Prowess
-							moh(1, i(102968)),	-- Grievous Gladiator's Armplates of Alacrity
-							moh(1, i(102899)),	-- Grievous Gladiator's Armplates of Proficiency
-							moh(1, i(102908)),	-- Grievous Gladiator's Armwraps of Accuracy
-							moh(1, i(102951)),	-- Grievous Gladiator's Armwraps of Alacrity
-							moh(1, i(102888)),	-- Grievous Gladiator's Bindings of Meditation
-							moh(1, i(102920)),	-- Grievous Gladiator's Bindings of Prowess
-							moh(1, i(102962)),	-- Grievous Gladiator's Bracers of Meditation
-							moh(1, i(102892)),	-- Grievous Gladiator's Bracers of Prowess
-							moh(1, i(102884)),	-- Grievous Gladiator's Cuffs of Accuracy
-							moh(1, i(102863)),	-- Grievous Gladiator's Cuffs of Meditation
-							moh(1, i(102930)),	-- Grievous Gladiator's Cuffs of Prowess
-							moh(1, i(102950)),	-- Grievous Gladiator's Wristguards of Accuracy
-							moh(1, i(102885)),	-- Grievous Gladiator's Wristguards of Alacrity
-						}),
-						n(WAIST, {
-							moh(1, i(102891)),	-- Grievous Gladiator's Belt of Cruelty
-							moh(1, i(102972)),	-- Grievous Gladiator's Belt of Meditation
-							moh(1, i(102961)),	-- Grievous Gladiator's Clasp of Cruelty
-							moh(1, i(102945)),	-- Grievous Gladiator's Clasp of Meditation
-							moh(1, i(102859)),	-- Grievous Gladiator's Cord of Accuracy
-							moh(1, i(102881)),	-- Grievous Gladiator's Cord of Cruelty
-							moh(1, i(102906)),	-- Grievous Gladiator's Cord of Meditation
-							moh(1, i(102837)),	-- Grievous Gladiator's Girdle of Accuracy
-							moh(1, i(102921)),	-- Grievous Gladiator's Girdle of Prowess
-							moh(1, i(102842)),	-- Grievous Gladiator's Links of Accuracy
-							moh(1, i(102814)),	-- Grievous Gladiator's Links of Cruelty
-							moh(1, i(102905)),	-- Grievous Gladiator's Waistband of Accuracy
-							moh(1, i(102844)),	-- Grievous Gladiator's Waistband of Cruelty
-							moh(1, i(102874)),	-- Grievous Gladiator's Waistguard of Cruelty
-							moh(1, i(102865)),	-- Grievous Gladiator's Waistguard of Meditation
-						}),
-						n(FEET, {
-							moh(2, i(102913)),	-- Grievous Gladiator's Boots of Alacrity
-							moh(2, i(102857)),	-- Grievous Gladiator's Boots of Cruelty
-							moh(2, i(102828)),	-- Grievous Gladiator's Footguards of Alacrity (Leahter)
-							moh(2, i(102861)),	-- Grievous Gladiator's Footguards of Alacrity (Mail)
-							moh(2, i(102957)),	-- Grievous Gladiator's Footguards of Meditation (Leather)
-							moh(2, i(102820)),	-- Grievous Gladiator's Footguards of Meditation (Mail)
-							moh(2, i(102835)),	-- Grievous Gladiator's Greaves of Alacrity
-							moh(2, i(102836)),	-- Grievous Gladiator's Greaves of Meditation
-							moh(2, i(102843)),	-- Grievous Gladiator's Sabatons of Alacrity
-							moh(2, i(102926)),	-- Grievous Gladiator's Sabatons of Cruelty
-							moh(2, i(102817)),	-- Grievous Gladiator's Treads of Alacrity
-							moh(2, i(102883)),	-- Grievous Gladiator's Treads of Cruelty
-							moh(2, i(102949)),	-- Grievous Gladiator's Treads of Meditation
-							moh(2, i(102942)),	-- Grievous Gladiator's Warboots of Alacrity
-							moh(2, i(102895)),	-- Grievous Gladiator's Warboots of Cruelty
-						}),
-						filter(NECK_F, {
-							i(102838),	-- Grievous Gladiator's Choker of Accuracy
-							i(102946),	-- Grievous Gladiator's Choker of Proficiency
-							i(102875),	-- Grievous Gladiator's Necklace of Proficiency
-							i(102876),	-- Grievous Gladiator's Necklace of Prowess
-							i(102954),	-- Grievous Gladiator's Pendant of Alacrity
-							i(102970),	-- Grievous Gladiator's Pendant of Cruelty
-							i(102933),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
-							i(102846),	-- Grievous Gladiator's Band of Accuracy
-							i(102871),	-- Grievous Gladiator's Band of Cruelty
-							i(102955),	-- Grievous Gladiator's Band of Meditation
-							i(102880),	-- Grievous Gladiator's Ring of Accuracy
-							i(102841),	-- Grievous Gladiator's Ring of Cruelty
-							i(102943),	-- Grievous Gladiator's Signet of Accuracy
-							i(102898),	-- Grievous Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
-							i(102856),	-- Grievous Gladiator's Badge of Conquest
-							i(102830),	-- Grievous Gladiator's Badge of Dominance
-							i(102833),	-- Grievous Gladiator's Badge of Victory
-							i(102877),	-- Grievous Gladiator's Emblem of Cruelty
-							i(102813),	-- Grievous Gladiator's Emblem of Meditation
-							i(102903),	-- Grievous Gladiator's Emblem of Tenacity
-							i(102840),	-- Grievous Gladiator's Insignia of Conquest
-							i(102963),	-- Grievous Gladiator's Insignia of Dominance
-							i(102896),	-- Grievous Gladiator's Insignia of Victory
-							i(102935),	-- Grievous Gladiator's Medallion of Cruelty (H)
-							i(102822),	-- Grievous Gladiator's Medallion of Meditation (H)
-							i(102869),	-- Grievous Gladiator's Medallion of Tenacity (H)
 						}),
 					}),
 				},
@@ -4079,6 +3130,240 @@ root(ROOTS.PVP, {
 			n(FACTION_HEADER_ALLIANCE, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
+					n(PVP_HONOR, {
+						n(WEAPONS, {
+							moh(2, i(103167)),	-- Grievous Gladiator's Barrier
+							moh(5, i(103310)),	-- Grievous Gladiator's Baton of Light
+							moh(5, i(103169)),	-- Grievous Gladiator's Battle Staff
+							moh(5, i(103312)),	-- Grievous Gladiator's Bonecracker
+							moh(5, i(103142)),	-- Grievous Gladiator's Cleaver
+							moh(5, i(103139)),	-- Grievous Gladiator's Decapitator
+							moh(2, i(103166)),	-- Grievous Gladiator's Endgame
+							moh(5, i(103209)),	-- Grievous Gladiator's Energy Staff
+							moh(5, i(103207)),	-- Grievous Gladiator's Gavel
+							moh(5, i(103141)),	-- Grievous Gladiator's Greatsword
+							moh(5, i(103311)),	-- Grievous Gladiator's Hacker
+							moh(5, i(103153)),	-- Grievous Gladiator's Longbow
+							moh(5, i(103307)),	-- Grievous Gladiator's Mageblade
+							moh(5, i(103264)),	-- Grievous Gladiator's Pike
+							moh(5, i(103143)),	-- Grievous Gladiator's Pummeler
+							moh(5, i(103144)),	-- Grievous Gladiator's Quickblade
+							moh(2, i(103208)),	-- Grievous Gladiator's Redoubt
+							moh(5, i(103306)),	-- Grievous Gladiator's Render
+							moh(2, i(103176)),	-- Grievous Gladiator's Reprieve
+							moh(2, i(103206)),	-- Grievous Gladiator's Rifle
+							moh(5, i(103305)),	-- Grievous Gladiator's Ripper
+							moh(5, i(103304)),	-- Grievous Gladiator's Shanker
+							moh(2, i(103322)),	-- Grievous Gladiator's Shield Wall
+							moh(5, i(103313)),	-- Grievous Gladiator's Slicer
+							moh(5, i(103168)),	-- Grievous Gladiator's Spellblade
+							moh(5, i(103177)),	-- Grievous Gladiator's Touch of Defeat
+						}),
+						cl(DEATHKNIGHT, {
+							moh(3, i(103179)),	-- Grievous Gladiator's Dreadplate Chestpiece
+							moh(2, i(103180)),	-- Grievous Gladiator's Dreadplate Gauntlets
+							moh(3, i(103181)),	-- Grievous Gladiator's Dreadplate Helm
+							moh(3, i(103182)),	-- Grievous Gladiator's Dreadplate Legguards
+							moh(2, i(103183)),	-- Grievous Gladiator's Dreadplate Shoulders
+						}),
+						cl(DRUID, {
+							moh(2, i(103184)),	-- Grievous Gladiator's Dragonhide Gloves
+							moh(3, i(103185)),	-- Grievous Gladiator's Dragonhide Helm
+							moh(3, i(103186)),	-- Grievous Gladiator's Dragonhide Legguards
+							moh(3, i(103187)),	-- Grievous Gladiator's Dragonhide Robes
+							moh(2, i(103188)),	-- Grievous Gladiator's Dragonhide Spaulders
+							moh(2, i(103192)),	-- Grievous Gladiator's Kodohide Gloves
+							moh(3, i(103193)),	-- Grievous Gladiator's Kodohide Helm
+							moh(3, i(103194)),	-- Grievous Gladiator's Kodohide Legguards
+							moh(3, i(103195)),	-- Grievous Gladiator's Kodohide Robes
+							moh(2, i(103196)),	-- Grievous Gladiator's Kodohide Spaulders
+							moh(2, i(103201)),	-- Grievous Gladiator's Wyrmhide Gloves
+							moh(3, i(103202)),	-- Grievous Gladiator's Wyrmhide Helm
+							moh(3, i(103203)),	-- Grievous Gladiator's Wyrmhide Legguards
+							moh(3, i(103204)),	-- Grievous Gladiator's Wyrmhide Robes
+							moh(2, i(103205)),	-- Grievous Gladiator's Wyrmhide Spaulders
+						}),
+						cl(HUNTER, {
+							moh(3, i(103219)),	-- Grievous Gladiator's Chain Armor
+							moh(2, i(103220)),	-- Grievous Gladiator's Chain Gauntlets
+							moh(3, i(103221)),	-- Grievous Gladiator's Chain Helm
+							moh(3, i(103222)),	-- Grievous Gladiator's Chain Leggings
+							moh(2, i(103223)),	-- Grievous Gladiator's Chain Spaulders
+						}),
+						cl(MAGE, {
+							moh(2, i(103228)),	-- Grievous Gladiator's Silk Amice
+							moh(3, i(103225)),	-- Grievous Gladiator's Silk Cowl
+							moh(2, i(103224)),	-- Grievous Gladiator's Silk Handguards
+							moh(3, i(103227)),	-- Grievous Gladiator's Silk Robe
+							moh(3, i(103226)),	-- Grievous Gladiator's Silk Trousers
+						}),
+						cl(MONK, {
+							moh(2, i(103237)),	-- Grievous Gladiator's Copperskin Gloves
+							moh(3, i(103238)),	-- Grievous Gladiator's Copperskin Helm
+							moh(3, i(103239)),	-- Grievous Gladiator's Copperskin Legguards
+							moh(2, i(103240)),	-- Grievous Gladiator's Copperskin Spaulders
+							moh(3, i(103241)),	-- Grievous Gladiator's Copperskin Tunic
+							moh(2, i(103232)),	-- Grievous Gladiator's Ironskin Gloves
+							moh(3, i(103233)),	-- Grievous Gladiator's Ironskin Helm
+							moh(3, i(103234)),	-- Grievous Gladiator's Ironskin Legguards
+							moh(2, i(103235)),	-- Grievous Gladiator's Ironskin Spaulders
+							moh(3, i(103236)),	-- Grievous Gladiator's Ironskin Tunic
+						}),
+						cl(PALADIN, {
+							moh(3, i(103253)),	-- Grievous Gladiator's Ornamented Chestguard
+							moh(2, i(103254)),	-- Grievous Gladiator's Ornamented Gloves
+							moh(3, i(103255)),	-- Grievous Gladiator's Ornamented Headcover
+							moh(3, i(103256)),	-- Grievous Gladiator's Ornamented Legplates
+							moh(2, i(103257)),	-- Grievous Gladiator's Ornamented Spaulders
+							moh(3, i(103242)),	-- Grievous Gladiator's Scaled Chestpiece
+							moh(2, i(103243)),	-- Grievous Gladiator's Scaled Gauntlets
+							moh(3, i(103244)),	-- Grievous Gladiator's Scaled Helm
+							moh(3, i(103245)),	-- Grievous Gladiator's Scaled Legguards
+							moh(2, i(103246)),	-- Grievous Gladiator's Scaled Shoulders
+						}),
+						cl(PRIEST, {
+							moh(2, i(103265)),	-- Grievous Gladiator's Mooncloth Gloves
+							moh(3, i(103266)),	-- Grievous Gladiator's Mooncloth Helm
+							moh(3, i(103267)),	-- Grievous Gladiator's Mooncloth Leggings
+							moh(2, i(103269)),	-- Grievous Gladiator's Mooncloth Mantle
+							moh(3, i(103268)),	-- Grievous Gladiator's Mooncloth Robe
+							moh(2, i(103270)),	-- Grievous Gladiator's Satin Gloves
+							moh(3, i(103271)),	-- Grievous Gladiator's Satin Hood
+							moh(3, i(103272)),	-- Grievous Gladiator's Satin Leggings
+							moh(2, i(103274)),	-- Grievous Gladiator's Satin Mantle
+							moh(3, i(103273)),	-- Grievous Gladiator's Satin Robe
+						}),
+						cl(ROGUE, {
+							moh(2, i(103279)),	-- Grievous Gladiator's Leather Gloves
+							moh(3, i(103280)),	-- Grievous Gladiator's Leather Helm
+							moh(3, i(103281)),	-- Grievous Gladiator's Leather Legguards
+							moh(2, i(103282)),	-- Grievous Gladiator's Leather Spaulders
+							moh(3, i(103278)),	-- Grievous Gladiator's Leather Tunic
+						}),
+						cl(SHAMAN, {
+							moh(3, i(103293)),	-- Grievous Gladiator's Linked Armor
+							moh(2, i(103294)),	-- Grievous Gladiator's Linked Gauntlets
+							moh(3, i(103295)),	-- Grievous Gladiator's Linked Helm
+							moh(3, i(103296)),	-- Grievous Gladiator's Linked Leggings
+							moh(2, i(103297)),	-- Grievous Gladiator's Linked Spaulders
+							moh(3, i(103299)),	-- Grievous Gladiator's Mail Armor
+							moh(2, i(103300)),	-- Grievous Gladiator's Mail Gauntlets
+							moh(3, i(103301)),	-- Grievous Gladiator's Mail Helm
+							moh(3, i(103302)),	-- Grievous Gladiator's Mail Leggings
+							moh(2, i(103303)),	-- Grievous Gladiator's Mail Spaulders
+							moh(3, i(103288)),	-- Grievous Gladiator's Ringmail Armor
+							moh(2, i(103289)),	-- Grievous Gladiator's Ringmail Gauntlets
+							moh(3, i(103290)),	-- Grievous Gladiator's Ringmail Helm
+							moh(3, i(103291)),	-- Grievous Gladiator's Ringmail Leggings
+							moh(2, i(103292)),	-- Grievous Gladiator's Ringmail Spaulders
+						}),
+						cl(WARLOCK, {
+							moh(2, i(103327)),	-- Grievous Gladiator's Felweave Amice
+							moh(3, i(103324)),	-- Grievous Gladiator's Felweave Cowl
+							moh(2, i(103323)),	-- Grievous Gladiator's Felweave Handguards
+							moh(3, i(103326)),	-- Grievous Gladiator's Felweave Raiment
+							moh(3, i(103325)),	-- Grievous Gladiator's Felweave Trousers
+						}),
+						cl(WARRIOR, {
+							moh(3, i(103328)),	-- Grievous Gladiator's Plate Chestpiece
+							moh(2, i(103329)),	-- Grievous Gladiator's Plate Gauntlets
+							moh(3, i(103330)),	-- Grievous Gladiator's Plate Helm
+							moh(3, i(103331)),	-- Grievous Gladiator's Plate Legguards
+							moh(2, i(103332)),	-- Grievous Gladiator's Plate Shoulders
+						}),
+						n(BACK, {
+							moh(1, i(103146)),	-- Grievous Gladiator's Cape of Cruelty
+							moh(1, i(103147)),	-- Grievous Gladiator's Cape of Prowess
+							moh(1, i(103315)),	-- Grievous Gladiator's Cloak of Alacrity
+							moh(1, i(103316)),	-- Grievous Gladiator's Cloak of Prowess
+							moh(1, i(103163)),	-- Grievous Gladiator's Drape of Cruelty
+							moh(1, i(103165)),	-- Grievous Gladiator's Drape of Meditation
+							moh(1, i(103164)),	-- Grievous Gladiator's Drape of Prowess
+						}),
+						n(WRIST, {
+							moh(1, i(103287)),	-- Grievous Gladiator's Armbands of Meditation
+							moh(1, i(103286)),	-- Grievous Gladiator's Armbands of Prowess
+							moh(1, i(103263)),	-- Grievous Gladiator's Armplates of Alacrity
+							moh(1, i(103262)),	-- Grievous Gladiator's Armplates of Proficiency
+							moh(1, i(103231)),	-- Grievous Gladiator's Armwraps of Accuracy
+							moh(1, i(103277)),	-- Grievous Gladiator's Armwraps of Alacrity
+							moh(1, i(103191)),	-- Grievous Gladiator's Bindings of Meditation
+							moh(1, i(103200)),	-- Grievous Gladiator's Bindings of Prowess
+							moh(1, i(103252)),	-- Grievous Gladiator's Bracers of Meditation
+							moh(1, i(103251)),	-- Grievous Gladiator's Bracers of Prowess
+							moh(1, i(103160)),	-- Grievous Gladiator's Cuffs of Accuracy
+							moh(1, i(103162)),	-- Grievous Gladiator's Cuffs of Meditation
+							moh(1, i(103161)),	-- Grievous Gladiator's Cuffs of Prowess
+							moh(1, i(100316)),	-- Grievous Gladiator's Wristguards of Accuracy
+							moh(1, i(103218)),	-- Grievous Gladiator's Wristguards of Alacrity
+						}),
+						n(WAIST, {
+							moh(1, i(103198)),	-- Grievous Gladiator's Belt of Cruelty
+							moh(1, i(103189)),	-- Grievous Gladiator's Belt of Meditation
+							moh(1, i(103247)),	-- Grievous Gladiator's Clasp of Cruelty
+							moh(1, i(103248)),	-- Grievous Gladiator's Clasp of Meditation
+							moh(1, i(103155)),	-- Grievous Gladiator's Cord of Accuracy
+							moh(1, i(103154)),	-- Grievous Gladiator's Cord of Cruelty
+							moh(1, i(103156)),	-- Grievous Gladiator's Cord of Meditation
+							moh(1, i(103258)),	-- Grievous Gladiator's Girdle of Accuracy
+							moh(1, i(103259)),	-- Grievous Gladiator's Girdle of Prowess
+							moh(1, i(103214)),	-- Grievous Gladiator's Links of Accuracy
+							moh(1, i(103213)),	-- Grievous Gladiator's Links of Cruelty
+							moh(1, i(103275)),	-- Grievous Gladiator's Waistband of Accuracy
+							moh(1, i(103229)),	-- Grievous Gladiator's Waistband of Cruelty
+							moh(1, i(103298)),	-- Grievous Gladiator's Waistguard of Cruelty
+							moh(1, i(103283)),	-- Grievous Gladiator's Waistguard of Meditation
+						}),
+						n(FEET, {
+							moh(2, i(103230)),	-- Grievous Gladiator's Boots of Alacrity
+							moh(2, i(103276)),	-- Grievous Gladiator's Boots of Cruelty
+							moh(2, i(103199)),	-- Grievous Gladiator's Footguards of Alacrity (Leahter)
+							moh(2, i(103284)),	-- Grievous Gladiator's Footguards of Alacrity (Mail)
+							moh(2, i(103190)),	-- Grievous Gladiator's Footguards of Meditation (Leather)
+							moh(2, i(103285)),	-- Grievous Gladiator's Footguards of Meditation (Mail)
+							moh(2, i(103249)),	-- Grievous Gladiator's Greaves of Alacrity
+							moh(2, i(103250)),	-- Grievous Gladiator's Greaves of Meditation
+							moh(2, i(103216)),	-- Grievous Gladiator's Sabatons of Alacrity
+							moh(2, i(103215)),	-- Grievous Gladiator's Sabatons of Cruelty
+							moh(2, i(103158)),	-- Grievous Gladiator's Treads of Alacrity
+							moh(2, i(103157)),	-- Grievous Gladiator's Treads of Cruelty
+							moh(2, i(103159)),	-- Grievous Gladiator's Treads of Meditation
+							moh(2, i(103261)),	-- Grievous Gladiator's Warboots of Alacrity
+							moh(2, i(103260)),	-- Grievous Gladiator's Warboots of Cruelty
+						}),
+						filter(NECK_F, {
+							i(103318),	-- Grievous Gladiator's Choker of Accuracy
+							i(103317),	-- Grievous Gladiator's Choker of Proficiency
+							i(103148),	-- Grievous Gladiator's Necklace of Proficiency
+							i(103149),	-- Grievous Gladiator's Necklace of Prowess
+							i(103171),	-- Grievous Gladiator's Pendant of Alacrity
+							i(103170),	-- Grievous Gladiator's Pendant of Cruelty
+							i(103172),	-- Grievous Gladiator's Pendant of Meditation
+						}),
+						filter(FINGER_F, {
+							i(103174),	-- Grievous Gladiator's Band of Accuracy
+							i(103173),	-- Grievous Gladiator's Band of Cruelty
+							i(103175),	-- Grievous Gladiator's Band of Meditation
+							i(103152),	-- Grievous Gladiator's Ring of Accuracy
+							i(103151),	-- Grievous Gladiator's Ring of Cruelty
+							i(103321),	-- Grievous Gladiator's Signet of Accuracy
+							i(103320),	-- Grievous Gladiator's Signet of Cruelty
+						}),
+						filter(TRINKET_F, {
+							i(103145),	-- Grievous Gladiator's Badge of Conquest
+							i(103308),	-- Grievous Gladiator's Badge of Dominance
+							i(103314),	-- Grievous Gladiator's Badge of Victory
+							i(103210),	-- Grievous Gladiator's Emblem of Cruelty
+							i(103212),	-- Grievous Gladiator's Emblem of Meditation
+							i(103211),	-- Grievous Gladiator's Emblem of Tenacity
+							i(103150),	-- Grievous Gladiator's Insignia of Conquest
+							i(103309),	-- Grievous Gladiator's Insignia of Dominance
+							i(103319),	-- Grievous Gladiator's Insignia of Victory
+							i(103334),	-- Grievous Gladiator's Medallion of Cruelty (A)
+							i(103335),	-- Grievous Gladiator's Medallion of Meditation (A)
+							i(103333),	-- Grievous Gladiator's Medallion of Tenacity (A)
+						}),
+					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
 							moh(80, iensemble(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)
@@ -4361,6 +3646,240 @@ root(ROOTS.PVP, {
 			n(FACTION_HEADER_HORDE, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
+					n(PVP_HONOR, {
+						n(WEAPONS, {
+							moh(2, i(102982)),	-- Grievous Gladiator's Barrier
+							moh(5, i(102793)),	-- Grievous Gladiator's Baton of Light
+							moh(5, i(102798)),	-- Grievous Gladiator's Battle Staff
+							moh(5, i(102806)),	-- Grievous Gladiator's Bonecracker
+							moh(5, i(102797)),	-- Grievous Gladiator's Cleaver
+							moh(5, i(102807)),	-- Grievous Gladiator's Decapitator
+							moh(2, i(102983)),	-- Grievous Gladiator's Endgame
+							moh(5, i(102804)),	-- Grievous Gladiator's Energy Staff
+							moh(5, i(102787)),	-- Grievous Gladiator's Gavel
+							moh(5, i(102796)),	-- Grievous Gladiator's Greatsword
+							moh(5, i(102801)),	-- Grievous Gladiator's Hacker
+							moh(5, i(102788)),	-- Grievous Gladiator's Longbow
+							moh(5, i(102795)),	-- Grievous Gladiator's Mageblade
+							moh(5, i(102803)),	-- Grievous Gladiator's Pike
+							moh(5, i(102789)),	-- Grievous Gladiator's Pummeler
+							moh(5, i(102809)),	-- Grievous Gladiator's Quickblade
+							moh(2, i(102979)),	-- Grievous Gladiator's Redoubt
+							moh(5, i(102805)),	-- Grievous Gladiator's Render
+							moh(2, i(102980)),	-- Grievous Gladiator's Reprieve
+							moh(2, i(102794)),	-- Grievous Gladiator's Rifle
+							moh(5, i(102800)),	-- Grievous Gladiator's Ripper
+							moh(5, i(102799)),	-- Grievous Gladiator's Shanker
+							moh(2, i(102981)),	-- Grievous Gladiator's Shield Wall
+							moh(5, i(102802)),	-- Grievous Gladiator's Slicer
+							moh(5, i(102791)),	-- Grievous Gladiator's Spellblade
+							moh(5, i(102790)),	-- Grievous Gladiator's Touch of Defeat
+						}),
+						cl(DEATHKNIGHT, {
+							moh(3, i(102873)),	-- Grievous Gladiator's Dreadplate Chestpiece
+							moh(2, i(102847)),	-- Grievous Gladiator's Dreadplate Gauntlets
+							moh(3, i(102910)),	-- Grievous Gladiator's Dreadplate Helm
+							moh(3, i(102848)),	-- Grievous Gladiator's Dreadplate Legguards
+							moh(2, i(102849)),	-- Grievous Gladiator's Dreadplate Shoulders
+						}),
+						cl(DRUID, {
+							moh(2, i(102936)),	-- Grievous Gladiator's Dragonhide Gloves
+							moh(3, i(102850)),	-- Grievous Gladiator's Dragonhide Helm
+							moh(3, i(102851)),	-- Grievous Gladiator's Dragonhide Legguards
+							moh(3, i(102937)),	-- Grievous Gladiator's Dragonhide Robes
+							moh(2, i(102938)),	-- Grievous Gladiator's Dragonhide Spaulders
+							moh(2, i(102854)),	-- Grievous Gladiator's Kodohide Gloves
+							moh(3, i(102973)),	-- Grievous Gladiator's Kodohide Helm
+							moh(3, i(102958)),	-- Grievous Gladiator's Kodohide Legguards
+							moh(3, i(102918)),	-- Grievous Gladiator's Kodohide Robes
+							moh(2, i(102855)),	-- Grievous Gladiator's Kodohide Spaulders
+							moh(2, i(102893)),	-- Grievous Gladiator's Wyrmhide Gloves
+							moh(3, i(102831)),	-- Grievous Gladiator's Wyrmhide Helm
+							moh(3, i(102964)),	-- Grievous Gladiator's Wyrmhide Legguards
+							moh(3, i(102811)),	-- Grievous Gladiator's Wyrmhide Robes
+							moh(2, i(102897)),	-- Grievous Gladiator's Wyrmhide Spaulders
+						}),
+						cl(HUNTER, {
+							moh(3, i(102886)),	-- Grievous Gladiator's Chain Armor
+							moh(2, i(102934)),	-- Grievous Gladiator's Chain Gauntlets
+							moh(3, i(102887)),	-- Grievous Gladiator's Chain Helm
+							moh(3, i(102867)),	-- Grievous Gladiator's Chain Leggings
+							moh(2, i(102931)),	-- Grievous Gladiator's Chain Spaulders
+						}),
+						cl(MAGE, {
+							moh(2, i(102870)),	-- Grievous Gladiator's Silk Amice
+							moh(3, i(102864)),	-- Grievous Gladiator's Silk Cowl
+							moh(2, i(102932)),	-- Grievous Gladiator's Silk Handguards
+							moh(3, i(102912)),	-- Grievous Gladiator's Silk Robe
+							moh(3, i(102845)),	-- Grievous Gladiator's Silk Trousers
+						}),
+						cl(MONK, {
+							moh(2, i(102824)),	-- Grievous Gladiator's Copperskin Gloves
+							moh(3, i(102825)),	-- Grievous Gladiator's Copperskin Helm
+							moh(3, i(102959)),	-- Grievous Gladiator's Copperskin Legguards
+							moh(2, i(102974)),	-- Grievous Gladiator's Copperskin Spaulders
+							moh(3, i(102960)),	-- Grievous Gladiator's Copperskin Tunic
+							moh(2, i(102872)),	-- Grievous Gladiator's Ironskin Gloves
+							moh(3, i(102909)),	-- Grievous Gladiator's Ironskin Helm
+							moh(3, i(102853)),	-- Grievous Gladiator's Ironskin Legguards
+							moh(2, i(102823)),	-- Grievous Gladiator's Ironskin Spaulders
+							moh(3, i(102917)),	-- Grievous Gladiator's Ironskin Tunic
+						}),
+						cl(PALADIN, {
+							moh(3, i(102829)),	-- Grievous Gladiator's Ornamented Chestguard
+							moh(2, i(102919)),	-- Grievous Gladiator's Ornamented Gloves
+							moh(3, i(102832)),	-- Grievous Gladiator's Ornamented Headcover
+							moh(3, i(102965)),	-- Grievous Gladiator's Ornamented Legplates
+							moh(2, i(102894)),	-- Grievous Gladiator's Ornamented Spaulders
+							moh(3, i(102944)),	-- Grievous Gladiator's Scaled Chestpiece
+							moh(2, i(102827)),	-- Grievous Gladiator's Scaled Gauntlets
+							moh(3, i(102976)),	-- Grievous Gladiator's Scaled Helm
+							moh(3, i(102977)),	-- Grievous Gladiator's Scaled Legguards
+							moh(2, i(102941)),	-- Grievous Gladiator's Scaled Shoulders
+						}),
+						cl(PRIEST, {
+							moh(2, i(102812)),	-- Grievous Gladiator's Mooncloth Gloves
+							moh(3, i(102900)),	-- Grievous Gladiator's Mooncloth Helm
+							moh(3, i(102901)),	-- Grievous Gladiator's Mooncloth Leggings
+							moh(2, i(102947)),	-- Grievous Gladiator's Mooncloth Mantle
+							moh(3, i(102878)),	-- Grievous Gladiator's Mooncloth Robe
+							moh(2, i(102904)),	-- Grievous Gladiator's Satin Gloves
+							moh(3, i(102948)),	-- Grievous Gladiator's Satin Hood
+							moh(3, i(102818)),	-- Grievous Gladiator's Satin Leggings
+							moh(2, i(102868)),	-- Grievous Gladiator's Satin Mantle
+							moh(3, i(102819)),	-- Grievous Gladiator's Satin Robe
+						}),
+						cl(ROGUE, {
+							moh(2, i(102860)),	-- Grievous Gladiator's Leather Gloves
+							moh(3, i(102907)),	-- Grievous Gladiator's Leather Helm
+							moh(3, i(102927)),	-- Grievous Gladiator's Leather Legguards
+							moh(2, i(102928)),	-- Grievous Gladiator's Leather Spaulders
+							moh(3, i(102924)),	-- Grievous Gladiator's Leather Tunic
+						}),
+						cl(SHAMAN, {
+							moh(3, i(102956)),	-- Grievous Gladiator's Linked Armor
+							moh(2, i(102939)),	-- Grievous Gladiator's Linked Gauntlets
+							moh(3, i(102911)),	-- Grievous Gladiator's Linked Helm
+							moh(3, i(102975)),	-- Grievous Gladiator's Linked Leggings
+							moh(2, i(102826)),	-- Grievous Gladiator's Linked Spaulders
+							moh(3, i(102940)),	-- Grievous Gladiator's Mail Armor
+							moh(2, i(102889)),	-- Grievous Gladiator's Mail Gauntlets
+							moh(3, i(102890)),	-- Grievous Gladiator's Mail Helm
+							moh(3, i(102978)),	-- Grievous Gladiator's Mail Leggings
+							moh(2, i(102834)),	-- Grievous Gladiator's Mail Spaulders
+							moh(3, i(102914)),	-- Grievous Gladiator's Ringmail Armor
+							moh(2, i(102971)),	-- Grievous Gladiator's Ringmail Gauntlets
+							moh(3, i(102915)),	-- Grievous Gladiator's Ringmail Helm
+							moh(3, i(102916)),	-- Grievous Gladiator's Ringmail Leggings
+							moh(2, i(102852)),	-- Grievous Gladiator's Ringmail Spaulders
+						}),
+						cl(WARLOCK, {
+							moh(2, i(102879)),	-- Grievous Gladiator's Felweave Amice
+							moh(3, i(102923)),	-- Grievous Gladiator's Felweave Cowl
+							moh(2, i(102922)),	-- Grievous Gladiator's Felweave Handguards
+							moh(3, i(102858)),	-- Grievous Gladiator's Felweave Raiment
+							moh(3, i(102952)),	-- Grievous Gladiator's Felweave Trousers
+						}),
+						cl(WARRIOR, {
+							moh(3, i(102925)),	-- Grievous Gladiator's Plate Chestpiece
+							moh(2, i(102815)),	-- Grievous Gladiator's Plate Gauntlets
+							moh(3, i(102816)),	-- Grievous Gladiator's Plate Helm
+							moh(3, i(102929)),	-- Grievous Gladiator's Plate Legguards
+							moh(2, i(102882)),	-- Grievous Gladiator's Plate Shoulders
+						}),
+						n(BACK, {
+							moh(1, i(102902)),	-- Grievous Gladiator's Cape of Cruelty
+							moh(1, i(102839)),	-- Grievous Gladiator's Cape of Prowess
+							moh(1, i(102966)),	-- Grievous Gladiator's Cloak of Alacrity
+							moh(1, i(102967)),	-- Grievous Gladiator's Cloak of Prowess
+							moh(1, i(102866)),	-- Grievous Gladiator's Drape of Cruelty
+							moh(1, i(102953)),	-- Grievous Gladiator's Drape of Meditation
+							moh(1, i(102969)),	-- Grievous Gladiator's Drape of Prowess
+						}),
+						n(WRIST, {
+							moh(1, i(102821)),	-- Grievous Gladiator's Armbands of Meditation
+							moh(1, i(102862)),	-- Grievous Gladiator's Armbands of Prowess
+							moh(1, i(102968)),	-- Grievous Gladiator's Armplates of Alacrity
+							moh(1, i(102899)),	-- Grievous Gladiator's Armplates of Proficiency
+							moh(1, i(102908)),	-- Grievous Gladiator's Armwraps of Accuracy
+							moh(1, i(102951)),	-- Grievous Gladiator's Armwraps of Alacrity
+							moh(1, i(102888)),	-- Grievous Gladiator's Bindings of Meditation
+							moh(1, i(102920)),	-- Grievous Gladiator's Bindings of Prowess
+							moh(1, i(102962)),	-- Grievous Gladiator's Bracers of Meditation
+							moh(1, i(102892)),	-- Grievous Gladiator's Bracers of Prowess
+							moh(1, i(102884)),	-- Grievous Gladiator's Cuffs of Accuracy
+							moh(1, i(102863)),	-- Grievous Gladiator's Cuffs of Meditation
+							moh(1, i(102930)),	-- Grievous Gladiator's Cuffs of Prowess
+							moh(1, i(102950)),	-- Grievous Gladiator's Wristguards of Accuracy
+							moh(1, i(102885)),	-- Grievous Gladiator's Wristguards of Alacrity
+						}),
+						n(WAIST, {
+							moh(1, i(102891)),	-- Grievous Gladiator's Belt of Cruelty
+							moh(1, i(102972)),	-- Grievous Gladiator's Belt of Meditation
+							moh(1, i(102961)),	-- Grievous Gladiator's Clasp of Cruelty
+							moh(1, i(102945)),	-- Grievous Gladiator's Clasp of Meditation
+							moh(1, i(102859)),	-- Grievous Gladiator's Cord of Accuracy
+							moh(1, i(102881)),	-- Grievous Gladiator's Cord of Cruelty
+							moh(1, i(102906)),	-- Grievous Gladiator's Cord of Meditation
+							moh(1, i(102837)),	-- Grievous Gladiator's Girdle of Accuracy
+							moh(1, i(102921)),	-- Grievous Gladiator's Girdle of Prowess
+							moh(1, i(102842)),	-- Grievous Gladiator's Links of Accuracy
+							moh(1, i(102814)),	-- Grievous Gladiator's Links of Cruelty
+							moh(1, i(102905)),	-- Grievous Gladiator's Waistband of Accuracy
+							moh(1, i(102844)),	-- Grievous Gladiator's Waistband of Cruelty
+							moh(1, i(102874)),	-- Grievous Gladiator's Waistguard of Cruelty
+							moh(1, i(102865)),	-- Grievous Gladiator's Waistguard of Meditation
+						}),
+						n(FEET, {
+							moh(2, i(102913)),	-- Grievous Gladiator's Boots of Alacrity
+							moh(2, i(102857)),	-- Grievous Gladiator's Boots of Cruelty
+							moh(2, i(102828)),	-- Grievous Gladiator's Footguards of Alacrity (Leahter)
+							moh(2, i(102861)),	-- Grievous Gladiator's Footguards of Alacrity (Mail)
+							moh(2, i(102957)),	-- Grievous Gladiator's Footguards of Meditation (Leather)
+							moh(2, i(102820)),	-- Grievous Gladiator's Footguards of Meditation (Mail)
+							moh(2, i(102835)),	-- Grievous Gladiator's Greaves of Alacrity
+							moh(2, i(102836)),	-- Grievous Gladiator's Greaves of Meditation
+							moh(2, i(102843)),	-- Grievous Gladiator's Sabatons of Alacrity
+							moh(2, i(102926)),	-- Grievous Gladiator's Sabatons of Cruelty
+							moh(2, i(102817)),	-- Grievous Gladiator's Treads of Alacrity
+							moh(2, i(102883)),	-- Grievous Gladiator's Treads of Cruelty
+							moh(2, i(102949)),	-- Grievous Gladiator's Treads of Meditation
+							moh(2, i(102942)),	-- Grievous Gladiator's Warboots of Alacrity
+							moh(2, i(102895)),	-- Grievous Gladiator's Warboots of Cruelty
+						}),
+						filter(NECK_F, {
+							i(102838),	-- Grievous Gladiator's Choker of Accuracy
+							i(102946),	-- Grievous Gladiator's Choker of Proficiency
+							i(102875),	-- Grievous Gladiator's Necklace of Proficiency
+							i(102876),	-- Grievous Gladiator's Necklace of Prowess
+							i(102954),	-- Grievous Gladiator's Pendant of Alacrity
+							i(102970),	-- Grievous Gladiator's Pendant of Cruelty
+							i(102933),	-- Grievous Gladiator's Pendant of Meditation
+						}),
+						filter(FINGER_F, {
+							i(102846),	-- Grievous Gladiator's Band of Accuracy
+							i(102871),	-- Grievous Gladiator's Band of Cruelty
+							i(102955),	-- Grievous Gladiator's Band of Meditation
+							i(102880),	-- Grievous Gladiator's Ring of Accuracy
+							i(102841),	-- Grievous Gladiator's Ring of Cruelty
+							i(102943),	-- Grievous Gladiator's Signet of Accuracy
+							i(102898),	-- Grievous Gladiator's Signet of Cruelty
+						}),
+						filter(TRINKET_F, {
+							i(102856),	-- Grievous Gladiator's Badge of Conquest
+							i(102830),	-- Grievous Gladiator's Badge of Dominance
+							i(102833),	-- Grievous Gladiator's Badge of Victory
+							i(102877),	-- Grievous Gladiator's Emblem of Cruelty
+							i(102813),	-- Grievous Gladiator's Emblem of Meditation
+							i(102903),	-- Grievous Gladiator's Emblem of Tenacity
+							i(102840),	-- Grievous Gladiator's Insignia of Conquest
+							i(102963),	-- Grievous Gladiator's Insignia of Dominance
+							i(102896),	-- Grievous Gladiator's Insignia of Victory
+							i(102935),	-- Grievous Gladiator's Medallion of Cruelty (H)
+							i(102822),	-- Grievous Gladiator's Medallion of Meditation (H)
+							i(102869),	-- Grievous Gladiator's Medallion of Tenacity (H)
+						}),
+					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
 							moh(80, iensemble(144250, {	-- Arsenal: Prideful Gladiator's Weapons (H)
