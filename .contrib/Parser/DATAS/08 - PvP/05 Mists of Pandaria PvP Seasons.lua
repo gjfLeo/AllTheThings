@@ -2096,7 +2096,7 @@ root(ROOTS.PVP, {
 						})),
 					}),
 					n(PVP_GLADIATOR, {
-						n(WEAPONS, {
+						n(WEAPONS, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							moh(80, iensemble(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
@@ -2126,7 +2126,7 @@ root(ROOTS.PVP, {
 							i(100498),	-- Grievous Gladiator's Slicer
 							i(100227),	-- Grievous Gladiator's Spellblade
 							i(100239),	-- Grievous Gladiator's Touch of Defeat
-						}),
+						})),
 						cl(DEATHKNIGHT, {
 							moh(12, iensemble(138661, {	-- Ensemble: Grievous Gladiator's Dreadplate Armor
 								["timeline"] = { ADDED_7_1_5 },
