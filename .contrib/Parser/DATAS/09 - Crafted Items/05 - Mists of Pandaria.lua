@@ -95,32 +95,32 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		i(79869),	-- Mogu Statue Piece
 		i(79868),	-- Pandaren Pottery Shard
 		i(87399),	-- Restored Artifact
-		header(HEADERS.Currency, ARCH_CURRENCY_MANTID, sharedData({["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}},{ -- TODO: someone can add different fragment costs within as needed
+		header(HEADERS.Currency, ARCH_CURRENCY_MANTID, {
 			["provider"] = { "o", 218950 },	-- Mantid Archaeology Find
 			["maps"] = { TOWNLONG_STEPPES, DREAD_WASTES },
 			["timeline"] = { ADDED_5_2_0 },
 			["groups"] = {
-				i(95376),	-- Ancient Sap Feeder
-				i(95375),	-- Banner of the Mantid Empire
-				i(95378),	-- Inert Sound Beacon
-				i(95382),	-- Kypari Sap Container
-				i(95380),	-- Mantid Lamp
-				i(95391),	-- Mantid Sky Reaver
-				i(95381),	-- Pollen Collector
-				i(95383),	-- Pristine Banner of the Mantid Empire
-				i(95384),	-- Pristine Ancient Sap Feeder
-				i(95385),	-- Pristine Praying Mantid
-				i(95386),	-- Pristine Sound Beacon
-				i(95387),	-- Pristine Remains of a Paragon
-				i(95388),	-- Pristine Mantid Lamp
-				i(95389),	-- Pristine Pollen Collector
-				i(95390),	-- Pristine Kypari Sap Container
-				i(95379),	-- Remains of a Paragon
-				i(95392),	-- Sonic Pulse Generator
-				i(95377),	-- The Praying Mantid
+				i(95376, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Ancient Sap Feeder
+				i(95375, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Banner of the Mantid Empire
+				i(95378, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Inert Sound Beacon
+				i(95382, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Kypari Sap Container
+				i(95380, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Mantid Lamp
+				i(95391, {["cost"]={{"c",ARCH_CURRENCY_MANTID,180}}}),	-- Mantid Sky Reaver
+				i(95381, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pollen Collector
+				i(95383, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Banner of the Mantid Empire
+				i(95384, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Ancient Sap Feeder
+				i(95385, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Praying Mantid
+				i(95386, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Sound Beacon
+				i(95387, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Remains of a Paragon
+				i(95388, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Mantid Lamp
+				i(95389, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Pollen Collector
+				i(95390, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Pristine Kypari Sap Container
+				i(95379, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- Remains of a Paragon
+				i(95392, {["cost"]={{"c",ARCH_CURRENCY_MANTID,180}}}),	-- Sonic Pulse Generator
+				i(95377, {["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}}),	-- The Praying Mantid
 			},
-		})),
-		header(HEADERS.Currency, ARCH_CURRENCY_MOGU, sharedData({["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}},{ -- TODO: someone can add different fragment costs within as needed
+		}),
+		header(HEADERS.Currency, ARCH_CURRENCY_MOGU, {
 			["provider"] = { "o", 211174 },	-- Mogu Archaeology Find
 			["maps"] = {
 				DREAD_WASTES,
@@ -133,31 +133,31 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 				VALLEY_OF_THE_FOUR_WINDS,
 			},
 			["groups"] = {
-				i(89614),	-- Anatomical Dummy (TOY!)
-				i(79909),	-- Cracked Mogu Runestone
-				i(79913),	-- Edicts of the Thunder King
-				i(79914),	-- Iron Amulet
-				i(79908),	-- Manacles of Rebellion
-				i(79916),	-- Mogu Coin
-				i(79911),	-- Petrified Bone Whip
-				i(89176),	-- Pristine Branding Iron
-				i(89174),	-- Pristine Edicts of the Thunder King
-				i(89175),	-- Pristine Iron Amulet
-				i(89169),	-- Pristine Manacles of Rebellion
-				i(85477),	-- Pristine Mogu Coin
-				i(89170),	-- Pristine Mogu Runestone
-				i(89209),	-- Pristine Monument Ledger
-				i(89172),	-- Pristine Petrified Bone Whip
-				i(89171),	-- Pristine Terracotta Arm
-				i(89173),	-- Pristine Thunder King Insignia
-				i(89611),	-- Quilen Statuette
-				i(79910),	-- Terracotta Arm
-				i(79912),	-- Thunder King Insignia
-				i(79915),	-- Warlord's Branding Iron
-				i(79917),	-- Worn Monument Ledger
+				i(89614, {["cost"]={{"c",ARCH_CURRENCY_MOGU,180}}}),	-- Anatomical Dummy (TOY!)
+				i(79909, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Cracked Mogu Runestone
+				i(79913, {["cost"]={{"c",ARCH_CURRENCY_MOGU,60}}}),	-- Edicts of the Thunder King
+				i(79914, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Iron Amulet
+				i(79908, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Manacles of Rebellion
+				i(79916, {["cost"]={{"c",ARCH_CURRENCY_MOGU,30}}}),	-- Mogu Coin
+				i(79911, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Petrified Bone Whip
+				i(89176, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Branding Iron
+				i(89174, {["cost"]={{"c",ARCH_CURRENCY_MOGU,60}}}),	-- Pristine Edicts of the Thunder King
+				i(89175, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Iron Amulet
+				i(89169, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Manacles of Rebellion
+				i(85477, {["cost"]={{"c",ARCH_CURRENCY_MOGU,30}}}),	-- Pristine Mogu Coin
+				i(89170, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Mogu Runestone
+				i(89209, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Monument Ledger
+				i(89172, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Petrified Bone Whip
+				i(89171, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Terracotta Arm
+				i(89173, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Pristine Thunder King Insignia
+				i(89611, {["cost"]={{"c",ARCH_CURRENCY_MOGU,180}}}),	-- Quilen Statuette
+				i(79910, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Terracotta Arm
+				i(79912, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Thunder King Insignia
+				i(79915, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Warlord's Branding Iron
+				i(79917, {["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}}),	-- Worn Monument Ledger
 			},
-		})),
-		header(HEADERS.Currency, ARCH_CURRENCY_PANDAREN, sharedData({["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}},{ -- TODO: someone can add different fragment costs within as needed
+		}),
+		header(HEADERS.Currency, ARCH_CURRENCY_PANDAREN, {
 			["provider"] = { "o", 211163 },	-- Pandaren Archaeology Find
 			["maps"] = {
 				KRASARANG_WILDS,
@@ -168,30 +168,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 				VALLEY_OF_THE_FOUR_WINDS,
 			},
 			["groups"] = {
-				i(79903),	-- Apothecary Tins
-				i(79901),	-- Carved Bronze Mirror
-				i(79900),	-- Empty Keg
-				i(79902),	-- Gold-Inlaid Figurine
-				i(79897),	-- Pandaren Game Board
-				i(79896),	-- Pandaren Tea Set
-				i(79904),	-- Pearl of Yu'lon
-				i(89183),	-- Pristine Apothecary Tins
-				i(89181),	-- Pristine Carved Brone Mirror
-				i(89180),	-- Pristine Empty Keg
-				i(85558),	-- Pristine Game Board
-				i(89182),	-- Pristine Gold-Inlaid Figurine
-				i(85557),	-- Pristine Pandaren Tea Set
-				i(89184),	-- Pristine Pearl of Yu'lon
-				i(89185),	-- Pristine Standard of Niuzao
-				i(89178),	-- Pristine Twin Stein Set
-				i(89179),	-- Pristine Walking Cane
-				i(89685),	-- Spear of Xuen
-				i(79905),	-- Standard of Niuzao
-				i(79898),	-- Twin Stein Set
-				i(89684),	-- Umbrella of Chi-Ji
-				i(79899),	-- Walking Cane
+				i(79903, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Apothecary Tins
+				i(79901, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Carved Bronze Mirror
+				i(79900, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Empty Keg
+				i(79902, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Gold-Inlaid Figurine
+				i(79897, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,40}}}),	-- Pandaren Game Board
+				i(79896, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pandaren Tea Set
+				i(79904, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,60}}}),	-- Pearl of Yu'lon
+				i(89183, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Apothecary Tins
+				i(89181, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Carved Brone Mirror
+				i(89180, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Empty Keg
+				i(85558, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Game Board
+				i(89182, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Gold-Inlaid Figurine
+				i(85557, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Pandaren Tea Set
+				i(89184, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,60}}}),	-- Pristine Pearl of Yu'lon
+				i(89185, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Standard of Niuzao
+				i(89178, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Twin Stein Set
+				i(89179, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Pristine Walking Cane
+				i(89685, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,180}}}),	-- Spear of Xuen
+				i(79905, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Standard of Niuzao
+				i(79898, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Twin Stein Set
+				i(89684, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,180}}}),	-- Umbrella of Chi-Ji
+				i(79899, {["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}}),	-- Walking Cane
 			},
-		})),
+		}),
 	}),
 	prof(BLACKSMITHING, {
 		n(DISCOVERY, {
