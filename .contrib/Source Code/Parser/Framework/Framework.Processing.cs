@@ -4471,6 +4471,9 @@ namespace ATT
                         case Objects.Filters.Recipe:
                         case Objects.Filters.Mount:
                             return;
+                        case Objects.Filters.Consumable:
+                            if(!data.ContainsKey("factionID")) return;
+                            break;
                     }
 
                     //LogDebugFormatted("ItemID:{0} Marked as Heirloom. Filter: {1}", itemID, filter.ToString());
