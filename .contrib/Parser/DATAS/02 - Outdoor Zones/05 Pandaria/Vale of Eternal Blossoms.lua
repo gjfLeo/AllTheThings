@@ -8,7 +8,7 @@ local VALE_TOT_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
 		t.u = ]] .. MOP_PHASE_ONE .. [[;
-		t.description = "This will become unavailable when the Rise of the Thunder King phase begins."
+		t.description = "This will become unavailable with the Rise of the Thunder King phase."
 	end
 end]];
 local VALE_SOO_ONUPDATE = [[function(t)
@@ -16,7 +16,7 @@ local VALE_SOO_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
 		t.u = ]] .. MOP_PHASE_ONE .. [[;
-		t.description = "This will become unavailable when the Siege of Orgrimmar phase begins."
+		t.description = "This will become unavailable with the Siege of Orgrimmar phase."
 	end
 end]];
 -- #endif
@@ -427,10 +427,14 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 						["groups"] = {
-							i(80484),	-- Explosive Keg (QI!)
+							i(80484, {
+								-- #if MOP
+								["OnUpdate"] = VALE_SOO_ONUPDATE,
+								-- #endif
+							}),	-- Explosive Keg (QI!)
 						},
 					}),
 					q(30642, {	-- Battle Axe of the Thunder King
@@ -439,9 +443,14 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 							i(90601),	-- Bonded Plate of the Golden Lotus
 							i(90607),	-- Burning Robes of the Golden Lotus
 							i(90598),	-- Crackling Chain of the Golden Lotus
@@ -459,7 +468,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30640, {	-- Battle Spear of the Thunder King
@@ -468,7 +477,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(32016, {	-- Elder Charms of Good Fortune
@@ -478,12 +487,12 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["isWeekly"] = true,
 						-- #if MOP
-						["OnUpdate"] = VALE_TOT_ONUPDATE;
+						["OnUpdate"] = VALE_TOT_ONUPDATE,
 						-- #endif
 						["groups"] = {
 							currency(697, {	-- Elder Charm of Good Fortune
 								-- #if MOP
-								["OnUpdate"] = VALE_TOT_ONUPDATE;
+								["OnUpdate"] = VALE_TOT_ONUPDATE,
 								-- #endif
 							}),
 						},
@@ -495,12 +504,12 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isWeekly"] = true,
 						-- #if MOP
-						["OnUpdate"] = VALE_TOT_ONUPDATE;
+						["OnUpdate"] = VALE_TOT_ONUPDATE,
 						-- #endif
 						["groups"] = {
 							currency(697, {	-- Elder Charm of Good Fortune
 								-- #if MOP
-								["OnUpdate"] = VALE_TOT_ONUPDATE;
+								["OnUpdate"] = VALE_TOT_ONUPDATE,
 								-- #endif
 							}),
 						},
@@ -518,7 +527,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["u"] = REMOVED_FROM_GAME,
 					}),
-					
 					q(30635, {	-- Killing the Quilen
 						["sourceQuests"] = {
 							30633,	-- Out with the Scouts
@@ -528,7 +536,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30638, {	-- Leaving an Opening
@@ -542,7 +550,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30633, {	-- Out with the Scouts
@@ -551,7 +559,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30636, {	-- Stones of Power
@@ -563,7 +571,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(31369, {	-- The Anglers [A]
@@ -586,9 +594,14 @@ root(ROOTS.Zones, {
 						["coord"] = { 74.2, 41.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 							i(90596),	-- Burning Necklace of the Golden Lotus
 							i(90593),	-- Delicate Necklace of the Golden Lotus
 							i(90594),	-- Durable Necklace of the Golden Lotus
@@ -602,7 +615,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30654, {	-- The Guo-Lai Halls
@@ -611,7 +624,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(31876, {	-- The Inkmasters of the Arboretum
@@ -626,7 +639,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30643, {	-- The Mogu's Message
@@ -635,7 +648,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(32815, applyclassicphase(MOP_PHASE_ESCALATION, {	-- The Old Seer
@@ -654,7 +667,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30639, {	-- The Secrets of Guo-Lai
@@ -668,9 +681,14 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 } }, {
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 							i(90615),	-- Burning Mark of the Golden Lotus
 							i(90614),	-- Delicate Mark of the Golden Lotus
 							i(90618),	-- Durable Mark of the Golden Lotus
@@ -685,7 +703,7 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["races"] = ALLIANCE_ONLY,
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30649, {	-- The Shrine of Two Moons
@@ -695,7 +713,7 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["races"] = HORDE_ONLY,
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 					q(30644, {	-- What Comes to Pass
@@ -704,7 +722,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE;
+						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
 				}),
