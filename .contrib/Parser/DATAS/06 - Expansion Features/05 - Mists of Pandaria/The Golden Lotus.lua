@@ -2,6 +2,8 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 -- #if MOP
+-- TODO: https://wowpedia.fandom.com/wiki/The_Ruins_of_Guo-Lai_(daily)
+-- Look at the Golden Lotus daileis table at the "Progression" section at the bottom.
 local VALE_SOO_ONUPDATE = [[function(t)
 	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_SIEGE_OF_ORGRIMMAR .. [[) then
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
@@ -709,6 +711,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },	-- CRIEVE NOTE: This opened at Honored for me.
 					-- #if MOP
 					["OnUpdate"] = VALE_SOO_ONUPDATE;
 					-- #endif
