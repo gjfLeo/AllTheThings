@@ -42,7 +42,7 @@ end]];
 
 root(ROOTS.PVP, {
 	run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.MOP, {
-		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, {
+		n(SEASON_MALEVOLENT, applyclassicphase(MOP_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 			n(ACHIEVEMENTS, bubbleDown({
 				["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 				-- #if BEFORE WOD
@@ -273,7 +273,12 @@ root(ROOTS.PVP, {
 					moh(2, i(84437)),	-- Dreadful Gladiator's Warboots of Alacrity
 					moh(2, i(84436)),	-- Dreadful Gladiator's Warboots of Cruelty
 				}),
-				filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+				filter(FINGER_F, sharedData({
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+					-- #if BEFORE WOD
+					["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+					-- #endif
+				}, {
 					i(84370),	-- Dreadful Gladiator's Band of Accuracy
 					i(84369),	-- Dreadful Gladiator's Band of Cruelty
 					i(84371),	-- Dreadful Gladiator's Band of Meditation
@@ -282,7 +287,12 @@ root(ROOTS.PVP, {
 					i(84498),	-- Dreadful Gladiator's Signet of Accuracy
 					i(84497),	-- Dreadful Gladiator's Signet of Cruelty
 				})),
-				filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+				filter(NECK_F, sharedData({
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+					-- #if BEFORE WOD
+					["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+					-- #endif
+				}, {
 					i(84494),	-- Dreadful Gladiator's Choker of Accuracy
 					i(84493),	-- Dreadful Gladiator's Choker of Proficiency
 					i(84347),	-- Dreadful Gladiator's Necklace of Proficiency
@@ -291,7 +301,12 @@ root(ROOTS.PVP, {
 					i(84366),	-- Dreadful Gladiator's Pendant of Cruelty
 					i(84367),	-- Dreadful Gladiator's Pendant of Meditation
 				})),
-				filter(TRINKET_F, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+				filter(TRINKET_F, sharedData({
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+					-- #if BEFORE WOD
+					["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+					-- #endif
+				}, {
 					i(84344),	-- Dreadful Gladiator's Badge of Conquest
 					i(84488),	-- Dreadful Gladiator's Badge of Dominance
 					i(84490),	-- Dreadful Gladiator's Badge of Victory
@@ -312,7 +327,12 @@ root(ROOTS.PVP, {
 			n(PVP_GLADIATOR, {
 			--	["description"] = "These items are available from Malevolent Gladiator: Season 12 class ensembles only",
 				["groups"] = {
-					n(WEAPONS, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+					n(WEAPONS, sharedData({
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						-- #endif
+					}, {
 						moh(80, iensemble(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
 							["timeline"] = { ADDED_7_1_5 },
 						})),
@@ -573,7 +593,12 @@ root(ROOTS.PVP, {
 						i(84829),	-- Malevolent Gladiator's Signet of Accuracy
 						i(84828),	-- Malevolent Gladiator's Signet of Cruelty
 					}),
-					filter(TRINKET_F, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }, {
+					filter(TRINKET_F, sharedData({
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						-- #endif
+					}, {
 						i(84934),	-- Malevolent Gladiator's Badge of Conquest
 						i(84940),	-- Malevolent Gladiator's Badge of Dominance
 						i(84942),	-- Malevolent Gladiator's Badge of Victory
@@ -780,8 +805,8 @@ root(ROOTS.PVP, {
 					i(85000),	-- Malevolent Gladiator's Warboots of Cruelty
 				}),
 			})),
-		})),
-		n(SEASON_TYRANNICAL, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
+		}))),
+		n(SEASON_TYRANNICAL, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
 			n(ACHIEVEMENTS, bubbleDown({
 				["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 },
 				-- #if BEFORE WOD
@@ -1009,7 +1034,7 @@ root(ROOTS.PVP, {
 						moh(2, i(91656)),	-- Malevolent Gladiator's Warboots of Alacrity
 						moh(2, i(91654)),	-- Malevolent Gladiator's Warboots of Cruelty
 					}),
-					filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
+					filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 						i(91492),	-- Malevolent Gladiator's Band of Accuracy
 						i(91491),	-- Malevolent Gladiator's Band of Cruelty
 						i(91493),	-- Malevolent Gladiator's Band of Meditation
@@ -1018,7 +1043,7 @@ root(ROOTS.PVP, {
 						i(91770),	-- Malevolent Gladiator's Signet of Accuracy
 						i(91769),	-- Malevolent Gladiator's Signet of Cruelty
 					})),
-					filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
+					filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 						i(91767),	-- Malevolent Gladiator's Choker of Accuracy
 						i(91766),	-- Malevolent Gladiator's Choker of Proficiency
 						i(91455),	-- Malevolent Gladiator's Necklace of Proficiency
@@ -1027,7 +1052,7 @@ root(ROOTS.PVP, {
 						i(91488),	-- Malevolent Gladiator's Pendant of Cruelty
 						i(91490),	-- Malevolent Gladiator's Pendant of Meditation
 					})),
-					filter(TRINKET_F, bubbleDown({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
+					filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 						i(91452),	-- Malevolent Gladiator's Badge of Conquest
 						i(91753),	-- Malevolent Gladiator's Badge of Dominance
 						i(91763),	-- Malevolent Gladiator's Badge of Victory
@@ -1050,7 +1075,7 @@ root(ROOTS.PVP, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					n(PVP_GLADIATOR, {
-						n(WEAPONS, {
+						n(WEAPONS, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 							moh(80, iensemble(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
@@ -1077,7 +1102,7 @@ root(ROOTS.PVP, {
 							i(91408),	-- Tyrannical Gladiator's Slicer
 							i(91131),	-- Tyrannical Gladiator's Spellblade
 							i(91182),	-- Tyrannical Gladiator's Staff
-						}),
+						})),
 						cl(DEATHKNIGHT, {
 							moh(12, iensemble(138683, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
 								["timeline"] = { ADDED_7_1_5 },
@@ -1307,7 +1332,7 @@ root(ROOTS.PVP, {
 							i(91417),	-- Tyrannical Gladiator's Signet of Accuracy
 							i(91416),	-- Tyrannical Gladiator's Signet of Cruelty
 						}),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 							i(91099),	-- Tyrannical Gladiator's Badge of Conquest
 							i(91400),	-- Tyrannical Gladiator's Badge of Dominance
 							i(91410),	-- Tyrannical Gladiator's Badge of Victory
@@ -1320,7 +1345,7 @@ root(ROOTS.PVP, {
 							i(94386),	-- Tyrannical Gladiator's Medallion of Cruelty (A)
 							i(94388),	-- Tyrannical Gladiator's Medallion of Meditation (A)
 							i(94361),	-- Tyrannical Gladiator's Medallion of Tenacity (A)
-						}),
+						})),
 					}),
 				},
 			}),
@@ -1328,7 +1353,7 @@ root(ROOTS.PVP, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					n(PVP_GLADIATOR, {
-						n(WEAPONS, {
+						n(WEAPONS, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 							moh(80, iensemble(144245, {	-- Arsenal: Tyrannical Gladiator's Weapons (H)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
@@ -1355,7 +1380,7 @@ root(ROOTS.PVP, {
 							i(94318),	-- Tyrannical Gladiator's Slicer
 							i(94306),	-- Tyrannical Gladiator's Spellblade
 							i(94307),	-- Tyrannical Gladiator's Staff
-						}),
+						})),
 						cl(DEATHKNIGHT, {
 							moh(12, iensemble(138684, {	-- Ensemble: Tyrannical Gladiator's Dreadplate Armor
 								["timeline"] = { ADDED_7_1_5 },
@@ -1585,7 +1610,7 @@ root(ROOTS.PVP, {
 							i(94462),	-- Tyrannical Gladiator's Signet of Accuracy
 							i(94417),	-- Tyrannical Gladiator's Signet of Cruelty
 						}),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 							i(94373),	-- Tyrannical Gladiator's Badge of Conquest
 							i(94346),	-- Tyrannical Gladiator's Badge of Dominance
 							i(94349),	-- Tyrannical Gladiator's Badge of Victory
@@ -1598,11 +1623,11 @@ root(ROOTS.PVP, {
 							i(94454),	-- Tyrannical Gladiator's Medallion of Cruelty (H)
 							i(94338),	-- Tyrannical Gladiator's Medallion of Meditation (H)
 							i(94387),	-- Tyrannical Gladiator's Medallion of Tenacity (H)
-						}),
+						})),
 					}),
 				},
 			}),
-			n(PVP_ELITE, {
+			n(PVP_ELITE, sharedData({ ["timeline"] = { ADDED_5_2_0, REMOVED_5_4_0 } }, {
 				-- Original Sources are:
 				-- n70101 Armsmaster Holinka in Valley of the Four Winds (Alliance)
 				-- n70108 Roo Desvin in Area Kun-Lai Summit (Horde)
@@ -1790,10 +1815,10 @@ root(ROOTS.PVP, {
 				filter(TABARDS, {
 					i(98162),	-- Tyrannical Gladiator's Tabard
 				}),
-			}),
-		})),
+			})),
+		}))),
 		-- Wouter NOTE: temporarily tied this to SoO phase release for MoP Classic, but this will likely be different
-		n(SEASON_GRIEVOUS, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {
+		n(SEASON_GRIEVOUS, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 				ach(8649),	-- Challenger: Mists of Pandaria Season 3/Season 14
 				ach(8645, {	-- Duelist: Mists of Pandaria Season 3/Season 14
@@ -2037,7 +2062,7 @@ root(ROOTS.PVP, {
 							moh(2, i(99889)),	-- Tyrannical Gladiator's Warboots of Alacrity
 							moh(2, i(99888)),	-- Tyrannical Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(99947),	-- Tyrannical Gladiator's Choker of Accuracy
 							i(99946),	-- Tyrannical Gladiator's Choker of Proficiency
 							i(99775),	-- Tyrannical Gladiator's Necklace of Proficiency
@@ -2045,8 +2070,8 @@ root(ROOTS.PVP, {
 							i(99798),	-- Tyrannical Gladiator's Pendant of Alacrity
 							i(99797),	-- Tyrannical Gladiator's Pendant of Cruelty
 							i(99799),	-- Tyrannical Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
+						})),
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(99801),	-- Tyrannical Gladiator's Band of Accuracy
 							i(99800),	-- Tyrannical Gladiator's Band of Cruelty
 							i(99802),	-- Tyrannical Gladiator's Band of Meditation
@@ -2054,8 +2079,8 @@ root(ROOTS.PVP, {
 							i(99778),	-- Tyrannical Gladiator's Ring of Cruelty
 							i(99950),	-- Tyrannical Gladiator's Signet of Accuracy
 							i(99949),	-- Tyrannical Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
+						})),
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(99772),	-- Tyrannical Gladiator's Badge of Conquest
 							i(99937),	-- Tyrannical Gladiator's Badge of Dominance
 							i(99943),	-- Tyrannical Gladiator's Badge of Victory
@@ -2068,7 +2093,7 @@ root(ROOTS.PVP, {
 							i(100056),	-- Tyrannical Gladiator's Medallion of Cruelty (A)
 							i(100058),	-- Tyrannical Gladiator's Medallion of Meditation (A)
 							i(100031),	-- Tyrannical Gladiator's Medallion of Tenacity (A)
-						}),
+						})),
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
@@ -2248,7 +2273,7 @@ root(ROOTS.PVP, {
 							i(100526),	-- Grievous Gladiator's Plate Legguards
 							i(100528),	-- Grievous Gladiator's Plate Shoulders
 						}),
-						n(BACK, {
+						n(BACK, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100196),	-- Grievous Gladiator's Cape of Cruelty
 							i(100197),	-- Grievous Gladiator's Cape of Prowess
 							i(100501),	-- Grievous Gladiator's Cloak of Alacrity
@@ -2256,7 +2281,7 @@ root(ROOTS.PVP, {
 							i(100220),	-- Grievous Gladiator's Drape of Cruelty
 							i(100222),	-- Grievous Gladiator's Drape of Meditation
 							i(100221),	-- Grievous Gladiator's Drape of Prowess
-						}),
+						})),
 						n(WRIST, {
 							i(100447),	-- Grievous Gladiator's Armbands of Meditation
 							i(100446),	-- Grievous Gladiator's Armbands of Prowess
@@ -2332,7 +2357,7 @@ root(ROOTS.PVP, {
 							i(100399),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100397),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100504),	-- Grievous Gladiator's Choker of Accuracy
 							i(100503),	-- Grievous Gladiator's Choker of Proficiency
 							i(100198),	-- Grievous Gladiator's Necklace of Proficiency
@@ -2341,7 +2366,7 @@ root(ROOTS.PVP, {
 							i(100231),	-- Grievous Gladiator's Pendant of Cruelty
 							i(100233),	-- Grievous Gladiator's Pendant of Meditation
 						})),
-						filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100235),	-- Grievous Gladiator's Band of Accuracy
 							i(100234),	-- Grievous Gladiator's Band of Cruelty
 							i(100236),	-- Grievous Gladiator's Band of Meditation
@@ -2350,7 +2375,7 @@ root(ROOTS.PVP, {
 							i(100507),	-- Grievous Gladiator's Signet of Accuracy
 							i(100506),	-- Grievous Gladiator's Signet of Cruelty
 						})),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100195),	-- Grievous Gladiator's Badge of Conquest
 							i(100490),	-- Grievous Gladiator's Badge of Dominance
 							i(100500),	-- Grievous Gladiator's Badge of Victory
@@ -2363,7 +2388,7 @@ root(ROOTS.PVP, {
 							i(100616),	-- Grievous Gladiator's Medallion of Cruelty (A)
 							i(100618),	-- Grievous Gladiator's Medallion of Meditation (A)
 							i(100591),	-- Grievous Gladiator's Medallion of Tenacity (A)
-						}),
+						})),
 					}),
 				},
 			}),
@@ -2568,7 +2593,7 @@ root(ROOTS.PVP, {
 							moh(2, i(100131)),	-- Tyrannical Gladiator's Warboots of Alacrity
 							moh(2, i(100084)),	-- Tyrannical Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100024),	-- Tyrannical Gladiator's Choker of Accuracy
 							i(100135),	-- Tyrannical Gladiator's Choker of Proficiency
 							i(100064),	-- Tyrannical Gladiator's Necklace of Proficiency
@@ -2576,8 +2601,8 @@ root(ROOTS.PVP, {
 							i(100143),	-- Tyrannical Gladiator's Pendant of Alacrity
 							i(100159),	-- Tyrannical Gladiator's Pendant of Cruelty
 							i(100122),	-- Tyrannical Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
+						})),
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100033),	-- Tyrannical Gladiator's Band of Accuracy
 							i(100060),	-- Tyrannical Gladiator's Band of Cruelty
 							i(100144),	-- Tyrannical Gladiator's Band of Meditation
@@ -2585,8 +2610,8 @@ root(ROOTS.PVP, {
 							i(100027),	-- Tyrannical Gladiator's Ring of Cruelty
 							i(100132),	-- Tyrannical Gladiator's Signet of Accuracy
 							i(100087),	-- Tyrannical Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
+						})),
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100043),	-- Tyrannical Gladiator's Badge of Conquest
 							i(100016),	-- Tyrannical Gladiator's Badge of Dominance
 							i(100019),	-- Tyrannical Gladiator's Badge of Victory
@@ -2599,10 +2624,10 @@ root(ROOTS.PVP, {
 							i(100124),	-- Tyrannical Gladiator's Medallion of Cruelty (H)
 							i(100006),	-- Tyrannical Gladiator's Medallion of Meditation (H)
 							i(100057),	-- Tyrannical Gladiator's Medallion of Tenacity (H)
-						}),
+						})),
 					}),
 					n(PVP_GLADIATOR, {
-						n(WEAPONS, {
+						n(WEAPONS, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							moh(80, iensemble(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
 								["timeline"] = { ADDED_7_1_5 },
 							})),
@@ -2630,7 +2655,7 @@ root(ROOTS.PVP, {
 							i(100545),	-- Grievous Gladiator's Shanker
 							i(100730),	-- Grievous Gladiator's Shield Wall
 							i(100548),	-- Grievous Gladiator's Slicer
-						}),
+						})),
 						cl(DEATHKNIGHT, {
 							moh(12, iensemble(138662, {	-- Ensemble: Grievous Gladiator's Dreadplate Armor
 								["timeline"] = { ADDED_7_1_5 },
@@ -2776,7 +2801,7 @@ root(ROOTS.PVP, {
 							i(100678),	-- Grievous Gladiator's Plate Legguards
 							i(100631),	-- Grievous Gladiator's Plate Shoulders
 						}),
-						n(BACK, {
+						n(BACK, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100651),	-- Grievous Gladiator's Cape of Cruelty
 							i(100585),	-- Grievous Gladiator's Cape of Prowess
 							i(100715),	-- Grievous Gladiator's Cloak of Alacrity
@@ -2784,7 +2809,7 @@ root(ROOTS.PVP, {
 							i(100613),	-- Grievous Gladiator's Drape of Cruelty
 							i(100702),	-- Grievous Gladiator's Drape of Meditation
 							i(100718),	-- Grievous Gladiator's Drape of Prowess
-						}),
+						})),
 						n(WRIST, {
 							i(100567),	-- Grievous Gladiator's Armbands of Meditation
 							i(100609),	-- Grievous Gladiator's Armbands of Prowess
@@ -2860,7 +2885,7 @@ root(ROOTS.PVP, {
 							i(100691),	-- Grievous Gladiator's Warboots of Alacrity
 							i(100644),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100584),	-- Grievous Gladiator's Choker of Accuracy
 							i(100695),	-- Grievous Gladiator's Choker of Proficiency
 							i(100624),	-- Grievous Gladiator's Necklace of Proficiency
@@ -2869,7 +2894,7 @@ root(ROOTS.PVP, {
 							i(100719),	-- Grievous Gladiator's Pendant of Cruelty
 							i(100682),	-- Grievous Gladiator's Pendant of Meditation
 						})),
-						filter(FINGER_F, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100593),	-- Grievous Gladiator's Band of Accuracy
 							i(100620),	-- Grievous Gladiator's Band of Cruelty
 							i(100704),	-- Grievous Gladiator's Band of Meditation
@@ -2878,7 +2903,7 @@ root(ROOTS.PVP, {
 							i(100692),	-- Grievous Gladiator's Signet of Accuracy
 							i(100647),	-- Grievous Gladiator's Signet of Cruelty
 						})),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 							i(100603),	-- Grievous Gladiator's Badge of Conquest
 							i(100576),	-- Grievous Gladiator's Badge of Dominance
 							i(100579),	-- Grievous Gladiator's Badge of Victory
@@ -2891,11 +2916,11 @@ root(ROOTS.PVP, {
 							i(100684),	-- Grievous Gladiator's Medallion of Cruelty (H)
 							i(100568),	-- Grievous Gladiator's Medallion of Meditation (H)
 							i(100617),	-- Grievous Gladiator's Medallion of Tenacity (H)
-						}),
+						})),
 					}),
 				},
 			}),
-			n(PVP_ELITE, {
+			n(PVP_ELITE, bubbleDown({ ["timeline"] = { ADDED_5_4_0, REMOVED_5_4_7 }, }, {
 				-- Original Sources are:
 				-- n00000 Unknown in Valley of the Four Winds (Alliance)
 				-- n00000 Unknown in Area Kun-Lai Summit (Horde)
@@ -3081,10 +3106,10 @@ root(ROOTS.PVP, {
 				filter(TABARDS, {
 					i(101697),	-- Grievous Gladiator's Tabard
 				}),
-			}),
-		})),
+			})),
+		}))),
 		-- Wouter NOTE: temporarily tied this to SoO phase release for MoP Classic, but this will likely be different
-		n(SEASON_PRIDEFUL, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {
+		n(SEASON_PRIDEFUL, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_7 } }, {
 			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 				ach(8670),	-- Challenger: Mists of Pandaria Season 4/Season 15
 				ach(8668, {	-- Duelist: Mists of Pandaria Season 4/Season 15
@@ -3331,7 +3356,7 @@ root(ROOTS.PVP, {
 							moh(2, i(103261)),	-- Grievous Gladiator's Warboots of Alacrity
 							moh(2, i(103260)),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(103318),	-- Grievous Gladiator's Choker of Accuracy
 							i(103317),	-- Grievous Gladiator's Choker of Proficiency
 							i(103148),	-- Grievous Gladiator's Necklace of Proficiency
@@ -3339,8 +3364,8 @@ root(ROOTS.PVP, {
 							i(103171),	-- Grievous Gladiator's Pendant of Alacrity
 							i(103170),	-- Grievous Gladiator's Pendant of Cruelty
 							i(103172),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
+						})),
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(103174),	-- Grievous Gladiator's Band of Accuracy
 							i(103173),	-- Grievous Gladiator's Band of Cruelty
 							i(103175),	-- Grievous Gladiator's Band of Meditation
@@ -3348,8 +3373,8 @@ root(ROOTS.PVP, {
 							i(103151),	-- Grievous Gladiator's Ring of Cruelty
 							i(103321),	-- Grievous Gladiator's Signet of Accuracy
 							i(103320),	-- Grievous Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
+						})),
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(103145),	-- Grievous Gladiator's Badge of Conquest
 							i(103308),	-- Grievous Gladiator's Badge of Dominance
 							i(103314),	-- Grievous Gladiator's Badge of Victory
@@ -3362,7 +3387,7 @@ root(ROOTS.PVP, {
 							i(103334),	-- Grievous Gladiator's Medallion of Cruelty (A)
 							i(103335),	-- Grievous Gladiator's Medallion of Meditation (A)
 							i(103333),	-- Grievous Gladiator's Medallion of Tenacity (A)
-						}),
+						})),
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
@@ -3626,7 +3651,7 @@ root(ROOTS.PVP, {
 							i(102746),	-- Prideful Gladiator's Signet of Accuracy
 							i(102701),	-- Prideful Gladiator's Signet of Cruelty
 						}),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 } }, {
 							i(102659),	-- Prideful Gladiator's Badge of Conquest
 							i(102633),	-- Prideful Gladiator's Badge of Dominance
 							i(102636),	-- Prideful Gladiator's Badge of Victory
@@ -3639,7 +3664,7 @@ root(ROOTS.PVP, {
 							i(102738),	-- Prideful Gladiator's Medallion of Cruelty (A)
 							i(102625),	-- Prideful Gladiator's Medallion of Meditation (A)
 							i(102672),	-- Prideful Gladiator's Medallion of Tenacity (A)
-						}),
+						})),
 					}),
 				},
 			}),
@@ -3847,7 +3872,7 @@ root(ROOTS.PVP, {
 							moh(2, i(102942)),	-- Grievous Gladiator's Warboots of Alacrity
 							moh(2, i(102895)),	-- Grievous Gladiator's Warboots of Cruelty
 						}),
-						filter(NECK_F, {
+						filter(NECK_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(102838),	-- Grievous Gladiator's Choker of Accuracy
 							i(102946),	-- Grievous Gladiator's Choker of Proficiency
 							i(102875),	-- Grievous Gladiator's Necklace of Proficiency
@@ -3855,8 +3880,8 @@ root(ROOTS.PVP, {
 							i(102954),	-- Grievous Gladiator's Pendant of Alacrity
 							i(102970),	-- Grievous Gladiator's Pendant of Cruelty
 							i(102933),	-- Grievous Gladiator's Pendant of Meditation
-						}),
-						filter(FINGER_F, {
+						})),
+						filter(FINGER_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(102846),	-- Grievous Gladiator's Band of Accuracy
 							i(102871),	-- Grievous Gladiator's Band of Cruelty
 							i(102955),	-- Grievous Gladiator's Band of Meditation
@@ -3864,8 +3889,8 @@ root(ROOTS.PVP, {
 							i(102841),	-- Grievous Gladiator's Ring of Cruelty
 							i(102943),	-- Grievous Gladiator's Signet of Accuracy
 							i(102898),	-- Grievous Gladiator's Signet of Cruelty
-						}),
-						filter(TRINKET_F, {
+						})),
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 }, }, {
 							i(102856),	-- Grievous Gladiator's Badge of Conquest
 							i(102830),	-- Grievous Gladiator's Badge of Dominance
 							i(102833),	-- Grievous Gladiator's Badge of Victory
@@ -3878,7 +3903,7 @@ root(ROOTS.PVP, {
 							i(102935),	-- Grievous Gladiator's Medallion of Cruelty (H)
 							i(102822),	-- Grievous Gladiator's Medallion of Meditation (H)
 							i(102869),	-- Grievous Gladiator's Medallion of Tenacity (H)
-						}),
+						})),
 					}),
 					n(PVP_GLADIATOR, {
 						n(WEAPONS, {
@@ -4143,7 +4168,7 @@ root(ROOTS.PVP, {
 							i(103518),	-- Prideful Gladiator's Signet of Accuracy
 							i(103517),	-- Prideful Gladiator's Signet of Cruelty
 						}),
-						filter(TRINKET_F, {
+						filter(TRINKET_F, sharedData({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 } }, {
 							i(103342),	-- Prideful Gladiator's Badge of Conquest
 							i(103505),	-- Prideful Gladiator's Badge of Dominance
 							i(103511),	-- Prideful Gladiator's Badge of Victory
@@ -4156,11 +4181,11 @@ root(ROOTS.PVP, {
 							i(103531),	-- Prideful Gladiator's Medallion of Cruelty (H)
 							i(103532),	-- Prideful Gladiator's Medallion of Meditation (H)
 							i(103530),	-- Prideful Gladiator's Medallion of Tenacity (H)
-						}),
+						})),
 					}),
 				},
 			}),
-			n(PVP_ELITE, {
+			n(PVP_ELITE, bubbleDown({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_0_2 } }, {
 				-- Original Sources are:
 				-- n73147 Ethan Natice in Valley of the Four Winds (Alliance)
 				-- n73145 Acon Deathwielder in Area Kun-Lai Summit (Horde)
@@ -4346,8 +4371,8 @@ root(ROOTS.PVP, {
 				filter(TABARDS, {
 					i(103636),	-- Prideful Gladiator's Tabard
 				}),
-			}),
-		})),
+			})),
+		}))),
 	}))),
 });
 
