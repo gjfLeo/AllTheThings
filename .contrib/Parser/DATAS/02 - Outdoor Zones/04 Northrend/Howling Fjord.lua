@@ -1273,9 +1273,9 @@ root(ROOTS.Zones, {
 						["qg"] = 23938,	-- Pontius
 						["coord"] = { 79.1, 31.2, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = {
 							i(33238),	-- Crow Meat (QI!)
 							i(33221),	-- Plaguehound Cage (QI!)
-						['groups'] = {
 						},
 					}),
 					q(11436, {	-- Let's Go Surfing Now
