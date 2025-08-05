@@ -232,8 +232,27 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
 				})),
+				hqt(86407, {
+					["name"] = "Received Item from Underpin (Delve)",
+					["providers"] = {
+						{"n",234168},	-- The Underpin ?
+						{"n",236626},	-- The Underpin ??
+					},
+					["timeline"]={ADDED_11_1_0_SEASONSTART},
+					["isWeekly"] = true,
+				}),
 			},
 		})),
+		hqt(87286, {	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
+			["name"] = "Received Item from Underpin (Summon)",
+			["providers"] = {
+				{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
+				{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
+				{"n",236942},	-- The Underpin
+			},
+			["timeline"]={ADDED_11_1_0_SEASONSTART},
+			["isWeekly"] = true,
+		}),
 	})),
 	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
@@ -2674,7 +2693,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(226258, {	-- Delver's Pouch of Reagents
-						["cost"] = {{"c", UNDERCOIN, 1500}},
+						["cost"] = {{"c", UNDERCOIN, 500}},
 					}),
 					i(226259, {	-- Delver's Pouch of Resonance Crystals
 						["cost"] = {{"c", UNDERCOIN, 2000}},
@@ -3977,15 +3996,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			-- q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter) [linked to Item]
 			q(86438),	-- Opened first Nemesis Strongbox (first purple on account)
 			-- Underpin Invasion
-			q(87286, {	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
-				["name"] = "Received Item from Underpin",
-				["providers"] = {
-					{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
-					{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
-					{"n",236942},	-- The Underpin
-				},
-				["isWeekly"] = true,
-			}),
 			q(87287, {["isWeekly"] = true}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 			--- Overcharged Delves
 			-- Belt unlocks
@@ -4032,8 +4042,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(86325),	-- Looting first Zekvir cache from above kil
 
 		-- Underpin Delve
-		q(86407, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
-		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
+		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Unlock 'Hataclysm' achieve dialog
 
 		-- Ky'veza Delve
 	})),
