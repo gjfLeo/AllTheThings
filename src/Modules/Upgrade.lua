@@ -320,30 +320,30 @@ local BonusIDNextUnlock = {
 
 	-- 11.1
 	-- Veteran [https://wago.tools/db2/ItemBonus?build=11.1.0.59538&filter%5BValue_0%5D=439&filter%5BType%5D=34&page=1&sort%5BParentItemBonusListID%5D=asc]
-	[11969] = 11973,
-	[11970] = 11973,
-	[11971] = 11973,
-	[11972] = 11973,
+	-- [11969] = 11973,
+	-- [11970] = 11973,
+	-- [11971] = 11973,
+	-- [11972] = 11973,
 	-- [11973] = 0,
 	-- [11974] = 0,
 	-- [11975] = 0,
 	-- [11976] = 0,
 
 	-- Champion [https://wago.tools/db2/ItemBonus?build=11.1.0.59538&filter%5BValue_0%5D=440&filter%5BType%5D=34&page=1&sort%5BParentItemBonusListID%5D=asc]
-	[11977] = 11982,
-	[11978] = 11982,
-	[11979] = 11982,
-	[11980] = 11982,
+	-- [11977] = 11982,
+	-- [11978] = 11982,
+	-- [11979] = 11982,
+	-- [11980] = 11982,
 	-- [11981] = 0,	-- should be this bonusID, but it's currently assigned to the wrong ItemBonusListGroupID
 	-- [11982] = 0,
 	-- [11983] = 0,
 	-- [11984] = 0,
 
 	-- Hero [https://wago.tools/db2/ItemBonus?build=11.1.0.59538&filter%5BType%5D=34&filter%5BValue_0%5D=441&page=1&sort%5BParentItemBonusListID%5D=asc]
-	[11985] = 11989,
-	[11986] = 11989,
-	[11987] = 11989,
-	[11988] = 11989,
+	-- [11985] = 11989,
+	-- [11986] = 11989,
+	-- [11987] = 11989,
+	-- [11988] = 11989,
 	-- [11989] = 0,
 	-- [11990] = 0,
 
@@ -630,7 +630,7 @@ app.AddEventHandler("OnLoad", function()
 		if not nextUpgrade then
 			-- we expected a valid upgrade but one failed to generate, mark the group as working in case it is being displayed in tooltip
 			if nextUpgrade == false then
-				-- app.PrintDebug("mark working",FillData.Root.hash)
+				-- app.PrintDebug("mark working",FillData.Root.hash,app:SearchLink(FillData.Root))
 				FillData.Root.working = true
 			end
 			return
