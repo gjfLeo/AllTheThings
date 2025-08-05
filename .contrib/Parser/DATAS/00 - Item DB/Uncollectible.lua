@@ -368,6 +368,7 @@ i(158765);	-- Hardshell Mollusk
 i(158806);	-- Hooked Talon
 i(155600);	-- How to Make Money and Influence Subordinates
 i(155605);	-- Huge Femur
+i(158810);	-- Humming Dew
 i(163842);	-- Inert Hearthstone
 i(170021);	-- Inert Slivers
 i(155631);	-- Inert Stone

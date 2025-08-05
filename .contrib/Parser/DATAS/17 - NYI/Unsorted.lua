@@ -2027,7 +2027,6 @@ root(ROOTS.Unsorted, {
 				i(158805),	-- Soft Turtle Shell \\ PH Flavor - Beast  - Raven - Bird
 				i(158807),	-- PH Flavor - Unused \\ PH Flavor - Doe / Gazelle
 				i(158809),	-- PH Flavor - Unused \\ PH Flavor - Flesh Beast
-				i(158810),	-- Humming Dew \\ PH Flavor - Earth Elemental
 				i(158812),	-- Glowfly Abdomen \\ PH Flavor - Ettin
 				i(158813),	-- Sausage Casing \\ PH Flavor - Lightning Elemental
 				i(158814),	-- Bulging Coin Purse \\ PH Flavor - Unused \\ PH Flavor - Swamp Plant
