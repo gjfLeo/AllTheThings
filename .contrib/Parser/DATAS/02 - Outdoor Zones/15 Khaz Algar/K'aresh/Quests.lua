@@ -292,7 +292,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84861,	-- This Is Our Dome!
 							84862,	-- Void Alliance
 						},
-						["provider"] = { "n", 230814 },	-- Ve'nari
+						["qgs"] = {
+							230814,	-- Ve'nari
+							232642,	-- Void Elf Riftwalker
+						},
 						["coord"] = { 47.1, 54.5, KARESH },
 					}),
 					q(84865, {	-- Divide and Conquer

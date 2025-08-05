@@ -517,6 +517,7 @@ i(169138);	-- Fractured Personality Module
 i(169123);	-- Functional Fiddleswitch
 i(170013);	-- Inanimate Rock
 i(169129);	-- Lovingly Worn Wrench
+i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome
 i(170096);	-- Sodden Highborne Painting
 i(170098);	-- Rusted Girandole Earring

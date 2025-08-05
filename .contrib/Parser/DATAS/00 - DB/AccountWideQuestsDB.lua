@@ -1874,6 +1874,7 @@ ExportDB.AccountWideQuestsDB = {
 	[87332] = true,	-- A Collection of Variables
 	[87335] = true,	-- Echoing Lessons
 	[87336] = true,	-- Remembering Again and Again
+	[87352] = true,	-- First weekly Reshanor account kill for warbound loot
 	[87374] = true,	-- C.H.E.T.T.ing In
 	[87445] = true,	-- Smartest in Town's Attire
 	[87496] = true,	-- Benefit Packages

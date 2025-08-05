@@ -407,7 +407,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(238808),	-- Celeste-Touched Fin
-				i(238810),	-- Mana-Blessed Fin
 				i(238849),	-- Ominous Unblinking Eye
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
