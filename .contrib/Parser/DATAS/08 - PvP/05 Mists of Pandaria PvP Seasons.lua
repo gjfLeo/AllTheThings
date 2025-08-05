@@ -68,6 +68,35 @@ root(ROOTS.PVP, {
 				ach(11717, {["timeline"] = {ADDED_7_2_0}}),	-- Why Male(volent) Models? (PvP Season 12)
 			})),
 			n(PVP_HONOR, {
+				-- #if ANYCLASSIC
+				n(WEAPONS, {
+					i(84714),	-- Dreadful Gladiator's Barrier
+					i(84723),	-- Dreadful Gladiator's Battle Staff
+					i(84719),	-- Dreadful Gladiator's Bonecracker
+					i(84721),	-- Dreadful Gladiator's Bonegrinder
+					i(84701),	-- Dreadful Gladiator's Cleaver
+					i(84707),	-- Dreadful Gladiator's Decapitator
+					i(84711),	-- Dreadful Gladiator's Endgame
+					i(84724),	-- Dreadful Gladiator's Energy Staff
+					i(84720),	-- Dreadful Gladiator's Gavel
+					i(84717),	-- Dreadful Gladiator's Greatsword
+					i(84702),	-- Dreadful Gladiator's Hacker
+					i(84705),	-- Dreadful Gladiator's Longbow
+					i(84722),	-- Dreadful Gladiator's Pike
+					i(84700),	-- Dreadful Gladiator's Pummeler
+					i(84716),	-- Dreadful Gladiator's Quickblade
+					i(84715),	-- Dreadful Gladiator's Redoubt
+					i(84699),	-- Dreadful Gladiator's Render
+					i(84712),	-- Dreadful Gladiator's Reprieve
+					i(84706),	-- Dreadful Gladiator's Rifle
+					i(84696),	-- Dreadful Gladiator's Ripper
+					i(84708),	-- Dreadful Gladiator's Shanker
+					i(84713),	-- Dreadful Gladiator's Shield Wall
+					i(84710),	-- Dreadful Gladiator's Slicer
+					i(84695),	-- Dreadful Gladiator's Spellblade
+					i(84725),	-- Dreadful Gladiator's Staff
+				}),
+				-- #endif
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
 						["timeline"] = { ADDED_7_1_5 },
