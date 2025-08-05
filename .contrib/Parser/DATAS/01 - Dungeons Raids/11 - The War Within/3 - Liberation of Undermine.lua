@@ -678,7 +678,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				}),
 				CommonBossDrops({
 					currency(WEATHERED_UNDERMINE_CREST, {
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 				}),
 				header(HEADERS.LFGDungeon, 2780, {	-- Shock and Awesome
@@ -762,7 +762,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(CARVED_UNDERMINE_CREST, {
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 				}),
 				n(QUESTS, {
@@ -807,7 +807,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(RUNED_UNDERMINE_CREST, {
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 				}),
 				n(QUESTS, {
@@ -836,7 +836,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				CommonBossDrops({
 					currency(GILDED_UNDERMINE_CREST, {
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 				}),
 				n(QUESTS, {
