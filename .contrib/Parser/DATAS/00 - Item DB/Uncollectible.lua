@@ -468,6 +468,7 @@ i(166874);	-- Azerothian Diamond Brooch
 i(166860);	-- Azj'Aqir Onyx Stone
 i(166856);	-- Bwonsamdi Ritual Scepter
 i(166868);	-- Chit of the Black Empire
+i(170037);	-- Cracked Lattice
 i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
 i(166862);	-- Crystal Aqiri Skull
 i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
@@ -482,6 +483,7 @@ i(166858);	-- Silver Sculpture of Sseratus
 i(166797);	-- Star Topaz (Opulence Crown Consumable)
 i(166872);	-- Sterling Truesilver Flatware
 i(166796);	-- Sunset Amber (Opulence Crown Consumable)
+i(170038);	-- Torn Mesh
 i(166288);	-- Waterlogged Junk
 i(166859);	-- Zinj'alor Blue Diamond
 

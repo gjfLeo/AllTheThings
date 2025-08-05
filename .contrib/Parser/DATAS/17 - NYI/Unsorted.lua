@@ -3019,8 +3019,6 @@ root(ROOTS.Unsorted, {
 			i(170034),	-- Overloaded Capacitor
 			i(170035),	-- Corroded Gauge
 			i(170036),	-- Cracked Display
-			i(170037),	-- Cracked Lattice
-			i(170038),	-- Torn Mesh
 			i(170039),	-- Shredded Grid
 			i(170040),	-- Unraveling Web
 			i(170041),	-- Cracked Skull

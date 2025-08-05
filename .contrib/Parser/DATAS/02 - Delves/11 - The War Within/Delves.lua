@@ -243,7 +243,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			},
 		})),
-		hqt(87286, {	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
+		hqt(87286, {	-- after opening Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
 			["name"] = "Received Item from Underpin (Summon)",
 			["providers"] = {
 				{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
@@ -3996,7 +3996,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			-- q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter) [linked to Item]
 			q(86438),	-- Opened first Nemesis Strongbox (first purple on account)
 			-- Underpin Invasion
-			q(87287, {["isWeekly"] = true}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
+			q(87287, {["isWeekly"] = true}),	-- after opening Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 			--- Overcharged Delves
 			-- Belt unlocks
 			q(90945, {["timeline"]={ADDED_11_1_7}}),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
