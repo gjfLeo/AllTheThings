@@ -3979,12 +3979,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			-- Underpin Invasion
 			q(87286, {	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
 				["name"] = "Received Item from Underpin",
-				["isWeekly"] = true,
 				["providers"] = {
 					{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
 					{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
 					{"n",236942},	-- The Underpin
 				},
+				["isWeekly"] = true,
 			}),
 			q(87287, {["isWeekly"] = true}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 			--- Overcharged Delves

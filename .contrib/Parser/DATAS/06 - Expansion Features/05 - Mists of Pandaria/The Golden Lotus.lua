@@ -720,8 +720,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31248, {	-- The Ruins of Guo-Lai
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },	-- CRIEVE NOTE: This opened at Honored for me.
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 					-- #if MOP
 					["OnUpdate"] = VALE_SOO_ONUPDATE;
 					-- #endif
