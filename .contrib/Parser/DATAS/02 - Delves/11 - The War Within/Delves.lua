@@ -3981,8 +3981,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 				["name"] = "Received Item from Underpin",
 				["isWeekly"] = true,
 				["providers"] = {
+					{"i",233186},	-- Wave Scrambler 2000 (not really a quest provider, but otherwise turns into a quest item cuz providers)
 					{"o",507768},	-- Jettisoned Pile of Goblin-Bucks
-					{"i",233186},	-- Wave Scrambler 2000
 					{"n",236942},	-- The Underpin
 				},
 			}),
