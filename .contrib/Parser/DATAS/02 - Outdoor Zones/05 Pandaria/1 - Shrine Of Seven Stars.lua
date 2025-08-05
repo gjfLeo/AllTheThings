@@ -61,16 +61,17 @@ root(ROOTS.Zones, m(PANDARIA, {
 					["u"] = REMOVED_FROM_GAME,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
-				q(33248, {	-- Proving Grounds
+				q(33248, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {	-- Proving Grounds
 					["qg"] = 64101,	-- Taijin the Cyclone
 					["coord"] = { 47.23, 49.71, 393 },
-				}),
-				q(32683, {	-- So You Want to Be a Blacksmith...
+					["timeline"] = { ADDED_5_4_0 },
+				})),
+				q(32683, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- So You Want to Be a Blacksmith...
 					["qg"] = 64085,	-- Cullen Hammerbrow
 					["coord"] = { 71.27, 50.52, 393 },
-					["timeline"] = { REMOVED_8_0_1 },	-- no longer available due to the profession level changes
+					["timeline"] = { ADDED_5_2_0, REMOVED_8_0_1 },	-- no longer available due to the profession level changes
 					["requireSkill"] = BLACKSMITHING,
-				}),
+				})),
 				--[[
 				q(31390, {	-- The Klaxxi
 				}),
