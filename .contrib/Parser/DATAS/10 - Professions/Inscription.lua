@@ -135,8 +135,8 @@ GLYPH_OF_ARMORS = r(95710, {	-- Glyph of Armors / Glyph of Rapid Teleportation [
 	-- #endif
 	["timeline"] = { ADDED_4_0_3, DELETED_7_0_3 },
 });
-GLYPH_OF_THE_BATTLE_HEALER = r(124442, {	-- Glyph of the Battle Healer
-	["name"] = "Glyph of Aspect of the Battle Healer",
+GLYPH_OF_THE_BATTLE_HEALER = r(119481, {	-- Glyph of the Battle Healer
+	["name"] = "Glyph of the Battle Healer",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
 })
 GLYPH_OF_ASPECT_OF_THE_BEAST = r(124442, {	-- Glyph of Aspect of the Beast
@@ -415,7 +415,7 @@ GLYPH_OF_CIRCLE_OF_HEALING = r(57181, {	-- Glyph of Circle of Healing
 	["name"] = "Glyph of Circle of Healing",
 	["timeline"] = { ADDED_3_1_0, DELETED_7_0_3 },
 });
-GLYPH_OF_CLASH = r(132167, {	-- Glyph of Clash
+GLYPH_OF_CLASH = r(124446, {	-- Glyph of Clash
 	["name"] = "Glyph of Clash",
 	["timeline"] = { ADDED_5_0_4, DELETED_6_0_2 },
 });
@@ -1123,6 +1123,10 @@ GLYPH_OF_GARROTE = r(57123, {	-- Glyph of Garrote
 	["name"] = "Glyph of Garrote",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
+GLYPH_OF_GATEWAY_ATTUNEMENT = r(135561, {	-- Glyph of Gateway Attunement
+	["name"] = "Glyph of Gateway Attunement",
+	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
+})
 GLYPH_OF_GHOST_WOLF = r(59326, {	-- Glyph of Ghost Wolf
 	["name"] = "Glyph of Ghost Wolf",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
@@ -3647,6 +3651,7 @@ local CLASS_GLYPHS = cat(1126, {	-- Glyphs
 		GLYPH_OF_FELGUARD,
 		GLYPH_OF_FELHUNTER_AND_DEMON_TRAINING,
 		GLYPH_OF_FLOATING_SHARDS,
+		GLYPH_OF_GATEWAY_ATTUNEMENT,
 		GLYPH_OF_HAUNT_AND_DRAIN_LIFE,
 		GLYPH_OF_HEALTH_FUNNEL,
 		GLYPH_OF_HEALTHSTONE,

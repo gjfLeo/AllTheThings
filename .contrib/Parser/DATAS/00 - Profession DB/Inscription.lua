@@ -623,12 +623,13 @@ i(0, 112430);	-- Glyph of Burning Anger (Research: Blackfallow Ink)
 i(0, 124446);	-- Glyph of Clash
 i(0, 126153);	-- Glyph of Confession
 i(0, 112462);	-- Glyph of Crackling Tiger Lightning (Research: Blackfallow Ink)
+i(0, 112429);	-- Glyph of Crow Feast / Glyph of Hawk Feast [Legion+] (Research: Jadefire Ink)
 i(0, 126701);	-- Glyph of Direction
 i(0, 124447);	-- Glyph of Enduring Healing Sphere
 i(0, 112469);	-- Glyph of Fighting Pose (Research: Ink of the Sea)
 i(0, 57037);	-- Glyph of Focused Wrath
+i(0, 135561);	-- Glyph of Gateway Attunement
 i(0, 124449);	-- Glyph of Guard
-i(0, 112429);	-- Glyph of Crow Feast / Glyph of Hawk Feast [Legion+] (Research: Jadefire Ink)
 i(0, 126687);	-- Glyph of Holy Resurrection
 i(0, 112464);	-- Glyph of Honor (Scroll of Wisdom)
 i(0, 122015);	-- Glyph of Incite
@@ -725,7 +726,6 @@ i(0, 148259);	--
 i(0, 148279);	--
 i(0, 148283);	--
 i(0, 148284);	--
-i(0, 135561);	--
 i(0, 148257);	--
 i(0, 148273);	--
 i(0, 148288);	--

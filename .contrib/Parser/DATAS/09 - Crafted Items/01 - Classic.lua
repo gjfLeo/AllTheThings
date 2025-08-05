@@ -4272,6 +4272,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(87393, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Fetch
 			i(80581, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Focused Wrath
 			i(87893, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Fortifying Brew
+			i(93202, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Gateway Attunement
 			i(85691, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Guard
 			i(41097, {["timeline"]={ ADDED_3_0_2, REMOVED_6_0_2 }}),				-- Glyph of Hammer of Wrath / Glyph of Templar's Verdict [MOP]
 			i(87276, {["timeline"]={ ADDED_5_0_4, REMOVED_7_0_3 }}),				-- Glyph of Holy Resurrection
