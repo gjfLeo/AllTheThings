@@ -271,7 +271,7 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
 
-root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_2_0_TEMP } }, {
 	inst(1302, {	-- Manaforge Omega
 		["isRaid"] = true,
 		["coord"] = { 41.9, 21.5, KARESH },
@@ -573,7 +573,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				}),
 				CommonBossDrops({
 					currency(WEATHERED_ETHEREAL_CREST, {
-						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 					}),
 				}),
 				header(HEADERS.LFGDungeon, 2799, {	-- Might of the Shadowguard
@@ -625,7 +625,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(CARVED_ETHEREAL_CREST, {
-						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 					}),
 				}),
 				n(QUESTS, {
@@ -664,7 +664,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(RUNED_ETHEREAL_CREST, {
-						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 					}),
 				}),
 				n(QUESTS, {
@@ -688,7 +688,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				CommonBossDrops({
 					currency(GILDED_ETHEREAL_CREST, {
-						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 					}),
 				}),
 				n(QUESTS, {

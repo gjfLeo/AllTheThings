@@ -254,8 +254,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["isWeekly"] = true,
 		}),
 	})),
-	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Includes Voidrazor Sanctuary
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0 } }, {	-- Includes Voidrazor Sanctuary
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 			ach(42801),	-- Journey's End (Season 3)
 			ach(42799),	-- Let Her Solo Me
 			ach(42196),	-- War Within Delves: Tier 4 (Season 3)
