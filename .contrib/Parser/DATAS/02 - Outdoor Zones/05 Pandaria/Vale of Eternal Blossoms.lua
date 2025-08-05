@@ -898,7 +898,14 @@ root(ROOTS.Zones, {
 				}),
 				n(VENDORS, {
 					n(61650, {	-- Big Keech <Rare Antiquities>
-						["coord"] = { 62.6, 41.8, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							-- #if AFTER 5.4.0
+							-- are there different locations due to phasing in 5.4 questline?
+							{ 70.9, 40.5, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #else
+							{ 62.6, 41.8, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						["groups"] = {
 							i(44500, {	-- Elementium-Plated Exhaust Pipe
 								["cost"] = 15000000,	-- 1500g
