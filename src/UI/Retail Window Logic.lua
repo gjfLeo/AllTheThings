@@ -344,13 +344,15 @@ local function GetCatalystIcon(data, iconOnly)
 end
 local function GetCostIconForRow(data, iconOnly)
 	-- cost only for filled groups, or if itself is a cost
-	if data.isCost or (data.progress == data.total and data.costTotal > 0) then
+	-- temp, added filledCost back due to some discrepancies discovered based on Fillers not accounted for in Cost calculations
+	if data.isCost or data.filledCost or (data.progress == data.total and data.costTotal > 0) then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
 local function GetCostIconForTooltip(data, iconOnly)
 	-- cost only if itself is a cost
-	if data.isCost then
+	-- temp, added filledCost back due to some discrepancies discovered based on Fillers not accounted for in Cost calculations
+	if data.isCost or data.filledCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
@@ -624,7 +626,7 @@ local function ClearRowData(self)
 end
 local function Refresh(self)
 	if not self:IsVisible() then return; end
-	-- app.PrintDebug(Colorize("Refresh:", app.Colors.TooltipDescription),self.Suffix)
+	-- app.PrintDebug(app.Modules.Color.Colorize("Refresh:", app.Colors.TooltipDescription),self.Suffix)
 	local height = self:GetHeight();
 	if height > 80 then
 		self.ScrollBar:Show();
