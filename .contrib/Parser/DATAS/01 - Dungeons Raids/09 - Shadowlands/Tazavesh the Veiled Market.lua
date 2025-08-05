@@ -265,10 +265,10 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							}),
 							i(185821),	-- Gluttonous Rondel
 							i(246282, {	-- Order Bashers
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(246281, {	-- Ring of the Panoply
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185840, {	-- Seal of the Panoply
 								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
@@ -319,7 +319,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
 							}),
 							i(246287, {	-- Improvisational Girdle
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185842),	-- Ornately Engraved Amplifier
 							i(185789),	-- Sabatons of Measured Time
@@ -341,7 +341,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							i(185843),	-- Duplicating Drape
 							i(185778),	-- First Fist of the So Cartel
 							i(246285, {	-- Fluxphase Culottes
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185800, {	-- Orbitwarp Culottes
 								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
@@ -363,10 +363,10 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							i(183467),	-- Tireless Pursuit
 							-- Items
 							i(246280, {	-- Boots of Titanic Deconversion
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(246275, {	-- Codebreaker's Cunning Handwraps
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185788, {	-- Codebreaker's Cunning Sandals
 								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
@@ -395,7 +395,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							i(185820),	-- Cabochon of the Infinite Flight
 							i(185795),	-- Cowl of Branching
 							i(246283, {	-- Crown of Absolute Command
-								["timeline"] = { ADDED_11_2_0 },
+								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185796),	-- Dragonbane Diadem
 							i(185823),	-- Fatebreaker, Destroyer of Futures
