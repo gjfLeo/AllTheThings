@@ -24,6 +24,16 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 		["lvl"] = lvlsquish(85, 85, 10),
 		["groups"] = {
 			n(ACHIEVEMENTS, {
+				ach(7323, {	-- Collateral Damage
+					["providers"] = {
+						{ "n", 63447 },	-- Mogu Statue
+						{ "n", 65170 },	-- Jade Warrior
+					},
+					["coord"] = { 24.4, 28.0, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #if MOP
+					["description"] = "You need to be on or near someone on the quest That's Not a Rock! in order to activate the mogu statues so that they'll engage you and use their special ability.",
+					-- #endif
+				}),
 				ach(7320, {	-- Dog Pile
 					["provider"] = { "n", 58992 },	-- Shado-Pan Trainee
 					["coord"] = { 19.6, 74.2, VALE_OF_ETERNAL_BLOSSOMS },

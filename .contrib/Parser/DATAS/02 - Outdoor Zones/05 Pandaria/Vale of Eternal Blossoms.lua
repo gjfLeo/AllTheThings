@@ -32,13 +32,6 @@ root(ROOTS.Zones, {
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(7323, {	-- Collateral Damage
-						["providers"] = {
-							{ "n", 63447 },	-- Mogu Statue
-							{ "n", 65170 },	-- Jade Warrior
-						},
-						["coord"] = { 24.4, 28.0, VALE_OF_ETERNAL_BLOSSOMS },
-					}),
 					ach(6979),	-- Explore Vale of Eternal Blossoms
 				}),
 				battlepets({
