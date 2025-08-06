@@ -4232,7 +4232,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				})),
 			}),
 			-- #if AFTER MOP
-			n(PROFESSION_EQUIPMENT, {
+			filter(PROFESSION_EQUIPMENT, {
 				i(85663, {	-- Herbalist's Spade
 					-- Danny Donkey: For some Blizzard reason Herbalism Suppliers does not sell this equipment.
 					["collectible"] = false,
