@@ -9,6 +9,62 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 		header(HEADERS.Spell, 1214374, {	-- Phase Diving
 			petbattle(filter(BATTLE_PETS, {
 			})),
+			n(FLIGHT_PATHS, {
+				header(HEADERS.Spell, 1244306, {	-- Phase Conduit
+					fp(3161, {	-- Fracture of Laacuna
+						["coord"] = { 56.2, 21.5, KARESH },
+						["cr"] = 249778,	-- Phase Conduit
+					}),
+					fp(3164, {	-- Hosaas' Rest
+						["coord"] = { 53.9, 63.6, KARESH },
+						["cr"] = 249841,	-- Phase Conduit
+					}),
+					fp(3158, {	-- Lunnall River
+						["coord"] = { 65.4, 48.0, KARESH },
+						["cr"] = 249768,	-- Phase Conduit
+					}),
+					fp(3160, {	-- Naakroa
+						["coord"] = { 58.9, 57.9, KARESH },
+						["cr"] = 249775,	-- Phase Conduit
+					}),
+					fp(3159, {	-- North Sufaad
+						["coord"] = { 77.2, 48.9, KARESH },
+						["cr"] = 249771,	-- Phase Conduit
+					}),
+					fp(3163, {	-- Ruins of Yaathron
+						["coord"] = { 51.4, 67.1, KARESH },
+						["cr"] = 249811,	-- Phase Conduit
+					}),
+					fp(3156, {	-- Serrated Peaks
+						["coord"] = { 51.2, 48.6, KARESH },
+						["cr"] = 249764,	-- Phase Conduit
+					}),
+					fp(3155, {	-- Shadow Point
+						["coord"] = { 45.2, 23.9, KARESH },
+						["cr"] = 249761,	-- Phase Conduit
+					}),
+					fp(3147, {	-- Shan'dorah
+						["coord"] = { 60.2, 29.0, KARESH },
+						["cr"] = 249754,	-- Phase Conduit
+					}),
+					fp(3145, {	-- Tazavesh, the Veiled Market
+						["coord"] = { 46.8, 56.9, KARESH_TAZAVESH },
+						["cr"] = 249744,	-- Phase Conduit
+					}),
+					fp(3146, {	-- The Oasis
+						["coord"] = { 75.9, 33.0, KARESH },
+						["cr"] = 249747,	-- Phase Conduit
+					}),
+					fp(3157, {	-- Overlook Zo'Shuul
+						["coord"] = { 50.4, 36.4, KARESH },
+						["cr"] = 249765,	-- Phase Conduit
+					}),
+					fp(3162, {	-- Untethered Space
+						["coord"] = { 53.9, 26.8, KARESH },
+						["cr"] = 249781,	-- Phase Conduit
+					}),
+				}),
+			}),
 			n(QUESTS, {
 			}),
 			n(RARES, sharedData({
@@ -38,7 +94,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232108, {	-- Morgil the Netherspawn
-					["description"] = "You need to Phasedive in order to see the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 56.1, 52.7, KARESH },
 					["questID"] = 90588,
 					["groups"] = {
@@ -47,7 +103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232127, {	-- Orith the Dreadful
-					["description"] = "You need to Phasedive in order to see the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 58.9, 20.8, KARESH },
 					["questID"] = 90595,
 					["groups"] = {
@@ -55,12 +111,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232189, {	-- Revenant of the Wasteland
-					["description"] = "You need to Phasedive in order to see the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 50.5, 64.6, KARESH },
 					["questID"] = 90591,
 				}),
 				n(232129, {	-- Shadowhowl
-					["description"] = "You need to Phasedive in order to see the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 54.1, 49.1, KARESH },
 					["questID"] = 90583,
 					["groups"] = {
@@ -68,13 +124,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(234845, {	-- Sthaarbs <the Mindroiler>
-					["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
 					["coord"] = { 74.0, 32.4, KARESH },
 					["questID"] = 91293,
 					["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 				}),
 				n(232199, {	-- Xarran the Binder
-					["description"] = "You need to Phasedive in order to see the Rare Creature.",
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 65.1, 50.0, KARESH },
 					["questID"] = 90584,
 					["groups"] = {
