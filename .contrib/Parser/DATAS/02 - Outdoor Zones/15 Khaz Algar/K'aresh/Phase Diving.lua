@@ -110,6 +110,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(240172),	-- Depleted K'areshi Battery
 					},
 				}),
+				n(232182, {	-- Prototype Mk-V
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
+					["coord"] = { 45.8, 24.2, KARESH },
+					["questID"] = 90590,
+					["groups"] = {
+						i(239478),	-- Reshii Brute's Greatbelt
+						i(239464),	-- Reshii Skirmisher's Brigandine
+					},
+				}),
 				n(232189, {	-- Revenant of the Wasteland
 				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 50.5, 64.6, KARESH },
@@ -121,6 +130,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90583,
 					["groups"] = {
 						i(239469),	-- Reshii Skirmisher's Pauldrons
+					},
+				}),
+				n(232193, {	-- Stalker of the Wastes
+				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
+					["coord"] = { 76.7, 42.0, KARESH },
+					["questID"] = 90592,
+					["groups"] = {
+						--- Junk item worth 50g. Only source of it for now.
+						i(246063),	-- Void-Polished Warpstalker Stone
 					},
 				}),
 				n(234845, {	-- Sthaarbs <the Mindroiler>
@@ -263,6 +281,39 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--	84725,	-- The Circlet Calls
 				},
 				["groups"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
+					q(86872, {	-- Phase Diving: Experimental Extermination
+						["coord"] = { 52.8, 61.7, KARESH },
+					}),
+					q(85864, {	-- Phase Diving: Fractured Laacunite
+						["coord"] = { 55.2, 26.5, KARESH },
+						["groups"] = {
+							i(232612),	-- Laacunite Shard (QI!)
+						},
+					}),
+					q(88904, {	-- Phase Diving: It Could Be Anything
+						["coord"] = { 68.6, 31.7, KARESH },
+					}),
+					q(89291, {	-- Phase Diving: Oath-Breaker Desamirah
+						["coord"] = { 43.7, 25.9, KARESH },
+					}),
+					q(88902, {	-- Phase Diving: Restless Souls
+						["coord"] = { 51.2, 66.4, KARESH },
+					}),
+					q(89288, {	-- Phase Diving: Riftbreaker Tza'akir
+						["coord"] = { 47.9, 15.9, KARESH },
+					}),
+					q(86869, {	-- Phase Diving: Shan'dorah Saboteurs
+						["coord"] = { 58.9, 28.7, KARESH },
+					}),
+					q(85863, {	-- Phase Diving: Strange Storms
+						["coord"] = { 75.4, 49.0, KARESH },
+					}),
+					q(86429, {	-- Phase Diving: The Bound Unbound
+						["coord"] = { 80.2, 49.8, KARESH },
+					}),
+					q(86821, {	-- Phase Diving: Unmoored and Unwell
+						["coord"] = { 78.8, 32.4, KARESH },
+					}),
 					n(SPECIAL, {
 					--	q(86174),	-- Special Assignment: Storm's a Brewin (TODO: seems to be unlock tracker)
 					--	q(85113, {	-- Special Assignment: Storm's a Brewin

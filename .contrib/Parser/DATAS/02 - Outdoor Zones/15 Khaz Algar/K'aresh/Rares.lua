@@ -102,15 +102,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--["coord"] = { x, y, KARESH },
 				--["questID"] = ,
 			}),
-			n(232182, {	-- Prototype Mk-V
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 45.8, 24.2, KARESH },
-				["questID"] = 90590,
-				["groups"] = {
-					i(239478),	-- Reshii Brute's Greatbelt
-					i(239464),	-- Reshii Skirmisher's Brigandine
-				},
-			}),
 			n(241920, {	-- Purple Peat
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
@@ -130,15 +121,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				--["coord"] = { x, y, KARESH },
 				--["questID"] = ,
-			}),
-			n(232193, {	-- Stalker of the Wastes
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 76.7, 42.0, KARESH },
-				["questID"] = 90592,
-				["groups"] = {
-					--- Junk item worth 50g. Only source of it for now.
-					i(246063),	-- Void-Polished Warpstalker Stone
-				},
 			}),
 			n(235087, {	-- The Harvester
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
