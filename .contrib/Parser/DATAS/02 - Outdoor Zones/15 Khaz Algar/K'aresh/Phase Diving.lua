@@ -275,6 +275,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 			}),
+			n(VENDORS, {
+				n(238291, {	-- Associate Xy'got
+					["coord"] = { 50.6, 19.3, KARESH },
+					["groups"] = {
+						i(236632, {	-- Pouch of Voidbane Gems
+							["cost"] = { { "g", 3000000 } },	-- 300g
+							--["requireSkill"] = JEWELCRAFTING,
+							-- Exo Note: Flavor Text says: "A hefty pouch with eight gems inside." but gives only a few gold... Is this a troll or do you need JWC as a profession?
+						}),
+					},
+				}),
+			}),
 			n(WORLD_QUESTS, {
 				["sourceQuests"] = {
 				--	TWW_ACCOUNT_CAMPAIGN_QUEST,

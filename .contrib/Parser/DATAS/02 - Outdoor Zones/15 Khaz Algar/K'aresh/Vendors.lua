@@ -4,17 +4,6 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
 		n(VENDORS, {
-			n(238291, {	-- Associate Xy'got
-				["description"] = "You need to Phasedive in order to see the Vendor.",
-				["coord"] = { 50.6, 19.3, KARESH },
-				["groups"] = {
-					i(236632, {	-- Pouch of Voidbane Gems
-						["cost"] = { { "g", 3000000 } },	-- 300g
-						--["requireSkill"] = JEWELCRAFTING,
-						-- Exo Note: Flavor Text says: "A hefty pouch with eight gems inside." but gives only a few gold... Is this a troll or do you need JWC as a profession?
-					}),
-				},
-			}),
 			n(235079, {	-- Ba'orr
 				["coord"] = { 41.1, 25.1, KARESH_TAZAVESH },
 				["groups"] = {
