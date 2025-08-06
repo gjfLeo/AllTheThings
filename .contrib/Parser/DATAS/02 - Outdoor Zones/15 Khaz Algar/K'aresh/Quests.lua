@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85003, {	-- Restoring Operational Efficiency
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230604 },	-- Om'en
-						["coord"] = { 59.5, 83.1, KARESH_TAZAVESH },
+						["coord"] = { 59.5, 83.2, KARESH_TAZAVESH },
 					}),
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Locus-Walker
@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84958, {	-- Beasts Unbound
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230954 },	-- Ta'ka
-						["coord"] = { 56.8, 73.0, KARESH_TAZAVESH },
+						["coord"] = { 56.9, 73.0, KARESH_TAZAVESH },
 					}),
 					q(85039, {	-- Compromised Containment
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84959, {	-- Lost Lines of Defense
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230955 },	-- Ba'ver
-						["coord"] = { 53.1, 64.4, KARESH_TAZAVESH },
+						["coord"] = { 53.1, 64.5, KARESH_TAZAVESH },
 						["groups"] = {
 							o(469475, {	-- Stolen Barrier Projector
 								i(235366),	-- Stolen Barrier Projector (QI!)
@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84960, {	-- The Darkness Among Us
 						["sourceQuests"] = { 85003 },	-- Restoring Operational Efficiency TODO: There is no point to list all quests, I guess?
 						["provider"] = { "n", 233706 },	-- Locus-Walker
-						["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
+						["coord"] = { 59.7, 83.3, KARESH_TAZAVESH },
 						["groups"] = {
 							o(502448, {	-- Void Presence
 								["coord"] = { 54.8, 66.3, KARESH_TAZAVESH },
@@ -108,14 +108,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = {
 							o(502525, {	-- Barrier Projector
 								["coords"] = {
-									{ 41.3, 49.1, KARESH_TAZAVESH },
-									{ 46.0, 51.2, KARESH_TAZAVESH },
-									{ 49.8, 57.9, KARESH_TAZAVESH },
+									{ 41.4, 49.0, KARESH_TAZAVESH },
+									{ 46.0, 51.4, KARESH_TAZAVESH },
+									{ 49.9, 57.9, KARESH_TAZAVESH },
 									{ 52.5, 46.8, KARESH_TAZAVESH },
-									{ 51.3, 41.2, KARESH_TAZAVESH },
-									{ 44.4, 36.3, KARESH_TAZAVESH },
-									{ 39.5, 42.0, KARESH_TAZAVESH },
-									{ 58.4, 32.8, KARESH_TAZAVESH },
+									{ 51.4, 41.1, KARESH_TAZAVESH },
+									{ 44.4, 36.2, KARESH_TAZAVESH },
+									{ 39.4, 41.9, KARESH_TAZAVESH },
+									{ 58.3, 32.7, KARESH_TAZAVESH },
 								},
 							}),
 						},
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84964, {	-- Heroes Among Shadow
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234602 },	-- Alleria Windrunner
-						["coord"] = { 53.7, 63.2, KARESH_TAZAVESH },
+						["coord"] = { 53.8, 63.3, KARESH_TAZAVESH },
 						["groups"] = {
 							i(238193),	-- Blade of Unyielding Will
 							i(238194),	-- Blaster of Unyielding Will
@@ -144,11 +144,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84963,	-- Sealing the Shadows
 						},
 						["provider"] = { "n", 234483 },	-- Alleria Windrunner (mobileNPC)
+						["maps"] = { KARESH_TAZAVESH },
 						-- She is following you around. Coordinates depend on where you turned in previous cluster of quests
 					}),
 					q(86835, {	-- Regroup!
 						["sourceQuests"] = { 84965 },	-- Core Contributions
 						["provider"] = { "n", 234483 },	-- Alleria Windrunner (mobileNPC)
+						["maps"] = { KARESH_TAZAVESH },
 						-- She is following you around. Coordinates depend on where you turned in previous quest
 					}),
 					q(84967, {	-- The Shadowguard Shattered
@@ -212,18 +214,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84856, {	-- Where the Void Gathers
 						["sourceQuests"] = { 86495 },	-- The Reshii Ribbon
 						["provider"] = { "n", 233946 },	-- Xal'atath
-						["coord"] = { 48.1, 36.6, KARESH },
-						["groups"] = { i(248955) },	-- Ethereal Seam Ripper
+						["coord"] = { 48.2, 36.7, KARESH },
 					}),
 					q(84857, {	-- Eco-Dome: Primus
 						["sourceQuests"] = { 84856 },	-- Where the Void Gathers
 						["provider"] = { "n", 234106 },	-- Locus-Walker
-						["coord"] = { 48.1, 36.5, KARESH },
+						["coord"] = { 48.2, 36.6, KARESH },
 					}),
 					q(84858, {	-- System Restart
 						["sourceQuests"] = { 84857 },	-- Eco-Dome: Primus
 						["provider"] = { "n", 230814 },	-- Ve'nari
-						["coord"] = { 47.1, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 						["groups"] = {
 							o(500813, {	-- Rod of analysis
 								["coord"] = { 47.2, 58.6, KARESH },
@@ -243,7 +244,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84859, {	-- Damage Report 101
 						["sourceQuests"] = { 84858 },	-- System Restart
 						["provider"] = { "n", 230814 },	-- Ve'nari
-						["coord"] = { 47.1, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 						["groups"] = {
 							i(233187),	-- Botanical Report (QI!)
 							i(233189),	-- Shield Technician Report (QI!)
@@ -252,7 +253,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84860, {	-- Eco-Stabilizing
 						["sourceQuests"] = { 84858 },	-- System Restart
 						["provider"] = { "n", 230814 },	-- Ve'nari
-						["coord"] = { 47.1, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 						["groups"] = {
 							o(502907, {	-- Rod of Activation
 								["coord"] = { 48.8, 59.0, KARESH },
@@ -271,7 +272,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84860,	-- Eco-Stabilizing
 						},
 						["provider"] = { "n", 230814 },	-- Ve'nari
-						["coord"] = { 47.1, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 						["groups"] = {
 							i(237867),	-- Oathsworn Defender's Breeches
 							i(237874),	-- Oathsworn Defender's Greaves
@@ -296,7 +297,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							230814,	-- Ve'nari
 							232642,	-- Void Elf Riftwalker
 						},
-						["coord"] = { 47.1, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 					}),
 					q(84865, {	-- Divide and Conquer
 						["sourceQuests"] = {
@@ -304,7 +305,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84862,	-- Void Alliance
 						},
 						["provider"] = { "n", 230825 },	-- Xal'atath
-						["coord"] = { 47.0, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 						["groups"] = { i(233222), },	-- Nullbomb (PQI!)
 					}),
 					q(84864, {	-- Her Dark Side
@@ -313,7 +314,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84862,	-- Void Alliance
 						},
 						["provider"] = { "n", 230825 },	-- Xal'atath
-						["coord"] = { 47.0, 54.5, KARESH },
+						["coord"] = { 47.1, 54.6, KARESH },
 					}),
 					q(84866, {	-- To Purchase Safety
 						["sourceQuests"] = {
@@ -322,6 +323,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84864,	-- Her Dark Side
 						},
 						["provider"] = { "n", 232642 },	-- Alleria Windrunner (mobileNPC)
+						["maps"] = { KARESH },
 						-- She is following you around. Coordinates depend on where you turned in previous cluster of quests
 						["groups"] = {
 							i(238386),	-- Void-Touched Fragment
@@ -2356,21 +2358,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			-- Quest (item) obtained during Devourer Attack
 			q(85722, {	-- Making a Deposit
+				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 				["sourceQuests"] = { 84993 },	-- Devourer Attack: The Oasis
 				["provider"] = { "i", 232467 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89062, {	-- Making a Deposit
+				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 				["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
 				["provider"] = { "i", 238664 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89063, {	-- Making a Deposit
+				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 				["sourceQuests"] = { 86465 },	-- Devourer Attack: Tazavesh
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89061, {	-- Making a Deposit
+				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 				["sourceQuests"] = { 86447 },	-- Devourer Attack: Eco-dome: Primus
 				["provider"] = { "i", 238663 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
@@ -2390,6 +2396,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(84901),	-- [DNT] CH04Q05p - Triggered after completing 'Like a Knife Through Aether' (84900)
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
+				q(92627, {	-- Triggered after unlocking Renown 3 of The K'aresh Trust, unlocks Warrants
+					["name"] = "An Arrested Development",
+				}),
 				-- ??
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807, { ["repeatable"] = true, } ),	-- Triggered at the completion of a main Warrant quest and obtaining the (QS!) item that starts "Eliminate" quest

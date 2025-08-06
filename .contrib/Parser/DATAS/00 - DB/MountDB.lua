@@ -2089,6 +2089,7 @@ i(242717, 1233518);	-- Lavender K'arroc
 i(250240, 1250578);	-- Phase-Lost Slateback
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
+i(246160, 1241076);	-- Sthaarbs's Last Lunch
 i(237485, 1223191);	-- Terror of the Night
 i(237484, 1223187);	-- Terror of the Wastes
 i(242728, 1233542);	-- The Bone Freezer
@@ -2110,7 +2111,6 @@ i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
 i(242713, 1221132);	-- Resplendent K'arroc
 i(246445, 1242272);	-- Royal Voidwing
-i(246160, 1241076);	-- Sthaarbs's Last Lunch
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger

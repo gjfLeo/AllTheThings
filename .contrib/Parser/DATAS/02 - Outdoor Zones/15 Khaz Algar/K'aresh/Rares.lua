@@ -76,6 +76,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(232077, {	-- Korgorath the Ravager
+				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 64.7, 43.6, KARESH },
 				["questID"] = 90586,
 			}),
@@ -84,7 +85,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 71.5, 27.4, KARESH },
 				["questID"] = 91309,
 				["groups"] = {
-					i(232467),	-- Crystallized Anima (QS!)
+					i(232467, {	-- Crystallized Anima (QS!)
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+					}),
 					i(246240),	-- Devoured Energy-Pod
 				},
 			}),
@@ -112,7 +115,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 50.6, 54.1, KARESH },
 				["questID"] = 91310,
 				["groups"] = {
-					i(238663),	-- Crystallized Anima (QS!)
+					i(238663, {	-- Crystallized Anima (QS!)
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+					}),
 					i(246240),	-- Devoured Energy-Pod
 				},
 			}),
@@ -189,14 +194,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
 				["coord"] = { 74.0, 32.4, KARESH },
 				["questID"] = 91293,
+				["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 			}),
 			n(235087, {	-- The Harvester
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
 				["coord"] = { 49.5, 64.2, KARESH },
 				["questID"] = 91311,
 				["groups"] = {
-					i(238664),	-- Crystallized Anima (QS!)
+					i(238664, {	-- Crystallized Anima (QS!)
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(240112),	-- Reshii Scout's Blade
 				},
 			}),
 			n(232111, {	-- The Nightreaver
@@ -212,7 +221,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
 				["questID"] = 91312,
 				["groups"] = {
-					i(238665),	-- Crystallized Anima (QS!)
+					i(238665, {	-- Crystallized Anima (QS!)
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+					}),
 					i(246240),	-- Devoured Energy-Pod
 				},
 			}),

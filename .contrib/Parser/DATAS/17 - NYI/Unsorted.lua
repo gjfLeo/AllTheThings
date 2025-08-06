@@ -492,7 +492,6 @@ root(ROOTS.Unsorted, {
 				i(242713),	-- Resplendent K'arroc
 				i(246067),	-- Pearlescent Krolusk
 				i(246159),	-- Translocated Gorger
-				i(246160),	-- Sthaarbs's Last Lunch
 				i(246698),	-- Sunwarmed Furline
 				i(246917),	-- Thunder-ridged Elekk
 				i(246919),	-- Cinder-seared Elekk
@@ -675,8 +674,6 @@ root(ROOTS.Unsorted, {
 				i(242636),	-- Astral Legend's Pennant
 				i(245946),	-- Brewer's Balloon
 			}),
-			i(246504),	-- Inscrutable Ore
-			i(246582),	-- Inscrutable Flora
 			i(248916),	-- Untethered Seer's Capelet
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249029),	-- Ultimate Orange O-pocalypse

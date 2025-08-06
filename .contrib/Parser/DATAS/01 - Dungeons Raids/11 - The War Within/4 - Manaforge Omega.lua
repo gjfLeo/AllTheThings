@@ -747,7 +747,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
-		["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		["timeline"] = { ADDED_11_2_0 },
 		["groups"] = {
 			n(FACTIONS, {
 				header(HEADERS.Faction, FACTION_MANAFORGE_VANDALS, {
