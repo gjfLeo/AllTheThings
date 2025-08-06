@@ -256,7 +256,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 72.1, 29.4, KARESH },
 						["questID"] = 91647,
 					}),
-				}),	
+				}),
 				-- Phased
 				o(516626, {	-- Phase-Lost Pocket-Storage
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
@@ -288,10 +288,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			n(WORLD_QUESTS, {
-				["sourceQuests"] = {
-				--	TWW_ACCOUNT_CAMPAIGN_QUEST,
-				--	84725,	-- The Circlet Calls
-				},
+				--["sourceQuests"] = {},
 				["groups"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
 					q(86872, {	-- Phase Diving: Experimental Extermination
 						["coord"] = { 52.8, 61.7, KARESH },

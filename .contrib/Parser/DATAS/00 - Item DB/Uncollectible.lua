@@ -2584,6 +2584,7 @@ i(238801);	-- Mite-Kissed Silver Tooth
 i(238855);	-- Netherclaw
 i(246296);	-- Off-Balance Mace of the Tazavesh Lookout
 i(238880);	-- Oily Blubber
+i(238849);	-- Ominous Unblinking Eye
 i(247687);	-- Overly-Preserved K'areshi Preserves
 i(245670);	-- P.O.S.T. Employee's Backup Stamp
 i(238870);	-- Pearly Incisor

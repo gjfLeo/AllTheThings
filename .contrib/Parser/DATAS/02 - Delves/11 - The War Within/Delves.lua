@@ -4075,5 +4075,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Unlock 'Hataclysm' achieve dialog
 
 		-- Ky'veza Delve
+		q(91045, {["timeline"]={ADDED_11_2_0}}),	-- Killed Nexus-Princess Ky'Veza on "?" for the first time
 	})),
 }));

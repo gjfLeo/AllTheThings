@@ -166,6 +166,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(232195, {	-- Urmag <The Terror Below>
 				["coord"] = { 70.2, 49.7, KARESH },
 				["questID"] = 90593,
+				["groups"] = {
+					i(246067),	-- Pearlescent Krolusk (MOUNT!)
+				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",

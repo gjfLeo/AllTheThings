@@ -406,7 +406,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(238808),	-- Celeste-Touched Fin
-				i(238849),	-- Ominous Unblinking Eye
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
@@ -489,7 +488,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
 				i(242713),	-- Resplendent K'arroc
-				i(246067),	-- Pearlescent Krolusk
 				i(246159),	-- Translocated Gorger
 				i(246698),	-- Sunwarmed Furline
 				i(246917),	-- Thunder-ridged Elekk
