@@ -2592,7 +2592,10 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							objective(1, {	-- Guide Sully through the hozen camp
-								["provider"] = { "n", 55408 },	-- Sully "The Pickle" McLeary <SI:7>
+								["providers"] = {
+									{ "n",  55408 },	-- Sully "The Pickle" McLeary <SI:7>
+									{ "o", 209691 },	-- Sniper Rifle
+								},
 								["coord"] = { 28.2, 51.0, THE_JADE_FOREST },
 							}),
 							i(80768),	-- Moonwater Ring
