@@ -3844,7 +3844,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 				-- check to expand groups after they have been built and updated
 				-- dont re-expand if the user has previously full-collapsed the minilist
 				-- need to force expand if so since the groups haven't been updated yet
-				if not expanded and not self.fullCollapsed then
+				if not expanded and not self.fullCollapsed and app.Settings:GetTooltipSetting("Expand:MiniList") then
 					self.ExpandInfo = { Expand = true };
 				end
 				self.CurrentMaps = currentMaps;
