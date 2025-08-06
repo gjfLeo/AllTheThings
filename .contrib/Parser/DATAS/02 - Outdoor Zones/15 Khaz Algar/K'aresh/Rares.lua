@@ -191,17 +191,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91434, {	-- Weekly reputation: Miasmawrath
 					["name"] = "Miasmawrath weekly reputation obtained.",
 				}),
-				q(90679, {	-- Weekly reputation: Prototype Mk-V
-					["name"] = "Prototype Mk-V weekly reputation obtained.",
-				}),
 				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swipe with rare questID if wrong)
 					["name"] = "Purple Peat weekly reputation obtained.",
 				}),
 				q(90673, {	-- Weekly reputation: Sha'ryth the Cursed
 					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
-				}),
-				q(90681, {	-- Weekly reputation: Stalker of the Wastes
-					["name"] = "Stalker of the Wastes weekly reputation obtained.",
 				}),
 				q(91435, {	-- Weekly reputation: The Harvester
 					["name"] = "The Harvester weekly reputation obtained.",

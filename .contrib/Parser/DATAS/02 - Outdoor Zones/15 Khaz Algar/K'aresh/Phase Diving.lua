@@ -367,6 +367,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90684, {	-- Weekly reputation: Orith the Dreadful
 					["name"] = "Orith the Dreadful weekly reputation obtained.",
 				}),
+				q(90679, {	-- Weekly reputation: Prototype Mk-V
+					["name"] = "Prototype Mk-V weekly reputation obtained.",
+				}),
+				q(90681, {	-- Weekly reputation: Stalker of the Wastes
+					["name"] = "Stalker of the Wastes weekly reputation obtained.",
+				}),
 				q(90680, {	-- Weekly reputation: Revenant of the Wasteland
 					["name"] = "Revenant of the Wasteland weekly reputation obtained.",
 				}),
