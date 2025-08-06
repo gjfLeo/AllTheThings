@@ -2086,7 +2086,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		-- Season 3
 		q(90776, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 242849 },	-- Ancient Curio
-			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+			["timeline"] = { ADDED_11_2_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		q(90778, {	-- Ancient Curiosity: Utility

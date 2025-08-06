@@ -1940,7 +1940,6 @@ root(ROOTS.Unsorted, {
 				i(161324),	-- Zeth'jir Tidespear
 				i(161345),	-- Abhorrent Essence of the Abyss
 				i(161878),	-- Tiny Coin Purse
-				i(162025),	-- Sermon of the High Exarch
 			}),
 			filter(MISC, {	-- Grey
 				i(150755),	-- Bone Dust

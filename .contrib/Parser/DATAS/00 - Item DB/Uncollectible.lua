@@ -414,6 +414,7 @@ i(161053);	-- Salty Dog Crackers
 i(162630);	-- Sandy Ornate Relic
 i(163087);	-- Satchel of Blood Oranges
 i(158849);	-- Sawtooth Jawbone
+i(162025);	-- Sermon of the High Exarch
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane

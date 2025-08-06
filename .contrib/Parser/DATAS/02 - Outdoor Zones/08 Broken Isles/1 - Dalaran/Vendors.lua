@@ -1630,6 +1630,9 @@ root(ROOTS.Zones, {
 						i(136702, {	-- Formula: Soul Fibril (RECIPE!)
 							["cost"] = { { "c", 1275, 1 }, },	-- 1x Curious Coin
 						}),
+						i(141860, {	-- Ingram's Puzzle
+							["cost"] = { { "c", 1275, 50 }, },	-- 50x Curious Coin
+						}),
 						i(141862, {	-- Mote of Light (TOY!)
 							["cost"] = { { "c", 1275, 50 }, },	-- 50x Curious Coin
 						}),
