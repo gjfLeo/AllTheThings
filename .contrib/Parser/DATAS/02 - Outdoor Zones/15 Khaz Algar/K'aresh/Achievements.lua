@@ -23,11 +23,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				crit(106226, {	-- K'aresh'ire
 					["description"] = "Phases between Visible and Untethered space every 10 seconds.",
-					["coord"] = { 73.2, 23.7, KARESH },
+					["coord"] = { 70.2, 54.2, KARESH },
 				}),
 				crit(106221, {	-- Little Ms. Phaser
 					["description"] = "Phases between Visible and Untethered space every 15-20 seconds.",
-					["coord"] = { 73.2, 23.7, KARESH },
+					["coord"] = { 50.4, 59.2, KARESH },
 				}),
 				crit(106222, {	-- Mar <Alley Queen of Tazavesh>
 					["coord"] = { 61.0, 55.5, KARESH_TAZAVESH },

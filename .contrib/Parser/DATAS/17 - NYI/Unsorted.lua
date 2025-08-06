@@ -425,10 +425,6 @@ root(ROOTS.Unsorted, {
 				i(244141),	-- Barley Soup
 				i(244142),	-- Brew Keg
 				i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
-				i(245746),	-- Energy Barrel
-				i(245747),	-- Energy Urn
-				i(245884),	-- Energy Pyramid
-				i(246053),	-- Waygate Piece
 				i(246492),	-- Soulgorged Augment Rune
 				i(246837),	-- Mysterious Notebook
 				i(246839),	-- Multiversal Energy Dynamics and the Murmuration Paradox

@@ -2091,7 +2091,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		q(90778, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 242850 },	-- Ancient Curio
-			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+			["timeline"] = { ADDED_11_2_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		q(91780, {	-- Ethereal Delves
@@ -2249,6 +2249,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					["timeline"] = { ADDED_11_2_0_SEASONSTART },
 				}),
 			},
+		}),
+		o(478443, {	-- Mislaid Curiosity
+			["timeline"] = { ADDED_11_2_0 },
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
 			["description"] = "Left behind by Zekvir when he invades a delve.",
@@ -3005,6 +3008,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	m(ARCHIVAL_ASSAULT, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 		["icon"] = [[~_.asset("Delves_Shadow")]],
 		["coord"] = { 55.1, 48.1, KARESH },
+		["maps"] = {
+			2454,	-- Mausoleum of Legends
+			2455,	-- Lower Chamber
+		},
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(42679),	-- Archival Assault Discoveries
@@ -3015,11 +3022,24 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106404),	-- Waygate Wiles
 				}),
 			}),
+			filter(MISC, {
+				i(245746),	-- Energy Barrel
+				i(245884),	-- Energy Pyramid
+				i(245747),	-- Energy Urn
+				i(246053),	-- Waygate Piece
+			}),
 			n(TREASURES, {
-				-- TODO: Add treasure data
+				-- TODO: Add treasure data // not sure on mapids
+				q(92573),	-- Phase cutter through wall 49.7, 92.6, 2455
 				q(83692),
-				q(90839),
-				q(83673),
+				o(539785, { -- Sturdy Chest
+					["coord"] = { 43.7, 64.9, 2455 },	-- Lower Chamber
+					["questID"] = 90839,
+				}),
+				o(455518, {	-- Sturdy Chest
+					["coord"] = { 61.9, 10.9, 2455 },	-- Lower Chamber
+					["questID"] = 83673,
+				}),
 			}),
 		},
 	})),

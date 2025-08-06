@@ -51,6 +51,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 71.2, 57.2, KARESH_TAZAVESH },
 				["questID"] = 90698,
+				["groups"] = { i(239469) },	-- Reshii Skirmisher's Pauldrons
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
 				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
