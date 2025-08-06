@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			n(240481, {	-- Consultant Wrexxle <Undermine Dealer>
 				["coord"] = { 52.0, 46.0, DORNOGAL },
-				["timeline"] = { ADDED_11_1_5 },
+				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 				["groups"] = appendAllGroups(
 					sharedData({	-- Mythic
 						["cost"] = {{ "i", 237502, 3 }},	-- 3x Puzzling Cartel Chip

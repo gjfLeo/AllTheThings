@@ -446,7 +446,6 @@ root(ROOTS.Unsorted, {
 				-- Delve
 				i(245885),	-- Lil Wheel of Cheese=
 				i(248126),	-- Delver's Starter Kit
-				i(248127),	-- Delver's Cosmetic Surprise Bag
 				i(248142),	-- Delver's Bounty
 				-- Curios
 				i(239580),	-- Nether Overlay Matrix

@@ -639,7 +639,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(86458),	--
 				})),
 			}),
-			header(HEADERS.Achievement, 41808, {	-- Otherworldly Ecologist
+			header(HEADERS.Achievement, 41808, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Otherworldly Ecologist
 				q(87290, {	-- The Oasis
 					["sourceQuests"] = { 85037 },	-- That's a Wrap
 					["provider"] = { "n", 238212 },	-- Om'talad
@@ -1460,8 +1460,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["provider"] = { "n", 231820 },	-- Ve'nari
 					["coord"] = { 75.9, 34.2, KARESH },
 				}),
-			}),
-			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
+			})),
+			header(HEADERS.Achievement, 41811, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Stability
 				-- Exo Note: These are Achievement criteria. They don't appear as quests when you do /att q: in-game
 				-- @Myrhial, This is a job for you, Mistress...
 				q(84744),	-- A Slither of Snakes
@@ -1471,8 +1471,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(85520),	-- Lil' Lapbugs
 				q(89306),	-- Rays of Sunshine
 				q(84992),	-- Slatebacks
-			}),
-			header(HEADERS.Achievement, 41809, {	-- Ecological Variety (Daily Quests) Exo note: These are probably weekly quests, not daily.
+			})),
+			header(HEADERS.Achievement, 41809, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Variety (Daily Quests) Exo note: These are probably weekly quests, not daily.
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
 					q(90545, {	-- A Reel Problem
 						["description"] = "Requires Fishing profession.",
@@ -1619,7 +1619,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(88975),	--
 					q(88981),	--
 				}),
-			}),
+			})),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
 				q(90938, {	-- A Skip Through the Void
 					--["sourceQuests"] = { ??? },	-- Popped up on an alt as soon as I got zoned into Tazavesh for the first time -Exo

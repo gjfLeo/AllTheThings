@@ -155,6 +155,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
 				["questID"] = 90692,
+				["groups"] = {
+					i(239460),	-- Reshii Scout's Breeches
+				},
 			}),
 			n(232189, {	-- Revenant of the Wasteland
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",

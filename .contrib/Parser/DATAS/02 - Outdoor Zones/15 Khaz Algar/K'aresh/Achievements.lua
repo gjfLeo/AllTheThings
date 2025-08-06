@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			ach(42740),	-- Explore K'aresh (automated)
 			ach(42736),	-- Ixthar's Legacy (automated)
 			ach(42730),	-- Jump, Jump, and Away!
-			skyriding(ach(42727)),	-- K'aresh Glyph Hunter (automated)
+			ach(42727),	-- K'aresh Glyph Hunter (automated)
 			ach(41978, {	-- Moonlighter
 				iensemble(244140),	-- Ethereal Sash Cache
 			}),
