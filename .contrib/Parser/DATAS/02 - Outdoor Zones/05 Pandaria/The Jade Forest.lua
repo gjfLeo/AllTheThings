@@ -2180,6 +2180,8 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/12 Practice Strikes completed
 								["description"] = "Do NOT react immediately to the visual cue. Wait for the pupils to react and then do the move. If you go too quickly, you won't get credit.",
+								["provider"] = { "n", 55199 },	-- Tian Instructor
+								["coord"] = { 41.4, 27.8, THE_JADE_FOREST },
 							}),
 						},
 					}),
