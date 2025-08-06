@@ -513,7 +513,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 						["provider"] = { "n", 230739 },	-- Soul-Scribe
 						["coord"] = { 75.8, 34.3, KARESH },
-						["groups"] = { i(235499) },	-- Reshii Wraps
+						["groups"] = {
+							i(238039),	-- Chronomatic Fiber
+							i(238041),	-- Dexterous Fiber
+							i(238037),	-- Energizing Fiber
+							i(238040),	-- Precise Fiber
+							i(235499),	-- Reshii Wraps
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41970.04, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Chapter 4: Shadows En Garde
@@ -638,6 +644,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(86458),	--
 				})),
+				n(REWARDS, {
+					currency(3278),	-- Ethereal Strands
+				}),
 			}),
 			header(HEADERS.Achievement, 41808, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Otherworldly Ecologist
 				q(87290, {	-- The Oasis
@@ -1635,12 +1644,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
 					["provider"] = { "n", 241588 },	-- Hashim
 					["coord"] = { 50.3, 36.3, KARESH },
-					["groups"] = {
-						i(238039),	-- Chronomatic Fiber
-						i(238041),	-- Dexterous Fiber
-						i(238037),	-- Energizing Fiber
-						i(238040),	-- Precise Fiber
-					},
 				}),
 				q(89343, {	-- The Untethered Void
 					["sourceQuests"] = { 89380 },	-- Another World
@@ -2333,10 +2336,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(90123),	--
 				q(90124),	--
 				q(90127),	--
-				n(REWARDS, {
-					-- The only observed source of this currency are Warrants
-					currency(3278),	-- Ethereal Strands
-				}),
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(84966, {	-- Break the Assault
@@ -2383,7 +2382,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			-- Unsorted
 			--q(86492),	-- TODO: Alex - ach(42736),	-- Ixthar's Legacy
-			--q(90954),	--	TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
+			--q(90954),	-- TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
 		}),
 	}),
 })));
