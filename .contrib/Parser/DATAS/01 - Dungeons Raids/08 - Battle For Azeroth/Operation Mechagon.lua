@@ -152,6 +152,7 @@ local ZoneDropLoot = {
 	i(170210),	-- Recipe: Abyssal Healing Potion [Rank 3] (RECIPE!)
 	i(170208),	-- Recipe: Potion of Unbridled Fury [Rank 3] (RECIPE!)
 	i(170209),	-- Recipe: Potion of Wild Mending [Rank 3] (RECIPE!)
+	i(168632),	-- Slipstream Generator
 	i(168756),	-- Hijack Synaptic Circuits
 	i(168798),	-- Trajectory Analysis
 };
