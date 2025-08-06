@@ -17,48 +17,48 @@ root(ROOTS.Zones, m(PANDARIA, {
 				["races"] = ALLIANCE_ONLY,
 			},{
 				q(32007, {	-- A Worthy Challenge: Darkmaster Gandling
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32005, {	-- A Worthy Challenge: Durand
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32006, {	-- A Worthy Challenge: Flameweaver Koegler
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32003, {	-- A Worthy Challenge: Raigonn
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31998, {	-- A Worthy Challenge: Sha of Doubt
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32001, {	-- A Worthy Challenge: Sha of Hatred
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32004, {	-- A Worthy Challenge: Wing Leader Ner'onok
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32002, {	-- A Worthy Challenge: Xin the Weaponmaster
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32000, {	-- A Worthy Challenge: Yan-zhu the Uncasked
-					["isDaily"] = true,
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(33248, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {	-- Proving Grounds
