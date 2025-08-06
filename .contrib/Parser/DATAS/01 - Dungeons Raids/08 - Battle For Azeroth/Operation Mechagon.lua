@@ -180,7 +180,8 @@ MECHAGON_WORKSHOP = createHeader({
 });
 
 local TIMELINE_UNAVAILABLE_MYTHICPLUS = {ADDED_8_2_0,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0}
--- Unavailable during TWW S2 (11.1 until 11.2)
+-- Unavailable during:
+-- TWW S2 Mythic Plus (11.1 until 11.2)
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
