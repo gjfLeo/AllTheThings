@@ -1451,8 +1451,9 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/6 Prisoners freed
 								["providers"] = {
-									{ "n", 55201 },	-- Jinyu Prisoner
-									{ "n", 55490 },	-- Alliance Prisoner
+									{ "n",  55201 },	-- Jinyu Prisoner
+									{ "n",  55490 },	-- Alliance Prisoner
+									{ "o", 209586 },	-- Hozen Cage
 								},
 								["coord"] = { 54.2, 82.6, THE_JADE_FOREST },
 								["cost"] = {{ "i", 74260, 6 }},	-- Bamboo Key (QI!)
