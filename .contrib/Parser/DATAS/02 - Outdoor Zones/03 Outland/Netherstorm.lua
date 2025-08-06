@@ -2357,12 +2357,14 @@ root(ROOTS.Zones, {
 							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR },{"merge"},	-- Merciless Gladiator's Set
 							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR },{"merge"},	-- Vengeful Gladiator's Set
 							-- #else
-							{ "pop" },
-							-- #endif
 							{"exclude","itemID",
 								28379,	-- Sergeant's Heavy Cape (A)
 								28378,	-- Sergeant's Heavy Cape (H)
+								28380,	-- Sergeant's Heavy Cloak (A)
+								28377,	-- Sergeant's Heavy Cloak (H)
 							},
+							{ "pop" },
+							-- #endif
 						},
 						["timeline"] = { ADDED_4_3_0 },
 					}),
