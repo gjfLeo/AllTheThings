@@ -2104,7 +2104,10 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.2, 60.4, THE_JADE_FOREST },
 						["groups"] = {
 							objective(1, {	-- 0/12 Bookworms squashed
-								["provider"] = { "n", 57237 },	-- Bookworm
+								["providers"] = {
+									{ "n",  57237 },	-- Bookworm
+									{ "o", 209594 },	-- Infested Book
+								},
 								["coord"] = { 55.6, 60.6, THE_JADE_FOREST },
 							}),
 							i(80722),	-- Ambermist Treads
