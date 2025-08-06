@@ -1917,7 +1917,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 58.0, 59.0, THE_JADE_FOREST },
 						["groups"] = {
 							objective(1, {	-- 0/8 Fireworks launched
-								["provider"] = { "n", 64507 },	-- Firework Launcher
+								["provider"] = { "o", 209672 },	-- Firework Launcher
 								["coord"] = { 58, 59, THE_JADE_FOREST },
 							}),
 						},
