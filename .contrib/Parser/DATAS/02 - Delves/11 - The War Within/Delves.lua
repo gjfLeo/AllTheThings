@@ -256,6 +256,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	})),
 	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0 } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
+			ach(42779, {	-- A Flash in the Void
+				title(598),	-- Flickering %s
+			}),
+			ach(42778),	-- A Flicker in the Dark
 			ach(42801),	-- Journey's End (Season 3)
 			ach(42799),	-- Let Her Solo Me
 			ach(42196),	-- War Within Delves: Tier 4 (Season 3)
@@ -991,7 +995,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		ach(42212, {	-- Titan Console Overcharged
 			["maps"] = OVERCHARGED_DELVES,
-			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0_SEASONSTART },
+			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
 			["groups"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
 		}),
 		ach(40100, {	-- Undying Caver
@@ -1134,6 +1138,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		})),
 		filter(COSMETIC, {
+			i(245527, { ["timeline"] = { ADDED_11_2_0 } }),	-- Consortium's Phasebound Visor
 			i(235617, { ["timeline"] = { ADDED_11_1_0 } }),	-- Lucky Goblin's Strapped Rockets
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
@@ -1150,10 +1155,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["provider"] = { "o", 413590 },	-- Bountiful Coffer
 			["groups"] = {
 				i(220520, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo
-				i(235897, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART}}),	-- Radiant Echo
+				i(235897, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0}}),	-- Radiant Echo
 				i(246771, {["timeline"]={ ADDED_11_2_0_SEASONSTART}}),	-- Radiant Echo
 				i(228958, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo (QS!)
-				i(235896, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART}}),	-- Radiant Echo (QS!)
+				i(235896, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0}}),	-- Radiant Echo (QS!)
 				i(246772, {["timeline"]={ ADDED_11_2_0_SEASONSTART}}),	-- Radiant Echo (QS!)
 				n(ARMOR, {
 					filter(BACK_F, {
@@ -1163,7 +1168,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219185),	-- Serape of the Stygian Sea
 							i(219190),	-- Unkindled Waxweave Mozzetta
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235427),	-- Blastborne Shroud
 							i(235430),	-- Junkreaver's Overcloak
 							i(235426),	-- Nitroclad Wrap
@@ -1183,7 +1188,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219177),	-- Unkindled Waxweave Shoulderpads
 							i(219179),	-- Unkindled Waxweave Veil
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235431),	-- Noxious Injector Harness
 							i(235432),	-- Noxious Injector Footpads
 							i(235433),	-- Noxious Injector Hands
@@ -1193,7 +1198,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(235437),	-- Noxious Injector Tube
 							i(235438),	-- Noxious Injector Manacles
 						})),
-						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 							i(237972),	-- Void-Scarred Seer's Bands
 							i(237971),	-- Void-Scarred Seer's Cord
 							i(237968),	-- Void-Scarred Seer's Crown
@@ -1211,7 +1216,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219188),	-- Dark Abyss Hoop
 							i(219189),	-- Fuzzy Molding Halo
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235425),	-- Dumpsterdelver's Loop
 							i(235423),	-- Expensive Gemstone Ring
 							i(235424),	-- Rich Uncle's Endowment
@@ -1234,7 +1239,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219173),	-- Myconic Waders
 							i(219167),	-- Myconic Wristbands
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235439),	-- Nitroclad Bodice
 							i(235440),	-- Nitroclad Striders
 							i(235441),	-- Nitroclad Grips
@@ -1244,7 +1249,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(235445),	-- Nitroclad Strap
 							i(235446),	-- Nitroclad Armguards
 						})),
-						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 							i(237979),	-- Void-Scarred Blade's Belt
 							i(237980),	-- Void-Scarred Blade's Bracers
 							i(237977),	-- Void-Scarred Blade's Breeches
@@ -1266,7 +1271,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219165),	-- Treads of the Stygian Sea
 							i(219159),	-- Wrist Bindings of the Stygian Sea
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235447),	-- Blastborne Hauberk
 							i(235448),	-- Blastborne Greaves
 							i(235449),	-- Blastborne Grips
@@ -1276,7 +1281,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(235453),	-- Blastborne Links
 							i(235454),	-- Blastborne Vambraces
 						})),
-						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 							i(237988),	-- Void-Scarred Striker's Armguards
 							i(237982),	-- Void-Scarred Striker's Boots
 							i(237981),	-- Void-Scarred Striker's Brigandine
@@ -1292,7 +1297,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219184),	-- Enkindled Locket
 							i(219217),	-- Gold-Thread Choker
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235428),	-- Gobtastic Bling
 							i(235429),	-- Moneymaker's Collar
 						})),
@@ -1312,7 +1317,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(219157),	-- Sollerets of Hidden Stars
 							i(219155),	-- Visage of Hidden Stars
 						})),
-						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 							i(235455),	-- Junkreaver's Breastplate
 							i(235456),	-- Junkreaver's Crushers
 							i(235457),	-- Junkreaver's Gauntlets
@@ -1322,7 +1327,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(235462),	-- Junkreaver's Girdle
 							i(235463),	-- Junkreaver's Coils
 						})),
-						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 							i(237989),	-- Void-Scarred Captain's Breastplate
 							i(237994),	-- Void-Scarred Captain's Epaulettes
 							i(237995),	-- Void-Scarred Captain's Greatbelt
@@ -1357,7 +1362,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(219205),	-- Shooting Starquebus
 						i(219210),	-- Sanctifier's Startierce
 					})),
-					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 						i(218126),	-- Befouler's Syringe
 						i(235494),	-- Biker Gang's Spare Tire
 						i(235489),	-- Bullet Biter
@@ -1591,7 +1596,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							["bonusID"] = 11248,
 						}),
 					})),
-					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 						i(234014, {	-- Automatic Footbomb Dispenser [Rank 4]
 							["bonusID"] = 12160,
 						}),
@@ -2225,7 +2230,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		o(478443, {	-- Mislaid Curiosity
 			["description"] = "Contains a 'Chunk of Companion Experience' token.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 			["groups"] = {
 				-- Brann Experience
 				i(235504),	-- Chunk of Companion Experience (Uncommon)
@@ -2239,7 +2244,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(233062),	-- Pocket Pizza
 				i(233061),	-- Rock-in-a-Bottle
 				i(233186, {	-- Wave Scrambler 2000
-					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 				}),
 				-- No new objectID atm
 				i(248764, {	-- Artisanal Blink Trap
@@ -2252,6 +2257,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		o(478443, {	-- Mislaid Curiosity
 			["timeline"] = { ADDED_11_2_0 },
+			["groups"] = {
+				i(248017, {	-- Shrieking Quartz
+					["timeline"] = { ADDED_11_2_0 },
+				}),
+			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
 			["description"] = "Left behind by Zekvir when he invades a delve.",
@@ -2276,7 +2286,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
 			["description"] = "Left behind by Underpin when he is defeated in a delve.",
-			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			["cr"] = 236942,	-- The Underpin
 			["groups"] = {
 				i(235813),	-- Machine Gob's Iron Grin
@@ -2569,7 +2579,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235688, {	-- Delver's Dirigible Schematic: Fan (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2580,11 +2590,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235690, {	-- Delver's Dirigible Schematic: Harpoon (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(235689, {	-- Delver's Dirigible Schematic: Kite (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
@@ -2595,7 +2605,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235692, {	-- Delver's Dirigible Schematic: Thrusters (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2610,7 +2620,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235691, {	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 				}),
 				filter(MOUNTS, {
@@ -2635,7 +2645,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237954, {	-- Arsenal: Undermine Weaponry
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2643,11 +2653,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237945, {	-- Ensemble: Blastborne Loadout
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(248788, {	-- Ensemble: Bundle of Ethereal Cloaks
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2655,7 +2665,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237944, {	-- Ensemble: Junkreaver's Plates
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2663,11 +2673,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237949, {	-- Ensemble: Nitroclad Kit
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(237953, {	-- Ensemble: Noxious Injector Apparatus
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2683,7 +2693,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(245525, {	-- Opulent Phasebound Visor
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(212163, {	-- Soporific Shroom Cap
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2734,20 +2744,20 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					-- Season 2
 					i(235531, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 					i(233555, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 					i(233186, {	-- Wave Scrambler 2000
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					}),
 					-- Season 3
 					i(244193, {	-- L00T RAID-R Mini
 						["cost"] = {{"c", UNDERCOIN, 1000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(238526, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
@@ -2759,7 +2769,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(248017, {	-- Shrieking Quartz
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0 },
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 				}),
 				filter(TOYS, {

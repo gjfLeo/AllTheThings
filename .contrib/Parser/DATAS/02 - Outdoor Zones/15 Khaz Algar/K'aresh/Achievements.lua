@@ -4,10 +4,6 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
 		n(ACHIEVEMENTS, {
-			ach(42779, {	-- A Flash in the Void
-				title(598),	-- Flickering %s
-			}),
-			ach(42778),	-- A Flicker in the Dark
 			ach(42731),	-- Become a Hero. Become a Phasediver!
 			ach(41979, {	-- Bounty Seeker (automated)
 				i(245255),	-- Starlight (PET!)
