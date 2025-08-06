@@ -1066,9 +1066,10 @@ local function GetSearchResults(method, paramA, paramB, ...)
 			break;
 		end
 	end
-	local description;
+	local d,description = {};
 	for i,j in ipairs(group) do
-		if j.description then
+		if j.description and not d[j.description] then
+			d[j.description] = true;
 			if description then
 				description = description .. "\n\n" .. j.description;
 			else
