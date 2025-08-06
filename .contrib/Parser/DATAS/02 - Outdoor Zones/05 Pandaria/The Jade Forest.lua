@@ -538,7 +538,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 41.6, 23.7, THE_JADE_FOREST },
 						["groups"] = {
 							objective(1, {	-- Boiling Cauldron obtained
-								["provider"] = { "n", 55086 },	-- Boiling Cauldron
+								["provider"] = { "o", 209551 },	-- Boiling Cauldron
 								["coord"] = { 37.8, 17.6, THE_JADE_FOREST },
 							}),
 							objective(2, {	-- Boiling Cauldron returned
