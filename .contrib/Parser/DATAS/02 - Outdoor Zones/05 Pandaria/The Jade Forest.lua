@@ -432,6 +432,7 @@ root(ROOTS.Zones, {
 									{ "o", 209436 },	-- Ripe Orange
 								},
 								["coord"] = { 45.2, 28.5, THE_JADE_FOREST },
+								["cr"] = 54930,	-- Greenwood Thief
 							}),
 						},
 					}),
