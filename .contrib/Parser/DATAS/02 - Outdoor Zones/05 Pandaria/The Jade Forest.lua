@@ -1871,6 +1871,7 @@ root(ROOTS.Zones, {
 									{ "o", 213652 },	-- Cho Family Shrine
 								},
 								["coord"] = { 44.5, 66.9, THE_JADE_FOREST },
+								["cr"] = 64475,	-- Mishi 
 							}),
 						},
 					}),
