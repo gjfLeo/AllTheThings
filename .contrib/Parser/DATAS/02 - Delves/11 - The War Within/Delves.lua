@@ -2566,7 +2566,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235688, {	-- Delver's Dirigible Schematic: Fan (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2577,11 +2577,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235690, {	-- Delver's Dirigible Schematic: Harpoon (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(235689, {	-- Delver's Dirigible Schematic: Kite (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
@@ -2592,7 +2592,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235692, {	-- Delver's Dirigible Schematic: Thrusters (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2607,7 +2607,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235691, {	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 				}),
 				filter(MOUNTS, {
@@ -2632,7 +2632,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237954, {	-- Arsenal: Undermine Weaponry
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2640,11 +2640,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237945, {	-- Ensemble: Blastborne Loadout
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(248788, {	-- Ensemble: Bundle of Ethereal Cloaks
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2652,7 +2652,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237944, {	-- Ensemble: Junkreaver's Plates
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2660,11 +2660,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237949, {	-- Ensemble: Nitroclad Kit
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(237953, {	-- Ensemble: Noxious Injector Apparatus
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2680,7 +2680,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(245525, {	-- Opulent Phasebound Visor
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(212163, {	-- Soporific Shroom Cap
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2744,7 +2744,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					-- Season 3
 					i(244193, {	-- L00T RAID-R Mini
 						["cost"] = {{"c", UNDERCOIN, 1000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(238526, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
@@ -2756,7 +2756,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(248017, {	-- Shrieking Quartz
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 				}),
 				filter(TOYS, {
