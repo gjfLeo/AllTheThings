@@ -271,10 +271,11 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
 
-root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_2_0_TEMP } }, {
+root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
 		["isRaid"] = true,
 		["coord"] = { 41.9, 21.5, KARESH },
+		["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		["maps"] = {
 			2460,	-- The Forge Core
 			2461,	-- The Unbound Vault
@@ -723,7 +724,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 						title(615),	-- Void Vanquisher <Name>
 					}),
 					ach(41625, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 }}),	-- Cutting Edge: Dimensius, the All-Devouring
-					ach(41623, bubbleDownSelf({["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {	-- Hall of Fame: Dimensius, the All-Devouring
+					ach(41623, applyDataSelf({["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {	-- Hall of Fame: Dimensius, the All-Devouring
 						title(614),	-- <Name>, Famed Slayer of Dimensius
 					})),
 					ach(41622),	-- Mythic: Dimensius, the All-Devouring Guild Run
@@ -736,34 +737,37 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			}),
 		},
 	}),
-})));
+}));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
-		n(FACTIONS, {
-			header(HEADERS.Faction, FACTION_MANAFORGE_VANDALS, {
-				n(QUESTS, {
-					q(92032, {	-- Triggered with Meet the Vandals (92031)
-						["timeline"] = { ADDED_11_2_0 },
-					}),
-					q(92033, {	-- Triggered with Meet the Vandals (92031)
-						["timeline"] = { ADDED_11_2_0 },
+		["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		["groups"] = {
+			n(FACTIONS, {
+				header(HEADERS.Faction, FACTION_MANAFORGE_VANDALS, {
+					n(QUESTS, {
+						q(92032, {	-- Triggered with Meet the Vandals (92031)
+							["timeline"] = { ADDED_11_2_0 },
+						}),
+						q(92033, {	-- Triggered with Meet the Vandals (92031)
+							["timeline"] = { ADDED_11_2_0 },
+						}),
 					}),
 				}),
 			}),
-		}),
-		inst(1302, bubbleDown({	-- Manaforge Omega
-			["isWeekly"] = true,
-		},{
-			-- LFR
-
-			-- Normal
-
-			-- Heroic
-
-			-- Mythic
-
-			-- All
-		})),
+		},
 	}),
-})));
+	inst(1302, bubbleDown({	-- Manaforge Omega
+		["isWeekly"] = true,
+	},{
+		-- LFR
+
+		-- Normal
+
+		-- Heroic
+
+		-- Mythic
+
+		-- All
+	})),
+}));

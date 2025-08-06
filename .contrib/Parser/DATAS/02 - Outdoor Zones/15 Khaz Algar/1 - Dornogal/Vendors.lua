@@ -61,10 +61,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					-- All seasons
 					i(226814, {	-- Chest of Gold
 						["cost"] = {
-							-- #if BEFORE 11.1.0
-							{"i", ALGARI_TOKEN_OF_MERIT_S1, 2},
-							-- #else
+							-- #if AFTER 11.2.0
+							{"i", ALGARI_TOKEN_OF_MERIT_S3, 2},
+							-- #elseif AFTER 11.1
 							{"i", ALGARI_TOKEN_OF_MERIT_S2, 2},
+							-- #else
+							{"i", ALGARI_TOKEN_OF_MERIT_S1, 2},
 							-- #endif
 						},
 					}),
