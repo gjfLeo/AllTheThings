@@ -528,7 +528,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				["description"] = "This allows converting certain pieces of gear into Tier items for your Class.\n\nMake sure to equip your item first before converting it.",
 				["coord"] = { 50.0, 54.2, DORNOGAL },
 				["modelScale"] = 4,
-				["catalystID"] = 10,	-- ItemBonus.Value_0 TWW:S2 -- Ask Runaway if this need change?
+				["catalystID"] = 11,	-- ItemBonus.Value_0 TWW:S3
 				["groups"] = {
 					Difficulty(DIFFICULTY.RAID.LFR, {["upgradeTrackID"]=UPGRADETRACKS.VETERAN}).AddGroups(
 						ALL_CLASS_TIERS_HELPER(MANAFORGE_OMEGA_TIER, DIFFICULTY.RAID.LFR)
