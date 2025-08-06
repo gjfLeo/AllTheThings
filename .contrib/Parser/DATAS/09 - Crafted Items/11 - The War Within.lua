@@ -2395,9 +2395,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(210936),	-- Ironclaw Ore+
 			i(210937),	-- Ironclaw Ore++
 			i(210938),	-- Ironclaw Ore+++
-			i(238201, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore+
-			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore++
-			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore+++
+			i(238201, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+
+			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus++
+			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+++
 			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
 			i(224838),	-- Null Sliver
 			i(210939),	-- Null Stone

@@ -281,7 +281,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
 		["isRaid"] = true,
 		["coord"] = { 41.9, 21.5, KARESH },
-		["timeline"] = { ADDED_11_2_0 },	-- not available until 11.2 season BUT in-game at 11.2
+		["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		["maps"] = {
 			2460,	-- The Forge Core
 			2461,	-- The Unbound Vault
@@ -747,7 +747,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	inst(1302, {	-- Manaforge Omega
-		["timeline"] = { ADDED_11_2_0 },
+		["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		["groups"] = {
 			n(FACTIONS, {
 				header(HEADERS.Faction, FACTION_MANAFORGE_VANDALS, {
