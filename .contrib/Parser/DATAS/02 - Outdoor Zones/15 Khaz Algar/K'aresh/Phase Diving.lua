@@ -68,10 +68,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(QUESTS, {
 			}),
 			n(RARES, sharedData({
-			--	["isDaily"] = true,
+				["isDaily"] = true,
 			},{
 				n(232128, {	-- Ixthar the Unblinking
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 64.0, 43.6, KARESH },
 					["questID"] = 90596,
 					["groups"] = {
@@ -80,12 +79,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232077, {	-- Korgorath the Ravager
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 64.7, 43.6, KARESH },
 					["questID"] = 90586,
 				}),
 				n(231981, {	-- Maw of the Sands
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
+					["isDaily"] = IGNORED_VALUE,
+					["isWeekly"] = true,
 					["coord"] = { 54.5, 54.5, KARESH },
 					["questID"] = 90594,
 					["groups"] = {
@@ -94,7 +93,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232108, {	-- Morgil the Netherspawn
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 56.1, 52.7, KARESH },
 					["questID"] = 90588,
 					["groups"] = {
@@ -103,7 +101,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232127, {	-- Orith the Dreadful
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
+					["isDaily"] = IGNORED_VALUE,
+					["isWeekly"] = true,
 					["coord"] = { 58.9, 20.8, KARESH },
 					["questID"] = 90595,
 					["groups"] = {
@@ -111,7 +110,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232182, {	-- Prototype Mk-V
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 45.8, 24.2, KARESH },
 					["questID"] = 90590,
 					["groups"] = {
@@ -120,12 +118,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232189, {	-- Revenant of the Wasteland
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 50.5, 64.6, KARESH },
 					["questID"] = 90591,
 				}),
 				n(232129, {	-- Shadowhowl
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 54.1, 49.1, KARESH },
 					["questID"] = 90583,
 					["groups"] = {
@@ -133,7 +129,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(232193, {	-- Stalker of the Wastes
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 76.7, 42.0, KARESH },
 					["questID"] = 90592,
 					["groups"] = {
@@ -142,13 +137,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					},
 				}),
 				n(234845, {	-- Sthaarbs <the Mindroiler>
-				--	["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
 					["coord"] = { 74.0, 32.4, KARESH },
 					["questID"] = 91293,
 					["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 				}),
 				n(232199, {	-- Xarran the Binder
-				--	["description"] = "You need to Phasedive in order to see the Rare Creature.",
 					["coord"] = { 65.1, 50.0, KARESH },
 					["questID"] = 90584,
 					["groups"] = {

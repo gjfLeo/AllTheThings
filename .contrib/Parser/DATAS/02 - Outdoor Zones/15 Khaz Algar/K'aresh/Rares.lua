@@ -3,7 +3,9 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
-		n(RARES, {
+		n(RARES, sharedData({
+			["isDaily"] = true,
+		},{
 			n(COMMON_BOSS_DROPS, {	-- Using this header as temp. Can These drop from all rares or is each one specific? //Braghe
 				i(239448),	-- Reshii Magi's Vestments
 				i(239449),	-- Reshii Magi's Slippers
@@ -50,6 +52,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(238540, {	-- Grubber
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 71.2, 57.2, KARESH_TAZAVESH },
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["questID"] = 90698,
 				["groups"] = { i(239469) },	-- Reshii Skirmisher's Pauldrons
 			}),
@@ -80,6 +84,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 				["coord"] = { 71.5, 27.4, KARESH },
 				["questID"] = 91309,
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(232467, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
@@ -101,6 +107,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 				["coord"] = { 50.6, 54.1, KARESH },
 				["questID"] = 91310,
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(238663, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
@@ -116,6 +124,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
 				["questID"] = 90692,
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(239460),	-- Reshii Scout's Breeches
 				},
@@ -136,6 +146,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
 				["coord"] = { 49.5, 64.2, KARESH },
 				["questID"] = 91311,
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(238664, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
@@ -178,7 +190,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(239479),	-- Reshii Brute's Vambraces
 				},
 			}),
-		}),
+		})),
 	}),
 })));
 
