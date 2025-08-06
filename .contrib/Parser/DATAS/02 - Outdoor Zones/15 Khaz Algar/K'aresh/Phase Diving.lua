@@ -84,6 +84,122 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			})),
 			n(TREASURES, {
+				o(548597, {	-- Bladed Rifle Of Unfettered Momentum
+					["description"] = "Requires Rank 5 Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+					["coord"] = { 69.9, 70.8, KARESH },
+					["questID"] = 91058,
+					["groups"] = { i(245673), },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
+				}),
+				-- TODO: Replace quest with actual ObjectID upon discovery
+				q(89378, {	-- Ethereal Voidforged Container
+					--["questID"] = 89378,
+					-- TODO: Either this was moved somewhere else or it has multiple spawn points...
+					-- Achievement 'Jump, Jump, and Away!' states "Find and loot the Ethereal Voidforged Container in the Ruins of Yaathron in K'aresh." but it's nowhere to be found.
+					-- Vignette used to be present a couple of builds ago but I had no Rank 5 Wraps to see it.
+					["description"] = "Requires some serious jumping precision in order to get to it.",
+					["coord"] = { 52.1, 68.3, KARESH },
+				}),
+				o(529669, {	-- Korgoraths Talon
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 64.4, 42.7, KARESH },
+					["questID"] = 90532,
+					["groups"] = { i(243153), },	-- Korgorath's Talon (COSMETIC!)
+				}),
+				o(529525, {	-- Light-Soaked Cleaver
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 52.5, 46.8, KARESH },
+					["questID"] = 90511,
+					["groups"] = { i(243002), },	-- Light-Soaked Cleaver (COSMETIC!)
+				}),
+				o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
+					["questID"] = 91056,
+					["groups"] = { i(245669), },	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
+				}),
+				o(529539, {	-- Petrified Branch Of Janaa
+					["description"] = "Requires Rank 5 Reshii Wraps.\nIt is recommended to buy some Gliders if you can't glide/slow fall yourself.",
+					["coord"] = { 78.3, 61.6, KARESH },
+					["questID"] = 90515,
+					["groups"] = { i(243006), },	-- Petrified Branch of Janaa (COSMETIC!)
+				}),
+				o(548010, {	-- Phaseblade Of The Void Marches
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 50.8, 35.3, KARESH },
+					["questID"] = 91057,
+					["groups"] = { i(245671), },	-- Phaseblade of the Void Marches (COSMETIC!)
+				}),
+				o(529664, {	-- Shadowguard Crusher
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 49.2, 18.0, KARESH },
+					["questID"] = 90527,
+					["groups"] = { i(243008), },	-- Shadowguard Crusher (COSMETIC!)
+				}),
+				o(529591, {	-- Sufaadi Skiff Lantern
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 80.7, 52.8, KARESH },
+					["questID"] = 90521,
+					["groups"] = { i(243009), },	-- Sufaadi Skiff Lantern (COSMETIC!)
+				}),
+				o(547995, {	-- Warglaive of the Audacious Hunter
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coords"] = {
+						{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
+						{ 62.5, 52.2, 2477 },	-- Voidscar Cavern
+					},
+					["questID"] = 91055,
+					["groups"] = { i(245667), },	-- Warglaive of the Audacious Hunter (COSMETIC!)
+				}),
+				o(529643, {	-- Tulwar Of The Golden Guard
+					["description"] = "Requires Rank 5 Reshii Wraps.",
+					["coord"] = { 51.0, 65.1, KARESH },
+					["questID"] = 90522,
+					["groups"] = { i(243005), },	-- Tulwar of the Golden Guard (COSMETIC!)
+				}),
+				header(HEADERS.Achievement, 60890, {	-- Secrets of the K'areshi
+					o(558375, {	-- Checklist of Minor Pleasures
+						["description"] = "You need to Phasedive in order to see the Lore Object.",
+						["coord"] = { 38.2, 45.6, KARESH_TAZAVESH },
+						["questID"] = 91687,
+					}),
+					o(558110, {	-- From Vengeance to Void
+						["description"] = "You need to Phasedive in order to see the Lore Object.",
+						["coord"] = { 42.3, 20.9, KARESH },
+						["questID"] = 91646,
+					}),
+					o(558117, {	-- I Have Become Void!
+						["description"] = "You need to Phasedive in order to see the Lore Object.",
+						["coord"] = { 36.7, 58.1, KARESH_TAZAVESH },
+						["questID"] = 91649,
+					}),
+					o(558108, {	-- Multiversal Energy Dynamics and the Murmurration Paradox
+						["description"] = "You need to Phasedive in order to see the Lore Object.",
+						["coord"] = { 49.6, 26.8, KARESH },
+						["questID"] = 91643,
+					}),
+					o(558112, {	-- The Facets of K'aresh
+						["description"] = "You need to Phasedive in order to see the Lore Object.",
+						["coord"] = { 72.1, 29.4, KARESH },
+						["questID"] = 91647,
+					}),
+				}),	
+				-- Phased
+				o(516626, {	-- Phase-Lost Pocket-Storage
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
+					["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+					["maps"] = { KARESH_TAZAVESH, KARESH },
+					-- No quest attached to them.
+					["sym"] = {	-- Zone Drop
+						{"select","mapID",KHAZ_ALGAR},{"pop"},
+						{"where","mapID",KARESH},{"pop"},
+						{"where","headerID",ZONE_DROPS},{"pop"},
+					},
+					["groups"] = {	-- Has a chance to drop following
+						i(243147),	-- Ethereal Defense Pylon
+						i(243219),	-- Phased Ethereal Bow
+						i(242371),	-- Untethered Xy'bucha
+					},
+				}),
 			}),
 			n(WORLD_QUESTS, {
 				["sourceQuests"] = {
