@@ -1260,3 +1260,9 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+	m(VALE_OF_ETERNAL_BLOSSOMS, {
+		q(92522, { ["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 } }),	-- Weekly turn-in for Elder Charms of Good Fortune (Alliance, idk if it's different for Horde)
+	}),
+})));
