@@ -66,20 +66,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--["coord"] = { x, y, KARESH },
 				--["questID"] = ,
 			}),
-			n(232128, {	-- Ixthar the Unblinking
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 64.0, 43.6, KARESH },
-				["questID"] = 90596,
-				["groups"] = {
-					i(240171),	-- Observer's Soul Fetters
-					i(240213),	-- Veiling Mana Shroud
-				},
-			}),
-			n(232077, {	-- Korgorath the Ravager
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 64.7, 43.6, KARESH },
-				["questID"] = 90586,
-			}),
 			n(231229, {	-- Korgoth the Hungerer
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 				["coord"] = { 71.5, 27.4, KARESH },
@@ -101,15 +87,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(240168),	-- Reshii Magi's Seal
 				},
 			}),
-			n(231981, {	-- Maw of the Sands
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 54.5, 54.5, KARESH },
-				["questID"] = 90594,
-				["groups"] = {
-					i(240172),	-- Depleted K'areshi Battery
-					i(240214),	-- Miniature Reshii Sandgarden
-				},
-			}),
 			n(234970, {	-- Miasmawrath
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 				["coord"] = { 50.6, 54.1, KARESH },
@@ -119,23 +96,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
-				},
-			}),
-			n(232108, {	-- Morgil the Netherspawn
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 56.1, 52.7, KARESH },
-				["questID"] = 90588,
-				["groups"] = {
-					i(244915),	-- Jimmy (PET!)
-					i(239450),	-- Reshii Magi's Gloves
-				},
-			}),
-			n(232127, {	-- Orith the Dreadful
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 58.9, 20.8, KARESH },
-				["questID"] = 90595,
-				["groups"] = {
-					i(240172),	-- Depleted K'areshi Battery
 				},
 			}),
 			n(235422, {	-- Phase-Thief Tezra
@@ -159,24 +119,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(239460),	-- Reshii Scout's Breeches
 				},
 			}),
-			n(232189, {	-- Revenant of the Wasteland
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 50.5, 64.6, KARESH },
-				["questID"] = 90591,
-			}),
 			n(232006, {	-- Sha'ryth the Cursed
 				["coord"] = { 72.3, 55.8, KARESH },
 				["questID"] = 90585,
 				["groups"] = {
 					i(239453),	-- Reshii Magi's Spines
-				},
-			}),
-			n(232129, {	-- Shadowhowl
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 54.1, 49.1, KARESH },
-				["questID"] = 90583,
-				["groups"] = {
-					i(239469),	-- Reshii Skirmisher's Pauldrons
 				},
 			}),
 			n(238135, {	-- Shatterpulse
@@ -192,12 +139,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--- Junk item worth 50g. Only source of it for now.
 					i(246063),	-- Void-Polished Warpstalker Stone
 				},
-			}),
-			n(234845, {	-- Sthaarbs <the Mindroiler>
-				["description"] = "You need to Phasedive in order to be able to attack the Rare Creature.",
-				["coord"] = { 74.0, 32.4, KARESH },
-				["questID"] = 91293,
-				["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 			}),
 			n(235087, {	-- The Harvester
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
@@ -234,15 +175,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 70.2, 49.7, KARESH },
 				["questID"] = 90593,
 			}),
-			n(232199, {	-- Xarran the Binder
-				["description"] = "You need to Phasedive in order to see the Rare Creature.",
-				["coord"] = { 65.1, 50.0, KARESH },
-				["questID"] = 90584,
-				["groups"] = {
-					i(239451),	-- Reshii Magi's Crown
-					i(239463),	-- Reshii Scout's Bracers
-				},
-			}),
 			n(238384, {	-- Xy'vox the Twisted
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
@@ -268,29 +200,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91422, {	-- Weekly reputation: Heka'tamos
 					["name"] = "Heka'tamos weekly reputation obtained.",
 				}),
-				q(90685, {	-- Weekly reputation: Ixthar the Unblinking
-					["name"] = "Ixthar the Unblinking weekly reputation obtained.",
-				}),
-				q(90675, {	-- Weekly reputation: Korgorath the Ravager
-					["name"] = "Korgorath the Ravager weekly reputation obtained.",
-				}),
 				q(91433, {	-- Weekly reputation: Korgoth the Hungerer
 					["name"] = "Korgoth the Hungerer weekly reputation obtained.",
 				}),
 				q(91421, {	-- Weekly reputation: Malek'ta
 					["name"] = "Malek'ta weekly reputation obtained.",
 				}),
-				q(90683, {	-- Weekly reputation: Maw of the Sands
-					["name"] = "Maw of the Sands weekly reputation obtained.",
-				}),
 				q(91434, {	-- Weekly reputation: Miasmawrath
 					["name"] = "Miasmawrath weekly reputation obtained.",
-				}),
-				q(90677, {	-- Weekly reputation: Morgil the Netherspawn
-					["name"] = "Morgil the Netherspawn weekly reputation obtained.",
-				}),
-				q(90684, {	-- Weekly reputation: Orith the Dreadful
-					["name"] = "Orith the Dreadful weekly reputation obtained.",
 				}),
 				q(90679, {	-- Weekly reputation: Prototype Mk-V
 					["name"] = "Prototype Mk-V weekly reputation obtained.",
@@ -298,20 +215,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swipe with rare questID if wrong)
 					["name"] = "Purple Peat weekly reputation obtained.",
 				}),
-				q(90680, {	-- Weekly reputation: Revenant of the Wasteland
-					["name"] = "Revenant of the Wasteland weekly reputation obtained.",
-				}),
-				q(90674, {	-- Weekly reputation: Shadowhowl
-					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
-				}),
 				q(90673, {	-- Weekly reputation: Sha'ryth the Cursed
 					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
 				}),
 				q(90681, {	-- Weekly reputation: Stalker of the Wastes
 					["name"] = "Stalker of the Wastes weekly reputation obtained.",
-				}),
-				q(91431, {	-- Weekly reputation: Sthaarbs (TODO: swipe with rare questID if wrong)
-					["name"] = "Sthaarbs weekly reputation obtained.",
 				}),
 				q(91435, {	-- Weekly reputation: The Harvester
 					["name"] = "The Harvester weekly reputation obtained.",
@@ -324,9 +232,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(90682, {	-- Weekly reputation: Urmag
 					["name"] = "Urmag weekly reputation obtained.",
-				}),
-				q(90672, {	-- Weekly reputation: Xarran the Binder
-					["name"] = "Xarran the Binder weekly reputation obtained.",
 				}),
 				q(90695, {	-- Weekly reputation: Xy'vox the Twisted (TODO: swipe with rare questID if wrong)
 					["name"] = "Xy'vox the Twisted weekly reputation obtained.",
