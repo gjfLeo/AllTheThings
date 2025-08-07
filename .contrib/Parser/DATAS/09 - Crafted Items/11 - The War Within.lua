@@ -1019,10 +1019,65 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(ENGINEERING, {
 		n(DISCOVERY, {
-			spell(447312, {	-- Invent
-				i(224640),	-- Invent
+			salvagerecipe(447312, 224640, {	-- Invent / Invent
+				i(219191),	-- Hastily Scrawled Notes
+				i(221968),	-- Legibly Scribbled Notes
 			}),
-			TempForceMisc(i(219192, {	-- Comprehensibly Organized Ideas
+			salvagerecipe(447310, 224822, {	-- Scour Through Scrap / Scour Through Scrap
+				r(447340),	-- Chaos Circuit
+				r(447313),	-- Disassemble Invention
+				r(447341),	-- Entropy Enhancer
+				r(447338),	-- Gyrating Gear
+				r(447336),	-- Handful of Bismuth Bolts
+				r(447312),	-- Invent
+				r(447339),	-- Safety Switch
+				r(447337),	-- Whimsical Wiring
+				i(227890, { -- Unrecognizable Prototype
+					i(221956, { -- Prototype: Algari Repair Bot 11O
+						r(447367),	-- Algari Repair Bot 11O
+					}),
+					i(221960, { -- Prototype: Barrel of Fireworks
+						r(447369),	-- Barrel of Fireworks
+					}),
+					i(221952, { -- Prototype: Convincingly Realistic Jumper Cables
+						r(447366),	-- Convincingly Realistic Jumper Cables
+					}),
+					i(221961, { -- Prototype: Defective Escape Pod
+						r(447370),	-- Defective Escape Pod
+					}),
+					i(221963, { -- Prototype: Filmless Camera
+						r(447371),	-- Filmless Camera
+					}),
+					i(221965, { -- Prototype: Wormhole Generator: Khaz Algar
+						r(447372),	-- Wormhole Generator: Khaz Algar
+					}),
+					i(221958, { -- Prototype: Summon Portable Profession Possibility Projector
+						r(447368),	-- Portable Profession Possibility Projector
+					}),
+					i(221875, { -- Prototype: Potion Bomb of Recovery
+						r(447343),	-- Potion Bomb of Recovery
+					}),
+					i(221948, { -- Prototype: Pausing Pylon
+						r(447365),	-- Pausing Pylon
+					}),
+					i(221879, { -- Prototype: Potion Bomb of Power
+						r(447344),	-- Potion Bomb of Power
+					}),
+					i(221871, { -- Prototype: Potion Bomb of Speed
+						r(447342),	-- Potion Bomb of Speed
+					}),
+					i(221944, { -- Prototype: Irresistible Red Button
+						r(447364),	-- Irresistible Red Button
+					}),
+					i(221903, { -- Prototype: Earthen Delivery Drill
+						r(447350),	-- Tinker: Earthen Delivery Drill
+					}),
+					i(221907, { -- Prototype: Heartseeking Health Injector
+						r(447351),	-- Tinker: Heartseeking Health Injector
+					}),
+				}),
+			}),
+			i(219192, {	-- Comprehensibly Organized Ideas
 				["description"] = "NOTE: Some of these require a specific specialization to discover.",
 				["groups"] = {
 					r(447325, {	-- Aqirite Brainwave Projector
@@ -1083,76 +1138,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 						["description"] = "Requires specialization - Bracers to discover",
 					}),
 				},
-			})),
-			spell(447310, {	-- Scour Through Scrap
-				i(224822, {	-- Scour Through Scrap
-					r(447340),	-- Chaos Circuit
-					r(447313),	-- Disassemble Invention
-					r(447341),	-- Entropy Enhancer
-					r(447338),	-- Gyrating Gear
-					r(447336),	-- Handful of Bismuth Bolts
-					r(447312),	-- Invent
-					r(447339),	-- Safety Switch
-					r(447337),	-- Whimsical Wiring
-					i(227890, { -- Unrecognizable Prototype
-					i(221956, { -- Prototype: Algari Repair Bot 11O
-						r(447367),	-- Algari Repair Bot 11O
-					}),
-					i(221960, { -- Prototype: Barrel of Fireworks
-						r(447369),	-- Barrel of Fireworks
-					}),
-					i(221952, { -- Prototype: Convincingly Realistic Jumper Cables
-						r(447366),	-- Convincingly Realistic Jumper Cables
-					}),
-					i(221961, { -- Prototype: Defective Escape Pod
-						r(447370),	-- Defective Escape Pod
-					}),
-					i(221963, { -- Prototype: Filmless Camera
-						r(447371),	-- Filmless Camera
-					}),
-					i(221965, { -- Prototype: Wormhole Generator: Khaz Algar
-						r(447372),	-- Wormhole Generator: Khaz Algar
-					}),
-					i(221958, { -- Prototype: Summon Portable Profession Possibility Projector
-						r(447368),	-- Portable Profession Possibility Projector
-					}),
-					i(221875, { -- Prototype: Potion Bomb of Recovery
-						r(447343),	-- Potion Bomb of Recovery
-					}),
-					i(221948, { -- Prototype: Pausing Pylon
-						r(447365),	-- Pausing Pylon
-					}),
-					i(221879, { -- Prototype: Potion Bomb of Power
-						r(447344),	-- Potion Bomb of Power
-					}),
-					i(221871, { -- Prototype: Potion Bomb of Speed
-						r(447342),	-- Potion Bomb of Speed
-					}),
-					i(221944, { -- Prototype: Irresistible Red Button
-						r(447364),	-- Irresistible Red Button
-					}),
-					i(221903, { -- Prototype: Earthen Delivery Drill
-						r(447350),	-- Tinker: Earthen Delivery Drill
-					}),
-					i(221907, { -- Prototype: Heartseeking Health Injector
-						r(447351),	-- Tinker: Heartseeking Health Injector
-					}),
-					}),
-				}),
 			}),
-			-- because parser is still 'guessing' Recipe Items based on SpellID and RequireSkill, this is turning into
-			-- Recipe 448280 (Rearrange Notes) which is harvested in ReagentDB as using Hastily Scrawled Notes as a Reagent
-			-- Thus due to some newer Recipe nesting tech for popouts of Reagents directly, this is nesting itself inside itself
-			-- and then filling it again, which repeats forever.
-			-- Eventually the Profession DBs will be done (right?) and Parser won't be magically turning Items into Recipes unless
-			-- we say so
-			TempForceMisc(i(219191, {	-- Hastily Scrawled Notes
-				["provider"] = { "i", 224640 },	-- Invent
-			})),
-			TempForceMisc(i(221968)),	-- Legibly Scribbled Notes
 		}),
-		spell(447311, {	-- Pilfer Through Parts
+		salvagerecipe(447311, 225202, {	-- Pilfer Through Parts
 			i(227769),	-- Bountiful Bolts
+		}),
+		salvagerecipe(447313, 225251, {	-- Disassemble Invention
+			-- any reason to list possible outputs here?
 		}),
 		n(ARMOR, {
 			i(225642),	-- Acolyte's Goggles
