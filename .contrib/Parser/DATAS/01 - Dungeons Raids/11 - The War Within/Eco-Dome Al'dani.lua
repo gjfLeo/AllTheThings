@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 			n(QUESTS, {
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
-				e(3107, {	-- Azhiccar
+				e(2675, {	-- Azhiccar
 					["crs"] = { 234893 },	-- Azhiccar
 					["groups"] = {
 						i(242468),	-- Al'dani Attendant's Gauze
@@ -24,7 +24,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 						i(242464),	-- Swarmite's Frenzied Pedicel
 					},
 				}),
-				e(3108, {	-- Taah'bat and A'wazj
+				e(2676, {	-- Taah'bat and A'wazj
 					["crs"] = {
 						234933,	-- Taah'bat <The Relentless>
 						237514,	-- A'wazj
@@ -39,7 +39,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 						i(242477),	-- Wastland Devotee's Wrappings
 					},
 				}),
-				e(3109, {	-- Soul-Scribe
+				e(2677, {	-- Soul-Scribe
 					["crs"] = { 234935 },	-- Soul-Scribe
 					["groups"] = {
 						ach(42780),	-- Eco-Dome Al'dani
@@ -55,7 +55,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, {
-				e(3109, {	-- Soul-Scribe
+				e(2677, {	-- Soul-Scribe
 					["crs"] = { 247283 },	-- Soul-Scribe
 					["groups"] = {
 						ach(42781),	-- Heroic: Eco-Dome Al'dani
@@ -63,7 +63,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
-				e(3109, {	-- Soul-Scribe
+				e(2677, {	-- Soul-Scribe
 					["crs"] = { 247283 },	-- Soul-Scribe
 					["groups"] = {
 						ach(42782),	-- Mythic: Eco-Dome Al'dani
