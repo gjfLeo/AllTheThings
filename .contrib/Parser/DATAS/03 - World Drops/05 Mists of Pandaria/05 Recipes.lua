@@ -6,19 +6,19 @@ root(ROOTS.WorldDrops, {
 	expansion(EXPANSION.MOP, {
 		filter(RECIPES, {
 			prof(BLACKSMITHING, {
-				TempForceMisc(i(100865, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {	-- Plans: Balanced Trillium Ingot and Its Uses (RECIPE!)
+				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, TempForceMisc(i(100865, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {	-- Plans: Balanced Trillium Ingot and Its Uses (RECIPE!)
 					r(146921),	-- Accelerated Balanced Trillium Ingot (RECIPE!)
 					r(143255),	-- Balanced Trillium Ingot (RECIPE!)
-				}))),
+				})))),
 			}),
 			prof(ENGINEERING, {
-				TempForceMisc(i(100910, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {	-- Schematic: Chief Engineer Jard's Journal
+				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, TempForceMisc(i(100910, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {	-- Schematic: Chief Engineer Jard's Journal
 					r(139197),	-- Advanced Refrigeration Unit
 					r(139176),	-- Jard's Peculiar Energy Source
 					r(139196),	-- Pierre
 					r(143714),	-- Rascal-Bot
 					r(139192),	-- Sky Golem
-				}))),
+				})))),
 				TempForceMisc(i(94847, {	-- Schematic: Chief Engineer Jard's Journal
 					["timeline"] = { ADDED_5_2_0, REMOVED_9_0_2_LAUNCH },
 					["_drop"] = { "g" },
