@@ -470,15 +470,6 @@ root(ROOTS.Unsorted, {
 				i(243344),	-- Chef's Hat
 				i(243347),	-- Keg of Curiosities
 				i(243479),	-- Bag of Brewfest Ingredients
-				-- Devs having fun?
-				i(244854),	-- Purloined Artifact
-				i(244855),	-- Martin Fury
-				i(244856),	-- Deck of Several Things
-				i(244857),	-- The 1 Ring
-				i(244859),	-- Armoire of Invincibility
-				i(244860),	-- Knee Seeking Arrow
-				i(244861),	-- Boots of Speedy Blinding
-				i(244886),	-- Jug of Endless Mayonnaise
 			}),
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider

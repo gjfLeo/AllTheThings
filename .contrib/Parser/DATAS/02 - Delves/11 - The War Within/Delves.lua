@@ -3022,22 +3022,43 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 			}),
 			filter(MISC, {
+				-- Story Variant: Relic Retrieval
+				i(244859),	-- Armoire of Invincibility
+				i(244861),	-- Boots of Speedy Blinding
+				i(244856),	-- Deck of Several Things
+				i(244886),	-- Jug of Endless Mayonnaise
+				i(244860),	-- Knee Seeking Arrow
+				i(244855),	-- Martin Fury
+				i(244854),	-- Purloined Artifact
+				i(244857),	-- The 1 Ring
+				--
 				i(245746),	-- Energy Barrel
 				i(245884),	-- Energy Pyramid
 				i(245747),	-- Energy Urn
 				i(246053),	-- Waygate Piece
 			}),
 			n(TREASURES, {
-				-- TODO: Add treasure data // not sure on mapids
-				q(92573),	-- Phase cutter through wall 49.7, 92.6, 2455
-				q(83692),
-				o(539785, { -- Sturdy Chest
-					["coord"] = { 43.7, 64.9, 2455 },	-- Lower Chamber
-					["questID"] = 90839,
+				-- TODO: not sure on mapids
+				o(455498, { -- Sturdy Chest
+					["description"] = "Use Waygate on the 1st Level.",
+					["coords"] = {
+						{ 47.9, 24.6, 2455 },	-- Waygate
+						{ 62.4, 37.9, 2455 },	-- Sturdy Chest
+					},
+					["questID"] = 83692,
 				}),
 				o(455518, {	-- Sturdy Chest
-					["coord"] = { 61.9, 10.9, 2455 },	-- Lower Chamber
+					["coord"] = { 62.0, 11.1, 2455 },	-- Lower Chamber
 					["questID"] = 83673,
+				}),
+				o(455535, { -- Sturdy Chest
+					["description"] = "Use |cFFFFFFFFPhase Cutter|r ability to penetrate the barrier.",
+					["coord"] = { 49.7, 92.6, 2455 },	-- Lower Chamber
+					["questID"] = 92573,
+				}),
+				o(539785, { -- Sturdy Chest
+					["coord"] = { 43.9, 64.7, 2455 },	-- Lower Chamber
+					["questID"] = 90839,
 				}),
 			}),
 		},

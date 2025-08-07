@@ -87,6 +87,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(240116),	-- Reshii Brute's Longsword
 				},
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
@@ -125,13 +126,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(239460),	-- Reshii Scout's Breeches
-				},
-			}),
-			n(232006, {	-- Sha'ryth the Cursed
-				["coord"] = { 72.3, 55.8, KARESH },
-				["questID"] = 90585,
-				["groups"] = {
-					i(239453),	-- Reshii Magi's Spines
 				},
 			}),
 			n(238135, {	-- Shatterpulse
@@ -173,6 +167,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(240121),	-- Reshii Brute's Barrier
 					i(240120),	-- Reshii Magi's Lantern
 				},
 			}),
@@ -219,9 +214,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swipe with rare questID if wrong)
 					["name"] = "Purple Peat weekly reputation obtained.",
-				}),
-				q(90673, {	-- Weekly reputation: Sha'ryth the Cursed
-					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
 				}),
 				q(91435, {	-- Weekly reputation: The Harvester
 					["name"] = "The Harvester weekly reputation obtained.",

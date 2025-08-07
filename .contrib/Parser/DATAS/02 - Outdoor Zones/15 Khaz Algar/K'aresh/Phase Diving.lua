@@ -27,6 +27,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					Peace!
 					30.07.2025. 1 day after the writeup. You can get more than one cosmetic from 1 Orb. I got Rod and Bullwark from the same Orb only a day or two in between...
 				]]--
+					["description"] = "|cff00ccffRank 3|r |cffe6cc80Reshii Wraps|r required in order to collect the Orbs. Reward is based on a % chance. Large ammount of Orbs have Fixed Coordinates.\n|cff00ccffRank 4|r |cffe6cc80Reshii Wraps|r unlock the ability for Orbs to appear after you kill an enemy.\nIt is possible to obtain more than 1 item from the same Orb.",
 					["coords"] = {
 						{ 44.2, 16.9, KARESH },
 						{ 47.2, 15.8, KARESH },
@@ -37,6 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						{ 54.9, 63.8, KARESH },
 						{ 56.0, 21.5, KARESH },
 						{ 56.5, 20.9, KARESH },
+						{ 60.3, 28.4, KARESH },
 						{ 60.5, 55.5, KARESH },
 						{ 60.6, 42.0, KARESH },
 						{ 61.1, 27.3, KARESH },
@@ -48,8 +50,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						{ 74.0, 57.5, KARESH },
 						{ 76.0, 32.6, KARESH },
 						{ 77.3, 38.0, KARESH },
+						{ 78.4, 48.9, KARESH },
 						{ 34.9, 57.9, KARESH_TAZAVESH },
 						{ 40.2, 68.2, KARESH_TAZAVESH },
+						{ 42.8, 50.3, KARESH_TAZAVESH },
 						{ 44.3, 34.6, KARESH_TAZAVESH },
 						{ 45.2, 50.0, KARESH_TAZAVESH },
 						{ 55.8, 33.6, KARESH_TAZAVESH },
@@ -207,6 +211,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90583,
 					["groups"] = {
 						i(239469),	-- Reshii Skirmisher's Pauldrons
+					},
+				}),
+				n(232006, {	-- Sha'ryth the Cursed
+					["coord"] = { 72.3, 55.8, KARESH },
+					["questID"] = 90585,
+					["groups"] = {
+						i(239453),	-- Reshii Magi's Spines
 					},
 				}),
 				n(232193, {	-- Stalker of the Wastes
@@ -435,14 +446,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90679, {	-- Weekly reputation: Prototype Mk-V
 					["name"] = "Prototype Mk-V weekly reputation obtained.",
 				}),
-				q(90681, {	-- Weekly reputation: Stalker of the Wastes
-					["name"] = "Stalker of the Wastes weekly reputation obtained.",
-				}),
 				q(90680, {	-- Weekly reputation: Revenant of the Wasteland
 					["name"] = "Revenant of the Wasteland weekly reputation obtained.",
 				}),
 				q(90674, {	-- Weekly reputation: Shadowhowl
 					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
+				}),
+				q(90673, {	-- Weekly reputation: Sha'ryth the Cursed
+					["name"] = "Sha'ryth the Cursed weekly reputation obtained.",
+				}),
+				q(90681, {	-- Weekly reputation: Stalker of the Wastes
+					["name"] = "Stalker of the Wastes weekly reputation obtained.",
 				}),
 				q(91431, {	-- Weekly reputation: Sthaarbs (TODO: swipe with rare questID if wrong)
 					["name"] = "Sthaarbs weekly reputation obtained.",
