@@ -1880,8 +1880,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(91454, {	-- Phase-Lost Adventurer
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "i", 246589 },	-- Half-Digested Journal (QS!)
-						["coord"] = { 56.8, 24.1, KARESH },
-						["cr"] = 246608,	-- Phase-Lost Creeper
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.05, {	-- Chasing Echoes

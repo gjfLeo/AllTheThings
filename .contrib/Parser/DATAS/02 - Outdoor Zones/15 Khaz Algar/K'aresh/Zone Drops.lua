@@ -74,6 +74,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				i(244527),	-- Worn Shadowguard Warglaive*
 				i(244515),	-- Worn Shadowguard Warmace*
 			}),
+			i(246589, {	-- Half-Disgested Journal
+				["coord"] = { 56.8, 24.1, KARESH },
+				["cr"] = 246608,	-- Phase-Lost Creeper
+			}),
 		}),
 	}),
 })));
