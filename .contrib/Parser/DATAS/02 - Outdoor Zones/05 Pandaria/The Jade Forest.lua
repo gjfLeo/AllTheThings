@@ -3275,7 +3275,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/3 Clues found
 								["providers"] = {
-									{ "n", 55173 },	-- Horde Seadog
+									{ "n", 55168 },	-- Alliance Bodyguard
 									{ "n", 55167 },	-- Alliance Banner
 									{ "n", 55155 },	-- Fine Leather Journal
 								},
