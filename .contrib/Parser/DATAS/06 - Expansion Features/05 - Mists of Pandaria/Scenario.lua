@@ -806,22 +806,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 							i(98133),	-- Greater Cache of Treasures
 						},
 					}),
-					q(32901, {	-- Heroic Deeds
+					applyclassicphase(MOP_PHASE_ESCALATION, q(32901, {	-- Heroic Deeds
 						["provider"] = { "n", 66998 },	-- Jinho the Wind Breaker
 						["coord"] = { 46.6, 56.5, 392 },
+						["timeline"] = { ADDED_5_3_0 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(98546),  -- Bulging Heroic Cache of Treasures
 						},
-					}),
-					q(32900, {	-- Heroic Deeds
+					})),
+					applyclassicphase(MOP_PHASE_ESCALATION, q(32900, {	-- Heroic Deeds
 						["provider"] = { "n", 64101 },	-- Taijin the Cyclone
 						["coord"] = { 47.23, 49.71, 393 },
+						["timeline"] = { ADDED_5_3_0 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							i(98546),  -- Bulging Heroic Cache of Treasures
 						},
-					}),
+					})),
 				},
 			}),
 			filter(TITLES, sharedData({ ["collectible"] = false }, {
