@@ -736,15 +736,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		i(46109),	-- Sea Turtle (MOUNT!)
 		i(86544),	-- Spinefish Alpha
 		i(74861),	-- Tiger Gourami
-		i(94933, {	-- Tiny Blue Carp (PET!)
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94933, {	-- Tiny Blue Carp (PET!)
+			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Jewel Danio & Redbelly Mandarin\n\n|cFFFfffff— Fish of the Day:|r Townlong Steppes & Vale of Eternal Blossoms\n\n|cFFFfffff— Inland open water:|r Townlong Steppes & Vale of Eternal Blossoms\n",
 			["maps"] = {
 				TIMELESS_ISLE,
 				TOWNLONG_STEPPES,
 				VALE_OF_ETERNAL_BLOSSOMS,
 			},
-		}),
-		i(94934, {	-- Tiny Green Carp (PET!)
+		})),
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94934, {	-- Tiny Green Carp (PET!)
+			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Emperor Salmon, Jade Lungfish, & Krasarang Paddlefish\n\n|cFFFfffff— Fish of the Day:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n\n|cFFFfffff— Inland open water:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n",
 			["maps"] = {
 				KRASARANG_WILDS,
@@ -752,16 +754,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 				TOWNLONG_STEPPES,
 				VALLEY_OF_THE_FOUR_WINDS,
 			},
-		}),
-		i(94932, {	-- Tiny Red Carp (PET!)
+		})),
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94932, {	-- Tiny Red Carp (PET!)
+			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Spinefish\n\n|cFFFfffff— Fish of the Day:|r Kun-Lai Summit\n\n|cFFFfffff— Sha-Touched water:|r Dread Wastes, Kun-Lai Summit & Townlong Steppes\n",
 			["maps"] = {
 				DREAD_WASTES,
 				KUN_LAI_SUMMIT,
 				TOWNLONG_STEPPES,
 			},
-		}),
-		i(94935, {	-- Tiny White Carp (PET!)
+		})),
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94935, {	-- Tiny White Carp (PET!)
+			["timeline"] = { ADDED_5_2_0 },
 			["description"] = "Can be fished from:\n\n|cFFFfffff— Schools:|r Giant Mantis Shrimp, Reef Octopus, & Tiger Gourami\n\n|cFFFfffff— Fish of the Day:|r Dread Wastes, Jade Forest, & Kun-Lai Summit\n\n|cFFFfffff— Inland open water:|r Kun-Lai Summit & The Veiled Stair\n\nIt can also be caught in most coastal open water.\n",
 			["maps"] = {
 				DREAD_WASTES,
@@ -774,7 +778,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 				TIMELESS_ISLE,
 				TOWNLONG_STEPPES,
 			},
-		}),
+		})),
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
 				["description"] = "Can be fished from schools.",
