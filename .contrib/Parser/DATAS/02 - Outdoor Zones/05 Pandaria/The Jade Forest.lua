@@ -2631,7 +2631,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.5, 20.6, THE_JADE_FOREST },
 						["groups"] = {
 							objective(1, {	-- 0/6 Vacant Destroyer Kicked
-								["provider"] = { "n", 55289 },	-- Vacant Destroyer
+								["provider"] = { "o", 214873 },	-- Vacant Destroyer
 								["coord"] = { 48, 16, THE_JADE_FOREST },
 							}),
 						},
