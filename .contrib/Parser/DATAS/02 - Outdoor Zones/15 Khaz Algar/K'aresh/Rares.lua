@@ -59,14 +59,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["groups"] = { i(239469) },	-- Reshii Skirmisher's Pauldrons
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
-				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
+				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis. Their positions are marked on the minimap.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
 				["coords"] = {
 					{ 75.2, 31.0, KARESH },
-					-- TODO: maybe split into object groups below? need to track down IDs if so
-					{ 72.2, 29.4, KARESH },	-- Lantern
-					{ 75.5, 33.4, KARESH },	-- Windcatcher
-					{ 72.7, 33.3, KARESH },	-- Dewminder
-					{ 71.8, 34.6, KARESH },	-- Earthy Root
 				},
 				["crs"] = {
 					246163,	-- Heka'tamos [Vignette]
