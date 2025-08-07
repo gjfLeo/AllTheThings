@@ -640,6 +640,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = {
 							i(231769),	-- Enchanted Runed Ethereal Crest
 							i(236954),	-- Void-Touched Valorstone
+							campsite(119),	-- The Fate of the Devoured (CS!)
 						},
 					}),
 					q(86458),	--
@@ -1740,7 +1741,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 								["coord"] = { 76.4, 55.2, KARESH },
 								["groups"] = { i(237127), },	-- Damaged Echo Surveyor (QI!)
 							}),
-							o(509461),	-- Sealed Chest
 						},
 					}),
 					q(84820, {	-- By Oath and Blood

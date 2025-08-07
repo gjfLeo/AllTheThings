@@ -23,11 +23,8 @@ root(ROOTS.Unsorted, {
 				i(246071),	-- Mana-Seamster's Arcane-Needle
 				-- Delve Armor?
 				i(246825),	-- Chaotic Nethergate
-				i(246939),	-- Essence-Hunter's Eyeglass
 				i(246940),	-- Manaforged Aethercell
 				i(246941),	-- Symbiotic Ethergauze
-				i(246944),	-- Mind-Fracturing Odium
-				i(246945),	-- Incorporeal Essence-Gorger
 				i(246947),	-- Twisted Mana Sprite
 				-- Mechagon Junkyard?
 				i(241239),	-- Epaulets of Arcing Power
@@ -409,7 +406,6 @@ root(ROOTS.Unsorted, {
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
 				i(238879),	-- Cracked Void Carapace
-				i(238885),	-- Unstable Power Source
 				i(238888),	-- Essence of Ephemeral Knowledge
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(239129),	-- Questionable Tentacle
@@ -672,7 +668,6 @@ root(ROOTS.Unsorted, {
 			}),
 			i(248916),	-- Untethered Seer's Capelet
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
-			i(249029),	-- Ultimate Orange O-pocalypse
 			i(249030),	-- Omega Oyster Outbreak
 			i(249235),	-- Bottomless Bag of Entropy
 			i(249560),	-- Skymaster's Silver Mantle

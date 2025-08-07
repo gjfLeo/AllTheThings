@@ -2610,6 +2610,7 @@ i(238847);	-- Torn Maw Fragment
 i(238887);	-- Torn Voidscript Page
 i(243017);	-- Tulwar of the Pyrite Guard
 i(238875);	-- Twisted Sediment
+i(238885);	-- Unstable Power Source
 i(238867);	-- Unstable Void Essence
 i(238814);	-- Vibrantly Colored Crest
 i(238866);	-- Void Dust

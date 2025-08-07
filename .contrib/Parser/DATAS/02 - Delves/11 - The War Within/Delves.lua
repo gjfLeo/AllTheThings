@@ -1095,10 +1095,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(234717, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Blastmaster3000
 				i(215174),	-- Concoction: Kiss of Death
 				i(234326, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Core Recycling Unit
+				i(246939, { ["timeline"] = { ADDED_11_2_0 } }),	-- Essence-Hunter's Eyeglass
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
 				i(234217, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Funhouse Lens
 				i(235984, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Garbagemancer's Last Resort
+				i(246945, { ["timeline"] = { ADDED_11_2_0 } }),	-- Incorporeal Essence-Gorger
+				i(246944, { ["timeline"] = { ADDED_11_2_0 } }),	-- Mind-Fracturing Odium
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
 				i(246824, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Shadowguard's Twisted Harvester
@@ -1692,7 +1695,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(226005),	-- Ancient Tool (was looted from Sturdy Chest (objectID) 455914)
 			--
 			i(234619, {	-- Ultimate Orange O-pocalypse (Curio buff item)
-				["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			}),
 			i(234620, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Perfectly Preserved Kaja'Classic Original Taste
 			--
@@ -2029,7 +2032,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				235490,	-- Overcharged Titan Console
 			},
 			["coord"] = { 48.0, 43.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_7 },
 			["groups"] = {
 				i(244825),	-- Faulty Titan Directives (QI!)
 				i(244696),	-- Overcharged Chest (delve s2 loot table)
@@ -2038,18 +2041,24 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		q(91030, {	-- New Titan Directives
 			["sourceQuests"] = { 91026 },	-- Gathering an Upgrade
-			["provider"] = { "n", 245191 },	-- Dagran Thaurissan II
+			["providers"] = {
+				{ "n", 245191 },	-- Dagran Thaurissan II
+				{ "o", 249592 },	-- Titan Console
+			},
 			["coord"] = { 48.0, 43.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_7 },
 			["groups"] = {
 				i(244696),	-- Overcharged Chest (delve s2 loot table)
 			},
 		}),
 		q(91031, {	-- Pushing it to the Limit
 			["sourceQuests"] = { 91030 },	-- New Titan Directives
-			["provider"] = { "n", 245191 },	-- Dagran Thaurissan II
+			["providers"] = {
+				{ "n", 245191 },	-- Dagran Thaurissan II
+				{ "o", 249592 },	-- Titan Console
+			},
 			["coord"] = { 48.0, 43.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_7 },
 			["groups"] = {
 				i(244696),	-- Overcharged Chest (delve s2 loot table)
 				--i(244311),	-- Titan Memory Card
@@ -2085,14 +2094,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		q(91780, {	-- Ethereal Delves
-			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 			-- auto pop on login
 		}),
 		q(91781, {	-- Seasonal Reminder
 			["sourceQuests"] = { 91780 },	-- Ethereal Delves
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 			["groups"] = {
 				i(248127),	-- Delver's Cosmetic Surprise Bag
 				i(248126),	-- Delver's Starter Kit
@@ -2102,7 +2111,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["sourceQuests"] = { 91781 },	-- Seasonal Reminder
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 			["groups"] = {
 				o(563555, {	-- Writ of Repossession
 					["coord"] = { 47.5, 44.4, DORNOGAL },
@@ -2121,7 +2130,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["sourceQuests"] = { 91782 },	-- Repossessed!
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 			["groups"] = {
 				i(244470),	--  Etheric Victory (TOY!)
 			},
@@ -2191,11 +2200,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				n(248481),	-- Ky'veza's Shadow Clone (TODO: remove if nothing will be with it)
 			},
 		}),
-		o(567732, {	-- Kaja'6-Pack
+		o(567732, {	-- Kaja'6-Pack (Curio Spawned)
 			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
 				i(249032),	-- Dulux Bluesberry Blast
 				i(249031),	-- Supreme Mangoro Madness
+				i(249029),	-- Ultimate Orange O-pocalypse
 			},
 		}),
 		o(455914, {	-- Mislaid Curiosity
@@ -3353,17 +3363,17 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			n(TREASURES, {
 				o(456581, {	-- Egg Clutch
 					["minReputation"] = { FACTION_HALLOWFALL_ARATHI, 12 },
-					["coord"] = { 58.1, 31.2, MYCOMANCER_CAVERN },
-					["groups"] = {
-						i(225339),	-- Chicken Eggs (QS!/QI!)
+					["coords"] = {
+						{ 58.1, 31.2, MYCOMANCER_CAVERN },
+						{ 66.7, 74.5, MYCOMANCER_CAVERN },
+						{ 41.5, 66.6, MYCOMANCER_CAVERN },
 					},
+					["groups"] = { i(225339) },	-- Chicken Eggs (QS!/QI!)
 				}),
 				o(456583, {	-- Lost Shoe
 					["minReputation"] = { FACTION_HALLOWFALL_ARATHI, 12 },
 					["coord"] = { 38.8, 21.7, MYCOMANCER_CAVERN },
-					["groups"] = {
-						i(225336),	-- A Lost Shoe (QS!/QI!)
-					},
+					["groups"] = { i(225336) },	-- A Lost Shoe (QS!/QI!)
 				}),
 				o(455497, {	-- Sturdy Chest
 					["coord"] = { 63.3, 45.3, MYCOMANCER_CAVERN },
