@@ -408,6 +408,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--			--^ contain isle drop/vendor stuff
 					--		},
 					--	}),
+					--		["coord"] = { 69.0, 49.2, SIREN_ISLE },
+					--		["groups"] = {
+					--			i(232466),	-- Leave the Storm (QI!)
+					--			i(235548),	-- Earthen Landlubber's Cache
+					--			--^ contain isle drop/vendor stuff
+					--		},
+					--	}),
 					}),
 				}),
 			}),

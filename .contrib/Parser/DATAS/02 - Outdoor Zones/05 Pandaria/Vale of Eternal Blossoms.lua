@@ -438,12 +438,6 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
 							i(90601),	-- Bonded Plate of the Golden Lotus
 							i(90607),	-- Burning Robes of the Golden Lotus
 							i(90598),	-- Crackling Chain of the Golden Lotus
@@ -454,6 +448,12 @@ root(ROOTS.Zones, {
 							i(90609),	-- Mending Robe of the Golden Lotus
 							i(90599),	-- Warmimng Chestguard of the Golden Lotus
 						}),
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 					}),
 					q(30641, {	-- Battle Helm of the Thunder King
 						["sourceQuests"] = { 30640 },	-- Battle Spear of the Thunder King
@@ -589,18 +589,18 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
 							i(90596),	-- Burning Necklace of the Golden Lotus
 							i(90593),	-- Delicate Necklace of the Golden Lotus
 							i(90594),	-- Durable Necklace of the Golden Lotus
 							i(90592),	-- Ferocious Necklace of the Golden Lotus
 							i(90595),	-- Mending Necklace of the Golden Lotus
 						}),
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 					}),
 					q(30637, {	-- The Guo-Lai Halls
 						["sourceQuests"] = { 30632 },	-- The Ruins of Guo-Lai
@@ -676,18 +676,18 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
 							i(90615),	-- Burning Mark of the Golden Lotus
 							i(90614),	-- Delicate Mark of the Golden Lotus
 							i(90618),	-- Durable Mark of the Golden Lotus
 							i(90617),	-- Ferocious Mark of the Golden Lotus
 							i(90616),	-- Mending Mark of the Golden Lotus
 						}),
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 					}),
 					q(30631, {	-- The Shrine of Seven Stars
 						["sourceQuests"] = { 30630 },	-- Into the Vale (A)
