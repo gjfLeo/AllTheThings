@@ -2399,7 +2399,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus++
 			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+++
 			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
-			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
 			i(246504, {["timeline"]={ADDED_11_2_0}}),	-- Inscrutable Ore (QS!)
 			i(224838),	-- Null Sliver
 			i(210939),	-- Null Stone
