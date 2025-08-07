@@ -398,27 +398,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 78.8, 32.4, KARESH },
 					}),
 					n(SPECIAL, {
-					--	q(86174),	-- Special Assignment: Storm's a Brewin (TODO: seems to be unlock tracker)
-					--	q(85113, {	-- Special Assignment: Storm's a Brewin
-					--		["provider"] = { "n", 227815 },	-- Suzie Boltwrench
-					--		["coord"] = { 69.0, 49.2, SIREN_ISLE },
-					--		["groups"] = {
-					--			i(232466),	-- Leave the Storm (QI!)
-					--			i(235548),	-- Earthen Landlubber's Cache
-					--			--^ contain isle drop/vendor stuff
-					--		},
-					--	}),
-					--		["coord"] = { 69.0, 49.2, SIREN_ISLE },
-					--		["groups"] = {
-					--			i(232466),	-- Leave the Storm (QI!)
-					--			i(235548),	-- Earthen Landlubber's Cache
-					--			--^ contain isle drop/vendor stuff
-					--		},
-					--	}),
 					}),
 				}),
 			}),
 			n(ZONE_DROPS, {
+				i(246589, {	-- Half-Disgested Journal
+					["coord"] = { 56.8, 24.1, KARESH },
+					["cr"] = 246608,	-- Phase-Lost Creeper
+				}),
 			}),
 		}),
 	}),
