@@ -507,7 +507,7 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					-- Wouter TODO: are these in the game?
+					-- Wouter NOTE: it's been confirmed by Blizzard that Into the Vale quests will NOT be added to MoP Classic (not deemed important enough to fix)
 					q(30630, {	-- Into the Vale (A)
 						["sourceQuests"] = { 31512 },	-- A Witness to History (A)
 						["qg"] = 59964,	-- Pako the Speaker
