@@ -2383,7 +2383,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(MINING, {
-		spell(2575, {	-- Mining
+		header(HEADERS.Spell, 2575, {	-- Mining
 			i(210933),	-- Aqirite+
 			i(210934),	-- Aqirite++
 			i(210935),	-- Aqirite+++
@@ -2399,6 +2399,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus++
 			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+++
 			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
+			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
+			i(246504, {["timeline"]={ADDED_11_2_0}}),	-- Inscrutable Ore (QS!)
 			i(224838),	-- Null Sliver
 			i(210939),	-- Null Stone
 			i(224583),	-- Slab of Slate
