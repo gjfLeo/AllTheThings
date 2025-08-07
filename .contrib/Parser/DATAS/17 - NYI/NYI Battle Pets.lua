@@ -1596,9 +1596,9 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(232854, {	-- Grinner (PET!)
 				["displayID"] = 121850,
 			}),
-			i(231756, {	-- Hermes
-				["displayID"] = 120709,
-			}),
+			-- i(231756, {	-- Hermes TODO: [wrong ItemID]
+			-- 	["displayID"] = 120709,
+			-- }),
 			i(232856, {	-- Scruff (PET!)
 				["displayID"] = 121851,
 			}),

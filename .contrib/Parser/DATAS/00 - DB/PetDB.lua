@@ -4368,7 +4368,7 @@ i(231758, 4672);	-- Finnity
 i(231763, 4675);	-- FO-MO Mark II
 i(235909, 4755);	-- Gleam
 i(232854, 4634);	-- Grinner
-i(231756, 4670);	-- Hermes
+-- i(231756, 4670);	-- Hermes TODO: [wrong ItemID]
 i(232856, 4633);	-- Scruff
 i(231613, 4665);	-- Yellow Tropical Frog
 
