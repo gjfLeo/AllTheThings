@@ -1160,6 +1160,12 @@ container = function(id, t)								-- This function helps build an item containe
 	end
 	return bag;
 end
+salvagerecipe = function(recipeID, displayItemID, t)	-- This function helps build proper listing for 'Salvage' Recipes and their visible 'Display Item'
+	local item = container(displayItemID, t)
+	local providers = item.providers
+	providers[#providers + 1] = { "s", recipeID }
+	return item
+end
 
 ---@param id number
 ---@param t? table
