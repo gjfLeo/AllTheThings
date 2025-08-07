@@ -272,9 +272,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			ach(42203),	-- War Within Delves: Tier 11 (Season 3)
 		})),
 		-- TWW Season 3 Boss
-		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			["icon"] = [[~_.asset("Delves_Shadow")]],
-			--["maps"] = { X },
+			["maps"] = { DELVE_ETHEREAL_KYVEZA },
 			["coord"] = { 38.5, 51.1, KARESH_TAZAVESH },
 			["groups"] = {
 				n(ACHIEVEMENTS, {
@@ -1090,38 +1090,23 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			}),
 			filter(TRINKET_F, {
 				i(215170),	-- Abyssal Trap
-				i(232891, {	-- Amorphous Relic
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),
-				i(242867, {	-- Automatic Footbomb Dispenser
-					["timeline"] = { ADDED_11_2_0_SEASONSTART },
-				}),
-				i(234717, {	-- Blastmaster3000
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),
+				i(232891, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Amorphous Relic
+				i(242867, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Automatic Footbomb Dispenser
+				i(234717, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Blastmaster3000
 				i(215174),	-- Concoction: Kiss of Death
-				i(234326, {	-- Core Recycling Unit
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),
+				i(234326, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Core Recycling Unit
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
-				i(234217, {	-- Funhouse Lens
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),
-				i(235984, {	-- Garbagemancer's Last Resort
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),
+				i(234217, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Funhouse Lens
+				i(235984, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Garbagemancer's Last Resort
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
-				i(246824, {	-- Shadowguard's Twisted Harvester
-					["timeline"] = { ADDED_11_2_0_SEASONSTART },
-				}),
+				i(246824, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Shadowguard's Twisted Harvester
 				i(215172),	-- Silken Chain Weaver
+				i(238390, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbreaker's Sigil
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
-				i(238386, {	-- Void-Touched Fragment
-					["timeline"] = { ADDED_11_2_0_SEASONSTART },
-				}),
+				i(238386, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Void-Touched Fragment
 			}),
 		}),
 		filter(BATTLE_PETS, {
@@ -1640,7 +1625,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							["bonusID"] = 12128,
 						}),
 					})),
-					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 						--TODO: only itemID, no bonusIDs for r4
 						i(239568, {	-- Audio Amplification Crystal [Rank 4]
 							--["bonusID"] = xx,
@@ -1720,7 +1705,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
 			i(242849, {	-- Ancient Curio (QS!)
-				["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				["timeline"] = { ADDED_11_2_0 },
 			}),
 			i(242850, {	-- Ancient Curio (QS!)
 				["timeline"] = { ADDED_11_2_0_SEASONSTART },
@@ -2141,7 +2126,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(244470),	--  Etheric Victory (TOY!)
 			},
 		}),
-
 	}),
 	n(QUESTS, sharedData({
 		["provider"] = { "n", 206017 },	-- Brann Bronzebeard
@@ -2230,7 +2214,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		o(478443, {	-- Mislaid Curiosity
 			["description"] = "Contains a 'Chunk of Companion Experience' token.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_0 },
 			["groups"] = {
 				-- Brann Experience
 				i(235504),	-- Chunk of Companion Experience (Uncommon)
@@ -2248,17 +2232,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 				-- No new objectID atm
 				i(248764, {	-- Artisanal Blink Trap
-					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					["timeline"] = { ADDED_11_2_0 },
+				}),
+				i(248017, {	-- Shrieking Quartz
+					["timeline"] = { ADDED_11_2_0 },
 				}),
 				i(248755, {	-- Star-in-a-jar
-					["timeline"] = { ADDED_11_2_0_SEASONSTART },
-				}),
-			},
-		}),
-		o(478443, {	-- Mislaid Curiosity
-			["timeline"] = { ADDED_11_2_0 },
-			["groups"] = {
-				i(248017, {	-- Shrieking Quartz
 					["timeline"] = { ADDED_11_2_0 },
 				}),
 			},

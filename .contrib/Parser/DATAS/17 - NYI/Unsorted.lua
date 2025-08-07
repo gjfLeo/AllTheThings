@@ -405,7 +405,6 @@ root(ROOTS.Unsorted, {
 				--]]
 			}),
 			filter(MISC, {
-				i(238808),	-- Celeste-Touched Fin
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather

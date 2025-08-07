@@ -2554,6 +2554,7 @@ i(246584);	-- A Steamy Romance Novel: Devouring Love
 i(238881);	-- Barbed Predator Tusk
 i(245672);	-- Blade of the Void Swamp
 i(238834);	-- Burnished Void Claw
+i(238808);	-- Celeste-Touched Fin
 i(238874);	-- Congealed Mana
 i(246298);	-- Cracked Staff of the Desperate Defender
 i(247686);	-- Crystallized Nightshade

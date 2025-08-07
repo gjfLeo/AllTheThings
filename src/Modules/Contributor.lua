@@ -1437,6 +1437,7 @@ MobileDB.GameObject = {
 	[529289] = true,	-- Spore Sample (q: 88711)
 	[536867] = true,	-- Swoopwing Eggs (q: 90773)
 	[537690] = true,	-- Prosperity Pebble (q: 90770)
+	[567732] = true,	-- Kaja'6-Pack
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}

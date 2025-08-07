@@ -161,6 +161,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90589,
 				["groups"] = {
 					i(245254),	-- Duskthief (PET!)
+					i(239479),	-- Reshii Brute's Vambraces
 					i(239467),	-- Reshii Skirmisher's Cowl
 				},
 			}),

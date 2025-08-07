@@ -9,6 +9,87 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 		header(HEADERS.Spell, 1214374, {	-- Phase Diving
 			petbattle(filter(BATTLE_PETS, {
 			})),
+			n(ACHIEVEMENTS, {
+				ach(42730),	-- Jump, Jump, and Away!
+				ach(61017, {	-- Phase-Lost-and-Found
+				--[[
+					Alex TODO: is there a better way?
+					Exo write-up:
+					This one will be tricky. You find orbs while Phase Diving and when you go through them, you get the item. Orb can't be targeted, no WoWhead data so far... We don't know if an Orb is an object or NPC.
+					Reshii Wraps Level 2 upgrade "Secrets of the Depths" is required for this as IT is the one unlocking this feature. "You may now find phase orbs ... Phase orbs have a chance to recover a Phase-Lost appearance.
+					So... When adventuring, you can find Orbs with Fixed coordinate and you can "go through" it multiple times on a same character. Example, { 50.1, 36.2, KARESH }, behind Hashim.
+					You either get a junk item 250305, [Phase-Lost Detritus] OR a Phase-Lost cosmetic. (Level 3) Upgrade "Orbs of Power" messes with the concept of coordinates.
+					"Enemies Killed while Phase Diving now have a chance to phase orb ... Phase orbs have a chance to recover a Phase-Lost appearance." + You can ride ground mount.
+					Meaning, If we want an accurate coordinate pool, we will have to scour K'aresh and search for static orbs with fixed coordinates with Level 2 upgrade only.
+					However, using in consideration the sheer size of K'aresh, the point that there are (most likely) MORE than 17 Orbs (one for each cosmetic) and the fact this is account bound feature:
+					we can try to source (at least) 17 coordinates and ask a new tester (that didn't obtain a single of these) to go through gathered coordinates and see if the orb will award the cosmetic 100% on the first "going through".
+					If awarding a cosmetic is based on a chance, the best course is to slap a description that there are "Le wild Orbs" scattered throughout the zones and send players to find them themselves.
+					Peace!
+					30.07.2025. 1 day after the writeup. You can get more than one cosmetic from 1 Orb. I got Rod and Bullwark from the same Orb only a day or two in between...
+				]]--
+					["coords"] = {
+						{ 44.2, 16.9, KARESH },
+						{ 47.2, 15.8, KARESH },
+						{ 50.1, 36.2, KARESH },
+						{ 51.0, 69.1, KARESH },
+						{ 51.2, 67.7, KARESH },
+						{ 53.4, 20.6, KARESH },
+						{ 54.9, 63.8, KARESH },
+						{ 56.0, 21.5, KARESH },
+						{ 56.5, 20.9, KARESH },
+						{ 60.5, 55.5, KARESH },
+						{ 60.6, 42.0, KARESH },
+						{ 61.1, 27.3, KARESH },
+						{ 61.2, 39.2, KARESH },
+						{ 64.9, 55.0, KARESH },
+						{ 64.9, 52.2, KARESH },
+						{ 69.7, 55.3, KARESH },
+						{ 70.3, 32.0, KARESH },
+						{ 74.0, 57.5, KARESH },
+						{ 76.0, 32.6, KARESH },
+						{ 77.3, 38.0, KARESH },
+						{ 34.9, 57.9, KARESH_TAZAVESH },
+						{ 40.2, 68.2, KARESH_TAZAVESH },
+						{ 44.3, 34.6, KARESH_TAZAVESH },
+						{ 45.2, 50.0, KARESH_TAZAVESH },
+						{ 55.8, 33.6, KARESH_TAZAVESH },
+						{ 56.5, 86.7, KARESH_TAZAVESH },
+						{ 60.7, 55.3, KARESH_TAZAVESH },
+					},
+					["groups"] = {
+						i(250240),	-- Phase-Lost Slateback (MOUNT!)
+						--
+						i(250282),	-- Phase-Lost Bardiche (COSMETIC!)
+						i(250288),	-- Phase-Lost Baselard (COSMETIC!)
+						i(250281),	-- Phase-Lost Battleaxe (COSMETIC!)
+						i(250297),	-- Phase-Lost Beacon (COSMETIC!)
+						i(250286),	-- Phase-Lost Blunderbuss (COSMETIC!)
+						i(250298),	-- Phase-Lost Bulwark (COSMETIC!)		{ 51.2, 67.7, KARESH }
+						i(250273),	-- Phase-Lost Carver (COSMETIC!)		{ 78.4, 48.9, KARESH }
+						i(250280),	-- Phase-Lost Chopper (COSMETIC!)
+						i(250295),	-- Phase-Lost Claw (COSMETIC!)			{ 54.4, 49.3, KARESH }
+						i(250272),	-- Phase-Lost Cudgel (COSMETIC!)
+						i(250289),	-- Phase-Lost Dirk (COSMETIC!)
+						i(250278),	-- Phase-Lost Great Mace (COSMETIC!)
+						i(250276),	-- Phase-Lost Greatsword (COSMETIC!)
+						i(250271),	-- Phase-Lost Hammer (COSMETIC!)
+						i(250274),	-- Phase-Lost Hatchet (COSMETIC!)
+						i(250294),	-- Phase-Lost Katar (COSMETIC!)			{ 58.9, 57.5, KARESH }
+						i(250287),	-- Phase-Lost Longbow (COSMETIC!)
+						i(250269),	-- Phase-Lost Longsword (COSMETIC!)
+						i(250277),	-- Phase-Lost Maul (COSMETIC!)
+						i(250299),	-- Phase-Lost Pavise (COSMETIC!)
+						i(250300),	-- Phase-Lost Rod (COSMETIC!)			{ 51.2, 67.7, KARESH }
+						i(250270),	-- Phase-Lost Scimitar (COSMETIC!)
+						i(250285),	-- Phase-Lost Shillelagh (COSMETIC!)	{ 54.3, 63.2, KARESH }
+						i(250296),	-- Phase-Lost Sigil (COSMETIC!)
+						i(250283),	-- Phase-Lost Spear (COSMETIC!)
+						i(250284),	-- Phase-Lost Spire (COSMETIC!)
+						i(250301),	-- Phase-Lost Wand (COSMETIC!)
+						i(250275),	-- Phase-Lost Zweihander (COSMETIC!)
+					},
+				}),
+			}),
 			n(FLIGHT_PATHS, {
 				header(HEADERS.Spell, 1244306, {	-- Phase Conduit
 					fp(3161, {	-- Fracture of Laacuna
