@@ -87,6 +87,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["races"] = HORDE_ONLY,
 					}),
 				}),
+				n(QUESTS, {
+					q(31207, {	-- The Arena of Annihilation
+						["qg"] = 63315,	-- Gurgthock
+						["coord"] = { 68.6, 48.3, KUN_LAI_SUMMIT },
+						["lvl"] = 90,
+						["groups"] = {
+							i(90466),	-- Maki's Mashing Mace
+							i(90465),	-- Scar-Shell's Scintillating Staff
+							i(90464),	-- Satay's Stabbing Sword
+							i(90463),	-- Chagan's Cheery Chopper
+							i(90462),	-- Liuyang's Lovely Longstaff
+							i(90461),	-- Jol'Grum's Frozen Mace
+							i(90460),	-- Cloudbender Kobo's Chilled Crossbow
+							i(90459),	-- Liuyang's Light-Lit Longshank
+						},
+					}),
+				}),
 			}),
 			m(451, {	-- Assault on Zan'vess
 				n(ACHIEVEMENTS, {
