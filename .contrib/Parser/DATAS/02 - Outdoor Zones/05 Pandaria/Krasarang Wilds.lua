@@ -170,7 +170,7 @@ root(ROOTS.Zones, {
 								q(32352, {	-- A Gathering Storm
 									["sourceQuests"] = { 32351 },	-- Echoes of Thunder
 									["qg"] = 68287,	-- Baine Bloodhoof
-									["coord"] = { 68.3, 44.9, 392 },
+									["coord"] = { 68.3, 44.9, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 									["races"] = HORDE_ONLY,
 								}),
 								q(32413, {	-- A Return to Krasarang
@@ -294,7 +294,7 @@ root(ROOTS.Zones, {
 								q(32242, {	-- Buried Secrets
 									["sourceQuests"] = { 32256 },	-- Rise Of An Empire
 									["qg"] = 67840,	-- Garrosh Hellscream
-									["coord"] = { 32.1, 84.9, 392 },
+									["coord"] = { 32.1, 84.9, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 									["races"] = HORDE_ONLY,
 								}),
 								q(32378, {	-- Clearing a Path
@@ -1090,7 +1090,7 @@ root(ROOTS.Zones, {
 								q(32316, {	-- Heart Of The Alliance
 									["sourceQuests"] = { 32315 },	-- Anduin's Plea
 									["qg"] = 67948,	-- Anduin Wrynn
-									["coord"] = { 66.6, 34.1, 394 },	-- Shrine of Seven Stars
+									["coord"] = { 66.6, 34.1, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32153, {	-- Hero Killer

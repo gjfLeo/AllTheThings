@@ -2,15 +2,12 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.Zones, m(PANDARIA, {
-	m(393, {	-- Shrine of Seven Stars
+	m(SHRINE_OF_SEVEN_STARS, {	-- Shrine of Seven Stars
 		["lore"] = "The Shrine of Seven Stars is an ancient mogu structure located south of Mogu'shan Palace in the eastern part of the Vale of Eternal Blossoms. It has been claimed by the Alliance and serves as the main hub of the faction in the continent of Pandaria, as opposed to the sanctuary cities serving as main hubs for both factions in previous expansions.",
 		["isRaid"] = true,
 		["races"] = ALLIANCE_ONLY,
 		["icon"] = 462673,
-		["maps"] = {
-		--	393,	-- The Emperor's Step
-			394,	-- The Imperial Exchange
-		},
+		["maps"] = { SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },	-- The Imperial Exchange
 		["lvl"] = 78,
 		["groups"] = {
 			n(QUESTS, sharedData({
@@ -63,12 +60,12 @@ root(ROOTS.Zones, m(PANDARIA, {
 				}),
 				q(33248, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {	-- Proving Grounds
 					["qg"] = 64101,	-- Taijin the Cyclone
-					["coord"] = { 47.23, 49.71, 393 },
+					["coord"] = { 47.23, 49.71, SHRINE_OF_SEVEN_STARS },
 					["timeline"] = { ADDED_5_4_0 },
 				})),
 				q(32683, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- So You Want to Be a Blacksmith...
 					["qg"] = 64085,	-- Cullen Hammerbrow
-					["coord"] = { 71.27, 50.52, 393 },
+					["coord"] = { 71.27, 50.52, SHRINE_OF_SEVEN_STARS },
 					["timeline"] = { ADDED_5_2_0, REMOVED_8_0_1 },	-- no longer available due to the profession level changes
 					["requireSkill"] = BLACKSMITHING,
 				})),
@@ -85,11 +82,11 @@ root(ROOTS.Zones, m(PANDARIA, {
 				["races"] = ALLIANCE_ONLY,
 			},{
 				n(64085, {	-- Cullen Hammerbrow <Blacksmithing Supplies>
-					["coord"] = { 71.2, 50.5, 393 },
+					["coord"] = { 71.2, 50.5, SHRINE_OF_SEVEN_STARS },
 					["groups"] = COMMON_MOP_BLACKSMITHING_RECIPES,
 				}),
 				n(64084, {	-- Jojo <Cooking Supplies>
-					["coord"] = { 63.0, 26.8, 393 },
+					["coord"] = { 63.0, 26.8, SHRINE_OF_SEVEN_STARS },
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
@@ -119,7 +116,7 @@ root(ROOTS.Zones, m(PANDARIA, {
 				}),
 				n(64052, {	-- Raishen the Needle <Tailoring Supplies>
 					["requireSkill"] = TAILORING,
-					["coord"] = { 64.7, 44.1, 393 },
+					["coord"] = { 64.7, 44.1, SHRINE_OF_SEVEN_STARS },
 					["groups"] = {
 						i(86361, {	-- Pattern: Contender's Satin Amice (RECIPE!)
 							["cost"] = { { "i", 76061, 1 }, },	-- 1x Spirit of Harmony
@@ -172,14 +169,14 @@ root(ROOTS.Zones, m(PANDARIA, {
 					},
 				}),
 				n(64096, {	-- Serenka <First Aid Supplies>
-					["coord"] = { 47.2, 61.2, 393 },
+					["coord"] = { 47.2, 61.2, SHRINE_OF_SEVEN_STARS },
 					["groups"] = {
 						i(44694),	-- Antiseptic-Soaked Dressing
 						i(44693),	-- Wound Dressing
 					},
 				}),
 				n(64094, {	-- Tanner Pang <Leatherworking & Skinning Supplies>
-					["coord"] = { 75.6, 50.2, 393 },
+					["coord"] = { 75.6, 50.2, SHRINE_OF_SEVEN_STARS },
 					["groups"] = COMMON_MOP_LEATHERWORKING_RECIPES,
 				}),
 			})),

@@ -2,12 +2,12 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.Zones, m(PANDARIA, {
-	m(391, {	-- Shrine of Two Moons
+	m(SHRINE_OF_TWO_MOONS, {	-- Shrine of Two Moons
 		["lore"] = "The Shrine of Two Moons is an ancient mogu structure located north of Mogu'shan Palace in the eastern part of the Vale of Eternal Blossoms. The Golden Lotus have allowed use of the shrine by the Horde, and it serves as the main hub for the faction in the continent of Pandaria, as opposed to the sanctuary cities serving as main hubs for both factions in previous expansions.",
 		["isRaid"] = true,
 		["races"] = HORDE_ONLY,
 		["icon"] = 462674,
-		["maps"] = { 392 },	-- upper level
+		["maps"] = { SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },	-- upper level
 		["lvl"] = 78,
 		["groups"] = {
 			n(QUESTS, sharedData({
@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(PANDARIA, {
 				}),
 				q(33249, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {	-- Proving Grounds
 					["qg"] = 66998,	-- Jinho the Wind Breaker
-					["coord"] = { 46.6, 56.5, 392 },
+					["coord"] = { 46.6, 56.5, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					["timeline"] = { ADDED_5_4_0 },
 				})),
 				q(32726, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- So You Want to Be a Blacksmith...
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(PANDARIA, {
 				["races"] = HORDE_ONLY,
 			},{
 				n(64067, {	-- Barleyflower <Cooking Supplies>
-					["coord"] = { 68.7, 69.5, 392 },
+					["coord"] = { 68.7, 69.5, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(PANDARIA, {
 				}),
 				n(64051, {	-- Esha the Loommaiden <Tailoring Supplies>
 					["requireSkill"] = TAILORING,
-					["coord"] = { 31.5, 53.6, 391 },
+					["coord"] = { 31.5, 53.6, SHRINE_OF_TWO_MOONS },
 					["groups"] = {
 						i(86361, {	-- Pattern: Contender's Satin Amice (RECIPE!)
 							["cost"] = { { "i", 76061, 1 }, },	-- 1x Spirit of Harmony
@@ -159,22 +159,22 @@ root(ROOTS.Zones, m(PANDARIA, {
 					},
 				}),
 				n(64062, {	-- Gentle Dari <First Aid Supplies>
-					["coord"] = { 32.6, 73.7, 391 },
+					["coord"] = { 32.6, 73.7, SHRINE_OF_TWO_MOONS },
 					["groups"] = {
 						i(44694),	-- Antiseptic-Soaked Dressing
 						i(44693),	-- Wound Dressing
 					},
 				}),
 				n(64058, {	-- Jorunga Stonehoof <Blacksmithing Supplies>
-					["coord"] = { 26.0, 46.2, 391 },
+					["coord"] = { 26.0, 46.2, SHRINE_OF_TWO_MOONS },
 					["groups"] = COMMON_MOP_BLACKSMITHING_RECIPES,
 				}),
 				n(64054, {	-- Krogo Darkhide <Leatherworking & Skinning Supplies>
-					["coord"] = { 30.5, 46.5, 391 },
+					["coord"] = { 30.5, 46.5, SHRINE_OF_TWO_MOONS },
 					["groups"] = COMMON_MOP_LEATHERWORKING_RECIPES,
 				}),
 				n(64126, {	-- Stephen Wong <Cooking Supplies>
-					["coord"] = { 27.5, 65.0, 391 },
+					["coord"] = { 27.5, 65.0, SHRINE_OF_TWO_MOONS },
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)

@@ -351,10 +351,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 				n(SOO_RAID_FINDER_VENDOR, {
 					["aqd"] = n(74020, {	-- Welbiz Cheerwhistle <Raid Finder Vendor> [A]
-						["coord"] = { 41.0, 42.5, 394 },
+						["coord"] = { 41.0, 42.5, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },
 					}),
 					["hqd"] = n(73674, {	-- Blizzix Sparkshiv <Raid Finder Vendor> [H]
-						["coord"] = { 42.9, 74.7, 392 },
+						["coord"] = { 42.9, 74.7, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					}),
 					["groups"] = {
 						cl(WARRIOR, {
@@ -546,10 +546,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 				n(SOO_RAID_NORMAL_VENDOR, {
 					["aqd"] = n(74022, {	-- Thelett Shaleheart <Raid Vendor> [A]
-						["coord"] = { 41.9, 42.9, 394 },
+						["coord"] = { 41.9, 42.9, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },
 					}),
 					["hqd"] = n(74010, {	-- Nadina Stargem <Raid Vendor> [H]
-						["coord"] = { 43.3, 76.0, 392 },
+						["coord"] = { 43.3, 76.0, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					}),
 					["groups"] = {
 						cl(WARRIOR, {
@@ -741,10 +741,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 				n(SOO_RAID_HEROIC_VENDOR, {
 					["aqd"] = n(74021, {	-- Clarice Chapmann <Heroic Vendor> [A]
-						["coord"] = { 43.0, 45.5, 394 },
+						["coord"] = { 43.0, 45.5, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },
 					}),
 					["hqd"] = n(74012, {	-- Ki'agnuu <Heroic Vendor> [H]
-						["coord"] = { 43.1, 78.7, 392 },
+						["coord"] = { 43.1, 78.7, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					}),
 					["groups"] = {
 						cl(WARRIOR, {
@@ -936,10 +936,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 				n(SOO_RAID_MYTHIC_VENDOR, {
 					["aqd"] = n(74027, {	-- Lorry Warmheart <Mythic Vendor> [A]
-						["coord"] = { 43.1, 46.8, 394 },
+						["coord"] = { 43.1, 46.8, SHRINE_OF_SEVEN_STARS_THE_IMPERIAL_EXCHANGE },
 					}),
 					["hqd"] = n(74019, {	-- Tu'aho Pathcutter <Mythic Vendor> [H]
-						["coord"] = { 43.4, 80.4, 392 },
+						["coord"] = { 43.4, 80.4, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					}),
 					["groups"] = {
 						cl(WARRIOR, {

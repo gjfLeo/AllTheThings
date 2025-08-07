@@ -808,7 +808,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					}),
 					applyclassicphase(MOP_PHASE_ESCALATION, q(32901, {	-- Heroic Deeds
 						["provider"] = { "n", 66998 },	-- Jinho the Wind Breaker
-						["coord"] = { 46.6, 56.5, 392 },
+						["coord"] = { 46.6, 56.5, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 						["timeline"] = { ADDED_5_3_0 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -817,7 +817,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, q(32900, {	-- Heroic Deeds
 						["provider"] = { "n", 64101 },	-- Taijin the Cyclone
-						["coord"] = { 47.23, 49.71, 393 },
+						["coord"] = { 47.23, 49.71, SHRINE_OF_SEVEN_STARS },
 						["timeline"] = { ADDED_5_3_0 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {

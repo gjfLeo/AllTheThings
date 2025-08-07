@@ -32,8 +32,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						{ "n", 64144 },	-- Brewmaster Tsu
 					},
 					["coords"] = {
-						{ 59.6, 75.8, 391 },
-						{ 36.6, 76.6, 393 },
+						{ 59.6, 75.8, SHRINE_OF_TWO_MOONS },
+						{ 36.6, 76.6, SHRINE_OF_SEVEN_STARS },
 					},
 					["classes"] = exclude(ROGUE, ALL_CLASSES),
 				}),
@@ -44,8 +44,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						{ "n", 64144 },	-- Brewmaster Tsu
 					},
 					["coords"] = {
-						{ 59.6, 75.8, 391 },
-						{ 36.6, 76.6, 393 },
+						{ 59.6, 75.8, SHRINE_OF_TWO_MOONS },
+						{ 36.6, 76.6, SHRINE_OF_SEVEN_STARS },
 					},
 					["classes"] = { ROGUE },
 				}),

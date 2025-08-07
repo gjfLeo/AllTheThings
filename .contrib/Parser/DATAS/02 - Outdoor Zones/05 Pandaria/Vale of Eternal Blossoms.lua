@@ -177,12 +177,12 @@ root(ROOTS.Zones, {
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
 							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { 393 },	-- Shrine of Seven Stars
+							["maps"] = { SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { 391 },	-- Shrine of Two Moons
+							["maps"] = { SHRINE_OF_TWO_MOONS },
 						},
 						["sourceAchievement"] = 7499,	-- Taming the World
 						["timeline"] = { ADDED_5_2_0 },
@@ -237,12 +237,12 @@ root(ROOTS.Zones, {
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
 							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 393 },	-- Shrine of Seven Stars
+							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 391 },	-- Shrine of Two Moons
+							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, SHRINE_OF_TWO_MOONS },
 						},
 						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -272,12 +272,12 @@ root(ROOTS.Zones, {
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
 							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 393 },	-- Shrine of Seven Stars
+							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 391 },	-- Shrine of Two Moons
+							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, SHRINE_OF_TWO_MOONS },
 						},
 						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -303,12 +303,12 @@ root(ROOTS.Zones, {
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
 							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 393 },	-- Shrine of Seven Stars
+							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 391 },	-- Shrine of Two Moons
+							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, SHRINE_OF_TWO_MOONS },
 						},
 						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -334,12 +334,12 @@ root(ROOTS.Zones, {
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
 							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 393 },	-- Shrine of Seven Stars
+							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
-							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 391 },	-- Shrine of Two Moons
+							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, SHRINE_OF_TWO_MOONS },
 						},
 						["description"] = "These pets can be found in the Pandaren Spirit Pet Supplies received from the four Pandaren Spirit Tamers in their individual Daily Quests once you complete this quest.",
 						["sourceAchievement"] = 7499,	-- Taming the World
@@ -377,7 +377,7 @@ root(ROOTS.Zones, {
 								{ 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 								{ 69.2, 25.0, STORMWIND_CITY },
 							},
-							["maps"] = { 393 },	-- Shrine of Seven Stars
+							["maps"] = { SHRINE_OF_SEVEN_STARS },
 						},
 						["hqd"] = {
 							["qgs"] = {
@@ -388,7 +388,7 @@ root(ROOTS.Zones, {
 								{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 								{ 52.6, 59.3, ORGRIMMAR },
 							},
-							["maps"] = { 391 },	-- Shrine of Two Moons
+							["maps"] = { SHRINE_OF_TWO_MOONS },
 						},
 						["description"] = "Account-Wide Weekly Quest.",
 						["timeline"] = { ADDED_5_3_0 },
