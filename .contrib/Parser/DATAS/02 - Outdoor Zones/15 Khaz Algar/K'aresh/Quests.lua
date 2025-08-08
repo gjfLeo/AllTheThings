@@ -1632,9 +1632,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			})),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
 				q(90938, {	-- A Skip Through the Void
-					--["sourceQuests"] = { ??? },	-- Popped up on an alt as soon as I got zoned into Tazavesh for the first time -Exo
+					["sourceQuests"] = { 84957 },	-- Return to the Veiled Market
 					["provider"] = { "n", 241588 },	-- Hashim
 					["coord"] = { 50.3, 36.3, KARESH },
+					["lockCriteria"] = { 1, "questID", 85003 },	-- Restoring Operational Efficiency (completing this quest will prevent using the 'skip' option, and thus locking from this skip quest)
+					["DisablePartySync"] = true,
 				}),
 				q(89380, {	-- Another World
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
