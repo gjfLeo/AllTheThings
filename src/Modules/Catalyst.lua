@@ -227,12 +227,16 @@ local function GetCatalysts(data)
 	local upgradeTrackID = upgradeInfo.trackStringID
 	local upgradeLevel = upgradeInfo.currentLevel or 0
 
+	local remappedBonusID
 	-- Non-Upgrade cases (use bonusID to find the matching upgradeTrackID lookup)
 	if not upgradeTrackID then
+		-- app.PrintDebug("Non-upgrade Item",data.link)
+		-- app.PrintTable(upgradeInfo)
 		-- Old Items whose catalyst-bonusID doesn't directly indicate the proper appearance tier anymore for some reason
 		local remapperFunc = BonusIDReMappers[bonusID]
 		if remapperFunc then
 			-- app.PrintDebug("remapping bonusID",bonusID)
+			remappedBonusID = bonusID
 			bonusID = remapperFunc(data)
 			-- app.PrintDebug("-->",bonusID)
 		end
@@ -276,7 +280,11 @@ local function GetCatalysts(data)
 	end
 
 	local newBonuses = app.CloneArray(bonuses)
-	tremove(newBonuses, app.indexOf(newBonuses, bonusID))
+	if remappedBonusID then
+		tremove(newBonuses, app.indexOf(newBonuses, remappedBonusID))
+	else
+		tremove(newBonuses, app.indexOf(newBonuses, bonusID))
+	end
 	local catalystResult
 	for i=1,#catalystResults do
 		catalystResult = catalystResults[i]
