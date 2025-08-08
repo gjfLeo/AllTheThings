@@ -182,6 +182,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(239479),	-- Reshii Brute's Vambraces
 				},

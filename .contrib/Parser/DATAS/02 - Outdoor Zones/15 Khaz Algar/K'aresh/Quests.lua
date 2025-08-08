@@ -2227,7 +2227,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(90126, {	-- Eliminate Grubber
 						["provider"] = { "i", 236967 },	-- Grubber Lure (QS!)
-						["repeatable"] = true,
+						["isWeekly"] = true,
 					}),
 				}),
 				header(HEADERS.Quest, 87546, {	-- Warrant: Purple Peat
@@ -2274,7 +2274,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(90125, {	-- Eliminate Purple Peat
 						["provider"] = { "i", 239276 },	-- Purple Peat Cell Key (QS!)
-						["repeatable"] = true,
+						["isWeekly"] = true,
 					}),
 				}),
 				header(HEADERS.Quest, 87345, {	-- Warrant: Xy'vox the Twisted
@@ -2328,7 +2328,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(90122, {	-- Eliminate Xy'vox the Twisted
 						["provider"] = { "i", 236753 },	-- Xy'vox Refuge Dampener (QS!)
-						["repeatable"] = true,
+						["isWeekly"] = true,
 					}),
 				}),
 				q(90123),	--
