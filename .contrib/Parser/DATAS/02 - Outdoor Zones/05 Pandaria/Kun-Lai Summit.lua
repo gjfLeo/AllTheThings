@@ -319,12 +319,6 @@ root(ROOTS.Zones, {
 							i(88385),	-- Hozen Idol (TOY!)
 						},
 					}),
-					q(30283, {	-- A Smashing Impression
-						["qg"] = 58469,	-- Ren Firetongue
-						["coord"] = { 56.0, 91.8, KUN_LAI_SUMMIT },
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
-					}),
 					q(30751, {	-- A Terrible Sacrifice
 						["sourceQuest"] = 30724,	-- To the Wall!
 						["qg"] = 61820,	-- Lao-Chin the Iron Belly
@@ -1592,12 +1586,6 @@ root(ROOTS.Zones, {
 							i(80907),	-- Opalescent Blue Crab Shell (QI!)
 							i(81261),	-- Stolen Pandaren Spices (QI!)
 						},
-					}),
-					q(30281, {	-- The Silent Approach
-						["qg"] = 58470,	-- He Softfoot
-						["coord"] = { 55.2, 92.0, KUN_LAI_SUMMIT },
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(30608, {	-- The Snackrifice
 						["sourceQuest"] = 30605,	-- Bros Before Hozen

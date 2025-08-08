@@ -300,6 +300,21 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			]]--
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Whitepetal Lake wildlife)
 				RemovedWithSOO(q(31131, {	-- Whitepetal Lake
+					["sourceQuests"] = {
+						31755,	-- Acts of Cruelty
+						31754,	-- Cannonfire
+						31762,	-- Crumbling Behemoth
+						30320,	-- Free Spirits
+						30312,	-- Given a Second Chance
+						31756,	-- High Chance of Rain
+						31758,	-- Laosy Scouting
+						30309,	-- Set in Stone
+						31760,	-- Striking First
+						30308,	-- Stone Hard Quilen
+						30307,	-- The Eternal Vigil
+						30310,	-- Thundering Skies
+						31757,	-- Unleashed Spirits
+					},
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
@@ -425,7 +440,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					["groups"] = {
 						objective(1, {	-- 0/8 Paleblade Saurok slain
-							["provider"] = { "n", 59378 },	-- Paleblade Saurok
+							["providers"] = {
+								{ "n", 59378 },	-- Paleblade Flesheater
+								{ "n", 63044 },	-- Paleblade Slithertongue
+							},
 							["coord"] = { 44.6, 51.4, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
 					},
@@ -471,10 +489,407 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Ruins of Guo-Lai wildlife)
 				
 			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Setting Sun Garrison)
-				
-			})),
 			]]--
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Setting Sun Garrison)
+				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison
+					["qg"] = 59338,	-- Che Wildwalker
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1,
+						"questID", 31247,	-- Setting Sun Garrison
+						"questID", 31250,	-- Setting Sun Garrison
+						"questID", 31297,	-- Setting Sun Garrison
+					},
+				})),
+				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison (Whitepetal Lake wildlife)
+					["sourceQuests"] = {
+						30284,	-- A Thousand Pointy Teeth
+						30338,	-- A Weighty Task
+						30342,	-- Fiery Tongue, Fragile Feet
+						30339,	-- Getting your Hands Dirty
+						30265,	-- Sparkle in the Eye
+						30340,	-- Stick in the Mud
+						30291,	-- Stunning Display
+						30314,	-- The Displaced Paleblade
+						30313,	-- The Moving Mists
+						30341,	-- Under Watchful Eyes
+					},
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1,
+						"questID", 30385,	-- Setting Sun Garrison
+						"questID", 31250,	-- Setting Sun Garrison
+						"questID", 31297,	-- Setting Sun Garrison
+					},
+				})),
+				RemovedWithSOO(q(31250, {	-- Setting Sun Garrison (The Golden Pagoda)
+					["sourceQuests"] = {
+						31755,	-- Acts of Cruelty
+						31754,	-- Cannonfire
+						31762,	-- Crumbling Behemoth
+						30320,	-- Free Spirits
+						30312,	-- Given a Second Chance
+						31756,	-- High Chance of Rain
+						31758,	-- Laosy Scouting
+						30309,	-- Set in Stone
+						31760,	-- Striking First
+						30308,	-- Stone Hard Quilen
+						30307,	-- The Eternal Vigil
+						30310,	-- Thundering Skies
+						31757,	-- Unleashed Spirits
+					},
+					["qg"] = 58408,	-- Leven Dawnblade
+					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1,
+						"questID", 30385,	-- Setting Sun Garrison
+						"questID", 31247,	-- Setting Sun Garrison
+						"questID", 31297,	-- Setting Sun Garrison
+					},
+				})),
+				RemovedWithSOO(q(31297, {	-- Setting Sun Garrison
+					["qg"] = 59337,	-- Sun Tenderheart
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1,
+						"questID", 30385,	-- Setting Sun Garrison
+						"questID", 31247,	-- Setting Sun Garrison
+						"questID", 31250,	-- Setting Sun Garrison
+					},
+				})),
+				RemovedWithSOO(q(30244, {	-- Along the Serpent's Spine
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30261,	-- Roll Club: Serpent's Spine
+						"questID", 30246,	-- Upon the Ramparts
+						"questID", 30444,	-- No Reprieve
+					},
+					["groups"] = {
+						objective(1, {	-- 0/10 Krik'thik wall attackers slain
+							["providers"] = {
+								{ "n", 63974 },	-- Krik'thik Locust-Guard
+								{ "n", 63976 },	-- Krik'thik Needler
+							},
+							["coord"] = { 11.2, 59.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				q(30266, {	-- Bloodied Skies
+					-- #if MOP
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 59340,	-- Leven Dawnblade
+					["coord"] = { 21.4, 71.2, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #else
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #endif
+					["lockCriteria"] = { 1,
+						"questID", 30245,	-- Lost Scouts
+						"questID", 30243,	-- Mantid Under Fire
+					},
+					["groups"] = {
+						objective(1, {	-- 0/30 Krik'thik Swarmer slain
+							["providers"] = {
+								{ "n", 63973 },	-- Krik'thik Swarmer
+								{ "n", 64336 },	-- Setting Sun Turret
+							},
+							["coords"] = {
+								{ 5.4, 44.1, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 5.4, 72.1, VALE_OF_ETERNAL_BLOSSOMS },
+							},
+						}),
+					},
+				}),
+				RemovedWithSOO(q(30264, {	-- Enemy at the Gates
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 58919,	-- Anji Autumnlight
+					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+					["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES },
+					["groups"] = {
+						objective(1, {	-- Mount a War Serpent
+							["provider"] = { "n", 65336 },	-- War Serpent
+							["coord"] = { 15.4, 66.2, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						objective(2, {	-- 0/60 Krik'thik Hiveling slain
+							["provider"] = { "n", 63972 },	-- Krik'thik Hiveling
+							["coords"] = {
+								{ 67.4, 14.4, DREAD_WASTES },
+								{ 81, 91.6, TOWNLONG_STEPPES },
+							},
+						}),
+						objective(3, {	-- 0/3 Krik'thik War Wagon slain
+							["provider"] = { "n", 64274 },	-- Krik'thik War Wagon
+							["coord"] = { 65.8, 12.6, DREAD_WASTES },
+						}),
+						objective(4, {	-- 0/3 Krik'thik Catapult slain
+							["provider"] = { "n", 64275 },	-- Krik'thik Catapult
+							["coord"] = { 68.6, 18.6, DREAD_WASTES },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30245, {	-- Lost Scouts
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30266,	-- Bloodied Skies
+						"questID", 30243,	-- Mantid Under Fire
+					},
+					["groups"] = {
+						objective(1, {	-- 0/3 Shado-Pan Scout information recieved
+							["provider"] = { "n", 58930 },	-- Shado-Pan Scout
+							["coords"] = {
+								{ 17, 47, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 16.0, 32.2, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 8.8, 37.8, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 11, 43.2, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 13, 38.6, VALE_OF_ETERNAL_BLOSSOMS },
+							},
+						}),
+					},
+				})),
+				q(30243, {	-- Mantid Under Fire
+					-- #if MOP
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					-- #endif
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES },
+					["lockCriteria"] = { 1,
+						"questID", 30266,	-- Bloodied Skies
+						"questID", 30245,	-- Lost Scouts
+					},
+					["groups"] = {
+						objective(1, {	-- 0/80 Krik'thik Hiveling slain
+							["provider"] = { "n", 63972 },	-- Krik'thik Hiveling
+							["coords"] = {
+								{ 67.4, 14.4, DREAD_WASTES },
+								{ 81, 91.6, TOWNLONG_STEPPES },
+							},
+						}),
+					},
+				}),
+				RemovedWithSOO(q(30444, {	-- No Reprieve
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 58919,	-- Anji Autumnlight
+					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30244,	-- Along the Serpent's Spine
+						"questID", 30261,	-- Roll Club: Serpent's Spine
+						"questID", 30246,	-- Upon the Ramparts
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Shao-Tien mogu slain
+							["providers"] = {
+								{ "n", 58927 },	-- Shao-Tien Fist
+								{ "n", 58928 },	-- Shao-Tien Antiquator
+							},
+							["coord"] = { 14, 35.2, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				q(30261, {	-- Roll Club: Serpent's Spine
+					-- #if MOP
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					-- #endif
+					["qg"] = 58704,	-- Kelari Featherfoot
+					["coord"] = { 18.1, 63.5, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30244,	-- Along the Serpent's Spine
+						"questID", 30246,	-- Upon the Ramparts
+						"questID", 30444,	-- No Reprieve
+					},
+					["groups"] = {
+						objective(1, {	-- Speak to Kelari Featherfoot
+							["provider"] = { "n", 58704 },	-- Kelari Featherfoot <Master of the Rolling Thunder>
+							["coord"] = { 18.2, 63.4, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						--[[
+						objective(2, {	-- Serpent's Spine Roll Course finished
+							["provider"] = { "n",  },	-- 
+							["coord"] = { , VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						]]--
+					},
+				}),
+				q(30242, {	-- Survival Ring: Blades
+					-- #if MOP
+					["sourceQuests"] = {
+						30385,	-- Setting Sun Garrison
+						31247,	-- Setting Sun Garrison
+						31250,	-- Setting Sun Garrison
+						31297,	-- Setting Sun Garrison
+					},
+					["qg"] = 59340,	-- Leven Dawnblade
+					["coord"] = { 21.4, 71.2, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #else
+					["qg"] = 58743,	-- Yumi Goldenpaw
+					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #endif
+					["lockCriteria"] = { 1, "questID", 30240 },	-- Survival Ring: Flame
+				}),
+				q(30240, {	-- Survival Ring: Flame
+					-- #if MOP
+					["sourceQuests"] = {
+						30385,	-- Setting Sun Garrison
+						31247,	-- Setting Sun Garrison
+						31250,	-- Setting Sun Garrison
+						31297,	-- Setting Sun Garrison
+					},
+					["qg"] = 59340,	-- Leven Dawnblade
+					["coord"] = { 21.4, 71.2, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #else
+					["qg"] = 58743,	-- Yumi Goldenpaw
+					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #endif
+					["lockCriteria"] = { 1, "questID", 30242 },	-- Survival Ring: Blades
+				}),
+				q(30306, {	-- The Battle Ring
+					-- #if MOP
+					["sourceQuests"] = {
+						30385,	-- Setting Sun Garrison
+						31247,	-- Setting Sun Garrison
+						31250,	-- Setting Sun Garrison
+						31297,	-- Setting Sun Garrison
+					},
+					["qg"] = 58919,	-- Anji Autumnlight
+					["coord"] = { 21.4, 71.6, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #else
+					["qg"] = 58962,	-- Hai-Me Heavyhands
+					["coord"] = { 19.0, 75.4, VALE_OF_ETERNAL_BLOSSOMS },
+					-- Wouter TODO: supposedly moved from Anji Autumnlight in 5.4.0
+					-- #endif
+					["groups"] = {
+						objective(1, {	-- 0/20 Shado-Pan Trainees defeated
+							["provider"] = { "n", 58992 },	-- Shado-Pan Trainee
+							["coord"] = { 19, 72.4, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				}),
+				RemovedWithSOO(q(30248, {	-- The Butcher
+					["sourceQuest"] = 30245,	-- Lost Scouts
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30249,	-- Under the Setting Sun
+						"questID", 30251,	-- Vyraxxis, the Krik'thik Swarm-Lord
+					},
+					["groups"] = {
+						objective(1, {	-- 0/1 Bai-Jin the Butcher slain
+							["providers"] = {
+								{ "n",  58949 },	-- Bai-Jin the Butcher <Shao-Tien Imperion>
+								-- #if ANYCLASSIC
+								{ "n", 246386 },	-- Bai-Jin the Butcher <Shao-Tien Imperion>
+								-- #endif
+							},
+							["coords"] = {
+								{ 17.0, 48.7, VALE_OF_ETERNAL_BLOSSOMS },
+								-- #if ANYCLASSIC
+								{ 15.36, 25.10, VALE_OF_ETERNAL_BLOSSOMS },
+								-- #endif
+							},
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
+				RemovedWithSOO(q(30246, {	-- Upon the Ramparts
+					["sourceQuests"] = {
+						30242,	-- Survival Ring: Blades
+						30240,	-- Survival Ring: Flame
+						30306,	-- The Battle Ring
+					},
+					["qg"] = 58919,	-- Anji Autumnlight
+					["coord"] = { 21.4, 71.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30244,	-- Along the Serpent's Spine
+						"questID", 30261,	-- Roll Club: Serpent's Spine
+						"questID", 30444,	-- No Reprieve
+					},
+					["groups"] = {
+						objective(1, {	-- 0/10 Krik'thik wall attackers slain
+							["providers"] = {
+								{ "n", 63974 },	-- Krik'thik Locust-Guard
+								{ "n", 63976 },	-- Krik'thik Needler
+							},
+							["coord"] = { 11.2, 59.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30249, {	-- Under the Setting Sun
+					["sourceQuest"] = 30244,	-- Along the Serpent's Spine
+					["qg"] = 58920,	-- Kun Autumnlight
+					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30248,	-- The Butcher
+						"questID", 30251,	-- Vyraxxis, the Krik'thik Swarm-Lord
+					},
+					["groups"] = {
+						objective(1, {	-- 0/1 Kri'chon slain
+							["providers"] = {
+								{ "n",  63978 },	-- Kri'chon <The Corpse-Reaver>
+								-- #if ANYCLASSIC
+								{ "n", 246383 },	-- Kri'chon <The Corpse-Reaver>
+								-- #endif
+							},
+							["coord"] = { 6.2, 58.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
+				RemovedWithSOO(q(30251, {	-- Vyraxxis, the Krik'thik Swarm-Lord
+					["sourceQuest"] = 30246,	-- Upon the Ramparts
+					["qg"] = 58919,	-- Anji Autumnlight
+					["coord"] = { 21.4, 71.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30248,	-- The Butcher
+						"questID", 30249,	-- Under the Setting Sun
+					},
+					["groups"] = {
+						objective(1, {	-- 0/1 Vyraxxis slain
+							["providers"] = {
+								{ "n",  63977 },	-- Vyraxxis <Krik'thik Swarm-Lord>
+								-- #if ANYCLASSIC
+								{ "n", 246384 },	-- Vyraxxis <Krik'thik Swarm-Lord>
+								-- #endif
+							},
+							["coord"] = { 7.92, 33.8, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
+			})),
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
 				RemovedWithSOO(q(30236, {	-- Aetha
 					["qg"] = 59338,	-- Che Wildwalker
@@ -486,15 +901,33 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 33.8, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["groups"] = {
 						objective(1, {	-- Aetha Subdued
-							["provider"] = { "n", 244975 },	-- Aetha <Spirit of the Golden Winds>
+							["providers"] = {
+								{ "n",  58778 },	-- Aetha <Spirit of the Golden Winds>
+								-- #if ANYCLASSIC
+								{ "n", 244975 },	-- Aetha <Spirit of the Golden Winds>
+								-- #endif
+							},
 							["coord"] = { 35.0, 89.9, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30244, {	-- Along the Serpent's Spine
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
+				
+				RemovedWithSOO(q(30283, {	-- A Smashing Impression
+					["qg"] = 58469,	-- Ren Firetongue
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+				})),
+				RemovedWithSOO(q(30281, {	-- The Silent Approach
+					["qg"] = 58470,	-- He Softfoot
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+				})),
+				RemovedWithSOO(q(30482, {	-- The Soul-Gatherer
+					["sourceQuest"] = 30281,	-- The Silent Approach
+					["qg"] = 58470,	-- He Softfoot
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+					["groups"] = {
+						i(90625),	-- Treasures of the Vale
+					},
 				})),
 				RemovedWithSOO(q(31243, {	-- Attack on Mistfall Village
 					["qg"] = 58408,	-- Leven Dawnblade
@@ -526,11 +959,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				q(30266, {	-- Bloodied Skies
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					-- Wouter TODO: qg was originally Leven Dawnblade according to Wowwiki, verify this
-				}),
 				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
 					["qg"] = 58820,	-- Merchant Benny
 					["coord"] = { 33.8, 69.8, VALE_OF_ETERNAL_BLOSSOMS },
@@ -563,10 +991,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30264, {	-- Enemy at the Gates
-					["qg"] = 58503,	-- Anji Autumnlight
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30289, {	-- Freeing Mind and Body
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -611,18 +1036,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30245, {	-- Lost Scouts
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
 				RemovedWithSOO(q(30196, {	-- Lushroom Rush
 					["qg"] = 58818,	-- Cook Tope
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				q(30243, {	-- Mantid Under Fire
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-				}),
 				RemovedWithSOO(q(30193, {	-- Meating Expectations
 					["qg"] = 58818,	-- Cook Tope
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
@@ -658,10 +1075,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30288, {	-- My Town, It's On Fire Again
 					["qg"] = 59336,	-- Mayor Shiyo
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
-				RemovedWithSOO(q(30444, {	-- No Reprieve
-					["qg"] = 58919,	-- Anji Autumnlight
-					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30299, {	-- No Stone Unturned
 					["qg"] = 59334,	-- Sun Tenderheart
@@ -701,10 +1114,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				q(30261, {	-- Roll Club: Serpent's Spine
-					["qg"] = 58704,	-- Kelari Featherfoot
-					["coord"] = { 18.1, 63.5, VALE_OF_ETERNAL_BLOSSOMS },
-				}),
 				RemovedWithSOO(q(30292, {	-- Rude Awakenings
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
@@ -726,27 +1135,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 63266,	-- Sinan the Dreamer
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison
-					["qg"] = 59338,	-- Che Wildwalker
-					["sourceQuests"] = {
-						30236,	-- Aetha
-						30239,	-- Lao-Fe the Slavebinder
-						30235,	-- Quid Pro Quo
-					},
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
-				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31250, {	-- Setting Sun Garrison
-					["qg"] = 58408,	-- Leven Dawnblade
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31297, {	-- Setting Sun Garrison
-					["qg"] = 59337,	-- Sun Tenderheart
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
 				
 				RemovedWithSOO(q(30190, {	-- Sprite Plight
 					["qg"] = 58819,	-- Mayor Shiyo
@@ -762,14 +1150,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				
-				q(30242, {	-- Survival Ring: Blades
-					["qg"] = 58743,	-- Yumi Goldenpaw
-					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
-				}),
-				q(30240, {	-- Survival Ring: Flame
-					["qg"] = 58743,	-- Yumi Goldenpaw
-					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
-				}),
 				RemovedWithSOO(q(30204, {	-- That's Not a Rock!
 					["qg"] = 58504,	-- Kun Autumnlight
 					["coord"] = { 34.0, 38.2, VALE_OF_ETERNAL_BLOSSOMS },
@@ -781,23 +1161,36 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				q(30306, {	-- The Battle Ring
-					["qg"] = 58962,	-- Hai-Me Heavyhands
-					["coord"] = { 19.0, 75.4, VALE_OF_ETERNAL_BLOSSOMS },
-					-- Wouter TODO: supposedly moved from Anji Autumnlight in 5.4.0
-				}),
-				RemovedWithSOO(q(30248, {	-- The Butcher
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
+				
 				q(30277, {	-- The Crumbling Hall
+					-- #if MOP
+					["qg"] = 58503,	-- Anji Autumnlight
+					["coord"] = { 34, 38.2, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+					-- #else
 					["qg"] = 58919,	-- Anji Autumnlight
 					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #endif
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 					["groups"] = {
-						i(87790),	-- Ancient Guo-Lai Artifact (QI!)
+						--[[
+						objective(1, {	-- Deactivate Spirit Wall
+							["providers"] = {
+								{ "o",  },	-- 
+								{ "o",  },	-- 
+							},
+							["coords"] = {
+								{ , VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+								{ , VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+							},
+						}),
+						]]--
+						objective(2, {	-- 0/1 Ancient Guo-Lai Artifact
+							["providers"] = {
+								{ "i",  87790 },	-- Ancient Guo-Lai Artifact (QI!)
+								{ "o", 214394 },	-- Ancient Guo-Lai Artifact
+							},
+							["coord"] = { 49.7, 30.0, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+						}),
 					},
 				}),
 				
@@ -840,45 +1233,26 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30482, {	-- The Soul-Gatherer
-					["qg"] = 58470,	-- He Softfoot
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
 				q(30280, {	-- The Thunder Below
+					-- #if MOP
+					["qg"] = 58503,	-- Anji Autumnlight
+					["coord"] = { 34, 38.2, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+					-- #else
 					["qg"] = 58919,	-- Anji Autumnlight
 					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
+					-- #endif
 				}),
 				
 				RemovedWithSOO(q(30228, {	-- Troubling the Troublemakers
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30249, {	-- Under the Setting Sun
-					["qg"] = 58920,	-- Kun Autumnlight
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
 				
 				
-				RemovedWithSOO(q(30246, {	-- Upon the Ramparts
-					["qg"] = 58503,	-- Anji Autumnlight
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30234, {	-- Vicejaw
 					["qg"] = 59343,	-- Ren Firetongue
 					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
-				RemovedWithSOO(q(30251, {	-- Vyraxxis, the Krik'thik Swarm-Lord
-					["qg"] = 58503,	-- Anji Autumnlight
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 					["groups"] = {
 						i(90625),	-- Treasures of the Vale
 					},
