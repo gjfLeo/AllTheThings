@@ -111,14 +111,14 @@ ItemUpgradeLevelMatch = ItemUpgradeLevelMatch:gsub("%%s","[^%s]+")
 local function CheckGameTooltipForUpgradeLevel()
 	local tooltipData = GameTooltip and GameTooltip:GetTooltipData()
 	-- not sure how this could happen
-	if not tooltipData then return true end
+	if not tooltipData then return end
 
 	-- only need to check tooltip data if it matches the data we are testing to catalyst
-	if not tooltipData.id then return true end
+	if not tooltipData.id then return end
 
 	tooltipData = tooltipData.lines
 	-- not sure how this could happen either
-	if not tooltipData then return true end
+	if not tooltipData then return end
 
 	-- scan first 3 lines possibly for an Upgrade Level
 	local level
