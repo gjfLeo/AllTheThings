@@ -32,6 +32,12 @@ if not PossibleCatalystBonusIDLookups then
 	return
 end
 local BonusCatalysts = PossibleCatalystBonusIDLookups.BonusCatalysts
+local BonusUpgradeTracks = PossibleCatalystBonusIDLookups.BonusUpgradeTracks
+
+-- apparently Blizzard has some wrong data somehow still assigned which is captured in Wago
+-- so guess we need to fix that ourselves
+-- Bonus 11964 converts to LFR but is mapped to N appearances instead
+BonusUpgradeTracks[11964] = 972
 
 local CatalystArmorSlots = {
 	["INVTYPE_HEAD"] = true,
