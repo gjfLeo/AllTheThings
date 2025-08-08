@@ -8,7 +8,7 @@ local VALE_TOT_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
 		t.u = ]] .. MOP_PHASE_ONE .. [[;
-		t.description = "This will become unavailable with the Rise of the Thunder King phase."
+		t.description = "This will become unavailable when the Rise of the Thunder King phase begins."
 	end
 end]];
 local VALE_SOO_ONUPDATE = [[function(t)
@@ -16,10 +16,34 @@ local VALE_SOO_ONUPDATE = [[function(t)
 		t.u = ]] .. REMOVED_FROM_GAME .. [[;
 	else
 		t.u = ]] .. MOP_PHASE_ONE .. [[;
-		t.description = "This will become unavailable with the Siege of Orgrimmar phase."
+		t.description = "This will become unavailable when the Siege of Orgrimmar phase begins."
 	end
 end]];
 -- #endif
+local function RemovedWithSOO(t)
+	t.timeline = { ADDED_5_0_4, REMOVED_5_4_0 };
+	-- #if MOP
+	t.OnUpdate = VALE_SOO_ONUPDATE;
+	-- #endif
+	if t.groups then
+		for i,o in ipairs(t.groups) do
+			RemovedWithSOO(o);
+		end
+	end
+	return t;
+end
+local function RemovedWithTOT(t)
+	t.timeline = { ADDED_5_0_4, REMOVED_5_2_0 };
+	-- #if MOP
+	t.OnUpdate = VALE_TOT_ONUPDATE;
+	-- #endif
+	if t.groups then
+		for i,o in ipairs(t.groups) do
+			RemovedWithTOT(o);
+		end
+	end
+	return t;
+end
 
 root(ROOTS.Zones, {
 	m(PANDARIA, {
@@ -435,6 +459,7 @@ root(ROOTS.Zones, {
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -460,6 +485,7 @@ root(ROOTS.Zones, {
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -469,6 +495,7 @@ root(ROOTS.Zones, {
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -585,6 +612,7 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30645 },	-- The Might of Three
 						["qg"] = 59906,	-- Sinan the Dreamer
 						["coord"] = { 74.2, 41.8, VALE_OF_ETERNAL_BLOSSOMS },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
@@ -630,6 +658,7 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30644 },	-- What Comes to Pass
 						["qg"] = 58468,	-- Sun Tenderheart
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
@@ -639,12 +668,13 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30642 },	-- Battle Axe of the Thunder King
 						["qg"] = 58408,	-- Leven Dawnblade
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
-					q(32815, applyclassicphase(MOP_PHASE_ESCALATION, {	-- The Old Seer
+					applyclassicphase(MOP_PHASE_ESCALATION, q(32815, {	-- The Old Seer
 						["sourceQuests"] = { 32807 },	-- The Warchief and the Darkness
 						["qg"] = 61962,	-- Lorewalker Cho
 						["timeline"] = { ADDED_5_3_0 },
@@ -663,32 +693,7 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
-					q(30639, {	-- The Secrets of Guo-Lai
-						["sourceQuests"] = {
-							30635,	-- Killing the Quilen
-							30636,	-- Stones of Power
-							30637,	-- The Guo-Lai Halls
-							30654,	-- The Guo-Lai Halls
-						},
-						["qg"] = 58408,	-- Leven Dawnblade
-						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-						-- #if MOP
-						["OnUpdate"] = VALE_SOO_ONUPDATE,
-						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
-							i(90615),	-- Burning Mark of the Golden Lotus
-							i(90614),	-- Delicate Mark of the Golden Lotus
-							i(90618),	-- Durable Mark of the Golden Lotus
-							i(90617),	-- Ferocious Mark of the Golden Lotus
-							i(90616),	-- Mending Mark of the Golden Lotus
-						}),
-					}),
+					
 					q(30631, {	-- The Shrine of Seven Stars
 						["sourceQuests"] = { 30630 },	-- Into the Vale (A)
 						["qg"] = 58468,	-- Sun Tenderheart
@@ -713,6 +718,7 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30643 },	-- The Mogu's Message
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+						["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,

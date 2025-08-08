@@ -1651,12 +1651,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
 					}),
-					q(30482, {	-- The Soul-Gatherer
-						["qg"] = 58470,	-- He Softfoot
-						["coord"] = { 55.2, 92.0, KUN_LAI_SUMMIT },
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
-					}),
 					q(30799, {	-- The Tomb of Shadows
 						["sourceQuest"] = 30797,	-- It Was Almost Alive
 						["qg"] = 61297,	-- Image of Lorewalker Cho
