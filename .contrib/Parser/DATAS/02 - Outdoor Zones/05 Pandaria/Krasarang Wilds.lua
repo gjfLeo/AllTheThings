@@ -2739,35 +2739,16 @@ root(ROOTS.Zones, {
 
 
 
-					q(30740, {	-- Champion of Chi-Ji
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
-					q(30739, {	-- Ellia Ravenmane: Redemption
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
-					q(30732, {	-- Ellia Ravenmane: Revenge
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
-					q(30737, {	-- Fat Long-Fat: Rematch
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
+					
+					
+					
 					q(32134, {	-- Hard Counter
 						["qg"] = 67402,	-- Zazzix "Toasty" Sparkrocket
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-					q(30734, {	-- Huck Wheelbarrow
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
-					q(30735, {	-- Mindel Sunspeaker
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
+					
+					
 					q(32139, {	-- Stacked!
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -2792,14 +2773,8 @@ root(ROOTS.Zones, {
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
 					}),
-					q(30738, {	-- Thelonius
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
-					q(30733, {	-- Tukka-Tuk
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
+					
+					
 					q(32238, {	-- Universal Remote-Explode
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -2812,10 +2787,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-					q(30736, {	-- Yan Quillpaw
-						["qg"] = 60506,	-- Thelonius
-						["isDaily"] = true,
-					}),
+					
 	--[[
 					The following quests have all been removed from the game
 					q(30677, {	-- Shuttle Service
