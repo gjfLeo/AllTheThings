@@ -693,7 +693,6 @@ root(ROOTS.Zones, {
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
 					}),
-					
 					q(30631, {	-- The Shrine of Seven Stars
 						["sourceQuests"] = { 30630 },	-- Into the Vale (A)
 						["qg"] = 58468,	-- Sun Tenderheart
@@ -877,9 +876,7 @@ root(ROOTS.Zones, {
 							i(101766), 	-- Recipe: Spiced Blossom Soup (RECIPE!)
 							i(101769), 	-- Recipe: Stuffed Lushrooms (RECIPE!)
 							i(103624),	-- Treasures of the Vale
-							i(76061, {	-- Spirit of Harmony
-								["cost"] = { { "i", 89112, 10 } },	-- 10x Mote of Harmony (adding as this is the only Sourced entry for the Spirit of Harmony currently)
-							}),
+							applyclassicphase(MOP_PHASE_ONE, i(76061, { ["timeline"] = { ADDED_5_0_4 } })),	-- Spirit of Harmony
 						})),
 						{}),
 					}),
