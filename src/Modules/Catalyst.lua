@@ -44,7 +44,6 @@ local BonusIDUpgradeTiers = {
 	[11974] = 11966,
 	[11975] = 11966,
 	[11976] = 11966,
-
 	-- Champion
 	[11977] = 11966,
 	[11978] = 11966,
@@ -54,16 +53,28 @@ local BonusIDUpgradeTiers = {
 	[11982] = 11967,
 	[11983] = 11967,
 	[11984] = 11967,
-
 	-- Hero
 	[11985] = 11967,
 	[11986] = 11967,
 	[11987] = 11967,
 	[11988] = 11967,
+	[11989] = 11998,
+	[11990] = 11998,
+	[12371] = 11998,
+	[12372] = 11998,
+	-- Myth
+	[11991] = 11998,
+	[11992] = 11998,
+	[11993] = 11998,
+	[11994] = 11998,
+	[11995] = 11998,
+	[11996] = 11998,
+	[12375] = 11998,
+	[12376] = 11998,
 }
 
--- apparently Blizzard has some wrong data somehow still assigned which is captured in Wago
--- so guess we need to fix that ourselves
+-- apparently Blizzard decided that removing all Upgrade info from old season items was beneficial to someone, so now we have to add all this
+-- extra mapping data to retroactively show properly catalyst outputs from old season items
 local BonusIDReMappers = {
 	-- Bonus 11964 is from TWW:S2 Delve content, but can actually map to any difficulty depending on other bonusID starting in TWW:S3, wtffff
 	[11964] = function(data)
@@ -74,9 +85,11 @@ local BonusIDReMappers = {
 
 		local newBonusID = containsAnyKey(BonusIDUpgradeTiers, bonuses)
 		-- if it's not a L/N/H bonusID, it must be M
-		return BonusIDUpgradeTiers[newBonusID] or 11998
+		return BonusIDUpgradeTiers[newBonusID]
 	end
 }
+-- Bonus 11966 was previously Normal mode, but upgraded variants need to check their Upgrade bonusIDs
+BonusIDReMappers[11966] = BonusIDReMappers[11964]
 
 local CatalystArmorSlots = {
 	["INVTYPE_HEAD"] = true,
