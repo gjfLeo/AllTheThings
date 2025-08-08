@@ -558,7 +558,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				BossOnly(LOOMITHAR, {
 					i(224435),	-- Pattern: Duskthread Lining (RECIPE!)
 				}),
-				BossOnly(NAAZINDHRI),
+				BossOnly(NAAZINDHRI, {
+					i(250104),	-- Soulbinder's Nethermantle (COSMETIC!)
+				}),
 				BossOnly(ARAZ, {
 					i(223048),	-- Plans: Siphoning Stiletto (RECIPE!)
 				}),

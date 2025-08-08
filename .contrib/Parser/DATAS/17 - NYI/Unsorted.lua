@@ -646,7 +646,6 @@ root(ROOTS.Unsorted, {
 			i(249859),	-- Brewer's Green Belt
 			i(249860),	-- Brewer's Black Belt
 			i(250082),	-- T'uure, Remnant of the Naaru
-			i(250104),	-- Soulbinder's Nethermantle
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl

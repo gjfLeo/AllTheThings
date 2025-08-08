@@ -233,6 +233,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 91293,
 					["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 				}),
+				n(232111, {	-- The Nightreaver
+					["coord"] = { 52.7, 56.5, KARESH },
+					["questID"] = 90589,
+					["groups"] = {
+						i(245254),	-- Duskthief (PET!)
+						i(239479),	-- Reshii Brute's Vambraces
+						i(239467),	-- Reshii Skirmisher's Cowl
+					},
+				}),
+				n(232195, {	-- Urmag <The Terror Below>
+					["coord"] = { 70.2, 49.7, KARESH },
+					["questID"] = 90593,
+					["groups"] = {
+						i(246067),	-- Pearlescent Krolusk (MOUNT!)
+					},
+				}),
 				n(232199, {	-- Xarran the Binder
 					["coord"] = { 65.1, 50.0, KARESH },
 					["questID"] = 90584,
@@ -450,6 +466,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(91431, {	-- Weekly reputation: Sthaarbs (TODO: swipe with rare questID if wrong)
 					["name"] = "Sthaarbs weekly reputation obtained.",
+				}),
+				q(90678, {	-- Weekly reputation: The Nightreaver
+					["name"] = "The Nightreaver weekly reputation obtained.",
+				}),
+				q(90682, {	-- Weekly reputation: Urmag
+					["name"] = "Urmag weekly reputation obtained.",
 				}),
 				q(90672, {	-- Weekly reputation: Xarran the Binder
 					["name"] = "Xarran the Binder weekly reputation obtained.",

@@ -149,15 +149,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(240120),	-- Reshii Magi's Lantern
 				},
 			}),
-			n(232111, {	-- The Nightreaver
-				["coord"] = { 52.7, 56.5, KARESH },
-				["questID"] = 90589,
-				["groups"] = {
-					i(245254),	-- Duskthief (PET!)
-					i(239479),	-- Reshii Brute's Vambraces
-					i(239467),	-- Reshii Skirmisher's Cowl
-				},
-			}),
 			n(235104, {	-- The Wallbreaker
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
@@ -169,13 +160,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
 					i(240120),	-- Reshii Magi's Lantern
-				},
-			}),
-			n(232195, {	-- Urmag <The Terror Below>
-				["coord"] = { 70.2, 49.7, KARESH },
-				["questID"] = 90593,
-				["groups"] = {
-					i(246067),	-- Pearlescent Krolusk (MOUNT!)
 				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
@@ -219,14 +203,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91435, {	-- Weekly reputation: The Harvester
 					["name"] = "The Harvester weekly reputation obtained.",
 				}),
-				q(90678, {	-- Weekly reputation: The Nightreaver
-					["name"] = "The Nightreaver weekly reputation obtained.",
-				}),
 				q(91436, {	-- Weekly reputation: The Wallbreaker
 					["name"] = "The Wallbreaker weekly reputation obtained.",
-				}),
-				q(90682, {	-- Weekly reputation: Urmag
-					["name"] = "Urmag weekly reputation obtained.",
 				}),
 				q(90695, {	-- Weekly reputation: Xy'vox the Twisted (TODO: swipe with rare questID if wrong)
 					["name"] = "Xy'vox the Twisted weekly reputation obtained.",
