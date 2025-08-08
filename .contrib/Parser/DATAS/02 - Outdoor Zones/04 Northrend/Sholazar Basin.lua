@@ -202,6 +202,17 @@ root(ROOTS.Zones, {
 					faction(FACTION_THE_ORACLES, {	-- The Oracles
 						["maxReputation"] = { FACTION_FRENZYHEART_TRIBE, NEUTRAL },	-- Frenzyheart Tribe, Neutral.
 						["OnTooltip"] = [[_.OnTooltipDB.ForOracles]],
+						["groups"] = {
+							n(28027, {	-- High-Oracle Soo-say
+								["coord"] = { 54.57, 56.34, SHOLAZAR_BASIN },
+								["sharedDescription"] = "Talk to High-Oracle Soo-say to obtain the items for summoning Jalot, Lafoo, and Moodle. You can only hold one at a time.",
+								["groups"] = {
+									i(38623),	-- Jalot's Favourite Crystal
+									i(38622),	-- Lafoo's Bug Bag
+									i(38624),	-- Moodle's Stress Ball
+								},
+							}),
+						},
 					}),
 				}),
 				n(FLIGHT_PATHS, {
