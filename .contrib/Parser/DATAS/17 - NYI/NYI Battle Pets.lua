@@ -1574,7 +1574,7 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 				["displayID"] = 120695,
 			}),
 			-- #if BEFORE 11.2.0
-			i(231757, {	-- Cauldrone (PET!)
+			i(231757, {	-- Cauldrone (PET!) TODO: [wrong ItemID]
 				["displayID"] = 47711,
 			}),
 			-- #endif

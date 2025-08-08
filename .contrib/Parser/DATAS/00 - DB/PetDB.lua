@@ -4361,7 +4361,7 @@ i(0, 4743);	-- Swabbie
 --- NYI ---
 i(231628, 4676);	-- Bawkinator 2000
 i(231627, 4677);	-- Black Cave Crab
-i(231757, 4671);	-- Cauldrone
+-- i(231757, 4671);	-- Cauldrone TODO: [wrong ItemID]
 i(231760, 4673);	-- Crunchy
 i(231762, 4674);	-- Dosh
 i(231758, 4672);	-- Finnity
