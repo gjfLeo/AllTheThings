@@ -755,12 +755,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 71.5, 92.8, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
 					}),
-					q(30339, {	-- Getting your Hands Dirty
-						["qg"] = 59341,	-- Merchant Tantan
-						["coord"] = { 55.0, 92.0, KUN_LAI_SUMMIT },
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
-					}),
 					q(30824, {	-- Gourmet Kafa
 						["qg"] = 60678,	-- Cousin Littlebrew
 						["coord"] = { 40.2, 81.5, KUN_LAI_SUMMIT },
@@ -1282,12 +1276,6 @@ root(ROOTS.Zones, {
 								i(82764),	-- Bottom Fragment of Lei Shen's Tablet (QI!)
 							}),
 						},
-					}),
-					q(30340, {	-- Stick in the Mud
-						["qg"] = 59341,	-- Merchant Tantan
-						["coord"] = { 55.0, 92.0, KUN_LAI_SUMMIT },
-						["isDaily"] = true,
-						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(31392, {	-- Temple of the White Tiger (A)
 						["qgs"] = {
