@@ -283,6 +283,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 			})),
 			--[[
+					["lockCriteria"] = { 1,
+						"questID", ,	-- 
+						"questID", ,	-- 
+						"questID", ,	-- 
+					},
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village invasion)
 				
 			})),
@@ -292,23 +297,17 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Whitepetal Lake invasion)
 				
 			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Whitepetal Lake wildlife)
-				
-			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Ruins of Guo-Lai invasion)
-				
-			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Ruins of Guo-Lai wildlife)
-				
-			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Setting Sun Garrison)
-				
-			})),
 			]]--
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Whitepetal Lake wildlife)
+				RemovedWithSOO(q(31131, {	-- Whitepetal Lake
+					["qg"] = 58408,	-- Leven Dawnblade
+					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
 				RemovedWithSOO(q(30284, {	-- A Thousand Pointy Teeth
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
 					["qg"] = 59343,	-- Ren Firetongue
 					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30342 },	-- Fiery Tongue, Fragile Feet
 					["groups"] = {
 						objective(1, {	-- 0/9 Knifetooth Swarmer slain
 							["provider"] = { "n", 59404 },	-- Knifetooth Swarmer
@@ -317,8 +316,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 				RemovedWithSOO(q(30338, {	-- A Weighty Task
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
 					["qg"] = 59343,	-- Ren Firetongue
 					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30265,	-- Sparkle in the Eye
+						"questID", 30291,	-- Stunning Display
+					},
 					["groups"] = {
 						objective(1, {	-- 0/8 Mogu Artifact
 							["providers"] = {
@@ -333,7 +337,145 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						}),
 					},
 				})),
+				RemovedWithSOO(q(30342, {	-- Fiery Tongue, Fragile Feet
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30284 },	-- A Thousand Pointy Teeth
+					["groups"] = {
+						objective(1, {	-- 0/6 Stillwater Crocolisk slain
+							["provider"] = { "n", 58455 },	-- Stillwater Crocolisk
+							["coord"] = { 39, 50.8, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30339, {	-- Getting your Hands Dirty
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59341,	-- Merchant Tantan
+					["coord"] = { 42.2, 45.8, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30340 },	-- Stick in the Mud
+					["groups"] = {
+						objective(1, {	-- 0/12 Fresh Whitepetal Worm
+							["providers"] = {
+								{ "i",  84240 },	-- Fresh Whitepetal Worm
+								{ "o", 212742 },	-- Fresh Dirt
+							},
+							["coord"] = { 40.5, 42.0, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30265, {	-- Sparkle in the Eye
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30338,	-- A Weighty Task
+						"questID", 30291,	-- Stunning Display
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Ruby Eye
+							["providers"] = {
+								{ "i",  84646 },	-- Ruby Eye
+								{ "o", 212761 },	-- Ruby Eye
+								{ "o", 212759 },	-- Ruby Eye
+								{ "o", 212760 },	-- Ruby Eye
+							},
+							["coord"] = { 42.5, 47.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30340, {	-- Stick in the Mud
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59341,	-- Merchant Tantan
+					["coord"] = { 42.2, 45.8, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30339 },	-- Getting your Hands Dirty
+					["groups"] = {
+						objective(1, {	-- 0/12 Whitepetal Reed
+							["providers"] = {
+								{ "i",  84241 },	-- Whitepetal Reed
+								{ "o", 212744 },	-- Whitepetal Reeds
+							},
+							["coord"] = { 42.5, 52.5, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30291, {	-- Stunning Display
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30338,	-- A Weighty Task
+						"questID", 30265,	-- Sparkle in the Eye
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Stunned Whitepetal Carp
+							["provider"] = { "i", 84656 },	-- Stunned Whitepetal Carp
+							["coord"] = { 42.5, 46, VALE_OF_ETERNAL_BLOSSOMS },
+							["cr"] = 62984,	-- Stunned Whitepetal Carp
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30314, {	-- The Displaced Paleblade
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59342,	-- He Softfoot
+					["coord"] = { 43.6, 46.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30313,	-- The Moving Mists
+						"questID", 30341,	-- Under Watchful Eyes
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Paleblade Saurok slain
+							["provider"] = { "n", 59378 },	-- Paleblade Saurok
+							["coord"] = { 44.6, 51.4, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30313, {	-- The Moving Mists
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59342,	-- He Softfoot
+					["coord"] = { 43.6, 46.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30314,	-- The Displaced Paleblade
+						"questID", 30341,	-- Under Watchful Eyes
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Fog Walker slain
+							["provider"] = { "n", 58672 },	-- Fog Walker
+							["coord"] = { 40.4, 55.8, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30341, {	-- Under Watchful Eyes
+					["sourceQuest"] = 31131,	-- Whitepetal Lake
+					["qg"] = 59342,	-- He Softfoot
+					["coord"] = { 43.6, 46.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30314,	-- The Displaced Paleblade
+						"questID", 30313,	-- The Moving Mists
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Shao-Tien Surveyor slain
+							["providers"] = {
+								{ "n", 59379 },	-- Shao-Tien Surveyor
+								{ "i", 89366 },	-- Shado-Pan Flare
+							},
+							["coord"] = { 44.4, 43.8, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+			})),
+			--[[
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Ruins of Guo-Lai invasion)
 				
+			})),
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Ruins of Guo-Lai wildlife)
+				
+			})),
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Setting Sun Garrison)
+				
+			})),
+			]]--
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
 				RemovedWithSOO(q(30236, {	-- Aetha
 					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
@@ -397,7 +539,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				
 				RemovedWithSOO(q(30481, {	-- Carved in Stone
 					["qg"] = 59333,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -426,11 +567,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30342, {	-- Fiery Tongue, Fragile Feet
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				
 				RemovedWithSOO(q(30289, {	-- Freeing Mind and Body
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -455,7 +591,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59333,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				
 				RemovedWithSOO(q(30200, {	-- In Ashen Webs
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -464,7 +599,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				
 				RemovedWithSOO(q(30239, {	-- Lao-Fe the Slavebinder
 					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
@@ -613,10 +747,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30265, {	-- Sparkle in the Eye
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				RemovedWithSOO(q(30190, {	-- Sprite Plight
 					["qg"] = 58819,	-- Mayor Shiyo
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
@@ -630,10 +761,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30291, {	-- Stunning Display
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				q(30242, {	-- Survival Ring: Blades
 					["qg"] = 58743,	-- Yumi Goldenpaw
 					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
@@ -672,10 +800,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(87790),	-- Ancient Guo-Lai Artifact (QI!)
 					},
 				}),
-				RemovedWithSOO(q(30314, {	-- The Displaced Paleblade
-					["qg"] = 59342,	-- He Softfoot
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30302, {	-- The Imperion Threat
 					["qg"] = 59332,	-- Leven Dawnblade
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -687,10 +812,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59334,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30313, {	-- The Moving Mists
-					["qg"] = 59342,	-- He Softfoot
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30237, {	-- The Pandaren Uprising Relived
 					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
@@ -741,10 +863,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30341, {	-- Under Watchful Eyes
-					["qg"] = 59342,	-- He Softfoot
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				
 				RemovedWithSOO(q(30246, {	-- Upon the Ramparts
 					["qg"] = 58503,	-- Anji Autumnlight
@@ -763,10 +882,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["groups"] = {
 						i(90625),	-- Treasures of the Vale
 					},
-				})),
-				RemovedWithSOO(q(31131, {	-- Whitepetal Lake
-					["qg"] = 58408,	-- Leven Dawnblade
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30285, {	-- Wu Kao Scouting Reports
 					["qg"] = 59337,	-- Sun Tenderheart
