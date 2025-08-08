@@ -19,19 +19,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							i(232323),	-- Watering Jug (QI!)
 						}),
 						--
-						i(245611, {	-- Wriggling Box
+						i(245611, {	-- Wriggling Pinnacle Cache
 							["sym"] = {	-- K'aresh Zone Reward
 								{"select","mapID",KHAZ_ALGAR},{"pop"},
 								{"where","mapID",KARESH},{"pop"},
 								{"where","headerID",ZONE_REWARDS},{"pop"},
 							},
 							["groups"] = {
+								i(245274),	-- Cerulean Lapbug (PET!)
+								i(245273),	-- Copper Lapbug (PET!)
 								i(242734),	-- Curious Slateback (MOUNT!)
+								i(244916),	-- Cyan Siphonmite (PET!)
 								i(244907),	-- Dread Horrorling (PET!)
 								i(245252),	-- Graceful Cosmic Ray Pup (PET!)
 								i(244909),	-- Impartial Watcher (PET!)
 								i(245253),	-- Inquisitive Cosmic Ray Pup (PET!)
+								i(244468),	-- Scrappy Thorntail (PET!)
+								i(245215),	-- Shimmering Inchshifter (PET!)
+								i(244467),	-- Veridian Thorntail (PET!)
 								i(245212),	-- Vitriolic Inchshifter (PET!)
+								i(244914),	-- Xanthous Siphonmite (PET!)
 							},
 						}),
 					},

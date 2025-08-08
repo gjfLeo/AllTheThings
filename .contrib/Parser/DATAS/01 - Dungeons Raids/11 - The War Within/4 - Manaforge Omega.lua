@@ -413,11 +413,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						i(249705),	-- Technique: Deal: Cartel Om (RECIPE!)
 						i(249701),	-- Technique: Deal: Cartel Zo (RECIPE!)
 						i(186640),	-- Vandal's Gearglider (MOUNT!)
+						i(246694),	-- Zo'ya (PET!)
 					}, {	-- RENOWN 9 --
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --
+						i(244913),	-- Looker Gaz'kreth Jr. (PET!)
 					}, {	-- RENOWN 14 --
 						i(242728),	-- The Bone Freezer (MOUNT!)
 						title(640),	-- Star Savior <Name>

@@ -30,19 +30,11 @@ root(ROOTS.Unsorted, {
 				i(241240),	-- Type II Bomber Jacket
 			}),
 			filter(BATTLE_PETS, {
-				i(244467),	-- Veridian Thorntail
-				i(244468),	-- Scrappy Thorntail
-				i(244914),	-- Xanthous Siphonmite
-				i(244916),	-- Cyan Siphonmite
-				i(245215),	-- Shimmering Inchshifter
 				i(245256),	-- Sao'rhon
-				i(245273),	-- Copper Lapbug
-				i(245274),	-- Cerulean Lapbug
 				i(246337),	-- Rustyroot Fel Snooter
 				i(246339),	-- Duskytooth Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
 				i(246343),	-- Scruffyhorn Fel Snooter
-				i(246694),	-- Zo'ya
 				i(246723),	-- Unfazed Diver
 			}),
 			filter(COSMETIC, {
@@ -678,7 +670,6 @@ root(ROOTS.Unsorted, {
 			i(249860),	-- Brewer's Black Belt
 			i(250082),	-- T'uure, Remnant of the Naaru
 			i(250104),	-- Soulbinder's Nethermantle
-			i(244913),	-- Looker Gaz'kreth Jr.
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl
