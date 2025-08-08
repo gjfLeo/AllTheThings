@@ -165,7 +165,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30194, {	-- Encroaching Storm
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				}),
+				})),
 				RemovedWithSOO(q(30264, {	-- Enemy at the Gates
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
