@@ -282,15 +282,154 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 			})),
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village invasion)
+				--[[
+				Breadcrumb: Attack on Mistfall Village (honored version)
+				One of:
+					Backed Into a Corner
+					Wu Kao Scouting Reports
+				One of:
+					Freeing Mind and Body
+					Stonebound Killers
+					
+				Mogu Make Poor House Guests
+				My Town, It's On Fire Again
+				]]--
+				RemovedWithSOO(q(31243, {	-- Attack on Mistfall Village (The Golden Pagoda)
+					["sourceQuests"] = {
+						31755,	-- Acts of Cruelty
+						31754,	-- Cannonfire
+						31762,	-- Crumbling Behemoth
+						30320,	-- Free Spirits
+						30312,	-- Given a Second Chance
+						31756,	-- High Chance of Rain
+						31758,	-- Laosy Scouting
+						30309,	-- Set in Stone
+						31760,	-- Striking First
+						30308,	-- Stone Hard Quilen
+						30307,	-- The Eternal Vigil
+						30310,	-- Thundering Skies
+						31757,	-- Unleashed Spirits
+					},
+					["qg"] = 58408,	-- Leven Dawnblade
+					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 31246 },	-- Attack on Mistfall Village (Whitepetal Lake)
+				})),
+				RemovedWithSOO(q(31246, {	-- Attack on Mistfall Village (Whitepetal Lake)
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1, "questID", 31243 },	-- Attack on Mistfall Village (The Golden Pagoda)
+				})),
+				RemovedWithSOO(q(30286, {	-- Backed Into a Corner
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 59337,	-- Sun Tenderheart
+					["coord"] = { 35.2, 75.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30285 },	-- Wu Kao Scouting Reports
+					["groups"] = {
+						objective(1, {	-- 0/6 Rescue Cornered Villagers
+							["provider"] = { "n", 63949 },	-- Cornered Villager
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30297, {	-- Baolai the Immolator
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/1 Baolai slain
+							["providers"] = {
+								{ "n",  63695 },	-- Baolai the Immolator <Shao-Tien Imperion>
+								-- #if ANYCLASSIC
+								{ "n", 245163 },	-- Baolai the Immolator <Shao-Tien Imperion>
+								-- #endif
+							},
+							["coord"] = { 28.7, 43.3, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
+				RemovedWithSOO(q(30289, {	-- Freeing Mind and Body
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30296, {	-- Gaohun the Soul-Severer
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/1 Gaohun slain
+							["providers"] = {
+								{ "n",  62881 },	-- Gaohun the Soul-Severer <Shao-Tien Imperion>
+								-- #if ANYCLASSIC
+								{ "n", 245153 },	-- Gaohun the Soul-Severer <Shao-Tien Imperion>
+								-- #endif
+							},
+							["coord"] = { 53.1, 59.3, VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS },
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
+				RemovedWithSOO(q(30287, {	-- Mogu Make Poor House Guests
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(31293, {	-- Mogu Make Poor House Guests
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30288, {	-- My Town, It's On Fire Again
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 59336,	-- Mayor Shiyo
+					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+				})),
+				RemovedWithSOO(q(30290, {	-- Stonebound Killers
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 58911,	-- Rook Stonetoe
+					["coord"] = { 35.2, 75, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30285, {	-- Wu Kao Scouting Reports
+					["sourceQuests"] = {
+						31243,	-- Attack on Mistfall Village (The Golden Pagoda)
+						31246,	-- Attack on Mistfall Village (Whitepetal Lake)
+					},
+					["qg"] = 59337,	-- Sun Tenderheart
+					["coord"] = { 35.2, 75.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30286 },	-- Backed Into a Corner
+					["groups"] = {
+						objective(1, {	-- 0/3 Wu Kao Scouting Report
+							["provider"] = { "i", 86099 },	-- Wu Kao Scouting Report
+							["coord"] = { 37, 72.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["cr"] = 64201,	-- Shao-Tien Subjugator
+						}),
+					},
+				})),
+			})),
 			--[[
 					["lockCriteria"] = { 1,
 						"questID", ,	-- 
 						"questID", ,	-- 
 						"questID", ,	-- 
 					},
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village invasion)
-				
-			})),
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village wildlife)
 				
 			})),
@@ -890,7 +1029,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 			})),
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Unsorted)
 				RemovedWithSOO(q(30236, {	-- Aetha
 					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
@@ -929,25 +1068,9 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(31243, {	-- Attack on Mistfall Village
-					["qg"] = 58408,	-- Leven Dawnblade
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31246, {	-- Attack on Mistfall Village
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(30286, {	-- Backed Into a Corner
-					["qg"] = 59337,	-- Sun Tenderheart
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
-				RemovedWithSOO(q(30297, {	-- Baolai the Immolator
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
+				
+				
+				
 				RemovedWithSOO(q(31136, {	-- Behind Our Lines
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
@@ -992,14 +1115,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				
-				RemovedWithSOO(q(30289, {	-- Freeing Mind and Body
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
-				RemovedWithSOO(q(30296, {	-- Gaohun the Soul-Severer
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
+				
 				RemovedWithSOO(q(31244, {	-- Guo-Lai Encampment
 					["qg"] = 59343,	-- Ren Firetongue
 					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
@@ -1056,14 +1173,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				RemovedWithSOO(q(30287, {	-- Mogu Make Poor House Guests
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
-				RemovedWithSOO(q(31293, {	-- Mogu Make Poor House Guests
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(31295, {	-- Mogu within the Ruins of Guo-Lai
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -1072,10 +1182,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58819,	-- Mayor Shiyo
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				RemovedWithSOO(q(30288, {	-- My Town, It's On Fire Again
-					["qg"] = 59336,	-- Mayor Shiyo
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30299, {	-- No Stone Unturned
 					["qg"] = 59334,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -1145,10 +1252,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				
-				RemovedWithSOO(q(30290, {	-- Stonebound Killers
-					["qg"] = 58911,	-- Rook Stonetoe
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
 				
 				RemovedWithSOO(q(30204, {	-- That's Not a Rock!
 					["qg"] = 58504,	-- Kun Autumnlight
@@ -1257,10 +1360,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30285, {	-- Wu Kao Scouting Reports
-					["qg"] = 59337,	-- Sun Tenderheart
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30227, {	-- Wulon, the Granite Sentinel
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
