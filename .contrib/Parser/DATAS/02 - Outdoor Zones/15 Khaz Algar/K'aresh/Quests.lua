@@ -2171,6 +2171,59 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["provider"] = { "n", 238255 },	-- Constable Zo'ardaz
 					["coord"] = { 48.6, 57.8, KARESH_TAZAVESH },
 				}),
+				header(HEADERS.Quest, 89490, {	-- Warrant: Arcana-Monger So'zer
+					q(89490, {	-- Warrant: Arcana-Monger So'zer
+						["provider"] = { "n", 241951 },	-- Warrant: Arcana-Monger So'zer
+						["coord"] = { 48.4, 59.0, KARESH_TAZAVESH },
+						["cost"] = {
+							{ "i", 239564, 1 },	-- Arcane Runed Sigil (QI!)
+							{ "i", 239607, 1 },	-- Charged Crystal (QI!)
+							{ "i", 239484, 1 },	-- Smuggler's Mark (QI!)
+						},
+						["groups"] = { i(239314), },	-- Arcane Lure (QS!)
+					}),
+					q(90081, {	-- Arcane Runed Sigil
+						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(245740),	-- Etched Fragment (QI!)
+							--
+							i(239564),	-- Arcane Runed Sigil (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(89501, {	-- Charged Crystal
+						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(239446),	-- Uncharged Cyrstal (QI!)
+							--
+							i(239607),	-- Charged Cyrstal (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(89505, {	-- Smuggler's Mark
+						["description"] = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(239497),	-- Hidden Tokens (QI!)
+							i(239510),	-- Misplaced Shipment (QI!)
+							i(239495),	-- Missing Voidband (QI!)
+							i(239501),	-- Shadowed Scrolls (QI!)
+							i(239500),	-- Stolen Apparel (QI!)
+							--
+							i(239484),	-- Smuggler's Mark (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(90127, {	-- Eliminate Arcana-Monger So'zer
+						["provider"] = { "i", 239314 },	-- Arcane Lure (QS!)
+						["isWeekly"] = true,
+					}),
+				}),
 				header(HEADERS.Quest, 87405, {	-- Warrant: Grubber
 					q(87405, {	-- Warrant: Grubber
 						["provider"] = { "n", 238548 },	-- Warrant: Grubber
@@ -2232,6 +2285,63 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isWeekly"] = true,
 					}),
 				}),
+				header(HEADERS.Quest, 87343, {	-- Warrant: Hollowbane
+					q(87343, {	-- Warrant: Hollowbane
+						["provider"] = { "n", 238269 },	-- Warrant: Hollowbane
+						["coord"] = { 48.5, 58.1, KARESH_TAZAVESH },
+						["cost"] = {
+							{ "i", 237354, 1 },	-- A Bag of Veilshards (QI!)
+							{ "i", 235917, 1 },	-- Pile of Voidbane Gems (QI!)
+							{ "i", 236688, 1 },	-- Umbral Facade (QI!)
+						},
+						["groups"] = { i(236957), },	-- Hollowbane Portal Key (QS!)
+					}),
+					q(87597, {	-- A Bag of Veilshards
+						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(237353),	-- Om'sto's Veilshards (QI!)
+							i(237356),	-- Vermin Attuned Optic-Visualizer (PQI!)
+							--
+							i(237354),	-- A Bag of Veilshards (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87324, {	-- Pile of Voidbane Gems
+						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(236632, {	-- Pouch of Voidbane Gems
+								["description"] = "|cFFE50D12WARNING:|r Do not buy unless you are on a Warrant Quest.\nContains nothing but a fraction of spent gold otherwise.",
+								["coord"] = { 50.6, 19.3, KARESH },
+								["cr"] = 238291,	-- Associate Xy'got
+								["groups"] = {
+									i(236407),	-- Voidbane Gem (QI!)
+								},
+							}),
+							--
+							i(235917),	-- Pile of Voidbane Gems (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87358, {	-- Umbral Facade
+						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(236679),	-- Essence Scanner (PQI!)
+							--
+							i(236688),	-- Umbral Facade (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(90123, {	-- Eliminate Hollowbane
+						["provider"] = { "i", 236957 },	-- Hollowbane Portal Key (QS!)
+						["isWeekly"] = true,
+					}),
+				}),
 				header(HEADERS.Quest, 87546, {	-- Warrant: Purple Peat
 					q(87546, {	-- Warrant: Purple Peat
 						["provider"] = { "n", 238919 },	-- Warrant: Purple Peat
@@ -2276,6 +2386,53 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(90125, {	-- Eliminate Purple Peat
 						["provider"] = { "i", 239276 },	-- Purple Peat Cell Key (QS!)
+						["isWeekly"] = true,
+					}),
+				}),
+				header(HEADERS.Quest, 87001, {	-- Warrant: Shatterpulse
+					q(87001, {	-- Warrant: Shatterpulse
+						["provider"] = { "n", 238265 },	-- Warrant: Shatterpulse
+						["coord"] = { 48.5, 58.6, KARESH_TAZAVESH },
+						["cost"] = {
+							{ "i", 235866, 1 },	-- Calculation Container (QI!)
+							{ "i", 235913, 1 },	-- Marking Matrix (QI!)
+							{ "i", 235982, 1 },	-- Void Fused Resin (QI!)
+						},
+						["groups"] = { i(236353), },	-- Shatterpulse Cell Key (QS!)
+					}),
+					q(87010, {	-- Calculation Container
+						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(235866),	-- Calculation Container (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87285, {	-- Marking Matrix
+						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(235898),	-- Containment Trap (PQI!)
+							--
+							i(235913),	-- Marking Matrix (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(87298, {	-- Void Fused Resin
+						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
+						--["provider"] = { "n", ?? },
+						--["coord"] = { x, y, z },
+						["repeatable"] = true,
+						["groups"] = {
+							i(235918),	-- Corrupted Granules (QI!)
+							--
+							i(235982),	-- Void Fused Resin (QI!) (Reward, required for the Warrant)
+						},
+					}),
+					q(90124, {	-- Eliminate Shatterpulse
+						["provider"] = { "i", 236353 },	-- Shatterpulse Cell Key (QS!)
 						["isWeekly"] = true,
 					}),
 				}),
@@ -2333,9 +2490,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isWeekly"] = true,
 					}),
 				}),
-				q(90123),	--
-				q(90124),	--
-				q(90127),	--
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(84966, {	-- Break the Assault

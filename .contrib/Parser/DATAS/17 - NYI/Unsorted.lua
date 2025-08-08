@@ -595,21 +595,7 @@ root(ROOTS.Unsorted, {
 				i(233005),	-- Om'taha's Toolkit[DNT]
 				i(233012),	-- Flamethrower
 				i(233287),	-- Barrel of Swirling Energy
-				i(235866),	-- Calculation Container
-				i(235898),	-- Containment Trap
-				i(235913),	-- Marking Matrix
-				i(235917),	-- Pile of Voidbane Gems
-				i(235918),	-- Corrupted Granules
-				i(235982),	-- Void Fused Resin
 				i(235983),	-- Warrant: Shatterpulse
-				i(236353),	-- Shatterpulse Cell Key
-				i(236407),	-- Voidbane Gem
-				i(236679),	-- Essence Scanner
-				i(236688),	-- Umbral Facade
-				i(236957),	-- Hollowbane Portal Key
-				i(237353),	-- Om'sto's Veilshards
-				i(237354),	-- A Bag of Veilshards
-				i(237356),	-- Vermin Attuned Optic-Visualizer
 				i(238296),	-- Phase Disruptor
 				i(238903),	-- Appropriated Azerothian Camera
 				i(238906),	-- Appropriated Azerothian Camera
@@ -618,22 +604,11 @@ root(ROOTS.Unsorted, {
 				i(238913),	-- Condenser Disc
 				i(238914),	-- Hemet's Soothin' Flute
 				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
-				i(239314),	-- Arcane Lure
-				i(239446),	-- Uncharged Cyrstal
-				i(239484),	-- Smuggler's Mark
-				i(239495),	-- Missing Voidband
-				i(239497),	-- Hidden Tokens
-				i(239500),	-- Stolen Apparel
-				i(239501),	-- Shadowed Scrolls
-				i(239510),	-- Misplaced Shipment
-				i(239564),	-- Arcane Runed Sigil
 				i(239566),	-- Arcane Runed Signet
-				i(239607),	-- Charged Cyrstal
 				i(241353),	-- Hydrobite
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock
 				i(244064),	-- Pretzel
-				i(245740),	-- Etched Fragment
 				i(245743),	-- A Curious Crystalline Fragment
 				i(246041),	-- Brew Keg
 				i(246042),	-- Pretzel
@@ -644,7 +619,9 @@ root(ROOTS.Unsorted, {
 				i(246593),	-- Shadowguard Credentials
 			}),
 			filter(TOYS, {
+				-- PvP
 				i(242636),	-- Astral Legend's Pennant
+				-- Brewfest
 				i(245946),	-- Brewer's Balloon
 			}),
 			i(248916),	-- Untethered Seer's Capelet
