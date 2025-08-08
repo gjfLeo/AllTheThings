@@ -13,6 +13,13 @@ local VALE_SOO_ONUPDATE = [[function(t)
 	end
 end]];
 -- #endif
+local function RemovedWithSOO(t)
+	t.timeline = { ADDED_5_0_4, REMOVED_5_4_0 };
+	-- #if MOP
+	t.OnUpdate = VALE_SOO_ONUPDATE;
+	-- #endif
+	return t;
+end
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_GOLDEN_LOTUS, {
 		["description"] = "The Golden Lotus are a mysterious society of pandaren who are guardians of the Vale of Eternal Blossoms. Members of the Golden Lotus are handpicked by the August Celestials to help them keep an eye on the vale, and the pandaren see it as a huge honor to be chosen as a member of the sacred order.",
@@ -21,7 +28,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			VALE_OF_ETERNAL_BLOSSOMS_GUO_LAI_HALLS
 		},
 		["icon"] = 645218,
-		["lvl"] = lvlsquish(85, 85, 10),
+		["lvl"] = lvlsquish(90, 90, 30),
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(7323, {	-- Collateral Damage
@@ -39,12 +46,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 19.6, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["_drop"] = { "providers" },	-- "Battle Ring Trainee Defeated Credit"
 				}),
-				ach(7315, {	-- Eternally in the Vale
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				RemovedWithSOO(ach(7315)),	-- Eternally in the Vale
 				ach(7317, {	-- One Many Army
 					crit(20521, {	-- Aetha
 						["_npcs"] = { 58778 },	-- Aetha
@@ -64,567 +66,316 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				}),
 			}),
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
-				q(30284, {	-- A Thousand Pointy Teeth
+				RemovedWithSOO(q(30284, {	-- A Thousand Pointy Teeth
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30338, {	-- A Weighty Task
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/9 Knifetooth Swarmer slain
+							["provider"] = { "n", 59404 },	-- Knifetooth Swarmer
+							["coord"] = { 41.2, 48, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30338, {	-- A Weighty Task
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31755, {	-- Acts of Cruelty
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/8 Mogu Artifact
+							["providers"] = {
+								{ "i",  84655 },	-- Mogu Artifact
+								{ "o", 212762 },	-- Mogu Artifact
+								{ "o", 212763 },	-- Mogu Artifact
+								{ "o", 212764 },	-- Mogu Artifact
+								{ "o", 212765 },	-- Mogu Artifact
+								{ "o", 212766 },	-- Mogu Artifact
+							},
+							["coord"] = { 40.5, 47.0, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(31755, {	-- Acts of Cruelty
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30236, {	-- Aetha
+				})),
+				RemovedWithSOO(q(30236, {	-- Aetha
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30244, {	-- Along the Serpent's Spine
+				})),
+				RemovedWithSOO(q(30244, {	-- Along the Serpent's Spine
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31243, {	-- Attack on Mistfall Village
+				})),
+				RemovedWithSOO(q(31243, {	-- Attack on Mistfall Village
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31246, {	-- Attack on Mistfall Village
+				})),
+				RemovedWithSOO(q(31246, {	-- Attack on Mistfall Village
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30286, {	-- Backed Into a Corner
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30286, {	-- Backed Into a Corner
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30297, {	-- Baolai the Immolator
+				})),
+				RemovedWithSOO(q(30297, {	-- Baolai the Immolator
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31136, {	-- Behind Our Lines
+				})),
+				RemovedWithSOO(q(31136, {	-- Behind Our Lines
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30226, {	-- Blood on the Rise
+				})),
+				RemovedWithSOO(q(30226, {	-- Blood on the Rise
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30266, {	-- Bloodied Skies
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
 					-- Wouter TODO: qg was originally Leven Dawnblade according to Wowwiki, verify this
 				}),
-				q(30195, {	-- Blooming Blossoms
+				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
 					["qg"] = 58820,	-- Merchant Benny
 					["coord"] = { 33.8, 69.8, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30282, {	-- Burning Away the Filth
+				})),
+				RemovedWithSOO(q(30282, {	-- Burning Away the Filth
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31754, {	-- Cannonfire
+				})),
+				RemovedWithSOO(q(31754, {	-- Cannonfire
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30481, {	-- Carved in Stone
+				})),
+				RemovedWithSOO(q(30481, {	-- Carved in Stone
 					["qg"] = 59333,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30263, {	-- Clearing in the Forest
+				})),
+				RemovedWithSOO(q(30263, {	-- Clearing in the Forest
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30233, {	-- Cracklefang
+				})),
+				RemovedWithSOO(q(30233, {	-- Cracklefang
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31762, {	-- Crumbling Behemoth
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(31762, {	-- Crumbling Behemoth
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30194, {	-- Encroaching Storm
+				})),
+				RemovedWithSOO(q(30194, {	-- Encroaching Storm
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
 				}),
-				q(30264, {	-- Enemy at the Gates
+				RemovedWithSOO(q(30264, {	-- Enemy at the Gates
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30342, {	-- Fiery Tongue, Fragile Feet
+				})),
+				RemovedWithSOO(q(30342, {	-- Fiery Tongue, Fragile Feet
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30320, {	-- Free Spirits
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30320, {	-- Free Spirits
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
 					["groups"] = {
 						i(89297),	-- Shao-Tien Spirit Dagger (QI!)
 					},
-				}),
-				q(30289, {	-- Freeing Mind and Body
+				})),
+				RemovedWithSOO(q(30289, {	-- Freeing Mind and Body
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30296, {	-- Gaohun the Soul-Severer
+				})),
+				RemovedWithSOO(q(30296, {	-- Gaohun the Soul-Severer
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30312, {	-- Given a Second Chance
+				})),
+				RemovedWithSOO(q(30312, {	-- Given a Second Chance
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31244, {	-- Guo-Lai Encampment
+				})),
+				RemovedWithSOO(q(31244, {	-- Guo-Lai Encampment
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31240, {	-- Guo-Lai Infestation
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(31240, {	-- Guo-Lai Infestation
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30304, {	-- Hard as a Rock
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30304, {	-- Hard as a Rock
 					["qg"] = 58504,	-- Kun Autumnlight
 					["coord"] = { 34.0, 38.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30305, {	-- He Knows What He's Doing
+				})),
+				RemovedWithSOO(q(30305, {	-- He Knows What He's Doing
 					["qg"] = 59333,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31756, {	-- High Chance of Rain
+				})),
+				RemovedWithSOO(q(31756, {	-- High Chance of Rain
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30200, {	-- In Ashen Webs
+				})),
+				RemovedWithSOO(q(30200, {	-- In Ashen Webs
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30293, {	-- In Enemy Hands
+				})),
+				RemovedWithSOO(q(30293, {	-- In Enemy Hands
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31758, {	-- Laosy Scouting
+				})),
+				RemovedWithSOO(q(31758, {	-- Laosy Scouting
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30239, {	-- Lao-Fe the Slavebinder
+				})),
+				RemovedWithSOO(q(30239, {	-- Lao-Fe the Slavebinder
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30245, {	-- Lost Scouts
+				})),
+				RemovedWithSOO(q(30245, {	-- Lost Scouts
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30196, {	-- Lushroom Rush
+				})),
+				RemovedWithSOO(q(30196, {	-- Lushroom Rush
 					["qg"] = 58818,	-- Cook Tope
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30243, {	-- Mantid Under Fire
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
 				}),
-				q(30193, {	-- Meating Expectations
+				RemovedWithSOO(q(30193, {	-- Meating Expectations
 					["qg"] = 58818,	-- Cook Tope
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31242, {	-- Mistfall Village
+				})),
+				RemovedWithSOO(q(31242, {	-- Mistfall Village
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31245, {	-- Mistfall Village
+				})),
+				RemovedWithSOO(q(31245, {	-- Mistfall Village
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31249, {	-- Mistfall Village
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(31249, {	-- Mistfall Village
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30287, {	-- Mogu Make Poor House Guests
+				})),
+				RemovedWithSOO(q(30287, {	-- Mogu Make Poor House Guests
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31293, {	-- Mogu Make Poor House Guests
+				})),
+				RemovedWithSOO(q(31293, {	-- Mogu Make Poor House Guests
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31295, {	-- Mogu within the Ruins of Guo-Lai
+				})),
+				RemovedWithSOO(q(31295, {	-- Mogu within the Ruins of Guo-Lai
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30192, {	-- My Town, It's on Fire
+				})),
+				RemovedWithSOO(q(30192, {	-- My Town, It's on Fire
 					["qg"] = 58819,	-- Mayor Shiyo
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30288, {	-- My Town, It's On Fire Again
+				})),
+				RemovedWithSOO(q(30288, {	-- My Town, It's On Fire Again
 					["qg"] = 59336,	-- Mayor Shiyo
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30444, {	-- No Reprieve
+				})),
+				RemovedWithSOO(q(30444, {	-- No Reprieve
 					["qg"] = 58919,	-- Anji Autumnlight
 					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30299, {	-- No Stone Unturned
+				})),
+				RemovedWithSOO(q(30299, {	-- No Stone Unturned
 					["qg"] = 59334,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30301, {	-- Offering a Warm Welcome
+				})),
+				RemovedWithSOO(q(30301, {	-- Offering a Warm Welcome
 					["qg"] = 59332,	-- Leven Dawnblade
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30298, {	-- Painting the Ruins Red
+				})),
+				RemovedWithSOO(q(30298, {	-- Painting the Ruins Red
 					["qg"] = 59332,	-- Leven Dawnblade
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30231, {	-- Pomfruit Pickup
+				})),
+				RemovedWithSOO(q(30231, {	-- Pomfruit Pickup
 					["qg"] = 58818,	-- Cook Tope
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30235, {	-- Quid Pro Quo
+				})),
+				RemovedWithSOO(q(30235, {	-- Quid Pro Quo
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-					["groups"] = { i(87807) },	-- Stone of the Water Strider (QI!)
-				}),
-				q(30238, {	-- Return to Rest
+					["groups"] = {
+						i(87807),	-- Stone of the Water Strider (QI!)
+					},
+				})),
+				RemovedWithSOO(q(30238, {	-- Return to Rest
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30261, {	-- Roll Club: Serpent's Spine
 					["qg"] = 58704,	-- Kelari Featherfoot
 					["coord"] = { 18.1, 63.5, VALE_OF_ETERNAL_BLOSSOMS },
 				}),
-				q(30292, {	-- Rude Awakenings
+				RemovedWithSOO(q(30292, {	-- Rude Awakenings
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30232, {	-- Ruffling Some Feathers
+				})),
+				RemovedWithSOO(q(30232, {	-- Ruffling Some Feathers
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30205, {	-- Runelocked
+				})),
+				RemovedWithSOO(q(30205, {	-- Runelocked
 					["qg"] = 63266,	-- Sinan the Dreamer
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30206, {	-- Runes in the Ruins
+				})),
+				RemovedWithSOO(q(30206, {	-- Runes in the Ruins
 					["qg"] = 63266,	-- Sinan the Dreamer
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30309, {	-- Set in Stone
+				})),
+				RemovedWithSOO(q(30309, {	-- Set in Stone
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30385, {	-- Setting Sun Garrison
+				})),
+				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31247, {	-- Setting Sun Garrison
+				})),
+				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31250, {	-- Setting Sun Garrison
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(31250, {	-- Setting Sun Garrison
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31297, {	-- Setting Sun Garrison
+				})),
+				RemovedWithSOO(q(31297, {	-- Setting Sun Garrison
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30265, {	-- Sparkle in the Eye
+				})),
+				RemovedWithSOO(q(30265, {	-- Sparkle in the Eye
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30190, {	-- Sprite Plight
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30190, {	-- Sprite Plight
 					["qg"] = 58819,	-- Mayor Shiyo
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30191, {	-- Steer Clear of the Beer Here
+				})),
+				RemovedWithSOO(q(30191, {	-- Steer Clear of the Beer Here
 					["qg"] = 58819,	-- Mayor Shiyo
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30308, {	-- Stone Hard Quilen
+				})),
+				RemovedWithSOO(q(30308, {	-- Stone Hard Quilen
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30290, {	-- Stonebound Killers
+				})),
+				RemovedWithSOO(q(30290, {	-- Stonebound Killers
 					["qg"] = 58911,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endifss
-				}),
-				q(31760, {	-- Striking First
+				})),
+				RemovedWithSOO(q(31760, {	-- Striking First
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30291, {	-- Stunning Display
+				})),
+				RemovedWithSOO(q(30291, {	-- Stunning Display
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
 				q(30242, {	-- Survival Ring: Blades
 					["qg"] = 58743,	-- Yumi Goldenpaw
 					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
@@ -633,35 +384,23 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58743,	-- Yumi Goldenpaw
 					["coord"] = { 18.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
 				}),
-				q(30204, {	-- That's Not a Rock!
+				RemovedWithSOO(q(30204, {	-- That's Not a Rock!
 					["qg"] = 58504,	-- Kun Autumnlight
 					["coord"] = { 34.0, 38.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30225, {	-- The Ashweb Matriarch
+				})),
+				RemovedWithSOO(q(30225, {	-- The Ashweb Matriarch
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30306, {	-- The Battle Ring
 					["qg"] = 58962,	-- Hai-Me Heavyhands
 					["coord"] = { 19.0, 75.4, VALE_OF_ETERNAL_BLOSSOMS },
 					-- Wouter TODO: supposedly moved from Anji Autumnlight in 5.4.0
 				}),
-				q(30248, {	-- The Butcher
+				RemovedWithSOO(q(30248, {	-- The Butcher
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30277, {	-- The Crumbling Hall
 					["qg"] = 58919,	-- Anji Autumnlight
 					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
@@ -669,218 +408,139 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(87790),	-- Ancient Guo-Lai Artifact (QI!)
 					},
 				}),
-				q(30314, {	-- The Displaced Paleblade
+				RemovedWithSOO(q(30314, {	-- The Displaced Paleblade
 					["qg"] = 59342,	-- He Softfoot
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30307, {	-- The Eternal Vigil
+				})),
+				RemovedWithSOO(q(30307, {	-- The Eternal Vigil
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30302, {	-- The Imperion Threat
+				})),
+				RemovedWithSOO(q(30302, {	-- The Imperion Threat
 					["qg"] = 59332,	-- Leven Dawnblade
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30300, {	-- The Key to Success
+				})),
+				RemovedWithSOO(q(30300, {	-- The Key to Success
 					["qg"] = 59334,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30313, {	-- The Moving Mists
+				})),
+				RemovedWithSOO(q(30313, {	-- The Moving Mists
 					["qg"] = 59342,	-- He Softfoot
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30237, {	-- The Pandaren Uprising Relived
+				})),
+				RemovedWithSOO(q(30237, {	-- The Pandaren Uprising Relived
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31248, {	-- The Ruins of Guo-Lai
+				})),
+				RemovedWithSOO(q(31248, {	-- The Ruins of Guo-Lai
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },	-- CRIEVE NOTE: This opened at Honored for me.
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31294, {	-- The Ruins of Guo-Lai
+				})),
+				RemovedWithSOO(q(31294, {	-- The Ruins of Guo-Lai
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31296, {	-- The Ruins of Guo-Lai
+				})),
+				RemovedWithSOO(q(31296, {	-- The Ruins of Guo-Lai
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 				q(30280, {	-- The Thunder Below
 					["qg"] = 58919,	-- Anji Autumnlight
 					["coord"] = { 21.4, 71.5, VALE_OF_ETERNAL_BLOSSOMS },
 				}),
-				q(30310, {	-- Thundering Skies
+				RemovedWithSOO(q(30310, {	-- Thundering Skies
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30228, {	-- Troubling the Troublemakers
+				})),
+				RemovedWithSOO(q(30228, {	-- Troubling the Troublemakers
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30249, {	-- Under the Setting Sun
+				})),
+				RemovedWithSOO(q(30249, {	-- Under the Setting Sun
 					["qg"] = 58920,	-- Kun Autumnlight
 					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30341, {	-- Under Watchful Eyes
+				})),
+				RemovedWithSOO(q(30341, {	-- Under Watchful Eyes
 					["qg"] = 59342,	-- He Softfoot
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31757, {	-- Unleashed Spirits
+				})),
+				RemovedWithSOO(q(31757, {	-- Unleashed Spirits
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30246, {	-- Upon the Ramparts
+				})),
+				RemovedWithSOO(q(30246, {	-- Upon the Ramparts
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30234, {	-- Vicejaw
+				})),
+				RemovedWithSOO(q(30234, {	-- Vicejaw
 					["qg"] = 59343,	-- Ren Firetongue
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30251, {	-- Vyraxxis, the Krik'thik Swarm-Lord
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+				})),
+				RemovedWithSOO(q(30251, {	-- Vyraxxis, the Krik'thik Swarm-Lord
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(31131, {	-- Whitepetal Lake
+				})),
+				RemovedWithSOO(q(31131, {	-- Whitepetal Lake
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30285, {	-- Wu Kao Scouting Reports
+				})),
+				RemovedWithSOO(q(30285, {	-- Wu Kao Scouting Reports
 					["qg"] = 59337,	-- Sun Tenderheart
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(30227, {	-- Wulon, the Granite Sentinel
+				})),
+				RemovedWithSOO(q(30227, {	-- Wulon, the Granite Sentinel
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+				})),
 			})),
 			n(QUESTS, {
-				q(32011, {	-- A Celestial Task (A)
+				RemovedWithSOO(q(32011, {	-- A Celestial Task (A)
 					["qg"] = 64032,	-- Sage Whiteheart
 					["coord"] = { 84.6, 63.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
-				q(32010, {	-- A Celestial Task (H)
+				})),
+				RemovedWithSOO(q(32010, {	-- A Celestial Task (H)
 					["qg"] = 64001,	-- Sage Lotusbloom
 					["coord"] = { 62.7, 23.3, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
-					-- #if MOP
-					["OnUpdate"] = VALE_SOO_ONUPDATE;
-					-- #endif
-				}),
+					["lvl"] = lvlsquish(90, 90, 30),
+				})),
 				q(31384, {	-- The Golden Lotus (A)
 					["qg"] = 64031,	-- Xari the Kind
 					["coord"] = { 84.2, 62.4, VALE_OF_ETERNAL_BLOSSOMS },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
+					["lvl"] = lvlsquish(90, 90, 30),
 				}),
 				q(31385, {	-- The Golden Lotus (H)
 					["qg"] = 64007,	-- Weng the Merciful
 					["coord"] = { 63.0, 22.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
+					["lvl"] = lvlsquish(90, 90, 30),
 				}),
 				q(31387, {	-- Understanding The Shado-Pan (A)
 					["qg"] = 64030,	-- Lao Lang
 					["coord"] = { 84.4, 61.6, VALE_OF_ETERNAL_BLOSSOMS },
 					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
+					["lvl"] = lvlsquish(90, 90, 30),
 				}),
 				q(31389, {	-- Understanding The Shado-Pan (H)
 					["qg"] = 64002,	-- Sang-Bo
 					["coord"] = { 63.0, 21.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
+					["lvl"] = lvlsquish(90, 90, 30),
 				}),
 			}),
 			n(RARES, {
