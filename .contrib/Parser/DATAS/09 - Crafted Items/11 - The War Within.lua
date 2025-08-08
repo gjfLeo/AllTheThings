@@ -47,47 +47,41 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
-			spell(430345, {	-- Meticulous Experimentation
-				i(211958, {	-- Meticulous Experimentation
-					r(430595),	-- Draught of Shocking Revelations
-					r(430594),	-- Draught of Silent Footfalls
-					r(430605),	-- Flask of Alchemical Chaos
-					r(430612),	-- Flask of Saving Graces
-					r(430601),	-- Flask of Tempered Aggression
-					r(430604),	-- Flask of Tempered Mastery
-					r(430602),	-- Flask of Tempered Swiftness
-					r(430603),	-- Flask of Tempered Versatility
-					r(430598),	-- Frontline Potion
-					r(430596),	-- Grotesque Vial
-					r(430617),	-- Phial of Bountiful Seasons
-					r(430614),	-- Phial of Concentrated Ingenuity
-					r(430616),	-- Phial of Enhanced Ambidexterity
-					r(430615),	-- Phial of Truesight
-					r(430600),	-- Potion of the Reborn Cheetah
-					r(430597),	-- Potion of Unwavering Focus
-					r(430599),	-- Tempered Potion
-				}),
+			salvagerecipe(430345, 211958, {	-- Meticulous Experimentation
+				r(430595),	-- Draught of Shocking Revelations
+				r(430594),	-- Draught of Silent Footfalls
+				r(430605),	-- Flask of Alchemical Chaos
+				r(430612),	-- Flask of Saving Graces
+				r(430601),	-- Flask of Tempered Aggression
+				r(430604),	-- Flask of Tempered Mastery
+				r(430602),	-- Flask of Tempered Swiftness
+				r(430603),	-- Flask of Tempered Versatility
+				r(430598),	-- Frontline Potion
+				r(430596),	-- Grotesque Vial
+				r(430617),	-- Phial of Bountiful Seasons
+				r(430614),	-- Phial of Concentrated Ingenuity
+				r(430616),	-- Phial of Enhanced Ambidexterity
+				r(430615),	-- Phial of Truesight
+				r(430600),	-- Potion of the Reborn Cheetah
+				r(430597),	-- Potion of Unwavering Focus
+				r(430599),	-- Tempered Potion
 			}),
-			spell(430315, {	-- Thaumaturgy
-				i(211796, {	-- Thaumaturgy
-					i(223487),	-- Writhing Transmutagen (PET!)
-					r(430618),	-- Mercurial Blessings
-					r(449571),	-- Mercurial Herbs
-					r(430619),	-- Mercurial Storms
-					r(430622),	-- Ominous Call
-					r(430623),	-- Ominous Gloom
-					r(449572),	-- Ominous Herbs
-					r(430621),	-- Volatile Stone
-					r(430620),	-- Volatile Weaving
-				}),
+			salvagerecipe(430315, 211796, {	-- Thaumaturgy
+				i(223487),	-- Writhing Transmutagen (PET!)
+				r(430618),	-- Mercurial Blessings
+				r(449571),	-- Mercurial Herbs
+				r(430619),	-- Mercurial Storms
+				r(430622),	-- Ominous Call
+				r(430623),	-- Ominous Gloom
+				r(449572),	-- Ominous Herbs
+				r(430621),	-- Volatile Stone
+				r(430620),	-- Volatile Weaving
 			}),
-			spell(427174, {	-- Wild Experimentation
-				i(210813,{	-- Wild Experimentation
-					r(430591),	-- Algari Mana Potion
-					r(430592),	-- Cavedweller's Delight
-					r(430345),	-- Meticulous Experimentation
-					r(430593),	-- Slumbering Soul Serum
-				}),
+			salvagerecipe(427174, 210813, {	-- Wild Experimentation
+				r(430591),	-- Algari Mana Potion
+				r(430592),	-- Cavedweller's Delight
+				r(430345),	-- Meticulous Experimentation
+				r(430593),	-- Slumbering Soul Serum
 			}),
 		}),
 		filter(CONSUMABLES, {
@@ -543,7 +537,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(COOKING, {
 		n(DISCOVERY, {
-			spell(447869, {	-- Fine Egg Powders
+			header(HEADERS.Spell, 447869, {	-- Fine Egg Powders
 				r(447873),	-- Secret Sauce
 			}),
 		}),
@@ -1598,7 +1592,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(224800),	-- Orbinid Pigment+++
 		}),
 		n(DISCOVERY, {
-			spell(447868, {	-- Algari Treatise on Inscription
+			header(HEADERS.Spell, 447868, {	-- Algari Treatise on Inscription
 				r(444187),	-- Algari Treatise on Alchemy
 				r(444184),	-- Algari Treatise on Blacksmithing
 				r(444188),	-- Algari Treatise on Enchanting
@@ -1885,7 +1879,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		n(DISCOVERY, {
 			r(434020),	-- Algari Crushing
 		}),
-		spell(434018, {	-- Algari Prospecting
+		salvagerecipe(434018, 194709, {	-- Algari Prospecting
 			i(212498),	-- Ambivalent Amber
 			i(212505),	-- Extravagant Emerald
 			i(213399),	-- Glittering Glass
@@ -1893,7 +1887,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(212511),	-- Ostentatious Onyx
 			i(212495),	-- Radiant Ruby
 		}),
-		spell(434020, {	-- Algari Crushing
+		salvagerecipe(434020, 201926, {	-- Algari Crushing
 			i(213219),	-- Crushed Gemstones+
 			i(213220),	-- Crushed Gemstones++
 			i(213221),	-- Crushed Gemstones+++
