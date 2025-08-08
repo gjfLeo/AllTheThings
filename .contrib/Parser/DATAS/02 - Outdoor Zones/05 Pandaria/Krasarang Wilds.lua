@@ -2387,12 +2387,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 70.6, 28.4, KRASARANG_WILDS },
 						["races"] = ALLIANCE_ONLY,
 					}),
-					q(31058, {	-- The Funky Monkey Brew
-						["qg"] = 65289,	-- Brewmaster Bo
-						["coord"] = { 54.4, 75.2, KRASARANG_WILDS },
-						["maps"] = { 450 },	-- Unga Ingoo
-						["lvl"] = 90,	-- 35
-					}),
 					q(30229, {	-- The Greater Danger
 						["sourceQuests"] = { 30132, 30464 },	-- Going West (two versions)
 						["qg"] = 58114,	-- Kor Bloodtusk
