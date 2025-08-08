@@ -89,10 +89,14 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 60529,	-- Yan Quillpaw
 					["coord"] = { 32.0, 61.8, KRASARANG_WILDS },
 					["groups"] = {
-						o_repeated({
-							i(80938),	-- Gift of the Great Crane (QI!)
-							o(211451),	-- Cerulean Gift of the Crane
-							o(211452),	-- Bronze Gift of the Crane
+						objective(1, {	-- 0/10 Gift of the Great Crane
+							["providers"] = {
+								{ "i",  80938 },	-- Gift of the Great Crane (QI!)
+								{ "o", 211452 },	-- Bronze Gift of the Crane
+								{ "o", 211451 },	-- Cerulean Gift of the Crane
+								{ "o", 211453 },	-- Crimson Gift of the Crane
+							},
+							["coord"] = { 34.5, 72.9, KRASARANG_WILDS },
 						}),
 					},
 				}),
