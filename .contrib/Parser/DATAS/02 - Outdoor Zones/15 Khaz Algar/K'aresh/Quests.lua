@@ -2175,11 +2175,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(89490, {	-- Warrant: Arcana-Monger So'zer
 						["provider"] = { "n", 241951 },	-- Warrant: Arcana-Monger So'zer
 						["coord"] = { 48.4, 59.0, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 239564, 1 },	-- Arcane Runed Sigil (QI!)
-							{ "i", 239607, 1 },	-- Charged Crystal (QI!)
-							{ "i", 239484, 1 },	-- Smuggler's Mark (QI!)
-						},
 						["groups"] = { i(239314), },	-- Arcane Lure (QS!)
 					}),
 					q(90081, {	-- Arcane Runed Sigil
@@ -2228,11 +2223,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(87405, {	-- Warrant: Grubber
 						["provider"] = { "n", 238548 },	-- Warrant: Grubber
 						["coord"] = { 48.5, 58.8, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 237352, 1 },	-- A Dozen Veilshards (QI!)
-							{ "i", 236962, 1 },	-- Basket of Zo'kita Fruit (QI!)
-							{ "i", 236966, 1 },	-- Flavorful Scraps (QI!)
-						},
 						["groups"] = { i(236967), },	-- Grubber Lure (QS!)
 					}),
 					q(87548, {	-- A Dozen Veilshards
@@ -2289,11 +2279,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(87343, {	-- Warrant: Hollowbane
 						["provider"] = { "n", 238269 },	-- Warrant: Hollowbane
 						["coord"] = { 48.5, 58.1, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 237354, 1 },	-- A Bag of Veilshards (QI!)
-							{ "i", 235917, 1 },	-- Pile of Voidbane Gems (QI!)
-							{ "i", 236688, 1 },	-- Umbral Facade (QI!)
-						},
 						["groups"] = { i(236957), },	-- Hollowbane Portal Key (QS!)
 					}),
 					q(87597, {	-- A Bag of Veilshards
@@ -2346,11 +2331,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(87546, {	-- Warrant: Purple Peat
 						["provider"] = { "n", 238919 },	-- Warrant: Purple Peat
 						["coord"] = { 48.5, 58.3, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 236937, 1 },	-- Energy Encapsulation (QI!)
-							{ "i", 236964, 1 },	-- Large Sticky Voidmass (QI!)
-							{ "i", 239249, 1 },	-- Untethered Battery (QI!)
-						},
 						["groups"] = { i(239276), },	-- Purple Peat Cell Key (QS!)
 					}),
 					q(87404, {	-- Energy Encapsulation
@@ -2393,11 +2373,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(87001, {	-- Warrant: Shatterpulse
 						["provider"] = { "n", 238265 },	-- Warrant: Shatterpulse
 						["coord"] = { 48.5, 58.6, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 235866, 1 },	-- Calculation Container (QI!)
-							{ "i", 235913, 1 },	-- Marking Matrix (QI!)
-							{ "i", 235982, 1 },	-- Void Fused Resin (QI!)
-						},
 						["groups"] = { i(236353), },	-- Shatterpulse Cell Key (QS!)
 					}),
 					q(87010, {	-- Calculation Container
@@ -2440,11 +2415,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(87345, {	-- Warrant: Xy'vox the Twisted
 						["provider"] = { "n", 238271 },	-- Warrant: Xy'Vox the Twisted
 						["coord"] = { 48.5, 58.4, KARESH_TAZAVESH },
-						["cost"] = {
-							{ "i", 236783, 1 },	-- Ethereal Seal (QI!)
-							{ "i", 236762, 1 },	-- Tazavesh Facade (QI!)
-							{ "i", 236858, 1 },	-- Zo'kita Fruit (QI!)
-						},
 						["groups"] = { i(236753), },	-- Xy'vox Refuge Dampener (QS!)
 					}),
 					q(87376, {	-- Ethereal Seal
