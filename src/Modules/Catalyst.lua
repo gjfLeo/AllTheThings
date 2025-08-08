@@ -32,12 +32,51 @@ if not PossibleCatalystBonusIDLookups then
 	return
 end
 local BonusCatalysts = PossibleCatalystBonusIDLookups.BonusCatalysts
-local BonusUpgradeTracks = PossibleCatalystBonusIDLookups.BonusUpgradeTracks
+
+local BonusIDUpgradeTiers = {
+	-- TWW:S2
+	-- Veteran
+	[11969] = 11965,
+	[11970] = 11965,
+	[11971] = 11965,
+	[11972] = 11965,
+	[11973] = 11966,
+	[11974] = 11966,
+	[11975] = 11966,
+	[11976] = 11966,
+
+	-- Champion
+	[11977] = 11966,
+	[11978] = 11966,
+	[11979] = 11966,
+	[11980] = 11966,
+	[11981] = 11967,
+	[11982] = 11967,
+	[11983] = 11967,
+	[11984] = 11967,
+
+	-- Hero
+	[11985] = 11967,
+	[11986] = 11967,
+	[11987] = 11967,
+	[11988] = 11967,
+}
 
 -- apparently Blizzard has some wrong data somehow still assigned which is captured in Wago
 -- so guess we need to fix that ourselves
--- Bonus 11964 converts to LFR but is mapped to N appearances instead
-BonusUpgradeTracks[11964] = 972
+local BonusIDReMappers = {
+	-- Bonus 11964 is from TWW:S2 Delve content, but can actually map to any difficulty depending on other bonusID starting in TWW:S3, wtffff
+	[11964] = function(data)
+		-- so for this bonusID, we need to actually determine the proper tier of the item based on old Upgrade bonusIDs
+		-- which Blizzard no longer includes in exportable Wago data
+		local bonuses = data.bonuses
+		if not bonuses or #bonuses < 1 then return end
+
+		local newBonusID = containsAnyKey(BonusIDUpgradeTiers, bonuses)
+		-- if it's not a L/N/H bonusID, it must be M
+		return BonusIDUpgradeTiers[newBonusID] or 11998
+	end
+}
 
 local CatalystArmorSlots = {
 	["INVTYPE_HEAD"] = true,
@@ -190,8 +229,13 @@ local function GetCatalysts(data)
 
 	-- Non-Upgrade cases (use bonusID to find the matching upgradeTrackID lookup)
 	if not upgradeTrackID then
-		-- app.PrintDebug("Non-upgrade Item",data.link)
-		-- app.PrintTable(upgradeInfo)
+		-- Old Items whose catalyst-bonusID doesn't directly indicate the proper appearance tier anymore for some reason
+		local remapperFunc = BonusIDReMappers[bonusID]
+		if remapperFunc then
+			-- app.PrintDebug("remapping bonusID",bonusID)
+			bonusID = remapperFunc(data)
+			-- app.PrintDebug("-->",bonusID)
+		end
 		-- Primalist Items, DF S1
 		if upgradeLevel == 2 and upgradeInfo.maxLevel == 3 then
 			-- Primalist converts to Normal
