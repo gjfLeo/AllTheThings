@@ -1283,6 +1283,9 @@ root(ROOTS.Zones, {
 						["qg"] = 24634,	-- Lieutenant Icehammer
 						["coord"] = { 64.4, 46.9, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(34078)	-- Icehammer's Harpoon Controller
+						},
 					}),
 					q(11494, {	-- Lightning Infused Relics
 						["sourceQuest"] = 11491,	-- Iron Rune Constructs and You: The Bluff
