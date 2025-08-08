@@ -1205,7 +1205,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			--	Clams
 			--	Cooking reagents
 			--	Other reagents
-			--_______________________________
+			--_________________________________
 			--
 			--	Cloth + Silk:
 			{

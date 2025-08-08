@@ -267,6 +267,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 	}),
 	prof(COOKING, {
+		n(COMMON_VENDOR_ITEMS, sharedData({	-- Experimental
+			["coords"] = {
+				{ 76.27, 52.64, TWILIGHT_HIGHLANDS },	-- Dragonmaw Port
+				{ 79.37, 78.53, TWILIGHT_HIGHLANDS },	-- Highbank
+				{ 50.21, 38.36, ULDUM },	-- Mar'at
+			},
+			["description"] = "Coordinates are for select vendors.",
+			["providers"] = {
+				{ "n", 49688 },	-- Innkeeper Francis <Innkeeper>
+				{ "n", 49519 },	-- Lizzy "Lemons"
+				{ "n", 48861 },	-- Umi <Produce>
+			},
+		}, {
+			i(58265),	-- Highland Pomegranate
+			i(58278),	-- Tropical Sunfruit
+		})),
 		i(62661),	-- Baked Rockfish
 		i(62665),	-- Basilisk Liverdog
 		i(62670),	-- Beer-Basted Crocolisk

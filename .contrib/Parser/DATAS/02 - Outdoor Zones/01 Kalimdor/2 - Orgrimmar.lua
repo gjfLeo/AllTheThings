@@ -4867,39 +4867,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 56.8, 62.6, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						chefsaward(3, i(65426)),	-- Recipe: Baked Rockfish (RECIPE!)
-						chefsaward(3, i(65427)),	-- Recipe: Basilisk Liverdog (RECIPE!)
-						chefsaward(3, i(65429)),	-- Recipe: Beer-Basted Crocolisk (RECIPE!)
-						chefsaward(3, i(65424)),	-- Recipe: Blackbelly Sushi (RECIPE!)
-						chefsaward(3, i(65411)),	-- Recipe: Broiled Mountain Trout (RECIPE!)
-						chefsaward(3, i(65431)),	-- Recipe: Chocolate Cookie (RECIPE!)
-						chefsaward(3, i(65430)),	-- Recipe: Crocolisk Au Gratin (RECIPE!)
-						chefsaward(3, i(65422)),	-- Recipe: Delicious Sagefish Tail (RECIPE!)
-						chefsaward(3, i(65408)),	-- Recipe: Feathered Lure (RECIPE!)
-						chefsaward(3, i(65423)),	-- Recipe: Fish Fry (RECIPE!)
-						chefsaward(5, i(65432)),	-- Recipe: Fortune Cookie (RECIPE!)
-						chefsaward(3, i(65428)),	-- Recipe: Grilled Dragon (RECIPE!)
-						chefsaward(3, i(65418)),	-- Recipe: Hearty Seafood Soup (RECIPE!)
-						chefsaward(3, i(65415)),	-- Recipe: Highland Spirits (RECIPE!)
-						chefsaward(3, i(65407)),	-- Recipe: Lavascale Fillet (RECIPE!)
-						chefsaward(3, i(65409)),	-- Recipe: Lavascale Minestrone (RECIPE!)
-						chefsaward(3, i(65412)),	-- Recipe: Lightly Fried Lurker (RECIPE!)
-						chefsaward(3, i(65416)),	-- Recipe: Lurker Lunch (RECIPE!)
-						chefsaward(3, i(65420)),	-- Recipe: Mushroom Sauce Mudfish (RECIPE!)
-						chefsaward(3, i(65417)),	-- Recipe: Pickled Guppy (RECIPE!)
-						chefsaward(3, i(65410)),	-- Recipe: Salted Eye (RECIPE!)
-						chefsaward(3, i(68688, {	-- Recipe: Scalding Murglesnout (RECIPE!)
-							["timeline"] = { ADDED_4_0_6 },
-						})),
-						chefsaward(3, i(65413)),	-- Recipe: Seasoned Crab (RECIPE!)
-						chefsaward(3, i(65421)),	-- Recipe: Severed Sagefish Head (RECIPE!)
-						chefsaward(3, i(65425)),	-- Recipe: Skewered Eel (RECIPE!)
-						chefsaward(5, i(65433)),	-- Recipe: South Island Iced Tea (RECIPE!)
-						chefsaward(3, i(65414)),	-- Recipe: Starfire Espresso (RECIPE!)
-						chefsaward(3, i(65419)),	-- Recipe: Tender Baked Turtle (RECIPE!)
-						chefsaward(3, i(65406)),	-- Recipe: Whitecrest Gumbo (RECIPE!)
-					},
+					["groups"] = CATA_COOKING_SUPPLIES,
 				}),
 				n(5817, {	-- Shimra <Trade Supplies>
 					["coords"] = {

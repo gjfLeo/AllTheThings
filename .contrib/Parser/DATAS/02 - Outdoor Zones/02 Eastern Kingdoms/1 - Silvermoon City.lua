@@ -813,6 +813,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["groups"] = {
 						i(2594),	-- Flagon of Dwarven Honeymead/Mead
 						i(2593),	-- Flask of Stormwind Tawny
+						--i(2595),	-- Jug of Badlands Bourbon
 						i(2596),	-- Skin of Dwarven Stout
 					},
 				}),

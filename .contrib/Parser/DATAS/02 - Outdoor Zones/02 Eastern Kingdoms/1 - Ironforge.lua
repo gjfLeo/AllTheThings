@@ -1656,7 +1656,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 60.6, 38.2, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = {{"sub", "common_recipes_vendor", 49701}},	-- Jon Casper <Sous Chef>
+					["sym"] = {{"sub", "common_vendor", 49701}},	-- Jon Casper <Sous Chef>
 					-- #endif
 					["groups"] = appendGroups(VANILLA_COOKING_SUPPLIES, {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
@@ -1743,6 +1743,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(2594),	-- Flagon of Dwarven Honeymead/Mead
 						i(2593),	-- Flask of Stormwind Tawny
 						i(1179),	-- Ice Cold Milk
+						--i(2595),	-- Jug of Badlands Bourbon
 						i(2596),	-- Skin of Dwarven Stout
 					},
 				}),

@@ -633,7 +633,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(71782),	-- Shatterskull Bonecrusher
 							i(71775),	-- Smoldering Censer of Purity
 							i(71780),	-- Zoid's Firelit Greatsword
-							ig(69237),	-- Living Ember
+							ig(69237, {	-- Living Ember
+								["description"] = "Drops commonly from Firelands bosses.",
+							}),
 						},
 					}),
 					e(192, {	-- Beth'tilac

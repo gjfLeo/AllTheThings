@@ -1434,7 +1434,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
 						-- #if AFTER CATA
-						{"sub", "common_recipes_vendor", 49701},	-- Jon Casper <Sous Chef>
+						{"sub", "common_vendor", 49701},	-- Jon Casper <Sous Chef>
 						-- #endif
 						{ "select","itemID",
 							159,	-- Refreshing Spring Water

@@ -1276,7 +1276,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["sym"] = {
 						-- #if AFTER CATA
-						{"sub", "common_recipes_vendor", 49737},	-- Shazdar <Sous Chef>
+						{"sub", "common_vendor", 49737},	-- Shazdar <Sous Chef>
 						-- #endif
 						{ "select","itemID",
 							159,	-- Refreshing Spring Water

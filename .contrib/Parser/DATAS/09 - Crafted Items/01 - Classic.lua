@@ -1085,6 +1085,27 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 	}),
 	prof(COOKING, {
+		-- #if AFTER CATA
+		n(COMMON_VENDOR_ITEMS, {	-- Experimental
+			i(2595, {	-- Jug of Badlands Bourbon (Cataclysm cooking)
+				["coords"] = {
+					{ 18.6, 51.9, IRONFORGE },	-- The Stonefire Tavern
+					{ 79.5, 58.5, SILVERMOON_CITY },
+					-- #if AFTER WRATH
+					{ 76.0, 53.4, STORMWIND_CITY },	-- Pig and Whistle Tavern
+					-- #else
+					{ 73.0, 37.0, STORMWIND_CITY },	-- Pig and Whistle Tavern
+					-- #endif
+				},
+				["description"] = "Coordinates are for select vendors.",
+				["providers"] = {
+					{ "n", 1328 },	-- Elly Langston <Barmaid>
+					{ "n", 5112 },	-- Gwenna Firebrew <Barmaid>
+					{ "n", 16442 },	-- Vinemaster Suntouched <Wine & Spirits Merchant>
+				},
+			}),
+		}),
+		-- #endif
 		i(13935),	-- Baked Salmon
 		i(4457),	-- Barbecued Buzzard Wing
 		applyclassicphase(TBC_PHASE_ONE, i(27636, {["timeline"] = { ADDED_2_0_5 }})),	-- Bat Bites
@@ -6905,7 +6926,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	})),
 	prof(SKINNING, {
 		-- #if NOT ANYCLASSIC
-		["description"] = "The following items can be gathered by skinning creatures out in the world.\n\nNote that although Light-/Medium-/Heavy-/Thick-/Rugged Leather is most common to get from skinning, which one you get is dependng on two factors:\n\n* Your skill level in Skinning\n\n*The historic level bracket of the creature.\n\nYou will never be able to obtain Heavy Leather from skinning in Dun Morogh, and if you get Light Leather from skinning in Uldaman your skill level is way too low.",
+		["description"] = "The following items can be gathered by skinning creatures out in the world.\n\nNote that although Light-/Medium-/Heavy-/Thick-/Rugged Leather is most common to get from skinning, which one you get is depending on two factors:\n\n* Your skill level in Skinning\n\n*The historic level bracket of the creature.\n\nYou will never be able to obtain Heavy Leather from skinning in Dun Morogh, and if you get Light Leather from skinning in Uldaman your skill level is way too low.",
 		-- #else
 		["description"] = "The following items can be gathered by skinning creatures out in the world.",
 		-- #endif
