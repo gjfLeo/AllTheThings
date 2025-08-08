@@ -74,6 +74,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31755, {	-- Acts of Cruelty
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30312 },	-- Given a Second Chance
 					["groups"] = {
 						objective(1, {	-- 0/5 Torture victims rescued
 							["providers"] = {
@@ -90,6 +91,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31754, {	-- Cannonfire
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30320,	-- Free Spirits
+						"questID", 31756,	-- High Chance of Rain
+						"questID", 31758,	-- Laosy Scouting
+					},
 					["groups"] = {
 						objective(1, {	-- 0/7 Shao-Tien Cannons destroyed
 							["providers"] = {
@@ -103,6 +109,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31762, {	-- Crumbling Behemoth
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 31760 },	-- Striking First
 					["groups"] = {
 						objective(1, {	-- 0/1 Shao-Tien Behemoth slain
 							["provider"] = { "n", 65824 },	-- Shao-Tien Behemoth
@@ -113,6 +120,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30320, {	-- Free Spirits
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 31754,	-- Cannonfire
+						"questID", 31756,	-- High Chance of Rain
+						"questID", 31758,	-- Laosy Scouting
+					},
 					["groups"] = {
 						objective(1, {	-- 0/15 Free Captive Pandaren Spirits
 							["providers"] = {
@@ -127,6 +139,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30312, {	-- Given a Second Chance
 					["qg"] = 58468,	-- Sun Tenderheart
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 31755 },	-- Acts of Cruelty
 					["groups"] = {
 						objective(1, {	-- 0/6 Wounded Defender healed
 							["providers"] = {
@@ -140,6 +153,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31756, {	-- High Chance of Rain
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 31754,	-- Cannonfire
+						"questID", 30320,	-- Free Spirits
+						"questID", 31758,	-- Laosy Scouting
+					},
 					["groups"] = {
 						objective(1, {	-- 0/1 Eastern Stormcaller destroyed
 							["provider"] = { "o", 214895 },	-- Shao-Tien Stormcaller
@@ -162,9 +180,17 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31758, {	-- Laosy Scouting
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 31754,	-- Cannonfire
+						"questID", 30320,	-- Free Spirits
+						"questID", 31756,	-- High Chance of Rain
+					},
 					["groups"] = {
 						objective(1, {	-- Lao Softfoot rescued
-							["provider"] = { "n", 65868 },	-- Lao Softfoot
+							["providers"] = {
+								{ "n",  65868 },	-- Lao Softfoot
+								{ "o", 213289 },	-- Shao-Tien Cage
+							},
 							["coord"] = { 43, 22.2, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
 					},
@@ -172,6 +198,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30309, {	-- Set in Stone
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30308,	-- Stone Hard Quilen
+						"questID", 30310,	-- Thundering Skies
+						"questID", 31757,	-- Unleashed Spirits
+					},
 					["groups"] = {
 						objective(1, {	-- 0/6 Mogu Effigy slain
 							["provider"] = { "n", 59156 },	-- Mogu Effigy
@@ -182,17 +213,23 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31760, {	-- Striking First
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 31762 },	-- Crumbling Behemoth
 					["groups"] = {
 						objective(1, {	-- Shao-Tien Behemoth ritual stopped
 							["provider"] = { "n", 65962 },	-- Shao-Tien Behemoth
 							["coord"] = { 44, 16, VALE_OF_ETERNAL_BLOSSOMS },
-							["cr"] = 65810,	-- Shao-Tien Soul-Render
+							["cr"] = 65978,	-- Shao-Tien Soul-Render
 						}),
 					},
 				})),
 				RemovedWithSOO(q(30308, {	-- Stone Hard Quilen
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30309,	-- Set in Stone
+						"questID", 30310,	-- Thundering Skies
+						"questID", 31757,	-- Unleashed Spirits
+					},
 					["groups"] = {
 						objective(1, {	-- 0/6 Granite Quilen slain
 							["provider"] = { "n", 59157 },	-- Granite Quilen
@@ -217,6 +254,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30310, {	-- Thundering Skies
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30309,	-- Set in Stone
+						"questID", 30308,	-- Stone Hard Quilen
+						"questID", 31757,	-- Unleashed Spirits
+					},
 					["groups"] = {
 						objective(1, {	-- 0/3 Subjugated Serpent slain
 							["provider"] = { "n", 59158 },	-- Subjugated Serpent
@@ -227,6 +269,11 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(31757, {	-- Unleashed Spirits
 					["qg"] = 58465,	-- Anji Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30309,	-- Set in Stone
+						"questID", 30308,	-- Stone Hard Quilen
+						"questID", 30310,	-- Thundering Skies
+					},
 					["groups"] = {
 						objective(1, {	-- 0/12 Unleashed Spirit slain
 							["provider"] = { "n", 65935 },	-- Unleashed Spirit
