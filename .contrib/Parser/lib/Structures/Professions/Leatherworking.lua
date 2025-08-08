@@ -900,7 +900,7 @@ MOP_LEATHERWORKING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeli
 		r(124125),	-- Toughened Leg Armor
 	}),
 }));
-COMMON_MOP_LEATHERWORKING_RECIPES = applyclassicphase(MOP_PHASE_LANDFALL, sharedData({ ["cost"] = {{ "i", SPIRIT_OF_HARMONY, 1 }}, ["timeline"] = { ADDED_5_0_4 } }, {
+COMMON_MOP_LEATHERWORKING_RECIPES = sharedData({ ["cost"] = {{ "i", SPIRIT_OF_HARMONY, 1 }}, ["timeline"] = { ADDED_5_0_4 } }, {
 	i(86240),	-- Pattern: Contender's Dragonscale Belt (RECIPE!)
 	i(86241),	-- Pattern: Contender's Dragonscale Boots (RECIPE!)
 	i(86242),	-- Pattern: Contender's Dragonscale Bracers (RECIPE!)
@@ -933,7 +933,7 @@ COMMON_MOP_LEATHERWORKING_RECIPES = applyclassicphase(MOP_PHASE_LANDFALL, shared
 	i(86269),	-- Pattern: Contender's Wyrmhide Helm (RECIPE!)
 	i(86270),	-- Pattern: Contender's Wyrmhide Leggings (RECIPE!)
 	i(86271),	-- Pattern: Contender's Wyrmhide Shoulders (RECIPE!)
-}));
+});
 DRAENOR_LEATHERWORKING = applyclassicphase(WOD_PHASE_ONE, i(115358, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	["description"] = "This is a reward for completing the introductory Leaterworking questline that can drop from any Draenor mob.",
 	["groups"] = {
