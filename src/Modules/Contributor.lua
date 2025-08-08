@@ -1411,6 +1411,7 @@ MobileDB.GameObject = {
 	[508727] = true,	-- Partially-Drained Battery
 	[509461] = true,	-- Sealed Chest (q:84762)
 	[509463] = true,	-- Stolen Coffer (q:84762)
+	[509464] = true,	-- Sealed Chest (q:84762)
 	[516163] = true,	-- Half-Empty Bag
 	[516444] = true,	-- Ethereal Pocket-Storage
 	[516296] = true,	-- Sureki Cage (Nightfall)

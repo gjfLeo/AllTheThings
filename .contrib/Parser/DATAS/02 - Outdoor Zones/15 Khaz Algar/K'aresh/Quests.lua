@@ -1737,9 +1737,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230233 },	-- Shahata
 						["coord"] = { 76.3, 55.3, KARESH },
 						["groups"] = {
-							o(509464, {	-- Sealed Chest
-								["coord"] = { 76.9, 46.4, KARESH },
-							}),
 							o(469724, {	-- Damaged Echo Surveyor
 								["coord"] = { 76.4, 55.2, KARESH },
 								["groups"] = { i(237127), },	-- Damaged Echo Surveyor (QI!)

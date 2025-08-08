@@ -22,7 +22,6 @@ root(ROOTS.Unsorted, {
 				-- Epic wep
 				i(246071),	-- Mana-Seamster's Arcane-Needle
 				-- Delve Armor?
-				i(246825),	-- Chaotic Nethergate
 				i(246940),	-- Manaforged Aethercell
 				i(246941),	-- Symbiotic Ethergauze
 				i(246947),	-- Twisted Mana Sprite
@@ -430,7 +429,6 @@ root(ROOTS.Unsorted, {
 				i(246906),	-- Locus Console
 				i(247926),	-- Muted Mana-Stone
 				i(247927),	-- Humming Mana-Stone
-				i(248970),	-- Nexus-Princess Ky'veza
 				-- Box/Weekly Box
 				i(230032),	-- Overflowing K'aresh Trust Trove
 				i(238921),	-- Containment Canister

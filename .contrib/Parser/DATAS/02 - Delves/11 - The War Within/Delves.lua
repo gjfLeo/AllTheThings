@@ -190,30 +190,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				["coord"] = { 47.6, 44.6, DORNOGAL },
 				["sourceAchievement"] = 41530,	-- My New Nemesis
 			}),
-			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41192, {	-- War Within Delves: Tier 5 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41198, {	-- War Within Delves: Tier 6 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41193, {	-- War Within Delves: Tier 7 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41194, {	-- War Within Delves: Tier 8 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41195, {	-- War Within Delves: Tier 9 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41196, {	-- War Within Delves: Tier 10 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
+			mapped(ach(41191)),	-- War Within Delves: Tier 4 (Season 2)
+			mapped(ach(41192)),	-- War Within Delves: Tier 5 (Season 2)
+			mapped(ach(41198)),	-- War Within Delves: Tier 6 (Season 2)
+			mapped(ach(41193)),	-- War Within Delves: Tier 7 (Season 2)
+			mapped(ach(41194)),	-- War Within Delves: Tier 8 (Season 2)
+			mapped(ach(41195)),	-- War Within Delves: Tier 9 (Season 2)
+			mapped(ach(41196)),	-- War Within Delves: Tier 10 (Season 2)
+			mapped(ach(41197)),	-- War Within Delves: Tier 11 (Season 2)
 		})),
 		-- TWW Season 2 Boss
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
@@ -256,20 +240,20 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	})),
 	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0 } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
-			ach(42779, {	-- A Flash in the Void
+			mapped(ach(42779, {	-- A Flash in the Void
 				title(598),	-- Flickering %s
-			}),
-			ach(42778),	-- A Flicker in the Dark
+			})),
+			mapped(ach(42778)),	-- A Flicker in the Dark
 			ach(42801),	-- Journey's End (Season 3)
-			ach(42799),	-- Let Her Solo Me
-			ach(42196),	-- War Within Delves: Tier 4 (Season 3)
-			ach(42197),	-- War Within Delves: Tier 5 (Season 3)
-			ach(42198),	-- War Within Delves: Tier 6 (Season 3)
-			ach(42199),	-- War Within Delves: Tier 7 (Season 3)
-			ach(42200),	-- War Within Delves: Tier 8 (Season 3)
-			ach(42201),	-- War Within Delves: Tier 9 (Season 3)
-			ach(42202),	-- War Within Delves: Tier 10 (Season 3)
-			ach(42203),	-- War Within Delves: Tier 11 (Season 3)
+			mapped(ach(42799)),	-- Let Her Solo Me
+			mapped(ach(42196)),	-- War Within Delves: Tier 4 (Season 3)
+			mapped(ach(42197)),	-- War Within Delves: Tier 5 (Season 3)
+			mapped(ach(42198)),	-- War Within Delves: Tier 6 (Season 3)
+			mapped(ach(42199)),	-- War Within Delves: Tier 7 (Season 3)
+			mapped(ach(42200)),	-- War Within Delves: Tier 8 (Season 3)
+			mapped(ach(42201)),	-- War Within Delves: Tier 9 (Season 3)
+			mapped(ach(42202)),	-- War Within Delves: Tier 10 (Season 3)
+			mapped(ach(42203)),	-- War Within Delves: Tier 11 (Season 3)
 		})),
 		-- TWW Season 3 Boss
 		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
@@ -1093,6 +1077,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(232891, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Amorphous Relic
 				i(242867, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Automatic Footbomb Dispenser
 				i(234717, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Blastmaster3000
+				i(246825, { ["timeline"] = { ADDED_11_2_0 } }),	-- Chaotic Nethergate
 				i(215174),	-- Concoction: Kiss of Death
 				i(234326, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Core Recycling Unit
 				i(246939, { ["timeline"] = { ADDED_11_2_0 } }),	-- Essence-Hunter's Eyeglass
@@ -1104,7 +1089,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(246944, { ["timeline"] = { ADDED_11_2_0 } }),	-- Mind-Fracturing Odium
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
-				i(246824, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Shadowguard's Twisted Harvester
+				i(246824, { ["timeline"] = { ADDED_11_2_0 } }),	-- Shadowguard's Twisted Harvester
 				i(215172),	-- Silken Chain Weaver
 				i(238390, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbreaker's Sigil
 				i(225668),	-- Unstable Power Suit Core
@@ -2568,7 +2553,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235688, {	-- Delver's Dirigible Schematic: Fan (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2579,11 +2564,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235690, {	-- Delver's Dirigible Schematic: Harpoon (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(235689, {	-- Delver's Dirigible Schematic: Kite (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
@@ -2594,7 +2579,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235692, {	-- Delver's Dirigible Schematic: Thrusters (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2609,7 +2594,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(235691, {	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 				}),
 				filter(MOUNTS, {
@@ -2634,7 +2619,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237954, {	-- Arsenal: Undermine Weaponry
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2642,11 +2627,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237945, {	-- Ensemble: Blastborne Loadout
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(248788, {	-- Ensemble: Bundle of Ethereal Cloaks
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2654,7 +2639,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237944, {	-- Ensemble: Junkreaver's Plates
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2662,11 +2647,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					iensemble(237949, {	-- Ensemble: Nitroclad Kit
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(237953, {	-- Ensemble: Noxious Injector Apparatus
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2682,7 +2667,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(245525, {	-- Opulent Phasebound Visor
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(212163, {	-- Soporific Shroom Cap
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2746,7 +2731,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					-- Season 3
 					i(244193, {	-- L00T RAID-R Mini
 						["cost"] = {{"c", UNDERCOIN, 1000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 					i(238526, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
@@ -2758,7 +2743,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					}),
 					i(248017, {	-- Shrieking Quartz
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 				}),
 				filter(TOYS, {

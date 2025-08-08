@@ -2583,6 +2583,7 @@ i(238876);	-- Malicious Mandible
 i(238869);	-- Matted Pelt
 i(238801);	-- Mite-Kissed Silver Tooth
 i(238855);	-- Netherclaw
+i(248970);	-- Nexus-Princess Ky'veza
 i(246296);	-- Off-Balance Mace of the Tazavesh Lookout
 i(238880);	-- Oily Blubber
 i(238849);	-- Ominous Unblinking Eye
