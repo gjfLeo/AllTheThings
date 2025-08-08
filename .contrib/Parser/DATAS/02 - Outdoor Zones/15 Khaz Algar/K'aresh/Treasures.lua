@@ -94,6 +94,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(503823, {	-- Mailroom Distribution
 					["description"] = "Grab the Mail Overflow from the Mailbox in front of the Mailroom.",
 					["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+					["provider"] = { "o", 503837 },	-- Mailroom Distribution [Vignette]
 					["coord"] = { 48.1, 64.1, KARESH_TAZAVESH },
 					["questID"] = 86467,
 					["groups"] = { i(245970), },	-- P.O.S.T. Master's Express Hearthstone (TOY!)
