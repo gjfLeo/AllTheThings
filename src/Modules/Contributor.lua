@@ -505,6 +505,7 @@ MobileDB.GameObject = {
 	[186591] = true,	-- Spotted Hippogryph Down (q:11269, 11271)
 	[186903] = true,	-- Pirate Booty (q:25054)
 	[187333] = true,	-- Bloodberry Bush (q:11546)
+	[189292] = true,	-- Scrying Orb
 	[190584] = true,	-- Battle-worn Sword (q:12619)
 	[192818] = true,	-- Infused Mushroom (q:13100, 13112)
 	[192828] = true,	-- Crystalsong Carrot (q:13114)

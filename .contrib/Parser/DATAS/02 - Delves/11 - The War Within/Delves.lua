@@ -109,33 +109,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			ach(40446, {	-- I TAKE Candle!
 				["maps"] = KOBOLD_DELVES,
 			}),
-			ach(40515, {	-- War Within Delves: Tier 4 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40516, {	-- War Within Delves: Tier 5 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40517, {	-- War Within Delves: Tier 6 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40518, {	-- War Within Delves: Tier 7 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40519, {	-- War Within Delves: Tier 8 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40520, {	-- War Within Delves: Tier 9 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40521, {	-- War Within Delves: Tier 10 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(40726, {	-- War Within Delves: Tier 11 (Season 1)
-				["maps"] = ALL_REGULAR_DELVES,
-				["groups"] = {
-					title(550),	-- High Explorer <Name>
-				},
-			}),
+			mapped(ach(40515)),	-- War Within Delves: Tier 4 (Season 1)
+			mapped(ach(40516)),	-- War Within Delves: Tier 5 (Season 1)
+			mapped(ach(40517)),	-- War Within Delves: Tier 6 (Season 1)
+			mapped(ach(40518)),	-- War Within Delves: Tier 7 (Season 1)
+			mapped(ach(40519)),	-- War Within Delves: Tier 8 (Season 1)
+			mapped(ach(40520)),	-- War Within Delves: Tier 9 (Season 1)
+			mapped(ach(40521)),	-- War Within Delves: Tier 10 (Season 1)
+			mapped(ach(40726, {	-- War Within Delves: Tier 11 (Season 1)
+				title(550),	-- High Explorer <Name>
+			})),
 		})),
 		-- TWW Season 1 Boss
 		m(ZEKVIRS_LAIR, {
@@ -197,7 +180,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			mapped(ach(41194)),	-- War Within Delves: Tier 8 (Season 2)
 			mapped(ach(41195)),	-- War Within Delves: Tier 9 (Season 2)
 			mapped(ach(41196)),	-- War Within Delves: Tier 10 (Season 2)
-			mapped(ach(41197)),	-- War Within Delves: Tier 11 (Season 2)
+			mapped(ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
+				title(550),	-- High Explorer <Name>
+			})),
 		})),
 		-- TWW Season 2 Boss
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
@@ -253,7 +238,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			mapped(ach(42200)),	-- War Within Delves: Tier 8 (Season 3)
 			mapped(ach(42201)),	-- War Within Delves: Tier 9 (Season 3)
 			mapped(ach(42202)),	-- War Within Delves: Tier 10 (Season 3)
-			mapped(ach(42203)),	-- War Within Delves: Tier 11 (Season 3)
+			mapped(ach(42203, {	-- War Within Delves: Tier 11 (Season 3)
+				title(550),	-- High Explorer <Name>
+			})),
 		})),
 		-- TWW Season 3 Boss
 		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
@@ -2227,6 +2214,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 				-- No new objectID atm
 				i(248764, {	-- Artisanal Blink Trap
+					["timeline"] = { ADDED_11_2_0 },
+				}),
+				i(244193, {	-- L00T RAID-R Mini
 					["timeline"] = { ADDED_11_2_0 },
 				}),
 				i(248017, {	-- Shrieking Quartz
