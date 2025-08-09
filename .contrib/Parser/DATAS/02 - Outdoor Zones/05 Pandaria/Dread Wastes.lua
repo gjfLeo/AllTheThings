@@ -1497,6 +1497,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "i", 88715 },	-- Ashes of Warlord Gurthan
 						["coord"] = { 66.3, 31.7, DREAD_WASTES },
 						["isDaily"] = true,
+						["cr"] = 65502,	-- Warlord Gurthan
 					}),
 					q(31609, {	-- The Wrath of Shek'zeer
 						["sourceQuest"] = 31959,	-- The Empress' Gambit
