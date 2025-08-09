@@ -918,10 +918,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(90904),	-- Ornate Band
 			i(83798),	-- Roguestone Shadowband
 		}),
-		i(95469, {	-- Serpent's Heart
-			i(90470),	-- Design: Jade Owl
-			i(90471),	-- Design: Sapphire Cub
-		}),
+		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(95469, {	-- Serpent's Heart
+			["timeline"] = { ADDED_5_2_0 },
+			["groups"] = {
+				i(90470),	-- Design: Jade Owl
+				i(90471),	-- Design: Sapphire Cub
+			},
+		})),
 	}),
 	prof(LEATHERWORKING, {
 		n(DISCOVERY, {

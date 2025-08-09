@@ -49,10 +49,10 @@ root(ROOTS.WorldDrops, {
 				i(83862),	-- Design: Forlorn Primal Diamond
 				i(83872),	-- Design: Impassive Primal Diamond
 				i(83901),	-- Design: Powerful Primal Diamond
-				i(95471),	-- Design: Primal Diamond
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(95471, {["timeline"] = { ADDED_5_2_0 } })),	-- Design: Primal Diamond
 				i(83925),	-- Design: Reverberating Primal Diamond
 				i(83926),	-- Design: Revitalizing Primal Diamond
-				i(95470),	-- Design: Serpent's Heart
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(95470, {["timeline"] = { ADDED_5_2_0 } })),	-- Design: Serpent's Heart
 			}),
 			prof(LEATHERWORKING, {
 				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(102513, {	-- Pattern: Drums of Rage (RECIPE!)
