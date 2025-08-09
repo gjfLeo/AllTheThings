@@ -424,15 +424,326 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 			})),
+			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village wildlife)
+				--[[
+				Breadcrumb Mistfall Village (honored version)
+				One of:
+					Lushroom Rush
+					Meating Expectations
+					Pomfruit Pickup
+				One of:
+					Clearing in the Forest
+					Return to Rest
+					Ruffling Some Feathers
+					The Pandaren Uprising Relived
+				One of:
+					Encroaching Storm
+					My Town, It's on Fire
+					Steer Clear of the Beer Here
+				One of:
+					Sprite Plight
+					Blooming Blossoms
+				]]--
+				RemovedWithSOO(q(31242, {	-- Mistfall Village (The Golden Pagoda)
+					["sourceQuests"] = {
+						31755,	-- Acts of Cruelty
+						31754,	-- Cannonfire
+						31762,	-- Crumbling Behemoth
+						30320,	-- Free Spirits
+						30312,	-- Given a Second Chance
+						31756,	-- High Chance of Rain
+						31758,	-- Laosy Scouting
+						30309,	-- Set in Stone
+						31760,	-- Striking First
+						30308,	-- Stone Hard Quilen
+						30307,	-- The Eternal Vigil
+						30310,	-- Thundering Skies
+						31757,	-- Unleashed Spirits
+					},
+					["qg"] = 58408,	-- Leven Dawnblade
+					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 31245,	-- Mistfall Village (Whitepetal Lake)
+						"questID", 31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+				})),
+				RemovedWithSOO(q(31245, {	-- Mistfall Village (Whitepetal Lake)
+					["qg"] = 59343,	-- Ren Firetongue
+					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
+					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
+					["lockCriteria"] = { 1,
+						"questID", 31242,	-- Mistfall Village (The Golden Pagoda)
+						"questID", 31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+				})),
+				RemovedWithSOO(q(31249, {	-- Mistfall Village (The Golden Pagoda)
+					-- CRIEVE NOTE: Not sure under what conditions this questID is given instead of 31242.
+					["qg"] = 58408,	-- Leven Dawnblade
+					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 31242,	-- Mistfall Village (The Golden Pagoda)
+						"questID", 31245,	-- Mistfall Village (Whitepetal Lake)
+					},
+				})),
+				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58820,	-- Merchant Benny
+					["coord"] = { 33.8, 69.8, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30190 },	-- Sprite Plight
+					["groups"] = {
+						objective(1, {	-- 0/10 Eternal Blossom
+							["providers"] = {
+								{ "i", 244172 },	-- Eternal Blossom
+								{ "o", 210537 },	-- Eternal Blossom
+								{ "o", 210538 },	-- Eternal Blossom
+								{ "o", 210539 },	-- Eternal Blossom
+							},
+							["coord"] = { 33.1, 58.4, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30263, {	-- Clearing in the Forest
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30238,	-- Return to Rest
+						"questID", 30232,	-- Ruffling Some Feathers
+						"questID", 30237,	-- The Pandaren Uprising Relived
+					},
+					["groups"] = {
+						objective(1, {	-- 0/6 Winterbough Glade mogu slain
+							["providers"] = {
+								{ "n", 65131 },	-- Shao-Tien Painweaver
+								{ "n", 65132 },	-- Shao-Tien Conqueror
+							},
+							["coord"] = { 29.8, 53.0, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30194, {	-- Encroaching Storm
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30192,	-- My Town, It's on Fire
+						"questID", 30191,	-- Steer Clear of the Beer Here
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Thundermaw slain
+							["provider"] = { "n", 58456 },	-- Thundermaw
+							["coord"] = { 24.2, 77.4, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30196, {	-- Lushroom Rush
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58818,	-- Cook Tope
+					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30193,	-- Meating Expectations
+						"questID", 30231,	-- Pomfruit Pickup
+					},
+					["groups"] = {
+						objective(1, {	-- 0/12 Lushroom
+							["providers"] = {
+								{ "i",  85681 },	-- Lushroom
+								{ "o", 213352 },	-- Lushroom
+								{ "o", 213350 },	-- Lushroom
+								{ "o", 213353 },	-- Lushroom
+							},
+							["coord"] = { 48.0, 69.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30193, {	-- Meating Expectations
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58818,	-- Cook Tope
+					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30196,	-- Lushroom Rush
+						"questID", 30231,	-- Pomfruit Pickup
+					},
+					["groups"] = {
+						objective(1, {	-- 0/10 Fairlands Gazelle Meat
+							["provider"] = { "i", 79244 },	-- Fairlands Gazelle Meat
+							["coord"] = { 29.4, 55, VALE_OF_ETERNAL_BLOSSOMS },
+							["cr"] = 58454,	-- Fairlands Gazelle
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30192, {	-- My Town, It's on Fire
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58819,	-- Mayor Shiyo
+					["coord"] = { 35.2, 74, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30194,	-- Encroaching Storm
+						"questID", 30191,	-- Steer Clear of the Beer Here
+					},
+					["groups"] = {
+						objective(1, {	-- 0/30 Put out Brazier Fires
+							["providers"] = {
+								{ "i",  85782 },	-- Mistfall Water Bucket
+								{ "o", 213369 },	-- Mistfall Water Bucket
+							},
+							["coord"] = { 35.5, 74.3, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30231, {	-- Pomfruit Pickup
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58818,	-- Cook Tope
+					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30196,	-- Lushroom Rush
+						"questID", 30193,	-- Meating Expectations
+					},
+					["groups"] = {
+						objective(1, {	-- 0/12 Fresh Pomfruit
+							["providers"] = {
+								{ "i", 79250 },	-- Fresh Pomfruit
+								{ "n", 58767 },	-- Pomfruit
+								{ "i", 79344 },	-- Pomharvest Firework
+							},
+							["coord"] = { 37.7, 64.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30238, {	-- Return to Rest
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30263,	-- Clearing in the Forest
+						"questID", 30232,	-- Ruffling Some Feathers
+						"questID", 30237,	-- The Pandaren Uprising Relived
+					},
+					["groups"] = {
+						objective(1, {	-- 0/6 Pandaren Gravestones Honored
+							["provider"] = { "o", 210419 },	-- Pandaren Gravestone
+							["coord"] = { 45.3, 70.3, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30232, {	-- Ruffling Some Feathers
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30263,	-- Clearing in the Forest
+						"questID", 30238,	-- Return to Rest
+						"questID", 30237,	-- The Pandaren Uprising Relived
+					},
+					["groups"] = {
+						objective(1, {	-- 0/80 Silken Feather
+							["provider"] = { "i", 84121 },	-- Silken Feather
+							["coord"] = { 27.4, 59.8, VALE_OF_ETERNAL_BLOSSOMS },
+							["cr"] = 58457,	-- Silkfeather Hawk
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30190, {	-- Sprite Plight
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58819,	-- Mayor Shiyo
+					["coord"] = { 35.2, 74, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1, "questID", 30195 },	-- Blooming Blossoms
+					["groups"] = {
+						objective(1, {	-- 0/8 Slateskin Troublemaker slain
+							["provider"] = { "n", 58673 },	-- Slateskin Troublemaker
+							["coord"] = { 37, 75.8, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30191, {	-- Steer Clear of the Beer Here
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 58819,	-- Mayor Shiyo
+					["coord"] = { 35.2, 74, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30194,	-- Encroaching Storm
+						"questID", 30192,	-- My Town, It's on Fire
+					},
+					["groups"] = {
+						objective(1, {	-- 0/10 Stolen Mistfall Keg
+							["providers"] = {
+								{ "i",  85778 },	-- Stolen Mistfall Keg
+								{ "o", 213365 },	-- Stolen Mistfall Keg
+							},
+							["coord"] = { 37.7, 80.8, VALE_OF_ETERNAL_BLOSSOMS },
+							["cr"] = 58673,	-- Slateskin Troublemaker
+						}),
+					},
+				})),
+				RemovedWithSOO(q(30237, {	-- The Pandaren Uprising Relived
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village (The Golden Pagoda)
+						31245,	-- Mistfall Village (Whitepetal Lake)
+						31249,	-- Mistfall Village (The Golden Pagoda)
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["lockCriteria"] = { 1,
+						"questID", 30263,	-- Clearing in the Forest
+						"questID", 30238,	-- Return to Rest
+						"questID", 30232,	-- Ruffling Some Feathers
+					},
+					["groups"] = {
+						objective(1, {	-- 0/8 Ancient Mogu Spirit slain
+							["provider"] = { "n", 58671 },	-- Ancient Mogu Spirit
+							["coord"] = { 48, 69.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+					},
+				})),
+			})),
 			--[[
 					["lockCriteria"] = { 1,
 						"questID", ,	-- 
 						"questID", ,	-- 
 						"questID", ,	-- 
 					},
-			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Mistfall Village wildlife)
-				
-			})),
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Whitepetal Lake invasion)
 				
 			})),
@@ -630,9 +941,23 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			})),
 			]]--
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Setting Sun Garrison)
-				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison
+				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison (Mistfall Village)
+					["sourceQuests"] = {
+						30195,	-- Blooming Blossoms
+						30263,	-- Clearing in the Forest
+						30194,	-- Encroaching Storm
+						30196,	-- Lushroom Rush
+						30193,	-- Meating Expectations
+						30192,	-- My Town, It's on Fire
+						30231,	-- Pomfruit Pickup
+						30238,	-- Return to Rest
+						30232,	-- Ruffling Some Feathers
+						30190,	-- Sprite Plight
+						30191,	-- Steer Clear of the Beer Here
+						30237,	-- The Pandaren Uprising Relived
+					},
 					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },
 					["lockCriteria"] = { 1,
 						"questID", 31247,	-- Setting Sun Garrison
@@ -640,7 +965,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						"questID", 31297,	-- Setting Sun Garrison
 					},
 				})),
-				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison (Whitepetal Lake wildlife)
+				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison (Whitepetal Lake)
 					["sourceQuests"] = {
 						30284,	-- A Thousand Pointy Teeth
 						30338,	-- A Weighty Task
@@ -1082,10 +1407,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
-					["qg"] = 58820,	-- Merchant Benny
-					["coord"] = { 33.8, 69.8, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				RemovedWithSOO(q(30282, {	-- Burning Away the Filth
 					["qg"] = 58503,	-- Anji Autumnlight
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -1094,25 +1416,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59333,	-- Rook Stonetoe
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30263, {	-- Clearing in the Forest
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30233, {	-- Cracklefang
 					["qg"] = 59343,	-- Ren Firetongue
 					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
 					["groups"] = {
 						i(90625),	-- Treasures of the Vale
 					},
-				})),
-				RemovedWithSOO(q(30194, {	-- Encroaching Storm
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				
 				
@@ -1153,35 +1463,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30196, {	-- Lushroom Rush
-					["qg"] = 58818,	-- Cook Tope
-					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(30193, {	-- Meating Expectations
-					["qg"] = 58818,	-- Cook Tope
-					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31242, {	-- Mistfall Village
-					["qg"] = 58408,	-- Leven Dawnblade
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31245, {	-- Mistfall Village
-					["qg"] = 59343,	-- Ren Firetongue
-					["coord"] = { 42.4, 46, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(31249, {	-- Mistfall Village
-					["qg"] = 58408,	-- Leven Dawnblade
-					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				
 				RemovedWithSOO(q(31295, {	-- Mogu within the Ruins of Guo-Lai
 					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30192, {	-- My Town, It's on Fire
-					["qg"] = 58819,	-- Mayor Shiyo
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				
 				RemovedWithSOO(q(30299, {	-- No Stone Unturned
 					["qg"] = 59334,	-- Sun Tenderheart
@@ -1195,10 +1483,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 59332,	-- Leven Dawnblade
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
-				RemovedWithSOO(q(30231, {	-- Pomfruit Pickup
-					["qg"] = 58818,	-- Cook Tope
-					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
+				
 				RemovedWithSOO(q(30235, {	-- Quid Pro Quo
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
@@ -1212,28 +1497,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						i(90625),	-- Treasures of the Vale
 					},
 				})),
-				RemovedWithSOO(q(30238, {	-- Return to Rest
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30292, {	-- Rude Awakenings
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				RemovedWithSOO(q(30232, {	-- Ruffling Some Feathers
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(30205, {	-- Runelocked
 					["qg"] = 63266,	-- Sinan the Dreamer
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
@@ -1243,14 +1512,6 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				
-				RemovedWithSOO(q(30190, {	-- Sprite Plight
-					["qg"] = 58819,	-- Mayor Shiyo
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
-				RemovedWithSOO(q(30191, {	-- Steer Clear of the Beer Here
-					["qg"] = 58819,	-- Mayor Shiyo
-					["coord"] = { 21.3, 71.4, VALE_OF_ETERNAL_BLOSSOMS },
-				})),
 				
 				
 				RemovedWithSOO(q(30204, {	-- That's Not a Rock!
@@ -1309,15 +1570,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				
-				RemovedWithSOO(q(30237, {	-- The Pandaren Uprising Relived
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-				})),
+				
 				RemovedWithSOO(q(31248, {	-- The Ruins of Guo-Lai
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
