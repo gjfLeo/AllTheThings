@@ -2484,8 +2484,8 @@ root(ROOTS.Zones, {
 							i(81517),	-- Murksweat Ward
 							i(81518),	-- Lory Feather Band
 							i(81519),	-- Snakejaw Band
-							i(81560),	-- Snakeswarm Ring
-							i(81561),	-- Murkscale Band
+							i(81520),	-- Snakeswarm Ring
+							i(81521),	-- Murkscale Band
 						},
 					}),
 					q(30347, {	-- The Pools of Youth (A)
