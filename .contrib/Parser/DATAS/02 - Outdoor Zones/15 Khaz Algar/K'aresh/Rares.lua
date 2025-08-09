@@ -153,6 +153,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 				["coord"] = { 27.5, 72.3, KARESH_TAZAVESH },
 				["questID"] = 91312,
+				["isDaily"] = IGNORED_VALUE,
+				["isWeekly"] = true,
 				["groups"] = {
 					i(238665, {	-- Crystallized Anima (QS!)
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",

@@ -30,7 +30,6 @@ root(ROOTS.Unsorted, {
 				i(241240),	-- Type II Bomber Jacket
 			}),
 			filter(BATTLE_PETS, {
-				i(245256),	-- Sao'rhon
 				i(246337),	-- Rustyroot Fel Snooter
 				i(246339),	-- Duskytooth Fel Snooter
 				i(246342),	-- Mustyfur Fel Snooter
@@ -427,7 +426,6 @@ root(ROOTS.Unsorted, {
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
 				-- Delve
-				i(245885),	-- Lil Wheel of Cheese=
 				i(248126),	-- Delver's Starter Kit
 				i(248142),	-- Delver's Bounty
 				-- Curios
@@ -3030,7 +3028,6 @@ root(ROOTS.Unsorted, {
 			i(167916),	-- Dirty Murloc Sock
 			i(167923),	-- Clean Murloc Sock
 			i(168013),	-- Roo'li's Remains
-			i(168099),	-- Deepcoral Pod
 			i(168213),	-- Tensile Driveshaft
 			i(168949),	-- Tensile Driveshaft
 			i(168950),	-- Machined Gear Assembly

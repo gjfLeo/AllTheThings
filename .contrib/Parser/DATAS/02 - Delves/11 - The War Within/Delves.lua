@@ -2181,6 +2181,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
 				i(248764),	-- Artisanal Blink Trap
+				i(245885),	-- Lil Wheel of Cheese
 				i(248954),	-- Nether-warped Seedlings (also from Nemesis Strongbox s3)
 				i(245524),	-- Shadowguard's Phasebound Visor (COSMETIC!)
 				n(248481),	-- Ky'veza's Shadow Clone (TODO: remove if nothing will be with it)
@@ -2999,6 +3000,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		["maps"] = {
 			2454,	-- Mausoleum of Legends
 			2455,	-- Lower Chamber
+			2476,	-- Crystal Chambers
 		},
 		["groups"] = {
 			n(ACHIEVEMENTS, {
@@ -3009,6 +3011,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106403),	-- Smash and Jab
 					crit(106404),	-- Waygate Wiles
 				}),
+			}),
+			filter(BATTLE_PETS, {
+				i(245256),	-- Sao'rhon (PET!)
 			}),
 			filter(MISC, {
 				-- Story Variant: Relic Retrieval
@@ -3027,12 +3032,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(246053),	-- Waygate Piece
 			}),
 			n(TREASURES, {
-				-- TODO: not sure on mapids
 				o(455498, { -- Sturdy Chest
 					["description"] = "Use Waygate on the 1st Level.",
 					["coords"] = {
-						{ 47.9, 24.6, 2455 },	-- Waygate
-						{ 62.4, 37.9, 2455 },	-- Sturdy Chest
+						{ 47.9, 24.6, 2455 },	-- Lower Chamber (Waygate)
+						{ 62.4, 37.9, 2455 },	-- Lower Chamber (Sturdy Chest)
 					},
 					["questID"] = 83692,
 				}),

@@ -7,8 +7,6 @@ end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
 		header(HEADERS.Spell, 1214374, {	-- Phase Diving
-			petbattle(filter(BATTLE_PETS, {
-			})),
 			n(ACHIEVEMENTS, {
 				ach(42730),	-- Jump, Jump, and Away!
 				ach(61017, {	-- Phase-Lost-and-Found
@@ -150,8 +148,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				}),
 			}),
-			n(QUESTS, {
-			}),
 			n(RARES, sharedData({
 				["isDaily"] = true,
 			},{
@@ -231,6 +227,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				n(234845, {	-- Sthaarbs <the Mindroiler>
 					["coord"] = { 74.0, 32.4, KARESH },
 					["questID"] = 91293,
+					["isDaily"] = IGNORED_VALUE,
+					["isWeekly"] = true,
 					["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
 				}),
 				n(232111, {	-- The Nightreaver
@@ -375,8 +373,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(242371),	-- Untethered Xy'bucha
 					},
 				}),
-			}),
-			n(VENDORS, {
 			}),
 			n(WORLD_QUESTS, {
 				--["sourceQuests"] = {},
