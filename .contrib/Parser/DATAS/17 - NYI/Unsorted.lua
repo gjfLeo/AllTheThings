@@ -15,7 +15,6 @@ root(ROOTS.Unsorted, {
 				i(238002),	-- Wanderer's Projectile Accelerator
 				i(238003),	-- Wyrmhunter's Skewer
 				i(238004),	-- Exile's Beacon
-				i(238005),	-- Void-Steeped Falchion
 				i(238006),	-- Soulbearer's Censer
 				i(238008),	-- Wastelander's Folly
 
