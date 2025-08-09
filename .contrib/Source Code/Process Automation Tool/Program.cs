@@ -337,18 +337,58 @@ namespace ATT
 
         static int ProcessBrackets(string[] lines, int lineIndex, PriorityField property)
         {
-            string line = lines[lineIndex];
-            if (!HasOpenBracket(line, 0)) return lineIndex;
+            int brackets = 0;
+            int startingIndex = lineIndex;
+            while (lineIndex < lines.Length)
+            {
+                string line = lines[lineIndex];
+                int currentDepth = CalculateDepth(line);
+                if (currentDepth == property.Depth)
+                {
+                    for (int index = 0; index < line.Length; ++index)
+                    {
+                        switch (line[index])
+                        {
+                            case '(':
+                            case '{':
+                            case '[':
+                                ++brackets;
+                                break;
+                            case ')':
+                            case '}':
+                            case ']':
+                                --brackets;
+                                break;
+                            case '-':
+                                if (index > 0 && line[index - 1] == '-' && index < line.Length - 1 && line[index + 1] != '[') index = line.Length;
+                                break;
+                            default: break;
+                        }
+                    }
+                    if (brackets == 0)
+                    {
+                        if (startingIndex == lineIndex) return lineIndex;
+                        break;
+                    }
+                    else
+                    {
+                        ++lineIndex;
+                    }
+                }
+                else
+                {
+                    ++lineIndex;
+                }
+            }
 
             // We have a multiline situation here... ugh.
             // Find the end of the declaration
-            var startIndex = lineIndex + 1;
-            int endIndex = FindEndLineIndex(lines, startIndex, property.Depth);
+            int endIndex = lineIndex;// FindEndLineIndex(lines, startingIndex, property.Depth);
             if (!lines[endIndex].Trim().StartsWith("}"))
             {
                 var errorBuilder = new StringBuilder();
                 errorBuilder.AppendLine("MALFORMED BRACKETS");
-                for (int i = startIndex; i <= endIndex; ++i)
+                for (int i = startingIndex; i <= endIndex; ++i)
                 {
                     errorBuilder.AppendLine(lines[i]);
                 }
@@ -357,9 +397,9 @@ namespace ATT
 
             // Build a new lines container only containing the group content
             var content = new List<string>();
-            for (int i = startIndex; i < endIndex; ++i) content.Add(lines[i]);
+            for (int i = startingIndex; i < endIndex; ++i) content.Add(lines[i]);
             property.Lines = new string[] {
-                line,
+                //lines[startingIndex],
                 ProcessLines(content.ToArray()).TrimEnd(),
                 lines[endIndex]
             };
@@ -753,7 +793,8 @@ namespace ATT
                 case "[\"g\"]":
                     {
                         property.Priority = int.MaxValue;  // DEAD LAST
-                        lineIndex = ProcessGroups(lines, lineIndex, property);
+                        lineIndex = ProcessBrackets(lines, lineIndex, property);
+                        //lineIndex = ProcessGroups(lines, lineIndex, property);
                         break;
                     }
 
@@ -810,13 +851,6 @@ namespace ATT
             return endIndex;
         }
 
-        static int ProcessGroups(string[] lines, int lineIndex, PriorityField property)
-        {
-            string line = lines[lineIndex];
-            if (HasOpenBracket(line, line.IndexOf('='))) return ProcessObjects(lines, lineIndex, property);
-            return lineIndex;
-        }
-
         static int ProcessLuaString(string[] lines, string line, int lineIndex, PriorityField property, string nestedType)
         {
             int equalsIndex = line.IndexOf('=');
@@ -857,34 +891,6 @@ namespace ATT
                 else builder.AppendLine(line);
             }
             return builder.ToString();
-        }
-
-        static int ProcessObjects(string[] lines, int lineIndex, PriorityField property)
-        {
-            string line = lines[lineIndex];
-
-            // Find the end of the quest declaration
-            var startIndex = lineIndex + 1;
-            int endIndex = FindEndLineIndex(lines, startIndex, property.Depth);
-            if (!lines[endIndex].Trim().StartsWith("}"))
-            {
-                Console.WriteLine("MALFORMED GROUPS");
-                for (int i = startIndex; i <= endIndex; ++i)
-                {
-                    Console.WriteLine(lines[i]);
-                }
-                Console.ReadLine();
-            }
-
-            // Build a new lines container only containing the group content
-            var content = new List<string>();
-            for (int i = startIndex; i < endIndex; ++i) content.Add(lines[i]);
-            property.Lines = new string[] {
-                line,
-                ProcessLines(content.ToArray()).TrimEnd(),
-                lines[endIndex]
-            };
-            return endIndex;
         }
 
         static int ProcessPreprocessor(string[] lines, int lineIndex, PriorityField property, string nestedType)

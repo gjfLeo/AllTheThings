@@ -458,8 +458,8 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30641 },	-- Battle Helm of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -484,8 +484,8 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30640 },	-- Battle Spear of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -494,8 +494,8 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30639 },	-- The Secrets of Guo-Lai
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
