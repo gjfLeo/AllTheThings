@@ -171,6 +171,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				["description"] = "After you've defeated the Underpin once (specifically on '?' difficulty; '??' won't unlock this achievement), Ask Brann to change his hat 10 times at his spot in Dornogal.",
 				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				["coord"] = { 47.6, 44.6, DORNOGAL },
+				["timeline"] = { REMOVED_11_2_0_SEASONSTART },
 				["sourceAchievement"] = 41530,	-- My New Nemesis
 			}),
 			mapped(ach(41191)),	-- War Within Delves: Tier 4 (Season 2)
@@ -988,11 +989,23 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_2_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
+				i(235694),	-- Delver's Dirigible Schematic: Blue Paint (MM!)
+				i(235698),	-- Delver's Dirigible Schematic: Horde Decal (MM!)
+				i(235695),	-- Delver's Dirigible Schematic: Red Paint (MM!)
+			},
 		}),
 		ach(60934, {	-- With Flying Colors (A)
 			["timeline"] = { ADDED_11_2_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
+				i(235694),	-- Delver's Dirigible Schematic: Blue Paint (MM!)
+				i(235698),	-- Delver's Dirigible Schematic: Horde Decal (MM!)
+				i(235695),	-- Delver's Dirigible Schematic: Red Paint (MM!)
+			},
 		}),
 		ach(40436, {	-- You're Getting a Delve!
 			["maps"] = ALL_REGULAR_DELVES,
@@ -1062,7 +1075,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			filter(TRINKET_F, {
 				i(215170),	-- Abyssal Trap
 				i(232891, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Amorphous Relic
-				i(242867, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Automatic Footbomb Dispenser
+				i(242867, { ["timeline"] = { ADDED_11_2_0 } }),	-- Automatic Footbomb Dispenser
 				i(234717, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Blastmaster3000
 				i(246825, { ["timeline"] = { ADDED_11_2_0 } }),	-- Chaotic Nethergate
 				i(215174),	-- Concoction: Kiss of Death
@@ -1081,7 +1094,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(238390, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbreaker's Sigil
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
-				i(238386, { ["timeline"] = { ADDED_11_2_0_SEASONSTART } }),	-- Void-Touched Fragment
+				i(238386, { ["timeline"] = { ADDED_11_2_0 } }),	-- Void-Touched Fragment
 			}),
 		}),
 		filter(BATTLE_PETS, {
@@ -1103,6 +1116,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
 			i(225067),	-- Shadowlit Haversack
+			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastlander's Phasebound Visor
 		}),
 		filter(MISC, {
 			i(244465, {	-- Titan Disc Fragments
@@ -1261,7 +1275,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							i(235428),	-- Gobtastic Bling
 							i(235429),	-- Moneymaker's Collar
 						})),
-						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 							i(237963),	-- Void-Scarred Brooch
 							i(237962),	-- Void-Scarred Choker
 						})),

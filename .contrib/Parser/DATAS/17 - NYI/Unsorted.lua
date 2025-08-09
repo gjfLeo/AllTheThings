@@ -69,7 +69,6 @@ root(ROOTS.Unsorted, {
 				i(246915),	-- Arsenal: Ethereal Weaponry
 				i(245523),	-- Shadowguard Credentials
 				i(245526),	-- Bloodmarked Phasebound Visor
-				i(245528),	-- Wastlander's Phasebound Visor
 				i(244806),	-- Renowned Explorer's Versatile Vest
 
 				-- Trading Post?
