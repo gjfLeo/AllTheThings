@@ -1110,24 +1110,26 @@ root(ROOTS.Zones, {
 						["coord"] = { 39.3, 62.2, TOWNLONG_STEPPES },
 						["isDaily"] = true,
 					}),
-					q(32681, {	-- The Storm Gathers (A)
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32681, {	-- The Storm Gathers (A)
 						["sourceQuest"] = 32679,	-- Thunder Calls (A)
 						["qg"] = 70360,	-- Vareesa Windrunner
 						["coord"] = { 49.8, 69.0, TOWNLONG_STEPPES },
+						["timeline"] = { ADDED_5_2_0 },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							i(95567),	-- Kirin Tor Beacon (TOY!)
 						},
-					}),
-					q(32680, {	-- The Storm Gathers (H)
+					})),
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, q(32680, {	-- The Storm Gathers (H)
 						["sourceQuest"] = 32678,	-- Thunder Calls (H)
 						["qg"] = 70358,	-- Scout Captain Elsia
 						["coord"] = { 50.7, 73.3, TOWNLONG_STEPPES },
+						["timeline"] = { ADDED_5_2_0 },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(95568),	-- Sunreaver Beacon (TOY!)
 						},
-					}),
+					})),
 					q(30975, {	-- The Taking of Dusklight Bridge
 						["sourceQuest"] = 30973,	-- Up In Flames
 						["qg"] = 61016,	-- Lao-Chin the Iron Belly
