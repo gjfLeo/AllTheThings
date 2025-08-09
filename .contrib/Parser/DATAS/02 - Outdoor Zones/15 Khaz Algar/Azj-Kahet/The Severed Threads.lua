@@ -8,6 +8,7 @@ SEVERED_THREADS_PACT = createHeader({
 		en = "Severed Threads Pact",
 		cn = "斩离之丝契约",
 		tw = "斷裂絲線合約",
+		ru = "Пакт Отрезанных нитей",
 	},
 });
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {

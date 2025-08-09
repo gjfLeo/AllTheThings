@@ -4,15 +4,15 @@ createLocalizationString({
 	export = true,
 	text = {
 		en = "Contains content which is available in the current Zone, but is directly Sourced in another Zone.",
-		-- TODO: de = ""
-		-- TODO: es = ""
-		-- TODO: mx = ""
-		-- TODO: fr = ""
-		-- TODO: it = ""
-		-- TODO: pt = ""
-		-- TODO: ru = ""
-		-- TODO: ko = ""
-		-- TODO: cn = ""
-		-- TODO: tw = ""
+		-- TODO: de = "",
+		-- TODO: es = "",
+		-- TODO: mx = "",
+		-- TODO: fr = "",
+		-- TODO: it = "",
+		-- TODO: pt = "",
+		ru = "Контент, который доступен в текущей зоне, но формально заимствован из другой зоны.",
+		-- TODO: ko = "",
+		-- TODO: cn = "",
+		-- TODO: tw = "",
 	},
 })

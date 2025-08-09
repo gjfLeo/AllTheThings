@@ -476,20 +476,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135053,
 		text = {
-			en = "Shoulders",
-			es = "Hombros",
-			mx = "Hombros",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[220] = {
 		readable = "Chest",
 		icon = 132624,
 		text = {
-			en = "Chest",
-			es = "Pecho",
-			mx = "Pecho",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[221] = {
@@ -556,11 +550,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135580,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[228] = {
@@ -611,10 +601,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135033,
 		text = {
-			en = "Shoulders",
-			es = "Hombros",
-			mx = "Hombros",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[236] = {
@@ -750,20 +737,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			es = "Hombros",
-			mx = "Hombros",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[253] = {
 		readable = "Chest",
 		icon = 132635,
 		text = {
-			en = "Chest",
-			es = "Pecho",
-			mx = "Pecho",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[254] = {
@@ -2183,11 +2164,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[549] = {
@@ -2237,10 +2214,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			es = "Hombros",
-			mx = "Hombros",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[556] = {
@@ -2264,10 +2238,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Chest",
 		icon = 132635,
 		text = {
-			en = "Chest",
-			es = "Pecho",
-			mx = "Pecho",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[560] = {
@@ -2334,11 +2305,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[567] = {
@@ -2374,11 +2341,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[572] = {
@@ -2459,11 +2422,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[582] = {
@@ -2507,11 +2466,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[590] = {
@@ -3729,11 +3684,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[724] = {
@@ -3903,11 +3854,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[741] = {
@@ -3978,11 +3925,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[748] = {
@@ -4054,11 +3997,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[755] = {
@@ -4580,11 +4519,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			es = "Armas",
-			mx = "Armas",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[821] = {
@@ -5077,9 +5012,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[886] = {
@@ -5131,16 +5064,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[893] = {
 		readable = "Chest",
 		icon = 132635,
 		text = {
-			en = "Chest",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[894] = {
@@ -5241,16 +5172,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[907] = {
 		readable = "Chest",
 		icon = 132635,
 		text = {
-			en = "Chest",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[908] = {
@@ -5337,8 +5266,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[919] = {
@@ -5439,16 +5367,14 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135032,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[932] = {
 		readable = "Chest",
 		icon = 132635,
 		text = {
-			en = "Chest",
-			ko = "가슴",
+			en = [[~INVTYPE_CHEST]],
 		},
 	},
 	[933] = {
@@ -5610,8 +5536,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135033,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[964] = {
@@ -5704,8 +5629,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135033,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[977] = {
@@ -5804,8 +5728,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135033,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[990] = {
@@ -5918,8 +5841,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Shoulders",
 		icon = 135033,
 		text = {
-			en = "Shoulders",
-			ko = "어깨",
+			en = [[~SHOULDERSLOT]],
 		},
 	},
 	[1005] = {
@@ -6859,9 +6781,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[1316] = {
@@ -6937,9 +6857,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[1338] = {
@@ -7105,9 +7023,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Weapons",
 		icon = 135792,
 		text = {
-			en = "Weapons",
-			ko = "무기",
-			tw = "武器",
+			en = [[~AUCTION_CATEGORY_WEAPONS]],
 		},
 	},
 	[1395] = {
