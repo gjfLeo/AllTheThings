@@ -416,8 +416,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 							63577,	-- Lorewalker Cho
 						},
 						["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["maps"] = { 523 },	-- Dun Morogh (Blood in the Snow scenario)
 						["timeline"] = { ADDED_5_3_0 },
+						["maps"] = { 523 },	-- Dun Morogh (Blood in the Snow scenario)
 						["groups"] = {
 							i(98133),	-- Greater Cache of Treasures
 						},
@@ -426,8 +426,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["sourceQuests"] = { 32806 },	-- The King and the Council
 						["provider"] = { "n", 61962 },	-- Lorewalker Cho
 						["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["maps"] = { 520, 521 },	-- Vale of Eternal Blossoms (Dark Heart of Pandaria scenario)
 						["timeline"] = { ADDED_5_3_0 },
+						["maps"] = { 520, 521 },	-- Vale of Eternal Blossoms (Dark Heart of Pandaria scenario)
 						["groups"] = {
 							i(98133),	-- Greater Cache of Treasures
 						},

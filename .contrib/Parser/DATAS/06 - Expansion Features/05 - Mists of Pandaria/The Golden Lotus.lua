@@ -477,13 +477,13 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 				RemovedWithSOO(q(31249, {	-- Mistfall Village (The Golden Pagoda)
-					-- CRIEVE NOTE: Not sure under what conditions this questID is given instead of 31242.
 					["qg"] = 58408,	-- Leven Dawnblade
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 					["lockCriteria"] = { 1,
 						"questID", 31242,	-- Mistfall Village (The Golden Pagoda)
 						"questID", 31245,	-- Mistfall Village (Whitepetal Lake)
 					},
+					-- CRIEVE NOTE: Not sure under what conditions this questID is given instead of 31242.
 				})),
 				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
 					["sourceQuests"] = {
