@@ -485,6 +485,28 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					-- CRIEVE NOTE: Not sure under what conditions this questID is given instead of 31242.
 				})),
+				RemovedWithSOO(q(30236, {	-- Aetha
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village
+						31245,	-- Mistfall Village
+						31249,	-- Mistfall Village
+						-- CRIEVE NOTE: This might have a specific breadcrumb like Lao-Fe does?
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.8, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- Aetha Subdued
+							["providers"] = {
+								{ "n",  58778 },	-- Aetha <Spirit of the Golden Winds>
+								-- #if ANYCLASSIC
+								{ "n", 244975 },	-- Aetha <Spirit of the Golden Winds>
+								-- #endif
+							},
+							["coord"] = { 35.0, 89.9, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
+					},
+				})),
 				RemovedWithSOO(q(30195, {	-- Blooming Blossoms
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village (The Golden Pagoda)
@@ -546,6 +568,23 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							["provider"] = { "n", 58456 },	-- Thundermaw
 							["coord"] = { 24.2, 77.4, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
+					},
+				})),
+				RemovedWithSOO(q(30239, {	-- Lao-Fe the Slavebinder
+					["sourceQuest"] = 30237,	-- The Pandaren Uprising Relived
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/1 Lao-Fe slain
+							["providers"] = {
+								{ "n",  58817 },	-- Spirit of Lao-Fe <The Slavebinder>
+								-- #if ANYCLASSIC
+								{ "n", 246479 },	-- Spirit of Lao-Fe <The Slavebinder>
+								-- #endif
+							},
+							["coord"] = { 47.4, 65.6, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
 					},
 				})),
 				RemovedWithSOO(q(30196, {	-- Lushroom Rush
@@ -635,6 +674,29 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							},
 							["coord"] = { 37.7, 64.6, VALE_OF_ETERNAL_BLOSSOMS },
 						}),
+					},
+				})),
+				RemovedWithSOO(q(30235, {	-- Quid Pro Quo
+					["sourceQuests"] = {
+						31242,	-- Mistfall Village
+						31245,	-- Mistfall Village
+						31249,	-- Mistfall Village
+						-- CRIEVE NOTE: This might have a specific breadcrumb like Lao-Fe does?
+					},
+					["qg"] = 59338,	-- Che Wildwalker
+					["coord"] = { 33.9, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
+					["groups"] = {
+						objective(1, {	-- 0/1 Quid slain
+							["providers"] = {
+								{ "n",  58771 },	-- Quid <Spirit of the Misty Falls>
+								-- #if ANYCLASSIC
+								{ "n", 244995 },	-- Quid <Spirit of the Misty Falls>
+								-- #endif
+								{ "i", 87807 },	-- Stone of the Water Strider (QI!)
+							},
+							["coord"] = { 30.63, 79.24, VALE_OF_ETERNAL_BLOSSOMS },
+						}),
+						i(90625),	-- Treasures of the Vale
 					},
 				})),
 				RemovedWithSOO(q(30238, {	-- Return to Rest
@@ -1355,27 +1417,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 			})),
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests (Unsorted)
-				RemovedWithSOO(q(30236, {	-- Aetha
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					["coord"] = { 33.8, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["groups"] = {
-						objective(1, {	-- Aetha Subdued
-							["providers"] = {
-								{ "n",  58778 },	-- Aetha <Spirit of the Golden Winds>
-								-- #if ANYCLASSIC
-								{ "n", 244975 },	-- Aetha <Spirit of the Golden Winds>
-								-- #endif
-							},
-							["coord"] = { 35.0, 89.9, VALE_OF_ETERNAL_BLOSSOMS },
-						}),
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
+				
 				
 				RemovedWithSOO(q(30283, {	-- A Smashing Impression
 					["qg"] = 58469,	-- Ren Firetongue
@@ -1451,18 +1493,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["qg"] = 58471,	-- Kun Autumnlight
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
-				RemovedWithSOO(q(30239, {	-- Lao-Fe the Slavebinder
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["groups"] = {
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
+				
 				
 				
 				RemovedWithSOO(q(31295, {	-- Mogu within the Ruins of Guo-Lai
@@ -1484,19 +1515,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				
-				RemovedWithSOO(q(30235, {	-- Quid Pro Quo
-					["sourceQuests"] = {
-						31242,	-- Mistfall Village
-						31245,	-- Mistfall Village
-						31249,	-- Mistfall Village
-					},
-					["qg"] = 59338,	-- Che Wildwalker
-					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-					["groups"] = {
-						i(87807),	-- Stone of the Water Strider (QI!)
-						i(90625),	-- Treasures of the Vale
-					},
-				})),
+				
 				
 				RemovedWithSOO(q(30292, {	-- Rude Awakenings
 					["qg"] = 58471,	-- Kun Autumnlight
@@ -1772,7 +1791,10 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						-- #endif
 					}),
 					n(58771, {	-- Quid <Spirit of the Misty Falls>
-						["coord"] = { 66.4, 39.3, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							{ 30.63, 79.24, VALE_OF_ETERNAL_BLOSSOMS },
+							{ 66.4, 39.3, VALE_OF_ETERNAL_BLOSSOMS },
+						},
 						-- #if ANYCLASSIC
 						["crs"] = { 244995 },	-- Quid <Spirit of the Misty Falls>
 						-- #endif
