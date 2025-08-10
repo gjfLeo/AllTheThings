@@ -829,7 +829,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 							{ "i", 89613 },	-- Cache of Treasures
 						},
 						-- #endif
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_1 },
+						["timeline"] = { ADDED_5_3_0 },
 						-- no longer available to queue random scenarios post 9.0 squish
 						["groups"] = {
 							n(BACK, {
@@ -1129,7 +1129,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, container(98546, {	-- Bulging Heroic Cache of Treasures
 						["description"] = "Rewarded for completing |cFFFFD700Heroic Deeds|r quest.",
-						["timeline"] = { ADDED_5_3_0, REMOVED_9_0_1 },
+						["timeline"] = { ADDED_5_3_0 },
 						-- no longer available to queue random scenarios post 9.0 squish
 						["groups"] = {
 							n(BACK, {
