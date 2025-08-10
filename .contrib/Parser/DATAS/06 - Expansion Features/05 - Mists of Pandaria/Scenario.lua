@@ -406,52 +406,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					o(212278),	-- Protected Unga Keg
 				}),
 			}),
-			n(QUESTS, {
-				["description"] = "Quests may only be completed ONCE per character. Items you receive from the Cache of Treasures are class and spec specific. Not all items are available to all classes able to equip them.",
-				["groups"] = {
-					applyclassicphase(MOP_PHASE_ESCALATION, q(32806, {	-- The King and the Council
-						["sourceQuests"] = { 32892 },	-- War is Coming
-						["qgs"] = {
-							61962,	-- Lorewalker Cho
-							63577,	-- Lorewalker Cho
-						},
-						["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_3_0 },
-						["maps"] = { 523 },	-- Dun Morogh (Blood in the Snow scenario)
-						["groups"] = {
-							i(98133),	-- Greater Cache of Treasures
-						},
-					})),
-					applyclassicphase(MOP_PHASE_ESCALATION, q(32807, {	-- The Warchief and the Darkness
-						["sourceQuests"] = { 32806 },	-- The King and the Council
-						["provider"] = { "n", 61962 },	-- Lorewalker Cho
-						["coord"] = { 83.2, 29.6, VALE_OF_ETERNAL_BLOSSOMS },
-						["timeline"] = { ADDED_5_3_0 },
-						["maps"] = { 520, 521 },	-- Vale of Eternal Blossoms (Dark Heart of Pandaria scenario)
-						["groups"] = {
-							i(98133),	-- Greater Cache of Treasures
-						},
-					})),
-					applyclassicphase(MOP_PHASE_ESCALATION, q(32901, {	-- Heroic Deeds
-						["provider"] = { "n", 66998 },	-- Jinho the Wind Breaker
-						["coord"] = { 46.6, 56.5, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
-						["timeline"] = { ADDED_5_3_0 },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(98546),  -- Bulging Heroic Cache of Treasures
-						},
-					})),
-					applyclassicphase(MOP_PHASE_ESCALATION, q(32900, {	-- Heroic Deeds
-						["provider"] = { "n", 64101 },	-- Taijin the Cyclone
-						["coord"] = { 47.23, 49.71, SHRINE_OF_SEVEN_STARS },
-						["timeline"] = { ADDED_5_3_0 },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							i(98546),  -- Bulging Heroic Cache of Treasures
-						},
-					})),
-				},
-			}),
 			n(REWARDS, {
 				-- #if AFTER 6.0.1
 				["description"] = "Mini Guide to farm both boxes:\nStep 1: Create a class-trial character.\nStep 2: Enter the portal room to travel to Jade Forest & fly to the Vale of Eternal Blossoms capital.\nStep 3: Pick up the Quest 'Heroic Deeds' in the middle of the capital.\nStep 4: Fly to the Seat of Knowledge and pick up the quest 'The King and the Council'.\nStep 5: Complete the 'Blood in the Snow' scenario on heroic.\nStep 6: Turn in the quest 'The King and the Council' and pick up the follow-up quest 'The Warchief and the Darkness'.\nStep 7: Complete the \"Dark heart of Pandaria\" scenario on either normal or heroic.\nStep 8: Turn in all quests, open all the boxes, logout & delete the trial character. Repeat Step 1-8.\nYou can create 4 trial characters per hour and 12 per week (based on realtime).\nBonus: The Trial Char can also be used to kill the World Boss on the Timless Isle. Talk to Chromie at the Seat Entrance for a free teleport.",
