@@ -227,9 +227,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 	n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0 } }, {	-- Includes Voidrazor Sanctuary
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
 			mapped(ach(42779, {	-- A Flash in the Void
-				title(598),	-- Flickering %s
+				["cr"] = 245938,	-- Flickergate
+				["groups"] = { title(598) },	-- Flickering %s
 			})),
-			mapped(ach(42778)),	-- A Flicker in the Dark
+			mapped(ach(42778, {	-- A Flicker in the Dark
+				["cr"] = 245938,	-- Flickergate
+			})),
 			ach(42801),	-- Journey's End (Season 3)
 			mapped(ach(42799)),	-- Let Her Solo Me
 			mapped(ach(42196)),	-- War Within Delves: Tier 4 (Season 3)
@@ -1116,7 +1119,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
 			i(225067),	-- Shadowlit Haversack
-			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastlander's Phasebound Visor
+			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastelander's Phasebound Visor
 		}),
 		filter(MISC, {
 			i(244465, {	-- Titan Disc Fragments
@@ -1360,7 +1363,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(235486),	-- Springloaded Kneecap Breaker
 						i(235422),	-- Venture Co Seal
 					})),
-					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 						i(238007),	-- Bulwark of the Great Dark
 						i(246086, {	-- Fate Weaver
 							["description"] = "Fly to Fate Weaver's Spool in Azj-Kahet to perform the ritual, coords 64.2, 74.8",
@@ -1615,7 +1618,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 							["bonusID"] = 12128,
 						}),
 					})),
-					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 } }, {
+					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 						--TODO: only itemID, no bonusIDs for r4
 						i(239568, {	-- Audio Amplification Crystal [Rank 4]
 							--["bonusID"] = xx,
@@ -1632,9 +1635,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						i(239576, {	-- Mana-Tinted Glasses [Rank 4]
 							--["bonusID"] = xx,
 						}),
-						--i(239580, {	-- Nether Overlay Matrix [Rank 4]
-						--	--["bonusID"] = xx,
-						--}),
+						i(239580, {	-- Nether Overlay Matrix [Rank 4]
+							--["bonusID"] = xx,
+						}),
 						i(239578, {	-- Quizzical Device [Rank 4]
 							--["bonusID"] = xx,
 						}),
