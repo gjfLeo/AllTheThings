@@ -790,15 +790,17 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 			["groups"] = {
+				-- #if AFTER 11.2.0
+				--title(650),	-- Delver %s // doesn't load ingame
+				-- #else
 				title(598),	-- Delver %s
+				-- #endif
 			},
 		}),
 		ach(41096, {	-- Delve Infinite (1000)
 			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
-			["groups"] = {
-				title(599),	-- Infinite Delver %s
-			},
+			["groups"] = { title(599) },	-- Infinite Delver %s
 		}),
 		ach(40537, {	-- Delve Loremaster: War Within
 			-- Meta Achievement
