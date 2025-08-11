@@ -1307,7 +1307,7 @@ localize(L.HEADER_NAMES, {
 	[-648] = "Memory of Scholomance",
 	[-652] = "Zandalari Incursions",
 	[-654] = "Harvesting",
-	[-657] = "Celestial Dungeons",
+	[-655] = "Celestial Dungeons",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -1581,7 +1581,7 @@ localize(L.HEADER_ICONS, {
 	[-648] = 133743,
 	[-652] = 838687,
 	[-654] = 134427,
-	[-657] = 840010,
+	[-655] = 840010,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
