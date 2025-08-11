@@ -161,6 +161,20 @@ APPRENTICE_JOURNEYMAN_EXPERT_TAILORING = {
 		r(3813),	-- Small Silk Pack
 		r(3757),	-- Woolen Bag
 	}),
+	-- #if AFTER BFA
+	filter(MISC, {
+		r(3276),	-- Heavy Linen Bandage
+		r(10841),	-- Heavy Mageweave Bandage
+		r(18630),	-- Heavy Runecloth Bandage
+		r(7929),	-- Heavy Silk Bandage
+		r(3278),	-- Heavy Wool Bandage
+		r(3275),	-- Linen Bandage
+		r(10840),	-- Mageweave Bandage
+		r(18629),	-- Runecloth Bandage
+		r(7928),	-- Silk Bandage
+		r(3277),	-- Wool Bandage
+	}),
+	-- #endif
 	filter(REAGENTS, {
 		r(2963),	-- Bolt of Linen Cloth
 		r(3865),	-- Bolt of Mageweave
@@ -268,6 +282,10 @@ TBC_TAILORING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(26746),	-- Netherweave Bag
 	}),
 	filter(MISC, {
+		-- #if AFTER BFA
+		r(27033),	-- Heavy Netherweave Bandage
+		r(27032),	-- Netherweave Bandage
+		-- #endif
 		r(31460),	-- Netherweave Net
 	}),
 	filter(REAGENTS, {
@@ -356,7 +374,13 @@ WRATH_TAILORING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"] =
 		r(56007),	-- Frostweave Bag
 	}),
 	filter(MISC, {
+		-- #if AFTER BFA
+		r(45545),	-- Frostweave Bandage
+		-- #endif
 		r(55898),	-- Frostweave Net
+		-- #if AFTER BFA
+		r(45546),	-- Heavy Frostweave Bandage
+		-- #endif
 	}),
 	filter(MOUNTS, {
 		r(60969),	-- Flying Carpet
@@ -473,7 +497,15 @@ CATA_TAILORING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(75265),	-- Otherworldly Bag
 	}),
 	filter(MISC, {
+		-- #if AFTER BFA
+		r(88893),	-- Dense Embersilk Bandage
+		r(74556),	-- Embersilk Bandage
+		-- #endif
 		r(75247),	-- Embersilk Net
+		-- #if AFTER BFA
+		r(74558),	-- Field Bandage: Dense Embersilk
+		r(74557),	-- Heavy Embersilk Bandage
+		-- #endif
 	}),
 	filter(REAGENTS, {
 		r(74964),	-- Bolt of Embersilk Cloth
@@ -636,6 +668,12 @@ MOP_TAILORING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] 
 		r(125497, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Sanctified Spellthread [Rank 3]
 		r(125483, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Swordguard Embroidery [Rank 3]
 	}),
+	-- #if AFTER BFA
+	filter(MISC, {
+		r(102698),	-- Heavy Windwool Bandage
+		r(102697),	-- Windwool Bandage
+	}),
+	-- #endif
 	filter(REAGENTS, {
 		r(125551),	-- Bolt of Windwool Cloth
 		r(125557),	-- Imperial Silk
@@ -658,6 +696,9 @@ DRAENOR_TAILORING = applyclassicphase(WOD_PHASE_ONE, i(115357, bubbleDownSelf({ 
 		r(330249, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III [Warlords of Draenor]
 		r(330250, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV [Warlords of Draenor]
 		r(330251, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V [Warlords of Draenor]
+		-- #if AFTER BFA
+		r(172539),	-- Antiseptic Bandage
+		-- #endif
 		r(168835),	-- Hexweave Cloth
 		r(176058),	-- Secrets of Draenor Tailoring
 		r(168852),	-- Sumptuous Cowl
@@ -790,9 +831,11 @@ BFA_TAILORING = applyclassicphase(BFA_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		r(257138),	-- Battle Flag: Rallying Swiftness [Rank 2]
 		r(257131),	-- Battle Flag: Spirit of Freedom [Rank 1]
 		r(257132),	-- Battle Flag: Spirit of Freedom [Rank 2]
+		r(267202),	-- Deep Sea Bandage
 		r(268983),	-- Hooked Deep Sea Net
 		r(278414),	-- Rough-hooked Tidespray Linen
 		r(286654, {["timeline"] = {ADDED_8_1_0}}),	-- Sanguinated Alteration
+		r(267201),	-- Tidespray Linen Bandage
 	}),
 }));
 NAZJATAR_TAILORING = applyclassicphase(BFA_PHASE_THREE, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {

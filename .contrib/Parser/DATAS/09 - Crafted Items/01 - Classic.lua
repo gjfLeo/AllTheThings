@@ -7720,6 +7720,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		}),
 		filter(MISC, {
 			applyclassicphase(PHASE_ONE_DIREMAUL, i(18258, {["timeline"] = { REMOVED_4_0_3, ADDED_10_1_5 }})),	-- Gordok Ogre Suit
+			-- #if AFTER BFA
+			i(2581),	-- Heavy Linen Bandage
+			i(8545),	-- Heavy Mageweave Bandage
+			i(14530),	-- Heavy Runecloth Bandage
+			i(6451),	-- Heavy Silk Bandage
+			i(3531),	-- Heavy Wool Bandage
+			i(1251),	-- Linen Bandage
+			i(8544),	-- Mageweave Bandage
+			i(14529),	-- Runecloth Bandage
+			i(6450),	-- Silk Bandage
+			i(3530),	-- Wool Bandage
+			-- #endif
 		}),
 		filter(REAGENTS, {
 			i(2996),	-- Bolt of Linen Cloth

@@ -6,34 +6,3 @@ r(75183),	-- Unravel Embersilk Cloth
 r(75287),	--
 4.3.4.15595
 r(102171),	-- Black Silk Vest
-
-
-
-
-Missing in Tailoring
-
-8.0.1.26032
-r(3275),	-- Linen Bandage
-r(3276),	-- Heavy Linen Bandage
-r(3277),	-- Wool Bandage
-r(3278),	-- Heavy Wool Bandage
-r(7928),	-- Silk Bandage
-r(7929),	-- Heavy Silk Bandage
-r(10840),	-- Mageweave Bandage
-r(10841),	-- Heavy Mageweave Bandage
-r(18629),	-- Runecloth Bandage
-r(18630),	-- Heavy Runecloth Bandage
-r(27032),	-- Netherweave Bandage
-r(27033),	-- Heavy Netherweave Bandage
-r(45545),	-- Frostweave Bandage
-r(74556),	-- Embersilk Bandage
-r(74557),	-- Heavy Embersilk Bandage
-r(74558),	-- Field Bandage: Dense Embersilk
-r(88893),	-- Dense Embersilk Bandage
-r(102697),	-- Windwool Bandage
-r(102698),	-- Heavy Windwool Bandage
-r(172539),	-- Antiseptic Bandage
-r(202853),	-- Silkweave Bandage
-r(202854),	-- Silkweave Splint
-r(267201),	-- Tidespray Linen Bandage \\ Sun-Bleached Linen Bandage
-r(267202),	-- Deep Sea Bandage

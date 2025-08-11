@@ -335,6 +335,19 @@ i(0, 28208);		-- Glacial Cloak [REMOVED: 3.0.2, READDED: 10.1.5, See new itemID]
 i(0, 28205);		-- Glacial Gloves [REMOVED: 3.0.2, READDED: 10.1.5, See new itemID]
 i(0, 28207);		-- Glacial Vest [REMOVED: 3.0.2, READDED: 10.1.5, See new itemID]
 i(0, 28209);		-- Glacial Wrists [REMOVED: 3.0.2, READDED: 10.1.5, See new itemID]
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 3276);			-- Heavy Linen Bandage
+i(0, 10841);		-- Heavy Mageweave Bandage
+i(0, 18630);		-- Heavy Runecloth Bandage
+i(16112, 7929);		-- Heavy Silk Bandage
+i(0, 3278);			-- Heavy Wool Bandage
+i(0, 3275);			-- Linen Bandage
+i(16113, 10840);	-- Mageweave Bandage
+i(0, 18629);		-- Runecloth Bandage
+i(0, 7928);			-- Silk Bandage
+i(0, 3277);			-- Wool Bandage
+--- #endif
 --- NYI ---
 i(7093, 8778);		-- Boots of Darkness
 i(6273, 7636);		-- Green Woolen Robe
@@ -457,6 +470,11 @@ i(21910, 26754, nil, SPELLFIRE);	-- Spellfire Robe
 i(21908, 26752);	-- Spellfire Belt
 i(21909, 26753);	-- Spellfire Gloves
 i(21910, 26754);	-- Spellfire Robe
+-- #endif
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(21993, 27033);	-- Heavy Netherweave Bandage
+i(21992, 27032);	-- Netherweave Bandage
 -- #endif
 
 -------------------
@@ -595,6 +613,11 @@ i(42188, 56011);	-- Sapphire Spellthread
 --- SPECIAL ---
 i(0, 56017);	-- Deathchill Cloak
 i(0, 56016);	-- Wispcloak
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 45545);		-- Frostweave Bandage
+i(39152, 45546);	-- Heavy Frostweave Bandage
+-- #endif
 --- NYI ---
 i(0, 56048);	-- Duskweave Boots
 
@@ -713,6 +736,13 @@ i(54595, 75305);	-- Vicious Embersilk Robe
 i(54596, 75304);	-- Vicious Fireweave Cowl
 i(54597, 75302);	-- Vicious Fireweave Pants
 i(54598, 75303);	-- Vicious Fireweave Robe
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 88893);		-- Dense Embersilk Bandage
+i(0, 74556);		-- Embersilk Bandage
+i(0, 74558);		-- Field Bandage: Dense Embersilk
+i(0, 74557);		-- Heavy Embersilk Bandage
+-- #endif
 --- NYI ---
 i(0, 75183);	-- Unravel Embersilk Cloth
 i(0, 75143);	--
@@ -838,6 +868,11 @@ i(86377, 125556);	-- Royal Satchel
 i(86369, 125548);	-- Spelltwister's Gloves
 i(86368, 125547);	-- Spelltwister's Grand Robe
 i(86382, 125561);	-- Touch of the Light
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 102698);		-- Heavy Windwool Bandage
+i(0, 102697);		-- Windwool Bandage
+-- #endif
 
 -------------------
 --- PATCH 5.1.0 ---
@@ -971,6 +1006,10 @@ i(0, 176313);	-- Inspiring Battle Standard
 i(0, 176314);	-- Fearsome Battle Standard
 i(0, 176315);	-- Inspiring Battle Standard
 i(0, 176316);	-- Fearsome Battle Standard
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 172539);		-- Antiseptic Bandage
+-- #endif
 --- NYI ---
 i(114851, 168835);	-- Hexweave Cloth
 i(120128, 176058);	-- Secrets of Draenor Tailoring
@@ -994,13 +1033,6 @@ i(122716, 182123);	-- Primal Weaving
 --- ITEM ---
 i(127724, 187492);	-- Mighty Hexweave Essence [REMOVED: 10.0.5]
 i(127742, 187516);	-- Savage Hexweave Essence [REMOVED: 10.0.5]
-
------------------
--- PATCH 3.0.3 --
------------------
--- #if AFTER 8.0.1
-i(39152, 45546);	-- Heavy Frostweave Bandage
--- #endif
 
 -----------------
 -- PATCH 7.0.3 --
@@ -1091,6 +1123,11 @@ i(0, 187059);	-- Silkweave Hood: Outer Layer
 i(0, 185921);	-- Silkweave Pantaloons [Rank 1]
 i(0, 185925);	-- Silkweave Robe [Rank 1]
 i(0, 185924);	-- Silkweave Slippers [Rank 1]
+--- REMOVED FIRST AID ---
+-- #if AFTER BFA
+i(0, 202853);		-- Silkweave Bandage
+i(0, 202854);		-- Silkweave Splint
+-- #endif
 --- NYI ---
 i(137981, 186088);	-- Pattern: Silkweave Cloak
 i(127026, 0);	-- Imbued Silkweave Gloves [Rank 1]
@@ -1148,6 +1185,7 @@ i(0, 257131);	-- Battle Flag: Spirit of Freedom [Rank 1]
 i(0, 257132);	-- Battle Flag: Spirit of Freedom [Rank 2]
 i(0, 257125);	-- Deep Sea Bag [Rank 1]
 i(0, 257126);	-- Deep Sea Bag [Rank 2]
+i(0, 267202);	-- Deep Sea Bandage
 i(0, 279183);	-- Discreet Spellthread
 i(0, 257122);	-- Embroidered Deep Sea Breeches
 i(0, 257114);	-- Embroidered Deep Sea Cloak [Rank 1]
@@ -1164,6 +1202,7 @@ i(0, 269602);	-- Honorable Combatant's Satin Mittens [Rank 1]
 i(0, 269605);	-- Honorable Combatant's Satin Pants [Rank 1]
 i(0, 279182);	-- Resilient Spellthread
 i(0, 278414);	-- Rough-hooked Tidespray Linen
+i(0, 267201);	-- Tidespray Linen Bandage
 i(0, 257102);	-- Tidespray Linen Belt
 i(0, 257103);	-- Tidespray Linen Bracers
 i(0, 257107);	-- Tidespray Linen Cloak

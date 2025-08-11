@@ -421,7 +421,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(132982),	-- Sonic Environment Enhancer
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(142332, {["timeline"] = {ADDED_7_1_0}}),	-- Feathered Luffa
 		i(133940),	-- Silkweave Bandage
@@ -787,6 +787,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(137556),	-- Clothes Chest: Dalaran Citizens
 			i(137557),	-- Clothes Chest: Karazhan Opera House
 			i(137558),	-- Clothes Chest: Molten Core
+			-- #if AFTER BFA
+			i(133940),	-- Silkweave Bandage
+			i(133942),	-- Silkweave Splint
+			-- #endif
 		}),
 		filter(REAGENTS, {
 			i(127004),	-- Imbued Silkweave

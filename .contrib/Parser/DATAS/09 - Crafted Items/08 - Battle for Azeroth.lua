@@ -1547,11 +1547,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(154706),	-- Battle Flag: Phalanx Defense
 			i(154705),	-- Battle Flag: Rallying Swiftness
 			i(154707),	-- Battle Flag: Spirit of Freedom
+			i(158382),	-- Deep Sea Bandage
 			i(159792),	-- Hooked Deep Sea Net
 			i(165739),	-- Rough-hooked Tidespray Linen
 			i(168427, {["timeline"] = {ADDED_8_2_0}}),	-- Saddlechute
 			i(169456, {["timeline"] = {ADDED_8_2_0}}),	-- Seabreeze Saddle Blanket
 			i(164733, {["timeline"] = {ADDED_8_1_5}}),	-- Synchronous Thread
+			i(158381),	-- Tidespray Linen Bandage
 			i(159791),	-- Tidespray Linen Net
 		}),
 	}),

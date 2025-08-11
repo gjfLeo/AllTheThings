@@ -558,6 +558,15 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				prof(TAILORING, {
+					-- #if AFTER BFA
+					n(93529, {	-- Olisarra the Kind <Bandage Trainer>
+						["coord"] = { 36.2, 37.6, LEGION_DALARAN },
+						["groups"] = {
+							r(202853),	-- Silkweave Bandage
+							r(202854),	-- Silkweave Splint
+						},
+					}),
+					-- #endif
 					n(93542, {	-- Tanithria <Tailoring Trainer>
 						["coord"] = { 35.2, 34.2, LEGION_DALARAN },
 						["groups"] = {

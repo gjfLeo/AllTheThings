@@ -526,11 +526,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(59596),	-- Safety Catch Removal Kit
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(53051),	-- Dense Embersilk Bandage
 		i(53049),	-- Embersilk Bandage
-		i(53051),	-- Dense Embersilk Bandage
 		i(53050),	-- Heavy Embersilk Bandage
 	}),
 	-- #endif
@@ -1750,7 +1749,14 @@ Fire and Water - Damage against Elementals increased by 15%.
 			i(54445),	-- Otherworldly Bag
 		}),
 		filter(MISC, {
+			-- #if AFTER BFA
+			i(53051),	-- Dense Embersilk Bandage
+			i(53049),	-- Embersilk Bandage
+			-- #endif
 			i(54442),	-- Embersilk Net
+			-- #if AFTER BFA
+			i(53050),	-- Heavy Embersilk Bandage
+			-- #endif
 		}),
 		filter(REAGENTS, {
 			i(53643),	-- Bolt of Embersilk Cloth

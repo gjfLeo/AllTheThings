@@ -659,7 +659,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(34721),	-- Frostweave Bandage
 		i(34722),	-- Heavy Frostweave Bandage
@@ -1876,7 +1876,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(41598),	-- Mysterious Bag
 		}),
 		filter(MISC, {
+			-- #if AFTER BFA
+			i(34721),	-- Frostweave Bandage
+			-- #endif
 			i(41509),	-- Frostweave Net
+			-- #if AFTER BFA
+			i(34722),	-- Heavy Frostweave Bandage
+			-- #endif
 		}),
 		filter(MOUNTS, {
 			i(44554),	-- Flying Carpet (MOUNT!)

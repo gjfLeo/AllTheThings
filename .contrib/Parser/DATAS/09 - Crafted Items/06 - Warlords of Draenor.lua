@@ -528,7 +528,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(109120),	-- Oglethorpe's Missile Splitter
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(111603),	-- Antiseptic Bandage
 		i(116979),	-- Blackwater Anti-Venom
@@ -925,6 +925,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(113216),	-- Elekk Plushie (PET!)
 		}),
 		filter(MISC, {
+			-- #if AFTER BFA
+			i(111603),	-- Antiseptic Bandage
+			-- #endif
 			i(114836),	-- Hexweave Embroidery
 			i(118722),	-- Secret of Draenor Tailoring
 		}),

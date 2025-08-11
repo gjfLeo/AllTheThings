@@ -675,7 +675,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(21991),	-- Heavy Netherweave Bandage
 		i(21990),	-- Netherweave Bandage
@@ -2123,6 +2123,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(21858),	-- Spellfire Bag
 		}),
 		filter(MISC, {
+			-- #if AFTER BFA
+			i(21991),	-- Heavy Netherweave Bandage
+			i(21990),	-- Netherweave Bandage
+			-- #endif
 			i(24268),	-- Netherweave Net
 		}),
 		filter(REAGENTS, {

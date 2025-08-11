@@ -716,7 +716,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(77531),	-- Mirror Scope
 		}),
 	}),
-	-- #if BEFORE 8.0.1
+	-- #if BEFORE BFA
 	prof(FIRST_AID, {
 		i(72986),	-- Heavy Windwool Bandage
 		i(72985),	-- Windwool Bandage
@@ -1637,6 +1637,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 				i(90902),	-- Imperial Silkworm (PET!)
 			})),
 		}),
+		-- #if AFTER BFA
+		filter(MISC, {
+			i(72986),	-- Heavy Windwool Bandage
+			i(72985),	-- Windwool Bandage
+		}),
+		-- #endif
 		filter(REAGENTS, {
 			i(82441),	-- Bolt of Windwool Cloth
 			i(82447),	-- Imperial Silk
