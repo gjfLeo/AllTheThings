@@ -725,7 +725,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				}
 			}),
 		})),
-		n(QUESTS, {
+		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_8_1_5 } }, {
 			q(54483, {	-- Tailored Training [A]
 				["provider"] = { "n", 136071 },	-- Daniel Brineweaver <Tailoring Trainer>
 				["coord"] = { 76.8, 11.2, BORALUS },
@@ -742,20 +742,17 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			q(53805, {	-- A Friend in Needle [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 76.6, 11.8, BORALUS },
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(53938, {	-- A Friend in Needle [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 43.5, 34.8, DAZARALOR },
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = HORDE_ONLY,
 			}),
 			q(53807, {	-- A Stitch in Time [A]
 				["sourceQuests"] = { 53805 },	-- A Friend in Needle [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 76.6, 11.8, BORALUS },
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
@@ -765,7 +762,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["sourceQuests"] = { 53938 },	-- A Friend in Needle [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
 				["coord"] = { 43.5, 34.8, DAZARALOR },
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
@@ -774,13 +770,11 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			q(55177, {	-- Tearing at the Seams [A]
 				["sourceQuests"] = { 53807 },	-- A Stitch in Time [A]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(55188, {	-- Tearing at the Seams [H]
 				["sourceQuests"] = { 53940 },	-- A Stitch in Time [H]
 				["provider"] = { "n", 145022 },	-- Timeweaver Delormi
-				["timeline"] = { ADDED_8_1_5 },
 				["races"] = HORDE_ONLY,
 			}),
 			q(53810, {	-- The Severed Thread
@@ -790,7 +784,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 62.0, 53.9, CAVERNS_OF_TIME },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53813, {	-- Rolling Up the Sleeves
 				["sourceQuests"] = {
@@ -799,7 +792,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 43.5, 34.8, CAVERNS_OF_TIME },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53858, {	-- Step Into Her Shoes
 				["sourceQuests"] = {
@@ -808,19 +800,16 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 39.1, 63.3, CAVERNS_OF_TIME },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53866, {	-- If The Shoe Fits...
 				["sourceQuests"] = { 53858 },	-- Step Into Her Shoes
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 63.8, 68.8, SURAMAR },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(55214, {	-- Seam Stress
 				["sourceQuests"] = { 53866 },	-- If The Shoe Fits...
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 64.2, 69.5, SURAMAR },
-				["timeline"] = { ADDED_8_1_5 },
 				["groups"] = {
 					i(167231),	-- Delormi's Synchronous Thread (QI!)
 				},
@@ -829,13 +818,11 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["sourceQuests"] = { 55214 },	-- Seam Stress
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 7.2, 24.5, STORMSONG_VALLEY },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53869, {	-- Killing Time
 				["sourceQuests"] = { 53868 },	-- Saving Nine
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 71.6, 39.8, DRAGONBLIGHT },
-				["timeline"] = { ADDED_8_1_5 },
 			}),
 			q(53881, {	-- Cut from the Same Cloth [A]
 				["sourceQuests"] = { 53869 },	-- Killing Time
@@ -846,7 +833,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					r(292946),	-- Recipe: Synchronous Thread (RECIPE!)
 				},
 			}),
-			q(53962, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Cut from the Same Cloth [H]
+			q(53962, {	-- Cut from the Same Cloth [H]
 				["sourceQuests"] = { 53869 },	-- Killing Time
 				["provider"] = { "n", 151134 },	-- Timeweaver Delormi
 				["coord"] = { 71.6, 39.8, DRAGONBLIGHT },
@@ -854,99 +841,101 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["groups"] = {
 					r(292946),	-- Recipe: Synchronous Thread (RECIPE!)
 				},
-			})),
-		}),
-		n(SPECIAL, {
-			n(151903, {	-- Time-Lost Trader
-				["description"] = "This Trader has a ~20% chance to spawn from closing a Time Rift via the Synchronous Thread (Battle for Azeroth Tailor Only item).\nBest Zone to farm Time Rifts is Nazjatar.",
-				["timeline"] = { ADDED_8_1_5 },
-				["coords"] = {
-					-- Zuldazar
-					{ 45.0, 39.0, ZULDAZAR },	-- Ledge right before entrance to Atal'Dazar
-					{ 54.0, 61.0, ZULDAZAR },	-- On the beach below Mugambala
-					{ 59.0, 75.0, ZULDAZAR },	-- NW corner of Tuck Isle
-					{ 73.0, 67.0, ZULDAZAR },	-- East of Seeker's Outpost
-					{ 71.0, 35.0, ZULDAZAR },	-- Behind Savagelands Devilsaur
-					-- Nazmir
-					{ 38.0, 58.0, NAZMIR },	-- Under arch east side of Terrace of Sorrows
-					{ 55.0, 21.0, NAZMIR },
-					{ 53.0, 56.0, NAZMIR },	-- NE corner of Heart of Darkness
-					{ 43.0, 29.0, NAZMIR },	-- SE corner of Necropolis
-					{ 38.0, 89.0, NAZMIR },	-- The Shattered River, in front of broken totem
-					{ 29.0, 56.0, NAZMIR },
-					{ 26.0, 78.0, NAZMIR },	-- In front of waterfall
-					-- Drustvar
-					{ 23.0, 43.0, DRUSTVAR },	-- Just above Anyport
-					{ 36.0, 72.0, DRUSTVAR },
-					{ 33.0, 23.0, DRUSTVAR },
-					{ 63.0, 35.0, DRUSTVAR },
-					{ 46.0, 38.0, DRUSTVAR },	-- Highroad Pass, SE of Aroms Stand
-					-- Voldun
-					{ 54.0, 41.0, VOLDUN },	-- Behind a rock E of Darkwood Shoal
-					{ 50.0, 64.0, VOLDUN },	-- East side of Atul'aman
-					{ 49.0, 84.0, VOLDUN },	-- Redrock Lowlands
-					{ 41.0, 64.0, VOLDUN },	-- West of Goldtusk Inn
-					{ 37.0, 87.0, VOLDUN },	-- On the ledge, N of island off south coast
-					-- Tiragarde Sound
-					{ 85.0, 77.0, TIRAGARDE_SOUND },	-- Dock north of Freehold dungeon
-					{ 40.0, 24.0, TIRAGARDE_SOUND },
-					-- #if AFTER 8.2.0
-					{ 26.8, 36.6, NAZJATAR },
-					{ 29.4, 45.2, NAZJATAR },
-					{ 36.6, 27.8, NAZJATAR },
-					{ 37.4, 68.0, NAZJATAR },
-					{ 37.8, 19.6, NAZJATAR },
-					{ 42.0, 47.0, NAZJATAR },
-					{ 43.8, 86.4, NAZJATAR },
-					{ 43.8, 86.6, NAZJATAR },
-					{ 44.4, 16.4, NAZJATAR },
-					{ 47.4, 75.8, NAZJATAR },
-					{ 50.4, 31.2, NAZJATAR },
-					{ 59.2, 15.0, NAZJATAR },
-					{ 62.4, 57.2, NAZJATAR },
-					{ 64.6, 46.8, NAZJATAR },
-					{ 69.8, 24.4, NAZJATAR },
-					{ 77.4, 25.4, NAZJATAR },
-					{ 77.6, 25.4, NAZJATAR },
-					{ 79.0, 51.8, NAZJATAR },
-					-- #endif
-				},
-				["groups"] = {
-					i(167889, {	-- Pattern: Azure Silk Cloak
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 50}}
-					}),
-					i(167881, {	-- Pattern: Belt of the Archmage
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 150}}
-					}),
-					i(167887, {	-- Pattern: Cindercloth Gloves
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
-					}),
-					i(167886, {	-- Pattern: Cindercloth Vest
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
-					}),
-					i(167882, {	-- Pattern: Cloak of Warding
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
-					}),
-					i(167883, {	-- Pattern: Felcloth Gloves
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
-					}),
-					i(167890, {	-- Pattern: Icy Cloak
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 50}}
-					}),
-					i(167884, {	-- Pattern: Inferno Gloves
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
-					}),
-					i(167885, {	-- Pattern: Mooncloth Gloves
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
-					}),
-					i(167888, {	-- Pattern: Robe of Winter Night
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
-					}),
-					i(167880, {	-- Pattern: Robes of Arcana
-						["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
-					}),
-				},
 			}),
+		})),
+		header(HEADERS.Item, 164733, {	-- Synchronous Thread
+			["description"] = "This Trader has a ~20% chance to spawn from closing a Time Rift via the Synchronous Thread (Battle for Azeroth Tailor Only item).\nBest Zone to farm Time Rifts is Nazjatar.",
+			["providers"] = {
+				{ "i", 164733 },	-- Synchronous Thread
+				{ "n", 151903 },	-- Time-Lost Trader
+			},
+			["timeline"] = { ADDED_8_1_5 },
+			["coords"] = {
+				-- Zuldazar
+				{ 45.0, 39.0, ZULDAZAR },	-- Ledge right before entrance to Atal'Dazar
+				{ 54.0, 61.0, ZULDAZAR },	-- On the beach below Mugambala
+				{ 59.0, 75.0, ZULDAZAR },	-- NW corner of Tuck Isle
+				{ 73.0, 67.0, ZULDAZAR },	-- East of Seeker's Outpost
+				{ 71.0, 35.0, ZULDAZAR },	-- Behind Savagelands Devilsaur
+				-- Nazmir
+				{ 38.0, 58.0, NAZMIR },	-- Under arch east side of Terrace of Sorrows
+				{ 55.0, 21.0, NAZMIR },
+				{ 53.0, 56.0, NAZMIR },	-- NE corner of Heart of Darkness
+				{ 43.0, 29.0, NAZMIR },	-- SE corner of Necropolis
+				{ 38.0, 89.0, NAZMIR },	-- The Shattered River, in front of broken totem
+				{ 29.0, 56.0, NAZMIR },
+				{ 26.0, 78.0, NAZMIR },	-- In front of waterfall
+				-- Drustvar
+				{ 23.0, 43.0, DRUSTVAR },	-- Just above Anyport
+				{ 36.0, 72.0, DRUSTVAR },
+				{ 33.0, 23.0, DRUSTVAR },
+				{ 63.0, 35.0, DRUSTVAR },
+				{ 46.0, 38.0, DRUSTVAR },	-- Highroad Pass, SE of Aroms Stand
+				-- Voldun
+				{ 54.0, 41.0, VOLDUN },	-- Behind a rock E of Darkwood Shoal
+				{ 50.0, 64.0, VOLDUN },	-- East side of Atul'aman
+				{ 49.0, 84.0, VOLDUN },	-- Redrock Lowlands
+				{ 41.0, 64.0, VOLDUN },	-- West of Goldtusk Inn
+				{ 37.0, 87.0, VOLDUN },	-- On the ledge, N of island off south coast
+				-- Tiragarde Sound
+				{ 85.0, 77.0, TIRAGARDE_SOUND },	-- Dock north of Freehold dungeon
+				{ 40.0, 24.0, TIRAGARDE_SOUND },
+				-- #if AFTER 8.2.0
+				{ 26.8, 36.6, NAZJATAR },
+				{ 29.4, 45.2, NAZJATAR },
+				{ 36.6, 27.8, NAZJATAR },
+				{ 37.4, 68.0, NAZJATAR },
+				{ 37.8, 19.6, NAZJATAR },
+				{ 42.0, 47.0, NAZJATAR },
+				{ 43.8, 86.4, NAZJATAR },
+				{ 43.8, 86.6, NAZJATAR },
+				{ 44.4, 16.4, NAZJATAR },
+				{ 47.4, 75.8, NAZJATAR },
+				{ 50.4, 31.2, NAZJATAR },
+				{ 59.2, 15.0, NAZJATAR },
+				{ 62.4, 57.2, NAZJATAR },
+				{ 64.6, 46.8, NAZJATAR },
+				{ 69.8, 24.4, NAZJATAR },
+				{ 77.4, 25.4, NAZJATAR },
+				{ 77.6, 25.4, NAZJATAR },
+				{ 79.0, 51.8, NAZJATAR },
+				-- #endif
+			},
+			["groups"] = {
+				i(167889, {	-- Pattern: Azure Silk Cloak (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 50}}
+				}),
+				i(167881, {	-- Pattern: Belt of the Archmage (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 150}}
+				}),
+				i(167887, {	-- Pattern: Cindercloth Gloves (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
+				}),
+				i(167886, {	-- Pattern: Cindercloth Vest (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
+				}),
+				i(167882, {	-- Pattern: Cloak of Warding (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 75}}
+				}),
+				i(167883, {	-- Pattern: Felcloth Gloves (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
+				}),
+				i(167890, {	-- Pattern: Icy Cloak (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 50}}
+				}),
+				i(167884, {	-- Pattern: Inferno Gloves (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
+				}),
+				i(167885, {	-- Pattern: Mooncloth Gloves (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
+				}),
+				i(167888, {	-- Pattern: Robe of Winter Night (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
+				}),
+				i(167880, {	-- Pattern: Robes of Arcana (RECIPE!)
+					["cost"] = {{"i", EMBROIDERED_DEEP_SEA_SATIN, 100}}
+				}),
+			},
 		}),
 	})),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
@@ -2992,13 +2981,13 @@ profession(TAILORING, {
 			{	-- Imbued Deep Sea Breeches
 				["spellID"] = 257123,	-- Imbued Deep Sea Breeches
 				["groups"] = {
-					i(162510),	-- Pattern: Emblazoned Deep Sea Breeches
+					i(162510),	-- Pattern: Emblazoned Deep Sea Breeches (RECIPE!)
 				},
 			},
 			{	-- Imbued Deep Sea Gloves
 				["spellID"] = 257120,	-- Imbued Deep Sea Gloves
 				["groups"] = {
-					i(162508),	-- Pattern: Emblazoned Deep Sea Gloves
+					i(162508),	-- Pattern: Emblazoned Deep Sea Gloves (RECIPE!)
 				},
 			},
 		}),

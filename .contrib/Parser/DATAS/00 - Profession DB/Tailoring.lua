@@ -1150,8 +1150,8 @@ i(0, 257125);	-- Deep Sea Bag [Rank 1]
 i(0, 257126);	-- Deep Sea Bag [Rank 2]
 i(0, 279183);	-- Discreet Spellthread
 i(0, 257122);	-- Embroidered Deep Sea Breeches
-i(0, 257114);	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion [Rank 1]
-i(0, 257115);	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion [Rank 2]
+i(0, 257114);	-- Embroidered Deep Sea Cloak [Rank 1]
+i(0, 257115);	-- Embroidered Deep Sea Cloak [Rank 2]
 i(0, 257118);	-- Embroidered Deep Sea Gloves
 i(0, 272440);	-- Embroidered Deep Sea Satin
 i(0, 279184);	-- Feathery Spellthread
@@ -1164,29 +1164,29 @@ i(0, 269602);	-- Honorable Combatant's Satin Mittens [Rank 1]
 i(0, 269605);	-- Honorable Combatant's Satin Pants [Rank 1]
 i(0, 279182);	-- Resilient Spellthread
 i(0, 278414);	-- Rough-hooked Tidespray Linen
-i(0, 257102);	-- Tidespray Linen Belt \\ Sun-Bleached Linen Belt
-i(0, 257103);	-- Tidespray Linen Bracers \\ Sun-Bleached Linen Bracers
-i(0, 257107);	-- Tidespray Linen Cloak \\ Tidespray Linen Cloak of Discretion \\ Sun-Bleached Linen Cloak of Discretion
-i(0, 257097);	-- Tidespray Linen Hood \\ Sun-Bleached Linen Hood
-i(0, 257096);	-- Tidespray Linen Mittens \\ Sun-Bleached Linen Mittens
-i(0, 268982);	-- Tidespray Linen Net \\ Sun-Bleached Linen Net
-i(0, 257099);	-- Tidespray Linen Pants \\ Sun-Bleached Linen Pants
-i(0, 257104);	-- Tidespray Linen Robe \\ Sun-Bleached Linen Robe
-i(0, 257095);	-- Tidespray Linen Sandals \\ Tidespray Linen Boots \\ Sun-Bleached Linen Boots
-i(0, 257101);	-- Tidespray Linen Spaulders \\ Sun-Bleached Linen Spaulders
+i(0, 257102);	-- Tidespray Linen Belt
+i(0, 257103);	-- Tidespray Linen Bracers
+i(0, 257107);	-- Tidespray Linen Cloak
+i(0, 257097);	-- Tidespray Linen Hood
+i(0, 257096);	-- Tidespray Linen Mittens
+i(0, 268982);	-- Tidespray Linen Net
+i(0, 257099);	-- Tidespray Linen Pants
+i(0, 257104);	-- Tidespray Linen Robe
+i(0, 257095);	-- Tidespray Linen Sandals
+i(0, 257101);	-- Tidespray Linen Spaulders
 --- ITEM ---
 i(162444, 257136);	-- Battle Flag: Phalanx Defense [Rank 3]
 i(162445, 257139);	-- Battle Flag: Rallying Swiftness [Rank 3]
 i(162443, 257133);	-- Battle Flag: Spirit of Freedom [Rank 3]
 i(162421, 257127);	-- Deep Sea Bag [Rank 3] (A)
 i(162769, 257127);	-- Deep Sea Bag [Rank 3] (H)
-i(162510, 257124);	-- Emblazoned Deep Sea Breeches \\ Embroidered Deep Sea Breeches
-i(162508, 257121);	-- Emblazoned Deep Sea Gloves \\ Embroidered Deep Sea Gloves
+i(162510, 257124);	-- Emblazoned Deep Sea Breeches
+i(162508, 257121);	-- Emblazoned Deep Sea Gloves
 i(163027, 257128);	-- Embroidered Deep Sea Bag [Rank 1]
 i(163026, 257129);	-- Embroidered Deep Sea Bag [Rank 2]
 i(162422, 257130);	-- Embroidered Deep Sea Bag [Rank 3]
-i(162427, 257116);	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion [Rank 3] (A)
-i(162772, 257116);	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion [Rank 3] (H)
+i(162427, 257116);	-- Embroidered Deep Sea Cloak [Rank 3] (A)
+i(162772, 257116);	-- Embroidered Deep Sea Cloak [Rank 3] (H)
 i(162439, 269609);	-- Honorable Combatant's Satin Belt [Rank 2]
 i(162440, 269610);	-- Honorable Combatant's Satin Belt [Rank 3]
 i(162433, 269600);	-- Honorable Combatant's Satin Boots [Rank 2]
@@ -1199,8 +1199,8 @@ i(162435, 269603);	-- Honorable Combatant's Satin Mittens [Rank 2]
 i(162436, 269604);	-- Honorable Combatant's Satin Mittens [Rank 3]
 i(162437, 269606);	-- Honorable Combatant's Satin Pants [Rank 2]
 i(162438, 269607);	-- Honorable Combatant's Satin Pants [Rank 3]
-i(162509, 257123);	-- Imbued Deep Sea Breeches \\ Embroidered Deep Sea Breeches
-i(162507, 257120);	-- Imbued Deep Sea Gloves \\ Embroidered Deep Sea Gloves
+i(162509, 257123);	-- Imbued Deep Sea Breeches
+i(162507, 257120);	-- Imbued Deep Sea Gloves
 --- NYI ---
 i(0, 257108);	-- Embroidered Deep Sea Cloak of Resilience
 i(0, 257109);	-- Embroidered Deep Sea Cloak of Resilience
@@ -1209,17 +1209,17 @@ i(0, 257111);	-- Embroidered Deep Sea Cloak of the Feather
 i(0, 257112);	-- Embroidered Deep Sea Cloak of the Feather
 i(0, 257113);	-- Embroidered Deep Sea Cloak of the Feather
 i(0, 257141);	-- Pet - Hot Air Balloon (DNT)
-i(0, 257105);	-- Tidespray Linen Cloak of Resilience \\ Sun-Bleached Linen Cloak of Resilience
-i(0, 257106);	-- Tidespray Linen Cloak of the Feather \\ Sun-Bleached Linen Cloak of the Feather
+i(0, 257105);	-- Tidespray Linen Cloak of Resilience
+i(0, 257106);	-- Tidespray Linen Cloak of the Feather
 
 -----------------
 -- PATCH 8.1.0 --
 -----------------
 --- TRAINER ---
-i(0, 287274);	-- Aqueous Alteration \\ Tidalcore to Hydrocore
+i(0, 287274);	-- Aqueous Alteration
 i(0, 285077);	-- Enhanced Deep Sea Breeches
 i(0, 285078);	-- Enhanced Deep Sea Gloves
-i(0, 286654);	-- Sanguinated Alteration \\ Breath to Sanguicell
+i(0, 286654);	-- Sanguinated Alteration
 i(0, 282168);	-- Sinister Combatant's Satin Belt [Rank 1]
 i(0, 282194);	-- Sinister Combatant's Satin Boots [Rank 1]
 i(0, 282164);	-- Sinister Combatant's Satin Bracers [Rank 1]
@@ -1249,17 +1249,17 @@ i(165653, 285094);	-- Tempered Deep Sea Gloves
 -----------------
 --- ITEM ---
 i(168029, 292946);	-- Synchronous Thread
-i(167880, 6692);	-- Pattern: Robes of Arcana (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167888, 18436);	-- Pattern: Robe of Winter Night (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167885, 22869);	-- Pattern: Mooncloth Gloves (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167884, 22868);	-- Pattern: Inferno Gloves (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167890, 3862);	-- Pattern: Icy Cloak (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167883, 22867);	-- Pattern: Felcloth Gloves (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167882, 22870);	-- Pattern: Cloak of Warding (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167886, 18408);	-- Pattern: Cindercloth Vest (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167887, 18412);	-- Pattern: Cindercloth Gloves (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167881, 22866);	-- Pattern: Belt of the Archmage (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(167889, 8786);	-- Pattern: Azure Silk Cloak (Guessed via Duplicate SpellID Match with Sourced RecipeID)
+i(167889, 8786);	-- Azure Silk Cloak
+i(167881, 22866);	-- Belt of the Archmage
+i(167887, 18412);	-- Cindercloth Gloves
+i(167886, 18408);	-- Cindercloth Vest
+i(167882, 22870);	-- Cloak of Warding
+i(167883, 22867);	-- Felcloth Gloves
+i(167890, 3862);	-- Icy Cloak
+i(167884, 22868);	-- Inferno Gloves
+i(167885, 22869);	-- Mooncloth Gloves
+i(167888, 18436);	-- Robe of Winter Night
+i(167880, 6692);	-- Robes of Arcana
 
 -----------------
 -- PATCH 8.2.0 --
