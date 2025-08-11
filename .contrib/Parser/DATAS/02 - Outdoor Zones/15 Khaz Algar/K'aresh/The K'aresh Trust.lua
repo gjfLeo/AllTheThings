@@ -78,6 +78,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 90663 },	-- Stealing What is Ours
 						["provider"] = { "n", 238016 },	-- Ba'eth
 						["coord"] = { 57.6, 58.1, KARESH_TAZAVESH },
+						["groups"] = {
+							i(242667),	-- Ba'key's Special Cookie (QI!)
+							i(242708),	-- Box of Cookies (QI!)
+						},
 					}),
 					q(90747, {	-- The Wrong Bluecephalus
 						["sourceQuests"] = { 90729 },	-- Win-Win Situation

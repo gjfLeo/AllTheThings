@@ -18,11 +18,8 @@ root(ROOTS.Unsorted, {
 				i(238006),	-- Soulbearer's Censer
 				i(238008),	-- Wastelander's Folly
 
-				-- Epic wep
-				i(246071),	-- Mana-Seamster's Arcane-Needle
 				-- Delve Armor?
 				i(246940),	-- Manaforged Aethercell
-				i(246941),	-- Symbiotic Ethergauze
 				i(246947),	-- Twisted Mana Sprite
 				-- Mechagon Junkyard?
 				i(241239),	-- Epaulets of Arcing Power
@@ -2900,8 +2897,6 @@ root(ROOTS.Unsorted, {
 			i(169836),	-- Amplified Photodetector
 			i(169837),	-- Miniaturized Steam Turbine
 			i(169871),	-- Orange Snapfin
-			i(169877),	-- Unstable Isotopes
-			i(169880),	-- Decayed Isotopes
 			i(169881),	-- Heart of Azeroth
 			i(169883),	-- Animate Grease
 			i(169895),	-- Azeroth Mini: Beastbot
@@ -2918,7 +2913,6 @@ root(ROOTS.Unsorted, {
 			i(169954),	-- Steeped Kelp Tea
 			i(169955),	-- Stopped Watch
 			i(169956),	-- Crunchy Seaweed Chips
-			i(169962),	-- Frayed Fetish
 			i(169963),	-- Cracked Containment Unit
 			i(169964),	-- Flakes of Blood
 			i(169973),	-- Overheated Mechanism
@@ -2944,7 +2938,6 @@ root(ROOTS.Unsorted, {
 			i(170017),	-- Cracked Titan Disc
 			i(170025),	-- Burst Seed Pod
 			i(170026),	-- Seed Husks
-			i(170027),	-- Withering Seed
 			i(170028),	-- Fading Seed Bud
 			i(170032),	-- Crumbling Vellum
 			i(170033),	-- Decharged Battery

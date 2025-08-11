@@ -1097,6 +1097,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(246824, { ["timeline"] = { ADDED_11_2_0 } }),	-- Shadowguard's Twisted Harvester
 				i(215172),	-- Silken Chain Weaver
 				i(238390, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbreaker's Sigil
+				i(246941, { ["timeline"] = { ADDED_11_2_0 } }),	-- Symbiotic Ethergauze
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
 				i(238386, { ["timeline"] = { ADDED_11_2_0 } }),	-- Void-Touched Fragment
@@ -2241,6 +2242,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			--["cr"] = ,
 			["groups"] = {
 				i(218126),	-- Befouler's Syringe
+				i(246071),	-- Mana-Seamster's Arcane-Needle
 			},
 		}),
 		o(567732, {	-- Kaja'6-Pack (Curio Spawned)

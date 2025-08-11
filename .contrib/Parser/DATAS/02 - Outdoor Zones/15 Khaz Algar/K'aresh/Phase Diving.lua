@@ -229,7 +229,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 91293,
 					["isDaily"] = IGNORED_VALUE,
 					["isWeekly"] = true,
-					["groups"] = { i(246160), },	-- Sthaarbs's Last Lunch (MOUNT!)
+					["groups"] = {
+						i(240171),	-- Observer's Soul Fetters
+						i(246160),	-- Sthaarbs's Last Lunch (MOUNT!)
+					},
 				}),
 				n(232111, {	-- The Nightreaver
 					["coord"] = { 52.7, 56.5, KARESH },

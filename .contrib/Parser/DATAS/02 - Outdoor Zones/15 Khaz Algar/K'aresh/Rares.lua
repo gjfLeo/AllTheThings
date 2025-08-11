@@ -88,6 +88,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240116),	-- Reshii Brute's Longsword
+					i(240115),	-- Reshii Brute's Warmace
 				},
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
@@ -144,6 +145,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe

@@ -510,11 +510,13 @@ i(170029);	-- Cracked Tablet
 i(169999);	-- Crumbling Barrier
 i(169961);	-- Crumbling Mineral Formation
 i(170014);	-- Crumbling Rock
+i(169880);	-- Decayed Isotopes
 i(169124);	-- Decorational Whirlycog
 i(170097);	-- Discarded Quel'dorei Tome
 i(169149);	-- Dulled Micro-Serrated Incisor
 i(170005);	-- Fractured Pearl
 i(169138);	-- Fractured Personality Module
+i(169962);	-- Frayed Fetish
 i(169123);	-- Functional Fiddleswitch
 i(170013);	-- Inanimate Rock
 i(169129);	-- Lovingly Worn Wrench
@@ -525,6 +527,7 @@ i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(169135);	-- Warped Shock Absorber
 i(169998);	-- Weathered Bulwark
+i(170027);	-- Withering Seed
 
 -----------------
 -- PATCH 8.2.5 --
