@@ -1,7 +1,4 @@
 local i = GetRecipeHelperForProfession(TAILORING);
-local MOONCLOTH = 26798;
-local SHADOWEAVE = 26801;
-local SPELLFIRE = 26797;
 
 -- #if SEASON_OF_DISCOVERY
 ------------------
@@ -374,15 +371,15 @@ i(29120, 0);		-- Pattern: Truefaith Vestments
 --- PATCH 2.0.5 ---
 -------------------
 --- TRAINER ---
-i(0, 26790);	-- Tailoring (Master) [REMOVED 8.0.1]
-i(0, 26745);	-- Bolt of Netherweave
-i(0, 26746);	-- Netherweave Bag
-i(0, 26765);	-- Netherweave Belt
-i(0, 26772);	-- Netherweave Boots
-i(0, 26764);	-- Netherweave Bracers
-i(0, 26770);	-- Netherweave Gloves
-i(0, 31460);	-- Netherweave Net
-i(0, 26771);	-- Netherweave Pants
+i(0, 26790);		-- Tailoring (Master) [REMOVED 8.0.1]
+i(0, 26745);		-- Bolt of Netherweave
+i(0, 26746);		-- Netherweave Bag
+i(0, 26765);		-- Netherweave Belt
+i(0, 26772);		-- Netherweave Boots
+i(0, 26764);		-- Netherweave Bracers
+i(0, 26770);		-- Netherweave Gloves
+i(0, 31460);		-- Netherweave Net
+i(0, 26771);		-- Netherweave Pants
 --- ITEM ---
 i(21906, 26783);	-- Arcanoweave Boots
 i(21905, 26782);	-- Arcanoweave Bracers
@@ -433,33 +430,33 @@ i(24301, 31441);	-- White Remedy Cape
 i(24311, 31454);	-- Whitemend Hood
 i(24308, 31451);	-- Whitemend Pants
 --- MOONCLOTH ---
-i(0, 26798, nil, MOONCLOTH);		-- Mooncloth Tailoring [REMOVED 4.0.3]
+i(0, MOONCLOTH_TAILORING, nil, MOONCLOTH_TAILORING);		-- Mooncloth Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
-i(21916, 26760, nil, MOONCLOTH);	-- Primal Mooncloth Belt
-i(21917, 26762, nil, MOONCLOTH);	-- Primal Mooncloth Robe
-i(21918, 26761, nil, MOONCLOTH);	-- Primal Mooncloth Shoulders
+i(21916, 26760, nil, MOONCLOTH_TAILORING);	-- Primal Mooncloth Belt
+i(21917, 26762, nil, MOONCLOTH_TAILORING);	-- Primal Mooncloth Robe
+i(21918, 26761, nil, MOONCLOTH_TAILORING);	-- Primal Mooncloth Shoulders
 -- #else
 i(21916, 26760);	-- Primal Mooncloth Belt
 i(21917, 26762);	-- Primal Mooncloth Robe
 i(21918, 26761);	-- Primal Mooncloth Shoulders
 -- #endif
 --- SHADOWEAVE ---
-i(0, 26801, nil, SHADOWEAVE);	-- Shadoweave Tailoring [REMOVED 4.0.3]
+i(0, SHADOWEAVE_TAILORING, nil, SHADOWEAVE_TAILORING);	-- Shadoweave Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
-i(21914, 26757, nil, SHADOWEAVE);	-- Frozen Shadoweave Boots
-i(21913, 26758, nil, SHADOWEAVE);	-- Frozen Shadoweave Robe
-i(21912, 26756, nil, SHADOWEAVE);	-- Frozen Shadoweave Shoulders
+i(21914, 26757, nil, SHADOWEAVE_TAILORING);	-- Frozen Shadoweave Boots
+i(21913, 26758, nil, SHADOWEAVE_TAILORING);	-- Frozen Shadoweave Robe
+i(21912, 26756, nil, SHADOWEAVE_TAILORING);	-- Frozen Shadoweave Shoulders
 -- #else
 i(21914, 26757);	-- Frozen Shadoweave Boots
 i(21913, 26758);	-- Frozen Shadoweave Robe
 i(21912, 26756);	-- Frozen Shadoweave Shoulders
 -- #endif
 --- SPELLFIRE ---
-i(0, 26797, nil, SPELLFIRE);	-- Spellfire Tailoring [REMOVED 4.0.3]
+i(0, SPELLFIRE_TAILORING, nil, SPELLFIRE_TAILORING);	-- Spellfire Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
-i(21908, 26752, nil, SPELLFIRE);	-- Spellfire Belt
-i(21909, 26753, nil, SPELLFIRE);	-- Spellfire Gloves
-i(21910, 26754, nil, SPELLFIRE);	-- Spellfire Robe
+i(21908, 26752, nil, SPELLFIRE_TAILORING);	-- Spellfire Belt
+i(21909, 26753, nil, SPELLFIRE_TAILORING);	-- Spellfire Gloves
+i(21910, 26754, nil, SPELLFIRE_TAILORING);	-- Spellfire Robe
 -- #else
 i(21908, 26752);	-- Spellfire Belt
 i(21909, 26753);	-- Spellfire Gloves
@@ -537,97 +534,97 @@ i(38229, 50194);	-- Mycah's Botanical Bag
 --- PATCH 3.0.1 ---
 -------------------
 --- NYI ---
-i(0, 56048);	-- Duskweave Boots
-i(42196, 0);	-- Pattern: Aurora Slippers
-i(42190, 0);	-- Pattern: Deathchill Cloak
-i(42180, 0);	-- Pattern: Ebonweave
-i(42200, 0);	-- Pattern: Ebonweave Gloves
-i(42199, 0);	-- Pattern: Ebonweave Robe
-i(42194, 0);	-- Pattern: Frostmoon Pants
-i(42186, 0);	-- Pattern: Frostweave Bag
-i(42179, 0);	-- Pattern: Green Workman's Shirt
-i(42191, 0);	-- Pattern: Hat of Wintry Doom
-i(42195, 0);	-- Pattern: Light Blessed Mittens
-i(42181, 0);	-- Pattern: Moonshroud
-i(42198, 0);	-- Pattern: Moonshroud Gloves
-i(42197, 0);	-- Pattern: Moonshroud Robe
-i(42192, 0);	-- Pattern: Silky Iceshard Boots
-i(42182, 0);	-- Pattern: Spellweave
-i(42202, 0);	-- Pattern: Spellweave Gloves
-i(42201, 0);	-- Pattern: Spellweave Robe
-i(42189, 0);	-- Pattern: Wispcloak
-i(42174, 0);	-- Pattern: Yellow Lumberjack Shirt
+i(0, 56048);		-- Duskweave Boots
+i(42196, 0);		-- Pattern: Aurora Slippers
+i(42190, 0);		-- Pattern: Deathchill Cloak
+i(42180, 0);		-- Pattern: Ebonweave
+i(42200, 0);		-- Pattern: Ebonweave Gloves
+i(42199, 0);		-- Pattern: Ebonweave Robe
+i(42194, 0);		-- Pattern: Frostmoon Pants
+i(42186, 0);		-- Pattern: Frostweave Bag
+i(42179, 0);		-- Pattern: Green Workman's Shirt
+i(42191, 0);		-- Pattern: Hat of Wintry Doom
+i(42195, 0);		-- Pattern: Light Blessed Mittens
+i(42181, 0);		-- Pattern: Moonshroud
+i(42198, 0);		-- Pattern: Moonshroud Gloves
+i(42197, 0);		-- Pattern: Moonshroud Robe
+i(42192, 0);		-- Pattern: Silky Iceshard Boots
+i(42182, 0);		-- Pattern: Spellweave
+i(42202, 0);		-- Pattern: Spellweave Gloves
+i(42201, 0);		-- Pattern: Spellweave Robe
+i(42189, 0);		-- Pattern: Wispcloak
+i(42174, 0);		-- Pattern: Yellow Lumberjack Shirt
 
 -------------------
 --- PATCH 3.0.3 ---
 -------------------
 --- TRAINER ---
-i(0, 51309);	-- Tailoring (Grand Master) [REMOVED 8.0.1]
-i(0, 56023);	-- Aurora Slippers
-i(0, 56010);	-- Azure Spellthread
-i(0, 55925);	-- Black Duskweave Leggings
-i(0, 55941);	-- Black Duskweave Robe
-i(0, 55943);	-- Black Duskweave Wristwraps
-i(0, 55899);	-- Bolt of Frostweave
-i(0, 55900);	-- Bolt of Imbued Frostweave
-i(0, 56015);	-- Cloak of Frozen Spirits
-i(0, 56014);	-- Cloak of the Moon
-i(0, 55769);	-- Darkglow Embroidery [Rank 1] [REMOVED: 6.0.2]
-i(0, 56020);	-- Deep Frozen Cord
-i(0, 55914);	-- Duskweave Belt
-i(0, 55924);	-- Duskweave Boots
-i(0, 55919);	-- Duskweave Cowl
-i(0, 55922);	-- Duskweave Gloves
-i(0, 55901);	-- Duskweave Leggings
-i(0, 55921);	-- Duskweave Robe
-i(0, 55923);	-- Duskweave Shoulders
-i(0, 55920);	-- Duskweave Wristwraps
-i(0, 56002);	-- Ebonweave
-i(0, 56027);	-- Ebonweave Gloves
-i(0, 56026);	-- Ebonweave Robe
-i(0, 56021);	-- Frostmoon Pants
-i(0, 59582);	-- Frostsavage Belt
-i(0, 59585);	-- Frostsavage Boots
-i(0, 59583);	-- Frostsavage Bracers
-i(0, 59589);	-- Frostsavage Cowl
-i(0, 59586);	-- Frostsavage Gloves
-i(0, 59588);	-- Frostsavage Leggings
-i(0, 59587);	-- Frostsavage Robe
-i(0, 59584);	-- Frostsavage Shoulders
-i(0, 56007);	-- Frostweave Bag
-i(0, 55898);	-- Frostweave Net
-i(0, 55908);	-- Frostwoven Belt
-i(0, 55906);	-- Frostwoven Boots
-i(0, 55907);	-- Frostwoven Cowl
-i(0, 55904);	-- Frostwoven Gloves
-i(0, 56030);	-- Frostwoven Leggings
-i(0, 55903);	-- Frostwoven Robe
-i(0, 55902);	-- Frostwoven Shoulders
-i(0, 56031);	-- Frostwoven Wristwraps
-i(0, 60969);	-- Flying Carpet
-i(0, 60993);	-- Glacial Robe
-i(0, 60994);	-- Glacial Slippers
-i(0, 60990);	-- Glacial Waistband
-i(0, 56000);	-- Green Workman's Shirt
-i(0, 56018);	-- Hat of Wintry Doom
-i(0, 56022);	-- Light Blessed Mittens
-i(0, 55642);	-- Lightweave Embroidery [Rank 1] [REMOVED 6.0.2]
-i(0, 60971);	-- Magnificent Flying Carpet
-i(0, 56034);	-- Master's Spellthread [Rank 1] [REMOVED 6.0.2]
-i(0, 56001);	-- Moonshroud
-i(0, 56025);	-- Moonshroud Gloves
-i(0, 56024);	-- Moonshroud Robe
-i(0, 55911);	-- Mystic Frostwoven Robe
-i(0, 55910);	-- Mystic Frostwoven Shoulders
-i(0, 55913);	-- Mystic Frostwoven Wristwraps
-i(0, 56039);	-- Sanctified Spellthread [Rank 1] [REMOVED 6.0.2]
-i(0, 56008);	-- Shining Spellthread
-i(0, 56019);	-- Silky Iceshard Boots
-i(0, 56003);	-- Spellweave
-i(0, 56029);	-- Spellweave Gloves
-i(0, 56028);	-- Spellweave Robe
-i(0, 55777);	-- Swordguard Embroidery [Rank 1] [REMOVED 6.0.2]
-i(0, 55995);	-- Yellow Lumberjack Shirt
+i(0, 51309);		-- Tailoring (Grand Master) [REMOVED 8.0.1]
+i(0, 56023);		-- Aurora Slippers
+i(0, 56010);		-- Azure Spellthread
+i(0, 55925);		-- Black Duskweave Leggings
+i(0, 55941);		-- Black Duskweave Robe
+i(0, 55943);		-- Black Duskweave Wristwraps
+i(0, 55899);		-- Bolt of Frostweave
+i(0, 55900);		-- Bolt of Imbued Frostweave
+i(0, 56015);		-- Cloak of Frozen Spirits
+i(0, 56014);		-- Cloak of the Moon
+i(0, 55769);		-- Darkglow Embroidery [Rank 1] [REMOVED: 6.0.2]
+i(0, 56020);		-- Deep Frozen Cord
+i(0, 55914);		-- Duskweave Belt
+i(0, 55924);		-- Duskweave Boots
+i(0, 55919);		-- Duskweave Cowl
+i(0, 55922);		-- Duskweave Gloves
+i(0, 55901);		-- Duskweave Leggings
+i(0, 55921);		-- Duskweave Robe
+i(0, 55923);		-- Duskweave Shoulders
+i(0, 55920);		-- Duskweave Wristwraps
+i(0, 56002);		-- Ebonweave
+i(0, 56027);		-- Ebonweave Gloves
+i(0, 56026);		-- Ebonweave Robe
+i(0, 56021);		-- Frostmoon Pants
+i(0, 59582);		-- Frostsavage Belt
+i(0, 59585);		-- Frostsavage Boots
+i(0, 59583);		-- Frostsavage Bracers
+i(0, 59589);		-- Frostsavage Cowl
+i(0, 59586);		-- Frostsavage Gloves
+i(0, 59588);		-- Frostsavage Leggings
+i(0, 59587);		-- Frostsavage Robe
+i(0, 59584);		-- Frostsavage Shoulders
+i(0, 56007);		-- Frostweave Bag
+i(0, 55898);		-- Frostweave Net
+i(0, 55908);		-- Frostwoven Belt
+i(0, 55906);		-- Frostwoven Boots
+i(0, 55907);		-- Frostwoven Cowl
+i(0, 55904);		-- Frostwoven Gloves
+i(0, 56030);		-- Frostwoven Leggings
+i(0, 55903);		-- Frostwoven Robe
+i(0, 55902);		-- Frostwoven Shoulders
+i(0, 56031);		-- Frostwoven Wristwraps
+i(0, 60969);		-- Flying Carpet
+i(0, 60993);		-- Glacial Robe
+i(0, 60994);		-- Glacial Slippers
+i(0, 60990);		-- Glacial Waistband
+i(0, 56000);		-- Green Workman's Shirt
+i(0, 56018);		-- Hat of Wintry Doom
+i(0, 56022);		-- Light Blessed Mittens
+i(0, 55642);		-- Lightweave Embroidery [Rank 1] [REMOVED 6.0.2]
+i(0, 60971);		-- Magnificent Flying Carpet
+i(0, 56034);		-- Master's Spellthread [Rank 1] [REMOVED 6.0.2]
+i(0, 56001);		-- Moonshroud
+i(0, 56025);		-- Moonshroud Gloves
+i(0, 56024);		-- Moonshroud Robe
+i(0, 55911);		-- Mystic Frostwoven Robe
+i(0, 55910);		-- Mystic Frostwoven Shoulders
+i(0, 55913);		-- Mystic Frostwoven Wristwraps
+i(0, 56039);		-- Sanctified Spellthread [Rank 1] [REMOVED 6.0.2]
+i(0, 56008);		-- Shining Spellthread
+i(0, 56019);		-- Silky Iceshard Boots
+i(0, 56003);		-- Spellweave
+i(0, 56029);		-- Spellweave Gloves
+i(0, 56028);		-- Spellweave Robe
+i(0, 55777);		-- Swordguard Embroidery [Rank 1] [REMOVED 6.0.2]
+i(0, 55995);		-- Yellow Lumberjack Shirt
 --- ITEM ---
 i(42183, 56004);	-- Abyssal Bag
 i(42173, 55994);	-- Blue Lumberjack Shirt
@@ -642,8 +639,8 @@ i(42177, 55997);	-- Red Workman's Shirt
 i(42178, 55999);	-- Rustic Workman's Shirt
 i(42188, 56011);	-- Sapphire Spellthread
 --- SPECIAL ---
-i(0, 56017);	-- Deathchill Cloak
-i(0, 56016);	-- Wispcloak
+i(0, 56017);		-- Deathchill Cloak
+i(0, 56016);		-- Wispcloak
 --- REMOVED FIRST AID ---
 -- #if AFTER BFA
 i(0, 45545);		-- Frostweave Bandage
@@ -660,9 +657,9 @@ i(44916, 26403);	-- Pattern: Festival Dress
 --- PATCH 3.1.0 ---
 -------------------
 --- TRAINER ---
-i(0, 64730);	-- Cloak of Crimson Snow
-i(0, 64729);	-- Frostguard Drape
-i(0, 63742);	-- Spidersilk Drape
+i(0, 64730);		-- Cloak of Crimson Snow
+i(0, 64729);		-- Frostguard Drape
+i(0, 63742);		-- Spidersilk Drape
 --- ITEM ---
 i(45104, 63205);	-- Cord of the White Dawn
 i(45774, 63924);	-- Emerald Bag
@@ -702,9 +699,9 @@ i(54798, 75597);	-- Frosty Flying Carpet
 --- PATCH 4.0.1 ---
 -------------------
 --- NYI ---
-i(0, 75183);	-- Unravel Embersilk Cloth
-i(0, 75143);	-- Unknown
-i(0, 75287);	-- Unknown
+i(0, 75183);		-- Unravel Embersilk Cloth
+i(0, 75143);		-- Unknown
+i(0, 75287);		-- Unknown
 
 -------------------
 --- PATCH 4.0.3 ---
@@ -712,51 +709,51 @@ i(0, 75287);	-- Unknown
 -- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 -- Braghe NOTE: In Retail 4.0.3: No Prefix, 4.2.0: Bloodthirsty, 4.3.0: Vicious New Items IDs same spellID
 --- TRAINER ---
-i(0, 75156);	-- Tailoring (Illustrious Grand Master) [REMOVED 8.0.1]
-i(0, 74964);	-- Bolt of Embersilk Cloth
-i(0, 75175);	-- Darkglow Embroidery [Rank 2] [REMOVED 6.0.2]
-i(0, 75248);	-- Deathsilk Belt
-i(0, 75252);	-- Deathsilk Boots
-i(0, 75249);	-- Deathsilk Bracers
-i(0, 75256);	-- Deathsilk Cowl
-i(0, 75253);	-- Deathsilk Gloves
-i(0, 75254);	-- Deathsilk Leggings
-i(0, 75257);	-- Deathsilk Robe
-i(0, 75251);	-- Deathsilk Shoulders
-i(0, 75146);	-- Dream of Azshara
-i(0, 75142);	-- Dream of Deepholm
-i(0, 94743);	-- Dream of Destruction
-i(0, 75144);	-- Dream of Hyjal
-i(0, 75145);	-- Dream of Ragnaros
-i(0, 75141);	-- Dream of Skywall
-i(0, 75264);	-- Embersilk Bag
-i(0, 75247);	-- Embersilk Net
-i(0, 75250);	-- Enchanted Spellthread
-i(0, 75255);	-- Ghostly Spellthread
-i(0, 75268);	-- Hyjal Expedition Bag
-i(0, 75172);	-- Lightweave Embroidery [Rank 2] [REMOVED 6.0.2]
-i(0, 75154);	-- Master's Spellthread [Rank 2] [REMOVED 6.0.2]
-i(0, 75265);	-- Otherworldly Bag
-i(0, 75155);	-- Sanctified Spellthread [Rank 2] [REMOVED 6.0.2]
-i(0, 75258);	-- Spiritmend Belt
-i(0, 75261);	-- Spiritmend Boots
-i(0, 75259);	-- Spiritmend Bracers
-i(0, 75266);	-- Spiritmend Cowl
-i(0, 75262);	-- Spiritmend Gloves
-i(0, 75263);	-- Spiritmend Leggings
-i(0, 75267);	-- Spiritmend Robe
-i(0, 75260);	-- Spiritmend Shoulders
-i(0, 75178);	-- Swordguard Embroidery [Rank 2] [REMOVED 6.0.2]
-i(0, 75293);	-- Vicious Embersilk Belt
-i(0, 75297);	-- Vicious Embersilk Boots
-i(0, 75270);	-- Vicious Embersilk Bracers
-i(0, 75295);	-- Vicious Embersilk Gloves
-i(0, 75291);	-- Vicious Embersilk Shoulders
-i(0, 75269);	-- Vicious Fireweave Belt
-i(0, 75294);	-- Vicious Fireweave Boots
-i(0, 75290);	-- Vicious Fireweave Bracers
-i(0, 75296);	-- Vicious Fireweave Gloves
-i(0, 75292);	-- Vicious Fireweave Shoulders
+i(0, 75156);		-- Tailoring (Illustrious Grand Master) [REMOVED 8.0.1]
+i(0, 74964);		-- Bolt of Embersilk Cloth
+i(0, 75175);		-- Darkglow Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 75248);		-- Deathsilk Belt
+i(0, 75252);		-- Deathsilk Boots
+i(0, 75249);		-- Deathsilk Bracers
+i(0, 75256);		-- Deathsilk Cowl
+i(0, 75253);		-- Deathsilk Gloves
+i(0, 75254);		-- Deathsilk Leggings
+i(0, 75257);		-- Deathsilk Robe
+i(0, 75251);		-- Deathsilk Shoulders
+i(0, 75146);		-- Dream of Azshara
+i(0, 75142);		-- Dream of Deepholm
+i(0, 94743);		-- Dream of Destruction
+i(0, 75144);		-- Dream of Hyjal
+i(0, 75145);		-- Dream of Ragnaros
+i(0, 75141);		-- Dream of Skywall
+i(0, 75264);		-- Embersilk Bag
+i(0, 75247);		-- Embersilk Net
+i(0, 75250);		-- Enchanted Spellthread
+i(0, 75255);		-- Ghostly Spellthread
+i(0, 75268);		-- Hyjal Expedition Bag
+i(0, 75172);		-- Lightweave Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 75154);		-- Master's Spellthread [Rank 2] [REMOVED 6.0.2]
+i(0, 75265);		-- Otherworldly Bag
+i(0, 75155);		-- Sanctified Spellthread [Rank 2] [REMOVED 6.0.2]
+i(0, 75258);		-- Spiritmend Belt
+i(0, 75261);		-- Spiritmend Boots
+i(0, 75259);		-- Spiritmend Bracers
+i(0, 75266);		-- Spiritmend Cowl
+i(0, 75262);		-- Spiritmend Gloves
+i(0, 75263);		-- Spiritmend Leggings
+i(0, 75267);		-- Spiritmend Robe
+i(0, 75260);		-- Spiritmend Shoulders
+i(0, 75178);		-- Swordguard Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 75293);		-- Vicious Embersilk Belt
+i(0, 75297);		-- Vicious Embersilk Boots
+i(0, 75270);		-- Vicious Embersilk Bracers
+i(0, 75295);		-- Vicious Embersilk Gloves
+i(0, 75291);		-- Vicious Embersilk Shoulders
+i(0, 75269);		-- Vicious Fireweave Belt
+i(0, 75294);		-- Vicious Fireweave Boots
+i(0, 75290);		-- Vicious Fireweave Bracers
+i(0, 75296);		-- Vicious Fireweave Gloves
+i(0, 75292);		-- Vicious Fireweave Shoulders
 --- ITEM ---
 i(54601, 75298);	-- Belt of the Depths
 i(68199, 75288);	-- Black Embersilk Gown
@@ -784,7 +781,7 @@ i(0, 74557);		-- Heavy Embersilk Bandage
 -------------------
 --- PATCH 4.2.0 ---
 -------------------
-i(0, 99537);	-- Vicious Embersilk Cape
+i(0, 99537);		-- Vicious Embersilk Cape
 --- ITEM ---
 i(69976, 99460);	-- Boots of the Black Flame
 i(69966, 99449);	-- Don Tayo's Inferno Mittens
@@ -814,16 +811,16 @@ i(0, 1216338);	-- Bloodthirsty Embersilk Cape
 -- PATCH 4.4.2 --
 -----------------
 --- TRAINER ---
-i(0, 1224154);	-- Vicious Embersilk Belt
-i(0, 1224155);	-- Vicious Embersilk Boots
-i(0, 1224156);	-- Vicious Embersilk Bracers
-i(0, 1224158);	-- Vicious Embersilk Gloves
-i(0, 1224161);	-- Vicious Embersilk Shoulders
-i(0, 1224162);	-- Vicious Fireweave Belt
-i(0, 1224163);	-- Vicious Fireweave Boots
-i(0, 1224164);	-- Vicious Fireweave Bracers
-i(0, 1224166);	-- Vicious Fireweave Gloves
-i(0, 1224169);	-- Vicious Fireweave Shoulders
+i(0, 1224154);		-- Vicious Embersilk Belt
+i(0, 1224155);		-- Vicious Embersilk Boots
+i(0, 1224156);		-- Vicious Embersilk Bracers
+i(0, 1224158);		-- Vicious Embersilk Gloves
+i(0, 1224161);		-- Vicious Embersilk Shoulders
+i(0, 1224162);		-- Vicious Fireweave Belt
+i(0, 1224163);		-- Vicious Fireweave Boots
+i(0, 1224164);		-- Vicious Fireweave Bracers
+i(0, 1224166);		-- Vicious Fireweave Gloves
+i(0, 1224169);		-- Vicious Fireweave Shoulders
 --- ITEM ---
 i(238123, 1224222);	-- Pattern: Emberfire Cowl
 i(238124, 1224223);	-- Pattern: Emberfire Pants
@@ -838,41 +835,41 @@ i(238071, 1224165);	-- Pattern: Vicious Fireweave Cowl
 i(238072, 1224167);	-- Pattern: Vicious Fireweave Pants
 i(238073, 1224168);	-- Pattern: Vicious Fireweave Robe
 --- NYI ---
-i(0, 1224213);	-- Emberfire Belt
-i(0, 1224217);	-- Emberfire Boots
-i(0, 1224209);	-- Emberfire Bracers
-i(0, 1224215);	-- Emberfire Gloves
-i(0, 1224211);	-- Emberfire Shoulders
-i(0, 1224208);	-- Fireweave Belt
-i(0, 1224214);	-- Fireweave Boots
-i(0, 1224210);	-- Fireweave Bracers
-i(0, 1224216);	-- Fireweave Gloves
-i(0, 1224212);	-- Fireweave Shoulders
+i(0, 1224213);		-- Emberfire Belt
+i(0, 1224217);		-- Emberfire Boots
+i(0, 1224209);		-- Emberfire Bracers
+i(0, 1224215);		-- Emberfire Gloves
+i(0, 1224211);		-- Emberfire Shoulders
+i(0, 1224208);		-- Fireweave Belt
+i(0, 1224214);		-- Fireweave Boots
+i(0, 1224210);		-- Fireweave Bracers
+i(0, 1224216);		-- Fireweave Gloves
+i(0, 1224212);		-- Fireweave Shoulders
 -- #endif
 
 -------------------
 --- PATCH 5.0.4 ---
 -------------------
 --- TRAINER ---
-i(0, 110426);	-- Tailoring (Zen Master) [REMOVED 8.0.1]
-i(0, 125551);	-- Bolt of Windwool Cloth
-i(0, 125553);	-- Cerulean Spellthread
-i(0, 125482);	-- Darkglow Embroidery [Rank 3] [REMOVED 6.0.2]
-i(0, 125557);	-- Imperial Silk
-i(0, 125481);	-- Lightweave Embroidery [Rank 3] [REMOVED 6.0.2]
-i(0, 125496);	-- Master's Spellthread [Rank 3] [REMOVED 6.0.2]
-i(0, 125552);	-- Pearlescent Spellthread
-i(0, 125497);	-- Sanctified Spellthread [Rank 3] [REMOVED 6.0.2]
-i(0, 130325);	-- Song of Harmony
-i(0, 125483);	-- Swordguard Embroidery [Rank 3] [REMOVED 6.0.2]
-i(0, 125530);	-- Windwool Belt
-i(0, 125529);	-- Windwool Boots
-i(0, 125528);	-- Windwool Bracers
-i(0, 125526);	-- Windwool Gloves
-i(0, 125523);	-- Windwool Hood
-i(0, 125527);	-- Windwool Pants
-i(0, 125524);	-- Windwool Shoulders
-i(0, 125525);	-- Windwool Tunic
+i(0, 110426);		-- Tailoring (Zen Master) [REMOVED 8.0.1]
+i(0, 125551);		-- Bolt of Windwool Cloth
+i(0, 125553);		-- Cerulean Spellthread
+i(0, 125482);		-- Darkglow Embroidery [Rank 3] [REMOVED 6.0.2]
+i(0, 125557);		-- Imperial Silk
+i(0, 125481);		-- Lightweave Embroidery [Rank 3] [REMOVED 6.0.2]
+i(0, 125496);		-- Master's Spellthread [Rank 3] [REMOVED 6.0.2]
+i(0, 125552);		-- Pearlescent Spellthread
+i(0, 125497);		-- Sanctified Spellthread [Rank 3] [REMOVED 6.0.2]
+i(0, 130325);		-- Song of Harmony
+i(0, 125483);		-- Swordguard Embroidery [Rank 3] [REMOVED 6.0.2]
+i(0, 125530);		-- Windwool Belt
+i(0, 125529);		-- Windwool Boots
+i(0, 125528);		-- Windwool Bracers
+i(0, 125526);		-- Windwool Gloves
+i(0, 125523);		-- Windwool Hood
+i(0, 125527);		-- Windwool Pants
+i(0, 125524);		-- Windwool Shoulders
+i(0, 125525);		-- Windwool Tunic
 --- ITEM ---
 i(86361, 125540);	-- Contender's Satin Amice
 i(86367, 125546);	-- Contender's Satin Belt
@@ -911,125 +908,125 @@ i(0, 102697);		-- Windwool Bandage
 --- PATCH 5.1.0 ---
 -------------------
 --- TRAINER ---
-i(0, 134585);	-- Bipsi's Gloves
+i(0, 134585);		-- Bipsi's Gloves
 
 -------------------
 --- PATCH 5.2.0 ---
 -------------------
 --- DISCOVERY ---
-i(0, 137907);	-- Crafted Dreadful Gladiator's Cape of Cruelty
-i(0, 137908);	-- Crafted Dreadful Gladiator's Cape of Prowess
-i(0, 137936);	-- Crafted Dreadful Gladiator's Cloak of Alacrity
-i(0, 137937);	-- Crafted Dreadful Gladiator's Cloak of Prowess
-i(0, 137910);	-- Crafted Dreadful Gladiator's Cord of Accuracy
-i(0, 137909);	-- Crafted Dreadful Gladiator's Cord of Cruelty
-i(0, 137911);	-- Crafted Dreadful Gladiator's Cord of Meditation
-i(0, 137915);	-- Crafted Dreadful Gladiator's Cuffs of Accuracy
-i(0, 137917);	-- Crafted Dreadful Gladiator's Cuffs of Meditation
-i(0, 137916);	-- Crafted Dreadful Gladiator's Cuffs of Prowess
-i(0, 137918);	-- Crafted Dreadful Gladiator's Drape of Cruelty
-i(0, 137920);	-- Crafted Dreadful Gladiator's Drape of Meditation
-i(0, 137919);	-- Crafted Dreadful Gladiator's Drape of Prowess
-i(0, 137942);	-- Crafted Dreadful Gladiator's Felweave Amice
-i(0, 137939);	-- Crafted Dreadful Gladiator's Felweave Cowl
-i(0, 137938);	-- Crafted Dreadful Gladiator's Felweave Handguards
-i(0, 137941);	-- Crafted Dreadful Gladiator's Felweave Raiment
-i(0, 137940);	-- Crafted Dreadful Gladiator's Felweave Trousers
-i(0, 137926);	-- Crafted Dreadful Gladiator's Mooncloth Gloves
-i(0, 137927);	-- Crafted Dreadful Gladiator's Mooncloth Helm
-i(0, 137928);	-- Crafted Dreadful Gladiator's Mooncloth Leggings
-i(0, 137930);	-- Crafted Dreadful Gladiator's Mooncloth Mantle
-i(0, 137929);	-- Crafted Dreadful Gladiator's Mooncloth Robe
-i(0, 137931);	-- Crafted Dreadful Gladiator's Satin Gloves
-i(0, 137932);	-- Crafted Dreadful Gladiator's Satin Hood
-i(0, 137933);	-- Crafted Dreadful Gladiator's Satin Leggings
-i(0, 137935);	-- Crafted Dreadful Gladiator's Satin Mantle
-i(0, 137934);	-- Crafted Dreadful Gladiator's Satin Robe
-i(0, 137925);	-- Crafted Dreadful Gladiator's Silk Amice
-i(0, 137922);	-- Crafted Dreadful Gladiator's Silk Cowl
-i(0, 137921);	-- Crafted Dreadful Gladiator's Silk Handguards
-i(0, 137924);	-- Crafted Dreadful Gladiator's Silk Robe
-i(0, 137923);	-- Crafted Dreadful Gladiator's Silk Trousers
-i(0, 137913);	-- Crafted Dreadful Gladiator's Treads of Alacrity
-i(0, 137912);	-- Crafted Dreadful Gladiator's Treads of Cruelty
-i(0, 137914);	-- Crafted Dreadful Gladiator's Treads of Meditation
-i(0, 138598);	-- Falling Blossom Cowl
-i(0, 138600);	-- Falling Blossom Hood
-i(0, 138599);	-- Falling Blossom Sandals
-i(0, 138597);	-- Falling Blossom Treads
+i(0, 137907);		-- Crafted Dreadful Gladiator's Cape of Cruelty
+i(0, 137908);		-- Crafted Dreadful Gladiator's Cape of Prowess
+i(0, 137936);		-- Crafted Dreadful Gladiator's Cloak of Alacrity
+i(0, 137937);		-- Crafted Dreadful Gladiator's Cloak of Prowess
+i(0, 137910);		-- Crafted Dreadful Gladiator's Cord of Accuracy
+i(0, 137909);		-- Crafted Dreadful Gladiator's Cord of Cruelty
+i(0, 137911);		-- Crafted Dreadful Gladiator's Cord of Meditation
+i(0, 137915);		-- Crafted Dreadful Gladiator's Cuffs of Accuracy
+i(0, 137917);		-- Crafted Dreadful Gladiator's Cuffs of Meditation
+i(0, 137916);		-- Crafted Dreadful Gladiator's Cuffs of Prowess
+i(0, 137918);		-- Crafted Dreadful Gladiator's Drape of Cruelty
+i(0, 137920);		-- Crafted Dreadful Gladiator's Drape of Meditation
+i(0, 137919);		-- Crafted Dreadful Gladiator's Drape of Prowess
+i(0, 137942);		-- Crafted Dreadful Gladiator's Felweave Amice
+i(0, 137939);		-- Crafted Dreadful Gladiator's Felweave Cowl
+i(0, 137938);		-- Crafted Dreadful Gladiator's Felweave Handguards
+i(0, 137941);		-- Crafted Dreadful Gladiator's Felweave Raiment
+i(0, 137940);		-- Crafted Dreadful Gladiator's Felweave Trousers
+i(0, 137926);		-- Crafted Dreadful Gladiator's Mooncloth Gloves
+i(0, 137927);		-- Crafted Dreadful Gladiator's Mooncloth Helm
+i(0, 137928);		-- Crafted Dreadful Gladiator's Mooncloth Leggings
+i(0, 137930);		-- Crafted Dreadful Gladiator's Mooncloth Mantle
+i(0, 137929);		-- Crafted Dreadful Gladiator's Mooncloth Robe
+i(0, 137931);		-- Crafted Dreadful Gladiator's Satin Gloves
+i(0, 137932);		-- Crafted Dreadful Gladiator's Satin Hood
+i(0, 137933);		-- Crafted Dreadful Gladiator's Satin Leggings
+i(0, 137935);		-- Crafted Dreadful Gladiator's Satin Mantle
+i(0, 137934);		-- Crafted Dreadful Gladiator's Satin Robe
+i(0, 137925);		-- Crafted Dreadful Gladiator's Silk Amice
+i(0, 137922);		-- Crafted Dreadful Gladiator's Silk Cowl
+i(0, 137921);		-- Crafted Dreadful Gladiator's Silk Handguards
+i(0, 137924);		-- Crafted Dreadful Gladiator's Silk Robe
+i(0, 137923);		-- Crafted Dreadful Gladiator's Silk Trousers
+i(0, 137913);		-- Crafted Dreadful Gladiator's Treads of Alacrity
+i(0, 137912);		-- Crafted Dreadful Gladiator's Treads of Cruelty
+i(0, 137914);		-- Crafted Dreadful Gladiator's Treads of Meditation
+i(0, 138598);		-- Falling Blossom Cowl
+i(0, 138600);		-- Falling Blossom Hood
+i(0, 138599);		-- Falling Blossom Sandals
+i(0, 138597);		-- Falling Blossom Treads
 
 -------------------
 --- PATCH 5.4.0 ---
 -------------------
 --- ITEM ---
-i(0, 146925);	-- Accelerated Celestial Cloth
-i(0, 143011);	-- Celestial Cloth
+i(0, 146925);		-- Accelerated Celestial Cloth
+i(0, 143011);		-- Celestial Cloth
 --- DISCOVERY ---
-i(0, 142964);	-- Belt of the Night Sky
-i(0, 143053);	-- Crafted Malevolent Gladiator's Cape of Cruelty
-i(0, 143054);	-- Crafted Malevolent Gladiator's Cape of Prowess
-i(0, 143082);	-- Crafted Malevolent Gladiator's Cloak of Alacrity
-i(0, 143083);	-- Crafted Malevolent Gladiator's Cloak of Prowess
-i(0, 143056);	-- Crafted Malevolent Gladiator's Cord of Accuracy
-i(0, 143055);	-- Crafted Malevolent Gladiator's Cord of Cruelty
-i(0, 143057);	-- Crafted Malevolent Gladiator's Cord of Meditation
-i(0, 143061);	-- Crafted Malevolent Gladiator's Cuffs of Accuracy
-i(0, 143063);	-- Crafted Malevolent Gladiator's Cuffs of Meditation
-i(0, 143062);	-- Crafted Malevolent Gladiator's Cuffs of Prowess
-i(0, 143064);	-- Crafted Malevolent Gladiator's Drape of Cruelty
-i(0, 143066);	-- Crafted Malevolent Gladiator's Drape of Meditation
-i(0, 143065);	-- Crafted Malevolent Gladiator's Drape of Prowess
-i(0, 143088);	-- Crafted Malevolent Gladiator's Felweave Amice
-i(0, 143085);	-- Crafted Malevolent Gladiator's Felweave Cowl
-i(0, 143084);	-- Crafted Malevolent Gladiator's Felweave Handguards
-i(0, 143087);	-- Crafted Malevolent Gladiator's Felweave Raiment
-i(0, 143086);	-- Crafted Malevolent Gladiator's Felweave Trousers
-i(0, 143072);	-- Crafted Malevolent Gladiator's Mooncloth Gloves
-i(0, 143073);	-- Crafted Malevolent Gladiator's Mooncloth Helm
-i(0, 143074);	-- Crafted Malevolent Gladiator's Mooncloth Leggings
-i(0, 143076);	-- Crafted Malevolent Gladiator's Mooncloth Mantle
-i(0, 143075);	-- Crafted Malevolent Gladiator's Mooncloth Robe
-i(0, 143077);	-- Crafted Malevolent Gladiator's Satin Gloves
-i(0, 143078);	-- Crafted Malevolent Gladiator's Satin Hood
-i(0, 143079);	-- Crafted Malevolent Gladiator's Satin Leggings
-i(0, 143081);	-- Crafted Malevolent Gladiator's Satin Mantle
-i(0, 143080);	-- Crafted Malevolent Gladiator's Satin Robe
-i(0, 143071);	-- Crafted Malevolent Gladiator's Silk Amice
-i(0, 143068);	-- Crafted Malevolent Gladiator's Silk Cowl
-i(0, 143067);	-- Crafted Malevolent Gladiator's Silk Handguards
-i(0, 143070);	-- Crafted Malevolent Gladiator's Silk Robe
-i(0, 143069);	-- Crafted Malevolent Gladiator's Silk Trousers
-i(0, 143059);	-- Crafted Malevolent Gladiator's Treads of Alacrity
-i(0, 143058);	-- Crafted Malevolent Gladiator's Treads of Cruelty
-i(0, 143060);	-- Crafted Malevolent Gladiator's Treads of Meditation
-i(0, 142955);	-- Leggings of the Night Sky
-i(0, 142960);	-- White Cloud Belt
-i(0, 142951);	-- White Cloud Leggings
+i(0, 142964);		-- Belt of the Night Sky
+i(0, 143053);		-- Crafted Malevolent Gladiator's Cape of Cruelty
+i(0, 143054);		-- Crafted Malevolent Gladiator's Cape of Prowess
+i(0, 143082);		-- Crafted Malevolent Gladiator's Cloak of Alacrity
+i(0, 143083);		-- Crafted Malevolent Gladiator's Cloak of Prowess
+i(0, 143056);		-- Crafted Malevolent Gladiator's Cord of Accuracy
+i(0, 143055);		-- Crafted Malevolent Gladiator's Cord of Cruelty
+i(0, 143057);		-- Crafted Malevolent Gladiator's Cord of Meditation
+i(0, 143061);		-- Crafted Malevolent Gladiator's Cuffs of Accuracy
+i(0, 143063);		-- Crafted Malevolent Gladiator's Cuffs of Meditation
+i(0, 143062);		-- Crafted Malevolent Gladiator's Cuffs of Prowess
+i(0, 143064);		-- Crafted Malevolent Gladiator's Drape of Cruelty
+i(0, 143066);		-- Crafted Malevolent Gladiator's Drape of Meditation
+i(0, 143065);		-- Crafted Malevolent Gladiator's Drape of Prowess
+i(0, 143088);		-- Crafted Malevolent Gladiator's Felweave Amice
+i(0, 143085);		-- Crafted Malevolent Gladiator's Felweave Cowl
+i(0, 143084);		-- Crafted Malevolent Gladiator's Felweave Handguards
+i(0, 143087);		-- Crafted Malevolent Gladiator's Felweave Raiment
+i(0, 143086);		-- Crafted Malevolent Gladiator's Felweave Trousers
+i(0, 143072);		-- Crafted Malevolent Gladiator's Mooncloth Gloves
+i(0, 143073);		-- Crafted Malevolent Gladiator's Mooncloth Helm
+i(0, 143074);		-- Crafted Malevolent Gladiator's Mooncloth Leggings
+i(0, 143076);		-- Crafted Malevolent Gladiator's Mooncloth Mantle
+i(0, 143075);		-- Crafted Malevolent Gladiator's Mooncloth Robe
+i(0, 143077);		-- Crafted Malevolent Gladiator's Satin Gloves
+i(0, 143078);		-- Crafted Malevolent Gladiator's Satin Hood
+i(0, 143079);		-- Crafted Malevolent Gladiator's Satin Leggings
+i(0, 143081);		-- Crafted Malevolent Gladiator's Satin Mantle
+i(0, 143080);		-- Crafted Malevolent Gladiator's Satin Robe
+i(0, 143071);		-- Crafted Malevolent Gladiator's Silk Amice
+i(0, 143068);		-- Crafted Malevolent Gladiator's Silk Cowl
+i(0, 143067);		-- Crafted Malevolent Gladiator's Silk Handguards
+i(0, 143070);		-- Crafted Malevolent Gladiator's Silk Robe
+i(0, 143069);		-- Crafted Malevolent Gladiator's Silk Trousers
+i(0, 143059);		-- Crafted Malevolent Gladiator's Treads of Alacrity
+i(0, 143058);		-- Crafted Malevolent Gladiator's Treads of Cruelty
+i(0, 143060);		-- Crafted Malevolent Gladiator's Treads of Meditation
+i(0, 142955);		-- Leggings of the Night Sky
+i(0, 142960);		-- White Cloud Belt
+i(0, 142951);		-- White Cloud Leggings
 
 -------------------
 --- PATCH 6.0.2 ---
 -------------------
 --- NYI ---
-i(0, 169669);	-- Hexweave Cloth
+i(0, 169669);		-- Hexweave Cloth
 i(114867, 168851);	-- Miniature Flying Carpet - NYI
 i(118098, 173415);	-- Murloc Chew Toy
-i(114851, 0);	-- Hexweave Cloth
-i(118226, 0);	-- Pattern: Miniature Flying Carpet
-i(120128, 0);	-- Secrets of Draenor Tailoring
-i(114868, 0);	-- Sumptuous Cowl
-i(114870, 0);	-- Sumptuous Leggings
-i(114869,0);	-- Sumptuous Robes
+i(114851, 0);		-- Hexweave Cloth
+i(118226, 0);		-- Pattern: Miniature Flying Carpet
+i(120128, 0);		-- Secrets of Draenor Tailoring
+i(114868, 0);		-- Sumptuous Cowl
+i(114870, 0);		-- Sumptuous Leggings
+i(114869,0);		-- Sumptuous Robes
 
 -------------------
 --- PATCH 6.0.3 ---
 -------------------
 --- TRAINER ---
-i(0, 158758);	-- Tailoring (Draenor)
-i(0, 168835);	-- Hexweave Cloth
-i(0, 176058);	-- Secrets of Draenor Tailoring
-i(0, 168852);	-- Sumptuous Cowl
-i(0, 168854);	-- Sumptuous Leggings
-i(0, 168853);	-- Sumptuous Robes
+i(0, 158758);		-- Tailoring (Draenor)
+i(0, 168835);		-- Hexweave Cloth
+i(0, 176058);		-- Secrets of Draenor Tailoring
+i(0, 168852);		-- Sumptuous Cowl
+i(0, 168854);		-- Sumptuous Leggings
+i(0, 168853);		-- Sumptuous Robes
 --- ITEM ---
 i(114863, 168847);	-- Brilliant Hexweave Cloak
 i(114866, 168850);	-- Creeping Carpet
@@ -1049,10 +1046,10 @@ i(114859, 168843);	-- Hexweave Slippers
 i(114862, 168846);	-- Nimble Hexweave Cloak
 i(114861, 168845);	-- Powerful Hexweave Cloak
 --- GARRISON ---
-i(0, 176313);	-- Inspiring Battle Standard
-i(0, 176314);	-- Fearsome Battle Standard
-i(0, 176315);	-- Inspiring Battle Standard
-i(0, 176316);	-- Fearsome Battle Standard
+i(0, 176313);		-- Inspiring Battle Standard
+i(0, 176314);		-- Fearsome Battle Standard
+i(0, 176315);		-- Inspiring Battle Standard
+i(0, 176316);		-- Fearsome Battle Standard
 --- REMOVED FIRST AID ---
 -- #if AFTER BFA
 i(0, 172539);		-- Antiseptic Bandage
@@ -1076,11 +1073,11 @@ i(127742, 187516);	-- Savage Hexweave Essence [REMOVED: 10.0.5]
 -- PATCH 7.0.3 --
 -----------------
 --- TRAINER ---
-i(0, 195126);	-- Tailoring (Legion) (REMOVED 8.0.1)
-i(0, 186097);	-- Silkweave Cover
-i(0, 186100);	-- Silkweave Drape
-i(0, 186094);	-- Silkweave Flourish
-i(0, 186091);	-- Silkweave Shade
+i(0, 195126);		-- Tailoring (Legion) [REMOVED 8.0.1]
+i(0, 186097);		-- Silkweave Cover
+i(0, 186100);		-- Silkweave Drape
+i(0, 186094);		-- Silkweave Flourish
+i(0, 186091);		-- Silkweave Shade
 --- ITEM ---
 i(137681, 220511);	-- Bloodtotem Saddle Blanket
 i(138016, 213035);	-- Clothes Chest: Dalaran Citizens
@@ -1136,31 +1133,31 @@ i(138011, 186388);	-- Silkweave Satchel
 i(137959, 185940);	-- Silkweave Slippers [Rank 2]
 i(138014, 208352);	-- Silkweave Slippers [Rank 3]
 --- QUEST ---
-i(0, 186799);	-- Basic Silkweave Robe
-i(0, 186801);	-- Embroidered Silkweave Robe
-i(0, 186803);	-- Handcrafted Silkweave Bag
-i(0, 187060);	-- Handcrafted Silkweave Hood
-i(0, 186738);	-- Handcrafted Silkweave Robe
-i(0, 185962);	-- Imbued Silkweave
-i(0, 185926);	-- Imbued Silkweave Bracers [Rank 1]
-i(0, 185931);	-- Imbued Silkweave Gloves [Rank 1]
-i(0, 185929);	-- Imbued Silkweave Pantaloons [Rank 1]
-i(0, 185933);	-- Imbued Silkweave Robe [Rank 1]
-i(0, 187066);	-- Masterwork Silkweave Bracers
-i(0, 186763);	-- Rune-Threaded Silkweave Robe
-i(0, 186764);	-- Rune-Threaded Silkweave Bracers
-i(0, 187064);	-- Silkweave Bracer Lining
-i(0, 185918);	-- Silkweave Bracers [Rank 1]
-i(0, 187065);	-- Silkweave Bracer: Outer Layer
-i(0, 185919);	-- Silkweave Cinch [Rank 1]
-i(0, 185920);	-- Silkweave Epaulets [Rank 1]
-i(0, 185923);	-- Silkweave Gloves [Rank 1]
-i(0, 187058);	-- Silkweave Hood Lining
-i(0, 185922);	-- Silkweave Hood [Rank 1]
-i(0, 187059);	-- Silkweave Hood: Outer Layer
-i(0, 185921);	-- Silkweave Pantaloons [Rank 1]
-i(0, 185925);	-- Silkweave Robe [Rank 1]
-i(0, 185924);	-- Silkweave Slippers [Rank 1]
+i(0, 186799);		-- Basic Silkweave Robe
+i(0, 186801);		-- Embroidered Silkweave Robe
+i(0, 186803);		-- Handcrafted Silkweave Bag
+i(0, 187060);		-- Handcrafted Silkweave Hood
+i(0, 186738);		-- Handcrafted Silkweave Robe
+i(0, 185962);		-- Imbued Silkweave
+i(0, 185926);		-- Imbued Silkweave Bracers [Rank 1]
+i(0, 185931);		-- Imbued Silkweave Gloves [Rank 1]
+i(0, 185929);		-- Imbued Silkweave Pantaloons [Rank 1]
+i(0, 185933);		-- Imbued Silkweave Robe [Rank 1]
+i(0, 187066);		-- Masterwork Silkweave Bracers
+i(0, 186763);		-- Rune-Threaded Silkweave Robe
+i(0, 186764);		-- Rune-Threaded Silkweave Bracers
+i(0, 187064);		-- Silkweave Bracer Lining
+i(0, 185918);		-- Silkweave Bracers [Rank 1]
+i(0, 187065);		-- Silkweave Bracer: Outer Layer
+i(0, 185919);		-- Silkweave Cinch [Rank 1]
+i(0, 185920);		-- Silkweave Epaulets [Rank 1]
+i(0, 185923);		-- Silkweave Gloves [Rank 1]
+i(0, 187058);		-- Silkweave Hood Lining
+i(0, 185922);		-- Silkweave Hood [Rank 1]
+i(0, 187059);		-- Silkweave Hood: Outer Layer
+i(0, 185921);		-- Silkweave Pantaloons [Rank 1]
+i(0, 185925);		-- Silkweave Robe [Rank 1]
+i(0, 185924);		-- Silkweave Slippers [Rank 1]
 --- REMOVED FIRST AID ---
 -- #if AFTER BFA
 i(0, 202853);		-- Silkweave Bandage
@@ -1168,13 +1165,13 @@ i(0, 202854);		-- Silkweave Splint
 -- #endif
 --- NYI ---
 i(137981, 186088);	-- Pattern: Silkweave Cloak
-i(127026, 0);	-- Imbued Silkweave Gloves [Rank 1]
-i(127024, 0);	-- Imbued Silkweave Pantaloons [Rank 1]
-i(127028, 0);	-- Imbued Silkweave Robe [Rank 1]
-i(137990, 0);	-- Silkweave Cover
-i(137993, 0);	-- Silkweave Drape
-i(137987, 0);	-- Silkweave Flourish
-i(137984, 0);	-- Silkweave Shade
+i(127026, 0);		-- Imbued Silkweave Gloves [Rank 1]
+i(127024, 0);		-- Imbued Silkweave Pantaloons [Rank 1]
+i(127028, 0);		-- Imbued Silkweave Robe [Rank 1]
+i(137990, 0);		-- Silkweave Cover
+i(137993, 0);		-- Silkweave Drape
+i(137987, 0);		-- Silkweave Flourish
+i(137984, 0);		-- Silkweave Shade
 
 -----------------
 -- PATCH 7.1.0 --
@@ -1191,7 +1188,7 @@ i(142333, 230047);	-- Feathered Luffa
 -- PATCH 7.2.0 --
 -----------------
 --- TRAINER ---
-i(0, 239412);	-- Celumbra, the Night's Dichotomy
+i(0, 239412);		-- Celumbra, the Night's Dichotomy
 
 -----------------
 -- PATCH 7.3.0 --
@@ -1200,59 +1197,59 @@ i(0, 239412);	-- Celumbra, the Night's Dichotomy
 i(151747, 247808);	-- Lightweave Breeches [Rank 2]
 i(151748, 247809);	-- Lightweave Breeches [Rank 3]
 --- QUEST ---
-i(0, 247807);	-- Lightweave Breeches [Rank 1]
+i(0, 247807);		-- Lightweave Breeches [Rank 1]
 --- NYI ---
-i(151746, 0);	-- Pattern: Lightweave Breeches [Rank 1]
+i(151746, 0);		-- Pattern: Lightweave Breeches [Rank 1]
 
 -----------------
 -- PATCH 8.0.1 --
 -----------------
-i(0, 264616);	-- Tailoring
-i(0, 264618);	-- Outland Tailoring
-i(0, 264620);	-- Northrend Tailoring
-i(0, 264622);	-- Cataclysm Tailoring
-i(0, 264624);	-- Pandaria Tailoring
-i(0, 264626);	-- Draenor Tailoring
-i(0, 264628);	-- Legion Tailoring
-i(0, 264630);	-- Kul Tiran Tailoring
-i(0, 265815);	-- Zandalari Tailoring
+i(0, 264616);		-- Tailoring
+i(0, 264618);		-- Outland Tailoring
+i(0, 264620);		-- Northrend Tailoring
+i(0, 264622);		-- Cataclysm Tailoring
+i(0, 264624);		-- Pandaria Tailoring
+i(0, 264626);		-- Draenor Tailoring
+i(0, 264628);		-- Legion Tailoring
+i(0, 264630);		-- Kul Tiran Tailoring
+i(0, 265815);		-- Zandalari Tailoring
 --- TRAINER ---
-i(0, 257134);	-- Battle Flag: Phalanx Defense [Rank 1]
-i(0, 257135);	-- Battle Flag: Phalanx Defense [Rank 2]
-i(0, 257137);	-- Battle Flag: Rallying Swiftness [Rank 1]
-i(0, 257138);	-- Battle Flag: Rallying Swiftness [Rank 2]
-i(0, 257131);	-- Battle Flag: Spirit of Freedom [Rank 1]
-i(0, 257132);	-- Battle Flag: Spirit of Freedom [Rank 2]
-i(0, 257125);	-- Deep Sea Bag [Rank 1]
-i(0, 257126);	-- Deep Sea Bag [Rank 2]
-i(0, 267202);	-- Deep Sea Bandage
-i(0, 279183);	-- Discreet Spellthread
-i(0, 257122);	-- Embroidered Deep Sea Breeches
-i(0, 257114);	-- Embroidered Deep Sea Cloak [Rank 1]
-i(0, 257115);	-- Embroidered Deep Sea Cloak [Rank 2]
-i(0, 257118);	-- Embroidered Deep Sea Gloves
-i(0, 272440);	-- Embroidered Deep Sea Satin
-i(0, 279184);	-- Feathery Spellthread
-i(0, 268983);	-- Hooked Deep Sea Net
-i(0, 269608);	-- Honorable Combatant's Satin Belt [Rank 1]
-i(0, 269599);	-- Honorable Combatant's Satin Boots [Rank 1]
-i(0, 269611);	-- Honorable Combatant's Satin Bracers [Rank 1]
-i(0, 269596);	-- Honorable Combatant's Satin Cloak [Rank 1]
-i(0, 269602);	-- Honorable Combatant's Satin Mittens [Rank 1]
-i(0, 269605);	-- Honorable Combatant's Satin Pants [Rank 1]
-i(0, 279182);	-- Resilient Spellthread
-i(0, 278414);	-- Rough-hooked Tidespray Linen
-i(0, 267201);	-- Tidespray Linen Bandage
-i(0, 257102);	-- Tidespray Linen Belt
-i(0, 257103);	-- Tidespray Linen Bracers
-i(0, 257107);	-- Tidespray Linen Cloak
-i(0, 257097);	-- Tidespray Linen Hood
-i(0, 257096);	-- Tidespray Linen Mittens
-i(0, 268982);	-- Tidespray Linen Net
-i(0, 257099);	-- Tidespray Linen Pants
-i(0, 257104);	-- Tidespray Linen Robe
-i(0, 257095);	-- Tidespray Linen Sandals
-i(0, 257101);	-- Tidespray Linen Spaulders
+i(0, 257134);		-- Battle Flag: Phalanx Defense [Rank 1]
+i(0, 257135);		-- Battle Flag: Phalanx Defense [Rank 2]
+i(0, 257137);		-- Battle Flag: Rallying Swiftness [Rank 1]
+i(0, 257138);		-- Battle Flag: Rallying Swiftness [Rank 2]
+i(0, 257131);		-- Battle Flag: Spirit of Freedom [Rank 1]
+i(0, 257132);		-- Battle Flag: Spirit of Freedom [Rank 2]
+i(0, 257125);		-- Deep Sea Bag [Rank 1]
+i(0, 257126);		-- Deep Sea Bag [Rank 2]
+i(0, 267202);		-- Deep Sea Bandage
+i(0, 279183);		-- Discreet Spellthread
+i(0, 257122);		-- Embroidered Deep Sea Breeches
+i(0, 257114);		-- Embroidered Deep Sea Cloak [Rank 1]
+i(0, 257115);		-- Embroidered Deep Sea Cloak [Rank 2]
+i(0, 257118);		-- Embroidered Deep Sea Gloves
+i(0, 272440);		-- Embroidered Deep Sea Satin
+i(0, 279184);		-- Feathery Spellthread
+i(0, 268983);		-- Hooked Deep Sea Net
+i(0, 269608);		-- Honorable Combatant's Satin Belt [Rank 1]
+i(0, 269599);		-- Honorable Combatant's Satin Boots [Rank 1]
+i(0, 269611);		-- Honorable Combatant's Satin Bracers [Rank 1]
+i(0, 269596);		-- Honorable Combatant's Satin Cloak [Rank 1]
+i(0, 269602);		-- Honorable Combatant's Satin Mittens [Rank 1]
+i(0, 269605);		-- Honorable Combatant's Satin Pants [Rank 1]
+i(0, 279182);		-- Resilient Spellthread
+i(0, 278414);		-- Rough-hooked Tidespray Linen
+i(0, 267201);		-- Tidespray Linen Bandage
+i(0, 257102);		-- Tidespray Linen Belt
+i(0, 257103);		-- Tidespray Linen Bracers
+i(0, 257107);		-- Tidespray Linen Cloak
+i(0, 257097);		-- Tidespray Linen Hood
+i(0, 257096);		-- Tidespray Linen Mittens
+i(0, 268982);		-- Tidespray Linen Net
+i(0, 257099);		-- Tidespray Linen Pants
+i(0, 257104);		-- Tidespray Linen Robe
+i(0, 257095);		-- Tidespray Linen Sandals
+i(0, 257101);		-- Tidespray Linen Spaulders
 --- ITEM ---
 i(162444, 257136);	-- Battle Flag: Phalanx Defense [Rank 3]
 i(162445, 257139);	-- Battle Flag: Rallying Swiftness [Rank 3]
@@ -1281,13 +1278,13 @@ i(162438, 269607);	-- Honorable Combatant's Satin Pants [Rank 3]
 i(162509, 257123);	-- Imbued Deep Sea Breeches
 i(162507, 257120);	-- Imbued Deep Sea Gloves
 --- NYI ---
-i(0, 257108);	-- Embroidered Deep Sea Cloak of Resilience [Rank 1]
-i(0, 257109);	-- Embroidered Deep Sea Cloak of Resilience [Rank 2]
-i(0, 257111);	-- Embroidered Deep Sea Cloak of the Feather [Rank 1]
-i(0, 257112);	-- Embroidered Deep Sea Cloak of the Feather [Rank 2]
-i(0, 257141);	-- Pet - Hot Air Balloon (DNT)
-i(0, 257105);	-- Tidespray Linen Cloak of Resilience
-i(0, 257106);	-- Tidespray Linen Cloak of the Feather
+i(0, 257108);		-- Embroidered Deep Sea Cloak of Resilience [Rank 1]
+i(0, 257109);		-- Embroidered Deep Sea Cloak of Resilience [Rank 2]
+i(0, 257111);		-- Embroidered Deep Sea Cloak of the Feather [Rank 1]
+i(0, 257112);		-- Embroidered Deep Sea Cloak of the Feather [Rank 2]
+i(0, 257141);		-- Pet - Hot Air Balloon (DNT)
+i(0, 257105);		-- Tidespray Linen Cloak of Resilience
+i(0, 257106);		-- Tidespray Linen Cloak of the Feather
 i(162426, 257110);	-- Embroidered Deep Sea Cloak of Resilience [Rank 3] [A]
 i(162771, 257110);	-- Embroidered Deep Sea Cloak of Resilience [Rank 3] [H]
 i(162424, 257113);	-- Embroidered Deep Sea Cloak of the Feather [Rank 3] [A]
@@ -1297,16 +1294,16 @@ i(162770, 257113);	-- Embroidered Deep Sea Cloak of the Feather [Rank 3] [H]
 -- PATCH 8.1.0 --
 -----------------
 --- TRAINER ---
-i(0, 287274);	-- Aqueous Alteration
-i(0, 285077);	-- Enhanced Deep Sea Breeches
-i(0, 285078);	-- Enhanced Deep Sea Gloves
-i(0, 286654);	-- Sanguinated Alteration
-i(0, 282168);	-- Sinister Combatant's Satin Belt [Rank 1]
-i(0, 282194);	-- Sinister Combatant's Satin Boots [Rank 1]
-i(0, 282164);	-- Sinister Combatant's Satin Bracers [Rank 1]
-i(0, 282204);	-- Sinister Combatant's Satin Cloak [Rank 1]
-i(0, 282191);	-- Sinister Combatant's Satin Mittens [Rank 1]
-i(0, 282175);	-- Sinister Combatant's Satin Pants [Rank 1]
+i(0, 287274);		-- Aqueous Alteration
+i(0, 285077);		-- Enhanced Deep Sea Breeches
+i(0, 285078);		-- Enhanced Deep Sea Gloves
+i(0, 286654);		-- Sanguinated Alteration
+i(0, 282168);		-- Sinister Combatant's Satin Belt [Rank 1]
+i(0, 282194);		-- Sinister Combatant's Satin Boots [Rank 1]
+i(0, 282164);		-- Sinister Combatant's Satin Bracers [Rank 1]
+i(0, 282204);		-- Sinister Combatant's Satin Cloak [Rank 1]
+i(0, 282191);		-- Sinister Combatant's Satin Mittens [Rank 1]
+i(0, 282175);		-- Sinister Combatant's Satin Pants [Rank 1]
 --- ITEM ---
 i(165655, 285085);	-- Fortified Deep Sea Breeches
 i(165652, 285086);	-- Fortified Deep Sea Gloves
@@ -1346,16 +1343,16 @@ i(167880, 6692);	-- Robes of Arcana
 -- PATCH 8.2.0 --
 -----------------
 --- TRAINER ---
-i(0, 299034);	-- Gilded Seaweave Breeches
-i(0, 299031);	-- Gilded Seaweave Gloves
-i(0, 294841);	-- Notorious Combatant's Satin Belt [Rank 1]
-i(0, 294832);	-- Notorious Combatant's Satin Boots [Rank 1]
-i(0, 294844);	-- Notorious Combatant's Satin Bracers [Rank 1]
-i(0, 294829);	-- Notorious Combatant's Satin Cloak [Rank 1]
-i(0, 294835);	-- Notorious Combatant's Satin Mittens [Rank 1]
-i(0, 294838);	-- Notorious Combatant's Satin Pants [Rank 1]
-i(0, 301409);	-- Saddlechute
-i(0, 301403);	-- Seabreeze Saddle Blanket
+i(0, 299034);		-- Gilded Seaweave Breeches
+i(0, 299031);		-- Gilded Seaweave Gloves
+i(0, 294841);		-- Notorious Combatant's Satin Belt [Rank 1]
+i(0, 294832);		-- Notorious Combatant's Satin Boots [Rank 1]
+i(0, 294844);		-- Notorious Combatant's Satin Bracers [Rank 1]
+i(0, 294829);		-- Notorious Combatant's Satin Cloak [Rank 1]
+i(0, 294835);		-- Notorious Combatant's Satin Mittens [Rank 1]
+i(0, 294838);		-- Notorious Combatant's Satin Pants [Rank 1]
+i(0, 301409);		-- Saddlechute
+i(0, 301403);		-- Seabreeze Saddle Blanket
 --- ITEM ---
 i(168784, 299036);	-- Banded Seaweave Breeches
 i(168782, 299033);	-- Banded Seaweave Gloves
@@ -1378,12 +1375,12 @@ i(168783, 299035);	-- Reinforced Seaweave Breeches
 -- PATCH 8.3.0 --
 -----------------
 --- TRAINER ---
-i(0, 304577);	-- Uncanny Combatant's Satin Belt [Rank 1]
-i(0, 304568);	-- Uncanny Combatant's Satin Boots [Rank 1]
-i(0, 304580);	-- Uncanny Combatant's Satin Bracers [Rank 1]
-i(0, 304565);	-- Uncanny Combatant's Satin Cloak [Rank 1]
-i(0, 304571);	-- Uncanny Combatant's Satin Mittens [Rank 1]
-i(0, 304574);	-- Uncanny Combatant's Satin Pants [Rank 1]
+i(0, 304577);		-- Uncanny Combatant's Satin Belt [Rank 1]
+i(0, 304568);		-- Uncanny Combatant's Satin Boots [Rank 1]
+i(0, 304580);		-- Uncanny Combatant's Satin Bracers [Rank 1]
+i(0, 304565);		-- Uncanny Combatant's Satin Cloak [Rank 1]
+i(0, 304571);		-- Uncanny Combatant's Satin Mittens [Rank 1]
+i(0, 304574);		-- Uncanny Combatant's Satin Pants [Rank 1]
 --- ITEM ---
 i(171147, 304564);	-- Eldritch Seaweave Breeches
 i(171149, 304561);	-- Eldritch Seaweave Gloves
@@ -1403,7 +1400,7 @@ i(170452, 304575);	-- Uncanny Combatant's Satin Pants [Rank 2]
 i(170453, 304576);	-- Uncanny Combatant's Satin Pants [Rank 3]
 i(174371, 304562);	-- Unsettling Seaweave Breeches
 i(174370, 304559);	-- Unsettling Seaweave Gloves
-i(0, 307175);	-- Void Focus
+i(0, 307175);		-- Void Focus
 
 -----------------
 -- PATCH 9.0.1 --

@@ -2009,7 +2009,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	prof(TAILORING, {
 		-- #if BEFORE CATA
-		prof(26798, {	-- Mooncloth Tailoring
+		prof(MOONCLOTH_TAILORING, {
 			["description"] = "These items can only be crafted by Tailorings that have completed the Becoming a Mooncloth Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 			["groups"] = {
 				i(21873),	-- Primal Mooncloth Belt
@@ -2017,7 +2017,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				i(21874),	-- Primal Mooncloth Shoulders
 			},
 		}),
-		prof(26801, {	-- Shadoweave Tailoring
+		prof(SHADOWEAVE_TAILORING, {
 			["description"] = "These items can only be crafted by Tailorings that have completed the Becoming a Shadoweave Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 			["groups"] = {
 				i(21869),	-- Frozen Shadoweave Shoulders
@@ -2025,7 +2025,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				i(21870),	-- Frozen Shadoweave Boots
 			},
 		}),
-		prof(26797, {	-- Spellfire Tailoring
+		prof(SPELLFIRE_TAILORING, {
 			["description"] = "These items can only be crafted by Tailorings that have completed the Becoming a Spellfire Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 			["groups"] = {
 				i(21846),	-- Spellfire Belt

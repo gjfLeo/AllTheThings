@@ -717,7 +717,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #endif
 						},
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = SHADOWEAVE_TAILORING,
+						["groups"] = SHADOWEAVE_TAILORING_CLASSIC,
 					}),
 				}),
 			}),

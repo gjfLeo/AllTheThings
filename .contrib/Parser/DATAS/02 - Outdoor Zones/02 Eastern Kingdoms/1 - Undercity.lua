@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					n(4578, {	-- Josephine Lister <Master Shadoweave Tailor>
 						["coord"] = { 87.0, 20.8, UNDERCITY },
 						["races"] = HORDE_ONLY,
-						["groups"] = SHADOWEAVE_TAILORING,
+						["groups"] = SHADOWEAVE_TAILORING_CLASSIC,
 					}),
 				}),
 			}),

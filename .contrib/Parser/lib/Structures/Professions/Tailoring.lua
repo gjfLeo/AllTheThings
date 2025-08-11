@@ -214,7 +214,7 @@ ARTISAN_TAILORING = {
 		r(18401),	-- Bolt of Runecloth
 	}),
 };
-SHADOWEAVE_TAILORING = {
+SHADOWEAVE_TAILORING_CLASSIC = {
 	r(12082),	-- Shadoweave Boots
 	r(12071),	-- Shadoweave Gloves
 	r(12052),	-- Shadoweave Pants

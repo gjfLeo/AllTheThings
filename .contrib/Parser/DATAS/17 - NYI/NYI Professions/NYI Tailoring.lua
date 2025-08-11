@@ -506,6 +506,22 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					-- With SpellID attached
 					i(72102),	-- Black Silk Vest (RECIPE!)
 				})),
+
+				-- #if ANYCLASSIC
+				-- 4.4.2
+				expansion(EXPANSION.CATA, patch(3,0), bubbleDownSelf({ ["timeline"] = { CREATED_4_4_2 } }, {
+					r(1224213),	-- Emberfire Belt
+					r(1224217),	-- Emberfire Boots
+					r(1224209),	-- Emberfire Bracers
+					r(1224215),	-- Emberfire Gloves
+					r(1224211),	-- Emberfire Shoulders
+					r(1224208),	-- Fireweave Belt
+					r(1224214),	-- Fireweave Boots
+					r(1224210),	-- Fireweave Bracers
+					r(1224216),	-- Fireweave Gloves
+					r(1224212),	-- Fireweave Shoulders
+				})),
+				-- #endif
 			}),
 			expansion(EXPANSION.WOD, {
 				-- 6.0.2
