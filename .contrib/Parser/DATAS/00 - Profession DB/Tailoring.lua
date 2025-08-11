@@ -368,13 +368,7 @@ i(21924, 0);		-- Runecloth Robe
 --- PATCH 2.0.1 ---
 -------------------
 --- NYI ---
-i(24315, 31461);	-- Heavy Netherweave Net
-i(0, 36670);		-- Lifeblood Belt
-i(30474, 36672);	-- Lifeblood Bracers
-i(30472, 36669);	-- Lifeblood Leggings
-i(0, 36667);		-- Netherflame Belt
-i(30471, 36668);	-- Netherflame Boots
-i(30469, 36665);	-- Netherflame Robe
+i(29120, 0);		-- Pattern: Truefaith Vestments
 
 -------------------
 --- PATCH 2.0.5 ---
@@ -496,6 +490,18 @@ i(32753, 41208);	-- Swiftheal Mantle
 i(32752, 41207);	-- Swiftheal Wraps
 
 -------------------
+--- PATCH 2.1.3 ---
+-------------------
+--- NYI ---
+i(24315, 31461);	-- Heavy Netherweave Net
+i(30473, 36670);	-- Lifeblood Belt
+i(30474, 36672);	-- Lifeblood Bracers
+i(30472, 36669);	-- Lifeblood Leggings
+i(30470, 36667);	-- Netherflame Belt
+i(30471, 36668);	-- Netherflame Boots
+i(30469, 36665);	-- Netherflame Robe
+
+-------------------
 --- PATCH 2.3.0 ---
 -------------------
 --- ITEM ---
@@ -526,6 +532,31 @@ i(38328, 50647);	-- Haliscan Pantaloons
 -------------------
 --- ITEM ---
 i(38229, 50194);	-- Mycah's Botanical Bag
+
+-------------------
+--- PATCH 3.0.1 ---
+-------------------
+--- NYI ---
+i(0, 56048);	-- Duskweave Boots
+i(42196, 0);	-- Pattern: Aurora Slippers
+i(42190, 0);	-- Pattern: Deathchill Cloak
+i(42180, 0);	-- Pattern: Ebonweave
+i(42200, 0);	-- Pattern: Ebonweave Gloves
+i(42199, 0);	-- Pattern: Ebonweave Robe
+i(42194, 0);	-- Pattern: Frostmoon Pants
+i(42186, 0);	-- Pattern: Frostweave Bag
+i(42179, 0);	-- Pattern: Green Workman's Shirt
+i(42191, 0);	-- Pattern: Hat of Wintry Doom
+i(42195, 0);	-- Pattern: Light Blessed Mittens
+i(42181, 0);	-- Pattern: Moonshroud
+i(42198, 0);	-- Pattern: Moonshroud Gloves
+i(42197, 0);	-- Pattern: Moonshroud Robe
+i(42192, 0);	-- Pattern: Silky Iceshard Boots
+i(42182, 0);	-- Pattern: Spellweave
+i(42202, 0);	-- Pattern: Spellweave Gloves
+i(42201, 0);	-- Pattern: Spellweave Robe
+i(42189, 0);	-- Pattern: Wispcloak
+i(42174, 0);	-- Pattern: Yellow Lumberjack Shirt
 
 -------------------
 --- PATCH 3.0.3 ---
@@ -618,8 +649,6 @@ i(0, 56016);	-- Wispcloak
 i(0, 45545);		-- Frostweave Bandage
 i(39152, 45546);	-- Heavy Frostweave Bandage
 -- #endif
---- NYI ---
-i(0, 56048);	-- Duskweave Boots
 
 -------------------
 --- PATCH 3.0.8 ---
@@ -668,6 +697,14 @@ i(49956, 70553);	-- Sandals of Consecration
 -------------------
 --- ITEM ---
 i(54798, 75597);	-- Frosty Flying Carpet
+
+-------------------
+--- PATCH 4.0.1 ---
+-------------------
+--- NYI ---
+i(0, 75183);	-- Unravel Embersilk Cloth
+i(0, 75143);	-- Unknown
+i(0, 75287);	-- Unknown
 
 -------------------
 --- PATCH 4.0.3 ---
@@ -743,9 +780,6 @@ i(0, 74556);		-- Embersilk Bandage
 i(0, 74558);		-- Field Bandage: Dense Embersilk
 i(0, 74557);		-- Heavy Embersilk Bandage
 -- #endif
---- NYI ---
-i(0, 75183);	-- Unravel Embersilk Cloth
-i(0, 75143);	--
 
 -------------------
 --- PATCH 4.2.0 ---
@@ -767,7 +801,6 @@ i(72003, 101922);	-- Dreamwraps of the Light
 i(72002, 101921);	-- Lavaquake Legwraps
 i(72000, 101920);	-- World Mender's Pants
 --- NYI ---
-i(0, 75287);	--
 i(72102, 102171);	-- Black Silk Vest
 
 -- #if ANYCLASSIC
@@ -974,7 +1007,21 @@ i(0, 142960);	-- White Cloud Belt
 i(0, 142951);	-- White Cloud Leggings
 
 -------------------
---- PATCH 6.0.1 ---
+--- PATCH 6.0.2 ---
+-------------------
+--- NYI ---
+i(0, 169669);	-- Hexweave Cloth
+i(114867, 168851);	-- Miniature Flying Carpet - NYI
+i(118098, 173415);	-- Murloc Chew Toy
+i(114851, 0);	-- Hexweave Cloth
+i(118226, 0);	-- Pattern: Miniature Flying Carpet
+i(120128, 0);	-- Secrets of Draenor Tailoring
+i(114868, 0);	-- Sumptuous Cowl
+i(114870, 0);	-- Sumptuous Leggings
+i(114869,0);	-- Sumptuous Robes
+
+-------------------
+--- PATCH 6.0.3 ---
 -------------------
 --- TRAINER ---
 i(0, 158758);	-- Tailoring (Draenor)
@@ -1010,15 +1057,6 @@ i(0, 176316);	-- Fearsome Battle Standard
 -- #if AFTER BFA
 i(0, 172539);		-- Antiseptic Bandage
 -- #endif
---- NYI ---
-i(114851, 168835);	-- Hexweave Cloth
-i(120128, 176058);	-- Secrets of Draenor Tailoring
-i(114868, 168852);	-- Sumptuous Cowl
-i(114870, 168854);	-- Sumptuous Leggings
-i(114869, 168853);	-- Sumptuous Robes
-i(0, 169669);	-- Hexweave Cloth
-i(114867, 168851);	-- Pattern: Miniature Flying Carpet - NYI
-i(118098, 173415);	-- Pattern: Murloc Chew Toy
 
 -------------------
 --- PATCH 6.1.0 ---
@@ -1163,6 +1201,8 @@ i(151747, 247808);	-- Lightweave Breeches [Rank 2]
 i(151748, 247809);	-- Lightweave Breeches [Rank 3]
 --- QUEST ---
 i(0, 247807);	-- Lightweave Breeches [Rank 1]
+--- NYI ---
+i(151746, 0);	-- Pattern: Lightweave Breeches [Rank 1]
 
 -----------------
 -- PATCH 8.0.1 --
@@ -1241,15 +1281,17 @@ i(162438, 269607);	-- Honorable Combatant's Satin Pants [Rank 3]
 i(162509, 257123);	-- Imbued Deep Sea Breeches
 i(162507, 257120);	-- Imbued Deep Sea Gloves
 --- NYI ---
-i(0, 257108);	-- Embroidered Deep Sea Cloak of Resilience
-i(0, 257109);	-- Embroidered Deep Sea Cloak of Resilience
-i(0, 257110);	-- Embroidered Deep Sea Cloak of Resilience
-i(0, 257111);	-- Embroidered Deep Sea Cloak of the Feather
-i(0, 257112);	-- Embroidered Deep Sea Cloak of the Feather
-i(0, 257113);	-- Embroidered Deep Sea Cloak of the Feather
+i(0, 257108);	-- Embroidered Deep Sea Cloak of Resilience [Rank 1]
+i(0, 257109);	-- Embroidered Deep Sea Cloak of Resilience [Rank 2]
+i(0, 257111);	-- Embroidered Deep Sea Cloak of the Feather [Rank 1]
+i(0, 257112);	-- Embroidered Deep Sea Cloak of the Feather [Rank 2]
 i(0, 257141);	-- Pet - Hot Air Balloon (DNT)
 i(0, 257105);	-- Tidespray Linen Cloak of Resilience
 i(0, 257106);	-- Tidespray Linen Cloak of the Feather
+i(162426, 257110);	-- Embroidered Deep Sea Cloak of Resilience [Rank 3] [A]
+i(162771, 257110);	-- Embroidered Deep Sea Cloak of Resilience [Rank 3] [H]
+i(162424, 257113);	-- Embroidered Deep Sea Cloak of the Feather [Rank 3] [A]
+i(162770, 257113);	-- Embroidered Deep Sea Cloak of the Feather [Rank 3] [H]
 
 -----------------
 -- PATCH 8.1.0 --
@@ -1443,6 +1485,7 @@ i(0, 310890);		-- Winterweave Handwraps
 i(0, 310893);		-- Winterweave Mantle
 i(0, 310892);		-- Winterweave Trousers
 i(0, 310888);		-- Winterweave Tunic
+i(183871, 0);		-- Crafter's Mark III
 
 -----------------
 -- PATCH 9.0.2 --

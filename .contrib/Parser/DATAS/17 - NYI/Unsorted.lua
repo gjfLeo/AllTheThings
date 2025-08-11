@@ -1421,8 +1421,8 @@ root(ROOTS.Unsorted, {
 				i(161903),	-- Dread Combatant's Badge \\ PH Combatant's Badge
 				i(161904),	-- Dread Combatant's Drape \\ PH Combatant's Drape
 				i(161905),	-- Dread Combatant's Cape \\ PH Combatant's Cape
-				i(161989),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of the Feather
-				i(161992),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of Resilience
+
+
 				i(162003),	-- Dread Combatant's Pummeler \\ PH Combatant's Pummeler
 				i(162014),	-- PH Gladiator's Reprieve
 				i(162015),	-- PH Gladiator's Reprieve
@@ -2087,8 +2087,8 @@ root(ROOTS.Unsorted, {
 				i(153659),	-- Glyph of (NEEDS NAME)
 				i(153660),	-- Glyph of (NEEDS NAME)
 				i(154170),	-- RE-USE ME \\ Mallet of Thunderous Skins \\ Curved Diamond Awl Blade \\ Leatherworking Tool (NEEDS NAME)
-				i(154699),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of the Feather \\ Cloth Cloak - Fall Damage Reduction (NEEDS NAME)
-				i(154702),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of Resilience \\ Cloth Cloak - Camoflage (NEEDS NAME)
+
+
 				i(154709),	-- RE-USE \\ Needle (NEEDS NAME)(DNT) \\ Needle (NEEDS NAME)
 				i(156632),	-- Silas' Stone of Transportation \\ Silus' Stone of Transportation
 				i(156633),	-- Silas' Potion of Prosperity \\ Silas' Potion of Luck \\ Silus' Potion of Luck
