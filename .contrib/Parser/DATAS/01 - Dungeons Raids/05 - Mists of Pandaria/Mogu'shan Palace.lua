@@ -5,9 +5,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(321, {	-- Mogu'shan Palace
 		["coord"] = { 80.5, 33.0, VALE_OF_ETERNAL_BLOSSOMS },
 		["maps"] = {
-			453,	-- The Crimson Assembly Hall
-			454,	-- Vaults of Kings Past
-			455,	-- Throne of Ancient Conquerors
+			MOGUSHAN_PALACE_THE_CRIMSON_ASSEMBLY_HALL,
+			MOGUSHAN_PALACE_THRONE_OF_ANCIENT_CONQUERORS,
+			MOGUSHAN_PALACE_VAULTS_OF_KINGS_PAST,
 			-- #if AFTER 10.2.7
 			1546,	-- Mogu'shan Palace (reported a lot on Remix)
 			-- #endif

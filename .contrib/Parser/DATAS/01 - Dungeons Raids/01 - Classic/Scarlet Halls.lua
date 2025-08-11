@@ -5,7 +5,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	inst(311, {	-- Scarlet Halls
 		["coord"] = { 78.0, 56.8, SCARLET_MONASTERY_ENTRANCE },
 		["timeline"] = { ADDED_5_0_4 },
-		["maps"] = { SCARLET_MONASTERY_HALLS_LEVEL1, SCARLET_MONASTERY_HALLS_LEVEL2 },
+		["maps"] = { SCARLET_HALLS_TRAINING_GROUNDS, SCARLET_HALLS_ATHENAEUM },
 		["lvl"] = lvlsquish(21, 21, 10),
 		["groups"] = {
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
@@ -23,7 +23,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						ach(7413),	-- Scarlet Halls
 						ach(7434),	-- Scarlet Halls Guild Run
 						o(212968, {	-- Ancient Tome
-							["coord"] = { 48.4, 14.6, SCARLET_MONASTERY_HALLS_LEVEL2 },
+							["coord"] = { 48.4, 14.6, SCARLET_HALLS_ATHENAEUM },
 							["groups"] = {
 								i(82469, {	-- Ancient Tome of Teleport: Dalaran (CI!)
 									["description"] = "Can be looted from a bookshelf if the boss didn't burn them.",

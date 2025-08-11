@@ -5,10 +5,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(312, {	-- Shado-Pan Monastery
 		["coord"] = { 36.8 ,47.7, KUN_LAI_SUMMIT},
 		["maps"] = {
-			443,	-- Shado-Pan Monastery
-			444,	-- Cloudstrike Dojo
-			445,	-- Snowdrift Dojo
-			446,	-- Sealed Chambers
+			SHADOPAN_MONASTERY,
+			SHADOPAN_MONASTERY_CLOUDSTRIKE_DOJO,
+			SHADOPAN_MONASTERY_SEALED_CHAMBERS,
+			SHADOPAN_MONASTERY_SNOWDRIFT_DOJO,
 		},
 		["groups"] = {
 			n(QUESTS, {

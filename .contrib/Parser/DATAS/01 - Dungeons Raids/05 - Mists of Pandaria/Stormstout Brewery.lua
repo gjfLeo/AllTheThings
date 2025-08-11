@@ -5,10 +5,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(302, {	-- Stormstout Brewery
 		["coord"] = { 36, 69, VALLEY_OF_THE_FOUR_WINDS },
 		["maps"] = {
-			439,	-- Grain Cellar
-			440,	-- Stormstout Brewhall
-			441,	-- The Great Wheel
-			442,	-- The Tasting Room
+			STORMSTOUT_BREWERY_GRAIN_CELLAR,
+			STORMSTOUT_BREWERY_STORMSTOUT_BREWHALL,
+			STORMSTOUT_BREWERY_THE_GREAT_WHEEL,
+			STORMSTOUT_BREWERY_THE_TASTING_ROOM,
 		},
 		["groups"] = {
 			n(ACHIEVEMENTS, {

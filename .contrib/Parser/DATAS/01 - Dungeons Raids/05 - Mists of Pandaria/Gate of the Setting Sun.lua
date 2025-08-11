@@ -5,8 +5,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(303, {	-- Gate of the Setting Sun
 		["coord"] = { 15.8, 74.8, VALE_OF_ETERNAL_BLOSSOMS },
 		["maps"] = {
-			437,	-- Gate of the Setting Sun
-			438,	-- Gate Watch Tower
+			GATE_OF_THE_SETTING_SUN,
+			GATE_OF_THE_SETTING_SUN_GATE_WATCH_TOWER,
 		},
 		["groups"] = {
 			n(QUESTS, {

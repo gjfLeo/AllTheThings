@@ -2498,10 +2498,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["coord"] = { 69.07, 72.96, WESTERN_PLAGUELANDS },
 		["mapID"] = SCHOLOMANCE,
 		["maps"] = {
-			-- #if ANYCLASSIC
+			-- #if AFTER MOP
+			SCHOLOMANCE_CHAMBER_OF_SUMMONING, SCHOLOMANCE_THE_UPPER_STUDY, SCHOLOMANCE_HEADMASTERS_STUDY,
+			-- #else
 			306, 307, 308, 309,
 			-- #endif
-			477, 478, 479,
 		},
 		-- #if BEFORE 4.0.3
 		["sourceQuests"] = {

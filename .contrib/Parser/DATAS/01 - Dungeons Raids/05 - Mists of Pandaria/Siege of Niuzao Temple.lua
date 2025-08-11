@@ -5,9 +5,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(324, {	-- Siege of Niuzao Temple
 		["coord"] = { 35, 82, TOWNLONG_STEPPES },
 		["maps"] = {
-			457,	-- Siege of Niuzao Temple
-			458,	-- The Hollowed Out Tree
-			459,	-- Upper Tree Ring
+			SIEGE_OF_NIUZAO_TEMPLE,
+			SIEGE_OF_NIUZAO_TEMPLE_THE_HOLLOWED_OUT_TREE,
+			SIEGE_OF_NIUZAO_TEMPLE_UPPER_TREE_RING,
 		},
 		["groups"] = {
 			n(QUESTS, {

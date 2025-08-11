@@ -5,8 +5,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 	applyclassicphase(MOP_PHASE_ONE, inst(313, {	-- Temple of the Jade Serpent
 		["coord"] = { 56.0, 57.8, THE_JADE_FOREST },
 		["maps"] = {
-			429,	-- Temple of the Jade Serpent
-			430,	-- The Scrollkeeper's Sanctum
+			TEMPLE_OF_THE_JADE_SERPENT,
+			TEMPLE_OF_THE_JADE_SERPENT_THE_SCROLLKEEPERS_SANCTUM,
 		},
 		["groups"] = {
 			n(QUESTS, {
