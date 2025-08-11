@@ -1007,6 +1007,10 @@ i(39152, 45546);	-- Heavy Frostweave Bandage
 -----------------
 --- TRAINER ---
 i(0, 195126);	-- Tailoring (Legion) (REMOVED 8.0.1)
+i(0, 186097);	-- Silkweave Cover
+i(0, 186100);	-- Silkweave Drape
+i(0, 186094);	-- Silkweave Flourish
+i(0, 186091);	-- Silkweave Shade
 --- ITEM ---
 i(137681, 220511);	-- Bloodtotem Saddle Blanket
 i(138016, 213035);	-- Clothes Chest: Dalaran Citizens
@@ -1025,20 +1029,17 @@ i(138009, 186116);	-- Imbued Silkweave Drape [Rank 2]
 i(138010, 186117);	-- Imbued Silkweave Drape [Rank 3]
 i(127023, 185928);	-- Imbued Silkweave Epaulets [Rank 1]
 i(137967, 185948);	-- Imbued Silkweave Epaulets [Rank 2]
-i(137975, 185956);	-- Imbued Silkweave Epaulets [Rank 3]
+i(137975, 185956);	-- Imbued Silkweave Epaulets [Rank 3] [Removed 8.0.1, Readded 10.0.7]
 i(127280, 186109);	-- Imbued Silkweave Flourish [Rank 1]
 i(138003, 186110);	-- Imbued Silkweave Flourish [Rank 2]
 i(138004, 186111);	-- Imbued Silkweave Flourish [Rank 3]
-i(127026, 185931);	-- Imbued Silkweave Gloves [Rank 1]
 i(137970, 185951);	-- Imbued Silkweave Gloves [Rank 2]
 i(137978, 185959);	-- Imbued Silkweave Gloves [Rank 3]
 i(127025, 185930);	-- Imbued Silkweave Hood [Rank 1]
 i(137969, 185950);	-- Imbued Silkweave Hood [Rank 2]
 i(137977, 185958);	-- Imbued Silkweave Hood [Rank 3]
-i(127024, 185929);	-- Imbued Silkweave Pantaloons [Rank 1]
 i(137968, 185949);	-- Imbued Silkweave Pantaloons [Rank 2]
 i(137976, 185957);	-- Imbued Silkweave Pantaloons [Rank 3]
-i(127028, 185933);	-- Imbued Silkweave Robe [Rank 1]
 i(137972, 185953);	-- Imbued Silkweave Robe [Rank 2]
 i(137980, 185961);	-- Imbued Silkweave Robe [Rank 3]
 i(127279, 186106);	-- Imbued Silkweave Shade [Rank 1]
@@ -1051,11 +1052,8 @@ i(137953, 185934);	-- Silkweave Bracers [Rank 2]
 i(137961, 185942);	-- Silkweave Bracers [Rank 3]
 i(137954, 185935);	-- Silkweave Cinch [Rank 2]
 i(137962, 185943);	-- Silkweave Cinch [Rank 3]
-i(137990, 186097);	-- Silkweave Cover [Rank 1]
-i(137993, 186100);	-- Silkweave Drape [Rank 1]
 i(137955, 185936);	-- Silkweave Epaulets [Rank 2]
 i(137963, 185944);	-- Silkweave Epaulets [Rank 3]
-i(137987, 186094);	-- Silkweave Flourish [Rank 1]
 i(137958, 185939);	-- Silkweave Gloves [Rank 2]
 i(138012, 208350);	-- Silkweave Gloves [Rank 3]
 i(137957, 185938);	-- Silkweave Hood [Rank 2]
@@ -1065,7 +1063,6 @@ i(138015, 208353);	-- Silkweave Pantaloons [Rank 3]
 i(137960, 185941);	-- Silkweave Robe [Rank 2]
 i(137964, 185945);	-- Silkweave Robe [Rank 3]
 i(138011, 186388);	-- Silkweave Satchel
-i(137984, 186091);	-- Silkweave Shade [Rank 1]
 i(137959, 185940);	-- Silkweave Slippers [Rank 2]
 i(138014, 208352);	-- Silkweave Slippers [Rank 3]
 --- QUEST ---
@@ -1076,6 +1073,9 @@ i(0, 187060);	-- Handcrafted Silkweave Hood
 i(0, 186738);	-- Handcrafted Silkweave Robe
 i(0, 185962);	-- Imbued Silkweave
 i(0, 185926);	-- Imbued Silkweave Bracers [Rank 1]
+i(0, 185931);	-- Imbued Silkweave Gloves [Rank 1]
+i(0, 185929);	-- Imbued Silkweave Pantaloons [Rank 1]
+i(0, 185933);	-- Imbued Silkweave Robe [Rank 1]
 i(0, 187066);	-- Masterwork Silkweave Bracers
 i(0, 186763);	-- Rune-Threaded Silkweave Robe
 i(0, 186764);	-- Rune-Threaded Silkweave Bracers
@@ -1092,7 +1092,14 @@ i(0, 185921);	-- Silkweave Pantaloons [Rank 1]
 i(0, 185925);	-- Silkweave Robe [Rank 1]
 i(0, 185924);	-- Silkweave Slippers [Rank 1]
 --- NYI ---
-i(137981, 186088);	-- Pattern: Silkweave Cloak (Guessed via Filter Recipe with SpellID)
+i(137981, 186088);	-- Pattern: Silkweave Cloak
+i(127026, 0);	-- Imbued Silkweave Gloves [Rank 1]
+i(127024, 0);	-- Imbued Silkweave Pantaloons [Rank 1]
+i(127028, 0);	-- Imbued Silkweave Robe [Rank 1]
+i(137990, 0);	-- Silkweave Cover
+i(137993, 0);	-- Silkweave Drape
+i(137987, 0);	-- Silkweave Flourish
+i(137984, 0);	-- Silkweave Shade
 
 -----------------
 -- PATCH 7.1.0 --

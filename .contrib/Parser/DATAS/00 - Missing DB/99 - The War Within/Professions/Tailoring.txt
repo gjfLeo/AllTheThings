@@ -6,18 +6,6 @@ r(75183),	-- Unravel Embersilk Cloth
 r(75287),	--
 4.3.4.15595
 r(102171),	-- Black Silk Vest
-7.3.0.24473
-r(186091),	-- Silkweave Shade
-r(186094),	-- Silkweave Flourish
-r(186097),	-- Silkweave Cover
-r(186100),	-- Silkweave Drape
-r(186738),	-- Handcrafted Silkweave Robe
-r(186803),	-- Handcrafted Silkweave Bag
-r(187064),	-- Silkweave Bracer Lining
-r(187065),	-- Silkweave Bracer: Outer Layer
-r(187066),	-- Masterwork Silkweave Bracers
-r(195126),	-- Tailoring
-r(239412),	-- Celumbra, the Night's Dichotomy
 8.0.1.25902
 r(257095),	-- Tidespray Linen Sandals \\ Tidespray Linen Boots \\ Sun-Bleached Linen Boots
 r(257096),	-- Tidespray Linen Mittens \\ Sun-Bleached Linen Mittens
