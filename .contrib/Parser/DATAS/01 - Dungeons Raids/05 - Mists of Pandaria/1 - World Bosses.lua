@@ -570,7 +570,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["description"] = "Awarded if you fail your loot roll. Usually contains gold or crafting materials. May follow your actual spec instead of loot spec, please provide more information to ATT Discord.",
 						["groups"] = {
 						--	NOTE FOR CONTRIBS: Only add items you receive to this if they are only currently obtainable from this container. The old listings on WoWHead may be inaccurate or out of date.
-						--	it's likely that the commented items drop also.  if they get confirmed, uncomment them and adjust the unobtainable filter here + in Siege of Orgrimmar
+						--	it's likely that the commented items drop also. if they get confirmed, uncomment them and adjust the unobtainable filter here + in Siege of Orgrimmar
 							i(105838),	-- Aeth's Swiftcinder Cloak Normal
 							i(105830),	-- Brave Niunai's Cloak Normal (confirmed to drop from Ordos cache on July 23, 2020)
 							i(105826),	-- Cape of the Alpha Normal (confirmed to drop from Ordos cache on July 23, 2020)
@@ -654,7 +654,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(90434),	-- Steaming Seal of Flame
 					-- Consolation Prize
 					i(90840, {	-- Marauder's Gleaming Sack of Gold
-						["description"] = "This is awarded as a consolation prize to players who do not win actual loot.  Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
+						["description"] = "This is awarded as a consolation prize to players who do not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 						-- #if BEFORE 6.0.0
 						["sym"] = {{ "select", "itemID", 95618 }},	-- Cache of Mogu Riches
 						-- #endif
@@ -929,7 +929,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 					-- Consolation Prize
 					i(90839, {	-- Cache of Sha-Touched Gold
-						["description"] = "This is awarded as a consolation prize to players who do not win actual loot.  Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
+						["description"] = "This is awarded as a consolation prize to players who do not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 						-- #if BEFORE 6.0.0
 						["sym"] = {{ "select", "itemID", 95618 }},	-- Cache of Mogu Riches
 						-- #endif

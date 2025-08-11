@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, {
 	header(HEADERS.Spell, 254763, {	-- Uuna
-		["description"] = "This secret is a prerequisite for Baa'l.  It requires having collected |cff0070d0Uuna's Doll|r, which drops from |cff883325The Many-Faced Devourer|r, a rare elite in Antoran Wastes.",
+		["description"] = "This secret is a prerequisite for Baa'l. It requires having collected |cff0070d0Uuna's Doll|r, which drops from |cff883325The Many-Faced Devourer|r, a rare elite in Antoran Wastes.",
 		["modelScale"] = 1.1,
 		["displayID"] = 76829,
 		["groups"] = {
@@ -25,14 +25,14 @@ root(ROOTS.Secrets, {
 					}),
 					q(50101, {	-- /cry at Uuna
 						["name"] = "4. /cry at Uuna",
-						["description"] = "4. Resummon Uuna and |cffffffff/cry|r at her.  She will tell you that she wishes she could see you better, but it's too dark where she is.",
+						["description"] = "4. Resummon Uuna and |cffffffff/cry|r at her. She will tell you that she wishes she could see you better, but it's too dark where she is.",
 						["sourceQuests"] = { 50098 },	-- Steps 1-4: A New Friend
 					}),
 				},
 			}),
 			q(50102, {	-- Step 5: Bright Lights
 				["name"] = "Step 5: Bright Lights",
-				["description"] = "Take Uuna to A'dal in Shattrath City.  The light of the Naaru is too bright, and she will run away.",
+				["description"] = "Take Uuna to A'dal in Shattrath City. The light of the Naaru is too bright, and she will run away.",
 				["icon"] = 134506,
 				["sourceQuests"] = { 50098 },	-- Steps 1-4: A New Friend
 				["coord"] = { 54.0, 44.7, SHATTRATH_CITY },
@@ -63,26 +63,26 @@ root(ROOTS.Secrets, {
 			}),
 			q(50106, {	-- Step 9: Flower Crown
 				["name"] = "Step 9: Flower Crown",
-				["description"] = "Take Uuna to the small campsite northwest of Path of the Light in Draenor's Shadowmoon Valley.  She will pick up the flower crown that is resting on one of the chairs around the campfire.",
+				["description"] = "Take Uuna to the small campsite northwest of Path of the Light in Draenor's Shadowmoon Valley. She will pick up the flower crown that is resting on one of the chairs around the campfire.",
 				["icon"] = 134506,
 				["sourceQuests"] = { 50105 },	-- Step 8: Shooting Stars
 				["coord"] = { 55.9, 41.1, DRAENOR_SHADOWMOON_VALLEY },
 			}),
 			q(50107, {	-- Step 10: Uuna Gets Kidnapped
 				["name"] = "Step 10: Uuna Gets Kidnapped",
-				["description"] = "Wait for a little while after Uuna picks up the flower crown.  Void tendrils will eventually erupt from the ground and take her captive.",
+				["description"] = "Wait for a little while after Uuna picks up the flower crown. Void tendrils will eventually erupt from the ground and take her captive.",
 				["icon"] = 134506,
 				["sourceQuests"] = { 50106 },	-- Step 9: Flower Crown
 			}),
 			q(50108, {	-- Step 11: Spirit Healer
 				["name"] = "Step 11: Spirit Healer",
-				["description"] = "Die and ask a Spirit Healer if they have seen Uuna.  The Spirit Healer will give you permission to enter the spirit realm to try to find her.  Resurrect (no need to do it through the Spirit Healer, just return to your corpse) and continue to the next step.",
+				["description"] = "Die and ask a Spirit Healer if they have seen Uuna. The Spirit Healer will give you permission to enter the spirit realm to try to find her. Resurrect (no need to do it through the Spirit Healer, just return to your corpse) and continue to the next step.",
 				["icon"] = 134506,
 				["sourceQuests"] = { 50107 },-- Step 10: Uuna Gets Kidnapped
 			}),
 			q(50109, {	-- Step 12: A Dark Place
 				["name"] = "Step 12: A Dark Place",
-				["description"] = "Click on the Shadow Tear in Dragonblight's Emerald Dragonshrine to look for Uuna in the spirit realm.  Once inside, do the following:\n\n1. |cffffffff/cheer|r at Uuna.\n2. Place a |cffffffffCooking Fire|r next to her.\n3. Survive the gauntlet for 3 minutes, running into the |cff883325Soul-Eaters|r to scare them away.\n4. When Uuna wraps her arms around herself and cries, |cffffffff/hug|r her.",
+				["description"] = "Click on the Shadow Tear in Dragonblight's Emerald Dragonshrine to look for Uuna in the spirit realm. Once inside, do the following:\n\n1. |cffffffff/cheer|r at Uuna.\n2. Place a |cffffffffCooking Fire|r next to her.\n3. Survive the gauntlet for 3 minutes, running into the |cff883325Soul-Eaters|r to scare them away.\n4. When Uuna wraps her arms around herself and cries, |cffffffff/hug|r her.",
 				["icon"] = 134506,
 				["sourceQuests"] = { 50108 },	-- Step 11: Spirit Healer
 				["provider"] = { "o", 280747 },	-- Shadow Tear

@@ -138,7 +138,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						pet(1572),	-- Brilliant Bloodfeather (PET!)
 						pet(1589, {	-- Crimsonwing Moth (PET!)
-							["description"] = "Only one is up at a time.  Once captured or killed, it immediately respawns.",
+							["description"] = "Only one is up at a time. Once captured or killed, it immediately respawns.",
 							["coords"] = {
 								{ 32.4, 63.6, TALADOR },
 								{ 37.0, 63.8, TALADOR },

@@ -252,7 +252,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					})),
 					n(SPECIAL, {
 						n(179096, {	-- Sly
-							["description"] = "Speak to Orator Kloe and tell her you will help find the missing Vulpin.  Follow the footprints and reassure Sly 3 times (over the course of 3 Kyrian Assaults) to earn the achievement and pet.",
+							["description"] = "Speak to Orator Kloe and tell her you will help find the missing Vulpin. Follow the footprints and reassure Sly 3 times (over the course of 3 Kyrian Assaults) to earn the achievement and pet.",
 							["crs"] = { 179068 },	-- Orator Kloe
 							["coord"] = { 42.1, 44.5, THE_MAW },	-- Orator Kloe
 							["questID"] = 64019,
@@ -447,7 +447,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						i(186602, {	-- Quartered Ancient Ring
-							["description"] = "Mad Maw Construct will spawn in or around Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r.  Once it spawns, you have a short amount of time to kill it before it despawns.",
+							["description"] = "Mad Maw Construct will spawn in or around Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r. Once it spawns, you have a short amount of time to kill it before it despawns.",
 							["crs"] = { 179601 },	-- Mad Maw Construct
 							["coords"] = {
 								{ 27.0, 57.0, THE_MAW },

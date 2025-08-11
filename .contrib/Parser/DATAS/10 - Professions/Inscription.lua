@@ -1009,7 +1009,7 @@ GLYPH_OF_FLASH_OF_LIGHT_AND_WORD_OF_GLORY = r(57026, {	-- Glyph of Flash of Ligh
 });
 GLYPH_OF_FLICKERING = r(225551, {	-- Glyph of Flickering
 	["name"] = "Glyph of Flickering",
-	["description"] = "Currently this Technique can only be learned by Shaman's.   We suggest submitting a bug report to Blizzard to have it usuable by all scribes like the other techniques.",
+	["description"] = "Currently this Technique can only be learned by Shaman's. We suggest submitting a bug report to Blizzard to have it usuable by all scribes like the other techniques.",
 	["classes"] = { SHAMAN },
 	["timeline"] = { ADDED_7_0_3 },
 });

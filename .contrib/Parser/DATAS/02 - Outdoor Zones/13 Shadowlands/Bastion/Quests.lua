@@ -929,7 +929,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 54.7, 41.1, BASTION },
 				}),
 				q(60296, {	-- Pride or Unit (Nemea - Larion)
-					["sourceQuests"] = {	-- requires completion of both chains.  both quests are available, it's just which NPC you want to pick it up from/which one you're nearest
+					["sourceQuests"] = {	-- requires completion of both chains. both quests are available, it's just which NPC you want to pick it up from/which one you're nearest
 						58042,	-- On Larion Wings
 						57937,	-- Tactical Formation
 					},
@@ -937,7 +937,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 57.2, 39.2, BASTION },
 				}),
 				q(58103, {	-- Pride or Unit (Pelodis - Phalynx)
-					["sourceQuests"] = {	-- requires completion of both chains.  both quests are available, it's just which NPC you want to pick it up from/which one you're nearest
+					["sourceQuests"] = {	-- requires completion of both chains. both quests are available, it's just which NPC you want to pick it up from/which one you're nearest
 						58042,	-- On Larion Wings
 						57937,	-- Tactical Formation
 					},

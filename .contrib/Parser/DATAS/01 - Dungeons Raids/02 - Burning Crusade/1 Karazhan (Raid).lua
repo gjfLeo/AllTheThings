@@ -841,7 +841,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						},
 					}),
 					n(17534, {	-- Julianne [Romulo and Julianne]
-						["lore"] = "Julianne will appear first alone.  After she is defeated, Romulo will join the fight. After you dispatch, they will both rise and begin the fight again.",
+						["lore"] = "Julianne will appear first alone. After she is defeated, Romulo will join the fight. After you dispatch, they will both rise and begin the fight again.",
 						["crs"] = {
 							17533,	-- Romulo
 						},

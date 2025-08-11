@@ -439,7 +439,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 					["isDaily"] = true,
 				}),
 				q(11081, {	-- The Great Murkblood Revolt
-					["description"] = "The plans can be found inside Sludge-Covered Object, looted from Black Bloods inside the mines.  You must be at least Friendly with Netherwing to loot them.",
+					["description"] = "The plans can be found inside Sludge-Covered Object, looted from Black Bloods inside the mines. You must be at least Friendly with Netherwing to loot them.",
 					["provider"] = { "i", 32726 },	-- Murkblood Escape Plans
 					["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
 				}),

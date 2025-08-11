@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(ANTORAN_WASTES, {
 		n(QUESTS, {
 			q(49007, {	-- Commander on Deck!
-				["description"] = "Collect all four parts from mobs near the Terminus, and combine them to repair the Portal Generator.  This allows you to summon Squadron Commander Vishax.",
+				["description"] = "Collect all four parts from mobs near the Terminus, and combine them to repair the Portal Generator. This allows you to summon Squadron Commander Vishax.",
 				["provider"] = { "i", 152965 },	-- Vishax's Portal Generator
 				["cost"] = {
 					{ "i", 152890, 1 },	-- Smashed Portal Generator

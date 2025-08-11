@@ -198,7 +198,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(349796, {	-- Gilded Plum Chest
-				["description"] = "There is a Greedy Soul that wanders up and down the road.  Kill it, and it will drop the treasure.",
+				["description"] = "There is a Greedy Soul that wanders up and down the road. Kill it, and it will drop the treasure.",
 				["crs"] = { 166680 },	-- Greedy Soul
 				["coord"] = { 75.2, 56.1, REVENDRETH },
 				["questID"] = 59887,
@@ -397,7 +397,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(358318, {	-- R. Suavel Dredger Portrait
-				["description"] = "Take the mirror portal in Thornhill Manor at |cFFFFFFFF58.8, 30.3|r.  Once inside Redelav Tower, head all the way to the top floor.  The portrait is on a small table at |cFFFFFFFF58.0, 27.8|r.",
+				["description"] = "Take the mirror portal in Thornhill Manor at |cFFFFFFFF58.8, 30.3|r. Once inside Redelav Tower, head all the way to the top floor. The portrait is on a small table at |cFFFFFFFF58.0, 27.8|r.",
 				["coords"] = {
 					{ 58.8, 30.3, REVENDRETH },	-- Mirror entrance
 					{ 58.0, 27.8, REVENDRETH },	-- Actual object
@@ -461,7 +461,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 59885,
 			}),
 			o(351487, {	-- Secret Treasure
-				["description"] = "Find the small alcove at |cFFFFFFFF65.7, 42.9|r.  On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r.  Click it to open up a secret passage beneath the rug.  To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
+				["description"] = "Find the small alcove at |cFFFFFFFF65.7, 42.9|r. On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r. Click it to open up a secret passage beneath the rug. To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
 				["coord"] = { 66.5, 42.8, REVENDRETH },
 				["questID"] = 60197,
 				["isDaily"] = true,	-- repeatable??
@@ -485,7 +485,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351541, {	-- Secret Treasure
-				["description"] = "Enter the crypt at |cFFFFFFFF41.9, 50.0|r.  Downstairs, go through the right-hand door.  On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r.  Click the book, and the treasure will appear.",
+				["description"] = "Enter the crypt at |cFFFFFFFF41.9, 50.0|r. Downstairs, go through the right-hand door. On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r. Click the book, and the treasure will appear.",
 				["coord"] = { 42.5, 50.3, REVENDRETH },
 				["questID"] = 60198,
 				["isDaily"] = true,
@@ -497,7 +497,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351542, {	-- Secret Treasure
-				["description"] = "Destroy the |cFFFFFFFFCracked Crate|r in the small alcove at |cFFFFFFFF74.6, 62.6|r.  Turn the |cFFFFFFFFHidden Valve|r found inside, and find the treasure in the hidden chamber that opens up in the floor.",
+				["description"] = "Destroy the |cFFFFFFFFCracked Crate|r in the small alcove at |cFFFFFFFF74.6, 62.6|r. Turn the |cFFFFFFFFHidden Valve|r found inside, and find the treasure in the hidden chamber that opens up in the floor.",
 				["coord"] = { 74.0, 61.9, REVENDRETH },
 				["questID"] = 60199,
 				["isDaily"] = true,
@@ -511,7 +511,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351543, {	-- Secret Treasure
-				["description"] = "Do not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r.  Clicking the chain will pull you up to the tiny alcove above the treasure.  Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
+				["description"] = "Do not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r. Clicking the chain will pull you up to the tiny alcove above the treasure. Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
 				["crs"] = { 169865 },	-- Treasure Guardian <House Grinchin>
 				["coord"] = { 50.2, 49.0, REVENDRETH },
 				["isDaily"] = true,
@@ -523,7 +523,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351544, {	-- Secret Treasure
-				["description"] = "Enter the crypt at |cFFFFFFFF55.2, 34.7|r.  Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door.  The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure.  There are two more Venthyr guarding the chest.",
+				["description"] = "Enter the crypt at |cFFFFFFFF55.2, 34.7|r. Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door. The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure. There are two more Venthyr guarding the chest.",
 				["coord"] = { 55.3, 35.9, REVENDRETH },
 				["questID"] = 60201,
 				["isDaily"] = true,
@@ -540,7 +540,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351545, {	-- Secret Treasure
-				["description"] = "Lord Scowl is imprisoned in a cage next to the treasure.  Pick up a book from a nearby fallen cage, climb up the tree, give the book to Lord Scowl, and he will kick the treasure down to the ground for you.",
+				["description"] = "Lord Scowl is imprisoned in a cage next to the treasure. Pick up a book from a nearby fallen cage, climb up the tree, give the book to Lord Scowl, and he will kick the treasure down to the ground for you.",
 				["crs"] = { 169993 },	-- Lord Scowl
 				["provider"] = { "i", 180220 },	-- Historical Treatise
 				["coord"] = { 27.7, 48.7, REVENDRETH },

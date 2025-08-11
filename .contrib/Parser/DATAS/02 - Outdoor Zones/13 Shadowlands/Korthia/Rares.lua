@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180042, {	-- Fleshwing
-				["description"] = "Help Cadaverous, Dregs, and Lurik burn necromancers' corpses until they summon the rare.\n\nRequires a |cFF40bf40Necrolord|r to start.  When the event begins, there is a zonewide announcement: |cFFf73f3fCadaverous yells: Search every crevice for the necromancers' corpses!|r",
+				["description"] = "Help Cadaverous, Dregs, and Lurik burn necromancers' corpses until they summon the rare.\n\nRequires a |cFF40bf40Necrolord|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fCadaverous yells: Search every crevice for the necromancers' corpses!|r",
 				["crs"] = {
 					180079,	-- Cadaverous
 					180064,	-- Corpse Heap
@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179472, {	-- Konthrogz the Obliterator
-				["description"] = "Can spawn next to other rares when they die.  Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A massive devourer tears an opening into Korthia.|r",
+				["description"] = "Can spawn next to other rares when they die. Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A massive devourer tears an opening into Korthia.|r",
 				["crs"] = { 179464 },	-- Devouring Tear
 				["questID"] = 64246,
 				["groups"] = {
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179684, {	-- Malbog
-				["description"] = "Speak to Caretaker Kah-Kay at Keeper's Respite to enlist the help of Kah-Bear.  Follow the footprints all the way to your prey, and summon it by clicking on the |cFFFFFFFFFleshy Remains|r.",
+				["description"] = "Speak to Caretaker Kah-Kay at Keeper's Respite to enlist the help of Kah-Bear. Follow the footprints all the way to your prey, and summon it by clicking on the |cFFFFFFFFFleshy Remains|r.",
 				["crs"] = { 179729 },	-- Caretaker Kah-Kay
 				["coords"] = {
 					{ 60.6, 23.1, KORTHIA },
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179985, {	-- Stygian Stonecrusher
-				["description"] = "Speak to Drippy, and then defend the NPCs as they repair the Broken Gatecrasher.\n\nRequires a |cFFfe040fVenthyr|r to start.  When the event begins, there is a zonewide announcement: |cFFf73f3fDrippy yells: For Sinfall!|r",
+				["description"] = "Speak to Drippy, and then defend the NPCs as they repair the Broken Gatecrasher.\n\nRequires a |cFFfe040fVenthyr|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fDrippy yells: For Sinfall!|r",
 				["crs"] = {
 					179974,	-- Drippy
 					179969,	-- Broken Gatecrasher [Vignette]
@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179760, {	-- Towering Exterminator
-				["description"] = "Can spawn next to other rares when they die.  Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A powerful mawsworn opens a portal into Korthia.|r",
+				["description"] = "Can spawn next to other rares when they die. Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A powerful mawsworn opens a portal into Korthia.|r",
 				["crs"] = {
 					179759,	-- Mawsworn Portal [Vignette]
 				},
@@ -174,7 +174,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180162, {	-- Ve'rayn
-				["description"] = "Click on the |cFFFFFFFFPlanted Veilstaff|r and answer Ve'rayn's questions.  Eventually, she will attack.",
+				["description"] = "Click on the |cFFFFFFFFPlanted Veilstaff|r and answer Ve'rayn's questions. Eventually, she will attack.",
 				["coords"] = {
 					{ 32.5, 43.0, KORTHIA },
 					{ 43.3, 57.7, KORTHIA },	-- cave entrance
@@ -190,7 +190,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180032, {	-- Wild Worldcracker
-				["description"] = "Escort Popo as she helps all her friends, and eventually she will summon the rare.  She patrols from east to west.\n\nRequires a |cFF516bfeKyrian|r to start.  When the event begins, there is a zonewide announcement: |cFFf73f3fPopo yells: Help is on the way, friends!|r",
+				["description"] = "Escort Popo as she helps all her friends, and eventually she will summon the rare. She patrols from east to west.\n\nRequires a |cFF516bfeKyrian|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fPopo yells: Help is on the way, friends!|r",
 				["crs"] = { 180028 },	-- Popo
 				["coords"] = {
 					{ 56.8, 32.6, KORTHIA },	-- start

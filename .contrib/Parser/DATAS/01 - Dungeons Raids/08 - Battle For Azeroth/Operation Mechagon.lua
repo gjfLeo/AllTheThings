@@ -487,7 +487,7 @@ appendAllGroups(SeasonDifficultyGroups, {
 			BossOnly(KUJO, {
 				-- Not entirely sure how this version is obtainable if at all during Seasons... so we will assume it isn't and see if any report
 				i(168970, {	-- Trashmaster's Mantle
-					["description"] = "Equipping this cloak gives you a temporary Trashmaster title.  To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
+					["description"] = "Equipping this cloak gives you a temporary Trashmaster title. To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
 					["timeline"] = TIMELINE_UNAVAILABLE_MYTHICPLUS,
 				}),
 			}),
@@ -515,7 +515,7 @@ appendAllGroups(SeasonDifficultyGroups, {
 				BossOnly(KUJO, {
 					-- Not entirely sure how this version is obtainable if at all during Seasons... so we will assume it isn't and see if any report
 					i(168970, {	-- Trashmaster's Mantle
-						["description"] = "Equipping this cloak gives you a temporary Trashmaster title.  To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
+						["description"] = "Equipping this cloak gives you a temporary Trashmaster title. To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
 						["timeline"] = TIMELINE_UNAVAILABLE_MYTHICPLUS,
 					}),
 				}),
@@ -626,7 +626,7 @@ local INSTANCE_GROUPS = {
 	}),
 	Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 		ach(13789, {	-- Hertz Locker
-			["description"] = "After completing the achievement, speak to Prince Erazmin on Mechagon Island to get the essence.  You must already have the Rank 3 version.",
+			["description"] = "After completing the achievement, speak to Prince Erazmin on Mechagon Island to get the essence. You must already have the Rank 3 version.",
 			["u"] = REMOVED_FROM_GAME,
 			["groups"] = {
 				i(168845, {	-- Mecha-Perfection Turbo (Rank 4)

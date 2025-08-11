@@ -163,7 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				},
 			}),
 			n(SCENARIO_COMPLETION, {
-				["description"] = "You can only receive each tier of gear rewards once per week.  Ex. Completing multiple 5 mask runs rewards the next lower tier reward each time.  After all tier rewards are looted for the week no more gear is given.",
+				["description"] = "You can only receive each tier of gear rewards once per week. Ex. Completing multiple 5 mask runs rewards the next lower tier reward each time. After all tier rewards are looted for the week no more gear is given.",
 				["crs"] = {
 					152718,	-- Alleria Windrunner
 					152089,	-- Thrall
@@ -276,7 +276,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 					}),
 					n(158284, {	-- Craggle Wobbletop <Toys and Novelties>
-						["description"] = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required.  You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
+						["description"] = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required. You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
 						["coords"] = {
 							{ 58.4, 77.2, HORRIFIC_STORMWIND },
 							{ 56.6, 67.6, HORRIFIC_STORMWIND },
@@ -286,7 +286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["groups"] = { i(174926) },	-- Overly Sensitive Void Spectacles (TOY!)
 					}),
 					i(174928, {	-- Rotten Apple (TOY!)
-						["description"] = "Repeatedly click the bouncing apples at the coordinates provided.  Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
+						["description"] = "Repeatedly click the bouncing apples at the coordinates provided. Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
 						["coords"] = {
 							{ 57.0, 55.0, HORRIFIC_STORMWIND },
 							{ 60.0, 58.0, HORRIFIC_STORMWIND },
@@ -296,7 +296,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					o(343698, {	-- Void-Touched Skull
-						["description"] = "Behind the orphanage in Cathedral Square.  It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
+						["description"] = "Behind the orphanage in Cathedral Square. It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
 						["coord"] = { 58.9, 52.9, HORRIFIC_STORMWIND },
 						["groups"] = {
 							i(174921, {	-- Void-Touched Skull (TOY!)

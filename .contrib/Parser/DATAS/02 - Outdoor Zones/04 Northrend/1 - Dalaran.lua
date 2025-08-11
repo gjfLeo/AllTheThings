@@ -1501,7 +1501,7 @@ root(ROOTS.Zones, {
 					prof(TAILORING, {
 						n(28699, {	-- Charles Worth <Tailoring Trainer>
 							-- #if AFTER 6.2.2
-							["description"] = "You can now learn these recipes even if the achievements have been completed on a different character.  If your tailor isn't your main, rejoice!  Just speak to Charles Worth and tell him you're ready to learn the patterns.",
+							["description"] = "You can now learn these recipes even if the achievements have been completed on a different character. If your tailor isn't your main, rejoice!  Just speak to Charles Worth and tell him you're ready to learn the patterns.",
 							-- #endif
 							["coord"] = { 36.3, 33.4, NORTHREND_DALARAN },
 							["requireSkill"] = TAILORING,
@@ -3566,7 +3566,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(35826, {	-- Kaye Toogie
-						["description"] = "When using |cff0070ddWormhole Generator: Northrend|r, you have a chance to receive the option 'Underground...,' which ports you to the vendor.  You must have Engineering to use the toy.",
+						["description"] = "When using |cff0070ddWormhole Generator: Northrend|r, you have a chance to receive the option 'Underground...,' which ports you to the vendor. You must have Engineering to use the toy.",
 						["requireSkill"] = ENGINEERING,
 						["groups"] = {
 							i(16054, {	-- Schematic: Arcanite Dragonling (RECIPE!)

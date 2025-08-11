@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["coord"] = { 77.8, 40.0, MECHAGON },
 				["races"] = ALLIANCE_ONLY,
 				["isDaily"] = true,
-			--	don't know if there are SQs or a reputation requirement.  i was at 2,500 Honored and this quest was up as a daily when i flew to the island.
+			--	don't know if there are SQs or a reputation requirement. i was at 2,500 Honored and this quest was up as a daily when i flew to the island.
 			}),
 			q(56334, {	-- Bots Gone Wild
 				["provider"] = { "n", 154655 },	-- Tyler Swaptech
@@ -216,7 +216,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56410, {	-- Discs of Norgannon
-				["description"] = "The |cFF0070ddCorrupted Data Disc|r is the quest item for Discs of Norgannon, but on the day the quest is up you can loot the other four items.  They each have a daily cooldown, so you can use them to summon 4 Data Anomalies, abandon the quests, and use the items again the next day.\n\nIf the disc can summon more than one Data Anomaly, they share a daily lockout and you can only loot one of the two each day.\n",
+				["description"] = "The |cFF0070ddCorrupted Data Disc|r is the quest item for Discs of Norgannon, but on the day the quest is up you can loot the other four items. They each have a daily cooldown, so you can use them to summon 4 Data Anomalies, abandon the quests, and use the items again the next day.\n\nIf the disc can summon more than one Data Anomaly, they share a daily lockout and you can only loot one of the two each day.\n",
 				["provider"] = { "n", 154982 },	-- Archivist Bitbyte
 				["coord"] = { 72.0, 36.5, MECHAGON },
 				["isDaily"] = true,
@@ -1364,7 +1364,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(56238),	-- Triggered in the alternative world
 				--q(56742),	-- Blueprint: Black Market Radio?
 				q(56089),	-- triggered on first rare kill — possibly blueprint looting?
-				q(56506),	-- triggered on third rare kill — was Mr. Fixthis for me, but someone else had it trigger on Arachnoid Harvester.  looted Performant Refined Logic Board and a Chain Ignitercoil
+				q(56506),	-- triggered on third rare kill — was Mr. Fixthis for me, but someone else had it trigger on Arachnoid Harvester. looted Performant Refined Logic Board and a Chain Ignitercoil
 				q(55848),	-- Reclamation Rig hardmode — putting here because with both quests attached with altQuests it doesn't roll over like dailies should
 
 				q(56713),	-- seems to trigger on every Rusty Prince kill, along with 56182
@@ -1376,7 +1376,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(57134),	-- First Recycling Requisition of the week (contains Azeroth Mini Pack: Bondo's Yard)
 				q(56004),	-- looting Energy Cell while on the quest "We Can Fix It"
 				q(55495),	-- repelling HK-8 Aerial Oppression Unit during "Send My Father a Message"
-				q(55623),	-- Seems to trigger after completion of the WQ zone daily.  Mechanized chests and Rustbolt Rebellion WQ confirmed triggering this.
+				q(55623),	-- Seems to trigger after completion of the WQ zone daily. Mechanized chests and Rustbolt Rebellion WQ confirmed triggering this.
 				q(56330),	-- Triggered shortly after completing "Chopped Bots". Possibly shuts down the magnet?
 				q(56660),	-- Triggered on Mechagon randomly
 				q(56840),	-- Toys of Destruction - made the Volatile Blaster. Maybe triggers for all the toys to indicate the toy extra action button is available?

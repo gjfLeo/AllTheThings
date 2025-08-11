@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = {
 					49803,	-- Changing of the Guard
 					49804,	-- Sharp Thinking
-					-- Definitely requires "Changing of the Guard;" may not require others.  Needs confirmation.
+					-- Definitely requires "Changing of the Guard;" may not require others. Needs confirmation.
 					-- Awarded "A New Order" criteria.
 				},
 				["provider"] = { "n", 129642 },	-- Lucille Waycrest
@@ -460,7 +460,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 130933 },	-- Inquisitor Cleardawn
 				["coord"] = { 36.5, 61.3, DRUSTVAR },	-- may change if the stones aren't always in the same order?
 				["races"] = ALLIANCE_ONLY,
-				-- Awarded "Clear Victory" criteria.  Presumably this should be awarded by the "Clear Victory" quest, but "Drustfall" must also be required for the criteria.
+				-- Awarded "Clear Victory" criteria. Presumably this should be awarded by the "Clear Victory" quest, but "Drustfall" must also be required for the criteria.
 				["groups"] = {
 					i(158581),	-- Shimmering Quicksilver Drape
 					i(155573),	-- Rowanwood Loop
@@ -633,7 +633,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 48941 },	-- A Slight Detour
 				["provider"] = {"i",159748},	-- Rune-Etched Bone
 				["races"] = ALLIANCE_ONLY,
-				-- Needs confirmation -- the quest didn't auto-pop and I didn't notice the item in my bags until later.  This source is based on a wowhead comment.
+				-- Needs confirmation -- the quest didn't auto-pop and I didn't notice the item in my bags until later. This source is based on a wowhead comment.
 				-- Not required for "Drust Do It."
 				["groups"] = {
 					i(159746),	-- Pristine Rune-Etched Bone (QI!)
@@ -665,7 +665,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					50329,	-- Matrons of the Crimsonwood
 					50325,	-- Stopping the Grand Rite
 					50530,	-- Witch Way Out
-					-- Definitely requires "Matrons of the Crimsonwood;" may not require others.  Needs confirmation.
+					-- Definitely requires "Matrons of the Crimsonwood;" may not require others. Needs confirmation.
 				},
 				["provider"] = { "n", 133098 },	-- Inquisitor Cleardawn
 				["coord"] = { 24.5, 56.6, DRUSTVAR },
@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = {
 					51020,	-- Cutthroat Business Practices
 					51019,	-- She's Got it Where it Counts
-					-- Definitely requires Cutthroat Business Practices; may not require other.  Needs confirmation.
+					-- Definitely requires Cutthroat Business Practices; may not require other. Needs confirmation.
 				},
 				["provider"] = { "n", 136234 },	-- Cesi Loosecannon
 				["coord"] = { 20.6, 46.1, DRUSTVAR },
@@ -1117,7 +1117,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 126210 },	-- Caretaker Allen
 				["coord"] = { 62.5, 42.9, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
-				-- May have additional sourceQuests; needs confirmation.  Picked up after turning in "And Justice For All."
+				-- May have additional sourceQuests; needs confirmation. Picked up after turning in "And Justice For All."
 				-- Not required for "Drust Do It."
 				["groups"] = {
 					i(152480),	-- Gravebloom (QI!)
@@ -1197,7 +1197,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					50585,	-- Hexecutioner
 					50584,	-- Ruinous Rituals
 					50583,	-- To the Other Side
-					-- Definitely requires Hexecutioner; may not require others.  Needs confirmation.
+					-- Definitely requires Hexecutioner; may not require others. Needs confirmation.
 					-- Awarded "Storming the Manor" criteria.
 				},
 				["provider"] = { "n", 131638 },	-- Lucille Waycrest
@@ -1268,7 +1268,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 48622 },	-- The Vanishing Lord
 				["provider"] = { "n", 121603 },	-- Abby Lewis
 				["coord"] = { 54.4, 39.3, DRUSTVAR },
-				-- May have additional sourceQuests; needs confirmation.  Picked up after turning in "And Justice For All."
+				-- May have additional sourceQuests; needs confirmation. Picked up after turning in "And Justice For All."
 				-- Not required for "Drust Do It."
 				["groups"] = {
 					i(154875),	-- Mayor Striggs (QI!)
@@ -1611,7 +1611,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = {"o",292523},	-- Wanted Poster
 				["coord"] = { 41.2, 40.9, DRUSTVAR },
 				["races"] = ALLIANCE_ONLY,
-				-- May have additional sourceQuests; needs confirmation.  Picked up after turning in "The Order of Embers."
+				-- May have additional sourceQuests; needs confirmation. Picked up after turning in "The Order of Embers."
 				-- Not required for "Drust Do It."
 			}),
 			q(51240, {	-- WANTED: Anchorface

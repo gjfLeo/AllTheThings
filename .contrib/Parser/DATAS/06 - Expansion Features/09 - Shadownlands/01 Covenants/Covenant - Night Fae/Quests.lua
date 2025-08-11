@@ -234,7 +234,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 160262 },	-- Ysera
 				["coord"] = { 44.6, 39.0, THE_TRUNK },
 				-- TODO: figure out sourceQuests. This quest just randomly showed up for me after daily reset on a Saturday.
-				-- i *think* this requires doing "their new home" and then waiting for a daily (or weekly?) reset.  it was the last campaign quest i did, and the next day (which was a weekly reset day) this quest was there
+				-- i *think* this requires doing "their new home" and then waiting for a daily (or weekly?) reset. it was the last campaign quest i did, and the next day (which was a weekly reset day) this quest was there
 			}),
 
 			-- currently in order of the chapters / quest sequence, will alphabetize after verifying all

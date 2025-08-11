@@ -1352,7 +1352,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["provider"] = { "n", 154297 },	-- Bladesman Inowari
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
-				i(169917),	-- Mysterious Azshari Chest (contained 1 stranged mineralized water, 2 battle-scarred augment runes, 16 gilded seaweave, 8 prismatic manapearls, and 115 war resources.  not sure if rewards are static or just "uhhh [throws random crafting materials/currency at you]"
+				i(169917),	-- Mysterious Azshari Chest (contained 1 stranged mineralized water, 2 battle-scarred augment runes, 16 gilded seaweave, 8 prismatic manapearls, and 115 war resources. not sure if rewards are static or just "uhhh [throws random crafting materials/currency at you]"
 			},
 		}),
 		q(56786, {	-- Naga Treasure
@@ -2168,7 +2168,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56830, {	-- Summons from the Deep
-			["description"] = "This event takes place every 3 hours (based on realm time, it starts at 3:00, 6:00, 9:00, and 12:00 for NA realms; 1:00, 4:00, 7:00, and 10:00 for EU realms).  A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
+			["description"] = "This event takes place every 3 hours (based on realm time, it starts at 3:00, 6:00, 9:00, and 12:00 for NA realms; 1:00, 4:00, 7:00, and 10:00 for EU realms). A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
 			["coords"] = {
 				{ 48.5, 40.4, NAZJATAR },
 				{ 58.2, 28.7, NAZJATAR },
@@ -3015,34 +3015,34 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			--	Akana
 			--	Inowari
 			--	Neri
-			q(56521),	-- "If I'd been put on one of these work crews, I might have never broken free.  The people here haven't been broken yet.  There's still a chance..."
-			q(56543),	-- "Like this place?  Vim named it.  He thinks you should always keep something in your pocket that the enemy won't expect."
+			q(56521),	-- "If I'd been put on one of these work crews, I might have never broken free. The people here haven't been broken yet. There's still a chance..."
+			q(56543),	-- "Like this place?  Vim named it. He thinks you should always keep something in your pocket that the enemy won't expect."
 			q(56663),	-- "What choice would I have made... to save our people?"
-			q(56664),	-- "We need to be careful down here.  The locals are definitely not friendly."
+			q(56664),	-- "We need to be careful down here. The locals are definitely not friendly."
 			q(56668),	-- "Kelp grass is one of our most useful resources here in Nazjatar."
 			q(56669),	-- "The tamed snapdragons aren't producing venom anymore. Our only way to harvest it is from the wild packs roaming here."
 			q(56673),	-- "How can a place so horrible still be this beautiful?  One day soon, this chamber will be empty."
-			q(56674),	-- "Someday we won't have to think of ourselves as shackled or Unshackled.  We'll all just... be free."
-			q(56675),	-- "Have you seen the ankoan?  Impressive fighters, but a bit standoffish.  Too bad.  We'd be stronger together!"
-			q(56676),	-- "When it looked like we were done for, Gral found us.  He was angry at the naga, just like we were.  He's a good friend."
+			q(56674),	-- "Someday we won't have to think of ourselves as shackled or Unshackled. We'll all just... be free."
+			q(56675),	-- "Have you seen the ankoan?  Impressive fighters, but a bit standoffish. Too bad. We'd be stronger together!"
+			q(56676),	-- "When it looked like we were done for, Gral found us. He was angry at the naga, just like we were. He's a good friend."
 			q(56679),	-- "One day, there will be no more shackles."
-			q(56680),	-- "It's hard to imagine what we'll do once we don't have to fight to survive.  I look forward to figuring that out."
-			q(56681),	-- "The ocean provides for us.  We take what we find and put it to use.  Might not always be pretty, but it gets the job done."
+			q(56680),	-- "It's hard to imagine what we'll do once we don't have to fight to survive. I look forward to figuring that out."
+			q(56681),	-- "The ocean provides for us. We take what we find and put it to use. Might not always be pretty, but it gets the job done."
 			--	Ori
 			--	Poen
 			q(56544),	-- "This is one of my favorite spots!  I always keep snacks in my pocket!  It works out great for everyone!"
-			q(56671),	-- "I helped a little elf girl find her doll here, once.  It made her so happy, even though there was so little of it left.  I hugged Mak so hard when I got back to Newhome."
-			q(56682),	-- "I always dreamt of fighting back against the naga.  Neri gave me that chance."
-			q(56683),	-- "I was born in the slave pens.  My family was broken by the naga... I never had a chance to heal them."  yikes, dude
-			q(56684),	-- "I talked to an ankoan, once.  They've lost so many of their friends.  It's sad to think about."
-			q(56685),	-- "If you really listen, sometimes you can hear the voice of the ocean.  She brings me peace."
-			q(56686),	-- "The ocean taught me how to help and heal my friends.  I'm glad when I can be useful."
-			q(56687),	-- "This one time, I got caught in some seaweed while fleeling from the naga.  But Mak showed up and saved me!  We've been best friends ever since!"
-			q(56688),	-- "The world's a lot less interesting when you can only move on the ground.  Now I see why the sea cucumbers are always complaining."
+			q(56671),	-- "I helped a little elf girl find her doll here, once. It made her so happy, even though there was so little of it left. I hugged Mak so hard when I got back to Newhome."
+			q(56682),	-- "I always dreamt of fighting back against the naga. Neri gave me that chance."
+			q(56683),	-- "I was born in the slave pens. My family was broken by the naga... I never had a chance to heal them."  yikes, dude
+			q(56684),	-- "I talked to an ankoan, once. They've lost so many of their friends. It's sad to think about."
+			q(56685),	-- "If you really listen, sometimes you can hear the voice of the ocean. She brings me peace."
+			q(56686),	-- "The ocean taught me how to help and heal my friends. I'm glad when I can be useful."
+			q(56687),	-- "This one time, I got caught in some seaweed while fleeling from the naga. But Mak showed up and saved me!  We've been best friends ever since!"
+			q(56688),	-- "The world's a lot less interesting when you can only move on the ground. Now I see why the sea cucumbers are always complaining."
 			q(56689),	-- "When the ocean returns, the tears of all who have suffered will be washed away."
-			q(56690),	-- "It sounds like this Horde you come from has survived some awful things.  Just like us!  Seeing you stick together brings me hope."
+			q(56690),	-- "It sounds like this Horde you come from has survived some awful things. Just like us!  Seeing you stick together brings me hope."
 			q(56692),	-- "Mmm, I love eel!"
-			q(56693),	-- "These are lovely.  Sometimes, doing something nice for a friend is what it's all about."
+			q(56693),	-- "These are lovely. Sometimes, doing something nice for a friend is what it's all about."
 			q(56694),	-- "Do you think water elementals ever get thirsty?"
 			q(56695),	-- "Dani is great!  She wrangles all of our snapdragons, even the most difficult and ornery ones."
 			q(56696),	-- "Have you ever swooped on a ray?  It's out-ray-geous!"
@@ -3050,19 +3050,19 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			q(56698),	-- "As a wee sprog. I was told that the Shirakess created our nightmares. I thought that was a myth... until I saw this place for myself."
 			q(56699),	-- (got this randomly in nazjatar)
 			--	Vim
-			q(56665),	-- "It's brave to sacrifice yourself to save others.  It's craven to sacrifice others to serve yourself.  And Azshara is anything but brave."
+			q(56665),	-- "It's brave to sacrifice yourself to save others. It's craven to sacrifice others to serve yourself. And Azshara is anything but brave."
 			q(56672),	-- "One person's pride destroyed so many lives."
-			q(56700),	-- "In the deep, dark sea, no one can hear you scream.  Trust me..."
-			q(56701),	-- "Without Neri, we would have scattered with the current.  She brought us together."
+			q(56700),	-- "In the deep, dark sea, no one can hear you scream. Trust me..."
+			q(56701),	-- "Without Neri, we would have scattered with the current. She brought us together."
 			q(56702),	-- (got this randomly in nazjatar @ 33.8,47.4)
-			q(56703),	-- "When the naga were keeping me in chains, I never thought I'd be free again.  Shows what I know, huh?"
+			q(56703),	-- "When the naga were keeping me in chains, I never thought I'd be free again. Shows what I know, huh?"
 			q(56704),	-- "This Horde of yours sure reminds me a lot of the Unshackled."
-			q(56705),	-- "Azshara and her 'loyal subjects' are the worst kind of monsters.  We have to stop them here and now."
-			q(56706),	-- "Everyone I knew as a sprog is gone.  I've got a new family now, but I'll never forget the one I lost."
+			q(56705),	-- "Azshara and her 'loyal subjects' are the worst kind of monsters. We have to stop them here and now."
+			q(56706),	-- "Everyone I knew as a sprog is gone. I've got a new family now, but I'll never forget the one I lost."
 			q(56707),	-- "Those sea giants can tell a mean tale... when you can make sense of what they're saying."
 			q(56708),	-- "You think you know the naga?  Believe me, you've never faced the ones here in Nazjatar."
 			q(56710),	-- "Let me tell ya, sea giants throw the best parties."
-			q(56711),	-- "I won't always be around to protect Newhome.  If these scales can help keep our people safe, then they're worth the effort."
+			q(56711),	-- "I won't always be around to protect Newhome. If these scales can help keep our people safe, then they're worth the effort."
 			q(56712),	-- "These snakes will go to any length to feel powerful... usually by hurting the helpless."
 		}),
 		n(ZONE_DROPS, {

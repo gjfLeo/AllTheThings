@@ -6,11 +6,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(VOLDUN, {
 		n(QUESTS, {
 			-- TODO
-			--	while on "armed and ready," i chose the staff and it triggered quest #49684.  do the other 2 weapon choices have different quests?
-			--	SQ for "missing business" needs confirmation.  some quests in vol'dun are available before you even start in dazar'alor, with 0 prereqs.  this isn't one of them.  is it available as soon as you land in vol'dun on "into the dunes," or is it truly unavailable until turning in "an explosive exit"?
-			--	SQ for "forced grounding" needs confirmation.  this was not available with 0 prereqs.  i noticed it after turning in "crater conquered" and picking up "diplomacy and dominance" and "don't drop it...yet."
-			--	SQ for "wasteland survivor" needs confirmation.  i saw it before turning in "i heard you lost the herd" (where previous person had placed it) and after "i've got your back," while on "mystery meat" and "vol'duni fried chicken," but i'm not sure if it's available earlier.
-			--	SQ for "snarltooth's last laugh" needs verification.  previous person had marked the 2 there now + "alpacas gone wild" as SQs, but "alpacas" isn't.  i had already done up through "savage saurolisks" + "they might be delicious" and was turning them in when i saw "snarltooth's last laugh."
+			--	while on "armed and ready," i chose the staff and it triggered quest #49684. do the other 2 weapon choices have different quests?
+			--	SQ for "missing business" needs confirmation. some quests in vol'dun are available before you even start in dazar'alor, with 0 prereqs. this isn't one of them. is it available as soon as you land in vol'dun on "into the dunes," or is it truly unavailable until turning in "an explosive exit"?
+			--	SQ for "forced grounding" needs confirmation. this was not available with 0 prereqs. i noticed it after turning in "crater conquered" and picking up "diplomacy and dominance" and "don't drop it...yet."
+			--	SQ for "wasteland survivor" needs confirmation. i saw it before turning in "i heard you lost the herd" (where previous person had placed it) and after "i've got your back," while on "mystery meat" and "vol'duni fried chicken," but i'm not sure if it's available earlier.
+			--	SQ for "snarltooth's last laugh" needs verification. previous person had marked the 2 there now + "alpacas gone wild" as SQs, but "alpacas" isn't. i had already done up through "savage saurolisks" + "they might be delicious" and was turning them in when i saw "snarltooth's last laugh."
 			q(47320, {	-- A Balm to Calm
 				["sourceQuests"] = {
 					47319,	-- Restorative Venom
@@ -877,7 +877,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 135012 },	-- Vivi
 				["coord"] = { 55.2, 48.4, VOLDUN },	-- The Prickly Grove
 				["races"] = HORDE_ONLY,
-				--	SQ needs confirmation.  was not available with 0 prereqs, picked it up after "an explosive exit" while on "restorative venom" and "freshly squeezed"
+				--	SQ needs confirmation. was not available with 0 prereqs, picked it up after "an explosive exit" while on "restorative venom" and "freshly squeezed"
 				["groups"] = {
 					i(158464),	-- Poda (PET!)
 					i(159729),	-- Sandstinger Remedy (QI!)
@@ -1846,7 +1846,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "o", 273854 },	-- Backpack
 				["coord"] = { 40.4, 73.6, VOLDUN },
 				["races"] = HORDE_ONLY,
-				--	SQ needs verification.  i saw it before turning in "i heard you lost the herd," not sure if it pops up any earlier than this.
+				--	SQ needs verification. i saw it before turning in "i heard you lost the herd," not sure if it pops up any earlier than this.
 				["groups"] = {
 					o_repeated({
 						i(152601),	-- Scavenged Supplies (QI!)

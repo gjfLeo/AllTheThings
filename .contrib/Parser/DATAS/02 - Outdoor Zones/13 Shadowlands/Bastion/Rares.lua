@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170899,   {	-- Ascended Council
-				["description"] = "You have to ring all 5 vespers within 5 minutes to summon the Ascended Council at |cFFFFFFFF53.5, 88.3|r.  The vespers are spread out all over the map, so this might require at least a couple people.",
+				["description"] = "You have to ring all 5 vespers within 5 minutes to summon the Ascended Council at |cFFFFFFFF53.5, 88.3|r. The vespers are spread out all over the map, so this might require at least a couple people.",
 				["crs"] = {
 					170835,	-- Champion of Courage
 					170836,	-- Champion of Humility
@@ -43,9 +43,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			n(171211, {	-- Aspirant Eolis
 				-- #if BEFORE DF
-				["description"] = "Fragile Humility Scrolls can be found throughout the Court of Elation.  They are floating unfurled scrolls that do not sparkle, but glow purple.  After you find one, read it to Eolis to start the encounter.\n\nIf you are unable to see the scroll, your characters level is not high enough as it required max level (60) during Shadowlands (2021).",
+				["description"] = "Fragile Humility Scrolls can be found throughout the Court of Elation. They are floating unfurled scrolls that do not sparkle, but glow purple. After you find one, read it to Eolis to start the encounter.\n\nIf you are unable to see the scroll, your characters level is not high enough as it required max level (60) during Shadowlands (2021).",
 				-- #else
-				["description"] = "Fragile Humility Scrolls can be found throughout the Court of Elation.  They are floating unfurled scrolls that do not sparkle, but glow purple.  After you find one, read it to Eolis to start the encounter.\n\nOnly available to level 60 characters, both spawning and looting.",
+				["description"] = "Fragile Humility Scrolls can be found throughout the Court of Elation. They are floating unfurled scrolls that do not sparkle, but glow purple. After you find one, read it to Eolis to start the encounter.\n\nOnly available to level 60 characters, both spawning and looting.",
 				-- #endif
 				["coord"] = { 32.6, 23.4, BASTION },
 				["questID"] = 61083,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171014, {	-- Collector Astorestes
-				["description"] = "First, read the 6 chapters of Mercia's Legacy in order.\n\nChapter One - |cFFFFFFFF66.1, 44.1|r, on a small table with two vases.\nChapter Two - |cFFFFFFFF65.9, 44.1|r, on a bench.\nChapter Three - |cFFFFFFFF65.7, 43.9|r, behind a bench.\nChapter Four - |cFFFFFFFF65.7, 43.4|r, on the lower-left shelf.\nChapter Five - |cFFFFFFFF65.9, 43.2|r, to the right of the bench.\nChapter Six - |cFFFFFFFF66.2, 43.2|r, on the lower-right corner of the table.\n\nSpeak to the Echo of Mercia, and she will give you a 5-minute buff allowing you to find the secret 7th chapter of the story.  It will be outside the main temple room; just look at all the tables until you find a glowing purple scroll.\n\nPick up the 7th chapter scroll, bring it to the Echo of Mercia, and the rare will appear.",
+				["description"] = "First, read the 6 chapters of Mercia's Legacy in order.\n\nChapter One - |cFFFFFFFF66.1, 44.1|r, on a small table with two vases.\nChapter Two - |cFFFFFFFF65.9, 44.1|r, on a bench.\nChapter Three - |cFFFFFFFF65.7, 43.9|r, behind a bench.\nChapter Four - |cFFFFFFFF65.7, 43.4|r, on the lower-left shelf.\nChapter Five - |cFFFFFFFF65.9, 43.2|r, to the right of the bench.\nChapter Six - |cFFFFFFFF66.2, 43.2|r, on the lower-right corner of the table.\n\nSpeak to the Echo of Mercia, and she will give you a 5-minute buff allowing you to find the secret 7th chapter of the story. It will be outside the main temple room; just look at all the tables until you find a glowing purple scroll.\n\nPick up the 7th chapter scroll, bring it to the Echo of Mercia, and the rare will appear.",
 				["crs"] = { 157979 },	-- Echo of Mercia <Paragon of Humility>
 				["coord"] = { 66.0, 43.6, BASTION },
 				["questID"] = 61002,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170623, {	-- Dark Watcher
-				["description"] = "If the rare is up, you will get a debuff called Ominous Gaze when you are close to it.  To start the encounter, you need to die and speak to the NPC.",
+				["description"] = "If the rare is up, you will get a debuff called Ominous Gaze when you are close to it. To start the encounter, you need to die and speak to the NPC.",
 				["coord"] = { 27.8, 30.0, BASTION },
 				["questID"] = 60883,
 				["groups"] = {
@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171011, {	-- Demi the Relic Hoarder
-				["description"] = "As soon as Demi is pulled, she will start running east.  She will pull additional Forsworn mobs for you to contend with, and she has 100 stacks of a buff that causes her to take reduced damage.  The stacks drop each time she is attacked, so she will take progressively more damage.  Upon defeat, she drops the treasure she is holding.\n\nThis rare is soloable, but having decent gear and at least one more person may be helpful — if Demi makes it to safety, she will despawn.",
+				["description"] = "As soon as Demi is pulled, she will start running east. She will pull additional Forsworn mobs for you to contend with, and she has 100 stacks of a buff that causes her to take reduced damage. The stacks drop each time she is attacked, so she will take progressively more damage. Upon defeat, she drops the treasure she is holding.\n\nThis rare is soloable, but having decent gear and at least one more person may be helpful — if Demi makes it to safety, she will despawn.",
 				["coord"] = { 37.0, 41.8, BASTION },
 				["questID"] = 61000,
 				["groups"] = {
@@ -186,7 +186,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171009, {	-- Enforcer Aegeon
-				["description"] = "Force the rare to spawn by killing mobs around the Eternal Forge.  Forge-Keeper Mnemis will periodically announce the threat level, and Aegeon will be dispatched when the threat level reaches Major.",
+				["description"] = "Force the rare to spawn by killing mobs around the Eternal Forge. Forge-Keeper Mnemis will periodically announce the threat level, and Aegeon will be dispatched when the threat level reaches Major.",
 				["coord"] = { 50.8, 19.6, BASTION },
 				["questID"] = 60998,
 				["groups"] = {
@@ -203,7 +203,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(158659, {	-- Herculon
-				["description"] = "Pick up anima from the Depleted Anima Canisters around the chamber and the area outside.  Feed them to Herculon to activate him.\n\nLoot will be in the Aspirant's Cache behind him after he is defeated.",
+				["description"] = "Pick up anima from the Depleted Anima Canisters around the chamber and the area outside. Feed them to Herculon to activate him.\n\nLoot will be in the Aspirant's Cache behind him after he is defeated.",
 				["coord"] = { 43.0, 82.6, BASTION },
 				["questID"] = 57708,
 				["groups"] = {
@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160882, {	-- Nikara Blackheart
-				["description"] = "Requires 3 people to summon.  After all 3 have channeled the incense, the vesper will ring and Sophia will appear.  Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Gift.",
+				["description"] = "Requires 3 people to summon. After all 3 have channeled the incense, the vesper will ring and Sophia will appear. Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Gift.",
 				["coord"] = { 51.8, 68.6, BASTION },
 				["questID"] = 63411,
 				["groups"] = {
@@ -240,7 +240,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160985, {	-- Selena the Reborn
-				["description"] = "Requires 3 people to summon.  After all 3 have channeled the incense, the vesper will ring and Sophia will appear.  Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Radiance.",
+				["description"] = "Requires 3 people to summon. After all 3 have channeled the incense, the vesper will ring and Sophia will appear. Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Radiance.",
 				["crs"] = { 160875 },	-- Sophia
 				["coord"] = { 61.2, 51.0, BASTION },
 				["questID"] = 58320,

@@ -544,7 +544,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 			i(122240, {	-- Footwraps of the Frostweaver
 				-- #if BEFORE 10.0.1
 				-- CRIEVE NOTE: This might have changed with Dragonflight rather than 10.1.7, which is when it was reported to us to be BOE.
-				["description"] = "Yes, they're a world drop, and yes, they're BoP.  We're as perplexed as you are.",
+				["description"] = "Yes, they're a world drop, and yes, they're BoP. We're as perplexed as you are.",
 				-- #endif
 			}),
 			i(106354),	-- Grime-Fouled Mail Boots

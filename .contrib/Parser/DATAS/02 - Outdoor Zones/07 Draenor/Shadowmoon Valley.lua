@@ -1625,7 +1625,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(236755, {	-- Dusty Lockbox
-						["description"] = "Go up the path and jump on the standing stones.  Follow them across to the second set of coords.",
+						["description"] = "Go up the path and jump on the standing stones. Follow them across to the second set of coords.",
 						["questID"] = 36879,
 						["coords"] = {
 							{ 28.0, 38.5, DRAENOR_SHADOWMOON_VALLEY },	-- Path up starts

@@ -1,7 +1,7 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
---	IMPORTANT: if you add coordinates to any part of this file, make sure you verify them manually!  the coordinates listed on wowhead (as of september 2019) are incorrect and probably based on an older version of the krasarang map.  if you use those coordinates instead of manually confirming them, they'll place you outside of /tar range.
+--	IMPORTANT: if you add coordinates to any part of this file, make sure you verify them manually!  the coordinates listed on wowhead (as of september 2019) are incorrect and probably based on an older version of the krasarang map. if you use those coordinates instead of manually confirming them, they'll place you outside of /tar range.
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(KRASARANG_WILDS, {
@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 			["icon"] = 623769,
 			["maps"] = {
 				419,	-- Ruins of Ogudei, Alliance Excavation
-				420,	-- Ruins of Ogudei (the map is weird here, and this ID only shows up when you're headed towards the objective for Ogudei's Lieutenants.  for the rest of this floor, when you hit M it registers you on the incorrect level, and displays the wrong floor on the map)
+				420,	-- Ruins of Ogudei (the map is weird here, and this ID only shows up when you're headed towards the objective for Ogudei's Lieutenants. for the rest of this floor, when you hit M it registers you on the incorrect level, and displays the wrong floor on the map)
 				421,	-- Ruins of Ogudei, Reliquary Incursion
 			},
 			["groups"] = {
@@ -1559,7 +1559,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					faction(FACTION_THE_ANGLERS, {	-- The Anglers
-						["requireSkill"] = FISHING,	-- doesn't seem like you can even get access to the faction on a non-fisher.  flew/walked all around the area on a character with no professions and nothing, and as soon as i flew up on a character with fishing the faction unlocked and all the NPCs appeared
+						["requireSkill"] = FISHING,	-- doesn't seem like you can even get access to the faction on a non-fisher. flew/walked all around the area on a character with no professions and nothing, and as soon as i flew up on a character with fishing the faction unlocked and all the NPCs appeared
 						["icon"] = 643874,
 						["groups"] = {
 							n(ACHIEVEMENTS, {
@@ -1818,9 +1818,9 @@ root(ROOTS.Zones, {
 				}),
 				n(QUESTS, {
 				--	TODO:
-					-- try to figure out where the alternate versions of "Into the Wilds" come from for each faction.  i picked up 30178 on Alliance and 30133 on Horde after completeing all the Zhu's Watch quests.  the quest text is slightly different (one version for each says "I suspect they'll know something about what happened here" and the other says "They should be told of what happened here," and one version for each provides Zhu's Watch Supplies, while the other doesn't.  possibly there are different versions if you abandon/re-pick up, or if you start questing elsewhere in the zone?  completing one completed all four of these, so unless there's an issue with one version not doing the same then it should be good for all users.
-					-- try to figure out where the second version of "Going on the Offensive" comes from.  does it have different SQs?  is it from starting somewhere else in the zone, or doing it in a different order?  the quest text is slightly different (one version says "I want you to look for my scout. I sent her to investigate the Crane Temple but she hasn't returned.  Get her report and rendezvous with us at the Sentinel Basecamp further west."  the other doesn't mention a scout at all, and just says "We are pressing westward and could use your help. Meet us at the Sentinel Basecamp further west when you are ready.")
-					-- same as above but with "Going West" for Horde, as opposed to "Going on the Offensive" for Alliance.  i picked up 30132, unsure what needs to happen to pick up 30464
+					-- try to figure out where the alternate versions of "Into the Wilds" come from for each faction. i picked up 30178 on Alliance and 30133 on Horde after completeing all the Zhu's Watch quests. the quest text is slightly different (one version for each says "I suspect they'll know something about what happened here" and the other says "They should be told of what happened here," and one version for each provides Zhu's Watch Supplies, while the other doesn't. possibly there are different versions if you abandon/re-pick up, or if you start questing elsewhere in the zone?  completing one completed all four of these, so unless there's an issue with one version not doing the same then it should be good for all users.
+					-- try to figure out where the second version of "Going on the Offensive" comes from. does it have different SQs?  is it from starting somewhere else in the zone, or doing it in a different order?  the quest text is slightly different (one version says "I want you to look for my scout. I sent her to investigate the Crane Temple but she hasn't returned. Get her report and rendezvous with us at the Sentinel Basecamp further west."  the other doesn't mention a scout at all, and just says "We are pressing westward and could use your help. Meet us at the Sentinel Basecamp further west when you are ready.")
+					-- same as above but with "Going West" for Horde, as opposed to "Going on the Offensive" for Alliance. i picked up 30132, unsure what needs to happen to pick up 30464
 					-- ShadowBrooks -- NOTE FOR CRIEVE see changes for 30132 and 30464
 					q(30695, {	-- Ahead on the Way
 						["sourceQuests"] = {
@@ -2619,7 +2619,7 @@ root(ROOTS.Zones, {
 					}),
 					q(30269, {	-- Unsafe Passage
 						["sourceQuests"] = {
-						--	unclear what the difference is in these.  the quest text is slightly different (one version for each says "I suspect they'll know something about what happened here" and the other says "They should be told of what happened here," and one version for each provides Zhu's Watch Supplies, while the other doesn't.  possibly there are different versions if you abandon/re-pick up?  completing one completed all four of these, so unless there's an issue with one version not doing the same then it should be good for all users.
+						--	unclear what the difference is in these. the quest text is slightly different (one version for each says "I suspect they'll know something about what happened here" and the other says "They should be told of what happened here," and one version for each provides Zhu's Watch Supplies, while the other doesn't. possibly there are different versions if you abandon/re-pick up?  completing one completed all four of these, so unless there's an issue with one version not doing the same then it should be good for all users.
 							30178,	-- Into the Wilds (A)
 							30462,	-- Into the Wilds (A)
 							30461,	-- Into the Wilds (H)
@@ -2739,16 +2739,16 @@ root(ROOTS.Zones, {
 
 
 
-					
-					
-					
+
+
+
 					q(32134, {	-- Hard Counter
 						["qg"] = 67402,	-- Zazzix "Toasty" Sparkrocket
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-					
-					
+
+
 					q(32139, {	-- Stacked!
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -2773,8 +2773,8 @@ root(ROOTS.Zones, {
 						["requireSkill"] = FISHING,
 						["races"] = HORDE_ONLY,
 					}),
-					
-					
+
+
 					q(32238, {	-- Universal Remote-Explode
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
@@ -2787,7 +2787,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["isDaily"] = true,
 					}),
-					
+
 	--[[
 					The following quests have all been removed from the game
 					q(30677, {	-- Shuttle Service
@@ -3038,7 +3038,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 						q(32356),	-- Tracking Event: Ambassadors Summoned - triggeres  "Heart of the Alliance" completion
 						q(32395),	-- Tracking Event: Saw Avartu - triggered while on "The Divine Bell," part of the Operation: Shieldwall campaign (at the end of the quest before killing Avartu)
 						q(32339),	-- Rebuilding the Mallet (Tracker) - triggered after turning in The Head and The Harmonic Ointment (The Handle was turned in earlier, but presumably requires all 3), part of the Operation: Shieldwall campaign
-						q(32365),	-- Tracking Event: Epilogue Complete - triggered after turning in "The Silence" and watching the RP, part of the Operation: Shieldwall campaign.  didn't go off until I left the area and turned in another quest (which is a daily that doesn't normally have any additional tracking quests attached, so i know it was from the final campaign quest)
+						q(32365),	-- Tracking Event: Epilogue Complete - triggered after turning in "The Silence" and watching the RP, part of the Operation: Shieldwall campaign. didn't go off until I left the area and turned in another quest (which is a daily that doesn't normally have any additional tracking quests attached, so i know it was from the final campaign quest)
 					}),
 				})),
 				header(HEADERS.Faction, FACTION_THE_ANGLERS, {

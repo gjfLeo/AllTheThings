@@ -13,7 +13,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				header(HEADERS.Achievement, 14339, {	-- Shard Labor
-					["description"] = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide.  There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nBeing part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
+					["description"] = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide. There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nBeing part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
 					["groups"] = sharedData({ ["name"] = "Anima Crystal Shard", ["icon"] = 3528288 }, {
 						q(61298, {	-- Anima Crystal Shard
 							["description"] = "After Kin-Tara, behind a lounge chair on the left side of the fountain.",
@@ -22,7 +22,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							["description"] = "After Ventunax, behind the left-hand torch next to the Winged Guardian that will take you to the Font of Fealty.",
 						}),
 						q(61300, {	-- Anima Crystal Shard
-							["description"] = "Can be collected before or after Oryphrion.  There is a heart-shaped whirlpool in the middle of the room.  The shard is at the top of the heart in the middle.  After the boss, there will be two Winged Guardians on either side of it.",
+							["description"] = "Can be collected before or after Oryphrion. There is a heart-shaped whirlpool in the middle of the room. The shard is at the top of the heart in the middle. After the boss, there will be two Winged Guardians on either side of it.",
 						}),
 					}),
 				}),

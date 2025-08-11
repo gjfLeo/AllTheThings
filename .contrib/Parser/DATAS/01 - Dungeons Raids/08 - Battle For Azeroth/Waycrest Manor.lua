@@ -30,7 +30,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			}),
 			n(QUESTS, {
 				q(50990, {	-- Cutting Edge Poultry Science
-					["description"] = "This quest pops up when killing mobs in the kitchen.  It is unknown for certain if the World Quest \"Witchy Kitchen\" is required.",
+					["description"] = "This quest pops up when killing mobs in the kitchen. It is unknown for certain if the World Quest \"Witchy Kitchen\" is required.",
 					["groups"] = {
 						i(160940),	-- Vengeful Chicken (PET!)
 					},

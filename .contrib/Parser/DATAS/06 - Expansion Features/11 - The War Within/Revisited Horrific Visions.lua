@@ -1044,7 +1044,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					}),
 					n(RARES, {
 						n(158284, {	-- Craggle Wobbletop <Toys and Novelties>
-							["description"] = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required.  You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
+							["description"] = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required. You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
 							["coords"] = {
 								{ 58.4, 77.2, RE_HORRIFIC_STORMWIND },
 								{ 56.6, 67.6, RE_HORRIFIC_STORMWIND },
@@ -1120,7 +1120,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						i(174928, {	-- Rotten Apple (TOY!)
-							["description"] = "Repeatedly click the bouncing apples at the coordinates provided.  Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
+							["description"] = "Repeatedly click the bouncing apples at the coordinates provided. Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
 							["coords"] = {
 								{ 57.0, 55.0, RE_HORRIFIC_STORMWIND },
 								{ 60.0, 58.0, RE_HORRIFIC_STORMWIND },
@@ -1130,7 +1130,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(343698, {	-- Void-Touched Skull
-							["description"] = "Behind the orphanage in Cathedral Square.  It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
+							["description"] = "Behind the orphanage in Cathedral Square. It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
 							["coord"] = { 58.9, 52.9, RE_HORRIFIC_STORMWIND },
 							["groups"] = {
 								i(174921, {	-- Void-Touched Skull (TOY!)

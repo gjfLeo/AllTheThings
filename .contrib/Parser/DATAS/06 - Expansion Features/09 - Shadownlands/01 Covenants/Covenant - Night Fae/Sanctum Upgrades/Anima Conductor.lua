@@ -15,7 +15,7 @@ local SILKY_SHIMMERMOTH = i(180748, {	-- Silky Shimmermoth (MOUNT!)
 });
 local GREATAXE_OF_UNRELENTING_PURSUIT = i(180154);
 local STAR_LAKE_AMPHITHEATER = n(STAR_LAKE_AMPHITHEATER,   {
-	["description"] = "You have to be in the |cFFA330C9Night Fae|r covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else.  Only one mob is summonable per day.",
+	["description"] = "You have to be in the |cFFA330C9Night Fae|r covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else. Only one mob is summonable per day.",
 	["questID"] = 61633,
 	["isDaily"] = true,
 	["coord"] = { 41.5, 44.8, ARDENWEALD },
@@ -107,7 +107,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 							n(TREASURES, {
 								o(356820, {	-- Large Lunarlight Pod
-									["description"] = "Requires channeling the Anima Conductor to Glitterfall Basin.  To unlock the chest, run over 5 nearby Lunarlight Buds.",
+									["description"] = "Requires channeling the Anima Conductor to Glitterfall Basin. To unlock the chest, run over 5 nearby Lunarlight Buds.",
 									["isDaily"] = true,
 									["questID"] = 61691,
 									["coord"] = { 51.7, 32.3, ARDENWEALD },

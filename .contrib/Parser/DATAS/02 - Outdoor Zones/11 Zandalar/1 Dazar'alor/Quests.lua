@@ -8,10 +8,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		-- TODO: TO SOLVE:
 			-- when does "who seeks the seekers?" become available?  seen as early as "the prophet's ploy," but may be available sooner.
 			-- verify SQ for "the blood gate."  it may become available after "ateena's fall."  also, is "halting the empire's fall" (which sends you to baine, who offers this quest) a breadcrumb?  "the blood gate" isn't hidden like quests typically are when you have their breadcrumb in their log, so i'm not sure if "halting" is optional/disappears/becomes unavailable after doing "the blood gate."  also, is it available with *only* having done nazmir, or do you also have to finish the main zuldazar questline as well?
-			-- figure out if "The Warchief's Order" and "The Warfront Looms" are breadcrumbs.  they're both auto-popup quests after you hit 120, unlock WQs, and relog.  they both direct you to go to dazar'alor and speak with an NPC to pursue nazjatar and the arathi warfront, respectively.
+			-- figure out if "The Warchief's Order" and "The Warfront Looms" are breadcrumbs. they're both auto-popup quests after you hit 120, unlock WQs, and relog. they both direct you to go to dazar'alor and speak with an NPC to pursue nazjatar and the arathi warfront, respectively.
 
 			n(OUTPOSTS, {
-				["description"] = "Horde Outposts allow you to set up additional bases in Kul Tiras.  You can buy Scouting Reports from Ransa, the vendor next to The Banshee's Wail.  Each one will start a mission on your Mission Command Table.  After you complete the initial questline, you'll be offered additional missions to upgrade your outposts.",
+				["description"] = "Horde Outposts allow you to set up additional bases in Kul Tiras. You can buy Scouting Reports from Ransa, the vendor next to The Banshee's Wail. Each one will start a mission on your Mission Command Table. After you complete the initial questline, you'll be offered additional missions to upgrade your outposts.",
 				["groups"] = {
 					i(165728, {	-- Outpost Upgrade: The Great Seal (CI!)
 						["races"] = HORDE_ONLY,
@@ -536,7 +536,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(51555, {	-- Keep Them On Task
 				["sourceQuests"] = {	-- 'zanchuli disbanded' and 'king or prey' are breadcrumbs if you don't pick up the quest asap, it unlocked earlier
-					47509,	-- Terrace of the Chosen (may actually show up as late as "Mistress of Lies," which is when i noticed it.  but baine gave "Terrace" and after i did it this was available when i next went to town after "Mistress"
+					47509,	-- Terrace of the Chosen (may actually show up as late as "Mistress of Lies," which is when i noticed it. but baine gave "Terrace" and after i did it this was available when i next went to town after "Mistress"
 					50433,	-- Zanchuli Disbanded
 					51111,	-- King or Prey
 				},
@@ -914,7 +914,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 133050 },	-- Princess Talanji
 				["coord"] = { 41.1, 64.4, HALL_OF_CHRONICLERS },
 				["races"] = HORDE_ONLY,
-			--	TODO: was doing this questline on April 11, 2021 and this quest didn't pop up after i turned in Speaker of the Horde.  i went straight from 'speaker of the horde' to choosing to quest in zandalar on the map table inside the great seal.  is this a breadcrumb/was it removed/does it require having HoA?  upon solving this mystery anything that has it attached as a SQ may need to be changed as well
+			--	TODO: was doing this questline on April 11, 2021 and this quest didn't pop up after i turned in Speaker of the Horde. i went straight from 'speaker of the horde' to choosing to quest in zandalar on the map table inside the great seal. is this a breadcrumb/was it removed/does it require having HoA?  upon solving this mystery anything that has it attached as a SQ may need to be changed as well
 			}),
 			q(58583, {	-- Where the Heart Is
 				["sourceQuest"] = 58582,	-- Return of the Black Prince

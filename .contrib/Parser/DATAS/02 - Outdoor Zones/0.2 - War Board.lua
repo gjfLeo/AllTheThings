@@ -70,7 +70,7 @@ root(ROOTS.Zones, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			q(49846, {	-- Wars on Two Fronts [Cataclysm]
-				["description"] = "The Special Duty Assignments will automatically pop up when you reach level 80.  You can use them to progress either to Cataclysm or Pandaria.",
+				["description"] = "The Special Duty Assignments will automatically pop up when you reach level 80. You can use them to progress either to Cataclysm or Pandaria.",
 				["providers"] = {
 					{ "o", 206111 },	-- [SW]
 					{ "o", 207321 },	-- [DA]
@@ -84,7 +84,7 @@ root(ROOTS.Zones, {
 				-- Received 49846 on Alliance Warlock when I hit 80, so it isn't the Horde version item as a previous comment speculated. - slumber
 			}),
 			q(49864, {	-- Wars on Two Fronts (Cataclysm or Pandaria)
-				["description"] = "The Special Duty Assignments will automatically pop up when you reach level 80.  You can use them to progress either to Cataclysm or Pandaria.",
+				["description"] = "The Special Duty Assignments will automatically pop up when you reach level 80. You can use them to progress either to Cataclysm or Pandaria.",
 				["providers"] = {
 					{ "o", 206111 },	-- [SW]
 					{ "o", 207321 },	-- [DA]

@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171337, {		-- Bloated Lootfly
-				["description"] = "This is a critter that flies around.  Find it, kill it, and loot it to collect the treasure.",
+				["description"] = "This is a critter that flies around. Find it, kill it, and loot it to collect the treasure.",
 				["coords"] = {
 					{ 49.0, 24.6, MALDRAXXUS },
 					{ 49.8, 21.8, MALDRAXXUS },
@@ -61,14 +61,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isDaily"] = true,
 			}),
 			o(352433, {		-- Cache of Eyes
-				["description"] = "Coordinates are to the entrance of Sightless Hold.  The cache spawns in numerous locations within the cave.  The pet is not a 100% drop and the chest is not always up, but there is no cooldown or lockout for opening the chest.",
+				["description"] = "Coordinates are to the entrance of Sightless Hold. The cache spawns in numerous locations within the cave. The pet is not a 100% drop and the chest is not always up, but there is no cooldown or lockout for opening the chest.",
 				["coord"] = { 54.0, 12.3, MALDRAXXUS },
 				["groups"] = {
 					i(181171),	-- Luminous Webspinner (PET!)
 				},
 			}),
 			o(345456, {		-- Chest of Eyes
-				["description"] = "The path to the treasure starts at |cFFFFFFFF51.6, 13.7|r.  Climb up the side of the crumbled building until you get close to the treasure, then turn right and walk up the cliff to it.",
+				["description"] = "The path to the treasure starts at |cFFFFFFFF51.6, 13.7|r. Climb up the side of the crumbled building until you get close to the treasure, then turn right and walk up the cliff to it.",
 				["questID"] = 59244,
 				["coord"] = { 48.3, 16.3, MALDRAXXUS },
 				["groups"] = {
@@ -177,7 +177,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355886, {		-- Plaguefallen Chest
-				["description"] = "To access this chest, you need the |cFFFFFFFFPlaguefallen|r debuff.  You can either pick up a Plaguefallen Potion from |cFFFFFFFF58.4, 73.3|r in Plague Watch, or stand in green slime until you have 10 stacks of |cFFFFFFFFConcentrated Plague|r (living through the stacks requires significant self-healing, but picking up the potion far away from the cave gives you very little time to get there).\n\nWith the debuff, you have 2 minutes to make it to the cave at |cFFFFFFFF62.3, 76.6|r (behind Scunner's platform) and use the pipe at the back of the cave to teleport to the chest.\n\nYou MUST still have the debuff to loot the chest, so don't alt-tab after you get teleported!",
+				["description"] = "To access this chest, you need the |cFFFFFFFFPlaguefallen|r debuff. You can either pick up a Plaguefallen Potion from |cFFFFFFFF58.4, 73.3|r in Plague Watch, or stand in green slime until you have 10 stacks of |cFFFFFFFFConcentrated Plague|r (living through the stacks requires significant self-healing, but picking up the potion far away from the cave gives you very little time to get there).\n\nWith the debuff, you have 2 minutes to make it to the cave at |cFFFFFFFF62.3, 76.6|r (behind Scunner's platform) and use the pipe at the back of the cave to teleport to the chest.\n\nYou MUST still have the debuff to loot the chest, so don't alt-tab after you get teleported!",
 				["coord"] = { 62.4, 76.5, MALDRAXXUS },
 				["questID"] = 61474,
 				["groups"] = {
@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355980, {		-- Ritualist's Cache
-				["description"] = "Loot the |cFFFFFFFFRitual Pages|r from the front-right corner of the room.  Take them to the back-right corner and use the |cFFFFFFFFBook of Binding Rituals|r, and then you can loot the chest.",
+				["description"] = "Loot the |cFFFFFFFFRitual Pages|r from the front-right corner of the room. Take them to the back-right corner and use the |cFFFFFFFFBook of Binding Rituals|r, and then you can loot the chest.",
 				["coord"] = { 62.4, 76.5, MALDRAXXUS },
 				["questID"] = 61514,
 				["groups"] = {

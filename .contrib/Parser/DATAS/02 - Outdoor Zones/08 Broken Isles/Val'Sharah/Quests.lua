@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38323, {	-- Return to the Grove
-					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
+					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests. Turning in whichever version you pick up should give you credit for all three.",
 					["sourceQuests"] = { 40573 },	-- The Nightmare Lord
 					["provider"] = { "n", 100573 },	-- Evelle Nightwhisper
 					["coord"] = { 62.2, 76.2, VALSHARAH },
@@ -140,7 +140,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38148, {	-- Return to the Grove
-					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
+					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests. Turning in whichever version you pick up should give you credit for all three.",
 					["sourceQuests"] = { 38147 },	-- Entangled Dreams
 					["provider"] = { "n", 91223 },	-- Koda Steelclaw
 					["coord"] = { 48.9, 81.6, VALSHARAH },
@@ -179,7 +179,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 48.9, 70.1, VALSHARAH },
 				}),
 				q(38322, {	-- Return to the Grove
-					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests.  Turning in whichever version you pick up should give you credit for all three.",
+					["description"] = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests. Turning in whichever version you pick up should give you credit for all three.",
 					["sourceQuests"] = {
 						38225,	-- Death to the Witchmother
 						38235,	-- Solid as a Rock
@@ -428,7 +428,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				q(38643, {	-- A Village in Peril
 					["provider"] = { "n", 92688 },	-- Darcy Heathrow
 					["coord"] = { 54.7, 52.8, VALSHARAH },
-					-- unsure why there are two versions of this quest.  i picked this version up on my horde priest.
+					-- unsure why there are two versions of this quest. i picked this version up on my horde priest.
 				}),
 				q(39149),	-- A Village in Peril
 				q(38646, {	-- A Sight For Sore Eyes

@@ -150,7 +150,7 @@ root(ROOTS.Zones, {
 						pet(1462),	-- Bloodsting Wasp (PET!)
 						pet(1573),	-- Golden Dawnfeather (PET!)
 						pet(1592, {	-- Sapphire Firefly (PET!)
-							["description"] = "Only one is up at a time.  Once captured or killed, it immediately respawns.",
+							["description"] = "Only one is up at a time. Once captured or killed, it immediately respawns.",
 							["coords"] = {
 								{ 37.8, 41.8, SPIRES_OF_ARAK },
 								{ 45.0, 35.0, SPIRES_OF_ARAK },
@@ -2128,7 +2128,7 @@ root(ROOTS.Zones, {
 						["description"] = "Requires archaeology.",
 					}),
 					o(233975, {	-- Rooby's Roo
-						["description"] = "Buy 3 Rooby Treats from Miril Dumonde in the basement of the inn and feed them to Rooby on the main floor of the inn.  Follow Rooby and feed him each time he stops until he leaves his treasure.",
+						["description"] = "Buy 3 Rooby Treats from Miril Dumonde in the basement of the inn and feed them to Rooby on the main floor of the inn. Follow Rooby and feed him each time he stops until he leaves his treasure.",
 						["questID"] = 36657,
 						["coord"] = { 37.3, 50.7, SPIRES_OF_ARAK },
 						["groups"] = {

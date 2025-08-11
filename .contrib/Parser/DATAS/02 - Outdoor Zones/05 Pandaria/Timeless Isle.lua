@@ -1256,7 +1256,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73281, {	-- Dread Ship Vazuvius
-						["questID"] = 33314,	-- Note!! Quest 33314 also fires off on first kill of the week.  Need to check on another day if both fire off still
+						["questID"] = 33314,	-- Note!! Quest 33314 also fires off on first kill of the week. Need to check on another day if both fire off still
 						["providers"] = {
 							{ "i", 104115 },	-- Mist-Filled Spirit Lantern
 							{ "o", 223139 },	-- Cursed Gravestone
@@ -1459,7 +1459,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(72048, {	-- Rattleskew
-					--	no daily questID popped.  may have a one-time questID?
+					--	no daily questID popped. may have a one-time questID?
 						["provider"] = { "n", 55421 },	-- Ghost Pirate Battle Controller (note: this is more for linking it to the vignette than anything)
 						["coord"] = { 60.6, 87.8, TIMELESS_ISLE },	-- mapID needs verification
 						["groups"] = {
@@ -1610,7 +1610,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(220903, {	-- Gleaming Crane Statue
-						["description"] = "Click the statue, and you will be thrown up into the air and given a slow-fall buff.  Land on any of the platforms and loot any of the |cFFFFFFFFMist-Covered Treasure Chests|r to get credit for the achievement criteria.",
+						["description"] = "Click the statue, and you will be thrown up into the air and given a slow-fall buff. Land on any of the platforms and loot any of the |cFFFFFFFFMist-Covered Treasure Chests|r to get credit for the achievement criteria.",
 						["coord"] = { 58.4, 60.0, TIMELESS_ISLE },
 					}),
 					o(220901, {	-- Gleaming Treasure Chest
@@ -1620,7 +1620,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 51.5, 73.4, TIMELESS_ISLE },
 					}),
 					o(221036, {	-- Gleaming Treasure Satchel
-						["description"] = "Starting at around |cFFFFFFFF71.5, 79.8|r, mount up and do a running jump off the corner of the back platform.  Landing successfully on the beam may take a couple tries, depending on the angle and the point at which you jump.  Once you're on the beam, dismount and walk carefully toward the treasure.",
+						["description"] = "Starting at around |cFFFFFFFF71.5, 79.8|r, mount up and do a running jump off the corner of the back platform. Landing successfully on the beam may take a couple tries, depending on the angle and the point at which you jump. Once you're on the beam, dismount and walk carefully toward the treasure.",
 						["isWeekly"] = true,
 						["questID"] = 32970,
 						["coord"] = { 70.6, 80.9, TIMELESS_ISLE },
@@ -1838,7 +1838,7 @@ root(ROOTS.Zones, {
 					o(223538),	-- Riverspeaker's Trident
 					o(221764),	-- Roasted Seed
 					o(220902, {	-- Rope-Bound Treasure Chest
-						["description"] = "Coordinates are for the beginning of the rope pathway.  You need to carefully walk along the ropes, dropping down to the lower ropes, until you've crossed Red Stone Run and can drop down to the treasure.",
+						["description"] = "Coordinates are for the beginning of the rope pathway. You need to carefully walk along the ropes, dropping down to the lower ropes, until you've crossed Red Stone Run and can drop down to the treasure.",
 						["isWeekly"] = true,
 						["questID"] = 32968,
 						["coord"] = { 60.1, 45.9, TIMELESS_ISLE },
@@ -1860,12 +1860,12 @@ root(ROOTS.Zones, {
 					o(223539),	-- Snowdrift Tiger Talons
 					o(223228),	-- Southsea Firebrew
 					o(221671, {	-- Sturdy Chest
-						["description"] = "On top of a plateau.  You can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
+						["description"] = "On top of a plateau. You can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
 						["questID"] = 33204,
 						["coord"] = { 28.1, 35.1, TIMELESS_ISLE },
 					}),
 					o(223116, {	-- Sturdy Chest
-						["description"] = "On top of a plateau.  You can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
+						["description"] = "On top of a plateau. You can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
 						["questID"] = 33205,
 						["coord"] = { 26.7, 64.9, TIMELESS_ISLE },
 					}),
@@ -1874,7 +1874,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 64.6, 70.5, TIMELESS_ISLE },
 					}),
 					o(223118, {	-- Sturdy Chest
-						["description"] = "The chest is inside Spelurk's cave.  Classes that can snap/jump forward abruptly (like Mage Blink) can force their way into the cave.  Using a toy like the Mushroom Chair or the Leather Love Seat may also work.",
+						["description"] = "The chest is inside Spelurk's cave. Classes that can snap/jump forward abruptly (like Mage Blink) can force their way into the cave. Using a toy like the Mushroom Chair or the Leather Love Seat may also work.",
 						["questID"] = 33207,
 						["coord"] = { 59.2, 49.5, TIMELESS_ISLE },
 					}),
@@ -3030,7 +3030,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 				q(32997),	-- Tracking Quest - First - Zesqua
 				q(33317),	-- Tracking Quest - First - Zhu-Gon the Bitter/Skunky Beer
 				q(33162),	-- Weekly Vignette Boss Kill - Tracking Quest — popped upon arriving to timeless isle and killing evermaw (first rare of the week)
-				q(33164),	-- Weekly Vignette Event Compeltion - Tracking Quest — popped when killing chelon, along with daily questID.  didn't pop from just interacting with shell.
+				q(33164),	-- Weekly Vignette Event Compeltion - Tracking Quest — popped when killing chelon, along with daily questID. didn't pop from just interacting with shell.
 			}),
 			n(TREASURES, {
 				q(33163),	-- Weekly Vignette Loot Chest - Tracking Quest — looting treasure chest with barnacle-encrusted key at (40.3, 92.9), secondary trigger

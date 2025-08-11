@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354275, {	-- Experimental Construct Part
-				["description"] = "Requires an |cFFFFFFFFUnstable Construct Anima|r, which can be found in the surrounding area.  It looks similar to the other jars of anima, but is smaller and glows purple.",
+				["description"] = "Requires an |cFFFFFFFFUnstable Construct Anima|r, which can be found in the surrounding area. It looks similar to the other jars of anima, but is smaller and glows purple.",
 				["coord"] = { 51.5, 18.0, BASTION },
 				["questID"] = 61052,
 				["cost"] = { { "i", 180534, 1 } },	-- Unstable Construct Anima
@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353942, {	-- Gift of Agthia
-				["description"] = "The coordinates are to the first object you need to click to unlock the chest, |cFFFFFFFFAgthia's Flame|r.\n\nRun south until you get to the second torch at |cFFFFFFFF38.4, 57.0|r and click it.  An invisible walkway will appear to the west, lined with glowing orbs on either side.\n\nWalk between the orbs until you reach the floating rock.  Keep clicking all the torches and walking across the invisible bridge until you reach the treasure.",
+				["description"] = "The coordinates are to the first object you need to click to unlock the chest, |cFFFFFFFFAgthia's Flame|r.\n\nRun south until you get to the second torch at |cFFFFFFFF38.4, 57.0|r and click it. An invisible walkway will appear to the west, lined with glowing orbs on either side.\n\nWalk between the orbs until you reach the floating rock. Keep clicking all the torches and walking across the invisible bridge until you reach the treasure.",
 				["coord"] = { 39.1, 54.4, BASTION },
 				["questID"] = 60893,	-- 62847 also completed when opening
 				["groups"] = {
@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353940, {	-- Gift of Vesiphone
-				["description"] = "Ring one of the Bells of Purification on either side of the treasure.  Then turn around and stand in the waterfall next to the Purity Steward.  You will get a buff called Proof of Purity, allowing you to open the chest.",
+				["description"] = "Ring one of the Bells of Purification on either side of the treasure. Then turn around and stand in the waterfall next to the Purity Steward. You will get a buff called Proof of Purity, allowing you to open the chest.",
 				["coord"] = { 64.8, 71.1, BASTION },
 				["questID"] = 60890,
 				["groups"] = {
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353871, {	-- Hidden Hoard
-					["description"] = "The coordinates are for a cave entrance hidden in the side of a cliff.  You'll have to walk along a ledge halfway up the cliffside to access it.",
+					["description"] = "The coordinates are for a cave entrance hidden in the side of a cliff. You'll have to walk along a ledge halfway up the cliffside to access it.",
 					["coord"] = { 47.7, 35.1, BASTION },
 					["questID"] = 60878,	-- also 60875
 					["isDaily"] = true,
@@ -159,7 +159,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355286, {	-- Memorial Offerings
-				["description"] = "Purchase |cFFFFFFFFMemorial Wine|r from Kobri, a steward at Hero's Rest.  Place the wine in the Drink Tray at |cFFFFFFFF56.8, 19.0|r to get the key from Honor Steward to the Memorial Offerings chest.",
+				["description"] = "Purchase |cFFFFFFFFMemorial Wine|r from Kobri, a steward at Hero's Rest. Place the wine in the Drink Tray at |cFFFFFFFF56.8, 19.0|r to get the key from Honor Steward to the Memorial Offerings chest.",
 				["coord"] = { 56.5, 17.2, BASTION },
 				["questID"] = 61150,
 				["cost"] = {
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			o(353650, {	-- Steward's Golden Chest
 				["sourceQuests"] = { 62733 },	-- The Sweetest Tribute
-				["description"] = "Ask Elios about the Steward of the Day, and he will pin their location on your map.  Take a Ripe Purian to the steward, and then you can come back and loot the chest.",
+				["description"] = "Ask Elios about the Steward of the Day, and he will pin their location on your map. Take a Ripe Purian to the steward, and then you can come back and loot the chest.",
 				["coord"] = { 53.2, 46.4, BASTION },
 				["questID"] = 60779,
 				["isDaily"] = true,
@@ -292,7 +292,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isDaily"] = true,
 			}),
 			o(354289, {	-- Windsmith's Tools
-				["description"] = "The |cff0070ddBroken Kyrian Flute|r drops from |cFFFFFFFFUnsettled Etherwyrms|r near the treasure.  After you've found the flute, use the |cFFFFFFFFWindsmith's Tools|r at the forge to restore it.",
+				["description"] = "The |cff0070ddBroken Kyrian Flute|r drops from |cFFFFFFFFUnsettled Etherwyrms|r near the treasure. After you've found the flute, use the |cFFFFFFFFWindsmith's Tools|r at the forge to restore it.",
 				["coord"] = { 35.8, 48.1, BASTION },
 				["questID"] = 61053,
 				["crs"] = { 170009 },	-- Unsettled Etherwyrm

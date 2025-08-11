@@ -6,7 +6,7 @@ local ASPIRANTS_EQUIPMENT_CACHE = i(167744, {	-- Aspirant's Equipment Cache
 		{ "sub", "pvp_gear_base", EXPANSION.BFA, SEASON_CORRUPTED, PVP_ASPIRANT },{"merge"},	-- BFA header > Season 4 header > Aspirant gear header
 		{ "pop" },	-- discard Aspirant / Combatant Gear header
 		{ "pop" },	-- discard item type headers
-		{ "modID", 47 },	-- blue.  still the wrong iLvl because i can't also apply 2, but it looks better
+		{ "modID", 47 },	-- blue. still the wrong iLvl because i can't also apply 2, but it looks better
 	},
 })
 root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
@@ -17,11 +17,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				--	when does "keep them on task" (breadcrumb for area mentioned above) unlock?  could be as early as "terrace of the chosen" or as late as "mistress of lies," which is when i saw it.
 				--	when are "sandscar breach" and "the bones of xibala" available?  i picked them up after "the king's gambit," but they may be available slightly earlier.
 				--	when does "who seeks the seekers?" (in dazar'alor) become available?  seen as early as "the prophet's ploy," but may be available sooner.
-				--	when does "king da'ka" become available?  didn't see it until after i picked up the breadcrumb for the area after turning in "the prophet's ploy," but may be available sooner.  "kaja'mite ore dust" (in the same area) requires zero prereqs, not even the intro to dazar'alor, but this quest wasn't available then.
-				-- when does "lil' tika" become available?  saw it after "the king's gambit" but not sure if that's the requirement to unlock.  the other quests in the area are available prior to doing any quests in dazar'alor or zuldazar.
+				--	when does "king da'ka" become available?  didn't see it until after i picked up the breadcrumb for the area after turning in "the prophet's ploy," but may be available sooner. "kaja'mite ore dust" (in the same area) requires zero prereqs, not even the intro to dazar'alor, but this quest wasn't available then.
+				-- when does "lil' tika" become available?  saw it after "the king's gambit" but not sure if that's the requirement to unlock. the other quests in the area are available prior to doing any quests in dazar'alor or zuldazar.
 				-- possible that "hunting the hunter" only requires "predatory."  check!
-				-- figure out if "prepare for a siege" is a breadcrumb for anything.  there was no follow-up quest to take so i'm not sure if this quest is a requirement for something or just flavor.
-				-- for "how to train your direhorn," i never got the version of "away from the herd" that is questID #55249, just #55244.  figure out if 55249 is used/unused and if/when it appears.
+				-- figure out if "prepare for a siege" is a breadcrumb for anything. there was no follow-up quest to take so i'm not sure if this quest is a requirement for something or just flavor.
+				-- for "how to train your direhorn," i never got the version of "away from the herd" that is questID #55249, just #55244. figure out if 55249 is used/unused and if/when it appears.
 			pvp(n(PVP, {
 				n(AZERITE_ESSENCES, {
 					i(169902, {	-- Finger-Bone Trophy of Battle (Rank 1)
@@ -455,9 +455,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 68.2, 41.8, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["isDaily"] = true,
-			--	i never got this version of the quest, only 55244.  is this version unused or is there a specific set of circumstances under which it appears?
+			--	i never got this version of the quest, only 55244. is this version unused or is there a specific set of circumstances under which it appears?
 			--	the quest directive is slightly different -- this one says "help your direhorn cheer up" and the one i got repeatedly says "play with your direhorn."
-			--	according to wowhead, this one comes from the NPC listed under "provider" here, and the one i got comes from 152258.  so possibly from a different place in the storyline?
+			--	according to wowhead, this one comes from the NPC listed under "provider" here, and the one i got comes from 152258. so possibly from a different place in the storyline?
 				["groups"] = {
 					i(168304),	-- Squeaky Raptor (QI!)
 				},
@@ -534,7 +534,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 135803 },	-- J'eebi
 				["coord"] = { 76.4, 48.7, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-			--	"the wreckoning" and "the things they carried" are available with ZERO prereqs, before starting zuldazar.  this + "productive pests" are not.  unsure what unlocks them.
+			--	"the wreckoning" and "the things they carried" are available with ZERO prereqs, before starting zuldazar. this + "productive pests" are not. unsure what unlocks them.
 			--	could be literally anything from the dazar'alor intro through to "terrace of the chosen" or "mistress of lies," which unlock the breadcrumb that brings you to this area
 				["groups"] = {
 					i(159934),	-- Large Lump of Crab Meat (QI!)
@@ -604,7 +604,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 50943 },	-- The Joy of Flight
 				["qgs"] = {
 					135744,	-- Kua'fon
-					133680,	-- Kua'fon (both versions of the NPC are in the same place at the same time.  i assume if you relog this is the only one there)
+					133680,	-- Kua'fon (both versions of the NPC are in the same place at the same time. i assume if you relog this is the only one there)
 				},
 				["coord"] = { 70.6, 50.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
@@ -928,7 +928,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 132267 },	-- Bently Greaseflare
 				["coord"] = { 51.6, 50.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-			--	kaja'mite ore dust was available before starting the intro to dazar'alor, but this quest wasn't.  what unlocks it?
+			--	kaja'mite ore dust was available before starting the intro to dazar'alor, but this quest wasn't. what unlocks it?
 			}),
 			q(51111, {	-- King or Prey
 				["sourceQuests"] = {
@@ -1164,7 +1164,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 135855 },	-- Teekay Treadlebobbin
 				["coord"] = { 76.4, 48.7, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-			--	"the wreckoning" and "the things they carried" are available with ZERO prereqs, before starting zuldazar.  this + "crabulous" are not.  unsure what unlocks them.
+			--	"the wreckoning" and "the things they carried" are available with ZERO prereqs, before starting zuldazar. this + "crabulous" are not. unsure what unlocks them.
 			--	could be literally anything from the dazar'alor intro through to "terrace of the chosen" or "mistress of lies," which unlock the breadcrumb that brings you to this area
 			}),
 			q(50887, {	-- Ptrust Fall

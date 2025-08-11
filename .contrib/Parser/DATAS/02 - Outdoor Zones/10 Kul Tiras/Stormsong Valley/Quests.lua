@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50065, {	-- A Reason to Stay
-				["provider"] = { "o", 244986 },	-- Dirty Pocketwatch
+				["provider"] = { "o", 244983 },	-- Dirty Pocketwatch
 				["coord"] = { 49.8, 73.5, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -660,7 +660,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 131656 },	-- Houndmaster Archibald
 				["coord"] = { 51.0, 70.1, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
-				--	UNKNOWN SOURCE.  unavailable prior to doing BFA/zone intro.  first noticed after doing 'heavy artillery' but could just require zone intro.
+				--	UNKNOWN SOURCE. unavailable prior to doing BFA/zone intro. first noticed after doing 'heavy artillery' but could just require zone intro.
 			}),
 			q(50608, {	-- Forbidden Rites
 				["sourceQuests"] = {
@@ -765,7 +765,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 138924 },	-- Holger Nash
 				["coord"] = { 67.5, 38.6, 1182 },	-- Saltstone Mine
 				["races"] = ALLIANCE_ONLY,
-				--	unknown SQ.  picked up after picking up "having a blast"
+				--	unknown SQ. picked up after picking up "having a blast"
 			}),
 			q(51720, {	-- Get Shredded
 				["sourceQuests"] = {	-- may also require 'get out of here'
@@ -843,7 +843,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 138735 },	-- Felecia Gladstone
 				["coord"] = { 46.9, 47.7, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
-				--	unknown SQ.  possibly #50909, 'never outgunned'?
+				--	unknown SQ. possibly #50909, 'never outgunned'?
 			}),
 			q(49704, {	-- Haywire Harvesters
 				["sourceQuests"] = { 49703 },	-- House Stormsong
@@ -1296,7 +1296,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 131656 },	-- Houndmaster Archibald
 				["coord"] = { 51.0, 70.1, STORMSONG_VALLEY },
 				["races"] = ALLIANCE_ONLY,
-				--	UNKNOWN SOURCE.  unavailable prior to doing BFA/zone intro.  first noticed after doing 'heavy artillery' but could just require zone intro.
+				--	UNKNOWN SOURCE. unavailable prior to doing BFA/zone intro. first noticed after doing 'heavy artillery' but could just require zone intro.
 			}),
 			q(50908, {	-- Smells like Trouble
 				["sourceQuests"] = { 52067 },	-- Survivors
@@ -1439,7 +1439,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(50368, {	-- Terror of the Kraul
 				["sourceQuests"] = {
-					--	may also require 50340 'steal them back'.  DOES NOT REQUIRE 'TOTEMS, TOTEMS, TOTEMS;' i picked it up before turning that one in.
+					--	may also require 50340 'steal them back'. DOES NOT REQUIRE 'TOTEMS, TOTEMS, TOTEMS;' i picked it up before turning that one in.
 					50367,	-- Anger in a Bottle (didn't appear until i turned this in, in addition to 'run for the hills' + 'war pigs')
 					50363,	-- War Pigs
 					50365,	-- Run For the Hills
@@ -1541,7 +1541,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 146019 },	-- Cracked Mine Sweeper
 				["coord"] = { 48.1, 15.7, 1182 },
 				["races"] = ALLIANCE_ONLY,
-			--	unknown SQ.  picked up after picking up "having a blast"
+			--	unknown SQ. picked up after picking up "having a blast"
 			}),
 			q(50139, {	-- The Missing Link
 				["sourceQuests"] = { 49975 },	-- Rest in the Depths
@@ -1656,7 +1656,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(49818, {	-- Trouble at Fort Daelin
-				["sourceQuests"] = {	-- needs confirmation.  may open as early as walking across the bridge north of brennadam.  it wasn't here prior to doing that, though.  it was available after turning these 3 in but before picking up or doing 'heavy artillery,' so the SQ is either these 3 or walking across the brennadam bridge to pick these 3 up.
+				["sourceQuests"] = {	-- needs confirmation. may open as early as walking across the bridge north of brennadam. it wasn't here prior to doing that, though. it was available after turning these 3 in but before picking up or doing 'heavy artillery,' so the SQ is either these 3 or walking across the brennadam bridge to pick these 3 up.
 					49744,	-- Bombs, Away
 					49746,	-- Dousing the Flames
 					49745,	-- You Have Their Orders

@@ -242,7 +242,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(148024, {	-- Dodger <Pet Smuggler>
-				["description"] = "To unlock this vendor, win PvP pet battles until the mission \"A Shady Message\" spawns.  Complete the mission, and you'll be able to purchase items from the vendor.  It could take 1, 10, 100 or 1,000 PvP pet battles before it spawns.",
+				["description"] = "To unlock this vendor, win PvP pet battles until the mission \"A Shady Message\" spawns. Complete the mission, and you'll be able to purchase items from the vendor. It could take 1, 10, 100 or 1,000 PvP pet battles before it spawns.",
 				["coord"] = { 68.9, 17.0, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {

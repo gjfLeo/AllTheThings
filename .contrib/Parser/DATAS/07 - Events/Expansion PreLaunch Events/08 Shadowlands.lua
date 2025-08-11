@@ -367,7 +367,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 				["qg"] = 170467,	-- Crusader Renn
 				["coord"] = { 44.9, 44.7, ICECROWN },
 				["lvl"] = { 50 },
-				-- i know i picked it up in this area, but not sure about the provider.  didn't realize it wasn't added until i turned it in
+				-- i know i picked it up in this area, but not sure about the provider. didn't realize it wasn't added until i turned it in
 			}),
 			q(59838, {	-- Scourge War Machines
 				["sourceQuest"] = 60932,	-- Only Shadows Remain

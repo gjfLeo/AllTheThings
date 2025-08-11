@@ -223,7 +223,7 @@ root(ROOTS.Zones, {
 				}),
 				o(240353, {	-- Seemingly Unguarded Treasure
 					["questID"] = 40423,
-					["description"] = "Loot the treasure inside the cave and a party of enemies will appear.  Kill them and loot the treasure.",
+					["description"] = "Loot the treasure inside the cave and a party of enemies will appear. Kill them and loot the treasure.",
 					["coord"] = { 52.3, 58.5, HIGHMOUNTAIN },
 					["crs"] = {
 						100302,	-- Puck <Unethical Adventurers>

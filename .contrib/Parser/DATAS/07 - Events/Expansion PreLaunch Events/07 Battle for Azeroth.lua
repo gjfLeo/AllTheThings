@@ -5,7 +5,7 @@
 root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADDED_8_0_1, REMOVED_8_0_1 }, ["lvl"] = 110 }, {
 	expansion(EXPANSION.BFA, {
 		n(QUESTS, {
-			-- Attaching the quests to each zone that is involved in the "War of the Thorns" Campaign.  Excluding Undercity, Stormwind and Northern Barrens due to only one quest taking place in these zones and it's not relevant to link for just the one.
+			-- Attaching the quests to each zone that is involved in the "War of the Thorns" Campaign. Excluding Undercity, Stormwind and Northern Barrens due to only one quest taking place in these zones and it's not relevant to link for just the one.
 			["maps"] = {
 				ASHENVALE,
 				DARNASSUS,
@@ -149,7 +149,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(53095, {	-- A Flicker of Hope
-					["description"] = "You do not have to save all 982 people.  Once timer runs out this quest is removed and next one is auto-accepted.",
+					["description"] = "You do not have to save all 982 people. Once timer runs out this quest is removed and next one is auto-accepted.",
 					["sourceQuest"] = 52977,	-- The Guidance of Our Shan'do
 					["qg"] = 142978,	-- Mia Greymane <Queen of Gilneas>
 					["races"] = ALLIANCE_ONLY,

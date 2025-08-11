@@ -248,7 +248,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(128146),	-- Ensnared Orb of the Sky
 						ig(127749),	-- Corrupted Nest Guardian (PET!)
 						TempForceMisc(ig(127771, {	-- Gemcutter Module: Critical Strike
-							["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn.  If you have this recipe already you will need to revisit the vendor to cache the recipe.",
+							["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
 							["requireSkill"] = JEWELCRAFTING,
 						})),
 					})),
@@ -393,7 +393,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					}),
 					ig(127749),	-- Corrupted Nest Guardian (PET!)
 					TempForceMisc(ig(127771, {	-- Gemcutter Module: Critical Strike
-						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn.  If you have this recipe already you will need to revisit the vendor to cache the recipe.",
+						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
 						["requireSkill"] = JEWELCRAFTING,
 					})),
 				})),

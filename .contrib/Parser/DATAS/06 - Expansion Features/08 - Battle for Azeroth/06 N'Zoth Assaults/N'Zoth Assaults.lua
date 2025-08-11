@@ -84,7 +84,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47214,	{		-- Corrupted Bloodseeker slain
-						["description"] = "This doesn't appear to share a spawn with any other mob, but it's an elite shark that spawns off the southern coast of Uldum.  It can swim very far out, close to fatigue waters, so if you're searching for Corrupted Bloodseeker it may be helpful to follow the outside edge rather than sticking to the coast.",
+						["description"] = "This doesn't appear to share a spawn with any other mob, but it's an elite shark that spawns off the southern coast of Uldum. It can swim very far out, close to fatigue waters, so if you're searching for Corrupted Bloodseeker it may be helpful to follow the outside edge rather than sticking to the coast.",
 						["cr"] = 162290,	-- Corrupted Bloodseeker
 						["coords"] = {
 							{ 13.8, 63.6, NZOTH_ASSAULT_ULDUM },
@@ -93,7 +93,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47215,	{		-- Corrupted Bonestripper slain
-						["description"] = "Shares a spawn with N'Zoth Bonestripper.  Found in most water locations.",
+						["description"] = "Shares a spawn with N'Zoth Bonestripper. Found in most water locations.",
 						["cr"] = 159087,	-- Corrupted Bonestripper
 						["coords"] = {
 							{ 55.7, 43.8, NZOTH_ASSAULT_ULDUM },
@@ -110,7 +110,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47216,	{		-- Corrupted Despoiler slain
-						["description"] = "Shares a spawn with Faceless Despoiler and Mind Eater.  Can also result in Corrupted Mind Eater spawning.",
+						["description"] = "Shares a spawn with Faceless Despoiler and Mind Eater. Can also result in Corrupted Mind Eater spawning.",
 						["cr"] = 156709,	-- Corrupted Despoiler
 						["coords"] = {
 							{ 59.5, 47.4, NZOTH_ASSAULT_ULDUM },
@@ -214,7 +214,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47221, {		-- Corrupted Mind Eater slain
-						["description"] = "Shares a spawn with Mind Eater and Faceless Despoiler.  Can also result in Corrupted Despoiler spawning.",
+						["description"] = "Shares a spawn with Mind Eater and Faceless Despoiler. Can also result in Corrupted Despoiler spawning.",
 						["cr"] = 162243,	-- Corrupted Mind Eater
 						["coords"] = {
 							{ 59.5, 47.4, NZOTH_ASSAULT_ULDUM },

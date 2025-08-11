@@ -2598,7 +2598,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(20916, {	-- Xerintha Ravenoak <Food & Drink>
-						["description"] = "This vendor stocks a limited supply of these items.  Alliance players can purchase them from Sassa Weldwell, who sells unlimited quantities.  Horde players who don't wish to wait for Xerintha to restock can complete the quest |cFFefc400Mok'Nathal Treats|r, which awards both recipes.",
+						["description"] = "This vendor stocks a limited supply of these items. Alliance players can purchase them from Sassa Weldwell, who sells unlimited quantities. Horde players who don't wish to wait for Xerintha to restock can complete the quest |cFFefc400Mok'Nathal Treats|r, which awards both recipes.",
 						["coord"] = { 62.4, 40.2, BLADES_EDGE_MOUNTAINS },
 						["groups"] = {
 							i(31674),	-- Recipe: Crunchy Serpent (RECIPE!)

@@ -53,7 +53,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44342, {	-- Volume VI
 								["name"] = "|cFFFFFFFFVolume VI|r | Archivist Inkforge in the class order hall.",
-								["description"] = "You must get this volume first in order to collect the others.  Talk to Archivist Inkforge. Always choose the middle answer (passive curious, not judging) and he will give you the first volume.",
+								["description"] = "You must get this volume first in order to collect the others. Talk to Archivist Inkforge. Always choose the middle answer (passive curious, not judging) and he will give you the first volume.",
 								["provider"] = { "n", 111119 },	-- Archivist Inkforge
 								["coord"] = { 62.5, 36.3, NETHERLIGHT_TEMPLE },
 							}),

@@ -310,7 +310,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(78874),	-- Shoulders of the Corrupted Vanquisher
 							i(78863, {	-- Chest of the Corrupted Conqueror
 								-- #if AFTER LEGION
-								["description"] = "Paladin Completionists will want to take this item to the vendor to get the specific item they want.  Right-clicking can award the Holy piece regardless of your spec.",
+								["description"] = "Paladin Completionists will want to take this item to the vendor to get the specific item they want. Right-clicking can award the Holy piece regardless of your spec.",
 								-- #endif
 							}),
 							i(78864),	-- Chest of the Corrupted Protector

@@ -1276,7 +1276,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 		}),
 		q(50420, {	-- A Gently Shaken Gift (2017)
-			["description"] = "Gift from 2017.  You will receive only one faction's Hearthstation.  In order to obtain the opposite faction's, you will need to have a character on that side open this gift.",
+			["description"] = "Gift from 2017. You will receive only one faction's Hearthstation. In order to obtain the opposite faction's, you will need to have a character on that side open this gift.",
 			["providers"] = {
 				{ "o", 180746 },	-- Gently Shaken Gift
 				{ "i", 151345 },	-- Gently Shaken Gift
@@ -1640,7 +1640,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 		}),
 		q(47751, {	-- A Winter Veil Gift (2017)
-			["description"] = "Gift from 2017. You will receive only one factions Toy Weapon Set.  In order to obtain the opposite factions, you will need to have a character on that side open this gift.",
+			["description"] = "Gift from 2017. You will receive only one factions Toy Weapon Set. In order to obtain the opposite factions, you will need to have a character on that side open this gift.",
 			["providers"] = {
 				{ "o", 187236 },	-- Winter Veil Gift
 				{ "i", 151350 },	-- Winter Veil Gift
@@ -1661,7 +1661,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 		}),
 		q(52965, {	-- A Winter Veil Gift (2018)
-			["description"] = "Gift from 2018. You will receive only one factions Toy Armor Set.  In order to obtain the opposite factions, you will need to have a character on that side open this gift.",
+			["description"] = "Gift from 2018. You will receive only one factions Toy Armor Set  In order to obtain the opposite factions, you will need to have a character on that side open this gift.",
 			["providers"] = {
 				{ "o", 187236 },	-- Winter Veil Gift
 				{ "i", 162644 },	-- Winter Veil Gift

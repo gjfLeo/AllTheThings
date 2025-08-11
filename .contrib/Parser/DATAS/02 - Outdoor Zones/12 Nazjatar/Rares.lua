@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152566, {	-- Anemonar
-			["description"] = "Kill a |cFFFFD700Colossal Sky Ray|r on top of Anemonar to activate him.  |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
+			["description"] = "Kill a |cFFFFD700Colossal Sky Ray|r on top of Anemonar to activate him. |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
 			["questID"] = 56281,
 			["isDaily"] = true,
 			["coord"] = { 58.6, 53.2, NAZJATAR },
@@ -221,7 +221,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}},
 		}),
 		n(152323, {	-- King Gakula
-			["description"] = "Whenever a player shoos a |cFF00991aBloodfin Tadpole|r, it fills an invisible progress bar for Gakula's spawn.  He will yell a total of four times, spawning with the last one.\n\nGakula's yells:\n1. |cFFff4040Mgrlgl? Gmrgurgl?|r\n2. |cFFff4040Murrrglurg? Murgglugrg!|r\n3. |cFFff4040Mrrglgl! Murgglagk!|r\n4. |cFFff4040Gak! Mugllglgll Gak!|r",
+			["description"] = "Whenever a player shoos a |cFF00991aBloodfin Tadpole|r, it fills an invisible progress bar for Gakula's spawn. He will yell a total of four times, spawning with the last one.\n\nGakula's yells:\n1. |cFFff4040Mgrlgl? Gmrgurgl?|r\n2. |cFFff4040Murrrglurg? Murgglugrg!|r\n3. |cFFff4040Mrrglgl! Murgglagk!|r\n4. |cFFff4040Gak! Mugllglgll Gak!|r",
 			["questID"] = 55671,
 			["isDaily"] = true,
 			["coord"] = { 28.8, 29.0, NAZJATAR },
@@ -235,7 +235,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152549, {	-- Lost Algan -- not identified with an Elite/Vignette indicator, but drops very important currency once per day
-			["questID"] = 56916,	-- triggered upon looting.  can also trigger 55427 and 57082 upon looting.  possible separate manapearl + benthic trigger?
+			["questID"] = 56916,	-- triggered upon looting. can also trigger 55427 and 57082 upon looting. possible separate manapearl + benthic trigger?
 			-- 55427 & 56916 = manapearls only
 			-- 57082 = benthic only
 			["isDaily"] = true,
@@ -447,7 +447,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 56106,
 			["coord"] = { 65.9, 22.9, NAZJATAR },
 			["isDaily"] = true,
-			["description"] = "Clusters of purple, void-tinged sacs grow around the area where the rare spawns.  Look for ones you can interact with called |cFFFFD700Undisturbed Specimens|r — 5 of these need to be popped to spawn the rare, but they don't all have to be destroyed by one person.",
+			["description"] = "Clusters of purple, void-tinged sacs grow around the area where the rare spawns. Look for ones you can interact with called |cFFFFD700Undisturbed Specimens|r — 5 of these need to be popped to spawn the rare, but they don't all have to be destroyed by one person.",
 			["groups"] = {
 				i(170196),	-- Shirakess Warning Sign (TOY!)
 			},
@@ -471,14 +471,14 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				{ 30.3, 35.9, NAZJATAR },
 			},
 			["isDaily"] = true,
-			["description"] = "Kill a |cFFFFD700Staghorn Reefwalker|r on top of Urduu to activate him.  |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
+			["description"] = "Kill a |cFFFFD700Staghorn Reefwalker|r on top of Urduu to activate him. |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
 			["sym"] = {{"select","itemID",
 				170184,	-- Ancient Reefwalker Bark
 				170183,	-- Reefwalker Bark
 			}},
 		}),
 		n(151719, {	-- Voice in the Deeps
-			["description"] = "When the rare is available, you can see its nameplate while hovering over the rocks inside the small building at the coordinates listed.\n\nWhen you're sure it's up, find a |cFF1EFF00Molted Shell|r on the ground and ride it into the rocks to break them.  The rare will immediately attack, so be ready to click off the buff!",
+			["description"] = "When the rare is available, you can see its nameplate while hovering over the rocks inside the small building at the coordinates listed.\n\nWhen you're sure it's up, find a |cFF1EFF00Molted Shell|r on the ground and ride it into the rocks to break them. The rare will immediately attack, so be ready to click off the buff!",
 			["questID"] = 56300,	-- also 56583
 			["coord"] = { 67.5, 34.6, NAZJATAR },
 			["isDaily"] = true,
@@ -499,7 +499,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(151166, {	-- Wayward Algan -- not identified with an Elite/Vignette indicator, but drops very important currency
-			["description"] = "Wanders around Nazjatar.  This mob doesn't have a vignette star that appears on the map and isn't technically a rare, but has a chance to drop Prismatic Manapearls and Benthic gear.",
+			["description"] = "Wanders around Nazjatar. This mob doesn't have a vignette star that appears on the map and isn't technically a rare, but has a chance to drop Prismatic Manapearls and Benthic gear.",
 			["questID"] = 56915,	-- triggered when looting manapearls; triggered 57083 when looting benthic gear
 			["isDaily"] = true,
 			["groups"] = {

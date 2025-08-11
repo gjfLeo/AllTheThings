@@ -2961,7 +2961,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["provider"] = { "n", 77209 },	-- Baros Alexston
 				["coord"] = { 29.5, 33.3, LUNARFALL },
 				["races"] = ALLIANCE_ONLY,
-			--	unknown SQ.  wowhead says level requirement is 92, but i didn't see this until i hit 100 and upgraded to a level 3 garrison
+			--	unknown SQ. wowhead says level requirement is 92, but i didn't see this until i hit 100 and upgraded to a level 3 garrison
 			--	possible that you have to pick up 'outpost building assembly notes,' which are awarded by specific quests in spires of arak and gorgrond
 			--	i had also just received my first outpost notes before finding this quest
 			--	gorgrond is a level 92 zone, so that's possible

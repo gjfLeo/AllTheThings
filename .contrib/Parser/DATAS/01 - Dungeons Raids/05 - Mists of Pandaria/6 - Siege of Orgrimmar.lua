@@ -162,7 +162,7 @@ local TWISTED_TREASURES_OF_THE_VALE = i(104275, {	-- Twisted Treasures of the Va
 });
 local COALESCED_TURMOIL = i(105714, {	-- Coalesced Turmoil
 	-- #if AFTER 8.0.1
-	["description"] = "Since the introduction of Legacy Loot this bag is only obtainable if you queue up as a Level 91-100 for the intended raid.  If you are 101+ then you will need to seek out each item based on their original sources.  This change occured in Patch 8.0.1",
+	["description"] = "Since the introduction of Legacy Loot this bag is only obtainable if you queue up as a Level 91-100 for the intended raid. If you are 101+ then you will need to seek out each item based on their original sources. This change occured in Patch 8.0.1",
 	-- #endif
 	["timeline"] = { ADDED_5_4_0, REMOVED_8_0_1 },
 	["crs"] = {

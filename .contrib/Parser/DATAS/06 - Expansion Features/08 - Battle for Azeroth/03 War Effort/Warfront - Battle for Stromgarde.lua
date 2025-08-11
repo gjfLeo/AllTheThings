@@ -821,7 +821,7 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = HORDE_ONLY,
 								}),
 								ach(12884, {	-- Leader of Troops (A)
-									["description"] = "You must personally create each troop.  Siege Engines are limited to 3 active at a time.",
+									["description"] = "You must personally create each troop. Siege Engines are limited to 3 active at a time.",
 									["races"] = ALLIANCE_ONLY,
 									["groups"] = {
 										crit(41124),	-- Footmen
@@ -832,7 +832,7 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								ach(12878, {	-- Leader of Troops (H)
-									["description"] = "You must personally create each troop.  Demolishers are limited to 3 active at a time.",
+									["description"] = "You must personally create each troop. Demolishers are limited to 3 active at a time.",
 									["races"] = HORDE_ONLY,
 									["groups"] = {
 										crit(41120),	-- Grunts
@@ -1390,7 +1390,7 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								q(53207, {	-- The Warfront Looms
-									["description"] = "Automatically granted upon completing Uniting Zandalar to unlock World Quests.  If it doesn't pop up, relog.  I had to relog twice to receive this quest.",
+									["description"] = "Automatically granted upon completing Uniting Zandalar to unlock World Quests. If it doesn't pop up, relog. I had to relog twice to receive this quest.",
 									["sourceQuests"] = { 52451 },	-- Uniting Zandalar
 									["provider"] = { "n", 138949 },	-- Throk <Recruitment Officer>
 									["coord"] = { 52.97, 94.35, DAZARALOR },

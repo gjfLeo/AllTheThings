@@ -784,7 +784,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(64028, {	-- Challenger Soong <Challenge Dungeons>
-						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon.  You can only buy the set for your class.",
+						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon. You can only buy the set for your class.",
 						["coord"] = { 86.3, 61.5, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -879,7 +879,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(63994, {	-- Challenger Wuli <Challenge Dungeons>
-						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon.  You can only buy the set for your class.",
+						["description"] = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon. You can only buy the set for your class.",
 						["coord"] = { 61.2, 20.8, VALE_OF_ETERNAL_BLOSSOMS },
 						["races"] = HORDE_ONLY,
 						["groups"] = {

@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14761, {	-- Deciphering Death's Intentions
-				["description"] = "Most of the Maw Lore items can be found by killing Assassins, rares, or normal mobs.  The remaining ones drop from specific mobs, rares, or treasures that can be found throughout the Maw.",
+				["description"] = "Most of the Maw Lore items can be found by killing Assassins, rares, or normal mobs. The remaining ones drop from specific mobs, rares, or treasures that can be found throughout the Maw.",
 				["groups"] = {
 					crit(49894, {	-- Constellan Writ
 						["_quests"] = { 63132 },
@@ -251,7 +251,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["crs"] = {
 					173139,	-- Bridled Shadehound (random spawn)
 					173149,	-- Bridled Shadehound (after killing NPC riding it)
-					176390,	-- Bridled Shadehound (random spawn?  found one up around 44, 45.  you just click to ride and it doesn't have a cast bar to hop on)
+					176390,	-- Bridled Shadehound (random spawn?  found one up around 44, 45. you just click to ride and it doesn't have a cast bar to hop on)
 				},
 			}),
 			ach(14659, {	-- Handling His Henchmen

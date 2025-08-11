@@ -209,7 +209,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(59808, {	-- Muck it Up
 				n(166292, {	-- Bog Beast
 					["questID"] = 59823,
-					["description"] = "Only available when the |cFFFFD700Muck It Up|r world quest is active.  Loot Primordial Muck from the quest mobs and throw it into the mire for a chance to summon the rare.",
+					["description"] = "Only available when the |cFFFFD700Muck It Up|r world quest is active. Loot Primordial Muck from the quest mobs and throw it into the mire for a chance to summon the rare.",
 					["coord"] = { 35.8, 32.6, REVENDRETH },
 					["isDaily"] = true,
 					["groups"] = {
@@ -242,7 +242,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60656, {	-- Summon Your Sins
 				n(170434, {	-- Amalgamation of Sin
 					["questID"] = 60836,
-					["description"] = "At the end of the world quest, you will receive either an |cFFFFFFFFAmalgamation of Sin|r or an |cFF0070ddAmalgamation of Sin|r.  The white version summons a guardian elemental, and the blue version will summon the rare.\n\nSo far, there doesn't seem to be a surefire way to get the rare-summoning item.",
+					["description"] = "At the end of the world quest, you will receive either an |cFFFFFFFFAmalgamation of Sin|r or an |cFF0070ddAmalgamation of Sin|r. The white version summons a guardian elemental, and the blue version will summon the rare.\n\nSo far, there doesn't seem to be a surefire way to get the rare-summoning item.",
 					["coord"] = { 66.0, 33.2, REVENDRETH },
 					["cost"] = { { "i", 180376, 1 } },	-- Amalgamation of Sin
 					["isDaily"] = true,
@@ -287,7 +287,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60654, {	-- Swarming Souls
 				n(170048, {	-- Manifestation of Wrath
 					["questID"] = 60729,
-					["description"] = "Only available when the |cFFFFD700Swarming Souls|r world quest is active.  When turning Lost Souls in to the Avowed Ritualist, there is a chance to spawn the rare.",
+					["description"] = "Only available when the |cFFFFD700Swarming Souls|r world quest is active. When turning Lost Souls in to the Avowed Ritualist, there is a chance to spawn the rare.",
 					["coord"] = { 49.8, 35.0, REVENDRETH },
 					["isDaily"] = true,
 					["crs"] = { 169917 },	-- Avowed Ritualist

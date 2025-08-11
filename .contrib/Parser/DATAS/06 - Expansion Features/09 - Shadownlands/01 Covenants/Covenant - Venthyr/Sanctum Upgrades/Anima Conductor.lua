@@ -81,13 +81,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 							n(TREASURES, {
 								o(356757, {	-- Greed's Desire
-									["description"] = "Part of the Greater Greedstone treasure.  Requires focusing the Anima Conductor at Crypt of the Forgotten.",
+									["description"] = "Part of the Greater Greedstone treasure. Requires focusing the Anima Conductor at Crypt of the Forgotten.",
 									["questID"] = 61646,
 									["isDaily"] = true,
 									["coord"] = { 71.9, 34.5, REVENDRETH },
 								}),
 								o(354211, {	-- Greed's Reward
-									["description"] = "Part of the Greater Greedstone treasure.  Requires focusing the Anima Conductor at Crypt of the Forgotten.",
+									["description"] = "Part of the Greater Greedstone treasure. Requires focusing the Anima Conductor at Crypt of the Forgotten.",
 									["questID"] = 61045,
 									["isDaily"] = true,
 									["coord"] = { 46.0, 29.1, REVENDRETH },

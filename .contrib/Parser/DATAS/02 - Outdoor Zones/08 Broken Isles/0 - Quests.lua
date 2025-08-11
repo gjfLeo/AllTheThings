@@ -342,7 +342,7 @@ root(ROOTS.Zones, {
 					["maps"] = CLASS_HALL_MAPS,
 					["groups"] = {
 						q(44009, {	-- A Falling Star (non-Paladin)
-							["description"] = "The prerequisite for this quest is recruiting your class's first two champions, doing your first short mission, and recruiting your first troops.",	-- i also sent out my first 1-hour mission after the 2-minute one, not sure if that's required.  not sure whether paladin's requirements are different, so i didn't add the description to their version of the quest.
+							["description"] = "The prerequisite for this quest is recruiting your class's first two champions, doing your first short mission, and recruiting your first troops.",	-- i also sent out my first 1-hour mission after the 2-minute one, not sure if that's required. not sure whether paladin's requirements are different, so i didn't add the description to their version of the quest.
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["coord"] = { 28.9, 48.4, LEGION_DALARAN },
 							["classes"] = exclude(PALADIN, ALL_CLASSES),
@@ -564,11 +564,11 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(41368, {	-- Lost Mail
-						["description"] = "To get this quest, you must find a small envelope near a mailbox in Broken Isles Dalaran.  It can spawn in multiple places and has a long respawn timer.  If you don't want to wait, you can try to find Lost Mail for sale on the Auction House.",
+						["description"] = "To get this quest, you must find a small envelope near a mailbox in Broken Isles Dalaran. It can spawn in multiple places and has a long respawn timer. If you don't want to wait, you can try to find Lost Mail for sale on the Auction House.",
 						["provider"] = { "i", 134859 },	-- Lost Mail
 					}),
 					q(41411, {	-- Lost Mail
-						["description"] = "If you don't want to camp out to start the questline, you can try to find Lost Mail for sale on the Auction House.  (Players who complete the questline will get a piece of mail that can be traded or sold.)",
+						["description"] = "If you don't want to camp out to start the questline, you can try to find Lost Mail for sale on the Auction House. (Players who complete the questline will get a piece of mail that can be traded or sold.)",
 						["provider"] = { "i", 135479 },	-- Lost Mail
 					}),
 					q(46278, {	-- Return to Sender

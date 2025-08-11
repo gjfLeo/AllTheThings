@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(180246, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Carriage Crusher
-				["description"] = "The Assault Supply Carriage starts in Korthia, moves to the northeastern bridge out of the Beastwarrens, and then finishes its supply run to the current covenant assault.\n\nWhen the carriage makes it to the bridge, the Carriage Crusher spawns.  You can hop into the carriage to heal it and yourself.",
+				["description"] = "The Assault Supply Carriage starts in Korthia, moves to the northeastern bridge out of the Beastwarrens, and then finishes its supply run to the current covenant assault.\n\nWhen the carriage makes it to the bridge, the Carriage Crusher spawns. You can hop into the carriage to heal it and yourself.",
 				["crs"] = {
 					180182,	-- Assault Supply Carriage
 					180181,	-- Wicklick [Vignette]
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(179779, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Deomen the Vortex
-				["description"] = "If the cage is locked, enter the building to the left of the rare at |cFFFFFFFF63.3, 43.6|r.  There is a lever on the wall on either side of the room at the bottom of the stairs, inside the alcoves.",
+				["description"] = "If the cage is locked, enter the building to the left of the rare at |cFFFFFFFF63.3, 43.6|r. There is a lever on the wall on either side of the room at the bottom of the stairs, inside the alcoves.",
 				["crs"] = { 179791 },	-- Deomen the Vortex (while in cage)
 				["coord"] = { 61.3, 41.3, THE_MAW },
 				["questID"] = 64251,
@@ -496,11 +496,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(177444, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Ylva <Mate of Guarm>
-				["questID"] = 64152,	-- also 62683 after a refresh, not sure which one is 'first time' or if both trigger every time.  didn't get to do the achievement so it's unrelated to that
+				["questID"] = 64152,	-- also 62683 after a refresh, not sure which one is 'first time' or if both trigger every time. didn't get to do the achievement so it's unrelated to that
 				["coord"] = { 66.7, 42.4, THE_MAW },
 				["groups"] = {
 					ach(14943, {	-- Guarmageddon
-						["description"] = "Kill all of Ylva and Guarm's children, and then kill the rare.  You must be within range of the baby guarm when they die to get the debuff.",
+						["description"] = "Kill all of Ylva and Guarm's children, and then kill the rare. You must be within range of the baby guarm when they die to get the debuff.",
 							["crs"] = {
 								177441,	-- Frekki
 								177422,	-- Girs

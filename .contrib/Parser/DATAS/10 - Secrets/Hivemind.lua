@@ -19,7 +19,7 @@ root(ROOTS.Secrets, {
 				["description"] = "|cFFFFFFFFSTEP 2:|r You must wear the talisman to see/interact with many objects in this secret.",
 			}),
 			o(13000032, {	-- Step 3: Pick a Monocle (Or Don't!)
-				["description"] = "|cFFFFFFFFSTEP 3:|r Hivemind requires a five-man group.  Four members must each collect a different monocle before the group can continue with the secret.",
+				["description"] = "|cFFFFFFFFSTEP 3:|r Hivemind requires a five-man group. Four members must each collect a different monocle before the group can continue with the secret.",
 				["groups"] = {
 					hqt(50181,    {	-- Blue Crystal Monocle
 						["icon"] = 133146,
@@ -51,14 +51,14 @@ root(ROOTS.Secrets, {
 								["questID"] = 40252,
 								["coord"] = { 45.7, 24.0, THOUSAND_NEEDLES },	-- Razorfen Downs
 								["sourceQuest"] = 40404,	-- Letter 3: Karazhan (Old)
-								["description"] = "|cFFFFFFFFLetter 4:|r Go to |cFFFFD700Razorfen Downs|r in |cFFFFD700Thousand Needles|r. The next |cFFFFD700Letter from Ms. Graham|r is located on a hay box behind the second-to-last boss, |cFFFFD700Death Speaker Blackthorn|r. will spawn on the table.  Click it.  The note reads...\r\r|cFFFFFFFFMs. Sin will accompany you down The longest Streets Of the underworld.|r\n",
+								["description"] = "|cFFFFFFFFLetter 4:|r Go to |cFFFFD700Razorfen Downs|r in |cFFFFD700Thousand Needles|r. The next |cFFFFD700Letter from Ms. Graham|r is located on a hay box behind the second-to-last boss, |cFFFFD700Death Speaker Blackthorn|r. will spawn on the table. Click it. The note reads...\r\r|cFFFFFFFFMs. Sin will accompany you down The longest Streets Of the underworld.|r\n",
 							}),
 							o(280842, {	-- Letter 5: Shrine of Aviana, Mount Hyjal
 								["model"] = 1661948,
 								["questID"] = 40293,
 								["coord"] = { 44.3, 47.3, MOUNT_HYJAL },
 								["sourceQuest"] = 40252,	-- Letter 4: Razorfen Downs
-								["description"] = "|cFFFFFFFFLetter 5:|r Go to |cFFFFFFFF44.3, 47.3|r in |cFFFFD700Mount Hyjal|r. The next |cFFFFD700Letter from Ms. Graham|r is on a table at the highest floor of the tree that serves as her shrine. Click it.  The note reads...\r\r|cFFFFFFFFThe Elite champions will rule the World with the mightiest F.C.|r\n",
+								["description"] = "|cFFFFFFFFLetter 5:|r Go to |cFFFFFFFF44.3, 47.3|r in |cFFFFD700Mount Hyjal|r. The next |cFFFFD700Letter from Ms. Graham|r is on a table at the highest floor of the tree that serves as her shrine. Click it. The note reads...\r\r|cFFFFFFFFThe Elite champions will rule the World with the mightiest F.C.|r\n",
 							}),
 							o(280843, {	-- Letter 6: Ironwall Dam, Icecrown
 								["model"] = 1661948,

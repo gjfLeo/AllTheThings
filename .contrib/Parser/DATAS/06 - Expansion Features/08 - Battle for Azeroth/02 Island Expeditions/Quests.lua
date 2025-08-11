@@ -624,7 +624,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		q(55619, {["repeatable"]=true}),	-- Upgrade Your Vehicle (Optional), Alliance
 		q(57103, {["repeatable"]=true}),	-- Upgrade Your Vehicle (Optional), Horde
 		q(55617),	-- Expedition Siege Engine — assembling siege engine in Island Expeditions
-		q(56998),	-- triggered when turning in "Azerite for the Alliance," (53436) which also triggered "Azerite for the Horde" (53435).  i also got Rank 1 Volatile Worldvein from the quest, so maybe this is for receiving that?
+		q(56998),	-- triggered when turning in "Azerite for the Alliance," (53436) which also triggered "Azerite for the Horde" (53435). i also got Rank 1 Volatile Worldvein from the quest, so maybe this is for receiving that?
 		q(56520),	-- IE-related mission — not sure if this is the Stalwart Worldvein Rank 2 one or one that awarded Saurok Scale Headgear
 		q(57060),	-- IE-related mission — not sure if this is the Stalwart Worldvein Rank 2 one or one that awarded Saurok Scale Headgear
 		q(57061),	-- popped when i manually refreshed after fully completing the mission / getting Fluctuating Worldvein in my inventory

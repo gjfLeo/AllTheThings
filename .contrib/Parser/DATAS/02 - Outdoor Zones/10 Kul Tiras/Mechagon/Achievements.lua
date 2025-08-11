@@ -489,7 +489,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				}),
 			}),
 			ach(13696, {	-- Scrappy's Best Friend
-				["description"] = "When you find Scrappy, use an |cff0070ddEnergy Cell|r to revive him and then feed him a |CffffffffMechano-Treat|r.  He runs around after being revived by any player, so if you can't find him try using a /tar macro in the general Rustbolt area.",
+				["description"] = "When you find Scrappy, use an |cff0070ddEnergy Cell|r to revive him and then feed him a |CffffffffMechano-Treat|r. He runs around after being revived by any player, so if you can't find him try using a /tar macro in the general Rustbolt area.",
 				["coords"] = {
 					{ 70.4, 30.8, MECHAGON },
 					{ 71.8, 34.2, MECHAGON },

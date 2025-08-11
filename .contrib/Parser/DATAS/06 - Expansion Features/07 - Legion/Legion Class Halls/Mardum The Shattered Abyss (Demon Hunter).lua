@@ -882,7 +882,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 112407 },	-- Falara Nightsong
 						["coord"] = { 57.7, 44.2, 720 },
 						["lvl"] = 110,
-					--	unknown if this has any SQs in the campaign or if it's automatically rewarded at 110 regardless of your class campaign progression.  i had done up through "working with the wardens."
+					--	unknown if this has any SQs in the campaign or if it's automatically rewarded at 110 regardless of your class campaign progression. i had done up through "working with the wardens."
 						["groups"] = {
 							i(139718),	-- Helm of the Shattered Abyss
 						},

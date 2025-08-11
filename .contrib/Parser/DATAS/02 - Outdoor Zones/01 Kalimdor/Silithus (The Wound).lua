@@ -178,8 +178,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["_drop"] = { "r" },	-- API claims this is Horde-only, but it's neutral
 							--	originally removed, then hotfixed back in for 50 characters
-							--	NOT Horde-only, this ID is offered in both Dazar'alor and Boralus.  there used to be a separate ID for Alliance (52946), but it looks like that one was permanently removed.
-							--	used to be able to be picked up in Orgrimmar from Nathanos, but that doesn't seem to be the case anymore.  Nathanos is still in Org, but the only quest he offered to me at 50 was "Battle for Azeroth: Mission Statement," which i think originally took place after players had picked up the HoA - after completing "Mission Statement" i went back and Nathanos was no longer in that location in Orgrimmar
+							--	NOT Horde-only, this ID is offered in both Dazar'alor and Boralus. there used to be a separate ID for Alliance (52946), but it looks like that one was permanently removed.
+							--	used to be able to be picked up in Orgrimmar from Nathanos, but that doesn't seem to be the case anymore. Nathanos is still in Org, but the only quest he offered to me at 50 was "Battle for Azeroth: Mission Statement," which i think originally took place after players had picked up the HoA - after completing "Mission Statement" i went back and Nathanos was no longer in that location in Orgrimmar
 						}),
 						q(55519, {	-- A Fresh Trauma
 							["description"] = "Your Heart of Azeroth needs to be 55 to start the questline.",
@@ -757,7 +757,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_2_0 },
 						}),
 						q(53406, {	-- The Chamber of Heart (third HoA upgrade)
-							["description"] = "This quest awards +15 item levels for your Heart of Azeroth.  You can pick it up once one of your characters reaches Revered with Champions of Azeroth.",
+							["description"] = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Revered with Champions of Azeroth.",
 							["sourceQuest"] = 53405,	-- Unlocking the Heart's Potential
 							["qg"] = 130216,	-- Magni Bronzebeard
 							["coord"] = { 42.1, 44.3, SILITHUS },
@@ -787,7 +787,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(50973, {	-- The Heart's Power (first HoA upgrade)
-							["description"] = "This quest awards +15 item levels for your Heart of Azeroth.  You can pick it up once one of your characters reaches Friendly with Champions of Azeroth.",
+							["description"] = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Friendly with Champions of Azeroth.",
 							["qg"] = 130216,	-- Magni Bronzebeard
 							["coord"] = { 42.1, 44.3, SILITHUS },
 							["timeline"] = { ADDED_8_0_1, REMOVED_8_2_0 },
@@ -865,7 +865,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = { i(170486) },	-- Torn Journal Page #25 (QI!)
 						}),
 						q(53405, {	-- Unlocking the Heart's Potential (second HoA upgrade)
-							["description"] = "This quest awards +15 item levels for your Heart of Azeroth.  You can pick it up once one of your characters reaches Honored with Champions of Azeroth.",
+							["description"] = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Honored with Champions of Azeroth.",
 							["sourceQuest"] = 50973,	-- The Heart's Power
 							["qg"] = 130216,	-- Magni Bronzebeard
 							["coord"] = { 42.1, 44.3, SILITHUS },

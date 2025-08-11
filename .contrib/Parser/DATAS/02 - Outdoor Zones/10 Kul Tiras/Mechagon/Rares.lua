@@ -16,13 +16,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			]]--
 			-- TODO:: See Hidden Quest Triggers.lua for remaining first kill id's needed
 			n(150306, {	-- Drill Rig
-				["description"] = "These rares are only available when the Drill Rig is an active construction project.  Speak to |Cff00991aWaren Gearheart|r |Cffffffff(73.0, 33.5)|r to see which construction projects are available.\r\rEach rare spawn is accompanied by a specific zonewide announcement.  Hover over each rare in the list to see its announcement.",
+				["description"] = "These rares are only available when the Drill Rig is an active construction project. Speak to |Cff00991aWaren Gearheart|r |Cffffffff(73.0, 33.5)|r to see which construction projects are available.\r\rEach rare spawn is accompanied by a specific zonewide announcement. Hover over each rare in the list to see its announcement.",
 				["groups"] = {
 					n(153200, {	-- Boilburn
 						["questID"] = 55857, -- no second questID
 						["coord"] = { 51.1, 50.4, MECHAGON },
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD41...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD41...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(167042),	-- Blueprint: Scrap Trap
 							i(169691),	-- Vinyl: Depths of Ulduar
@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							--{ 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						["description"] = "Spawning when you this message in chat \"|cffe1780cDrill Rig DR-CC73...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you this message in chat \"|cffe1780cDrill Rig DR-CC73...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(169170),	-- Blueprint: Utility Mechanoclaw
 						},
@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55814,
 						["coord"] = { 63.9, 24.4, MECHAGON },
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR35...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR35...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(167042),	-- Blueprint: Scrap Trap
 						},
@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55855,
 						["coord"] = { 57.6, 69.2, MECHAGON },
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD99...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD99...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(169691),	-- Vinyl: Depths of Ulduar
 						},
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							--{ 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC61...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC61...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(167846),	-- Blueprint: Mechano-Treat
 						},
@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55853,
 						["coord"] = { 55.6, 39.5, MECHAGON },
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR28...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR28...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(167846),	-- Blueprint: Mechano-Treat
 							i(169691),	-- Vinyl: Depths of Ulduar
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							--{ 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC88...|r,\" or activate the |cFFFFD700Drill Rig|r.  Only available when the |cFFFFD700Drill Rig|r is a construction project.",
+						["description"] = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC88...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 						["groups"] = {
 							i(169886),	-- Spraybot 0D (PET!)
 						},
@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151934, {	-- Arachnoid Harvester
-				["description"] = "Both versions of Arachnoid Harvester (the current timeline and alternate timeline) drop the same loot and share a daily lockout.  You can use a Personal Time Displacer to travel to the alternate timeline if Chromie is not in Rustbolt.",
+				["description"] = "Both versions of Arachnoid Harvester (the current timeline and alternate timeline) drop the same loot and share a daily lockout. You can use a Personal Time Displacer to travel to the alternate timeline if Chromie is not in Rustbolt.",
 				["questID"] = 55512,
 				["isDaily"] = true,
 				["coord"] = { 52.6, 41.0, MECHAGON },
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["cr"] = 154968,	-- future ID
 				["questID"] = 55546,
 				["isDaily"] = true,
-				["description"] = "Kite it to the large magnet at |cFFFFD700Bondo's Scrapyard|r to make it vulnerable to kill it, or use the |cFFFFD700Armored Vaultbot Key|r to unlock it BEFORE it is engaged in combat.  If you've time-traveled to the future, you must use a key to unlock it.",
+				["description"] = "Kite it to the large magnet at |cFFFFD700Bondo's Scrapyard|r to make it vulnerable to kill it, or use the |cFFFFD700Armored Vaultbot Key|r to unlock it BEFORE it is engaged in combat. If you've time-traveled to the future, you must use a key to unlock it.",
 				["cost"] = { { "i", 167062, 1 } },	-- 1x Armored Vaultbot Key
 				["coords"] = {
 					{ 53.6, 46.4, MECHAGON },
@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["questID"] = 55514,
 				["coord"] = { 35.3, 43.0, MECHAGON },
 				["isDaily"] = true,
-				["description"] = "Must complete the |cFFFFD700Let's Fish!|r questline to spawn Deepwater Maw.  Summoning requires a |cffa335eeHundred-Fathom Lure|r.",
+				["description"] = "Must complete the |cFFFFD700Let's Fish!|r questline to spawn Deepwater Maw. Summoning requires a |cffa335eeHundred-Fathom Lure|r.",
 				["groups"] = {
 					i(168804),	-- Powered Piscine Procurement Pole
 					i(167836),	-- Blueprint: Canned Minnows
@@ -200,7 +200,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151884, {	-- Fungarian Furor
-				["description"] = "When the |cFFFFD700Aid From Nordrassil|r quest is active, fly around the quest area and look for a mushroom with the NPC ID 135497.  Clicking on that mushroom will spawn the rare.  If no mushroom with that ID is up, you'll need to click on some other ones to try to get the correct one to respawn.",
+				["description"] = "When the |cFFFFD700Aid From Nordrassil|r quest is active, fly around the quest area and look for a mushroom with the NPC ID 135497. Clicking on that mushroom will spawn the rare. If no mushroom with that ID is up, you'll need to click on some other ones to try to get the correct one to respawn.",
 				["questID"] = 55367,
 				["isDaily"] = true,
 				["coord"] = { 44.5, 41.1, MECHAGON },	-- center of quest area / area with mushrooms
@@ -277,7 +277,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151296, {	-- OOX-Avenger/MG
-				["description"] = "This rare only spawns when the |cFFFFD700My Chickens are Not for Eating!|r quest is active.  Finding and killing OOX-Fleetfoot/MG will spawn the rare, but you'll probably need a group to do it.",
+				["description"] = "This rare only spawns when the |cFFFFD700My Chickens are Not for Eating!|r quest is active. Finding and killing OOX-Fleetfoot/MG will spawn the rare, but you'll probably need a group to do it.",
 				["questID"] = 55515,
 				["coord"] = { 57.0, 39.8, MECHAGON },
 				["isDaily"] = true,
@@ -306,7 +306,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			--	TODO: figure out questIDs for:
 				--	hardmode rig (irradiated box of assorted parts)
 				--	irradiated undercoat usage (may not have associated quest and may just be based on the shirt's timer)
-			--	verify that epic recycling requisition is daily.  possibly repeatable?
+			--	verify that epic recycling requisition is daily. possibly repeatable?
 			--	if recycling requisitions are separate based on whether you get the items from the scrapyard or the reclamation rig, we should probably move the quests to the NYI file or something so that one doesn't check off the other!  (or mark them repeatable or whatever)
 			--	possibly attach just the 'box of assorted parts' questID to the overall header instead of the box itself?
 				["modelScale"] = 4.2,
@@ -328,8 +328,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						},
 					}),
 					i(168395, {	-- Irradiated Box of Assorted Parts
-						["description"] = "During the Reclamation Rig event, use the Supercollider on each Irradiated Elemental to make them unstable.  If you complete the hardmode event correctly, you'll face three Unstable Irradiated Golems at the end of the encounter.",
-						["questID"] = 55794,	-- popped immediately upon death of final golems; shift+clicking to refresh afterwards also popped 55848.  this item was the only thing i received from HM rig.  it's possible that 55848 is the "item received" quest and that 55794 is the "rig done for the first time today" quest when hardmode is active (or vice versa!)... if we could isolate the non-hardmode "rig is done for the first time today" quest then we could maybe attach both with altQuests.  WHY IS QUEST TRACKING SO COMPLICATED.  @BLIZZARD ANSWER FOR YOUR CRIMES
+						["description"] = "During the Reclamation Rig event, use the Supercollider on each Irradiated Elemental to make them unstable. If you complete the hardmode event correctly, you'll face three Unstable Irradiated Golems at the end of the encounter.",
+						["questID"] = 55794,	-- popped immediately upon death of final golems; shift+clicking to refresh afterwards also popped 55848. this item was the only thing i received from HM rig. it's possible that 55848 is the "item received" quest and that 55794 is the "rig done for the first time today" quest when hardmode is active (or vice versa!)... if we could isolate the non-hardmode "rig is done for the first time today" quest then we could maybe attach both with altQuests. WHY IS QUEST TRACKING SO COMPLICATED. @BLIZZARD ANSWER FOR YOUR CRIMES
 						["isDaily"] = true,
 						["groups"] = {
 							i(168495),	-- Blueprint: Rustbolt Requisitions
@@ -338,9 +338,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						},
 					}),
 					i(169878, {	-- Irradiated Undercoat
-						["description"] = "This shirt can drop from mobs during the Reclamation Rig event.  Equip it, collect 100 Unstable Isotopes from attacking more of the event mobs, and then use the shirt to absorb the isotopes.  You can only absorb isotopes once every 24 hours, and you'll get the pet after you use all five of the shirt's charges.",
+						["description"] = "This shirt can drop from mobs during the Reclamation Rig event. Equip it, collect 100 Unstable Isotopes from attacking more of the event mobs, and then use the shirt to absorb the isotopes. You can only absorb isotopes once every 24 hours, and you'll get the pet after you use all five of the shirt's charges.",
 						["groups"] = {
 							i(169879),	-- Irradiated Elementaling (PET!)
+							i(169877),	-- Unstable Isotopes
 						},
 					}),
 					i(168264, {["sym"]={{"fill"}}}),	-- Recycling Requisition (Green)
@@ -382,7 +383,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(153000, {	-- Sparkqueen P'Emp
-				["description"] = "This rare only spawns when the |cFFFFD700Bugs, Lots of 'Em!|r quest is active.  When it spawns, Razak Ironsides will yell, \"|cFFff4040Wait till that bug gets close, then blow it to pieces!  I want nothing left.|r  Kill it before it gets close to Razak, or he'll kill it and you won't get loot or credit.",
+				["description"] = "This rare only spawns when the |cFFFFD700Bugs, Lots of 'Em!|r quest is active. When it spawns, Razak Ironsides will yell, \"|cFFff4040Wait till that bug gets close, then blow it to pieces!  I want nothing left.|r  Kill it before it gets close to Razak, or he'll kill it and you won't get loot or credit.",
 				["questID"] = 55810,
 				["coord"] = { 83.8, 22.0, MECHAGON },
 				["isDaily"] = true,

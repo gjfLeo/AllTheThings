@@ -396,7 +396,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						},
 					}),
 					ach(11430, {	-- One Night in Karazhan
-						["description"] = "1. Go to Opera and complete the encounter.  Click the fragment in the audience.\n\n2. Head towards Maiden.  Click the fragment in the room just before the boss.\n\n3. Go to Moroes and complete the encounter.  Click the fragment behind the table.  Pick up the key that appears on the ground after Moroes dies.\n\n4. Go to the spider room (the far top-right corner of Servant's Quarters) and click the fragment.\n\n5. Go to Curator, complete the encounter, and click the fragment.\n\nRun down to where Nightbane was summoned in the Burning Crusade days. Medivh will be there.\n\nTalk to Medivh.\n",
+						["description"] = "1. Go to Opera and complete the encounter. Click the fragment in the audience.\n\n2. Head towards Maiden. Click the fragment in the room just before the boss.\n\n3. Go to Moroes and complete the encounter. Click the fragment behind the table. Pick up the key that appears on the ground after Moroes dies.\n\n4. Go to the spider room (the far top-right corner of Servant's Quarters) and click the fragment.\n\n5. Go to Curator, complete the encounter, and click the fragment.\n\nRun down to where Nightbane was summoned in the Burning Crusade days. Medivh will be there.\n\nTalk to Medivh.\n",
 						["crs"] = {
 							115038,	-- Image of Medivh
 							115013,	-- Soul Fragment

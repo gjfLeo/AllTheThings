@@ -924,7 +924,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		-- Elders of Kalimdor
 		q(8715, {	-- Bladeleaf the Elder
 			-- #if AFTER BFA
-			["description"] = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Teldrassil.  The Elder is on the left side of the Cenarion Enclave.",
+			["description"] = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Teldrassil. The Elder is on the left side of the Cenarion Enclave.",
 			-- #endif
 			["qg"] = 15595,	-- Elder Bladeleaf
 			["coords"] = {
@@ -1269,7 +1269,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		q(8727, {	-- Farwhisper the Elder
 			-- #if AFTER 4.0.3
 			["coord"] = { 27.66, 11.64, EASTERN_PLAGUELANDS },	-- Stratholme [Main Gate]
-			["description"] = "Enter Stratholme through the main gate.  The Elder is in the northeast corner, east of The Unforgiven.",
+			["description"] = "Enter Stratholme through the main gate. The Elder is in the northeast corner, east of The Unforgiven.",
 			-- #else
 			-- #if AFTER WRATH
 			["coord"] = { 43.7, 17.5, EASTERN_PLAGUELANDS },	-- Stratholme [Service Gate]
@@ -1283,7 +1283,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["isYearly"] = true,
 		}),
 		q(13021, {	-- Igasho the Elder
-			["description"] = "When you enter the Nexus, turn right and loop around the Singing Grove.  The Elder is just before you reach Ormorok's platform.",
+			["description"] = "When you enter the Nexus, turn right and loop around the Singing Grove. The Elder is just before you reach Ormorok's platform.",
 			["qg"] = 30536,	-- Elder Igasho
 			["coord"] = { 27.5, 26.0, BOREAN_TUNDRA },	-- The Nexus entrance
 			["timeline"] = { ADDED_3_0_8 },
@@ -1291,7 +1291,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["isYearly"] = true,
 		}),
 		q(13017, {	-- Jarten the Elder
-			["description"] = "After defeating Keleseth, continue through the mining tunnel.  Before heading up the stairs to the next boss, turn left to find the Elder.",
+			["description"] = "After defeating Keleseth, continue through the mining tunnel. Before heading up the stairs to the next boss, turn left to find the Elder.",
 			["qg"] = 30531,	-- Elder Jarten
 			["coord"] = { 57.9, 50.0, HOWLING_FJORD },	-- Utgarde Keep entrance path
 			["timeline"] = { ADDED_3_0_8 },
@@ -1314,7 +1314,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["isYearly"] = true,
 		}),
 		q(13022, {	-- Nurgen the Elder
-			["description"] = "After defeating Hadronox, jump to the lower level of the dungeon.  The Elder is on the north side of the room where you land.",
+			["description"] = "After defeating Hadronox, jump to the lower level of the dungeon. The Elder is on the north side of the room where you land.",
 			["qg"] = 30533,	-- Elder Nurgen
 			["coord"] = { 26.0, 50.7, DRAGONBLIGHT },	-- Azjol-Nerub entrance
 			["timeline"] = { ADDED_3_0_8 },
@@ -1331,7 +1331,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		}),
 		q(8635, {	-- Splitrock the Elder
 			-- #if AFTER CATA
-			["description"] = "Take the central path to reach the Portal to Inner Maraudon.  Once inside the dungeon, jump down and follow the path to reach the Elder in the far southeast corner of the map.",
+			["description"] = "Take the central path to reach the Portal to Inner Maraudon. Once inside the dungeon, jump down and follow the path to reach the Elder in the far southeast corner of the map.",
 			-- #else
 			["description"] = "Inside of Maraudon. Located in the passage way across the water where Rotgrip can be found as if you were headed to Tinkerer from the water near Princess.",
 			-- #endif
@@ -1343,7 +1343,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		q(8713, {	-- Starsong the Elder
 			-- #if AFTER CATA
 			["coord"] = { 76.04, 45.21, SWAMP_OF_SORROWS },
-			["description"] = "Once inside Sunken Temple, turn left.  Elder Starsong is in the small alcove to the northeast.",
+			["description"] = "Once inside Sunken Temple, turn left. Elder Starsong is in the small alcove to the northeast.",
 			-- #else
 			["coord"] = { 69.2, 54.8, SWAMP_OF_SORROWS },
 			["description"] = "Inside of Sunken Temple. From the entrance, take a left up the spiral staircase. You will need to fight and kill the first dragon pack. Continue down the hallway and hang left into the room with all the dragonkin and then again into the alcove.",
@@ -1355,7 +1355,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		q(8644, {	-- Stonefort the Elder
 			-- #if AFTER 6.0.1
 			["coord"] = { 80.46, 40.65, BLACKROCK_MOUNTAIN },
-			["description"] = "Once inside Lower Blackrock Spire, head down and to the left.  The Elder is just past the first bridge.",
+			["description"] = "Once inside Lower Blackrock Spire, head down and to the left. The Elder is just past the first bridge.",
 			-- #else
 			["description"] = "Located in Lower Blackrock Spire in Hordemar City. He can be found on the left as you cross the first wooden bridge.",
 			-- #endif
@@ -1395,7 +1395,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		-- Elders of the Alliance
 		q(8718, {	-- Bladeswift the Elder
 			-- #if AFTER BFA
-			["description"] = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Darnassus.  The Elder is on the left side of the Cenarion Enclave.",
+			["description"] = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Darnassus. The Elder is on the left side of the Cenarion Enclave.",
 			-- #endif
 			["qg"] = 15598,	-- Elder Bladeswift
 			["coords"] = {

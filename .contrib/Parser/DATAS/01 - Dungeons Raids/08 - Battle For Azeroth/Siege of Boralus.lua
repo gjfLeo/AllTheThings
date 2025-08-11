@@ -47,7 +47,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				["difficulties"] = { DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
 				["groups"] = {
 					e(2132, {	-- Chopper Redhook [1st Encounter - Alliance]
-						-- This fight is Alliance-only.  We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is Alliance-only. We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						["races"] = ALLIANCE_ONLY,
 						["crs"] = { 128650 },	-- Chopper Redhook
 						["groups"] = {
@@ -62,7 +62,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						},
 					}),
 					e(2133, {	-- Sergeant Bainbridge [1st Encounter - Horde]
-						-- This fight is Horde-only.  We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is Horde-only. We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						["races"] = HORDE_ONLY,
 						["crs"] = { 128649 },	-- Sergeant Bainbridge
 						["groups"] = {
@@ -147,7 +147,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				["difficulties"] = { DIFFICULTY.DUNGEON.NORMAL, DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
 				["groups"] = {
 					e(2132, {	-- Chopper Redhook [1st Encounter - Alliance]
-						-- This fight is Alliance-only.  We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is Alliance-only. We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						["races"] = ALLIANCE_ONLY,
 						["crs"] = { 128650 },	-- Chopper Redhook
 						["groups"] = {
@@ -162,7 +162,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						},
 					}),
 					e(2133, {	-- Sergeant Bainbridge [1st Encounter - Horde]
-						-- This fight is Horde-only.  We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is Horde-only. We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						["races"] = HORDE_ONLY,
 						["crs"] = { 128649 },	-- Sergeant Bainbridge
 						["groups"] = {
@@ -254,7 +254,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				["difficulties"] = { DIFFICULTY.DUNGEON.NORMAL, DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
 				["groups"] = {
 					e(2132, {	-- Chopper Redhook [1st Encounter - Alliance]
-						-- This fight is was Alliance-only.  We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is was Alliance-only. We are going to set the boss as such, but leave the items not marked Alliance due to the fact that Horde should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						-- #if BEFORE 11.1.0
 						["races"] = ALLIANCE_ONLY,
 						-- #endif
@@ -272,7 +272,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					}),
 					e(2133, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_0_2 } }, {	-- Sergeant Bainbridge [1st Encounter - Horde]
 						-- This boss was removed in TWW season 1 and did not return when the season ended
-						-- This fight is Horde-only.  We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
+						-- This fight is Horde-only. We are going to set the boss as such, but leave the items not marked Horde due to the fact that Alliance should be able to transmog them, and in the event Blizzard makes them available for the opposite faction later.
 						["races"] = HORDE_ONLY,
 						["crs"] = { 128649 },	-- Sergeant Bainbridge
 						["groups"] = {

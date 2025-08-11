@@ -67,7 +67,7 @@ local VENDOR_GEMS = {
 	i(28467),	-- Smooth Amber (Both)
 	i(28470),	-- Thick Amber (TBC) / Subtle Amber (Cata+)
 };
--- #if BEFORE 3.1.0 
+-- #if BEFORE 3.1.0
 local FELANNIA_JOHAN_GROUPS = ENCHANTING_SUPPLIES;
 -- #endif
 -- #if AFTER WRATH
@@ -3007,7 +3007,7 @@ root(ROOTS.Zones, {
 				}),
 				n(RARES, {
 					n(18678, {	-- Fulgorge
-						["description"] = "This rare cannot be manually targeted, and you may not be able to see it if you're flying too high.  Search along its three possible paths and be on the lookout for red rumbling rocks.",
+						["description"] = "This rare cannot be manually targeted, and you may not be able to see it if you're flying too high. Search along its three possible paths and be on the lookout for red rumbling rocks.",
 						["coords"] = {
 							{ 23.8, 63.0, HELLFIRE_PENINSULA },	-- west path, bottom
 							{ 24.8, 48.0, HELLFIRE_PENINSULA },	-- west path, mid
@@ -3395,10 +3395,10 @@ root(ROOTS.Zones, {
 							},
 						},
 						-- #endif
-						["groups"] = appendGroups( 
-							JEWELCRAFTING_PATTERNS, 
+						["groups"] = appendGroups(
+							JEWELCRAFTING_PATTERNS,
 							-- #if BEFORE 3.1.0
-							JEWELCRAFTING_SUPPLIES, 
+							JEWELCRAFTING_SUPPLIES,
 							-- #endif
 							{}
 						),
@@ -3643,10 +3643,10 @@ root(ROOTS.Zones, {
 							},
 						},
 						-- #endif
-						["groups"] = appendGroups( 
-							JEWELCRAFTING_PATTERNS, 
+						["groups"] = appendGroups(
+							JEWELCRAFTING_PATTERNS,
 							-- #if BEFORE 3.1.0
-							JEWELCRAFTING_SUPPLIES, 
+							JEWELCRAFTING_SUPPLIES,
 							-- #endif
 							{}
 						),

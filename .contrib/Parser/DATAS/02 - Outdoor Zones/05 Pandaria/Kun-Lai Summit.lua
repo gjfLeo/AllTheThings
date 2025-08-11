@@ -1991,7 +1991,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 74.5, 83.5, KUN_LAI_SUMMIT },
 					}),
 					o(213751, {	-- Sprite's Cloth Chest
-						["description"] = "Cave entrance is at 73.2, 73.6.  This chest might be personal loot and obey rules based on your current Spec, NOT your Loot Spec.",
+						["description"] = "Cave entrance is at 73.2, 73.6. This chest might be personal loot and obey rules based on your current Spec, NOT your Loot Spec.",
 						["coord"] = { 74.6, 74.8, 381 },
 						["modelScale"] = 1.5,
 						["questID"] = 31412,

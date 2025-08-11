@@ -6,11 +6,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(NAZMIR, {
 		n(QUESTS, {
 			-- TODO: shit that needs solving:
-			-- *someting* unlocks "into the darkness" other than the pre-nazmir questline that starts from the dazar'alor scouting map.  it was already available with no prereqs when i was in the middle of questing through zuldazar.  figure out what quest triggers its availability, and figure out if it makes the scouting map questline invalid/if those should all be marked as breadcrumbs or with altQuests.
+			-- *someting* unlocks "into the darkness" other than the pre-nazmir questline that starts from the dazar'alor scouting map. it was already available with no prereqs when i was in the middle of questing through zuldazar. figure out what quest triggers its availability, and figure out if it makes the scouting map questline invalid/if those should all be marked as breadcrumbs or with altQuests.
 			-- figure out if "'til death do us part" is available any earlier than turning in "a tribute for death."  it wasn't available w/0 prereqs, just need to make sure we have the availability trigger correct.
-			-- verify SQ for "the forlorn soul" also, picked up at the same time as above.  actual non-breadcrumb SQ seems to be "A Tribute for Death," but could be something else?
+			-- verify SQ for "the forlorn soul" also, picked up at the same time as above. actual non-breadcrumb SQ seems to be "A Tribute for Death," but could be something else?
 			-- verify SQ for "a poisonous touch."  it wasn't available w/0 prereqs and i didn't see it until after turning in "staying hidden," but it may be available earlier.
-			-- verify whether or not "crawg free zone" is needed for "it seems you've made a friend" by turning it in last of the 4 quests.  i turned it in second to last, and the previous person who quested through turned in "bad juju"/"off with her head" last, so it seems those 3 are required)
+			-- verify whether or not "crawg free zone" is needed for "it seems you've made a friend" by turning it in last of the 4 quests. i turned it in second to last, and the previous person who quested through turned in "bad juju"/"off with her head" last, so it seems those 3 are required)
 			-- figure out if "what rots beneath" is a breadcrumb
 			-- this question is also in the dazar'alor file, but verify SQ for "the blood gate."  it may become available after "ateena's fall," not "halting the empire's fall."  also, is "halting the empire's fall" (which sends you to baine, who offers this quest) a breadcrumb?  "the blood gate" isn't hidden like quests typically are when you have their breadcrumb in their log, so i'm not sure if "halting" is optional/disappears/becomes unavailable after doing "the blood gate."  also, is it available with *only* having done nazmir, or do you also have to finish the main zuldazar questline as well?
 			q(50934, {	-- A Chance Sighting
@@ -79,7 +79,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 126039 },	-- Mag'ash the Poisonous
 				["coord"] = { 69.1, 50.4, NAZMIR },
 				["races"] = HORDE_ONLY,
-				--	SQ needs confirmation.  i didn't see it until after i finished "staying hidden" and picked up the next 2 quests for the area, but maybe it opens sooner.  was NOT available with 0 prereqs prior to starting dazar'alor.
+				--	SQ needs confirmation. i didn't see it until after i finished "staying hidden" and picked up the next 2 quests for the area, but maybe it opens sooner. was NOT available with 0 prereqs prior to starting dazar'alor.
 			}),
 			q(47263, {	-- A Time of Revelation
 				["sourceQuests"] = { 47262 },	-- Ending the Blood Trolls
@@ -1100,7 +1100,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					49432,	-- The Forlorn Soul
 					49348,	-- A Desecrated Temple
 					47491,	-- Remnants of the Damned
-					--	may also require this quest.  definitely doesn't require "'til death do us part"
+					--	may also require this quest. definitely doesn't require "'til death do us part"
 					--	47247,	-- That Which Haunts the Dead
 				},
 				["provider"] = { "n", 122688 },	-- Bwonsamdi
@@ -1634,7 +1634,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 					["isWorldQuest"] = true,	-- without this field, this quest inexplicably shows up in /attwq for some characters
 				}),
 				q(49368, {	-- Nazmir dialogue around the Necropolis: "De voice... he is calling to us... we must obey!"
-					["isWorldQuest"] = true,	-- for some reason, this shows up in /attwq for characters who haven't done it.  haunted!
+					["isWorldQuest"] = true,	-- for some reason, this shows up in /attwq for characters who haven't done it. haunted!
 				}),
 				q(49369, {	-- Nazmir dialogue around the Necropolis: "Do you hear it?  It's Bwonsamdi's call!  Eternity is near!"
 					["isWorldQuest"] = true, -- unsure if this erroneously shows up in /attwq like the others; if so, it needs to be marked as a WQ

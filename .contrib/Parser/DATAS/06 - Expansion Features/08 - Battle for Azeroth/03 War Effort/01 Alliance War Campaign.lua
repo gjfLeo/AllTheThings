@@ -1154,7 +1154,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 145593 },	-- Rosaline Madison
 						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						-- This quest was available before I turned in Squad Goals, Repel the Horde, or Zero Zeppelins.  Not sure if those 3 are optional or required further down the chain.  Assuming they are required for the next part, so listing them.
+						-- This quest was available before I turned in Squad Goals, Repel the Horde, or Zero Zeppelins. Not sure if those 3 are optional or required further down the chain. Assuming they are required for the next part, so listing them.
 						["groups"] = {
 							o(312356, {	-- Outrigger Weapon
 								["coords"] = {

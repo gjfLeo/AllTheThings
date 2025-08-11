@@ -102,7 +102,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					ach(9617, {	-- Making the Cut (Gorian Proving Grounds)
-						["description"] = "Spawns in the building behind The Ring of Blood.  Kill 15 mobs that spawn around him in order to attack him.",
+						["description"] = "Spawns in the building behind The Ring of Blood. Kill 15 mobs that spawn around him in order to attack him.",
 						["crs"] = { 88210 },	-- Krud the Eviscerator
 					}),
 					ach(8927, {	-- Nagrandeur (Alliance)
@@ -1699,7 +1699,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(37981, {	-- The World Famous Ring of Blood!
-						["description"] = "The item that starts this quest has a chance to drop from any of the daily bounties offered in your garrison (Renzik 'The Shiv' for Alliance and Shadow Hunter Ty'jin for Horde).\n\nThe item isn't looted, but will pop directly into your inventory when the quest mob dies.  If it doesn't drop the first time, you can camp the mob for more chances.  You'll get a total of three invitations, which you can sell or trade.\n",
+						["description"] = "The item that starts this quest has a chance to drop from any of the daily bounties offered in your garrison (Renzik 'The Shiv' for Alliance and Shadow Hunter Ty'jin for Horde).\n\nThe item isn't looted, but will pop directly into your inventory when the quest mob dies. If it doesn't drop the first time, you can camp the mob for more chances. You'll get a total of three invitations, which you can sell or trade.\n",
 						["provider"] = { "i", 122190 },	-- Ring of Blood Invitation
 					}),
 					q(34951, {	-- They Call Him Lantresor of the Blade
@@ -1954,7 +1954,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(84263, {	-- Graveltooth
-						["description"] = "Kill about 15 goren in the area to draw out Graveltooth.  He will yell 3 times before appearing.",
+						["description"] = "Kill about 15 goren in the area to draw out Graveltooth. He will yell 3 times before appearing.",
 						["questID"] = 36159,
 						["coord"] = { 84.0, 36.8, DRAENOR_NAGRAND },
 						["groups"] = {
@@ -2103,7 +2103,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(87846, {	-- Pit Slayer
-						["description"] = "Must be on Assault on the Broken Precipice.  Click on blue crystals to transform into an ogre, and then click on the trophy in the middle of the pit.",
+						["description"] = "Must be on Assault on the Broken Precipice. Click on blue crystals to transform into an ogre, and then click on the trophy in the middle of the pit.",
 						["questID"] = 37397,
 						["isDaily"] = true,
 						["coord"] = { 39.6, 14.6, DRAENOR_NAGRAND },	-- **Coords unconfirmed, relied on wowhead**
@@ -2175,7 +2175,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(81330, {	-- Warleader Tome
-						["description"] = "Spawns at Anguish Point and wanders the zone, moving clockwise.  Your best bet is to camp his spawnpoint.",
+						["description"] = "Spawns at Anguish Point and wanders the zone, moving clockwise. Your best bet is to camp his spawnpoint.",
 						["questID"] = 37546,
 						["isDaily"] = true,
 						["coord"] = { 81.3, 60.3, DRAENOR_NAGRAND },

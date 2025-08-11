@@ -80,9 +80,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(140925, {	-- Doc Marrtens
-				--	doc marrtens and jakala both complete one another's quests.  it's unclear which quest specifically belongs to which rare.
+				--	doc marrtens and jakala both complete one another's quests. it's unclear which quest specifically belongs to which rare.
 				--	on wowhead both quests are attached to the criteria as "doc marrtens or jakala the cruel," so it probably doesn't matter.
-				--	unsure if phasing issues affect horde from seeing this NPC.  alliance players have to trigger a cutscene before the rare is available (see jakala's description).
+				--	unsure if phasing issues affect horde from seeing this NPC. alliance players have to trigger a cutscene before the rare is available (see jakala's description).
 				["questID"] = 52323,	-- also completes 52324
 				["coord"] = { 53.3, 64.4, STORMSONG_VALLEY },
 				["races"] = HORDE_ONLY,
@@ -159,7 +159,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					{ 66.3, 69.9, STORMSONG_VALLEY },
 					{ 72.3, 52.2, STORMSONG_VALLEY },
 				},
-				["description"] = "This Rare starts the Honeyback Harvester Event.\n\nYou can participate in Honeyback Harvester events as many times a day as you want, but you can only loot the final jelly once per hour (loot eligibility resets on the hour, not based upon your last kill).  If you can see the vignette star for the Harvester or a treasure icon surrounded by a spiky star, you are eligible for hourly loot.\n\nThe quests that drop from rares are weekly, but the rares may drop jelly even during the cooldown period and even if you have already completed the specific rare's weekly quest.",
+				["description"] = "This Rare starts the Honeyback Harvester Event.\n\nYou can participate in Honeyback Harvester events as many times a day as you want, but you can only loot the final jelly once per hour (loot eligibility resets on the hour, not based upon your last kill). If you can see the vignette star for the Harvester or a treasure icon surrounded by a spiky star, you are eligible for hourly loot.\n\nThe quests that drop from rares are weekly, but the rares may drop jelly even during the cooldown period and even if you have already completed the specific rare's weekly quest.",
 				["groups"] = {
 					n(EVENT_COMPLETION, {
 						i(172491),	-- Papi (PET!)
@@ -193,8 +193,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			})),
 			n(141043, {	-- Jakala the Cruel
-				["description"] = "Due to phasing issues, in order to see this rare you need to enter Brennadam from the southern bridge at 57.6, 66.5.  This will trigger a cutscene and place you in the phase with the rare.",
-				--	doc marrtens and jakala both complete one another's quests.  it's unclear which quest specifically belongs to which rare.
+				["description"] = "Due to phasing issues, in order to see this rare you need to enter Brennadam from the southern bridge at 57.6, 66.5. This will trigger a cutscene and place you in the phase with the rare.",
+				--	doc marrtens and jakala both complete one another's quests. it's unclear which quest specifically belongs to which rare.
 				--	on wowhead both quests are attached to the criteria as "doc marrtens or jakala the cruel," so it probably doesn't matter.
 				["questID"] = 52324,	-- also completes 52323
 				["coord"] = { 53.3, 64.4, STORMSONG_VALLEY },

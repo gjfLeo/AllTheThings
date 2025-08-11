@@ -219,7 +219,7 @@ i(146939, FACTION_THE_WARDENS);				-- Wardens Insignia [The Wardens]
 		a(i(174522, FACTION_WAVEBLADE_ANKOAN));	-- Waveswept Abyssal Conch (Waveblade Ankoan)
 
 	-- For the rest of these, the first line is the quest item and the second line is the BoA token awarded by the quest.
-	-- Currently commenting out the quest item from this file and leave just the token in, because that's the part that actually gives reputation.  These used to be a simple quest item > starts quest > quest gives reputation exchange, and the token rewards were added in 8.3.
+	-- Currently commenting out the quest item from this file and leave just the token in, because that's the part that actually gives reputation. These used to be a simple quest item > starts quest > quest gives reputation exchange, and the token rewards were added in 8.3.
 
 	-- 7th Legion
 	--	a(i(163617, FACTION_7TH_LEGION));	-- Rusted Alliance Insignia

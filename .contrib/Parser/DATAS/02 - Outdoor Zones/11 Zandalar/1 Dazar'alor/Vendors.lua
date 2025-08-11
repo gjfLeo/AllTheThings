@@ -281,12 +281,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 					i(163502, {	-- Lil' Ben'fon (PET!)
 						["sourceQuests"] = { 50297 },	-- The Head of Her Enemy
-						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde.  Alliance can use it so we don't mark the actual species.
+						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 						["cost"] = { { "i", POLISHED_PET_CHARM, 300 }, },
 					}),
 					i(161016, {	-- Lil' Tika (PET!)
 						["sourceQuests"] = { 49681 },	-- Lil' Tika
-						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde.  Alliance can use it so we don't mark the actual species.
+						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde. Alliance can use it so we don't mark the actual species.
 						["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },
 					}),
 					i(139003, {	-- Pocket Pet Portal (CI!)
@@ -434,7 +434,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 			}),
 			n(148080, {	-- Olly <Pet Smuggler>
-				["description"] = "To unlock this vendor, win PvP pet battles until the mission \"A Shady Message\" spawns.  Complete the mission, and you'll be able to purchase items from the vendor.  It could take 1, 10, 100 or 1,000 PvP pet battles before it spawns.",
+				["description"] = "To unlock this vendor, win PvP pet battles until the mission \"A Shady Message\" spawns. Complete the mission, and you'll be able to purchase items from the vendor. It could take 1, 10, 100 or 1,000 PvP pet battles before it spawns.",
 				["coord"] = { 45.51, 86.45, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
@@ -722,7 +722,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(174636),	-- Relinquished Azerite Chestpiece
 					i(174637),	-- Relinquished Azerite Chestpiece
 					i(174638),	-- Relinquished Azerite Chestpiece
-					-- this gear currently doesn't display the correct version that the vendor sells, and it's also all duplicated gear from BFA mythics.  commenting out until someone figures out a better way to display it.
+					-- this gear currently doesn't display the correct version that the vendor sells, and it's also all duplicated gear from BFA mythics. commenting out until someone figures out a better way to display it.
 					--[[
 					i(155860),	-- Spymaster's Wrap
 					i(155866),	-- Soulspun Casque

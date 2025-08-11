@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 			}),
 			n(127703, {	-- Doomcaster Suprax
-				["description"] = "Run through all three runes to summon the rare.  He will give you a debuff that will instantly kill you, ignoring immunities, unless you kill him before it expires or you walk into Doom Stars.",
+				["description"] = "Run through all three runes to summon the rare. He will give you a debuff that will instantly kill you, ignoring immunities, unless you kill him before it expires or you walk into Doom Stars.",
 				["questID"] = 48968,
 				["isDaily"] = true,
 				["coord"] = { 58.0, 12.0, ANTORAN_WASTES },
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 			}),
 			n(127705, {	-- Mother Rosula
-				["description"] = "Collect 100 |cFFFFD700Imp Meat|r from Felspawn Imps and combine them to create a |cFFFFD700Disgusting Feast|r.  Place the feast at the cave's northern fel pool to summon the rare.",
+				["description"] = "Collect 100 |cFFFFD700Imp Meat|r from Felspawn Imps and combine them to create a |cFFFFD700Disgusting Feast|r. Place the feast at the cave's northern fel pool to summon the rare.",
 				["modelScale"] = 0.63,
 				["questID"] = 48970,
 				["isDaily"] = true,

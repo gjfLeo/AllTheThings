@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			o(369145, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Helgarde Supply Cache
-				["description"] = "This chest does not glow or sparkle.  After the first loot of these chests, which will drop the key, they are repeatable and appear to just drop Stygia.",
+				["description"] = "This chest does not glow or sparkle. After the first loot of these chests, which will drop the key, they are repeatable and appear to just drop Stygia.",
 				["coords"] = {
 					{ 62.2, 51.6, THE_MAW },
 					{ 65.7, 61.2, THE_MAW },

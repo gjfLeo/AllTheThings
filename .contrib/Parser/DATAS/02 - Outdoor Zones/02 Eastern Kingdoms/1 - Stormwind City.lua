@@ -3333,7 +3333,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 42, 42, BROKEN_ISLES},
 							["groups"] = {
 								i(139389, {	-- Charred Locket
-									["description"] = "In order to get this you must do the scenario 'Battle for Broken Shore' and on Stage 6 search for a pile of ash titled 'Ashes of a Fallen Crusader' to retrieve the item.  You will then go to 85, 69 in Elywnn Forest located at the Eastvale Logging Camp.  From there you will go to the bedroom on the second floor to talk to Alaina.  After talking to her leave (log or swap zones) and then come back to her to retrieve the item.",
+									["description"] = "In order to get this you must do the scenario 'Battle for Broken Shore' and on Stage 6 search for a pile of ash titled 'Ashes of a Fallen Crusader' to retrieve the item. You will then go to 85, 69 in Elywnn Forest located at the Eastvale Logging Camp. From there you will go to the bedroom on the second floor to talk to Alaina. After talking to her leave (log or swap zones) and then come back to her to retrieve the item.",
 									["groups"] = {
 										o(252069, {	-- Alaina's Belongings
 											["coord"] = { 85.6, 69.7, ELWYNN_FOREST },
@@ -4620,7 +4620,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				n(112958, {	-- Soulare of Andorhal
-					["description"] = "Emote |cFFFFFFFF/tired|r at him to get the toy.  Horde players can do this, too!",
+					["description"] = "Emote |cFFFFFFFF/tired|r at him to get the toy. Horde players can do this, too!",
 					["coord"] = { 38.1, 64.4, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_0_3 },
 					["groups"] = {

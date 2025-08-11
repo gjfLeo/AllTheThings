@@ -313,7 +313,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["sourceQuests"] = { 62837 },	-- Hopeful News
 				["provider"] = { "n", 167745 },	-- Haephus
 				["coord"] = { 42.6, 53.1, ARCHONS_RISE },
-				-- TODO: verify SQ.  should be this, or It's All Coming Together
+				-- TODO: verify SQ. should be this, or It's All Coming Together
 				-- does not rely on 62796 [Return to Adrestes]
 				-- Specific requirement unknown, available immediately after returning from the maw
 				["groups"] = {

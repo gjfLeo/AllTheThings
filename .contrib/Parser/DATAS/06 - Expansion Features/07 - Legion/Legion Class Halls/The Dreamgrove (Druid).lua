@@ -101,7 +101,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 			["groups"] = {
 				o(253161, {	-- Grove Vine
 					["classes"] = { DRUID },
-					["description"] = "|c808080FAThese pets are obtained by picking them from the|r |cFFFFD700Evergreen|r |c808080FAclass hall ability that druids get on Tier 2.\nOnce the ability is learned you will gain access to two plots where you grow plants every three days and it will randomly pick amongst six plots.  When Grove Vine spawns it has a chance for these two pets.|r",
+					["description"] = "|c808080FAThese pets are obtained by picking them from the|r |cFFFFD700Evergreen|r |c808080FAclass hall ability that druids get on Tier 2.\nOnce the ability is learned you will gain access to two plots where you grow plants every three days and it will randomly pick amongst six plots. When Grove Vine spawns it has a chance for these two pets.|r",
 					["groups"] = {
 						i(139554, {	-- Acorn of the Endless
 							artifact(62),	-- Restoration Druid Hidden Artifact Appearance
@@ -738,7 +738,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 50.5, 37.6, GRIZZLY_HILLS },
 					}),
 					q(44232, {	-- The Grove Provides
-					--	this is now available to level 45 characters (was previously 110).  unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
+					--	this is now available to level 45 characters (was previously 110). unsure if it has any specific SQs or if it's just "hey, congratulations for hitting this level!"
 					--	["sourceQuests"] = { },	--
 						["provider"] = { "n", 112323 },	-- Amurra Thistledew
 						["coord"] = { 40.0, 24.8, THE_DREAMGROVE },
@@ -1102,7 +1102,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 44328 },	-- Owlcat Stone Activate [Hinterlands]
 						}),
 						n(113663, {	-- Ela'lothen <The Moonspirit>
-							["description"] = "Turn on \"Show Incomplete Quests\" to see which stones you are still missing.  Each quest has a description added to it on it's location.\n\nOnce all 3 of the Owlcat stones are activated, you will be able to see Ela'lothen. In cat form, type /sit at him for the Feather of the Moonspirit to appear in your inventory.",
+							["description"] = "Turn on \"Show Incomplete Quests\" to see which stones you are still missing. Each quest has a description added to it on it's location.\n\nOnce all 3 of the Owlcat stones are activated, you will be able to see Ela'lothen. In cat form, type /sit at him for the Feather of the Moonspirit to appear in your inventory.",
 							["sourceQuests"] = { 44330, 44331, 44332 },
 							["groups"] = {
 								i(139552, {	-- Feather of the Moonspirit

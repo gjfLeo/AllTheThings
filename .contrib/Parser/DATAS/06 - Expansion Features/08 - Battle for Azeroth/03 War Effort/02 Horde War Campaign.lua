@@ -968,14 +968,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["groups"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54754, {	-- For the Queen
-						["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang.  |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
+						["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang. |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
 						["sourceQuests"] = { 54106 },	-- Tracking Tipoff
 						["altQuests"] = { 54107 },	-- Grim Tidings
 						["coord"] = { 81.4, 52.4, REDRIDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
 					}),
 					q(54107, {	-- Grim Tidings
-						["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang.  |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
+						["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang. |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
 						["sourceQuests"] = { 54106 },	-- Tracking Tipoff
 						["altQuests"] = { 54754 },	-- For the Queen
 						["provider"] = { "n", 146012 },	-- Zekhan
@@ -1670,7 +1670,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = HORDE_ONLY,
 					}),
 					--	TODO: Sylvanas Loyalist questline reported by Niixten in #errors, all needs to be completed - apparently there are various quests you can get based on choices you make along the way
-					--	all needs to be altQuested to the 'choice' quest since only one version of the campaign questline can be completed per character.  not sure if 'queen's favor' is the best quest to set as altQuests or if it should be an earlier one (i haven't done the campaign in a while)
+					--	all needs to be altQuested to the 'choice' quest since only one version of the campaign questline can be completed per character. not sure if 'queen's favor' is the best quest to set as altQuests or if it should be an earlier one (i haven't done the campaign in a while)
 					q(56495, {	-- They Move Against Us
 						["sourceQuests"] = { 55782 },	-- Stay of Execution
 						["altQuests"] = { 54109 },	-- Queen's Favor

@@ -1104,7 +1104,7 @@ root(ROOTS.Zones, {
 						["maxReputation"] = { FACTION_THE_FROSTBORN, EXALTED },	-- The Frostborn, Exalted.
 						["races"] = ALLIANCE_ONLY,
 						["isDaily"] = true,
-						-- this quest appeared for me after turning in "the brother's bronzebeard," which was the last quest i did for its criteria + the overall zone.  i'm not sure if the quest itself is a prerequisite or if it's based on reputation, because i also hit friendly with alliance vanguard when turning it in.  some wowhead comments said it had different requirements, so i'm not sure what to put for SQ or a description.
+						-- this quest appeared for me after turning in "the brother's bronzebeard," which was the last quest i did for its criteria + the overall zone. i'm not sure if the quest itself is a prerequisite or if it's based on reputation, because i also hit friendly with alliance vanguard when turning it in. some wowhead comments said it had different requirements, so i'm not sure what to put for SQ or a description.
 					}),
 					q(12930, {	-- Rare Earth
 						["sourceQuests"] = {

@@ -21,14 +21,14 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["groups"] = {
 						i(166734, {	-- Banana-Shaped Power Cell
 							["races"] = ALLIANCE_ONLY,
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 						}),
 						i(166732, {	-- Bludgeoning-Resistant Chest Reinforcer
 							["races"] = ALLIANCE_ONLY,
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 						}),
 						i(166733, {	-- Steel-Plated Primate Exoskeleton
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 						}),
 						i(166715, {	-- Rebuilt Gorilla Bot (PET!)
 							["cost"] = {
@@ -45,15 +45,15 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["coord"] = { 41.69, 42.54, VOLDUN },	-- Location chest spawns
 					["groups"] = {
 						i(166737, {	-- Handful of Glass Spider Eyes
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 							["races"] = HORDE_ONLY,
 						}),
 						i(166735, {	-- Mecha-Spinneret
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 							["races"] = HORDE_ONLY,
 						}),
 						i(166738, {	-- Steel-Plated Arachnid Exoskeleton
-							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container.  To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
+							["description"] = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 						}),
 						i(166723, {	-- Rebuilt Mechanical Spider (PET!)
 							-- Note!! The description we want to use will be on the parts because we don't want it written on the item!  See below.

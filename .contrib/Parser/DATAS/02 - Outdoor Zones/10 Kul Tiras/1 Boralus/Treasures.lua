@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(BORALUS, {
 		n(TREASURES, {
 			o(292673, {	-- A Damp Scroll
-				["description"] = "Located in the underwater cave in Stormsong Monastery.  Scroll located in skeleton's hand next to altar.",
+				["description"] = "Located in the underwater cave in Stormsong Monastery. Scroll located in skeleton's hand next to altar.",
 				["coord"] = { 61.13, 84.15, BORALUS },	-- Entrance
 				["questID"] = 52134,
 			}),
@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = { i(163716) },	-- Forbidden Sea Shanty of Inebriation
 			}),
 			o(292686, {	-- Ominous Altar
-				["description"] = "Once you have clicked all five damp scrolls, return to the altar in the underwater cave.  From there you will click the altar and click each time a new line comes up.  Once all five are entered it will ask you are sure hit \"Accept\".  You will then be teleported (way south of Tiragarde Sound) where a gem will be in front of you.  Click it to open it up and receive the toy.",
+				["description"] = "Once you have clicked all five damp scrolls, return to the altar in the underwater cave. From there you will click the altar and click each time a new line comes up. Once all five are entered it will ask you are sure hit \"Accept\". You will then be teleported (way south of Tiragarde Sound) where a gem will be in front of you. Click it to open it up and receive the toy.",
 				["sourceQuests"] = {
 					52134,	-- A Damp Scroll
 					52135,	-- A Damp Scroll

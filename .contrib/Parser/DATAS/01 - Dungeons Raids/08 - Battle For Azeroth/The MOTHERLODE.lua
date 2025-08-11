@@ -36,7 +36,7 @@ local EncounterToLoot = {
 		i(159612),	-- Azerokk's Resonating Heart
 	},
 	[RIXXA] = {
-		i(159639),	-- P.A.C.I.F.I.S.T.  Mk7
+		i(159639),	-- P.A.C.I.F.I.S.T. Mk7
 		i(159287),	-- Cloak of Questionable Intent
 		i(159240),	-- Rixxa's Sweat-Wicking Cuffs
 		i(159305),	-- Corrosive Handler's Gloves

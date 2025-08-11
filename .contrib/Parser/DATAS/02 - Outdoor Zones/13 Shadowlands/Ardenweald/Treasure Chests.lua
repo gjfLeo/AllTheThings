@@ -26,7 +26,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355041, {		-- Cache of the Moon
-				["description"] = "Combine the |cff1eff00Diary of the Night|r, |cff1eff00Gardener's Basket|r, |cff1eff00Gardener's Hammer|r, |cff1eff00Gardener's Flute|r, and |cff1eff00Gardener's Wand|r to create |cff0070ddTwinklestar's Gardening Toolkit|r.  Take the toolkit to Twinklestar at |cFFFFFFFF63.8, 37.5|r.  He will grant you the \"Moonsight\" buff, allowing you to see the treasure behind him.",
+				["description"] = "Combine the |cff1eff00Diary of the Night|r, |cff1eff00Gardener's Basket|r, |cff1eff00Gardener's Hammer|r, |cff1eff00Gardener's Flute|r, and |cff1eff00Gardener's Wand|r to create |cff0070ddTwinklestar's Gardening Toolkit|r. Take the toolkit to Twinklestar at |cFFFFFFFF63.8, 37.5|r. He will grant you the \"Moonsight\" buff, allowing you to see the treasure behind him.",
 				["crs"] = { 171349 },	-- Twinklestar
 				["coord"] = { 63.8, 37.5, ARDENWEALD },	-- Twinklestar & Treasure
 				["questID"] = 61074,
@@ -243,7 +243,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354647, {		-- Hearty Dragon Plume
-				["description"] = "The path to get up to the treasure starts at |cFFFFFFFF48.1, 39.0|r.\n\nFollow it up and to the left until you reach the beginning of the bridge at |cFFFFFFFF46.1, 39.1|r, and cross it to get to the ledge above the treasure.  Any class should be able to safely make it down to the treasure with two jumps (or by using a Goblin Glider), but you can also use the feather found at |cFFFFFFFF48.9, 41.0|r to slow fall.",
+				["description"] = "The path to get up to the treasure starts at |cFFFFFFFF48.1, 39.0|r.\n\nFollow it up and to the left until you reach the beginning of the bridge at |cFFFFFFFF46.1, 39.1|r, and cross it to get to the ledge above the treasure. Any class should be able to safely make it down to the treasure with two jumps (or by using a Goblin Glider), but you can also use the feather found at |cFFFFFFFF48.9, 41.0|r to slow fall.",
 				["coord"] = { 48.2, 39.2, ARDENWEALD },
 				["questID"] = 61067,
 				["groups"] = {
@@ -260,7 +260,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			--	Rewards
 			--	Objects
 				o(353683, {	-- Lunarlight Pod
-					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r.  To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
+					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 					["coord"] = { 39.2, 54.4, ARDENWEALD },
 					["questID"] = 60791,
 					["isDaily"] = true,
@@ -288,7 +288,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 				}),
 				o(353681, {	-- Lunarlight Pod
-					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r.  To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
+					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 					["coord"] = { 48.0, 71.1, ARDENWEALD },
 					["questID"] = 60790,
 					["isDaily"] = true,
@@ -316,13 +316,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 				}),
 				o(353684, {	-- Lunarlight Pod
-					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r.  To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
+					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 					["coord"] = { 48.2, 34.9, ARDENWEALD },
 					["questID"] = 60792,
 					["isDaily"] = true,
 				}),
 				o(353685, {	-- Lunarlight Pod
-					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r.  To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
+					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 					["coord"] = { 55.4, 38.6, ARDENWEALD },
 					["questID"] = 60793,
 					["isDaily"] = true,
@@ -350,7 +350,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 				}),
 				o(353686, {	-- Lunarlight Pod
-					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r.  To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
+					["description"] = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 					["coord"] = { 61.2, 56.9, ARDENWEALD },
 					["questID"] = 60794,
 					["isDaily"] = true,

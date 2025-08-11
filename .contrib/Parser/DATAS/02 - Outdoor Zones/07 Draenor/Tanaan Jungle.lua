@@ -859,7 +859,7 @@ root(ROOTS.Zones, {
 				n(RARES, {
 					-- Coords have been confirmed on rares except for some noted rares on longer spawn timers.
 					n(92766, {	-- Akrrilo <Shadowhunter of the Blackfang>
-						["description"] = "\nPurchase a Minor Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r.  Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Akrrilo.\n\n",
+						["description"] = "\nPurchase a Minor Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Akrrilo.\n\n",
 						["questID"] = 39399,
 						["isDaily"] = true,
 						["coord"] = { 54.2, 80.8, TANAAN_JUNGLE },
@@ -1067,7 +1067,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(92819, {	-- Eyepiercer <Crazed Blackfang Warmonger>
-						["description"] = "\nPurchase a Prime Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r.  Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Eyepiercer.\n\n",
+						["description"] = "\nPurchase a Prime Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Eyepiercer.\n\n",
 						["questID"] = 39379,
 						["isDaily"] = true,
 						["coord"] = { 54.2, 80.8, TANAAN_JUNGLE },
@@ -1322,7 +1322,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(92817, {	-- Rendarr <Warshaman of the Blackfang>
-						["description"] = "\nPurchase a Major Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r.  Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Rendarr.\n\n",
+						["description"] = "\nPurchase a Major Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Rendarr.\n\n",
 						["questID"] = 39400,
 						["isDaily"] = true,
 						["coord"] = { 54.2, 80.8, TANAAN_JUNGLE },
@@ -2313,7 +2313,7 @@ root(ROOTS.Zones, {
 						i(124556),	-- Baleful Spaulders (normal kill)
 						i(128348, {	-- Baleful Spaulders (first kill)
 							["questID"] = 39434,	-- Short-Supply Reward - triggers on the first rare kill (Baleful Spaulders itemID 128348)
-							["description"] = "|cfffd1818This token drops from your first Tanaan rare killed on any character.  If you played during WoD and discarded the item before the introduction of the wardrobe, or if you recently sold the token itself without opening it, you will need to collect the appearance on a different character.\n\nYou CANNOT get these items from opening Baleful tokens purchased from the vendor.|r\n",
+							["description"] = "|cfffd1818This token drops from your first Tanaan rare killed on any character. If you played during WoD and discarded the item before the introduction of the wardrobe, or if you recently sold the token itself without opening it, you will need to collect the appearance on a different character.\n\nYou CANNOT get these items from opening Baleful tokens purchased from the vendor.|r\n",
 							["groups"] = {
 								i(128349),	-- Felcast Mantle (Warforged)
 								i(128350),	-- Bladefang Spaulders (Warforged)

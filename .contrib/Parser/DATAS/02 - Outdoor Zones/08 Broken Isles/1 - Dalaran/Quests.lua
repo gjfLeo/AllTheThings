@@ -303,7 +303,7 @@ root(ROOTS.Zones, {
 				}),
 				q(44760, {	-- Blood On Your Hands
 					["provider"] = { "n", 115264 },	-- Illnea Bloodthorn
-					["u"] = REMOVED_FROM_GAME,	-- presumably, was unable to find it on a character fresh to legion and on a level 50.  may be available under random specific circumstances (45 but not unlocked WQs, not above 45, etc) but LIKELY removed
+					["u"] = REMOVED_FROM_GAME,	-- presumably, was unable to find it on a character fresh to legion and on a level 50. may be available under random specific circumstances (45 but not unlocked WQs, not above 45, etc) but LIKELY removed
 				}),
 				q(47025, {	-- Blood: Aid of the Illidari
 					["sourceQuests"] = {

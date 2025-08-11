@@ -1367,7 +1367,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(72156, {	-- Borrok the Devourer
-						["description"] = "Feed 10 ogres to him — defeat an ogre, it will kneel, click on it to throw it over your back (Druids must be in human form), and then walk into the feeding area.  Repeat.  Loot the Devourer's Gutstone afterwards.",
+						["description"] = "Feed 10 ogres to him — defeat an ogre, it will kneel, click on it to throw it over your back (Druids must be in human form), and then walk into the feeding area. Repeat. Loot the Devourer's Gutstone afterwards.",
 						["questID"] = 33511,
 						["coord"] = { 62.6, 42.4, FROSTFIRE_RIDGE },
 						["groups"] = {

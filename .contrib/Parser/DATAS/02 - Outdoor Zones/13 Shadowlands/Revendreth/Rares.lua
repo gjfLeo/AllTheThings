@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(REVENDRETH, {
 		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(166393, {	-- Amalgamation of Filth
-				["description"] = "Click on the sparkling Rubbish Box and throw rubbish into the water.  Kill the oozes, and eventually the rare will spawn.",
+				["description"] = "Click on the sparkling Rubbish Box and throw rubbish into the water. Kill the oozes, and eventually the rare will spawn.",
 				["coord"] = { 53.8, 72.5, REVENDRETH },
 				["questID"] = 59854,
 				["groups"] = {
@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164388, {	-- Amalgamation of Light
-				["description"] = "When the rare is available, 3 light-reflecting mirrors will appear.  Move all 3 to start the encounter.",
+				["description"] = "When the rare is available, 3 light-reflecting mirrors will appear. Move all 3 to start the encounter.",
 				["coord"] = { 25.3, 48.5, REVENDRETH },
 				["questID"] = 59584,
 				["groups"] = {
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(165206, {	-- Endlurker
-				["description"] = "There is a sparkling Anima Stake in front of the portal.  Pick it up and use the Extra Action Button to lure the rare.",
+				["description"] = "There is a sparkling Anima Stake in front of the portal. Pick it up and use the Extra Action Button to lure the rare.",
 				["coord"] = { 66.4, 59.6, REVENDRETH },
 				["questID"] = 59582,
 				["groups"] = {
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160640, {	-- Innervus
-				["description"] = "You will need a |cFFFFFFFFScorched Crypt Key|r to enter the rare's tomb.  The key can drop from the Feral Ritualists and Blistering Inquisitors in the surrounding area.",
+				["description"] = "You will need a |cFFFFFFFFScorched Crypt Key|r to enter the rare's tomb. The key can drop from the Feral Ritualists and Blistering Inquisitors in the surrounding area.",
 				["coord"] = { 21.7, 35.9, REVENDRETH },
 				["questID"] = 58210,
 				["groups"] = {
@@ -110,7 +110,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(165152, {	-- Leeched Soul
-				["description"] = "Inside the crypt.  Protect Absolver Meylann from waves of mobs.",
+				["description"] = "Inside the crypt. Protect Absolver Meylann from waves of mobs.",
 				["crs"] = {
 					165151,	-- Absolver Meylann
 					165175,	-- Prideful Hulk
@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160857, {	-- Sire Ladinas <The Lightrazed>
-				["description"] = "Remnants of Light are sparkling gold shards scattered around the Ember Ward.  Pick them up and use the Extra Action Button on any mobs in the area (ghouls/outcasts/etc.) for a chance to make Sire Ladinas spawn.\n\nIf the ghoul yells, the rare will spawn soon.",
+				["description"] = "Remnants of Light are sparkling gold shards scattered around the Ember Ward. Pick them up and use the Extra Action Button on any mobs in the area (ghouls/outcasts/etc.) for a chance to make Sire Ladinas spawn.\n\nIf the ghoul yells, the rare will spawn soon.",
 				["coord"] = { 34.0, 55.5, REVENDRETH },
 				["questID"] = 58263,
 				["groups"] = {
@@ -159,7 +159,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160392, {	-- Soulstalker Doina
-				["description"] = "Spawns at the top of the tower.  She will escape through mirror portals twice during the encounter.  Follow her to continue the fight.",
+				["description"] = "Spawns at the top of the tower. She will escape through mirror portals twice during the encounter. Follow her to continue the fight.",
 				["crs"] = {
 					160385,	-- Soulstalker Doina
 					160393,	-- Soulstalker Doina

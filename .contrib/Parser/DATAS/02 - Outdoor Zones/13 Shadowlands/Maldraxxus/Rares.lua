@@ -202,7 +202,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 
 			n(159753, {	-- Ravenomous
-				["description"] = "Crush Boneweave Spiderlings in the area for a chance to spawn the rare.  After flying around for a little while, it will land and be attackable.",
+				["description"] = "Crush Boneweave Spiderlings in the area for a chance to spawn the rare. After flying around for a little while, it will land and be attackable.",
 				["coord"] = { 54.0, 18.4, MALDRAXXUS },
 				["crs"] = { 159901 },	-- Boneweave Spiderling
 				["questID"] = 58004,
@@ -235,7 +235,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162528, {	-- Smorgas the Feaster
-				["description"] = "Click the |cFFFFFFFFBloody Lump|r for a chance to spawn the rare.  Clicking the object will aggro all the Peaceful Bloodlice in the area.",
+				["description"] = "Click the |cFFFFFFFFBloody Lump|r for a chance to spawn the rare. Clicking the object will aggro all the Peaceful Bloodlice in the area.",
 				["coord"] = { 42.5, 53.4, MALDRAXXUS },
 				["questID"] = 58768,
 				["groups"] = {
@@ -296,7 +296,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(157125, {	-- Zargox the Reborn
-				["description"] = "Get an |cFFFFFFFFAni-Matter Orb|r from Synder Sixfold at |cFFFFFFFF26.3, 42.7|r (either while doing the weekly quest |cFF349cffAni-Matter Animator|r, or speak to Synder afterward to get another orb from him).  Use it to reanimate soldiers near the rare's spawnpoint until a yellow dot appears on your minimap, indicating that Zargox is available to summon.",
+				["description"] = "Get an |cFFFFFFFFAni-Matter Orb|r from Synder Sixfold at |cFFFFFFFF26.3, 42.7|r (either while doing the weekly quest |cFF349cffAni-Matter Animator|r, or speak to Synder afterward to get another orb from him). Use it to reanimate soldiers near the rare's spawnpoint until a yellow dot appears on your minimap, indicating that Zargox is available to summon.",
 				["crs"] = { 157124 },	-- Bone Mass
 				["coord"] = { 29.0, 51.6, MALDRAXXUS },
 				["questID"] = 59290,

@@ -176,7 +176,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(158633, {	-- Gaze of N'Zoth
-							["description"] = "Can spawn anywhere in the Akhenet Fields.  Shares a spawn with Foul Observer.",
+							["description"] = "Can spawn anywhere in the Akhenet Fields. Shares a spawn with Foul Observer.",
 							["questID"] = 57680,
 							["coord"] = { 55.0, 53.0, NZOTH_ASSAULT_ULDUM },
 							["groups"] = {
@@ -238,7 +238,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							["coord"] = { 59.4, 49.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57359, {	-- Summoning Ritual
-							["description"] = "The portal needs to be clicked multiple times in order for the rares to spawn.  You can only click the portal once per day, so work together with others to get the spawn.  Three rares will spawn at a time and any of the rares can spawn in any of the locations.",
+							["description"] = "The portal needs to be clicked multiple times in order for the rares to spawn. You can only click the portal once per day, so work together with others to get the spawn. Three rares will spawn at a time and any of the rares can spawn in any of the locations.",
 							["altQuests"] = { 57620, 57621 },	-- Summoning Ritual
 							["coords"] = {
 								{ 55.2, 79.4, NZOTH_ASSAULT_ULDUM },
@@ -955,7 +955,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(155531, {	-- Infested Wastewander Captain
-							["description"] = "Shares a spawn with Wastewander Host.  Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
+							["description"] = "Shares a spawn with Wastewander Host. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 							["questID"] = 56823,
 							["coords"] = {
 								{ 17.6, 60.2, NZOTH_ASSAULT_ULDUM },
@@ -1524,7 +1524,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["coord"] = { 32.4, 64.6, NZOTH_ASSAULT_ULDUM },
 					}),
 					n(154578, {	-- Aqir Flayer
-						["description"] = "Shares a spawn with Aqir Hive Worker and Aqir Reaper.  Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
+						["description"] = "Shares a spawn with Aqir Hive Worker and Aqir Reaper. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 						["questID"] = 58612,
 						["coords"] = {
 							{ 30.6, 14.8, NZOTH_ASSAULT_ULDUM },
@@ -1541,7 +1541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					n(154576, {	-- Aqir Titanus
-						["description"] = "Shares a spawn with Aqir Goliath.  Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
+						["description"] = "Shares a spawn with Aqir Goliath. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 						["questID"] = 58614,
 						["coords"] = {
 							{ 34.6, 18.4, NZOTH_ASSAULT_ULDUM },
@@ -1561,7 +1561,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					n(162172, {	-- Aqir Warcaster
-						["description"] = "Shares a spawn with Aqir Voidcaster.  Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
+						["description"] = "Shares a spawn with Aqir Voidcaster. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 						["questID"] = 58694,
 						["coords"] = {
 							{ 37.2, 14.8, NZOTH_ASSAULT_ULDUM },

@@ -955,7 +955,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(51443, {	-- Battle For Azeroth: Mission Statement (BfA version)
 					--[[
 					-- available to a level 47, pre-9.0 character during patch 9.0
-					-- these SQs are no longer required, because the heart of azeroth is not mandatory to start bfa content.  you can pick 51443 up immediately
+					-- these SQs are no longer required, because the heart of azeroth is not mandatory to start bfa content. you can pick 51443 up immediately
 					["sourceQuests"] = {
 						-- This quest was not completed for me, but 52428 was completed... maybe it's a breadcrumb technically?
 						53031,	-- The Speaker's Imperative
@@ -1426,7 +1426,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 48.6, 71.0, ORGRIMMAR },
 					["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 },
 					["races"] = HORDE_ONLY,
-				--	TODO: level is obviously incorrect.  whether this quest is still available is disputed.  potential ways to get, per wowhead comments:
+				--	TODO: level is obviously incorrect. whether this quest is still available is disputed. potential ways to get, per wowhead comments:
 					-- "If you are looking for how to get your Heart of Azeroth, post Shadowlands pre-patch (9.0) you can only get it once you have hit level 50, it will then be automatically pushed through as soon as you ding to go visit Magni in Silithus."
 					-- "This is incorrect. All you have to do is loot an Azerite item from a BfA Dungeon Level 45-49 and it starts the Quest when you Zone to Org/SW."
 					-- figure out which of these is correct (if either) and adjust description accordingly

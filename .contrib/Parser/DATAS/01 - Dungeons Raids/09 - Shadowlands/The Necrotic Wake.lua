@@ -12,13 +12,13 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				header(HEADERS.Achievement, 14339, {	-- Shard Labor
-					["description"] = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide.  There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nGoblin Gliders are required for some of the shards in Bastion.  Being part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
+					["description"] = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide. There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nGoblin Gliders are required for some of the shards in Bastion. Being part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
 					["groups"] = sharedData({ ["name"] = "Anima Crystal Shard", ["icon"] = 3528288 }, {
 						q(61296, {	-- Anima Crystal Shard
-							["description"] = "After Blightbone, go up the stairs to the middle platform.  Straight ahead is a large fallen bell.  The shard is behind it on the right-hand side.",
+							["description"] = "After Blightbone, go up the stairs to the middle platform. Straight ahead is a large fallen bell. The shard is behind it on the right-hand side.",
 						}),
 						q(61297, {	-- Anima Crystal Shard
-							["description"] = "Before Amarth, at the middle of the top of the final platform is a little outcropping that juts north.  Climb behind the large broken pillar.  Behind it is a small broken pillar, and the shard is behind that.",
+							["description"] = "Before Amarth, at the middle of the top of the final platform is a little outcropping that juts north. Climb behind the large broken pillar. Behind it is a small broken pillar, and the shard is behind that.",
 						}),
 					}),
 				}),

@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			}),
 			n(COVENANT_CALLINGS, {
 				n(175390, {	-- Dirty Glinting Object
-					["description"] = "Can appear when on certain Training callings.  Roughly every 5 minutes, upon exiting combat, your trainee will call your attention to something they've discovered.\n\nOften contains potions, leveling and rarity charms for pets, or food.",
+					["description"] = "Can appear when on certain Training callings. Roughly every 5 minutes, upon exiting combat, your trainee will call your attention to something they've discovered.\n\nOften contains potions, leveling and rarity charms for pets, or food.",
 					["crs"] = {
 						-- Confirmed Follower ID's which will drop the loot objects
 						170035,	-- Deos [Kyrian]

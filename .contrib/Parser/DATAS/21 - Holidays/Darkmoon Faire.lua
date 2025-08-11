@@ -3107,7 +3107,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					ach(11918),	-- Hey, You're a Rockstar!
 					ach(11921),	-- Mosh Pit
 					ach(11920, {	-- Perfect Performance
-						["description"] = "Four people fighting the Death Metal Knight will need to successfully perform the roles from Taking this Show on the Road.  This achievement technically does not require a group, but it would be easier to coordinate roles with one!",
+						["description"] = "Four people fighting the Death Metal Knight will need to successfully perform the roles from Taking this Show on the Road. This achievement technically does not require a group, but it would be easier to coordinate roles with one!",
 					}),
 					ach(11919, {	-- Taking this Show on the Road
 						crit(37025, {	-- Guitarist
@@ -4104,7 +4104,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			n(108785, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 }, }, {	-- Scarlet Quartermaster
-				["description"] = "You must be wearing Tabard of the Scarlet Crusade in order to purchase items from the Scarlet Quartermaster.  A tabard that has been transmogged will NOT work.",
+				["description"] = "You must be wearing Tabard of the Scarlet Crusade in order to purchase items from the Scarlet Quartermaster. A tabard that has been transmogged will NOT work.",
 				["provider"] = { "i", 23192 },	-- Tabard of the Scarlet Crusade
 				["coord"] = { 58.2, 80.6, DARKMOON_ISLAND },
 				["groups"] = {

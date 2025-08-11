@@ -88,7 +88,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 						}),
 						n(TIER_THREE, {
-							["description"] = "Each day, a set of 3 Broken Mirrors is active in Revendreth.  They are not on a predictable cycle, so the same set may be up two days in a row.  Toggle on Debug Mode, 'Show All Trackable Things,' or 'Track Repeatable Quests' to see the list of mirror sets available to restore.\n\nIf your mirror transports you to Sanctuary of the Mad, go back to the repaired mirror and re-enter it to be teleported to the correct room.",
+							["description"] = "Each day, a set of 3 Broken Mirrors is active in Revendreth. They are not on a predictable cycle, so the same set may be up two days in a row. Toggle on Debug Mode, 'Show All Trackable Things,' or 'Track Repeatable Quests' to see the list of mirror sets available to restore.\n\nIf your mirror transports you to Sanctuary of the Mad, go back to the repaired mirror and re-enter it to be teleported to the correct room.",
 							["groups"] = {
 								n(MIRROR_RESTORATION, {
 									n(166133, {	-- Simone
@@ -142,7 +142,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["description"] = "Wowhead: |cffffffffGroup 3|r",
 										["groups"] = {
 											n(BROKEN_MIRROR_B1, {
-												["description"] = "Coordinates are for a crypt entrance.  The mirror is at the bottom of the crypt in the room on the right.",
+												["description"] = "Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the right.",
 												["questID"] = 61817,
 												["isDaily"] = true,
 												["coord"] = { 73.1, 44.8, REVENDRETH },
@@ -167,7 +167,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												},
 											}),
 											n(BROKEN_MIRROR_B3, {
-												["description"] = "Inside a house near the top of the elevator.  There are elite mobs in the area.",
+												["description"] = "Inside a house near the top of the elevator. There are elite mobs in the area.",
 												["questID"] = 61825,
 												["isDaily"] = true,
 												["coord"] = { 77.2, 65.4, REVENDRETH },
@@ -185,7 +185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["description"] = "Wowhead: |cffffffffGroup 1|r",
 										["groups"] = {
 											n(BROKEN_MIRROR_C1, {
-												["description"] = "Not up on the ramparts, but at the bottom level inside a crumbled wall.  There is an elite spider in the room.",
+												["description"] = "Not up on the ramparts, but at the bottom level inside a crumbled wall. There is an elite spider in the room.",
 												["questID"] = 61826,
 												["isDaily"] = true,
 												["coord"] = { 27.1, 21.6, REVENDRETH },
@@ -252,7 +252,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												},
 											}),
 											n(BROKEN_MIRROR_D3, {
-												["description"] = "Coordinates are for a crypt entrance.  The mirror is at the bottom of the crypt in the room on the left.",
+												["description"] = "Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the left.",
 												["questID"] = 61820,
 												["isDaily"] = true,
 												["coord"] = { 55.1, 34.7, REVENDRETH },

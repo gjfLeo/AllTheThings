@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(127001, {	-- Gwugnug the Cursed
-				["description"] = "This rare is not on top of the mountain, but on the middle level in a cave.  The cave entrance is on the southern side of the mountain.",
+				["description"] = "This rare is not on top of the mountain, but on the middle level in a cave. The cave entrance is on the southern side of the mountain.",
 				["questID"] = 48638,
 				["coord"] = { 33.4, 87.1, NAZMIR },
 				["groups"] = {

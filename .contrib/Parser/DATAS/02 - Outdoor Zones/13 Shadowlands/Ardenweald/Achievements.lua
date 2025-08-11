@@ -93,7 +93,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			ach(14353, {	-- Ardenweald's a Stage
-				["description"] = "You have to be in the Night Fae covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else.  Only one mob is summonable per day.",
+				["description"] = "You have to be in the Night Fae covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else. Only one mob is summonable per day.",
 				["coord"] = { 41.5, 44.8, ARDENWEALD },
 				["crs"] = { 171743 },	-- Dapperdew
 				["groups"] = {
@@ -131,7 +131,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["sym"] = {{ "achievement_criteria" }},
 			}),
 			ach(14791, {	-- Toss a Seed to Your Hunter...
-				["description"] = "The Faintly Glowing Seeds can be found scattered around the zone, but the closest ones to the encounter are up the hill in Heartwood Grove.  Look around the bases of trees for sparkling bluish-purple plants.",
+				["description"] = "The Faintly Glowing Seeds can be found scattered around the zone, but the closest ones to the encounter are up the hill in Heartwood Grove. Look around the bases of trees for sparkling bluish-purple plants.",
 				["crs"] = { 171690 },	-- Gwyncierw
 				["coord"] = { 65.6, 24.6, ARDENWEALD },
 				["provider"] = { "i", 183902 },	-- 1x A Faintly Glowing Seed

@@ -565,7 +565,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["coord"] = { 44.6, 20.1, SINFALL_REACHES },
 			}),
 			q(59324, {	-- Our True Purpose
-			--	["sourceQuests"] = {  },	-- TODO: unknown.  i think you get this version of "Our True Purpose" if you pursue the Adventures Scouting Map first, instead of Mirror Network?
+			--	["sourceQuests"] = {  },	-- TODO: unknown. i think you get this version of "Our True Purpose" if you pursue the Adventures Scouting Map first, instead of Mirror Network?
 				["provider"] = { "n", 164741 },	-- Tactician Sakaa
 				["coord"] = { 57.6, 58.8, SINFALL_REACHES },
 			}),

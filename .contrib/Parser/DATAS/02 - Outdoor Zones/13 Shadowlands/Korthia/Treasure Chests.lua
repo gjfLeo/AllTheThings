@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["questID"] = 64244,
 			}),
 			o(369183, {	-- Dislodged Nest
-				["description"] = "Find and click one of the sparkling |cFFFFFFFFNoxious Moths|r in Mauler's Outlook.  There is a |cFFFFFFFFPrecarious Silk Nest|r stuck in the branches of a tree.  Use the Extra Action Button ability granted by the moth to ride a Shardhide into the tree to dislodge the nest.",
+				["description"] = "Find and click one of the sparkling |cFFFFFFFFNoxious Moths|r in Mauler's Outlook. There is a |cFFFFFFFFPrecarious Silk Nest|r stuck in the branches of a tree. Use the Extra Action Button ability granted by the moth to ride a Shardhide into the tree to dislodge the nest.",
 				["coord"] = { 47.5, 29.2, KORTHIA },
 				["questID"] = 64241,
 				["groups"] = {
@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369204, {	-- Displaced Relic
-				["description"] = "The coordinates provided are for the start of the path to the treasure.  Walk and jump along the floating debris until you reach it.",
+				["description"] = "The coordinates provided are for the start of the path to the treasure. Walk and jump along the floating debris until you reach it.",
 				["coord"] = { 47.4, 78.3, KORTHIA },
 				["questID"] = 64252,
 				["groups"] = {
@@ -362,7 +362,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369200, {	-- Spectral Bound Chest
-				["description"] = "Requires collecting three |cFFFFFFFFSpectral Keys|r.  Use your preferred method of daily quest tracking to see the locations of the keys.",
+				["description"] = "Requires collecting three |cFFFFFFFFSpectral Keys|r. Use your preferred method of daily quest tracking to see the locations of the keys.",
 				["isDaily"] = true,
 				["questID"] = 64247,
 				["coord"] = { 62.1, 55.4, KORTHIA },

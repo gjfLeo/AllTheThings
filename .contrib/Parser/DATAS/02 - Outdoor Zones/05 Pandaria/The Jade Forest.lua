@@ -1144,10 +1144,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(29717, {	-- Down Kitty!
-						["description"] = "Must be on or have completed |cFFFFD700The Double Hozen Dare|r to see this quest.  If you completed it without picking up this quest, you can find An Windfur running around Dawn's Blossom, rather than in the forest near the Lair of the Jade Witch.",
+						["description"] = "Must be on or have completed |cFFFFD700The Double Hozen Dare|r to see this quest. If you completed it without picking up this quest, you can find An Windfur running around Dawn's Blossom, rather than in the forest near the Lair of the Jade Witch.",
 						["sourceQuest"] = 31230,	-- Welcome to Dawn's Blossom
 						["qg"] = 55274,	-- An Windfur
-						["coord"] = { 38.4, 46.2, THE_JADE_FOREST },	-- coordinates for the middle of the area where the quest is picked up.  not adding secondary Dawn's Blossom coordinates because i don't want it to look like you pick up both quests in town initially (description should suffice, since you only pick it up in town under specific circumstances)
+						["coord"] = { 38.4, 46.2, THE_JADE_FOREST },	-- coordinates for the middle of the area where the quest is picked up. not adding secondary Dawn's Blossom coordinates because i don't want it to look like you pick up both quests in town initially (description should suffice, since you only pick it up in town under specific circumstances)
 						["groups"] = {
 							objective(1, {	-- 0/8 Jade Guardian slain
 								["provider"] = { "n", 55236 },	-- Jade Guardian
@@ -1871,7 +1871,7 @@ root(ROOTS.Zones, {
 									{ "o", 213652 },	-- Cho Family Shrine
 								},
 								["coord"] = { 44.5, 66.9, THE_JADE_FOREST },
-								["cr"] = 64475,	-- Mishi 
+								["cr"] = 64475,	-- Mishi
 							}),
 						},
 					}),

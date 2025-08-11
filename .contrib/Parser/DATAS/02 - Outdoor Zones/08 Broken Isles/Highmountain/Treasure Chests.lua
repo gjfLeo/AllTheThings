@@ -39,7 +39,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 54.2, 41.6, HIGHMOUNTAIN },
 				}),
 				o(245530, {	-- Glimmering Treasure Chest
-					["description"] = "Inside Lifespring Cavern.  Cave entrance is at |cFFFFFFFF38.3, 61.2|r.",
+					["description"] = "Inside Lifespring Cavern. Cave entrance is at |cFFFFFFFF38.3, 61.2|r.",
 					["questID"] = 40476,
 					["coord"] = { 52.9, 23.3, 655 },	-- Lifespring Lower Cavern
 				}),
@@ -143,7 +143,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				o(245548, {	-- Treasure Chest
-					["description"] = "Inside Mucksnout Den.  Cave entrance is at |cFFFFFFFF41.6, 46.9|r.",
+					["description"] = "Inside Mucksnout Den. Cave entrance is at |cFFFFFFFF41.6, 46.9|r.",
 					["questID"] = 40494,
 					["coord"] = { 60.7, 25.2, 654 },	-- Mucksnout Den
 				}),
@@ -204,7 +204,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 40.3, 50.0, 657 },
 				}),
 				o(245543, {	-- Treasure Chest
-					["description"] = "On the upper level of Bitestone Enclave, all the way at the back.  Cave entrance is at |cFFFFFFFF41, 73|r.",
+					["description"] = "On the upper level of Bitestone Enclave, all the way at the back. Cave entrance is at |cFFFFFFFF41, 73|r.",
 					["questID"] = 40489,
 					["coord"] = { 85.2, 38.2, 651 },	-- Bitestone Enclave
 				}),

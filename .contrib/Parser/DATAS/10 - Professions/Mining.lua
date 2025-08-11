@@ -588,7 +588,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(48767, {	-- Seams Familiar
-					["description"] = "This can drop from |cFFFFD700Monelite Seam|r at any mining level.  You can only turn it in at Level 150 Kul Tiran Mining.",
+					["description"] = "This can drop from |cFFFFD700Monelite Seam|r at any mining level. You can only turn it in at Level 150 Kul Tiran Mining.",
 					["sourceQuests"] = { 48764 },	-- Don't Pick a Fight
 					["provider"] = { "i", 160905 },	-- Lost Anchor Necklace
 					["races"] = ALLIANCE_ONLY,
@@ -597,7 +597,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(51971, {	-- An Exquisite Brooch
-					["description"] = "This can drop from |cFFFFD700Monelite Seam|r at any mining level.  You can only turn it in at Level 150 Zandalari Mining.",
+					["description"] = "This can drop from |cFFFFD700Monelite Seam|r at any mining level. You can only turn it in at Level 150 Zandalari Mining.",
 					["sourceQuests"] = { 51965 },	-- Lending a Hand
 					["provider"] = { "i", 160944 },	-- An Exquisite Brooch
 					["coord"] = { 44.0, 39.0, DAZARALOR },
@@ -669,7 +669,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 			["groups"] = {
 				q(52044, {	-- An Exceptional Platinum Shard [A]
-					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Kul Tiran Mining.",
+					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Kul Tiran Mining.",
 					["provider"] = { "i", 161078 },	-- Exceptional Platinum Shard [A]
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -677,7 +677,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52046, {	-- An Exceptional Platinum Shard [H]
-					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Zandalari Mining.",
+					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Zandalari Mining.",
 					["provider"] = { "i", 161079 },	-- Exceptional Platinum Shard [H]
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -685,7 +685,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52049, {	-- X Marks the Plat!
-					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Kul Tiran Mining.",
+					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Kul Tiran Mining.",
 					["sourceQuests"] = { 52044 },	-- An Exceptional Platinum Shard [A]
 					["provider"] = { "i", 161085 },	-- Tattered Map
 					["races"] = ALLIANCE_ONLY,
@@ -694,7 +694,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52053, {	-- The Platinum Map
-					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level.  You can only turn it in at Level 150 Zandalari Mining.",
+					["description"] = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Zandalari Mining.",
 					["sourceQuests"] = { 52046 },	-- An Exceptional Platinum Shard [H]
 					["provider"] = { "i", 161088 },	-- Platinum Map
 					["races"] = HORDE_ONLY,
