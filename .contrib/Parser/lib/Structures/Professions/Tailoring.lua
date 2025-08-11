@@ -220,7 +220,7 @@ SHADOWEAVE_TAILORING_CLASSIC = {
 	r(12052),	-- Shadoweave Pants
 	r(12055),	-- Shadoweave Robe
 	r(12076),	-- Shadoweave Shoulders
-}
+};
 CLASSIC_TAILORING = appendGroups(APPRENTICE_JOURNEYMAN_EXPERT_TAILORING,
 -- #if AFTER 2.1.0
 ARTISAN_TAILORING

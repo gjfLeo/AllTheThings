@@ -344,7 +344,7 @@ i(16113, 10840);	-- Mageweave Bandage
 i(0, 18629);		-- Runecloth Bandage
 i(0, 7928);			-- Silk Bandage
 i(0, 3277);			-- Wool Bandage
---- #endif
+-- #endif
 --- NYI ---
 i(7093, 8778);		-- Boots of Darkness
 i(6273, 7636);		-- Green Woolen Robe

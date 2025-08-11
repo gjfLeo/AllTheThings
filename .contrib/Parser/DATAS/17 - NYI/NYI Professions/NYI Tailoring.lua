@@ -468,8 +468,8 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				})),
 			}),
 			expansion(EXPANSION.WRATH, {
-				-- 3.0.1
-				expansion(EXPANSION.WRATH, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_3_0_1 } }, {
+				-- 3.0.2
+				expansion(EXPANSION.WRATH, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_3_0_2 } }, {
 					r(56048),	-- Duskweave Boots
 					-- Without SpellID attached
 					i(42196),	-- Pattern: Aurora Slippers
