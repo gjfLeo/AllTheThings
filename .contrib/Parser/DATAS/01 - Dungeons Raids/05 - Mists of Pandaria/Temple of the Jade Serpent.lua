@@ -427,6 +427,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					spell(131204),	-- Path of the Jade Serpent
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(335, {	-- Sha of Doubt
+						["creatureID"] = 56439,	-- Sha of Doubt
+						["groups"] = {
+							ach(60892),	-- Celestial: Temple of the Jade Serpent
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	})),
 })));

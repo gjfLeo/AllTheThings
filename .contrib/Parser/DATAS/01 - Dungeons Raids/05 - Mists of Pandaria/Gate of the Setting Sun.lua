@@ -411,6 +411,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					spell(131225),	-- Path of the Setting Sun
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(649, {	-- Raigonn
+						["creatureID"] = 56877,	-- Raigonn
+						["groups"] = {
+							ach(60896),	-- Celestial: Gate of the Setting Sun
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	})),
 })));

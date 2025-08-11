@@ -279,6 +279,21 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					spell(131231),	-- Path of the Scarlet Blade
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(656, {	-- Flameweaver Koegler
+						["creatureID"] = 59150,	-- Flameweaver Koegler
+						["groups"] = {
+							ach(60897),	-- Celestial: Scarlet Halls
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	}),
 }));

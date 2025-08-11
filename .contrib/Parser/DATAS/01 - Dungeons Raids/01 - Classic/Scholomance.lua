@@ -2487,6 +2487,24 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDown
 -- #endif
 -- #endif
 
+-- #if ANYCLASSIC
+-- #if AFTER MOP
+table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+		-- Wouter TODO: fix
+		--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+		["timeline"] = { ADDED_5_5_0 },
+		["groups"] = {
+			e(684, {	-- Darkmaster Gandling
+				["creatureID"] = 59080,	-- Darkmaster Gandling
+				["groups"] = {
+					ach(60899),	-- Celestial: Scholomance
+				},
+			}),
+		},
+})));
+-- #endif
+-- #endif
+
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	inst(246, {	-- Scholomance
 		-- #if BEFORE MOP

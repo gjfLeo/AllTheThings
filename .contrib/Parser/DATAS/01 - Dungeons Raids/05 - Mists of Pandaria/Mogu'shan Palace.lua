@@ -425,6 +425,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					spell(131222),	-- Path of the Mogu King
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(698, {	-- Xin the Weaponmaster
+						["creatureID"] = 61398,	-- Xin the Weaponmaster
+						["groups"] = {
+							ach(60894),	-- Celestial: Mogu'shan Palace
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	})),
 })));

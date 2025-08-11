@@ -431,6 +431,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					spell(131206),	-- Path of the Shado-Pan
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(686, {	-- Taran Zhu
+						["creatureID"] = 56884,	-- Taran Zhu
+						["groups"] = {
+							ach(60895),	-- Celestial: Shado-Pan Monastery
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	})),
 })));

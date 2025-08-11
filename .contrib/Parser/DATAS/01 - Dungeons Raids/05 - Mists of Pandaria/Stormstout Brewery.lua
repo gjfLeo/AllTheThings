@@ -378,6 +378,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					spell(131205),	-- Path of the Stout Brew
 				}),
 			})),
+			-- #if ANYCLASSIC
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
+				-- Wouter TODO: fix
+				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+				["timeline"] = { ADDED_5_5_0 },
+				["groups"] = {
+					e(670, {	-- Yan-Zhu the Uncasked
+						["creatureID"] = 59479,	-- Yan-Zhu the Uncasked
+						["groups"] = {
+							ach(60893),	-- Celestial: Stormstout Brewery
+						},
+					}),
+				},
+			})),
+			-- #endif
 		},
 	})),
 })));
