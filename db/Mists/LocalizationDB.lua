@@ -1307,6 +1307,7 @@ localize(L.HEADER_NAMES, {
 	[-648] = "Memory of Scholomance",
 	[-652] = "Zandalari Incursions",
 	[-654] = "Harvesting",
+	[-657] = "Celestial Dungeons",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -1580,6 +1581,7 @@ localize(L.HEADER_ICONS, {
 	[-648] = 133743,
 	[-652] = 838687,
 	[-654] = 134427,
+	[-657] = 840010,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -1636,7 +1638,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=10,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=10,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=17,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=17,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=24,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=24,["weekday"]=1,["year"]=2025}),
@@ -1688,7 +1689,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=26,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=26,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=2,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=8,["monthDay"]=9,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(1262, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=6,["weekday"]=1,["year"]=2022},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=27,["weekday"]=1,["year"]=2022})
@@ -5239,7 +5241,10 @@ local ObjectNames = {
 	[211331] = "Vintage Bug Sprayer",
 	[211379] = "Spare Plank",
 	[211382] = "Tough Kelp",
+	[211393] = "Battle Helm of the Thunder King",
 	[211394] = "Broken Bamboo Stalk",
+	[211395] = "Battle Spear of the Thunder King",
+	[211396] = "Battle Axe of the Thunder King",
 	[211397] = "Broken Bamboo Stalk",
 	[211398] = "Broken Bamboo Stalk",
 	[211399] = "Broken Bamboo Stalk",
@@ -8492,7 +8497,10 @@ local ObjectModels = {
 	[211331] = 609095,
 	[211379] = 530257,
 	[211382] = 328308,
+	[211393] = 592072,
 	[211394] = 536325,
+	[211395] = 592074,
+	[211396] = 592070,
 	[211397] = 536494,
 	[211398] = 536496,
 	[211399] = 536498,
@@ -11891,7 +11899,10 @@ localize(ObjectNames, {
 	[211331] = "Altmodisches Insektenvernichtungsmittel",
 	[211379] = "Holzbrett",
 	[211382] = "Zäher Seetang",
+	[211393] = "Kriegshelm des Donnerkönigs",
 	[211394] = "Abgebrochenes Bambusrohr",
+	[211395] = "Kriegsspeer des Donnerkönigs",
+	[211396] = "Kriegsaxt des Donnerkönigs",
 	[211397] = "Abgebrochenes Bambusrohr",
 	[211398] = "Abgebrochenes Bambusrohr",
 	[211399] = "Abgebrochenes Bambusrohr",
@@ -14889,7 +14900,10 @@ localize(ObjectNames, {
 	[211331] = "Vaporisateur à insectes de collection",
 	[211379] = "Planche abandonnée",
 	[211382] = "Varech résistant",
+	[211393] = "Heaume de combat du roi-tonnerre",
 	[211394] = "Tige de bambou cassée",
+	[211395] = "Lance de combat du roi-tonnerre",
+	[211396] = "Hache de combat du roi-tonnerre",
 	[211397] = "Tige de bambou cassée",
 	[211398] = "Tige de bambou cassée",
 	[211399] = "Tige de bambou cassée",
@@ -17139,6 +17153,7 @@ localize(ObjectNames, {
 	[211379] = "Assi di Scarto",
 	[211382] = "Alghe Robuste",
 	[211394] = "Canna di Bambù Spezzata",
+	[211395] = "Lancia da Battaglia del Re del Tuono",
 	[211397] = "Canna di Bambù Spezzata",
 	[211398] = "Canna di Bambù Spezzata",
 	[211399] = "Canna di Bambù Spezzata",
@@ -19764,7 +19779,10 @@ localize(ObjectNames, {
 	[211331] = "Pulverizador Antigo",
 	[211379] = "Tábua Sobressalente",
 	[211382] = "Alga Resistente",
+	[211393] = "Elmo de Batalha do Rei Trovão",
 	[211394] = "Talo de Bambu Quebrado",
+	[211395] = "Lança de Batalha do Rei Trovão",
+	[211396] = "Machado de Batalha do Rei Trovão",
 	[211397] = "Talo de Bambu Quebrado",
 	[211398] = "Talo de Bambu Quebrado",
 	[211399] = "Talo de Bambu Quebrado",
@@ -23110,7 +23128,10 @@ localize(ObjectNames, {
 	[211331] = "Старый опрыскиватель со средством от вредителей",
 	[211379] = "Кусок доски",
 	[211382] = "Крепкие водоросли",
+	[211393] = "Боевой шлем Властелина Грома",
 	[211394] = "Сломанный стебель бамбука",
+	[211395] = "Боевое копье Властелина Грома",
+	[211396] = "Боевой топор Властелина Грома",
 	[211397] = "Сломанный стебель бамбука",
 	[211398] = "Сломанный стебель бамбука",
 	[211399] = "Сломанный стебель бамбука",
@@ -25736,7 +25757,10 @@ localize(ObjectNames, {
 	[211331] = "오래된 살충제",
 	[211379] = "남는 판자",
 	[211382] = "질긴 물풀",
+	[211393] = "천둥왕의 전투 투구",
 	[211394] = "부러진 대나무 줄기",
+	[211395] = "천둥왕의 전투 창",
+	[211396] = "천둥왕의 전투 도끼",
 	[211397] = "부러진 대나무 줄기",
 	[211398] = "부러진 대나무 줄기",
 	[211399] = "부러진 대나무 줄기",
@@ -29290,7 +29314,10 @@ localize(ObjectNames, {
 	[211331] = "Pulverizador de insectos añoso",
 	[211379] = "Tablón de repuesto",
 	[211382] = "Alga dura",
+	[211393] = "Yelmo de batalla del Rey del Trueno",
 	[211394] = "Tallo de bambú roto",
+	[211395] = "Lanza de batalla del Rey del Trueno",
+	[211396] = "Hacha de batalla del Rey del Trueno",
 	[211397] = "Tallo de bambú roto",
 	[211398] = "Tallo de bambú roto",
 	[211399] = "Tallo de bambú roto",
@@ -30346,6 +30373,7 @@ L.EVENT_SCHEDULE = "事件时间表";
 L.EVENT_START = "开始:";
 L.EVENT_WHERE = "地点:";
 L.EXPAND_DIFFICULTY_CHECKBOX = "展开当前难度";
+L.EXPAND_DIFFICULTY_CHECKBOX_TOOLTIP = "启用此选项后，在进入地下城或团队副本时，迷你列表中将仅自动展开与当前激活难度相匹配的难度标题。\n\n示例：当进入英雄难度地下城时，仅展开英雄难度标题。";
 L.EXPAND_MINILIST_CHECKBOX = "展开迷你列表";
 L.EXPAND_MINILIST_CHECKBOX_TOOLTIP = "启用此选项后，在每次游戏会话中首次查看迷你列表时，将自动展开其中包含的所有分组。";
 L.EXPANSION_ID = "资料片 ID";
@@ -30653,6 +30681,7 @@ L.RECIPES_CHECKBOX = "配方";
 L.RECIPES_CHECKBOX_TOOLTIP = "启用此选项可追踪你的专业图纸。\n\n注意：你必须打开专业列表才能缓存这些。";
 L.REFRESHING_COLLECTION = "刷新收藏…";
 L.RELOG_REQUIRED = "使用此功能后，通常需要注销并重新登录，以便在游戏服务器上正确领取所有物品。";
+L.REMOTE_ZONES_DESCRIPTION = "包含当前区域可用但实际源自其他区域的内容。";
 L.REMOVED_WITH_PATCH = "随补丁移除";
 L.REMOVED_WITH_PATCH_CLASSIC_FORMAT = "该物品是随补丁 %s 移除的";
 L.REMOVED_WITH_PATCH_FORMAT = "补丁 %s 中被删除";
@@ -32894,6 +32923,7 @@ localize(ObjectNames, {
 	[211379] = "备用木板",
 	[211382] = "结实的海藻",
 	[211394] = "折断的竹竿",
+	[211395] = "雷电之王的战矛",
 	[211397] = "折断的竹竿",
 	[211398] = "折断的竹竿",
 	[211399] = "折断的竹竿",
