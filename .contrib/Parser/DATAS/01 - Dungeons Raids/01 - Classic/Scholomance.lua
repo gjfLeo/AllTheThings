@@ -2320,7 +2320,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 			},
 		}),
 		e(665, {	-- Rattlegore
-			["creatureID"] = 59153,
+			["creatureID"] = 59153,	-- Rattlegore
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = {
 				ach(6394),	-- Rattle No More
@@ -2370,7 +2370,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 			},
 		}),
 		e(666, {	-- Lilian Voss
-			["creatureID"] = 58722,
+			["creatureID"] = 58722,	-- Lilian Voss
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = {
 				i(144030, {	-- Soulburner Crown

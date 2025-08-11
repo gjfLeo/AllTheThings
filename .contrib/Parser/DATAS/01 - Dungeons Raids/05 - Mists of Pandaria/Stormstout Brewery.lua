@@ -294,7 +294,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 				e(670, {	-- Yan-Zhu the Uncasked
-					["crs"] = { 59479 },	-- Hoptallus
+					["crs"] = { 59479 },	-- Yan-Zhu the Uncasked
 					["groups"] = {
 						-- Available
 						ach(6456),	-- Heroic: Stormstout Brewery
