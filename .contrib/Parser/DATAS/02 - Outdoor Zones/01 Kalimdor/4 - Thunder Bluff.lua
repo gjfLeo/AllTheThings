@@ -1215,12 +1215,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(8362, {	-- Kuruk <General Goods>
 					["coord"] = { 39.0, 64.4, THUNDER_BLUFF },	-- Wayfarer's Rest
 					["races"] = HORDE_ONLY,
+					["sym"] = {{ "select","itemID",
+						4498, 	-- Brown Leather Satchel
+						4497, 	-- Heavy Brown Bag
+						4499, 	-- Huge Brown Sack
+						4496, 	-- Small Brown Pouch
+					}},
 					["groups"] = {
-						i(4498),	-- Brown Leather Satchel
-						i(4497),	-- Heavy Brown Bag
-						i(4499),	-- Huge Brown Sack
 						i(1179),	-- Ice Cold Milk
-						i(4496),	-- Small Brown Pouch
 					},
 				}),
 				n(3005, {	-- Mahu <Tailoring Supplies> [CATA+] / <Leatherworking & Tailoring Supplies>
@@ -1499,11 +1501,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(3016, {	-- Tand <Basket Weaver>
 					["coord"] = { 49.1, 34.2, THUNDER_BLUFF },
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						i(4498),	-- Brown Leather Satchel
-						i(4497),	-- Heavy Brown Bag
-						i(4496),	-- Small Brown Pouch
-					},
+					["sym"] = {{ "select","itemID",
+						4498, 	-- Brown Leather Satchel
+						4497, 	-- Heavy Brown Bag
+						4496, 	-- Small Brown Pouch
+					}},
 				}),
 				n(2999, {	-- Taur Stonehoof <Blacksmithing Supplies>
 					["coord"] = { 39.8, 55.6, THUNDER_BLUFF },

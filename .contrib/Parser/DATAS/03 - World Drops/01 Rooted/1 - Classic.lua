@@ -3303,7 +3303,22 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(5765),	-- Black Silk Pack
 		i(856),		-- Blue Leather Bag
 		i(4498),	-- Brown Leather Satchel
+		i(5573),	-- Green Leather Bag
+		i(3914),	-- Journeyman's Backpack
+		i(804),	-- Large Blue Sack
+		i(5576),	-- Large Brown Sack
+		i(5575),	-- Large Green Sack
+		i(1725),	-- Large Knapsack
+		i(857),	-- Large Red Sack
+		i(2657),	-- Red Leather Bag
+		i(5571),	-- Small Black Pouch
+		i(828),	-- Small Blue Pouch
+		i(4496),	-- Small Brown Pouch
+		i(5572),	-- Small Green Pouch
+		i(805),	-- Small Red Pouch
 		i(4500),	-- Traveler's Backpack
+		i(1685),	-- Troll-Hide Bag
+		i(5574),	-- White Leather Bag
 	}),
 	filter(MISC, {
 		i(17962),	-- Blue Sack of Gems

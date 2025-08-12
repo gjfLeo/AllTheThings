@@ -818,8 +818,9 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(13, 13, 1),
 					["groups"] = {
 						i(23846, {	-- Nolkai's Box
-							i(23844),	-- Nolkai's Lantern
 							i(23852),	-- Nolkai's Bag
+							i(23847),	-- Nolkai's Band
+							i(23844),	-- Nolkai's Lantern
 						}),
 					},
 				}),
