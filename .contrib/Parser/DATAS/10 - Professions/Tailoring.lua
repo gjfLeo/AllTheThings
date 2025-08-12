@@ -634,8 +634,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			["sourceQuests"] = { 46804 },	-- Fashion History and a Philosophy of Style
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
-			["repeatable"] = true,
 			["timeline"] = { ADDED_7_2_0 },
+			["repeatable"] = true,
 			["groups"] = {
 				i(147281),	-- Nights with the Nightborne (QI!)
 			},
@@ -654,9 +654,9 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			["sourceQuests"] = { 46678 },	-- The Legend of the Threads
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
+			["timeline"] = { ADDED_7_2_0 },
 			["maps"] = { 761, 762, 763 },	-- Court of Stars
 			["repeatable"] = true,
-			["timeline"] = { ADDED_7_2_0 },
 			["groups"] = {
 				i(146680),	-- Melandrus' Star-Touched Bracers (QI!)
 				i(146681),	-- Starlight Thread (QI!)
@@ -666,9 +666,9 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			["sourceQuests"] = { 46678 },	-- The Legend of the Threads
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
+			["timeline"] = { ADDED_7_2_0 },
 			["maps"] = { 749 },	-- The Arcway
 			["repeatable"] = true,
-			["timeline"] = { ADDED_7_2_0 },
 			["groups"] = {
 				i(146679),	-- Shadow Thread (QI!)
 				i(146678),	-- Vandros' Shadoweave Robes (QI!)
@@ -678,9 +678,9 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			["sourceQuest"] = 46678,	-- The Legend of the Threads
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
+			["timeline"] = { ADDED_7_2_0 },
 			["maps"] = { 764, 765, 766, 767, 768, 769, 770, 771, 772 },	-- The Nighthold
 			["repeatable"] = true,
-			["timeline"] = { ADDED_7_2_0 },
 			["groups"] = {
 				i(146683),	-- Soul Thread (QI!)
 				i(146682),	-- Suramari Soul-Wraps (QI!)
@@ -695,8 +695,8 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			},
 			["provider"] = { "n", 120221 },	-- Eliezer Hammerbeard
 			["coord"] = { 41.1, 59.3, BROKEN_SHORE },
-			["repeatable"] = true,
 			["timeline"] = { ADDED_7_2_0 },
+			["repeatable"] = true,
 			["groups"] = {
 				i(146952),	-- Legendary Tailor's Materials (QI!)
 				i(147437),	-- Satchel of Starweave and Shadowcloth (QI!)
