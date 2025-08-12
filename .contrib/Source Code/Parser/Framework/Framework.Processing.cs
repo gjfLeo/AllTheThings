@@ -171,7 +171,7 @@ namespace ATT
                 {
                     if (WagoData.TryGetValue(sourceSpeciesDataPair.Key, out BattlePetSpecies battlePetSpecies) && battlePetSpecies.CreatureID > 0)
                     {
-                        foreach(var speciesData in sourceSpeciesDataPair.Value)
+                        foreach (var speciesData in sourceSpeciesDataPair.Value)
                         {
                             // TODO: better way to handle pet battle enemies which are species but also listed under NYI
                             // for now just wipe the npcID of any species listed under NYI
@@ -829,7 +829,7 @@ namespace ATT
             Validate_providers(data);
 
             // Validate Headers
-            if(data.TryGetValue("headerID", out long headerID))
+            if (data.TryGetValue("headerID", out long headerID))
             {
                 MarkCustomHeaderAsRequired(headerID);
             }
@@ -1826,7 +1826,7 @@ namespace ATT
             if (data.TryGetValue("creatureID", out long creatureID))
             {
                 data.Remove("creatureID");
-                if(!crs.Contains(creatureID)) crs.Add(creatureID);
+                if (!crs.Contains(creatureID)) crs.Add(creatureID);
             }
             if (data.TryGetValue("npcID", out creatureID))
             {
@@ -3190,21 +3190,24 @@ namespace ATT
 
         private static void Incorporate_Spell(IDictionary<string, object> data)
         {
-            if (!data.TryGetValue("spellID", out long spellID)) return;
+            if (!data.TryGetValue("spellID", out long spellID) && !data.ContainsKey("_extraSpells")) return;
             if (data.ContainsKey("_noautomation")) return;
 
             // See what the Spell links to
-            if (WagoData.TryGetSpellAssociations(spellID, out List<SpellEffect> spellEffects) && spellEffects.Count > 0)
+            if (spellID > 0)
             {
-                foreach (SpellEffect spellEffect in spellEffects)
+                if (WagoData.TryGetSpellAssociations(spellID, out List<SpellEffect> spellEffects) && spellEffects.Count > 0)
                 {
-                    Incorporate_SpellEffect(data, spellEffect);
+                    foreach (SpellEffect spellEffect in spellEffects)
+                    {
+                        Incorporate_SpellEffect(data, spellEffect);
+                    }
                 }
-            }
-            else
-            {
-                // quite spammy now with all Items being incorporated
-                //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
+                else
+                {
+                    // quite spammy now with all Items being incorporated
+                    //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
+                }
             }
 
             // Incorporate any extra spells
@@ -4472,7 +4475,7 @@ namespace ATT
                         case Objects.Filters.Mount:
                             return;
                         case Objects.Filters.Consumable:
-                            if(!data.ContainsKey("factionID")) return;
+                            if (!data.ContainsKey("factionID")) return;
                             break;
                     }
 

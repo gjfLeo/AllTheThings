@@ -417,7 +417,6 @@ root(ROOTS.Unsorted, {
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
 				-- Delve
-				i(248126),	-- Delver's Starter Kit
 				i(248142),	-- Delver's Bounty
 				-- Curios
 				i(239580),	-- Nether Overlay Matrix
