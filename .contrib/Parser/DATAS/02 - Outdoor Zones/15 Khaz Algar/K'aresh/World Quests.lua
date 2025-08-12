@@ -162,6 +162,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91175, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st
 				q(91176, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd
 				q(91177, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 3rd
+				q(91178, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 4th
 			}),
 		}),
 	}),
