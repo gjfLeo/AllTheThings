@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(56816, {	-- A Kelfin's Best Friend
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 9.",
-			["provider"] = { "n", 151309 },	-- Kelfin Scout (Neri Sharpfin)
+			["provider"] = { "n", 151300 },	-- Kelfin Scout (Neri Sharpfin)
 			["coord"] = { 45.0, 60.9, NAZJATAR },
 			["races"] = HORDE_ONLY,
 		}),
@@ -1271,9 +1271,18 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 64.2, 52.0, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
-				i(168002),	-- Arcane Scroll (QI!)
-				i(169147),	-- Cracked Sphere (QI!)
-				i(169148),	-- Discarded Staff (QI!)
+				o(327542, {	-- Shattered Staff
+					["coord"] = { 63.2, 48.4, NAZJATAR },
+					["groups"] = { i(169148) },	-- Discarded Staff (QI!)
+				}),
+				o(325420, {	-- Stack of Scrolls
+					["coord"] = { 63.5, 40.7, NAZJATAR },
+					["groups"] = { i(168002) },	-- Arcane Scroll (QI!)
+				}),
+				o(327543, {	-- Cracked Sphere
+					["coord"] = { 64.8, 46.5, NAZJATAR },
+					["groups"] = { i(169147) },	-- Cracked Sphere (QI!)
+				}),
 			},
 		}),
 		q(56266, {	-- Mgglurky's Mugglrgl
@@ -2065,7 +2074,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 76.4, 29.8, NAZJATAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
-				i(168201),	-- Oculeth's Notes (QI!)
+				o(325898, {	-- Pristine Chest
+					["coord"] = { 79.6, 28.8, NAZJATAR },
+					["groups"] = { i(168201) },	-- Oculeth's Notes (QI!)
+				}),
 			},
 		}),
 		q(55384, {	-- Settling In
