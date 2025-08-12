@@ -159,9 +159,30 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			-- Repeatable
 			-- None phase
+			o(516571, {	-- Broker Exchequer
+				["description"] = "Can be found at random locations throughout K'aresh.",
+				["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
+				["maps"] = { KARESH_TAZAVESH, KARESH },
+				-- No quest attached to them.
+				["sym"] = {	-- Zone Drop (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
+					{"select","mapID",KHAZ_ALGAR},{"pop"},
+					{"where","mapID",KARESH},{"pop"},
+					{"where","headerID",ZONE_DROPS},{"pop"},
+				},
+				["groups"] = {	-- Has a chance to drop following
+					-- 'World Drop' gray equipment and other junk
+					-- Currency, like Gold, Valorstones, Resonance Crystals
+					-- But... Then again... Has a chance to drop something like this:
+					-- Alex: symed zone drop, added additional source of shared (?) stuff
+					i(243147),	-- Ethereal Defense Pylon
+					i(243219),	-- Phased Ethereal Bow
+					i(242371),	-- Untethered Xy'bucha
+				},
+			}),
 			o(516444, {	-- Ethereal Pocket-Storage
 				["description"] = "Can be found at random locations throughout K'aresh.",
 				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+				--["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11 (Uncomment and remove this note if math is correct)
 				["maps"] = { KARESH_TAZAVESH, KARESH },
 				-- No quest attached to them.
 				["sym"] = {	-- Zone Drop

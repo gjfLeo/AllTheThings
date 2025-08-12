@@ -131,8 +131,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			n(238135, {	-- Shatterpulse
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
-				--["coord"] = { x, y, KARESH },
-				--["questID"] = ,
+				["coord"] = { 49.2, 28.2, KARESH },
+				["questID"] = 90687,
 			}),
 			n(235087, {	-- The Harvester
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
@@ -205,8 +205,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91434, {	-- Weekly reputation: Miasmawrath
 					["name"] = "Miasmawrath weekly reputation obtained.",
 				}),
-				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swipe with rare questID if wrong)
+				q(90693, {	-- Weekly reputation: Purple Peat (TODO: swap with rare questID if wrong)
 					["name"] = "Purple Peat weekly reputation obtained.",
+				}),
+				q(90688, {	-- Weekly reputation: Shatterpulse (TODO: swap with rare questID if wrong)
+					["name"] = "Shatterpulse weekly reputation obtained.",
 				}),
 				q(91435, {	-- Weekly reputation: The Harvester
 					["name"] = "The Harvester weekly reputation obtained.",
@@ -214,7 +217,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91436, {	-- Weekly reputation: The Wallbreaker
 					["name"] = "The Wallbreaker weekly reputation obtained.",
 				}),
-				q(90695, {	-- Weekly reputation: Xy'vox the Twisted (TODO: swipe with rare questID if wrong)
+				q(90695, {	-- Weekly reputation: Xy'vox the Twisted (TODO: swap with rare questID if wrong)
 					["name"] = "Xy'vox the Twisted weekly reputation obtained.",
 				}),
 			}),

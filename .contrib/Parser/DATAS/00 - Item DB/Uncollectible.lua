@@ -2566,6 +2566,7 @@ i(238883);	-- Dimly Glowing Scrap
 i(243016);	-- Efrat's Totally Abandonded Bulwark
 i(238889);	-- Eldritch Signal Antenna
 i(238838);	-- Enlarged Nerve
+i(238888);	-- Essence of Ephemeral Knowledge
 i(244359);	-- Ethereal Pylon Conduit
 i(238886);	-- Faintly Glowing Vellum
 i(238868);	-- Flickering Primeval Element
@@ -2600,6 +2601,7 @@ i(245674);	-- Rifle of Leaden Movement
 i(238873);	-- Serrated Scale Shard
 i(243021);	-- Shadowguard Bonker
 i(238878);	-- Shadow-Touched Fang
+i(246294);	-- Shattered Buckler of the Last Stand
 i(238832);	-- Sinuous Wing Membrane
 i(238854);	-- Sleek Beak
 i(247685);	-- Slightly Used Containment Device

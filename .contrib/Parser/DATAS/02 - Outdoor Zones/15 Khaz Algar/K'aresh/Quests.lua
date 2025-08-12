@@ -2390,8 +2390,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(87010, {	-- Calculation Container
 						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238057,	-- Engineer Om'loof
+						["coord"] = { 47.9, 57.4, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(235866),	-- Calculation Container (QI!) (Reward, required for the Warrant)
@@ -2399,8 +2399,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(87285, {	-- Marking Matrix
 						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238057,	-- Engineer Om'loof
+						["coord"] = { 47.9, 57.4, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(235898),	-- Containment Trap (PQI!)
@@ -2410,8 +2410,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(87298, {	-- Void Fused Resin
 						["description"] = "This quest is available during 'Warrant: Shatterpulse'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238069,	-- Botanist Mo'chee
+						["coord"] = { 49.4, 54.3, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(235918),	-- Corrupted Granules (QI!)

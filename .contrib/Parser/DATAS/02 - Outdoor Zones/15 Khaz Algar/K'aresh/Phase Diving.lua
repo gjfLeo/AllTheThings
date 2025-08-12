@@ -267,13 +267,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["groups"] = { i(245673), },	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
 				}),
 				-- TODO: Replace quest with actual ObjectID upon discovery
-				q(89378, {	-- Ethereal Voidforged Container
-					--["questID"] = 89378,
-					-- TODO: Either this was moved somewhere else or it has multiple spawn points...
-					-- Achievement 'Jump, Jump, and Away!' states "Find and loot the Ethereal Voidforged Container in the Ruins of Yaathron in K'aresh." but it's nowhere to be found.
-					-- Vignette used to be present a couple of builds ago but I had no Rank 5 Wraps to see it.
+				o(527414, {	-- Ethereal Voidforged Container
+					["questID"] = 89378,
 					["description"] = "Requires some serious jumping precision in order to get to it.",
 					["coord"] = { 52.1, 68.3, KARESH },
+					["groups"] = { i(246293), },	-- Buckler of the Last Stand (COSMETIC!)
 				}),
 				o(529669, {	-- Korgoraths Talon
 					["description"] = "Requires Rank 5 Reshii Wraps.",
@@ -360,11 +358,28 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				}),
 				-- Phased
+				o(549326, {	-- Phase-Lost Exchequer
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
+					["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
+					["maps"] = { KARESH_TAZAVESH, KARESH },
+					-- No quest attached to them.
+					["sym"] = {	-- Zone Drop
+						{"select","mapID",KHAZ_ALGAR},{"pop"},
+						{"where","mapID",KARESH},{"pop"},
+						{"where","headerID",ZONE_DROPS},{"pop"},
+					},
+					["groups"] = {	-- Has a chance to drop following
+						i(243147),	-- Ethereal Defense Pylon
+						i(243219),	-- Phased Ethereal Bow
+						i(242371),	-- Untethered Xy'bucha
+					},
+				}),
 				o(516626, {	-- Phase-Lost Pocket-Storage
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+					--["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11 (Uncomment and remove this note if math is correct)
 					["maps"] = { KARESH_TAZAVESH, KARESH },
-					-- No quest attached to them.
+					-- No quest attached to them. (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
 					["sym"] = {	-- Zone Drop
 						{"select","mapID",KHAZ_ALGAR},{"pop"},
 						{"where","mapID",KARESH},{"pop"},

@@ -47,10 +47,6 @@ root(ROOTS.Unsorted, {
 				i(241350),	-- Brewer's Blue Kilt
 				i(241351),	-- Brewer's Green Kilt
 
-				-- Cosmetic from karesh with grey replacements
-				-- Greys if you already looted cosmetic?
-				i(246293),	-- Buckler of the Last Stand
-				i(246294),	-- Shattered Buckler of the Last Stand
 				-- Reputation Cosmetic
 				i(248780),	-- Consortium Brute's Cape
 				i(248781),	-- Consortium Skirmisher's Cloak
@@ -391,7 +387,6 @@ root(ROOTS.Unsorted, {
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
 				i(238879),	-- Cracked Void Carapace
-				i(238888),	-- Essence of Ephemeral Knowledge
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(239129),	-- Questionable Tentacle
 				i(241220),	-- Loose Parts
