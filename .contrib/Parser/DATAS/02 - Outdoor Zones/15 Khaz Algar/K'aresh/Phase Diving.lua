@@ -362,8 +362,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 11 },	-- The K'aresh Trust Renown 11
 					["maps"] = { KARESH_TAZAVESH, KARESH },
-					-- No quest attached to them. (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
-					["sym"] = {	-- Zone Drop
+					-- No quest attached to them.
+					["sym"] = {	-- Zone Drop (This may need to change as the R11 Trait states "Find bigger treasures". Dunno if that means better rewards or some other reward pool.)
 						{"select","mapID",KHAZ_ALGAR},{"pop"},
 						{"where","mapID",KARESH},{"pop"},
 						{"where","headerID",ZONE_DROPS},{"pop"},
@@ -377,7 +377,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(516626, {	-- Phase-Lost Pocket-Storage
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires Rank 5 Reshii Wraps.\nCan be found at random locations through Untethered space.",
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
-					--["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11 (Uncomment and remove this note if math is correct)
+					["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11
 					["maps"] = { KARESH_TAZAVESH, KARESH },
 					-- No quest attached to them.
 					["sym"] = {	-- Zone Drop

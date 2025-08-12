@@ -182,7 +182,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			o(516444, {	-- Ethereal Pocket-Storage
 				["description"] = "Can be found at random locations throughout K'aresh.",
 				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
-				--["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11 (Uncomment and remove this note if math is correct)
+				["lockCriteria"] = { 1, "renownID", FACTION_THE_KARESH_TRUST + 0.11 },	-- The K'aresh Trust Renown 11
 				["maps"] = { KARESH_TAZAVESH, KARESH },
 				-- No quest attached to them.
 				["sym"] = {	-- Zone Drop
