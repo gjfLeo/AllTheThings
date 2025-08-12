@@ -80,16 +80,36 @@ root(ROOTS.Zones, {
 					ach(7314),	-- Test Drive
 					ach(6545),	-- The Klaxxi
 					ach(7313, {	-- Stay Klaxxi
-						crit(20951),	-- Angel of Death
-						crit(20952),	-- Master of Puppets
-						crit(20953),	-- Painkiller
-						crit(20954),	-- Seek and Destroy
-						crit(20955),	-- Raining Blood
-						crit(20956),	-- Iron Mantid
-						crit(20957),	-- Silent Lucidity
-						crit(20958),	-- Speed
-						crit(20959),	-- Children of the Grave
-						crit(20960),	-- Battle Hymn
+						crit(20951, {	-- Angel of Death
+							["provider"] = { "n", 62538 },	-- Kil'ruk the Wind-Reaver
+						}),
+						crit(20952, {	-- Master of Puppets
+							["provider"] = { "n", 63758 },	-- Kaz'tik the Manipulator
+						}),
+						crit(20953, {	-- Painkiller
+							["provider"] = { "n", 62180 },	-- Korven the Prime
+						}),
+						crit(20954, {	-- Seek and Destroy
+							["provider"] = { "n", 63785 },	-- Hisek the Swarmkeeper
+						}),
+						crit(20955, {	-- Raining Blood
+							["provider"] = { "n", 62151 },	-- Xaril the Poisoned Mind
+						}),
+						crit(20956, {	-- Iron Mantid
+							["provider"] = { "n", 62774 },	-- Malik the Unscathed
+						}),
+						crit(20957, {	-- Silent Lucidity
+							["provider"] = { "n", 65305 },	-- Iyyokuk the Lucid
+						}),
+						crit(20958, {	-- Speed King
+							["provider"] = { "n", 65303 },	-- Ka'roz the Locust
+						}),
+						crit(20959, {	-- Children of the Grave
+							["provider"] = { "n", 63072 },	-- Rik'kal the Dissector
+						}),
+						crit(20960, {	-- Battle Hymn
+							["provider"] = { "n", 63071 },	-- Skeer The Bloodseeker
+						}),
 					}),
 					ach(8023, {		-- Wakener
 						title(218),		-- <Name> the Wakener
