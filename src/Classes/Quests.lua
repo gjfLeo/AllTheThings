@@ -108,6 +108,11 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 	-- will be called with the QuestID and Success of the data lookup event. Additional params will be provided as a
 	-- 3rd parameter table to the callback
 	RequestLoadQuestByID = function(questID, questObjectRef, ...)
+		if type(questID) ~= "number" then
+			app.PrintDebug("RequestLoadQuestByID: NON-NUMBER QUESTID",questID, questObjectRef, ...)
+			app.PrintDebug(debugstack())
+			return
+		end
 		-- only allow requests once per frame until received
 		if QuestsRequested[questID] then return end
 
