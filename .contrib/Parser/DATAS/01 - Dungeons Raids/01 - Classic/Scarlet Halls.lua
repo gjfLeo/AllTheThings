@@ -289,6 +289,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["groups"] = {
 							ach(60897),	-- Celestial: Scarlet Halls
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
+							i(86753),	-- Cloak of Peacock Feathers
 						},
 					}),
 				},
