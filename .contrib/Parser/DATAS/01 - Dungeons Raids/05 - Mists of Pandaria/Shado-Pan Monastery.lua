@@ -432,15 +432,15 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 			})),
 			-- #if ANYCLASSIC
-			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
-				-- Wouter TODO: fix
-				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DUNGEON_DIFFICULTY, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(686, {	-- Taran Zhu
 						["creatureID"] = 56884,	-- Taran Zhu
 						["groups"] = {
 							ach(60895),	-- Celestial: Shado-Pan Monastery
+							i(86777),	-- Screaming Tiger, Qiang's Unbreakable Polearm
 						},
 					}),
 				},

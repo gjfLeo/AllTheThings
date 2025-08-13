@@ -6,7 +6,7 @@ local AUGUST_STONE_FRAGMENT = 3350;	-- August Stone Fragment
 local frags = function(cost, item)
 	return applycost(item, { "c", AUGUST_STONE_FRAGMENT, cost });
 end
-local CELESTIAL_MAPS = {
+local CELESTIAL_DUNGEON_MAPS = {
 	GATE_OF_THE_SETTING_SUN,
 	GATE_OF_THE_SETTING_SUN_GATE_WATCH_TOWER,
 	MOGUSHAN_PALACE_THE_CRIMSON_ASSEMBLY_HALL,
@@ -30,7 +30,7 @@ local CELESTIAL_MAPS = {
 	TEMPLE_OF_THE_JADE_SERPENT,
 	TEMPLE_OF_THE_JADE_SERPENT_THE_SCROLLKEEPERS_SANCTUM,
 }
-local CELESTIAL_BOSSES = {
+local CELESTIAL_DUNGEON_BOSSES = {
 	-- Gate of the Setting Sun
 	56906,	-- Saboteur Kip'tilak
 	56589,	-- Striker Ga'dok
@@ -79,28 +79,11 @@ local CELESTIAL_BOSSES = {
 	56439,	-- Sha of Doubt
 }
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE, {
-	n(CELESTIAL, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_0 } }, {
+	n(CELESTIAL_DUNGEON_DIFFICULTY, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_0 } }, {
 		["lvl"] = 90,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				ach(60901, {	-- Pandaria Celestial Hero
-					-- Wouter TODO: verify if Crane is received from achievement or bags
-					-- ["groups"] = {
-					-- 	i(248741),	-- Reins of the Celestial Riding Crane
-					-- },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						60896,	-- Celestial: Gate of the Setting Sun
-						60894,	-- Celestial: Mogu'shan Palace
-						60897,	-- Celestial: Scarlet Halls
-						60898,	-- Celestial: Scarlet Monastery
-						60899,	-- Celestial: Scholomance
-						60895,	-- Celestial: Shado-Pan Monastery
-						60900,	-- Celestial: Siege of Niuzao Temple
-						60893,	-- Celestial: Stormstout Brewery
-						60892,	-- Celestial: Temple of the Jade Serpent
-					}},
-				}),
+				ach(60901),	-- Pandaria Celestial Hero (automated)
 			}),
 			n(QUESTS, {
 				q(91701, {	-- A Celestial Challenge: Darkmaster Gandling
@@ -160,13 +143,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 			}),
 			n(REWARDS, {
 				currency(AUGUST_STONE_FRAGMENT, {
-					-- Wouter TODO: check Celestial buff on mobs
-					-- ["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
-					-- 	1	-- Placeholder [Celestial buff]
-					-- ),
+					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 					["description"] = "Two August Stone Fragments drop per boss in Celestial and the final boss of each dungeon will drop an extra three August Stone Fragments if players have defeated all of the other bosses in the dungeon.",
-					["maps"] = CELESTIAL_MAPS,
-					["crs"] = CELESTIAL_BOSSES,
+					["maps"] = CELESTIAL_DUNGEON_MAPS,
+					["crs"] = CELESTIAL_DUNGEON_BOSSES,
+				}),
+				-- CRIEVE NOTE: We assume these sigils are last boss drops, but they may be specific.
+				-- Obtained from: Gate of the Setting Sun
+				i(87208, {	-- Sigil of Power
+					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
+					["maps"] = CELESTIAL_DUNGEON_MAPS,
+					["crs"] = CELESTIAL_DUNGEON_BOSSES,
+				}),
+				-- Obtained from: Scholomance
+				i(87209, {	-- Sigil of Wisdom
+					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
+					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
+					["maps"] = CELESTIAL_DUNGEON_MAPS,
+					["crs"] = CELESTIAL_DUNGEON_BOSSES,
 				}),
 			}),
 			n(VENDORS, {
@@ -180,21 +175,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["groups"] = {
 						-- Wouter TODO: verify origins for mounts, Crane specifically was previously mentioned to be a reward from the Celestial Dungeon Hero achievement,
 						-- but it's not listed as a reward in-game
-						-- filter(MOUNTS, {
-						-- 	["providers"] = {
-						-- 		{ "i", 248666 },	-- Satchel of Celestial Chance
-						-- 	},
-						-- 	["groups"] = {
-						-- 		i(248741),	-- Reins of the Celestial Riding Crane
-						-- 		i(248744),	-- Reins of the Celestial Riding Ox
-						-- 		i(248743),	-- Reins of the Celestial Riding Serpent
-						-- 		i(248742),	-- Reins of the Celestial Riding Tiger
-						-- 	},
-						-- }),
+						filter(MOUNTS, {
+							["provider"] = { "i", 248666 },	-- Satchel of Celestial Chance
+							["groups"] = {
+								-- Confirmed
+								
+								-- Unconfirmed (but speculated)
+								--i(248741),	-- Reins of the Celestial Riding Crane
+								--i(248744),	-- Reins of the Celestial Riding Ox
+								--i(248743),	-- Reins of the Celestial Riding Serpent
+								--i(248742),	-- Reins of the Celestial Riding Tiger
+							},
+						}),
 
 						-- Bags
 						-- Wouter TODO: verify frag costs and check what's in them
-						--frags(15, i(248666)),	-- Satchel of Celestial Chance (Mount Bag)
+						frags(10, i(248666)),	-- Satchel of Celestial Chance (Mount Bag)
 						--frags(10, i(248329)),	-- Satchel of Stone Fragments
 
 						-- Tier Tokens
@@ -244,6 +240,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Off-hand
 						frags(15, i(89426)),	-- Fan of Fiery Winds
 						--frags(15, i(86829)),	-- Tornado-Summoning Censer (HoF)
+						--frags(25, i(86778)),	-- Steelskin, Qiang's Impervious Shield (CRIEVE NOTE: Doesn't show up for my DK)
 
 						-- Necks
 						frags(25, i(86754)),	-- Amulet of Seven Curses

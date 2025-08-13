@@ -1290,15 +1290,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 			})),
 			-- #if ANYCLASSIC
-			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
-				-- Wouter TODO: fix
-				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DUNGEON_DIFFICULTY, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(674, {	-- High Inquisitor Whitemane
 						["creatureID"] = 3977,	-- High Inquisitor Whitemane
 						["groups"] = {
 							ach(60898),	-- Celestial: Scarlet Monastery
+							i(86754),	-- Amulet of Seven Curses
 						},
 					}),
 				},

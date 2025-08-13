@@ -428,15 +428,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 			})),
 			-- #if ANYCLASSIC
-			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
-				-- Wouter TODO: fix
-				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DUNGEON_DIFFICULTY, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(335, {	-- Sha of Doubt
 						["creatureID"] = 56439,	-- Sha of Doubt
 						["groups"] = {
 							ach(60892),	-- Celestial: Temple of the Jade Serpent
+							i(86759),	-- Soulgrasp Choker
+							i(86791),	-- Bottle of Infinite Stars
 						},
 					}),
 				},

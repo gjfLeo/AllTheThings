@@ -412,15 +412,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				}),
 			})),
 			-- #if ANYCLASSIC
-			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
-				-- Wouter TODO: fix
-				--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+			applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DUNGEON_DIFFICULTY, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 				["timeline"] = { ADDED_5_5_0 },
 				["groups"] = {
 					e(649, {	-- Raigonn
 						["creatureID"] = 56877,	-- Raigonn
 						["groups"] = {
 							ach(60896),	-- Celestial: Gate of the Setting Sun
+							i(86778),	-- Steelskin, Qiang's Impervious Shield
+							i(89971),	-- Mindshard Drape
 						},
 					}),
 				},

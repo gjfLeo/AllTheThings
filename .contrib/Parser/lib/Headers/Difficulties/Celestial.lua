@@ -1,4 +1,4 @@
-CELESTIAL = createHeader({
+CELESTIAL_DUNGEON_DIFFICULTY = createHeader({
 	readable = "Celestial Dungeons",
 	icon = 840010,
 	text = {

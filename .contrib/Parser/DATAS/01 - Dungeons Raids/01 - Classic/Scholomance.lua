@@ -2489,15 +2489,15 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDown
 
 -- #if ANYCLASSIC
 -- #if AFTER MOP
-table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL, {
-		-- Wouter TODO: fix
-		--["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(),
+table.insert(SCHOLOMANCE_GROUPS, applyclassicphase(MOP_PHASE_ONE, n(CELESTIAL_DUNGEON_DIFFICULTY, {
+		["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 		["timeline"] = { ADDED_5_5_0 },
 		["groups"] = {
 			e(684, {	-- Darkmaster Gandling
 				["creatureID"] = 59080,	-- Darkmaster Gandling
 				["groups"] = {
 					ach(60899),	-- Celestial: Scholomance
+					i(86782),	-- Arrow Breaking Windcloak
 				},
 			}),
 		},
