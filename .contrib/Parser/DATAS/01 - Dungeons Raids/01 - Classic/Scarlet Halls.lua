@@ -288,6 +288,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["creatureID"] = 59150,	-- Flameweaver Koegler
 						["groups"] = {
 							ach(60897),	-- Celestial: Scarlet Halls
+							i(86778),	-- Steelskin, Qiang's Impervious Shield
 						},
 					}),
 				},
