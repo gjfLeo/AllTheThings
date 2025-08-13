@@ -179,6 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							["provider"] = { "i", 248666 },	-- Satchel of Celestial Chance
 							["groups"] = {
 								-- Confirmed
+								i(87771),	-- Heavenly Onyx Cloud Serpent (MOUNT!)
 								
 								-- Unconfirmed (but speculated)
 								--i(248741),	-- Reins of the Celestial Riding Crane
