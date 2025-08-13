@@ -421,7 +421,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60896),	-- Celestial: Gate of the Setting Sun
 							i(86799),	-- Starshatter
-							i(85996),	-- Eye of the Ancient Spirit
+							i(86764),	-- Eye of the Ancient Spirit
 							i(86778),	-- Steelskin, Qiang's Impervious Shield
 							i(89971),	-- Mindshard Drape
 						},
