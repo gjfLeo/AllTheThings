@@ -578,6 +578,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					i(246565),	-- Cosmic Hearthstone (TOY!)
 					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
 				}),
+				n(QUESTS, {
+					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
+						["name"] = "Stay awhile and listen: Alleria Windrunnner",
+						["description"] = "After defeating Dimensius",
+						["provider"] = { "n", 242456 },	-- Alleria Windrunnner
+					}),
+				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
 				ZoneDrops({}),
