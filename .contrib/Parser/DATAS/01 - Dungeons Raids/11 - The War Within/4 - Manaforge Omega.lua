@@ -777,16 +777,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 -- FRACTILLUS
 -- SALHADAAR
 -- DIMENSIUS
-		-- LFR
-		q(90977, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
-		q(91010, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
-		q(91021, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
-
-		-- Normal
-
-		-- Heroic
-
-		-- Mythic
 
 		-- All
 		q(91011, name(HEADERS.Encounter, PLEXUS)),	-- Sentinel Plexus
@@ -798,15 +788,31 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(91016, name(HEADERS.Encounter, SALHADAAR)),	-- Loomithar
 		q(91017, name(HEADERS.Encounter, DIMENSIUS)),	-- Dimensius
 
+		-- LFR
 
+		-- Normal
+		-- one of these might be LFR only?
+		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(91010, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(91021, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90982, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
 		q(91019, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
-
 		q(90990, name(HEADERS.NPC, 245617)),	-- The Bone Melter
 		q(91020, name(HEADERS.NPC, 245617)),	-- The Bone Melter
-
 		q(90986, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 		q(91018, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+
+		-- Heroic
+		q(90979, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+
+		-- q(??, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+
+		-- q(??, name(HEADERS.NPC, 245617)),	-- The Bone Melter
+
+		-- q(??, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+
+		-- Mythic
+
 
 	})),
 }));
