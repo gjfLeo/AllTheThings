@@ -223,7 +223,6 @@ root(ROOTS.Unsorted, {
 			}),
 			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
 				i(238029),	-- 11.2 Raid - Cloth - Waist
-				i(238036),	-- Entropy
 				--[[
 				n(CLASSES, {
 					-- Save Tier Sets if Darkal Needs them

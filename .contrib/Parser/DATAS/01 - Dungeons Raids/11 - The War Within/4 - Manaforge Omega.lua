@@ -252,6 +252,7 @@ local EncounterToLoot = {
 local ZoneDropLoot = {
 	i(238032),	-- Acolyte's Infused Leggings
 	i(238028),	-- Bone-Melted Faceplate
+	i(238036),	-- Entropy
 	i(238027),	-- Harvested Creephide Cord
 	i(238034),	-- Jak'tull's Intruder Stompers
 	i(243048),	-- Technomancer's Service Sandals
