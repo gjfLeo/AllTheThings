@@ -665,13 +665,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				n(QUESTS, {
 					i(246445),	-- Royal Voidwing (MOUNT!)
 				}),
-				Boss(PLEXUS),
-				Boss(LOOMITHAR),
-				Boss(NAAZINDHRI),
-				Boss(ARAZ),
-				Boss(HUNTERS),
-				Boss(FRACTILLUS),
-				Boss(SALHADAAR),
+				BossOnly(PLEXUS),
+				BossOnly(LOOMITHAR),
+				BossOnly(NAAZINDHRI),
+				BossOnly(ARAZ),
+				BossOnly(HUNTERS),
+				BossOnly(FRACTILLUS),
+				BossOnly(SALHADAAR),
 				BossOnly(DIMENSIUS, {
 					ach(41624, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 }}),	-- Ahead of the Curve: Dimensius, the All-Devouring
 				}),
@@ -805,7 +805,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		-- Heroic
 		q(90979, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 
-		-- q(??, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+		q(90983, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
 
 		-- q(??, name(HEADERS.NPC, 245617)),	-- The Bone Melter
 
