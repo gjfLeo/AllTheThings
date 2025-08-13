@@ -387,6 +387,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["creatureID"] = 59479,	-- Yan-Zhu the Uncasked
 						["groups"] = {
 							ach(60893),	-- Celestial: Stormstout Brewery
+							i(86741),	-- Dagger of the Seven Stars
 							i(86776),	-- Amulet of the Hidden Kings
 							i(86767),	-- Circuit of the Frail Soul
 						},
