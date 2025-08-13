@@ -208,22 +208,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							i(87791),	-- Crimson Water Strider (MOUNT!)
 							i(87771),	-- Heavenly Onyx Cloud Serpent (MOUNT!)
 							i(87784),	-- Jungle Riding Crane (MOUNT!)
+							i(87792),	-- Orange Water Strider (MOUNT!)
 							i(84753),	-- White Riding Yak (MOP) / Kafa Yak (Retail) (MOUNT!)
-							
+
 							-- Unconfirmed (but speculated)
 							-- CRIEVE NOTE: I don't know who made this list, but half of them are from content that gets added later. I highly doubt they'd make them drop before they're supposed to.
 							--i(248741),	-- Celestial Riding Crane (MOUNT!)
 							--i(87793),	-- Jade Water Strider (MOUNT!)
-							--i(87792),	-- Orange Water Strider (MOUNT!)
 							-- i(87776),	-- Heavenly Azure Cloud Serpent (MOUNT!)
 							--i(87774),	-- Heavenly Golden Cloud Serpent (MOUNT!)
 							--i(87775),	-- Heavenly Jade Cloud Serpent (MOUNT!)
 							--i(95057),	-- Thundering Cobalt Cloud Serpent (MOUNT!)
 							-- i(94228),	-- Cobalt Primordial Direhorn (MOUNT!)
-							
+
 							-- Pets
 							i(89587),	-- Porcupette (PET!)
-							i(86564),	-- Imbued Jade Fragment
+							i(86564),	-- Imbued Jade Fragment (PET!)
+							i(88148),	-- Jade Crane Chick (PET!)
+							i(94595),	-- Spawn of G'nathus (PET!)
 						})),
 						--frags(10, i(248329)),	-- Satchel of Stone Fragments
 
@@ -274,7 +276,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						-- Off-hand
 						frags(15, i(89426)),	-- Fan of Fiery Winds
 						--frags(15, i(86829)),	-- Tornado-Summoning Censer (HoF)
-						
+
 						-- Shields
 						frags(15, i(86764)),	-- Eye of the Ancient Spirit
 						frags(15, i(86778)),	-- Steelskin, Qiang's Impervious Shield

@@ -380,7 +380,9 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 				-- ["displayID"] = ,
 			}),
 			-- Without SpeciesID Attached
+			-- #if NOT ANYCLASSIC
 			i(88148),	-- Jade Crane Chick (PET!) [Jade Crane Chick, item was never used]
+			-- #endif
 			--i(82800),	-- Pet Cage (PET!)
 		})),
 
