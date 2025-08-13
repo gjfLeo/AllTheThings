@@ -14,46 +14,55 @@ root(ROOTS.Zones, m(PANDARIA, {
 				["races"] = ALLIANCE_ONLY,
 			},{
 				q(32007, {	-- A Worthy Challenge: Darkmaster Gandling
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32005, {	-- A Worthy Challenge: Durand
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32006, {	-- A Worthy Challenge: Flameweaver Koegler
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32003, {	-- A Worthy Challenge: Raigonn
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31998, {	-- A Worthy Challenge: Sha of Doubt
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32001, {	-- A Worthy Challenge: Sha of Hatred
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32004, {	-- A Worthy Challenge: Wing Leader Ner'onok
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32002, {	-- A Worthy Challenge: Xin the Weaponmaster
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(32000, {	-- A Worthy Challenge: Yan-zhu the Uncasked
+					["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures

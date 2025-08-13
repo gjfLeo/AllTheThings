@@ -105,62 +105,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 			n(ACHIEVEMENTS, {
 				ach(60901),	-- Pandaria Celestial Hero (automated)
 			}),
-			n(QUESTS, {
-				q(91701, {	-- A Celestial Challenge: Darkmaster Gandling
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91706, {	-- A Celestial Challenge: Durand
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91703, {	-- A Celestial Challenge: Flameweaver Koegler
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91710, {	-- A Celestial Challenge: Raigonn
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91717, {	-- A Celestial Challenge: Sha of Doubt
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91713, {	-- A Celestial Challenge: Sha of Hatred
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91708, {	-- A Celestial Challenge: Wing Leader Ner'onok
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91712, {	-- A Celestial Challenge: Xin the Weaponmaster
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-				q(91716, {	-- A Celestial Challenge: Yan-zhu the Uncasked
-					["isDaily"] = true,
-					["groups"] = {
-						currency(3350),	-- August Stone Fragment
-					},
-				}),
-			}),
+			n(QUESTS, sharedData({
+				["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
+				["isDaily"] = true,
+				["groups"] = {
+					currency(3350),	-- August Stone Fragment
+				},
+			}, {
+				q(91701),	-- A Celestial Challenge: Darkmaster Gandling
+				q(91706),	-- A Celestial Challenge: Durand
+				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
+				q(91710),	-- A Celestial Challenge: Raigonn
+				q(91717),	-- A Celestial Challenge: Sha of Doubt
+				q(91713),	-- A Celestial Challenge: Sha of Hatred
+				q(91708),	-- A Celestial Challenge: Wing Leader Ner'onok
+				q(91712),	-- A Celestial Challenge: Xin the Weaponmaster
+				q(91716),	-- A Celestial Challenge: Yan-zhu the Uncasked
+			})),
 			n(REWARDS, {
 				currency(AUGUST_STONE_FRAGMENT, {
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
