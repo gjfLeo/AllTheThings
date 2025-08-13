@@ -15,46 +15,55 @@ root(ROOTS.Zones, m(PANDARIA, {
 			},{
 				-- q(31511),	-- A Witness to History
 				q(31528, {	-- A Worthy Challenge: Darkmaster Gandling
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31526, {	-- A Worthy Challenge: Durand
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31527, {	-- A Worthy Challenge: Flameweaver Koegler
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31524, {	-- A Worthy Challenge: Raigonn
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31520, {	-- A Worthy Challenge: Sha of Doubt
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31522, {	-- A Worthy Challenge: Sha of Hatred
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31525, {	-- A Worthy Challenge: Wing Leader Ner'onok
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31523, {	-- A Worthy Challenge: Xin the Weaponmaster
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures
 				}),
 				q(31519, {	-- A Worthy Challenge: Yan-zhu the Uncasked
+					["qg"] = 63994,	-- Challenger Wuli <Challenge Dungeons>
 					["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					["isDaily"] = true,
 					["_drop"] = { "g" },	-- drop Heroic Cache of Treasures

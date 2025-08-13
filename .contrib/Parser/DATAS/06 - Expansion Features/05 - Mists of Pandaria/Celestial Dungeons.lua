@@ -106,7 +106,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				ach(60901),	-- Pandaria Celestial Hero (automated)
 			}),
 			n(QUESTS, sharedData({
-				["qg"] = 64028,	-- Challenger Soong <Challenge Dungeons>
+				["providers"] = {
+					{ "n", 64028 },	-- Challenger Soong <Challenge Dungeons> (Alliance)
+					{ "n", 63994 },	-- Challenger Wuli <Challenge Dungeons> (Horde)
+				},
 				["isDaily"] = true,
 				["groups"] = {
 					currency(3350),	-- August Stone Fragment
