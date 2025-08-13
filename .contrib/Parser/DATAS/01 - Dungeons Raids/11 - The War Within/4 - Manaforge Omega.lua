@@ -400,6 +400,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					{		-- RENOWN 1 --
 						q(92031, { ["timeline"] = { ADDED_11_2_0 } }),	--Meet the Vandals
 					}, {	-- RENOWN 2 --
+						q(91525, { ["timeline"] = { ADDED_11_2_0 } }),	-- Head Hunting: Loom'ithar
 					}, {	-- RENOWN 3 --
 					}, {	-- RENOWN 4 --
 					}, {	-- RENOWN 5 --
@@ -760,7 +761,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 						q(92033, {	-- Triggered with Meet the Vandals (92031)
 							["timeline"] = { ADDED_11_2_0 },
 						}),
-						q(91525),	-- Renown 2
 					}),
 				}),
 			}),
