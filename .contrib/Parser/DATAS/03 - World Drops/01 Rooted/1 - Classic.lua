@@ -3927,17 +3927,22 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(7091),	-- Pattern: Truefaith Gloves (RECIPE!)
 			i(10301),	-- Pattern: White Bandit Mask (RECIPE!)
 		}),
-		-- #if BEFORE 4.0.1
 		cl(DRUID, {
 			{
 				["itemID"] = 17682,		-- Book: Gift of the Wild
 				["spellID"] = 21849,	-- Gift of the Wild
 				["rank"] = 1,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			},
 			{
 				["itemID"] = 17683,		-- Book: Gift of the Wild II
 				["spellID"] = 21850,	-- Gift of the Wild II
 				["rank"] = 2,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			},
 		}),
 		cl(MAGE, {
@@ -3945,11 +3950,17 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				["itemID"] = 18600,		-- Tome of Arcane Brilliance
 				["spellID"] = 23028,	-- Arcane Brilliance
 				["rank"] = 1,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			},
 			applyclassicphase(PHASE_SIX_CLASS_BOOKS, {
 				["itemID"] = 22890,		-- Tome of Frost Ward V [Phase 6]
 				["spellID"] = 28609,	-- Frost Ward V
 				["rank"] = 5,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			}),
 		}),
 		cl(PRIEST, {
@@ -3957,16 +3968,25 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				["itemID"] = 17413,		-- Codex: Prayer of Fortitude
 				["spellID"] = 21562,	-- Prayer of Fortitude
 				["rank"] = 1,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			},
 			{
 				["itemID"] = 17414,		-- Codex: Prayer of Fortitude II
 				["spellID"] = 21564,	-- Prayer of Fortitude II
 				["rank"] = 2,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			},
 			applyclassicphase(PHASE_FIVE_RECIPES, {
 				["itemID"] = 22393,		-- Codex: Prayer of Shadow Protection [Phase 5]
 				["spellID"] = 27683,	-- Prayer of Shadow Protection
 				["rank"] = 1,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			}),
 		}),
 		cl(WARLOCK, {
@@ -3974,9 +3994,11 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				["itemID"] = 22891,		-- Grimoire of Shadow Ward IV [Phase 6]
 				["spellID"] = 28610,	-- Shadow Ward IV
 				["rank"] = 4,
+				-- #if AFTER CATA
+				["collectible"] = false,
+				-- #endif
 			}),
 		}),
-		-- #endif
 	}),
 	filter(REAGENTS, {
 		-- Table of Content:
