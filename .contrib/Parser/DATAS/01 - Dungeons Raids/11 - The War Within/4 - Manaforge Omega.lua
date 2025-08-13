@@ -20,7 +20,7 @@ local EncounterToCRS = {
 	},
 	[LOOMITHAR] = { 233815 },	-- Loom'ithar
 	[NAAZINDHRI] = { 233816 },	-- Soulbinder Naazindhri
-	[ARAZ] = { 247989 },	-- Forgeweaver Araz
+	[ARAZ] = { 233817, 247989 },	-- Forgeweaver Araz
 	[HUNTERS] = {
 		237661,	-- Adarus Duskblaze
 		237662,	-- Ilyssa Darksorrow
