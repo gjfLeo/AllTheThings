@@ -753,6 +753,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 						q(92033, {	-- Triggered with Meet the Vandals (92031)
 							["timeline"] = { ADDED_11_2_0 },
 						}),
+						q(91525),	-- Renown 2
 					}),
 				}),
 			}),
@@ -761,8 +762,19 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	inst(1302, bubbleDown({	-- Manaforge Omega
 		["isWeekly"] = true,
 	},{
+-- PLEXUS
+-- LOOMITHAR
+-- NAAZINDHRI
+-- ARAZ
+-- HUNTERS
+-- FRACTILLUS
+-- SALHADAAR
+-- DIMENSIUS
 		-- LFR
-		q(91011),	-- Soulbinder Naazindhr
+		q(90977, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
+		q(91010, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
+		q(91021, name(HEADERS.NPC, LOOMITHAR)),	-- (Trash Mob after Sentinel)
+
 		-- Normal
 
 		-- Heroic
@@ -770,5 +782,24 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		-- Mythic
 
 		-- All
+		q(91011, name(HEADERS.Encounter, PLEXUS)),	-- Sentinel Plexus
+		q(91012, name(HEADERS.Encounter, LOOMITHAR)),	-- Loomithar
+		q(91011, name(HEADERS.Encounter, NAAZINDHRI)),	-- Soulbinder Naazindhr
+		q(91013, name(HEADERS.Encounter, ARAZ)),	-- Forgeweaver Araz
+		q(91014, name(HEADERS.Encounter, HUNTERS)),	-- The Soul Hunters
+		q(91015, name(HEADERS.Encounter, FRACTILLUS)),	-- Fractillus
+		q(91016, name(HEADERS.Encounter, SALHADAAR)),	-- Loomithar
+		q(91017, name(HEADERS.Encounter, DIMENSIUS)),	-- Dimensius
+
+
+		q(90982, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+		q(91019, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+
+		q(90990, name(HEADERS.NPC, 245617)),	-- The Bone Melter
+		q(91020, name(HEADERS.NPC, 245617)),	-- The Bone Melter
+
+		q(90986, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+		q(91018, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+
 	})),
 }));
