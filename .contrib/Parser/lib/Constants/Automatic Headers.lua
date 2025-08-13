@@ -4,6 +4,7 @@ HEADERS = {
 	Class = "c",
 	Currency = "cu",
 	Faction = "fa",
+	Encounter = "en",
 	Exploration = "e",
 	Global = "_G",
 	Item = "i",
