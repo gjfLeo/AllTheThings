@@ -512,6 +512,7 @@ i(169961);	-- Crumbling Mineral Formation
 i(170014);	-- Crumbling Rock
 i(169880);	-- Decayed Isotopes
 i(169124);	-- Decorational Whirlycog
+i(169976);	-- Disintegrating Leaf
 i(170097);	-- Discarded Quel'dorei Tome
 i(169149);	-- Dulled Micro-Serrated Incisor
 i(170005);	-- Fractured Pearl
@@ -519,6 +520,7 @@ i(169138);	-- Fractured Personality Module
 i(169962);	-- Frayed Fetish
 i(169123);	-- Functional Fiddleswitch
 i(170013);	-- Inanimate Rock
+i(169988);	-- Inert Mineral Dust
 i(169129);	-- Lovingly Worn Wrench
 i(238810);	-- Mana-Blessed Fin
 i(170031);	-- Moldy Tome
@@ -2572,6 +2574,7 @@ i(238886);	-- Faintly Glowing Vellum
 i(238868);	-- Flickering Primeval Element
 i(238833);	-- Flowing Ridge Spikes
 i(238872);	-- Fragmented Fin
+i(238851);	-- Fractured Dragon Scale
 i(238799);	-- Harrowed Ichor
 i(238877);	-- Hollow Mandible
 i(238813);	-- Irridescent Eye
@@ -2598,6 +2601,7 @@ i(243018);	-- Petrified Twig of the Fennad
 i(250305);	-- Phase-Lost Detritus
 i(246301);	-- Pitted Blade of Lost Hope
 i(245674);	-- Rifle of Leaden Movement
+i(240933);	-- Satchel of Carved Undermine Crests
 i(238873);	-- Serrated Scale Shard
 i(243021);	-- Shadowguard Bonker
 i(238878);	-- Shadow-Touched Fang

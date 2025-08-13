@@ -113,6 +113,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240118),	-- Reshii Brute's Spear
+					i(240117),	-- Reshii Magi's Wand
+					i(240112),	-- Reshii Scout's Blade
 				},
 			}),
 			n(235422, {	-- Phase-Thief Tezra

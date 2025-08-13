@@ -762,7 +762,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		["isWeekly"] = true,
 	},{
 		-- LFR
-
+		q(91011),	-- Soulbinder Naazindhr
 		-- Normal
 
 		-- Heroic

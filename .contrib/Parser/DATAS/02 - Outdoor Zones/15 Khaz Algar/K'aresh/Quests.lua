@@ -624,7 +624,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 44.2, 18.5, KARESH },
 					}),
 					------ Stay awhile and listen ------
-					hqt(90614, {	-- Stay awhile and listen: Locus-Walker - no questID
+					hqt(90614, {	-- Stay awhile and listen: Locus-Walker
 						["name"] = "Stay awhile and listen: Locus-Walker",
 						["description"] = "Dialogue becomes available after you accept 'That's a Wrap' (85037).",
 						["sourceQuests"] = { 84906 },	-- Nexus Regicide

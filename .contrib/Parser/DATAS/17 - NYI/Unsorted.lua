@@ -383,12 +383,10 @@ root(ROOTS.Unsorted, {
 				--]]
 			}),
 			filter(MISC, {
-				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
 				i(238879),	-- Cracked Void Carapace
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
-				i(239129),	-- Questionable Tentacle
 				i(241220),	-- Loose Parts
 				i(242380),	-- Black Blood Blower
 				i(243152),	-- NEW ITem
@@ -418,8 +416,6 @@ root(ROOTS.Unsorted, {
 				i(244354),	-- Ethereal Equipment Chest
 				-- Delve
 				i(248142),	-- Delver's Bounty
-				-- Curios
-				i(239580),	-- Nether Overlay Matrix
 
 				-- Valorstone
 				i(239594),	-- Crimson Valorstone
@@ -434,7 +430,6 @@ root(ROOTS.Unsorted, {
 				-- Crests
 				i(240929),	-- Glorious Cluster of Gilded Ethereal Crests
 				i(240932),	-- Pack of Runed Undermine Crests
-				i(240933),	-- Satchel of Carved Undermine Crests
 				i(240934),	-- Pouch of Weathered Undermine Crests
 				i(240935),	-- Glorious Cluster of Gilded Undermine Crests
 				i(240937),	-- Celebratory Pack of Runed Undermine Crests
@@ -2917,7 +2912,6 @@ root(ROOTS.Unsorted, {
 			i(169985),	-- Fading Dragonscale
 			i(169986),	-- Cracked Dragonscale
 			i(169987),	-- Inert Dragonscale
-			i(169988),	-- Inert Mineral Dust
 			i(170000),	-- Battered Bastion
 			i(170001),	-- Seized Engine
 			i(170002),	-- Split Differential
@@ -3022,7 +3016,6 @@ root(ROOTS.Unsorted, {
 			i(169781),	-- Overwhelmingly-Alluring Idol
 			i(169782),	-- Beckoner's Rosetta Stone
 			i(170156),	-- Wavebeaten Armor Kit
-			i(169976),	-- Disintegrating Leaf \\ Touch of the Everlasting Empty Item
 			i(169977),	-- Crumbling Bark \\ Touch of the Everlasting Empty Item
 			i(169978),	-- Cracked Branch \\ Touch of the Everlasting Empty Item
 			i(169979),	-- Shriveled Roots \\ Touch of the Everlasting Empty Item

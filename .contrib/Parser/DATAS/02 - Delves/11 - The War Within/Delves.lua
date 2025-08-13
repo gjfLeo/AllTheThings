@@ -1375,6 +1375,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 								i(219382),	-- Fateweaved Needle
 							},
 						}),
+						i(218125),	-- Reactive Webbed Escutcheon
 						i(238005),	-- Void-Steeped Falchion
 					})),
 				}),
@@ -2123,9 +2124,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				}),
 				o(564545, {	-- Brann's Repossessed Gear
 					["coord"] = { 47.1, 19.9, KARESH_TAZAVESH },
-					["groups"] = {
-						i(248129),	-- Brann's Repossessed Gear (QI!)
-					},
+					["groups"] = { i(248129) },	-- Brann's Repossessed Gear (QI!)
 				}),
 				--
 				i(238051),	-- Delver's Mana-Skimmer (MOUNT!)
@@ -3210,6 +3209,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				o(500582, {	-- Crate of Somewhat Profitable Sludge
 					i(233007),	-- Crate of Somewhat Profitable Sludge
 				}),
+				i(239129, { ["timeline"] = { ADDED_11_2_0 } }),	-- Questionable Tentacle
 			}),
 		},
 	})),
