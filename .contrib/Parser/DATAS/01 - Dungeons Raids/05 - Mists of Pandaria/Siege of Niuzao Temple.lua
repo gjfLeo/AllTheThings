@@ -454,6 +454,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["creatureID"] = 62205,	-- Wing Leader Ner'onok
 						["groups"] = {
 							ach(60900),	-- Celestial: Siege of Niuzao Temple
+							i(86806),	-- Tihan, Scepter of the Sleeping Emperor
 							i(89972),	-- Band of Bursting Novas
 						},
 					}),
