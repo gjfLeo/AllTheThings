@@ -656,6 +656,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				Boss(FRACTILLUS),
 				Boss(SALHADAAR),
 				Boss(DIMENSIUS, {
+					i(234273),	-- A Dimmed Crystal (QS!)
 					i(237602, {	-- Hungering Void Curio
 						["sym"] = {{"sub","instance_tier",1302,DIFFICULTY.RAID.NORMAL}},
 						["up"] = IGNORED_VALUE,
@@ -664,7 +665,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.HEROIC_PLUS).AddGroups({
 				n(QUESTS, {
-					i(246445),	-- Royal Voidwing (MOUNT!)
+					q(91413, {	-- A Twilight Oath's End
+						["provider"] = { "i", 246446 },	-- Mark of the Twilight Oath
+						["groups"] = { i(246445) },	-- Royal Voidwing (MOUNT!)
+					}),
 				}),
 				BossOnly(PLEXUS),
 				BossOnly(LOOMITHAR),
@@ -674,7 +678,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				BossOnly(FRACTILLUS),
 				BossOnly(SALHADAAR),
 				BossOnly(DIMENSIUS, {
-					ach(41624, {["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 }}),	-- Ahead of the Curve: Dimensius, the All-Devouring
+					i(246446, { ["timeline"] = { REMOVED_12_0_0 } }),	-- Mark of the Twilight Oath (QS!)
+					ach(41624, { ["timeline"] = { REMOVED_12_0_0 } }),	-- Ahead of the Curve: Dimensius, the All-Devouring
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroupsWithUpgrades({
@@ -794,6 +799,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		-- Normal
 		-- one of these might be LFR only?
 		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(90978, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(91010, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(91021, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90982, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth

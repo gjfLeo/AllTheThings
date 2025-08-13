@@ -1971,7 +1971,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		}),
 		q(90779, {	-- Cracked Keystone
 			["provider"] = { "i", 242919 },	-- Cracked Keystone
-			["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_5 },
 		}),
 		-- Season 2 - Overload stuff
 		q(90968, {	-- Titanic Rumblings

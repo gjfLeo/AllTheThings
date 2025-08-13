@@ -593,7 +593,6 @@ root(ROOTS.Unsorted, {
 				i(246042),	-- Pretzel
 				i(246044),	-- Bag of Brewfest Ingredients
 				i(246052),	-- Barley Soup
-				i(246446),	-- Mark of the Twilight Oath
 				i(246592),	-- Shadowguard Credentials
 				i(246593),	-- Shadowguard Credentials
 			}),

@@ -54,9 +54,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(67143, {	-- To Give One's Heart
-				["sourceQuests"] = { 67100 },	-- A Gift for Miguel
-				["provider"] = { "n", 192574 },	-- Thomas Bright
+				["sourceQuest"] = 67100,	-- A Gift for Miguel
+				["qg"] = 192574,	-- Thomas Bright
 				["coords"] = {
+					{ 39.5, 70.0, VALDRAKKEN },
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
@@ -122,8 +123,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			}),
 			q(67295, {	-- That's My Specialty
 				-- ["sourceQuests"] = { 70126 },	-- A Finishing Touch
-				["provider"] = { "n", 192539 },	-- Miguel Bright
+				["qg"] = 192539,	-- Miguel Bright
 				["coords"] = {
+					{ 39.3, 70.0, VALDRAKKEN },
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
@@ -132,9 +134,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(67298, {	-- The Wonders of the World
-				["sourceQuests"] = { 67295 },	-- That's My Specialty
-				["provider"] = { "n", 192539 },	-- Miguel Bright
+				["sourceQuest"] = 67295,	-- That's My Specialty
+				["qg"] = 192539,	-- Miguel Bright
 				["coords"] = {
+					{ 39.5, 70.0, VALDRAKKEN },
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},
@@ -144,9 +147,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(69946, {	-- The Master of Their Craft
-				["sourceQuests"] = { 67298 },	-- The Wonders of the World
-				["provider"] = { "n", 192539 },	-- Miguel Bright
+				["sourceQuest"] = 67298,	-- The Wonders of the World
+				["qg"] = 192574,	-- Thomas Bright <Artisan's Consortium>
 				["coords"] = {
+					{ 39.3, 70.0, VALDRAKKEN },
 					{ 60.2, 72.2, THE_WAKING_SHORES },
 					{ 71.7, 81.2, OHNAHRAN_PLAINS },
 				},

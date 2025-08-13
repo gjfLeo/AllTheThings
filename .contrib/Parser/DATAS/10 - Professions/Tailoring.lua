@@ -1192,14 +1192,22 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 					i(210462),	-- Plush Pillow
 				},
 			})),
+			o(380599, {	-- Catnip Frond
+				["coords"] = {
+					{ 65.2, 52.2, OHNAHRAN_PLAINS },
+					{ 65.7, 53.9, OHNAHRAN_PLAINS },
+					{ 65.9, 52.7, OHNAHRAN_PLAINS },
+					{ 66.5, 53.4, OHNAHRAN_PLAINS },
+				},
+				["groups"] = { i(198688) },	-- Catnip Leaf
+			}),
 			o(380608, {	-- Silky Surprise
 				["description"] = "Interact with the Catnip Frond, gather 5 Catnip Leaves and throw them at the Playful Prowler. Then the treasure will appear.",
 				["questID"] = 70303,
 				["coord"] = { 66.1, 52.9, OHNAHRAN_PLAINS },
 				["crs"] = { 194873 },	-- Playful Prowler
-				["groups"] = {
-					i(201020),	-- Silky Surprise
-				},
+				["cost"] = { { "i", 198688, 5 }, },	-- 5x Catnip Leaf
+				["groups"] = { i(201020) },	-- Silky Surprise
 			}),
 			o(411177, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Snuggle Buddy
 				["coord"] = { 40.7, 86.1, EMERALD_DREAM },

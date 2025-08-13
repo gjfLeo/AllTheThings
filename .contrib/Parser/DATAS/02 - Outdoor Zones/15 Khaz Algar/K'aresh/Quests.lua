@@ -640,10 +640,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = {
 							i(231769),	-- Enchanted Runed Ethereal Crest
 							i(236954),	-- Void-Touched Valorstone
-							campsite(119),	-- The Fate of the Devoured (CS!)
 						},
 					}),
-					q(86458),	--
+					q(86456, {	-- An Elegy for a Silent World
+						["provider"] = { "i", 234273 },	-- A Dimmed Crystal
+					}),
+					q(86457, {	-- A Lullaby of Hope
+						["sourceQuest"] = 86456,	-- An Elegy for a Silent World
+						--["qg"] = ,
+						--["coord"] = ,
+					}),
+					q(86458, {	-- A Song for Our Future
+						["sourceQuest"] = 86457,	-- A Lullaby of Hope
+						["qg"] = 231820,	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["groups"] = { campsite(119) },	-- The Fate of the Devoured (CS!)
+					}),
 				})),
 				n(REWARDS, {
 					currency(3278),	-- Ethereal Strands
@@ -2570,6 +2582,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(92627, {	-- Triggered after unlocking Renown 3 of The K'aresh Trust, unlocks Warrants
 					["name"] = "An Arrested Development",
 				}),
+				q(92629),	-- Triggered after completing 'That's a Wrap' (85037)
 				-- ??
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807, { ["repeatable"] = true, } ),	-- Triggered at the completion of a main Warrant quest and obtaining the (QS!) item that starts "Eliminate" quest
@@ -2577,7 +2590,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91287, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 				q(91289, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
-				
+
 				q(87348, name(HEADERS.Item,236632)),	-- Triggered when 'Puch of Voidbane Gems' is bought from the vendor
 
 				q(90955, name(HEADERS.Spell,1249651)),	-- Boon of the Reshii (Reshii Wraps 1st upgrade)

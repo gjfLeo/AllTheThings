@@ -171,6 +171,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["groups"] = {
 						i(240172),	-- Depleted K'areshi Battery
 						i(240214),	-- Miniature Reshii Sandgarden
+						i(240213),	-- Veiling Mana Shroud
 					},
 				}),
 				n(232108, {	-- Morgil the Netherspawn

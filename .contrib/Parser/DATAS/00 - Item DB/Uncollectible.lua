@@ -1576,7 +1576,6 @@ i(191850);	-- Broken Severite Blade Tip
 i(201165);	-- Burnished Bauble
 i(200533);	-- Bygone Idol
 i(200834);	-- Can You Smell It?
-i(198688);	-- Catnip Leaf
 i(200821);	-- Celsius 232
 i(200769);	-- Ceramic Shards
 i(192686);	-- Charred Carapace

@@ -56,7 +56,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["questID"] = 90698,
 				["provider"] = { "o", 517436 },	-- Vignette
-				["groups"] = { i(239469) },	-- Reshii Skirmisher's Pauldrons
+				["groups"] = {
+					i(239478),	-- Reshii Brute's Greatbelt
+					i(239469),	-- Reshii Skirmisher's Pauldrons
+				},
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
 				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis. Their positions are marked on the minimap.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
@@ -149,10 +152,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
 					i(240118),	-- Reshii Brute's Spear
+					i(240113),	-- Reshii Magi's Dagger
+					i(240120),	-- Reshii Magi's Lantern
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe
 					i(240119),	-- Reshii Skirmisher's Staff
-					i(240120),	-- Reshii Magi's Lantern
 				},
 			}),
 			n(235104, {	-- The Wallbreaker
@@ -167,9 +171,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
+					i(240120),	-- Reshii Magi's Lantern
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe
-					i(240120),	-- Reshii Magi's Lantern
+					i(240114),	-- Reshii Skirmisher's Morningstar
 				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
