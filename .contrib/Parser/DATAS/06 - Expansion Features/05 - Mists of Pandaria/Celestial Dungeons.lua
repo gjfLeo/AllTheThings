@@ -255,9 +255,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						frags(15, i(89426)),	-- Fan of Fiery Winds
 						--frags(15, i(86829)),	-- Tornado-Summoning Censer (HoF)
 						
-						-- Shields (CRIEVE NOTE: These don't show up for my DK)
-						--frags(25, i(85996)),	-- Eye of the Ancient Spirit
-						--frags(25, i(86778)),	-- Steelskin, Qiang's Impervious Shield
+						-- Shields
+						frags(15, i(85996)),	-- Eye of the Ancient Spirit
+						frags(15, i(86778)),	-- Steelskin, Qiang's Impervious Shield
 
 						-- Necks
 						frags(25, i(86754)),	-- Amulet of Seven Curses
