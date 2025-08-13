@@ -78,6 +78,26 @@ local CELESTIAL_DUNGEON_BOSSES = {
 	56732,	-- Liu Flameheart
 	56439,	-- Sha of Doubt
 }
+local CELESTIAL_DUNGEON_LAST_BOSSES = {
+	-- Gate of the Setting Sun
+	56877,	-- Raigonn
+	-- Mogu'shan Palace
+	61398,	-- Xin the Weaponmaster
+	-- Scarlet Halls
+	59150,	-- Flameweaver Koegler
+	-- Scarlet Monastery
+	60040,	-- Commander Durand
+	-- Scholomance
+	59080,	-- Darkmaster Gandling
+	-- Shado-Pan Monastery
+	56884,	-- Taran Zhu
+	-- Siege of Niuzao Temple
+	62205,	-- Wing Leader Ner'onok
+	-- Stormstout Brewery
+	59479,	-- Yan-Zhu the Uncasked
+	-- Temple of the Jade Serpent
+	56439,	-- Sha of Doubt
+}
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE, {
 	n(CELESTIAL_DUNGEON_DIFFICULTY, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_0 } }, {
 		["lvl"] = 90,
@@ -154,14 +174,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
 					["maps"] = CELESTIAL_DUNGEON_MAPS,
-					["crs"] = CELESTIAL_DUNGEON_BOSSES,
+					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
 				}),
 				-- Obtained from: Scholomance
 				i(87209, {	-- Sigil of Wisdom
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(1243929),	-- Dominion of the Empress
 					["description"] = "This can drop from the last boss of any Celestial Dungeon.",
 					["maps"] = CELESTIAL_DUNGEON_MAPS,
-					["crs"] = CELESTIAL_DUNGEON_BOSSES,
+					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES,
 				}),
 			}),
 			n(VENDORS, {
