@@ -24,6 +24,7 @@ local EncounterToCRS = {
 	[HUNTERS] = {
 		237661,	-- Adarus Duskblaze
 		237662,	-- Ilyssa Darksorrow
+		237660,	-- Velaryn Bloodwrath
 		248404,	-- Velaryn Bloodwrath
 	},
 	[FRACTILLUS] = { 237861 },	-- Fractillus <The Shatterer>
