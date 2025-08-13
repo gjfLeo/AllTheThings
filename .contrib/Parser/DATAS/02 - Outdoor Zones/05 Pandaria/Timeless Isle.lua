@@ -2050,7 +2050,7 @@ root(ROOTS.Zones, {
 									["cost"] = { { "c", 777, 7500 } },	-- 7,500x Timeless Coin
 								}),
 							}, {	-- Exalted
-								i(87774, {	-- Reins of the Heavenly Golden Cloud Serpent (MOUNT!)
+								i(87774, {	-- Heavenly Golden Cloud Serpent (MOUNT!)
 									["cost"] = { { "c", 777, 100000 } },	-- 100,000x Timeless Coin
 								}),
 							},

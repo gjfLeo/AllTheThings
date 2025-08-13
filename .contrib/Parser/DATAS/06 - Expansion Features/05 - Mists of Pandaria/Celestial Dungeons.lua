@@ -178,14 +178,33 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						filter(MOUNTS, {
 							["provider"] = { "i", 248666 },	-- Satchel of Celestial Chance
 							["groups"] = {
+								-- MAAAOUNTS
 								-- Confirmed
+								i(87777),	-- Astral Cloud Serpent (MOUNT!)
+								i(87786),	-- Black Riding Yak (MOUNT!)
+								i(87787),	-- Brown Riding Yak (MOP) / Modest Expedition Yak (Retail) (MOUNT!)
+								i(248744),	-- Celestial Riding Ox (MOUNT!)
+								i(248743),	-- Celestial Riding Serpent (MOUNT!)
+								i(248742),	-- Celestial Riding Tiger (MOUNT!)
+								i(87791),	-- Crimson Water Strider (MOUNT!)
 								i(87771),	-- Heavenly Onyx Cloud Serpent (MOUNT!)
+								i(87784),	-- Jungle Riding Crane (MOUNT!)
+								i(84753),	-- White Riding Yak (MOP) / Kafa Yak (Retail) (MOUNT!)
 								
 								-- Unconfirmed (but speculated)
-								--i(248741),	-- Reins of the Celestial Riding Crane
-								--i(248744),	-- Reins of the Celestial Riding Ox
-								--i(248743),	-- Reins of the Celestial Riding Serpent
-								--i(248742),	-- Reins of the Celestial Riding Tiger
+								-- CRIEVE NOTE: I don't know who made this list, but half of them are from content that gets added later. I highly doubt they'd make them drop before they're supposed to.
+								--i(248741),	-- Celestial Riding Crane (MOUNT!)
+								--i(87793),	-- Jade Water Strider (MOUNT!)
+								--i(87792),	-- Orange Water Strider (MOUNT!)
+								-- i(87776),	-- Heavenly Azure Cloud Serpent (MOUNT!)
+								--i(87774),	-- Heavenly Golden Cloud Serpent (MOUNT!)
+								--i(87775),	-- Heavenly Jade Cloud Serpent (MOUNT!)
+								--i(95057),	-- Thundering Cobalt Cloud Serpent (MOUNT!)
+								-- i(94228),	-- Cobalt Primordial Direhorn (MOUNT!)
+								
+								-- Pets
+								i(89587),	-- Porcupette (PET!)
+								i(86564),	-- Imbued Jade Fragment
 							},
 						}),
 
