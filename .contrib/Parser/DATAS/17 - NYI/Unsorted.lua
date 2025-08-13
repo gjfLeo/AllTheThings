@@ -583,9 +583,7 @@ root(ROOTS.Unsorted, {
 				i(238906),	-- Appropriated Azerothian Camera
 				i(238907),	-- Anima Orb
 				i(238910),	-- Lasso
-				i(238913),	-- Condenser Disc
 				i(238914),	-- Hemet's Soothin' Flute
-				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
 				i(239566),	-- Arcane Runed Signet
 				i(241353),	-- Hydrobite
 				i(242547),	-- Cracked Keystone

@@ -1523,7 +1523,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 75.8, 33.9, KARESH },
 						["isDaily"] = true,
 					}),
-					q(89210),	--
+					q(89210, {	-- Photography is the Bee's Knees
+						["isDaily"] = true,
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
 					q(85462, {	-- A Challenge for Dominance
@@ -1532,6 +1534,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 					}),
 					q(85481, {	-- Ridge Racer
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
 					}),
 					q(85710, {	-- Sizing Them Up
 						["qg"] = 230736,	-- Om'talad
@@ -1559,9 +1564,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 						["groups"] = { i(238911) },	-- Pheromone Disperser (PQI!)
 					}),
-					q(85465),	--
-					q(85721),	--
-					q(89212),	--
+					q(89212, {	-- Royal Photographer
+						["isDaily"] = true,
+					}),
+					q(85465, {	--
+						["isDaily"] = true,
+					}),
+					q(85721, {	--
+						["isDaily"] = true,
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.04, {	-- Lil' Lapbugs
 					q(89221, {	--  Leafing Things on the Ground
@@ -1585,8 +1596,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = { i(229393) },	-- Lapbug Essence (QI!)
 					}),
 					q(85470, {	-- Root Redux
+						["isDaily"] = true,
 					}),
-					q(89254),	--
+					q(89254, {	-- Shutterbug
+						["qg"] = 231820,	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(238933) },	-- Appropriated S.E.L.F.I.E. Camera (PQI!)
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.05, {	-- Rays of Sunshine
 					q(89242, {	--  I Want a Golden Ooze!
@@ -1606,7 +1623,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["isDaily"] = true,
 						["groups"] = { i(238915) },	-- Anima Orb (PQI!)
 					}),
-					q(89197),	--
+					q(89197, {	--
+						["isDaily"] = true,
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.06, {	-- Hard K'arroc
 					q(89198, {	-- Dry Cleaning
@@ -1622,15 +1641,30 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = { i(238908) },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(89238, {	-- Follow-up Appointment
+						["qg"] = 230736,	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+						["isDaily"] = true,
+						["groups"] = { i(238913) },	-- Condenser Disc (PQI!)
 					}),
-					q(86342),	--
-					q(89192),	--
+					q(86342, {	--
+						["isDaily"] = true,
+					}),
+					q(89192, {	--
+						["isDaily"] = true,
+					}),
 				}),
 				header(HEADERS.AchCriteria, 41809.07, {	-- A Slither of Snakes
 					q(88659, {	-- More Cozy Beds
+						["isDaily"] = true,
 					}),
-					q(88975),	--
-					q(88981),	--
+					q(88981, {	-- Nesting Upkeep
+						["qg"] = 235353,	-- Hemet Nesingwary
+						["coord"] = { 75.8, 34.0, KARESH },
+						["isDaily"] = true,
+					}),
+					q(88975, {	--
+						["isDaily"] = true,
+					}),
 				}),
 			})),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
@@ -2295,12 +2329,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["groups"] = { i(236957) },	-- Hollowbane Portal Key (QS!)
 					}),
 					q(87597, {	-- A Bag of Veilshards
-						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["description"] = "This quest is available during 'Warrant: Hollowbane'.\nFind and prod a Thieving Scurrier so it will lead you to the stash of Stolen Veilshards.",
+						["qg"] = 238486,	-- Citizen Om'sto
+						["coord"] = { 46.6, 50.3, KARESH_TAZAVESH },
 						["repeatable"] = true,
 						["groups"] = {
-							i(237353),	-- Om'sto's Veilshards (QI!)
+							o(519856, {	-- Stolen Veilshard
+								i(237353),	-- Om'sto's Veilshards (QI!)
+							}),
 							i(237356),	-- Vermin Attuned Optic-Visualizer (PQI!)
 							--
 							i(237354),	-- A Bag of Veilshards (QI!) (Reward, required for the Warrant)
@@ -2308,8 +2344,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(87324, {	-- Pile of Voidbane Gems
 						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238181,	-- Acquisitioner Xy'gui
+						["coord"] = { 53.9, 26.9, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(236632, {	-- Pouch of Voidbane Gems
@@ -2326,8 +2362,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(87358, {	-- Umbral Facade
 						["description"] = "This quest is available during 'Warrant: Hollowbane'.",
-						--["provider"] = { "n", ?? },
-						--["coord"] = { x, y, z },
+						["qg"] = 238181,	-- Acquisitioner Xy'gui
+						["coord"] = { 53.9, 26.9, KARESH },
 						["repeatable"] = true,
 						["groups"] = {
 							i(236679),	-- Essence Scanner (PQI!)
@@ -2541,6 +2577,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91287, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 				q(91289, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290, { ["repeatable"] = true, } ),	-- Devoured Energy-Pod (QS!) loot lockout after the completion of 'Devourer Attack: Tazavesh' (86465)
+				
+				q(87348, name(HEADERS.Item,236632)),	-- Triggered when 'Puch of Voidbane Gems' is bought from the vendor
 
 				q(90955, name(HEADERS.Spell,1249651)),	-- Boon of the Reshii (Reshii Wraps 1st upgrade)
 			}),

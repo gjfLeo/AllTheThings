@@ -73,8 +73,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			n(238536, {	-- Hollowbane
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
-				--["coord"] = { x, y, KARESH },
-				--["questID"] = ,
+				["coord"] = { 48.4, 16.9, KARESH },
+				["questID"] = 90689,
 			}),
 			n(231229, {	-- Korgoth the Hungerer
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
@@ -197,6 +197,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(91422, {	-- Weekly reputation: Heka'tamos
 					["name"] = "Heka'tamos weekly reputation obtained.",
+				}),
+				q(90691, {	-- Weekly reputation: Hollowbane
+					["name"] = "Hollowbane weekly reputation obtained.",
 				}),
 				q(91433, {	-- Weekly reputation: Korgoth the Hungerer
 					["name"] = "Korgoth the Hungerer weekly reputation obtained.",

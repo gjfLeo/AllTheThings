@@ -3052,7 +3052,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(244855),	-- Martin Fury
 				i(244854),	-- Purloined Artifact
 				i(244857),	-- The 1 Ring
-				--
+				-- Story Variant: Waygate Wiles
 				i(245746),	-- Energy Barrel
 				i(245884),	-- Energy Pyramid
 				i(245747),	-- Energy Urn
