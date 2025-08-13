@@ -29,7 +29,7 @@ local EncounterToCRS = {
 	},
 	[FRACTILLUS] = { 237861 },	-- Fractillus <The Shatterer>
 	[SALHADAAR] = { 237763 },	-- Nexus-King Salhadaar
-	[DIMENSIUS] = { 233824 },	-- Dimensius <The All-Devouring>
+	[DIMENSIUS] = { 233824, 241517 },	-- Dimensius <The All-Devouring>
 };
 
 ------ EncounterToLoot ------
