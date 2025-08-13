@@ -9647,6 +9647,7 @@ localize(_.CategoryNames, {
 	[185] = "Schutzbrille",
 	[779] = "Tinte",
 	[785] = "Tinte",
+	[1126] = "Glyphe",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Neuer Charakter",
@@ -12613,6 +12614,7 @@ localize(_.CategoryNames, {
 	[185] = "Lunettes",
 	[779] = "Encre",
 	[785] = "Encre",
+	[1126] = "Glyphe",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Nouveau personnage",
@@ -15340,6 +15342,7 @@ localize(_.CategoryNames, {
 	[185] = "Visori",
 	[779] = "Tinta",
 	[785] = "Tinta",
+	[1126] = "Glifo",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Nuovo personaggio",
@@ -17632,6 +17635,7 @@ localize(_.CategoryNames, {
 	[185] = "Tecnóculos",
 	[779] = "Tinta",
 	[785] = "Tinta",
+	[1126] = "Glifo",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Novo personagem",
@@ -20815,6 +20819,7 @@ localize(_.CategoryNames, {
 	[185] = "очки",
 	[779] = "Чернила",
 	[785] = "Чернила",
+	[1126] = "Символ",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Новый персонаж",
@@ -23616,6 +23621,7 @@ localize(_.CategoryNames, {
 	[869] = "머리",
 	[933] = "손목",
 	[935] = "허리",
+	[1126] = "문양",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "새로운 캐릭터",
@@ -27003,6 +27009,9 @@ localize(_.CategoryNames, {
 	[867] = "Prismas y estatuas",
 	[868] = "Componentes",
 	[869] = "Coronas",
+	[933] = "Brazales",
+	[935] = "Cintura",
+	[1126] = "Glifos",
 });
 localize(L.HEADER_NAMES, {
 	[-11] = "Nuevo personaje",
