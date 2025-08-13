@@ -318,7 +318,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							},
 						}),
 					}),
-				}),
+				}
+				-- #if ANYCLASSIC
+				)
+				-- #endif
+				,
 			}),
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ACHIEVEMENTS, {
