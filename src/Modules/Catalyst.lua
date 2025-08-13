@@ -88,6 +88,8 @@ local BonusIDReMappers = {
 		return BonusIDUpgradeTiers[newBonusID]
 	end
 }
+-- Bonus 11965 was previously LFR mode, but upgraded variants need to check their Upgrade bonusIDs
+BonusIDReMappers[11965] = BonusIDReMappers[11964]
 -- Bonus 11966 was previously Normal mode, but upgraded variants need to check their Upgrade bonusIDs
 BonusIDReMappers[11966] = BonusIDReMappers[11964]
 -- Bonus 11967 was previously Heroic mode, but upgraded variants need to check their Upgrade bonusIDs
