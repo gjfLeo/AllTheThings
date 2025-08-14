@@ -851,3 +851,8 @@
 649@@@Om'%s
 11.2.0.62049
 650@@@Delver %s
+11.2.5.62554
+645@@@Khaz Algar Enthusiast %s
+646@@@Chronoscholar %s
+658@@@%s the Infernal
+659@@@%s of the Infinite Chaos

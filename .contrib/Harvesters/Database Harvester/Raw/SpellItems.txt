@@ -12686,3 +12686,43 @@
 11.2.0.61787
 7901@@@Chronomantic Fiber
 7902@@@Pure Chronomantic Fiber
+11.2.5.62554
+7886@@@Flame-scarred Scales of the Earth-Warder
+7887@@@Val'kyrian Rebirth
+7888@@@Warbreaker's Revenge
+7890@@@Self-Conjuring Mana Gem
+7891@@@Treatise of the Council's Wisdom
+7892@@@Blessed Prayer Beads
+7893@@@Xenedar Gem Fragment
+7894@@@Rusting Chain of Ancient Hunger
+7895@@@Skrog Tooth
+7911@@@zzOldFelfuel Cell
+8064@@@Pristine Xakal's Determination
+8066@@@Pristine Gleaming Iron Spike
+8067@@@Pristine Ettin Bone Fragment
+8068@@@Pristine Gelmogg's Fractured Skull
+8069@@@Pristine Everchill Pearl
+8070@@@Pristine Rage of the Tides
+8071@@@Pristine Sundered Comet
+8072@@@Intricate Xakal's Determination
+8073@@@Intricate Gleaming Iron Spike
+8074@@@Intricate Ettin Bone Fragment
+8075@@@Intricate Gelmogg's Fractured Skull
+8076@@@Intricate Everchill Pearl
+8077@@@Intricate Rage of the Tides
+8078@@@Intricate Sundered Comet
+8079@@@Flawed Xakal's Determination
+8080@@@Flawed Gleaming Iron Spike
+8081@@@Flawed Ettin Bone Fragment
+8082@@@Flawed Gelmogg's Fractured Skull
+8083@@@Flawed Everchill Pearl
+8084@@@Flawed Rage of the Tides
+8085@@@Flawed Sundered Comet
+8086@@@Perfected Xakal's Determination
+8087@@@Perfected Gleaming Iron Spike
+8088@@@Perfected Ettin Bone Fragment
+8089@@@Perfected Gelmogg's Fractured Skull
+8090@@@Perfected Everchill Pearl
+8091@@@Perfected Rage of the Tides
+8092@@@Perfected Sundered Comet
+8549@@@Felshatter

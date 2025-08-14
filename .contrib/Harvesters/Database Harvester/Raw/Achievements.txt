@@ -16353,3 +16353,292 @@
 11.2.0.62049
 61092@@@Hard Mode: Tazavesh, the Veiled Market
 61093@@@Flawless Transaction
+11.2.5.62554
+42301@@@Timerunner
+42312@@@Artifact, Remixed
+42313@@@Remixing Time
+42314@@@Unlimited Power
+42315@@@Unlimited Power II
+42317@@@Campaign: Azsuna
+42318@@@Court of Farondis
+42319@@@Azsuna
+42320@@@Legion Remix Dungeoneer
+42321@@@Legion Remix Raids
+42502@@@Artifact, Remixed II
+42503@@@Artifact, Remixed III
+42504@@@Timerunner: Paladin
+42505@@@Unlimited Power III
+42506@@@Unlimited Power IV
+42507@@@Unlimited Power V
+42508@@@Unlimited Power VI
+42509@@@Unlimited Power VII
+42510@@@Unlimited Power VIII
+42511@@@Unlimited Power IX
+42512@@@Unlimited Power X
+42513@@@Unlimited Power XI
+42514@@@Unlimited Power XII
+42515@@@Tour Azsuna
+42516@@@Explore Azsuna
+42517@@@Hidden Treasures: Azsuna
+42518@@@Elusive Foes: Azsuna
+42519@@@Looking for Group: Azsuna
+42526@@@Calamir
+42527@@@Levantus
+42529@@@Humongris
+42530@@@Si'vash
+42531@@@Heroic: Emerald Nightmare
+42533@@@Looking for Group: Highmountain
+42534@@@Sotanathor
+42536@@@Nithogg
+42537@@@Insurrection
+42538@@@Mistress Alluradel
+42539@@@Broken Isles World Quests II
+42540@@@Looking for Group: The Broken Shore
+42541@@@Highmountain
+42542@@@Drugon the Frostblood
+42543@@@Heroic: The Nighthold
+42544@@@Mythic: The Nighthold
+42547@@@Highmountain Tribe
+42549@@@Argus
+42551@@@Looking for Group: Suramar
+42552@@@Campaign: Highmountain
+42553@@@Raid Finder: The Nighthold
+42554@@@Raid Finder: Antorus the Burning Throne
+42555@@@Broken Isles World Quests IV
+42558@@@Raid Finder: Trial of Valor
+42559@@@Ana-Mouz
+42564@@@Tour Suramar
+42565@@@Bringing Order to the Isles
+42567@@@Tour Argus
+42570@@@Broken Isles World Quests III
+42574@@@Matron Folnuna
+42576@@@Mythic: Tomb of Sargeras
+42578@@@Looking for Group: Stormheim
+42581@@@Inquisitor Meto
+42582@@@Stormheim
+42583@@@Mythic: Antorus the Burning Throne
+42586@@@Campaign: Suramar
+42590@@@Tour Stormheim
+42593@@@Pillars of Creation
+42594@@@Tour Val'Sharah
+42596@@@Campaign: Stormheim
+42603@@@Raid Finder: Emerald Nightmare
+42604@@@Occularus
+42605@@@Suramar
+42610@@@The Soultakers
+42612@@@You Are Now Prepared!
+42614@@@Flotsam
+42615@@@Timeworn Keystone Apprentice
+42616@@@Pit Lord Vilemus
+42617@@@Campaign: Val'Sharah
+42618@@@Looking for Group: Argus
+42619@@@Dreamweavers
+42624@@@Broken Isles World Quests I
+42627@@@Argussian Reach
+42628@@@The Nightfallen
+42629@@@Malificus
+42630@@@Val'Sharah
+42636@@@Mythic: Trial of Valor
+42637@@@Na'zak the Fiend
+42639@@@Heroic: Trial of Valor
+42642@@@Tour Highmountain
+42643@@@Brutallus
+42647@@@Breaching the Tomb
+42649@@@Raid Finder: Tomb of Sargeras
+42651@@@Mythic: Emerald Nightmare
+42655@@@The Armies of Legionfall
+42658@@@Valarjar
+42659@@@Shar'thos
+42661@@@Heroic: Tomb of Sargeras
+42662@@@Apocron
+42663@@@Looking for Group: Val'Sharah
+42664@@@Heroic: Antorus the Burning Throne
+42666@@@The Broken Shore
+42669@@@Withered J'im
+42672@@@Defending the Broken Isles II
+42673@@@Defending the Broken Isles I
+42674@@@Broken Isles World Quests V
+42675@@@Defending the Broken Isles III
+42676@@@Buddy System X
+42684@@@Timerunner: Warrior
+42685@@@Timerunner: Death Knight
+42686@@@Timerunner: Shaman
+42687@@@Timerunner: Hunter
+42688@@@Timeworn Keystone Adept
+42689@@@Timeworn Keystone Master
+42690@@@Timeworn Keystone Hero
+42691@@@Timeworn Keystone Enthusiast
+42692@@@Broken Isles Dungeoneer
+42693@@@Breaking the Legion I
+42694@@@Breaking the Legion II
+42695@@@Breaking the Legion III
+42696@@@Greater Invasion Points I
+42697@@@Greater Invasion Points II
+42698@@@Greater Invasion Points III
+42699@@@You Were Not Prepared!
+42807@@@Cloudy With a Chance of Infernals
+60803@@@Explore Highmountain
+60804@@@Elusive Foes: Highmountain
+60805@@@Hidden Treasures: Highmountain
+60806@@@Explore Stormheim
+60807@@@Elusive Foes: Stormheim
+60808@@@Hidden Treasures: Stormheim
+60809@@@Explore Val'sharah
+60810@@@Elusive Foes: Val'sharah
+60811@@@Hidden Treasures: Val'sharah
+60812@@@Explore Suramar
+60813@@@Elusive Foes: Suramar
+60814@@@Hidden Treasures: Suramar
+60815@@@Explore Broken Shore
+60816@@@Hidden Treasures: Argus
+60817@@@Explore Argus
+60818@@@Elusive Foes: Argus
+60819@@@Eye of Azshara
+60820@@@Heroic: Eye of Azshara
+60821@@@Mythic: Eye of Azshara
+60822@@@Vault of the Wardens
+60823@@@Heroic: Vault of the Wardens
+60824@@@Mythic: Vault of the Wardens
+60825@@@Neltharion's Lair
+60826@@@Heroic: Neltharion's Lair
+60827@@@Mythic: Neltharion's Lair
+60828@@@Maw of Souls
+60829@@@Heroic: Maw of Souls
+60830@@@Mythic: Maw of Souls
+60831@@@Halls of Valor
+60832@@@Heroic: Halls of Valor
+60833@@@Mythic: Halls of Valor
+60834@@@Black Rook Hold
+60835@@@Heroic: Black Rook Hold
+60836@@@Mythic: Black Rook Hold
+60837@@@Darkheart Thicket
+60838@@@Heroic: Darkheart Thicket
+60839@@@Mythic: Darkheart Thicket
+60840@@@The Arcway
+60841@@@Heroic: The Arcway
+60842@@@Mythic: The Arcway
+60843@@@Court of Stars
+60844@@@Heroic: Court of Stars
+60845@@@Mythic: Court of Stars
+60846@@@Assault on Violet Hold
+60847@@@Heroic: Assault on Violet Hold
+60848@@@Mythic: Assault on Violet Hold
+60849@@@Cathedral of Eternal Night
+60850@@@Heroic: Cathedral of Eternal Night
+60851@@@Mythic: Cathedral of Eternal Night
+60852@@@Heroic: Seat of the Triumvirate
+60853@@@Mythic: Seat of the Triumvirate
+60854@@@Heroic: Return to Karazhan
+60855@@@Mythic: Return to Karazhan
+60856@@@Darkbough
+60857@@@Tormented Guardians
+60858@@@Rift of Aln
+60859@@@The Emerald Nightmare
+60860@@@Trial of Valor
+60861@@@Arcing Aqueducts
+60862@@@Royal Athenaeum
+60863@@@Nightspire
+60864@@@Betrayer's Rise
+60865@@@The Nighthold
+60866@@@The Gates of Hell
+60867@@@Wailing Halls
+60868@@@Chamber of the Avatar
+60869@@@Deceiver's Fall
+60870@@@Tomb of Sargeras
+60871@@@Light's Breach
+60872@@@Forbidden Descent
+60873@@@Hope's End
+60874@@@Seat of the Pantheon
+60875@@@Antorus, the Burning Throne
+60935@@@Tenured in the Timeways IV
+60936@@@Empowered enemies killed in Heroic World Tier
+60937@@@Deaths in Heroic World Tier
+60938@@@Demons slain
+60959@@@Tenured in the Timeways I
+60960@@@Tenured in the Timeways II
+60961@@@Tenured in the Timeways III
+60993@@@<DNT> Plexus Sentinel defeated on Heroic (Manaforge Omega)
+60994@@@<DNT> Loom'ithar defeated on Heroic (Manaforge Omega)
+60995@@@<DNT> Soulbinder Naazindhri defeated on Heroic (Manaforge Omega)
+60996@@@<DNT> Forgeweaver Araz defeated on Heroic (Manaforge Omega)
+60997@@@<DNT> The Soul Hunters defeated on Heroic (Manaforge Omega)
+60998@@@<DNT> Fractillus defeated on Heroic (Manaforge Omega)
+60999@@@<DNT> Nexus-King Salhadaar defeated on Heroic (Manaforge Omega)
+61000@@@<DNT> Dimensius, the All-Devouring defeated on Heroic (Manaforge Omega)
+61001@@@<DNT> Plexus Sentinel defeated on Normal (Manaforge Omega)
+61002@@@<DNT> Loom'ithar defeated on Normal (Manaforge Omega)
+61003@@@<DNT> Soulbinder Naazindhri defeated on Normal (Manaforge Omega)
+61004@@@<DNT> Forgeweaver Araz defeated on Normal (Manaforge Omega)
+61005@@@<DNT> The Soul Hunters defeated on Normal (Manaforge Omega)
+61006@@@<DNT> Fractillus defeated on Normal (Manaforge Omega)
+61007@@@<DNT> Nexus-King Salhadaar defeated on Normal (Manaforge Omega)
+61008@@@<DNT> Dimensius, the All-Devouring defeated on Normal (Manaforge Omega)
+61009@@@<DNT> Plexus Sentinel defeated on Raid Finder (Manaforge Omega)
+61010@@@<DNT> Loom'ithar defeated on Raid Finder (Manaforge Omega)
+61011@@@<DNT> Soulbinder Naazindhri defeated on Raid Finder (Manaforge Omega)
+61012@@@<DNT> Forgeweaver Araz defeated on Raid Finder (Manaforge Omega)
+61013@@@<DNT> The Soul Hunters defeated on Raid Finder (Manaforge Omega)
+61014@@@<DNT> Fractillus defeated on Raid Finder (Manaforge Omega)
+61015@@@<DNT> Nexus-King Salhadaar defeated on Raid Finder (Manaforge Omega)
+61016@@@<DNT> Dimensius, the All-Devouring defeated on Raid Finder (Manaforge Omega)
+61024@@@The Deathless Champion
+61025@@@The Deathless Marauder
+61026@@@The Deathless Wanderer
+61027@@@The Deathless Magus
+61053@@@Legionslayer III
+61054@@@Heroic Broken Isles World Quests III
+61055@@@Power of the Obelisks III
+61056@@@Heroic Broken Isles World Quests II
+61057@@@Heroic Broken Isles World Quests I
+61058@@@Legionslayer II
+61059@@@Legionslayer I
+61060@@@Power of the Obelisks II
+61061@@@Power of the Obelisks I
+61062@@@<DNT> Season 3 Midseason - Eco-Dome - Timed +12
+61063@@@<DNT> Season 3 Midseason - Ara-Kara - Timed +12
+61064@@@<DNT> Season 3 Midseason - Dawnbreaker - Timed +12
+61065@@@<DNT> Season 3 Midseason - Priory - Timed +12
+61066@@@<DNT> Season 3 Midseason - Floodgate - Timed +12
+61067@@@<DNT> Season 3 Midseason - Tazavesh: Streets - Timed +12
+61068@@@<DNT> Season 3 Midseason - Tazavesh: Gambit - Timed +12
+61069@@@<DNT> Season 3 Midseason - Halls of Atonement - Timed +12
+61070@@@Heroic Broken Isles World Quests IV
+61071@@@Legionslayer IV
+61072@@@Power of the Obelisks IV
+61073@@@Heroic Legion Remix Dungeoneer
+61074@@@Mythic Legion Remix Dungeoneer
+61075@@@Heroic Legion Remix Raider
+61076@@@Broken Isles World Bosses
+61077@@@Argus Invasion Point Bosses
+61078@@@Mythic Legion Remix Raids
+61079@@@Heroic Legion Remix Raids
+61080@@@Broken Shore World Bosses
+61084@@@Timerunner: Rogue
+61085@@@Timerunner: Monk
+61086@@@Timerunner: Druid
+61087@@@Timerunner: Demon Hunter
+61088@@@Timerunner: Priest
+61089@@@Timerunner: Mage
+61090@@@Timerunner: Warlock
+61103@@@Sojourner of Azsuna
+61104@@@Sojourner of Highmountain
+61105@@@Sojourner of Stormheim
+61106@@@Sojourner of Val'Sharah
+61107@@@Sojourner of Suramar
+61108@@@Lorerunner of Azsuna
+61109@@@Lorerunner of Highmountain
+61110@@@Lorerunner of Stormheim
+61111@@@Lorerunner of Val'Sharah
+61112@@@Lorerunner of Suramar
+61113@@@Legion Dungeons: Threats of the Isle
+61114@@@Legion Dungeons: Power of the Ancients
+61115@@@Legion Dungeons: Might of the Legion
+61174@@@Building a Heroic Army
+61218@@@The Wardens
+61323@@@Legionslayer V
+61324@@@<Hidden>[DNT] Jewelry Unlocked
+61325@@@<Hidden>[DNT] Jewelry Equipped
+61337@@@To Fel and Back
+61338@@@Bronze gained across Warband
+61342@@@Buddy System IX
+61343@@@Hotfix 99733 Tracking
