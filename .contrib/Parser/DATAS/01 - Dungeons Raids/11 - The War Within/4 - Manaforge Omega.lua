@@ -15,7 +15,7 @@ local DIMENSIUS = 2691;
 ------ EncounterToCRS ------
 local EncounterToCRS = {
 	[PLEXUS] = {
-		-- Check if more?
+		233814,	-- Plexus Sentinel
 		243241,	-- Overloading Attendant
 	},
 	[LOOMITHAR] = { 233815 },	-- Loom'ithar
