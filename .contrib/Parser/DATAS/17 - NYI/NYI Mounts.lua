@@ -414,15 +414,19 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(84728, {	-- Crimson Riding Crane (MOUNT!)
 				["displayID"] = 42837,
 			}),
+			-- #if NOT ANYCLASSIC
 			i(87794, {	-- Golden Water Strider (MOUNT!)
 				["displayID"] = 43716,
 			}),
+			-- #endif
 			i(87793, {	-- Jade Water Strider (MOUNT!)
 				["displayID"] = 43714,
 			}),
+			-- #if NOT ANYCLASSIC
 			i(87792, {	-- Orange Water Strider (MOUNT!)
 				["displayID"] = 43715,
 			}),
+			-- #endif
 			-- Without MountID Attached
 			i(91016, {	-- Reins of the Great Red Dragon Turtle (MOUNT!)
 				["displayID"] = 42352,

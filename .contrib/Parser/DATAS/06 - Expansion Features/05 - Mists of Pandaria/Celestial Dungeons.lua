@@ -171,6 +171,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							i(248743),	-- Celestial Riding Serpent (MOUNT!)
 							i(248742),	-- Celestial Riding Tiger (MOUNT!)
 							i(87791),	-- Crimson Water Strider (MOUNT!)
+							i(87794),	-- Golden Water Strider (MOUNT!)
 							i(87771),	-- Heavenly Onyx Cloud Serpent (MOUNT!)
 							i(87784),	-- Jungle Riding Crane (MOUNT!)
 							i(87792),	-- Orange Water Strider (MOUNT!)
