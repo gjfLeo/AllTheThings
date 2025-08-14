@@ -780,12 +780,32 @@ i(83932, 121842);	-- Design: Sapphire Panther (Guessed via Filter Recipe with Sp
 -----------------
 i(90471, 131898);	-- Design: Sapphire Cub (Guessed via Filter Recipe with SpellID)
 i(90470, 131897);	-- Design: Jade Owl (Guessed via Filter Recipe with SpellID)
+--- TRAINER ---
+i(0, 122675);	-- Bold Serpent's Eye
+i(0, 122676);	-- Brilliant Serpent's Eye
+i(0, 122674);	-- Delicate Serpent's Eye
+i(0, 122685);	-- Flashing Serpent's Eye
+i(0, 122684);	-- Fractured Serpent's Eye
+i(0, 122683);	-- Precise Serpent's Eye
+i(0, 122682);	-- Quick Serpent's Eye
+i(0, 122681);	-- Rigid Serpent's Eye
+i(0, 122680);	-- Smooth Serpent's Eye
+i(0, 122678);	-- Solid Serpent's Eye
+i(0, 122677);	-- Sparkling Serpent's Eye
+i(0, 122679);	-- Subtle Serpent's Eye
 
 -----------------
 -- PATCH 5.2.0 --
 -----------------
 i(95470, 140050);	-- Design: Serpent's Heart (Guessed via Filter Recipe with SpellID)
 i(95471, 140060);	-- Design: Primal Diamond (Guessed via Filter Recipe with SpellID)
+--- TRAINER ---
+i(0, 136274);	-- Assassin's Serpent's Eye
+i(0, 136270);	-- Lucent Serpent's Eye
+i(0, 136275);	-- Mysterious Serpent's Eye
+i(0, 136269);	-- Resplendent Serpent's Eye
+i(0, 136273);	-- Tense Serpent's Eye
+i(0, 136272);	-- Willful Serpent's Eye
 
 -----------------
 -- PATCH 6.0.1 --

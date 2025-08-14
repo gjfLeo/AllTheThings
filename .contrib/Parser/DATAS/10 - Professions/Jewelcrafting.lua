@@ -4028,10 +4028,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 106947
 				},
 				{
-					["name"] = "Rigid Serpent's Eye",
-					["recipeID"] = 122681
-				},
-				{
 					["name"] = "Solid Lapis Lazuli",
 					["recipeID"] = 107619
 				},
@@ -4040,20 +4036,12 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 106950
 				},
 				{
-					["name"] = "Solid Serpent's Eye",
-					["recipeID"] = 122678
-				},
-				{
 					["name"] = "Sparkling Lapis Lazuli",
 					["recipeID"] = 107620
 				},
 				{
 					["name"] = "Sparkling River's Heart",
 					["recipeID"] = 106949
-				},
-				{
-					["name"] = "Sparkling Serpent's Eye",
-					["recipeID"] = 122677
 				},
 				{
 					["name"] = "Stormy Lapis Lazuli",
@@ -4299,10 +4287,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Keen Vermilion Onyx",
 					["recipeID"] = 107724
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Lucent Serpent's Eye",
-					["recipeID"] = 136270
-				}),
 				{
 					["name"] = "Lucent Tiger Opal",
 					["recipeID"] = 107655
@@ -4343,10 +4327,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Resolute Vermilion Onyx",
 					["recipeID"] = 107729
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Resplendent Serpent's Eye",
-					["recipeID"] = 136269
-				}),
 				{
 					["name"] = "Resplendent Tiger Opal",
 					["recipeID"] = 107660
@@ -4395,10 +4375,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Wicked Vermilion Onyx",
 					["recipeID"] = 107735
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Willful Serpent's Eye",
-					["recipeID"] = 136272
-				}),
 				{
 					["name"] = "Willful Tiger Opal",
 					["recipeID"] = 107667
@@ -4429,10 +4405,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Assassin's Roguestone",
 					["recipeID"] = 130656
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Assassin's Serpent's Eye",
-					["recipeID"] = 136274
-				}),
 				{
 					["name"] = "Defender's Imperial Amethyst",
 					["recipeID"] = 107694
@@ -4473,10 +4445,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Mysterious Roguestone",
 					["recipeID"] = 107633
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Mysterious Serpent's Eye",
-					["recipeID"] = 136275
-				}),
 				{
 					["name"] = "Purified Imperial Amethyst",
 					["recipeID"] = 107699
@@ -4517,10 +4485,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Tense Roguestone",
 					["recipeID"] = 130655
 				},
-				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
-					["name"] = "Tense Serpent's Eye",
-					["recipeID"] = 136273
-				}),
 				{
 					["name"] = "Timeless Imperial Amethyst",
 					["recipeID"] = 107703
@@ -4552,20 +4516,12 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 107705
 				},
 				{
-					["name"] = "Bold Serpent's Eye",
-					["recipeID"] = 122675
-				},
-				{
 					["name"] = "Brilliant Pandarian Garnet",
 					["recipeID"] = 107623
 				},
 				{
 					["name"] = "Brilliant Primordial Ruby",
 					["recipeID"] = 107706
-				},
-				{
-					["name"] = "Brilliant Serpent's Eye",
-					["recipeID"] = 122676
 				},
 				{
 					["name"] = "Delicate Pandarian Garnet",
@@ -4576,20 +4532,12 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 107707
 				},
 				{
-					["name"] = "Delicate Serpent's Eye",
-					["recipeID"] = 122674
-				},
-				{
 					["name"] = "Flashing Pandarian Garnet",
 					["recipeID"] = 107625
 				},
 				{
 					["name"] = "Flashing Primordial Ruby",
 					["recipeID"] = 107708
-				},
-				{
-					["name"] = "Flashing Serpent's Eye",
-					["recipeID"] = 122685
 				},
 				{
 					["name"] = "Precise Pandarian Garnet",
@@ -4599,20 +4547,12 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Precise Primordial Ruby",
 					["recipeID"] = 107709
 				},
-				{
-					["name"] = "Precise Serpent's Eye",
-					["recipeID"] = 122683
-				}
 			}
 		},
 		{
 			["name"] = "Yellow Gems",
 			["categoryID"] = 833,
 			["groups"] = {
-				{
-					["name"] = "Fractured Serpent's Eye",
-					["recipeID"] = 122684
-				},
 				{
 					["name"] = "Fractured Sun's Radiance",
 					["recipeID"] = 107710
@@ -4630,10 +4570,6 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 107641
 				},
 				{
-					["name"] = "Quick Serpent's Eye",
-					["recipeID"] = 122682
-				},
-				{
 					["name"] = "Quick Sun's Radiance",
 					["recipeID"] = 107712
 				},
@@ -4642,20 +4578,12 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["recipeID"] = 107642
 				},
 				{
-					["name"] = "Smooth Serpent's Eye",
-					["recipeID"] = 122680
-				},
-				{
 					["name"] = "Smooth Sun's Radiance",
 					["recipeID"] = 107713
 				},
 				{
 					["name"] = "Smooth Sunstone",
 					["recipeID"] = 107643
-				},
-				{
-					["name"] = "Subtle Serpent's Eye",
-					["recipeID"] = 122679
 				},
 				{
 					["name"] = "Subtle Sun's Radiance",

@@ -413,6 +413,11 @@ root(ROOTS.Zones, {
 							},
 						}),
 					}),
+					prof(JEWELCRAFTING, {
+						n(65098, {	-- Mai the Jade Shaper <Jewelcrafting Trainer>
+							["groups"] = MOP_EPIC_GEM_RECIPES,
+						}),
+					}),
 					prof(MINING, {
 						n(65092, {	-- Smeltmaster Ashpaw <Mining Trainer>
 							["coord"] = { 46.0, 29.4, THE_JADE_FOREST },
