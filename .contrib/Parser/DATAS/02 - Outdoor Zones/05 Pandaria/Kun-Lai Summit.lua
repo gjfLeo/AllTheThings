@@ -1,6 +1,17 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
+
+-- #if BEFORE WOD
+local SEASON_MALEVOLENT_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
+	end
+end]];
+-- #endif
+
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(KUN_LAI_SUMMIT, {
@@ -2084,9 +2095,23 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(VENDORS, {
-					n(65515, {	-- Acon Deathwielder (Removed Season 12 Elite Vendor)
+					n(65515, {	-- Acon Deathwielder <Glorious Conquest Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 61.6, 24.2, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
 						["races"] = HORDE_ONLY,
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_ELITE },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
 					}),
 					n(75695, {	-- Acon Deathwielder <Grievous Gladiator>
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
@@ -2698,9 +2723,23 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(65165, {	-- Doris Chiltonius (Removed Season 12 Vendor)
+					n(65165, {	-- Doris Chiltonius <Conquest Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 61.8, 24.1, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
 						["races"] = HORDE_ONLY,
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
 					}),
 					n(69965, {	-- Doris Chiltonius (Removed Season 14 Vendor)
 						["races"] = HORDE_ONLY,
@@ -2708,7 +2747,25 @@ root(ROOTS.Zones, {
 						["groups"] = {
 						},
 					}),
-					n(69982, {	-- Lok'nor Bloodfist  <Honor Quartermaster>
+					n(65164, {	-- Lok'nor Bloodfist <Honor Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 62.0, 24.0, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
+						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
+					}),
+					n(69982, {	-- Lok'nor Bloodfist <Honor Quartermaster>
 						["races"] = HORDE_ONLY,
 						["u"] = REMOVED_FROM_GAME,
 						["groups"] = {

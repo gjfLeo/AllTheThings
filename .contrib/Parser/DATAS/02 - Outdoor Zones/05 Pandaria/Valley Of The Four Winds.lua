@@ -1,6 +1,17 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
+
+-- #if BEFORE WOD
+local SEASON_MALEVOLENT_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. MOP_PHASE_ONE .. [[;
+	end
+end]];
+-- #endif
+
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(VALLEY_OF_THE_FOUR_WINDS, {
@@ -1665,9 +1676,23 @@ root(ROOTS.Zones, {
 						["coord"] = { 84.8, 21.6, VALLEY_OF_THE_FOUR_WINDS },
 						["sym"] = {{"select","npcID",56705},{"pop"}},	-- Singegruff <Adventuring Supplies>
 					}),
-					n(65514, {	-- Ethan Natice (Removed Season 12 Elite Vendor)
+					n(65514, {	-- Ethan Natice <Glorious Conquest Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 85.6, 59.6, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
 						["races"] = ALLIANCE_ONLY,
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_ELITE },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
 					}),
 					n(69968, {	-- Ethan Natice (Removed Season 14 Conquest Gear Vendor)
 						["races"] = ALLIANCE_ONLY,
@@ -1924,6 +1949,24 @@ root(ROOTS.Zones, {
 						["groups"] = {
 						},
 					}),
+					n(65166, {	-- Hayden Christophen <Honor Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 85.8, 59.4, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
+						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_HONOR },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
+					}),
 					n(73143, {	-- Hayden Christophen <Honor Quartermaster> Old Grievous Vendor (neck, etc)
 						["races"] = ALLIANCE_ONLY,
 						["u"] = REMOVED_FROM_GAME,
@@ -2140,9 +2183,23 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(65167, {	-- Lucan Malory (Removed Season 12 Vendor)
+					n(65167, {	-- Lucan Malory <Conquest Quartermaster>
+						-- Wouter NOTE: Blizzard added these NPCs to the capitals because they couldn't figure out how to make phasing work at their original location
+						-- #if ANYCLASSIC
+						["coords"] = {
+							{ 86.1, 59.7, VALE_OF_ETERNAL_BLOSSOMS },
+						},
+						-- #endif
 						["races"] = ALLIANCE_ONLY,
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
+						-- #if BEFORE WOD
+						["OnUpdate"] = SEASON_MALEVOLENT_ONUPDATE,
+						["sym"] = {
+							{"sub", "pvp_gear_base", EXPANSION.MOP, SEASON_MALEVOLENT, PVP_GLADIATOR },
+							{"merge"},	-- Subroutines are automatically finalized, so merge back for further processing
+							{"pop"},	-- Discard the Set header and acquire the children.
+						},
+						-- #endif
 					}),
 					n(75689, {	-- Lucan Malory Season 12: Malevolent Gladiator Vendor. Items are tagged as Season 13
 						["coord"] = { 12.2, 34.2, VALLEY_OF_THE_FOUR_WINDS },

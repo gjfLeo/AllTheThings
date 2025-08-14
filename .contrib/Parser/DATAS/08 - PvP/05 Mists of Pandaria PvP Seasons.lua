@@ -28,7 +28,6 @@ local SEASON_MALEVOLENT_ONUPDATE = [[function(t)
 	else
 		t.u = ]] .. MOP_PHASE_ONE .. [[;
 	end
-	if not t.rwp then t.rwp = 50200; end
 end]];
 local SEASON_TYRANNICAL_ONUPDATE = [[function(t)
 	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_SIEGE_OF_ORGRIMMAR .. [[) then
@@ -36,7 +35,6 @@ local SEASON_TYRANNICAL_ONUPDATE = [[function(t)
 	else
 		t.u = ]] .. MOP_PHASE_RISE_OF_THE_THUNDER_KING .. [[;
 	end
-	if not t.rwp then t.rwp = 50400; end
 end]];
 -- #endif
 
