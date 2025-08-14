@@ -636,6 +636,31 @@ root(ROOTS.Unsorted, {
 			i(244231),	-- Ensemble: Stillwater Fisher Attire
 			i(244352),	-- Cloak of the Veiled Paws
 			i(251543),	-- Cracked Keystone
+
+			i(221164),	-- Archaic Venomancer's Legwraps
+			i(231821),	-- Makeshift Explosives
+			i(232517),	-- Biome Eco-Stabilizer
+			i(233222),	-- Nullbomb
+			i(237009),	-- Zo'kita Safety Gear
+			i(240111),	-- Reshii Skirmisher's Axe
+			i(240112),	-- Reshii Scout's Blade
+			i(240113),	-- Reshii Magi's Dagger
+			i(240114),	-- Reshii Skirmisher's Morningstar
+			i(240115),	-- Reshii Brute's Warmace
+			i(240116),	-- Reshii Brute's Longsword
+			i(240117),	-- Reshii Magi's Wand
+			i(240118),	-- Reshii Brute's Spear
+			i(240119),	-- Reshii Skirmisher's Staff
+			i(240120),	-- Reshii Magi's Lantern
+			i(240121),	-- Reshii Brute's Barrier
+			i(246732),	-- Void-Forged Overseer
+			i(246892),	-- Void's Binding Wraps
+			i(246893),	-- Void's Binding Briefs
+			i(246894),	-- Void's Binding Shade
+			i(246895),	-- Void's Binding Sash
+			i(246896),	-- Void's Binding Anklets
+			i(246897),	-- Void's Binding Halter Top
+			i(246898),	-- Ensemble: Void's Binding Swimwear
 		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			-- Left Remaining To Darkal --
