@@ -474,7 +474,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
 			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
-			n(ZONE_DROPS, {
+			n(ZONE_DROPS, sharedData({
+				-- #if AFTER TWW
+				["description"] = "This armour was a 'Binds when equipped' prior to TWW.",
+				-- #elseif AFTER DF
+				["description"] = "This item will likely become soulbound with The War Within, you might want an appropriate character to hold on to it.",
+				-- #endif
+			}, {
 				i(16802),	-- Arcanist Belt (Mage)
 				i(16799),	-- Arcanist Bindings (Mage)
 				i(16864),	-- Belt of Might (Warrior)
@@ -493,7 +499,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(16827),	-- Nightslayer Belt (Rogue)
 				i(16825),	-- Nightslayer Bracelets (Rogue)
 				i(16819),	-- Vambraces of Prophecy (Priest)
-			}),
+			})),
 			e(1519, {	-- Lucifron
 				["creatureID"] = 12118,
 				["groups"] = {
