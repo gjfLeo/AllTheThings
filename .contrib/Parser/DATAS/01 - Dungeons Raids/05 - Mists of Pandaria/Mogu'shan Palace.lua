@@ -434,6 +434,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["creatureID"] = 61398,	-- Xin the Weaponmaster
 						["groups"] = {
 							ach(60894),	-- Celestial: Mogu'shan Palace
+							i(86789),	-- Elegion, the Fanged Crescent
 							i(86790),	-- Vial of Dragon's Blood
 						},
 					}),
