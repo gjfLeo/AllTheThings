@@ -14,15 +14,6 @@ local i = function(itemID, t)
 end
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 -- Put items between these two bars if you dont want to sort them /Braghe
-i(804);		-- Large Blue Sack
-i(805);		-- Small Red Pouch
-i(828);		-- Small Blue Pouch
-i(1725);	-- Large Knapsack
-i(2657);	-- Red Leather Bag
-i(3914);	-- Journeyman's Backpack
-i(5571);	-- Small Black Pouch
-i(5572);	-- Small Green Pouch
-i(5573);	-- Green Leather Bag
 i(6457);	-- Rusted Engineering Parts
 i(23553,{collectible=false})	-- Living Branch
 i(16967,{collectible=false})	-- Feralas Ahi
@@ -84,10 +75,6 @@ i(226037);	-- Timeless Neural Silencer
 -- Sorted by QuestDB API
 -- i(143542);	-- Crown Co. "Kure-Everything" Tonic
 -- i(140239);	-- Excavated Highborne Artifact
-i(5956);	-- Blacksmith Hammer
-i(85663);	-- Herbalist's Spade
-i(2901);	-- Mining Pick
-i(7005);	-- Skinning Knife
 i(139786);	-- Ancient Mana Crystal
 i(103644);	-- Blessed Bandage
 i(18595);	-- Blood Opal ("Retrieving Data" in-game)
@@ -101,7 +88,6 @@ i(142262);	-- Electrified Key
 i(13508);	-- Eye of Arachnida
 i(129210);	-- Fel Crystal Fragments
 i(127768);	-- Fel Petal
-i(37431);	-- Fetch Ball
 i(44618);	-- Glass of Aged Dalaran Red
 i(18269);	-- Gordok Green Grog
 i(153188);	-- Greater Blessed Bandage

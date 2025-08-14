@@ -3021,6 +3021,7 @@ root(ROOTS.Zones, {
 							i(46398, {	-- Calico Cat (PET!)
 								["timeline"] = { ADDED_3_3_0 },
 							}),
+							i(37431),	-- Fetch Ball
 							i(129826, {	-- Nursery Spider (PET!)
 								["timeline"] = { ADDED_7_0_3 },
 							}),
