@@ -1424,6 +1424,7 @@ root(ROOTS.Zones, {
 					n(75694, {	-- Armsmaster Holinka <Tyrannical Gladiator>
 						["coord"] = { 12.0, 34.0, VALLEY_OF_THE_FOUR_WINDS },
 						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144246, {	-- Arsenal: Tyrannical Gladiator's Weapons (A)
@@ -1677,6 +1678,7 @@ root(ROOTS.Zones, {
 					n(75692, {	-- Ethan Natice <Grievous Gladiator>
 						["coord"] = { 12.0, 34.2, VALLEY_OF_THE_FOUR_WINDS },
 						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144252, {	-- Arsenal: Grievous Gladiator's Weapons (A)
@@ -1929,6 +1931,7 @@ root(ROOTS.Zones, {
 					n(75691, {	-- Hayden Christophen <Dreadful Gladiator>
 						["coord"] = { 12.2, 34.2, VALLEY_OF_THE_FOUR_WINDS },
 						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							cl(DEATHKNIGHT, {
 								moh(12, iensemble(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
@@ -2144,6 +2147,7 @@ root(ROOTS.Zones, {
 					n(75689, {	-- Lucan Malory Season 12: Malevolent Gladiator Vendor. Items are tagged as Season 13
 						["coord"] = { 12.2, 34.2, VALLEY_OF_THE_FOUR_WINDS },
 						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
@@ -2551,6 +2555,7 @@ root(ROOTS.Zones, {
 					n(78456, {	-- Starlight Sinclair <Prideful Gladiator>
 						["coord"] = { 12.0, 34.0, VALLEY_OF_THE_FOUR_WINDS },
 						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144248, {	-- Arsenal: Prideful Gladiator's Weapons (A)

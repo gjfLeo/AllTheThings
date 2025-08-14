@@ -2088,9 +2088,10 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["u"] = REMOVED_FROM_GAME,
 					}),
-					n(75695, {	-- Acon Deathwielder
+					n(75695, {	-- Acon Deathwielder <Grievous Gladiator>
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
@@ -2339,6 +2340,7 @@ root(ROOTS.Zones, {
 					n(75693, {	-- Doris Chiltonius Season 12: Malevolent Gladiator Vendor. Items are tagged as S13
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144243, {	-- Arsenal: Malevolent Gladiator's Weapons
@@ -2715,6 +2717,7 @@ root(ROOTS.Zones, {
 					n(75690, {	-- Lok'nor Bloodfist <Dreadful Gladiator>
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							cl(DEATHKNIGHT, {
 								moh(12, iensemble(138715, {	-- Ensemble: Dreadful Gladiator's Dreadplate Armor
@@ -2932,6 +2935,7 @@ root(ROOTS.Zones, {
 					n(75688, {	-- Roo Desvin S13 Tyrannical Vendor
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							n(WEAPONS, {
 								moh(80, iensemble(144245, {	-- Arsenal: Tyrannical Gladiator's Weapons (H)
@@ -3171,6 +3175,7 @@ root(ROOTS.Zones, {
 					n(78461, {	-- Shonn Su (Prideful Gladiator Vendor)
 						["coord"] = { 35.4, 83.2, KUN_LAI_SUMMIT },
 						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_6_0_2 },
 						["groups"] = {
 							elitepvp(i(120286, {	-- Enchanter's Illusion - Glorious Tyranny (ILLUSION!)
 								["timeline"] = { ADDED_6_0_2 },
