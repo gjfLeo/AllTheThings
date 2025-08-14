@@ -1391,8 +1391,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 			i(198262),	-- Bottomless Stonecrust Ore Satchel
 			i(198550),	-- Bronze Fireflight
 			i(198172, {	-- Bundle of Fireworks
-				i(41427, {["timeline"] = {ADDED_3_0_2}}),		-- Dalaran Firework
-				}),
+				i(116147),	-- Alliance Firework
+				i(89893),	-- Autumn Flower Firework
+				i(198549),	-- Black Fireflight
+				i(198222),	-- Blue Fireflight
+				i(9312),	-- Blue Firework
+				i(198550),	-- Bronze Fireflight
+				i(88493),	-- Celestial Firework
+				i(41427),	-- Dalaran Firework
+				i(88491),	-- Grand Celebration Firework
+				i(198224),	-- Green Fireflight
+				i(9313),	-- Green Firework
+				i(116148),	-- Horde Firework
+				i(89888),	-- Jade Blossom Firework
+				i(34850),	-- Midsummer Ground Flower
+				i(198223),	-- Red Fireflight
+				i(9318),	-- Red Firework
+				i(5740),	-- Red Fireworks Rocket
+				i(9314),	-- Red Streaks Firework
+				i(9317),	-- Red, White and Blue Firework
+				i(87764),	-- Serpent's Heart Firework
+				i(19026),	-- Snake Burst Firework
+				i(116149),	-- Snake Firework
+				i(9315),	-- Yellow Rose Firework
+			}),
 			i(198253),	-- Calibrated Safety Switch+
 			i(198254),	-- Calibrated Safety Switch++
 			i(198255),	-- Calibrated Safety Switch+++
