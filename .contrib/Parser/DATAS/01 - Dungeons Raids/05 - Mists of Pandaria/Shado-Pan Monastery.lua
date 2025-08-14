@@ -441,6 +441,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						["groups"] = {
 							ach(60895),	-- Celestial: Shado-Pan Monastery
 							i(86777),	-- Screaming Tiger, Qiang's Unbreakable Polearm
+							i(86739),	-- Beads of the Mogu'shi
 						},
 					}),
 				},
