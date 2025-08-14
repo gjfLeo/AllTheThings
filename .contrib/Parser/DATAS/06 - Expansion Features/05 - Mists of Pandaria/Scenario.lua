@@ -134,7 +134,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					}),
 				}),
 			}),
-			applyclassicphase(MOP_PHASE_LANDFALL, m(451, {	-- Assault on Zan'vess
+			applyclassicphase(MOP_PHASE_ONE, m(451, {	-- Assault on Zan'vess
 				["timeline"] = { ADDED_5_1_0 },
 				["groups"] = {
 					n(ACHIEVEMENTS, {
