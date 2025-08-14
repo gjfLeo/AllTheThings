@@ -918,14 +918,19 @@ local function BuildTotalCost(group)
 
 	local Collector = app.Modules.Costs.GetCostCollector(group)
 
-	local function RefreshCollector(data, didUpdate)
+	local function RefreshCollector(window, didUpdate)
+		-- app.PrintDebug("RefreshCollector??",group.window.Suffix,window and app:SearchLink(window.data),didUpdate)
 		if not didUpdate then return end
-		if data then
-			-- don't process the refresh if there was a data provided to the event and it's a different window and not a Thing
-			if not data.__type and data ~= group.window then return end
+		if window then
+			-- don't process the refresh if it's a different window
+			if window ~= group.window then return end
+			-- don't update costs if the popout hasn't been filled yet
+			if not window.data._fillcomplete then return end
+		else
+			-- no window provided to event
+			return
 		end
 
-		-- app.PrintDebug("RefreshCollector",group.window.Suffix,data and (data.Suffix or app:SearchLink(data)))
 		wipe(costGroup.g)
 		Collector.ScanGroups(group, costGroup)
 	end
@@ -934,6 +939,8 @@ local function BuildTotalCost(group)
 	-- so that when the window is expired, we know to remove the necessary Handler(s)
 	if group.window then
 		group.window:AddEventHandler("OnWindowUpdated", RefreshCollector)
+		-- when called from window fill complete, force it to appear as an update
+		group.window:AddEventHandler("OnWindowFillComplete", function(window) RefreshCollector(window, true) end)
 	end
 
 	-- Add the cost group to the popout
