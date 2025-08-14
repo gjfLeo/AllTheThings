@@ -166,6 +166,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							i(87777),	-- Astral Cloud Serpent (MOUNT!)
 							i(87786),	-- Black Riding Yak (MOUNT!)
 							i(87787),	-- Brown Riding Yak (MOP) / Modest Expedition Yak (Retail) (MOUNT!)
+							i(248741),	-- Celestial Riding Crane (MOUNT!)
 							i(248744),	-- Celestial Riding Ox (MOUNT!)
 							i(248743),	-- Celestial Riding Serpent (MOUNT!)
 							i(248742),	-- Celestial Riding Tiger (MOUNT!)
@@ -177,7 +178,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 
 							-- Unconfirmed (but speculated)
 							-- CRIEVE NOTE: I don't know who made this list, but half of them are from content that gets added later. I highly doubt they'd make them drop before they're supposed to.
-							--i(248741),	-- Celestial Riding Crane (MOUNT!)
 							--i(87793),	-- Jade Water Strider (MOUNT!)
 							-- i(87776),	-- Heavenly Azure Cloud Serpent (MOUNT!)
 							--i(87774),	-- Heavenly Golden Cloud Serpent (MOUNT!)
