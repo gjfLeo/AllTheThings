@@ -4299,10 +4299,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Keen Vermilion Onyx",
 					["recipeID"] = 107724
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Lucent Serpent's Eye",
 					["recipeID"] = 136270
-				},
+				}),
 				{
 					["name"] = "Lucent Tiger Opal",
 					["recipeID"] = 107655
@@ -4343,10 +4343,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Resolute Vermilion Onyx",
 					["recipeID"] = 107729
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Resplendent Serpent's Eye",
 					["recipeID"] = 136269
-				},
+				}),
 				{
 					["name"] = "Resplendent Tiger Opal",
 					["recipeID"] = 107660
@@ -4395,10 +4395,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Wicked Vermilion Onyx",
 					["recipeID"] = 107735
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Willful Serpent's Eye",
 					["recipeID"] = 136272
-				},
+				}),
 				{
 					["name"] = "Willful Tiger Opal",
 					["recipeID"] = 107667
@@ -4429,10 +4429,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Assassin's Roguestone",
 					["recipeID"] = 130656
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Assassin's Serpent's Eye",
 					["recipeID"] = 136274
-				},
+				}),
 				{
 					["name"] = "Defender's Imperial Amethyst",
 					["recipeID"] = 107694
@@ -4473,10 +4473,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Mysterious Roguestone",
 					["recipeID"] = 107633
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Mysterious Serpent's Eye",
 					["recipeID"] = 136275
-				},
+				}),
 				{
 					["name"] = "Purified Imperial Amethyst",
 					["recipeID"] = 107699
@@ -4517,10 +4517,10 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Tense Roguestone",
 					["recipeID"] = 130655
 				},
-				{
+				applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 					["name"] = "Tense Serpent's Eye",
 					["recipeID"] = 136273
-				},
+				}),
 				{
 					["name"] = "Timeless Imperial Amethyst",
 					["recipeID"] = 107703
