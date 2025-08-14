@@ -795,13 +795,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(91016, name(HEADERS.Encounter, SALHADAAR)),	-- Loomithar
 		q(91017, name(HEADERS.Encounter, DIMENSIUS)),	-- Dimensius
 
+		q(91046, name(HEADERS.Item, 245510)),	-- Loombeast Silk chance per week (assumed -- also triggered on alt with no loot)
+
 		-- LFR
+		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(91010, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 
 		-- Normal
-		-- one of these might be LFR only?
-		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90978, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
-		q(91010, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(91021, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90982, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
 		q(91019, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
@@ -820,7 +821,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		-- q(??, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- Mythic
-
 
 	})),
 }));
