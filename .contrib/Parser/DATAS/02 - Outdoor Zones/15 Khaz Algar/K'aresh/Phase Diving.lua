@@ -155,6 +155,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 64.0, 43.6, KARESH },
 					["questID"] = 90596,
 					["groups"] = {
+						i(240214),	-- Miniature Reshii Sandgarden
 						i(240171),	-- Observer's Soul Fetters
 						i(240213),	-- Veiling Mana Shroud
 					},
@@ -179,7 +180,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90588,
 					["groups"] = {
 						i(244915),	-- Jimmy (PET!)
+						i(239472),	-- Reshii Brute's Breastplate
 						i(239450),	-- Reshii Magi's Gloves
+						i(239457),	-- Reshii Scout's Soles
 					},
 				}),
 				n(232127, {	-- Orith the Dreadful
@@ -196,17 +199,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90590,
 					["groups"] = {
 						i(239478),	-- Reshii Brute's Greatbelt
+						i(239449),	-- Reshii Magi's Slippers
 						i(239464),	-- Reshii Skirmisher's Brigandine
 					},
 				}),
 				n(232189, {	-- Revenant of the Wasteland
 					["coord"] = { 50.5, 64.6, KARESH },
 					["questID"] = 90591,
+					["groups"] = {
+						i(239476),	-- Reshii Brute's Greaves
+						i(239459),	-- Reshii Scout's Hood
+						i(239471),	-- Reshii Skirmisher's Armguards
+					},
 				}),
 				n(232129, {	-- Shadowhowl
 					["coord"] = { 54.1, 49.1, KARESH },
 					["questID"] = 90583,
 					["groups"] = {
+						i(239474),	-- Reshii Brute's Handguards
+						i(239452),	-- Reshii Magi's Leggings
 						i(239469),	-- Reshii Skirmisher's Pauldrons
 					},
 				}),
@@ -215,14 +226,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90585,
 					["groups"] = {
 						i(239453),	-- Reshii Magi's Spines
+						i(239458),	-- Reshii Scout's Grips
+						i(239465),	-- Reshii Skirmisher's Boots
 					},
 				}),
 				n(232193, {	-- Stalker of the Wastes
 					["coord"] = { 76.7, 42.0, KARESH },
 					["questID"] = 90592,
 					["groups"] = {
-						--- Junk item worth 50g. Only source of it for now.
-						i(246063),	-- Void-Polished Warpstalker Stone
+						i(239461),	-- Reshii Scout's Shoulderpads
+						i(239466),	-- Reshii Skirmisher's Gauntlets
+						i(246063),	-- Void-Polished Warpstalker Stone // Junk item worth 50g. Only source of it for now.
 					},
 				}),
 				n(234845, {	-- Sthaarbs <the Mindroiler>
@@ -241,6 +255,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["groups"] = {
 						i(245254),	-- Duskthief (PET!)
 						i(239479),	-- Reshii Brute's Vambraces
+						i(239454),	-- Reshii Magi's Cord
 						i(239467),	-- Reshii Skirmisher's Cowl
 					},
 				}),
@@ -249,6 +264,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90593,
 					["groups"] = {
 						i(246067),	-- Pearlescent Krolusk (MOUNT!)
+						i(239473),	-- Reshii Brute's Sollerets
+						i(239456),	-- Reshii Scout's Jerkin
+						i(239470),	-- Reshii Skirmisher's Sash
 					},
 				}),
 				n(232199, {	-- Xarran the Binder
@@ -257,6 +275,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["groups"] = {
 						i(239451),	-- Reshii Magi's Crown
 						i(239463),	-- Reshii Scout's Bracers
+						i(239468),	-- Reshii Skirmisher's Legguards
 					},
 				}),
 			})),

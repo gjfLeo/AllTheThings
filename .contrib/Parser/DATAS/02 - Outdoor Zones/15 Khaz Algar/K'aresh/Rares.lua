@@ -6,30 +6,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 		n(RARES, sharedData({
 			["isDaily"] = true,
 		},{
-			n(COMMON_BOSS_DROPS, {	-- Using this header as temp. Can These drop from all rares or is each one specific? //Braghe
-				i(239448),	-- Reshii Magi's Vestments
-				i(239449),	-- Reshii Magi's Slippers
-				i(239452),	-- Reshii Magi's Leggings
-				i(239454),	-- Reshii Magi's Cord
-				i(239456),	-- Reshii Scout's Jerkin
-				i(239457),	-- Reshii Scout's Soles
-				i(239458),	-- Reshii Scout's Grips
-				i(239459),	-- Reshii Scout's Hood
-				i(239461),	-- Reshii Scout's Shoulderpads
-				i(239462),	-- Reshii Scout's Belt
-				i(239465),	-- Reshii Skirmisher's Boots
-				i(239466),	-- Reshii Skirmisher's Gauntlets
-				i(239468),	-- Reshii Skirmisher's Legguards
-				i(239470),	-- Reshii Skirmisher's Sash
-				i(239471),	-- Reshii Skirmisher's Armguards
-				i(239472),	-- Reshii Brute's Breastplate
-				i(239473),	-- Reshii Brute's Sollerets
-				i(239474),	-- Reshii Brute's Handguards
-				i(239475),	-- Reshii Brute's Helmet
-				i(239476),	-- Reshii Brute's Greaves
-				i(246064),	-- Reshii Magi's Pendant
-				i(246065),	-- Reshii Magi's Band
-			}),
 			n(232098, {	-- "Chowdar" <Escaped Auction Parcel #8675308>
 				["coords"] = {	-- Runs between the coordinates
 					{ 81.9, 75.6, KARESH_TAZAVESH },
@@ -58,6 +34,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["provider"] = { "o", 517436 },	-- Vignette
 				["groups"] = {
 					i(239478),	-- Reshii Brute's Greatbelt
+					i(239454),	-- Reshii Magi's Cord
+					i(246064),	-- Reshii Magi's Pendant
+					i(239465),	-- Reshii Skirmisher's Boots
 					i(239469),	-- Reshii Skirmisher's Pauldrons
 				},
 			}),
@@ -72,6 +51,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 91276,
 				["groups"] = {
 					i(245272),	-- Heka'Tarnos, Bringer of Discord (PET!)
+					i(246065),	-- Reshii Magi's Band
+					i(246064),	-- Reshii Magi's Pendant
 				},
 			}),
 			n(238536, {	-- Hollowbane
@@ -90,8 +71,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
+					i(239475),	-- Reshii Brute's Helmet
 					i(240116),	-- Reshii Brute's Longsword
 					i(240115),	-- Reshii Brute's Warmace
+					i(239448),	-- Reshii Magi's Vestments
+					i(239462),	-- Reshii Scout's Belt
 				},
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
@@ -131,13 +115,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isDaily"] = IGNORED_VALUE,
 				["isWeekly"] = true,
 				["groups"] = {
+					i(239472),	-- Reshii Brute's Breastplate
+					i(239448),	-- Reshii Magi's Vestments
 					i(239460),	-- Reshii Scout's Breeches
+					i(239459),	-- Reshii Scout's Hood
+					i(239466),	-- Reshii Skirmisher's Gauntlets
 				},
 			}),
 			n(238135, {	-- Shatterpulse
 				["description"] = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 				["coord"] = { 49.2, 28.2, KARESH },
 				["questID"] = 90687,
+				["groups"] = {
+					i(239452),	-- Reshii Magi's Leggings
+				},
 			}),
 			n(235087, {	-- The Harvester
 				["description"] = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
@@ -154,6 +145,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(240118),	-- Reshii Brute's Spear
 					i(240113),	-- Reshii Magi's Dagger
 					i(240120),	-- Reshii Magi's Lantern
+					i(240117),	-- Reshii Magi's Wand
 					i(240112),	-- Reshii Scout's Blade
 					i(240111),	-- Reshii Skirmisher's Axe
 					i(240119),	-- Reshii Skirmisher's Staff
@@ -184,6 +176,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(239479),	-- Reshii Brute's Vambraces
+					i(246065),	-- Reshii Magi's Band
+					i(239461),	-- Reshii Scout's Shoulderpads
+					i(239457),	-- Reshii Scout's Soles
+					i(239470),	-- Reshii Skirmisher's Sash
 				},
 			}),
 		})),

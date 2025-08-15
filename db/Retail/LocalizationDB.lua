@@ -974,7 +974,6 @@ _.HeaderConstants = {
 	QUESTS = -45,
 	RAIDS = -77,
 	RARES = -46,
-	REMIX_LEGION = -104,
 	REMIX_MOP = -105,
 	REWARDS = -47,
 	SCENARIO_COMPLETION = -49,
@@ -1010,7 +1009,7 @@ _.HeaderConstants = {
 	ZULAMAN_CHEST_4 = -87,
 };
 _.HeaderData = {
-	IGNOREINMINILIST = {[-478]=1,[-420]=1,[-130]=1,[-105]=1,[-104]=1,[-77]=1,[-76]=1,[-49]=1},
+	IGNOREINMINILIST = {[-478]=1,[-420]=1,[-130]=1,[-105]=1,[-77]=1,[-76]=1,[-49]=1},
 	FILLNPCS = {[-98]=1,[-95]=1,[-94]=1,[-93]=1,[-90]=1,[-63]=1,[-47]=1,[-27]=1,[-22]=1,[-19]=1},
 };
 localize(L.HEADER_NAMES, {
@@ -1106,7 +1105,6 @@ localize(L.HEADER_NAMES, {
 	[-101] = AUCTION_CATEGORY_WEAPONS,
 	[-102] = INVTYPE_WRIST,
 	[-103] = "Expansion Pre-Launch",
-	[-104] = "Remix: Legion",
 	[-105] = "WoW Remix: Mists of Pandaria",
 	[-106] = "Winds of Mysterious Fortune",
 	[-115] = "Buildings",
@@ -1784,7 +1782,6 @@ localize(L.HEADER_ICONS, {
 	[-101] = _.asset("weapon_type_epic"),
 	[-102] = 132606,
 	[-103] = 134289,
-	[-104] = _.asset("category_remix"),
 	[-105] = _.asset("category_remix"),
 	[-106] = 6439633,
 	[-115] = 1005027,
@@ -2245,7 +2242,6 @@ localize(L.HEADER_EVENTS, {
 	[-37] = 1,
 	[-38] = 258,
 	[-70] = 239,
-	[-104] = 1525555,
 	[-105] = 437,
 	[-106] = 450,
 	[-476] = 444,
@@ -2390,7 +2386,6 @@ localize(L.EVENT_REMAPPING, {
 
 localize(L.EVENT_TIMERUNNING_SEASONS, {
 	[1] = 437,
-	[1] = 1525555,
 });
 
 -- Programmatic Event Scheduling
@@ -2502,9 +2497,6 @@ _.Modules.Events.SetEventInformation(444, {
 });
 _.Modules.Events.SetEventInformation(437, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=16,["weekday"]=5,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=20,["weekday"]=3,["year"]=2024})
-});
-_.Modules.Events.SetEventInformation(1525555, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=30,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=30,["weekday"]=1,["year"]=2025})
 });
 
 -- Filter Database Module
@@ -9991,6 +9983,7 @@ local ObjectNames = {
 	[407692] = "Igneous Flux",
 	[407739] = "Triflesnatch's Roving Trove",
 	[407862] = "Hidden Moonkin Stash",
+	[408054] = "Shiversnap Blossom",
 	[408060] = "The First Clue",
 	[408076] = "The Second Clue",
 	[408079] = "The Third Clue",
@@ -10118,6 +10111,7 @@ local ObjectNames = {
 	[413780] = "On the Nature of the Dream",
 	[413784] = "Self-Baking Herb Based Cookies",
 	[413787] = "The Tragedy of Erinethria",
+	[413902] = "Weeping Ironclaw",
 	[414113] = "Sivstone Deposit",
 	[414169] = "Mysterious Seeds",
 	[414199] = "Pile of Earthen Belongings",
@@ -17538,6 +17532,7 @@ local ObjectModels = {
 	[407692] = 77402,
 	[407739] = 1349622,
 	[407862] = 1327218,
+	[408054] = 1780102,
 	[408060] = 4324473,
 	[408076] = 4324473,
 	[408079] = 4324473,
@@ -17663,6 +17658,7 @@ local ObjectModels = {
 	[413780] = 4861837,
 	[413784] = 200904,
 	[413787] = 4861836,
+	[413902] = 5703608,
 	[414113] = 984875,
 	[414169] = 902296,
 	[414199] = 5348714,
@@ -22653,6 +22649,7 @@ localize(L.HEADER_NAMES, {
 	[-401] = "Grenze des Äons",
 	[-403] = "Gewölbe von Zskera",
 	[-404] = "Schnüffelsuchen",
+	[-407] = "Nachtsturz",
 	[-414] = "Elementare Bande",
 	[-415] = "Trollinvasion",
 	[-416] = "Schlachtfeld: Brachland",
@@ -27863,6 +27860,7 @@ localize(ObjectNames, {
 	[407192] = "Schankfass",
 	[407199] = "Schankfass",
 	[407201] = "Schankfass",
+	[408054] = "Schauderschnappblüte",
 	[408107] = "Kristalline Leuchtblüte",
 	[408224] = "Hastig beschriebener Stein",
 	[408706] = "Magische Blüte",
@@ -27973,6 +27971,7 @@ localize(ObjectNames, {
 	[413780] = "Über das Wesen des Traums",
 	[413784] = "Selbstbackende Kekse auf Kräuterbasis",
 	[413787] = "Die Tragödie von Erinethria",
+	[413902] = "Heulende Eisenklaue",
 	[414113] = "Sivsteinvorkommen",
 	[414169] = "Geheimnisvolle Samen",
 	[414199] = "Haufen Irdeneneigentum",
@@ -29089,6 +29088,7 @@ localize(L.HEADER_NAMES, {
 	[-401] = "marges des Éons",
 	[-403] = "Caveaux de Zskera",
 	[-404] = "Recherches olfactives",
+	[-407] = "Noctechute",
 	[-414] = "Liens élémentaires",
 	[-415] = "L’incursion trolle",
 	[-416] = "Champ de bataille : les Tarides",
@@ -34289,6 +34289,7 @@ localize(ObjectNames, {
 	[407192] = "Tonneau d’ardoise de bar",
 	[407199] = "Tonneau d’ardoise de bar",
 	[407201] = "Tonneau d’ardoise de bar",
+	[408054] = "Fleur de Frisséclat",
 	[408107] = "Lumiflore cristalline",
 	[408224] = "Pierre griffonnée à la hâte",
 	[408706] = "Floraison magique",
@@ -34391,6 +34392,7 @@ localize(ObjectNames, {
 	[413780] = "De la nature du Rêve",
 	[413784] = "Cookies auto préparés à base d’herbes",
 	[413787] = "La tragédie d’Érinéthria",
+	[413902] = "Griffefer larmoyant",
 	[414113] = "Dépôt de sivpierre",
 	[414169] = "Graines mystérieuses",
 	[414199] = "Tas de possessions terrestres",
@@ -35159,6 +35161,7 @@ localize(L.HEADER_NAMES, {
 	[-401] = "Confine degli Eoni",
 	[-403] = "Cripte di Zskera",
 	[-404] = "Il Fiutatutto",
+	[-407] = "Tramonto",
 	[-410] = "C.I.H.T.T.",
 	[-414] = "Legami Elementali",
 	[-415] = "L'incursione dei Troll",
@@ -39992,6 +39995,7 @@ localize(ObjectNames, {
 	[407192] = "Barilotto",
 	[407199] = "Barilotto",
 	[407201] = "Barilotto",
+	[408054] = "Bocciolo di Spezzabrividi",
 	[408107] = "Boccioluce Cristallino",
 	[408224] = "Pietra Scarabocchiata di Fretta",
 	[408706] = "Bocciolo Magico",
@@ -40073,6 +40077,7 @@ localize(ObjectNames, {
 	[413780] = "Sulla Natura del Sogno",
 	[413784] = "Biscotti alle Erbe Autocuocenti",
 	[413787] = "La Tragedia di Erinehria",
+	[413902] = "Grinfiaferro Piangente",
 	[414169] = "Semi Misteriosi",
 	[414199] = "Mucchio di Beni Terrigeni",
 	[414700] = "Zucchero Etereo",
@@ -40770,6 +40775,7 @@ localize(L.HEADER_NAMES, {
 	[-401] = "Orla do Eon",
 	[-403] = "Câmaras de Zskera",
 	[-404] = "Busca farejante",
+	[-407] = "Ocaso",
 	[-410] = "C.H.A.T.A.",
 	[-414] = "Prisão Elemental",
 	[-415] = "A incursão troll",
@@ -45845,6 +45851,7 @@ localize(ObjectNames, {
 	[407192] = "Barril na Conta",
 	[407199] = "Barril na Conta",
 	[407201] = "Barril na Conta",
+	[408054] = "Flor dos Arrepios",
 	[408107] = "Floraluz Cristalina",
 	[408224] = "Pedra Escrito às Pressas",
 	[408706] = "Floração Mágica",
@@ -45952,6 +45959,7 @@ localize(ObjectNames, {
 	[413780] = "Sobre a Natureza do Sonho",
 	[413784] = "Biscoitos Vegetais Autoassados",
 	[413787] = "A Tragédia de Erinethria",
+	[413902] = "Garraférrea Vertente",
 	[414113] = "Depósito de Sivolita",
 	[414169] = "Sementes Misteriosas",
 	[414199] = "Pilha de Pertences de Terrano",
@@ -52662,6 +52670,7 @@ localize(ObjectNames, {
 	[407192] = "Полная бочка",
 	[407199] = "Полная бочка",
 	[407201] = "Полная бочка",
+	[408054] = "Цветок Морозной Дрожи",
 	[408107] = "Кристаллический яркоцвет",
 	[408224] = "Наспех исцарапанный камень",
 	[408706] = "Магический цветок",
@@ -52771,6 +52780,7 @@ localize(ObjectNames, {
 	[413780] = "О природе Сна",
 	[413784] = "Самопекущееся печенье на травах",
 	[413787] = "Трагедия Эринетрии",
+	[413902] = "Плачущая когтесталь",
 	[414169] = "Таинственные семена",
 	[414199] = "Куча вещей земельников",
 	[414700] = "Эфирный сахар",
@@ -53562,6 +53572,7 @@ localize(L.HEADER_NAMES, {
 	[-401] = "영겁의 끝자락",
 	[-403] = "지스케라 금고",
 	[-404] = "냄새 추적",
+	[-407] = "일몰",
 	[-410] = "안.녕.거.기.",
 	[-414] = "정령의 속박",
 	[-415] = "트롤의 난입",
@@ -58375,6 +58386,7 @@ localize(ObjectNames, {
 	[407192] = "술집 외상 통",
 	[407199] = "술집 외상 통",
 	[407201] = "술집 외상 통",
+	[408054] = "오한아귀 꽃",
 	[408107] = "수정 광채꽃",
 	[408706] = "마법 꽃송이",
 	[408707] = "특이한 옹이",
@@ -58465,6 +58477,7 @@ localize(ObjectNames, {
 	[413780] = "꿈의 본질에 관하여",
 	[413784] = "알아서 구워지는 약초 쿠키",
 	[413787] = "에리네스리아의 비극",
+	[413902] = "흐느끼는 무쇠발톱",
 	[414169] = "신비한 씨앗",
 	[414199] = "토석인 소지품 더미",
 	[414700] = "실체 없는 설탕",
@@ -59185,6 +59198,7 @@ L.EVENT_SCHEDULE = "Horario del evento";
 L.EVENT_START = "Inicio:";
 L.EVENT_WHERE = "Dónde:";
 L.EXPAND_DIFFICULTY_CHECKBOX = "Expandir la dificultad actual";
+L.EXPAND_DIFFICULTY_CHECKBOX_TOOLTIP = "Activa esta opción si deseas expandir automáticamente solo los encabezados de dificultad coincidentes en la mini lista que corresponden a la dificultad activa al ingresar a una mazmorra o banda.\n\nEjemplo: expande solo el encabezado Heroico al ingresar a una mazmorra de dificultad Heroica.";
 L.EXPAND_MINILIST_CHECKBOX = "Expandir mini listas";
 L.EXPAND_MINILIST_CHECKBOX_TOOLTIP = "Habilite esta opción para expandir automáticamente todos los grupos contenidos en las mini listas cuando las vea por primera vez por sesión de juego.";
 L.EXPANSION_ID = "Expansión ID";
@@ -59489,6 +59503,7 @@ L.RECIPES_CHECKBOX = "Recetas";
 L.RECIPES_CHECKBOX_TOOLTIP = "Activa esta opción para rastrear recetas para tu profesión.\n\nNOTA: Debes abrir tu lista de profesiones para cargar la información de estas.";
 L.REFRESHING_COLLECTION = "Refrescando colección ...";
 L.RELOG_REQUIRED = "Después de usar esto, normalmente es necesario cerrar sesión e iniciar sesión para recolectar todos los elementos correctamente en los servidores del juego.";
+L.REMOTE_ZONES_DESCRIPTION = "Contiene contenido que está disponible en la Zona actual, pero que se obtiene directamente de otra Zona.";
 L.REMOVED_WITH_PATCH = "Eliminado en el Parche";
 L.REMOVED_WITH_PATCH_CLASSIC_FORMAT = "Esto se elimina con un parche %s";
 L.REMOVED_WITH_PATCH_FORMAT = "Eliminado en el parche %s";
@@ -59854,6 +59869,7 @@ localize(L.HEADER_NAMES, {
 	[-294] = "Equipo de Combatiente",
 	[-295] = "Equipo de Elite",
 	[-296] = "Equipo de Gladiador",
+	[-297] = "Equipo de Modo de guerra",
 	[-306] = "Sin calificación",
 	[-311] = "Todos los roles",
 	[-313] = "Sanador",
@@ -59887,6 +59903,8 @@ localize(L.HEADER_NAMES, {
 	[-401] = "Margen del Eón",
 	[-403] = "Cámaras de Zskera",
 	[-404] = "Olfatobúsqueda",
+	[-406] = "Pacto de Los Hilos Cortados",
+	[-407] = "Ocaso",
 	[-410] = "T.C.E.H.T.",
 	[-414] = "Vínculos Elementales",
 	[-415] = "La incursión trol",
@@ -60025,6 +60043,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 localize(L.HEADER_LORE, {
 	[-74] = "Uno de estos dragones aparecerá aleatoriamente en las coordenadas asociadas en todo Azeroth.",
 	[-318] = "Los conjuntos de clase del Conjunto de Mazmorra nivel 2, comúnmente conocidos como Tier 0.5, se obtienen al completar una larga cadena de misiones para mejorar el primer conjunto disponible como botín en las mazmorras del final del juego y convertirlo en versiones más poderosas. En el WoW actual, estos conjuntos son codiciados por los coleccionistas, ya que la cadena de misiones se eliminó por completo del juego con Cataclysm. ¡En WoW Classic, deberías completar esta cadena de misiones con todos tus personajes antes de esa fecha!",
+	[-389] = "Los siguientes objetos se pueden crear usando una Carga de la Eternidad en una Ficha de Armadura Atemporal para una dosis doble de RNG inútil.",
 });
 localize(ObjectNames, {
 	[31] = "Estatua de león antigua",
@@ -65061,6 +65080,7 @@ localize(ObjectNames, {
 	[407192] = "Barril de la cuenta",
 	[407199] = "Barril de la cuenta",
 	[407201] = "Barril de la cuenta",
+	[408054] = "Flor del escalofrío",
 	[408107] = "Brillaflor cristalina",
 	[408224] = "Piedra inscrita con prisas",
 	[408706] = "Flor mágica",
@@ -65159,6 +65179,7 @@ localize(ObjectNames, {
 	[413780] = "Sobre la naturaleza del Sueño",
 	[413784] = "Galletas de hierbas autococinables",
 	[413787] = "La tragedia de Erinethria",
+	[413902] = "Colmilloférreo supurante",
 	[414169] = "Semillas misteriosas",
 	[414199] = "Montón de pertenencias de los terráneos",
 	[414700] = "Azúcar etéreo",
@@ -65870,6 +65891,7 @@ L.DUNGEON_DIFF_DESC = "Ajuste de dificultad para calabozos.\n\nHaz click aquí p
 L.DUNGEON_DIFF_DESC_2 = "Este ajuste te permite personalizar la dificultad de un calabozo.\n\nHaz click en esta línea para volver al Asistente de Banda.";
 L.ENCOUNTER_ID = "ID de Encuentro";
 L.EVENT_ID = "ID de Evento";
+L.EXPAND_DIFFICULTY_CHECKBOX_TOOLTIP = "Activa esta opción si deseas expandir automáticamente solo los encabezados de dificultad coincidentes en la mini lista que corresponden a la dificultad activa al ingresar a un calabozo o banda.\n\nEjemplo: expande solo el encabezado Heroico al ingresar a un calabozo de dificultad Heroica.";
 L.EXPANSION_ID = "ID de Expansión";
 L.EXPLORATION_ID = "ID de Exploración";
 L.FACTION_DESC = "Haz click en este botón para seleccionar una facción aleatoria en función de lo que te falta.";
@@ -66120,6 +66142,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 localize(ObjectNames, {
 	[276623] = "Depósito rico en platino",
 	[403740] = "Tuerca broncelimpio",
+	[408054] = "Flor de Quiebrefrío",
 	[408912] = "Marcador avejentado",
 	[408914] = "Marcador avejentado",
 	[408915] = "Marcador avejentado",
@@ -66129,6 +66152,7 @@ localize(ObjectNames, {
 	[409302] = "Cristal de dispersión",
 	[411744] = "Barril de vino",
 	[412066] = "Piedra arrojadiza",
+	[413902] = "Garraférrea sollozante",
 	[414700] = "Azúcar etérea",
 	[416418] = "Suministro de semillas de cosecha",
 	[416968] = "Pesca de Petrocalmo",
@@ -71947,6 +71971,7 @@ localize(ObjectNames, {
 	[405593] = "艾泽拉斯档案馆！",
 	[406383] = "火焰之地传送门",
 	[407186] = "熟客酒桶",
+	[408054] = "瞬颤花",
 	[408107] = "晶化莹花",
 	[408706] = "魔法花朵",
 	[408707] = "奇怪的树节",
@@ -72033,6 +72058,7 @@ localize(ObjectNames, {
 	[413780] = "《论梦境的本质》",
 	[413784] = "自焙草药饼干",
 	[413787] = "《艾莉涅希亚的悲剧》",
+	[413902] = "低泣的镔爪矿",
 	[414169] = "神秘之种",
 	[414199] = "一堆土灵所有物",
 	[414700] = "虚渺之糖",
@@ -73380,6 +73406,7 @@ localize(L.HEADER_NAMES, {
 	[-355] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-386] = "奧卡茲島",
 	[-406] = "斷裂絲線合約",
+	[-407] = "夜暮激戰​事件",
 	[-408] = "甦醒機械",
 	[-414] = "元素桎梏",
 	[-415] = "食人妖入侵",
@@ -73572,6 +73599,7 @@ localize(ObjectNames, {
 	[387736] = "上古諸神和艾澤拉斯的創世",
 	[403458] = "無懼藥水",
 	[403740] = "淨銅螺栓",
+	[408054] = "碎顫花",
 	[408912] = "老舊的標記",
 	[408914] = "老舊的標記",
 	[408915] = "老舊的標記",
@@ -73581,6 +73609,7 @@ localize(ObjectNames, {
 	[409302] = "散射水晶",
 	[411744] = "一桶酒",
 	[412066] = "投擲石頭",
+	[413902] = "哀泣鐵爪礦",
 	[414700] = "以太蜜糖",
 	[416418] = "豐收之種補給",
 	[416449] = "茂盛的糖香蘭花",

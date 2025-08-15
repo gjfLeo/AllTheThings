@@ -1123,6 +1123,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			i(235615, { ["timeline"] = { ADDED_11_1_0 } }),	-- Rusty Gobjets
 			i(212164),	-- Shallow Nautic Helm
 			i(225067),	-- Shadowlit Haversack
+			i(238006, { ["timeline"] = { ADDED_11_2_0 } }),	-- Soulbearer's Censer
 			i(245528, { ["timeline"] = { ADDED_11_2_0 } }),	-- Wastelander's Phasebound Visor
 		}),
 		filter(MISC, {
@@ -1660,28 +1661,32 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		filter(MISC, {
+			i(227794),	-- Archaic Cipher Key (QI!/QS!)
+			i(248764, { ["timeline"]={ ADDED_11_2_0 } }),	-- Artisanal Blink Trap
+			i(223287),	-- Atomized Salien Slime
 			i(228942),	-- Bountiful Coffer
+			i(218121),	-- Candle Light
 			i(224181),	-- Companion Experience (Tier 1-2)
 			i(224411),	-- Companion Experience (Tier 3)
 			i(224412),	-- Companion Experience (every tier)
-			i(239502, {["timeline"]={ ADDED_11_1_5 }}),	-- Big Wheel of Cheese (Hidden Cache)
-			i(227784, {["timeline"]={ REMOVED_11_1_0_SEASONSTART }}),	-- Delver's Bounty
-			i(233071, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },["isWeekly"]=true}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
-			i(235628, {["timeline"]={ ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }}),	-- Delver's Bounty (Delve reward UI)
+			i(239502, { ["timeline"]={ ADDED_11_1_5 } }),	-- Big Wheel of Cheese (Hidden Cache)
+			i(227784, { ["timeline"]={ REMOVED_11_1_0_SEASONSTART } }),	-- Delver's Bounty
+			i(233071, { ["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },["isWeekly"]=true }),	-- Delver's Bounty (actual item)
+			i(235628, { ["timeline"]={ ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }),	-- Delver's Bounty (Delve reward UI)
+			i(248142, { ["timeline"]={ ADDED_11_2_0_SEASONSTART },["isWeekly"]=true }),	-- Delver's Bounty (actual item)
+			i(226132),	-- Deployable Recovery Keg
+			i(226110),	-- Elemental Fusion Bomb
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
+			i(226107),	-- Homebrewed Blink Vial
+			i(248954, { ["timeline"]={ ADDED_11_2_0 } }),	-- Nether-warped Seedlings
 			i(222916),	-- Player Experience (Tier 1-2)
 			i(222917),	-- Player Experience (Tier 3)
-			i(222927),	-- Weathered Coin Coffer
-			i(223287),	-- Atomized Salien Slime
-			i(227794),	-- Archaic Cipher Key (QI!/QS!)
-			i(218121),	-- Candle Light
-			i(226132),	-- Deployable Recovery Keg
-			i(226110),	-- Elemental Fusion Bomb
-			i(226107),	-- Homebrewed Blink Vial
 			i(225249),	-- Rattling Bag'o'gold
+			i(248755, { ["timeline"]={ ADDED_11_2_0 } }),	-- Star-in-a-jar
 			i(226109),	-- Squirming Swarm Sac
+			i(222927),	-- Weathered Coin Coffer
 			--
 			i(226002),	-- Expensive-Looking Find (was looted from Sturdy Chest (objectID) 454091)
 			i(226003),	-- Snake Oil (was looted from Sturdy Chest (objectID) 454091, 455496)
@@ -2199,9 +2204,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		n(245938, {	-- Flickergate
 			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
-				i(248764),	-- Artisanal Blink Trap
 				i(245885),	-- Lil Wheel of Cheese
-				i(248954),	-- Nether-warped Seedlings (also from Nemesis Strongbox s3)
 				i(245524),	-- Shadowguard's Phasebound Visor (COSMETIC!)
 				n(248481),	-- Ky'veza's Shadow Clone (TODO: remove if nothing will be with it)
 			},
@@ -2243,6 +2246,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["groups"] = {
 				i(218126),	-- Befouler's Syringe
 				i(246071),	-- Mana-Seamster's Arcane-Needle
+				i(238001),	-- Rod of the Unwoven
 			},
 		}),
 		o(567732, {	-- Kaja'6-Pack (Curio Spawned)
@@ -2286,16 +2290,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 				}),
 				-- No new objectID atm
-				i(248764, {	-- Artisanal Blink Trap
-					["timeline"] = { ADDED_11_2_0 },
-				}),
 				i(244193, {	-- L00T RAID-R Mini
 					["timeline"] = { ADDED_11_2_0 },
 				}),
 				i(248017, {	-- Shrieking Quartz
-					["timeline"] = { ADDED_11_2_0 },
-				}),
-				i(248755, {	-- Star-in-a-jar
 					["timeline"] = { ADDED_11_2_0 },
 				}),
 			},
@@ -3998,12 +3996,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 	n(DELVES, applyDataSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 		n(BOUNTIFUL, {	-- Bountiful Delve runs
 			q(82944),	-- Earthcrawl Mines
-			q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
+			q(85187, { ["timeline"]={ ADDED_11_1_0 }  }),	-- Excavation Site 9
 			q(82939),	-- Fungal Folly
 			q(82941),	-- Kriegval's Rest
 			q(82940),	-- Mycomancer Cavern
 			q(82777),	-- Nightfall Sanctum
-			q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
+			q(85668, { ["timeline"]={ ADDED_11_1_0 } }),	-- Sidestreet Sluice
 			q(78508),	-- Skittering Breach
 			q(82776),	-- Tak-Rethan Abyss
 			q(82938),	-- The Dread Pit
@@ -4016,7 +4014,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(83318),	-- Assembly of the Deeps
 			q(83319),	-- Severed Threads
 			q(83320),	-- Hallowfall Arathi
-			q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Undermine Cartel
+			q(87407, { ["timeline"]={ ADDED_11_1_0 } }),	-- Undermine Cartel
+			q(91453, { ["timeline"]={ ADDED_11_2_0_SEASONSTART } }),	-- K'aresh Trust
 		}),
 		n(DELVES_TWW_S1, {
 			--Delver's Journey Rewards
@@ -4054,16 +4053,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			q(85210),	-- Delve-O-Bot 7001 (spellID 467097)
 			q(85206),	-- Warbound Equipment Set (spellID 467089)
 			q(85205),	-- Discounted Restored Coffer Key (spellID 467087)
-
-			-- q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter) [linked to Item]
+			--q(86371, { ["timeline"] = { ADDED_11_1_7 } } ),	-- Delver's Bounty weekly lockout (source doesn't matter) [linked to Item]
 			q(86438),	-- Opened first Nemesis Strongbox (first purple on account)
 			-- Underpin Invasion
-			q(87287, {["isWeekly"] = true}),	-- after opening Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
+			q(87287, { ["isWeekly"] = true} ),	-- after opening Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 			--- Overcharged Delves
 			-- Belt unlocks
-			q(90945, {["timeline"]={ADDED_11_1_7}}),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
-			q(90946, {["timeline"]={ADDED_11_1_7}}),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
-			q(90952, {["timeline"]={ADDED_11_1_7}}),	-- Energy Shield ability (spellID 1238258); after learning Titan Force Shield (spellID 1225004) in delve console
+			q(90945, { ["timeline"]= { ADDED_11_1_7 } }),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
+			q(90946, { ["timeline"]= { ADDED_11_1_7 } }),	-- Learn 1st and 2nd Durable Information Storage Container Abilities (spellID 1239198)
+			q(90952, { ["timeline"]= { ADDED_11_1_7 } }),	-- Energy Shield ability (spellID 1238258); after learning Titan Force Shield (spellID 1225004) in delve console
 		})),
 		n(DELVES_TWW_S3, applyDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
 			-- Delver's Journey Rewards
@@ -4085,8 +4083,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 			--q(89041),	-- Purchaseable Rare Delve Key - 2 (spellID 1225597) (itemID 238527)
 			--q(91783),	-- Delver's Cosmetic Surprise Bag (spellID 1246295) (itemID 248127)
 			--q(91784),	-- Delver's Starter Kit (spellID 1246296) (itemID 248126)
-			-- ??
-			--q(91453),	-- after completion 4th bountiful delve per day / new bonus rep hqt / reset on weekly
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve

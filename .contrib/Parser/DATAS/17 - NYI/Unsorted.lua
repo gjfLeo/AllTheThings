@@ -2454,11 +2454,9 @@ root(ROOTS.Unsorted, {
 				i(237998),	-- Void Assassin's Ritual Blade
 				i(237999),	-- Battered Matter Destabilizer
 				i(238000),	-- Mana Manipulator
-				i(238001),	-- Rod of the Unwoven
 				i(238002),	-- Wanderer's Projectile Accelerator
 				i(238003),	-- Wyrmhunter's Skewer
 				i(238004),	-- Exile's Beacon
-				i(238006),	-- Soulbearer's Censer
 				i(238008),	-- Wastelander's Folly
 
 				-- Delve Armor?
@@ -2855,8 +2853,6 @@ root(ROOTS.Unsorted, {
 				i(239204),	-- (DNT NEEDS CRESTS) Overflowing K'aresh Trove
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
-				-- Delve
-				i(248142),	-- Delver's Bounty
 
 				-- Valorstone
 				i(239594),	-- Crimson Valorstone
@@ -3044,7 +3040,6 @@ root(ROOTS.Unsorted, {
 				-- Brewfest
 				i(245946),	-- Brewer's Balloon
 			}),
-			i(248916),	-- Untethered Seer's Capelet
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
 			i(249030),	-- Omega Oyster Outbreak
 			i(249235),	-- Bottomless Bag of Entropy
@@ -3065,7 +3060,6 @@ root(ROOTS.Unsorted, {
 			i(249858),	-- Brewer's Basic Belt
 			i(249859),	-- Brewer's Green Belt
 			i(249860),	-- Brewer's Black Belt
-			i(250082),	-- T'uure, Remnant of the Naaru
 			i(250706),	-- The Horseman's Hallowed Cowl
 			i(250707),	-- The Horseman's Burning Cowl
 			i(250708),	-- The Horseman's Ghoulish Cowl
@@ -3081,19 +3075,6 @@ root(ROOTS.Unsorted, {
 
 			i(231821),	-- Makeshift Explosives
 			i(232517),	-- Biome Eco-Stabilizer
-			i(233222),	-- Nullbomb
-			i(237009),	-- Zo'kita Safety Gear
-			i(240111),	-- Reshii Skirmisher's Axe
-			i(240112),	-- Reshii Scout's Blade
-			i(240113),	-- Reshii Magi's Dagger
-			i(240114),	-- Reshii Skirmisher's Morningstar
-			i(240115),	-- Reshii Brute's Warmace
-			i(240116),	-- Reshii Brute's Longsword
-			i(240117),	-- Reshii Magi's Wand
-			i(240118),	-- Reshii Brute's Spear
-			i(240119),	-- Reshii Skirmisher's Staff
-			i(240120),	-- Reshii Magi's Lantern
-			i(240121),	-- Reshii Brute's Barrier
 			i(246732),	-- Void-Forged Overseer
 			i(246892),	-- Void's Binding Wraps
 			i(246893),	-- Void's Binding Briefs
@@ -5375,7 +5356,6 @@ root(ROOTS.Unsorted, {
 			i(169986),	-- Cracked Dragonscale
 			i(169987),	-- Inert Dragonscale
 			i(170000),	-- Battered Bastion
-			i(170001),	-- Seized Engine
 			i(170002),	-- Split Differential
 			i(170003),	-- Grinding Gearbox
 			i(170004),	-- Cracked Turbo

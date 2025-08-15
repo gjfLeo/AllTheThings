@@ -560,10 +560,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 						["provider"] = { "i", 245743 },	-- A Curious Crystalline Fragment (QS!)
 						["classes"] = { PRIEST },
 					}),
+					q(91138, {	-- I am the Creator and Destroyer
+						["sourceQuest"] = 91140,	-- A Piece of the Past
+						["classes"] = { PRIEST },
+						["groups"] = { i(250082) },	-- T'uure, Remnant of the Naaru (COSMETIC!)
+					}),
 					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
 						["name"] = "Stay awhile and listen: Alleria Windrunnner",
 						["description"] = "After defeating Dimensius",
-						["provider"] = { "n", 242456 },	-- Alleria Windrunnner
+						["qg"] = 242456,	-- Alleria Windrunnner
 					}),
 				}),
 				BossOnly(PLEXUS),
@@ -589,9 +594,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}),
 				}),
 				BossOnly(DIMENSIUS, {
+					i(234273),	-- A Dimmed Crystal (QS!)
+					i(245743),	-- A Curious Crystalline Fragment (QS!)
 					i(246565),	-- Cosmic Hearthstone (TOY!)
 					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
-					i(245743),	-- A Curious Crystalline Fragment
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
@@ -662,7 +668,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				Boss(FRACTILLUS),
 				Boss(SALHADAAR),
 				Boss(DIMENSIUS, {
-					i(234273),	-- A Dimmed Crystal (QS!)
 					i(237602, {	-- Hungering Void Curio
 						["sym"] = {{"sub","instance_tier",1302,DIFFICULTY.RAID.NORMAL}},
 						["up"] = IGNORED_VALUE,
@@ -818,11 +823,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 
 		-- Heroic
 		q(90979, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
-
 		q(90983, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
-
 		q(90991, name(HEADERS.NPC, 245617)),	-- The Bone Melter
-
 		q(90987, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- Mythic
