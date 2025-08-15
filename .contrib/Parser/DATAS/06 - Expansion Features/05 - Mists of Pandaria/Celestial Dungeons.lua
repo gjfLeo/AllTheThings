@@ -115,7 +115,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					currency(3350),	-- August Stone Fragment
 				},
 			}, {
-				q(91701),	-- A Celestial Challenge: Darkmaster Gandling
+				q(91702),	-- A Celestial Challenge: Darkmaster Gandling
 				q(91706),	-- A Celestial Challenge: Durand
 				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
 				q(91710),	-- A Celestial Challenge: Raigonn
