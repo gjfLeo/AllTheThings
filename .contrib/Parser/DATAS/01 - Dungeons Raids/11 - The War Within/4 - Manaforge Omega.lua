@@ -823,7 +823,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 
 		q(90991, name(HEADERS.NPC, 245617)),	-- The Bone Melter
 
-		-- q(??, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
+		q(90987, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- Mythic
 
