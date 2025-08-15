@@ -2369,30 +2369,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 	}),
 	prof(MINING, {
-		header(HEADERS.Spell, 2575, {	-- Mining
-			i(210933),	-- Aqirite+
-			i(210934),	-- Aqirite++
-			i(210935),	-- Aqirite+++
-			i(210930),	-- Bismuth+
-			i(210931),	-- Bismuth++
-			i(210932),	-- Bismuth+++
-			i(213610),	-- Crystalline Powder
-			i(217707),	-- Imperfect Null Stone
-			i(210936),	-- Ironclaw Ore+
-			i(210937),	-- Ironclaw Ore++
-			i(210938),	-- Ironclaw Ore+++
-			i(238201, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+
-			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus++
-			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+++
-			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
-			i(246504, {["timeline"]={ADDED_11_2_0}}),	-- Inscrutable Ore (QS!)
-			i(224838),	-- Null Sliver
-			i(210939),	-- Null Stone
-			i(224583),	-- Slab of Slate
-			i(224584),	-- Erosion Polished Slate
-			i(213611),	-- Writhing Sample
-		}),
 		n(DISCOVERY, {
+			-- TODO: link to objects which provide, maybe using new sources tech eventually
 			r(439713, {	-- Aqirite Seam
 				["description"] = "Best farmed in 'The Underkeep' Delve during a story that allows ores to spawn. The first room on the right can an Aqirite Seam.\n\nCan also be found very very rarely in Caves in Hallowfall & Ajzkahet as well as in the Sinkhole, Skittering Breach and Underkeep Delve",
 				["maps"] = { HALLOWFALL, AZJ_KAHET, THE_SINKHOLE, SKITTERING_BREACH, THE_UNDERKEEP,}
@@ -2425,7 +2403,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			r(439729),	-- Webbed Ironclaw
 			r(439719),	-- Weeping Aqirite
 			r(439718),	-- Weeping Bismuth
-			r(439720),	-- Weeping Ironclaw
+			r(439720, {providers={{"o",413902}}}),	-- Weeping Ironclaw
 		}),
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = MINING,
@@ -2461,6 +2439,34 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(92134, 1250351, ADDED_11_2_0);	-- Desolate Deposit
 			FirstCraft(92135, 1250356, ADDED_11_2_0);	-- Rich Desolate Deposit
 		})),
+		-- Gathered Items
+		i(210933),	-- Aqirite+
+		i(210934),	-- Aqirite++
+		i(210935),	-- Aqirite+++
+		i(210930),	-- Bismuth+
+		i(210931),	-- Bismuth++
+		i(210932),	-- Bismuth+++
+		i(213610),	-- Crystalline Powder
+		i(217707),	-- Imperfect Null Stone
+		i(210936),	-- Ironclaw Ore+
+		i(210937),	-- Ironclaw Ore++
+		i(210938),	-- Ironclaw Ore+++
+		i(238201, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+
+		i(238212, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus++
+		i(238213, {["timeline"]={ADDED_11_2_0}}),	-- Desolate Talus+++
+		i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
+		i(246504, {["timeline"]={ADDED_11_2_0}}),	-- Inscrutable Ore (QS!)
+		i(224838),	-- Null Sliver
+		i(210939),	-- Null Stone
+		i(224583),	-- Slab of Slate
+		i(224584),	-- Erosion Polished Slate
+		i(213611),	-- Writhing Sample
+		-- Gatherable Objects
+		-- TODO: add the rest
+		o(413902, {	-- Weeping Ironclaw
+			["description"] = "Has a chance to spawn only in a few Delves.",
+			["maps"] = { SKITTERING_BREACH, THE_UNDERKEEP, TAK_RETHAN_ABYSS },
+		}),
 	}),
 	prof(SKINNING, {
 		n(FIRST_CRAFTS_HEADER, sharedData({
