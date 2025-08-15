@@ -554,8 +554,8 @@ REMOVED_11_2_0 = "removed 11.2.0.62417";				-- The War Within 11.2.0 launch on A
 CREATED_11_2_0_SEASONSTART = "created 11.2.0.62493";	-- The War Within 11.2.0 Season 3 launch on August 12th, 2025
 ADDED_11_2_0_SEASONSTART = "added 11.2.0.62493";		-- The War Within 11.2.0 Season 3 launch on August 12th, 2025
 REMOVED_11_2_0_SEASONSTART = "removed 11.2.0.62493";	-- The War Within 11.2.0 Season 3 launch on August 12th, 2025
-ADDED_LEGION_REMIX = "added 11.2.5.62554";				-- Legion Remix launch on --
-REMOVED_LEGION_REMIX_END = "removed 11.2.5.99999";		-- Legion Remix ends on --
+ADDED_LEGION_REMIX = "added 11.2.5.99999";				-- Legion Remix launch on October 7th, 2025
+REMOVED_LEGION_REMIX_END = "removed 11.2.7.99999";		-- Legion Remix ends on January 19th, 2026
 
 CREATED_11_2_5 = "created 11.2.5";						-- The War Within 11.2.5 launch in autumn 2025
 ADDED_11_2_5 = "added 11.2.5";							-- The War Within 11.2.5 launch in autumn 2025
