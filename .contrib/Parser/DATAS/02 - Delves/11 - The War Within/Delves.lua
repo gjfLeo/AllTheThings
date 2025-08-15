@@ -1091,6 +1091,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(234217, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Funhouse Lens
 				i(235984, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Garbagemancer's Last Resort
 				i(246945, { ["timeline"] = { ADDED_11_2_0 } }),	-- Incorporeal Essence-Gorger
+				i(246940, { ["timeline"] = { ADDED_11_2_0 } }),	-- Manaforged Aethercell
 				i(246944, { ["timeline"] = { ADDED_11_2_0 } }),	-- Mind-Fracturing Odium
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife

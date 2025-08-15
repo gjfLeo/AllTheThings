@@ -2506,7 +2506,6 @@ root(ROOTS.Unsorted, {
 				i(238008),	-- Wastelander's Folly
 
 				-- Delve Armor?
-				i(246940),	-- Manaforged Aethercell
 				i(246947),	-- Twisted Mana Sprite
 				-- Mechagon Junkyard?
 				i(241239),	-- Epaulets of Arcing Power
