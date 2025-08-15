@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(232467, {	-- Crystallized Anima (QS!)
-						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240116),	-- Reshii Brute's Longsword
@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238663, {	-- Crystallized Anima (QS!)
-						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240118),	-- Reshii Brute's Spear
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238664, {	-- Crystallized Anima (QS!)
-						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier
@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["isWeekly"] = true,
 				["groups"] = {
 					i(238665, {	-- Crystallized Anima (QS!)
-						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Doing this will grant you Instant World Quest completion.",
+						["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					}),
 					i(246240),	-- Devoured Energy-Pod
 					i(240121),	-- Reshii Brute's Barrier

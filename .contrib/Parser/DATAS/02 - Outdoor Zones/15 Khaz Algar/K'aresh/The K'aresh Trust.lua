@@ -56,8 +56,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				header(HEADERS.Item, 242733, bubbleDownSelf({ 	-- Blue Barry (Ba'eth's Request Storyline)
 					["minReputation"] = { FACTION_THE_KARESH_TRUST, 9 },	-- The K'aresh Trust Renown 9
 				},{
-					-- Exo Note: On PTR, quests are locked behind a daily HQT, I suspect this will be changed to a weekly lockout when patch goes Live
-					-- Day 1: 1st; Day 2: 2nd; Day 3: 3rd and 4th; Day 4: 5th and 6th	When confirmed or disproven, remove the note (and set a proper description?)
+					-- Quests have daily lockout.
+					-- Day 1: 1st; Day 2: 2nd; Day 3: 3rd and 4th; Day 4: 5th and 6th
 					q(90663, {	-- Stealing What is Ours
 						["provider"] = { "n", 238016 },	-- Ba'eth
 						["coord"] = { 57.6, 58.1, KARESH_TAZAVESH },
