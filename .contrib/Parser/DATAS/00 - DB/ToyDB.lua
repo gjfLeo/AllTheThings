@@ -1488,3 +1488,14 @@ i(245970);	-- P.O.S.T. Master's Express Hearthstone
 i(242534);	-- Azure Sea Skiff
 i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher
+
+------------------
+-- PATCH 11.2.5 --
+------------------
+-- #if AFTER 11.2.5
+i(141605);	-- Flight Master's Whistle
+i(131717);	-- Starlight Beacon
+i(138111);	-- Stormforged Grapple Launcher
+-- #endif
+
+--- UNSORTED ---
