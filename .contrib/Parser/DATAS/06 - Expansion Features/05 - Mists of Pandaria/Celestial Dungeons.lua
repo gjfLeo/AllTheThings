@@ -187,9 +187,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							-- i(94228),	-- Cobalt Primordial Direhorn (MOUNT!)
 
 							-- Pets
-							i(89587),	-- Porcupette (PET!)
+							i(86563),	-- Aqua Strider (PET!)
 							i(86564),	-- Imbued Jade Fragment (PET!)
 							i(88148),	-- Jade Crane Chick (PET!)
+							i(89587),	-- Porcupette (PET!)
 							i(94595),	-- Spawn of G'nathus (PET!)
 						})),
 						--frags(10, i(248329)),	-- Satchel of Stone Fragments
