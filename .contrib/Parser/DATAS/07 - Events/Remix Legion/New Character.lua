@@ -1,53 +1,74 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
---[[
+
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(NEW_CHARACTER, {
-		cl(DEATHKNIGHT, {
-			
+		filter(CLOTH, {
+			i(240565),	-- Vileweave Footwraps
+			i(240566),	-- Vileweave Leggings
+			i(240568),	-- Vileweave Robe
 		}),
-		cl(DEMONHUNTER, {
-			
+		filter(LEATHER, {
+			i(240232),	-- Gladeraider's Chestguard
+			i(240224),	-- Gladeraider's Pants
+			i(240233),	-- Gladeraider's Waders
 		}),
-		cl(DRUID, {
-			
+		filter(MAIL, {
+			i(240552),	-- Ered'ruin Haubergeon
+			i(240550),	-- Ered'ruin Legguards
+			i(240549),	-- Ered'ruin Sabatons
 		}),
-		cl(EVOKER, {
-			
-		}),
-		cl(HUNTER, {
-			
-		}),
-		cl(MAGE, {
-			
-		}),
-		cl(MONK, {
-			
-		}),
-		cl(PALADIN, {
-			
-		}),
-		cl(PRIEST, {
-			
-		}),
-		cl(ROGUE, {
-			
-		}),
-		cl(SHAMAN, {
-			
-		}),
-		cl(WARRIOR, {
-			
-		}),
-		cl(WARLOCK, {
-			
+		filter(PLATE, {
+			i(240688),	-- Nar'thalas Graduate's Breastplate
+			i(240690),	-- Nar'thalas Graduate's Legguards
+			i(240691),	-- Nar'thalas Graduate's Sabatons
 		}),
 		n(REWARDS, {
-			["description"] = "These items are in the box you get when you make a new character. Their IDs are different than the starter gear that is on you!",
+			["description"] = "These items are in the box you get when you make a new character.",
 			["groups"] = {
-				-- TODO: The users would benefit from knowing what class to make to access these rewards. Description could be used to clarify this easily.
-				
+				i(243373),	-- Timerunner's Weaponry
+				filter(BOWS, {
+					i(243369, {	-- Timerunner's Bow
+						["classes"] = { HUNTER },
+					}),
+				}),
+				filter(DAGGERS, {
+					i(243368, {	-- Timerunner's Dagger
+						["classes"] = { ROGUE },
+					}),
+				}),
+				filter(MISC, {
+					i(250411),	-- Timerunner's Hearthstone
+				}),
+				filter(ONE_HANDED_AXES, {
+					-- No axes to grind...
+				}),
+				filter(ONE_HANDED_MACES, {
+					i(243372, {	-- Timerunner's Mace
+						["classes"] = { DEMONHUNTER, DRUID, MONK, PALADIN, PRIEST, ROGUE, SHAMAN, WARRIOR },
+					}),
+				}),
+				filter(ONE_HANDED_SWORDS, {
+					i(243371, {	-- Timerunner's Sword (DH, DK, Mage, Monk, Paladin, Rogue, Warrior, Warlock)
+						["classes"] = { DEMONHUNTER, DEATHKNIGHT, MAGE, MONK, PALADIN, ROGUE, WARRIOR, WARLOCK },
+					}),
+				}),
+				filter(SHIELDS, {
+					i(243367, {	-- Timerunner's Shield (Paladin, Shaman, Warrior)
+						["classes"] = { PALADIN, SHAMAN, WARRIOR },
+					}),
+				}),
+				filter(STAVES, {
+					i(243366, {	-- Timerunner's Staff (Druid, Hunter, Mage, Monk, Priest, Shaman, Warrior, Warlock)
+						["classes"] = { DRUID, HUNTER, MAGE, MONK, PRIEST, SHAMAN, WARRIOR, WARLOCK },
+					}),
+				}),
+				filter(TWO_HANDED_SWORDS, {
+					i(243370, {	-- Timerunner's Greatsword (DK, Paladin, Warrior)
+						["classes"] = { DEATHKNIGHT, PALADIN, WARRIOR },
+					}),
+				}),
 			},
 		}),
 	}),
@@ -57,4 +78,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		
 	})),
-})));--]]
+})));

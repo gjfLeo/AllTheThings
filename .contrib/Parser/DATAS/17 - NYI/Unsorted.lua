@@ -379,7 +379,6 @@ root(ROOTS.Unsorted, {
 			i(240221),	-- Dreamweald Dragonscale Waistband
 			i(240222),	-- Gladeraider's Wristguards
 			i(240223),	-- Gladeraider's Shoulderguard
-			i(240224),	-- Gladeraider's Pants
 			i(240225),	-- Gladeraider's Cap
 			i(240226),	-- Gladeraider's Grips
 			i(240227),	-- Nightrune Cinch
@@ -387,8 +386,6 @@ root(ROOTS.Unsorted, {
 			i(240229),	-- Highpeak Dragonscale Epaulets
 			i(240230),	-- Highpeak Dragonscale Wargreaves
 			i(240231),	-- Highpeak Dragonscale Faceguard
-			i(240232),	-- Gladeraider's Chestguard
-			i(240233),	-- Gladeraider's Waders
 			i(240234),	-- Gladeraider's Girdle
 			i(240235),	-- Highpeak Dragonscale Grips
 			i(240236),	-- Highpeak Dragonscale Chainmail
@@ -639,10 +636,7 @@ root(ROOTS.Unsorted, {
 			i(240546),	-- Xorothian Helmet
 			i(240547),	-- Ered'ruin Gauntlets
 			i(240548),	-- Ered'ruin Vambraces
-			i(240549),	-- Ered'ruin Sabatons
-			i(240550),	-- Ered'ruin Legguards
 			i(240551),	-- Ered'ruin Girdle
-			i(240552),	-- Ered'ruin Haubergeon
 			i(240553),	-- Ered'ruin Pauldrons
 			i(240554),	-- Ered'ruin Helm
 			i(240555),	-- Netherfiend Gloves
@@ -655,10 +649,7 @@ root(ROOTS.Unsorted, {
 			i(240562),	-- Netherfiend Helm
 			i(240563),	-- Vileweave Gloves
 			i(240564),	-- Vileweave Bindings
-			i(240565),	-- Vileweave Footwraps
-			i(240566),	-- Vileweave Leggings
 			i(240567),	-- Vileweave Cord
-			i(240568),	-- Vileweave Robe
 			i(240569),	-- Vileweave Vestments
 			i(240570),	-- Vileweave Shawl
 			i(240571),	-- Vileweave Guise
@@ -760,10 +751,7 @@ root(ROOTS.Unsorted, {
 			i(240685),	-- Kal'delar Handguards
 			i(240686),	-- Nar'thalas Graduate's Faceguard
 			i(240687),	-- Nar'thalas Graduate's Shoulderguards
-			i(240688),	-- Nar'thalas Graduate's Breastplate
 			i(240689),	-- Nar'thalas Graduate's Greatbelt
-			i(240690),	-- Nar'thalas Graduate's Legguards
-			i(240691),	-- Nar'thalas Graduate's Sabatons
 			i(240692),	-- Nar'thalas Graduate's Vambraces
 			i(240693),	-- Nar'thalas Graduate's Handguards
 			i(240694),	-- Thunderpeak Bone Faceguard
@@ -1473,14 +1461,6 @@ root(ROOTS.Unsorted, {
 			i(243036),	-- Flawed Gleaming Iron Spike
 			i(243037),	-- Flawed Xakal's Determination
 			i(243194),	-- Grandiose Grrloc
-			i(243366),	-- Timerunner's Staff
-			i(243367),	-- Timerunner's Shield
-			i(243368),	-- Timerunner's Dagger
-			i(243369),	-- Timerunner's Bow
-			i(243370),	-- Timerunner's Greatsword
-			i(243371),	-- Timerunner's Sword
-			i(243372),	-- Timerunner's Mace
-			i(243373),	-- Timerunner's Weaponry
 			i(243601),	-- Curious Curio
 			i(243604),	-- Bent and Battered Blade
 			i(243607),	-- Dusty Stone Tablet
@@ -2153,7 +2133,6 @@ root(ROOTS.Unsorted, {
 			i(250408),	-- Add Keystone Affix: Dusk of the Infinite
 			i(250409),	-- Add Keystone Affix: Timeways Manifested
 			i(250410),	-- Add Keystone Affix: Twilight Reflections
-			i(250411),	-- Timerunner's Hearthstone
 			i(250423),	-- Reins of the Slag Basilisk
 			i(250424),	-- Reins of the Leystone Basilisk
 			i(250425),	-- Reins of the Felslate Basilisk
