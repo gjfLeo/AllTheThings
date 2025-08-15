@@ -61,7 +61,6 @@ root(ROOTS.Unsorted, {
 			i(237769),	-- Xenedar Gem Fragment
 			i(237770),	-- Rusting Chain of Ancient Hunger
 			i(237771),	-- Skrog Tooth
-			i(237812),	-- Cache of Infinite Treasure
 			i(237993),	-- Void-Scarred Captain's Greaves
 			i(238199),	-- TEST ITEM
 			i(238200),	-- TEST ITEM
@@ -834,14 +833,6 @@ root(ROOTS.Unsorted, {
 			i(240772),	-- Arinor Keeper's Waders
 			i(240773),	-- Arinor Keeper's Cuffs
 			i(240774),	-- Arinor Keeper's Grips
-			i(240775),	-- Lunarblight Leather Cowl
-			i(240776),	-- Lunarblight Leather Spaulders
-			i(240777),	-- Lunarblight Leather Tunic
-			i(240778),	-- Lunarblight Leather Strap
-			i(240779),	-- Lunarblight Leather Legwraps
-			i(240780),	-- Lunarblight Leather Striders
-			i(240781),	-- Lunarblight Leather Cuffs
-			i(240782),	-- Lunarblight Leather Grips
 			i(240783),	-- Dreadthorn Helmet
 			i(240784),	-- Dreadthorn Spaulders
 			i(240785),	-- Dreadthorn Chestguard
@@ -891,7 +882,6 @@ root(ROOTS.Unsorted, {
 			i(240829),	-- Shrinebreaker's Wristguards
 			i(240830),	-- Shrinebreaker's Grips
 			i(241146),	-- Epoch Memento
-			i(241211),	-- Legion Armor Scraps
 			i(241221),	-- Riven Priesthood Robe
 			i(241222),	-- Oronaar Disciple's Hauberk
 			i(241223),	-- Cloak of Devouring Night
@@ -1375,7 +1365,6 @@ root(ROOTS.Unsorted, {
 			i(242369),	-- The First Satyr's Spaulders
 			i(242370),	-- Horns of the First Satyr
 			i(242476),	-- Taah'bat's Desert Carbine
-			i(242501),	-- Memento of Epoch Knowledge
 			i(242502),	-- Memento of Epoch History
 			i(242503),	-- Memento of Epoch Stories
 			i(242504),	-- Memento of Epoch Truth
@@ -1385,15 +1374,9 @@ root(ROOTS.Unsorted, {
 			i(242508),	-- Memento of Epoch Potential
 			i(242509),	-- Memento of Epoch Curiosity
 			i(242510),	-- Memento of Epoch Kindness
-			i(242511),	-- Memento of Epoch Nostalgia
-			i(242512),	-- Memento of Epoch Creatures
 			i(242513),	-- Memento of Epoch Collections
-			i(242514),	-- Memento of Epoch Fun
-			i(242515),	-- Memento of Epoch Strategies
 			i(242516),	-- Memento of Epoch Legends
 			i(242555),	-- Ashbringer
-			i(242556),	-- Twinblades of the Deceiver
-			i(242557),	-- Twinblades of the Deceiver
 			i(242558),	-- Aluneth
 			i(242559),	-- Blades of the Fallen Prince
 			i(242560),	-- Blades of the Fallen Prince
@@ -1461,9 +1444,6 @@ root(ROOTS.Unsorted, {
 			i(243036),	-- Flawed Gleaming Iron Spike
 			i(243037),	-- Flawed Xakal's Determination
 			i(243194),	-- Grandiose Grrloc
-			i(243601),	-- Curious Curio
-			i(243604),	-- Bent and Battered Blade
-			i(243607),	-- Dusty Stone Tablet
 			i(244295),	-- Untethered Captain's Greaves
 			i(244449),	-- Set Keystone Map: Black Rook Hold
 			i(244458),	-- Add Keystone Affix: Sands of Time
@@ -1474,7 +1454,6 @@ root(ROOTS.Unsorted, {
 			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
-			i(245925),	-- Artifactium Sand
 			i(246013),	-- Thas'dorah, Legacy of the Windrunners
 			i(246072),	-- Intricate Everchill Pearl
 			i(246073),	-- Intricate Rage of the Tides
@@ -1509,7 +1488,6 @@ root(ROOTS.Unsorted, {
 			i(246789),	-- Cache of Infinite Power
 			i(246796),	-- Epic Cache of Infinite Power
 			i(246808),	-- Experiment Instructions
-			i(246812),	-- Minor Bronze Cache
 			i(246813),	-- Greater Bronze Cache
 			i(246814),	-- Bronze Cache
 			i(246815),	-- Lesser Bronze Cache
@@ -2277,7 +2255,6 @@ root(ROOTS.Unsorted, {
 			i(251877),	-- Ruthless Marauder's Cape
 			i(251878),	-- Ruthless Marauder's Shroud
 			i(251879),	-- Draping Shroud of the Hunting Dream
-			i(251901),	-- Legion Armor Scraps
 			i(251964),	-- Frost Marshal's Carbine
 			i(251966),	-- Libram of Azure Light
 			i(251971),	-- Tome of Cerulean Ciphers

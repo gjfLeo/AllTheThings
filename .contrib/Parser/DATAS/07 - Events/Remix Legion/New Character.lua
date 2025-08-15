@@ -40,6 +40,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				}),
 				filter(MISC, {
 					i(250411),	-- Timerunner's Hearthstone
+					i(216653),	-- Timerunner's Satchel
 				}),
 				filter(ONE_HANDED_AXES, {
 					-- No axes to grind...
@@ -76,6 +77,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
-		
+		q(90703, name(HEADERS.Spell,1232807)),	-- Unraveling Sands, Triggered upon accepting 'Obliterate, Then Iterate' (89413)
 	})),
 })));
