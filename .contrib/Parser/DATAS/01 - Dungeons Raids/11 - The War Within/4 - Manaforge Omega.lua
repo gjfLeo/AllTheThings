@@ -796,7 +796,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 -- DIMENSIUS
 
 		-- All
-		q(91011, name(HEADERS.Encounter, PLEXUS)),	-- Sentinel Plexus
+		q(91046, name(HEADERS.Item, 245510)),	-- Loombeast Silk chance per week (assumed -- also triggered on alt with no loot)
+		q(91010, name(HEADERS.Encounter, PLEXUS)),	-- Sentinel Plexus
 		q(91012, name(HEADERS.Encounter, LOOMITHAR)),	-- Loomithar
 		q(91011, name(HEADERS.Encounter, NAAZINDHRI)),	-- Soulbinder Naazindhr
 		q(91013, name(HEADERS.Encounter, ARAZ)),	-- Forgeweaver Araz
@@ -804,22 +805,20 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, {
 		q(91015, name(HEADERS.Encounter, FRACTILLUS)),	-- Fractillus
 		q(91016, name(HEADERS.Encounter, SALHADAAR)),	-- Loomithar
 		q(91017, name(HEADERS.Encounter, DIMENSIUS)),	-- Dimensius
-
-		q(91046, name(HEADERS.Item, 245510)),	-- Loombeast Silk chance per week (assumed -- also triggered on alt with no loot)
+		-- Trash
+		q(91021, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
+		q(91019, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
+		q(91020, name(HEADERS.NPC, 245617)),	-- The Bone Melter
+		q(91018, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- LFR
 		q(90977, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
-		q(91010, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 
 		-- Normal
 		q(90978, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
-		q(91021, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus
 		q(90982, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
-		q(91019, name(HEADERS.NPC, 239702)),	-- Watcher Gaz'Kreth
 		q(90990, name(HEADERS.NPC, 245617)),	-- The Bone Melter
-		q(91020, name(HEADERS.NPC, 245617)),	-- The Bone Melter
 		q(90986, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
-		q(91018, name(HEADERS.NPC, 245601)),	-- Enforcer Jak'tull
 
 		-- Heroic
 		q(90979, name(HEADERS.NPC, 239454)),	-- Darkmage Zadus

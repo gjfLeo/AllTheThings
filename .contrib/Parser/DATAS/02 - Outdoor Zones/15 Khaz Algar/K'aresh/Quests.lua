@@ -2215,7 +2215,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(89294, {	-- Special Assignment: Aligned Views
 					["coord"] = { 77.2, 48.9, KARESH },
 					["groups"] = {
-						i(244842),	-- Fabled Veteran's Cache
+						i(244842, {	-- Fabled Veteran's Cache
+							["sym"] = { -- [K'aresh Zone Rewards content]
+								{"select","mapID",KARESH},{"pop"},
+								{"where","headerID",ZONE_REWARDS},{"pop"},
+								{"where","headerID",ARMOR},{"finalize"},
+
+								{"select","mapID",KARESH},{"pop"},
+								{"where","headerID",ZONE_REWARDS},{"pop"},
+								{"where","headerID",WEAPONS},
+							},
+						}),
 					},
 				}),
 				q(89293, {	-- Special Assignment: Overshadowed
