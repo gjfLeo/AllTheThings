@@ -1488,13 +1488,19 @@ i(245970);	-- P.O.S.T. Master's Express Hearthstone
 i(242534);	-- Azure Sea Skiff
 i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher
+-- SPECIAL CASE --
+-- #if BEFORE 11.2.5
+i(131717);	-- Starlight Beacon	
+-- This will be a toy in 11.2.5, but the Quest will be up before 11.2.5 and then you have to wait 5 months
+-- Tagging it as toy earlier, so users can easily prefarm it
+-- #endif
 
 ------------------
 -- PATCH 11.2.5 --
 ------------------
 -- #if AFTER 11.2.5
 i(141605);	-- Flight Master's Whistle
-i(131717);	-- Starlight Beacon
+i(131717);	-- Starlight Beacon	
 i(138111);	-- Stormforged Grapple Launcher
 -- #endif
 

@@ -1683,7 +1683,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 						["coord"] = { 47.4, 42.6, AZSUNA },
 						["groups"] = {
 							i(134108),	-- Ancient Highborne Artifact (QI!)
-							i(131717),	-- Starlight Beacon
+							i(131717, {	-- Starlight Beacon
+								-- #if AFTER 11.2.0
+								-- #if BEFORE 11.2.5
+								["description"] = "In patch 11.2.5, Starlight Beacon is becoming a toy.\n\nIf you don't have it, the next time the quest will be up is from 2nd September through 15th September. Then it won't be up again until March 2026.",
+								-- #endif
+								-- #endif
+							}),
 						},
 					}),
 				})),
