@@ -25,7 +25,7 @@
 			{ 26.0, 49.0, SHRINE_OF_TWO_MOONS },
 			{ 72.0, 47.2, SHRINE_OF_SEVEN_STARS },
 		},
-		["g"] = {
+		["groups"] = {
 			n(219031, {	-- Aeonicus <Raid Finder Apparel>
 				clWithoutLock(DEATHKNIGHT, {
 					iensemble(215320, { -- Ensemble: Plate of the Lost Catacomb (LFR)
@@ -1138,7 +1138,7 @@
 			}),
 			n(QUESTS, sharedData({
 				["isDaily"] = true,
-				["g"] = {
+				["groups"] = {
 					i(223908),	-- Minor Bronze Cache
 				},
 			}, {
