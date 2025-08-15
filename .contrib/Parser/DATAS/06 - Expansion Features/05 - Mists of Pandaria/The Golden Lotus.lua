@@ -1814,7 +1814,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				RemovedWithSOO(q(30644, {	-- What Comes to Pass
 					["sourceQuests"] = { 30643 },	-- The Mogu's Message
 					["qg"] = 59905,	-- Zhi the Harmonious
-					["coord"] = { 57.25, 43, VALE_OF_ETERNAL_BLOSSOMS },
+					["coord"] = { 44.79, 76.34, VALE_OF_ETERNAL_BLOSSOMS },
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED },
 					["lvl"] = lvlsquish(90, 90, 30),
 				})),
