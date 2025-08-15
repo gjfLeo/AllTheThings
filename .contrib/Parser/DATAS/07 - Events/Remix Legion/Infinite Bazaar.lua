@@ -14,15 +14,14 @@
 --		en = "The Infinite Bazaar has multiple locations.",
 --	},
 --});
---[[root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_LEGION_REMIX_END } }, {
+--[[root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(INFINITE_BAZARR, {
 		["coords"] = {
-		--[[	-- Accurate, but its 100 Ensembles per Zone in the Minilist
+			-- Accurate, but its 100 Ensembles per Zone in the Minilist
 			{ 42.8, 27.5, THE_JADE_FOREST },
 			{ 69.6, 53.1, KUN_LAI_SUMMIT },
 			{ 37.8, 64.0, TOWNLONG_STEPPES },
 			{ 52.6, 51.6, VALLEY_OF_THE_FOUR_WINDS },
-		--]]
 			{ 26.0, 49.0, SHRINE_OF_TWO_MOONS },
 			{ 72.0, 47.2, SHRINE_OF_SEVEN_STARS },
 		},

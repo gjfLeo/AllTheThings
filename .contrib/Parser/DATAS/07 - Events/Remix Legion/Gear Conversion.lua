@@ -9,7 +9,7 @@
 		tw = "裝備轉換",
 	},
 });
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(GEAR_CONVERSION, {
 		["description"] = "These items were obtained by characters created during the MoP Remix Event and were automatically transferred to Retail when the event ended.",
 		["groups"] = {

@@ -13,7 +13,7 @@
 	end
 	return cloaks;
 end
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(REWARDS, {
 		i(211279, {	-- Cache of Infinite Treasure
 			i(210526),	-- Unraveling Tunic (QI!)

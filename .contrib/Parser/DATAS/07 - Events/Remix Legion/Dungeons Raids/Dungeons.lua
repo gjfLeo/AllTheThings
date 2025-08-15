@@ -64,7 +64,7 @@ local mapped = function(id, t)
 	return o
 end
 --[[
-root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_LEGION_REMIX_END } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(DUNGEONS, {
 		mapped(ACHIEVEMENTS, {
 			ach(20005, {	-- Heroic: Pandaria Dungeons
