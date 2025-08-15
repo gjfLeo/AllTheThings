@@ -3102,7 +3102,6 @@ root(ROOTS.Unsorted, {
 			i(244352),	-- Cloak of the Veiled Paws
 			i(251543),	-- Cracked Keystone
 
-			i(221164),	-- Archaic Venomancer's Legwraps
 			i(231821),	-- Makeshift Explosives
 			i(232517),	-- Biome Eco-Stabilizer
 			i(233222),	-- Nullbomb
