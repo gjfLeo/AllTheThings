@@ -115,6 +115,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					currency(3350),	-- August Stone Fragment
 				},
 			}, {
+				-- Wouter NOTE: there's multiple quest IDs for the same quest, will probably have to adjust this list
+				--q(91701),	-- A Celestial Challenge: Darkmaster Gandling
 				q(91702),	-- A Celestial Challenge: Darkmaster Gandling
 				q(91706),	-- A Celestial Challenge: Durand
 				q(91703),	-- A Celestial Challenge: Flameweaver Koegler
