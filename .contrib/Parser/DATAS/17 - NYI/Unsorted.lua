@@ -1367,12 +1367,9 @@ root(ROOTS.Unsorted, {
 			i(242476),	-- Taah'bat's Desert Carbine
 			i(242502),	-- Memento of Epoch History
 			i(242503),	-- Memento of Epoch Stories
-			i(242504),	-- Memento of Epoch Truth
-			i(242505),	-- Memento of Epoch Hope
 			i(242506),	-- Memento of Epoch Rituals
 			i(242507),	-- Memento of Epoch Power
 			i(242508),	-- Memento of Epoch Potential
-			i(242509),	-- Memento of Epoch Curiosity
 			i(242510),	-- Memento of Epoch Kindness
 			i(242513),	-- Memento of Epoch Collections
 			i(242516),	-- Memento of Epoch Legends
@@ -1388,8 +1385,6 @@ root(ROOTS.Unsorted, {
 			i(242566),	-- Talonclaw
 			i(242567),	-- Doomhammer
 			i(242568),	-- Felo'melorn
-			i(242569),	-- Claws of Ursoc
-			i(242570),	-- Claws of Ursoc
 			i(242571),	-- The Silver Hand
 			i(242572),	-- Tome of the Silver Hand
 			i(242573),	-- T'uure, Beacon of the Naaru
@@ -2106,7 +2101,6 @@ root(ROOTS.Unsorted, {
 			i(250291),	-- Hot and Fresh Portable Bakery
 			i(250292),	-- Piping Hot Portable Bakery
 			i(250293),	-- Red Hot Portable Bakery
-			i(250316),	-- Everlasting Nosh
 			i(250321),	-- Reins of the Thorignir Drake
 			i(250408),	-- Add Keystone Affix: Dusk of the Infinite
 			i(250409),	-- Add Keystone Affix: Timeways Manifested

@@ -21,7 +21,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				q(89406, {	-- Seal and Protect
 					["sourceQuest"] = 89405,	-- Mean Streets of Dalaran
 					["qg"] = 241743,	-- Archmage Khadgar
-					["coord"] = { 79.2, 47.7, LEGION_DALARAN },
+					["coord"] = { 79.3, 47.6, LEGION_DALARAN },
 				}),
 				q(89407, {	-- Thrift
 					["sourceQuest"] = 89406,	-- Seal and Protect
@@ -36,7 +36,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 							["coord"] = { 38.8, 39.9, LEGION_DALARAN },
 							["groups"] = { i(243601) },	-- Curious Curio (QI!)
 						}),
-						o(529397, {	-- Curio Lockbox
+						o(529396, {	-- Weapon Crate
 							["coord"] = { 46.1, 25.4, LEGION_DALARAN },
 							["groups"] = { i(243604) },	-- Bent and Battered Blade (QI!)
 						}),
@@ -62,8 +62,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["groups"] = {
 						-- currency(3268),	-- Infinite Power
 						-- TODO: Put all artifact weapons here
-						i(242556),	-- Twinblades of the Deceiver (DH)
-						i(242557),	-- Twinblades of the Deceiver (DH)
+						cl(DRUID, {
+							i(242569),	-- Claws of Ursoc
+							i(242570),	-- Claws of Ursoc
+						}),
+						cl(DEMONHUNTER, {
+							i(242556),	-- Twinblades of the Deceiver
+							i(242557),	-- Twinblades of the Deceiver
+						}),
 					},
 				}),
 				q(90901, {	-- As A Matter of Artifact
@@ -91,6 +97,55 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["qg"] = 241744,	-- Momentus
 					["coord"] = { 42.8, 27.8, LEGION_DALARAN },
 					["groups"] = { i(251901) },	-- Legion Armor Scraps (PQI!)
+				}),
+				q(89414, {	-- Not A Memento Too Soon
+					["sourceQuest"] = 89413,	-- Obliterate, Then Iterate
+					["qg"] = 241744,	-- Momentus
+					["coord"] = { 42.8, 27.8, LEGION_DALARAN },
+				}),
+				q(89415, {	-- Storm the Citadel
+					["sourceQuest"] = 89414,	-- Not A Memento Too Soon
+					["qg"] = 241743,	-- Archmage Khadgar
+					["coord"] = { 79.3, 47.6, LEGION_DALARAN },
+				}),
+				q(89416, {	-- Eternal Gratitude
+					["sourceQuest"] = 89415,	-- Storm the Citadel
+					["qg"] = 241140,	-- Moratari
+					["coord"] = { 51.2, 48.2, LEGION_DALARAN },
+					["groups"] = {
+						-- Spell: 1248972 - Clean Streets of Dalaran
+					},
+				}),
+				------ Stay awhile and listen ------
+				--hqt(???, {	-- Stay awhile and listen: Eternus
+				--	["name"] = "Stay awhile and listen: Eternus",
+				--	["description"] = "Dialogue becomes available after you accept 'Eternal Gratitude' (89416).",
+				--	["sourceQuest"] = 89415,	-- Storm the Citadel
+				--	["qg"] = 241748,	-- Eternus
+				--	["coord"] = { 45.7, 68.5, LEGION_DALARAN },
+				--}),
+				--
+				q(89417, {	-- Infinite Meetings
+					["sourceQuest"] = 89416,	-- Eternal Gratitude
+					["qg"] = 241748,	-- Eternus
+					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },	-- Check the note regarding AEGWYNNS_GALLERY in Bazaar file
+				}),
+				q(91955, {	-- Just Between Us
+					["sourceQuest"] = 89416,	-- Eternal Gratitude
+					["qg"] = 241142,	-- Momentus
+					["coord"] = { 45.8, 68.0, AEGWYNNS_GALLERY },
+					["groups"] = {
+						-- Spell: 1251776 - Heap of Bronze
+					},
+				}),
+				q(89418, {	-- A Fixed Point in Time
+					["sourceQuest"] = 89417,	-- Infinite Meetings
+					["qg"] = 241748,	-- Eternus
+					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
+					["groups"] = {
+						-- Spell: 1252745 - Infinite Knowledge
+						-- Spell: 445964 - Skyriding
+					},
 				}),
 			}),
 			n(VENDORS, {
