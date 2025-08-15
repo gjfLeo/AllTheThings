@@ -555,6 +555,17 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				},
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
+				n(QUESTS, {
+					q(91140, {	-- A Piece of the Past
+						["provider"] = { "i", 245743 },	-- A Curious Crystalline Fragment (QS!)
+						["classes"] = { PRIEST },
+					}),
+					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
+						["name"] = "Stay awhile and listen: Alleria Windrunnner",
+						["description"] = "After defeating Dimensius",
+						["provider"] = { "n", 242456 },	-- Alleria Windrunnner
+					}),
+				}),
 				BossOnly(PLEXUS),
 				BossOnly(LOOMITHAR, {
 					i(224435),	-- Pattern: Duskthread Lining (RECIPE!)
@@ -580,13 +591,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				BossOnly(DIMENSIUS, {
 					i(246565),	-- Cosmic Hearthstone (TOY!)
 					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
-				}),
-				n(QUESTS, {
-					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
-						["name"] = "Stay awhile and listen: Alleria Windrunnner",
-						["description"] = "After defeating Dimensius",
-						["provider"] = { "n", 242456 },	-- Alleria Windrunnner
-					}),
+					i(245743),	-- A Curious Crystalline Fragment
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
