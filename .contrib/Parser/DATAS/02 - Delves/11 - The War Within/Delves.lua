@@ -719,7 +719,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		ach(40635, {	-- Branntastic
 			["maps"] = ALL_THE_DELVES,
 		}),
-		ach(42676, {	-- Buddy System IX
+		ach(42676, {	-- Buddy System X
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(61342, {	-- Buddy System IX
 			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			["maps"] = ALL_THE_DELVES,
 		}),

@@ -3967,6 +3967,9 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(61014),	-- <DNT> Fractillus defeated on Raid Finder
 			ach(61015),	-- <DNT> Nexus-King Salhadaar defeated on Raid Finder
 			ach(61016),	-- <DNT> Dimensius, the All-Devouring defeated on Raid Finder
+
+			-- 11.2.0.62610
+			ach(61343),	-- Hotfix 99733 Tracking
 		})),
 	}),
 });
