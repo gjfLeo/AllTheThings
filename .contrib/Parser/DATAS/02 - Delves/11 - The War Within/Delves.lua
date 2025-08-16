@@ -2210,7 +2210,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		o(506498, {	-- Gilded Stash
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_0 },
 			["groups"] = {
 				-- gilded undermine crest x7
 			},
