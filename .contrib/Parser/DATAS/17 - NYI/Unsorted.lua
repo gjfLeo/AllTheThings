@@ -2418,10 +2418,6 @@ root(ROOTS.Unsorted, {
 				i(241351),	-- Brewer's Green Kilt
 
 				-- Reputation Cosmetic
-				i(248780),	-- Consortium Brute's Cape
-				i(248781),	-- Consortium Skirmisher's Cloak
-				i(248782),	-- Consortium Scout's Serape
-				i(248783),	-- Consortium Magi's Shawl
 				i(248784),	-- Ensemble: Void-Scarred Captain's Plate
 				i(248785),	-- Ensemble: Void-Scarred Striker's Battlegear
 				i(248786),	-- Ensemble: Void-Scarred Blade's Attire
@@ -2998,7 +2994,6 @@ root(ROOTS.Unsorted, {
 			i(244230),	-- Strawhat of Frosted Currents
 			i(244231),	-- Ensemble: Stillwater Fisher Attire
 			i(244352),	-- Cloak of the Veiled Paws
-			i(251543),	-- Cracked Keystone
 
 			i(231821),	-- Makeshift Explosives
 			i(232517),	-- Biome Eco-Stabilizer

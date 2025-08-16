@@ -981,7 +981,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			o(410434,	-- Splash Potion of Narcolepsy
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["description"] = "In cavern.",
-				["coord"] = { 50.9, 49.7, 2254 },
+				["coord"] = { 51.6, 48.5, 2254 },
 				["questID"] = 78269,
 				["groups"] = {
 					i(210185),	-- Splash Potion of Narcolepsy

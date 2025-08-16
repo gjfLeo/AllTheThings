@@ -65,6 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 73.1, 40.0, ISLE_OF_DORN },
 				["questID"] = 81921,
 				["groups"] = {
+					i(221247),	-- Cavernous Critter Shooter
 					i(223948),	-- Stubborn Wolf's Greathelm
 				},
 			}),

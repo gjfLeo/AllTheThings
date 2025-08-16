@@ -39,7 +39,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(90637),	-- A Key in the Wastes
 					q(90636),	-- Carved Crests
 				}, {	-- RENOWN 13 --
+					q(90638),	-- A Bundle of Crystals
 				}, {	-- RENOWN 14 --
+					q(91143),	-- Carved Crests
 				}, {	-- RENOWN 15 --
 				}, {	-- RENOWN 16 --
 				}, {	-- RENOWN 17 --
@@ -228,7 +230,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 								["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 							}),
 						}, {	-- RENOWN 14 --
-							i(245693, {	-- K'areshi Ribbon Stash
+							iensemble(245693, {	-- K'areshi Ribbon Stash
 								["cost"] = {{"c", RESONANCE_CRYSTALS, 2250}},
 							}),
 						}, {	-- RENOWN 15 --

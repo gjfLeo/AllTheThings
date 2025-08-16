@@ -22095,6 +22095,7 @@ L.QUEST_NAMES = {
 	[90695] = "Xy'vox the Twisted weekly reputation obtained.",
 	[90699] = "Grubber weekly reputation obtained.",
 	[90732] = "Stay awhile and listen: Alleria Windrunner",
+	[90753] = "Stay awhile and listen: Alleria Windrunner",
 	[91064] = "Stay awhile and listen: Alleria Windrunnner",
 	[91421] = "Malek'ta weekly reputation obtained.",
 	[91422] = "Heka'tamos weekly reputation obtained.",

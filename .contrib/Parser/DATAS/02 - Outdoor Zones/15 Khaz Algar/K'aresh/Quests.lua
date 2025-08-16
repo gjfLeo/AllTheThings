@@ -645,10 +645,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(86456, {	-- An Elegy for a Silent World
 						["provider"] = { "i", 234273 },	-- A Dimmed Crystal
 					}),
+					------ Stay awhile and listen ------
+					hqt(90753, {	-- Stay awhile and listen: Alleria Windrunner
+						["name"] = "Stay awhile and listen: Alleria Windrunner",
+						["description"] = "Dialogue becomes available after you accept 'An Elegy for a Silent World' (86456).",
+						["sourceQuest"] = 86456,	-- An Elegy for a Silent World
+						["qg"] = 243653,	-- Alleria Windrunner
+						["coord"] = { 75.4, 33.7, KARESH },
+					}),
 					q(86457, {	-- A Lullaby of Hope
 						["sourceQuest"] = 86456,	-- An Elegy for a Silent World
-						--["qg"] = ,
-						--["coord"] = ,
+						["qg"] = 231820,	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
 					}),
 					q(86458, {	-- A Song for Our Future
 						["sourceQuest"] = 86457,	-- A Lullaby of Hope

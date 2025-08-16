@@ -189,6 +189,7 @@ root(ROOTS.Zones, {
 					exploration(6797),	-- Gul'var
 					visit_exploration(7473,{coord={61.4,34.5,DRAENOR_SHADOWMOON_VALLEY}}),	-- Hills of Valuun
 					exploration(7221),	-- Isle of Shadows
+					visit_exploration(6785,{coord={66.6,43.8,DRAENOR_SHADOWMOON_VALLEY}}),	-- K'arani Terrace
 					exploration(6930),	-- Karabor
 					visit_exploration(6946,{coord={80.6,42.5,DRAENOR_SHADOWMOON_VALLEY}}),	-- Karabor Harbor
 					exploration(6793),	-- Light's Fall

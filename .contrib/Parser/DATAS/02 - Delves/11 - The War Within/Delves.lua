@@ -1067,6 +1067,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				i(242919, {	-- Cracked Keystone (QS!/QI!/CI!)
 					["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 				}),
+				i(251543, {	-- Cracked Keystone (QS!/QI!/CI!)
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
+				}),
 			}),
 			filter(NECK_F, {
 				i(211063),	-- Long-Lost Choker
@@ -1980,7 +1983,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			},
 		}),
 		q(90779, {	-- Cracked Keystone
-			["provider"] = { "i", 242919 },	-- Cracked Keystone
+			["providers"] = {
+				-- #if AFTER 11.2.0
+				{ "i", 251543 },	-- Cracked Keystone (S3)
+				-- #else
+				{ "i", 242919 },	-- Cracked Keystone (S2)
+				-- #endif
+			},
 			["timeline"] = { ADDED_11_1_5 },
 		}),
 		-- Season 2 - Overload stuff

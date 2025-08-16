@@ -562,6 +562,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}),
 					q(91138, {	-- I am the Creator and Destroyer
 						["sourceQuest"] = 91140,	-- A Piece of the Past
+						["qg"] = 245915,	-- Om'en
+						["coord"] = { 40.4, 27.4, KARESH },
 						["classes"] = { PRIEST },
 						["groups"] = { i(250082) },	-- T'uure, Remnant of the Naaru (COSMETIC!)
 					}),

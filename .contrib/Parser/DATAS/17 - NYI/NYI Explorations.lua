@@ -1908,7 +1908,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6773),	-- Old Pi'jiu
 	exploration(6780),	-- Cavern of Lost Spirits
 	exploration(6783),	-- Refuse Pit
-	exploration(6785),	-- K'arani Terrace
 	exploration(6787),	-- Grommar
 	exploration(6790),	-- Lunarfall
 	exploration(6796),	-- Starfall Outpost
@@ -4056,7 +4055,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(10520),	-- Trollbane Hall
 	exploration(10521),	-- Defiler's Den
 	exploration(10522),	-- Ny'alotha, the Waking City
-	exploration(10523),	-- Wizard's Sanctum
 	exploration(10524),	-- The Maelstrom
 	exploration(10526),	-- The Eye of Eternity
 	exploration(10527),	-- Hrun's Barrow
