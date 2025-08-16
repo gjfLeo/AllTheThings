@@ -786,7 +786,9 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(30918, { ["name"] = "Hui's Vengeance", }),	-- Hui's Vengeance
 			q(30021, { ["name"] = "Impenetrable", }),	-- Impenetrable
 			q(29705, { ["name"] = "Invasion of the Bottle Snatchers", }),	-- Invasion of the Bottle Snatchers
+			-- #if NOT ANYCLASSIC
 			q(31697, { ["name"] = "Jeremy's Test Quest", }),	-- Jeremy's Test Quest
+			-- #endif
 			q(29706, { ["name"] = "Kegplosion", }),	-- Kegplosion
 			q(29584, { ["name"] = "Kill Mogu Firestarters", }),	-- Kill Mogu Firestarters
 			q(29531, { ["name"] = "Kill Stuff", }),	-- Kill Stuff

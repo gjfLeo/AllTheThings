@@ -1898,6 +1898,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 			n(QUESTS, {
 				q(31607),	-- Tracking Event: Finished Spiteful Spirits & Hatred Becomes Us
 			}),
+			-- #if ANYCLASSIC
+			q(31697),	-- ACCIDENTAL COPY [reuse if you like] - completed with quest 30898
+			-- #endif
 		}),
 	}),
 })));
