@@ -2850,7 +2850,6 @@ root(ROOTS.Unsorted, {
 
 				-- Valorstone
 				i(239594),	-- Crimson Valorstone
-				i(240175),	-- Crystallized Ethereal Voidsplinter
 				i(240207),	-- Golden Valorstone
 				i(240208),	-- Void-Touched Valorstone
 				i(240209),	-- Golden Valorstone

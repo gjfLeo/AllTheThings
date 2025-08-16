@@ -423,6 +423,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			i(236877),	-- Crystallized Essence of Kaja'mite
 		})),
 		ach(41937, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }, }, {	-- The War Within Season 3: Voidborne Victor
+			i(240175),	-- Crystallized Ethereal Voidsplinter
 		})),
 		ach(42325, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 }, }, {	-- Void Wear Prohibited (automated)
 			i(246737, {	-- K'areshi Voidstone (CI!)
