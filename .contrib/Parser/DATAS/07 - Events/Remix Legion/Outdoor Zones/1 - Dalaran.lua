@@ -66,6 +66,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 							i(242569),	-- Claws of Ursoc
 							i(242570),	-- Claws of Ursoc
 						}),
+						cl(DEATHKNIGHT, {
+							i(242562),	-- Maw of the Damned
+						}),
 						cl(DEMONHUNTER, {
 							i(242556),	-- Twinblades of the Deceiver
 							i(242557),	-- Twinblades of the Deceiver
@@ -122,7 +125,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				--	["description"] = "Dialogue becomes available after you accept 'Eternal Gratitude' (89416).",
 				--	["sourceQuest"] = 89415,	-- Storm the Citadel
 				--	["qg"] = 241748,	-- Eternus
-				--	["coord"] = { 45.7, 68.5, LEGION_DALARAN },
+				--	["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
 				--}),
 				--
 				q(89417, {	-- Infinite Meetings
@@ -144,31 +147,65 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
 					["groups"] = {
 						-- Spell: 1252745 - Infinite Knowledge
-						-- Spell: 445964 - Skyriding
 					},
+				}),
+				q(90995, {	-- The Future of The Fel Hammer
+					["sourceQuest"] = 89418,	-- A Fixed Point in Time
+					["qg"] = 243948,	-- Moratari
+					["coord"] = { 72.1, 41.7, LEGION_DALARAN },
+				}),
+				q(90754, {	-- Skyriding
+					["sourceQuest"] = 89418,	-- A Fixed Point in Time
+					["qg"] = 243948,	-- Moratari
+					["coord"] = { 72.1, 41.7, LEGION_DALARAN },
+				}),
+				q(80013, {	-- How to Glide with Your Dragon
+					["sourceQuest"] = 90754,	-- Skyriding
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+					["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+				}),
+				q(80015, {	-- How to Dive with Your Dragon
+					["sourceQuest"] = 80013,	-- How to Glide with Your Dragon
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+					["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+				}),
+				q(80016, {	-- The Need For Higher Velocities
+					["sourceQuest"] = 80015,	-- How to Dive with Your Dragon
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+					["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+				}),
+				q(80017, {	-- The Need For Higher Altitudes
+					["sourceQuest"] = 80016,	-- The Need For Higher Velocities
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+					["groups"] = { i(216712), },	-- Bronze Timepiece (PQI!)
+				}),
+				q(80018, {	-- Fashionable Flying
+					["sourceQuest"] = 80017,	-- The Need For Higher Altitudes
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+				}),
+				q(90755, {	-- Time Flies
+					["sourceQuest"] = 80018,	-- Fashionable Flying
+					["qg"] = 218469,	-- Lord Andestrasz
+					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
+				}),
+				q(91437, {	-- Call for Participants
+					["description"] = "Call for Participants pops-up into your quest log when you visit Bazaar after completing 'Time Flies'.",
+					["sourceQuest"] = 90755,	-- Time Flies
+				}),
+				q(91639, {	-- Embrace Your Own Legend
+					["sourceQuest"] = 90755,	-- Time Flies
+					["qg"] = 241748,	-- Eternus
+					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
 				}),
 			}),
 			n(VENDORS, {
 			}),
 			n(ZONE_REWARDS, {
-				n(ARMOR, {
-					filter(CLOTH, {
-					}),
-					filter(LEATHER, {
-						i(240775),	-- Lunarblight Leather Cowl
-						i(240781),	-- Lunarblight Leather Cuffs
-						i(240782),	-- Lunarblight Leather Grips
-						i(240779),	-- Lunarblight Leather Legwraps
-						i(240776),	-- Lunarblight Leather Spaulders
-						i(240778),	-- Lunarblight Leather Strap
-						i(240780),	-- Lunarblight Leather Striders
-						i(240777),	-- Lunarblight Leather Tunic
-					}),
-					filter(MAIL, {
-					}),
-					filter(PLATE, {
-					}),
-				}),
 			}),
 		},
 	}),

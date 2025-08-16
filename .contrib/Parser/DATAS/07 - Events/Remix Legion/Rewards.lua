@@ -18,6 +18,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 	n(REWARDS, {
 		i(237812),	-- Cache of Infinite Treasure
 
+		i(246815),	-- Lesser Bronze Cache
 		i(246812),	-- Minor Bronze Cache
 
 		------ Weapon Empowerement ------
@@ -39,5 +40,27 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 
 		------ Epic Memento ------
 
+
+		n(ARMOR, {	-- Gear obtained from Caches of Infinite Treasure
+			filter(CLOAKS, {
+				i(240260),	-- Cape of Devouring Night
+			}),
+			filter(CLOTH, {
+			}),
+			filter(LEATHER, {
+				i(240775),	-- Lunarblight Leather Cowl
+				i(240781),	-- Lunarblight Leather Cuffs
+				i(240782),	-- Lunarblight Leather Grips
+				i(240779),	-- Lunarblight Leather Legwraps
+				i(240776),	-- Lunarblight Leather Spaulders
+				i(240778),	-- Lunarblight Leather Strap
+				i(240780),	-- Lunarblight Leather Striders
+				i(240777),	-- Lunarblight Leather Tunic
+			}),
+			filter(MAIL, {
+			}),
+			filter(PLATE, {
+			}),
+		}),
 	}),
 }))));

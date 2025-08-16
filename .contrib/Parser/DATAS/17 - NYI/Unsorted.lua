@@ -411,7 +411,6 @@ root(ROOTS.Unsorted, {
 			i(240257),	-- Nightstalker's Wrap
 			i(240258),	-- Drape of Hungering Flesh
 			i(240259),	-- Shawl of Devouring Night
-			i(240260),	-- Cape of Devouring Night
 			i(240261),	-- Wrap of Hungering Flesh
 			i(240262),	-- Thirsting Cloak
 			i(240263),	-- Ered'ruin Shawl
@@ -1378,7 +1377,6 @@ root(ROOTS.Unsorted, {
 			i(242559),	-- Blades of the Fallen Prince
 			i(242560),	-- Blades of the Fallen Prince
 			i(242561),	-- G'Hanir, the Mother Tree
-			i(242562),	-- Maw of the Damned
 			i(242563),	-- Apocalypse
 			i(242564),	-- Fangs of the Devourer
 			i(242565),	-- Fangs of the Devourer
@@ -1485,7 +1483,6 @@ root(ROOTS.Unsorted, {
 			i(246808),	-- Experiment Instructions
 			i(246813),	-- Greater Bronze Cache
 			i(246814),	-- Bronze Cache
-			i(246815),	-- Lesser Bronze Cache
 			i(246889),	-- Orb of Synchronized Power
 			i(246936),	-- Resonant Epoch Memento
 			i(246937),	-- Perfected Epoch Memento

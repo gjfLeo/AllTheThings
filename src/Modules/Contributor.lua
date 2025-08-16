@@ -324,6 +324,7 @@ MobileDB.Creature = {
 	 [88027] = true,	-- Impsy
 	 [90474] = true,	-- Kor'vas Bloodthorn
 	 [96038] = true,	-- Rivermane Shaman
+	 [99343] = true,	-- Kor'vas Bloodthorn
 	[108961] = true,	-- Sergeant Dalton
 	[101344] = true,	-- Hooded Priestess (Horde)
 	[101527] = true,	-- Blingtron 6000
