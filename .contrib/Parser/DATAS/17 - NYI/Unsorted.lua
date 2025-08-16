@@ -72,7 +72,6 @@ root(ROOTS.Unsorted, {
 			i(238726),	-- Drake Treat
 			i(238727),	-- Nostwin's Voucher
 			i(239205),	-- [DNT] Raid Boss Token, Consolation
-			i(239224),	-- Cache of Infinite Treasure
 			i(239247),	-- Bonus Experience
 			i(239303),	-- Cache of Infinite Treasure
 			i(239647),	-- Reins of the Bloodguard Fel Bat
@@ -223,17 +222,6 @@ root(ROOTS.Unsorted, {
 			i(239870),	-- Chainmail of Eredathian Sacrifice
 			i(239871),	-- Stompers of Eredathian Sacrifice
 			i(239872),	-- Girdle of Eredathian Sacrifice
-			i(239873),	-- Stygian Hide Shawl
-			i(239874),	-- Stygian Hide Drape
-			i(239875),	-- Stygian Hide Cape
-			i(239876),	-- Stygian Hide Wristguards
-			i(239877),	-- Stygian Hide Shoulderpads
-			i(239878),	-- Stygian Hide Trousers
-			i(239879),	-- Stygian Hide Headgear
-			i(239880),	-- Stygian Hide Gloves
-			i(239881),	-- Stygian Hide Tunic
-			i(239882),	-- Stygian Hide Waders
-			i(239883),	-- Stygian Hide Girdle
 			i(239884),	-- Gladeraider's Shroud
 			i(239885),	-- Gladeraider's Cloak
 			i(239886),	-- Gladeraider's Drape
@@ -404,7 +392,6 @@ root(ROOTS.Unsorted, {
 			i(240256),	-- Thirsting Wrap
 			i(240257),	-- Nightstalker's Wrap
 			i(240258),	-- Drape of Hungering Flesh
-			i(240259),	-- Shawl of Devouring Night
 			i(240261),	-- Wrap of Hungering Flesh
 			i(240262),	-- Thirsting Cloak
 			i(240263),	-- Ered'ruin Shawl
@@ -442,14 +429,6 @@ root(ROOTS.Unsorted, {
 			i(240296),	-- Honorforged Chestpiece
 			i(240297),	-- Honorforged Mantle
 			i(240298),	-- Honorforged Greathelm
-			i(240299),	-- Handguards of Devouring Night
-			i(240300),	-- Wristguards of Devouring Night
-			i(240301),	-- Stompers of Devouring Night
-			i(240302),	-- Leggings of Devouring Night
-			i(240303),	-- Waistband of Devouring Night
-			i(240304),	-- Haubergeon of Devouring Night
-			i(240305),	-- Spaulders of Devouring Night
-			i(240306),	-- Faceguard of Devouring Night
 			i(240307),	-- Ravensteel Handguards
 			i(240308),	-- Ravensteel Wristguards
 			i(240309),	-- Ravensteel Stompers
@@ -490,15 +469,6 @@ root(ROOTS.Unsorted, {
 			i(240344),	-- Jerkin of Hungering Flesh
 			i(240345),	-- Shoulderguard of Hungering Flesh
 			i(240346),	-- Cap of Hungering Flesh
-			i(240347),	-- Gloves of Night Eternal
-			i(240348),	-- Cuffs of Night Eternal
-			i(240349),	-- Boots of Night Eternal
-			i(240350),	-- Legwraps of Night Eternal
-			i(240351),	-- Belt of Night Eternal
-			i(240352),	-- Robe of Night Eternal
-			i(240353),	-- Vestments of Night Eternal
-			i(240354),	-- Amice of Night Eternal
-			i(240355),	-- Guise of Night Eternal
 			i(240356),	-- Sanguine Oath Handwraps
 			i(240357),	-- Sanguine Oath Wristwraps
 			i(240358),	-- Sanguine Oath Treads
@@ -666,9 +636,7 @@ root(ROOTS.Unsorted, {
 			i(240598),	-- Praetorium Guard's Cape
 			i(240599),	-- Oronaar Disciple's Shroud
 			i(240601),	-- Oronaar Disciple's Drape
-			i(240602),	-- Lunarblight Leather Shroud
 			i(240603),	-- Lunarblight Leather Wrap
-			i(240604),	-- Lunarblight Leather Cloak
 			i(240605),	-- Doomsinger's Shroud
 			i(240606),	-- Shrinebreaker's Shroud
 			i(240609),	-- Arinor Keeper's Shawl
@@ -802,14 +770,6 @@ root(ROOTS.Unsorted, {
 			i(240756),	-- Sablehide Boots
 			i(240757),	-- Sablehide Bindings
 			i(240758),	-- Sablehide Grips
-			i(240759),	-- Llothien Prowler's Hat
-			i(240760),	-- Llothien Prowler's Shoulderguard
-			i(240761),	-- Llothien Prowler's Harness
-			i(240762),	-- Llothien Prowler's Belt
-			i(240763),	-- Llothien Prowler's Legguards
-			i(240764),	-- Llothien Prowler's Waders
-			i(240765),	-- Llothien Prowler's Cuffs
-			i(240766),	-- Llothien Prowler's Gloves
 			i(240767),	-- Arinor Keeper's Cap
 			i(240768),	-- Arinor Keeper's Mantle
 			i(240769),	-- Arinor Keeper's Vest
@@ -869,7 +829,6 @@ root(ROOTS.Unsorted, {
 			i(241146),	-- Epoch Memento
 			i(241221),	-- Riven Priesthood Robe
 			i(241222),	-- Oronaar Disciple's Hauberk
-			i(241223),	-- Cloak of Devouring Night
 			i(241224),	-- Emerald Drake Hunter's Tunic
 			i(241225),	-- Emerald Drake Hunter's Pants
 			i(241226),	-- Emerald Drake Hunter's Boots
@@ -1212,7 +1171,6 @@ root(ROOTS.Unsorted, {
 			i(241752),	-- Shrinebreaker's Draping Shroud
 			i(241755),	-- Gladiator's Scaled Draping Shawl
 			i(241756),	-- Gladiator's Scaled Draping Shroud
-			i(241758),	-- Draping Shawl of Devouring Night
 			i(241759),	-- Draping Shroud of Devouring Night
 			i(241761),	-- Ered'ruin Draping Shawl
 			i(241762),	-- Ered'ruin Draping Shroud
@@ -1355,11 +1313,8 @@ root(ROOTS.Unsorted, {
 			i(242506),	-- Memento of Epoch Rituals
 			i(242507),	-- Memento of Epoch Power
 			i(242508),	-- Memento of Epoch Potential
-			i(242513),	-- Memento of Epoch Collections
-			i(242516),	-- Memento of Epoch Legends
 			i(242572),	-- Tome of the Silver Hand
 			i(242590),	-- Strom'kar, the Warbreaker
-			i(242617),	-- Curious Simulacrum
 			i(242706),	-- Curious Curio
 			i(243013),	-- Doomfire Dynamo
 			i(243023),	-- Badge of the Fallen Vindicator
@@ -1420,10 +1375,8 @@ root(ROOTS.Unsorted, {
 			i(246238),	-- [DNT] Affix Token
 			i(246789),	-- Cache of Infinite Power
 			i(246796),	-- Epic Cache of Infinite Power
-			i(246808),	-- Experiment Instructions
 			i(246813),	-- Greater Bronze Cache
 			i(246889),	-- Orb of Synchronized Power
-			i(246936),	-- Resonant Epoch Memento
 			i(246937),	-- Perfected Epoch Memento
 			i(246990),	-- Infernal's Azure Staff
 			i(246991),	-- Sinister Felstaff
@@ -1864,7 +1817,6 @@ root(ROOTS.Unsorted, {
 			i(247654),	-- Bracers of Wanton Morality
 			i(247655),	-- World-Ravager Waistguard
 			i(247656),	-- Greatboots of the Searing Tempest
-			i(247808),	-- Bronze Simulacrum
 			i(247894),	-- Dalaran Hearthstone
 			i(248088),	-- Jade, Bright Foreseer
 			i(248089),	-- Tangled Dreamweaver
@@ -2170,7 +2122,6 @@ root(ROOTS.Unsorted, {
 			i(251802),	-- Offhand Ears of Purple Corn
 			i(251803),	-- Offhand Ears of White Corn
 			i(251804),	-- Offhand Ears of Yellow Corn
-			i(251821),	-- Cache of Infinite Power
 			i(251827),	-- Stygian Silk Cloak
 			i(251854),	-- Bunch of Green Chile
 			i(251855),	-- Bunch of Orange Chile

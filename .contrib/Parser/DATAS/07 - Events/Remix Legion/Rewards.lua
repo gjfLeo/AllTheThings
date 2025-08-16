@@ -1,19 +1,7 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
---[[local CLOAK_OF_INFINITE_BONUSIDS = function()
-	local cloaks = {};
-	local ItemAppearanceModifierID = 160;
-	for bonusID=10973,11028,1 do
-		ItemAppearanceModifierID = ItemAppearanceModifierID + 1;
-		table.insert(cloaks, i(210333, {	-- Cloak of Infinite Potential
-			["ItemAppearanceModifierID"] = ItemAppearanceModifierID,
-			["bonusID"] = bonusID,
-		}));
-	end
-	return cloaks;
-end
-]]--
+
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(REWARDS, {
 		i(237812),	-- Cache of Infinite Treasure
@@ -27,6 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		i(245925),	-- Artifactium Sand
 
 		------ Common Memento ------
+		i(242513),	-- Memento of Epoch Collections
 		i(242512),	-- Memento of Epoch Creatures
 		i(242509),	-- Memento of Epoch Curiosity
 		i(242514),	-- Memento of Epoch Fun
@@ -43,36 +32,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 
 		------ Epic Memento ------
 
-
-		n(ARMOR, {	-- Gear obtained from Caches of Infinite Treasure
-			filter(CLOAKS, {
-				i(240260),	-- Cape of Devouring Night
-				i(240255),	-- Shroud of Devouring Night
-			}),
-			filter(CLOTH, {
-			}),
-			filter(LEATHER, {
-				i(240775),	-- Lunarblight Leather Cowl
-				i(240781),	-- Lunarblight Leather Cuffs
-				i(240782),	-- Lunarblight Leather Grips
-				i(240779),	-- Lunarblight Leather Legwraps
-				i(240776),	-- Lunarblight Leather Spaulders
-				i(240778),	-- Lunarblight Leather Strap
-				i(240780),	-- Lunarblight Leather Striders
-				i(240777),	-- Lunarblight Leather Tunic
-			}),
-			filter(MAIL, {
-			}),
-			filter(PLATE, {
-				i(240539),	-- Xorothian Gauntlets
-				i(240540),	-- Xorothian Wristguards
-				i(240541),	-- Xorothian Jackboots
-				i(240542),	-- Xorothian Legguards
-				i(240543),	-- Xorothian Greatbelt
-				i(240544),	-- Xorothian Battleplate
-				i(240545),	-- Xorothian Shoulderguards
-				i(240546),	-- Xorothian Helmet
-			}),
+		filter(CONSUMABLES, {
+			i(217607),	-- Timeless Scroll of the Wild
 		}),
 	}),
 }))));

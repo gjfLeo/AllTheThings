@@ -82,5 +82,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		q(90864, name(HEADERS.Achievement,42313)),	-- Remixing Time, Triggered when completing Introductory quest-chain
 		q(91962),	-- Triggers when you spawn in Bazaar for the first time
 		q(92192),	-- Triggers when watching "What just happened" movie on a fresh character
+		q(92425),	-- Triggers when you activate 'Heroic World Tier'
+		-- HQTs triggered during campaign
+		q(91926),	-- Triggered after completing first Legion artifact weapon quest chain
+		q(91925),	-- Triggered after completing second Legion artifact weapon quest chain
+		q(92107),	-- Mission Table skip
+		q(90787),	-- Triggered after killing the first Rare?
 	})),
 })));

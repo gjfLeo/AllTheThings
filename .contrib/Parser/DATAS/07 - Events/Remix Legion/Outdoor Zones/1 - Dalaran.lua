@@ -6,6 +6,22 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 	m(LEGION_DALARAN, {
 	--	["icon"] = 618798,
 		["groups"] = {
+			explorationHeader({
+				visit_exploration(7885,{coord={45.7,21.3,LEGION_DALARAN}}),	-- Antonidas Memorial
+				visit_exploration(4395,{coord={58.8,45.8,LEGION_DALARAN}}),	-- Dalaran
+				visit_exploration(15177,{coord={47.2,87.7,LEGION_DALARAN}}),	-- Dalaran
+				visit_exploration(8284,{coord={95.1,65.0,LEGION_DALARAN}}),	-- Illidari Redoubt
+				visit_exploration(4564,{coord={68.8,42.9,LEGION_DALARAN}}),	-- Krasus' Landing
+				visit_exploration(4620,{coord={43.2,30.5,LEGION_DALARAN}}),	-- Magus Commerce Exchange
+				visit_exploration(7899,{coord={39.9,38.8,LEGION_DALARAN}}),	-- Magus Commerce Exchange
+				visit_exploration(8413,{coord={44.3,29.2,LEGION_DALARAN}}),	-- Tanks for Everything
+				visit_exploration(8532,{coord={52.1,19.2,LEGION_DALARAN}}),	-- The Bank of Dalaran
+				visit_exploration(7898,{coord={51.1,60.5,LEGION_DALARAN}}),	-- The Eventide
+				visit_exploration(8140,{coord={48.6,39.0,LEGION_DALARAN}}),	-- The Legerdemain Lounge
+				visit_exploration(7888,{coord={33.6,49.4,LEGION_DALARAN}}),	-- The Violet Citadel
+				visit_exploration(8126,{coord={55.1,47.1,LEGION_DALARAN}}),	-- The Violet Gate
+				visit_exploration(4415,{coord={57.4,58.2,LEGION_DALARAN}}),	-- The Violet Hold
+			}),
 			n(ACHIEVEMENTS, {
 			}),
 			n(QUESTS, {
@@ -206,6 +222,19 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["coord"] = { 45.8, 68.0, BROKEN_ISLES },
 					["groups"] = {
 						-- Spell: 1251776 - Heap of Bronze
+						i(242617, {	-- Curious Simulacrum
+							i(247808),	-- Bronze Simulacrum (QS!)
+						}),
+						-- Exo Note: Simulacrum is obtained during the regular Order Hall quest chain for the Artifact Weapon that you have already selected and obtained during the quest 'Something Borrowed'.
+						-- eg. If, as a Paladin, you took Ashbringer, instead of Ashbringer you will receive Simulacrum during the quest chain for the weapon.
+						-- Instead of editing (and disturbing) over 30 Order Hall quests, I placed it here. If you think there is a better place for it, please move it.
+						-- Upon inspecting, Curious turns into Bronze Simulacrum and gives you a quest. This is observed on a first playthrough with a DH. Maybe something is different on other Classes.
+					},
+				}),
+				q(92688, {	-- Bronze Simulacrum
+					["provider"] = { "i", 247808 },	-- Bronze Simulacrum (QS!)
+					["groups"] = {
+						i(242516),	-- Memento of Epoch Legends (Legendary Memento)
 					},
 				}),
 				q(89418, {	-- A Fixed Point in Time
@@ -261,7 +290,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
 				}),
 				q(91437, {	-- Call for Participants
-					["description"] = "Call for Participants pops-up into your quest log when you visit Bazaar after completing 'Time Flies'.",
+					["description"] = "Quest pops-up into your log when you visit Bazaar after completing 'Time Flies'.",
 					["sourceQuest"] = 90755,	-- Time Flies
 				}),
 				q(91639, {	-- Embrace Your Own Legend
@@ -269,10 +298,68 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["qg"] = 241748,	-- Eternus
 					["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 				}),
+				q(91061, {	-- Infinite Chaos
+					["description"] = "Quest becomes available after you enable 'Heroic World Tier'.",
+					["qg"] = 241748,	-- Eternus
+					["coord"] = { 45.7, 68.5, BROKEN_ISLES },
+					["groups"] = { i(246808), },	-- Experiment Instructions (PQI!)
+				}),
 			}),
 			n(VENDORS, {
 			}),
 			n(ZONE_REWARDS, {
+				n(ARMOR, {
+					filter(CLOAKS, {
+						i(240260),	-- Cape of Devouring Night
+						i(241223),	-- Cloak of Devouring Night
+						i(241758),	-- Draping Shawl of Devouring Night
+						i(240604),	-- Lunarblight Leather Cloak
+						i(240602),	-- Lunarblight Leather Shroud
+						i(240259),	-- Shawl of Devouring Night
+						i(240255),	-- Shroud of Devouring Night
+					}),
+					filter(CLOTH, {
+						i(240354),	-- Amice of Night Eternal
+						i(240351),	-- Belt of Night Eternal
+						i(240349),	-- Boots of Night Eternal
+						i(240348),	-- Cuffs of Night Eternal
+						i(240347),	-- Gloves of Night Eternal
+						i(240355),	-- Guise of Night Eternal
+						i(240350),	-- Legwraps of Night Eternal
+						i(240352),	-- Robe of Night Eternal
+						i(240353),	-- Vestments of Night Eternal
+					}),
+					filter(LEATHER, {
+						i(240775),	-- Lunarblight Leather Cowl
+						i(240781),	-- Lunarblight Leather Cuffs
+						i(240782),	-- Lunarblight Leather Grips
+						i(240779),	-- Lunarblight Leather Legwraps
+						i(240776),	-- Lunarblight Leather Spaulders
+						i(240778),	-- Lunarblight Leather Strap
+						i(240780),	-- Lunarblight Leather Striders
+						i(240777),	-- Lunarblight Leather Tunic
+					}),
+					filter(MAIL, {
+						i(240306),	-- Faceguard of Devouring Night
+						i(240299),	-- Handguards of Devouring Night
+						i(240304),	-- Haubergeon of Devouring Night
+						i(240302),	-- Leggings of Devouring Night
+						i(240305),	-- Spaulders of Devouring Night
+						i(240301),	-- Stompers of Devouring Night
+						i(240303),	-- Waistband of Devouring Night
+						i(240300),	-- Wristguards of Devouring Night
+					}),
+					filter(PLATE, {
+						i(240544),	-- Xorothian Battleplate
+						i(240539),	-- Xorothian Gauntlets
+						i(240543),	-- Xorothian Greatbelt
+						i(240546),	-- Xorothian Helmet
+						i(240541),	-- Xorothian Jackboots
+						i(240542),	-- Xorothian Legguards
+						i(240545),	-- Xorothian Shoulderguards
+						i(240540),	-- Xorothian Wristguards
+					}),
+				}),
 			}),
 		},
 	}),

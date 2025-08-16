@@ -339,14 +339,39 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					
 				}),
 			}),
-			--[[n(QUESTS, sharedData({
+			n(QUESTS, sharedData({
 				["isDaily"] = true,
 				["groups"] = {
-					-- Reward
+					i(251821),	-- Cache of Infinite Power
+					i(239224),	-- Cache of Infinite Treasure
+					i(246936),	-- Resonant Epoch Memento
 				},
 			}, {
-				-- Quests
-			})),]]--
+				q(90112, {	-- Infinite Research: Combat Studies, Elite
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(90099, {	-- Infinite Research: Combat Studies, Rare
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(89468, {	-- Infinite Research: Dungeoneers Wanted, Normal
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+				q(90110, {	-- Infinite Research: Gather Timewarped Samples
+					["qgs"] = {
+						241748,	-- Eternus
+						249256,	-- Pile of Chronoqueries
+					},
+				}),
+			})),
 		},
 	}),
 }))));

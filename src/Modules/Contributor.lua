@@ -112,6 +112,7 @@ end
 -- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	 [629] = 3,	-- Aegwynn's Gallery
+	 [720] = 3,	-- Mardum The Shattered Abyss, Upper Command Center
 	 [831] = 7,	-- The Vindicaar, Krokuun Upper
 	 [832] = 7,	-- The Vindicaar, Krokuun Lower
 	 [883] = 7,	-- The Vindicaar, Eredath Upper
