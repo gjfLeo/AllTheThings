@@ -47,11 +47,6 @@ root(ROOTS.Unsorted, {
 			i(235907),	-- Holy Goldforged Hoofguards
 			i(235908),	-- Holy Goldforged Bracers
 			i(235915),	-- Highmountain Hide Cap
-			i(236772),	-- Strom'kar, the Warbreaker
-			i(237746),	-- Warswords of the Valarjar
-			i(237747),	-- Warswords of the Valarjar
-			i(237748),	-- Scaleshard
-			i(237749),	-- Scale of the Earth-Warder
 			i(237750),	-- Warbreaker's Revenge
 			i(237751),	-- Val'kyrian Rebirth
 			i(237752),	-- Flame-scarred Scales of the Earth-Warder
@@ -406,7 +401,6 @@ root(ROOTS.Unsorted, {
 			i(240252),	-- Firewurm Dragonscale Greaves
 			i(240253),	-- Firewurm Dragonscale Waistband
 			i(240254),	-- Earthweald Dragonscale Vambraces
-			i(240255),	-- Shroud of Devouring Night
 			i(240256),	-- Thirsting Wrap
 			i(240257),	-- Nightstalker's Wrap
 			i(240258),	-- Drape of Hungering Flesh
@@ -624,14 +618,6 @@ root(ROOTS.Unsorted, {
 			i(240536),	-- Manasinged Doublet
 			i(240537),	-- Manasinged Amice
 			i(240538),	-- Manasinged Hood
-			i(240539),	-- Xorothian Gauntlets
-			i(240540),	-- Xorothian Wristguards
-			i(240541),	-- Xorothian Jackboots
-			i(240542),	-- Xorothian Legguards
-			i(240543),	-- Xorothian Greatbelt
-			i(240544),	-- Xorothian Battleplate
-			i(240545),	-- Xorothian Shoulderguards
-			i(240546),	-- Xorothian Helmet
 			i(240547),	-- Ered'ruin Gauntlets
 			i(240548),	-- Ered'ruin Vambraces
 			i(240551),	-- Ered'ruin Girdle
@@ -1369,55 +1355,10 @@ root(ROOTS.Unsorted, {
 			i(242506),	-- Memento of Epoch Rituals
 			i(242507),	-- Memento of Epoch Power
 			i(242508),	-- Memento of Epoch Potential
-			i(242510),	-- Memento of Epoch Kindness
 			i(242513),	-- Memento of Epoch Collections
 			i(242516),	-- Memento of Epoch Legends
-			i(242555),	-- Ashbringer
-			i(242558),	-- Aluneth
-			i(242559),	-- Blades of the Fallen Prince
-			i(242560),	-- Blades of the Fallen Prince
-			i(242561),	-- G'Hanir, the Mother Tree
-			i(242563),	-- Apocalypse
-			i(242564),	-- Fangs of the Devourer
-			i(242565),	-- Fangs of the Devourer
-			i(242566),	-- Talonclaw
-			i(242567),	-- Doomhammer
-			i(242568),	-- Felo'melorn
-			i(242571),	-- The Silver Hand
 			i(242572),	-- Tome of the Silver Hand
-			i(242573),	-- T'uure, Beacon of the Naaru
-			i(242574),	-- Thas'dorah, Legacy of the Windrunners
-			i(242575),	-- Xal'atath, Blade of the Black Empire
-			i(242576),	-- Aldrachi Warblades
-			i(242577),	-- Aldrachi Warblades
-			i(242578),	-- Scythe of Elune
-			i(242579),	-- Fangs of Ashamane
-			i(242580),	-- Fangs of Ashamane
-			i(242581),	-- Titanstrike
-			i(242582),	-- Ebonchill
-			i(242583),	-- Truthguard
-			i(242584),	-- Oathseeker
-			i(242585),	-- Light's Wrath
-			i(242586),	-- The Kingslayers
-			i(242587),	-- The Kingslayers
-			i(242588),	-- The Dreadblades
-			i(242589),	-- Fury of the Stonemother
 			i(242590),	-- Strom'kar, the Warbreaker
-			i(242591),	-- Sharas'dal, Scepter of Tides
-			i(242592),	-- Shield of the Sea Queen
-			i(242593),	-- The Fist of Ra-den
-			i(242594),	-- The Highkeeper's Ward
-			i(242595),	-- Sheilun, Staff of the Mists
-			i(242596),	-- Fu Zan, the Wanderer's Companion
-			i(242597),	-- Fists of the Heavens
-			i(242598),	-- Scepter of Sargeras
-			i(242599),	-- Ulthalesh, the Deadwind Harvester
-			i(242600),	-- Skull of the Man'ari
-			i(242601),	-- Fists of the Heavens
-			i(242602),	-- Secrets of the Void
-			i(242603),	-- Heart of the Phoenix
-			i(242604),	-- The Dreadblades
-			i(242605),	-- Spine of Thal'kiel
 			i(242617),	-- Curious Simulacrum
 			i(242706),	-- Curious Curio
 			i(243013),	-- Doomfire Dynamo
@@ -1447,7 +1388,6 @@ root(ROOTS.Unsorted, {
 			i(245554),	-- Heroic Cache of Infinite Treasure
 			i(245663),	-- Holy Golden Greatsword
 			i(245664),	-- Holy Hologem Greatsword
-			i(246013),	-- Thas'dorah, Legacy of the Windrunners
 			i(246072),	-- Intricate Everchill Pearl
 			i(246073),	-- Intricate Rage of the Tides
 			i(246074),	-- Intricate Sundered Comet
@@ -1482,7 +1422,6 @@ root(ROOTS.Unsorted, {
 			i(246796),	-- Epic Cache of Infinite Power
 			i(246808),	-- Experiment Instructions
 			i(246813),	-- Greater Bronze Cache
-			i(246814),	-- Bronze Cache
 			i(246889),	-- Orb of Synchronized Power
 			i(246936),	-- Resonant Epoch Memento
 			i(246937),	-- Perfected Epoch Memento

@@ -16,12 +16,12 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				q(89405, {	-- Mean Streets of Dalaran
 					["sourceQuest"] =  89404,	-- Time Crisis
 					["qg"] = 241740,	-- Archmage Khadgar <Mirror Image>
-					["coord"] = { 76.7, 42.5, LEGION_DALARAN },
+					["coord"] = { 67.6, 42.5, LEGION_DALARAN },
 				}),
 				q(89406, {	-- Seal and Protect
 					["sourceQuest"] = 89405,	-- Mean Streets of Dalaran
 					["qg"] = 241743,	-- Archmage Khadgar
-					["coord"] = { 79.3, 47.6, LEGION_DALARAN },
+					["coord"] = { 49.3, 47.6, LEGION_DALARAN },
 				}),
 				q(89407, {	-- Thrift
 					["sourceQuest"] = 89406,	-- Seal and Protect
@@ -59,19 +59,87 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["sourceQuest"] = 89409,	-- Infinite Bronze
 					["qg"] = 241744,	-- Momentus
 					["coord"] = { 42.8, 27.8, LEGION_DALARAN },
-					["groups"] = {
+					["groups"] = {	-- You can get any 1 (one) artifact weapon from this quest based on the Specialization you choose. You get other(s) through Order Hall campaign (I guess?).
 						-- currency(3268),	-- Infinite Power
-						-- TODO: Put all artifact weapons here
-						cl(DRUID, {
-							i(242569),	-- Claws of Ursoc
-							i(242570),	-- Claws of Ursoc
-						}),
 						cl(DEATHKNIGHT, {
+							i(242563),	-- Apocalypse
+							i(242559),	-- Blades of the Fallen Prince
+							i(242560),	-- Blades of the Fallen Prince
 							i(242562),	-- Maw of the Damned
 						}),
 						cl(DEMONHUNTER, {
+							i(242576),	-- Aldrachi Warblades
+							i(242577),	-- Aldrachi Warblades
 							i(242556),	-- Twinblades of the Deceiver
 							i(242557),	-- Twinblades of the Deceiver
+						}),
+						cl(DRUID, {
+							i(242569),	-- Claws of Ursoc
+							i(242570),	-- Claws of Ursoc
+							i(242579),	-- Fangs of Ashamane
+							i(242580),	-- Fangs of Ashamane
+							i(242561),	-- G'Hanir, the Mother Tree
+							i(242578),	-- Scythe of Elune
+						}),
+						cl(HUNTER, {
+							i(242566),	-- Talonclaw
+							-- Kick the intruder. Both are marked as '[DNT] Remix Artifact Weapon'
+							i(246013),	-- Thas'dorah, Legacy of the Windrunners
+							i(242574),	-- Thas'dorah, Legacy of the Windrunners
+							i(242581),	-- Titanstrike
+						}),
+						cl(MAGE, {
+							i(242558),	-- Aluneth
+							i(242582),	-- Ebonchill
+							i(242568),	-- Felo'melorn
+							i(242603),	-- Heart of the Phoenix
+						}),
+						cl(MONK, {
+							i(242596),	-- Fu Zan, the Wanderer's Companion
+							i(242595),	-- Sheilun, Staff of the Mists
+							i(242597),	-- Fists of the Heavens
+							i(242601),	-- Fists of the Heavens
+						}),
+						cl(PALADIN, {
+							i(242555),	-- Ashbringer
+							i(242571),	-- The Silver Hand
+							i(242583),	-- Truthguard
+							i(242584),	-- Oathseeker
+						}),
+						cl(PRIEST, {
+							i(242585),	-- Light's Wrath
+							i(242573),	-- T'uure, Beacon of the Naaru
+							i(242575),	-- Xal'atath, Blade of the Black Empire
+							i(242602),	-- Secrets of the Void
+						}),
+						cl(ROGUE, {
+							i(242564),	-- Fangs of the Devourer
+							i(242565),	-- Fangs of the Devourer
+							i(242588),	-- The Dreadblades
+							i(242604),	-- The Dreadblades
+							i(242586),	-- The Kingslayers
+							i(242587),	-- The Kingslayers
+						}),
+						cl(SHAMAN, {
+							i(242567),	-- Doomhammer
+							i(242589),	-- Fury of the Stonemother
+							i(242591),	-- Sharas'dal, Scepter of Tides
+							i(242592),	-- Shield of the Sea Queen
+							i(242593),	-- The Fist of Ra-den
+							i(242594),	-- The Highkeeper's Ward
+						}),
+						cl(WARLOCK, {
+							i(242599),	-- Ulthalesh, the Deadwind Harvester
+							i(242598),	-- Scepter of Sargeras
+							i(242600),	-- Skull of the Man'ari
+							i(242605),	-- Spine of Thal'kiel
+						}),
+						cl(WARRIOR, {
+							i(237749),	-- Scale of the Earth-Warder
+							i(237748),	-- Scaleshard
+							i(236772),	-- Strom'kar, the Warbreaker
+							i(237746),	-- Warswords of the Valarjar
+							i(237747),	-- Warswords of the Valarjar
 						}),
 					},
 				}),
@@ -92,13 +160,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					["groups"] = { i(241211) },	-- Legion Armor Scraps (QI!)
 				}),
 				q(89413, {	-- Obliterate, Then Iterate
-					["sourceQuests"] = {
-						90901,	-- As A Matter of Artifact
-						89412,	-- Get Plenty of Exorcise
-						89411,	-- Scavenger Hunting
-					},
-					["qg"] = 241744,	-- Momentus
-					["coord"] = { 42.8, 27.8, LEGION_DALARAN },
+					["sourceQuest"] = 89411,	-- Scavenger Hunting
+					["qg"] = 241745,	-- Erus
+					["coord"] = { 42.3, 27.2, LEGION_DALARAN },
 					["groups"] = { i(251901) },	-- Legion Armor Scraps (PQI!)
 				}),
 				q(89414, {	-- Not A Memento Too Soon
@@ -109,12 +173,15 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				q(89415, {	-- Storm the Citadel
 					["sourceQuest"] = 89414,	-- Not A Memento Too Soon
 					["qg"] = 241743,	-- Archmage Khadgar
-					["coord"] = { 79.3, 47.6, LEGION_DALARAN },
+					["coord"] = { 49.3, 47.6, LEGION_DALARAN },
 				}),
 				q(89416, {	-- Eternal Gratitude
 					["sourceQuest"] = 89415,	-- Storm the Citadel
 					["qg"] = 241140,	-- Moratari
-					["coord"] = { 51.2, 48.2, LEGION_DALARAN },
+					["coords"] = {
+						{ 51.2, 48.2, LEGION_DALARAN },
+						{ 72.4, 46.0, LEGION_DALARAN },
+					},
 					["groups"] = {
 						-- Spell: 1248972 - Clean Streets of Dalaran
 					},
@@ -125,18 +192,18 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				--	["description"] = "Dialogue becomes available after you accept 'Eternal Gratitude' (89416).",
 				--	["sourceQuest"] = 89415,	-- Storm the Citadel
 				--	["qg"] = 241748,	-- Eternus
-				--	["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
+				--	["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 				--}),
 				--
 				q(89417, {	-- Infinite Meetings
 					["sourceQuest"] = 89416,	-- Eternal Gratitude
 					["qg"] = 241748,	-- Eternus
-					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },	-- Check the note regarding AEGWYNNS_GALLERY in Bazaar file
+					["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 				}),
 				q(91955, {	-- Just Between Us
 					["sourceQuest"] = 89416,	-- Eternal Gratitude
 					["qg"] = 241142,	-- Momentus
-					["coord"] = { 45.8, 68.0, AEGWYNNS_GALLERY },
+					["coord"] = { 45.8, 68.0, BROKEN_ISLES },
 					["groups"] = {
 						-- Spell: 1251776 - Heap of Bronze
 					},
@@ -144,7 +211,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				q(89418, {	-- A Fixed Point in Time
 					["sourceQuest"] = 89417,	-- Infinite Meetings
 					["qg"] = 241748,	-- Eternus
-					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
+					["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 					["groups"] = {
 						-- Spell: 1252745 - Infinite Knowledge
 					},
@@ -200,7 +267,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 				q(91639, {	-- Embrace Your Own Legend
 					["sourceQuest"] = 90755,	-- Time Flies
 					["qg"] = 241748,	-- Eternus
-					["coord"] = { 45.7, 68.5, AEGWYNNS_GALLERY },
+					["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 				}),
 			}),
 			n(VENDORS, {

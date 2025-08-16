@@ -18,6 +18,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 	n(REWARDS, {
 		i(237812),	-- Cache of Infinite Treasure
 
+		------ Caches ------
+		i(246814),	-- Bronze Cache
 		i(246815),	-- Lesser Bronze Cache
 		i(246812),	-- Minor Bronze Cache
 
@@ -28,6 +30,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		i(242512),	-- Memento of Epoch Creatures
 		i(242509),	-- Memento of Epoch Curiosity
 		i(242514),	-- Memento of Epoch Fun
+		i(242510),	-- Memento of Epoch Kindness
 		i(242511),	-- Memento of Epoch Nostalgia
 		i(242515),	-- Memento of Epoch Strategies
 
@@ -44,6 +47,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 		n(ARMOR, {	-- Gear obtained from Caches of Infinite Treasure
 			filter(CLOAKS, {
 				i(240260),	-- Cape of Devouring Night
+				i(240255),	-- Shroud of Devouring Night
 			}),
 			filter(CLOTH, {
 			}),
@@ -60,6 +64,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			filter(MAIL, {
 			}),
 			filter(PLATE, {
+				i(240539),	-- Xorothian Gauntlets
+				i(240540),	-- Xorothian Wristguards
+				i(240541),	-- Xorothian Jackboots
+				i(240542),	-- Xorothian Legguards
+				i(240543),	-- Xorothian Greatbelt
+				i(240544),	-- Xorothian Battleplate
+				i(240545),	-- Xorothian Shoulderguards
+				i(240546),	-- Xorothian Helmet
 			}),
 		}),
 	}),

@@ -12,9 +12,7 @@ INFINITE_BAZARR = createHeader({
 });
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
 	n(INFINITE_BAZARR, {
-		["coord"] = { 45.7, 68.1, AEGWYNNS_GALLERY },
-			-- As opposed to Remix Pandaria, this time we only have one location for Bazaar.
-			-- It is located on a floating piece of rock just south of Dalaran, however it's part of the Map 629, which is described as "AEGWYNNS_GALLERY"
+		["coord"] = { 45.7, 68.1, BROKEN_ISLES },
 		["groups"] = {
 			n(241145, {	-- Aeonicus <Raid Finder Apparel>
 				clWithoutLock(DEATHKNIGHT, {
