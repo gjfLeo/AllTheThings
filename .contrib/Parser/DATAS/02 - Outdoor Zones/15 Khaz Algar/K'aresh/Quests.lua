@@ -2550,27 +2550,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			-- Quest (item) obtained during Devourer Attack
+			-- These source quests aren't 'really' required since the item can be looted and quest started at a later time
+			-- Maybe somehow they should link to the respective rares? probably not important enough
 			q(85722, {	-- Making a Deposit
 				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
-				["sourceQuests"] = { 84993 },	-- Devourer Attack: The Oasis
+				-- ["sourceQuests"] = { 84993 },	-- Devourer Attack: The Oasis
 				["provider"] = { "i", 232467 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89061, {	-- Making a Deposit
 				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
-				["sourceQuests"] = { 86447 },	-- Devourer Attack: Eco-dome: Primus
+				-- ["sourceQuests"] = { 86447 },	-- Devourer Attack: Eco-dome: Primus
 				["provider"] = { "i", 238663 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89062, {	-- Making a Deposit
 				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
-				["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
+				-- ["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
 				["provider"] = { "i", 238664 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
 			q(89063, {	-- Making a Deposit
 				["description"] = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
-				["sourceQuests"] = { 86465 },	-- Devourer Attack: Tazavesh
+				-- ["sourceQuests"] = { 86465 },	-- Devourer Attack: Tazavesh
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),

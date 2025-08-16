@@ -2253,6 +2253,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 			["timeline"] = { ADDED_11_2_0 },
 			["groups"] = {
 				i(249032),	-- Dulux Bluesberry Blast
+				i(249030),	-- Omega Oyster Outbreak
 				i(249031),	-- Supreme Mangoro Madness
 				i(249029),	-- Ultimate Orange O-pocalypse
 			},

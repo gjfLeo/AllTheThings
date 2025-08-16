@@ -3019,7 +3019,6 @@ root(ROOTS.Unsorted, {
 				i(242547),	-- Cracked Keystone
 				i(242654),	-- Shadowtrade Overstock
 				i(244064),	-- Pretzel
-				i(245743),	-- A Curious Crystalline Fragment
 				i(246041),	-- Brew Keg
 				i(246042),	-- Pretzel
 				i(246044),	-- Bag of Brewfest Ingredients
@@ -3034,7 +3033,6 @@ root(ROOTS.Unsorted, {
 				i(245946),	-- Brewer's Balloon
 			}),
 			i(249028),	-- Perfectly Preserved Kaja'Classic Original Taste
-			i(249030),	-- Omega Oyster Outbreak
 			i(249235),	-- Bottomless Bag of Entropy
 			i(249560),	-- Skymaster's Silver Mantle
 			i(249561),	-- Skymaster's Silver Cloak
