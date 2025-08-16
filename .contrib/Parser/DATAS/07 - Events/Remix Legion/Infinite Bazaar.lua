@@ -1,17 +1,10 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
---[[local BRONZE = 3252;
-INFINITE_BAZARR = createHeader({
-	readable = "Infinite Bazaar",
-	icon = 298656,
-	text = {
-		en = "Infinite Bazaar",
-		tw = "無限市集",
-	},
-});
+local BRONZE = 3252;
+
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_5, REMOVED_LEGION_REMIX_END } }, {
-	n(INFINITE_BAZARR, {
+	n(INFINITE_BAZAAR, {
 		["coord"] = { 45.7, 68.1, BROKEN_ISLES },
 		["groups"] = {
 			n(241145, {	-- Aeonicus <Raid Finder Apparel>
@@ -346,22 +339,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 					
 				}),
 			}),
-			n(QUESTS, sharedData({
+			--[[n(QUESTS, sharedData({
 				["isDaily"] = true,
 				["groups"] = {
-					i(223908),	-- Minor Bronze Cache
+					-- Reward
 				},
 			}, {
-				q(80448, {	-- A Fresh Scene
-					["provider"] = { "n", 219025 },	-- Larah Treebender <World Apparel>
-				}),
-				q(80446, {	-- Looking for Group
-					["provider"] = { "n", 219030 },	-- Arturos <Dungeon Apparel>
-				}),
-				q(80447, {	-- Looking for More
-					["provider"] = { "n", 219027 },	-- Pythagorus <Heroic and Mythic Raid Apparel>
-				}),
-			})),
+				-- Quests
+			})),]]--
 		},
 	}),
-}))));]]--
+}))));
