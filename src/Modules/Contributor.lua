@@ -1404,6 +1404,7 @@ MobileDB.GameObject = {
 	[504181] = true,	-- Fallen Log (q:86356)
 	[504195] = true,	-- Web Bomb
 	[505258] = true,	-- Pestilential Necroray (q:86589)
+	[504311] = true,	-- Lifeblood Crystal
 	[506498] = true,	-- Gilded Stash
 	[506525] = true,	-- Plundered Artifacts
 	[506640] = true,	-- Faded Journal Page @ 39.3, 54.2, 2369 (q:85571)

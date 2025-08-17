@@ -1114,9 +1114,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 		filter(BATTLE_PETS, {
 			i(222971),	-- Bouncer (PET!)
 			i(221820),	-- Chester (PET!)
-			i(232848, {	-- Mr. DELVER (PET!)
-				["timeline"] = { ADDED_11_1_0 },
-			}),
+			i(232848, { ["timeline"] = { ADDED_11_1_0 } }),	-- Mr. DELVER (PET!)
+			i(245256, { ["timeline"] = { ADDED_11_2_0 } }),	-- Sao'rhon (PET!)
 			i(223624),	-- Sneef (PET!)
 			i(225337),	-- Violet Sporbit (PET!)
 			i(221496),	-- Wriggle (PET!)
@@ -2252,10 +2251,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 				--i(233071), -- Delver's Bounty
 			},
 		}),
-		o(547332, {	-- Ky'veza's Etheric Cache
+		o(547532, {	-- Ky'veza's Etheric Cache
 			["description"] = "Left behind by Ky'veza when she is defeated in a delve.",
 			["timeline"] = { ADDED_11_2_0 },
-			--["cr"] = ,
+			["cr"] = 244755,	-- Nexus-Princess Ky'veza
 			["groups"] = {
 				i(218126),	-- Befouler's Syringe
 				i(246071),	-- Mana-Seamster's Arcane-Needle
@@ -2733,11 +2732,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 						-- #if BEFORE 11.1.0
 						["description"] = "Contains 250 Resonance Crystals.",
 						-- #endif
-						-- Listening 500+ Items is excessive bloat, especially since you get around 150 Undercoins per Delve
-						-- Even if you have all items, which takes ages, its probably better to keep them for future Delve Seasons -Goldenshacal 24th Sep 2024
-						--["groups"] = {
-						--	currency(RESONANCE_CRYSTALS),
-						--},
 					}),
 					i(224172, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 1000}},
@@ -3051,9 +3045,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, applyDataSelf({ ["timeline"] = { ADD
 					crit(106403),	-- Smash and Jab
 					crit(106404),	-- Waygate Wiles
 				}),
-			}),
-			filter(BATTLE_PETS, {
-				i(245256),	-- Sao'rhon (PET!)
 			}),
 			filter(MISC, {
 				-- Story Variant: Relic Retrieval
